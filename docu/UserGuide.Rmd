@@ -1,0 +1,1549 @@
+---
+title: "user guide"
+author: ""
+date: ''
+output:
+  html_document:
+    toc: true
+    number_sections: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+Welcome to `LexicographR`, a digital dictionary building tool, funded by the National Endowment for the Humanities (HAA-290402-23). This is currently an alpha prototype, if you encounter difficulties contact ligeia.lugli@london.ac.uk.
+
+There are 7 main tabs that
+you can use, and the user-guide is organized by these 7 tabs.
+
+Here is an outline of how the user-guide is structured:
+
+1.  ConvertDictionaryData tab usage
+2.  ExtractCorpusData tab usage
+3.  Collocations tab usage
+4.  Examples tab usage
+5.  Visualizations tab usage
+6.  BuildDictionary tab usage
+7.  ShareData tab usage
+
+# Requirements
+
+Windows 10+ ; MacOS 11+ and any other operative system compatible with R
+4+ , the 2023 version of RStudio and Quarto 1.4+.
+
+Quarto (install from <https://quarto.org/docs/get-started/>)
+
+
+# ConvertDictionaryData tab
+
+This is a simple first prototype of an app to help you convert dictionary-data from common formats such as .csv and .doc to JSON and RDS, two machine readable formats well suited for sharing (JSON) and displaying your data online through a shiny app or Quarto website (RDS).
+
+If all goes well, at the end of the conversion process the app will write the RDS and JSON version of your dictionary data to your Desktop.
+
+This is a first prototype, so errors are likely, do not get discouraged if you get an error, just contact us and we will do our best to solve it.
+
+The quality of the output converted file depends on the quality and especially *consistency* of your original data. Try to have your data encoded as consistently as possible before uploading it to this app.
+
+
+
+## dictionary data upload
+Dictionary data is intended here as meaning dictionary entries. dictionary prefaces, bibliographies, abbreviation lists etc, should be removed and set aside for upload later down the line in the digital dictionary building app. in this app, please **only upload your entries**.
+
+The app accepts dictionary data in csv, tsv, rds, txt, md, doc, docx, rtf, Rmd or qmd.
+
+If your data is in excel or numbers, please first convert it to csv using Excel or Numbers. 
+
+For best results (esp. if you use diacritics), please save upload your data with UTF-8 encoding.
+
+
+## what is your "main dictionary data"
+
+by main dictionary data we mean the file(s) containing the entries of your dictionary.
+
+In this preliminary version of the app you can only upload entries, but soon we will add the ability to upload additional data, such as prefaces, references, headword inflection tables etc.
+
+## the file-to-entry relation of your main dictionary data
+
+The maximum size limit for each uploaded file is 50MB. If your data exceeds this limit, please consider splitting it into multiple files. One common approach is to organize files by headword-starting letter, creating separate files for each letter of the alphabet.
+
+When uploading multiple files, regardless of how the entries are organized within the files, you must compress them into a zipped folder. Each file within the zipped folder should maintain the same structure and file extension.
+
+Furthermore, ensure that the filenames of the uploaded files—whether they are individual files or part of a zipped folder—do not contain spaces. It is recommended to limit filenames to letters, numbers, dashes, and underscores for compatibility and ease of handling within the app.
+
+## converting  tabular files (csv/tsv)
+
+After uploading your CSV/TSV dictionary data, the app will display a preview of the beginning of the tabular data. You will then need to identify and select the name of the column where the 'head of each entry' is stored. This column typically contains the headword, but it depends on how your dictionary is structured.
+
+It's important that the values in the column with the 'head of each entry' are unique. If they are not unique, you have a couple of options:
+
+1. **Merge Rows**: You can choose to merge rows with the same 'head' value into a single entry. This means combining information from duplicate rows into one entry.
+
+2. **Disambiguate with Numbers**: Alternatively, you can disambiguate by adding a number to differentiate entries with the same headword (e.g., 'bank 1', 'bank 2').
+
+Selecting the appropriate method will help ensure that each entry in your dictionary data is distinct and correctly represented within the app. 
+
+## converting Word files, as well as txt and md files with markdown.
+
+
+Please note: Ensure that the character '\\' is not present in your dictionary data as it may interfere with the program.
+
+When converting from Word files, extracting information about each component of your entries relies on character patterns. In Word files, information is sometimes encoded based on text formatting, such as using bold for headwords. To utilize this information in character-matching operations, the app first converts Word files into HTML, where formatting attributes like bold are represented as HTML tags (e.g., `<strong>`). Each tag has a corresponding closing tag (e.g., `</strong>`), making it straightforward to extract the beginning and end of a formatted string. However, some text formatting (like text color) may not be rendered in the HTML conversion. If certain formatting in your entries is not displayed correctly, it could be due to this reason. In such cases, please try adjusting the formatting or encoding of that information in your entries.
+
+To help you check how your entry elements are rendered in HTML and identify string patterns for extracting each entry element, the app provides a preview of your data converted to HTML, displaying both the HTML tags and the rendered HTML (where text appears bold instead of being surrounded by `<strong>` tags).
+
+It's important to use more than just HTML tags to define a pattern for entry element extraction because several entry elements may share the same tags. For example, both the headword and senses might be in bold. Therefore, try to be specific while ensuring your patterns generalize to all entries.
+
+For pattern-based entry element extraction to work effectively, your entries must be consistently encoded. For instance, if your pattern for headword extraction relies on having the headword in bold followed by a comma, this format must be consistently applied in each and every entry.
+
+Consistent encoding and attention to detail in defining extraction patterns will enhance the accuracy of your entry element extraction process. If you encounter any issues or need further assistance, please feel free to reach out for support.
+
+There are 2 main methods to convert to JSON/RDS from word: 
+1. Automated extraction rules using entry breakdown csv
+2. Manually define extraction rules
+
+The 2 methods are explained in more detail below
+
+## Automated extraction rules using entry breakdown csv
+
+When uploading a CSV file containing a breakdown of sample entries, the system will attempt to pre-fill the extraction-rules template and automatically extract the entry elements based on the information in the sample entries breakdown file. Here's a guide on the format and process:
+
+### Sample Entries Breakdown File Format:
+
+- **Column Names**: Correspond to the elements of the entry (e.g., headword, definition, examples).
+  
+- **Rows**: Contain the exact text corresponding to each element. Ensure there are no extra spaces and do NOT change the case.
+
+- **First Column**: Must contain the headword (you can name it as you prefer).
+
+### Recommendations for Sample Entries:
+
+- Include approximately 10 entries for testing purposes.
+  
+- Ensure your sample entries cover all possible character patterns for each element. For example:
+  - Include entries with headwords containing numbers.
+  - Include entries with special characters.
+  - Include entries with variations in capitalization (e.g., uppercase and lowercase letters).
+
+- If your examples sometimes contain a link to their source and sometimes they don't, include both cases in your sample entries.
+
+### Editing Automated Extraction-Rules:
+
+- Review and edit the automatically generated extraction-rules template (EntryElementsExtractionRules.csv in the root directory).
+
+- Review the dictData.json file generated in the data directory for the converted file to inspect for accuracy
+  
+- Use the automated rules as a starting point and refine them manually for more varied and fine-grained pattern descriptions. Manual editing often leads to greater accuracy.
+
+
+
+### Handling Irregular Entries:
+
+- The system assumes regularity in the entries. If entries are inconsistently formatted or there's no clear pattern to distinguish the entry elements, consider checking the `WholeEntries.json` output in the root directory of the app.
+  
+- `WholeEntries.json` identifies entire entries without breaking down their components. This limits design options for the resulting digital dictionary created in the app's Build Dictionary tab.
+
+
+
+
+## Manually define extraction rules
+
+The app relies on Regular Expressions to extract the entry elements based on a character pattern. We understand that many of you may not be familiar with Regular Expressions, so we provide a simplified way to express the character pattern, as detailed below. Like most simplified methods, this approach is more limited than Regular Expressions and does not offer as much flexibility. However, it appears to be sufficient for the entries we have tested. If you need more complexity, please contact us with your specific use case.
+
+The app allows you to specify patterns that precede and follow an element, as well as characters that an element must contain or avoid. For example, in some dictionaries, headwords might be identified as elements that are preceded by `<strong>`, followed by `</strong>`, must contain lowercase letters, and must not contain numbers.
+
+Patterns can be defined using the following set of values:
+
+- "any character"
+- "start of line"
+- "end of line"
+- "punctuation": .,;:!? 
+- "parentheses or brackets": ()[]{}<>
+- "lowercase": all lowercase letters
+- "uppercase": all capital letters
+- "number": any digit from 0 to 9
+- "space": whitespace character (excluding tabs)
+- "optionalSpace": allows for the presence or absence of a whitespace
+- "optionalCharacter": makes the immediately preceding character optional
+
+in the MustContain field of the extraction rules csv now accepts the keyword 'AND' to specify cases where multiple character patterns must be present (e.g. if a part-of-speech must contain both lowercase and punctuation (e.g. 'n. f.','v. trans.') and numbers one could fill the MustContain field with 'lowercaseANDpunctuation').
+
+Patterns must only include strings of characters contained within a single paragraph, that is, within the `<p>` and `</p>` tags.
+
+To set up extraction rules, open and fill `EntryElementsExtractionRules.csv` using your preferred spreadsheet editor. Include rules for extracting all the elements of your entries (e.g., part of speech, pronunciation, senses, etc.). 
+
+IMPORTANT: rules for the headword must be in the first row. Ensure the pattern for the headword is unique to the headword! if not, it will create an entry for any other string in a paragraph that fits that pattern.
+
+
+Some elements may be easier to extract by "position" than by character pattern (e.g., part of speech might be located after the headword and before pronunciation).
+
+
+Start by filling in rows for elements that can be extracted with a character pattern and specify "pattern" as the extraction method. These should be the initial rows of your table. Then use the "position" extraction method by specifying what elements come before and after the element you are defining. You can use "beginning" and "end" in the before and after fields to refer to the start and end of the entry. Ensure that only elements defined in the table are used in the before and after columns.
+
+Once the table is filled, save the file as a CSV with UTF encoding and upload it to the app using the "Upload CSV with rules to extract entry elements" button. Then click the conversion button. This action will generate a `.rds` and a `.json` version of your dictionary data in the app's data folder. The `.rds` file is for use in future versions of our app(s) and to create a digital dictionary from your data. The `.json` version can be shared online through data repositories like Zenodo. You can easily inspect the JSON file with any text editor to ensure that the entry elements were extracted correctly.
+
+Please follow these steps to effectively configure your extraction rules and convert your data for use within the app. If you have any questions or encounter issues, feel free to reach out to us for assistance.
+
+
+
+# Corpus-data extraction workflow
+
+Step 1: Run App
+
+Step 2: Download the template by clicking `Download Template`
+
+Step 3: Fill out the template (only certain fields needs to be filled
+depending on your file type and other factors -- instructions are in the
+1st row)
+
+Step 4: click `Browse` under `upload the edited csv template` and find
+the saved template you've just filled out
+
+Step 5: Click `Go`
+
+Step 6: The app should have now generated some outputs in the
+Data/Outputs folder
+
+1.  A CSV file which shows you the frequency of your headwords
+
+2.  (Possibly) A CSV which contains metadata information for your corpus
+    -- depending on your file format and if you provided enough
+    information for the metadata to be extracted automatically.
+
+Step 7: You may edit your metadata file as you see fit. Save your
+metadata file
+
+Step 8: Copy the path to the metadata file and paste it under
+`path to edited corpus metadata file in csv`
+
+Step 9: Select which metadata variable you would like to "splice" your
+corpus by, in order to see sub-corporal metrics of frequency and
+dispersion.
+
+Step 10: Click `Use Metadata`
+
+Step 11: View your output in the Data/Outputs folder
+
+*Important* corpus data must be processed in the ExtractData tab before
+the other tabs can be used
+
+## Inputs
+
+### dictionary data
+
+When an RDS or JSON file containing dictionary data is uploaded, it is
+saved to "./data/DictData.rds." Currently, this functionality is limited
+to dictionary data and does not apply to headword lists in CSV format.
+
+Both RDS and JSON files for dictionary data are intended to be outputs
+from our conversion app. The preferred format is RDS. Use JSON only if
+you have manually edited the converted output, a step recommended only
+when converting from non-tabular data (e.g., from Word documents).
+
+#### Upload dictionary data
+
+If you have a dictionary converted to RDS or JSON format using our
+Dictionary Data Conversion App, you can upload it here (.rds) to
+generate collocates, examples, and data visualization for the headwords
+in your dictionary. If you have edited the json version of your
+converted dictionary, you should upload the edited json file.
+
+If you have special characters (characters that are not alphanumeric,
+space or dash) in your dictionary headwords, these will be replaced with
+space in the corresponding element name. This will not affect the
+headword itself, which is stored inside the data, but will affect the
+way that data is stored and manipulated in your digital dictionary. In
+particular, if you render your digital dictionary as a Quarto book (see
+Quarto Book Dictionary section), this will affect the names of the
+entries displayed in the left sidebar index. Therefore we recommend that
+if you do not want the special characters replaced with space you edit
+the relevant element names in the JSON file of your dictionary (the
+element name is the bit before the {).
+
+If you choose not to upload the dictionary, collocates, examples, and
+data visualization will be generated for all headwords in the corpus.
+Please be aware that this process may be very time-consuming.
+
+### metadata file
+
+It is possible to calculate frequencies for multiple metadata variables
+(e.g., location, genre, and period). This should be done sequentially:
+initially, run the metadata section of the app with one metadata
+variable (e.g., genre). Once you receive the 'done' pop-up, you can
+re-run the app with another metadata variable (e.g., period), and so on.
+
+The resulting subcorpora frequencies will be saved in the "Outputs," and
+the filename will include the variable on which the frequencies are
+calculated. For example, SubcorporaHeadwordFreqsAndDP_period.csv.
+
+### corpus
+
+Users must provide path to a directory containing only corpus documents,
+and nothing else (metadata files can be used, but must be in the same
+folder as the corpus documents, more below). each corpus directory must
+contain only one type of corpus format (same file extension and same
+structure for all corpus documents in a folder). It is possible to
+subsequently run the app on different folders, if one wants to extract
+information from different corpora. If using 'horizontal' txt files, all
+documents in a corpus folder must be in the same language.
+
+accepted formats:
+
+1.  csv
+
+2.  tab/space separated vertical files with XML tags: recommended to set
+    file extension for these files to .vert or .vrt
+
+3.  conllu files
+
+4.  flextext export of interlinearly annotated text from FLEx (thanks to
+    Prof George Broadwell for his explanation of FLEx!)
+
+5.  txt files containing 'horizontal' text, (limited support for these,
+    any outputs from .txt corpora must be treated as tentative)
+
+#### A csv file containing corpus processing instructions
+
+follow in-app instructions to download a template file to fill with
+corpus processing instructions. The first row of the template contains
+instructions of how to fill it. Fill the rows below the instructions,
+using one row per corpus directory. some fields only pertain to certain
+corpus formats, leave blank any field that does not pertain to your
+corpus or you do not need. Then upload the filled template, check it in
+the in-app preview if necessary and when satisfied with the content of
+the file click go. This will start the processing, which may take a long
+time if you are processing many fields. We recommend to initially test
+the app on a subset of your corpus, perhaps 5-10 corpus files.
+
+The explanations below refer to the column names of the template.
+
+#### vert: tab separated vertical files with XML tags
+
+users need to input the names of the column in the files. The columns
+must be consistent across all documents in a directory.
+
+users need to specify a 'end of sentence marker', i.e. string that marks
+the end of sentences. This can be a closing sentence tag, e.g. </s> or
+punctuation, e.g. '.' , '?', '//' ... . Only one string is allowed and
+must be consistent across all documents.
+
+If there are tags other than the sentence-boundary marker that must be
+preserved and accessed for extracting dictionary data, these must be
+listed as the name of XML elements that one wants to retain without the
+\<\> , e.g. "doc" or "page". Each listed XML element must have matching
+closing tags (</doc>, </page>). Elements with mismatched closing tags
+will result in inaccurate outputs. The process of converting tags to
+columns is time consuming, so *best to keep the list as short as
+possible, or skip this altogether and supply a separate metadata file
+instead.*
+
+Users need to distinguish between xml tags that pertain to the words in
+the corpus (e.g. named entity, foreign language word .. ) and tags that
+pertain to the text (e.g. title, genre, date ...). Tags that pertain to
+the language and must be used in extracting data for the dictionary can
+be included in the `TagsVector` argument/input.
+
+Only one XML element containing metadata is allowed and must be
+specified in the `MetadataTag` argument/input. this element is
+presupposed to have attributes inside followed by the equals sign (=)
+(e.g. id = ... genre = ...) ; this typically is the <doc> element : e.g.
+<doc id= xyz author = xxx date = yyy source = zzz > or
+<doc id= "xyz" author = "xxx" date = "yyy" source = "zzz">.
+
+If a corpus contains <page> elements as well as "\<doc\> metadata" that
+must be preserved, the <page> tags can be included in the TagsVector,
+while MetadataTag should be set to doc.
+
+users need to specify the name of the column that contains the end of
+sentence marker and the other xml-style elements specified in TagsVector
+and MetadataTag. this is typically the same column for all, e.g. word.
+
+#### conllu
+
+conllu corpora are expected to conform to the standard described here:
+<https://universaldependencies.org/format.html>
+
+However, the following 3 allowance for non-standard files are made:
+
+1.  hashtagged elements can have colon instead of equal sign (e.g.
+    `# source_id:` is processed as if it were `# source_id =`) - but
+    using colon precludes fine-grained metadata extraction, see below
+
+2.  rows with different number of tabs are accepted, but this may lead
+    to inaccuracies in the output
+
+3.  any order of hashtagged elements is allowed (e.g. it does not matter
+    if \# sent_id precedes \# source or not
+
+Rows with ID containing dashes (typically used for tokens to be split in
+the following rows) are skipped.
+
+### extraction instructions template
+
+From the ExtractData tab, download the extraction instructions template.
+This is a csv file for specifying the user-controlled parameters that
+will govern the extraction of information from your corpus.
+
+some information on how to fill the tempalte are included in the first
+row of the csv file. you should **fill the second row** of the template,
+and keep the instructions in the first row.
+
+users must specify 3 arguments to convert the data:
+
+-   the names of the column in the tab-separated rows. UD-compliant
+    conllu files typically have these ten cols:
+    "ID","FORM","LEMMA","UPOS","XPOS","FEATS","HEAD","DEPREL","DEPS","MISC",
+    but any column name is accepted. the column names must be as many as
+    the tab separated values in the rows of the file.
+
+-   the topmost #-marked element in a sentence (SentenceBoundaryMarker)
+
+-   #-marked element with unique sentence id (SentenceIDtag) . (this is
+    optional but necessary if one wants to connect to a metadata file
+    relying on the conllu sentence id)
+
+`SentenceBoundaryMarker` is the hashtagged string at the very top of a
+sentence block \* WITHOUTH THE HASHTAG \* the typical
+SentenceBoundaryMarker is `sent_id` .
+
+`SentenceIDtag` specifies the hashtagged string corresponding to unique
+sentence identifier, it may or not be the same as the
+SentenceBoundaryMarker.
+
+Users can choose to extract sentences metadata from conllu files, and
+have the system create a table matching all the hashtagged attributes
+(e.g. Luca's \# source, or \# text) to the corresponding SenteceIDtag.
+this only works if each attribute - value pair is separated by an equal
+sign (=) and there are no equal signs inside the value itself. (e.g. it
+works with this format:
+`text = Te quoque magna manent regnis penetralia nostris` but will not
+work with this:
+`text = Te quoque magna manent =regnis penetralia nostris`). If there
+are multiple equal signs grouped under the same hashtag, the system will
+interpret it as different metadata and will extract them separately.
+
+metadata extraction requires the equal sign. It does NOT support the
+colon notation (e.g. source: xxx)
+
+#### CSV
+
+user must specify 'end of sentence marker' as in vert . Also as in vert
+they can specify a MetadataTag.
+
+#### TXT
+
+Our system presupposes pre-processed corpora with one word per line and
+some annotations for each word, notably at least the lemma form
+corresponding to each word. Hence if corpus documents with horizontal
+text are supplied, the system will try to lemmatize them. It is
+important to note that lemmatization lies outside the scope of this
+project, and it is performed relying on third party libraries. We give
+no assurances as to the quality of the lemmatization.
+
+Users using txt need to input the language of the corpus. If the
+language is supported by the udpipe package, the corpus will be
+lemmatised and pos tagged using udpipe models. If not, it will basically
+just be tokenised and put in vertical format using tidytext and textstem
+libraries.
+
+no metadata are extracted from txt corpora
+
+users can specify a directory to which to write a preprocessed version
+of their corpus (in csv if udpipe model is available for the inputted
+corpus language, or in vert otherwise).
+
+#### FLEx
+
+users can provide path to folder containing .flextext exports from their
+FLEx data with interlinear annotation to treat them as a corpus. The
+system will convert them to a tabular corpus format and extract
+frequency from it, as it does for the other formats accepted by the
+system. the available column and column names will reflect the XMLschema
+used in flextext. the system will also add the columns sID and wordID,
+for downstream processing. Note that wordID is the index of each word in
+the sentence, and does not correspond to FLEx's word ID.
+
+users can provide a directory to which to write a csv version of their
+corpora (for use in corpus tools such as Sketch engine or AntConc).
+
+#### metadata
+
+To generate frequency and dispersion across subcorpora, it is
+recommended to provide the path to a csv file with metadata for each
+corpus document. the file must have one row for each corpus document and
+one column for each desired categorization into subcorpora E.g. it may
+contain a column for "genre", whose value specifies whether each
+document is e.g. fiction, news or science, and a column "period" with
+values like medieval, pre-modern or modern. The file MUST also have one
+column called "filename" with the filename of each document excluding
+the file extension ( e.g. if I have a file "warAndPeace.conllu, the
+filename column in the metadata file should be"warAndPeace"). The system
+is case sensitive, so the values in the filename column must match the
+filename (minus file extension) exactly.
+
+Metadata categories should be mutually exclusive: only one value per
+variable per corpus document (e.g. Text A must be assigned to only one
+period and only one genre etc ). Assigning multiple values for the same
+variable to the same corpus document may result in inaccurate
+statistics.
+
+If one does not have a metadata file but has usable metadata encoded in
+the corpus as xml tags (for vert and csv) or as hashtagged elements
+(conllu), it is possible to derive a metadata file from these.
+
+To use metadata for frequency and dispersion calculations, users needs
+to choose yes in the `useMeta` argument/input and then specify the
+metadata variable they want to use, e.g. genre, or date.. in the
+`MetaVar` argument/input. The variable must correspond to one of the
+column in the metadata file, or, if the metadata are derived from the
+corpus, to the exact name of the desired attribute in the xml element
+specified in MetadataTag ( for example if one inputs 'doc' in the
+MetadataTag, and one has \<doc\> elements with a domain attribute in the
+form \<doc domain="medicine"\>, one can input 'domain' in the MetaVar
+field. if one input Domain with capital D or other non-matching strings
+the system will not work!)
+
+It is possible to list more than one element in MetaVar (metadata variable), but it is
+advisable to keep it to a minimum and focus on meaningful subcorpora. If using multiple metadata variables, they must must be space-separated in the instructions csv (e.g. 'genre period'). 
+
+also, it is advisable to pay attention to the number of values a
+metadata variable takes. Best results are achieved with metadata
+variables that take between 3 and 10 different values, the system will
+not process variables with more than 30 distinct values as this may lead
+to memory problems.
+
+If instructions are inputted into the template to extract metadata, the
+app will produce a metadata file in the outputs folder. The app also
+automatically extracts metadata from certain formats (Flextext). ALL
+users who wish to use metadata to view subcorporal frequency and
+dispersion calculations must input the path to the metadata file as
+described in steps 8-10 of the high level overview above.
+
+#### cores & processing time
+
+depending on the size and format of the corpus, as well as on whether
+metadata needs to be extracted from the it, processing time can be long.
+to speed things up, users can select the number of cores they want to
+use to use for parallel processing. The default is 2.
+
+## Outputs
+
+### fst corpus
+
+the app converts all corpus documents to tabular format and writes them
+in fst files. fst is a compressed format that has a number of
+performance advantages over csv and other popular formats. It can only
+be opened through R. the fst files are for the system to peruse, not
+really for humans.
+
+### frequency tables
+
+the system generates a frequency table stating how many times each
+headword occurs in the corpus and in which proportion of corpus
+documents it occurs. the output is in data/Outputs and it is a csv file
+meant to be perused by the user. The file has 4 columns
+"lemma","Freq","Texts","NormFreq","TextProp". the first column has the
+name of the user-inputted headword. Texts is the number of texts in
+which the headword occurs, NormFreq is the Normalized frequency (see
+below), TextProp is the proportion of texts in which the headword
+occurs.
+
+users must specify the column or combination of 2 columns to be used for
+`headword` (e.g. lemma, lemma and POS). Using lemma and POS together
+allows the distinction to be made between homonyms (play noun and play
+verb). the column(s) inputted here must be included in the column names
+provided (either inputted by the user in the case of vert and conllu, or
+included in the dataset in case of csv). for txt users this is set to
+lemma, but for languages not supported by udpipe "lemma" will most
+likely correspond to word form. If 2 variables are to be specified here,
+separate them by white space (e.g. LEMMA UPOS , or lemma PoS).
+
+the recommended parameter for Normalised Frequencies is 100,000 for
+small-ish corpora and 1 million for larger ones. For very small corpora
+(under 2 million), 10,000 might yield more readable results. If no
+Normalised Frequency parameter is set in the template, the default is
+set to 100,000.
+
+### dispersion tables
+
+if relevant metadata are provided, the system will calculate the
+dispersion of each headword across the specified MetaVar (e.g. over
+period, or over domain).
+
+dispersion is calculated as Deviation of Proportions (Gries 2008)
+
+# Collocations
+
+Use this tab to identify collocation candidates (optional). It's
+important to note that collocation statistics may not work well on very
+small corpora, and results may be unreliable in such cases.
+
+Configure collocation extraction parameters using the provided menu. The
+available statistics for calculating collocational strength include: 
+-  `Log Likelihood` and `Log Ratio` (recommended for
+use in combination) 
+
+- 2.`MI` (Mutual Information) 
+
+- 3. `Log Dice`
+
+Log Likelihood and Log Ratio are always calculated, while the others are
+optional. To save processing time, you can skip calculating statistics
+that you do not intend to use. If you're unsure which statistics to use,
+try all of them with a very low threshold on a few words. Then, order
+the result table by each statistic in decreasing order to identify the
+top collocates retrieved for each statistic.
+
+The `kwic window` parameter lets you specify the number of words to
+include on the left and right of the headword for calculation. For
+example, a window size of 2 may not capture 'best' as a potential
+collocate of 'friend' in the phrase 'my best and most intelligent
+friend'; a window size of 4 would. The system considers words in the
+same sentence as the headword, so if the window size is longer than a
+sentence, it will be trimmed to fit the sentence.
+
+For faster parameter selection from dropdown menus, delete the current
+value displayed and input a new numeric value. The `kwic window`
+parameter accepts values from 1 to 10, and other numerical parameters
+have specific ranges. Be cautious with the selection of parameters,
+especially on larger corpora; testing on a few words first is
+recommended.
+
+Once you're satisfied with the parameters, click on 'Process' and wait
+for the app to finish. The results will be written to
+CollocateCandidates.csv in the "Outputs" for further inspection and
+editing outside the app using a spreadsheet editor.
+
+You can sort collocates by any statistic used. If you accidentally
+select a statistic that hasn't been calculated, the system will default
+to sorting by Log Likelihood. Specify the maximum number of collocates
+you want to retrieve per headword, and they will be the top-scoring
+collocates based on the selected sorting criterion.
+
+Optionally, you can provide the path to a CSV file containing a list of
+stopwords to exclude common and semantically unimportant words from
+collocate candidates.
+
+Warning: Depending on the corpus size and the number of words to test,
+retrieving collocates can take time. Keep the app running until the
+collocate table is displayed. To expedite processing, consider uploading
+only your dictionary data with single lemmata as headwords or a CSV with
+a list of specific headwords. If you test on new words after the table
+is displayed, it may take a while for the table to update with the new
+results. Be patient!
+
+
+# Examples
+
+## GDEX
+
+this is a scoring system to rank the suitability fo corpus sentences for
+dictionary examples according to a set of rules you define. Rules must be
+based on information encoded in the corpus
+
+### Gdex rules template:
+
+download the template to specify your gdex rules. The template contains
+the follow columns.
+
+Variable: The name of the column to which you intend to apply a rule.
+
+Value: The value associated with the variable (e.g., for the variable
+PoS, the value could be 'pron'). If you wish to capture multiple values
+for a variable (e.g., all lemmata in a list), you can input the path to
+a CSV file with those values. Include a white space and the column
+number in the CSV file where the relevant values are stored (e.g.,
+"\~/Desktop/myFile.csv 2").
+
+Operation: Use \* for multiplication and \*\* for exponentiation. Note
+that if the value of penalty_bonus is negative, a negative sign will be
+added to the result.
+
+Penalty_bonus: Negative numbers result in penalties, while positive
+numbers result in bonuses. For instance, to minimize the occurrence of
+slur words in your examples, provide a file with such words in the
+'value' field. Select your headword column in 'variable,' use \* in
+operation, and input a large negative number in penalty_bonus. For
+example, using -10000 for penalty_bonus subtracts 10000 from a sentence
+GDEX score for each slur word, pushing that sentence down the list.
+Conversely, if you want to ensure that sentences featuring certain words
+are selected, provide a file with those words, use \*\* in operation,
+and input a positive number. This does not exclude sentences containing
+words not in the list but promotes sentences with more words from the
+list.
+
+ApplyToConverse: Input 'yes' in this column to apply the penalty_bonus
+to values not included in the value column. This is intended to be used
+in conjunction with files containing lists of words. For instance, if
+you provide the path to a list of words suitable for beginner learners
+and want to penalize words not included in the list, put 'yes' in
+ApplyToConverse to apply the corresponding penalty_bonus to words not in
+the file.
+
+### sentence length parameters
+
+The system provides you with the trimmed mean (average excluding extreme
+values) and median (most common value) sentence length in your corpus,
+where length is defined as the number of tokens, including punctuation.
+You can then specify your preferred example sentence length and assign
+penalties for sentences deviating from this ideal length, either shorter
+or longer. It's important to note that these two penalties are
+independent of each other and can have the same value. However, it's
+worth considering that very short sentences are often more cryptic than
+longer ones. Removing just a couple of words from the lower end of your
+ideal sentence-length range may result in very short sentences. For
+instance, if your ideal range is between 4 and 10 words, a sentence that
+is 2 words shorter than the ideal is a 2-word sentence, likely to be
+cryptic for a dictionary user. On the other hand, adding 2 words and
+making it a 12-word sentence is unlikely to compromise readability.
+Therefore, it's advisable to set a higher penalty for shorter sentences
+than for longer ones.
+
+### prioritize sentences with collocate
+
+You can set a bonus between 0 and 30 to be granted to sentences
+featuring a collocate. The score of a sentence will not be influenced by
+the number of collocates present; only the presence or absence of a
+collocate matters. The system retrieves collocates from the file created
+in the "Collocates" tab. It requires a single CSV file with
+'CollocateCandidates' in the filename to be in the "Outputs" subfolder
+of your data folder---ensure there is only one such file. It is
+advisable to edit this file so that it includes only the desired
+collocates for each headword before utilizing the collocate-bonus
+parameter. If you wish to skip this bonus, leave this parameter set to
+0.
+
+### interpreting the score
+
+The score has no predefined maximum or minimum values; it can take any
+value based on your rules and the characteristics of your corpus. Each
+sentence is initially assigned a score of 50, to which bonus and penalty
+values are added or subtracted. Consequently, scores around 50 can
+generally be considered relatively good. However, the interpretation of
+scores depends on your specific rules. For instance, if you only apply
+bonuses without any penalties, a score of 50 would be the lowest
+possible for your criteria.
+
+## Sampling
+
+with larger corpora, often the sentences retrived for a headword are too
+many and sampling a portion of the top-scoring sentences becomes
+necessary.
+
+### Sampling parameters
+
+Sentences can be sampled in various ways:
+
+1.  **By Collocate:**
+    -   Users should have already edited the collocation file, ensuring
+        all listed collocates are meaningful.
+2.  **By Metadata Variable:**
+    -   For example, using genre or period as a metadata variable. The
+        metadata filepath specified in the corpus extraction template
+        will be utilized. If no filepath was initially input for
+        metadata, and metadata was created through the app, users need
+        to edit the automated metadata. Include the path to the edited
+        file in the corpus extraction rules, then restart the app and
+        re-upload the rules. When sampling by a metadata variable, the
+        sample size is applied to each subcorpus corresponding to the
+        chosen metadata variable. For instance, if the sample size is 10
+        and the chosen metadata variable has 4 values in your corpus,
+        the corpus will be sliced into 4 subcorpora corresponding to
+        those variables, and 10 sentences will be sampled from each
+        subcorpus.
+3.  **By Corpus Variable:**
+    -   For instance, syntactic dependency (e.g., whether the headword
+        is the object or subject) or sense (for semantically annotated
+        corpora).
+4.  **No Sampling:**
+    -   Obtain the topmost scoring sentences.
+
+Sentences that share more than 80% of their lemmas with another sampled
+sentence are discarded.
+
+When sampling parameters are employed, the system initially samples 3
+sentences per Collocate and/or Variable in each Metadata-defined
+subcorpus. It then filters out similar sentences. Finally, it adjusts
+the number of sampled sentences to the chosen sample size for each
+subcorpus. If the sampled sentences are fewer than the defined sample
+size, the necessary number of sentences will be randomly sampled from
+top-scoring sentences, regardless of sampling parameters. If the sampled
+sentences exceed the defined sample size, the lowest-scoring sentences
+will be filtered out.
+
+### Set minimum score
+
+Depending on your sampling criteria, there might be instances where only
+poorly scoring sentences are available for a particular sampling pool.
+For example, if you are sampling by genre and collocate, it's possible
+that a collocate only occurs in very long sentences within a certain
+genre. To address this, you can establish a minimum score for sampled
+sentences. If only poorly scoring sentences are available for a specific
+combination of sampling parameters, then no sentence at all will be
+retrieved for that particular set of parameters. This allows you to
+ensure a certain level of quality in the sampled sentences, even when
+dealing with specific combinations of sampling criteria.
+
+## Examples output
+
+The sampled sentences will be formatted with HTML bold tags (<b>..</b>)
+around the word form corresponding to the Headword.
+
+During testing on one or a few lemmas (we recommend testing one lemma at
+a time for clearer output), the result is presented as a table to the
+right of the menus. This table contains the sampled sentences, sorted by
+GDEX score, for the provided headword. To aid in the development of
+effective GDEX rules, the table also displays the penalties assigned to
+each sampled sentence based on the applied rule. The number following
+'penalty' in the column names indicates the row corresponding to the
+applied rule in the GDEX template CSV.
+
+# Visualizations
+
+This tab provides the option to generate graphs for visualizing data
+derived from your corpus (e.g., frequencies and collocates) or recorded
+in your dictionary (e.g., semantic information).
+
+## Visualizations of corpus data
+
+Use this tab to create data visualizations from CSV files located in
+./data/Outputs.
+
+Ensure that ./data/Outputs is present and populated for this tab to
+function.
+
+The data visualizations are designed to work with the following
+files: 1. "CollocateCandidates.csv" 2. "HeadwordFreqs.csv" 3.
+"SubcorporaHeadwordFreqsAndDP\_[Metadata variable].csv"
+
+However, users can add custom datasets to ./data/Outputs for
+visualization. The only requirements are: - Format: CSV - Must have a
+column with headwords named 'lemma' (the column name must be exactly
+'lemma')
+
+### data-visualization workflow
+
+Here's a guide on using the Data-Viz tab:
+
+1.  **Choose Dataset and Visualization Type:**
+    -   Select the dataset to visualize and the type of visualization.
+2.  **Preview Visualization:**
+    -   Use the menus on the left to preview visualizations for a few
+        sample words with various settings.
+    -   Adjust settings until the visualizations are meaningful and
+        aligned with your expectations.
+3.  **Plot All:**
+    -   Once satisfied with the settings, click the `plot all` button
+        below the preview to write visualizations for all headwords in
+        the chosen dataset.
+    -   Note: This operation is slow, so only press the button when you
+        are sure about the settings. The plots will be stored in
+        ./data/Outputs/plots.
+4.  **Optional: Upload List of Headwords:**
+    -   For collocations and examples, it is recommended to upload a
+        list of headwords using the dedicated menu on the homepage
+        before starting. This limits plot creation to the headwords in
+        your list and speeds up processing.
+5.  **Menu Combinations:**
+    -   The menus in the Data-Viz tab allow a wide array of combinations
+        of datasets and variables to be plotted.
+    -   Not all combinations are meaningful, and some are not even
+        plottable, resulting in a red error message in the plot area. If
+        you get an error, it indicates you are trying to plot the wrong
+        kind of variable. Change either the dataset or the selected
+        variable.
+6.  **Recommended Combinations:**
+    -   HeadwordFreqs.csv + logcurve + lemma & Freq: To visualize the
+        relative frequency of a headword compared to the rest of the
+        vocabulary.
+    -   CollocateCandidates\_...csv + wordcloud + collocates & any
+        collocational statistics: To visualize collocates of a headword
+        by their collocational strength.
+    -   SubcorporaHeadwordFreqsAndDP\_...csv + logcurve + lemma & ..DP:
+        To visualize dispersion of a headword across the chosen metadata
+        variable relative to the rest of the vocabulary.
+    -   SubcorporaHeadwordFreqsAndDP\_...csv + barchart + lemma &
+        ..Frequencies: To visualize the relative frequency of a headword
+        in each subcorpus sliced by a metadata variable.
+    -   For semantically annotated corpora, CorpusData + barchart +
+        lemma & the column with semantic tags: To view the distribution
+        of senses of a headword in the corpus.
+7.  **Experiment:**
+    -   Depending on your data and lexicographic goals, there may be
+        many other meaningful combinations possible. Feel free to
+        experiment, and if you encounter an error message, adjust your
+        selections in the menu.
+
+#### wordclouds
+
+The Wordcloud feature in the Data-Viz tab renders words in the chosen
+first variable and sizes them proportionally based on the number of the
+selected second variable. Here's a guideline to use Wordclouds:
+
+1.  **Dataset Selection:**
+    -   Start with the dataset called "CollocateCandidates_....csv." (do *not* select 'Collocates', which is a folder containing files with collocates for each individual headword!)
+    
+2.  **Choose Variables:**
+    -   Select 'collocate' as the first variable.
+    -   Choose 'LogR' (Log Ratio) as the second variable.
+    
+3.  **Caution on `Plot All`:**
+    -   Writing wordclouds to file is time-consuming. Only click on
+        `plot all` when you are certain of your settings.
+        
+4.  **Wordcloud Creation Conditions:**
+    -   Only wordclouds for headwords that have more than one value
+        corresponding to the first selected variable will be created.
+        For example, if the first variable is 'collocates,' only
+        headwords with more than one collocate will yield a saved
+        wordcloud.
+        
+5.  **Caution on Variable Range:**
+    -   Wordclouds work best with variables that take similar values. If
+        the range of values to be plotted encompasses different orders
+        of magnitude, it is likely that the biggest words will not fit
+        the plot and will not be displayed. This can lead to misleading
+        data visualizations.
+
+Remember to test your settings on a few words before using the
+`plot all` button, and be cautious about variable ranges to ensure
+accurate and meaningful wordclouds.
+
+#### logCurve
+
+It is recommended to use this plot specifically with HeadwordFreqs
+(Frequency column) and SubcorporaFreqs (Dispersion column) datasets.
+This allows you to visualize the frequency or dispersion of a headword
+relative to the frequency or dispersion of all other words in the corpus
+(excluding those in the dictionary data). This focused usage ensures
+meaningful and accurate visualizations for understanding the
+distribution and importance of specific headwords in the corpus.
+
+#### barchart
+
+The behavior of barcharts in this tool varies based on the type of data:
+
+1.  **Numerical Data (e.g., Subcorpora Frequencies):**
+    -   The chart will indicate the absolute and normalized frequency of
+        the chosen word in each subcorpus layer (e.g., in each genre or
+        each period).
+    -   Numbers written on the bar correspond to absolute frequencies.
+    -   The color of the bar indicates normalized frequency.
+    -   Bars cannot be colored or arranged using the menus in this mode.
+2.  **Categorical Data (e.g., Corpus Data):**
+    -   Barcharts can be arranged and colored using the menus around the
+        plot.
+    -   Coloring with shades is considered best for color-blind
+        accessibility.
+    -   It is recommended to plot barcharts for variables that have
+        fewer than 10 values, as using too many shades or colors quickly
+        becomes difficult to read.
+
+Be mindful of the type of data you are working with and choose the
+appropriate settings for meaningful visualizations.
+
+more data-viz may be coming in the near future: if you have particular
+requests or suggestions, please feel free to let us know.
+
+### Visualizations of dictionary data
+
+To visualize dictionary data, ensure you have uploaded the RDS version
+of your dictionary using the dedicated file uploader in the
+data-extraction tab (generated through our conversion app).
+
+The aim is to represent relationships between elements in dictionary
+entries, such as senses, subsenses, headwords in a domain/semantic
+field, or headwords instantiating a valency pattern. Graphs are most
+meaningful when plotting 2 or 3 variables ordered hierarchically from
+the most general to more granular (e.g., 'headword, sense, subsense' or
+'semantic domain, semantic field, headword').
+
+Input the ordered variables in the text box exactly matching the names
+in the uploaded dictionary-data dataset, displayed at the top of the
+tab. Copy and paste from there to avoid mistyping.
+
+Consider the character length of values for plotting, as long values may
+cause overlapping text and reduce readability.
+
+Currently, three types of graphs are available: interactive or static
+tree graphs and static diagonal or radial networks. The type of graph
+may determine whether you see further menus after pressing 'go'. In all
+cases, a 'test' button will appear; click on it to generate the graph.
+As with Corpus Data visualizations, extensive testing is recommended
+before clicking 'process all'. Test plots are created on random values
+from the selected top-hierarchy variable (e.g., if variables are
+'headword sense subsense', each tree graph will represent a randomly
+sampled headword). Graphs are redrawn on a newly sampled random value
+whenever any of the inputs changes.
+
+#### Trees
+
+Tree graphs are interactive widgets with customizable options. You can
+choose to display the tree with 'collapsed' nodes, allowing you to click
+on each node to expand it. Note that this option is suitable for neater
+graphs with longer value labels. However, do not choose this option if
+you intend to save the resulting plot as a static image since the static
+image won't allow node expansion (refer to details below about saving
+plots as interactive graphs or static images).
+
+Additionally, you have the option to make 'node-sizes' proportional to
+node frequency. While this can offer useful insights, it may lead to
+readability issues if the node sizes become very large.
+
+Before clicking the 'process all' button, decide whether the resulting
+plots should be saved as interactive data-visualizations or static
+images. Interactive graphs allow users to click on nodes to
+expand/collapse them and hover over nodes to see frequency information.
+On the other hand, static images take up less memory and result in
+faster downstream applications. If you plan to include these graphs in
+an online digital dictionary, consider the impact on web performance,
+especially for end-users with slower internet connections.
+
+Once the 'process all' button is clicked, graphs will be generated for
+each value in the top-hierarchy variable (e.g., for each headword if the
+inputted variables are 'headword sense subsense' or for each domain if
+the inputted variables are e.g., 'domain semantic-field headword').
+These graphs will be saved in ./data/Plots. Interactive graphs are saved
+as self-contained HTML files, while static images are saved as PNG and
+will be later converted to the much lighter webp format when included in
+the dictionary data.
+
+#### static networks
+
+These graphs require no further choices beyond inputting the
+hierarchically-ordered variables in the text box. We recommend the
+following considerations:
+
+1.  **Radial Networks:**
+    -   Suitable for variables with many values (e.g., charting all the
+        headwords related to a given domain).
+    -   Offers a visually effective representation for datasets with
+        numerous entries.
+2.  **Diagonal Networks:**
+    -   Recommended for variables with fewer values (e.g., the senses
+        and subsenses of a headword).
+    -   Provides clarity and readability for datasets with a limited
+        number of entries.
+
+By selecting the appropriate graph type based on the number of values in
+your variables, you can ensure a more effective and visually appealing
+representation of your data.
+
+### plots filenaming convention
+
+TypeOfPlot_xxHeadwordNumericUTF8conversionxx_headword_BY_ParametersUsed,
+e.g. a static image wordcloud for the collocates of the headword 'dog'
+sized according to their LogLikelihood will be:
+wordcloud_xx100-111-103xx_dog_BY_collocates_LogL.png
+
+The numeric conversion of UTF-8 strings is used to facilitate matching
+filenames and headwords with diacritics, since UTF-8 characters such as
+ā or ṣ can be encoded differently (decomposed vs recomposed) in data and
+in filenames, depending on OS.
+
+
+# BuildDictionary tab
+
+There are 2 main ways to create a dictionary: Quarto book method & Shiny app method. See below for details on both. 
+
+## Quarto Book Dictionary
+
+This is the simplest digital dictionary form: a digital book. It is
+suited for highly curated dictionaries that rely mostly on text manually
+crafted by lexicographers, just like traditional dictionary entries. It
+can still contain graphs, including interactive ones, and information
+automatically extracted from corpora.
+
+### Requirements
+
+AVOID UNDERSCORE AND COLON IN HEADWORDS as this may conflict with the
+app's filenaming convention and yaml file! (in fact, if possible try to
+avoid all punctuation and special characters in headwords, as these may
+create problems with filenames.)
+
+All plots and images must be either png or self-contained html files.
+
+Webp must be installed. Install from: [Webp
+Download](https://developers.google.com/speed/webp/download).
+
+### Set Up Your Digital Dictionary Project
+
+When you are ready to start building your digital dictionary, you can go
+to the SetUpDict tab.
+
+Fill in the title and author fields and click `Set Up Dictionary`.
+
+A new directory is created inside the App root directory called
+'MyDict'. A number of standard files are automatically created in the
+directory. These files will be pruned, expanded, and manipulated to
+reflect the content of your dictionary. Most files will be manipulated
+from inside our Shine app, with the only exception being references.bib.
+If you want to have linked references in your dictionary, we recommend
+editing these files manually in any text editor or in RStudio; just make
+sure you follow the format illustrated in the example for references.bib
+(and then remove the example). You can also simply upload a file with
+your references; these will be included in your dictionary but will not
+be automatically linked to the citations in the text of the dictionary.
+
+You should upload a doc/docx/rtf/md/txt file containing the preface of
+your dictionary. Optionally, you can also upload a png image to serve as
+the cover of your dictionary. To actually use the cover image, click
+'Include Cover'.
+
+Once uploaded, the preface will be in the file called index.qmd. If you
+want to edit it, you can easily edit the index.qmd file directly from
+RStudio (use the 'Visual' option in the editor if you are not familiar
+with Quarto markdown).
+
+You can upload the cover image, preface, and references at any point.
+You do not have to do it right at the beginning. Just be aware that
+until you upload your preface, you will preview the dictionary with the
+default index.qmd file that is automatically created when you click
+`Set Up Dictionary`.
+
+If you have already set up a dictionary and you wish to start over and
+create a new dictionary project, you need to manually remove the MyDict
+folder from the app repository before you click on `Set Up Dictionary`.
+
+### Add Your Own Images
+
+If you have media files that you want to associate with your entries,
+besides the graphs you created in our app (e.g., pictures representing
+the headword, or audio files with pronunciation), you can add them to
+your entries by:
+
+1.  Naming each file with the following convention: an indicator of the
+    content + underscore + the filenaming convention for the headword  they correspond to (the filenaming convention of each headword can be found in the spreadsheet 'filenamingDF.csv' that is automatically saved in the root directory of this app, it can also be generated by running MakeSafeForFilename("YOUR_HEADWORD") in the console)  + file
+    extension (e.g. for a picture for the headword 'dog' use filename:  "picture_xx100-111-103xx_.png", the output of MakeSafeForFilename("dog") is "_xx100-111-103xx_"). The filenaming convention is used to avoid errors in case a headword contains special characters that cannot be ised in filenames.
+2.  Putting them all in a folder called Media.
+3.  Moving that folder to the root directory of your app (that is at the
+    topmost level of the app directory, not inside a subfolder).
+
+For images, please use either png or webp. Audio files are not supported
+right now, but they will be soon.
+
+Please note that if your headwords contain diacritics or are in
+non-Latin script, there may be problems matching the filename to the
+headword. For non-Latin scripts, we advise using Latin-based
+transliteration in your dictionary data if possible. For diacritics,
+please contact us, and we will try to help you find the best way to
+match your files to their corresponding headwords.
+
+## Add Lexical Data
+
+If you want to add tabular lexical data in CSV that is not included in
+your dictionary data or in the data derived from your corpus through our
+app, you can put it in a folder called LexicalData and add that folder
+inside the data folder in app directory. The file(s) must have a column
+called 'lemma' containing headwords that can be matched to the rest of
+the data (that is your dictionary data and/or the data extracted from
+the corpus). You can have any type of data here; a possible use is to
+add definitions here (one column with lemma and one column with the
+corresponding definition), in case you are building your dictionary from
+scratch using the information extracted in the app and did not have
+definitions ready beforehand. You can also use this to include
+paradigms, variant spellings, or anything. Make sure that the lemma
+column contains all the lemmata you have in your dictionary data (or in
+the CSV wordlist you uploaded instead of dictionary data).
+
+### Entry Editor
+
+This section must be used AFTER setting up your project in the setup
+tab.
+
+The aim of this section is to help you incorporate your pre-existing
+dictionary data with the corpus-extracted data you created through the
+app (or to create new dictionary data from the corpus-extracted
+information if you did not have dictionary data to start with) and to
+render them into a digital dictionary.
+
+What you put into this augmented dictionary data should correspond to
+the information you want your digital dictionary to display.
+
+If you have uploaded your dictionary data, this will be the basis to
+which all other information is added. If you do not have dictionary
+data, you must provide a wordlist in CSV as specified in section XXX,
+and dictionary data will be created for all headwords in the wordlist.
+Make sure you use the same wordlist you used to generate the
+corpus-extracted data; otherwise, data may be missing for some words,
+which can cause errors.
+
+### Preview
+
+Click `Preview` to preview your digital dictionary. If you preview it
+just after setting up, it will only show the cover image & preface (if
+you uploaded one) and the references, which will be blank if you have
+not filled it. The preview will open a new browser window with your
+dictionary, which will also display in the app. Navigate back to the app
+to keep editing your entries.
+
+Once you create some test entries (as explained below), when you click
+preview, you will see the entries you have created. It may take some
+time for the preview to update; check the RStudio console to see
+progress (or any error messages).
+
+You'll need to click `Preview` to update the html
+
+file and see any changes you make.
+
+Be aware that rendering a preview of a Quarto book is computationally
+intensive. Try first with a few entries only. The more qmd files you
+have in your MyDict folder, the longer it will take to preview (it also
+depends on how complex your qmd files are; if your entries are just
+text, they will be rendered more quickly than entries with many
+interactive graphs and images).
+
+### Choose a Word to Test On
+
+Choose a word to test on and stick to it until you finish defining the
+rules to populate all the sections you want to include in your
+dictionary data (more on this below). Choose a word for which you have
+all the data you want to include in your dictionary. If you wish to
+include collocate information or collocate word clouds, it is best to
+opt for a fairly frequent word, as rarer words may have no collocate
+data.
+
+To help you stick to the same word, once you start defining the rules
+for populating your digital dictionary sections, the system will fill
+the word input for you based on the file it has been creating on the
+basis of your rules.
+
+Once you have finished defining the rules, you can input another word in
+the Text input box (one word at a time!) and then click `Go` without
+filling any of the menus fields. The system will create an entry for the
+newly inputted word, based on the rules you have previously defined.
+Once the entry is ready, you can preview it by clicking on the `Preview`
+button, or simply by looking at RStudio, where the preview will be
+automatically displayed as soon as it is ready.
+
+### Defining Rules to Populate Entries
+
+Before you start defining your rules for creating your entries, it is
+best if you:
+
+-   Familiarize yourself with all the data available to you for each
+    headword.
+-   Plan how to structure the entry:
+    -   Decide which piece of data goes where.
+    -   Decide on a title for each piece of information (e.g., your
+        definition should be titled "Definition" and go at the top; a
+        word cloud of collocates should follow and be titled
+        'Collocates,' etc.).
+
+### Select Data You Want Your Digital Dictionary to Display
+
+Choose a dataset and select the variable(s) you want to keep or add to
+your digital dictionary data. If you choose a single variable from your
+data, the values will automatically be deduplicated. For CSV and RDS
+datasets (i.e., not plots or media), choose 'Full Dataset' to include
+all variables in your final dictionary data; if the dataset is tabular,
+it will be imported as a table and rendered as such in the digital
+dictionary.
+
+If you get nothing to select in the variable field, your chosen data
+source is not available for your chosen word. In such a case, clicking
+'Go' will have no effect; nothing will be added to your entry-making
+rules.
+
+#### Consider searchability
+
+Your digital dictionary has a search box providing full-text search. It
+will search the content of your entries, not the title. So, if you want
+users to search for an entry and retrieve the corresponding entry, make
+sure you include the headword in your entry.
+
+Also, keep in mind that if you have diacritics in your headwords, your
+users will have to input the same diacritics, with precisely the same
+encoding in order to retrieve the corresponding entries. The way
+different machines encode diacritics is not always predictable, hence if
+you have diacritics in your headwords it is safer to feed the system a
+conversion table, so that a diacritics-free version of the headword can
+be generated and used for search purposes. Note that in the 'quarto
+book' version of the dictionary, the diacritic-free version of te
+headword will have to be visible to the user in order to be searchable.
+if there is an established convention for rendering diacritics in simple
+latin characters (e.g. the Harvard-Kyoto system for Sanskrit) it is best
+to follow it and include information about it in your dictionary
+preface).
+
+### Create Text Field
+
+This field is optional. You can use it to create text sections for your
+entry from your data for three uses:
+
+1.  To add text to accompany single-value (atomic) data.
+2.  Convert variables from tabular datasets into text.
+3.  Control the size of PNG images.
+
+**Add text to accompany single-value data:** After selecting dataset and
+variable(s), input the text and the variable you want to glue together.
+This works best with variables that take one single value for each word
+(e.g., frequency). For example, you may want to craft a simple text
+template that says "the frequency of this word is:" and then put the
+frequency from the HeadwordFrequency dataset. To do this, just select
+Dataset = HeadwordFrequencies.csv, Variable = Freq, and then in the text
+input box write "the frequency of this word is: Freq."
+
+**Convert Variables from Tabular Datasets into Text**
+
+This functionality is designed for tabular data and can be employed in
+two ways:
+
+1.  **Splitting the Dataset:** You can use it to split the dataset you
+    have filtered with your variable selections based on one of the
+    variables. For instance, suppose you've added a column to the
+    Examples dataset in the app, specifying the sense of the headword in
+    each example. If you wish to split the examples by sense, you need
+    to select `Dataset= Examples.csv` and ensure you include the sense
+    variable in your variable selection. To accomplish this, type the
+    `%%%splitby` keyword in the text input box, followed by a space and
+    the name of the variable you want to split on, e.g., "%%%splitby
+    sense."
+
+2.  **Pasting Variables Together:** You can also use the `%%%paste`
+    keyword to combine variables into text. For example, you might want
+    to merge the example sentence and its bibliographic reference from
+    two different columns, let's call them Ex and Ref. You can achieve
+    this by typing '%%%paste Ex [ Ref ] \n\n', which will concatenate the
+    example and reference while also enclosing the reference in square
+    brackets and put two line breaks between examples ('\n' stands for 'new line'. HTML tags, such as `<i>` for italics or
+    `<font color='YOURCOLOR'>` for text color control, can also be
+    utilized. For 'YOURCOLOR,' you can use R HTML color names or hex
+    codes (refer to
+    [W3Schools](https://www.w3schools.com/tags/ref_colornames.asp) and
+    [Color Hex](https://www.color-hex.com/)).
+
+You can use both `%%%splitby` and `%%%paste` in the same input. When
+working with non-single value data, it's discouraged to add text, as it
+will repeat your input text for every value, which is rarely the desired
+outcome.
+
+**Control Image Size**
+
+For sections consisting of PNG images, you can control the size of the
+rendered image using the `%%%width` keyword, followed by a space and the
+percentage or number of pixels for the image size. For example,
+'%%%width 40%' or '%%%width 300'. The height of the image will
+automatically adjust based on your specified width.
+
+Since the text box is relatively small, we recommend composing your text
+string in a text editor and then pasting it into the box. To retrieve
+the text string later, check the DictMakingRulesList.json file, where
+all the entry-creation rules you've defined are stored. Editing this
+file manually won't affect the app's behavior and is not recommended.
+
+### Modify the Rules
+
+Review your rules in the rules tab, ensuring you click refresh to load
+any new modifications. If you want to change the rule for creating a
+section, follow these steps: first, click refresh rules, then select the
+section name from the modify dropdown menu, press delete, and go back to
+the rule editor menus to recreate the section.
+
+### Re-arrange Entry Sections
+
+By default, entries will list the sections one after the other in the
+same order as they appear in your rules. To change the order or group
+them into tabs:
+
+### Change Order of Sections
+
+Once you've created some rules, the `rearrange` text box area will be
+populated with the section names you've created, separated by a
+semicolon. To change the order, copy and paste the content into a text
+editor, rearrange the section names, ensuring they're separated by
+semicolons. Click refresh and preview the dictionary to see your
+changes.
+
+### Group Sections into Tabs
+
+The `group into tabs` text box is to be used to arrange sections into
+tabs. To group the sections under one tab into, wrap their names
+(exactly as they appear in the rules) into the string `TAB()`, separated
+by semicolons. The **grouped sections must be in the same order as in
+the rules**. For example, if we have the following sections in our
+entries: headword, pos, senses, etymology and we want to group headword
+and pos in a tabset, we will input in the `group into tabs` text box:
+
+`TAB(headword;pos);senses;etymology`
+
+If we wanted to also group in a tabset senses and etymology we would
+input and have 2 tabsets in our entry:
+
+`TAB(headword;pos);TAB(senses;etymology)`
+
+we could also group all four sections into a single tabset with:
+
+`TAB(headword;pos;senses;etymology)`
+
+It is essential that:
+
+-   a section only features in one TAB() group
+-   the order of the sections remain the same as in the rules
+-   the sections are separated by ;
+-   there are no spaces but those in the sections names (if any)
+-   all parentheses are in matching pairs (open and closed)
+
+After inputting the tabs instructions, check the `update tabs` box, wait
+a sec for the system to record your tab instructions, then click
+preview.
+
+when you click on `update tabs` a file called TabsInstructions.csv is
+created in the root directory of the app. this file is used to add tabs
+to your entry. If you later decide not to use tabs, make sure you either
+manually delete this file from the root directory or you overwrite it
+with a blank file by clearing the tabs text box and then clicking on
+`update tabs`
+
+### Generate for All Headwords
+
+Click 'process all entries' to create entries for all headwords in your
+dictionary. Headwords will be taken from:
+
+-   `./data/dictData.rds` corresponding to the JSON or RDS file created
+    from your existing dictionary data through our conversion app (if
+    uploaded).
+-   `./data/dictData.csv` corresponding to a wordlist of headwords.
+
+If both the RDS and CSV files are in your data folder, the headwords
+will be combined and deduplicated. Remove `dictData.csv` if you only
+want to create entries for headwords in your original dictionary data.
+If you only have the CSV file, headwords will be taken from there,
+allowing you to create an entirely new dictionary from scratch.
+
+Be aware that combining original dictionary data with new
+corpus-extracted data may result in sections with 'no data' for original
+headwords without corresponding corpus-extracted data.
+
+**Using the Preview button for inspecting your dgital dictionary once
+all (or many) entries have been created is NOT advised. use the create
+digtila dictionary button instead.**
+
+### create your digital dictionary files
+
+Once all entries have been processed, you can click on
+`create digital dictionary` to render you dictionary as a digital book.
+This process can be very time consuming, depending on the size of your
+dictionary. best to run it overnight or in the background.
+
+Once the process is compelted you can view your dictiionary locally on
+your machine by opening any of the html files contained in the \_book
+subdirectory of the MyDict directory.
+
+the \_book subdirectory can be deployed online through services such as
+GitHub Pages, Netlify etc. see instructions [on the Quarto
+webpage](https://quarto.org/docs/publishing/)
+
+if your dictionary has less then 200 headwords, the system will generate
+one html file per headword and you will see all headwords in the table
+of content in the left sidebar. If you have 200 or more headwords the
+headwords will be grouped by letter, and you will see the initial letter
+in the left sibar. Please note that characters with diacritics may be
+treated as different letters. the division into letters is case
+insensitive (a and A will be both grouped under a).
+
+### Customizing output
+
+you can easily change the appearance of your digital dictionary by
+changing the theme option at the end of the \_quarto.yml file (inside he
+MyDict directory). [explore
+themes](https://quarto.org/docs/output-formats/html-themes.html)
+
+you can also add a PDF rendition of your dictionary by adding the
+folloing lines (with indent) at end of your \_quarto.yml file:
+
+pdf: documentclass: scrreprt
+
+if you include these lines you will have to [install
+tinytex](https://quarto.org/docs/output-formats/pdf-engine.html) first.
+
+### Customizing QMD Files
+
+Customize entries further by including more Quarto elements manually or
+programmatically. See what is available: [Quarto Markdown
+Basics](https://quarto.org/docs/authoring/markdown-basics.html).
+
+
+## Shiny Editor
+
+Creating a template for your Shiny app works similarly to setting up a Quarto book. Below are some additional options specific to Shiny projects.
+
+You cannot switch between a book project and a Shiny app project. Once you've chosen one, like Quarto book or Shiny app, you'll need to delete or rename the "MyDict" directory in the app's root directory to switch to the other type of project and start over.
+
+**Dictionary Title & Author**: For Shiny app projects, a file named "DictCredits.txt" containing the entered title and author is created in the "MyDict" directory.
+
+**Home Page**: The Shiny option includes a 'home page'. You can upload content for this page during project creation, such as a Word document and a webp format image (download webp here). If your R environment does not support webp, do not upload a cover image or use PNG plots. Keep the formatting of the Word document simple to ensure smooth conversion to the required Rmd format. If no content is uploaded, the system will create a basic template that you can edit later in RStudio (navigate to MyDict/Home.Rmd; open the file in RStudio and edit like any text editor; for formatting and styling Rmd files, see https://bookdown.org/yihui/rmarkdown/).
+
+**Diacritics Conversion**: Include a conversion table if headwords contain diacritics or special characters. This table, saved as "DiacriticsConversion.csv" in the data folder of the root app (NOT inside the MyDict subdirectory), provides alternative spellings for easy searching (e.g., ñ to n).
+
+### UI Instructions: 
+
+In addition to TAB() for Quarto books, Shiny supports COL() and SEARCHBY() as keywords used within TAB().
+- COL() organizes displayed information into columns, recommending a maximum of 3 columns to avoid very narrow displays.
+- SEARCHBY() determines searchability, enabling searches across specified elements (e.g., English; Spanish).
+
+When naming elements for dictionary search, use intuitive names that will appear in user-facing menus (e.g., 'English' instead of 'headword').
+
+The dictionary supports exact and partial matches for searches, capturing entire words but not parts of words. Multi-word headwords like 'corpus linguistics' can be found by searching 'corpus', 'linguistics', or 'corpus linguistics', but not 'linguist'.
+
+**Interactive Example Filter**: Shiny allows interactive filtering of examples by variables (e.g., genre). Include a filter menu using the Text keyword %%%filterby followed by desired variable names. This requires a CSV file with example content and related variables.
+
+**Dictionary Preview**: In Shiny apps, the preview shows headwords used in entry rules, the first three entries, and the last headword used. To exit the Shiny preview and return to editing, click 'stop preview'. Return to the preview by clicking 'preview' again in the editing app.
+
+# ShareData tab
+
+Purpose: Facilitate harvesting & re-use of your dictionary data by using a well-known set of labels to identify the elements of your entries (headwords, examples, etc.). This tab facilitates the reconciliation of your entry element names with the namespaces of OntoLex Lemon Lexicography Module (https://www.w3.org/2019/09/lexicog/). Only the most common elements are suggested here, but we encourage you to look for any additional labels your entry may require on the lexicolog and OntoLex webpages. Using OntoLex-related namespaces can also be a first step towards publishing your data as Linguistic Linked Open Data. To fully prepare the data for Linguistic Linked Open Data, references to unique identifiers already published on the web (URI) will need to be added (see https://linguistic-lod.org/ for details).
+
+In the language fields, you must use a standard language code; we recommend the ISO-639 2-letter option, available at https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes.
+
+In case of elements with the same lexicogName, the language code will be used to distinguish them. Check the dataframe displaying the value correspondences between element names you have created and make sure that if you have repeated values in the lexicogName column, the lang column has different values.
+
+
+# Troubleshooting
+
+The app requires a set file system; do not change the location of files
+and folders in your app directory. If the app crashes, run `getwd()` in
+RStudio, and if the filepath ends in MyDict, run `setwd("../")` to
+restore the root app directory.
+
+If the preview in your app/browser does not update, check the RStudio
+viewer; if it has updates, click 'show in new window' to view it in the
+web browser.
+
+If you encounter an error when Previewing and you have only created one
+or a few test entries, it is worth deleting the MyDict subfolder and
+recreating it from the SetUpDict tab.
+
+If you click Preview when you have already created many qmd files (e.g.
+if you have already clicked on geenrate all entries), the ssytem may
+crash. When you have many entries click on
+`create digital dictionary button` instead of on Preview.
+
+If you encounter an error in rendering or previewing your dictionary
+check the `Background Jobs` tab in RStudio to see whre the error
+occurred. if it is an error in the yaml file you can probaby manually
+fix it by opening the yaml file in RStudio (./MyDict/\_quarto.yml) and
+looking for a red cross marker on the left margin of the page. the line
+with the red cross marker contains an error, see if you can edit the
+line so that the red markers disappears on saving the file.
+
+you can also search for the error message online and see if there is an
+easy fix provided.
+
+If you cannot understand/fix the error, do not hesitate to contact us
+
+# a note on checkbox and buttons in this app
+
+the buttons are very sensitive, make sure you only click them once, to
+avoid repeating the same operation multple times, whcih can be time
+consuming. to prevent accidental re-running of computational-intensive
+processing, some buttons have been replaced with self-unchecking
+checkboxes. If you click on a checkbox and the checkbox unticks itself
+do not worry, it is the expected behaviour (note that in some cases the
+unchecking can happen so fast that it may look like you have not ticked
+the box. wait a bit see if files are being written in your computer, if
+yes, the checkbox worked)
+
+
