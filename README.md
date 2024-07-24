@@ -5,6 +5,13 @@ This is an **alpha prototype intended as a proof of concept**. It has not been o
 
 If you encounter difficulties when using the app to process your dictionary or corpus data, please contact ligeia.lugli@london.ac.uk; we will be happy to help.
 
+## how to cite
+
+lexicographR app: Lugli, Ligeia (2024). lexicographR app. figshare. Software. https://doi.org/10.6084/m9.figshare.26196914
+
+lexicographR user-guide:  Lugli, Ligeia and Tilak, Balavijayan (2024). lexicographR user guide. figshare. https://doi.org/10.6084/m9.figshare.26196914
+
+
 ## What does lexicographR do?
 
 lexicographR is designed to help with three main tasks involved in the creation of digital dictionaries:
