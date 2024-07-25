@@ -14,9 +14,7 @@ editor_options:
     wrap: 72
 ---
 
-Welcome to `LexicographR`, a digital dictionary building tool, funded by the National Endowment for the Humanities (HAA-290402-23). This is currently an alpha prototype, if you encounter difficulties contact ligeia.lugli@london.ac.uk.
-
-There are 7 main tabs that
+Welcome to the Digital Dictionary Builder tool. There are 7 main tabs that
 you can use, and the user-guide is organized by these 7 tabs.
 
 Here is an outline of how the user-guide is structured:
@@ -574,6 +572,8 @@ period, or over domain).
 
 dispersion is calculated as Deviation of Proportions (Gries 2008)
 
+A high level of dispersion indicates that the occurrence rate of the item (i.e. its normalized frequency) is well-balanced across the corpus. Low levels of dispersion, on the other hand, point to a concentrated distribution. 
+
 # Collocations
 
 Use this tab to identify collocation candidates (optional). It's
@@ -883,23 +883,19 @@ first variable and sizes them proportionally based on the number of the
 selected second variable. Here's a guideline to use Wordclouds:
 
 1.  **Dataset Selection:**
-    -   Start with the dataset called "CollocateCandidates_....csv." (do *not* select 'Collocates', which is a folder containing files with collocates for each individual headword!)
-    
+    -   Start with the dataset "CollocateCandidates.csv."
 2.  **Choose Variables:**
     -   Select 'collocate' as the first variable.
     -   Choose 'LogR' (Log Ratio) as the second variable.
-    
 3.  **Caution on `Plot All`:**
     -   Writing wordclouds to file is time-consuming. Only click on
         `plot all` when you are certain of your settings.
-        
 4.  **Wordcloud Creation Conditions:**
     -   Only wordclouds for headwords that have more than one value
         corresponding to the first selected variable will be created.
         For example, if the first variable is 'collocates,' only
         headwords with more than one collocate will yield a saved
         wordcloud.
-        
 5.  **Caution on Variable Range:**
     -   Wordclouds work best with variables that take similar values. If
         the range of values to be plotted encompasses different orders
@@ -1297,10 +1293,10 @@ two ways:
     Examples dataset in the app, specifying the sense of the headword in
     each example. If you wish to split the examples by sense, you need
     to select `Dataset= Examples.csv` and ensure you include the sense
-    variable in your variable selection. To accomplish this, type the
-    `%%%splitby` keyword in the text input box, followed by a space and
-    the name of the variable you want to split on, e.g., "%%%splitby
-    sense."
+    variable in your variable selection. To accomplish this, type '%%%paste' followed by       the name of the variable that contains the example, and then
+    `%%%splitby` keyword, followed by
+    the name of the variable you want to split on, e.g., "%%%paste Sent %%%splitby
+    sense." Make sure to have a space between the key words and the variables from the         data. 
 
 2.  **Pasting Variables Together:** You can also use the `%%%paste`
     keyword to combine variables into text. For example, you might want
@@ -1359,13 +1355,13 @@ changes.
 
 ### Group Sections into Tabs
 
-The `group into tabs` text box is to be used to arrange sections into
+The `add UI instructions` text box is to be used to arrange sections into
 tabs. To group the sections under one tab into, wrap their names
 (exactly as they appear in the rules) into the string `TAB()`, separated
 by semicolons. The **grouped sections must be in the same order as in
 the rules**. For example, if we have the following sections in our
 entries: headword, pos, senses, etymology and we want to group headword
-and pos in a tabset, we will input in the `group into tabs` text box:
+and pos in a tabset, we will input in the `add UI instructions` text box:
 
 `TAB(headword;pos);senses;etymology`
 
@@ -1480,7 +1476,7 @@ You cannot switch between a book project and a Shiny app project. Once you've ch
 
 ### UI Instructions: 
 
-In addition to TAB() for Quarto books, Shiny supports COL() and SEARCHBY() as keywords used within TAB().
+In addition to TAB() for Quarto books, Shiny supports COL() and SEARCHBY() as keywords used in a similar way to TAB().
 - COL() organizes displayed information into columns, recommending a maximum of 3 columns to avoid very narrow displays.
 - SEARCHBY() determines searchability, enabling searches across specified elements (e.g., English; Spanish).
 
