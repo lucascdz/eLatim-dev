@@ -3,8 +3,8 @@
 # # uncomment the following to do so:
 # 
 # 
-# options(rsconnect.max.bundle.files=length(list.files("./", full.names = TRUE, recursive = TRUE))+10)
-# 
+# options(rsconnect.max.bundle.files=length(list.files("./", full.names = TRUE, recursive = TRUE))+10, renv.config.dependencies.limit = length(list.files("./", full.names = TRUE, recursive = TRUE)))
+#
 # # then edit the bits in caps and run the deployment command below:
 # 
 # rsconnect::deployApp(appName="SHORT_DICT_NAME_WITHOUT_SPACES",appTitle="YOUR_DICT_NAME" , account="YOUR_SHINYAPPS_ACCOUNT_NAME")
