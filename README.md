@@ -45,10 +45,11 @@ To start the lexicographR app, consult our video guide (LINK) or follow these st
 ### Option 2: From RStudio
 1. Make sure you have R and RStudio installed.
 2. Clone or download this repository to your machine.
-3. Open the file lexicographR.Rproj in RStudio.
-4. In the RStudio 'File' panel, navigate to the file app.R and open it.
-5. Select all the text in the file and click 'Run'.
-6. In the interactive app window, go to the documentation tab to read the user guide. The user guide is also available in this repository (UserGuide.html & UserGuide.Rmd).
+3. Unzip the repository
+4.In RStuodio create a “new project” with “existing directory” and browse for the unzipped repository (check RStudio documentation to read on how to create projects)
+5. In the RStudio 'File' panel, navigate to the file app.R and open it.
+6. Select all the text in the file and click 'Run'.
+7. In the interactive app window, go to the documentation tab to read the user guide. The user guide is also available in this repository (UserGuide.html & UserGuide.Rmd).
 
 **WARNING:** When running for the first time, the app may take a long time to launch, as various packages will need to be installed. If there are problems with package installation, we recommend installing the required packages one by one (either via the `install.packages()` function or through the RStudio 'Packages' tab) and reading the error messages carefully. A web search for the error message usually reveals how to resolve the issue. The required packages are listed under Imports in the DESCRIPTION file contained in this repo.
 
