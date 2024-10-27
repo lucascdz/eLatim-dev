@@ -738,8 +738,8 @@ myApp <- function(...) {
 
 
 
-    observeEvent(input$CorpusDataExtractor, {
-      if(input$CorpusDataExtractor=="Collocations"){
+    observeEvent(input$lexicographR, {
+      if(input$lexicographR=="Collocations"){
         if(file.exists("./data/dictData.rds")){
           DictData <- readRDS("./data/dictData.rds")
         }else if(file.exists("./data/dictData.csv")){
@@ -751,8 +751,8 @@ myApp <- function(...) {
       }
     })
 
-    observeEvent(input$CorpusDataExtractor, {
-      if(input$CorpusDataExtractor=="Examples"){
+    observeEvent(input$lexicographR, {
+      if(input$lexicographR=="Examples"){
         if(file.exists("./data/dictData.rds")){
           DictData <- readRDS("./data/dictData.rds")
         }else if(file.exists("./data/dictData.csv")){
@@ -764,8 +764,8 @@ myApp <- function(...) {
       }
     })
 
-    observeEvent(input$CorpusDataExtractor, {
-      if(input$CorpusDataExtractor=="Visualizations"){
+    observeEvent(input$lexicographR, {
+      if(input$lexicographR=="Visualizations"){
 
         if(length(dir("./data/Outputs/"))>0){
           VizDatasetChoices <- if(length(dir("./data/CorpusDocs"))>0){
@@ -846,8 +846,8 @@ myApp <- function(...) {
       }
     })
 
-    observeEvent(input$CorpusDataExtractor, {
-      if(input$CorpusDataExtractor=="BuildDictionary"){
+    observeEvent(input$lexicographR, {
+      if(input$lexicographR=="BuildDictionary"){
 
         QuartoEditorServer("editor", Cores= ifelse(file.exists("./data/dataExtractionInstructions.csv"), read.csv("./data/dataExtractionInstructions.csv")$Cores[2], 1))
 

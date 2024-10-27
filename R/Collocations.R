@@ -92,9 +92,9 @@ CollocationsUI <- function(id){
 CollocationsServer <- function(id, DictData, HeadwordVar, Cores){
   moduleServer(id, function(input, output, session) {
 
-print("line 63")
+
 if(file.exists("./data/Outputs/HeadwordFreqs.csv") && length(dir("./data/CorpusDocs"))>0){
-  print("line 65")
+
   # updateSelectInput(session, "HeadwordVar",
   #                   choices= colnames(read.fst(paste0("./data/CorpusDocs/",dir("./data/CorpusDocs")[1]))) )
   # # find HeadwordVar (in case Collocation tab is used in new session without the extractionRules csv)
