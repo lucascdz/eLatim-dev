@@ -18,7 +18,9 @@ GetLemmaSent <- function(Lem, CorpusDocFilename, Window=NULL, HeadwordVar){
 
   # if Window=NULL returns a DF with the full corpus sentneces in which the lenma Lem occurs + one col with the source text
   # if Window is a numberr it returns a Kwic with window-number of words to left and right in the SAME sentnece, if sentnece ends before the window, the words retrieved are less than window.
-
+  Window <- as.numeric(Window)
+  print(paste("GetLemmaSent Window",Window))
+  
   FileIndex <- readRDS(paste0("./data/CorpusData/HeadwordIndex_",gsub("fst$","rds", CorpusDocFilename)))
   LemIndex <- FileIndex[[Lem]]
 
@@ -31,8 +33,8 @@ GetLemmaSent <- function(Lem, CorpusDocFilename, Window=NULL, HeadwordVar){
     Sents <- lapply(SentIndex$sID, function(x) read.fst(paste0("./data/CorpusDocs/",CorpusDocFilename), from=SentIndex$Start[SentIndex$sID==x], to=SentIndex$End[SentIndex$sID==x]  ))
 
 
-    if(!is.null(Window) && is.numeric(Window)){
-
+    if(!is.null(Window) && !is.na(Window)){
+print("GetLemmaSent line 37")
       kwics <- lapply(Sents, function(x) GetKwic(x, Lem, Window, HeadwordVar))
       kwics <- do.call(rbind,kwics)
 
@@ -55,8 +57,10 @@ GetLemmaSent <- function(Lem, CorpusDocFilename, Window=NULL, HeadwordVar){
   }
 }
 GetAllLemmaSents <- function(Lem, CorpusDocsDir="./data/CorpusDocs",HeadwordVar,Window=NULL, Cores){
+print(paste("GetAllLemmaSents Window",Window))
+  
   if (Sys.info()[['sysname']]!="Windows"){
-  AllLemSents <- mclapply(dir(CorpusDocsDir), function(x) GetLemmaSent(Lem,x,Window,HeadwordVar), mc.cores = Cores)
+  AllLemSents <- mclapply(dir(CorpusDocsDir), function(x) GetLemmaSent(Lem,x,force(Window),HeadwordVar), mc.cores = Cores)
   }else{
   AllLemSents <- lapply(dir(CorpusDocsDir), function(x) GetLemmaSent(Lem,x,Window,HeadwordVar))
   }

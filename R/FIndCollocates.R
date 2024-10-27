@@ -56,6 +56,7 @@ LR_LLcalculator_DDL <- function(DF,HeadwordVar, SizeFocusCorpus, SizeRefcorpus, 
 
 GetKwicsLL_LR_DDL <- function(Kwics, Lem, CorpusFreqs, HeadwordVar, MinFreq=50, Stopwords= "", minLL=7, minLR=0.5, minMI=7,minLogDice=7, SortBy="LogLikCorpusVSRefcorpus", MaxKW=20, Cores=2){
 
+
   # Stopwords must be a character vector
   # SortBy is colname to sort by
 # the first variable in CorpusFreqs must contain the lemmas, but can take any name
@@ -150,11 +151,12 @@ GetKwicsLL_LR_DDL <- function(Kwics, Lem, CorpusFreqs, HeadwordVar, MinFreq=50, 
 
       # sort & trim DF to top KW
       if(is.null(SortBy)){
+       
         SortBy <- "LogLikCorpusVSRefcorpus"
       }
       if(!SortBy %in% colnames(LL_LRdf)){
         SortBy <- "LogLikCorpusVSRefcorpus"
-        # print("your sort-by parameter is not in data: sorting by loglikelihood")
+         print("your sort-by parameter is not in data: sorting by loglikelihood")
       }
       LL_LRDF <- LL_LRdf[order(LL_LRdf[[SortBy]],decreasing=T),]
 
@@ -180,6 +182,8 @@ GetColloByLemma <- function(Lem, HeadFreqs, window=5, HeadwordVar, Stopwords="",
   # and create more digestible individual file for manual editing
   kwics <- GetAllLemmaSents(Lem,"./data/CorpusDocs", HeadwordVar=HeadwordVar, Window=window,Cores=Cores)
   if(!is.null(kwics) && nrow(kwics)>0){
+
+    
     KeyWDF <- GetKwicsLL_LR_DDL(kwics,Lem, HeadFreqs, HeadwordVar, MinFreq= MinFreq, Stopwords= Stopwords, minLL= minLL, minLR= minLR, minMI= minMI, minLogDice=minLogDice, SortBy=SortBy, MaxKW=MaxKW,  Cores= Cores)
     if(!is.null(KeyWDF) && nrow(KeyWDF)>0){
       colnames(KeyWDF)[1] <- "collocate" # changes from "lemma.1"
@@ -216,6 +220,10 @@ GetColloForAllLemmaAtOnce <- function(HeadwordVec, HeadFreqs, window=5, Headword
   names(allLemmataSents) <- HeadwordVec
   allLemmataSents <- allLemmataSents[!sapply(allLemmataSents, is.null)]
   if(!is.null(allLemmataSents) && length(allLemmataSents)>0){
+ 
+
+    #KeyW <- lapply(seq_along(allLemmataSents), function(i) GetKwicsLL_LR_DDL(allLemmataSents[i][[1]],names(allLemmataSents[i]), HeadFreqs, HeadwordVar, MinFreq=MinFreq, Stopwords=Stopwords, minLL=minLL, minLR=minLR, minMI=minMI, minLogDice=minLogDice, SortBy=SortBy, MaxKW=MaxKW,  Cores = Cores))
+    
     KeyW <- lapply(seq_along(allLemmataSents), function(i) GetKwicsLL_LR_DDL(allLemmataSents[i][[1]],names(allLemmataSents[i]), HeadFreqs, HeadwordVar, MinFreq=force(MinFreq), Stopwords=force(Stopwords), minLL=force(minLL), minLR=force(minLR), minMI=force(minMI), minLogDice=force(minLogDice), SortBy=force(SortBy), MaxKW=force(MaxKW),  Cores = Cores))
     names(KeyW) <- names(allLemmataSents)
     KeyW <- KeyW[!sapply(KeyW, is.null)]

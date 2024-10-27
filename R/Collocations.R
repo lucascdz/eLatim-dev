@@ -43,14 +43,14 @@ CollocationsUI <- function(id){
              selectInput(
                NS(id, "MI"),
                "Mutual Information Threshold",
-               choices = c("select", seq(from=0, to=10, by=1)),
-               selected = "select"
+               choices = c(seq(from=0, to=10, by=1)),
+               selected = 0
              ),
              selectInput(
                NS(id, "LogDice"),
                "Log Dice Threshold",
-               choices = c("select", seq(from=0, to=14, by=1)),
-               selected = "select"
+               choices = c(seq(from=0, to=14, by=1)),
+               selected = 0
              ),
              selectInput(
                NS(id, "sortBy"),
@@ -124,21 +124,38 @@ observeEvent(input$test,{
     minLR <- input$LR
     minMI <- input$MI
     minLogDice <- input$LogDice
+
+    
     stopwordsFile <- input$stopwordsFile
   if(!is.null(stopwordsFile) &&  TRUE %in% str_detect(as.character(stopwordsFile), "\\.csv$")){
     Stopwords <- read.csv(stopwordsFile, stringsAsFactors = F)
     Stopwords <- Stopwords[,1]
+ 
   }else{
     Stopwords <- ""
   }
     SortBy <- input$sortBy
+    
+    if(SortBy=="LogR"){
+    SortBy <- "LR"
+    }else if(SortBy=="LogL"){
+      SortBy <- "LogLikCorpusVSRefcorpus"
+    }
+    
     MaxKW <- input$maxCollo
-
-
+    
+    
   output$SampleWordsRes <- DT::renderDataTable ({
-
+print("Collocations line 149 ")
+    print(paste("window",window))
+    print(paste("MinFreq",MinFreq))
+    print(paste("minLL",minLL))
+    print(paste("minLR",minLR))
+    print(paste("minLogDice",minLogDice))
+    print(paste("minMI",minMI))
+    print(paste("Stopwords 1",Stopwords[1]))
     KeyWDF <- GetColloForAllLemmaAtOnce(HeadwordVec, HeadFreqs, window, HeadwordVar, Stopwords, MinFreq, minLL, minLR, minMI,minLogDice,SortBy,MaxKW,Cores)
-
+print(head(KeyWDF))
     if(!is.null(KeyWDF) && nrow(KeyWDF)>0){
     datatable(KeyWDF, escape=F, rownames= FALSE)
     }else{
