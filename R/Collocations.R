@@ -146,16 +146,9 @@ observeEvent(input$test,{
     
     
   output$SampleWordsRes <- DT::renderDataTable ({
-print("Collocations line 149 ")
-    print(paste("window",window))
-    print(paste("MinFreq",MinFreq))
-    print(paste("minLL",minLL))
-    print(paste("minLR",minLR))
-    print(paste("minLogDice",minLogDice))
-    print(paste("minMI",minMI))
-    print(paste("Stopwords 1",Stopwords[1]))
+
     KeyWDF <- GetColloForAllLemmaAtOnce(HeadwordVec, HeadFreqs, window, HeadwordVar, Stopwords, MinFreq, minLL, minLR, minMI,minLogDice,SortBy,MaxKW,Cores)
-print(head(KeyWDF))
+
     if(!is.null(KeyWDF) && nrow(KeyWDF)>0){
     datatable(KeyWDF, escape=F, rownames= FALSE)
     }else{
