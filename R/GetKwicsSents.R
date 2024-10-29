@@ -18,7 +18,9 @@ GetLemmaSent <- function(Lem, CorpusDocFilename, Window=NULL, HeadwordVar){
 
   # if Window=NULL returns a DF with the full corpus sentneces in which the lenma Lem occurs + one col with the source text
   # if Window is a numberr it returns a Kwic with window-number of words to left and right in the SAME sentnece, if sentnece ends before the window, the words retrieved are less than window.
+  if(!is.null(Window) && !is.na(Window) && Window!=""){
   Window <- as.numeric(Window)
+  }
 
   FileIndex <- readRDS(paste0("./data/CorpusData/HeadwordIndex_",gsub("fst$","rds", CorpusDocFilename)))
   LemIndex <- FileIndex[[Lem]]
