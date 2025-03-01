@@ -265,7 +265,7 @@ MakeAllentries <- function(HeadwordVec,RuleList, DictData, TAB=NULL, Cores){
 
   updateYaml("./MyDict")
 
-  if(length(HeadwordVec)<200){
+  if(length(HeadwordVec)<1200){
   lapply(HeadwordVec, function(x) {print(x);MakeQuartoFile(Word= x,
                            EntryData= readRDS(paste0("./MyDict/",dir("./MyDict")[str_detect(dir("./MyDict"),paste0("^Entry", MakeSafeForFilename(x), ".rds") )])),
                            TAB)})
