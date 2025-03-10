@@ -1,35 +1,47 @@
+library(tidyverse)
 
-GetTranslationsAndRefs <- function(DataFolder,SentTransDF,SentRefsDF){
+DataFolder <- './data/'
+TranslationsDF <- read.csv('./data/extra_translations_JDD.tsv',sep='\t')
+SentRefsDF <- read.csv('./data/extra_sentRefs.csv')
+OutputsFolder <- paste0(DataFolder,'Outputs/')
+ExamplesDF <- read.csv(paste0(OutputsFolder,'ExampleSents.csv'))
 
-   # get IDs
-   CorpusDocsPath <- paste0(DataFolder,'CorpusDocs/')
-   CorpusDocsFileVec <- dir(CorpusDocsPath)
-   SentenceList <- lapply(seq_along(CorpusDocsFileVec), function(i) fst::read_fst(paste0(CorpusDocsPath,CorpusDocsFileVec[i])))
-   SentenceList <- lapply(seq_along(SentenceList), function(i) data.frame(sent_id=unique(SentenceList[[i]]$sent_id),sID=unique(SentenceList[[i]]$sID),filename=gsub('\\.fst','',CorpusDocsFileVec[[i]]),stringsAsFactors = F))
-   SentenceDF <- do.call(rbind,SentenceList)
-   SentenceDF$ID <- unlist(lapply(seq_along(SentenceDF$sent_id), function(i) paste0(SentenceDF$sID[i],'___',SentenceDF$filename[i])))
+#GetTranslationsAndRefs <- function(DataFolder,SentTransDF,SentRefsDF){
 
-   # get translations
-   SentTransDF <- left_join(SentTransDF,SentenceDF)
-   SentTransDF <- SentTransDF[,colnames(SentTransDF) %in% c('ID','translation_JDD','tradR')]
+# get IDs
+CorpusDocsPath <- paste0(DataFolder,'CorpusDocs/')
+CorpusDocsFileVec <- dir(CorpusDocsPath)
+SentIDsList <- lapply(seq_along(CorpusDocsFileVec), function(i) fst::read_fst(paste0(CorpusDocsPath,CorpusDocsFileVec[i])))
+SentIDsList <- lapply(seq_along(SentIDsList), function(i) data.frame(sent_id=unique(SentIDsList[[i]]$sent_id),sID=unique(SentIDsList[[i]]$sID),filename=gsub('\\.fst','',CorpusDocsFileVec[[i]]),stringsAsFactors = F))
+SentIDsDF <- do.call(rbind,SentIDsList)
+SentIDsDF$ID <- unlist(lapply(seq_along(SentIDsDF$sent_id), function(i) paste0(SentIDsDF$sID[i],'___',SentIDsDF$filename[i])))
 
-   # get refs
-   SentRefsDF <- left_join(SentenceDF,SentRefsDF)
-   SentRefsDF <- SentRefsDF[,colnames(SentRefsDF) %in% c('ID','ref')]
+# get refs
+SentIDsWithRefsDF <- left_join(SentIDsDF,SentRefsDF)
 
-   # join to examples
+# get translations
+TranslationsDF$traducao <- gsub('[;:,] ?$','.',TranslationsDF$traducao)
+SentIDsWithRefsAndTransDF <- left_join(SentIDsWithRefsDF,TranslationsDF)
+SentIDsWithRefsAndTransDF <- SentIDsWithRefsAndTransDF[,colnames(SentIDsWithRefsAndTransDF) %in% c('ID','ref','traducao','tradutor')]
 
-   OutputsFolder <- paste0(DataFolder,'Outputs/')
-   ExampleSentsDF <- read.csv(paste0(OutputsFolder,'ExampleSents.csv'))
-   ExampleSentsDF$Sent <- gsub(' que ','que ',ExampleSentsDF$Sent) %>%
-      gsub(' ue ','ue ',.)
-   ExampleSentsDF <- left_join(ExampleSentsDF,SentRefsDF)
-   ExampleSentsDF <- left_join(ExampleSentsDF,SentTransDF)
-   # order and clear
-   ExampleSentsDF <- ExampleSentsDF[order(ExampleSentsDF$translation_JDD),]
-   ExampleSentsDF$translation_JDD <- gsub('[;:,] ?$','.',ExampleSentsDF$translation_JDD)
-   write_csv(ExampleSentsDF,paste0(OutputsFolder,'ExampleSentsWithTranslation.csv'),na = '')
+# join refs and translations to examples
+ExamplesDF$Sent <- gsub(' que ','que ',ExamplesDF$Sent) %>%
+   gsub(' ue ','ue ',.)
+ExamplesDF$wordcount <- unlist(lapply(seq_along(ExamplesDF[,1]), function(i) str_count(ExamplesDF$Sent[i],' ')+1))
+ExamplesDF <- ExamplesDF[order(ExamplesDF$wordcount),]
+ExamplesDF$wordcount <- NULL
 
-   return(print("Check the file 'ExampleSentsWithTranslation.csv' in ./data/Outputs folder."))
+TranslatedExamplesDF <- left_join(ExamplesDF,SentIDsWithRefsAndTransDF)
+TranslatedExamplesDF <- TranslatedExamplesDF[,c(which(colnames(TranslatedExamplesDF)=='lemma'),
+                            which(colnames(TranslatedExamplesDF)=='ref'),
+                            which(colnames(TranslatedExamplesDF)=='Sent'),
+                            which(colnames(TranslatedExamplesDF)=='traducao'),
+                            which(colnames(TranslatedExamplesDF)=='tradutor'))]
+colnames(TranslatedExamplesDF) <- c('lemma','loc.cit.','texto','traducao','tradutor')
+rownames(TranslatedExamplesDF) <- NULL
 
-}
+# save
+write_csv(TranslatedExamplesDF,paste0(OutputsFolder,'ExampleSentsWithTranslation.csv'),na = '')
+
+
+#}
