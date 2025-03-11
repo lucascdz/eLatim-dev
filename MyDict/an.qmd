@@ -1,0 +1,209 @@
+---
+title: "an"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-110xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>an</b> <br> <small>ou</small> <b>anne</b> <br> <small>conj. partícula interrogativa, que traduz uma grande dúvida ou uma restrição</small> <br> <small>Obs.: Anne é forma rara que se emprega principalmente em interrogativas duplas cujo primeiro membro é introduzido por an; também antes de vogal, ou por motivos de ritmo ou harmonia da frase Verg. G. 1, 25.</small>   <p> <b>1</b> &ensp; <small>I-Na interrogativa direta simples:</small> &ensp; Será possível quê? por ventura? Acaso? &ensp; <small></small> <br> <b>2</b> &ensp; <small>I-Na interrogativa direta simples:-É frequente o seu emprego em fórmulas de civilidade como: amabo. obsecro. quaeso; dic:,etc.:</small> &ensp; por favor, acaso, peço, porventura? dize, acaso? &ensp; <small>Cíc. Quinct. 81.</small> <br> <b>3</b> &ensp; <small>I-Na interrogativa direta simples:</small> &ensp; Exprimindo uma restrição, especialmente nas interrogações oratórias: acaso? Porventura? &ensp; <small>Cíc. Amer. 148.</small> <br> <b>4</b> &ensp; <small>II-Nas interrogativas duplas, ou tríplices tem sentido dubitativo.</small> &ensp; Ou &ensp; <small>a primeira interrogativa é introduzida por ne, utrum ou num:</small> <br> <b>5</b> &ensp; <small>II-Nas interrogativas duplas, ou tríplices tem sentido dubitativo.</small> &ensp; Ou &ensp; <small>sem nenhuma partícula na primeira interrogativa:</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>adeone me delirare censes. ut ista esse credam? - an tu haec non credis? Cíc. Tusc. 1, 10 «julga-me delirar a tal ponto que creia que isto existe? - ou porventura não crês nisto?». <br> <br><b>4</b><br>utrum superbiam prius memorem an crudelitatem? Cíc. Verr. 1, 122 «qual das duas devo mencionar primeiro, sua soberba ou sua crueldade?». <br> <br><b>5</b><br>est an non est? Ter. Eun. 546 «é ou não é?» . </p> 
+ <b>anne</b> <br> <small></small> <br> <small>v. an.</small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>An</b> <br> <small>adv. de perguntar</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; por ventura. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>errauit, an potius insaniuit? &ensp; <small><small>Cic</small></small> &ensp; <small>Elle errou, ou mais de pressa enlouqueceo?</small> </p>
+
+
+
+
+#### Velez
+
+<b>An</b>   <p> <b>1</b> &ensp; por ventura </p>
+
+
+
+
+#### Cardoso
+
+<b>An</b> <br> <small>aduerb. interrogatiuũ.</small>   <p> <b>1</b> &ensp; por ventura </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/88828 ' target="_blank"> http://lila-erc.eu/data/id/lemma/88828 </a> <br>
+<small> classe: </small> conjunção coordenativa    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> anne, annon <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+annĕ
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-110xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword an here are all the values plotted: collocate: uersus; scoreSUBST: 3. collocate: quia; scoreSUBST: 0. collocate: iniuria; scoreSUBST: 2. collocate: ne; scoreSUBST: 0. collocate: uos; scoreSUBST: 0. collocate: ille; scoreSUBST: 0. collocate: tu; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-110xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword an here are all the values plotted: collocate: uersus; scoreADJ: 0. collocate: quia; scoreADJ: 0. collocate: iniuria; scoreADJ: 0. collocate: ne; scoreADJ: 0. collocate: uos; scoreADJ: 0. collocate: ille; scoreADJ: 0. collocate: tu; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-110xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword an here are all the values plotted: collocate: uersus; scoreVERBO: 0. collocate: quia; scoreVERBO: 0. collocate: iniuria; scoreVERBO: 0. collocate: ne; scoreVERBO: 0. collocate: uos; scoreVERBO: 0. collocate: ille; scoreVERBO: 0. collocate: tu; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-110xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword an here are all the values plotted: collocate: uersus; scoreADV: 0. collocate: quia; scoreADV: 0. collocate: iniuria; scoreADV: 0. collocate: ne; scoreADV: 0. collocate: uos; scoreADV: 0. collocate: ille; scoreADV: 0. collocate: tu; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-110xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword an here are all the values plotted: collocate: uersus; scoreFUNC: 0. collocate: quia; scoreFUNC: 20. collocate: iniuria; scoreFUNC: 0. collocate: ne; scoreFUNC: 20. collocate: uos; scoreFUNC: 0. collocate: ille; scoreFUNC: 0. collocate: tu; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> iure <b>an</b> iniuria <br> <small> Cic.Mil.57 <br> Justa ou injustamente? <small> [JDD] </small> </small> </p>
+; <p> <b>an</b> ne ignoscatur <br> <small> Cic.Lig.13 <br> Acaso que não seja perdoado? <small> [JDD] </small> </small> </p>
+; <p> <b>an</b> illam orationem non legit <br> <small> Cic.Att.3.15.3 <br> Por acaso não leu aquele discurso? <small> [JDD] </small> </small> </p>
+; <p> <b>an</b> uero id quod accidit <br> <small> Cic.Ver.2.4.90.9 <br> Acaso o que de fato aconteceu? <small> [JDD] </small> </small> </p>
+; <p> <b>an</b> uti uos infestos coniurationi faceret <br> <small> Sal.Cat.51.10 <br> Acaso para fazer-vos irritados com a conjuração? <small> [JDD] </small> </small> </p>
+; <p> <b>an</b> ne nummi vobis eriperentur timebatis <br> <small> Cic.Att.1.16.5 <br> Acaso temíeis que vos fossem roubadas as moedas?” <small> [JDD] </small> </small> </p>
+; <p> <b>an</b> quia grauius est uerberari quam necari <br> <small> Sal.Cat.51.23 <br> Acaso porque é mais grave ser açoitado do que ser morto? <small> [JDD] </small> </small> </p>
+; <p> <b>an</b> uero quisquam dubitabit appellare Caesarem imperatorem <br> <small> Cic.Phil.14.28.1 <br> Por acaso alguém duvidará em chamar César de general vitorioso? <small> [JDD] </small> </small> </p>
+; <p> primo ne in aeuo uiridis <b>an</b> fracto occidit <br> <small> Sen.Oed.775 <br> Morreu no verdor da juventude ou já alquebrado? <small> [JDD] </small> </small> </p>
+; <p> Unde illa scivit niger <b>an</b> albus nascerer ? <br> <small> Phaed.3.15 <br> De onde ela soube se eu nasceria negro ou branco? <small> [JDD] </small> </small> </p>
+; <p> nunc quaero utrum uestras iniurias <b>an</b> rei publicae persequamini <br> <small> Cic.Lig.29 <br> Agora quero saber se vós perseguis os vossos ultrajes ou os da república? <small> [JDD] </small> </small> </p>
+; <p> <b>an</b> te morantur uirgines uiduae domi patrique Orestes similis <br> <small> Sen.Ag.195 <br> Acaso são as donzelas solteiras da casa que te detém e Orestes, semelhante ao pai? <small> [JDD] </small> </small> </p>
+; <p> <b>an</b> quia non condemnaui sententia mea duo consules sum reprehendendus <br> <small> Cic.Dom.9 <br> 9 Por acaso devo ser repreendido porque não condenei com meu parecer os dois cônsules? <small> [JDD] </small> </small> </p>
+; <p> dubius sum quid faciam inquit te ne relinquam <b>an</b> rem <br> <small> Hor.S.1.9.40 <br> “Estou na duvida sobre o que farei”, diz, “deixarei a ti ou o pleito? <small> [JDD] </small> </small> </p>
+; <p> <b>ne</b> <b>ne</b> ex eo numero qui una te cum fuerunt <br> <small> Cic.Marc.21 <br> Por acaso daquele número dos que estiveram contigo? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-110xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 14.74 and an absolute frequency of 79. The Cicero subcorpus follows, with a normalized frequency of 10.34 and an absolute frequency of 166. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 6 ; absolute frequency: 2.26603217765692. subcorpus: Cicero ; normalized frequency: 166 ; absolute frequency: 10.3411327901124. subcorpus: Horatius ; normalized frequency: 10 ; absolute frequency: 8.88020602077968. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 79 ; absolute frequency: 14.7440323995446. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-110xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 13.44 and an absolute frequency of 140. The Prosa.filosófica subcorpus follows, with a normalized frequency of 12.19 and an absolute frequency of 74. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 3.86 and an absolute freqeuncy of 2. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 16 ; absolute frequency: 3.89493415126951. subcorpus: Prosa.filosófica ; normalized frequency: 74 ; absolute frequency: 12.190902950528. subcorpus: Prosa.oratória ; normalized frequency: 140 ; absolute frequency: 13.441763559379. subcorpus: Prosa.epistolográfica ; normalized frequency: 18 ; absolute frequency: 4.76960173825486. subcorpus: Poesia.lírica ; normalized frequency: 10 ; absolute frequency: 8.4125515268781. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 13 ; absolute frequency: 11.2925642807505. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-110xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 12.85 and an absolute frequency of 84. The I.a.C. subcorpus follows, with a normalized frequency of 8.89 and an absolute frequency of 191. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 6.74 and an absolute freqeuncy of 3. here are all the values: subcorpus: I.a.C. ; normalized frequency: 191 ; absolute frequency: 8.88992320223412. subcorpus: I.d.C. ; normalized frequency: 84 ; absolute frequency: 12.8499311610831. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+:::
+

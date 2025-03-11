@@ -1,0 +1,209 @@
+---
+title: "nascor"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-97-115-99-111-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>nascor</b> <b>-èris</b> <b>nascí, natus sum</b> <br> <small>v. dep. intr.</small> <br> <small>Obs.: Constrói-se com abl.; com abl. com de, ex ou ab; como absoluto; ou com ut.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Nascer, vir ao mundo &ensp; <small>Cés. B. Gal. 7, 37, 1; Cíc. Amer. 46; Cíc. Tusc. 1. 9.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Nascer das coisas abstratas e inanimadas, provir, originar-se, levantar, elevar &ensp; <small>Cés. B. Gal. 2, 18, 2; Cés. B. Gal. 5, 12, 5.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Nascor</b> -<b>eris</b> <b>natus sum</b> <b>nasci</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; nascer. <br> <b>2</b> &ensp; começar, provir, principiar a ser. <br> <b>3</b> &ensp; acontecer. </p>
+
+
+
+
+#### Velez
+
+<b>Nascor</b> -<b>eris</b>   <p> <b>1</b> &ensp; nascer &ensp; <small>abl. cum praep. vel sine ea.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Nascor</b> -<b>eris</b> <b>natus sum</b>   <p> <b>1</b> &ensp; nacer </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/113387 ' target="_blank"> http://lila-erc.eu/data/id/lemma/113387 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação depoente (sem vogal temática) <br>
+<small> outras grafias: </small> gnascor <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> gnascor, nascor </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz passiva </small><br>
+; <b> gnasci, nasci </b>&emsp;<small> presente | infinitivo | passivo </small><br>
+; <b> gnascetur, nascetur </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz passiva </small><br>
+; <b> gnatum, natum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> gnasciturum, naturum, nasciturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+nascĕris 
+ nascī 
+ nātus sum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx110-97-115-99-111-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-97-115-99-111-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword nascor here are all the values plotted: collocate: pater; scoreSUBST: 3. collocate: libertas; scoreSUBST: 2. collocate: genus; scoreSUBST: 2. collocate: ita; scoreSUBST: 0. collocate: qua; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-97-115-99-111-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword nascor here are all the values plotted: collocate: pater; scoreADJ: 0. collocate: libertas; scoreADJ: 0. collocate: genus; scoreADJ: 0. collocate: ita; scoreADJ: 0. collocate: qua; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-97-115-99-111-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword nascor here are all the values plotted: collocate: pater; scoreVERBO: 0. collocate: libertas; scoreVERBO: 0. collocate: genus; scoreVERBO: 0. collocate: ita; scoreVERBO: 0. collocate: qua; scoreVERBO: 0. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-97-115-99-111-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword nascor here are all the values plotted: collocate: pater; scoreADV: 0. collocate: libertas; scoreADV: 0. collocate: genus; scoreADV: 0. collocate: ita; scoreADV: 2. collocate: qua; scoreADV: 2. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-97-115-99-111-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword nascor here are all the values plotted: collocate: pater; scoreFUNC: 0. collocate: libertas; scoreFUNC: 0. collocate: genus; scoreFUNC: 0. collocate: ita; scoreFUNC: 0. collocate: qua; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Equidem <b>natus</b> non eram . <br> <small> Phaed.1.1 <br> “Mas eu nem era nascido”. <small> [JDD] </small> </small> </p>
+; <p> magno patre <b>nata</b> puella est <br> <small> Hor.S.1.2.72 <br> “A garota é filha de um pai importante.” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> falsum est peiores morimur quam <b>nascimur</b> <br> <small> Sen.Ep.22.15 <br> É falso: morremos piores do que nascemos. <small> [JDD] </small> </small> </p>
+; <p> ita dico ex quo <b>natus</b> es duceris <br> <small> Sen.Ep.4.9 <br> É o que digo: desde que nasceste, és levado para a morte. <small> [JDD] </small> </small> </p>
+; <p> profecto hinc <b>natum</b> est malo emere quam rogare <br> <small> Cic.Ver.2.4.12.12 <br> Sem dúvida foi daqui que nasceu: “Prefiro comprar do que implorar.” <small> [JDD] </small> </small> </p>
+; <p> ad decus et ad libertatem <b>nati</b> sumus aut haec teneamus aut cum dignitate moriamur <br> <small> Cic.Phil.3.36.2 <br> Nascemos para a honra e para a liberdade; ou as mantenhamos ou morramos com dignidade. <small> [JDD] </small> </small> </p>
+; <p> Lucius Catilina nobili genere <b>natus</b> fuit magna ui et animi et corporis sed ingenio malo prauo que <br> <small> Sal.Cat.5.1 <br> Lúcio Catilina, nascido de nobre linhagem, foi de grande vigor tanto de espírito como de corpo, mas de caráter mau e depravado. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-97-115-99-111-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 44.1 and an absolute frequency of 4. The Phaedrus subcorpus follows, with a normalized frequency of 12.15 and an absolute frequency of 8. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 6 ; absolute frequency: 2.26603217765692. subcorpus: Cicero ; normalized frequency: 59 ; absolute frequency: 3.67546285913633. subcorpus: Horatius ; normalized frequency: 13 ; absolute frequency: 11.5442678270136. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 8 ; absolute frequency: 12.1451343555488. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 46 ; absolute frequency: 8.58513278960826. subcorpus: Suetonius ; normalized frequency: 4 ; absolute frequency: 44.1014332965821. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-97-115-99-111-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 10.94 and an absolute frequency of 13. The Prosa.filosófica subcorpus follows, with a normalized frequency of 9.56 and an absolute frequency of 58. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 13 ; absolute frequency: 3.16463399790647. subcorpus: Prosa.filosófica ; normalized frequency: 58 ; absolute frequency: 9.55503204230573. subcorpus: Prosa.oratória ; normalized frequency: 40 ; absolute frequency: 3.84050387410828. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 13 ; absolute frequency: 10.9363169849415. subcorpus: Poesia.didática ; normalized frequency: 10 ; absolute frequency: 8.48248367121893. subcorpus: Poesia.trágica ; normalized frequency: 6 ; absolute frequency: 5.21195274496178. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-97-115-99-111-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 13.09 and an absolute frequency of 5. The I.d.C. subcorpus follows, with a normalized frequency of 8.57 and an absolute frequency of 56. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 83 ; absolute frequency: 3.86316034442634. subcorpus: I.d.C. ; normalized frequency: 56 ; absolute frequency: 8.56662077405538. subcorpus: II.d.C. ; normalized frequency: 5 ; absolute frequency: 13.0890052356021. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

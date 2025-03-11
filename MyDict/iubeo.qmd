@@ -1,0 +1,216 @@
+---
+title: "iubeo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-117-98-101-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>jubĕō</b> <b>-és</b> <b>-ére</b> <b>jússí, jússum</b> <br> <b>iubĕō</b> <b>-és</b> <b>-ére</b> <b>jússí, jússum</b> <br> <small>v. tr. e intr.</small> <br> <small>Obs.: Constrói-se com or inf.; com ut: com simples subjuntivo; com acus.; e com acus e dat.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Ordenar, mandar &ensp; <small>Cés. B. Gal. 1, 27, 2; Plaut. Most. 930; Cés. B. Gal. 3, 6, 1.</small> <br> <b>2</b> &ensp; <small>I-Na língua do direito público, tratando-se das resoluções políticas, das leis votadas pelo populus, significa:</small> &ensp; decidir, autorizar, sancionar &ensp; <small>Cíc. Verr. 2, 161.</small> <br> <b>3</b> &ensp; <small>II-Na língua familiar:</small> &ensp; convidar a, levar a, desejar &ensp; <small>Cíc. Fam. 14, 1, 2.</small> <br> <b>4</b> &ensp; <small>II-Daí:</small> &ensp; Saudar &ensp; <small>Ter. And. 533; Cíc. AI. 4, 14, 2.</small> </p> 
+ <b>jussī</b> <br> <small>perf. de jubèo.</small> <br> <small></small> 
+ <b>jussō</b> <br> <small>= jussèro fuI. perf. de jubèo Verg. En. 11. 467.</small> <br> <small></small> 
+ <b>justī</b> <br> <small>= jussístí perf. de jubèo Plau!. Men. 1. 146.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Jubeo</b> -<b>es</b> -<b>ussi</b> -<b>ussum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; ordenar, mandar com imperio. <br> <b>2</b> &ensp; <small>Liv.</small> &ensp; eleger. </p> 
+ <small>Cat. por Jubetur</small> <b>Jussitur</b> 
+ <small>Virg. por Jussero</small> <b>Jusso</b>
+
+
+
+
+#### Velez
+
+<b>Jubeo</b> -<b>es</b> <br> <small>1. b.</small>   <p> <b>1</b> &ensp; mandar com imperio &ensp; <small>dat.</small> <br> <b>2</b> &ensp; determinar, decretar &ensp; <small>accus.</small> <br> <b>3</b> &ensp; <small>interdum pro Precari, vel optare</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>3</b><br>iubeo te saluere </p>
+
+
+
+
+#### Cardoso
+
+<b>Iubeo</b> -<b>es</b> <b>iussi</b> <b>iussum</b>   <p> <b>1</b> &ensp; mãdar como iussũ </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/109152 ' target="_blank"> http://lila-erc.eu/data/id/lemma/109152 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação (tema em -e-) <br>
+<small> outras grafias: </small> ioubeo, iuueo <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> ioubeo, iubeo, iuueo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> ioubere, iubere, iuuere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> ioubebit, iubebit, iuuebit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> iousi, iussi, iusi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> iussum, iusum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> iussurum, iusurum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+jŭbĕō 
+ jŭbēs 
+ jŭbēre 
+ jussī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx105-117-98-101-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-117-98-101-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword iubeo here are all the values plotted: collocate: proficiscor; scoreSUBST: 0. collocate: munio; scoreSUBST: 0. collocate: uoco; scoreSUBST: 0. collocate: adduco; scoreSUBST: 0. collocate: interficio; scoreSUBST: 0. collocate: ipse; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-117-98-101-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword iubeo here are all the values plotted: collocate: proficiscor; scoreADJ: 0. collocate: munio; scoreADJ: 0. collocate: uoco; scoreADJ: 0. collocate: adduco; scoreADJ: 0. collocate: interficio; scoreADJ: 0. collocate: ipse; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-117-98-101-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword iubeo here are all the values plotted: collocate: proficiscor; scoreVERBO: 2. collocate: munio; scoreVERBO: 2. collocate: uoco; scoreVERBO: 2. collocate: adduco; scoreVERBO: 2. collocate: interficio; scoreVERBO: 2. collocate: ipse; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-117-98-101-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword iubeo here are all the values plotted: collocate: proficiscor; scoreADV: 0. collocate: munio; scoreADV: 0. collocate: uoco; scoreADV: 0. collocate: adduco; scoreADV: 0. collocate: interficio; scoreADV: 0. collocate: ipse; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-117-98-101-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword iubeo here are all the values plotted: collocate: proficiscor; scoreFUNC: 0. collocate: munio; scoreFUNC: 0. collocate: uoco; scoreFUNC: 0. collocate: adduco; scoreFUNC: 0. collocate: interficio; scoreFUNC: 0. collocate: ipse; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> et ipsos benedixit et <b>iussit</b> adponi <br> <small> Vulg.Marc.8.7 <br> também os abençoou e ordenou que fossem distribuídos. <small> [JDD] </small> </small> </p>
+; <p> primam et secundam aciem in armis esse tertiam castra munire <b>iussit</b> <br> <small> Caes.Gal.1.49.2 <br> Ordenou que a primeira e a segunda linha estivessem em armas, que a terceira fortificasse o acampamento. <small> [JDD] </small> </small> </p>
+; <p> quibus pacem atque amicitiam petentibus liberaliter respondet obsidesque ad se adduci <b>iubet</b> <br> <small> Caes.Gal.4.18.3 <br> a esses, que pediam paz e amizade, responde amigavelmente e ordena que lhe sejam trazidos reféns. <small> [JDD] </small> </small> </p>
+; <p> interfectores interfecturis <b>iubent</b> obici et uictorem in aliam detinent caedem exitus pugnantium mors est <br> <small> Sen.Ep.7.4 <br> Estes ordenam que os que mataram enfrentem os que vão matá-los e reservam o vencedor para outra matança; o fim dos que lutam é a morte. <small> [JDD] </small> </small> </p>
+; <p> igitur confirmato animo uocari ad sese <b>iubet</b> Lentulum Cethegum Statilium Gabinium itemque Caeparium Terracinensem qui in Apuliam ad concitanda seruitia proficisci parabat <br> <small> Sal.Cat.46.3 <br> Então, com seu espírito restabelecido, ordena que sejam chamados até ele Lêntulo, Cetego, Estatílio, Gabínio e também Cepário de Tarracina. Este se dispunha a partir para Apúlia para sublevar os escravos. <small> [JDD] </small> </small> </p>
+; <p> Cauarinum cum equitatu Senonum se cum proficisci <b>iubet</b> ne quis aut ex huius iracundia aut ex eo quod meruerat odio ciuitatis motus existat <br> <small> Caes.Gal.6.5.2 <br> Ordena que Cavarino parta com ele com a cavalaria dos senones, para que nenhum movimento da cidade se eleve ou devido à sua iracúndia ou devido ao ódio que tinha ganho. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> P. Crassum cum cohortibus legionariis duodecim et magno numero equitatus in Aquitaniam proficisci <b>iubet</b> ne ex his nationibus auxilia in Galliam mittantur ac tantae nationes coniungantur <br> <small> Caes.Gal.3.11.3 <br> Ordena que Públio Crasso, com doze coortes legionárias e um grande número de cavalaria, parta para a Aquitânia, a fim de que não sejam enviadas dessas nações tropas auxiliares para a Gália e a fim de que tantas nações não se juntem. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-117-98-101-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 18.88 and an absolute frequency of 50. The Horatius subcorpus follows, with a normalized frequency of 8.88 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 50 ; absolute frequency: 18.8836014804744. subcorpus: Cicero ; normalized frequency: 75 ; absolute frequency: 4.67219854974957. subcorpus: Horatius ; normalized frequency: 10 ; absolute frequency: 8.88020602077968. subcorpus: Ovidius ; normalized frequency: 9 ; absolute frequency: 15.442690459849. subcorpus: Phaedrus ; normalized frequency: 6 ; absolute frequency: 9.10885076666161. subcorpus: Sallustius ; normalized frequency: 15 ; absolute frequency: 13.9133661070402. subcorpus: Seneca ; normalized frequency: 35 ; absolute frequency: 6.5321662529628. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-117-98-101-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 16.55 and an absolute frequency of 68. The Poesia.lírica subcorpus follows, with a normalized frequency of 10.1 and an absolute frequency of 12. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 68 ; absolute frequency: 16.5534701428954. subcorpus: Prosa.filosófica ; normalized frequency: 25 ; absolute frequency: 4.1185482940973. subcorpus: Prosa.oratória ; normalized frequency: 57 ; absolute frequency: 5.4727180206043. subcorpus: Prosa.epistolográfica ; normalized frequency: 17 ; absolute frequency: 4.50462386390736. subcorpus: Poesia.lírica ; normalized frequency: 12 ; absolute frequency: 10.0950618322537. subcorpus: Poesia.didática ; normalized frequency: 13 ; absolute frequency: 11.0272287725846. subcorpus: Poesia.trágica ; normalized frequency: 11 ; absolute frequency: 9.55524669909659. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-117-98-101-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 7.85 and an absolute frequency of 3. The I.d.C. subcorpus follows, with a normalized frequency of 7.34 and an absolute frequency of 48. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 156 ; absolute frequency: 7.26087968350012. subcorpus: I.d.C. ; normalized frequency: 48 ; absolute frequency: 7.34281780633318. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

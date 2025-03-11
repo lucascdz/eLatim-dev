@@ -1,0 +1,203 @@
+---
+title: "ibi"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-98-105xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>ibi</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Aí. nesse lugar &ensp; <small>sent. local C íc. Fam. 6. I, O.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Então. nesse momento &ensp; <small>sent. temporal Ter. A ndr. 356.</small> <br> <b>3</b> &ensp; <small></small> &ensp; Nisso. nesse assunto &ensp; <small>Cíc. Am'er. 82.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Ibi</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Ter.</small> &ensp; ahi, neste lugar, então. <br> <b>2</b> &ensp; nisto, neste negocio, nesta causa. </p>
+
+
+
+
+#### Velez
+
+<b>ibi</b> 
+ <b>Ibi</b>   <p> <b>1</b> &ensp; ahi </p>
+
+
+
+
+#### Cardoso
+
+<b>Ibi</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; ahi </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/106053 ' target="_blank"> http://lila-erc.eu/data/id/lemma/106053 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> ibei <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ĭbi
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx105-98-105xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-98-105xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ibi here are all the values plotted: collocate: consido; scoreSUBST: 0. collocate: atque; scoreSUBST: 0. collocate: que; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-98-105xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ibi here are all the values plotted: collocate: consido; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: que; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-98-105xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ibi here are all the values plotted: collocate: consido; scoreVERBO: 2. collocate: atque; scoreVERBO: 0. collocate: que; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: sum; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-98-105xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ibi here are all the values plotted: collocate: consido; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: que; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-98-105xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ibi here are all the values plotted: collocate: consido; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: que; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> et erat <b>ibi</b> homo habens manum aridam <br> <small> Vulg.Marc.3.1 <br> e havia ali um homem que tinha a mão seca. <small> [JDD] </small> </small> </p>
+; <p> exul fiam <b>ibi</b> me natum putabo quo mittar <br> <small> Sen.Ep.24.17 <br> Me tornarei exilado: pensarei que nasci ali para onde me enviam. <small> [JDD] </small> </small> </p>
+; <p> <b>ibi</b> forum agit cum ego sim in provincia <br> <small> Cic.Att.5.17.6 <br> Ali ele administra a justiça, enquando eu estou na província. <small> [JDD] </small> </small> </p>
+; <p> hic Romanorum aduentum exspectare atque <b>ibi</b> decertare constituisse <br> <small> Caes.Gal.4.19.3 <br> tinham decidido esperar ali a chegada dos romanos e ali combater. <small> [JDD] </small> </small> </p>
+; <p> <b>ibi</b> Orgetorigis filia atque unus e filiis captus est <br> <small> Caes.Gal.1.26.4 <br> Ali foram capturados a filha e um dos filhos de Orgetórige. <small> [JDD] </small> </small> </p>
+; <p> et diluculo valde surgens egressus abiit in desertum locum <b>ibi</b>que orabat <br> <small> Vulg.Marc.1.35 <br> E levantando-se muito cedo, saiu e foi para um local deserto e ali orava. <small> [JDD] </small> </small> </p>
+; <p> alii longo errore iactati non iudicio elegerunt locum sed lassitudine proximum occupauerunt alii armis sibi ius in aliena terra fecerunt quasdam gentes cum ignota peterent mare hausit quaedam <b>ibi</b> consederunt ubi illas rerum omnium inopia deposuit <br> <small> Sen.Helv.7.3 <br> Uns, fatigados pelo longo vagar, não escolheram de modo criterioso o lugar, mas ocuparam o mais próximo devido ao cansaço; outros conquistaram pelas armas o direito em terra alheia; a algumas gentes, quando buscavam lugares desconhecidos, o mar tragou; algumas outras se estabeleceram ali onde a falta de todas as coisas as deixou. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-98-105xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 11.23 and an absolute frequency of 5. The Suetonius subcorpus follows, with a normalized frequency of 11.03 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 27 ; absolute frequency: 10.1971447994562. subcorpus: Cicero ; normalized frequency: 35 ; absolute frequency: 2.18035932321647. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 9 ; absolute frequency: 8.3480196642241. subcorpus: Seneca ; normalized frequency: 5 ; absolute frequency: 0.933166607566115. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-98-105xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 11.23 and an absolute frequency of 5. The Prosa.histórica subcorpus follows, with a normalized frequency of 9.01 and an absolute frequency of 37. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 37 ; absolute frequency: 9.00703522481073. subcorpus: Prosa.filosófica ; normalized frequency: 5 ; absolute frequency: 0.823709658819459. subcorpus: Prosa.oratória ; normalized frequency: 13 ; absolute frequency: 1.24816375908519. subcorpus: Prosa.epistolográfica ; normalized frequency: 21 ; absolute frequency: 5.56453536129733. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-98-105xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 11.23 and an absolute frequency of 5. The I.a.C. subcorpus follows, with a normalized frequency of 3.3 and an absolute frequency of 71. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 1.53 and an absolute freqeuncy of 10. here are all the values: subcorpus: I.a.C. ; normalized frequency: 71 ; absolute frequency: 3.30463113800326. subcorpus: I.d.C. ; normalized frequency: 10 ; absolute frequency: 1.52975370965275. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+:::
+

@@ -1,0 +1,217 @@
+---
+title: "fortuna"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx102-111-114-116-117-110-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>fortūna</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; A Fortuna &ensp; <small>divindade Cíc. Verr. 4, 119.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Fortuna, sorte boa ou má, destino, sina &ensp; <small>Cíc. Dej. 29: Cíc. Nat. 3, 39.</small> <br> <b>3</b> &ensp; <small>II-Especializou-se em:</small> &ensp; Boa sorte, bom êito, felicidade &ensp; <small>C ic. At. 5. II, I.</small> <br> <b>4</b> &ensp; <small>II-Daí, no pl.:</small> &ensp; Dons da fortuna. Riqueza, posses, bens, fortuna &ensp; <small>Cíc. Cat. 2, 10.</small> <br> <b>5</b> &ensp; <small>II-Daí, no pl.:</small> &ensp; Azares da sorte, circunstâncias felizes ou infelizes, sorte. situação &ensp; <small>Cíc. Sull. 66.</small> <br> <b>6</b> &ensp; <small>III-Sent. diverso no sing.:</small> &ensp; Sorte, condição, situação &ensp; <small>C ic. Fin. 5, 52.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Fortuna</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; fortuna, acaso, destino. <br> <b>2</b> &ensp; felicidade, bom successo. <br> <b>3</b> &ensp; desgraça. <br> <b>4</b> &ensp; <small>No plur.</small> &ensp; bens, riquezas. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>periculum fortunae facere &ensp; <small><small>Cic</small></small> &ensp; <small>Tentar a fortuna</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Fortuna</b> -<b>ae</b>   <p> <b>1</b> &ensp; a fortuna </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/103696 ' target="_blank"> http://lila-erc.eu/data/id/lemma/103696 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a/e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+fortūna 
+ fortūnae
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx102-111-114-116-117-110-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx102-111-114-116-117-110-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword fortuna here are all the values plotted: collocate: fama; scoreSUBST: 2. collocate: seruo; scoreSUBST: 0. collocate: siue; scoreSUBST: 0. collocate: tuus; scoreSUBST: 0. collocate: bonum; scoreSUBST: 2. collocate: malus; scoreSUBST: 0. collocate: socius; scoreSUBST: 2. collocate: saepe; scoreSUBST: 0. collocate: contra; scoreSUBST: 0. collocate: suus; scoreSUBST: 0. collocate: bellum; scoreSUBST: 2. collocate: aut; scoreSUBST: 0. collocate: uirtus; scoreSUBST: 2. collocate: uester; scoreSUBST: 0. collocate: que; scoreSUBST: 0. collocate: omnis; scoreSUBST: 0. collocate: atque; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx102-111-114-116-117-110-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword fortuna here are all the values plotted: collocate: fama; scoreADJ: 0. collocate: seruo; scoreADJ: 0. collocate: siue; scoreADJ: 0. collocate: tuus; scoreADJ: 0. collocate: bonum; scoreADJ: 0. collocate: malus; scoreADJ: 2. collocate: socius; scoreADJ: 0. collocate: saepe; scoreADJ: 0. collocate: contra; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: bellum; scoreADJ: 0. collocate: aut; scoreADJ: 0. collocate: uirtus; scoreADJ: 0. collocate: uester; scoreADJ: 0. collocate: que; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: atque; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx102-111-114-116-117-110-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword fortuna here are all the values plotted: collocate: fama; scoreVERBO: 0. collocate: seruo; scoreVERBO: 2. collocate: siue; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0. collocate: bonum; scoreVERBO: 0. collocate: malus; scoreVERBO: 0. collocate: socius; scoreVERBO: 0. collocate: saepe; scoreVERBO: 0. collocate: contra; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: bellum; scoreVERBO: 0. collocate: aut; scoreVERBO: 0. collocate: uirtus; scoreVERBO: 0. collocate: uester; scoreVERBO: 0. collocate: que; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0. collocate: atque; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx102-111-114-116-117-110-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword fortuna here are all the values plotted: collocate: fama; scoreADV: 0. collocate: seruo; scoreADV: 0. collocate: siue; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: bonum; scoreADV: 0. collocate: malus; scoreADV: 0. collocate: socius; scoreADV: 0. collocate: saepe; scoreADV: 2. collocate: contra; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: bellum; scoreADV: 0. collocate: aut; scoreADV: 0. collocate: uirtus; scoreADV: 0. collocate: uester; scoreADV: 0. collocate: que; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: atque; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx102-111-114-116-117-110-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword fortuna here are all the values plotted: collocate: fama; scoreFUNC: 0. collocate: seruo; scoreFUNC: 0. collocate: siue; scoreFUNC: 20. collocate: tuus; scoreFUNC: 0. collocate: bonum; scoreFUNC: 0. collocate: malus; scoreFUNC: 0. collocate: socius; scoreFUNC: 0. collocate: saepe; scoreFUNC: 0. collocate: contra; scoreFUNC: 20. collocate: suus; scoreFUNC: 0. collocate: bellum; scoreFUNC: 0. collocate: aut; scoreFUNC: 0. collocate: uirtus; scoreFUNC: 0. collocate: uester; scoreFUNC: 0. collocate: que; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0. collocate: atque; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>fortuna</b> tua non uult <br> <small> Sen.Ep.19.8 <br> A tua fortuna não quer. <small> [JDD] </small> </small> </p>
+; <p> habet etiam mala <b>fortuna</b> leuitatem <br> <small> Sen.Ep.13.11 <br> A má fortuna também tem a sua veleidade. <small> [JDD] </small> </small> </p>
+; <p> aut quae maris <b>fortuna</b> dispulerit duces <br> <small> Sen.Ag.415 <br> Ou que fortuna do mar dispersou os chefes? <small> [JDD] </small> </small> </p>
+; <p> magnum exemplum nisi mala <b>fortuna</b> non inuenit <br> <small> Sen.Prov.3.4 <br> Não encontra um grande exemplo que não seja na má fortuna. <small> [JDD] </small> </small> </p>
+; <p> suo inquis et patientiae suae beneficio non <b>fortunae</b> <br> <small> Sen.Ep.119.5 <br> “É por seu próprio mérito”, dizes, “e de sua paciência, não de sua fortuna.” <small> [JDD] </small> </small> </p>
+; <p> at te eadem tua <b>fortuna</b> seruauit in cubiculo malle dixisti <br> <small> Cic.Deiot.21 <br> Mas aquela mesma boa sorte tua te salvou: disseste que preferias no quarto.” <small> [JDD] </small> </small> </p>
+; <p> perrumpere nituntur seque ipsi adhortantur ne tantam <b>fortunam</b> ex manibus dimittant <br> <small> Caes.Gal.6.37.10 <br> Esforçam-se por penetrar violentamente e eles próprios exortam a si a não deixar escapar de suas mão tão grande fortuna. <small> [JDD] </small> </small> </p>
+; <p> uos uestra secunda <b>fortuna</b> Castor non potestis sine propinquorum calamitate esse contenti <br> <small> Cic.Deiot.29 <br> Vós, Castor, não és capaz de ficar contente com vossa favorável fortuna sem a desgraça dos vossos parentes? <small> [JDD] </small> </small> </p>
+; <p> saepe enim in quibusdam aut animus abiectior est aut spes amplificandae <b>fortunae</b> fractior <br> <small> Cic.Amici.59 <br> Pois frequentemente em alguns ou o espírito está muito abatido ou a esperança de engandecer sua sorte está muito enfraquecida. <small> [JDD] </small> </small> </p>
+; <p> tua te inquit eadem quae saepe <b>fortuna</b> seruauit negauisti tum te inspicere uelle <br> <small> Cic.Deiot.19 <br> “Tua boa sorte,” diz “a mesma que muitas outras vezes, te salvou: disseste que não querias ver [os presentes] naquela ocasião.” <small> [JDD] </small> </small> </p>
+; <p> magnus uir es sed unde scio si tibi <b>fortuna</b> non dat facultatem exhibendae uirtutis <br> <small> Sen.Prov.4.2 <br> És um grande homem? Mas como sei, se a fortuna não te dá oportunidade de exibir o teu valor? <small> [JDD] </small> </small> </p>
+; <p> quod denique genus esse belli potest in quo illum non exercuerit <b>fortuna</b> rei publicae <br> <small> Cic.Man.28 <br> Enfim, que gênero de guerra pode haver, em que a fortuna da república não o tenha posto à prova? <small> [JDD] </small> </small> </p>
+; <p> occulta fati et ostentis ac responsis destinatum Uespasiano liberisque eius imperium post <b>fortunam</b> credidimus <br> <small> Tac.Hist.1.10.15 <br> Após sua boa fortuna, acreditamosque, tanto pelos presságios como pela respostas dos oráculos, os segredos do destino tinham o império destinado a Vespasiano e seus filhos. <small> [JDD] </small> </small> </p>
+; <p> in ipsa securitate animus ad difficilia se praeparet et contra iniurias <b>fortunae</b> inter beneficia firmetur <br> <small> Sen.Ep.18.6 <br> É na própria segurança que espírito se prepara para as coisas difíceis e se fortalece contra as injúrias da fortuna em meio a seus benefícios. <small> [JDD] </small> </small> </p>
+; <p> nactus es ex perditis atque ab omni non modo <b>fortuna</b> uerum etiam spe derelictis conflatam improborum manum <br> <small> Cic.Catil.1.25.6 <br> Encontraste um bando de maus, constituído de perdidos e despossuídos não só de toda fortuna, mas também de toda esperança. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> qui demissi in obscuro uitam habent si quid iracundia deliquere pauci sciunt fama atque <b>fortuna</b> pares sunt <br> <small> Sal.Cat.51.12 <br> Os que levam a vida mergulhados na obscuridade, se, por raiva, cometem algum delito, poucos ficam sabendo, a fama e a fortuna são iguais. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quibus rebus adductus Caesar non exspectandum sibi statuit dum omnibus <b>fortunis</b> sociorum consumptis in Santonos Heluetii peruenirent <br> <small> Caes.Gal.1.11.6 <br> Movido por essas coisas, César decidiu que não devia ficar esperando, enquanto os helvécios, depois de arruinadas todas as fortunas dos aliados, chegassem aos santões. <small> [JDD] </small> </small> </p>
+; <p> multi autem Gnathonum similes cum sint loco <b>fortuna</b> fama superiores horum est adsentatio molesta cum ad uanitatem accessit auctoritas <br> <small> Cic.Amici.94 <br> Porém, com há muitos semelhantes a Gnatões, superiores por sua posição, fortuna, fama, a bajulação destes é molesta, uma vez que a autoridade se juntou à vaidade <small> [JDD] </small> </small> </p>
+; <p> at C. eiusque posteri , seu <b>fortuna</b> seu uoluntate , in equestri ordine constiterunt usque ad Augusti patrem . <br> <small> Suet.Aug.2.2.2 <br> já Caio e os seus pósteros, ou por azar ou por vontade própria, permaneceram na ordem equestre até o pai de Augusto. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> fuit hoc quondam fuit proprium populi Romani longe a domo bellare et propugnaculis imperi sociorum <b>fortunas</b> non sua tecta defendere <br> <small> Cic.Man.32 <br> Isto foi outrora, foi próprio do povo romano guerrear longe de sua pátria e defender, com os baluartes do império, a fortunas dos aliados, não os seus próprios tetos. <small> [JDD] </small> </small> </p>
+; <p> qua re gaude tuo isto tam excellenti bono et fruere cum <b>fortuna</b> et gloria tum etiam natura et moribus tuis ex quo quidem maximus est fructus iucunditasque sapienti <br> <small> Cic.Marc.19 <br> Por isso alegra-te com essa tua excelente qualidade e desfruta não só de tua fortuna e glória, mas também de tua natureza e costumes; é disso, sem dúvida, que provém o maior fruto e prazer para o sábio. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx102-111-114-116-117-110-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 17.16 and an absolute frequency of 5. The Sallustius subcorpus follows, with a normalized frequency of 14.84 and an absolute frequency of 16. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 18 ; absolute frequency: 6.79809653297077. subcorpus: Cicero ; normalized frequency: 123 ; absolute frequency: 7.6624056215893. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 16 ; absolute frequency: 14.8409238475095. subcorpus: Seneca ; normalized frequency: 78 ; absolute frequency: 14.5573990780314. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 5 ; absolute frequency: 17.164435290079. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx102-111-114-116-117-110-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 13.67 and an absolute frequency of 83. The Prosa.histórica subcorpus follows, with a normalized frequency of 9.74 and an absolute frequency of 40. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 40 ; absolute frequency: 9.73733537817376. subcorpus: Prosa.filosófica ; normalized frequency: 83 ; absolute frequency: 13.673580336403. subcorpus: Prosa.oratória ; normalized frequency: 101 ; absolute frequency: 9.69727228212341. subcorpus: Prosa.epistolográfica ; normalized frequency: 11 ; absolute frequency: 2.91475661782241. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 6 ; absolute frequency: 5.21195274496178. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx102-111-114-116-117-110-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 15.71 and an absolute frequency of 6. The I.d.C. subcorpus follows, with a normalized frequency of 12.39 and an absolute frequency of 81. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 165 ; absolute frequency: 7.67977658831743. subcorpus: I.d.C. ; normalized frequency: 81 ; absolute frequency: 12.3910050481872. subcorpus: II.d.C. ; normalized frequency: 6 ; absolute frequency: 15.7068062827225. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

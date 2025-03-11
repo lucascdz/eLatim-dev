@@ -1,0 +1,215 @@
+---
+title: "iudico"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-117-100-105-99-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>jūdĭcō</b> <b>-ás</b> <b>-áre</b> <b>-áví, -átum</b> <br> <b>iūdĭcō</b> <b>-ás</b> <b>-áre</b> <b>-áví, -átum</b> <br> <small>v. tr. e intr.</small> <br> <small>Obs.: Constrói-se com acus.; com duplo acus.: com acuso e gen.: com dat. e gen.</small>   <p> <b>1</b> &ensp; <small>Sent. próprio</small> &ensp; Julgar. proferir sentença &ensp; <small>Cíc. Verr. 2. 32; Cíc. Agr. 2. 44; Cés. B. Gal. 5. 56. 1.</small> <br> <b>2</b> &ensp; <small>Daí:</small> &ensp; Condenar: &ensp; <small></small> <br> <b>3</b> &ensp; <small>Daí:</small> &ensp; Processar, reclamar, demandar &ensp; <small>T. Lív. 26. . 8.</small> <br> <b>4</b> &ensp; <small>Donde</small> &ensp; Declarar, proclamar: &ensp; <small></small> <br> <b>5</b> &ensp; <small>Na língua comum, por enfraquecimento:</small> &ensp; Avaliar, estimar, pensar, julgar, apreciar &ensp; <small>Cíc. Phil. 11. 11; Cíc. Tusc. 1. 97.</small> <br> <b>6</b> &ensp; <small>Na língua comum, por enfraquecimento:</small> &ensp; Decidir &ensp; <small>Cés. B.. Gal. 7. 52. I.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>judicatus pecuniae T. Lív. 6. 14, 3 “condenado por uma dívida”. <br> <br><b>4</b><br>alicui perduellionem T. Lív. 4. 16. 11 “proclamar alguém como réu de alta traição”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Judico</b> -<b>as</b> -<b>avi</b> -<b>atum</b> -<b>are</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; julgar, sentencear. <br> <b>2</b> &ensp; avaliar. <br> <b>3</b> &ensp; julgar, formar juizo. <br> <b>4</b> &ensp; <small>Liv.</small> &ensp; condemnar. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Iudico</b> -<b>as</b>   <p> <b>1</b> &ensp; iulgar. ou sentencear </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/109171 ' target="_blank"> http://lila-erc.eu/data/id/lemma/109171 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small> ioudico <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> ioudico, iudico </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> ioudicare, iudicare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> ioudicabit, iudicabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> ioudicaui, iudicaui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> ioudicatum, iudicatum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> ioudicaturum, iudicaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+jūdĭcō 
+ jūdĭcās 
+ jūdĭcāre 
+ jūdĭcāvī 
+ jūdĭcātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx105-117-100-105-99-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-117-100-105-99-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword iudico here are all the values plotted: collocate: Antonius; scoreSUBST: 0. collocate: hostis; scoreSUBST: 3. collocate: dignus; scoreSUBST: 0. collocate: uos; scoreSUBST: 0. collocate: publicus; scoreSUBST: 0. collocate: res; scoreSUBST: 1. collocate: tu; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-117-100-105-99-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword iudico here are all the values plotted: collocate: Antonius; scoreADJ: 0. collocate: hostis; scoreADJ: 0. collocate: dignus; scoreADJ: 2. collocate: uos; scoreADJ: 0. collocate: publicus; scoreADJ: 2. collocate: res; scoreADJ: 0. collocate: tu; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-117-100-105-99-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword iudico here are all the values plotted: collocate: Antonius; scoreVERBO: 0. collocate: hostis; scoreVERBO: 0. collocate: dignus; scoreVERBO: 0. collocate: uos; scoreVERBO: 0. collocate: publicus; scoreVERBO: 0. collocate: res; scoreVERBO: 0. collocate: tu; scoreVERBO: 0. collocate: sum; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-117-100-105-99-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword iudico here are all the values plotted: collocate: Antonius; scoreADV: 0. collocate: hostis; scoreADV: 0. collocate: dignus; scoreADV: 0. collocate: uos; scoreADV: 0. collocate: publicus; scoreADV: 0. collocate: res; scoreADV: 0. collocate: tu; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-117-100-105-99-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword iudico here are all the values plotted: collocate: Antonius; scoreFUNC: 0. collocate: hostis; scoreFUNC: 0. collocate: dignus; scoreFUNC: 0. collocate: uos; scoreFUNC: 0. collocate: publicus; scoreFUNC: 0. collocate: res; scoreFUNC: 0. collocate: tu; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> sin haec leviora sunt tu <b>iudicabis</b> <br> <small> Cic.Att.5.8.3 <br> Se, porém, essas coisas são menos graves, tu julgarás. <small> [JDD] </small> </small> </p>
+; <p> rem cunctus senatus Catinensium legibus <b>iudicabat</b> <br> <small> Cic.Ver.2.4.100.8 <br> O senado inteiro julgava o caso de acordo com as leis dos catinenses. <small> [JDD] </small> </small> </p>
+; <p> post amicitiam credendum est ante amicitiam <b>iudicandum</b> <br> <small> Sen.Ep.3.2 <br> após a amizade, deve-se confiar, antes da amizade, deve-se julgar. <small> [JDD] </small> </small> </p>
+; <p> sic arbitrabar Quirites uos <b>iudicare</b> ut ostenditis <br> <small> Cic.Phil.4.7.1 <br> Eu já imaginava, Quirites, que vós o consideráveis assim como mostrais. <small> [JDD] </small> </small> </p>
+; <p> quid igitur D. Brutus de M. Antonio <b>iudicauit</b> <br> <small> Cic.Phil.4.8.1 <br> Que decisão tomou então Décimo Bruto a respeito de Marco Antônio? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quam autem ciuitati carus fuerit maerore funeris <b>iudicatum</b> est <br> <small> Cic.Amici.11 <br> E o quão querido foi para a cidade se revelou na tristeza de seu funeral. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> est consul φιλόπατρις et ut semper <b>iudicavi</b> natura bonus <br> <small> Cic.Att.2.1.4 <br> Ele é um cônsul patriota e, como sempre julguei, bom por natureza. <small> [JDD] </small> </small> </p>
+; <p> quo decreto quis non perspicit hostem esse Antonium <b>iudicatum</b> <br> <small> Cic.Phil.4.5.1 <br> Quem não vê que, por esse decreto, Antônio é considerado inimigo? <small> [JDD] </small> </small> </p>
+; <p> sed eos paulo ante frequens senatus <b>iudicauerat</b> contra rem publicam fecisse <br> <small> Sal.Cat.50.3 <br> Mas um pouco antes o senado lotado tinha julgado que eles tinham agido contra a república. <small> [JDD] </small> </small> </p>
+; <p> sed quam longe uidetur a carcere atque a uinculis abesse debere qui se ipse iam dignum custodia <b>iudicarit</b> <br> <small> Cic.Catil.1.19.14 <br> Mas quão longe parece que deve estar do cárcere e dos grilhões, quem já se julgou por si mesmo digno de vigilância! <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-117-100-105-99-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 10.78 and an absolute frequency of 173. The Sallustius subcorpus follows, with a normalized frequency of 2.78 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 12 ; absolute frequency: 4.53206435531385. subcorpus: Cicero ; normalized frequency: 173 ; absolute frequency: 10.7772046547557. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 43 ; absolute frequency: 8.02523282506859. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-117-100-105-99-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 13.25 and an absolute frequency of 138. The Prosa.filosófica subcorpus follows, with a normalized frequency of 10.71 and an absolute frequency of 65. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 15 ; absolute frequency: 3.65150076681516. subcorpus: Prosa.filosófica ; normalized frequency: 65 ; absolute frequency: 10.708225564653. subcorpus: Prosa.oratória ; normalized frequency: 138 ; absolute frequency: 13.2497383656736. subcorpus: Prosa.epistolográfica ; normalized frequency: 13 ; absolute frequency: 3.4447123665174. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-117-100-105-99-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 8.75 and an absolute frequency of 188. The I.a.C. subcorpus follows, with a normalized frequency of 8.75 and an absolute frequency of 188. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 188 ; absolute frequency: 8.75029090062834. subcorpus: I.d.C. ; normalized frequency: 44 ; absolute frequency: 6.73091632247208. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

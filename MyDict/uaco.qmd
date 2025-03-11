@@ -1,0 +1,205 @@
+---
+title: "uaco"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-97-99-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>vacō</b> <b>-ás</b> <b>-áre</b> <b>-áví, -átum</b> <br> <small>v. intr.</small> <br> <small>Obs.: constrói-se como absoluto: com abl.; com abl. com a prep. ab; com dat. às vezes com acus. com ad ou in; com inf.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Estar vazio, estar vazio de &ensp; <small>Cíc. At. 12, 10.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Estar vago, estar lívre &ensp; <small>Cíc. Nat. 1, 25; Cíc. Fam. 7, 3, 4.</small> <br> <b>3</b> &ensp; <small>I-Donde:</small> &ensp; Ter tempo para, estar desocupado, ter vagar para &ensp; <small>Cíc. Fam. 12, 30, 1; Cíc. Div. 1. 10.</small> <br> <b>4</b> &ensp; <small>II-Sent. fígurado:</small> &ensp; Consagrar-se a, dedicar-se &ensp; <small>Quint. 10, 1, 114; Quint. 12. 1, 10.</small> <br> <b>5</b> &ensp; <small>II-Impessoalmente:</small> &ensp; Haver tempo para, ser lícito, ser permitido &ensp; <small>Verg. En. 1, 373:</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>5</b><br>dum vacat Ov. Am. 3, 170 enquanto há tempo”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Vaco</b> -<b>as</b> -<b>avi</b> -<b>atum</b> -<b>are</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; estar de vago. <br> <b>2</b> &ensp; carecer, estar falto. <br> <b>3</b> &ensp; estar ocioso, estar de vagar. <br> <b>4</b> &ensp; <small>Plin.</small> &ensp; applicar-se. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>uacare animo &ensp; <small><small>Cic</small></small> &ensp; <small>Estar livre de cuidados</small> </p>
+
+
+
+
+#### Velez
+
+<b>Vaco</b> -<b>as</b>   <p> <b>1</b> &ensp; applicar-se &ensp; <small>dat.</small> <br> <b>2</b> &ensp; <small>por</small> &ensp; estar vago, ou de vazio, estar desocupado, ou ter vagar &ensp; <small>sine casu.</small> <br> <b>3</b> &ensp; <small>por</small> &ensp; carecer &ensp; <small>abl.</small> <br> <b>4</b> &ensp; <small>vacat</small> &ensp; ter vagar &ensp; <small>dat. personae, vel sine illo</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>4</b><br>nullum ei tempus uacat a studendo &ensp; <small>sempre estuda, nenhum tempo lhe vaga do estudo</small> <br> si uacat audire, uel si uobis uacat audire <br> <br><b>X</b><br>uacare ab aliqua re &ensp; <small>cessar de alguma cousa</small> <br> uacare animo &ensp; <small>estar livre de cuidado</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Vaco</b> -<b>as</b>   <p> <b>1</b> &ensp; estar ocioso. ou desacupado </p> 
+ <b>Vaco</b> -<b>as</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/129468 ' target="_blank"> http://lila-erc.eu/data/id/lemma/129468 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small> uoco <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> uaco, uoco </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> uacare, uocare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> uacabit, uocabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> uacaui, uacui, uocaui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> uacatum, uocatum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> uacaturum, uocaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+văcō 
+ vacās 
+ vacāre 
+ vacāvī 
+ vacātum
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> publice maximam putant esse laudem quam latissime a suis finibus <b>uacare</b> agros <br> <small> Caes.Gal.4.3.1 <br> Do ponto de vista público, consideram ser a maior glória que os campos, desde seus limites, estejam o mais amplamente possível vazios. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-97-99-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 3.43 and an absolute frequency of 1. The Phaedrus subcorpus follows, with a normalized frequency of 3.04 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 4 ; absolute frequency: 1.51068811843795. subcorpus: Cicero ; normalized frequency: 6 ; absolute frequency: 0.373775883979966. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 15 ; absolute frequency: 2.79949982269834. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-97-99-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 5.21 and an absolute frequency of 6. The Prosa.filosófica subcorpus follows, with a normalized frequency of 2.14 and an absolute frequency of 13. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 5 ; absolute frequency: 1.21716692227172. subcorpus: Prosa.filosófica ; normalized frequency: 13 ; absolute frequency: 2.14164511293059. subcorpus: Prosa.oratória ; normalized frequency: 2 ; absolute frequency: 0.192025193705414. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 6 ; absolute frequency: 5.21195274496178. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-97-99-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 2.62 and an absolute frequency of 1. The I.d.C. subcorpus follows, with a normalized frequency of 2.6 and an absolute frequency of 17. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 11 ; absolute frequency: 0.511985105887829. subcorpus: I.d.C. ; normalized frequency: 17 ; absolute frequency: 2.60058130640967. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

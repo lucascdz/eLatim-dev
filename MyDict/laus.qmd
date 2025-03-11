@@ -1,0 +1,208 @@
+---
+title: "laus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx108-97-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>laudĭum</b> <br> <small>gen. pl. de laus.</small> <br> <small></small> 
+ <small>1.</small> <b>laus</b> <b>laudis</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Elogio, louvor, panegírico &ensp; <small>Cíc. Prov. 44.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Título de louvor, mérito, valor &ensp; <small>Cíc. Of. I. 19.</small> <br> <b>3</b> &ensp; <small>II-Daí</small> &ensp; Glória, honra, renome, reputação, estima, consideração &ensp; <small>Cíc. Fam. 15. 6. 1; Cíc. Br. 279; Cíc. Of. 2, 47.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Laus</b> -<b>audis</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; louvor, gloria, estima. <br> <b>2</b> &ensp; <small>Virg.</small> &ensp; acção gloriosa. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>latine loqui est in magna laude ponendum &ensp; <small><small>Cic</small></small> &ensp; <small>Fallar Latim he cousa, de que se deve fazer grande apreço</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Laus</b> <b>audis</b>   <p> <b>1</b> &ensp; ho louuor </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/110103 ' target="_blank"> http://lila-erc.eu/data/id/lemma/110103 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx108-97-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx108-97-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword laus here are all the values plotted: collocate: gloria; scoreSUBST: 3. collocate: domesticus; scoreSUBST: 0. collocate: auidus; scoreSUBST: 0. collocate: effero; scoreSUBST: 0. collocate: tantus; scoreSUBST: 0. collocate: meus; scoreSUBST: 0. collocate: superus; scoreSUBST: 0. collocate: fero; scoreSUBST: 0. collocate: magnus; scoreSUBST: 0. collocate: tuus; scoreSUBST: 0. collocate: ad; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx108-97-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword laus here are all the values plotted: collocate: gloria; scoreADJ: 0. collocate: domesticus; scoreADJ: 2. collocate: auidus; scoreADJ: 2. collocate: effero; scoreADJ: 0. collocate: tantus; scoreADJ: 0. collocate: meus; scoreADJ: 0. collocate: superus; scoreADJ: 0. collocate: fero; scoreADJ: 0. collocate: magnus; scoreADJ: 2. collocate: tuus; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx108-97-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword laus here are all the values plotted: collocate: gloria; scoreVERBO: 0. collocate: domesticus; scoreVERBO: 0. collocate: auidus; scoreVERBO: 0. collocate: effero; scoreVERBO: 2. collocate: tantus; scoreVERBO: 0. collocate: meus; scoreVERBO: 0. collocate: superus; scoreVERBO: 0. collocate: fero; scoreVERBO: 2. collocate: magnus; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx108-97-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword laus here are all the values plotted: collocate: gloria; scoreADV: 0. collocate: domesticus; scoreADV: 0. collocate: auidus; scoreADV: 0. collocate: effero; scoreADV: 0. collocate: tantus; scoreADV: 0. collocate: meus; scoreADV: 0. collocate: superus; scoreADV: 0. collocate: fero; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: ad; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx108-97-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword laus here are all the values plotted: collocate: gloria; scoreFUNC: 0. collocate: domesticus; scoreFUNC: 0. collocate: auidus; scoreFUNC: 0. collocate: effero; scoreFUNC: 0. collocate: tantus; scoreFUNC: 0. collocate: meus; scoreFUNC: 0. collocate: superus; scoreFUNC: 0. collocate: fero; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0. collocate: tuus; scoreFUNC: 0. collocate: ad; scoreFUNC: 20. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> spero meos omnis servire <b>laudi</b> meae <br> <small> Cic.Att.5.14.2 <br> Espero que todos os meus estejam servindo ao meu prestígio. <small> [JDD] </small> </small> </p>
+; <p> hoc animadversum Graecorum <b>laude</b> et multo sermone celebratur <br> <small> Cic.Att.5.10.2 <br> Isso foi observado com louvor dos gregos e é comentado em muita conversa. <small> [JDD] </small> </small> </p>
+; <p> ita quantum operibus tuis diuturnitas detrahet tantum adferet <b>laudibus</b> <br> <small> Cic.Marc.12 <br> Assim o passar dos anos vai tirar de tuas obras o tanto quanto acrescentará aos teus louvores. <small> [JDD] </small> </small> </p>
+; <p> <b>laudis</b> auidi pecuniae liberales erant gloriam ingentem diuitias honestas uolebant <br> <small> Sal.Cat.7.6 <br> eram ávidos de louvor, generosos de dinheiro; queriam uma glória imensa, uma riqueza honrada. <small> [JDD] </small> </small> </p>
+; <p> at hoc nunc <b>laus</b> illi debetur et a me gratia maior <br> <small> Hor.S.1.6.87 <br> mas é por isso que agora lhe é devido por mim o maior louvou e agradecimento. <small> [JDD] </small> </small> </p>
+; <p> publice maximam putant esse <b>laudem</b> quam latissime a suis finibus uacare agros <br> <small> Caes.Gal.4.3.1 <br> Do ponto de vista público, consideram ser a maior glória que os campos, desde seus limites, estejam o mais amplamente possível vazios. <small> [JDD] </small> </small> </p>
+; <p> sed in hac <b>laude</b> industriae meae reus ne elabatur summum periculum est <br> <small> Cic.Ver.1.32 <br> Mas neste louvor de minha habilidade está o supremo perigo de que o réu escape. <small> [JDD] </small> </small> </p>
+; <p> ipse hostis Teucros insigni <b>laude</b> ferebat seque ortum antiqua Teucrorum a stirpe uolebat <br> <small> Verg.A.1.625 <br> Ele próprio, embora inimigo, exaltava os troianos com insigne louvor e se pretendia nascido da antiga estirpe dos troianos. <small> [JDD] </small> </small> </p>
+; <p> quorum igitur impunitas Caesar tuae clementiae <b>laus</b> est eorum ipsorum ad crudelitatem te acuet oratio <br> <small> Cic.Lig.10 <br> Vai te impelir, portanto, à crueldade, César, o discurso daqueles mesmos cuja não punição é um elogio de tua clemência? <small> [JDD] </small> </small> </p>
+; <p> magnus est in re publica campus ut sapienter dicere M. Crassus solebat multis apertus cursus ad <b>laudem</b> <br> <small> Cic.Phil.14.17.6 <br> Na república, o campo é grande, como costumava dizer sabiamente Marco Crasso, a carreira para a glória, aberta a muitos. <small> [JDD] </small> </small> </p>
+; <p> illi ipsi summi uiri quorum uirtutes litteris proditae sunt ista ne doctrina quam tu effers <b>laudibus</b> eruditi fuerunt <br> <small> Cic.Arch.15 <br> Aqueles mesmos eminentes homens, cujas virtudes foram reveladas pelas letras, por ventura foi por causa dessa doutrina, que tu cumulas de louvores que eles ficaram eruditos? <small> [JDD] </small> </small> </p>
+; <p> circumstant te summae auctoritates quae te obliuisci <b>laudis</b> domesticae non sinant quae te noctes diesque commoneant fortissimum tibi patrem sapientissimum auum grauissimum socerum fuisse <br> <small> Cic.Ver.1.52 <br> 52 Te rodeiam eminentes autoridades que não te deixam esquecer a glória de tua casa, que te advertem noites e dias que tiveste um pai valorosíssimo, um avô sapientíssimo, um sogro respeitabilíssimo. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx108-97-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 7.79 and an absolute frequency of 125. The Tacitus subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 8 ; absolute frequency: 3.0213762368759. subcorpus: Cicero ; normalized frequency: 125 ; absolute frequency: 7.78699758291595. subcorpus: Horatius ; normalized frequency: 6 ; absolute frequency: 5.32812361246781. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 4 ; absolute frequency: 0.746533286052892. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx108-97-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 10.08 and an absolute frequency of 105. The Poesia.trágica subcorpus follows, with a normalized frequency of 2.61 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 9 ; absolute frequency: 2.1909004600891. subcorpus: Prosa.filosófica ; normalized frequency: 5 ; absolute frequency: 0.823709658819459. subcorpus: Prosa.oratória ; normalized frequency: 105 ; absolute frequency: 10.0813226695342. subcorpus: Prosa.epistolográfica ; normalized frequency: 16 ; absolute frequency: 4.23964598955987. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx108-97-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 6.66 and an absolute frequency of 143. The I.a.C. subcorpus follows, with a normalized frequency of 6.66 and an absolute frequency of 143. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 143 ; absolute frequency: 6.65580637654177. subcorpus: I.d.C. ; normalized frequency: 7 ; absolute frequency: 1.07082759675692. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

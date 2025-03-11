@@ -1,0 +1,240 @@
+---
+title: "etiam"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx101-116-105-97-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>etĭam</b> <br> <small>conj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>Sent. próprio</small> &ensp; E agora, agora ainda &ensp; <small>com ideia temporal Plaut. Trin. 572.</small> <br> <b>2</b> &ensp; <small>Daí, em sent. mais geral:</small> &ensp; Ainda, além disso, também &ensp; <small>Cíc. Fin. 2, 17.</small> <br> <b>3</b> &ensp; <small>Donde:</small> &ensp; Mesmo, até &ensp; <small>Cíc. Fin. 2, 18.</small> <br> <b>4</b> &ensp; <small>E nas confirmações</small> &ensp; Pois ainda, sim, certamente &ensp; <small>Cíc. Ac. 2, 104.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Etiam</b> <br> <small>conjunç.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; sim, tambem, ainda, mas antes. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>etiam atque etiam &ensp; <small><small>Cic</small></small> &ensp; <small>Extremamente</small> <br> etiam num &ensp; <small><small>Ter</small></small> &ensp; <small>Até o presente</small> <br> etiam nunc &ensp; <small><small>Cic</small></small> &ensp; <small>Até o presente</small> <br> etiam si &ensp; <small><small>Cic</small></small> &ensp; <small>Ainda que</small> <br> etiam tum &ensp; <small><small>Cic</small></small> &ensp; <small>Até então</small> <br> etiam ut &ensp; <small><small>Cic</small></small> &ensp; <small>Ainda que</small> </p>
+
+
+
+
+#### Velez
+
+<b>Etiam</b> <br> <small>Conjunct.</small> <br> <small>1. 2. b.</small>   <p> <b>1</b> &ensp; <small>pro Quoque</small> &ensp; tambem </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>etiam, atque etiam &ensp; <small>muito, summamente, ou todo possivel</small> <br> etiamdum &ensp; <small>ainda, ou agora</small> &ensp; <small><small>pro Adhuc, vel nunc</small></small> </p> 
+ <b>Etiam</b> <br> <small>Adverb. respondendi affirmativè</small> <br> <small>1. 2. b.</small>
+
+
+
+
+#### Cardoso
+
+<b>Etiam</b> <br> <small>coniunctio.</small>   <p> <b>1</b> &ensp; tambẽ. ou si </p> 
+ <b>Etiam</b>   <p> <b>1</b> &ensp; atê </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/101554 ' target="_blank"> http://lila-erc.eu/data/id/lemma/101554 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ĕtĭam
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx101-116-105-97-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword etiam here are all the values plotted: collocate: sed; scoreSUBST: 0. collocate: uerum; scoreSUBST: 0. collocate: si; scoreSUBST: 0. collocate: tum; scoreSUBST: 0. collocate: quin; scoreSUBST: 0. collocate: nunc; scoreSUBST: 0. collocate: ille; scoreSUBST: 0. collocate: atque; scoreSUBST: 0. collocate: aut; scoreSUBST: 0. collocate: qui; scoreSUBST: 0. collocate: multo; scoreSUBST: 0. collocate: multus; scoreSUBST: 0. collocate: deinde; scoreSUBST: 0. collocate: studium; scoreSUBST: 2. collocate: accedo; scoreSUBST: 0. collocate: addo; scoreSUBST: 0. collocate: nonnullus; scoreSUBST: 0. collocate: num; scoreSUBST: 0. collocate: sine; scoreSUBST: 0. collocate: spes; scoreSUBST: 2. collocate: saepe; scoreSUBST: 0. collocate: posteri; scoreSUBST: 2. collocate: plane; scoreSUBST: 0. collocate: augeo; scoreSUBST: 0. collocate: necesse; scoreSUBST: 0. collocate: spero; scoreSUBST: 0. collocate: oculus; scoreSUBST: 1. collocate: post; scoreSUBST: 0. collocate: obsum; scoreSUBST: 0. collocate: imperitus; scoreSUBST: 0. collocate: adiuuo; scoreSUBST: 0. collocate: hercle; scoreSUBST: 0. collocate: orno; scoreSUBST: 0. collocate: inuitus; scoreSUBST: 0. collocate: libenter; scoreSUBST: 0. collocate: statuo; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx101-116-105-97-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword etiam here are all the values plotted: collocate: sed; scoreADJ: 0. collocate: uerum; scoreADJ: 0. collocate: si; scoreADJ: 0. collocate: tum; scoreADJ: 0. collocate: quin; scoreADJ: 0. collocate: nunc; scoreADJ: 0. collocate: ille; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: aut; scoreADJ: 0. collocate: qui; scoreADJ: 0. collocate: multo; scoreADJ: 0. collocate: multus; scoreADJ: 0. collocate: deinde; scoreADJ: 0. collocate: studium; scoreADJ: 0. collocate: accedo; scoreADJ: 0. collocate: addo; scoreADJ: 0. collocate: nonnullus; scoreADJ: 0. collocate: num; scoreADJ: 0. collocate: sine; scoreADJ: 0. collocate: spes; scoreADJ: 0. collocate: saepe; scoreADJ: 0. collocate: posteri; scoreADJ: 0. collocate: plane; scoreADJ: 0. collocate: augeo; scoreADJ: 0. collocate: necesse; scoreADJ: 0. collocate: spero; scoreADJ: 0. collocate: oculus; scoreADJ: 0. collocate: post; scoreADJ: 0. collocate: obsum; scoreADJ: 0. collocate: imperitus; scoreADJ: 2. collocate: adiuuo; scoreADJ: 0. collocate: hercle; scoreADJ: 0. collocate: orno; scoreADJ: 0. collocate: inuitus; scoreADJ: 2. collocate: libenter; scoreADJ: 0. collocate: statuo; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx101-116-105-97-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword etiam here are all the values plotted: collocate: sed; scoreVERBO: 0. collocate: uerum; scoreVERBO: 0. collocate: si; scoreVERBO: 0. collocate: tum; scoreVERBO: 0. collocate: quin; scoreVERBO: 0. collocate: nunc; scoreVERBO: 0. collocate: ille; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: aut; scoreVERBO: 0. collocate: qui; scoreVERBO: 0. collocate: multo; scoreVERBO: 0. collocate: multus; scoreVERBO: 0. collocate: deinde; scoreVERBO: 0. collocate: studium; scoreVERBO: 0. collocate: accedo; scoreVERBO: 2. collocate: addo; scoreVERBO: 2. collocate: nonnullus; scoreVERBO: 0. collocate: num; scoreVERBO: 0. collocate: sine; scoreVERBO: 0. collocate: spes; scoreVERBO: 0. collocate: saepe; scoreVERBO: 0. collocate: posteri; scoreVERBO: 0. collocate: plane; scoreVERBO: 0. collocate: augeo; scoreVERBO: 2. collocate: necesse; scoreVERBO: 0. collocate: spero; scoreVERBO: 1. collocate: oculus; scoreVERBO: 0. collocate: post; scoreVERBO: 0. collocate: obsum; scoreVERBO: 2. collocate: imperitus; scoreVERBO: 0. collocate: adiuuo; scoreVERBO: 2. collocate: hercle; scoreVERBO: 0. collocate: orno; scoreVERBO: 2. collocate: inuitus; scoreVERBO: 0. collocate: libenter; scoreVERBO: 0. collocate: statuo; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx101-116-105-97-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword etiam here are all the values plotted: collocate: sed; scoreADV: 0. collocate: uerum; scoreADV: 5. collocate: si; scoreADV: 0. collocate: tum; scoreADV: 3. collocate: quin; scoreADV: 0. collocate: nunc; scoreADV: 2. collocate: ille; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: aut; scoreADV: 0. collocate: qui; scoreADV: 0. collocate: multo; scoreADV: 2. collocate: multus; scoreADV: 0. collocate: deinde; scoreADV: 2. collocate: studium; scoreADV: 0. collocate: accedo; scoreADV: 0. collocate: addo; scoreADV: 0. collocate: nonnullus; scoreADV: 0. collocate: num; scoreADV: 2. collocate: sine; scoreADV: 0. collocate: spes; scoreADV: 0. collocate: saepe; scoreADV: 1. collocate: posteri; scoreADV: 0. collocate: plane; scoreADV: 2. collocate: augeo; scoreADV: 0. collocate: necesse; scoreADV: 2. collocate: spero; scoreADV: 0. collocate: oculus; scoreADV: 0. collocate: post; scoreADV: 0. collocate: obsum; scoreADV: 0. collocate: imperitus; scoreADV: 0. collocate: adiuuo; scoreADV: 0. collocate: hercle; scoreADV: 0. collocate: orno; scoreADV: 0. collocate: inuitus; scoreADV: 0. collocate: libenter; scoreADV: 2. collocate: statuo; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx101-116-105-97-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword etiam here are all the values plotted: collocate: sed; scoreFUNC: 0. collocate: uerum; scoreFUNC: 0. collocate: si; scoreFUNC: 40. collocate: tum; scoreFUNC: 0. collocate: quin; scoreFUNC: 30. collocate: nunc; scoreFUNC: 0. collocate: ille; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: aut; scoreFUNC: 0. collocate: qui; scoreFUNC: 0. collocate: multo; scoreFUNC: 0. collocate: multus; scoreFUNC: 0. collocate: deinde; scoreFUNC: 0. collocate: studium; scoreFUNC: 0. collocate: accedo; scoreFUNC: 0. collocate: addo; scoreFUNC: 0. collocate: nonnullus; scoreFUNC: 0. collocate: num; scoreFUNC: 0. collocate: sine; scoreFUNC: 10. collocate: spes; scoreFUNC: 0. collocate: saepe; scoreFUNC: 0. collocate: posteri; scoreFUNC: 0. collocate: plane; scoreFUNC: 0. collocate: augeo; scoreFUNC: 0. collocate: necesse; scoreFUNC: 0. collocate: spero; scoreFUNC: 0. collocate: oculus; scoreFUNC: 0. collocate: post; scoreFUNC: 10. collocate: obsum; scoreFUNC: 0. collocate: imperitus; scoreFUNC: 0. collocate: adiuuo; scoreFUNC: 0. collocate: hercle; scoreFUNC: 0. collocate: orno; scoreFUNC: 0. collocate: inuitus; scoreFUNC: 0. collocate: libenter; scoreFUNC: 0. collocate: statuo; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> fortasse accedent <b>etiam</b> consules designati <br> <small> Cic.Att.4.15.9 <br> Talvez venham também os cônsules designados. <small> [JDD] </small> </small> </p>
+; <p> sed pluris <b>etiam</b> ipse mittito <br> <small> Cic.Att.1.16.17 <br> mas me manda mais tu também. <small> [JDD] </small> </small> </p>
+; <p> quid si <b>etiam</b> obfutura est <br> <small> Cic.Phil.12.7.4 <br> E se vai até mesmo causar dano? <small> [JDD] </small> </small> </p>
+; <p> quartus si <b>etiam</b> hoc quaeris Hortensius <br> <small> Cic.Att.1.13.2 <br> o quarto, se ainda queres saber, Hortêncio. <small> [JDD] </small> </small> </p>
+; <p> terrent <b>etiam</b> nunc nubila mentem . <br> <small> Ov.Met.1.357 <br> ainda agora as nuvens me aterrorizam a mente. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quae res <b>etiam</b> auxit dolorem meum <br> <small> Cic.Att.4.6.2 <br> Esse fato inclusive aumentou  a minha dor. <small> [JDD] </small> </small> </p>
+; <p> uiuet enim <b>etiam</b> sine amicis beate <br> <small> Sen.Ep.9.15 <br> pois viverá feliz mesmo sem amigos. <small> [JDD] </small> </small> </p>
+; <p> nec solum inscientibus sed <b>etiam</b> inuitis <br> <small> Cic.Phil.12.9.4 <br> E não só sem saberem, mas também contra a vontade deles. <small> [JDD] </small> </small> </p>
+; <p> addit <b>etiam</b> illud equites non optimos misisse <br> <small> Cic.Deiot.24 <br> 24 Acrescenta ainda o seguinte: que não enviou os melhores cavaleiros. <small> [JDD] </small> </small> </p>
+; <p> sed eadem bonitas <b>etiam</b> ad multitudinem pertinet <br> <small> Cic.Amici.50 <br> Mas essa mesma ternura diz respeito também à multidão. <small> [JDD] </small> </small> </p>
+; <p> nam <b>etiam</b> malo multi digni sicut ipse <br> <small> Cic.Phil.3.22.2 <br> Pois há também muitos dignos de castigo, como ele próprio. <small> [JDD] </small> </small> </p>
+; <p> multo <b>etiam</b> grauius quod sit destitutus queritur <br> <small> Caes.Gal.1.16.6 <br> Queixa-se ainda com mais amargor de ter sido abandonado. <small> [JDD] </small> </small> </p>
+; <p> quid si illi <b>etiam</b> nunc permiseris crescere <br> <small> Sen.Ep.19.8 <br> O que será se ainda agora tu lhe permitires crescer? <small> [JDD] </small> </small> </p>
+; <p> qui <b>etiam</b> Gabinium apud timidos iudices adiuvit <br> <small> Cic.Att.4.18.3 <br> que até mesmo tem servido de ajuda a Gabínio diante de juízes fracos. <small> [JDD] </small> </small> </p>
+; <p> accedit eodem <b>etiam</b> noster Hortensius multi praeterea boni <br> <small> Cic.Att.1.14.5 <br> a esse mesmo local aproximou-se também o nosso querido Hortêncio, além de muitos homens de bem. <small> [JDD] </small> </small> </p>
+; <p> sed tamen <b>etiam</b> illud quod non speraram audi <br> <small> Cic.Att.1.14.6 <br> Mas escuta também algo que eu não esperava. <small> [JDD] </small> </small> </p>
+; <p> quas ego non solum tuli sed <b>etiam</b> ornavi <br> <small> Cic.Att.1.17.9 <br> que  eu não só tolerei, mas também expus belamente. <small> [JDD] </small> </small> </p>
+; <p> nollem primum rei publicae causa deinde <b>etiam</b> dignitatis tuae <br> <small> Cic.Phil.14.18.7 <br> Eu não queria, primeiro por causa da república, depois por causa também de tua dignidade. <small> [JDD] </small> </small> </p>
+; <p> ipse si uelit num <b>etiam</b> Lucium fratrem passurum arbitramur <br> <small> Cic.Phil.6.10.1 <br> Se ele próprio quisesse, por acaso julgamos que seu irmão Lúcio permitiria? <small> [JDD] </small> </small> </p>
+; <p> hic mihi primum meum consilium defuit sed <b>etiam</b> obfuit <br> <small> Cic.Att.3.15.5 <br> Aqui me faltou pela primeira vez o meu discernimento, mas ainda me danou. <small> [JDD] </small> </small> </p>
+; <p> <b>etiam</b> hercule est in non accipiendo non nulla gloria <br> <small> Cic.Att.2.5.1 <br> Mesmo em não se aceitando, há, por hércules, alguma glória. <small> [JDD] </small> </small> </p>
+; <p> atque his irascebamur hos requirebamus his non nulli <b>etiam</b> minabantur <br> <small> Cic.Lig.33 <br> E estávamos irritados com eles, os procurávamos, alguns até mesmo os ameaçavam. <small> [JDD] </small> </small> </p>
+; <p> nec ille armis solum sed <b>etiam</b> decretis nostris urgendus est <br> <small> Cic.Phil.3.32.7 <br> Ele deve ser perseguido não só com as armas, mas também com nossos decretos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> flagrabant uitia libidinis apud illum uigebant <b>etiam</b> studia rei militaris <br> <small> Cic.Cael.12 <br> Ardiam nele os vícios do prazer libidinoso; florescia também o gosto pelos assuntos militares. <small> [JDD] </small> </small> </p>
+; <p> credo nisi eam exerceas aut <b>etiam</b> si sis natura tardior <br> <small> Cic.Sen.21 <br> Acredito, se não a exercitas, ou também se é um tanto lento por natureza. <small> [JDD] </small> </small> </p>
+; <p> atque in ea quae non uolt saepe <b>etiam</b> adulescentia incurrit <br> <small> Cic.Sen.25 <br> E nessas coisas que não quer ver, até mesmo a juventude muitas vezes incorre. <small> [JDD] </small> </small> </p>
+; <p> mors enim admota <b>etiam</b> inperitis animum dedit non uitandi ineuitabilia <br> <small> Sen.Ep.30.8 <br> Pois a morte imediata deu, mesmo aos ignorantes, o ânimo de não evitar o inevitável. <small> [JDD] </small> </small> </p>
+; <p> quod superest <b>etiam</b> puerum Ciceronem curabis et amabis ut facis <br> <small> Cic.Att.4.7.3 <br> O que resta? Cuidarás ainda do menino Cícero e o amarás, como fazes. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Bibulus ne cogitabat quidem <b>etiam</b> nunc in provinciam suam accedere <br> <small> Cic.Att.5.16.4 <br> Bíbulo nem sequer cogita ainda agora em aproximar-se de sua província. <small> [JDD] </small> </small> </p>
+; <p> itaque eam sapientes numquam inuiti fortes saepe <b>etiam</b> libenter oppetiuerunt <br> <small> Cic.Catil.4.7.14 <br> E por isso os sábios a afrontaram nunca contra a vontade, os fortes muitas vezes até com prazer. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> statuerunt <b>etiam</b> tribuni militares qui in exercitu Caesaris bis fuerunt <br> <small> Cic.Phil.6.14.1 <br> Erigiram também [outra] os tribunos militares, que estiveram por duas vezes no exército de César. <small> [JDD] </small> </small> </p>
+; <p> dies autem non modo non levat luctum hunc sed <b>etiam</b> auget <br> <small> Cic.Att.3.15.2 <br> E o tempo não só não alivia esta tristeza mas ainda aumenta. <small> [JDD] </small> </small> </p>
+; <p> ac tamen mea spes <b>etiam</b> tenuior semper fuit quam tuae litterae <br> <small> Cic.Att.3.19.2 <br> e, no entanto, a minha esperança sempre foi até mesmo mais fraca do que tuas cartas. <small> [JDD] </small> </small> </p>
+; <p> o condicionem miseram non modo administrandae uerum <b>etiam</b> conseruandae rei publicae <br> <small> Cic.Catil.2.14.6 <br> Ó mísera condição não só de administrar, mas também de conservar a república! <small> [JDD] </small> </small> </p>
+; <p> primum tibi de nostro amico placando aut <b>etiam</b> plane restituendo polliceor <br> <small> Cic.Att.1.10.2 <br> Em primeiro lugar, eu me comprometo a acalmar o nosso amigo ou até mesmo reconciliá-lo inteiramente contigo. <small> [JDD] </small> </small> </p>
+; <p> tum ego <b>etiam</b> ne si te in Capitolium faces ferre uellet <br> <small> Cic.Amici.37 <br> Então eu: “Acaso também, se ele quisesse que tu levasses tochas para o Capitólio?” <small> [JDD] </small> </small> </p>
+; <p> hic <b>etiam</b> fautores Antoni quorum in uoltu habitant oculi mei tristiores uidebam <br> <small> Cic.Phil.12.2.12 <br> Ali eu via também mais deprimidos os partidários de Antônio, em cujo rosto os meus olhos estão sempre fixos. <small> [JDD] </small> </small> </p>
+; <p> dulce enim <b>etiam</b> nomen est pacis res uero ipsa cum iucunda tum salutaris <br> <small> Cic.Phil.13.1.4 <br> Pois até mesmo o nome da paz é doce, mas, na verdade, ela própria é tanto prazerosa como salutar. <small> [JDD] </small> </small> </p>
+; <p> nostri enim sensus ut in pace semper sic tum <b>etiam</b> in bello congruebant <br> <small> Cic.Marc.16 <br> Pois nossos pareceres assim como sempre coincidiam na paz, assim também na guerra. <small> [JDD] </small> </small> </p>
+; <p> quid igitur timeam si aut non miser post mortem aut beatus <b>etiam</b> futurus sum <br> <small> Cic.Sen.67 <br> Que medo eu teria, portanto, se, após a morte, ou não serei infeliz ou serei até mesmo feliz? <small> [JDD] </small> </small> </p>
+; <p> quin <b>etiam</b> cum candidatum deduceremus quaerit ex me num consuessem Siculis locum gladiatoribus dare <br> <small> Cic.Att.2.1.5 <br> Ainda mais, quando acompanhávamos um candidato, me perguntou se costumava conceder aos sicilianos um local para gladiadores. <small> [JDD] </small> </small> </p>
+; <p> uide ecquid tibi iam sit necesse et cura ut omnium tibi auxilia adiungas <b>etiam</b> infimorum <br> <small> Cic.Catil.3.12.7 <br> Vê o que já te é necessário e cuida em juntar para ti o auxílio de todos, mesmo dos mais humildes.” <small> [JDD] </small> </small> </p>
+; <p> iam non solum licet sed <b>etiam</b> necesse est nisi seruire malumus quam ne seruiamus animis armisque decernere <br> <small> Cic.Phil.3.33.11 <br> Agora não só é permitido, mas também é necessário, a não ser que prefiramos ser escravos a lutar com coragem e armas para não sermos escravos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nulli necesse est felicitatem cursu sequi est aliquid <b>etiam</b> si non repugnare subsistere nec instare fortunae ferenti <br> <small> Sen.Ep.22.4 <br> A ninguém é necessário seguir na corrida a felicidade: é alguma coisa, mesmo sem opor resistência, parar e não perseguir a fortuna que nos leva. <small> [JDD] </small> </small> </p>
+; <p> nec mihi soli uersatur ante oculos qui illam semper in manibus habui sed <b>etiam</b> posteris erit clara et insignis <br> <small> Cic.Amici.102 <br> e ela não se apresenta diante de meus olhos somente a mim, que a tive sempre em minhas mãos, mas será também ilustre e insigne para os pósteros. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx101-116-105-97-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 66.15 and an absolute frequency of 6. The Cicero subcorpus follows, with a normalized frequency of 53.64 and an absolute frequency of 861. the subcorpus with the least normalized frequency is Vergilius with the normalized value of 3.86 and an absolute freqeuncy of 2. here are all the values: subcorpus: Caesar ; normalized frequency: 52 ; absolute frequency: 19.6389455396933. subcorpus: Cicero ; normalized frequency: 861 ; absolute frequency: 53.6368393511251. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 6 ; absolute frequency: 9.10885076666161. subcorpus: Sallustius ; normalized frequency: 11 ; absolute frequency: 10.2031351451628. subcorpus: Seneca ; normalized frequency: 114 ; absolute frequency: 21.2761986525074. subcorpus: Suetonius ; normalized frequency: 6 ; absolute frequency: 66.1521499448732. subcorpus: Tacitus ; normalized frequency: 14 ; absolute frequency: 48.0604188122211. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx101-116-105-97-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 54.92 and an absolute frequency of 572. The Prosa.oratória subcorpus follows, with a normalized frequency of 54.92 and an absolute frequency of 572. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 2.61 and an absolute freqeuncy of 3. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 83 ; absolute frequency: 20.2049709097106. subcorpus: Prosa.filosófica ; normalized frequency: 229 ; absolute frequency: 37.7259023739312. subcorpus: Prosa.oratória ; normalized frequency: 572 ; absolute frequency: 54.9192053997484. subcorpus: Prosa.epistolográfica ; normalized frequency: 171 ; absolute frequency: 45.3112165134211. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 8 ; absolute frequency: 6.78598693697515. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx101-116-105-97-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 52.36 and an absolute frequency of 20. The I.a.C. subcorpus follows, with a normalized frequency of 43.38 and an absolute frequency of 932. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 4.49 and an absolute freqeuncy of 2. here are all the values: subcorpus: I.a.C. ; normalized frequency: 932 ; absolute frequency: 43.3791016988597. subcorpus: I.d.C. ; normalized frequency: 122 ; absolute frequency: 18.6629952577635. subcorpus: II.d.C. ; normalized frequency: 20 ; absolute frequency: 52.3560209424084. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

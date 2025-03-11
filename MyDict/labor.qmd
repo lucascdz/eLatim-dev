@@ -1,0 +1,207 @@
+---
+title: "labor"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx108-97-98-111-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>labōs</b> <b>-óris</b> <br> <small></small> <br> <small>v. labor 2.</small> 
+ <small>2.</small> <b>labor</b> <b>-óris</b> <br> <small>subs. m.</small> <br> <small>Obs.: Nom. arc.: labos Catul. 55. 13.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Trabalho com um sentido acessório de esforço cansativo, fadiga, carga &ensp; <small>Verg. En. 2. 708.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Sofrimento, dor, fadiga ao se executar um trabalho &ensp; <small>Cíc. Verr. 5. 181.</small> <br> <b>3</b> &ensp; <small>II-Por enfraquecimento de sentido:</small> &ensp; Trabalho, esforço, labor &ensp; <small>Cíc. De Or. 1, 150.</small> <br> <b>4</b> &ensp; <small>II-Por enfraquecimento de sentido:</small> &ensp; Empresa, plano, trabalho, obra: &ensp; <small></small> <br> <b>5</b> &ensp; <small>II-Por enfraquecimento de sentido:</small> &ensp; Cuidado, solicitude, atividade dispensada: &ensp; <small></small> <br> <b>6</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Desgraça, desventura, infelicidade &ensp; <small>Cíc. Q. Fr. 1. 4. 4.</small> <br> <b>7</b> &ensp; <small>III-Em sent. particular:</small> &ensp; Doença &ensp; <small>Plaut. Curc. 2, 19.</small> <br> <b>8</b> &ensp; <small>III-Em sent. particular:</small> &ensp; Dor física &ensp; <small>Plaul. Cas. 306.</small> <br> <b>9</b> &ensp; <small>IV-Sent. poético:</small> &ensp; Elipse: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>4</b><br>labores magnos excipere Cíc. Br. 243 “tratar de grandes empresas”. <br> <br><b>5</b><br>labore et diligentia aliquid consequi Cíc. Cael. 74 “conseguir alguma coisa pela sua solicitude e zelo”. <br> <br><b>9</b><br>laborcs lunae, solis Verg. G. 1. 478: Verg. En. 1. 742 “eclipses da lua, do sol”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Labor</b> -<b>oris</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; trabalho, fadiga. <br> <b>2</b> &ensp; risco, perigo, desastre, incommodo. <br> <b>3</b> &ensp; <small>Plaut.</small> &ensp; dor, doença. </p> 
+ <b>Labos</b> -<b>oris</b> <br> <small>m. Ter.</small> <br> <small>v. Labor.</small>
+
+
+
+
+#### Velez
+
+<b>Labor</b> -<b>oris</b> <br> <small>1. b.</small>   <p> <b>1</b> &ensp; o trabalho, fatiga, cansaço </p>
+
+
+
+
+#### Cardoso
+
+<b>Labor</b> <b>oris</b>   <p> <b>1</b> &ensp; ho trabalho </p> 
+ <b>Labor</b> <b>oris</b>   <p> <b>1</b> &ensp; ho lauor. ou brosladura </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/109621 ' target="_blank"> http://lila-erc.eu/data/id/lemma/109621 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> labos <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+lăbŏr 
+ lăbōris
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx108-97-98-111-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx108-97-98-111-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword labor here are all the values plotted: collocate: forensis; scoreSUBST: 0. collocate: periculum; scoreSUBST: 2. collocate: meus; scoreSUBST: 0. collocate: consilium; scoreSUBST: 2. collocate: fero; scoreSUBST: 0. collocate: magnus; scoreSUBST: 0. collocate: multus; scoreSUBST: 0. collocate: atque; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx108-97-98-111-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword labor here are all the values plotted: collocate: forensis; scoreADJ: 2. collocate: periculum; scoreADJ: 0. collocate: meus; scoreADJ: 0. collocate: consilium; scoreADJ: 0. collocate: fero; scoreADJ: 0. collocate: magnus; scoreADJ: 2. collocate: multus; scoreADJ: 0. collocate: atque; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx108-97-98-111-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword labor here are all the values plotted: collocate: forensis; scoreVERBO: 0. collocate: periculum; scoreVERBO: 0. collocate: meus; scoreVERBO: 0. collocate: consilium; scoreVERBO: 0. collocate: fero; scoreVERBO: 2. collocate: magnus; scoreVERBO: 0. collocate: multus; scoreVERBO: 0. collocate: atque; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx108-97-98-111-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword labor here are all the values plotted: collocate: forensis; scoreADV: 0. collocate: periculum; scoreADV: 0. collocate: meus; scoreADV: 0. collocate: consilium; scoreADV: 0. collocate: fero; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: multus; scoreADV: 0. collocate: atque; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx108-97-98-111-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword labor here are all the values plotted: collocate: forensis; scoreFUNC: 0. collocate: periculum; scoreFUNC: 0. collocate: meus; scoreFUNC: 0. collocate: consilium; scoreFUNC: 0. collocate: fero; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0. collocate: multus; scoreFUNC: 0. collocate: atque; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Sic sine <b>labore</b> venter impletur meus . <br> <small> Phaed.3.7 <br> Assim sem esforço a minha barriga vai se enchendo.” <small> [JDD] </small> </small> </p>
+; <p> magnus dicendi <b>labor</b> magna res magna dignitas summa autem gratia <br> <small> Cic.Mur.29 <br> Grande é o labor de discursar, grande seu assunto, grande sua dignidade, suprema, porém, a sua influência. <small> [JDD] </small> </small> </p>
+; <p> plures fefellit error ancipitis uiae paucos fidelis curribus iunxit <b>labor</b> <br> <small> Sen.Oed.778 <br> A muitos a confusão da estrada trifurcada enganou, o zelo fiel manteve poucos unidos à carruagem. <small> [JDD] </small> </small> </p>
+; <p> contemnite omnia quae superuacuus <b>labor</b> uelut ornamentum ac decus ponit <br> <small> Sen.Ep.8.5 <br> Desprezai tudo aquilo que um trabalho supérfluo põe como ornamento e decoração. <small> [JDD] </small> </small> </p>
+; <p> ego autem cotidie magis quod mihi de forensi <b>labore</b> temporis datur in iis studiis conquiesco <br> <small> Cic.Att.1.20.7 <br> Eu, uma vez que me é dado tempo do trabalho forense, encontro cada dia mais o meu descanso nesses estudos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> neque enim iam mihi licet neque est integrum ut meum <b>laborem</b> hominum periculis subleuandis non impertiam <br> <small> Cic.Mur.8 <br> Pois já não me é lícito nem está em meu poder deixar de consagrar o meu trabalho em aliviar os perigos dos homens. <small> [JDD] </small> </small> </p>
+; <p> quam ob rem Quirites consilio quantum potero <b>labore</b> plus paene quam potero excubabo uigilabosque pro uobis <br> <small> Cic.Phil.6.18.1 <br> Por esse motivo, Quirites, com toda sensatez que puder, com quase mais esforço que puder, estarei alerta e velarei por vós. <small> [JDD] </small> </small> </p>
+; <p> uinum ad se omnino importari non patiuntur quod ea re ad <b>laborem</b> ferendum remollescere homines atque effeminari arbitrantur <br> <small> Caes.Gal.4.2.5 <br> Não permitem de modo algum que seja importado vinho para eles, porque julgam que por tal coisa os homens perdem o vigor para suportar o trabalho e se tornam efeminados. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx108-97-98-111-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 23.17 and an absolute frequency of 12. The Horatius subcorpus follows, with a normalized frequency of 11.54 and an absolute frequency of 13. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 12 ; absolute frequency: 4.53206435531385. subcorpus: Cicero ; normalized frequency: 75 ; absolute frequency: 4.67219854974957. subcorpus: Horatius ; normalized frequency: 13 ; absolute frequency: 11.5442678270136. subcorpus: Ovidius ; normalized frequency: 5 ; absolute frequency: 8.57927247769389. subcorpus: Phaedrus ; normalized frequency: 7 ; absolute frequency: 10.6269925611052. subcorpus: Sallustius ; normalized frequency: 8 ; absolute frequency: 7.42046192375475. subcorpus: Seneca ; normalized frequency: 28 ; absolute frequency: 5.22573300237024. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 12 ; absolute frequency: 23.1660231660232. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx108-97-98-111-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 23.17 and an absolute frequency of 12. The Poesia.lírica subcorpus follows, with a normalized frequency of 10.94 and an absolute frequency of 13. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 21 ; absolute frequency: 5.11210107354123. subcorpus: Prosa.filosófica ; normalized frequency: 30 ; absolute frequency: 4.94225795291676. subcorpus: Prosa.oratória ; normalized frequency: 58 ; absolute frequency: 5.56873061745701. subcorpus: Prosa.epistolográfica ; normalized frequency: 11 ; absolute frequency: 2.91475661782241. subcorpus: Poesia.lírica ; normalized frequency: 13 ; absolute frequency: 10.9363169849415. subcorpus: Poesia.didática ; normalized frequency: 12 ; absolute frequency: 10.1789804054627. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 12 ; absolute frequency: 23.1660231660232. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx108-97-98-111-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 6.12 and an absolute frequency of 40. The I.a.C. subcorpus follows, with a normalized frequency of 5.59 and an absolute frequency of 120. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 120 ; absolute frequency: 5.58529206423086. subcorpus: I.d.C. ; normalized frequency: 40 ; absolute frequency: 6.11901483861098. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

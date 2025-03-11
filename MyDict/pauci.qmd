@@ -1,0 +1,196 @@
+---
+title: "pauci"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-97-117-99-105xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>paucī</b> <b>-orum</b> <br> <small>subs. m. pl.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Poucos, um pequeno número, apenas algumas pessoas &ensp; <small>Cés. B; Gal. l, 15, 2.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+no data
+
+
+
+
+#### Velez
+
+<b>Pauci</b> -<b>ae</b> -<b>a</b> <br> <small>Partitiv.</small>   <p> <b>1</b> &ensp; pouco, ou poucas </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>docere, uel respondere paucis &ensp; <small>em poucas palavras</small> &ensp; <small><small>id est, verbis</small></small> </p>
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/116272 ' target="_blank"> http://lila-erc.eu/data/id/lemma/116272 </a> <br>
+<small> classe: </small> substantivo masculino plural  <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+paucī 
+ paucōrum
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-97-117-99-105xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword pauci here are all the values plotted: collocate: ex; scoreSUBST: 0. collocate: si; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-97-117-99-105xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword pauci here are all the values plotted: collocate: ex; scoreADJ: 0. collocate: si; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-97-117-99-105xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword pauci here are all the values plotted: collocate: ex; scoreVERBO: 0. collocate: si; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-97-117-99-105xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword pauci here are all the values plotted: collocate: ex; scoreADV: 0. collocate: si; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-97-117-99-105xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword pauci here are all the values plotted: collocate: ex; scoreFUNC: 20. collocate: si; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> huic si <b>paucos</b> putatis adfinis esse uehementer erratis <br> <small> Cic.Catil.4.6.10 <br> Se julgais serem poucos os cúmplices deste, estais redondamente enganados. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> igitur reges populique finitumi bello temptare <b>pauci</b> ex amicis auxilio esse nam ceteri metu perculsi a periculis aberant <br> <small> Sal.Cat.6.4 <br> Então reis e povos vizinhos a punham à prova com a guerra, poucos de seus amigos prestavam socorro: pois os outros, tocados pelo medo, se afastavam dos perigos. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-97-117-99-105xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 12.06 and an absolute frequency of 13. The Suetonius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 7 ; absolute frequency: 2.64370420726641. subcorpus: Cicero ; normalized frequency: 15 ; absolute frequency: 0.934439709949914. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 13 ; absolute frequency: 12.0582506261015. subcorpus: Seneca ; normalized frequency: 9 ; absolute frequency: 1.67969989361901. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-97-117-99-105xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 5.11 and an absolute frequency of 21. The Prosa.histórica subcorpus follows, with a normalized frequency of 5.11 and an absolute frequency of 21. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 21 ; absolute frequency: 5.11210107354123. subcorpus: Prosa.filosófica ; normalized frequency: 10 ; absolute frequency: 1.64741931763892. subcorpus: Prosa.oratória ; normalized frequency: 13 ; absolute frequency: 1.24816375908519. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-97-117-99-105xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 2.62 and an absolute frequency of 1. The I.a.C. subcorpus follows, with a normalized frequency of 1.63 and an absolute frequency of 35. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 35 ; absolute frequency: 1.629043518734. subcorpus: I.d.C. ; normalized frequency: 9 ; absolute frequency: 1.37677833868747. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

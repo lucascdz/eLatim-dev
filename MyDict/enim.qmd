@@ -1,0 +1,243 @@
+---
+title: "enim"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx101-110-105-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>enim</b> <br> <small>part. afirm.</small> <br> <small>Obs.: Partícula afirmativa, geralmente colocada depois da primeira palavra principal da frase. Como conjunção pode exprimir uma confirmação Cíc. Tusc. 1, 11; ou a causa Cíc. Phil. 2, 32.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Na verdade, de fato, seguramente, realmente &ensp; <small>Verg. G. 2, 104.</small> <br> <b>2</b> &ensp; <small>I-Donde</small> &ensp; Com efeito &ensp; <small>Plaut. As. 808.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Enim</b> <br> <small>conjunc.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; porque. <br> <b>2</b> &ensp; <small>Caes.</small> &ensp; porém. <br> <b>3</b> &ensp; <small>Cic. Ter.</small> &ensp; na verdade, certamente. </p>
+
+
+
+
+#### Velez
+
+<b>Enim</b> <br> <small>1. b.</small>   <p> <b>1</b> &ensp; porque, ou certamente &ensp; <small>Conjunct. pospositiva; conjuncta cum Verò praeponitur</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>enimuero &ensp; <small>na verdade</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Enim</b> <br> <small>coniunctio.</small>   <p> <b>1</b> &ensp; porque </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/101119 ' target="_blank"> http://lila-erc.eu/data/id/lemma/101119 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ĕnim
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx101-110-105-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword enim here are all the values plotted: collocate: neque; scoreSUBST: 0. collocate: quis; scoreSUBST: 0. collocate: sum; scoreSUBST: 0. collocate: non; scoreSUBST: 0. collocate: iam; scoreSUBST: 0. collocate: sic; scoreSUBST: 0. collocate: hic; scoreSUBST: 0. collocate: nec; scoreSUBST: 0. collocate: nullus; scoreSUBST: 0. collocate: nihil; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: ipse; scoreSUBST: 0. collocate: at; scoreSUBST: 0. collocate: dico; scoreSUBST: 0. collocate: ille; scoreSUBST: 0. collocate: multus; scoreSUBST: 0. collocate: uideo; scoreSUBST: 0. collocate: possum; scoreSUBST: 0. collocate: scio; scoreSUBST: 0. collocate: numquam; scoreSUBST: 0. collocate: iste; scoreSUBST: 0. collocate: saepe; scoreSUBST: 0. collocate: nemo; scoreSUBST: 0. collocate: tam; scoreSUBST: 0. collocate: quisque; scoreSUBST: 0. collocate: ita; scoreSUBST: 0. collocate: nosco; scoreSUBST: 0. collocate: umquam; scoreSUBST: 0. collocate: credo; scoreSUBST: 0. collocate: quisquam; scoreSUBST: 0. collocate: refert; scoreSUBST: 0. collocate: quando; scoreSUBST: 0. collocate: demum; scoreSUBST: 0. collocate: uereor; scoreSUBST: 0. collocate: ualde; scoreSUBST: 0. collocate: aperte; scoreSUBST: 0. collocate: aliter; scoreSUBST: 0. collocate: cottidie; scoreSUBST: 0. collocate: quamuis; scoreSUBST: 0. collocate: difficilis; scoreSUBST: 0. collocate: nondum; scoreSUBST: 0. collocate: perspicio; scoreSUBST: 0. collocate: dubito; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx101-110-105-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword enim here are all the values plotted: collocate: neque; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: sum; scoreADJ: 0. collocate: non; scoreADJ: 0. collocate: iam; scoreADJ: 0. collocate: sic; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: nec; scoreADJ: 0. collocate: nullus; scoreADJ: 0. collocate: nihil; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: ipse; scoreADJ: 0. collocate: at; scoreADJ: 0. collocate: dico; scoreADJ: 0. collocate: ille; scoreADJ: 0. collocate: multus; scoreADJ: 0. collocate: uideo; scoreADJ: 0. collocate: possum; scoreADJ: 0. collocate: scio; scoreADJ: 0. collocate: numquam; scoreADJ: 0. collocate: iste; scoreADJ: 0. collocate: saepe; scoreADJ: 0. collocate: nemo; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: quisque; scoreADJ: 0. collocate: ita; scoreADJ: 0. collocate: nosco; scoreADJ: 0. collocate: umquam; scoreADJ: 0. collocate: credo; scoreADJ: 0. collocate: quisquam; scoreADJ: 0. collocate: refert; scoreADJ: 0. collocate: quando; scoreADJ: 0. collocate: demum; scoreADJ: 0. collocate: uereor; scoreADJ: 0. collocate: ualde; scoreADJ: 0. collocate: aperte; scoreADJ: 0. collocate: aliter; scoreADJ: 0. collocate: cottidie; scoreADJ: 0. collocate: quamuis; scoreADJ: 0. collocate: difficilis; scoreADJ: 2. collocate: nondum; scoreADJ: 0. collocate: perspicio; scoreADJ: 0. collocate: dubito; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx101-110-105-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword enim here are all the values plotted: collocate: neque; scoreVERBO: 0. collocate: quis; scoreVERBO: 0. collocate: sum; scoreVERBO: 4. collocate: non; scoreVERBO: 0. collocate: iam; scoreVERBO: 0. collocate: sic; scoreVERBO: 0. collocate: hic; scoreVERBO: 0. collocate: nec; scoreVERBO: 0. collocate: nullus; scoreVERBO: 0. collocate: nihil; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: ipse; scoreVERBO: 0. collocate: at; scoreVERBO: 0. collocate: dico; scoreVERBO: 2. collocate: ille; scoreVERBO: 0. collocate: multus; scoreVERBO: 0. collocate: uideo; scoreVERBO: 2. collocate: possum; scoreVERBO: 1. collocate: scio; scoreVERBO: 2. collocate: numquam; scoreVERBO: 0. collocate: iste; scoreVERBO: 0. collocate: saepe; scoreVERBO: 0. collocate: nemo; scoreVERBO: 0. collocate: tam; scoreVERBO: 0. collocate: quisque; scoreVERBO: 0. collocate: ita; scoreVERBO: 0. collocate: nosco; scoreVERBO: 2. collocate: umquam; scoreVERBO: 0. collocate: credo; scoreVERBO: 2. collocate: quisquam; scoreVERBO: 0. collocate: refert; scoreVERBO: 2. collocate: quando; scoreVERBO: 0. collocate: demum; scoreVERBO: 0. collocate: uereor; scoreVERBO: 2. collocate: ualde; scoreVERBO: 0. collocate: aperte; scoreVERBO: 0. collocate: aliter; scoreVERBO: 0. collocate: cottidie; scoreVERBO: 0. collocate: quamuis; scoreVERBO: 0. collocate: difficilis; scoreVERBO: 0. collocate: nondum; scoreVERBO: 0. collocate: perspicio; scoreVERBO: 2. collocate: dubito; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx101-110-105-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword enim here are all the values plotted: collocate: neque; scoreADV: 0. collocate: quis; scoreADV: 0. collocate: sum; scoreADV: 0. collocate: non; scoreADV: 3. collocate: iam; scoreADV: 2. collocate: sic; scoreADV: 2. collocate: hic; scoreADV: 0. collocate: nec; scoreADV: 0. collocate: nullus; scoreADV: 0. collocate: nihil; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: ipse; scoreADV: 0. collocate: at; scoreADV: 0. collocate: dico; scoreADV: 0. collocate: ille; scoreADV: 0. collocate: multus; scoreADV: 0. collocate: uideo; scoreADV: 0. collocate: possum; scoreADV: 0. collocate: scio; scoreADV: 0. collocate: numquam; scoreADV: 2. collocate: iste; scoreADV: 0. collocate: saepe; scoreADV: 2. collocate: nemo; scoreADV: 0. collocate: tam; scoreADV: 2. collocate: quisque; scoreADV: 0. collocate: ita; scoreADV: 1. collocate: nosco; scoreADV: 0. collocate: umquam; scoreADV: 2. collocate: credo; scoreADV: 0. collocate: quisquam; scoreADV: 0. collocate: refert; scoreADV: 0. collocate: quando; scoreADV: 2. collocate: demum; scoreADV: 2. collocate: uereor; scoreADV: 0. collocate: ualde; scoreADV: 2. collocate: aperte; scoreADV: 2. collocate: aliter; scoreADV: 2. collocate: cottidie; scoreADV: 2. collocate: quamuis; scoreADV: 2. collocate: difficilis; scoreADV: 0. collocate: nondum; scoreADV: 2. collocate: perspicio; scoreADV: 0. collocate: dubito; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx101-110-105-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword enim here are all the values plotted: collocate: neque; scoreFUNC: 0. collocate: quis; scoreFUNC: 0. collocate: sum; scoreFUNC: 0. collocate: non; scoreFUNC: 0. collocate: iam; scoreFUNC: 0. collocate: sic; scoreFUNC: 0. collocate: hic; scoreFUNC: 0. collocate: nec; scoreFUNC: 0. collocate: nullus; scoreFUNC: 0. collocate: nihil; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: ipse; scoreFUNC: 0. collocate: at; scoreFUNC: 0. collocate: dico; scoreFUNC: 0. collocate: ille; scoreFUNC: 0. collocate: multus; scoreFUNC: 0. collocate: uideo; scoreFUNC: 0. collocate: possum; scoreFUNC: 0. collocate: scio; scoreFUNC: 0. collocate: numquam; scoreFUNC: 0. collocate: iste; scoreFUNC: 0. collocate: saepe; scoreFUNC: 0. collocate: nemo; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: quisque; scoreFUNC: 0. collocate: ita; scoreFUNC: 0. collocate: nosco; scoreFUNC: 0. collocate: umquam; scoreFUNC: 0. collocate: credo; scoreFUNC: 0. collocate: quisquam; scoreFUNC: 0. collocate: refert; scoreFUNC: 0. collocate: quando; scoreFUNC: 0. collocate: demum; scoreFUNC: 0. collocate: uereor; scoreFUNC: 0. collocate: ualde; scoreFUNC: 0. collocate: aperte; scoreFUNC: 0. collocate: aliter; scoreFUNC: 0. collocate: cottidie; scoreFUNC: 0. collocate: quamuis; scoreFUNC: 0. collocate: difficilis; scoreFUNC: 0. collocate: nondum; scoreFUNC: 0. collocate: perspicio; scoreFUNC: 0. collocate: dubito; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> vides <b>enim</b> cetera <br> <small> Cic.Att.2.3.2 <br> tu vês o restante. <small> [JDD] </small> </small> </p>
+; <p> nosti <b>enim</b> Marianas <br> <small> Cic.Att.1.16.10 <br> (Pois conheces as de Mário) <small> [JDD] </small> </small> </p>
+; <p> ita <b>enim</b> plerique iudicant <br> <small> Sen.Ep.33.2 <br> Pois a maioria assim julga. <small> [JDD] </small> </small> </p>
+; <p> sic <b>enim</b> est obiectum <br> <small> Cic.Cael.57 <br> Pois assim lhe foi imputado. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ego <b>enim</b> idem sum <br> <small> Cic.Att.3.5 <br> pois eu continuo igual. <small> [JDD] </small> </small> </p>
+; <p> nondum <b>enim</b> in negotio versaris <br> <small> Cic.Att.5.10.3 <br> Pois ainda não estás exercendo o negócio”. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> duo <b>enim</b> soli dicuntur petituri <br> <small> Cic.Att.1.17.11 <br> Com efeito, dizem que só dois vão se candidatar. <small> [JDD] </small> </small> </p>
+; <p> valde <b>enim</b> exspecto tuas litteras <br> <small> Cic.Att.2.5.3 <br> Pois espero muito as tuas cartas. <small> [JDD] </small> </small> </p>
+; <p> nobis <b>enim</b> scribuntur saepe maiora <br> <small> Cic.Att.5.8.3 <br> pois me são escritas muitas vezes coisas exageradas. <small> [JDD] </small> </small> </p>
+; <p> lege <b>enim</b> collegi sui non tenebantur <br> <small> Cic.Att.3.23.4 <br> pois eles não estavam submetidos a uma lei de seu colégio. <small> [JDD] </small> </small> </p>
+; <p> in me <b>enim</b> ipsum peccavi vehementius <br> <small> Cic.Att.3.15.4 <br> pois contra mim próprio cometi faltas mais graves. <small> [JDD] </small> </small> </p>
+; <p> sic <b>enim</b> nostrae rationes utilitatis meae postulabant <br> <small> Cic.Att.4.2.6 <br> pois era assim que pediam as razões de meu interesse. <small> [JDD] </small> </small> </p>
+; <p> hoc <b>enim</b> ipsum philosophiae seruire libertas est <br> <small> Sen.Ep.8.7 <br> pois ser escravo da filosofia é precisamente a liberdade. <small> [JDD] </small> </small> </p>
+; <p> maxima est <b>enim</b> uis uetustatis et consuetudinis <br> <small> Cic.Amici.68 <br> pois é muito grande a força da antiguidade e do costume. <small> [JDD] </small> </small> </p>
+; <p> hanc <b>enim</b> habebat semper in ore prouinciam <br> <small> Cic.Phil.3.26.8 <br> Pois sempre tinha em sua boca esta província. <small> [JDD] </small> </small> </p>
+; <p> dixit <b>enim</b> parem esse horis nec mentitur <br> <small> Sen.Ep.12.7 <br> Pois disse que era igual em horas e não está mentindo. <small> [JDD] </small> </small> </p>
+; <p> pronuntiare <b>enim</b> solitum esse et non dare <br> <small> Cic.Att.1.16.13 <br> pois costumava prometer e não dar. <small> [JDD] </small> </small> </p>
+; <p> isto <b>enim</b> nomine illa adhuc causa caruit <br> <small> Cic.Lig.17 <br> Pois tal causa não teve até agora esse nome. <small> [JDD] </small> </small> </p>
+; <p> non <b>enim</b> dicentur tantum illa sed probabuntur <br> <small> Sen.Ep.20.9 <br> pois aquelas coisas não só serão ditas, mas serão provadas.” <small> [JDD] </small> </small> </p>
+; <p> si <b>enim</b> nemo impediet sic est firmius <br> <small> Cic.Att.3.15.5 <br> Pois se ninguém se opuser, o que há de mais seguro? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> habes crimina insidiarum nihil <b>enim</b> dixit amplius <br> <small> Cic.Deiot.21 <br> Aí tens a acusação da emboscada, pois não disse mais nada. <small> [JDD] </small> </small> </p>
+; <p> armis <b>enim</b> gesta numquam profecto in iudicium uocabuntur <br> <small> Cic.Phil.1.21.6 <br> Pois as coisas feitas pelas armas nunca, sem dúvida, serão chamadas em juízo. <small> [JDD] </small> </small> </p>
+; <p> prima <b>enim</b> quaeque placuisset si omnem tuam crederes <br> <small> Sen.Ep.28.5 <br> pois a primeira teria te agradado, se acreditasses toda tua. <small> [JDD] </small> </small> </p>
+; <p> aliter <b>enim</b> cum tyranno aliter cum amico uiuitur <br> <small> Cic.Amici.89 <br> pois de um modo se vive com um tirano, de outro, com um amigo. <small> [JDD] </small> </small> </p>
+; <p> iam <b>enim</b> charta ipsa ne nos prodat pertimesco <br> <small> Cic.Att.2.20.3 <br> pois já tenho muito medo de que o próprio papel nos traia. <small> [JDD] </small> </small> </p>
+; <p> negant <b>enim</b> quemquam esse uirum bonum nisi sapientem <br> <small> Cic.Amici.18 <br> pois dizem que nenhum homem é bom, a não ser o sábio. <small> [JDD] </small> </small> </p>
+; <p> statui <b>enim</b> nihil iam de re publica cogitare <br> <small> Cic.Att.2.4.4 <br> pois decidi não pensar mais nada acerca da república. <small> [JDD] </small> </small> </p>
+; <p> neque <b>enim</b> licuit aliter uestro generi nomini familiae disciplinae <br> <small> Cic.Lig.20 <br> pois não foi permitida outra coisa à vossa linhagem, nome, família, princípios. <small> [JDD] </small> </small> </p>
+; <p> at <b>enim</b> in praeturae petitione prior renuntiatus est Seruius <br> <small> Cic.Mur.35 <br> “Sim, mas na candidatura a pretor Sérvio foi proclamado em primeiro”. <small> [JDD] </small> </small> </p>
+; <p> utebamur <b>enim</b> illis non quia debebamus sed quia habebamus <br> <small> Sen.Ep.123.6 <br> pois as usávamos não porque devíamos, mas porque as tínhamos. <small> [JDD] </small> </small> </p>
+; <p> in oppidis <b>enim</b> summum video timorem sed multa inania <br> <small> Cic.Att.5.3.1 <br> pois vejo nas cidades um enorme temor, mas muitas coisas vagas. <small> [JDD] </small> </small> </p>
+; <p> multos <b>enim</b> eius praeclaros de re publica sermones accipiam <br> <small> Cic.Att.5.6.1 <br> pois ouvirei muitas falas brilhantes dele sobre a república. <small> [JDD] </small> </small> </p>
+; <p> at <b>enim</b> liberum senatus iudicium propter metum non fuit <br> <small> Cic.Dom.10 <br> 10 Mas, de fato, o julgamento do senado não foi livre, por causa do medo. <small> [JDD] </small> </small> </p>
+; <p> si <b>enim</b> illim emerserit nullius supplici crudelitas erit recusanda <br> <small> Cic.Phil.4.12.4 <br> Pois se sair dali, a crueldade de nenhum suplício deverá ser descartada. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> vereor <b>enim</b> ne dum defendam meos non parcam tuis <br> <small> Cic.Att.1.17.3 <br> pois receio que, defendendo os meus, eu não poupe os teus. <small> [JDD] </small> </small> </p>
+; <p> nec <b>enim</b> secerni a fratre poterit tanta praesertim auctoritate <br> <small> Cic.Phil.6.10.6 <br> Pois não será possível separá-lo do irmão, especialmente com tão grande autoridade deste. <small> [JDD] </small> </small> </p>
+; <p> cognoscite Quirites non <b>enim</b> hoc sine causa quaeri uidetur <br> <small> Cic.Man.22 <br> Ficai sabendo, Quirites; pois isso não parece ser perguntado sem motivo. <small> [JDD] </small> </small> </p>
+; <p> utrumque <b>enim</b> uitium est et omnibus credere et nulli <br> <small> Sen.Ep.3.4 <br> pois ambas são vícios, tanto confiar em todos como em ninguém. <small> [JDD] </small> </small> </p>
+; <p> est <b>enim</b> commune cum multis et cum quibusdam bonis <br> <small> Cic.Cael.14 <br> Pois ela é comum a muitos e a alguns bons. <small> [JDD] </small> </small> </p>
+; <p> si <b>enim</b> es Romae iam me adsequi non potes <br> <small> Cic.Att.3.5 <br> Pois se estás em Roma, já não podes me alcançar. <small> [JDD] </small> </small> </p>
+; <p> nec <b>enim</b> melior uir fuit Africano quisquam nec clarior <br> <small> Cic.Amici.6 <br> pois não houve nenhum homem melhor que o Africano nem mais ilustre. <small> [JDD] </small> </small> </p>
+; <p> cotidie <b>enim</b> magis suspicor te in Epirum iam profectum <br> <small> Cic.Att.5.7.1 <br> pois cotidianamente eu tenho mais suspeita de que tu já partiste para o Epiro. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> putamus <b>enim</b> utile esse te aliquando iam rem transigere <br> <small> Cic.Att.1.4.1 <br> pois consideramos ser útil que tu dês um fim de uma vez a esse assunto. <small> [JDD] </small> </small> </p>
+; <p> sciunt <b>enim</b> ipsos omnia habere communia et quidem magis aduersa <br> <small> Sen.Ep.6.3 <br> Porque sabem que eles têm todas as coisas em comum, e mais ainda as adversas. <small> [JDD] </small> </small> </p>
+; <p> Herodes <b>enim</b> metuebat Iohannem sciens eum virum iustum et sanctum <br> <small> Vulg.Marc.6.20 <br> Pois Herodes temia João, sabendo ser ele um homem justo e santo. <small> [JDD] </small> </small> </p>
+; <p> pater <b>enim</b> fuit equestri loco auus nulla inlustri laude celebratus <br> <small> Cic.Mur.16 <br> Pois teu pai foi da ordem equestre, teu avô não se tornou célebre por nenhuma ilustre distinção. <small> [JDD] </small> </small> </p>
+; <p> non est <b>enim</b> in rebus uitium sed in ipso animo <br> <small> Sen.Ep.17.12 <br> pois o vício não está nas coisas, mas no próprio espírito. <small> [JDD] </small> </small> </p>
+; <p> at ne Bruto quidem id <b>enim</b> fortasse quispiam improbus dixerit <br> <small> Cic.Phil.10.12.1 <br> Mas Bruto também não; pois talvez algum descarado dirá isto. <small> [JDD] </small> </small> </p>
+; <p> si <b>enim</b> deferetur erit quaedam nostra potestas et tum deliberabimus <br> <small> Cic.Att.2.5.1 <br> Pois se me for oferecido, terei um certo poder e então vou deliberar. <small> [JDD] </small> </small> </p>
+; <p> uirtute <b>enim</b> ipsa non tam multi praediti esse quam uideri uolunt <br> <small> Cic.Amici.98 <br> Pois muitos querem não tanto estar dotados da própria virtude quanto parecê-lo. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx101-110-105-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 65.15 and an absolute frequency of 29. The Cicero subcorpus follows, with a normalized frequency of 51.95 and an absolute frequency of 834. the subcorpus with the least normalized frequency is Sallustius with the normalized value of 2.78 and an absolute freqeuncy of 3. here are all the values: subcorpus: Caesar ; normalized frequency: 13 ; absolute frequency: 4.90973638492333. subcorpus: Cicero ; normalized frequency: 834 ; absolute frequency: 51.9548478732152. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 179 ; absolute frequency: 33.4073645508669. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 29 ; absolute frequency: 65.1538980004493'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx101-110-105-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 65.15 and an absolute frequency of 29. The Prosa.filosófica subcorpus follows, with a normalized frequency of 59.64 and an absolute frequency of 362. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 20 ; absolute frequency: 4.86866768908688. subcorpus: Prosa.filosófica ; normalized frequency: 362 ; absolute frequency: 59.6365792985289. subcorpus: Prosa.oratória ; normalized frequency: 487 ; absolute frequency: 46.7581346672683. subcorpus: Prosa.epistolográfica ; normalized frequency: 164 ; absolute frequency: 43.4563713929887. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 7 ; absolute frequency: 5.93773856985325. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 29 ; absolute frequency: 65.1538980004493'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx101-110-105-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 65.15 and an absolute frequency of 29. The I.a.C. subcorpus follows, with a normalized frequency of 39.93 and an absolute frequency of 858. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 10.47 and an absolute freqeuncy of 4. here are all the values: subcorpus: I.a.C. ; normalized frequency: 858 ; absolute frequency: 39.9348382592506. subcorpus: I.d.C. ; normalized frequency: 186 ; absolute frequency: 28.4534189995411. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 29 ; absolute frequency: 65.1538980004493'}
+
+
+:::
+

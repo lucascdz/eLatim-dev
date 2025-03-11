@@ -1,0 +1,232 @@
+---
+title: "scribo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-99-114-105-98-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>scrībō</b> <b>-is</b> <b>-ère</b> <b>scrípsí, scríptum</b> <br> <small>v. tr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Escrever letras, obra ou carta, traçar caracteres &ensp; <small>Cíc. Tusc. 5, 113: Cíc. Leg. 2. 11: Cíc. Br. 287: Cíc. Tusc. 1, 116.</small> <br> <b>2</b> &ensp; <small>I-Sent. próprio</small> &ensp; Escrever, contar, descrever, mencionar &ensp; <small>Cíc. At. 3, 27: Cíc. Mil. 48: Cíc. N at. 2, 124: T. Liv. 21, 1, 1.</small> <br> <b>3</b> &ensp; <small>II-Na língua jurídica e militar:</small> &ensp; Inscrever, alistar &ensp; <small>Hor. Ep. 1, 9, 13: Cíc. Fam. 3, 3, 1.</small> </p> 
+ <b>scrīpse</b> <br> <small>= scrípsísse Lucil. Sal. 29. 26.</small> <br> <small></small> 
+ <b>scrīpsī</b> <br> <small>perf. de scríbo.</small> <br> <small></small> 
+ <b>scrīpstī</b> <br> <small>= scrípsístí, perf. ind. sincopado de scríbo Plaut. As. 802.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Scribo</b> -<b>is</b> -<b>psi</b> -<b>ptum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; escrever. <br> <b>2</b> &ensp; compôr, fazer huma obra em prosa, ou em verso. <br> <b>3</b> &ensp; <small>Plin.</small> &ensp; pintar. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>scribere alicui nummos &ensp; <small><small>Plaut</small></small> &ensp; <small>Dar a alguem huma letra de cambio, ou hum bilhete para cobrar dinheiro</small> <br> scribere milites &ensp; <small><small>Liv</small></small> &ensp; <small>Fazer levas de soldados</small> <br> scribere notis &ensp; <small><small>Quinct</small></small> &ensp; <small>Escrever em cifra, ou com caracteres de abbreviaçaõ</small> <br> scribere seruo libertatem &ensp; <small><small>Ulp</small></small> &ensp; <small>Dar carta de alforria ao escravo</small> <br> scribere stigmata fugitiuo &ensp; <small><small>Quinct</small></small> &ensp; <small>Fazer marcar hum escravo fugitivo</small> <br> scribere supplementum legionibus &ensp; <small><small>Cic</small></small> &ensp; <small>Fazer reclutas para as legiões</small> </p>
+
+
+
+
+#### Velez
+
+<b>Scribo</b> -<b>is</b>   <p> <b>1</b> &ensp; compôr alguma obra, escrever </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>diem alicui scribere &ensp; <small>chamar a juizo, ou citar para armar demanda</small> <br> scribere notis &ensp; <small>escrever em breves</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Scribo</b> <b>is</b>   <p> <b>1</b> &ensp; escreuer </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/123840 ' target="_blank"> http://lila-erc.eu/data/id/lemma/123840 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> scribo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> scribere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> scribet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> scribsi, scripsi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> scribtum, scriptum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> scribturum, scripturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+scrībō 
+ scrībis 
+ scrībĕre 
+ scrīpsī 
+ scripsī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx115-99-114-105-98-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-99-114-105-98-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword scribo here are all the values plotted: collocate: tu; scoreSUBST: 0. collocate: ad; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: ut; scoreSUBST: 0. collocate: littera; scoreSUBST: 2. collocate: quod; scoreSUBST: 0. collocate: multus; scoreSUBST: 0. collocate: aliquis; scoreSUBST: 0. collocate: Uarro; scoreSUBST: 0. collocate: antea; scoreSUBST: 0. collocate: ita; scoreSUBST: 0. collocate: epistula; scoreSUBST: 2. collocate: Pompeius; scoreSUBST: 0. collocate: qua; scoreSUBST: 0. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-99-114-105-98-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword scribo here are all the values plotted: collocate: tu; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: ut; scoreADJ: 0. collocate: littera; scoreADJ: 0. collocate: quod; scoreADJ: 0. collocate: multus; scoreADJ: 0. collocate: aliquis; scoreADJ: 0. collocate: Uarro; scoreADJ: 0. collocate: antea; scoreADJ: 0. collocate: ita; scoreADJ: 0. collocate: epistula; scoreADJ: 0. collocate: Pompeius; scoreADJ: 0. collocate: qua; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-99-114-105-98-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword scribo here are all the values plotted: collocate: tu; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: ut; scoreVERBO: 0. collocate: littera; scoreVERBO: 0. collocate: quod; scoreVERBO: 0. collocate: multus; scoreVERBO: 0. collocate: aliquis; scoreVERBO: 0. collocate: Uarro; scoreVERBO: 0. collocate: antea; scoreVERBO: 0. collocate: ita; scoreVERBO: 0. collocate: epistula; scoreVERBO: 0. collocate: Pompeius; scoreVERBO: 0. collocate: qua; scoreVERBO: 0. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-99-114-105-98-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword scribo here are all the values plotted: collocate: tu; scoreADV: 0. collocate: ad; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: ut; scoreADV: 0. collocate: littera; scoreADV: 0. collocate: quod; scoreADV: 0. collocate: multus; scoreADV: 0. collocate: aliquis; scoreADV: 0. collocate: Uarro; scoreADV: 0. collocate: antea; scoreADV: 2. collocate: ita; scoreADV: 2. collocate: epistula; scoreADV: 0. collocate: Pompeius; scoreADV: 0. collocate: qua; scoreADV: 1. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-99-114-105-98-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword scribo here are all the values plotted: collocate: tu; scoreFUNC: 0. collocate: ad; scoreFUNC: 30. collocate: ego; scoreFUNC: 0. collocate: ut; scoreFUNC: 30. collocate: littera; scoreFUNC: 0. collocate: quod; scoreFUNC: 20. collocate: multus; scoreFUNC: 0. collocate: aliquis; scoreFUNC: 0. collocate: Uarro; scoreFUNC: 0. collocate: antea; scoreFUNC: 0. collocate: ita; scoreFUNC: 0. collocate: epistula; scoreFUNC: 0. collocate: Pompeius; scoreFUNC: 0. collocate: qua; scoreFUNC: 0. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ut <b>scribis</b> ita video <br> <small> Cic.Att.2.15.1 <br> Vejo, como tu me escreves. <small> [JDD] </small> </small> </p>
+; <p> plura <b>scribere</b> non possum <br> <small> Cic.Att.3.2 <br> Não posso escrever mais. <small> [JDD] </small> </small> </p>
+; <p> prorsus ut <b>scribis</b> ita sentio <br> <small> Cic.Att.2.17.1 <br> Penso exatamente como escreves. <small> [JDD] </small> </small> </p>
+; <p> sed <b>scripsi</b> ut debui diligenter <br> <small> Cic.Att.2.1.12 <br> Mas escrevi, como devia, com todo cuidado. <small> [JDD] </small> </small> </p>
+; <p> nunc ad ea quae <b>scripsisti</b> <br> <small> Cic.Att.3.8.3 <br> Agora, vamos ao que escreveste. <small> [JDD] </small> </small> </p>
+; <p> Romae quod <b>scribis</b> sileri ita putabam <br> <small> Cic.Att.2.13.2 <br> O que escreves que em Roma calam, eu assim imaginava. <small> [JDD] </small> </small> </p>
+; <p> his de rebus <b>scripsi</b> ad senatum <br> <small> Cic.Att.5.18.1 <br> Sobre essas coisas escrevi ao senado. <small> [JDD] </small> </small> </p>
+; <p> alii si <b>scripserint</b> mittemus ad te <br> <small> Cic.Att.1.20.6 <br> Se outros escreverem, eu te enviarei. <small> [JDD] </small> </small> </p>
+; <p> si nihil habebis tamen <b>scribas</b> aliquid <br> <small> Cic.Att.4.14.2 <br> se não tiveres nada, que escrevas alguma coisa mesmo assim. <small> [JDD] </small> </small> </p>
+; <p> sed haec ad te <b>scribam</b> alias subtilius <br> <small> Cic.Att.1.13.4 <br> Mas em outra ocasião te escreverei com mais detalhes. <small> [JDD] </small> </small> </p>
+; <p> sed de re publica non libet plura <b>scribere</b> <br> <small> Cic.Att.2.18.3 <br> Mas não tenho mais vontade de escrever sobre a república. <small> [JDD] </small> </small> </p>
+; <p> displiceo mihi ne c sine summo <b>scribo</b> dolore <br> <small> Cic.Att.2.18.3 <br> Estou insatisfeito comigo mesmo e escrevo não sem uma grande dor. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> sed nisi fallor citius te quam <b>scribis</b> videbo <br> <small> Cic.Att.4.19.1 <br> Mas, se não me engano, te verei mais logo do que escreves. <small> [JDD] </small> </small> </p>
+; <p> de tuo autem negotio saepe ad me <b>scribis</b> <br> <small> Cic.Att.1.19.9 <br> Me escreves com frequência sobre o teu assunto. <small> [JDD] </small> </small> </p>
+; <p> non queo plura <b>scribere</b> ne c est quod <b>scribam</b> <br> <small> Cic.Att.3.12.3 <br> Não consigo escrever mais, nem há o que escrever. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> prima contio Pompei qualis fuisset <b>scripsi</b> ad te antea <br> <small> Cic.Att.1.14.1 <br> Já te escrevi como tinha sido o primeiro discurso de Pompeu diante do povo. <small> [JDD] </small> </small> </p>
+; <p> quamquam non ἐγκωμιαστικὰ sunt haec sed ἱστορικὰ quae <b>scribimus</b> <br> <small> Cic.Att.1.19.10 <br> embora isto que escrevo não seja encomiástico, mas hitórico. <small> [JDD] </small> </small> </p>
+; <p> Numestium ex litteris tuis studiose <b>scriptis</b> libenter in amicitiam recepi <br> <small> Cic.Att.2.20.1 <br> A Numéstio, de acordo com tua carta zelosamente escrita, eu, com prazer, o recebi em amizade. <small> [JDD] </small> </small> </p>
+; <p> cum haec <b>scribebam</b> in tribunali res erat ad HS C̅X̅X̅ <br> <small> Cic.Att.5.20.5 <br> quando eu te escrevo isto, a soma na tribuna é de uns cento e vinte mil sestércios. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ante diem viii Kal haec ego <b>scribebam</b> hora noctis nona <br> <small> Cic.Att.4.3.5 <br> Eu escrevo esta no nono dia antes das calendas [23] na nona hora da noite [entre 2h e 3h da madrugada]. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> atque huius incommodi culpa ubi resideat facilius possum existimare quam <b>scribere</b> <br> <small> Cic.Att.1.17.3 <br> E eu posso mais facilmente imaginar onde reside a culpa desse aborrecimento do que escrever. <small> [JDD] </small> </small> </p>
+; <p> Ἡρώδης si homo esset eum potius legeret quam unam litteram <b>scriberet</b> <br> <small> Cic.Att.2.2.2 <br> “Herodes”, se fosse sensato, o leria antes de escrever uma única linha. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> numquam ante arbitror te epistulam meam legisse nisi mea manu <b>scriptam</b> <br> <small> Cic.Att.2.23.1 <br> Julgo que nunca leste antes uma carta minha que não fosse escrita por minha própria mão. <small> [JDD] </small> </small> </p>
+; <p> Pompeius mihi quoque videbatur quod <b>scribis</b> Varronem dicere in Hispaniam certe iturus <br> <small> Cic.Att.5.11.3 <br> A mim também me parece que, como escreves que Varrão diz, Pompeu irá com certeza à Hispânia. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-99-114-105-98-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 33.08 and an absolute frequency of 3. The Cicero subcorpus follows, with a normalized frequency of 21.74 and an absolute frequency of 349. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 349 ; absolute frequency: 21.7412972515013. subcorpus: Horatius ; normalized frequency: 14 ; absolute frequency: 12.4322884290916. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 8 ; absolute frequency: 7.42046192375475. subcorpus: Seneca ; normalized frequency: 24 ; absolute frequency: 4.47919971631735. subcorpus: Suetonius ; normalized frequency: 3 ; absolute frequency: 33.0760749724366. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-99-114-105-98-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 78.96 and an absolute frequency of 298. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 78.96 and an absolute frequency of 298. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 11 ; absolute frequency: 2.67776722899778. subcorpus: Prosa.filosófica ; normalized frequency: 35 ; absolute frequency: 5.76596761173622. subcorpus: Prosa.oratória ; normalized frequency: 40 ; absolute frequency: 3.84050387410828. subcorpus: Prosa.epistolográfica ; normalized frequency: 298 ; absolute frequency: 78.9634065555526. subcorpus: Poesia.lírica ; normalized frequency: 14 ; absolute frequency: 11.7775721376293. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-99-114-105-98-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 17.27 and an absolute frequency of 371. The I.d.C. subcorpus follows, with a normalized frequency of 3.98 and an absolute frequency of 26. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 3.98 and an absolute freqeuncy of 26. here are all the values: subcorpus: I.a.C. ; normalized frequency: 371 ; absolute frequency: 17.2678612985804. subcorpus: I.d.C. ; normalized frequency: 26 ; absolute frequency: 3.97735964509714. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

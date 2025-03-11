@@ -1,0 +1,196 @@
+---
+title: "usque"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-115-113-117-101xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>usquĕ</b> <br> <small>adv. e prep. acus.. I. Adv.</small> <br> <small>Obs.: Emprega-se absolutamente ou junto a outras partículas, advérbios ou preposições. Pode marcar a continuidade do movimento no tempo ou no espaço, encarado no seu ponto de partida ou de chegada. Seu emprego como preposição data do Império.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Em qualquer lugar, em qualquer tempo, sempre, sem interrupção com continuidade, até &ensp; <small>Hor. Sát. 1, 9, 19.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Usque</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Virg.</small> &ensp; continuamente. <br> <b>2</b> &ensp; <small>Ter.</small> &ensp; muito, por largo tempo. <br> <b>3</b> &ensp; quasi. </p> 
+ <b>Usquedum</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; até que. </p>
+
+
+
+
+#### Velez
+
+<b>Usque</b> <br> <small>Adverb.</small>   <p> <b>1</b> &ensp; sempre continuamente </p>
+
+
+
+
+#### Cardoso
+
+<b>Vsque</b>   <p> <b>1</b> &ensp; sempre </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/130872 ' target="_blank"> http://lila-erc.eu/data/id/lemma/130872 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> usce, usquedum, usquin, usquine <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+usquĕ
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-115-113-117-101xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword usque here are all the values plotted: collocate: ea; scoreSUBST: 0. collocate: ad; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-115-113-117-101xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword usque here are all the values plotted: collocate: ea; scoreADJ: 0. collocate: ad; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-115-113-117-101xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword usque here are all the values plotted: collocate: ea; scoreVERBO: 0. collocate: ad; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-115-113-117-101xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword usque here are all the values plotted: collocate: ea; scoreADV: 4. collocate: ad; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-115-113-117-101xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword usque here are all the values plotted: collocate: ea; scoreFUNC: 0. collocate: ad; scoreFUNC: 50'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> acriter utrimque <b>usque</b> ad uesperum pugnatum est <br> <small> Caes.Gal.1.50.3 <br> E de ambos os lados lutou-se encarniçadamente até a tarde. <small> [JDD] </small> </small> </p>
+; <p> non <b>usque</b> eo est improbus non omnia sunt in uno uitia numquam fuit crudelis <br> <small> Cic.Ver.2.4.86.11 <br> Ele não é malvado até esse ponto; não estão todos os vícios em uma pessoa só; ele nunca foi cruel. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-115-113-117-101xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 11.03 and an absolute frequency of 1. The Horatius subcorpus follows, with a normalized frequency of 10.66 and an absolute frequency of 12. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 4 ; absolute frequency: 1.51068811843795. subcorpus: Cicero ; normalized frequency: 50 ; absolute frequency: 3.11479903316638. subcorpus: Horatius ; normalized frequency: 12 ; absolute frequency: 10.6562472249356. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 21 ; absolute frequency: 3.91929975177768. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-115-113-117-101xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 10.1 and an absolute frequency of 12. The Prosa.filosófica subcorpus follows, with a normalized frequency of 4.28 and an absolute frequency of 26. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 6 ; absolute frequency: 1.46060030672606. subcorpus: Prosa.filosófica ; normalized frequency: 26 ; absolute frequency: 4.28329022586119. subcorpus: Prosa.oratória ; normalized frequency: 28 ; absolute frequency: 2.6883527118758. subcorpus: Prosa.epistolográfica ; normalized frequency: 16 ; absolute frequency: 4.23964598955987. subcorpus: Poesia.lírica ; normalized frequency: 12 ; absolute frequency: 10.0950618322537. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-115-113-117-101xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 3.21 and an absolute frequency of 21. The I.a.C. subcorpus follows, with a normalized frequency of 3.12 and an absolute frequency of 67. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 67 ; absolute frequency: 3.11845473586223. subcorpus: I.d.C. ; normalized frequency: 21 ; absolute frequency: 3.21248279027077. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

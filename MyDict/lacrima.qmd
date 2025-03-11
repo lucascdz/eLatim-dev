@@ -1,0 +1,201 @@
+---
+title: "lacrima"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx108-97-99-114-105-109-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>lacrĭma</b> <b>-ae</b> <br> <b>lachrŭma</b> <b>-ae</b> <br> <b>lachrĭma</b> <b>-ae</b> <br> <b>lacrŭma</b> <b>-ae</b> <br> <small>subs. f. geralmente no plural</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Lágrima, lágrimas &ensp; <small>Cíc. Planc. 101.</small> <br> <b>2</b> &ensp; <small>II-Donde:</small> &ensp; Gota de goma que cai de certas plantas &ensp; <small>Verg. G. 4. 160.</small> </p> 
+ <b>lacrŭma</b> <br> <small>arc..</small> <br> <small>v. lacrìma.</small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Lachryma</b> <br> <small>v. Lacryma.</small> 
+ <b>Lacryma</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; lagrima, pranto. <br> <b>2</b> &ensp; <small>Plin.</small> &ensp; humor, que corre de algumas arvores certadas. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Lachryma</b> -<b>ae</b>   <p> <b>1</b> &ensp; a lagrima </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/109669 ' target="_blank"> http://lila-erc.eu/data/id/lemma/109669 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a-) <br>
+<small> outras grafias: </small> dacrima, dacruma, lachrima, lachruma, lachryma, lacruma, lacryma <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+lăcrĭma 
+ lăcrĭmae
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx108-97-99-114-105-109-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx108-97-99-114-105-109-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword lacrima here are all the values plotted: collocate: interdum; scoreSUBST: 0. collocate: cum; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx108-97-99-114-105-109-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword lacrima here are all the values plotted: collocate: interdum; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx108-97-99-114-105-109-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword lacrima here are all the values plotted: collocate: interdum; scoreVERBO: 0. collocate: cum; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx108-97-99-114-105-109-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword lacrima here are all the values plotted: collocate: interdum; scoreADV: 2. collocate: cum; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx108-97-99-114-105-109-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword lacrima here are all the values plotted: collocate: interdum; scoreFUNC: 0. collocate: cum; scoreFUNC: 20. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> cum hac tu <b>lacrimas</b> tuas miscuisti in huius primum respirasti sinu <br> <small> Sen.Helv.19.1 <br> Com ela tu misturaste as tuas lágrimas, foi em seu regaço que respiraste pela primeira vez. <small> [JDD] </small> </small> </p>
+; <p> nam omnes idem sentiunt quod ex omnium precibus et <b>lacrimis</b> sentire potuisti <br> <small> Cic.Marc.33 <br> Pois todos sentem o mesmo, o que pudeste sentir pelos rogos e lágrimas de todos. <small> [JDD] </small> </small> </p>
+; <p> hi neque uultum fingere neque interdum <b>lacrimas</b> tenere poterant abditi in tabernaculis aut suum fatum querebantur aut cum familiaribus suis commune periculum miserabantur <br> <small> Caes.Gal.1.39.4 <br> Estes não conseguiam compor o rosto nem por vezes reter as lágrimas; escondidos em suas tendas ou se queixavam de seu destino ou lamentavam com seus amigos o perigo comum. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx108-97-99-114-105-109-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Ovidius subcorpus registers the highest normalized frequency, with the value of 5.15 and an absolute frequency of 3. The Sallustius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 20 ; absolute frequency: 1.24591961326655. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 23 ; absolute frequency: 4.29256639480413. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx108-97-99-114-105-109-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 9.56 and an absolute frequency of 11. The Poesia.trágica subcorpus follows, with a normalized frequency of 9.56 and an absolute frequency of 11. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 2 ; absolute frequency: 0.486866768908688. subcorpus: Prosa.filosófica ; normalized frequency: 15 ; absolute frequency: 2.47112897645838. subcorpus: Prosa.oratória ; normalized frequency: 15 ; absolute frequency: 1.44018895279061. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 11 ; absolute frequency: 9.55524669909659. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx108-97-99-114-105-109-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 3.98 and an absolute frequency of 26. The I.a.C. subcorpus follows, with a normalized frequency of 1.12 and an absolute frequency of 24. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 24 ; absolute frequency: 1.11705841284617. subcorpus: I.d.C. ; normalized frequency: 26 ; absolute frequency: 3.97735964509714. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

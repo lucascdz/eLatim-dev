@@ -1,0 +1,196 @@
+---
+title: "tergum"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx116-101-114-103-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>tergum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Pele que cobre as costas, couro, pele &ensp; <small>PIín. H. Nat. 8, 30.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Costas, dorso, lombo &ensp; <small>Cés. B. Gal. 1, 53, 1.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Face posterior das coisas, retaguarda &ensp; <small>Cés. B. Gal. 4, 15, 1.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Superfície &ensp; <small>do mar, de um rio, do solo Verg. G. 1, 97.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Corpo &ensp; <small>de animal Verg. G. 3, 426.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Cobertura, invólucro, pele, couro &ensp; <small>Verg. En. 1, 368.</small> <br> <b>7</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Objetos feitos de couro ou pele &ensp; <small>tambor, escudo Ov. F. 4, 342.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Tergum</b> -<b>i</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; espinhaço, costas, espadoas. <br> <b>2</b> &ensp; <small>Virg.</small> &ensp; pelle, couro. <br> <b>3</b> &ensp; broquel de couro. <br> <b>4</b> &ensp; <small>Terga. Ovid.</small> &ensp; fugidas. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>tergum aquae &ensp; <small><small>Ovid</small></small> &ensp; <small>Superficie da agoa</small> <br> tergum collis &ensp; <small><small>Liv</small></small> &ensp; <small>Parte de detraz de hum monte</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Tergum</b> <b>i</b>   <p> <b>1</b> &ensp; as costas </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/127889 ' target="_blank"> http://lila-erc.eu/data/id/lemma/127889 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> tergom <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+tergī
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx116-101-114-103-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword tergum here are all the values plotted: collocate: uerto; scoreSUBST: 0. collocate: post; scoreSUBST: 0. collocate: hostis; scoreSUBST: 2. collocate: ab; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx116-101-114-103-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword tergum here are all the values plotted: collocate: uerto; scoreADJ: 0. collocate: post; scoreADJ: 0. collocate: hostis; scoreADJ: 0. collocate: ab; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx116-101-114-103-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword tergum here are all the values plotted: collocate: uerto; scoreVERBO: 4. collocate: post; scoreVERBO: 0. collocate: hostis; scoreVERBO: 0. collocate: ab; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx116-101-114-103-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword tergum here are all the values plotted: collocate: uerto; scoreADV: 0. collocate: post; scoreADV: 0. collocate: hostis; scoreADV: 0. collocate: ab; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx116-101-114-103-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword tergum here are all the values plotted: collocate: uerto; scoreFUNC: 0. collocate: post; scoreFUNC: 30. collocate: hostis; scoreFUNC: 0. collocate: ab; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> tandem confecti uulneribus hostes <b>terga</b> uerterunt <br> <small> Caes.Gal.3.21.1 <br> finalmente, abatidos pelos ferimentos, os inimigos voltaram as costas. <small> [JDD] </small> </small> </p>
+; <p> iacere hos post <b>terga</b> iubemur . ' <br> <small> Ov.Met.1.394 <br> estas somos ordenados a atirar atrás das costas.” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> a <b>tergo</b> fronte lateribus tenebitur si in Galliam uenerit <br> <small> Cic.Phil.3.32.6 <br> Ele será detido pelas costas, por frente, pelos lados, se vier para a Gália. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx116-101-114-103-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 7.72 and an absolute frequency of 4. The Ovidius subcorpus follows, with a normalized frequency of 5.15 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 7 ; absolute frequency: 2.64370420726641. subcorpus: Cicero ; normalized frequency: 3 ; absolute frequency: 0.186887941989983. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 12 ; absolute frequency: 2.23959985815868. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx116-101-114-103-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 7.72 and an absolute frequency of 4. The Poesia.trágica subcorpus follows, with a normalized frequency of 6.08 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 7 ; absolute frequency: 1.70403369118041. subcorpus: Prosa.filosófica ; normalized frequency: 5 ; absolute frequency: 0.823709658819459. subcorpus: Prosa.oratória ; normalized frequency: 3 ; absolute frequency: 0.288037790558121. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 7 ; absolute frequency: 6.08061153578874. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx116-101-114-103-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 2.45 and an absolute frequency of 16. The I.a.C. subcorpus follows, with a normalized frequency of 0.65 and an absolute frequency of 14. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 14 ; absolute frequency: 0.6516174074936. subcorpus: I.d.C. ; normalized frequency: 16 ; absolute frequency: 2.44760593544439. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

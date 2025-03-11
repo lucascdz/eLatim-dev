@@ -1,0 +1,227 @@
+---
+title: "accipio"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-99-99-105-112-105-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>accēpī</b> <br> <small>perf. de accipìo.</small> <br> <small></small> 
+ <b>accipĭō</b> <b>-is</b> <b>-ère</b> <b>-cèpí, -céptum</b> <br> <small>v. tr.</small> <br> <small>Obs.: Fut. pert. accepso Pacúv. Tr. 325.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Tomar para si, receber, aceitar: &ensp; <small></small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Receber pelos sentidos, ouvir, ouvir dizer, escutar &ensp; <small>Cíc. Phil. 8, 28.</small> <br> <b>3</b> &ensp; <small>II-Donde, em sentido intelectual:</small> &ensp; Compreender, interpretar, entender &ensp; <small>Cíc. Dej. 26.</small> <br> <b>4</b> &ensp; <small>II-Donde, em sentido intelectual:</small> &ensp; Aprender &ensp; <small>Cíc. Arch. 18.</small> <br> <b>5</b> &ensp; <small>II-Em sent. moral:</small> &ensp; sofrer, experimentar, suportar &ensp; <small>Cíc. Tusc.5, 56.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>ab defessis accípere scalas T. Lív. 26, 45, 6 «tomar as escadas das mãos dos fatigados»,  </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Accipio</b> -<b>is</b> -<b>cepi</b> -<b>ceptum</b> -<b>pere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; receber, aceitar. <br> <b>2</b> &ensp; ouvir, aprender. </p> 
+ <small>pret. de Accipio</small> <b>Accepi</b>
+
+
+
+
+#### Velez
+
+<b>Accipio</b> -<b>is</b>   <p> <b>1</b> &ensp; tomar, receber, ouvir ou entender </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>acceptum aliquid referre &ensp; <small>confessar ter recebido alguma cousa de alguem</small> <br> accipere aliquem hospitio &ensp; <small>hospedar</small> <br> magnifice, ac festiue accepti sumus &ensp; <small>fomos bem agasalhados</small> <br> miseris aliquem accipere modis &ensp; <small>tratar a alguem mal</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Accipio</b>   <p> <b>1</b> &ensp; <small>pro intelligo</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>nõ recte accipis &ensp; <small><small>Terent</small></small> &ensp; <small>Não entendeis bem</small> </p> 
+ <b>Accipio</b> <b>is</b> -<b>epi</b> -<b>eptum</b>   <p> <b>1</b> &ensp; receber. ouuir. tratar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/87119 ' target="_blank"> http://lila-erc.eu/data/id/lemma/87119 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 5ª conjugação (tema em -ĭ- breve) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> accipio </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> accipere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> accipiet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> accepi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> acceptum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> accepturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+accēpī 
+ accĭpĭō 
+ accĭpis 
+ accĭpĕre
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-99-99-105-112-105-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-99-99-105-112-105-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword accipio here are all the values plotted: collocate: uulnus; scoreSUBST: 3. collocate: obses; scoreSUBST: 2. collocate: detrimentum; scoreSUBST: 2. collocate: iniuria; scoreSUBST: 2. collocate: maiores; scoreSUBST: 2. collocate: littera; scoreSUBST: 2. collocate: libenter; scoreSUBST: 0. collocate: pater; scoreSUBST: 2. collocate: cum3; scoreSUBST: 0. collocate: dolor; scoreSUBST: 2. collocate: Roma; scoreSUBST: 0. collocate: ratio; scoreSUBST: 2. collocate: at; scoreSUBST: 0. collocate: tempus; scoreSUBST: 2. collocate: non; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-99-99-105-112-105-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword accipio here are all the values plotted: collocate: uulnus; scoreADJ: 0. collocate: obses; scoreADJ: 0. collocate: detrimentum; scoreADJ: 0. collocate: iniuria; scoreADJ: 0. collocate: maiores; scoreADJ: 0. collocate: littera; scoreADJ: 0. collocate: libenter; scoreADJ: 0. collocate: pater; scoreADJ: 0. collocate: cum3; scoreADJ: 0. collocate: dolor; scoreADJ: 0. collocate: Roma; scoreADJ: 0. collocate: ratio; scoreADJ: 0. collocate: at; scoreADJ: 0. collocate: tempus; scoreADJ: 0. collocate: non; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-99-99-105-112-105-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword accipio here are all the values plotted: collocate: uulnus; scoreVERBO: 0. collocate: obses; scoreVERBO: 0. collocate: detrimentum; scoreVERBO: 0. collocate: iniuria; scoreVERBO: 0. collocate: maiores; scoreVERBO: 0. collocate: littera; scoreVERBO: 0. collocate: libenter; scoreVERBO: 0. collocate: pater; scoreVERBO: 0. collocate: cum3; scoreVERBO: 0. collocate: dolor; scoreVERBO: 0. collocate: Roma; scoreVERBO: 0. collocate: ratio; scoreVERBO: 0. collocate: at; scoreVERBO: 0. collocate: tempus; scoreVERBO: 0. collocate: non; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-99-99-105-112-105-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword accipio here are all the values plotted: collocate: uulnus; scoreADV: 0. collocate: obses; scoreADV: 0. collocate: detrimentum; scoreADV: 0. collocate: iniuria; scoreADV: 0. collocate: maiores; scoreADV: 0. collocate: littera; scoreADV: 0. collocate: libenter; scoreADV: 2. collocate: pater; scoreADV: 0. collocate: cum3; scoreADV: 2. collocate: dolor; scoreADV: 0. collocate: Roma; scoreADV: 0. collocate: ratio; scoreADV: 0. collocate: at; scoreADV: 0. collocate: tempus; scoreADV: 0. collocate: non; scoreADV: 1. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-99-99-105-112-105-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword accipio here are all the values plotted: collocate: uulnus; scoreFUNC: 0. collocate: obses; scoreFUNC: 0. collocate: detrimentum; scoreFUNC: 0. collocate: iniuria; scoreFUNC: 0. collocate: maiores; scoreFUNC: 0. collocate: littera; scoreFUNC: 0. collocate: libenter; scoreFUNC: 0. collocate: pater; scoreFUNC: 0. collocate: cum3; scoreFUNC: 0. collocate: dolor; scoreFUNC: 0. collocate: Roma; scoreFUNC: 0. collocate: ratio; scoreFUNC: 0. collocate: at; scoreFUNC: 0. collocate: tempus; scoreFUNC: 0. collocate: non; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> si <b>accipiendam</b> cur non rogamur <br> <small> Cic.Phil.12.16.3 <br> Se deve ser aceita, por que não somos solicitados? <small> [JDD] </small> </small> </p>
+; <p> <b>acceptae</b> iniuriae querelam ad quem detulistis <br> <small> Cic.Lig.25 <br> A quem apresentastes vossa queixa do ultraje recebido? <small> [JDD] </small> </small> </p>
+; <p> quaero quid faciat dicitur rationes <b>accipere</b> <br> <small> Sen.Ep.122.15 <br> Pergunto o que ele está fazendo: me é dito que ele está recebendo as contas. <small> [JDD] </small> </small> </p>
+; <p> simul et vides quas <b>acceperim</b> litteras <br> <small> Cic.Att.5.21.4 <br> ao mesmo tempo vês a carta que recebi. <small> [JDD] </small> </small> </p>
+; <p> hoc enim ad edendas operas tempus <b>acceperat</b> <br> <small> Sen.Ep.29.6 <br> pois tinha escolhido este momento para dar a conhecer suas obras.[*] <small>  </small> </small> </p>
+; <p> <b>accepi</b> Roma sine epistula tua fasciculum litterarum <br> <small> Cic.Att.5.17.1 <br> Recebi de Roma um pacote de cartas sem nenhuma carta tua. <small> [JDD] </small> </small> </p>
+; <p> ridemus et ipse Messius <b>accipio</b> caput et mouet <br> <small> Hor.S.1.5.57 <br> Rimos, e Méssio: “Aceito”, e balança a cabeça. <small> [JDD] </small> </small> </p>
+; <p> sane plagam odiosam <b>acceperat</b> cum re tum tempore <br> <small> Cic.Att.5.20.4 <br> sem dúvida recebeu um golpe odioso tanto pelo fato em si como pela ocasião. <small> [JDD] </small> </small> </p>
+; <p> huic similiter Impinge lapidem et dignum <b>accipies</b> praemium . <br> <small> Phaed.3.5 <br> taca também uma pedra nele e receberás uma recompensa digna”. <small> [JDD] </small> </small> </p>
+; <p> parant si <b>accepturos</b> licuit eligere si conlocata non sparsa sunt <br> <small> Sen.Ep.19.12 <br> Conquistam, se foi possível escolher os que os receberiam, se foram distribuídos, não espalhados. <small> [JDD] </small> </small> </p>
+; <p> reliquum est ut et <b>accipiantur</b> et remittantur postulata per litteras <br> <small> Cic.Phil.12.28.4 <br> Resta que as exigências sejam recebidas e enviadas por meio de cartas. <small> [JDD] </small> </small> </p>
+; <p> rationes <b>accipit</b> forum conterit kalendarium uersat fit ex domino procurator <br> <small> Sen.Ep.14.18 <br> Recebe as contas, gasta o tempo no foro, revolve o calendário: passa-se de senhor a administrador. <small> [JDD] </small> </small> </p>
+; <p> armis obsidibusque <b>acceptis</b> Crassus in fines Uocatium et Tarusatium profectus est <br> <small> Caes.Gal.3.23.1 <br> Recebidas as armas e os reféns, Crasso partiu para as fronteiras dos vocates e tarusates. <small> [JDD] </small> </small> </p>
+; <p> relinquit animus Sextium grauibus <b>acceptis</b> uulneribus deficiens aegre per manus tractus seruatur <br> <small> Caes.Gal.6.38.4 <br> O ânimo abandona Séxtio pelos graves ferimentos recebidos: arrastado com dificuldade de mão em mão, é salvo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> confecta Britannia obsidibus <b>acceptis</b> nulla praeda imperata tamen pecunia exercitum ex Britannia reportabant <br> <small> Cic.Att.4.18.5 <br> Derrotada a Britânia, tomados os reféns, sem nenhum butim, mas ordenado um tributo, estão retirando o exército da Britânia. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Numerium Numestium libenter <b>accepi</b> in amicitiam et hominem gravem et prudentem et dignum tua commendatione cognovi <br> <small> Cic.Att.2.22.7 <br> Recebi com prazer em amizade Numério Numéstio e conheci nele um homem sério e prudente e digno de tua recomendação. <small> [JDD] </small> </small> </p>
+; <p> et in aes incidi iubebitis credo illa legitima consules populum iure rogauerunt hocine a maioribus <b>accepimus</b> ius rogandi <br> <small> Cic.Phil.1.26.1 <br> E ordenareis, creio, que sejam gravadas no bronze as legítimas: “Os cônsules, por direito, apresentaram a proposta ao povo (foi este o direito de apresentar proposta que recebemos dos antepassados?) <small> [JDD] </small> </small> </p>
+; <p> qua quidem ex re magnum <b>accipio</b> dolorem homines amplissimis populi Romani beneficiis usos L. Pisonem ducem optimae sententiae non secutos <br> <small> Cic.Phil.1.14.8 <br> E por essa causa, sinto realmente uma grande dor, homens que se serviram dos maiores benefícios do povo romano não seguiram Lúcio Pisão, mentor da melhor proposta. <small> [JDD] </small> </small> </p>
+; <p> quantum luctum fuisse in hac urbe a nostris patribus <b>accepimus</b> cum P. Africano domi suae quiescenti illa nocturna uis esset inlata <br> <small> Cic.Mil.16 <br> Aprendemos de nossos antepassados quão grande foi a dor nesta cidade quando aquela violência noturna tinha sido infligida a Públio Africano, enquanto descansava em sua casa. <small> [JDD] </small> </small> </p>
+; <p> nam in ceteris rebus cum uenit calamitas tum detrimentum <b>accipitur</b> at in uectigalibus non solum aduentus mali sed etiam metus ipse adfert calamitatem <br> <small> Cic.Man.15 <br> Pois nos outros casos, no momento em que chega o infortúnio, sofre-se o dano; mas, no caso dos impostos, não só a chegada do mal, mas também o próprio medo dele ocasionam o infortúnio <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-99-99-105-112-105-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 20.6 and an absolute frequency of 6. The Tacitus subcorpus follows, with a normalized frequency of 20.6 and an absolute frequency of 6. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 30 ; absolute frequency: 11.3301608882846. subcorpus: Cicero ; normalized frequency: 165 ; absolute frequency: 10.2788368094491. subcorpus: Horatius ; normalized frequency: 6 ; absolute frequency: 5.32812361246781. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 7 ; absolute frequency: 10.6269925611052. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 31 ; absolute frequency: 5.78563296690991. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 6 ; absolute frequency: 20.5973223480947. subcorpus: Vergilius ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Hieronymus ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-99-99-105-112-105-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 17.49 and an absolute frequency of 66. The Poesia.trágica subcorpus follows, with a normalized frequency of 2.61 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 2.61 and an absolute freqeuncy of 3. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 43 ; absolute frequency: 10.4676355315368. subcorpus: Prosa.filosófica ; normalized frequency: 50 ; absolute frequency: 8.23709658819459. subcorpus: Prosa.oratória ; normalized frequency: 77 ; absolute frequency: 7.39296995765844. subcorpus: Prosa.epistolográfica ; normalized frequency: 66 ; absolute frequency: 17.4885397069345. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 7 ; absolute frequency: 5.93773856985325. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Prosa.ficcional ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-99-99-105-112-105-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 15.71 and an absolute frequency of 6. The I.a.C. subcorpus follows, with a normalized frequency of 10.01 and an absolute frequency of 215. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 5.81 and an absolute freqeuncy of 38. here are all the values: subcorpus: I.a.C. ; normalized frequency: 215 ; absolute frequency: 10.0069816150803. subcorpus: I.d.C. ; normalized frequency: 38 ; absolute frequency: 5.81306409668043. subcorpus: II.d.C. ; normalized frequency: 6 ; absolute frequency: 15.7068062827225. subcorpus: IV.d.C. ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+:::
+

@@ -1,0 +1,210 @@
+---
+title: "peruenio"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-101-114-117-101-110-105-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>pervēnī</b> <br> <small>perf. de pervenìó.</small> <br> <small></small> 
+ <b>pervenĭō</b> <b>-ís</b> <b>-íre</b> <b>-véní, -véntum</b> <br> <small>v. intr.</small> <br> <small>Obs.: Subj. pres.: pervenat Plaut. Rud. 626.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Chegar a, atingir &ensp; <small>Cíc. Verr. 4. 28; Cíc. Flac. 42: Cíc. Verr. 2, 45.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Caber como parte, locar em partilha &ensp; <small>Cés. B. Civ. 1, 26, 4.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Pervenio</b> -<b>is</b> -<b>eni</b> -<b>entum</b> -<b>ire</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; chegar, acabar de vir. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>peruenire ad primos &ensp; <small><small>Cic</small></small> &ensp; <small>Chegar a ser hum dos principaes</small> <br> peruenire in scripta alicuius &ensp; <small><small>Cic</small></small> &ensp; <small>Merecer ser louvado nos escritos de alguem</small> <br> peruenit ad aures alicuius &ensp; <small><small>Cic</small></small> &ensp; <small>Chegou-me isto á noticia, ou aos ouvidos de alguem</small> <br> peruenit res haec ad me &ensp; <small><small>Plaut</small></small> &ensp; <small>Chegou-me isto á noticia, ou aos ouvidos de alguem</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Peruenio</b> <b>is</b> <b>ni</b>   <p> <b>1</b> &ensp; chegar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/117445 ' target="_blank"> http://lila-erc.eu/data/id/lemma/117445 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 4ª conjugação (tema em -ī- longo) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> peruenio </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> peruenire </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> perueniet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> perueni </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> peruentum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> peruenturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+pervĕnĭō 
+ pervĕnis 
+ pervĕnīre 
+ pervēnī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-101-114-117-101-110-105-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-101-114-117-101-110-105-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword peruenio here are all the values plotted: collocate: castra; scoreSUBST: 2. collocate: ea; scoreSUBST: 0. collocate: ad; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-101-114-117-101-110-105-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword peruenio here are all the values plotted: collocate: castra; scoreADJ: 0. collocate: ea; scoreADJ: 0. collocate: ad; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-101-114-117-101-110-105-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword peruenio here are all the values plotted: collocate: castra; scoreVERBO: 0. collocate: ea; scoreVERBO: 0. collocate: ad; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-101-114-117-101-110-105-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword peruenio here are all the values plotted: collocate: castra; scoreADV: 0. collocate: ea; scoreADV: 2. collocate: ad; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-101-114-117-101-110-105-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword peruenio here are all the values plotted: collocate: castra; scoreFUNC: 0. collocate: ea; scoreFUNC: 0. collocate: ad; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quando ad hoc gaudium <b>peruenire</b> continget <br> <small> Sen.Ep.27.4 <br> Quando acontecerá de chegares a este gozo? <small> [JDD] </small> </small> </p>
+; <p> ad mortem dies extremus <b>peruenit</b> accedit omnis <br> <small> Sen.Ep.120.18 <br> o último dia chega à porta da morte, todos se aproximam dela. <small> [JDD] </small> </small> </p>
+; <p> tunc ad bonum <b>perueniet</b> cum ad rationem <b>peruenerit</b> <br> <small> Sen.Ep.124.8 <br> Então chegará ao bem quando tiver chegado à razão. <small> [JDD] </small> </small> </p>
+; <p> eo postquam Caesar <b>peruenit</b> obsides arma seruos qui ad eos perfugissent poposcit <br> <small> Caes.Gal.1.27.3 <br> Quando César lá chegou, exigiu reféns, armas, os escravos que tinham fugido até eles. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> re frumentaria prouisa duodecimo die castra mouet diebusque circiter XV ad fines Belgarum <b>peruenit</b> <br> <small> Caes.Gal.2.2.6 <br> Preparado o abastecimento de trigo, levanta acampamento e, em cerca de quinz dias, chega aos limites dos belgas. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-101-114-117-101-110-105-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 11.33 and an absolute frequency of 30. The Sallustius subcorpus follows, with a normalized frequency of 1.86 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 30 ; absolute frequency: 11.3301608882846. subcorpus: Cicero ; normalized frequency: 35 ; absolute frequency: 2.18035932321647. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 29 ; absolute frequency: 5.41236632388347. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-101-114-117-101-110-105-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 7.79 and an absolute frequency of 32. The Prosa.histórica subcorpus follows, with a normalized frequency of 7.79 and an absolute frequency of 32. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 32 ; absolute frequency: 7.78986830253901. subcorpus: Prosa.filosófica ; normalized frequency: 35 ; absolute frequency: 5.76596761173622. subcorpus: Prosa.oratória ; normalized frequency: 21 ; absolute frequency: 2.01626453390685. subcorpus: Prosa.epistolográfica ; normalized frequency: 8 ; absolute frequency: 2.11982299477994. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-101-114-117-101-110-105-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 4.74 and an absolute frequency of 31. The I.a.C. subcorpus follows, with a normalized frequency of 3.16 and an absolute frequency of 68. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 68 ; absolute frequency: 3.16499883639749. subcorpus: I.d.C. ; normalized frequency: 31 ; absolute frequency: 4.74223649992351. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

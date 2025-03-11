@@ -1,0 +1,200 @@
+---
+title: "aqua"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-113-117-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>acŭa</b> <br> <small></small> <br> <small>v. aqua.</small> 
+ <small>1.</small> <b>aqua</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small>Obs.: Notem-se as expressões como: a praebere aquam Hor. Sát. 1, 4, 88 “oferecer água para as abluções antes das refeições” e, daí. convidar alguém: b aquam dare Plín. Ep. 6, 2, 7 «fixar o tempo que um advogado dispõe para falar»: c aquam perdere Quint. 11, 3, 52 «empregar mal o tempo que Ihe é dado para falar»: d mihi aqua haeret Cíc. Q. Fr. 2,. 6, 2 “estou atrapalhado”; e aquam et terram ab aliquo petere T. Lív. 35. 17,7 “pedir água e terra». i. e., “pedir a submissão do inimigo». Obs.: Gen. arc.: aquáí Lucr. 1, 284: Verg. En. 7, 464.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Água &ensp; <small>Cíc. Verr. 4. 107.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Água de rio, rio, lago, mar, água de chuva &ensp; <small>Cíc. Div. 2, 69; Cíc. Verr. 2, 86; água de chuva Cíc. De Or. 3, 180.</small> <br> <b>3</b> &ensp; <small>I-No pl.</small> &ensp; águas termais, banhos &ensp; <small>Cíc. Planc. 65.</small> </p> 
+ <small>2.</small> <b>Aqua</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Água. nome de uma constelação &ensp; <small>Cíc. Arat. 179.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Aqua</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; agoa. </p> 
+ <small>Cic. por Aquae, genit de Aqua</small> <b>Aquai</b>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Aqua</b> -<b>ae</b>   <p> <b>1</b> &ensp; a agoa </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/89692 ' target="_blank"> http://lila-erc.eu/data/id/lemma/89692 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a-) <br>
+<small> outras grafias: </small> acua, aqiia <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ăqua 
+ ăquae
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-113-117-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> aut gratuitum est quo egemus aut uile panem et <b>aquam</b> natura desiderat <br> <small> Sen.Ep.25.4 <br> Aquilo de que necessitamos ou é gratuito ou barato: a natureza exige pão e água. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-113-117-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Ovidius subcorpus registers the highest normalized frequency, with the value of 13.73 and an absolute frequency of 8. The Horatius subcorpus follows, with a normalized frequency of 6.22 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Sallustius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 3 ; absolute frequency: 1.13301608882846. subcorpus: Cicero ; normalized frequency: 15 ; absolute frequency: 0.934439709949914. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 8 ; absolute frequency: 13.7268359643102. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 17 ; absolute frequency: 3.17276646572479. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-113-117-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.didática subcorpus registers the highest normalized frequency, with the value of 9.33 and an absolute frequency of 11. The Poesia.lírica subcorpus follows, with a normalized frequency of 5.89 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 0.73 and an absolute freqeuncy of 3. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 3 ; absolute frequency: 0.730300153363032. subcorpus: Prosa.filosófica ; normalized frequency: 16 ; absolute frequency: 2.63587090822227. subcorpus: Prosa.oratória ; normalized frequency: 8 ; absolute frequency: 0.768100774821657. subcorpus: Prosa.epistolográfica ; normalized frequency: 4 ; absolute frequency: 1.05991149738997. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 11 ; absolute frequency: 9.33073203834083. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-113-117-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 4.49 and an absolute frequency of 2. The I.d.C. subcorpus follows, with a normalized frequency of 4.28 and an absolute frequency of 28. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 27 ; absolute frequency: 1.25669071445194. subcorpus: I.d.C. ; normalized frequency: 28 ; absolute frequency: 4.28331038702769. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

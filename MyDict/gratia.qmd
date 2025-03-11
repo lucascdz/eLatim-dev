@@ -1,0 +1,206 @@
+---
+title: "gratia"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx103-114-97-116-105-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>grātĭa</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio abstrato:</small> &ensp; Reconheeimento, agradecimento, ação de graças &ensp; <small>Cíc. Cat. I, 28.</small> <br> <b>2</b> &ensp; <small>II-Daí, em sent. concreto</small> &ensp; Ato pelo qual se obtém reconhecimento; e &ensp; <small></small> <br> <b>3</b> &ensp; <small>II-Daí:</small> &ensp; Serviço prestado, obséquio, benefício, favor &ensp; <small>T. LÍV. 3,41,4.</small> <br> <b>4</b> &ensp; <small>III-Sents.diversos:</small> &ensp; Influência, boas graças, simpatia &ensp; <small>Cíc. Verr. 4, 143.</small> <br> <b>5</b> &ensp; <small>III-Sents.diversos:</small> &ensp; Popularidade, crédito &ensp; <small>Cíc. Rep. 2, 60.</small> <br> <b>6</b> &ensp; <small>III-Sents.diversos:</small> &ensp; Graça, beleza, encanto, sabor agradável &ensp; <small>Suet. Vito 3.</small> <br> <b>7</b> &ensp; <small>III-Sents.diversos:</small> &ensp; Boa harmonia, acordo, amizade &ensp; <small>Cíc. Provo 23.</small> <br> <b>8</b> &ensp; <small>III-Sents.diversos:</small> &ensp; Perdão, graça, licença &ensp; <small>Sal. B. Jug. 104, 5.</small> <br> <b>9</b> &ensp; <small>III-Sents.diversos:</small> &ensp; Razão, motivo, causa &ensp; <small>só no abl. Cíc. Nat. 2, 158.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Gratia</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; graça, beneficio, favor. <br> <b>2</b> &ensp; amizade, affeição, benevolencia. <br> <b>3</b> &ensp; gratidão, agradecimento, obrigação de hum beneficio. <br> <b>4</b> &ensp; <small>Caes.</small> &ensp; credito, autoridade, poder. <br> <b>5</b> &ensp; <small>Ovid.</small> &ensp; graça, formosura, grandeza. <br> <b>6</b> &ensp; <small>Plaut.</small> &ensp; perdão. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>mea gratia &ensp; <small><small>Plaut</small></small> &ensp; <small>A meu respeito, por amor de mim</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Gratia</b> -<b>ae</b>   <p> <b>1</b> &ensp; a graça. ou agradecimento </p> 
+ <b>Gratia</b> -<b>ae</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/104869 ' target="_blank"> http://lila-erc.eu/data/id/lemma/104869 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+grātĭa 
+ grātĭae
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx103-114-97-116-105-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx103-114-97-116-105-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword gratia here are all the values plotted: collocate: ago; scoreSUBST: 0. collocate: refero; scoreSUBST: 0. collocate: dignitas; scoreSUBST: 2. collocate: tantus; scoreSUBST: 0. collocate: consilium; scoreSUBST: 2. collocate: deus; scoreSUBST: 2. collocate: bonus; scoreSUBST: 0. collocate: quod; scoreSUBST: 0. collocate: aut; scoreSUBST: 0. collocate: magnus; scoreSUBST: 0. collocate: omnis; scoreSUBST: 0. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx103-114-97-116-105-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword gratia here are all the values plotted: collocate: ago; scoreADJ: 0. collocate: refero; scoreADJ: 0. collocate: dignitas; scoreADJ: 0. collocate: tantus; scoreADJ: 0. collocate: consilium; scoreADJ: 0. collocate: deus; scoreADJ: 0. collocate: bonus; scoreADJ: 2. collocate: quod; scoreADJ: 0. collocate: aut; scoreADJ: 0. collocate: magnus; scoreADJ: 2. collocate: omnis; scoreADJ: 0. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx103-114-97-116-105-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword gratia here are all the values plotted: collocate: ago; scoreVERBO: 4. collocate: refero; scoreVERBO: 3. collocate: dignitas; scoreVERBO: 0. collocate: tantus; scoreVERBO: 0. collocate: consilium; scoreVERBO: 0. collocate: deus; scoreVERBO: 0. collocate: bonus; scoreVERBO: 0. collocate: quod; scoreVERBO: 0. collocate: aut; scoreVERBO: 0. collocate: magnus; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx103-114-97-116-105-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword gratia here are all the values plotted: collocate: ago; scoreADV: 0. collocate: refero; scoreADV: 0. collocate: dignitas; scoreADV: 0. collocate: tantus; scoreADV: 0. collocate: consilium; scoreADV: 0. collocate: deus; scoreADV: 0. collocate: bonus; scoreADV: 0. collocate: quod; scoreADV: 0. collocate: aut; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx103-114-97-116-105-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword gratia here are all the values plotted: collocate: ago; scoreFUNC: 0. collocate: refero; scoreFUNC: 0. collocate: dignitas; scoreFUNC: 0. collocate: tantus; scoreFUNC: 0. collocate: consilium; scoreFUNC: 0. collocate: deus; scoreFUNC: 0. collocate: bonus; scoreFUNC: 0. collocate: quod; scoreFUNC: 20. collocate: aut; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0. collocate: in; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> erat in Syria nostrum nomen in <b>gratia</b> <br> <small> Cic.Att.5.20.3 <br> Meu nome estava em prestígio na Síria. <small> [JDD] </small> </small> </p>
+; <p> Solet a despectis par referri <b>gratia</b> . <br> <small> Phaed.3.2 <br> O mesmo favor costuma ser devolvido pelos menosprezados. <small> [JDD] </small> </small> </p>
+; <p> tu me ut facis opera consilio <b>gratia</b> iuva <br> <small> Cic.Att.3.11.2 <br> Tu, me ajuda, como estás fazendo, com tua atividade, conselho, influência. <small> [JDD] </small> </small> </p>
+; <p> Sallustium praesentem restituere in eius veterem <b>gratiam</b> non potui <br> <small> Cic.Att.1.3.3 <br> Não consegui devolver Salústio, que está aqui, à sua velha amizade. <small> [JDD] </small> </small> </p>
+; <p> in <b>gratiam</b> te reducam cum diis aduersus optimos optimis <br> <small> Sen.Prov.1.5 <br> Vou te reconciliar com os deuses, excelentes para com os excelentes. <small> [JDD] </small> </small> </p>
+; <p> magnus dicendi labor magna res magna dignitas summa autem <b>gratia</b> <br> <small> Cic.Mur.29 <br> Grande é o labor de discursar, grande seu assunto, grande sua dignidade, suprema, porém, a sua influência. <small> [JDD] </small> </small> </p>
+; <p> ego autem magna cum agrariorum <b>gratia</b> confirmabam omnium privatorum possessiones <br> <small> Cic.Att.1.19.4 <br> Eu, por minha vez, com grande gratidão dos donos das terras, garanto as possessões de todos os particulares. <small> [JDD] </small> </small> </p>
+; <p> Ambitio namque dissidens mortalium Aut <b>gratiae</b> subscribit aut odio suo . <br> <small> Phaed.3.10 <br> Pois a ambição dos mortais, que é divergente, se associa ou ao favor ou ao seu ódio. <small> [JDD] </small> </small> </p>
+; <p> cui quamquam <b>gratia</b> referri tanta non potest quanta debetur habenda tamen est tanta quantam maximam animi nostri capere possunt <br> <small> Cic.Phil.3.4.1 <br> E embora não seja possível mostrar a ele tanto agradecimento como é devido, mesmo assim devemos ter por ele uma gratidão tão grande quanto a maior que os nossos corações podem conter. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx103-114-97-116-105-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 9.11 and an absolute frequency of 6. The Phaedrus subcorpus follows, with a normalized frequency of 9.11 and an absolute frequency of 6. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 19 ; absolute frequency: 7.17576856258025. subcorpus: Cicero ; normalized frequency: 105 ; absolute frequency: 6.5410779696494. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 6 ; absolute frequency: 9.10885076666161. subcorpus: Sallustius ; normalized frequency: 9 ; absolute frequency: 8.3480196642241. subcorpus: Seneca ; normalized frequency: 14 ; absolute frequency: 2.61286650118512. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx103-114-97-116-105-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 10.86 and an absolute frequency of 41. The Prosa.histórica subcorpus follows, with a normalized frequency of 7.3 and an absolute frequency of 30. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 30 ; absolute frequency: 7.30300153363032. subcorpus: Prosa.filosófica ; normalized frequency: 19 ; absolute frequency: 3.13009670351395. subcorpus: Prosa.oratória ; normalized frequency: 57 ; absolute frequency: 5.4727180206043. subcorpus: Prosa.epistolográfica ; normalized frequency: 41 ; absolute frequency: 10.8640928482472. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 6 ; absolute frequency: 5.08949020273136. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx103-114-97-116-105-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 6.24 and an absolute frequency of 134. The I.d.C. subcorpus follows, with a normalized frequency of 3.06 and an absolute frequency of 20. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 134 ; absolute frequency: 6.23690947172446. subcorpus: I.d.C. ; normalized frequency: 20 ; absolute frequency: 3.05950741930549. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

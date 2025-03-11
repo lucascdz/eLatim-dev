@@ -1,0 +1,208 @@
+---
+title: "infero"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-110-102-101-114-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>infĕrō</b> <b>-fers</b> <b>-férre</b> <b>intùlí, illátum</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói-se com obj. dir. e acus. com in ou com ad; com dat.; ou intransitivamente.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Levar a ou contra &ensp; <small>Cés. B. Gal. 2. 26. I; T. Lív. 32. 24.5.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Levar, para a sepultura, enterrar, introduzir, pôr em ou sobre &ensp; <small>Cíc. Leg. 2. 64.</small> <br> <b>3</b> &ensp; <small>I-Daí:</small> &ensp; Trazer, apresentar, dar, oferecer &ensp; <small>T. Lív. 33, 16, 8.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Inspirar, causar, suscitar &ensp; <small>Cés. B. Gal. 7. 8 3.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Concluir &ensp; <small>Cíc. fnv. I. 73.</small> <br> <b>6</b> &ensp; <small>II-Reflexivo ou passivo</small> &ensp; dirigir-se para, ir contra, avançar, lançar-se, introduzir-se &ensp; <small>Cíc. Font. 44; Cíc. Balo. 25.</small> <br> <b>7</b> &ensp; <small>II-Donde:</small> &ensp; Fazer-se valer &ensp; <small>Cíc. Caec. 1.'.</small> </p> 
+ <b>intŭlī</b> <br> <small>perf. de infèro.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Infero</b> -<b>fers</b> -<b>tuli</b> -<b>illatum</b> -<b>erre</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; introduzir, levar, trazer, metter para dentro. <br> <b>2</b> &ensp; inferir, concluir, tirar por consequencia. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>inferre aliquem &ensp; <small><small>Cic</small></small> &ensp; <small>Sepultar alguem</small> <br> inferre sese magnifice &ensp; <small><small>Plaut</small></small> &ensp; <small>Andar com arrogancia, e fausto</small> </p>
+
+
+
+
+#### Velez
+
+<b>Infero</b> -<b>ers</b>   <p> <b>1</b> &ensp; meter, ou trazer para dentro <br> <b>2</b> &ensp; inferir, ou concluir </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>bellum, uel arma alicui inferre &ensp; <small>fazer, ou emprender guerra contra alguem</small> <br> conuersa signa inferre &ensp; <small><small>i, contra ferre</small></small> <br> crimen inferre &ensp; <small><small>i, objicere</small></small> <br> manus inferre &ensp; <small><small>id est, injicere</small></small> <br> reliquias tumulo inferre </p>
+
+
+
+
+#### Cardoso
+
+<b>Infero</b> -<b>ers</b>   <p> <b>1</b> &ensp; meter. ou trazer dẽtro </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/107649 ' target="_blank"> http://lila-erc.eu/data/id/lemma/107649 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> irregular <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> infero </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> inferre </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> inferet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> intuli, intetuli </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> inlatum, illatum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> inlaturum, illaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+infĕrō 
+ intŭlī 
+ illātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx105-110-102-101-114-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-110-102-101-114-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword infero here are all the values plotted: collocate: bellum; scoreSUBST: 4. collocate: causa; scoreSUBST: 2. collocate: aut; scoreSUBST: 0. collocate: sui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-110-102-101-114-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword infero here are all the values plotted: collocate: bellum; scoreADJ: 0. collocate: causa; scoreADJ: 0. collocate: aut; scoreADJ: 0. collocate: sui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-110-102-101-114-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword infero here are all the values plotted: collocate: bellum; scoreVERBO: 0. collocate: causa; scoreVERBO: 0. collocate: aut; scoreVERBO: 0. collocate: sui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-110-102-101-114-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword infero here are all the values plotted: collocate: bellum; scoreADV: 0. collocate: causa; scoreADV: 0. collocate: aut; scoreADV: 0. collocate: sui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-110-102-101-114-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword infero here are all the values plotted: collocate: bellum; scoreFUNC: 0. collocate: causa; scoreFUNC: 0. collocate: aut; scoreFUNC: 0. collocate: sui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Tunc fauce improba Latro incitatus iurgii causam <b>intulit</b> . <br> <small> Phaed.1.1 <br> Então, incitado por sua goela perversa, o bandido suscitou um motivo de briga. <small> [JDD] </small> </small> </p>
+; <p> quod si furore atque amentia impulsus bellum <b>intulisset</b> quid tandem uererentur <br> <small> Caes.Gal.1.40.4 <br> Mas se, impelido pelo furor e pela insensatez, trouxesse a guerra, o que afinal receavam? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> addendum eodem est ut ne criminibus aut <b>inferendis</b> delectetur aut credat oblatis <br> <small> Cic.Amici.65 <br> A isso deve ser acrescentado que não se deleite em lançar acusações, nem acredite nas apresentadas. <small> [JDD] </small> </small> </p>
+; <p> his pugnantibus illum in equum quidam ex suis <b>intulit</b> fugientem siluae texerunt <br> <small> Caes.Gal.6.30.4 <br> Enquanto esses lutavam, alguém dos seus o montou em um cavalo: as florestas cobriram a ele que fugia. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-110-102-101-114-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 13.6 and an absolute frequency of 36. The Tacitus subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 36 ; absolute frequency: 13.5961930659415. subcorpus: Cicero ; normalized frequency: 24 ; absolute frequency: 1.49510353591986. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 1 ; absolute frequency: 0.186633321513223. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-110-102-101-114-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 8.76 and an absolute frequency of 36. The Poesia.trágica subcorpus follows, with a normalized frequency of 0.87 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 36 ; absolute frequency: 8.76360184035639. subcorpus: Prosa.filosófica ; normalized frequency: 2 ; absolute frequency: 0.329483863527784. subcorpus: Prosa.oratória ; normalized frequency: 22 ; absolute frequency: 2.11227713075956. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-110-102-101-114-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 2.93 and an absolute frequency of 63. The I.a.C. subcorpus follows, with a normalized frequency of 2.93 and an absolute frequency of 63. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 63 ; absolute frequency: 2.9322783337212. subcorpus: I.d.C. ; normalized frequency: 2 ; absolute frequency: 0.305950741930549. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

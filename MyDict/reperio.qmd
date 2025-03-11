@@ -1,0 +1,212 @@
+---
+title: "reperio"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx114-101-112-101-114-105-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>repĕrī</b> <br> <b>reppĕrī</b> <br> <small>perf. de reperìo.</small> <br> <small></small> 
+ <b>reperĭō</b> <b>-ís</b> <b>-íre</b> <b>repèrí e reppèrí, repértum</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói-se com acus. com duplo acus.: com or. inf.: ou com inf. Inf. passo arc. reperirier ILucr. 4. 480: fut. arc. reperibo Plaut. Ep. 151.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Encontrar de novo, reencontrar &ensp; <small>Cíc. Tusc. 1. 114.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Descobrir, procurar &ensp; <small>Cés. B. Gal. 1, 53, 2: Plaut. Ep. 109.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Descobrir, encontrar, imaginar, inventar &ensp; <small>Cíc. Verr. 3. 110.</small> </p> 
+ <b>reppĕri</b> <br> <small>= repèri, perf. de reperìo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Reperio</b> -<b>is</b> -<b>peri</b> -<b>pertum</b> -<b>ire</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; achar, encontrar. <br> <b>2</b> &ensp; excogitar. </p>
+
+
+
+
+#### Velez
+
+<b>Reperio</b> -<b>is</b>   <p> <b>1</b> &ensp; achar &ensp; <small>accus.</small> <br> <b>2</b> &ensp; <small>reperior, reperiris</small> &ensp; ser achado, ou apanhado ás claras </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>grammaticam nescire repertus est <br> negligens reperiris </p>
+
+
+
+
+#### Cardoso
+
+<b>Reperio</b> <b>is</b> -<b>eri</b>   <p> <b>1</b> &ensp; achar ho perdido </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/122659 ' target="_blank"> http://lila-erc.eu/data/id/lemma/122659 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 4ª conjugação (tema em -ī- longo) <br>
+<small> outras grafias: </small> repperio <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> reperio, repperio </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> reperire, repperire </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> reperiet, repperiet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> reperii, repperii, repperi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> repertum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> reperturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+rĕpĕrĭō 
+ rĕpĕrīs 
+ rĕpĕrīre 
+ reppĕrī 
+ rĕpertum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx114-101-112-101-114-105-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx114-101-112-101-114-105-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword reperio here are all the values plotted: collocate: causa; scoreSUBST: 2. collocate: aliquis; scoreSUBST: 0. collocate: nullus; scoreSUBST: 0. collocate: possum; scoreSUBST: 0. collocate: sum; scoreSUBST: 0. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx114-101-112-101-114-105-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword reperio here are all the values plotted: collocate: causa; scoreADJ: 0. collocate: aliquis; scoreADJ: 0. collocate: nullus; scoreADJ: 0. collocate: possum; scoreADJ: 0. collocate: sum; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx114-101-112-101-114-105-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword reperio here are all the values plotted: collocate: causa; scoreVERBO: 0. collocate: aliquis; scoreVERBO: 0. collocate: nullus; scoreVERBO: 0. collocate: possum; scoreVERBO: 2. collocate: sum; scoreVERBO: 2. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx114-101-112-101-114-105-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword reperio here are all the values plotted: collocate: causa; scoreADV: 0. collocate: aliquis; scoreADV: 0. collocate: nullus; scoreADV: 0. collocate: possum; scoreADV: 0. collocate: sum; scoreADV: 0. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx114-101-112-101-114-105-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword reperio here are all the values plotted: collocate: causa; scoreFUNC: 0. collocate: aliquis; scoreFUNC: 0. collocate: nullus; scoreFUNC: 0. collocate: possum; scoreFUNC: 0. collocate: sum; scoreFUNC: 0. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> tollite hanc nullam tam prauae sententiae causam <b>reperietis</b> <br> <small> Cic.Phil.14.3.8 <br> Tirai esta causa: não encontrareis nenhuma outra para uma proposta tão ruim. <small> [JDD] </small> </small> </p>
+; <p> in unius hominis perditi iudicio plures similes <b>reperti</b> sunt <br> <small> Cic.Att.1.16.9 <br> No julgamento de um único homem devasso, foram encontrados muitos iguais a ele.” <small> [JDD] </small> </small> </p>
+; <p> quod nisi idem in amicitiam transferetur uerus amicus numquam <b>reperietur</b> <br> <small> Cic.Amici.80 <br> Se isso mesmo não for transferido para a amizade, o verdadeiro amigo nunca será encontrado. <small> [JDD] </small> </small> </p>
+; <p> circumfunduntur hostes ex reliquis partibus si quem aditum <b>reperire</b> possint <br> <small> Caes.Gal.6.37.4 <br> Os inimigos se espalham em torno pelas partes restantes, para ver se podem descobrir algum acesso. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quod si in eam me partem incitarem profecto iam aliquam <b>reperirem</b> resistendi viam <br> <small> Cic.Att.2.16.3 <br> E se eu me lançasse contra esse partido, sem dúvida já encontraria algum meio de resistir. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx114-101-112-101-114-105-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 11.03 and an absolute frequency of 1. The Ovidius subcorpus follows, with a normalized frequency of 8.58 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Seneca with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 19 ; absolute frequency: 7.17576856258025. subcorpus: Cicero ; normalized frequency: 53 ; absolute frequency: 3.30168697515636. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 5 ; absolute frequency: 8.57927247769389. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx114-101-112-101-114-105-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.didática subcorpus registers the highest normalized frequency, with the value of 6.79 and an absolute frequency of 8. The Prosa.histórica subcorpus follows, with a normalized frequency of 5.6 and an absolute frequency of 23. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 23 ; absolute frequency: 5.59896784244991. subcorpus: Prosa.filosófica ; normalized frequency: 9 ; absolute frequency: 1.48267738587503. subcorpus: Prosa.oratória ; normalized frequency: 32 ; absolute frequency: 3.07240309928663. subcorpus: Prosa.epistolográfica ; normalized frequency: 12 ; absolute frequency: 3.1797344921699. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 8 ; absolute frequency: 6.78598693697515. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx114-101-112-101-114-105-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 3.58 and an absolute frequency of 77. The I.d.C. subcorpus follows, with a normalized frequency of 1.22 and an absolute frequency of 8. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 77 ; absolute frequency: 3.5838957412148. subcorpus: I.d.C. ; normalized frequency: 8 ; absolute frequency: 1.2238029677222. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

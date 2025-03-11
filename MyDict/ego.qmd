@@ -1,0 +1,266 @@
+---
+title: "ego"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx101-103-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>ego</b> <b>mèi, mihi, mé</b> <br> <small>pron. pess. m. e f.</small> <br> <small>Obs.: Na língua literária tem valor expressivo, sendo empregado para pôr em relevo uma pessoa em oposição a outra.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Eu &ensp; <small>Cíc. De Or. 1, 39; Cíc. Agr. 2, 55.</small> </p> 
+ <b>egŏmet</b> <b>meímet, etc.</b> <br> <small>pron. pess.</small> <br> <small>Obs.: -met é uma enclítica reforçativa.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Eu mesmo &ensp; <small>Cíc. Inv. 1, 52.</small> </p> 
+ <b>egon</b> <br> <small>= egone.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Será que eu? &ensp; <small>Cíc. Nat. 3,8.</small> </p> 
+ <b>mē</b> <br> <small>acus. e abl. de ego.</small> <br> <small></small> 
+ <b>mēcum</b> <br> <small>= cum me.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Comigo, v. cum. &ensp; <small></small> </p> 
+ <b>med</b> <br> <small>abl. arc. de ego = me.</small> <br> <small></small> 
+ <b>memet</b> <br> <small></small> <br> <small>v. egomet.</small> 
+ <b>mihi</b> <br> <small>dat. de ego.</small> <br> <small></small> 
+ <b>mihimet</b> <br> <small>dat. de egomet.</small> <br> <small></small> 
+ <b>mihīpte</b> <br> <small></small> <br> <small>v. ego.</small> 
+ <small>2.</small> <b>mī</b> <br> <small>= mihi, dat. de ego.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Ego</b> -<b>mei</b> -<b>mihi</b> <br> <small>m. f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; eu. </p> 
+ <b>Egomet</b> 
+ <small>accus. e ablat. de Ego</small> <b>Me</b> 
+ <small>accus. Virg. por Me ipsum</small> <b>Memet</b> 
+ <small>Cic. dat. de Ego</small> <b>Mihi</b> 
+ <small>genit. de Ego</small> <b>Mei</b> 
+ <small>Plaut. & Ter. por Mihi</small> <b>Me</b>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Mecum</b>   <p> <b>1</b> &ensp; comigo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/100712 ' target="_blank"> http://lila-erc.eu/data/id/lemma/100712 </a> <br>
+<small> classe: </small> pronome    <br>
+<small> paradigma: </small> pronominal <br>
+<small> outras grafias: </small> egomet, egopte <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+mĭhi 
+ mĭhimĕt 
+ mē 
+ mēcum 
+ mēmĕt 
+ ĕgŏ 
+ mĕi 
+ ĕgŏmĕt
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx101-103-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ego here are all the values plotted: collocate: ad; scoreSUBST: 0. collocate: ab; scoreSUBST: 0. collocate: qui; scoreSUBST: 0. collocate: cum; scoreSUBST: 0. collocate: hic; scoreSUBST: 0. collocate: quidem; scoreSUBST: 0. collocate: quis; scoreSUBST: 0. collocate: uideo; scoreSUBST: 0. collocate: si; scoreSUBST: 0. collocate: de; scoreSUBST: 0. collocate: tu; scoreSUBST: 0. collocate: ut; scoreSUBST: 0. collocate: scribo; scoreSUBST: 0. collocate: ipse; scoreSUBST: 0. collocate: uero; scoreSUBST: 0. collocate: autem; scoreSUBST: 0. collocate: credo; scoreSUBST: 0. collocate: enim; scoreSUBST: 0. collocate: ne; scoreSUBST: 0. collocate: tuus; scoreSUBST: 0. collocate: quod; scoreSUBST: 0. collocate: nihil; scoreSUBST: 0. collocate: nunc; scoreSUBST: 0. collocate: inquam; scoreSUBST: 0. collocate: ita; scoreSUBST: 0. collocate: uolo; scoreSUBST: 0. collocate: apud; scoreSUBST: 0. collocate: puto; scoreSUBST: 0. collocate: pro; scoreSUBST: 0. collocate: nam; scoreSUBST: 0. collocate: ualde; scoreSUBST: 0. collocate: amo; scoreSUBST: 0. collocate: Hercules; scoreSUBST: 0. collocate: mehercule; scoreSUBST: 0. collocate: rescribo; scoreSUBST: 0. collocate: hic2; scoreSUBST: 0. collocate: Antium; scoreSUBST: 0. collocate: satisfacio; scoreSUBST: 0. collocate: erga; scoreSUBST: 0. collocate: niger; scoreSUBST: 0. collocate: hodie; scoreSUBST: 0. collocate: interrogo; scoreSUBST: 0. collocate: sollicito; scoreSUBST: 0. collocate: admoneo; scoreSUBST: 0. collocate: persuadeo; scoreSUBST: 0. collocate: narro; scoreSUBST: 0. collocate: summus; scoreSUBST: 0. collocate: libet; scoreSUBST: 0. collocate: quotiens; scoreSUBST: 0. collocate: perturbo; scoreSUBST: 0. collocate: coniunctus; scoreSUBST: 0. collocate: nuntio; scoreSUBST: 0. collocate: accuso; scoreSUBST: 0. collocate: uerto; scoreSUBST: 0. collocate: tandem; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx101-103-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ego here are all the values plotted: collocate: ad; scoreADJ: 0. collocate: ab; scoreADJ: 0. collocate: qui; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: quidem; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: uideo; scoreADJ: 0. collocate: si; scoreADJ: 0. collocate: de; scoreADJ: 0. collocate: tu; scoreADJ: 0. collocate: ut; scoreADJ: 0. collocate: scribo; scoreADJ: 0. collocate: ipse; scoreADJ: 0. collocate: uero; scoreADJ: 0. collocate: autem; scoreADJ: 0. collocate: credo; scoreADJ: 0. collocate: enim; scoreADJ: 0. collocate: ne; scoreADJ: 0. collocate: tuus; scoreADJ: 0. collocate: quod; scoreADJ: 0. collocate: nihil; scoreADJ: 0. collocate: nunc; scoreADJ: 0. collocate: inquam; scoreADJ: 0. collocate: ita; scoreADJ: 0. collocate: uolo; scoreADJ: 0. collocate: apud; scoreADJ: 0. collocate: puto; scoreADJ: 0. collocate: pro; scoreADJ: 0. collocate: nam; scoreADJ: 0. collocate: ualde; scoreADJ: 0. collocate: amo; scoreADJ: 0. collocate: Hercules; scoreADJ: 0. collocate: mehercule; scoreADJ: 0. collocate: rescribo; scoreADJ: 0. collocate: hic2; scoreADJ: 0. collocate: Antium; scoreADJ: 0. collocate: satisfacio; scoreADJ: 0. collocate: erga; scoreADJ: 0. collocate: niger; scoreADJ: 2. collocate: hodie; scoreADJ: 0. collocate: interrogo; scoreADJ: 0. collocate: sollicito; scoreADJ: 0. collocate: admoneo; scoreADJ: 0. collocate: persuadeo; scoreADJ: 0. collocate: narro; scoreADJ: 0. collocate: summus; scoreADJ: 2. collocate: libet; scoreADJ: 0. collocate: quotiens; scoreADJ: 0. collocate: perturbo; scoreADJ: 0. collocate: coniunctus; scoreADJ: 1. collocate: nuntio; scoreADJ: 0. collocate: accuso; scoreADJ: 0. collocate: uerto; scoreADJ: 0. collocate: tandem; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx101-103-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ego here are all the values plotted: collocate: ad; scoreVERBO: 0. collocate: ab; scoreVERBO: 0. collocate: qui; scoreVERBO: 0. collocate: cum; scoreVERBO: 0. collocate: hic; scoreVERBO: 0. collocate: quidem; scoreVERBO: 0. collocate: quis; scoreVERBO: 0. collocate: uideo; scoreVERBO: 2. collocate: si; scoreVERBO: 0. collocate: de; scoreVERBO: 0. collocate: tu; scoreVERBO: 0. collocate: ut; scoreVERBO: 0. collocate: scribo; scoreVERBO: 3. collocate: ipse; scoreVERBO: 0. collocate: uero; scoreVERBO: 0. collocate: autem; scoreVERBO: 0. collocate: credo; scoreVERBO: 3. collocate: enim; scoreVERBO: 0. collocate: ne; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0. collocate: quod; scoreVERBO: 0. collocate: nihil; scoreVERBO: 0. collocate: nunc; scoreVERBO: 0. collocate: inquam; scoreVERBO: 2. collocate: ita; scoreVERBO: 0. collocate: uolo; scoreVERBO: 1. collocate: apud; scoreVERBO: 0. collocate: puto; scoreVERBO: 2. collocate: pro; scoreVERBO: 0. collocate: nam; scoreVERBO: 0. collocate: ualde; scoreVERBO: 0. collocate: amo; scoreVERBO: 2. collocate: Hercules; scoreVERBO: 0. collocate: mehercule; scoreVERBO: 0. collocate: rescribo; scoreVERBO: 2. collocate: hic2; scoreVERBO: 0. collocate: Antium; scoreVERBO: 0. collocate: satisfacio; scoreVERBO: 2. collocate: erga; scoreVERBO: 0. collocate: niger; scoreVERBO: 0. collocate: hodie; scoreVERBO: 0. collocate: interrogo; scoreVERBO: 2. collocate: sollicito; scoreVERBO: 2. collocate: admoneo; scoreVERBO: 2. collocate: persuadeo; scoreVERBO: 2. collocate: narro; scoreVERBO: 2. collocate: summus; scoreVERBO: 0. collocate: libet; scoreVERBO: 2. collocate: quotiens; scoreVERBO: 0. collocate: perturbo; scoreVERBO: 1. collocate: coniunctus; scoreVERBO: 0. collocate: nuntio; scoreVERBO: 2. collocate: accuso; scoreVERBO: 1. collocate: uerto; scoreVERBO: 1. collocate: tandem; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx101-103-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ego here are all the values plotted: collocate: ad; scoreADV: 0. collocate: ab; scoreADV: 0. collocate: qui; scoreADV: 0. collocate: cum; scoreADV: 0. collocate: hic; scoreADV: 0. collocate: quidem; scoreADV: 3. collocate: quis; scoreADV: 0. collocate: uideo; scoreADV: 0. collocate: si; scoreADV: 0. collocate: de; scoreADV: 0. collocate: tu; scoreADV: 0. collocate: ut; scoreADV: 0. collocate: scribo; scoreADV: 0. collocate: ipse; scoreADV: 0. collocate: uero; scoreADV: 3. collocate: autem; scoreADV: 0. collocate: credo; scoreADV: 0. collocate: enim; scoreADV: 2. collocate: ne; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: quod; scoreADV: 0. collocate: nihil; scoreADV: 0. collocate: nunc; scoreADV: 2. collocate: inquam; scoreADV: 0. collocate: ita; scoreADV: 2. collocate: uolo; scoreADV: 0. collocate: apud; scoreADV: 0. collocate: puto; scoreADV: 0. collocate: pro; scoreADV: 0. collocate: nam; scoreADV: 2. collocate: ualde; scoreADV: 2. collocate: amo; scoreADV: 0. collocate: Hercules; scoreADV: 0. collocate: mehercule; scoreADV: 0. collocate: rescribo; scoreADV: 0. collocate: hic2; scoreADV: 2. collocate: Antium; scoreADV: 0. collocate: satisfacio; scoreADV: 0. collocate: erga; scoreADV: 0. collocate: niger; scoreADV: 0. collocate: hodie; scoreADV: 2. collocate: interrogo; scoreADV: 0. collocate: sollicito; scoreADV: 0. collocate: admoneo; scoreADV: 0. collocate: persuadeo; scoreADV: 0. collocate: narro; scoreADV: 0. collocate: summus; scoreADV: 0. collocate: libet; scoreADV: 0. collocate: quotiens; scoreADV: 2. collocate: perturbo; scoreADV: 0. collocate: coniunctus; scoreADV: 0. collocate: nuntio; scoreADV: 0. collocate: accuso; scoreADV: 0. collocate: uerto; scoreADV: 0. collocate: tandem; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx101-103-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ego here are all the values plotted: collocate: ad; scoreFUNC: 40. collocate: ab; scoreFUNC: 40. collocate: qui; scoreFUNC: 0. collocate: cum; scoreFUNC: 30. collocate: hic; scoreFUNC: 0. collocate: quidem; scoreFUNC: 0. collocate: quis; scoreFUNC: 0. collocate: uideo; scoreFUNC: 0. collocate: si; scoreFUNC: 20. collocate: de; scoreFUNC: 20. collocate: tu; scoreFUNC: 0. collocate: ut; scoreFUNC: 20. collocate: scribo; scoreFUNC: 0. collocate: ipse; scoreFUNC: 0. collocate: uero; scoreFUNC: 0. collocate: autem; scoreFUNC: 0. collocate: credo; scoreFUNC: 0. collocate: enim; scoreFUNC: 0. collocate: ne; scoreFUNC: 20. collocate: tuus; scoreFUNC: 0. collocate: quod; scoreFUNC: 20. collocate: nihil; scoreFUNC: 0. collocate: nunc; scoreFUNC: 0. collocate: inquam; scoreFUNC: 0. collocate: ita; scoreFUNC: 0. collocate: uolo; scoreFUNC: 0. collocate: apud; scoreFUNC: 20. collocate: puto; scoreFUNC: 0. collocate: pro; scoreFUNC: 20. collocate: nam; scoreFUNC: 0. collocate: ualde; scoreFUNC: 0. collocate: amo; scoreFUNC: 0. collocate: Hercules; scoreFUNC: 0. collocate: mehercule; scoreFUNC: 0. collocate: rescribo; scoreFUNC: 0. collocate: hic2; scoreFUNC: 0. collocate: Antium; scoreFUNC: 0. collocate: satisfacio; scoreFUNC: 0. collocate: erga; scoreFUNC: 20. collocate: niger; scoreFUNC: 0. collocate: hodie; scoreFUNC: 0. collocate: interrogo; scoreFUNC: 0. collocate: sollicito; scoreFUNC: 0. collocate: admoneo; scoreFUNC: 0. collocate: persuadeo; scoreFUNC: 0. collocate: narro; scoreFUNC: 0. collocate: summus; scoreFUNC: 0. collocate: libet; scoreFUNC: 0. collocate: quotiens; scoreFUNC: 0. collocate: perturbo; scoreFUNC: 0. collocate: coniunctus; scoreFUNC: 0. collocate: nuntio; scoreFUNC: 0. collocate: accuso; scoreFUNC: 0. collocate: uerto; scoreFUNC: 0. collocate: tandem; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>mihi</b> crede <br> <small> Cic.Att.1.17.11 <br> acredita em mim. <small> [JDD] </small> </small> </p>
+; <p> narra <b>mihi</b> <br> <small> Cic.Att.2.7.2 <br> Conta-me. <small> [JDD] </small> </small> </p>
+; <p> quo <b>me</b> vertam <br> <small> Cic.Att.2.14.2 <br> Para onde me voltar? <small> [JDD] </small> </small> </p>
+; <p> prorsus <b>mihi</b> persuadet <br> <small> Cic.Att.2.20.1 <br> ele me convence totalmente. <small> [JDD] </small> </small> </p>
+; <p> hic <b>mihi</b> ignosces <br> <small> Cic.Att.3.15.4 <br> Me perdoa aqui. <small> [JDD] </small> </small> </p>
+; <p> nam <b>ego</b> dissensi <br> <small> Cic.Att.2.1.8 <br> pois eu discordei. <small> [JDD] </small> </small> </p>
+; <p> Varro <b>mihi</b> satis facit <br> <small> Cic.Att.2.21.6 <br> Varrão me enche de satisfação. <small> [JDD] </small> </small> </p>
+; <p> <b>ego</b> enim idem sum <br> <small> Cic.Att.3.5 <br> pois eu continuo igual. <small> [JDD] </small> </small> </p>
+; <p> perfer si <b>me</b> amas <br> <small> Cic.Att.5.21.7 <br> Tolera, se me estimas. <small> [JDD] </small> </small> </p>
+; <p> redde nunc natum <b>mihi</b> <br> <small> Sen.Ag.967 <br> Devolve-me agora o meu filho. <small> [JDD] </small> </small> </p>
+; <p> saluti si <b>me</b> amas consule <br> <small> Cic.Att.2.19.1 <br> Olha por tua salvação, se me estimas.” <small> [JDD] </small> </small> </p>
+; <p> itaque quo <b>me</b> uertam nescio <br> <small> Cic.Lig.1 <br> Assim, não sei para onde eu me volto. <small> [JDD] </small> </small> </p>
+; <p> vix enim <b>mihi</b> exaudisse videor <br> <small> Cic.Att.4.8A.1 <br> pois tenho a impressão de mal ter ouvido. <small> [JDD] </small> </small> </p>
+; <p> sequere nunc <b>me</b> in campum <br> <small> Cic.Att.4.15.7 <br> Me segue agora ao Campo de Marte. <small> [JDD] </small> </small> </p>
+; <p> nam ad <b>me</b> non accessit <br> <small> Cic.Att.5.2.2 <br> pois não veio à minha casa. <small> [JDD] </small> </small> </p>
+; <p> nulla <b>mihi</b> inquam relligio est <br> <small> Hor.S.1.9.70 <br> “Eu não tenho nenhuma superstição”, digo eu. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> saepe ita <b>me</b> di iuvent <br> <small> Cic.Att.1.16.1 <br> Muitas vezes, assim me ajudem os deuses. <small> [JDD] </small> </small> </p>
+; <p> hoc <b>mihi</b> eius modi non videbatur <br> <small> Cic.Att.2.16.1 <br> Isto não me parecia deste modo. <small> [JDD] </small> </small> </p>
+; <p> <b>ego</b> apud improbos meam retinuissem invidiam <br> <small> Cic.Att.2.19.4 <br> eu, diante dos ímprobos; tinham mantido o ódio a mim. <small> [JDD] </small> </small> </p>
+; <p> <b>me</b> mi Pomponi valde paenitet vivere <br> <small> Cic.Att.3.4 <br> Eu, meu querido Pompônio, estou profundamente arrependido de viver <small> [JDD] </small> </small> </p>
+; <p> nam castellum munitum habitanti <b>mihi</b> prodesset <br> <small> Cic.Att.3.7.1 <br> Um castelo fortificado me seria útil para morar. <small> [JDD] </small> </small> </p>
+; <p> in <b>me</b> enim ipsum peccavi vehementius <br> <small> Cic.Att.3.15.4 <br> pois contra mim próprio cometi faltas mais graves. <small> [JDD] </small> </small> </p>
+; <p> valde enim est in <b>me</b> liberalis <br> <small> Cic.Att.4.6.4 <br> Pois ele é muito generoso comigo. <small> [JDD] </small> </small> </p>
+; <p> itaque <b>me</b> etiam admonuisti ut gauderem <br> <small> Cic.Att.5.19.3 <br> E assim me lembraste de também ficar contente. <small> [JDD] </small> </small> </p>
+; <p> <b>ego</b> uero istud non postulo inquies <br> <small> Cic.Lig.12 <br> “Mas eu não postulo isso”, dirás. <small> [JDD] </small> </small> </p>
+; <p> studia spero <b>me</b> summa habiturum omnium ordinum <br> <small> Cic.Att.2.21.6 <br> Espero ter um grande apoio de todas as ordens. <small> [JDD] </small> </small> </p>
+; <p> percussisti autem <b>me</b> etiam de oratione prolata <br> <small> Cic.Att.3.12.1 <br> Por outro lado, me acertaste também um golpe com relação à publicação do meu discurso. <small> [JDD] </small> </small> </p>
+; <p> in provincia mea fore <b>me</b> putabam Kal.Sextilibus <br> <small> Cic.Att.5.14.1 <br> Acho que estarei em minha província nas calendas de sextil [1º. de agosto]. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quocumque <b>me</b> uerti argumenta senectutis meae uideo <br> <small> Sen.Ep.12.1 <br> Para onde quer que eu me vire, vejo evidências de minha velhice. <small> [JDD] </small> </small> </p>
+; <p> hoc facere illum <b>mihi</b> quam prosit nescio <br> <small> Cic.Att.2.1.6 <br> Não sei quão útil é para mim ele fazer isso. <small> [JDD] </small> </small> </p>
+; <p> Κορινθίων et Ἀθηναίων puto <b>me</b> Romae habere <br> <small> Cic.Att.2.2.2 <br> Acho que tenho em Roma a “Constituição de Corinto” e a “Constituição de Atenas”. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> displiceo <b>mihi</b> ne c sine summo scribo dolore <br> <small> Cic.Att.2.18.3 <br> Estou insatisfeito comigo mesmo e escrevo não sem uma grande dor. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> id si putas <b>me</b> posse sanari cures velim <br> <small> Cic.Att.3.12.2 <br> Gostaria que cuidasses disso, se achas que eu posso ser salvo. <small> [JDD] </small> </small> </p>
+; <p> de re Piliae quod scribis erit <b>mihi</b> curae <br> <small> Cic.Att.4.16.4 <br> Quanto ao que me escreves a respeito do assunto de Pília, cuidarei disso. <small> [JDD] </small> </small> </p>
+; <p> ibi forum agit cum <b>ego</b> sim in provincia <br> <small> Cic.Att.5.17.6 <br> Ali ele administra a justiça, enquando eu estou na província. <small> [JDD] </small> </small> </p>
+; <p> de tuo autem negotio saepe ad <b>me</b> scribis <br> <small> Cic.Att.1.19.9 <br> Me escreves com frequência sobre o teu assunto. <small> [JDD] </small> </small> </p>
+; <p> et scito Curionem adulescentem venisse ad <b>me</b> salutatum <br> <small> Cic.Att.2.8.1 <br> E fica sabendo que o jovem Curião veio até mim para me saudar. <small> [JDD] </small> </small> </p>
+; <p> o suavis epistulas tuas uno tempore <b>mihi</b> datas duas <br> <small> Cic.Att.2.12.1 <br> Ó que agradáveis as duas cartas tuas entregues a mim ao  mesmo tempo! <small> [JDD] </small> </small> </p>
+; <p> sed tamen ista ipsa <b>me</b> varietas sermonum opinionumque delectat <br> <small> Cic.Att.2.15.1 <br> mas, mesmo assim, essa mesma variedade de conversas e de opiniões me deleita. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> mater tua et soror a <b>me</b> Quintoque fratre diligitur <br> <small> Cic.Att.1.8.1 <br> Tua mãe e tua irmã têm a minha estima e a do meu irmão Quinto. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> neque enim <b>me</b> desperare vis ne c temere sperare <br> <small> Cic.Att.3.18.2 <br> pois nem queres me desesperar nem esperas sem motivo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>ego</b> iam aut rem aut ne spem quidem exspecto <br> <small> Cic.Att.3.22.4 <br> Eu já aguardo os fatos ou nem a esperança sequer. <small> [JDD] </small> </small> </p>
+; <p> <b>ego</b> in Epirum proficiscar quom primorum dierum nuntios excepero <br> <small> Cic.Att.3.23.5 <br> Eu partirei para Epiro assim que receber notícias dos primeiros dias. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> plura cum scribere uellem nuntiatum est uim <b>mihi</b> parari <br> <small> Sal.Cat.35.5 <br> Quando eu queria escrever mais, me foi anunciado que uma violência está sendo preparada contra mim. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ex ea die si <b>me</b> amas παράπηγμα ἐνιαύσιον commoveto <br> <small> Cic.Att.5.14.1 <br> A partir desse dia, se gostas de mim, move o teu calendário. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> verum tamen videbare <b>mihi</b> tempora peregrinationis commodius posse discribere <br> <small> Cic.Att.2.1.4 <br> mas me parece que podias organizar mais adequadamente os teus períodos de viagens. <small> [JDD] </small> </small> </p>
+; <p> ante diem viii Kal haec <b>ego</b> scribebam hora noctis nona <br> <small> Cic.Att.4.3.5 <br> Eu escrevo esta no nono dia antes das calendas [23] na nona hora da noite [entre 2h e 3h da madrugada]. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>me</b> cum erat hic illi ne aduocatus quidem uenit umquam <br> <small> Cic.Cael.10 <br> Ele estava comigo; nunca veio para aquele, nem mesmo como apoiador. <small> [JDD] </small> </small> </p>
+; <p> <b>mihi</b> uero licet et semper licebit dignitatem tueri mortem contemnere <br> <small> Cic.Phil.1.14.2 <br> A mim, na verdade, é e sempre será permitido proteger minha dignidade, desprezar a morte. <small> [JDD] </small> </small> </p>
+; <p> habebo apud posteros gratiam possum <b>me</b> cum duratura nomina educere <br> <small> Sen.Ep.21.5 <br> terei prestígio entre os pósteros, posso levar comigo nomes que vão perdurar. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx101-103-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 140.91 and an absolute frequency of 2262. The Cicero subcorpus follows, with a normalized frequency of 140.91 and an absolute frequency of 2262. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0.76 and an absolute freqeuncy of 2. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 2262 ; absolute frequency: 140.913508260447. subcorpus: Horatius ; normalized frequency: 158 ; absolute frequency: 140.307255128319. subcorpus: Ovidius ; normalized frequency: 35 ; absolute frequency: 60.0549073438572. subcorpus: Phaedrus ; normalized frequency: 53 ; absolute frequency: 80.4615151055109. subcorpus: Sallustius ; normalized frequency: 55 ; absolute frequency: 51.0156757258139. subcorpus: Seneca ; normalized frequency: 326 ; absolute frequency: 60.8424628133107. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 9 ; absolute frequency: 30.8959835221421. subcorpus: Vergilius ; normalized frequency: 26 ; absolute frequency: 50.1930501930502. subcorpus: Hieronymus ; normalized frequency: 21 ; absolute frequency: 47.1804088968771'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx101-103-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 283.26 and an absolute frequency of 1069. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 283.26 and an absolute frequency of 1069. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 16.31 and an absolute freqeuncy of 67. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 67 ; absolute frequency: 16.3100367584411. subcorpus: Prosa.filosófica ; normalized frequency: 430 ; absolute frequency: 70.8390306584735. subcorpus: Prosa.oratória ; normalized frequency: 1035 ; absolute frequency: 99.3730377425518. subcorpus: Prosa.epistolográfica ; normalized frequency: 1069 ; absolute frequency: 283.261347677469. subcorpus: Poesia.lírica ; normalized frequency: 158 ; absolute frequency: 132.918314124674. subcorpus: Poesia.didática ; normalized frequency: 88 ; absolute frequency: 74.6458563067266. subcorpus: Poesia.trágica ; normalized frequency: 54 ; absolute frequency: 46.907574704656. subcorpus: Poesia.épica ; normalized frequency: 26 ; absolute frequency: 50.1930501930502. subcorpus: Prosa.ficcional ; normalized frequency: 21 ; absolute frequency: 47.1804088968771'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx101-103-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 116.5 and an absolute frequency of 2503. The I.a.C. subcorpus follows, with a normalized frequency of 116.5 and an absolute frequency of 2503. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 26.18 and an absolute freqeuncy of 10. here are all the values: subcorpus: I.a.C. ; normalized frequency: 2503 ; absolute frequency: 116.499883639749. subcorpus: I.d.C. ; normalized frequency: 414 ; absolute frequency: 63.3318035796237. subcorpus: II.d.C. ; normalized frequency: 10 ; absolute frequency: 26.1780104712042. subcorpus: IV.d.C. ; normalized frequency: 21 ; absolute frequency: 47.1804088968771'}
+
+
+:::
+

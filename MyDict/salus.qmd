@@ -1,0 +1,220 @@
+---
+title: "salus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-97-108-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>salūtis</b> <br> <small>gen. de salus.</small> <br> <small></small> 
+ <small>1.</small> <b>salūs</b> <b>-útis</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Bom estado, conservação, salvaguarda &ensp; <small>Cíc. Verr. 2, 16.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Meio de salvação, afastamento do perigo, salvação &ensp; <small>T. Lív. 7, 35, 9.</small> <br> <b>3</b> &ensp; <small>II-Sent. particular:</small> &ensp; Bom estado físico, saúde, cura &ensp; <small>Cíc. Nat. 3, 91.</small> <br> <b>4</b> &ensp; <small>II-Sent. particular:</small> &ensp; Bom estado moral, saúde moral, aperfeiçoamento &ensp; <small>Cíc. Lae. 90.</small> <br> <b>5</b> &ensp; <small>II-Sent. particular:</small> &ensp; Saudação, cumprimentos &ensp; <small>Cíc. At. 2, 12, 3.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Salus</b> -<b>utis</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; saude. <br> <b>2</b> &ensp; conservaçaõ, bom estado. <br> <b>3</b> &ensp; vida. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>salutem alicui dicere &ensp; <small><small>Cic</small></small> &ensp; <small>Saudar alguem, dizer-lhe a Deos</small> </p>
+
+
+
+
+#### Velez
+
+<b>Salus</b> -<b>utis</b> <br> <small>Vide Impertio.</small>   <p> <b>1</b> &ensp; saude, salvaçaõ, ou remedio </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>dic a me, uel uerbis meis patri tuo salutem &ensp; <small>saudai da minha parte a vosso pay</small> <br> dicere, uel nuntiare, ascribere, uel mittere alicui salutem &ensp; <small>saudar a alguem, mandar lembranças</small> <br> multam salutem dicere alicui rei &ensp; <small>dar o ultimo vale; deixar alguma cousa para sempre</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Salus</b> <b>tis</b>   <p> <b>1</b> &ensp; as encomendas </p> 
+ <b>Salus</b> <b>utis</b>   <p> <b>1</b> &ensp; a saude. ou saluação </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/123276 ' target="_blank"> http://lila-erc.eu/data/id/lemma/123276 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+sălūs 
+ sălūtis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx115-97-108-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-97-108-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword salus here are all the values plotted: collocate: communis; scoreSUBST: 0. collocate: spes; scoreSUBST: 3. collocate: pro; scoreSUBST: 0. collocate: uester; scoreSUBST: 0. collocate: fuga; scoreSUBST: 2. collocate: despero; scoreSUBST: 0. collocate: socius; scoreSUBST: 2. collocate: patria; scoreSUBST: 2. collocate: ciuis; scoreSUBST: 2. collocate: publicus; scoreSUBST: 0. collocate: meus; scoreSUBST: 0. collocate: Brutus; scoreSUBST: 0. collocate: peto; scoreSUBST: 0. collocate: contra; scoreSUBST: 0. collocate: ad; scoreSUBST: 0. collocate: suus; scoreSUBST: 0. collocate: rex; scoreSUBST: 2. collocate: res; scoreSUBST: 2. collocate: noster; scoreSUBST: 0. collocate: urbs; scoreSUBST: 2. collocate: populus; scoreSUBST: 2. collocate: modo; scoreSUBST: 0. collocate: omnis; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-97-108-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword salus here are all the values plotted: collocate: communis; scoreADJ: 3. collocate: spes; scoreADJ: 0. collocate: pro; scoreADJ: 0. collocate: uester; scoreADJ: 0. collocate: fuga; scoreADJ: 0. collocate: despero; scoreADJ: 0. collocate: socius; scoreADJ: 0. collocate: patria; scoreADJ: 0. collocate: ciuis; scoreADJ: 0. collocate: publicus; scoreADJ: 2. collocate: meus; scoreADJ: 0. collocate: Brutus; scoreADJ: 0. collocate: peto; scoreADJ: 0. collocate: contra; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: rex; scoreADJ: 0. collocate: res; scoreADJ: 0. collocate: noster; scoreADJ: 0. collocate: urbs; scoreADJ: 0. collocate: populus; scoreADJ: 0. collocate: modo; scoreADJ: 0. collocate: omnis; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-97-108-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword salus here are all the values plotted: collocate: communis; scoreVERBO: 0. collocate: spes; scoreVERBO: 0. collocate: pro; scoreVERBO: 0. collocate: uester; scoreVERBO: 0. collocate: fuga; scoreVERBO: 0. collocate: despero; scoreVERBO: 2. collocate: socius; scoreVERBO: 0. collocate: patria; scoreVERBO: 0. collocate: ciuis; scoreVERBO: 0. collocate: publicus; scoreVERBO: 0. collocate: meus; scoreVERBO: 0. collocate: Brutus; scoreVERBO: 0. collocate: peto; scoreVERBO: 2. collocate: contra; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: rex; scoreVERBO: 0. collocate: res; scoreVERBO: 0. collocate: noster; scoreVERBO: 0. collocate: urbs; scoreVERBO: 0. collocate: populus; scoreVERBO: 0. collocate: modo; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-97-108-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword salus here are all the values plotted: collocate: communis; scoreADV: 0. collocate: spes; scoreADV: 0. collocate: pro; scoreADV: 0. collocate: uester; scoreADV: 0. collocate: fuga; scoreADV: 0. collocate: despero; scoreADV: 0. collocate: socius; scoreADV: 0. collocate: patria; scoreADV: 0. collocate: ciuis; scoreADV: 0. collocate: publicus; scoreADV: 0. collocate: meus; scoreADV: 0. collocate: Brutus; scoreADV: 0. collocate: peto; scoreADV: 0. collocate: contra; scoreADV: 0. collocate: ad; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: rex; scoreADV: 0. collocate: res; scoreADV: 0. collocate: noster; scoreADV: 0. collocate: urbs; scoreADV: 0. collocate: populus; scoreADV: 0. collocate: modo; scoreADV: 2. collocate: omnis; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-97-108-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword salus here are all the values plotted: collocate: communis; scoreFUNC: 0. collocate: spes; scoreFUNC: 0. collocate: pro; scoreFUNC: 30. collocate: uester; scoreFUNC: 0. collocate: fuga; scoreFUNC: 0. collocate: despero; scoreFUNC: 0. collocate: socius; scoreFUNC: 0. collocate: patria; scoreFUNC: 0. collocate: ciuis; scoreFUNC: 0. collocate: publicus; scoreFUNC: 0. collocate: meus; scoreFUNC: 0. collocate: Brutus; scoreFUNC: 0. collocate: peto; scoreFUNC: 0. collocate: contra; scoreFUNC: 20. collocate: ad; scoreFUNC: 20. collocate: suus; scoreFUNC: 0. collocate: rex; scoreFUNC: 0. collocate: res; scoreFUNC: 0. collocate: noster; scoreFUNC: 0. collocate: urbs; scoreFUNC: 0. collocate: populus; scoreFUNC: 0. collocate: modo; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ita ne et <b>salutis</b> publicae indicium obrues <br> <small> Sen.Oed.516 <br> Por acaso, vais assim me ocultar o caminho da salvação do estado? <small> [JDD] </small> </small> </p>
+; <p> eas scilicet quibus rei publicae <b>salus</b> continetur <br> <small> Cic.Phil.1.25.9 <br> Evidentemente daqueles com os quais se mantém a salvação da república. <small> [JDD] </small> </small> </p>
+; <p> una spes est <b>salutis</b> istorum inter istos dissensio <br> <small> Cic.Att.2.7.3 <br> A única esperança de salvação é o desacordo entre esses indivíduos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> confectio autem huius belli est D. Bruti <b>salus</b> <br> <small> Cic.Phil.14.1.11 <br> Ora, o fim desta guerra é a salvação de Décimo Bruto. <small> [JDD] </small> </small> </p>
+; <p> Cicero meus modestissimus et suavissimus puer tibi <b>salutem</b> dicit <br> <small> Cic.Att.5.9.2 <br> Meu Cícero, modestíssimo e suavíssivo garoto, te saúda. <small> [JDD] </small> </small> </p>
+; <p> iste homo non est unus e populo ad <b>salutem</b> spectat <br> <small> Sen.Ep.10.3 <br> esse homem não é mais um do povo, olha para a sua salvação.” <small> [JDD] </small> </small> </p>
+; <p> in universa <b>salute</b> si ea modo nobis restituetur inerunt omnia <br> <small> Cic.Att.3.20.2 <br> Na minha salvação total, se é que ela me será concedida, estarão todos os bens. <small> [JDD] </small> </small> </p>
+; <p> non est saepius in uno homine summa <b>salus</b> periclitanda rei publicae <br> <small> Cic.Catil.1.11.5 <br> Não se deve pôr em perigo tantas vezes a suprema salvação da república em um único homem. <small> [JDD] </small> </small> </p>
+; <p> regi tuenda maxime regum est <b>salus</b> curat peremptum nemo quem incolumem timet <br> <small> Sen.Oed.242 <br> É principalmente pelo rei que deve ser velada a salvação dos reis: ninguém se preocupa que esteja morto aquela a quem, estando vivo, teme. <small> [JDD] </small> </small> </p>
+; <p> etenim a uobis salubritas quaedam ab eis qui dicunt <b>salus</b> ipsa petitur <br> <small> Cic.Mur.29 <br> Com efeito, a vós se pede uma certa condição saudável, àqueles que discursam se pede a própria saúde. <small> [JDD] </small> </small> </p>
+; <p> sin factum uobis non probaretur quamquam qui poterat <b>salus</b> sua cuiquam non probari <br> <small> Cic.Mil.81 <br> Mas se o ato não fosse aprovado por vós (mas como a própria salvação não poderia ser aprovada por alguém?). <small> [JDD] </small> </small> </p>
+; <p> omnes enim iam ciues de rei publicae <b>salute</b> una et mente et uoce consentiunt <br> <small> Cic.Phil.1.21.8 <br> Pois todos os cidadãos, com um único pensamente e uma só voz, já estão de acordo em relação à salvação da república. <small> [JDD] </small> </small> </p>
+; <p> me ne non potuisse Milonis <b>salutem</b> tueri per eosdem per quos nostram ille seruasset <br> <small> Cic.Mil.102 <br> Que eu não fui capaz de defender a salvação de Milão através dos mesmos homens através dos quais ele tinha assegurado a nossa? <small> [JDD] </small> </small> </p>
+; <p> quod <b>salus</b> sociorum summum in periculum ac discrimen uocatur quo id tandem animo ferre debetis <br> <small> Cic.Man.12 <br> E o fato de a segurança dos aliados ser chamada para um sumo perigo e situação crítica, com que disposição de espírito deveis, afinal, tolerar isso <small> [JDD] </small> </small> </p>
+; <p> hostes undique circumuenti desperatis omnibus rebus se per munitiones deicere et fuga <b>salutem</b> petere intenderunt <br> <small> Caes.Gal.3.26.5 <br> Os inimigos, cercados por todos os lados, perdidas todas as esperanças, se esforçaram por precipitar-se através da fortificações e por buscar salvação na fuga. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ceteri uero di immortales qua frequentia quo studio qua uirtute ad communem <b>salutem</b> dignitatemque consentiunt <br> <small> Cic.Catil.4.15.4 <br> Os demais, porém, deuses imortais! com que afluência, com que entusiasmo, com que energia se põem de acordo para a salvação e dignidade comum! <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quod autem praesidium erat <b>salutis</b> libertatisque uestrae si C. Caesaris fortissimorum sui patris militum exercitus non fuisset <br> <small> Cic.Phil.4.4.7 <br> Por outro lado, que proteção havia para a vossa salvação e para a vossa liberdade, se não tivesse existido o exército de Caio César, de valorosíssimos soldados de seu pai? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> an ego non prouideam meis ciuibus non dies noctesque de uestra libertate de rei publicae <b>salute</b> cogitem <br> <small> Cic.Phil.6.17.4 <br> Por acaso eu não iria velar pelos meus concidadãos, não iria pensar dias e noites em vossa liberdade, na salvação da república? <small> [JDD] </small> </small> </p>
+; <p> itaque iudicum vocibus cum ego sic ab iis ut <b>salus</b> patriae defenderer fractus reus et una patroni omnes conciderunt <br> <small> Cic.Att.1.16.5 <br> E assim, diante das vozes dos juízes, sendo eu assim defendido por eles como salvação da pátria, o réu, quebrantado, e, junto com ele, todos os seus advogados sucumbiram. <small> [JDD] </small> </small> </p>
+; <p> num te cum haec pro <b>salute</b> rei publicae tanta gessisses fortunae tuae num amplitudinis num claritatis num gloriae paenitebat <br> <small> Cic.Phil.1.33.1 <br> Será que, depois de teres feito estas coisas tão importantes pelo bem estar da república, te arrependias de tua fortuna, de tua grandeza, de teu esplendor, de tua glória? <small> [JDD] </small> </small> </p>
+; <p> quo conlocato atque ad uos senatumque conuerso omnia et senatus et uos quae erant contra <b>salutem</b> omnium cogitata inlustrata et patefacta uidistis <br> <small> Cic.Catil.3.21.12 <br> Colocada esta e voltada para vós e para o senado, tanto o senado como vós vistes esclarecido e descoberto tudo o que tinha sido planejado contra a segurança de todos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> qua re in qua urbe imperatores prope armati poetarum nomen et Musarum delubra coluerunt in ea non debent togati iudices a Musarum honore et a poetarum <b>salute</b> abhorrere <br> <small> Cic.Arch.27 <br> Por isso, numa cidade em que generais quase armados cultuaram o nome dos poetas e os santuários das Musas, juízes togados não devem afastar-se da honra das Musas e da salvação dos poetas. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-97-108-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 11.34 and an absolute frequency of 182. The Caesar subcorpus follows, with a normalized frequency of 7.55 and an absolute frequency of 20. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 20 ; absolute frequency: 7.55344059218974. subcorpus: Cicero ; normalized frequency: 182 ; absolute frequency: 11.3378684807256. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 15 ; absolute frequency: 2.79949982269834. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-97-108-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 14.79 and an absolute frequency of 154. The Prosa.oratória subcorpus follows, with a normalized frequency of 14.79 and an absolute frequency of 154. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 23 ; absolute frequency: 5.59896784244991. subcorpus: Prosa.filosófica ; normalized frequency: 11 ; absolute frequency: 1.81216124940281. subcorpus: Prosa.oratória ; normalized frequency: 154 ; absolute frequency: 14.7859399153169. subcorpus: Prosa.epistolográfica ; normalized frequency: 25 ; absolute frequency: 6.6244468586873. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 7 ; absolute frequency: 6.08061153578874. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-97-108-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 9.68 and an absolute frequency of 208. The I.a.C. subcorpus follows, with a normalized frequency of 9.68 and an absolute frequency of 208. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 208 ; absolute frequency: 9.68117291133349. subcorpus: I.d.C. ; normalized frequency: 16 ; absolute frequency: 2.44760593544439. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

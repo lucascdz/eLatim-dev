@@ -1,0 +1,200 @@
+---
+title: "orbis"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx111-114-98-105-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>orbis</b> <b>-is</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Círculo &ensp; <small>em oposição a globus Cíc. Rep. 6, 15.</small> <br> <b>2</b> &ensp; <small>II-Daí, em sent. especial, passou a designar objetos de forma esférica ou circular, como</small> &ensp; Circulo da Terra, o globo terrestre, o mundo, a Terra &ensp; <small>Ov. F. 5, 93.</small> <br> <b>3</b> &ensp; <small>II-Daí, em sent. especial, passou a designar objetos de forma esférica ou circular, como</small> &ensp; Disco &ensp; <small>do sol, da lua Verg. G. 1, 459.</small> <br> <b>4</b> &ensp; <small>II-Daí, em sent. especial, passou a designar objetos de forma esférica ou circular, como</small> &ensp; Mesa &ensp; <small>redonda Ov. Her. 17, 87.</small> <br> <b>5</b> &ensp; <small>II-Daí, em sent. especial, passou a designar objetos de forma esférica ou circular, como</small> &ensp; Espelho &ensp; <small>Marc. 9, 18, 5.</small> <br> <b>6</b> &ensp; <small>II-Daí, em sent. especial, passou a designar objetos de forma esférica ou circular, como</small> &ensp; Escudo &ensp; <small>redondo Verg. En. 10, 783.</small> <br> <b>7</b> &ensp; <small>II-Daí, em sent. especial, passou a designar objetos de forma esférica ou circular, como</small> &ensp; Roda &ensp; <small>Verg. G. 3, 361.</small> <br> <b>8</b> &ensp; <small>II-Daí, em sent. especial, passou a designar objetos de forma esférica ou circular, como</small> &ensp; Roda &ensp; <small>da Fortuna Ov. Trist. 5, 8, 7.</small> <br> <b>9</b> &ensp; <small>II-Daí, em sent. especial, passou a designar objetos de forma esférica ou circular, como</small> &ensp; Órbita do olho &ensp; <small>Ov. Met. 14, 20.</small> <br> <b>10</b> &ensp; <small>II-Daí, em sent. especial, passou a designar objetos de forma esférica ou circular, como</small> &ensp; Olho &ensp; <small>Ov. Am. 1, 8, 16.</small> <br> <b>11</b> &ensp; <small>II-Daí, em sent. especial, passou a designar objetos de forma esférica ou circular, como</small> &ensp; Pandeiro &ensp; <small>Suet. Aug. 68.</small> <br> <b>12</b> &ensp; <small>II-Daí, em sent. especial, passou a designar objetos de forma esférica ou circular, como</small> &ensp; Prato de balança &ensp; <small>Tib. 4, 1, 44.</small> <br> <b>13</b> &ensp; <small>II-Daí, em sent. especial, passou a designar objetos de forma esférica ou circular, como</small> &ensp; Círculo &ensp; <small>formado pelas tropas Cés. B. Gal. 4, 37, 2.</small> <br> <b>14</b> &ensp; <small>III-Sent. poético:</small> &ensp; Região, país &ensp; <small>Ov. F. 3, 466.</small> <br> <b>15</b> &ensp; <small>IV-Sents. diversos:</small> &ensp; Superfície circular, volta, rodeio, giro &ensp; <small>T. Lív. 1, 17, 6.</small> <br> <b>16</b> &ensp; <small>V-Sent. figurado:</small> &ensp; Círculo, curso &ensp; <small>de negócios T. Lív. 3, 10, 8; Cíc: Fin. 5, 23.</small> <br> <b>17</b> &ensp; <small>V</small> &ensp; Período &ensp; <small>na língua retórica:</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>17</b><br>orbis verborum Cíc. De Or. 3, 198 “período”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Orbis</b> -<b>is</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; redondeza, esféra, globo, circulo. <br> <b>2</b> &ensp; <small>Virg.</small> &ensp; globo terrestre. <br> <b>3</b> &ensp; <small>Cic.</small> &ensp; esféra celeste. <br> <b>4</b> &ensp; <small>Plin.</small> &ensp; paiz, territorio, região. <br> <b>5</b> &ensp; <small>Virg.</small> &ensp; roda do coche. <br> <b>6</b> &ensp; <small>Mart.</small> &ensp; meza redonda. <br> <b>7</b> &ensp; <small>Virg.</small> &ensp; escudo, rodela. <br> <b>8</b> &ensp; <small>Sall.</small> &ensp; multidão de gente em roda. <br> <b>9</b> &ensp; <small>Cat.</small> &ensp; testo, tapadoura, cobertura redonda. <br> <b>10</b> &ensp; <small>Virg.</small> &ensp; mundo. <br> <b>11</b> &ensp; <small>Ovid.</small> &ensp; prato redondo. <br> <b>12</b> &ensp; <small>Liv.</small> &ensp; multidão de soldados unidos. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>orbis astrorum &ensp; <small><small>Cic</small></small> &ensp; <small>Movimento circular das estrellas</small> <br> orbis doctrinae &ensp; <small><small>Quinct</small></small> &ensp; <small>Enciclopedia, união de todas as sciencias</small> <br> orbis exactus Lunae &ensp; <small><small>Luc</small></small> &ensp; <small>Lua cheia</small> <br> orbis oblaqueationis &ensp; <small><small>Col</small></small> &ensp; <small>Cova ao redor da arvore, quando se escava</small> <br> orbis signifer &ensp; <small><small>Cic</small></small> &ensp; <small>Zodiaco</small> </p>
+
+
+
+
+#### Velez
+
+<b>Orbis</b> -<b>is</b>   <p> <b>1</b> &ensp; o circulo, roda, ou redondeza, ou mundo <br> <b>2</b> &ensp; <small>pro regione</small> &ensp; a regiaõ &ensp; <small>apud Plin.</small> <br> <b>3</b> &ensp; <small>pro Anno</small> &ensp; <small>apud Poetas.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Orbis</b> <b>is</b>   <p> <b>1</b> &ensp; a redondeza. ou roda do oleyro </p> 
+ <b>Orbis</b> <b>is</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/115196 ' target="_blank"> http://lila-erc.eu/data/id/lemma/115196 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 3ª declinação (tema em -i-) <br>
+<small> outras grafias: </small> orbisterrae, orbisterrarum, orbs, urbis <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx111-114-98-105-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx111-114-98-105-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword orbis here are all the values plotted: collocate: terra; scoreSUBST: 5. collocate: totus; scoreSUBST: 0. collocate: per; scoreSUBST: 0. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx111-114-98-105-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword orbis here are all the values plotted: collocate: terra; scoreADJ: 0. collocate: totus; scoreADJ: 0. collocate: per; scoreADJ: 0. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx111-114-98-105-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword orbis here are all the values plotted: collocate: terra; scoreVERBO: 0. collocate: totus; scoreVERBO: 0. collocate: per; scoreVERBO: 0. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx111-114-98-105-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword orbis here are all the values plotted: collocate: terra; scoreADV: 0. collocate: totus; scoreADV: 0. collocate: per; scoreADV: 0. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx111-114-98-105-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword orbis here are all the values plotted: collocate: terra; scoreFUNC: 0. collocate: totus; scoreFUNC: 0. collocate: per; scoreFUNC: 20. collocate: in; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> nullius rei finis est sed in <b>orbem</b> nexa sunt omnia fugiunt ac secuntur <br> <small> Sen.Ep.24.26 <br> De nenhuma coisa há um fim, mas todas são enlaçadas em um círculo, fogem e seguem. <small> [JDD] </small> </small> </p>
+; <p> turpe est summo consilio <b>orbis</b> terrae praesertim in re tam perspicua consilium intellegi defuisse <br> <small> Cic.Phil.7.19.8 <br> É vergonhoso que ao mais elevado conselho do mundo, sobretudo num caso tão patente, se entenda ter faltado a sensatez. <small> [JDD] </small> </small> </p>
+; <p> Nunc mihi , qua totum Nereus circumsonat <b>orbem</b> , perdendum est mortale genus : <br> <small> Ov.Met.1.187-8 <br> agora, por onde Nereu ressoa em torno de todo o orbe, tenho de destruir a raça mortal. <small> [JDD] </small> </small> </p>
+; <p> sed quia prouenere ibi scriptorum magna ingenia per terrarum <b>orbem</b> Atheniensium facta pro maxumis celebrantur <br> <small> Sal.Cat.8.3 <br> Mas, porque ali surgiram grandes gênios de escritores, os feitos dos atenienses são celebrados pelo orbe da terra como os maiores. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx111-114-98-105-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Ovidius subcorpus registers the highest normalized frequency, with the value of 17.16 and an absolute frequency of 10. The Tacitus subcorpus follows, with a normalized frequency of 6.87 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 27 ; absolute frequency: 1.68199147790985. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 10 ; absolute frequency: 17.1585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 16 ; absolute frequency: 2.98613314421157. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx111-114-98-105-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 9.65 and an absolute frequency of 5. The Poesia.didática subcorpus follows, with a normalized frequency of 8.48 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 4 ; absolute frequency: 0.973733537817376. subcorpus: Prosa.filosófica ; normalized frequency: 11 ; absolute frequency: 1.81216124940281. subcorpus: Prosa.oratória ; normalized frequency: 23 ; absolute frequency: 2.20828972761226. subcorpus: Prosa.epistolográfica ; normalized frequency: 4 ; absolute frequency: 1.05991149738997. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 10 ; absolute frequency: 8.48248367121893. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx111-114-98-105-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The I.d.C. subcorpus follows, with a normalized frequency of 3.98 and an absolute frequency of 26. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 36 ; absolute frequency: 1.67558761926926. subcorpus: I.d.C. ; normalized frequency: 26 ; absolute frequency: 3.97735964509714. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

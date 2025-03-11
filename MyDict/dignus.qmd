@@ -1,0 +1,205 @@
+---
+title: "dignus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-105-103-110-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>dignus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small>Obs.: Constrói-se com abl. mais comum Cíc. Rep. 3, 7; com qui mais subj. Cíc. Lig. 3, 5; com inf. poético T. Lív. 8, 26, 6; com ut T. Liv.23, 42, 13; com gen. Ov. Trist. 4, 3,57; com acus. de um pronome ou adj.n. Plaut. Capt. 969; com ad mais acus.Cíc. Rep. 1,30.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Que convém a, que merece, que é digno de &ensp; <small>Cíc. Verr. 4, 73.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Conveniente, digno, justo &ensp; <small>T. Lív. 21, 6, 4.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Dignus</b> -<b>a</b> -<b>um</b> -<b>ior</b> -<b>issimus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; digno, merecedor, capaz. </p>
+
+
+
+
+#### Velez
+
+<b>Dignus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa digna &ensp; <small>gen. vel abl. | Interdum sine casu cum Qui, quae, quod, & Conjunctivo</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>dignus, qui laudetur, cui faueant, quem ament omnes </p>
+
+
+
+
+#### Cardoso
+
+<b>Dignus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa digna. ou merecedora </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/99407 ' target="_blank"> http://lila-erc.eu/data/id/lemma/99407 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-105-103-110-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-105-103-110-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword dignus here are all the values plotted: collocate: praemium; scoreSUBST: 2. collocate: iudico; scoreSUBST: 0. collocate: scelus; scoreSUBST: 2. collocate: qua2; scoreSUBST: 0. collocate: puto; scoreSUBST: 0. collocate: tuus; scoreSUBST: 0. collocate: qua; scoreSUBST: 0. collocate: uideo; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-105-103-110-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword dignus here are all the values plotted: collocate: praemium; scoreADJ: 0. collocate: iudico; scoreADJ: 0. collocate: scelus; scoreADJ: 0. collocate: qua2; scoreADJ: 0. collocate: puto; scoreADJ: 0. collocate: tuus; scoreADJ: 0. collocate: qua; scoreADJ: 0. collocate: uideo; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-105-103-110-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword dignus here are all the values plotted: collocate: praemium; scoreVERBO: 0. collocate: iudico; scoreVERBO: 2. collocate: scelus; scoreVERBO: 0. collocate: qua2; scoreVERBO: 0. collocate: puto; scoreVERBO: 2. collocate: tuus; scoreVERBO: 0. collocate: qua; scoreVERBO: 0. collocate: uideo; scoreVERBO: 1. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-105-103-110-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword dignus here are all the values plotted: collocate: praemium; scoreADV: 0. collocate: iudico; scoreADV: 0. collocate: scelus; scoreADV: 0. collocate: qua2; scoreADV: 2. collocate: puto; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: qua; scoreADV: 1. collocate: uideo; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-105-103-110-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword dignus here are all the values plotted: collocate: praemium; scoreFUNC: 0. collocate: iudico; scoreFUNC: 0. collocate: scelus; scoreFUNC: 0. collocate: qua2; scoreFUNC: 0. collocate: puto; scoreFUNC: 0. collocate: tuus; scoreFUNC: 0. collocate: qua; scoreFUNC: 0. collocate: uideo; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> tu <b>dignior</b> Uerres quam Calidius <br> <small> Cic.Ver.2.4.45.5 <br> Tu, mais digno do que Calídio, Verres? <small> [JDD] </small> </small> </p>
+; <p> stultus et inprobus hic amor est <b>dignus</b>que notari <br> <small> Hor.S.1.3.24 <br> Este amor próprio é tolo e desonesto e digno de ser censurado. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Sed non domus una perire <b>digna</b> fuit : <br> <small> Ov.Met.1.240-1 <br> mas não era a única casa digna de perecer. <small> [JDD] </small> </small> </p>
+; <p> exurge modo et te quoque <b>dignum</b> finge deo <br> <small> Sen.Ep.31.11 <br> Ergue-te apenas “e modela-te também digno de um deus”. <small> [JDD] </small> </small> </p>
+; <p> huic similiter Impinge lapidem et <b>dignum</b> accipies praemium . <br> <small> Phaed.3.5 <br> taca também uma pedra nele e receberás uma recompensa digna”. <small> [JDD] </small> </small> </p>
+; <p> nemo alius est deo <b>dignus</b> quam qui opes contempsit <br> <small> Sen.Ep.18.13 <br> Ninguém é mais digno de um deus do que quem desprezou as riquezas. <small> [JDD] </small> </small> </p>
+; <p> redde nunc animos acres nunc aliquid aude sceleribus <b>dignum</b> tuis <br> <small> Sen.Oed.878 <br> Mostra agora os teus ânimos vigorosos; ousa agora algo digno de teus crimes. <small> [JDD] </small> </small> </p>
+; <p> si uales et te <b>dignum</b> putas qui aliquando fias tuus gaudeo <br> <small> Sen.Ep.20.1 <br> Se estás bem e te julgas digno de que te tornes teu algum dia, fico contente. <small> [JDD] </small> </small> </p>
+; <p> quicquid eiusdem generis habebis <b>dignum</b> Academia tibi quod videbitur ne dubitaris mittere et arcae nostrae confidito <br> <small> Cic.Att.1.9.2 <br> Tudo o que tiveres desse gênero que te parecer digno da Academia, não hesites em enviar-me e põe em minha conta. <small> [JDD] </small> </small> </p>
+; <p> sed quam longe uidetur a carcere atque a uinculis abesse debere qui se ipse iam <b>dignum</b> custodia iudicarit <br> <small> Cic.Catil.1.19.14 <br> Mas quão longe parece que deve estar do cárcere e dos grilhões, quem já se julgou por si mesmo digno de vigilância! <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-105-103-110-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 6.87 and an absolute frequency of 2. The Ovidius subcorpus follows, with a normalized frequency of 6.86 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 65 ; absolute frequency: 4.04923874311629. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 18 ; absolute frequency: 3.35939978723801. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-105-103-110-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 6.08 and an absolute frequency of 7. The Poesia.lírica subcorpus follows, with a normalized frequency of 5.89 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 1.85 and an absolute freqeuncy of 7. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 9 ; absolute frequency: 2.1909004600891. subcorpus: Prosa.filosófica ; normalized frequency: 19 ; absolute frequency: 3.13009670351395. subcorpus: Prosa.oratória ; normalized frequency: 50 ; absolute frequency: 4.80062984263535. subcorpus: Prosa.epistolográfica ; normalized frequency: 7 ; absolute frequency: 1.85484512043244. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 6 ; absolute frequency: 5.08949020273136. subcorpus: Poesia.trágica ; normalized frequency: 7 ; absolute frequency: 6.08061153578874. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-105-103-110-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The I.a.C. subcorpus follows, with a normalized frequency of 3.77 and an absolute frequency of 81. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 81 ; absolute frequency: 3.77007214335583. subcorpus: I.d.C. ; normalized frequency: 24 ; absolute frequency: 3.67140890316659. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

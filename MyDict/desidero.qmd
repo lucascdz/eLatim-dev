@@ -1,0 +1,210 @@
+---
+title: "desidero"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-101-115-105-100-101-114-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>dēsīdĕrō</b> <b>-ás</b> <b>-áre</b> <b>-áví, -átum.</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói-se com acus.; .;om acus. e inf.; com acus. e abl. com ab ou in.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Deixar de ver, sentir a falta de, verificar ou lamentar a ausência ou a perda &ensp; <small>Cíc. Rep. 2, 64; Cíc. Fam. 4, 9, 4.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Procurar, desejar, exigir &ensp; <small>Cíc. Verr. 4, 68; Cíc. Q. Fr. 3, 5, 3.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Desidero</b> -<b>as</b> -<b>avi</b> -<b>atum</b> -<b>are</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; desejar. <br> <b>2</b> &ensp; <small>Nep.</small> &ensp; sentir falta. <br> <b>3</b> &ensp; <small>Ulp.</small> &ensp; pertender em juizo. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Desidero</b> -<b>as</b>   <p> <b>1</b> &ensp; desejar o que falta </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/98900 ' target="_blank"> http://lila-erc.eu/data/id/lemma/98900 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> desidero </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> desiderare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> desiderabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> desideraui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> desideratum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> desideraturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+dēsīdĕrō 
+ dēsīdĕrās 
+ dēsīdĕrāre 
+ dēsīdĕrāvī 
+ dēsīdĕrātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-101-115-105-100-101-114-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-101-115-105-100-101-114-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword desidero here are all the values plotted: collocate: praetura; scoreSUBST: 2. collocate: natura; scoreSUBST: 2. collocate: tamen; scoreSUBST: 0. collocate: non; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-101-115-105-100-101-114-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword desidero here are all the values plotted: collocate: praetura; scoreADJ: 0. collocate: natura; scoreADJ: 0. collocate: tamen; scoreADJ: 0. collocate: non; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-101-115-105-100-101-114-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword desidero here are all the values plotted: collocate: praetura; scoreVERBO: 0. collocate: natura; scoreVERBO: 0. collocate: tamen; scoreVERBO: 0. collocate: non; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-101-115-105-100-101-114-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword desidero here are all the values plotted: collocate: praetura; scoreADV: 0. collocate: natura; scoreADV: 0. collocate: tamen; scoreADV: 2. collocate: non; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-101-115-105-100-101-114-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword desidero here are all the values plotted: collocate: praetura; scoreFUNC: 0. collocate: natura; scoreFUNC: 0. collocate: tamen; scoreFUNC: 0. collocate: non; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> denique haec non <b>desidero</b> <br> <small> Cic.Att.5.15.1 <br> Enfim, não é disso que eu sinto falta. <small> [JDD] </small> </small> </p>
+; <p> nihil praeter cibum natura <b>desiderat</b> <br> <small> Sen.Ep.119.13 <br> A natureza não deseja nada além da comida. <small> [JDD] </small> </small> </p>
+; <p> una sola sententia praesidium non <b>desideravit</b> <br> <small> Cic.Att.1.16.5 <br> Um único parecer não aprovou a escolta. <small> [JDD] </small> </small> </p>
+; <p> quam tibi etiam si non <b>desideras</b> tamen mittam cito <br> <small> Cic.Att.4.2.2 <br> a ti, mesmo que não desejes, mesmo assim vou enviá-lo logo. <small> [JDD] </small> </small> </p>
+; <p> nam et L. Luculli exercitus qui ad triumphum conuenerat idem comitiis L. Murenae praesto fuit et munus amplissimum quod petitio praeturae <b>desiderarat</b> praetura restituit <br> <small> Cic.Mur.37 <br> Pois tanto o exército de Lúcio Luculo, que tinha se reunido para celebrar o triunfo, esteve ele mesmo à disposição de Lúcio Murena nos comícios, como os magníficos jogos que sua candidatura à pretura tinha deixado em falta, sua pretura restituiu. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-101-115-105-100-101-114-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 6.87 and an absolute frequency of 2. The Seneca subcorpus follows, with a normalized frequency of 4.67 and an absolute frequency of 25. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 63 ; absolute frequency: 3.92464678178964. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 25 ; absolute frequency: 4.66583303783057. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-101-115-105-100-101-114-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 6.75 and an absolute frequency of 41. The Prosa.oratória subcorpus follows, with a normalized frequency of 2.69 and an absolute frequency of 28. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 3 ; absolute frequency: 0.730300153363032. subcorpus: Prosa.filosófica ; normalized frequency: 41 ; absolute frequency: 6.75441920231957. subcorpus: Prosa.oratória ; normalized frequency: 28 ; absolute frequency: 2.6883527118758. subcorpus: Prosa.epistolográfica ; normalized frequency: 19 ; absolute frequency: 5.03457961260235. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-101-115-105-100-101-114-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The I.d.C. subcorpus follows, with a normalized frequency of 4.13 and an absolute frequency of 27. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 64 ; absolute frequency: 2.97882243425646. subcorpus: I.d.C. ; normalized frequency: 27 ; absolute frequency: 4.13033501606241. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

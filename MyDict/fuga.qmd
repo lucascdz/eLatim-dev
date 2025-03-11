@@ -1,0 +1,202 @@
+---
+title: "fuga"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx102-117-103-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>fuga</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small>Obs.: O gen. arc. fugai ainda ocorre em Lucrécio 1, 1.047.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Ação de fugir, fuga, evasão &ensp; <small>Cíc. Phil. 5, 30.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Exílio &ensp; <small>Cíc. Of. 2, 20.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Ação de evitar, aversão &ensp; <small>Cíc. Fin. I, 33.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Carreira rápida &ensp; <small>por terra ou mar Verg. En. 7, 24.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Fuga</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; fugida. <br> <b>2</b> &ensp; desterro. <br> <b>3</b> &ensp; aversão. <br> <b>4</b> &ensp; <small>Virg.</small> &ensp; velocidade, carreira ligeira. </p>
+
+
+
+
+#### Velez
+
+<b>Fuga</b> -<b>ae</b>   <p> <b>1</b> &ensp; fugida, corrida ligeira </p>
+
+
+
+
+#### Cardoso
+
+<b>Fuga</b> -<b>ae</b>   <p> <b>1</b> &ensp; a fugida </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/103915 ' target="_blank"> http://lila-erc.eu/data/id/lemma/103915 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+fŭga 
+ fŭgae
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx102-117-103-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx102-117-103-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword fuga here are all the values plotted: collocate: conicio; scoreSUBST: 0. collocate: recipio; scoreSUBST: 0. collocate: salus; scoreSUBST: 2. collocate: ex; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: sui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx102-117-103-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword fuga here are all the values plotted: collocate: conicio; scoreADJ: 0. collocate: recipio; scoreADJ: 0. collocate: salus; scoreADJ: 0. collocate: ex; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: sui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx102-117-103-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword fuga here are all the values plotted: collocate: conicio; scoreVERBO: 3. collocate: recipio; scoreVERBO: 2. collocate: salus; scoreVERBO: 0. collocate: ex; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: sui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx102-117-103-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword fuga here are all the values plotted: collocate: conicio; scoreADV: 0. collocate: recipio; scoreADV: 0. collocate: salus; scoreADV: 0. collocate: ex; scoreADV: 0. collocate: in; scoreADV: 0. collocate: sui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx102-117-103-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword fuga here are all the values plotted: collocate: conicio; scoreFUNC: 0. collocate: recipio; scoreFUNC: 0. collocate: salus; scoreFUNC: 0. collocate: ex; scoreFUNC: 20. collocate: in; scoreFUNC: 20. collocate: sui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> in <b>fuga</b> foeda mors est in uictoria gloriosa <br> <small> Cic.Phil.14.32.4 <br> A morte é feia na fuga; na vitória, é gloriosa. <small> [JDD] </small> </small> </p>
+; <p> interim omnis ex <b>fuga</b> Suessionum multitudo in oppidum proxima nocte conuenit <br> <small> Caes.Gal.2.12.4 <br> Nesse ínterim, toda a multidão de suessiões em fuga veio para a cidadela na noite seguinte. <small> [JDD] </small> </small> </p>
+; <p> nam Germani qui auxilio ueniebant percepta Treuerorum <b>fuga</b> sese domum contulerunt <br> <small> Caes.Gal.6.8.7 <br> Pois os germanos, que vinham em auxílio, sabida a fuga dos tréveros, se recolheram para sua pátria. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> hostes undique circumuenti desperatis omnibus rebus se per munitiones deicere et <b>fuga</b> salutem petere intenderunt <br> <small> Caes.Gal.3.26.5 <br> Os inimigos, cercados por todos os lados, perdidas todas as esperanças, se esforçaram por precipitar-se através da fortificações e por buscar salvação na fuga. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> cogunt equitum duo milia Sugambri qui sunt proximi Rheno a quibus receptos ex <b>fuga</b> Tenctheros atque Usipetes supra docuimus <br> <small> Caes.Gal.6.35.5 <br> Os sicambros, que estão próximos do Reno, pelos quais ensinamos acima que os tencteros e os usipetes tinham sido acolhidos da fuga, reúnem dois mil cavaleiros. <small> [JDD] </small> </small> </p>
+; <p> cum hostium acies a sinistro cornu pulsa atque in <b>fugam</b> coniecta esset a dextro cornu uehementer multitudine suorum nostram aciem premebant <br> <small> Caes.Gal.1.52.6 <br> Como a linha dos inimigos da ala esquerda tinha sido derrotada e posta em fuga, com a ala direita eles apertavam violentamente a nossa linha em virtude do grande número dos seus. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx102-117-103-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 16.24 and an absolute frequency of 43. The Tacitus subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 43 ; absolute frequency: 16.2398972732079. subcorpus: Cicero ; normalized frequency: 19 ; absolute frequency: 1.18362363260322. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 5 ; absolute frequency: 4.63778870234672. subcorpus: Seneca ; normalized frequency: 14 ; absolute frequency: 2.61286650118512. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx102-117-103-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 11.68 and an absolute frequency of 48. The Poesia.trágica subcorpus follows, with a normalized frequency of 1.74 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 48 ; absolute frequency: 11.6848024538085. subcorpus: Prosa.filosófica ; normalized frequency: 12 ; absolute frequency: 1.9769031811667. subcorpus: Prosa.oratória ; normalized frequency: 17 ; absolute frequency: 1.63221414649602. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx102-117-103-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 3.3 and an absolute frequency of 71. The I.a.C. subcorpus follows, with a normalized frequency of 3.3 and an absolute frequency of 71. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 71 ; absolute frequency: 3.30463113800326. subcorpus: I.d.C. ; normalized frequency: 18 ; absolute frequency: 2.75355667737494. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

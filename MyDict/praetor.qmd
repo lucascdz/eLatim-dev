@@ -1,0 +1,206 @@
+---
+title: "praetor"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-114-97-101-116-111-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>praetor</b> <b>-óris</b> <br> <small>subs. m.</small> <br> <small>Obs.: Primitivamente o título de pretor era dado, apenas, ao magistrado supremo, que tinha o comando supremo do exército; depois, como as atribuições judiciais fossem tiradas ãos cônsules, o nome de praetor passou a ser dado ao magistrado que ministrava a justiça praetor urbanus, praetor peregrinus.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Magistrado supremo, pretor, cônsul &ensp; <small>palavras usadas concorrentemente T. Lív. 30, 43. 9.</small> <br> <b>2</b> &ensp; <small>II-Sent. particular</small> &ensp; Comandante, general &ensp; <small>Cíc. Div. 1, 123.</small> <br> <b>3</b> &ensp; <small>II-Sent. particular</small> &ensp; Pretor, magistrado que ministrava a justiça &ensp; <small>T. Lív. 30, 2, 4.</small> <br> <b>4</b> &ensp; <small>II-Sent. particular</small> &ensp; Procônsul, propretor, governador &ensp; <small>de província Cíc. Fam. 2, 17, 6.</small> <br> <b>5</b> &ensp; <small>II-Sent. particular</small> &ensp; Intendente &ensp; <small>no séc. de Augusto:</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>5</b><br>praetores aerarii Tác. An. 1, 75 «intendentes do tesouro público». Note-se a expressão: praetormaximus T. Lív. 7, 3,5 «ditador ou cônsul que tinha os feixes». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Praetor</b> -<b>oris</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; pretor. &ensp; <small>Magistrado Romano, que governa hum exercito.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>praetor urbanus &ensp; <small><small>Cic</small></small> &ensp; <small>Senador escolhido para julgar as causas civeis em Roma</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Praetor</b> <b>oris</b>   <p> <b>1</b> &ensp; ho corregedor </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/119325 ' target="_blank"> http://lila-erc.eu/data/id/lemma/119325 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> praitor <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+praetŏr 
+ praetōris
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-114-97-101-116-111-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-114-97-101-116-111-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword praetor here are all the values plotted: collocate: urbanus; scoreSUBST: 0. collocate: pomptinus; scoreSUBST: 0. collocate: interea; scoreSUBST: 0. collocate: Metellus; scoreSUBST: 0. collocate: prouincia; scoreSUBST: 2. collocate: apud; scoreSUBST: 0. collocate: consul; scoreSUBST: 2. collocate: iste; scoreSUBST: 0. collocate: uenio; scoreSUBST: 0. collocate: populus; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-114-97-101-116-111-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword praetor here are all the values plotted: collocate: urbanus; scoreADJ: 2. collocate: pomptinus; scoreADJ: 2. collocate: interea; scoreADJ: 0. collocate: Metellus; scoreADJ: 0. collocate: prouincia; scoreADJ: 0. collocate: apud; scoreADJ: 0. collocate: consul; scoreADJ: 0. collocate: iste; scoreADJ: 0. collocate: uenio; scoreADJ: 0. collocate: populus; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-114-97-101-116-111-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword praetor here are all the values plotted: collocate: urbanus; scoreVERBO: 0. collocate: pomptinus; scoreVERBO: 0. collocate: interea; scoreVERBO: 0. collocate: Metellus; scoreVERBO: 0. collocate: prouincia; scoreVERBO: 0. collocate: apud; scoreVERBO: 0. collocate: consul; scoreVERBO: 0. collocate: iste; scoreVERBO: 0. collocate: uenio; scoreVERBO: 2. collocate: populus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-114-97-101-116-111-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword praetor here are all the values plotted: collocate: urbanus; scoreADV: 0. collocate: pomptinus; scoreADV: 0. collocate: interea; scoreADV: 2. collocate: Metellus; scoreADV: 0. collocate: prouincia; scoreADV: 0. collocate: apud; scoreADV: 0. collocate: consul; scoreADV: 0. collocate: iste; scoreADV: 0. collocate: uenio; scoreADV: 0. collocate: populus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-114-97-101-116-111-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword praetor here are all the values plotted: collocate: urbanus; scoreFUNC: 0. collocate: pomptinus; scoreFUNC: 0. collocate: interea; scoreFUNC: 0. collocate: Metellus; scoreFUNC: 0. collocate: prouincia; scoreFUNC: 0. collocate: apud; scoreFUNC: 20. collocate: consul; scoreFUNC: 0. collocate: iste; scoreFUNC: 0. collocate: uenio; scoreFUNC: 0. collocate: populus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> provincias <b>praetores</b> nondum sortiti sunt <br> <small> Cic.Att.1.13.5 <br> Os pretores ainda não se sortearam as províncias. <small> [JDD] </small> </small> </p>
+; <p> uocat interea <b>praetor</b> poscit scyphos <br> <small> Cic.Ver.2.4.32.20 <br> Nisso, o pretor chama; pede os copos. <small> [JDD] </small> </small> </p>
+; <p> an consules in <b>praetore</b> coercendo fortes fuissent <br> <small> Cic.Mil.89 <br> Será que os cônsules teria sido corajosos para reprimi-lo, como pretor? <small> [JDD] </small> </small> </p>
+; <p> Diodorus interea <b>praetore</b> isto prope triennium prouincia domoque caruit <br> <small> Cic.Ver.2.4.41.14 <br> Diodoro, entretanto, com esse sujeito pretor, não teve província nem pátria por quase três anos. <small> [JDD] </small> </small> </p>
+; <p> eo cum uenio <b>praetor</b> quiescebat fratres illi Cibyratae inambulabant <br> <small> Cic.Ver.2.4.32.13 <br> Quando chego lá, o pretor estava descansando; aqueles irmãos cibiratas passeavam. <small> [JDD] </small> </small> </p>
+; <p> cum hic domicilium Romae multos iam annos haberet professus est apud <b>praetorem</b> Q. Metellum familiarissimum suum <br> <small> Cic.Arch.7 <br> Como este tinha domicílio em Roma já há muitos anos, registrou-se perante o pretor Quinto Metelo, amicíssimo seu. <small> [JDD] </small> </small> </p>
+; <p> arcessit alter consul designatus Siculos ueniunt non nulli propterea quod L. Metellus esset <b>praetor</b> in Sicilia <br> <small> Cic.Ver.1.27 <br> O outro cônsul designado manda chamar os sicilianos; alguns vêm sobretudo porque Lúcio Metelo era pretor na Sicília. <small> [JDD] </small> </small> </p>
+; <p> nam mihi Pompeiani prodromi nuntiant aperte Pompeium acturum Antonio succedi oportere eodemque tempore aget <b>praetor</b> ad populum <br> <small> Cic.Att.1.12.1 <br> Com efeito, os porta-vozes de Pompeu me anunciam abertamente que Pompeu proporá que convém substituir-se a Antônio, e, ao mesmo tempo, o pretor o levará diante do povo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> deinde L. Flaccus et C. Pomptinus <b>praetores</b> quod eorum opera forti fidelique usus essem merito ac iure laudantur <br> <small> Cic.Catil.3.14.3 <br> Em seguida os pretores Lúcio Flaco e Caio Pomptino, por eu ter me valido da corajosa e fiel colaboração deles, são louvados com razão e justiça. <small> [JDD] </small> </small> </p>
+; <p> qua re secedant improbi secernant se a bonis unum in locum congregentur muro denique quod saepe iam dixi secernantur a nobis desinant insidiari domi suae consuli circumstare tribunal <b>praetoris</b> urbani obsidere cum gladiis curiam malleolos et faces ad inflammandam urbem comparare sit denique inscriptum in fronte unius cuiusque quid de re publica sentiat <br> <small> Cic.Catil.1.32.1 <br> Por isso afastem-se os maus, separem-se dos bons, sejam reunidos num só lugar, que, enfim, sejam separados de nós por um muro, como já disse muitas vezes; deixem de armar ciladas ao cônsul em sua própria casa, de rodear o tribunal do pretor urbano, de cercar com espadas a cúria, de comprar martelos incendiários e tocha para incendiar a cidade; que fique, enfim, gravado na testa de cada um o que sente em relação à república. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-114-97-101-116-111-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 10.2 and an absolute frequency of 11. The Cicero subcorpus follows, with a normalized frequency of 6.42 and an absolute frequency of 103. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 103 ; absolute frequency: 6.41648600832274. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 11 ; absolute frequency: 10.2031351451628. subcorpus: Seneca ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-114-97-101-116-111-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 8.74 and an absolute frequency of 91. The Prosa.oratória subcorpus follows, with a normalized frequency of 8.74 and an absolute frequency of 91. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 11 ; absolute frequency: 2.67776722899778. subcorpus: Prosa.filosófica ; normalized frequency: 1 ; absolute frequency: 0.164741931763892. subcorpus: Prosa.oratória ; normalized frequency: 91 ; absolute frequency: 8.73714631359634. subcorpus: Prosa.epistolográfica ; normalized frequency: 11 ; absolute frequency: 2.91475661782241. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-114-97-101-116-111-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 5.45 and an absolute frequency of 117. The I.a.C. subcorpus follows, with a normalized frequency of 5.45 and an absolute frequency of 117. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 117 ; absolute frequency: 5.44565976262509. subcorpus: I.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

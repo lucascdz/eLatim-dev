@@ -1,0 +1,216 @@
+---
+title: "abeo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-98-101-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>abĕō</b> <b>-īs</b> <b>-īre</b> <b>-ĭī, -ītum</b> <br> <small>v. intr.</small> <br> <small>Obs.: Constrói-se com abl. com as preposições ab, de. ex, com acus. com in, bem como com infinitivo.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Ir-se, ir-se embora &ensp; <small>e daí: partir Cíc. Cat. 2, I.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Ir-se, desaparecer: &ensp; <small></small> <br> <b>3</b> &ensp; <small>II-Sent. figurado</small> &ensp; Deixar, Lívrar-se de &ensp; <small>abl. com prep. ab Cíc. Div. 2, 22.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado</small> &ensp; Mudar de natureza, transformar-se &ensp; <small>ac. com a prep. in Ov. Met. 1, 236.</small> <br> <b>5</b> &ensp; <small>II-Na língua familiar</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>abiit ille annus Cíc. Sest. 71 “foi-se aquele ano”. <br> <br><b>5</b><br>abin in malam crucem? Plaut. Most. 850 “por que não vais para o inferno?”. </p> 
+ <b>abī</b> <br> <small>imperat. de abeo.</small> <br> <small></small> 
+ <b>abībĭtur</b> <br> <small>fut. pass. impess. de abeo.</small> <br> <small></small> 
+ <b>abĭdum</b> <br> <small></small> <br> <small></small>   <p> <b>1</b> &ensp; <small>Ter. Heaut, 249</small> &ensp; “vai-te, pois.” &ensp; <small></small> </p> 
+ <b>abīvī</b> <br> <small>perf. de abeo.</small> <br> <small></small> 
+ <small>1.</small> <b>abĭī</b> <br> <small>perf. de abeo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Abeo</b> -<b>is</b> -<b>ivi</b> -<b>ii</b> <small>l</small> -<b>itum</b> -<b>ire</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; ir-se, ausentar-se. <br> <b>2</b> &ensp; <small>Plin.</small> &ensp; mudar-se, passar-se. </p> 
+ <small>imperat. de Abeo</small> <b>Abeat</b> 
+ <small>pret. de Abeo</small> <b>Abii</b>
+
+
+
+
+#### Velez
+
+<b>Abeo</b> -<b>is</b>   <p> <b>1</b> &ensp; irse </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>abire consulatu &ensp; <small>deixar o consulado</small> <br> abire e uita, uel e medio &ensp; <small>morrer</small> <br> pessum abire &ensp; <small>ir ao fundo</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Abeo</b> <b>is</b> <b>iui</b> <b>itum</b>   <p> <b>1</b> &ensp; apartar-se. ou ir-se &ensp; <small>neutro.</small> </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/86873 ' target="_blank"> http://lila-erc.eu/data/id/lemma/86873 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> irregular <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> abeo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> abire </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> abibit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> abiui, abii </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> abitum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> abiturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+ăbĕō 
+ ăbīs 
+ ăbīre 
+ ăbĭī 
+ ăbĭtum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-98-101-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-98-101-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword abeo here are all the values plotted: collocate: in; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-98-101-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword abeo here are all the values plotted: collocate: in; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-98-101-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword abeo here are all the values plotted: collocate: in; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-98-101-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword abeo here are all the values plotted: collocate: in; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-98-101-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword abeo here are all the values plotted: collocate: in; scoreFUNC: 10. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> et egressus inde <b>abiit</b> in patriam suam <br> <small> Vulg.Marc.6.1 <br> E tendo saído dali, foi para sua terra <small> [JDD] </small> </small> </p>
+; <p> et cum dimisisset eos <b>abiit</b> in montem orare <br> <small> Vulg.Marc.6.46 <br> E depois de tê-los dispensado, foi ao monte orar. <small> [JDD] </small> </small> </p>
+; <p> et ascendentes in navi <b>abierunt</b> in desertum locum seorsum <br> <small> Vulg.Marc.6.32 <br> E, subindo na barca, foram sozinhos para um lugar deserto. <small> [JDD] </small> </small> </p>
+; <p> Hominem inquit quaero , et <b>abiit</b> festinans domum . <br> <small> Phaed.3.19 <br> “Procuro um homem”, diz ele. E foi apressado para casa. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-98-101-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 22.47 and an absolute frequency of 10. The Phaedrus subcorpus follows, with a normalized frequency of 7.59 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 13 ; absolute frequency: 0.809847748623259. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 5 ; absolute frequency: 7.59070897221801. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 12 ; absolute frequency: 2.23959985815868. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 10 ; absolute frequency: 22.4668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-98-101-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 22.47 and an absolute frequency of 10. The Poesia.didática subcorpus follows, with a normalized frequency of 5.94 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 0.49 and an absolute freqeuncy of 2. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 2 ; absolute frequency: 0.486866768908688. subcorpus: Prosa.filosófica ; normalized frequency: 9 ; absolute frequency: 1.48267738587503. subcorpus: Prosa.oratória ; normalized frequency: 10 ; absolute frequency: 0.960125968527071. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 7 ; absolute frequency: 5.93773856985325. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 10 ; absolute frequency: 22.4668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-98-101-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 22.47 and an absolute frequency of 10. The I.d.C. subcorpus follows, with a normalized frequency of 2.91 and an absolute frequency of 19. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 21 ; absolute frequency: 0.9774261112404. subcorpus: I.d.C. ; normalized frequency: 19 ; absolute frequency: 2.90653204834022. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 10 ; absolute frequency: 22.4668613794653'}
+
+
+:::
+

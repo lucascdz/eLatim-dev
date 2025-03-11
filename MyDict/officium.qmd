@@ -1,0 +1,208 @@
+---
+title: "officium"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx111-102-102-105-99-105-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>officĭum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>Sent. primitivo</small> &ensp; Trabalho, execução de uma tarefa ou tarefa a executar; &ensp; <small></small> <br> <b>2</b> &ensp; <small>na língua jurídica:</small> &ensp; Obrigações de um cargo, deveres de um magistrado, cargo, função pública, ocupação, ofício &ensp; <small>Cíc. At. 16, 14, 3; Cés. B. Civ. 3, 103, 4; Cés. B. Civ.3, 5, 4.</small> <br> <b>3</b> &ensp; <small>Na língua filosófica:</small> &ensp; Dever, obrigação moral, fidelidade ao dever, obediência &ensp; <small>Cíc. Fam. 14, 1, 5.</small> <br> <b>4</b> &ensp; <small>Por aproximação com “ ops”</small> &ensp; Serviço prestado, favor, obséquio, demonstração de respeito, homenagens, honras prestadas &ensp; <small>Cíc. Fam. 13, 21, 2.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Officium</b> -<b>ii</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; officio, emprego, ministerio, cargo, obrigação de cada hum no seu estado. <br> <b>2</b> &ensp; bom officio, cortezia, obsequio, serviço, beneficio. <br> <b>3</b> &ensp; <small>Suet.</small> &ensp; magistrado, emprego na Republica. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>fungi officio &ensp; <small><small>Cic</small></small> &ensp; <small>Encher as suas obrigações</small> <br> officia suprema &ensp; <small><small>Tac</small></small> &ensp; <small>Funeraes, exequias</small> <br> officio parere &ensp; <small><small>Cic</small></small> &ensp; <small>Encher as suas obrigações</small> <br> officio satisfacere &ensp; <small><small>Cic</small></small> &ensp; <small>Encher as suas obrigações</small> <br> officium facere &ensp; <small><small>Ter</small></small> &ensp; <small>Encher as suas obrigações</small> <br> officium implere &ensp; <small><small>Plin. Jun</small></small> &ensp; <small>Encher as suas obrigações</small> <br> summo officio praeditus &ensp; <small><small>Cic</small></small> &ensp; <small>Homem, que faz perfeitamente quanto deve</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Officium</b> <b>ij</b>   <p> <b>1</b> &ensp; a obra virtuosa </p> 
+ <b>Officium</b> <b>ij</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/114811 ' target="_blank"> http://lila-erc.eu/data/id/lemma/114811 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> officiom <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+offĭcĭum 
+ offĭcĭī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx111-102-102-105-99-105-117-109xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx111-102-102-105-99-105-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword officium here are all the values plotted: collocate: imperator; scoreSUBST: 2. collocate: studium; scoreSUBST: 2. collocate: meus; scoreSUBST: 0. collocate: de; scoreSUBST: 0. collocate: nullus; scoreSUBST: 0. collocate: tuus; scoreSUBST: 0. collocate: omnis; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx111-102-102-105-99-105-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword officium here are all the values plotted: collocate: imperator; scoreADJ: 0. collocate: studium; scoreADJ: 0. collocate: meus; scoreADJ: 0. collocate: de; scoreADJ: 0. collocate: nullus; scoreADJ: 0. collocate: tuus; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx111-102-102-105-99-105-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword officium here are all the values plotted: collocate: imperator; scoreVERBO: 0. collocate: studium; scoreVERBO: 0. collocate: meus; scoreVERBO: 0. collocate: de; scoreVERBO: 0. collocate: nullus; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx111-102-102-105-99-105-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword officium here are all the values plotted: collocate: imperator; scoreADV: 0. collocate: studium; scoreADV: 0. collocate: meus; scoreADV: 0. collocate: de; scoreADV: 0. collocate: nullus; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: in; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx111-102-102-105-99-105-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword officium here are all the values plotted: collocate: imperator; scoreFUNC: 0. collocate: studium; scoreFUNC: 0. collocate: meus; scoreFUNC: 0. collocate: de; scoreFUNC: 20. collocate: nullus; scoreFUNC: 0. collocate: tuus; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0. collocate: in; scoreFUNC: 10. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Omnis de <b>officio</b> duplex est quaestio <br> <small> Cic.Off.1.7 <br> Toda questão sobre o dever é dupla. <small> [JDD] </small> </small> </p>
+; <p> Nam et medium quoddam <b>officium</b> dicitur et perfectum <br> <small> Cic.Off.1.8 <br> Pois um dever é dito médio e outro, perfeito. <small> [JDD] </small> </small> </p>
+; <p> extendamus uitam huius et <b>officium</b> et argumentum actus est <br> <small> Sen.Ep.122.3 <br> Prolonguemos a vida: seu dever e sua prova é a ação. <small> [JDD] </small> </small> </p>
+; <p> Nicanor in <b>officio</b> est et a me liberaliter tractatur <br> <small> Cic.Att.5.20.9 <br> Nicanor está em seu dever e é tratado com cortesia por mim. <small> [JDD] </small> </small> </p>
+; <p> nihil est enim remuneratione beneuolentiae nihil uicissitudine studiorum <b>officiorum</b>que iucundius <br> <small> Cic.Amici.49 <br> Pois nada é mais prazeroso do que a recompensa da benevolência, nada do que a reciprocidade dos cuidados e dos serviços. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quod quidem ita esse et avunculum tuum functum esse <b>officio</b> vehementissime probo <br> <small> Cic.Att.3.20.1 <br> Que isso seja de fato assim e que teu tio tenha cumprido o seu dever eu aprovo com a maior veemência. <small> [JDD] </small> </small> </p>
+; <p> quis est enim qui nullis <b>officii</b> praeceptis tradendis philosophum se audeat dicere <br> <small> Cic.Off.1.5 <br> Pois quem é que, não transmitindo nenhuns preceitos do dever, ousa se dizer filósofo? <small> [JDD] </small> </small> </p>
+; <p> accedunt eodem multa priuata magna eius in me merita mea quaedam <b>officia</b> in illum <br> <small> Cic.Phil.13.7.11 <br> Acrescentam-se a isso muitos e grandes favores particulares dele para comigo e alguns serviços meus para com ele. <small> [JDD] </small> </small> </p>
+; <p> at multi ita sunt imbecilli senes ut nullum <b>offici</b> aut omnino uitae munus exsequi possint <br> <small> Cic.Sen.35 <br> Mas muitos velhos são tão fracos que não podem realizar nenhuma função do dever ou geralmente da vida. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Verum inquis tanti non est ingenium tuum , Momentum ut horae pereat <b>officiis</b> meis . <br> <small> Phaed.3.pr <br> “Mas”, dizes, “o teu talento não vale tanto assim, para que se perca um instante de minhas obrigações”. <small> [JDD] </small> </small> </p>
+; <p> qui suum timorem in rei frumentariae simulationem angustiasque itineris conferrent facere arroganter cum aut de <b>officio</b> imperatoris desperarent aut praescribere auderent <br> <small> Caes.Gal.1.40.10 <br> Que aqueles que reduziam seu medo ao falso pretexto do abstecimento de trigo e aos desfiladeiros do caminho agiam com arrogância, pois ou mostravam falta de confiança na capacidade do general ou ousavam dar-lhe lições. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx111-102-102-105-99-105-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 6.87 and an absolute frequency of 2. The Phaedrus subcorpus follows, with a normalized frequency of 6.07 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 8 ; absolute frequency: 3.0213762368759. subcorpus: Cicero ; normalized frequency: 81 ; absolute frequency: 5.04597443372954. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 4 ; absolute frequency: 6.0725671777744. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 18 ; absolute frequency: 3.35939978723801. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx111-102-102-105-99-105-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 7.74 and an absolute frequency of 47. The Poesia.lírica subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 12 ; absolute frequency: 2.92120061345213. subcorpus: Prosa.filosófica ; normalized frequency: 47 ; absolute frequency: 7.74287079290292. subcorpus: Prosa.oratória ; normalized frequency: 38 ; absolute frequency: 3.64847868040287. subcorpus: Prosa.epistolográfica ; normalized frequency: 12 ; absolute frequency: 3.1797344921699. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx111-102-102-105-99-105-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The I.a.C. subcorpus follows, with a normalized frequency of 4.28 and an absolute frequency of 92. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 92 ; absolute frequency: 4.28205724924366. subcorpus: I.d.C. ; normalized frequency: 23 ; absolute frequency: 3.51843353220132. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

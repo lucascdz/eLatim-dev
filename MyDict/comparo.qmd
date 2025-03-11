@@ -1,0 +1,209 @@
+---
+title: "comparo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-111-109-112-97-114-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>comparassit</b> <br> <small>= comparavèrit, fut. perf. e perf. do subj. de compàro 2.</small> <br> <small></small> 
+ <small>2.</small> <b>compărō</b> <b>-ás</b> <b>-áre</b> <b>-áví, -átum de cum e paro</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói-se com acus. com or. integrante com ut ou ne. ou intransitivamente.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Preparar, apresentar, aprontar, por em ordem &ensp; <small>Cíc. Dej. 22.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Estabelecer, dispor, regular &ensp; <small>Cés. B. Gal. 7, 8, 1.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Obter, adquirir, comprar &ensp; <small>Cés. B. Gal. 5, 55, 4.</small> <br> <b>4</b> &ensp; <small>II-Intr.</small> &ensp; preparar-se &ensp; <small>C. Nep. Thras. 2, 2.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Comparo</b> -<b>as</b> -<b>avi</b> -<b>atum</b> -<b>are</b>   <p> <b>2</b> &ensp; apparelhar, aprestar, preparar. <br> <b>3</b> &ensp; adquirir, alcançar. <br> <b>4</b> &ensp; <small>Liv.</small> &ensp; comprar, fazer provisão. <br> <b>5</b> &ensp; <small>Cic.</small> &ensp; estabelecer, ordenar, determinar. </p>
+
+
+
+
+#### Velez
+
+<b>comparo</b> -<b>as</b>   <p> <b>1</b> &ensp; ordenar, aparelhar, aprestar <br> <b>2</b> &ensp; maquinar, ou armar <br> <b>3</b> &ensp; <small>ponitur etiam pro Acquirere</small> &ensp; igualar, ou comparar </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>exercitum, copias, conuiuium comparare <br> <br><b>2</b><br>dolum, insidias, malum alicui comparare <br> <br><b>3</b><br>nullum oratorem Ciceroni comparare ausim, uel cum Cicerone, uel ad Ciceronem <br> <br><b>X</b><br>frumentum comparare &ensp; <small>comprar</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Comparo</b> -<b>as</b>   <p> <b>1</b> &ensp; ganhar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/97455 ' target="_blank"> http://lila-erc.eu/data/id/lemma/97455 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small> conparo <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> comparo, conparo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> comparare, conparare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> comparabit, conparabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> comparaui, conparaui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> comparatum, conparatum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> comparaturum, conparaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+compărō 
+ compărās 
+ compărāre 
+ compărāvī 
+ compărātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-111-109-112-97-114-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-111-109-112-97-114-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword comparo here are all the values plotted: collocate: exercitus; scoreSUBST: 3. collocate: magnus; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-111-109-112-97-114-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword comparo here are all the values plotted: collocate: exercitus; scoreADJ: 0. collocate: magnus; scoreADJ: 2. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-111-109-112-97-114-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword comparo here are all the values plotted: collocate: exercitus; scoreVERBO: 0. collocate: magnus; scoreVERBO: 0. collocate: sum; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-111-109-112-97-114-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword comparo here are all the values plotted: collocate: exercitus; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-111-109-112-97-114-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword comparo here are all the values plotted: collocate: exercitus; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> postquam haec familia illi <b>conparata</b> est coepit conuiuas suos inquietare <br> <small> Sen.Ep.27.6 <br> Depois que este grupo de escravos foi preparado, começou a importunar seus convidados. <small> [JDD] </small> </small> </p>
+; <p> itaque re frumentaria quam celerrime potuit <b>comparata</b> magnis itineribus ad Ariouistum contendit <br> <small> Caes.Gal.1.37.5 <br> E assim providenciada o mais rapidamente possível uma provisão de trigo, dirige-se a grandes marchas na direção de Ariovisto. <small> [JDD] </small> </small> </p>
+; <p> adiungendus est Q. Hortensius qui cum Macedoniam obtineret adiutorem se Bruto ad <b>comparandum</b> exercitum fidissimum et constantissimum praebuit <br> <small> Cic.Phil.10.24.4 <br> Deve ser acrescentado Quinto Hortênsio, que, quando governava a Macedônia, se mostrou a Bruto o apoiador mais fiel e mais firme para peparar um exército. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-111-109-112-97-114-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 4.15 and an absolute frequency of 11. The Phaedrus subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 11 ; absolute frequency: 4.15439232570436. subcorpus: Cicero ; normalized frequency: 36 ; absolute frequency: 2.24265530387979. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 5 ; absolute frequency: 0.933166607566115. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-111-109-112-97-114-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 3.41 and an absolute frequency of 14. The Prosa.filosófica subcorpus follows, with a normalized frequency of 1.15 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 14 ; absolute frequency: 3.40806738236082. subcorpus: Prosa.filosófica ; normalized frequency: 7 ; absolute frequency: 1.15319352234724. subcorpus: Prosa.oratória ; normalized frequency: 31 ; absolute frequency: 2.97639050243392. subcorpus: Prosa.epistolográfica ; normalized frequency: 3 ; absolute frequency: 0.794933623042476. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-111-109-112-97-114-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 2.33 and an absolute frequency of 50. The I.a.C. subcorpus follows, with a normalized frequency of 2.33 and an absolute frequency of 50. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 50 ; absolute frequency: 2.32720502676286. subcorpus: I.d.C. ; normalized frequency: 5 ; absolute frequency: 0.764876854826373. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,260 @@
+---
+title: "ille"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-108-108-101xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>illaec</b> <br> <small></small> <br> <small>v. illic.</small> 
+ <b>illanc</b> <br> <small>acus. sing. f. de illic Plaut. eis!. 123.</small> <br> <small></small> 
+ <b>ille</b> <b>illa, illud</b> <br> <small>pron. demonstr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Aquele, aquela, aquilo; ele, ela, o, a &ensp; <small>designando o que está mais longe com referência a quem fala Cíc. Verr. 4, 147.</small> <br> <b>2</b> &ensp; <small>II-Sent. poético</small> &ensp; Desde então: &ensp; <small></small> <br> <b>3</b> &ensp; <small>III-Empregos diversos:</small> &ensp; Famoso, célebre &ensp; <small>enfaticamente Cíc. De Or. 2, 58.</small> <br> <b>4</b> &ensp; <small>III-Empregos diversos:</small> &ensp; Ele &ensp; <small>interlocutor de um diálogo:</small> <br> <b>5</b> &ensp; <small>III-Empregos diversos:</small> &ensp; Tal, tais anunciando o que segue &ensp; <small>Cíc. Ac. 1, 22.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>ex illo Verg. En. 2, 169 «desde então». <br> <br><b>4</b><br>tum ille Cíc. De Oro 1, 45 «então ele». </p> 
+ <b>illi</b> <br> <small>dat. sing. m. f. e n. ou nom. pl. m. de ille, illa, illud.</small> <br> <small></small> 
+ <b>illīus</b> <br> <small>gen. sing. m. f. e n. de ille.</small> <br> <small></small> 
+ <b>illŭd</b> <br> <small>n. de ille.</small> <br> <small></small> 
+ <b>illunc</b> <br> <small></small> <br> <small>v. illic.</small> 
+ <b>olle</b> <br> <small>arc. = ille Verg. En. 1, 252.</small> <br> <small></small> 
+ <b>olli</b> <br> <small>dat. arc. de ille = illi.</small> <br> <small></small> 
+ <small>1.</small> <b>illic</b> <b>illaec, illuc</b> <br> <small>formas arcaicas = ille, illa, illud Plaut. Mil. 657.</small> <br> <small></small> 
+ <small>2.</small> <b>illa</b> <br> <small>nom. sing. f. e nom. acus. pl. n. de ille.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Ille</b> <b>illa</b> <b>illud</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; aquelle, aquella, aquillo. </p> 
+ <small>Cic. por Illis</small> <b>Ollis</b> 
+ <small>Plaut. por Illud</small> <b>Illuc</b> 
+ <small>Virg. por Illi</small> <b>Olli</b>
+
+
+
+
+#### Velez
+
+<b>Ille</b> <b>illa</b> <b>illud</b> <br> <small>Illic, vel Illhic, illaec, illuc, & c. pro Ille apud Comicos.</small>   <p> <b>1</b> &ensp; elle, aquelle; </p>
+
+
+
+
+#### Cardoso
+
+<b>Ille</b> -<b>a</b> <b>ud</b>   <p> <b>1</b> &ensp; aquelle </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/106221 ' target="_blank"> http://lila-erc.eu/data/id/lemma/106221 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> 1ª classe, pronominal (tema em -a/o-) <br>
+<small> outras grafias: </small> illece, illic, illicci, illici, olle <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+illă 
+ illĕ 
+ illŭd 
+ illī 
+ illĭc
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-108-108-101xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ille here are all the values plotted: collocate: qui; scoreSUBST: 0. collocate: quidem; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: cum; scoreSUBST: 0. collocate: at; scoreSUBST: 0. collocate: ab; scoreSUBST: 0. collocate: ad; scoreSUBST: 0. collocate: ipse; scoreSUBST: 0. collocate: si; scoreSUBST: 0. collocate: autem; scoreSUBST: 0. collocate: ex; scoreSUBST: 0. collocate: tempus; scoreSUBST: 2. collocate: dies; scoreSUBST: 2. collocate: etiam; scoreSUBST: 0. collocate: enim; scoreSUBST: 0. collocate: dico; scoreSUBST: 0. collocate: ne; scoreSUBST: 0. collocate: tamen; scoreSUBST: 0. collocate: aio; scoreSUBST: 0. collocate: idem; scoreSUBST: 0. collocate: uero; scoreSUBST: 0. collocate: noster; scoreSUBST: 0. collocate: tum; scoreSUBST: 0. collocate: et2; scoreSUBST: 0. collocate: ergo; scoreSUBST: 0. collocate: aetas; scoreSUBST: 2. collocate: quantus; scoreSUBST: 0. collocate: scio; scoreSUBST: 0. collocate: nox; scoreSUBST: 2. collocate: rex; scoreSUBST: 2. collocate: uerus; scoreSUBST: 0. collocate: quisquis; scoreSUBST: 0. collocate: beatus; scoreSUBST: 0. collocate: sicut; scoreSUBST: 0. collocate: obuius; scoreSUBST: 0. collocate: lentus; scoreSUBST: 0. collocate: respondeo; scoreSUBST: 0. collocate: uetus; scoreSUBST: 0. collocate: demens; scoreSUBST: 0. collocate: abduco; scoreSUBST: 0. collocate: mereo; scoreSUBST: 0. collocate: obseruo; scoreSUBST: 0. collocate: praecipio; scoreSUBST: 0. collocate: pestis; scoreSUBST: 2. collocate: Epicurus; scoreSUBST: 0. collocate: contumelia; scoreSUBST: 1. collocate: exstinguo; scoreSUBST: 0. collocate: quando; scoreSUBST: 0. collocate: quamquam2; scoreSUBST: 0. collocate: Iuppiter; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-108-108-101xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ille here are all the values plotted: collocate: qui; scoreADJ: 0. collocate: quidem; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: at; scoreADJ: 0. collocate: ab; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: ipse; scoreADJ: 0. collocate: si; scoreADJ: 0. collocate: autem; scoreADJ: 0. collocate: ex; scoreADJ: 0. collocate: tempus; scoreADJ: 0. collocate: dies; scoreADJ: 0. collocate: etiam; scoreADJ: 0. collocate: enim; scoreADJ: 0. collocate: dico; scoreADJ: 0. collocate: ne; scoreADJ: 0. collocate: tamen; scoreADJ: 0. collocate: aio; scoreADJ: 0. collocate: idem; scoreADJ: 0. collocate: uero; scoreADJ: 0. collocate: noster; scoreADJ: 0. collocate: tum; scoreADJ: 0. collocate: et2; scoreADJ: 0. collocate: ergo; scoreADJ: 0. collocate: aetas; scoreADJ: 0. collocate: quantus; scoreADJ: 0. collocate: scio; scoreADJ: 0. collocate: nox; scoreADJ: 0. collocate: rex; scoreADJ: 0. collocate: uerus; scoreADJ: 2. collocate: quisquis; scoreADJ: 0. collocate: beatus; scoreADJ: 2. collocate: sicut; scoreADJ: 0. collocate: obuius; scoreADJ: 2. collocate: lentus; scoreADJ: 2. collocate: respondeo; scoreADJ: 0. collocate: uetus; scoreADJ: 2. collocate: demens; scoreADJ: 2. collocate: abduco; scoreADJ: 0. collocate: mereo; scoreADJ: 0. collocate: obseruo; scoreADJ: 0. collocate: praecipio; scoreADJ: 0. collocate: pestis; scoreADJ: 0. collocate: Epicurus; scoreADJ: 0. collocate: contumelia; scoreADJ: 0. collocate: exstinguo; scoreADJ: 0. collocate: quando; scoreADJ: 0. collocate: quamquam2; scoreADJ: 0. collocate: Iuppiter; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-108-108-101xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ille here are all the values plotted: collocate: qui; scoreVERBO: 0. collocate: quidem; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: cum; scoreVERBO: 0. collocate: at; scoreVERBO: 0. collocate: ab; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: ipse; scoreVERBO: 0. collocate: si; scoreVERBO: 0. collocate: autem; scoreVERBO: 0. collocate: ex; scoreVERBO: 0. collocate: tempus; scoreVERBO: 0. collocate: dies; scoreVERBO: 0. collocate: etiam; scoreVERBO: 0. collocate: enim; scoreVERBO: 0. collocate: dico; scoreVERBO: 2. collocate: ne; scoreVERBO: 0. collocate: tamen; scoreVERBO: 0. collocate: aio; scoreVERBO: 3. collocate: idem; scoreVERBO: 0. collocate: uero; scoreVERBO: 0. collocate: noster; scoreVERBO: 0. collocate: tum; scoreVERBO: 0. collocate: et2; scoreVERBO: 0. collocate: ergo; scoreVERBO: 0. collocate: aetas; scoreVERBO: 0. collocate: quantus; scoreVERBO: 0. collocate: scio; scoreVERBO: 1. collocate: nox; scoreVERBO: 0. collocate: rex; scoreVERBO: 0. collocate: uerus; scoreVERBO: 0. collocate: quisquis; scoreVERBO: 0. collocate: beatus; scoreVERBO: 0. collocate: sicut; scoreVERBO: 0. collocate: obuius; scoreVERBO: 0. collocate: lentus; scoreVERBO: 0. collocate: respondeo; scoreVERBO: 2. collocate: uetus; scoreVERBO: 0. collocate: demens; scoreVERBO: 0. collocate: abduco; scoreVERBO: 2. collocate: mereo; scoreVERBO: 2. collocate: obseruo; scoreVERBO: 2. collocate: praecipio; scoreVERBO: 2. collocate: pestis; scoreVERBO: 0. collocate: Epicurus; scoreVERBO: 0. collocate: contumelia; scoreVERBO: 0. collocate: exstinguo; scoreVERBO: 1. collocate: quando; scoreVERBO: 0. collocate: quamquam2; scoreVERBO: 0. collocate: Iuppiter; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-108-108-101xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ille here are all the values plotted: collocate: qui; scoreADV: 0. collocate: quidem; scoreADV: 4. collocate: in; scoreADV: 0. collocate: cum; scoreADV: 0. collocate: at; scoreADV: 0. collocate: ab; scoreADV: 0. collocate: ad; scoreADV: 0. collocate: ipse; scoreADV: 0. collocate: si; scoreADV: 0. collocate: autem; scoreADV: 0. collocate: ex; scoreADV: 0. collocate: tempus; scoreADV: 0. collocate: dies; scoreADV: 0. collocate: etiam; scoreADV: 2. collocate: enim; scoreADV: 2. collocate: dico; scoreADV: 0. collocate: ne; scoreADV: 0. collocate: tamen; scoreADV: 2. collocate: aio; scoreADV: 0. collocate: idem; scoreADV: 0. collocate: uero; scoreADV: 2. collocate: noster; scoreADV: 0. collocate: tum; scoreADV: 2. collocate: et2; scoreADV: 2. collocate: ergo; scoreADV: 0. collocate: aetas; scoreADV: 0. collocate: quantus; scoreADV: 0. collocate: scio; scoreADV: 0. collocate: nox; scoreADV: 0. collocate: rex; scoreADV: 0. collocate: uerus; scoreADV: 0. collocate: quisquis; scoreADV: 0. collocate: beatus; scoreADV: 0. collocate: sicut; scoreADV: 0. collocate: obuius; scoreADV: 0. collocate: lentus; scoreADV: 0. collocate: respondeo; scoreADV: 0. collocate: uetus; scoreADV: 0. collocate: demens; scoreADV: 0. collocate: abduco; scoreADV: 0. collocate: mereo; scoreADV: 0. collocate: obseruo; scoreADV: 0. collocate: praecipio; scoreADV: 0. collocate: pestis; scoreADV: 0. collocate: Epicurus; scoreADV: 0. collocate: contumelia; scoreADV: 0. collocate: exstinguo; scoreADV: 0. collocate: quando; scoreADV: 1. collocate: quamquam2; scoreADV: 1. collocate: Iuppiter; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-108-108-101xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ille here are all the values plotted: collocate: qui; scoreFUNC: 0. collocate: quidem; scoreFUNC: 0. collocate: in; scoreFUNC: 20. collocate: cum; scoreFUNC: 20. collocate: at; scoreFUNC: 0. collocate: ab; scoreFUNC: 20. collocate: ad; scoreFUNC: 20. collocate: ipse; scoreFUNC: 0. collocate: si; scoreFUNC: 20. collocate: autem; scoreFUNC: 0. collocate: ex; scoreFUNC: 20. collocate: tempus; scoreFUNC: 0. collocate: dies; scoreFUNC: 0. collocate: etiam; scoreFUNC: 0. collocate: enim; scoreFUNC: 0. collocate: dico; scoreFUNC: 0. collocate: ne; scoreFUNC: 20. collocate: tamen; scoreFUNC: 0. collocate: aio; scoreFUNC: 0. collocate: idem; scoreFUNC: 0. collocate: uero; scoreFUNC: 0. collocate: noster; scoreFUNC: 0. collocate: tum; scoreFUNC: 0. collocate: et2; scoreFUNC: 0. collocate: ergo; scoreFUNC: 0. collocate: aetas; scoreFUNC: 0. collocate: quantus; scoreFUNC: 0. collocate: scio; scoreFUNC: 0. collocate: nox; scoreFUNC: 0. collocate: rex; scoreFUNC: 0. collocate: uerus; scoreFUNC: 0. collocate: quisquis; scoreFUNC: 0. collocate: beatus; scoreFUNC: 0. collocate: sicut; scoreFUNC: 20. collocate: obuius; scoreFUNC: 0. collocate: lentus; scoreFUNC: 0. collocate: respondeo; scoreFUNC: 0. collocate: uetus; scoreFUNC: 0. collocate: demens; scoreFUNC: 0. collocate: abduco; scoreFUNC: 0. collocate: mereo; scoreFUNC: 0. collocate: obseruo; scoreFUNC: 0. collocate: praecipio; scoreFUNC: 0. collocate: pestis; scoreFUNC: 0. collocate: Epicurus; scoreFUNC: 0. collocate: contumelia; scoreFUNC: 0. collocate: exstinguo; scoreFUNC: 0. collocate: quando; scoreFUNC: 0. collocate: quamquam2; scoreFUNC: 0. collocate: Iuppiter; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Respondit <b>ille</b> : <br> <small> Phaed.1.22 <br> Respondeu aquele. <small> [JDD] </small> </small> </p>
+; <p> <b>ille</b> demens ruere <br> <small> Cic.Att.4.3.2 <br> Ele antes se lançava enlouquecido. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>ille</b> sic dies <br> <small> Cic.Att.5.1.3 <br> Assim aquele dia. <small> [JDD] </small> </small> </p>
+; <p> et ait <b>illis</b> <br> <small> Vulg.Marc.1.38 <br> E ele lhes disse. <small> [JDD] </small> </small> </p>
+; <p> et tamen <b>illud</b> probem <br> <small> Cic.Att.2.14.2 <br> E, no entanto, muito bom aquele <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>ille</b> uero non patitur <br> <small> Sen.Prov.6.1 <br> Ele, na verdade, não consente. <small> [JDD] </small> </small> </p>
+; <p> sed redeo ad <b>illud</b> <br> <small> Cic.Att.5.2.3 <br> Mas volto àquilo. <small> [JDD] </small> </small> </p>
+; <p> malam quidem <b>illi</b> pestem <br> <small> Cic.Phil.6.12.8 <br> Que a má peste o carregue! <small> [JDD] </small> </small> </p>
+; <p> At <b>ille</b> lentus : inquit <br> <small> Phaed.1.15 <br> Mas aquele, tranquilo. <small> [JDD] </small> </small> </p>
+; <p> <b>Illi</b> dixerunt bovem . esse <br> <small> Phaed.1.24 <br> Eles disseram o boi. <small> [JDD] </small> </small> </p>
+; <p> o <b>illud</b> verum ἔρδοι τις <br> <small> Cic.Att.5.10.3 <br> Ó que verdade aquilo de “faça cada qual...”! <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quomodo ergo ad <b>illam</b> accedit <br> <small> Sen.Ep.9.12 <br> “Como então chega a ela?” <small> [JDD] </small> </small> </p>
+; <p> <b>illa</b> omnia in Tusculanum deportabo <br> <small> Cic.Att.1.4.3 <br> Vou transportá-las todas para a chácara de Túsculo. <small> [JDD] </small> </small> </p>
+; <p> Repulsus <b>ille</b> veritatis viribus : ait <br> <small> Phaed.1.1 <br> Repelido pela força da verdade, diz aquele. <small> [JDD] </small> </small> </p>
+; <p> <b>illa</b> hoc unum iubet sitim extingui <br> <small> Sen.Ep.119.3 <br> Ela só exige isto, matar a sede. <small> [JDD] </small> </small> </p>
+; <p> abiit <b>illud</b> tempus mutata ratio est <br> <small> Cic.Mur.7 <br> Foi-se aquele tempo; a situação está mudada. <small> [JDD] </small> </small> </p>
+; <p> <b>ille</b> autem Regis hereditatem spe devorarat <br> <small> Cic.Att.1.16.10 <br> (Ele tinha consumido a herança de Rei, na esperança [de recebê-la]. <small> [JDD] </small> </small> </p>
+; <p> abduc <b>illum</b> a priuata causa ad publicam <br> <small> Sen.Ep.24.16 <br> Leva-o de tua causa privada para uma causa pública. <small> [JDD] </small> </small> </p>
+; <p> eodem modo dicendum est diuitiae <b>illum</b> tenent <br> <small> Sen.Ep.119.12 <br> do mesmo modo deve se dizer “a riqueza se apoderou dele”. <small> [JDD] </small> </small> </p>
+; <p> valet autem auctoritas eius apud <b>illum</b> plurimum <br> <small> Cic.Att.5.11.3 <br> a autoridade deste vale muitíssimo junto a ele. <small> [JDD] </small> </small> </p>
+; <p> sic <b>illi</b> tum inanes ad Antiochum reuertuntur <br> <small> Cic.Ver.2.4.65.20 <br> Assim eles então voltam de mãos vazias para junto de Antíoco <small> [JDD] </small> </small> </p>
+; <p> quam dissimilis hic dies <b>illi</b> tempori uidebatur <br> <small> Cic.Ver.2.4.77.11 <br> Quão diferente lhes parecia este dia daquele momento! <small> [JDD] </small> </small> </p>
+; <p> isto enim nomine <b>illa</b> adhuc causa caruit <br> <small> Cic.Lig.17 <br> Pois tal causa não teve até agora esse nome. <small> [JDD] </small> </small> </p>
+; <p> non enim dicentur tantum <b>illa</b> sed probabuntur <br> <small> Sen.Ep.20.9 <br> pois aquelas coisas não só serão ditas, mas serão provadas.” <small> [JDD] </small> </small> </p>
+; <p> hoc Curio ad patrem detulit <b>ille</b> ad Pompeium <br> <small> Cic.Att.2.24.2 <br> Curião denunciou isto ao pai, este a Pompeu. <small> [JDD] </small> </small> </p>
+; <p> Ita caput ad nostrum furor <b>illorum</b> pertinet . <br> <small> Phaed.1.30 <br> Assim o furor deles tem a ver com a nossa cabeça.” <small> [JDD] </small> </small> </p>
+; <p> nam de ipso casu nescio an <b>illud</b> melius <br> <small> Cic.Att.4.8A.2 <br> Pois a respeito do caso em si, não sei se aquilo foi melhor. <small> [JDD] </small> </small> </p>
+; <p> prouinciam suam hanc esse Galliam sicut <b>illam</b> nostram <br> <small> Caes.Gal.1.44.8 <br> Que esta Gália era província sua, assim como aquela era nossa. <small> [JDD] </small> </small> </p>
+; <p> <b>illa</b> uero non est paupertas si laeta est <br> <small> Sen.Ep.2.6 <br> Na verdade, não é pobreza, se ela é feliz. <small> [JDD] </small> </small> </p>
+; <p> Unde <b>illa</b> scivit niger an albus nascerer ? <br> <small> Phaed.3.15 <br> De onde ela soube se eu nasceria negro ou branco? <small> [JDD] </small> </small> </p>
+; <p> proximos <b>illi</b> tamen occupauit Pallas honores proeliis audax <br> <small> Hor.Carm.1.12.19 <br> Contudo, teve as honras mais próximas a ele Palas, audaz nos combates. <small> [JDD] </small> </small> </p>
+; <p> hoc <b>illius</b> munus in tua diligentia positum est <br> <small> Cic.Att.2.1.12 <br> Esse presente dele foi colocado aos teus cuidados. <small> [JDD] </small> </small> </p>
+; <p> et observabant eum si sabbatis curaret ut accusarent <b>illum</b> <br> <small> Vulg.Marc.3.2 <br> E observavam-no se ele curaria no sábado a fim de acusá-lo. <small> [JDD] </small> </small> </p>
+; <p> quomodo ergo <b>illud</b> bonum est cum haec non sint <br> <small> Sen.Ep.118.13 <br> De que modo, então, aquele é um bem quando estas não são? <small> [JDD] </small> </small> </p>
+; <p> loco <b>ille</b> motus est cum est ex urbe depulsus <br> <small> Cic.Catil.2.1.11 <br> Ele foi desalojado de sua posição, quando foi expulso da cidade. <small> [JDD] </small> </small> </p>
+; <p> Contempsit <b>illa</b> , tuta quippe ipso loco . erat <br> <small> Phaed.1.28 <br> Aquela desdenhou, segura certamente em seu próprio local. <small> [JDD] </small> </small> </p>
+; <p> utebamur enim <b>illis</b> non quia debebamus sed quia habebamus <br> <small> Sen.Ep.123.6 <br> pois as usávamos não porque devíamos, mas porque as tínhamos. <small> [JDD] </small> </small> </p>
+; <p> debemus itaque exerceri ne haec timeamus ne <b>illa</b> cupiamus <br> <small> Sen.Ep.123.13 <br> Devemos, por isso, exercitar-nos para que não temamos estas, para que não cobicemos aquelas. <small> [JDD] </small> </small> </p>
+; <p> cum <b>illis</b> tamen cum salvi venerint Romae vivere licebit <br> <small> Cic.Att.4.15.2 <br> Te será permitido, contudo, viver com eles em Roma, quando chegarem sãos e salvos. <small> [JDD] </small> </small> </p>
+; <p> uidete nunc <b>illum</b> primum egredientem e uilla subito cur <br> <small> Cic.Mil.54 <br> Vede agora aquele, primeiramente saindo repentinamente da chácara: por quê? <small> [JDD] </small> </small> </p>
+; <p> respondent <b>illae</b> praetoris in eo loco seruos esse uisos <br> <small> Cic.Ver.2.4.100.11 <br> Elas respondem que tinham sido vistos escravos do pretor nesse local. <small> [JDD] </small> </small> </p>
+; <p> magna pax Antonio cum eis his item cum <b>illo</b> <br> <small> Cic.Phil.7.23.9 <br> Grande paz de Antônio com eles e igualmente deles com ele. <small> [JDD] </small> </small> </p>
+; <p> refice <b>illum</b> et mitte in senatum eandem sententiam dicet <br> <small> Sen.Prov.3.9 <br> Reanima-o e manda-o ao senado: dirá a mesma opinião. <small> [JDD] </small> </small> </p>
+; <p> quanto <b>ille</b> plura miscebat tanto hic magis in dies conualescebat <br> <small> Cic.Mil.25 <br> Quanto mais coisas ele [Clódio] agitava, mais este [Milão] se fortalecia a cada dia. <small> [JDD] </small> </small> </p>
+; <p> <b>ille</b> prudens atque artifex pro tempore quaeque repellet aut eliget <br> <small> Sen.Ep.31.6 <br> O sábio prudente e hábil, conforme o tempo, vai repelir ou eleger cada uma dessas coisas. <small> [JDD] </small> </small> </p>
+; <p> neque uero <b>illum</b> similiter atque ipse eram commotum esse uidi <br> <small> Cic.Phil.1.9.8 <br> E, na verdade, não o vi abalado como eu próprio estava. <small> [JDD] </small> </small> </p>
+; <p> nec <b>ille</b> armis solum sed etiam decretis nostris urgendus est <br> <small> Cic.Phil.3.32.7 <br> Ele deve ser perseguido não só com as armas, mas também com nossos decretos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> flagrabant uitia libidinis apud <b>illum</b> uigebant etiam studia rei militaris <br> <small> Cic.Cael.12 <br> Ardiam nele os vícios do prazer libidinoso; florescia também o gosto pelos assuntos militares. <small> [JDD] </small> </small> </p>
+; <p> <b>ille</b> autem non simulat sed plane tribunus plebis fieri cupit <br> <small> Cic.Att.2.1.5 <br> Já aquele não disfarça, mas revela abertamente o desejo de se tornar tribuno da plebe. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>illi</b> inquam urbi fortissime conanti e manibus est ereptus Antonius <br> <small> Cic.Phil.12.7.16 <br> Das mãos daquela, eu digo, daquela cidade que com muita valentia tentava, Antônio foi resgatado. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-108-108-101xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 238.15 and an absolute frequency of 106. The Seneca subcorpus follows, with a normalized frequency of 126.16 and an absolute frequency of 676. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 11.03 and an absolute freqeuncy of 1. here are all the values: subcorpus: Caesar ; normalized frequency: 57 ; absolute frequency: 21.5273056877408. subcorpus: Cicero ; normalized frequency: 1592 ; absolute frequency: 99.1752012160175. subcorpus: Horatius ; normalized frequency: 66 ; absolute frequency: 58.6093597371459. subcorpus: Ovidius ; normalized frequency: 49 ; absolute frequency: 84.0768702814001. subcorpus: Phaedrus ; normalized frequency: 73 ; absolute frequency: 110.824350994383. subcorpus: Sallustius ; normalized frequency: 78 ; absolute frequency: 72.3495037566089. subcorpus: Seneca ; normalized frequency: 676 ; absolute frequency: 126.164125342939. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 6 ; absolute frequency: 20.5973223480947. subcorpus: Vergilius ; normalized frequency: 29 ; absolute frequency: 55.984555984556. subcorpus: Hieronymus ; normalized frequency: 106 ; absolute frequency: 238.148730622332'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-108-108-101xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 238.15 and an absolute frequency of 106. The Prosa.filosófica subcorpus follows, with a normalized frequency of 124.05 and an absolute frequency of 753. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 34.57 and an absolute freqeuncy of 142. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 142 ; absolute frequency: 34.5675405925169. subcorpus: Prosa.filosófica ; normalized frequency: 753 ; absolute frequency: 124.050674618211. subcorpus: Prosa.oratória ; normalized frequency: 1097 ; absolute frequency: 105.32581874742. subcorpus: Prosa.epistolográfica ; normalized frequency: 365 ; absolute frequency: 96.7169241368346. subcorpus: Poesia.lírica ; normalized frequency: 70 ; absolute frequency: 58.8878606881467. subcorpus: Poesia.didática ; normalized frequency: 118 ; absolute frequency: 100.093307320383. subcorpus: Poesia.trágica ; normalized frequency: 53 ; absolute frequency: 46.0389159138291. subcorpus: Poesia.épica ; normalized frequency: 29 ; absolute frequency: 55.984555984556. subcorpus: Prosa.ficcional ; normalized frequency: 106 ; absolute frequency: 238.148730622332'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-108-108-101xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 238.15 and an absolute frequency of 106. The I.d.C. subcorpus follows, with a normalized frequency of 121.46 and an absolute frequency of 794. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 18.32 and an absolute freqeuncy of 7. here are all the values: subcorpus: I.a.C. ; normalized frequency: 1826 ; absolute frequency: 84.9895275773796. subcorpus: I.d.C. ; normalized frequency: 794 ; absolute frequency: 121.462444546428. subcorpus: II.d.C. ; normalized frequency: 7 ; absolute frequency: 18.3246073298429. subcorpus: IV.d.C. ; normalized frequency: 106 ; absolute frequency: 238.148730622332'}
+
+
+:::
+

@@ -1,0 +1,226 @@
+---
+title: "uirtus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-105-114-116-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>virtūs</b> <b>-tútis</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. etimológico</small> &ensp; Força própria do vir, vigor &ensp; <small>Verg. En. 2 390.</small> <br> <b>2</b> &ensp; <small>II-Sent. próprio</small> &ensp; Valor, coragem &ensp; <small>Cés. B. Gal. 1, 1, 4.</small> <br> <b>3</b> &ensp; <small>II-Sent. próprio</small> &ensp; Energia, qualidades viris, vigor, mérito &ensp; <small>Cíc. Phil. 5, 1.</small> <br> <b>4</b> &ensp; <small>III-Sent moral:</small> &ensp; Virtude amor e prática do bem, mérito &ensp; <small>Cíc. Fin. 5, 38.</small> <br> <b>5</b> &ensp; <small>III-Daí:</small> &ensp; O mérito, o valor de alguma coisa ou alguém, as qualidades &ensp; <small>Cíc. Verr. 5, 181.</small> <br> <b>6</b> &ensp; <small>III-Daí:</small> &ensp; Virtude, perfeição moral &ensp; <small>Cíc. Lae. 20.</small> <br> <b>7</b> &ensp; <small>III-Daí:</small> &ensp; A Virtude &ensp; <small>deusa dos Romanos Cíc. Nat. 2. 61.</small> <br> <b>8</b> &ensp; <small>IV-Sent figurado:</small> &ensp; Mérito, valor &ensp; <small>Cíc. Leg. 1, 45.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Virtus</b> -<b>utis</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; virtude. <br> <b>2</b> &ensp; fortaleza, valentia. <br> <b>3</b> &ensp; propriedade, perfeiçaõ do homem tanto no corpo, como no animo. </p>
+
+
+
+
+#### Velez
+
+<b>Virtus</b> -<b>utis</b>   <p> <b>1</b> &ensp; virtude, esforço, força, ou propriedade de qualquer cousa </p>
+
+
+
+
+#### Cardoso
+
+<b>Virtus</b> <b>virtutis</b>   <p> <b>1</b> &ensp; a virtude. ou valẽtia </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/130356 ' target="_blank"> http://lila-erc.eu/data/id/lemma/130356 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+virtūs 
+ virtūtis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx117-105-114-116-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-105-114-116-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword uirtus here are all the values plotted: collocate: suus; scoreSUBST: 0. collocate: singularis; scoreSUBST: 0. collocate: diuinus; scoreSUBST: 0. collocate: praesto; scoreSUBST: 0. collocate: pristinus; scoreSUBST: 0. collocate: fides; scoreSUBST: 2. collocate: legio; scoreSUBST: 2. collocate: supero; scoreSUBST: 0. collocate: incredibilis; scoreSUBST: 0. collocate: par; scoreSUBST: 0. collocate: memoria; scoreSUBST: 2. collocate: gloria; scoreSUBST: 2. collocate: atque; scoreSUBST: 0. collocate: grauitas; scoreSUBST: 2. collocate: uester; scoreSUBST: 0. collocate: propter; scoreSUBST: 0. collocate: tantus; scoreSUBST: 0. collocate: galli; scoreSUBST: 0. collocate: praemium; scoreSUBST: 2. collocate: opinio; scoreSUBST: 2. collocate: animus; scoreSUBST: 2. collocate: consilium; scoreSUBST: 2. collocate: fortuna; scoreSUBST: 2. collocate: ostendo; scoreSUBST: 0. collocate: ingenium; scoreSUBST: 2. collocate: tuus; scoreSUBST: 0. collocate: ciuis; scoreSUBST: 2. collocate: imperator; scoreSUBST: 2. collocate: eo; scoreSUBST: 0. collocate: miles; scoreSUBST: 2. collocate: et; scoreSUBST: 0. collocate: quisque; scoreSUBST: 0. collocate: superus; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-105-114-116-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword uirtus here are all the values plotted: collocate: suus; scoreADJ: 0. collocate: singularis; scoreADJ: 2. collocate: diuinus; scoreADJ: 2. collocate: praesto; scoreADJ: 0. collocate: pristinus; scoreADJ: 2. collocate: fides; scoreADJ: 0. collocate: legio; scoreADJ: 0. collocate: supero; scoreADJ: 0. collocate: incredibilis; scoreADJ: 2. collocate: par; scoreADJ: 2. collocate: memoria; scoreADJ: 0. collocate: gloria; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: grauitas; scoreADJ: 0. collocate: uester; scoreADJ: 0. collocate: propter; scoreADJ: 0. collocate: tantus; scoreADJ: 0. collocate: galli; scoreADJ: 2. collocate: praemium; scoreADJ: 0. collocate: opinio; scoreADJ: 0. collocate: animus; scoreADJ: 0. collocate: consilium; scoreADJ: 0. collocate: fortuna; scoreADJ: 0. collocate: ostendo; scoreADJ: 0. collocate: ingenium; scoreADJ: 0. collocate: tuus; scoreADJ: 0. collocate: ciuis; scoreADJ: 0. collocate: imperator; scoreADJ: 0. collocate: eo; scoreADJ: 0. collocate: miles; scoreADJ: 0. collocate: et; scoreADJ: 0. collocate: quisque; scoreADJ: 0. collocate: superus; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-105-114-116-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword uirtus here are all the values plotted: collocate: suus; scoreVERBO: 0. collocate: singularis; scoreVERBO: 0. collocate: diuinus; scoreVERBO: 0. collocate: praesto; scoreVERBO: 2. collocate: pristinus; scoreVERBO: 0. collocate: fides; scoreVERBO: 0. collocate: legio; scoreVERBO: 0. collocate: supero; scoreVERBO: 2. collocate: incredibilis; scoreVERBO: 0. collocate: par; scoreVERBO: 0. collocate: memoria; scoreVERBO: 0. collocate: gloria; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: grauitas; scoreVERBO: 0. collocate: uester; scoreVERBO: 0. collocate: propter; scoreVERBO: 0. collocate: tantus; scoreVERBO: 0. collocate: galli; scoreVERBO: 0. collocate: praemium; scoreVERBO: 0. collocate: opinio; scoreVERBO: 0. collocate: animus; scoreVERBO: 0. collocate: consilium; scoreVERBO: 0. collocate: fortuna; scoreVERBO: 0. collocate: ostendo; scoreVERBO: 2. collocate: ingenium; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0. collocate: ciuis; scoreVERBO: 0. collocate: imperator; scoreVERBO: 0. collocate: eo; scoreVERBO: 2. collocate: miles; scoreVERBO: 0. collocate: et; scoreVERBO: 0. collocate: quisque; scoreVERBO: 0. collocate: superus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-105-114-116-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword uirtus here are all the values plotted: collocate: suus; scoreADV: 0. collocate: singularis; scoreADV: 0. collocate: diuinus; scoreADV: 0. collocate: praesto; scoreADV: 0. collocate: pristinus; scoreADV: 0. collocate: fides; scoreADV: 0. collocate: legio; scoreADV: 0. collocate: supero; scoreADV: 0. collocate: incredibilis; scoreADV: 0. collocate: par; scoreADV: 0. collocate: memoria; scoreADV: 0. collocate: gloria; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: grauitas; scoreADV: 0. collocate: uester; scoreADV: 0. collocate: propter; scoreADV: 0. collocate: tantus; scoreADV: 0. collocate: galli; scoreADV: 0. collocate: praemium; scoreADV: 0. collocate: opinio; scoreADV: 0. collocate: animus; scoreADV: 0. collocate: consilium; scoreADV: 0. collocate: fortuna; scoreADV: 0. collocate: ostendo; scoreADV: 0. collocate: ingenium; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: ciuis; scoreADV: 0. collocate: imperator; scoreADV: 0. collocate: eo; scoreADV: 0. collocate: miles; scoreADV: 0. collocate: et; scoreADV: 0. collocate: quisque; scoreADV: 0. collocate: superus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-105-114-116-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword uirtus here are all the values plotted: collocate: suus; scoreFUNC: 0. collocate: singularis; scoreFUNC: 0. collocate: diuinus; scoreFUNC: 0. collocate: praesto; scoreFUNC: 0. collocate: pristinus; scoreFUNC: 0. collocate: fides; scoreFUNC: 0. collocate: legio; scoreFUNC: 0. collocate: supero; scoreFUNC: 0. collocate: incredibilis; scoreFUNC: 0. collocate: par; scoreFUNC: 0. collocate: memoria; scoreFUNC: 0. collocate: gloria; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: grauitas; scoreFUNC: 0. collocate: uester; scoreFUNC: 0. collocate: propter; scoreFUNC: 20. collocate: tantus; scoreFUNC: 0. collocate: galli; scoreFUNC: 0. collocate: praemium; scoreFUNC: 0. collocate: opinio; scoreFUNC: 0. collocate: animus; scoreFUNC: 0. collocate: consilium; scoreFUNC: 0. collocate: fortuna; scoreFUNC: 0. collocate: ostendo; scoreFUNC: 0. collocate: ingenium; scoreFUNC: 0. collocate: tuus; scoreFUNC: 0. collocate: ciuis; scoreFUNC: 0. collocate: imperator; scoreFUNC: 0. collocate: eo; scoreFUNC: 0. collocate: miles; scoreFUNC: 0. collocate: et; scoreFUNC: 0. collocate: quisque; scoreFUNC: 0. collocate: superus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> unum fides <b>uirtus</b>que consortem addidit <br> <small> Sen.Oed.781 <br> Só um a lealdade e o valor fizeram participar de sua sorte. <small> [JDD] </small> </small> </p>
+; <p> et propterea inoperantur <b>virtutes</b> in illo <br> <small> Vulg.Marc.6.14 <br> e, por causa disso, esses milagres operam nele. <small> [JDD] </small> </small> </p>
+; <p> tanta mihi μελέτη huius <b>virtutis</b> datur <br> <small> Cic.Att.5.10.3 <br> tamanha prática dessa virtude me é dada. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quo audacius adgredimini memores pristinae <b>uirtutis</b> <br> <small> Sal.Cat.58.12 <br> Por isso, atacai com mais audácia, lembrados de vosso antigo valor. <small> [JDD] </small> </small> </p>
+; <p> est haec diuina atque incredibilis <b>uirtus</b> imperatoris <br> <small> Cic.Man.36 <br> É este o divino e incrível valor desse general. <small> [JDD] </small> </small> </p>
+; <p> haec et eiusmodi facta imaginem nobis ostendere <b>uirtutis</b> <br> <small> Sen.Ep.120.8 <br> Estes e outros feitos desse tipo nos mostraram a imagem da virtude. <small> [JDD] </small> </small> </p>
+; <p> cum semel animum <b>uirtus</b> indurauit undique inuolnerabilem praestat <br> <small> Sen.Helv.13.2 <br> Uma vez que a virtude fortalece o espírito, o garante invulnerável por todos os lados. <small> [JDD] </small> </small> </p>
+; <p> hos subsecuti equites calonesque eodem impetu militum <b>uirtute</b> seruantur <br> <small> Caes.Gal.6.40.5 <br> Os criados e os cavaleiros, seguindo-os com o mesmo ímpeto, são salvos pela coragem dos soldados. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> unius autem diei quot et quantae <b>uirtutes</b> di immortales fuerunt <br> <small> Cic.Phil.14.25.8 <br> Por outro lado, quantos e quão grandes virtudes, deuses imortais, houve em um só dia! <small> [JDD] </small> </small> </p>
+; <p> aut cur de sua <b>uirtute</b> aut de ipsius diligentia desperarent <br> <small> Caes.Gal.1.40.4 <br> Ou por que deixavam de confiar em sua coragem ou na perícia dele? <small> [JDD] </small> </small> </p>
+; <p> huic Caesar legioni indulserat praecipue et propter <b>uirtutem</b> confidebat maxime <br> <small> Caes.Gal.1.40.15 <br> A esta legião César se dedicara especialmente e nela confiava muito mais em razão de sua bravura. <small> [JDD] </small> </small> </p>
+; <p> nec uero de <b>uirtute</b> constantia grauitate prouinciae Galliae taceri potest <br> <small> Cic.Phil.3.13.1 <br> E, na verdade, não é possível calar-se sobre o valor, a firmeza, a seriedade da província da Gália. <small> [JDD] </small> </small> </p>
+; <p> quid de <b>uirtute</b> eius dicam de magnitudine animi grauitate constantia <br> <small> Cic.Deiot.37 <br> O que vou dizer de seu valor, de sua grandeza de espírito, de sua seriedade, de sua contância? <small> [JDD] </small> </small> </p>
+; <p> humilis et inertis est tuta sectari per alta <b>uirtus</b> it <br> <small> Sen.Prov.5.11 <br> É próprio do humilde e do covarde perseguir a segurança: a virtude vai pelas alturas. <small> [JDD] </small> </small> </p>
+; <p> iam uero <b>uirtuti</b> Cn. Pompei quae potest oratio par inueniri <br> <small> Cic.Man.29 <br> Ora, que discurso pode ser encontrado equivalente ao valor de Cneu Pompeu? <small> [JDD] </small> </small> </p>
+; <p> desiderio tuo satis faciam et <b>uirtutes</b> exhortabor et uitia conuerberabo <br> <small> Sen.Ep.121.4 <br> Satisfarei o teu desejo: não só exortarei as virtudes, como também fustigarei os vícios. <small> [JDD] </small> </small> </p>
+; <p> ego autem non de <b>uirtute</b> nunc loquor sed de <b>uirtutis</b> opinione <br> <small> Cic.Amici.98 <br> Eu, porém, não falo agora da virtude, mas da opinião que se tem da virtude. <small> [JDD] </small> </small> </p>
+; <p> iurgia discordias simultates cum hostibus exercebant ciues cum ciuibus de <b>uirtute</b> certabant <br> <small> Sal.Cat.9.2 <br> Com os inimigos os cidadãos exerciam contendas, discórdias, rivalidades, com cidadãos disputavam acerca da virtude. <small> [JDD] </small> </small> </p>
+; <p> aetas eius certe ab hac sententia neminem deterrebit quando quidem <b>uirtute</b> superauit aetatem <br> <small> Cic.Phil.14.28.2 <br> Sua idade certamente não dissuadirá ninguém deste parecer, uma vez que, na verdade, ele superou pelo valor a sua idade. <small> [JDD] </small> </small> </p>
+; <p> sed nunc de studiis ad honorem appositis non de insita cuiusque <b>uirtute</b> disputo <br> <small> Cic.Mur.30 <br> Mas agora eu trato das atividades apropriadas para uma magistratura, não da virtude plantada em cada um. <small> [JDD] </small> </small> </p>
+; <p> animus aetas <b>uirtus</b> uostra me hortantur praeterea necessitudo quae etiam timidos fortis facit <br> <small> Sal.Cat.58.19 <br> Vosso ânimo, idade, valor me exortam, além disso a necessidade, que faz corajosos até mesmo os medrosos. <small> [JDD] </small> </small> </p>
+; <p> ita trium imperatorum <b>uirtute</b> consilio felicitate uno die locis pluribus res publica est conseruata <br> <small> Cic.Phil.14.28.11 <br> Assim, graças ao valor, decisão boa fortuna dos três generais, num único dia em muitos lugares a república foi salva. <small> [JDD] </small> </small> </p>
+; <p> ita eorum qui fecere <b>uirtus</b> tanta habetur quantum eam uerbis potuere extollere praeclara ingenia <br> <small> Sal.Cat.8.4 <br> Assim o valor dos que fizeram isso é considerado tão grande quanto os ilustres gênios puderam exaltá-lo com palavras. <small> [JDD] </small> </small> </p>
+; <p> <b>Virtutis</b> expers , verbis iactans gloriam , Ignotos fallit , notis est derisui . <br> <small> Phaed.1.11 <br> O desprovido de valor, quando alardeia com palavras sua glória, engana os desconhecidos; para os conhecidos, é motivo de zombaria. <small> [JDD] </small> </small> </p>
+; <p> magnus uir es sed unde scio si tibi fortuna non dat facultatem exhibendae <b>uirtutis</b> <br> <small> Sen.Prov.4.2 <br> És um grande homem? Mas como sei, se a fortuna não te dá oportunidade de exibir o teu valor? <small> [JDD] </small> </small> </p>
+; <p> sed memoria mea ingenti <b>uirtute</b> diuorsis moribus fuere uiri duo M. Cato et C. Caesar <br> <small> Sal.Cat.53.6 <br> Mas, em minha época, existiram dois homens de imenso valor e diferentes no caráter, Marco Catão e Caio César. <small> [JDD] </small> </small> </p>
+; <p> fuit in his prouinciis singulari innocentia grauitate <b>uirtute</b> bellum in Africa maximum confecit uictorem exercitum deportauit <br> <small> Cic.Man.61 <br> Ele foi nessas provínicas de uma integridade, seriedade, coragem singulares; pôs fim à imensa guerra na África, trouxe de volta o exército vitorioso. <small> [JDD] </small> </small> </p>
+; <p> ego enim sic existimo in summo imperatore quattuor has res inesse oportere scientiam rei militaris <b>uirtutem</b> auctoritatem felicitatem <br> <small> Cic.Man.28 <br> Pois eu estimo assim, que convém existir em um grande general estas quatro coisas, conhecimento do assunto militar, valor, autoridade e sorte. <small> [JDD] </small> </small> </p>
+; <p> qui sedulitatem mali poetae duxerit aliquo tamen praemio dignam huius ingenium et <b>uirtutem</b> in scribendo et copiam non expetisset <br> <small> Cic.Arch.25 <br> Quem julga o desvelo de um mau poeta como, todavia, digno de alguma recompensa, não teria procurado o talento, a força e a fecundidade em escrever deste homem? <small> [JDD] </small> </small> </p>
+; <p> ac fuit antea tempus cum Germanos Galli <b>uirtute</b> superarent ultro bella inferrent propter hominum multitudinem agrique inopiam trans Rhenum colonias mitterent <br> <small> Caes.Gal.6.24.1 <br> E anteriormente houve um tempo em que os gauleses superavam os germanos em valor, lhes faziam guerra e por causa do grande número de pessoas e da falta de terras enviavam colônias além do Reno. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-105-114-116-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 25.97 and an absolute frequency of 28. The Caesar subcorpus follows, with a normalized frequency of 15.86 and an absolute frequency of 42. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 42 ; absolute frequency: 15.8622252435985. subcorpus: Cicero ; normalized frequency: 250 ; absolute frequency: 15.5739951658319. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 4 ; absolute frequency: 6.0725671777744. subcorpus: Sallustius ; normalized frequency: 28 ; absolute frequency: 25.9716167331416. subcorpus: Seneca ; normalized frequency: 64 ; absolute frequency: 11.9445325768463. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 4 ; absolute frequency: 13.7315482320632. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-105-114-116-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 18.72 and an absolute frequency of 195. The Prosa.histórica subcorpus follows, with a normalized frequency of 18.01 and an absolute frequency of 74. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 1.74 and an absolute freqeuncy of 2. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 74 ; absolute frequency: 18.0140704496215. subcorpus: Prosa.filosófica ; normalized frequency: 107 ; absolute frequency: 17.6273866987364. subcorpus: Prosa.oratória ; normalized frequency: 195 ; absolute frequency: 18.7224563862779. subcorpus: Prosa.epistolográfica ; normalized frequency: 10 ; absolute frequency: 2.64977874347492. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-105-114-116-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 15.27 and an absolute frequency of 328. The I.d.C. subcorpus follows, with a normalized frequency of 10.4 and an absolute frequency of 68. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 8.99 and an absolute freqeuncy of 4. here are all the values: subcorpus: I.a.C. ; normalized frequency: 328 ; absolute frequency: 15.2664649755643. subcorpus: I.d.C. ; normalized frequency: 68 ; absolute frequency: 10.4023252256387. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+:::
+

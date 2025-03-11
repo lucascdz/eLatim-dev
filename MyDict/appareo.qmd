@@ -1,0 +1,212 @@
+---
+title: "appareo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-112-112-97-114-101-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>appārĕō</b> <b>-és</b> <b>-ére</b> <b>-parùí, -parìtum</b> <br> <b>adpārĕo</b> <b>-és</b> <b>-ére</b> <b>-parùí, -parìtum</b> <br> <small>v. intr.</small> <br> <small>Obs.: Constrói-se com dat., com acus. e com infinito. Com oração infinitiva é construção rara, que ocorre em Cícero Fm. 3, 23.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Apareeer, estar à vista, mostrar-se &ensp; <small>Cíc. At. 16, 2, 4.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Ser visível sent. físico e moral, ser evidente, estar claro &ensp; <small>Cíc. Caee. 76.</small> <br> <b>3</b> &ensp; <small>Impess.:</small> &ensp; É claro, é manifesto, é evidente &ensp; <small>Cíc. Mil. 54.</small> <br> <b>4</b> &ensp; <small></small> &ensp; Estar junto de alguma pessoa para servir. estar pronto para obedecer, estar a serviço de &ensp; <small>T. Lív. 2, 55, 3.</small> </p> 
+ <b>appārŭī</b> <br> <small>perf. de apparèo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Appareo</b> -<b>es</b> -<b>rui</b> -<b>ritum</b> -<b>rere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; apparecer. <br> <b>2</b> &ensp; ser evidente. <br> <b>3</b> &ensp; <small>Virg.</small> &ensp; estar prompto para obedecer. </p> 
+ <small>pret. de Appareo</small> <b>Apparui</b>
+
+
+
+
+#### Velez
+
+<b>Appareo</b> -<b>es</b>   <p> <b>1</b> &ensp; apparecer, mostrar-se, estar presente para executar officio </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>praetori apparent scribae, & apparitores &ensp; <small>os escrivães, e porteiros, ou ministros dos Magistrados</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Appareo</b> -<b>es</b> <b>ui</b> <b>itum</b>   <p> <b>1</b> &ensp; aparecer </p> 
+ <b>Appareo</b> -<b>es</b> <b>ui</b> <b>itum</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/89567 ' target="_blank"> http://lila-erc.eu/data/id/lemma/89567 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação (tema em -e-) <br>
+<small> outras grafias: </small> adpareo <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> adpareo, appareo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> adparere, apparere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> adparebit, apparebit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> adparui, apparui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> adparitum, apparitum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> adpariturum, appariturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+appārĕō 
+ appārēs 
+ appārēre 
+ appārŭī 
+ appārĭtum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-112-112-97-114-101-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-112-112-97-114-101-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword appareo here are all the values plotted: collocate: tunc; scoreSUBST: 0. collocate: quantus; scoreSUBST: 0. collocate: quod; scoreSUBST: 0. collocate: tu; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-112-112-97-114-101-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword appareo here are all the values plotted: collocate: tunc; scoreADJ: 0. collocate: quantus; scoreADJ: 0. collocate: quod; scoreADJ: 0. collocate: tu; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-112-112-97-114-101-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword appareo here are all the values plotted: collocate: tunc; scoreVERBO: 0. collocate: quantus; scoreVERBO: 0. collocate: quod; scoreVERBO: 0. collocate: tu; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-112-112-97-114-101-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword appareo here are all the values plotted: collocate: tunc; scoreADV: 2. collocate: quantus; scoreADV: 0. collocate: quod; scoreADV: 0. collocate: tu; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-112-112-97-114-101-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword appareo here are all the values plotted: collocate: tunc; scoreFUNC: 0. collocate: quantus; scoreFUNC: 0. collocate: quod; scoreFUNC: 20. collocate: tu; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>apparebit</b> enim tibi hanc quam timemus mortem extremam esse non solam <br> <small> Sen.Ep.24.21 <br> pois ficará claro para ti que esta morte que tememos é a última, não a única. <small> [JDD] </small> </small> </p>
+; <p> debeo hoc suburbano meo quod mihi senectus mea quocumque aduerteram <b>apparuit</b> <br> <small> Sen.Ep.12.4 <br> Devo isto à minha chácara, que minha velhice, para onde quer que me volte, se mostra evidente para mim. <small> [JDD] </small> </small> </p>
+; <p> est enim oratio etiam timidissimis audax quid egeris tunc <b>apparebit</b> cum animam ages <br> <small> Sen.Ep.26.6 <br> pois até o discurso dos mais tímidos é ousado. O que tiveres feito aparecerá então quando entregares a alma. <small> [JDD] </small> </small> </p>
+; <p> marcet sine aduersario uirtus tunc <b>apparet</b> quanta sit quantumque polleat cum quid possit patientia ostendit <br> <small> Sen.Prov.2.4 <br> A virtude murcha sem oponente; então se vê quão grande é e o quanto é poderosa, quando mostra de que é capaz com sua resistência. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-112-112-97-114-101-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 5.04 and an absolute frequency of 27. The Phaedrus subcorpus follows, with a normalized frequency of 3.04 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 13 ; absolute frequency: 0.809847748623259. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 27 ; absolute frequency: 5.03909968085702. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-112-112-97-114-101-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 5.11 and an absolute frequency of 31. The Poesia.trágica subcorpus follows, with a normalized frequency of 0.87 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.filosófica ; normalized frequency: 31 ; absolute frequency: 5.10699988468065. subcorpus: Prosa.oratória ; normalized frequency: 3 ; absolute frequency: 0.288037790558121. subcorpus: Prosa.epistolográfica ; normalized frequency: 5 ; absolute frequency: 1.32488937173746. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-112-112-97-114-101-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 4.44 and an absolute frequency of 29. The I.a.C. subcorpus follows, with a normalized frequency of 0.7 and an absolute frequency of 15. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 15 ; absolute frequency: 0.698161508028857. subcorpus: I.d.C. ; normalized frequency: 29 ; absolute frequency: 4.43628575799296. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

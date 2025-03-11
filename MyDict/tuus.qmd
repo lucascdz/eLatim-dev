@@ -1,0 +1,242 @@
+---
+title: "tuus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx116-117-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>tuus</b> <b>-a</b> <b>-um</b> <br> <small>pron. possessivo</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Teu, tua &ensp; <small>Plaut. Amph. 375.</small> <br> <b>2</b> &ensp; <small>II-Sent. particular</small> &ensp; Teu querido &ensp; <small>Cic. De Or. 1, 45.</small> <br> <b>3</b> &ensp; <small>III-Sents. diversos:-Tuí, -órum, m. pl.</small> &ensp; Os teus &ensp; <small>parentes, amigos, partidários Cíc. Fam. 13, 16, 3.</small> <br> <b>4</b> &ensp; <small>III-Sents. diversos:-Tuum, -í e tua, -órum, n. sing. e pl.:</small> &ensp; os teus bens, a tua fortuna &ensp; <small>Cíc. Tull. 53.</small> <br> <b>5</b> &ensp; <small>III-Sents. diversos:</small> &ensp; <small></small> <br> <b>6</b> &ensp; <small>III-Loc.</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>5</b><br>Tuum est mais inf.: cabe a ti ... Plaut. St. 718. <br> <br><b>6</b><br>tempore tuo, occasio tua, ‘ocasião oportuna para ti’ T. Lív. 22, 39, 21. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Tuus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; teu. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>tuum est &ensp; <small><small>Ter</small></small> &ensp; <small>Pertence-te, he tua obrigaçaõ</small> <br> tuum est &ensp; <small><small>Plaut</small></small> &ensp; <small>He teu costume</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/129328 ' target="_blank"> http://lila-erc.eu/data/id/lemma/129328 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> tuos, tuusmet, tuuspte <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+tŭus
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx116-117-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword tuus here are all the values plotted: collocate: littera; scoreSUBST: 4. collocate: epistula; scoreSUBST: 4. collocate: clementia; scoreSUBST: 3. collocate: animus; scoreSUBST: 2. collocate: fortuna; scoreSUBST: 2. collocate: iste; scoreSUBST: 0. collocate: amicus; scoreSUBST: 2. collocate: ego; scoreSUBST: 0. collocate: soror; scoreSUBST: 2. collocate: familiaris; scoreSUBST: 0. collocate: consilium; scoreSUBST: 2. collocate: pater; scoreSUBST: 2. collocate: patruus; scoreSUBST: 2. collocate: scelus; scoreSUBST: 2. collocate: auus; scoreSUBST: 2. collocate: uita; scoreSUBST: 2. collocate: pro; scoreSUBST: 0. collocate: uirtus; scoreSUBST: 1. collocate: corpus; scoreSUBST: 2. collocate: misericordia; scoreSUBST: 2. collocate: reditus; scoreSUBST: 2. collocate: hospes; scoreSUBST: 2. collocate: humanitas; scoreSUBST: 2. collocate: cogitatio; scoreSUBST: 2. collocate: aduentus; scoreSUBST: 2. collocate: mater; scoreSUBST: 2. collocate: dignus; scoreSUBST: 0. collocate: puer; scoreSUBST: 2. collocate: amor; scoreSUBST: 2. collocate: filius; scoreSUBST: 2. collocate: commendatio; scoreSUBST: 2. collocate: necessarius2; scoreSUBST: 2. collocate: liberalitas; scoreSUBST: 2. collocate: numen; scoreSUBST: 2. collocate: pudor; scoreSUBST: 2. collocate: gaudeo; scoreSUBST: 0. collocate: commoueo; scoreSUBST: 0. collocate: parens; scoreSUBST: 2. collocate: liberi; scoreSUBST: 2. collocate: negotium; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx116-117-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword tuus here are all the values plotted: collocate: littera; scoreADJ: 0. collocate: epistula; scoreADJ: 0. collocate: clementia; scoreADJ: 0. collocate: animus; scoreADJ: 0. collocate: fortuna; scoreADJ: 0. collocate: iste; scoreADJ: 0. collocate: amicus; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: soror; scoreADJ: 0. collocate: familiaris; scoreADJ: 2. collocate: consilium; scoreADJ: 0. collocate: pater; scoreADJ: 0. collocate: patruus; scoreADJ: 0. collocate: scelus; scoreADJ: 0. collocate: auus; scoreADJ: 0. collocate: uita; scoreADJ: 0. collocate: pro; scoreADJ: 0. collocate: uirtus; scoreADJ: 0. collocate: corpus; scoreADJ: 0. collocate: misericordia; scoreADJ: 0. collocate: reditus; scoreADJ: 0. collocate: hospes; scoreADJ: 0. collocate: humanitas; scoreADJ: 0. collocate: cogitatio; scoreADJ: 0. collocate: aduentus; scoreADJ: 0. collocate: mater; scoreADJ: 0. collocate: dignus; scoreADJ: 2. collocate: puer; scoreADJ: 0. collocate: amor; scoreADJ: 0. collocate: filius; scoreADJ: 0. collocate: commendatio; scoreADJ: 0. collocate: necessarius2; scoreADJ: 0. collocate: liberalitas; scoreADJ: 0. collocate: numen; scoreADJ: 0. collocate: pudor; scoreADJ: 0. collocate: gaudeo; scoreADJ: 0. collocate: commoueo; scoreADJ: 0. collocate: parens; scoreADJ: 0. collocate: liberi; scoreADJ: 0. collocate: negotium; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx116-117-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword tuus here are all the values plotted: collocate: littera; scoreVERBO: 0. collocate: epistula; scoreVERBO: 0. collocate: clementia; scoreVERBO: 0. collocate: animus; scoreVERBO: 0. collocate: fortuna; scoreVERBO: 0. collocate: iste; scoreVERBO: 0. collocate: amicus; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: soror; scoreVERBO: 0. collocate: familiaris; scoreVERBO: 0. collocate: consilium; scoreVERBO: 0. collocate: pater; scoreVERBO: 0. collocate: patruus; scoreVERBO: 0. collocate: scelus; scoreVERBO: 0. collocate: auus; scoreVERBO: 0. collocate: uita; scoreVERBO: 0. collocate: pro; scoreVERBO: 0. collocate: uirtus; scoreVERBO: 0. collocate: corpus; scoreVERBO: 0. collocate: misericordia; scoreVERBO: 0. collocate: reditus; scoreVERBO: 0. collocate: hospes; scoreVERBO: 0. collocate: humanitas; scoreVERBO: 0. collocate: cogitatio; scoreVERBO: 0. collocate: aduentus; scoreVERBO: 0. collocate: mater; scoreVERBO: 0. collocate: dignus; scoreVERBO: 0. collocate: puer; scoreVERBO: 0. collocate: amor; scoreVERBO: 0. collocate: filius; scoreVERBO: 0. collocate: commendatio; scoreVERBO: 0. collocate: necessarius2; scoreVERBO: 0. collocate: liberalitas; scoreVERBO: 0. collocate: numen; scoreVERBO: 0. collocate: pudor; scoreVERBO: 0. collocate: gaudeo; scoreVERBO: 2. collocate: commoueo; scoreVERBO: 2. collocate: parens; scoreVERBO: 0. collocate: liberi; scoreVERBO: 0. collocate: negotium; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx116-117-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword tuus here are all the values plotted: collocate: littera; scoreADV: 0. collocate: epistula; scoreADV: 0. collocate: clementia; scoreADV: 0. collocate: animus; scoreADV: 0. collocate: fortuna; scoreADV: 0. collocate: iste; scoreADV: 0. collocate: amicus; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: soror; scoreADV: 0. collocate: familiaris; scoreADV: 0. collocate: consilium; scoreADV: 0. collocate: pater; scoreADV: 0. collocate: patruus; scoreADV: 0. collocate: scelus; scoreADV: 0. collocate: auus; scoreADV: 0. collocate: uita; scoreADV: 0. collocate: pro; scoreADV: 0. collocate: uirtus; scoreADV: 0. collocate: corpus; scoreADV: 0. collocate: misericordia; scoreADV: 0. collocate: reditus; scoreADV: 0. collocate: hospes; scoreADV: 0. collocate: humanitas; scoreADV: 0. collocate: cogitatio; scoreADV: 0. collocate: aduentus; scoreADV: 0. collocate: mater; scoreADV: 0. collocate: dignus; scoreADV: 0. collocate: puer; scoreADV: 0. collocate: amor; scoreADV: 0. collocate: filius; scoreADV: 0. collocate: commendatio; scoreADV: 0. collocate: necessarius2; scoreADV: 0. collocate: liberalitas; scoreADV: 0. collocate: numen; scoreADV: 0. collocate: pudor; scoreADV: 0. collocate: gaudeo; scoreADV: 0. collocate: commoueo; scoreADV: 0. collocate: parens; scoreADV: 0. collocate: liberi; scoreADV: 0. collocate: negotium; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx116-117-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword tuus here are all the values plotted: collocate: littera; scoreFUNC: 0. collocate: epistula; scoreFUNC: 0. collocate: clementia; scoreFUNC: 0. collocate: animus; scoreFUNC: 0. collocate: fortuna; scoreFUNC: 0. collocate: iste; scoreFUNC: 0. collocate: amicus; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: soror; scoreFUNC: 0. collocate: familiaris; scoreFUNC: 0. collocate: consilium; scoreFUNC: 0. collocate: pater; scoreFUNC: 0. collocate: patruus; scoreFUNC: 0. collocate: scelus; scoreFUNC: 0. collocate: auus; scoreFUNC: 0. collocate: uita; scoreFUNC: 0. collocate: pro; scoreFUNC: 20. collocate: uirtus; scoreFUNC: 0. collocate: corpus; scoreFUNC: 0. collocate: misericordia; scoreFUNC: 0. collocate: reditus; scoreFUNC: 0. collocate: hospes; scoreFUNC: 0. collocate: humanitas; scoreFUNC: 0. collocate: cogitatio; scoreFUNC: 0. collocate: aduentus; scoreFUNC: 0. collocate: mater; scoreFUNC: 0. collocate: dignus; scoreFUNC: 0. collocate: puer; scoreFUNC: 0. collocate: amor; scoreFUNC: 0. collocate: filius; scoreFUNC: 0. collocate: commendatio; scoreFUNC: 0. collocate: necessarius2; scoreFUNC: 0. collocate: liberalitas; scoreFUNC: 0. collocate: numen; scoreFUNC: 0. collocate: pudor; scoreFUNC: 0. collocate: gaudeo; scoreFUNC: 0. collocate: commoueo; scoreFUNC: 0. collocate: parens; scoreFUNC: 0. collocate: liberi; scoreFUNC: 0. collocate: negotium; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> fortuna <b>tua</b> non uult <br> <small> Sen.Ep.19.8 <br> A tua fortuna não quer. <small> [JDD] </small> </small> </p>
+; <p> cognatus adfinis uiri <b>tui</b> familiaris <br> <small> Cic.Cael.34 <br> Era parente de sangue, por afinidade, amigo de teu marido? <small> [JDD] </small> </small> </p>
+; <p> accepi <b>tuas</b> tris iam epistulas <br> <small> Cic.Att.1.13.1 <br> Já recebi as três cartas tuas. <small> [JDD] </small> </small> </p>
+; <p> exulto quotiens epistulas <b>tuas</b> accipio <br> <small> Sen.Ep.19.1 <br> Dou pulos de alegria todas as vezes que recebo tuas cartas. <small> [JDD] </small> </small> </p>
+; <p> valde enim exspecto <b>tuas</b> litteras <br> <small> Cic.Att.2.5.3 <br> Pois espero muito as tuas cartas. <small> [JDD] </small> </small> </p>
+; <p> crebras exspectationes nobis <b>tui</b> commoves <br> <small> Cic.Att.1.4.1 <br> Me deixas abalado com as intermináveis esperas de ti. <small> [JDD] </small> </small> </p>
+; <p> utinam M. Antoni auum <b>tuum</b> meminisses <br> <small> Cic.Phil.1.34.2 <br> Quem dera, Marco Antônio, tivesses te lembrado de teu avô! <small> [JDD] </small> </small> </p>
+; <p> utinam valeat ad celeritatem reditus <b>tui</b> <br> <small> Cic.Att.4.16.7 <br> Oxalá isto que eu disse sirva somente para a rapidez de tua volta! <small> [JDD, de outra edição] </small> </small> </p>
+; <p> honora patrem <b>tuum</b> et matrem <b>tuam</b> <br> <small> Vulg.Marc.7.10 <br> Honra teu pai e tua mãe. <small> [JDD] </small> </small> </p>
+; <p> non est hic mater <b>tua</b> ; <br> <small> Phaed.3.15 <br> tua mãe não está aqui”. <small> [JDD] </small> </small> </p>
+; <p> quis iste est alter Agamemnon <b>tuus</b> <br> <small> Sen.Ag.962 <br> Quem é esse teu outro Agamenão? <small> [JDD] </small> </small> </p>
+; <p> <b>tuo</b> adventu nobis opus est maturo <br> <small> Cic.Att.1.2.2 <br> Faz-se necessária tua pronta chegada para mim.. <small> [JDD] </small> </small> </p>
+; <p> quam minimum sit in corpore <b>tuo</b> spoliorum <br> <small> Sen.Ep.14.9 <br> que haja em teu corpo o mínimo de despojos possível. <small> [JDD] </small> </small> </p>
+; <p> ut uidua loquere uir caret uita <b>tuus</b> <br> <small> Sen.Ag.963 <br> Fala como uma viúva: teu marido está sem vida. <small> [JDD] </small> </small> </p>
+; <p> quae <b>tua</b> mens oculi manus ardor animi <br> <small> Cic.Lig.9 <br> Qual tua mente, teus olhos, tuas mãos,o ardor de teu espírito? <small> [JDD] </small> </small> </p>
+; <p> nunc uero quae <b>tua</b> est ista uita <br> <small> Cic.Catil.1.16.4 <br> Mas agora, que vida é essa tua? <small> [JDD] </small> </small> </p>
+; <p> alteram quam mihi Canusinus <b>tuus</b> hospes reddidit <br> <small> Cic.Att.1.13.1 <br> a outra, que o teu hóspede de Canúsio me entregou. <small> [JDD] </small> </small> </p>
+; <p> ego sum Philositi uilici filius deliciolum <b>tuum</b> <br> <small> Sen.Ep.12.3 <br> eu sou filho do caseiro Filósito, sou o teu favorito”. <small> [JDD] </small> </small> </p>
+; <p> plus enim gaudebit <b>tua</b> morte quo plus acceperit <br> <small> Sen.Ep.123.11 <br> pois mais se alegrará com tua morte quanto mais receber. <small> [JDD] </small> </small> </p>
+; <p> isti laudatores <b>tui</b> ne ne testes mei sunt <br> <small> Cic.Ver.2.4.19.8 <br> Por acaso esses teus elogiadores não são minhas testemunhas? <small> [JDD] </small> </small> </p>
+; <p> metuis parentem quae <b>tuum</b> reditum expetens sollicita pendet <br> <small> Sen.Oed.795 <br> Temes tua mãe, que está ansiosa, esperando preocupada o teu retorno? <small> [JDD] </small> </small> </p>
+; <p> de <b>tuo</b> autem negotio saepe ad me scribis <br> <small> Cic.Att.1.19.9 <br> Me escreves com frequência sobre o teu assunto. <small> [JDD] </small> </small> </p>
+; <p> sed humanitatem <b>tuam</b> amoremque in <b>tuos</b> reditus celeritas declarabit <br> <small> Cic.Att.4.15.2 <br> Mas a rapidez de tua volta vai expressar tua humanidade e amor para com os teus. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> iustitia abstinentia clementia <b>tui</b> Ciceronis itaque opiniones omnium superavit <br> <small> Cic.Att.5.16.3 <br> graças à justiça, à moderação, à clemência de teu Cícero e assim ele superou as opiniões de todos. <small> [JDD] </small> </small> </p>
+; <p> valde eius sermo de Publio cum <b>tuis</b> litteris congruebat <br> <small> Cic.Att.2.8.1 <br> A conversa dele a respeito de Públio está perfeitamente de acordo com tuas cartas. <small> [JDD] </small> </small> </p>
+; <p> o suavis epistulas <b>tuas</b> uno tempore mihi datas duas <br> <small> Cic.Att.2.12.1 <br> Ó que agradáveis as duas cartas tuas entregues a mim ao  mesmo tempo! <small> [JDD] </small> </small> </p>
+; <p> mater <b>tua</b> et soror a me Quintoque fratre diligitur <br> <small> Cic.Att.1.8.1 <br> Tua mãe e tua irmã têm a minha estima e a do meu irmão Quinto. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ita dico quisquis uitam suam contempsit <b>tuae</b> dominus est <br> <small> Sen.Ep.4.8 <br> É o que digo: qualquer um que desprezou a própria vida é dono da tua. <small> [JDD] </small> </small> </p>
+; <p> non minus incerta in re publica quam in epistula <b>tua</b> <br> <small> Cic.Att.2.15.1 <br> que a situação não é menos incerta na república do em tua carta. <small> [JDD] </small> </small> </p>
+; <p> Numestium ex litteris <b>tuis</b> studiose scriptis libenter in amicitiam recepi <br> <small> Cic.Att.2.20.1 <br> A Numéstio, de acordo com tua carta zelosamente escrita, eu, com prazer, o recebi em amizade. <small> [JDD] </small> </small> </p>
+; <p> redde nunc animos acres nunc aliquid aude sceleribus dignum <b>tuis</b> <br> <small> Sen.Oed.878 <br> Mostra agora os teus ânimos vigorosos; ousa agora algo digno de teus crimes. <small> [JDD] </small> </small> </p>
+; <p> itaque quantum potes circumscribe corpus <b>tuum</b> et animo locum laxa <br> <small> Sen.Ep.15.2 <br> Por isso limita o quanto podes o teu corpo e amplia o espaço de teu espírito. <small> [JDD] </small> </small> </p>
+; <p> desiderio <b>tuo</b> satis faciam et uirtutes exhortabor et uitia conuerberabo <br> <small> Sen.Ep.121.4 <br> Satisfarei o teu desejo: não só exortarei as virtudes, como também fustigarei os vícios. <small> [JDD] </small> </small> </p>
+; <p> nunc de Saturnini crimine ac de clarissimi patrui <b>tui</b> morte dicemus <br> <small> Cic.Rab.Perd.18 <br> Agora falaremos da acusação concernente a Saturnino e da morte de teu ilustríssimo tio. <small> [JDD] </small> </small> </p>
+; <p> nunc mihi et consiliis opus est <b>tuis</b> et amore et fide <br> <small> Cic.Att.2.22.4 <br> Agora necessito de teus conselhos, de tua afeição e lealdade. <small> [JDD] </small> </small> </p>
+; <p> Laenio <b>tuas</b> commendationes et statim verbis et reliquo tempore re probabo <br> <small> Cic.Att.5.21.4 <br> Tanto imediatamente com palavras e no tempo restante com obra, demonstrarei a Lênio o valor de tuas recomendações. <small> [JDD] </small> </small> </p>
+; <p> uide quid licentiae Caesar nobis <b>tua</b> liberalitas det uel potius audaciae <br> <small> Cic.Lig.23 <br> Vê, César, que liberdade tua generosidade nos dá, ou melhor, que ousadia. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ego cum Laodiceam venero Quinto sororis <b>tuae</b> filio togam puram iubeor dare <br> <small> Cic.Att.5.20.9 <br> Eu, quando eu chegar a Laodiceia, sou encarregado de entregar a toga branca [viril] a Quinto, o filho de tua irmã. <small> [JDD] </small> </small> </p>
+; <p> mitteris Erebo uile pro cunctis caput arcana sacri uoce ni retegis <b>tua</b> <br> <small> Sen.Oed.521 <br> Serás enviado ao Érebo, vítima de pouco valor para pagar por todos, se não desvendas, com tua própria voz, os mistérios da cerimônia. <small> [JDD] </small> </small> </p>
+; <p> cur igitur non eis faues eos laudas quorum similem <b>tuum</b> filium esse uis <br> <small> Cic.Phil.10.5.3 <br> Por que então não apoias, elogias aqueles com os quais queres que teu filho seja parecido? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> id te scire volui si quid forte ea res ad cogitationes <b>tuas</b> pertineret <br> <small> Cic.Att.1.6.1 <br> Quis que soubesse isso, se é que esse assunto tem a ver com tuas reflexões. <small> [JDD] </small> </small> </p>
+; <p> quis te ex hac tanta frequentia tot ex <b>tuis</b> amicis ac necessariis salutauit <br> <small> Cic.Catil.1.16.7 <br> Quem desta tão grande freqüência, de tantos amigos e íntimos teus te cumprimentou? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> sed intellegis pro <b>tua</b> praestanti prudentia Cn. Domiti cum hac sola rem esse nobis <br> <small> Cic.Cael.32 <br> Mas tu, Cneu Domício, entendes, em tua eminente prudência, que para nós o interesse está somente nela. <small> [JDD] </small> </small> </p>
+; <p> cupio ut ait <b>tuus</b> amicus Sophocles κἂν ὑπὸ στέγῃ πυκνῆς ἀκούειν ψακάδος εὑδούσῃ φρενί <br> <small> Cic.Att.2.7.4 <br> desejo, como diz o teu amigo Sófocles, e sob o teto / com a alma tranquila ouvir a chuva <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nunc Orestillam commendo <b>tuae</b>que fidei trado eam ab iniuria defendas per liberos <b>tuos</b> rogatus <br> <small> Sal.Cat.35.6 <br> agora recomendo-te Orestila e a entrego à tua lealdade; defende-a da inúria, te rofo per teus filhos. <small> [JDD] </small> </small> </p>
+; <p> nihil εὐκαιρότερον epistula <b>tua</b> quae me sollicitum de Quinto nostro puero optimo valde levavit <br> <small> Cic.Att.4.7.1 <br> Nada mais a propósito do que tua carta, que me aliviou muito a mim, preocupado com o nosso querido Quinto, excelente menino. <small> [JDD] </small> </small> </p>
+; <p> nihil est tam populare quam bonitas nulla de uirtutibus <b>tuis</b> plurimis nec admirabilior nec gratior misericordia est <br> <small> Cic.Lig.37 <br> Nada é tão popular quanto a bondade e nenhuma de tuas muitas virtudes é mais admirável e mais digna de gratidão do que tua misericórdia. <small> [JDD] </small> </small> </p>
+; <p> quisquis es nondum malis satiate tantis caelitum tandem <b>tuum</b> numen serena cladibus nostris daret uel Troia lacrimas <br> <small> Sen.Ag.519 <br> Tu, quem quer que sejas dos deuses do céu, ainda não saciado com tão grandes desgraças, serena enfim teu poder divino: até mesmo Tróia concederia lágrimas para as nossas desgraças. <small> [JDD] </small> </small> </p>
+; <p> te cum Atratine agam lenius quod et pudor <b>tuus</b> moderatur orationi meae et meum erga te parentemque <b>tuum</b> beneficium tueri debeo <br> <small> Cic.Cael.7 <br> Contigo, Atratino, vou atuar de um modo mais suave, porque tanto o teu recato modera o meu discurso, como eu devo guardar minha boa relação para contigo e teu pai. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx116-117-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 44.93 and an absolute frequency of 20. The Cicero subcorpus follows, with a normalized frequency of 37.81 and an absolute frequency of 607. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 607 ; absolute frequency: 37.8136602626399. subcorpus: Horatius ; normalized frequency: 26 ; absolute frequency: 23.0885356540272. subcorpus: Ovidius ; normalized frequency: 6 ; absolute frequency: 10.2951269732327. subcorpus: Phaedrus ; normalized frequency: 22 ; absolute frequency: 33.3991194777592. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 166 ; absolute frequency: 30.981131371195. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 5 ; absolute frequency: 17.164435290079. subcorpus: Vergilius ; normalized frequency: 10 ; absolute frequency: 19.3050193050193. subcorpus: Hieronymus ; normalized frequency: 20 ; absolute frequency: 44.9337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx116-117-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 71.01 and an absolute frequency of 268. The Poesia.épica subcorpus follows, with a normalized frequency of 19.31 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 2.19 and an absolute freqeuncy of 9. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 9 ; absolute frequency: 2.1909004600891. subcorpus: Prosa.filosófica ; normalized frequency: 140 ; absolute frequency: 23.0638704469449. subcorpus: Prosa.oratória ; normalized frequency: 322 ; absolute frequency: 30.9160561865717. subcorpus: Prosa.epistolográfica ; normalized frequency: 268 ; absolute frequency: 71.0140703251278. subcorpus: Poesia.lírica ; normalized frequency: 26 ; absolute frequency: 21.8726339698831. subcorpus: Poesia.didática ; normalized frequency: 28 ; absolute frequency: 23.750954279413. subcorpus: Poesia.trágica ; normalized frequency: 43 ; absolute frequency: 37.3523280055594. subcorpus: Poesia.épica ; normalized frequency: 10 ; absolute frequency: 19.3050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 20 ; absolute frequency: 44.9337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx116-117-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 44.93 and an absolute frequency of 20. The I.a.C. subcorpus follows, with a normalized frequency of 30.11 and an absolute frequency of 647. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 13.09 and an absolute freqeuncy of 5. here are all the values: subcorpus: I.a.C. ; normalized frequency: 647 ; absolute frequency: 30.1140330463114. subcorpus: I.d.C. ; normalized frequency: 194 ; absolute frequency: 29.6772219672633. subcorpus: II.d.C. ; normalized frequency: 5 ; absolute frequency: 13.0890052356021. subcorpus: IV.d.C. ; normalized frequency: 20 ; absolute frequency: 44.9337227589306'}
+
+
+:::
+

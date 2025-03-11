@@ -1,0 +1,201 @@
+---
+title: "quia"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx113-117-105-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>quia</b> <br> <small>conj.</small> <br> <small>Obs.: Constrói-se em correlação com eo, hoc, ideo, idcirco, ob id, propterea, ea re Cíc. Tusc. 1, 13: Cíc. Rep. 3, 45: T. Lív. 2, 1, 7. Geralmente com o verbo no indicativo Cíc. Mur. 51, porém, o subjuntivo pode ser empregado no estilo indireto Cíc. Nat. 2, 69. ou indicando simples hipótese Cíc. Tusc. 1. 1.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Porque. &ensp; <small></small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Quia</b> <br> <small>conj.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; porque. </p>
+
+
+
+
+#### Velez
+
+<b>Quia</b>   <p> <b>1</b> &ensp; porque </p>
+
+
+
+
+#### Cardoso
+
+<b>Quia</b> <br> <small>coniunctio.</small>   <p> <b>1</b> &ensp; porque </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/121166 ' target="_blank"> http://lila-erc.eu/data/id/lemma/121166 </a> <br>
+<small> classe: </small> conjunção subordinativa    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+quĭă
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx113-117-105-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword quia here are all the values plotted: collocate: non; scoreSUBST: 0. collocate: an; scoreSUBST: 0. collocate: sed; scoreSUBST: 0. collocate: nihil; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx113-117-105-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword quia here are all the values plotted: collocate: non; scoreADJ: 0. collocate: an; scoreADJ: 0. collocate: sed; scoreADJ: 0. collocate: nihil; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx113-117-105-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword quia here are all the values plotted: collocate: non; scoreVERBO: 0. collocate: an; scoreVERBO: 0. collocate: sed; scoreVERBO: 0. collocate: nihil; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx113-117-105-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword quia here are all the values plotted: collocate: non; scoreADV: 3. collocate: an; scoreADV: 0. collocate: sed; scoreADV: 0. collocate: nihil; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx113-117-105-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword quia here are all the values plotted: collocate: non; scoreFUNC: 0. collocate: an; scoreFUNC: 0. collocate: sed; scoreFUNC: 0. collocate: nihil; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>quia</b> non auget sed implet <br> <small> Sen.Ep.118.16 <br> Porque ele não aumenta, mas completa. <small> [JDD] </small> </small> </p>
+; <p> eum <b>quia</b> non videbam abesse putabam <br> <small> Cic.Att.4.8A.3 <br> Eu, porque não o via, achava que ele estava ausente. <small> [JDD] </small> </small> </p>
+; <p> an <b>quia</b> grauius est uerberari quam necari <br> <small> Sal.Cat.51.23 <br> Acaso porque é mais grave ser açoitado do que ser morto? <small> [JDD] </small> </small> </p>
+; <p> utebamur enim illis non <b>quia</b> debebamus sed <b>quia</b> habebamus <br> <small> Sen.Ep.123.6 <br> pois as usávamos não porque devíamos, mas porque as tínhamos. <small> [JDD] </small> </small> </p>
+; <p> <b>quia</b> non alio facinore clari homines alio obscuri necantur <br> <small> Cic.Mil.17 <br> Porque homens ilustres não são assassinados por um tipo de crime, e homens obscuros, por outro. <small> [JDD] </small> </small> </p>
+; <p> sed <b>quia</b> rationem habendam maxime arbitror pacis atque oti <br> <small> Cic.Phil.1.16.2 <br> - mas porque julgo que é preciso sobretudo levar em conta a paz e a tranquilidade. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> an <b>quia</b> non condemnaui sententia mea duo consules sum reprehendendus <br> <small> Cic.Dom.9 <br> 9 Por acaso devo ser repreendido porque não condenei com meu parecer os dois cônsules? <small> [JDD] </small> </small> </p>
+; <p> accipere potuistis sed ne nunc quidem auferetis <b>quia</b> nihil eripitur nisi retinenti <br> <small> Sen.Prov.5.6 <br> Pudestes receber. Mas nem mesmo agora me arrebatareis, porque nada se tira, a não ser para quem retém.” <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx113-117-105-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 47.18 and an absolute frequency of 21. The Phaedrus subcorpus follows, with a normalized frequency of 24.29 and an absolute frequency of 16. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 76 ; absolute frequency: 4.7344945304129. subcorpus: Horatius ; normalized frequency: 6 ; absolute frequency: 5.32812361246781. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 16 ; absolute frequency: 24.2902687110976. subcorpus: Sallustius ; normalized frequency: 16 ; absolute frequency: 14.8409238475095. subcorpus: Seneca ; normalized frequency: 66 ; absolute frequency: 12.3177992198727. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 5 ; absolute frequency: 17.164435290079. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 21 ; absolute frequency: 47.1804088968771'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx113-117-105-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 47.18 and an absolute frequency of 21. The Poesia.didática subcorpus follows, with a normalized frequency of 13.57 and an absolute frequency of 16. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 21 ; absolute frequency: 5.11210107354123. subcorpus: Prosa.filosófica ; normalized frequency: 82 ; absolute frequency: 13.5088384046391. subcorpus: Prosa.oratória ; normalized frequency: 44 ; absolute frequency: 4.22455426151911. subcorpus: Prosa.epistolográfica ; normalized frequency: 15 ; absolute frequency: 3.97466811521238. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 16 ; absolute frequency: 13.5719738739503. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 21 ; absolute frequency: 47.1804088968771'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx113-117-105-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 47.18 and an absolute frequency of 21. The II.d.C. subcorpus follows, with a normalized frequency of 13.09 and an absolute frequency of 5. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 4.56 and an absolute freqeuncy of 98. here are all the values: subcorpus: I.a.C. ; normalized frequency: 98 ; absolute frequency: 4.5613218524552. subcorpus: I.d.C. ; normalized frequency: 82 ; absolute frequency: 12.5439804191525. subcorpus: II.d.C. ; normalized frequency: 5 ; absolute frequency: 13.0890052356021. subcorpus: IV.d.C. ; normalized frequency: 21 ; absolute frequency: 47.1804088968771'}
+
+
+:::
+

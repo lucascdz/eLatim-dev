@@ -1,0 +1,243 @@
+---
+title: "ne"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-101xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>nē</b> <br> <small>adv. e conj. negativa. II. Conj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Para que não &ensp; <small>Cés. B. Gal. 2, 5, 2.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Que não &ensp; <small>Cíe. Of. 1, 140: Plaut. Men. 612.</small> <br> <b>3</b> &ensp; <small></small> &ensp; Que &ensp; <small>com verbos que indicam receio ou proibição Cíc. Leg. 1, 12; Cíc. Verr. 5. 5.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Ne</b>   <p> <b>2</b> &ensp; <small>Cic.</small> &ensp; para que não </p>
+
+
+
+
+#### Velez
+
+<b>Ne</b>   <p> <b>1</b> &ensp; que, ou que naõ, ou para que naõ </p>
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/113491 ' target="_blank"> http://lila-erc.eu/data/id/lemma/113491 </a> <br>
+<small> classe: </small> conjunção subordinativa    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+nē
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-101xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ne here are all the values plotted: collocate: que; scoreSUBST: 0. collocate: uereor; scoreSUBST: 0. collocate: quis; scoreSUBST: 0. collocate: sed; scoreSUBST: 0. collocate: uideo; scoreSUBST: 0. collocate: tu; scoreSUBST: 0. collocate: timeo; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: possum; scoreSUBST: 0. collocate: ille; scoreSUBST: 0. collocate: igitur; scoreSUBST: 0. collocate: tantus; scoreSUBST: 0. collocate: iste; scoreSUBST: 0. collocate: uos; scoreSUBST: 0. collocate: an; scoreSUBST: 0. collocate: omnino; scoreSUBST: 0. collocate: fors; scoreSUBST: 0. collocate: existimo; scoreSUBST: 0. collocate: metuo; scoreSUBST: 0. collocate: accido; scoreSUBST: 0. collocate: patior; scoreSUBST: 0. collocate: paruus; scoreSUBST: 0. collocate: solus; scoreSUBST: 0. collocate: idcirco; scoreSUBST: 0. collocate: adeo; scoreSUBST: 0. collocate: ignoro; scoreSUBST: 0. collocate: suspicor; scoreSUBST: 0. collocate: caueo; scoreSUBST: 0. collocate: ue; scoreSUBST: 0. collocate: impedio; scoreSUBST: 0. collocate: nuntio; scoreSUBST: 0. collocate: laboro; scoreSUBST: 0. collocate: prohibeo; scoreSUBST: 0. collocate: censeo; scoreSUBST: 0. collocate: commoueo; scoreSUBST: 0. collocate: impero; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-101xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ne here are all the values plotted: collocate: que; scoreADJ: 0. collocate: uereor; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: sed; scoreADJ: 0. collocate: uideo; scoreADJ: 0. collocate: tu; scoreADJ: 0. collocate: timeo; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: possum; scoreADJ: 0. collocate: ille; scoreADJ: 0. collocate: igitur; scoreADJ: 0. collocate: tantus; scoreADJ: 0. collocate: iste; scoreADJ: 0. collocate: uos; scoreADJ: 0. collocate: an; scoreADJ: 0. collocate: omnino; scoreADJ: 0. collocate: fors; scoreADJ: 0. collocate: existimo; scoreADJ: 0. collocate: metuo; scoreADJ: 0. collocate: accido; scoreADJ: 0. collocate: patior; scoreADJ: 0. collocate: paruus; scoreADJ: 2. collocate: solus; scoreADJ: 0. collocate: idcirco; scoreADJ: 0. collocate: adeo; scoreADJ: 0. collocate: ignoro; scoreADJ: 0. collocate: suspicor; scoreADJ: 0. collocate: caueo; scoreADJ: 0. collocate: ue; scoreADJ: 0. collocate: impedio; scoreADJ: 0. collocate: nuntio; scoreADJ: 0. collocate: laboro; scoreADJ: 0. collocate: prohibeo; scoreADJ: 0. collocate: censeo; scoreADJ: 0. collocate: commoueo; scoreADJ: 0. collocate: impero; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-101xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ne here are all the values plotted: collocate: que; scoreVERBO: 0. collocate: uereor; scoreVERBO: 5. collocate: quis; scoreVERBO: 0. collocate: sed; scoreVERBO: 0. collocate: uideo; scoreVERBO: 2. collocate: tu; scoreVERBO: 0. collocate: timeo; scoreVERBO: 2. collocate: ego; scoreVERBO: 0. collocate: possum; scoreVERBO: 2. collocate: ille; scoreVERBO: 0. collocate: igitur; scoreVERBO: 0. collocate: tantus; scoreVERBO: 0. collocate: iste; scoreVERBO: 0. collocate: uos; scoreVERBO: 0. collocate: an; scoreVERBO: 0. collocate: omnino; scoreVERBO: 0. collocate: fors; scoreVERBO: 0. collocate: existimo; scoreVERBO: 2. collocate: metuo; scoreVERBO: 2. collocate: accido; scoreVERBO: 2. collocate: patior; scoreVERBO: 2. collocate: paruus; scoreVERBO: 0. collocate: solus; scoreVERBO: 0. collocate: idcirco; scoreVERBO: 0. collocate: adeo; scoreVERBO: 0. collocate: ignoro; scoreVERBO: 2. collocate: suspicor; scoreVERBO: 2. collocate: caueo; scoreVERBO: 2. collocate: ue; scoreVERBO: 0. collocate: impedio; scoreVERBO: 2. collocate: nuntio; scoreVERBO: 2. collocate: laboro; scoreVERBO: 2. collocate: prohibeo; scoreVERBO: 2. collocate: censeo; scoreVERBO: 2. collocate: commoueo; scoreVERBO: 2. collocate: impero; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-101xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ne here are all the values plotted: collocate: que; scoreADV: 0. collocate: uereor; scoreADV: 0. collocate: quis; scoreADV: 0. collocate: sed; scoreADV: 0. collocate: uideo; scoreADV: 0. collocate: tu; scoreADV: 0. collocate: timeo; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: possum; scoreADV: 0. collocate: ille; scoreADV: 0. collocate: igitur; scoreADV: 2. collocate: tantus; scoreADV: 0. collocate: iste; scoreADV: 0. collocate: uos; scoreADV: 0. collocate: an; scoreADV: 0. collocate: omnino; scoreADV: 2. collocate: fors; scoreADV: 2. collocate: existimo; scoreADV: 0. collocate: metuo; scoreADV: 0. collocate: accido; scoreADV: 0. collocate: patior; scoreADV: 0. collocate: paruus; scoreADV: 0. collocate: solus; scoreADV: 0. collocate: idcirco; scoreADV: 2. collocate: adeo; scoreADV: 2. collocate: ignoro; scoreADV: 0. collocate: suspicor; scoreADV: 0. collocate: caueo; scoreADV: 0. collocate: ue; scoreADV: 0. collocate: impedio; scoreADV: 0. collocate: nuntio; scoreADV: 0. collocate: laboro; scoreADV: 0. collocate: prohibeo; scoreADV: 0. collocate: censeo; scoreADV: 0. collocate: commoueo; scoreADV: 0. collocate: impero; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-101xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ne here are all the values plotted: collocate: que; scoreFUNC: 0. collocate: uereor; scoreFUNC: 0. collocate: quis; scoreFUNC: 0. collocate: sed; scoreFUNC: 0. collocate: uideo; scoreFUNC: 0. collocate: tu; scoreFUNC: 0. collocate: timeo; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: possum; scoreFUNC: 0. collocate: ille; scoreFUNC: 0. collocate: igitur; scoreFUNC: 0. collocate: tantus; scoreFUNC: 0. collocate: iste; scoreFUNC: 0. collocate: uos; scoreFUNC: 0. collocate: an; scoreFUNC: 0. collocate: omnino; scoreFUNC: 0. collocate: fors; scoreFUNC: 0. collocate: existimo; scoreFUNC: 0. collocate: metuo; scoreFUNC: 0. collocate: accido; scoreFUNC: 0. collocate: patior; scoreFUNC: 0. collocate: paruus; scoreFUNC: 0. collocate: solus; scoreFUNC: 0. collocate: idcirco; scoreFUNC: 0. collocate: adeo; scoreFUNC: 0. collocate: ignoro; scoreFUNC: 0. collocate: suspicor; scoreFUNC: 0. collocate: caueo; scoreFUNC: 0. collocate: ue; scoreFUNC: 0. collocate: impedio; scoreFUNC: 0. collocate: nuntio; scoreFUNC: 0. collocate: laboro; scoreFUNC: 0. collocate: prohibeo; scoreFUNC: 0. collocate: censeo; scoreFUNC: 0. collocate: commoueo; scoreFUNC: 0. collocate: impero; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> poterit <b>ne</b> restitui <br> <small> Cic.Att.3.15.6 <br> Poderão ser recuperados? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> an <b>ne</b> ignoscatur <br> <small> Cic.Lig.13 <br> Acaso que não seja perdoado? <small> [JDD] </small> </small> </p>
+; <p> ai <b>n</b> tu <br> <small> Cic.Att.4.5.1 <br> Tu dizes isso? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>ne</b> ista quidem desunt <br> <small> Cic.Att.4.10.1 <br> Nem mesmo essas me faltam. <small> [JDD] </small> </small> </p>
+; <p> sed hoc <b>ne</b> curaris <br> <small> Cic.Att.4.15.6 <br> mas não te preocupes com isso. <small> [JDD] </small> </small> </p>
+; <p> <b>ne</b> metue dominam famula <br> <small> Sen.Ag.796 <br> Não tenhas medo de tua dona, escrava. <small> [JDD] </small> </small> </p>
+; <p> tantae <b>ne</b> animis caelestibus irae <br> <small> Verg.A.1.11 <br> Tamanhas raivas nos animos celestes? <small> [JDD] </small> </small> </p>
+; <p> poteramus <b>ne</b> inquies cum senatus censuisset <br> <small> Cic.Lig.20 <br> “Acaso podíamos”, dirás, “se o senado tinha decidido?” <small> [JDD] </small> </small> </p>
+; <p> si <b>ne</b>que leges <b>ne</b>que mores cogunt <br> <small> Cic.Att.2.19.3 <br> “Se nem as leis nem os costumes te constrangem” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>ne</b>que id a Clodio praetermissum est <br> <small> Cic.Att.3.23.4 <br> E isso não foi deixado de lado por Clódio. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> id <b>ne</b> igitur inquies facile fers <br> <small> Cic.Att.4.18.2 <br> “E isso então”, dirás, “suportas facilmente?” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Honorem fructu <b>ne</b> videamur vendere . <br> <small> Phaed.3.17 <br> “Para que não pareçamos vender nossa honra pelo fruto”. <small> [JDD] </small> </small> </p>
+; <p> quod <b>ne</b> nunc quidem fieri laborabo <br> <small> Sen.Ep.124.1 <br> Me esforçarei para que isso não suceda agora. <small> [JDD] </small> </small> </p>
+; <p> cui senatus consulto <b>ne</b> intercederent uerebatur <br> <small> Cic.Phil.3.23.9 <br> A que decreto do senado ele temia que se opusessem? <small> [JDD] </small> </small> </p>
+; <p> an <b>ne</b> nummi vobis eriperentur timebatis <br> <small> Cic.Att.1.16.5 <br> Acaso temíeis que vos fossem roubadas as moedas?” <small> [JDD] </small> </small> </p>
+; <p> <b>ne</b> metu necesse sit iis uti vereor <br> <small> Cic.Att.2.19.2 <br> temo que lhes seja necessário recorrer ao medo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>ne</b> tanta eius opera sine teste sit <br> <small> Sen.Ot.4.2 <br> Para que sua tão grande obra não fique sem testemunha. <small> [JDD] </small> </small> </p>
+; <p> quod ut <b>ne</b> accidat magis cauendum est <br> <small> Cic.Amici.99 <br> Para que isso não ocorra, deve-se precaver ainda mais. <small> [JDD] </small> </small> </p>
+; <p> <b>ne</b> te morer audi quo rem deducam <br> <small> Hor.S.1.1.14 <br> Para não te tomar tempo, escuta aonde eu quero chegar. <small> [JDD] </small> </small> </p>
+; <p> placido <b>ne</b> uultu sacra et admotas manus patiuntur <br> <small> Sen.Oed.336 <br> Eles suportam com plácido rosto os ritos e o contato de tuas mãos? <small> [JDD] </small> </small> </p>
+; <p> sed do operam et dabo <b>ne</b> sit necesse <br> <small> Cic.Att.2.20.5 <br> mas me esforço e me esforçarei para que não seja necessário. <small> [JDD] </small> </small> </p>
+; <p> poterat <b>ne</b> tantus animus efficere non iucundam senectutem <br> <small> Cic.Sen.56 <br> Por acaso poderia um espírito tão grande fazer a velhice não prazerosa? <small> [JDD] </small> </small> </p>
+; <p> primo <b>ne</b> in aeuo uiridis an fracto occidit <br> <small> Sen.Oed.775 <br> Morreu no verdor da juventude ou já alquebrado? <small> [JDD] </small> </small> </p>
+; <p> lugentem timentemque custodire solemus <b>ne</b> solitudine male utatur <br> <small> Sen.Ep.10.2 <br> Costumamos tomar conta do agoniado e do medroso, para que não faça mal uso da solidão. <small> [JDD] </small> </small> </p>
+; <p> displiceo mihi <b>ne</b> c sine summo scribo dolore <br> <small> Cic.Att.2.18.3 <br> Estou insatisfeito comigo mesmo e escrevo não sem uma grande dor. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> adventus noster nemini <b>ne</b> minimo quidem fuit sumptui <br> <small> Cic.Att.5.14.2 <br> Nossa chegada não foi de absolutamente nenhum gasto para ninguém. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> tuo uitio rerum <b>ne</b> labores nil referre putas <br> <small> Hor.S.1.2.76 <br> Achas que não faz nenhuma diferença se sofres por culpa tua ou das circunstâncias? <small> [JDD] </small> </small> </p>
+; <p> <b>Ne</b> c vero hoc arroganter dictum existimari velim <br> <small> Cic.Off.1.2 <br> E, na verdade, eu não queria que isto fosse considerado como arrogantemente dito. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quid si istud <b>ne</b> gloriae quidem satis est <br> <small> Cic.Marc.25 <br> E se isso não é suficiente nem sequer para a tua glória? <small> [JDD] </small> </small> </p>
+; <p> quid si <b>ne</b> potest quidem ulla esse pax <br> <small> Cic.Phil.12.11.1 <br> E se, na verdade, não pode haver nenhuma paz? <small> [JDD] </small> </small> </p>
+; <p> possumus <b>ne</b> igitur in Antoni latrocinio aeque esse tuti <br> <small> Cic.Phil.12.27.17 <br> Por acaso podemos então estar igualmente seguros em relação ao bando de Antônio? <small> [JDD] </small> </small> </p>
+; <p> debemus itaque exerceri <b>ne</b> haec timeamus <b>ne</b> illa cupiamus <br> <small> Sen.Ep.123.13 <br> Devemos, por isso, exercitar-nos para que não temamos estas, para que não cobicemos aquelas. <small> [JDD] </small> </small> </p>
+; <p> nam multitudo hostium <b>ne</b> circumuenire queat prohibent angustiae loci <br> <small> Sal.Cat.58.20 <br> Pois as estreitezas do lugar impedem que um grande número de inimigos possa cercar-nos. <small> [JDD] </small> </small> </p>
+; <p> vereor enim <b>ne</b> dum defendam meos non parcam tuis <br> <small> Cic.Att.1.17.3 <br> pois receio que, defendendo os meus, eu não poupe os teus. <small> [JDD] </small> </small> </p>
+; <p> <b>ne</b>que adhuc res confecta est sed voluntas senatus perspecta <br> <small> Cic.Att.1.17.9 <br> Nada foi feito ainda, mas a vontade do senado está clara. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>ne</b>que enim me desperare vis <b>ne</b> c temere sperare <br> <small> Cic.Att.3.18.2 <br> pois nem queres me desesperar nem esperas sem motivo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ego iam aut rem aut <b>ne</b> spem quidem exspecto <br> <small> Cic.Att.3.22.4 <br> Eu já aguardo os fatos ou nem a esperança sequer. <small> [JDD] </small> </small> </p>
+; <p> <b>Nec</b> longus patrios labor est tibi nosse penates : <br> <small> Ov.Met.1.772 <br> E não é um longo esforço para ti conhecer os penates paternos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nam <b>ne</b> absens censeare curabo edicendum et proponendum locis omnibus <br> <small> Cic.Att.1.18.8 <br> E, para que não sejas censeado como ausente, cuidarei de dar a notícia e divulgá-la por todos os lugares. <small> [JDD] </small> </small> </p>
+; <p> hanc exercitationem non frigus non aestus inpediet <b>ne</b> senectus quidem <br> <small> Sen.Ep.15.5 <br> esse exercício não o impedirá nem o frio, nem o calor, nem mesmo a velhice. <small> [JDD] </small> </small> </p>
+; <p> <b>ne</b> id quidem facient negabunt id nisi sapienti posse concedi <br> <small> Cic.Amici.18 <br> Nem mesmo farão isso, dirão que isso não pode ser concedido a não ser ao sábio. <small> [JDD] </small> </small> </p>
+; <p> at <b>ne</b> Bruto quidem id enim fortasse quispiam improbus dixerit <br> <small> Cic.Phil.10.12.1 <br> Mas Bruto também não; pois talvez algum descarado dirá isto. <small> [JDD] </small> </small> </p>
+; <p> hac lege sublata uidentur <b>ne</b> uobis posse Caesaris acta seruari <br> <small> Cic.Phil.1.19.4 <br> Tirada essa lei, as resoluções de César vos parecem poder ser mantidas? <small> [JDD] </small> </small> </p>
+; <p> Quoniam occuparat alter <b>ne</b> primus foret , <b>Ne</b> solus esset studui ; <br> <small> Phaed.2.ep <br> Visto que ele ocupara esse lugar e nenhum outro fosse o primeiro, esforcei-me para que ele não ficasse só. <small> [JDD] </small> </small> </p>
+; <p> non sum mediocriter commotus <b>ne</b>que tamen credidi sed certe aliquid sermonis fuit <br> <small> Cic.Att.1.12.2 <br> Me perturbei não pouco, no entanto, não acreditei; mas com certeza alguma conversa houve. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> qua re si quid Θεοφάνης te cum forte contulerit <b>ne</b> omnino repudiaris <br> <small> Cic.Att.2.5.1 <br> Por isso se por acaso Teófanes tratar algo contigo, não o repudies completamente. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> pro eo tibi praesentem pecuniam solvi imperavi <b>ne</b> tu expensum muneribus ferres <br> <small> Cic.Att.2.4.1 <br> Ordenei que por ele te seja pago em dinheiro, para que tu não o endosses na conta dos presentes. <small> [JDD] </small> </small> </p>
+; <p> atque haud sciam an <b>ne</b> opus sit quidem nihil umquam omnino deesse amicis <br> <small> Cic.Amici.51 <br> E eu não sei se nem mesmo é necessário que aos amigos nunca falte absolutamente nada. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>ne</b> uos quidem T. Ponti centurionis uiris habetis num idcirco est ille praestantior <br> <small> Cic.Sen.33 <br> Vós também não tendes a força do centurião Tito Ponto; por acaso ele por causa disso é superior? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> respiraui liberatus sum non uereor <b>ne</b> quod <b>ne</b> suspicari quidem potuerim uidear id cogitasse <br> <small> Cic.Mil.47 <br> Respirei, estou absolvido; não tenho receio de parecer ter planejado o que nem sequer pude suspeitar. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-101xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Ovidius subcorpus registers the highest normalized frequency, with the value of 58.34 and an absolute frequency of 34. The Cicero subcorpus follows, with a normalized frequency of 51.46 and an absolute frequency of 826. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 82 ; absolute frequency: 30.9691064279779. subcorpus: Cicero ; normalized frequency: 826 ; absolute frequency: 51.4564800279086. subcorpus: Horatius ; normalized frequency: 46 ; absolute frequency: 40.8489476955865. subcorpus: Ovidius ; normalized frequency: 34 ; absolute frequency: 58.3390528483185. subcorpus: Phaedrus ; normalized frequency: 21 ; absolute frequency: 31.8809776833156. subcorpus: Sallustius ; normalized frequency: 21 ; absolute frequency: 19.4787125498562. subcorpus: Seneca ; normalized frequency: 151 ; absolute frequency: 28.1816315484967. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 7 ; absolute frequency: 24.0302094061105. subcorpus: Vergilius ; normalized frequency: 12 ; absolute frequency: 23.1660231660232. subcorpus: Hieronymus ; normalized frequency: 14 ; absolute frequency: 31.4536059312514'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-101xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 91.42 and an absolute frequency of 345. The Poesia.lírica subcorpus follows, with a normalized frequency of 38.7 and an absolute frequency of 46. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 23.17 and an absolute freqeuncy of 12. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 110 ; absolute frequency: 26.7776722899778. subcorpus: Prosa.filosófica ; normalized frequency: 198 ; absolute frequency: 32.6189024892506. subcorpus: Prosa.oratória ; normalized frequency: 400 ; absolute frequency: 38.4050387410828. subcorpus: Prosa.epistolográfica ; normalized frequency: 345 ; absolute frequency: 91.4173666498847. subcorpus: Poesia.lírica ; normalized frequency: 46 ; absolute frequency: 38.6977370236393. subcorpus: Poesia.didática ; normalized frequency: 55 ; absolute frequency: 46.6536601917041. subcorpus: Poesia.trágica ; normalized frequency: 34 ; absolute frequency: 29.5343988881167. subcorpus: Poesia.épica ; normalized frequency: 12 ; absolute frequency: 23.1660231660232. subcorpus: Prosa.ficcional ; normalized frequency: 14 ; absolute frequency: 31.4536059312514'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-101xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 45.94 and an absolute frequency of 987. The I.a.C. subcorpus follows, with a normalized frequency of 45.94 and an absolute frequency of 987. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 18.32 and an absolute freqeuncy of 7. here are all the values: subcorpus: I.a.C. ; normalized frequency: 987 ; absolute frequency: 45.9390272282988. subcorpus: I.d.C. ; normalized frequency: 206 ; absolute frequency: 31.5129264188466. subcorpus: II.d.C. ; normalized frequency: 7 ; absolute frequency: 18.3246073298429. subcorpus: IV.d.C. ; normalized frequency: 14 ; absolute frequency: 31.4536059312514'}
+
+
+:::
+

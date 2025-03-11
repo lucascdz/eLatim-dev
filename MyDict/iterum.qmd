@@ -1,0 +1,194 @@
+---
+title: "iterum"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-116-101-114-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>itĕrum</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Pela segunda vez, de novo, novamente &ensp; <small>Cíc. Div. I. 77.</small> <br> <b>2</b> &ensp; <small></small> &ensp; De volta, novamente, por sua vez &ensp; <small>Tác. An. 12. 66.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Iterum</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; segunda vez, outra vez, de novo. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Iterum</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; outra vez </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/109138 ' target="_blank"> http://lila-erc.eu/data/id/lemma/109138 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ĭtĕrŭm
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> initium mihi operis Seruius Galba <b>iterum</b> Titus Uinius consules erunt <br> <small> Tac.Hist.1.1.1 <br> O consulado de Sérvio Galba pela segunda vez e de Tito Vínio será o início de minha obra. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-116-101-114-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 17.97 and an absolute frequency of 8. The Tacitus subcorpus follows, with a normalized frequency of 6.87 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 5 ; absolute frequency: 1.88836014804744. subcorpus: Cicero ; normalized frequency: 22 ; absolute frequency: 1.37051157459321. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 9 ; absolute frequency: 1.67969989361901. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 8 ; absolute frequency: 17.9734891035722'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-116-101-114-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 17.97 and an absolute frequency of 8. The Poesia.trágica subcorpus follows, with a normalized frequency of 5.21 and an absolute frequency of 6. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 8 ; absolute frequency: 1.94746707563475. subcorpus: Prosa.filosófica ; normalized frequency: 7 ; absolute frequency: 1.15319352234724. subcorpus: Prosa.oratória ; normalized frequency: 14 ; absolute frequency: 1.3441763559379. subcorpus: Prosa.epistolográfica ; normalized frequency: 4 ; absolute frequency: 1.05991149738997. subcorpus: Poesia.lírica ; normalized frequency: 5 ; absolute frequency: 4.20627576343905. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 6 ; absolute frequency: 5.21195274496178. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 8 ; absolute frequency: 17.9734891035722'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-116-101-114-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 17.97 and an absolute frequency of 8. The II.d.C. subcorpus follows, with a normalized frequency of 5.24 and an absolute frequency of 2. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 1.53 and an absolute freqeuncy of 10. here are all the values: subcorpus: I.a.C. ; normalized frequency: 33 ; absolute frequency: 1.53595531766349. subcorpus: I.d.C. ; normalized frequency: 10 ; absolute frequency: 1.52975370965275. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 8 ; absolute frequency: 17.9734891035722'}
+
+
+:::
+

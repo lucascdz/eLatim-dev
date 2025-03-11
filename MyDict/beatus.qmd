@@ -1,0 +1,201 @@
+---
+title: "beatus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx98-101-97-116-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>beātus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Cumulado de bens, que tem tudo que é necessário &ensp; <small>Cíc. Verr. 4, 126.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Rico, opulento &ensp; <small>Hor. O. 1, 29, 1.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Que torna feliz, feliz. &ensp; <small>Cíc. Fin. 1,32.</small> <br> <b>4</b> &ensp; <small>II-Donde:</small> &ensp; Bem-aventurado &ensp; <small>Cic. Fin. 5, 53.</small> <br> <b>5</b> &ensp; <small>II-Termo de retórica:</small> &ensp; rico, abundante &ensp; <small>Quint. 10, 1, 61.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Beatus</b> -<b>a</b> -<b>um</b> -<b>tior</b> -<b>tissimus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; bemaventurado, feliz, venturoso. <br> <b>2</b> &ensp; rico, opulento. <br> <b>3</b> &ensp; <small>Hor.</small> &ensp; abundante, fertil. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Beatus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa bem auenturada. ou rica </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/hypolemma/4503 ' target="_blank"> http://lila-erc.eu/data/id/hypolemma/4503 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+bĕātus 
+ bĕāta 
+ bĕātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx98-101-97-116-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx98-101-97-116-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword beatus here are all the values plotted: collocate: uita; scoreSUBST: 3. collocate: o; scoreSUBST: 0. collocate: puto; scoreSUBST: 0. collocate: ille; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx98-101-97-116-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword beatus here are all the values plotted: collocate: uita; scoreADJ: 0. collocate: o; scoreADJ: 0. collocate: puto; scoreADJ: 0. collocate: ille; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx98-101-97-116-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword beatus here are all the values plotted: collocate: uita; scoreVERBO: 0. collocate: o; scoreVERBO: 0. collocate: puto; scoreVERBO: 2. collocate: ille; scoreVERBO: 0. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx98-101-97-116-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword beatus here are all the values plotted: collocate: uita; scoreADV: 0. collocate: o; scoreADV: 0. collocate: puto; scoreADV: 0. collocate: ille; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx98-101-97-116-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword beatus here are all the values plotted: collocate: uita; scoreFUNC: 0. collocate: o; scoreFUNC: 0. collocate: puto; scoreFUNC: 0. collocate: ille; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> atqui licet esse <b>beatis</b> <br> <small> Hor.S.1.1.19 <br> no entanto, lhes é permitido ser felizes. <small> [JDD] </small> </small> </p>
+; <p> quem qui <b>beatum</b> fuisse putant miseri ipsi sunt <br> <small> Cic.Phil.1.35.3 <br> E os que acham que ele foi feliz, esses são os infelizes. <small> [JDD] </small> </small> </p>
+; <p> ex quo illorum <b>beata</b> mors uidetur horum uita laudabilis <br> <small> Cic.Amici.23 <br> Em vista disso, a morte daqueles parece feliz, a vida destes, louvável. <small> [JDD] </small> </small> </p>
+; <p> o terram illam <b>beatam</b> quae hunc uirum exceperit hanc ingratam si eiecerit miseram si amiserit <br> <small> Cic.Mil.105 <br> Ó terra feliz aquela que receber este homem, ingrata esta nossa, se o expulsar, desgraçada, se o perder! <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx98-101-97-116-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 6.22 and an absolute frequency of 7. The Sallustius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 27 ; absolute frequency: 1.68199147790985. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 31 ; absolute frequency: 5.78563296690991. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx98-101-97-116-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 6.42 and an absolute frequency of 39. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 0.53 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.filosófica ; normalized frequency: 39 ; absolute frequency: 6.42493533879178. subcorpus: Prosa.oratória ; normalized frequency: 15 ; absolute frequency: 1.44018895279061. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx98-101-97-116-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 4.9 and an absolute frequency of 32. The I.a.C. subcorpus follows, with a normalized frequency of 1.63 and an absolute frequency of 35. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 35 ; absolute frequency: 1.629043518734. subcorpus: I.d.C. ; normalized frequency: 32 ; absolute frequency: 4.89521187088879. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

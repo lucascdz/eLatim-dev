@@ -1,0 +1,214 @@
+---
+title: "quisquam"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx113-117-105-115-113-117-97-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>quicquam</b> <br> <small></small> <br> <small>v. quisquam.</small> 
+ <b>quidquam</b> <br> <small></small> <br> <small>v. quisquam.</small> 
+ <b>quisquam</b> <b>quaequam, quodquam e quidquam ou quicquam</b> <br> <small>pron. indef.</small> <br> <small>Obs.: Emprega-se, principalmente, em frases negativas e nas de caráter dubiativo ou interrogativo.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Algum, alguma coisa, alguém: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>estne quisquam...? Cíc. Com: 18, “existe alguém ...?” T. Lív. 2, 9, 8: quisquam unus T. Lív. 3, 45, 4 “uma única pessoa”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Quisquam</b> <b>quaequam</b> <b>quisquam</b> <small>l</small> <b>quodquam</b> <b>quidquam</b> <small>l</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; algum, alguem, qualquer. </p>
+
+
+
+
+#### Velez
+
+<b>Quisquam</b> <small>et c.</small> <b>quaequam</b>   <p> <b>1</b> &ensp; alguem, ou algum </p>
+
+
+
+
+#### Cardoso
+
+<b>Quisquam</b> <b>quaequam</b> <b>quodquam</b>   <p> <b>1</b> &ensp; ho mesmo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/121315 ' target="_blank"> http://lila-erc.eu/data/id/lemma/121315 </a> <br>
+<small> classe: </small> pronome    <br>
+<small> paradigma: </small> pronominal <br>
+<small> outras grafias: </small> quoiquam <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+quisquăm 
+ quaequăm 
+ quidquăm
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx113-117-105-115-113-117-97-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword quisquam here are all the values plotted: collocate: neque; scoreSUBST: 0. collocate: nec; scoreSUBST: 0. collocate: dubito; scoreSUBST: 0. collocate: proficio; scoreSUBST: 0. collocate: uersus; scoreSUBST: 2. collocate: quidem; scoreSUBST: 0. collocate: alius; scoreSUBST: 0. collocate: amicus; scoreSUBST: 2. collocate: certus; scoreSUBST: 0. collocate: puto; scoreSUBST: 0. collocate: habeo; scoreSUBST: 0. collocate: bonus; scoreSUBST: 0. collocate: enim; scoreSUBST: 0. collocate: qua; scoreSUBST: 0. collocate: possum; scoreSUBST: 0. collocate: si; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx113-117-105-115-113-117-97-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword quisquam here are all the values plotted: collocate: neque; scoreADJ: 0. collocate: nec; scoreADJ: 0. collocate: dubito; scoreADJ: 0. collocate: proficio; scoreADJ: 0. collocate: uersus; scoreADJ: 0. collocate: quidem; scoreADJ: 0. collocate: alius; scoreADJ: 0. collocate: amicus; scoreADJ: 0. collocate: certus; scoreADJ: 2. collocate: puto; scoreADJ: 0. collocate: habeo; scoreADJ: 0. collocate: bonus; scoreADJ: 2. collocate: enim; scoreADJ: 0. collocate: qua; scoreADJ: 0. collocate: possum; scoreADJ: 0. collocate: si; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx113-117-105-115-113-117-97-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword quisquam here are all the values plotted: collocate: neque; scoreVERBO: 0. collocate: nec; scoreVERBO: 0. collocate: dubito; scoreVERBO: 2. collocate: proficio; scoreVERBO: 2. collocate: uersus; scoreVERBO: 0. collocate: quidem; scoreVERBO: 0. collocate: alius; scoreVERBO: 0. collocate: amicus; scoreVERBO: 0. collocate: certus; scoreVERBO: 0. collocate: puto; scoreVERBO: 2. collocate: habeo; scoreVERBO: 2. collocate: bonus; scoreVERBO: 0. collocate: enim; scoreVERBO: 0. collocate: qua; scoreVERBO: 0. collocate: possum; scoreVERBO: 2. collocate: si; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx113-117-105-115-113-117-97-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword quisquam here are all the values plotted: collocate: neque; scoreADV: 0. collocate: nec; scoreADV: 0. collocate: dubito; scoreADV: 0. collocate: proficio; scoreADV: 0. collocate: uersus; scoreADV: 0. collocate: quidem; scoreADV: 2. collocate: alius; scoreADV: 0. collocate: amicus; scoreADV: 0. collocate: certus; scoreADV: 0. collocate: puto; scoreADV: 0. collocate: habeo; scoreADV: 0. collocate: bonus; scoreADV: 0. collocate: enim; scoreADV: 2. collocate: qua; scoreADV: 2. collocate: possum; scoreADV: 0. collocate: si; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx113-117-105-115-113-117-97-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword quisquam here are all the values plotted: collocate: neque; scoreFUNC: 0. collocate: nec; scoreFUNC: 0. collocate: dubito; scoreFUNC: 0. collocate: proficio; scoreFUNC: 0. collocate: uersus; scoreFUNC: 0. collocate: quidem; scoreFUNC: 0. collocate: alius; scoreFUNC: 0. collocate: amicus; scoreFUNC: 0. collocate: certus; scoreFUNC: 0. collocate: puto; scoreFUNC: 0. collocate: habeo; scoreFUNC: 0. collocate: bonus; scoreFUNC: 0. collocate: enim; scoreFUNC: 0. collocate: qua; scoreFUNC: 0. collocate: possum; scoreFUNC: 0. collocate: si; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> si <b>quemquam</b> debuit me <br> <small> Cic.Phil.6.13.9 <br> Se alguém, devia ser a mim. <small> [JDD] </small> </small> </p>
+; <p> nihil habere <b>cuiquam</b> praeterea licebit <br> <small> Cic.Ver.2.4.7.15 <br> A ninguém será permitido, além disso, ter nada? <small> [JDD] </small> </small> </p>
+; <p> qui poterat <b>quicquam</b> eius modi dicere <br> <small> Cic.Ver.2.4.16.5 <br> Quem podia dizer algo desse tipo? <small> [JDD] </small> </small> </p>
+; <p> an uero <b>quisquam</b> dubitabit appellare Caesarem imperatorem <br> <small> Cic.Phil.14.28.1 <br> Por acaso alguém duvidará em chamar César de general vitorioso? <small> [JDD] </small> </small> </p>
+; <p> si <b>quicquam</b> me amas hunc locum muni <br> <small> Cic.Att.5.17.5 <br> Se tens alguma afeição por mim, defende essa posição. <small> [JDD] </small> </small> </p>
+; <p> negant enim <b>quemquam</b> esse uirum bonum nisi sapientem <br> <small> Cic.Amici.18 <br> pois dizem que nenhum homem é bom, a não ser o sábio. <small> [JDD] </small> </small> </p>
+; <p> ne c <b>quicquam</b> aliud opus est quam abrogari <br> <small> Cic.Att.3.15.5 <br> E não é necessário que nenhuma outra seja revogada. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nec <b>quicquam</b> ultra de paternis Augusti maioribus repperi . <br> <small> Suet.Aug.2.2.3 <br> Nada além disso encontrei acerca dos antepassados paternos de Augusto. <small> [JDD] </small> </small> </p>
+; <p> nec enim melior uir fuit Africano <b>quisquam</b> nec clarior <br> <small> Cic.Amici.6 <br> pois não houve nenhum homem melhor que o Africano nem mais ilustre. <small> [JDD] </small> </small> </p>
+; <p> sed interea πολιτικὸς ἀνὴρ οὐδ’ ὄναρ <b>quisquam</b> inveniri potest <br> <small> Cic.Att.1.18.6 <br> Entretanto, quem pode ser encontrado como homem político ou sua sombra. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nemo <b>quicquam</b> habet facti in futurum enim nostra distulimus <br> <small> Sen.Ep.22.14 <br> Ninguém tem nada feito; pois adiamos nossas coisas para o futuro. <small> [JDD] </small> </small> </p>
+; <p> si est enim apud homines <b>quicquam</b> quod potius sit laudetur <br> <small> Cic.Att.1.19.10 <br> pois se há entre os homens algo que seja mais digno de ser louvado, que eu seja criticado por não ter louvado mais outras coisas. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quamquam miror illa superbia et importunitate si <b>quemquam</b> amicum habere potuit <br> <small> Cic.Amici.54 <br> No entanto fico admirado se, com aquela soberba e má índole, pôde ter algum amigo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nolo enim <b>cuiusquam</b> fortis atque inlustris uiri ne minimum quidem erratum cum maxima laude coniungere <br> <small> Cic.Cael.43 <br> Pois não quero misturar nem mesmo o mais insignificante erro com a máxima glória de nenhum homem valoroso e ilustre. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> hunc hominem parum gratum <b>quisquam</b> putet aut non in eo ipso laudandum quod laudari non laborarit <br> <small> Cic.Att.5.2.2 <br> Alguém julgaria que esse homem seja pouco agradecido ou que não deva ser louvado pelo simples fato de que não se esforçou para ser louvado? <small> [JDD] </small> </small> </p>
+; <p> si enim exitus C. Caesaris efficere non potest ut malis carus esse quam metui nihil <b>cuiusquam</b> proficiet nec ualebit oratio <br> <small> Cic.Phil.1.35.1 <br> Pois se o fim de Caio César não é capaz de fazer que prefiras ser querido do que ser temido, de nada servirá nem valerá o discurso de ninguém. <small> [JDD] </small> </small> </p>
+; <p> ut Athenas a.d. vi Kal. Quintilis veneram exspectabam ibi iam quartum diem Pomptinum neque de eius adventu certi <b>quicquam</b> habebam <br> <small> Cic.Att.5.10.1 <br> Desde que cheguei em Atenas no sexto dia antes das calendas de quintil [26 de junho], já é o quarto dia que estou esperando Pomptino aqui e não tenho nada de certo sobre a chegada dele. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx113-117-105-115-113-117-97-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 14.84 and an absolute frequency of 16. The Seneca subcorpus follows, with a normalized frequency of 5.79 and an absolute frequency of 31. the subcorpus with the least normalized frequency is Vergilius with the normalized value of 1.93 and an absolute freqeuncy of 1. here are all the values: subcorpus: Caesar ; normalized frequency: 16 ; absolute frequency: 6.04275247375179. subcorpus: Cicero ; normalized frequency: 152 ; absolute frequency: 9.46898906082579. subcorpus: Horatius ; normalized frequency: 9 ; absolute frequency: 7.99218541870171. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 4 ; absolute frequency: 6.0725671777744. subcorpus: Sallustius ; normalized frequency: 16 ; absolute frequency: 14.8409238475095. subcorpus: Seneca ; normalized frequency: 31 ; absolute frequency: 5.78563296690991. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx113-117-105-115-113-117-97-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 12.45 and an absolute frequency of 47. The Poesia.épica subcorpus follows, with a normalized frequency of 1.93 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 1.93 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 34 ; absolute frequency: 8.2767350714477. subcorpus: Prosa.filosófica ; normalized frequency: 45 ; absolute frequency: 7.41338692937513. subcorpus: Prosa.oratória ; normalized frequency: 88 ; absolute frequency: 8.44910852303822. subcorpus: Prosa.epistolográfica ; normalized frequency: 47 ; absolute frequency: 12.4539600943321. subcorpus: Poesia.lírica ; normalized frequency: 9 ; absolute frequency: 7.57129637419029. subcorpus: Poesia.didática ; normalized frequency: 6 ; absolute frequency: 5.08949020273136. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx113-117-105-115-113-117-97-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 9.03 and an absolute frequency of 194. The II.d.C. subcorpus follows, with a normalized frequency of 5.24 and an absolute frequency of 2. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 5.24 and an absolute freqeuncy of 2. here are all the values: subcorpus: I.a.C. ; normalized frequency: 194 ; absolute frequency: 9.02955550383989. subcorpus: I.d.C. ; normalized frequency: 37 ; absolute frequency: 5.66008872571516. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+:::
+

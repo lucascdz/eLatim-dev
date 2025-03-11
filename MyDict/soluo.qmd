@@ -1,0 +1,209 @@
+---
+title: "soluo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-111-108-117-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>solvī</b> <br> <small>perf. de solvo.</small> <br> <small></small> 
+ <b>solvō</b> <b>-is</b> <b>-ère</b> <b>solví, solútum</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói-se com acus.; com abl. acompanhado ou não de prep. ab ou ex; como intr. absoluto subentendendo-se naves, navem, se a litore ou tendo como sujeito navis ou naves.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Desatar, desligar, desprender; soltar &ensp; <small>Cíc. Verr. 5, 12; Ov. Met. 11, 682.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Afrouxar os laços, desagregar, dissolver, romper &ensp; <small>Verg. G. 4, 302; T. Lív. 42, 65, 8.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado;</small> &ensp; Resolver &ensp; <small>Quint. 5; 10, 96.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado;</small> &ensp; Livrar, isentar, pôr em liberdade, libertar &ensp; <small>Cíc. Mil. 31; Cíc. Rep. 1, 30.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado;</small> &ensp; Afastar, dissipar, destruir, anular &ensp; <small>Cíc. Fin. 1, 22; Hot. Ep. 9, 38; T. Lív. 8, 7, 16.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado;</small> &ensp; Afrouxar, relaxar, amolecer, abrandar, enfraquecer &ensp; <small>Verg. En. 12, 951; Sên. Ep. 51, 5.</small> <br> <b>7</b> &ensp; <small>III-Empregos especiais:-Na língua náutica</small> &ensp; Levantar âncora, levantar ferros, dar à vela, partir &ensp; <small>Cíc. At. 1, 13, 1; Cés. B. Gal. 4, 28, 1.</small> <br> <b>8</b> &ensp; <small>III-Empregos especiais:-Na língua jurídica</small> &ensp; Pagar, solver uma dívida, saldar &ensp; <small>Cíc. Pis. 86; Cíc. Phil. 3, 11.</small> <br> <b>9</b> &ensp; <small>III-Empregos especiais:</small> &ensp; Pagar por um crime, sofrer, expiar, ser condenado &ensp; <small>Cíc. Mil. 85; Sal. B. Jug. 69, 4.</small> </p> 
+ <small>1.</small> <b>solŭī</b> <br> <small>= solví, perf. de solvo Catul. 2, 13.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Solvo</b> -<b>is</b> -<b>vi</b> -<b>olutum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Virg.</small> &ensp; desatar. <br> <b>2</b> &ensp; <small>Cic.</small> &ensp; partir do porto, levantar ancora. <br> <b>3</b> &ensp; livrar. <br> <b>4</b> &ensp; <small>Ovid.</small> &ensp; limpar. <br> <b>5</b> &ensp; <small>Quinct.</small> &ensp; resolver, tirar a difficuldade. <br> <b>6</b> &ensp; <small>Nep.</small> &ensp; abrir. <br> <b>7</b> &ensp; <small>Hor.</small> &ensp; dissolver, fazer derreter. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>soluendo esse &ensp; <small><small>Cic</small></small> &ensp; <small>Poder satisfazer ao que se está obrigado</small> <br> soluendo non esse &ensp; <small><small>Cic</small></small> &ensp; <small>naõ poder satisfazer ao que se está obrigado</small> <br> soluere ab aliquo, quod debet &ensp; <small><small>Cic</small></small> &ensp; <small>Pagar a divida a alguem</small> <br> soluere ebrietatem &ensp; <small><small>Cels</small></small> &ensp; <small>Dissipar a bebedice</small> <br> soluere formidine terras &ensp; <small><small>Virg</small></small> &ensp; <small>Livrar as terras de temor</small> <br> soluere obsidionem &ensp; <small><small>Liv</small></small> &ensp; <small>Levantar o sitio</small> <br> soluere uerba impia in Deos &ensp; <small><small>Tibul</small></small> &ensp; <small>Vomitar blasfemias contra os Deozes</small> <br> soluere uerbis &ensp; <small><small>Ter</small></small> &ensp; <small>Satisfazer com palavras</small> <br> solui &ensp; <small><small>Petr</small></small> &ensp; <small>Morrer</small> <br> solui in lacrimas &ensp; <small><small>Luc</small></small> &ensp; <small>Desfazer-se em pranto</small> <br> solui luctu &ensp; <small><small>Virg</small></small> &ensp; <small>Desfazer-se em pranto</small> </p>
+
+
+
+
+#### Velez
+
+<b>Solvo</b> -<b>is</b>   <p> <b>1</b> &ensp; desatar, desfazer, quebrar, soltar, alargar &ensp; <small>accus.</small> <br> <b>2</b> &ensp; <small>por</small> &ensp; livrar &ensp; <small>aliquem aliqua re</small> <br> <b>3</b> &ensp; <small>solvo</small> &ensp; pagar &ensp; <small>aliquid alicui:</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>soluere aliquem legibus &ensp; <small>livrar das leys, dispensar</small> <br> <br><b>X</b><br>soluere sine casu, uel soluere e portu, uel soluere nauem &ensp; <small>dar á vela</small> <br> soluere uotum &ensp; <small>cumprir o voto</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Soluo</b> <b>is</b>   <p> <b>1</b> &ensp; desatar. ou pagar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/125108 ' target="_blank"> http://lila-erc.eu/data/id/lemma/125108 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> soluo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> soluere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> soluet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> solui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> solutum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> soluturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+solvō 
+ solvĕre 
+ solvī 
+ sŏlūtum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx115-111-108-117-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-111-108-117-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword soluo here are all the values plotted: collocate: pecunia; scoreSUBST: 2. collocate: nauis; scoreSUBST: 2. collocate: scelus; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-111-108-117-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword soluo here are all the values plotted: collocate: pecunia; scoreADJ: 0. collocate: nauis; scoreADJ: 0. collocate: scelus; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-111-108-117-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword soluo here are all the values plotted: collocate: pecunia; scoreVERBO: 0. collocate: nauis; scoreVERBO: 0. collocate: scelus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-111-108-117-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword soluo here are all the values plotted: collocate: pecunia; scoreADV: 0. collocate: nauis; scoreADV: 0. collocate: scelus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-111-108-117-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword soluo here are all the values plotted: collocate: pecunia; scoreFUNC: 0. collocate: nauis; scoreFUNC: 0. collocate: scelus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> emi pecuniam <b>solui</b> <br> <small> Cic.Ver.2.4.43.3 <br> “Comprei; paguei com meu dinheiro.” <small> [JDD] </small> </small> </p>
+; <p> atque hunc ille summus uir scelere <b>solutum</b> periculo liberauit <br> <small> Cic.Mil.9 <br> E aquele grande homem liberou do perigo esse absolvido do crime. <small> [JDD] </small> </small> </p>
+; <p> ipse idoneam tempestatem nactus paulo post mediam noctem naues <b>soluit</b> <br> <small> Caes.Gal.4.36.3 <br> Ele próprio, tendo encontrado um clima apropriado, zarpou com seus navios pouco depois da meia noite. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-111-108-117-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 6.07 and an absolute frequency of 4. The Tacitus subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 3 ; absolute frequency: 1.13301608882846. subcorpus: Cicero ; normalized frequency: 23 ; absolute frequency: 1.43280755525653. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 4 ; absolute frequency: 6.0725671777744. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 22 ; absolute frequency: 4.10593307329091. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-111-108-117-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 7.82 and an absolute frequency of 9. The Poesia.trágica subcorpus follows, with a normalized frequency of 7.82 and an absolute frequency of 9. the subcorpus with the least normalized frequency is Prosa.oratória with the normalized value of 1.06 and an absolute freqeuncy of 11. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 5 ; absolute frequency: 1.21716692227172. subcorpus: Prosa.filosófica ; normalized frequency: 13 ; absolute frequency: 2.14164511293059. subcorpus: Prosa.oratória ; normalized frequency: 11 ; absolute frequency: 1.05613856537978. subcorpus: Prosa.epistolográfica ; normalized frequency: 12 ; absolute frequency: 3.1797344921699. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 6 ; absolute frequency: 5.08949020273136. subcorpus: Poesia.trágica ; normalized frequency: 9 ; absolute frequency: 7.81792911744267. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-111-108-117-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 4.49 and an absolute frequency of 2. The I.d.C. subcorpus follows, with a normalized frequency of 4.28 and an absolute frequency of 28. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 35 ; absolute frequency: 1.629043518734. subcorpus: I.d.C. ; normalized frequency: 28 ; absolute frequency: 4.28331038702769. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

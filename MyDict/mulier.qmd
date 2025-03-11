@@ -1,0 +1,203 @@
+---
+title: "mulier"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-117-108-105-101-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>mulĭer</b> <b>-èris</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Mulher &ensp; <small>em geral Cíc. Mur. 27.</small> <br> <b>2</b> &ensp; <small>II-Daí, em sent. particular</small> &ensp; Mulher, esposa &ensp; <small>em oposição a virgo Hor. Ep. 2, 39.</small> <br> <b>3</b> &ensp; <small>II-Daí, em sent. particular</small> &ensp; Mulher símbolo da fraqueza e da timidez, mulher &ensp; <small>termo de injúria Plaut. Bac. 845.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Mulier</b> -<b>eris</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; mulher. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Mulier</b> -<b>eris</b>   <p> <b>1</b> &ensp; a molher </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/112890 ' target="_blank"> http://lila-erc.eu/data/id/lemma/112890 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+mŭlĭĕr 
+ mŭlĭĕris
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx109-117-108-105-101-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-117-108-105-101-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword mulier here are all the values plotted: collocate: nobilis; scoreSUBST: 0. collocate: puer; scoreSUBST: 2. collocate: iste; scoreSUBST: 0. collocate: uir; scoreSUBST: 2. collocate: quis; scoreSUBST: 0. collocate: que; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-117-108-105-101-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword mulier here are all the values plotted: collocate: nobilis; scoreADJ: 2. collocate: puer; scoreADJ: 0. collocate: iste; scoreADJ: 0. collocate: uir; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: que; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-117-108-105-101-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword mulier here are all the values plotted: collocate: nobilis; scoreVERBO: 0. collocate: puer; scoreVERBO: 0. collocate: iste; scoreVERBO: 0. collocate: uir; scoreVERBO: 0. collocate: quis; scoreVERBO: 0. collocate: que; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-117-108-105-101-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword mulier here are all the values plotted: collocate: nobilis; scoreADV: 0. collocate: puer; scoreADV: 0. collocate: iste; scoreADV: 0. collocate: uir; scoreADV: 0. collocate: quis; scoreADV: 0. collocate: que; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-117-108-105-101-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword mulier here are all the values plotted: collocate: nobilis; scoreFUNC: 0. collocate: puer; scoreFUNC: 0. collocate: iste; scoreFUNC: 0. collocate: uir; scoreFUNC: 0. collocate: quis; scoreFUNC: 0. collocate: que; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Accusatores postularunt <b>mulierem</b> Romamque pertraxerunt ad centumviros . <br> <small> Phaed.3.10 <br> Os acusadores denunciaram a mulher e a arrastaram para Roma aos centúviros. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> audetis ne cum ab ea <b>muliere</b> ueniatis facere istorum hominum mentionem <br> <small> Cic.Cael.71 <br> Vós ousais, uma vez que vindes da parte dessa mulher, fazer menção a esses homens? <small> [JDD] </small> </small> </p>
+; <p> audisti igitur ex <b>muliere</b> quoniam id uiri nec uidisse neque nosse poterant <br> <small> Cic.Ver.2.4.102.3 <br> Ouviste, portanto, de uma mulher, visto que os homens não podiam tê-la visto ou conhecido. <small> [JDD] </small> </small> </p>
+; <p> quae fuit enim causa quam ob rem isti <b>mulieri</b> uenenum dare uellet Caelius <br> <small> Cic.Cael.56 <br> Pois qual foi motivo, por que razão Célio ia querer dar veneno para essa mulher? <small> [JDD] </small> </small> </p>
+; <p> quae <b>mulier</b> interficere sceleratum ac perniciosum ciuem non auderet si periculum non timeret <br> <small> Cic.Mil.82 <br> Que mulher não ousaria matar um cidadão celerado e pernicioso, se não temesse o perigo? <small> [JDD] </small> </small> </p>
+; <p> at reliqua multitudo puerorum <b>mulierum</b>que nam cum omnibus suis domo excesserant Rhenumque transierant passim fugere coepit <br> <small> Caes.Gal.4.14.5 <br> mas a restante multidão de meninos e mulheres (pois com todos os seus tinham saído de casa e atravessado o Reno) pôs-se a fugir por todos os lados. <small> [JDD] </small> </small> </p>
+; <p> postridie sacerdotes Cereris atque illius fani antistitae maiores natu probatae ac nobiles <b>mulieres</b> rem ad magistratus suos deferunt <br> <small> Cic.Ver.2.4.99.11 <br> No dia seguinte, as sacerdotisas de Ceres e as superioras daquele templo, mulheres mais velhas, virtuosas e nobres, levam o caso aos seus magistrados. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-117-108-105-101-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 8.99 and an absolute frequency of 4. The Phaedrus subcorpus follows, with a normalized frequency of 7.59 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 6 ; absolute frequency: 2.26603217765692. subcorpus: Cicero ; normalized frequency: 61 ; absolute frequency: 3.80005482046298. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 5 ; absolute frequency: 7.59070897221801. subcorpus: Sallustius ; normalized frequency: 5 ; absolute frequency: 4.63778870234672. subcorpus: Seneca ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-117-108-105-101-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 8.99 and an absolute frequency of 4. The Prosa.oratória subcorpus follows, with a normalized frequency of 5.28 and an absolute frequency of 55. the subcorpus with the least normalized frequency is Prosa.filosófica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 11 ; absolute frequency: 2.67776722899778. subcorpus: Prosa.filosófica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.oratória ; normalized frequency: 55 ; absolute frequency: 5.28069282689889. subcorpus: Prosa.epistolográfica ; normalized frequency: 6 ; absolute frequency: 1.58986724608495. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-117-108-105-101-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 8.99 and an absolute frequency of 4. The I.a.C. subcorpus follows, with a normalized frequency of 3.44 and an absolute frequency of 74. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 74 ; absolute frequency: 3.44426343960903. subcorpus: I.d.C. ; normalized frequency: 5 ; absolute frequency: 0.764876854826373. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+:::
+

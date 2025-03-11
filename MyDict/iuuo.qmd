@@ -1,0 +1,214 @@
+---
+title: "iuuo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-117-117-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>juĕrint</b> <br> <small>= juvèrint Catul. 66, 18 V. juvo.</small> <br> <small></small> 
+ <b>juvat</b> <br> <small>impess. de juvo.</small> <br> <small></small> 
+ <b>jūvī</b> <br> <small>perf. de juvo.</small> <br> <small></small> 
+ <b>juvō</b> <b>-ás</b> <b>-áre</b> <b>júví, jútum</b> <br> <b>iuvō</b> <b>-ás</b> <b>-áre</b> <b>júví, jútum</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói - se, pessoalmente, com acus.: com acus. e abl. Impessoalmente com acus. e or. inf.</small>   <p> <b>1</b> &ensp; <small>Sent. próprio</small> &ensp; Agradar a &ensp; <small>T. Lív. 28. 27. 10.</small> <br> <b>2</b> &ensp; <small>Daí:-muitas vezes, impessoal:</small> &ensp; <small></small> <br> <b>3</b> &ensp; <small>Donde:</small> &ensp; Ajudar, auxiliar, ser útil &ensp; <small>Verg. En. 10. 284; Cíc. Verr. 1. 123.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>juvat evasisse tot urbes Verg. En. 3. 283 «agrada-nos ter saído de tantas cidades». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Juvo</b> -<b>as</b> <b>juvi</b> <b>jutum</b> <b>juvatum</b> <small>l</small> -<b>are</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; ajudar, soccorrer. </p>
+
+
+
+
+#### Velez
+
+<b>Juvo</b> -<b>as</b> <br> <small>1. b.</small>   <p> <b>1</b> &ensp; ajudar, soccorrer &ensp; <small>Act.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Iuuo</b> -<b>as</b> <b>iuui</b> <b>adiutum</b>   <p> <b>1</b> &ensp; ajudar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/109294 ' target="_blank"> http://lila-erc.eu/data/id/lemma/109294 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> iuuo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> iuuare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> iuuabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> iuuaui, iuui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> iuuatum, iutum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> iuuaturum, iuturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+jŭvō 
+ jŭvās 
+ jŭvāre 
+ jūvī 
+ jūtum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx105-117-117-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-117-117-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword iuuo here are all the values plotted: collocate: deus; scoreSUBST: 2. collocate: nos; scoreSUBST: 0. collocate: quis; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-117-117-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword iuuo here are all the values plotted: collocate: deus; scoreADJ: 0. collocate: nos; scoreADJ: 0. collocate: quis; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-117-117-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword iuuo here are all the values plotted: collocate: deus; scoreVERBO: 0. collocate: nos; scoreVERBO: 0. collocate: quis; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-117-117-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword iuuo here are all the values plotted: collocate: deus; scoreADV: 0. collocate: nos; scoreADV: 0. collocate: quis; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-117-117-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword iuuo here are all the values plotted: collocate: deus; scoreFUNC: 0. collocate: nos; scoreFUNC: 0. collocate: quis; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quod superest di <b>iuvent</b> <br> <small> Cic.Att.5.11.4 <br> Quanto ao que resta, que os deuses nos ajudem! <small> [JDD] </small> </small> </p>
+; <p> quid terrarum <b>iuuare</b> nouitas potest <br> <small> Sen.Ep.28.2 <br> O que pode te ajudar a novidade das terras? <small> [JDD] </small> </small> </p>
+; <p> saepe ita me di <b>iuvent</b> <br> <small> Cic.Att.1.16.1 <br> Muitas vezes, assim me ajudem os deuses. <small> [JDD] </small> </small> </p>
+; <p> Parthus velim quiescat et fortuna nos <b>iuvet</b> <br> <small> Cic.Att.5.9.1 <br> Tomara que o povo parto esteja em paz e que a fortuna nos ajude. <small> [JDD] </small> </small> </p>
+; <p> quid igitur hunc paucorum annorum accessio <b>iuuare</b> potuisset <br> <small> Cic.Amici.11 <br> Portanto, em que poderia ajudá-lo o acréscimo de uns poucos anos? <small> [JDD] </small> </small> </p>
+; <p> etiam si futurum est quid <b>iuuat</b> dolori suo occurrere <br> <small> Sen.Ep.13.10 <br> Se ainda vai ocorrer, de que adianta ir ao seu encontro já com dor? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-117-117-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 7.99 and an absolute frequency of 9. The Tacitus subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 4 ; absolute frequency: 1.51068811843795. subcorpus: Cicero ; normalized frequency: 14 ; absolute frequency: 0.872143729286586. subcorpus: Horatius ; normalized frequency: 9 ; absolute frequency: 7.99218541870171. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 19 ; absolute frequency: 3.54603310875124. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-117-117-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 12.16 and an absolute frequency of 14. The Poesia.lírica subcorpus follows, with a normalized frequency of 7.57 and an absolute frequency of 9. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 4 ; absolute frequency: 0.973733537817376. subcorpus: Prosa.filosófica ; normalized frequency: 7 ; absolute frequency: 1.15319352234724. subcorpus: Prosa.oratória ; normalized frequency: 4 ; absolute frequency: 0.384050387410828. subcorpus: Prosa.epistolográfica ; normalized frequency: 8 ; absolute frequency: 2.11982299477994. subcorpus: Poesia.lírica ; normalized frequency: 9 ; absolute frequency: 7.57129637419029. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 14 ; absolute frequency: 12.1612230715775. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-117-117-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 3.06 and an absolute frequency of 20. The I.a.C. subcorpus follows, with a normalized frequency of 1.35 and an absolute frequency of 29. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 29 ; absolute frequency: 1.34977891552246. subcorpus: I.d.C. ; normalized frequency: 20 ; absolute frequency: 3.05950741930549. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

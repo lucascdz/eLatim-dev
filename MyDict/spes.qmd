@@ -1,0 +1,217 @@
+---
+title: "spes"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-112-101-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>spēs</b> <b>spèí</b> <br> <small>subs. f.</small> <br> <small>Obs.: Constrói-se absolutamente: com gen. objet.; com gen. subjet:; com oração infinitiva; com ut; com abl. acompanhado de de; com o gerúndio acompanhado de ad.</small>   <p> <b>1</b> &ensp; <small>Sent. próprio</small> &ensp; Esperança expectativa &ensp; <small>de uma coisa feliz Cíc. Cat. 2, 25.</small> <br> <b>2</b> &ensp; <small>Daí:</small> &ensp; Esperança aquilo que se espera, expectativa de um bem ou mal &ensp; <small>Verg. En. 5. 672.</small> <br> <b>3</b> &ensp; <small>Daí:</small> &ensp; Perspectiva, espera &ensp; <small>T. Lív. 21, 6, 5.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Spes</b> -<b>ei</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; esperança. <br> <b>2</b> &ensp; <small>Luc.</small> &ensp; temor, medo. </p>
+
+
+
+
+#### Velez
+
+<b>Spes</b> <b>spei</b>   <p> <b>1</b> &ensp; a esperança </p>
+
+
+
+
+#### Cardoso
+
+<b>Spes</b> -<b>ei</b>   <p> <b>1</b> &ensp; esperança dalgum bem </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/125336 ' target="_blank"> http://lila-erc.eu/data/id/lemma/125336 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 5ª declinação (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+spēs 
+ speī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx115-112-101-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-112-101-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword spes here are all the values plotted: collocate: salus; scoreSUBST: 3. collocate: uictoria; scoreSUBST: 2. collocate: adduco; scoreSUBST: 0. collocate: praeda; scoreSUBST: 2. collocate: bonus; scoreSUBST: 0. collocate: metus; scoreSUBST: 2. collocate: libertas; scoreSUBST: 2. collocate: magnus; scoreSUBST: 0. collocate: ullus; scoreSUBST: 0. collocate: praeter; scoreSUBST: 0. collocate: aliquis; scoreSUBST: 0. collocate: pax; scoreSUBST: 2. collocate: sine; scoreSUBST: 0. collocate: tum; scoreSUBST: 0. collocate: habeo; scoreSUBST: 0. collocate: meus; scoreSUBST: 0. collocate: etiam; scoreSUBST: 0. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-112-101-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword spes here are all the values plotted: collocate: salus; scoreADJ: 0. collocate: uictoria; scoreADJ: 0. collocate: adduco; scoreADJ: 0. collocate: praeda; scoreADJ: 0. collocate: bonus; scoreADJ: 2. collocate: metus; scoreADJ: 0. collocate: libertas; scoreADJ: 0. collocate: magnus; scoreADJ: 2. collocate: ullus; scoreADJ: 0. collocate: praeter; scoreADJ: 0. collocate: aliquis; scoreADJ: 0. collocate: pax; scoreADJ: 0. collocate: sine; scoreADJ: 0. collocate: tum; scoreADJ: 0. collocate: habeo; scoreADJ: 0. collocate: meus; scoreADJ: 0. collocate: etiam; scoreADJ: 0. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-112-101-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword spes here are all the values plotted: collocate: salus; scoreVERBO: 0. collocate: uictoria; scoreVERBO: 0. collocate: adduco; scoreVERBO: 2. collocate: praeda; scoreVERBO: 0. collocate: bonus; scoreVERBO: 0. collocate: metus; scoreVERBO: 0. collocate: libertas; scoreVERBO: 0. collocate: magnus; scoreVERBO: 0. collocate: ullus; scoreVERBO: 0. collocate: praeter; scoreVERBO: 0. collocate: aliquis; scoreVERBO: 0. collocate: pax; scoreVERBO: 0. collocate: sine; scoreVERBO: 0. collocate: tum; scoreVERBO: 0. collocate: habeo; scoreVERBO: 2. collocate: meus; scoreVERBO: 0. collocate: etiam; scoreVERBO: 0. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-112-101-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword spes here are all the values plotted: collocate: salus; scoreADV: 0. collocate: uictoria; scoreADV: 0. collocate: adduco; scoreADV: 0. collocate: praeda; scoreADV: 0. collocate: bonus; scoreADV: 0. collocate: metus; scoreADV: 0. collocate: libertas; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: ullus; scoreADV: 0. collocate: praeter; scoreADV: 0. collocate: aliquis; scoreADV: 0. collocate: pax; scoreADV: 0. collocate: sine; scoreADV: 0. collocate: tum; scoreADV: 2. collocate: habeo; scoreADV: 0. collocate: meus; scoreADV: 0. collocate: etiam; scoreADV: 2. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-112-101-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword spes here are all the values plotted: collocate: salus; scoreFUNC: 0. collocate: uictoria; scoreFUNC: 0. collocate: adduco; scoreFUNC: 0. collocate: praeda; scoreFUNC: 0. collocate: bonus; scoreFUNC: 0. collocate: metus; scoreFUNC: 0. collocate: libertas; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0. collocate: ullus; scoreFUNC: 0. collocate: praeter; scoreFUNC: 20. collocate: aliquis; scoreFUNC: 0. collocate: pax; scoreFUNC: 0. collocate: sine; scoreFUNC: 20. collocate: tum; scoreFUNC: 0. collocate: habeo; scoreFUNC: 0. collocate: meus; scoreFUNC: 0. collocate: etiam; scoreFUNC: 0. collocate: in; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>spe</b> metus falsa leuas <br> <small> Sen.Ag.283 <br> Alivias o medo com falsa esperança. <small> [JDD] </small> </small> </p>
+; <p> tam magnas <b>spes</b> relinquam <br> <small> Sen.Ep.22.9 <br> Abandonarei tão grandes esperanças? <small> [JDD] </small> </small> </p>
+; <p> nimirum in Publio <b>spes</b> est <br> <small> Cic.Att.2.15.2 <br> Sem dúvida, a esperança está em Públio. <small> [JDD] </small> </small> </p>
+; <p> servis aperte <b>spem</b> libertatis ostendere <br> <small> Cic.Att.4.3.2 <br> mostrava abertamente aos escravos a esperança de liberdade. <small> [JDD] </small> </small> </p>
+; <p> obstabat in <b>spe</b> consulatus Miloni Clodius <br> <small> Cic.Mil.34 <br> “Clódio era um obstáculo para Milão em sua esperança do consulado.” <small> [JDD] </small> </small> </p>
+; <p> sed tua profectio <b>spem</b> meam debilitat <br> <small> Cic.Att.5.4.1 <br> mas tua partida enfraquece a minha esperança. <small> [JDD] </small> </small> </p>
+; <p> in tribunis plebis designatis reliqua <b>spes</b> est <br> <small> Cic.Att.3.13.1 <br> Nos tribunos da plebe designados está a esperança que resta. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> si minus uitio uitium repelle <b>spe</b> metum tempera <br> <small> Sen.Ep.13.12 <br> se não, repele um defeito com outro defeito, modera o medo com a esperança. <small> [JDD] </small> </small> </p>
+; <p> una <b>spes</b> est salutis istorum inter istos dissensio <br> <small> Cic.Att.2.7.3 <br> A única esperança de salvação é o desacordo entre esses indivíduos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> bene habemus nos si in his <b>spes</b> est <br> <small> Cic.Att.2.8.1 <br> Nós nos encontramos bem, se a esperança está neles. <small> [JDD] </small> </small> </p>
+; <p> admirabantur boni uiri accusabant amici quod <b>spe</b> pacis legationem suscepissem <br> <small> Cic.Phil.12.5.9 <br> Os bons cidadãos estavam surpresos, os amigos me acusavam por eu ter empreendido uma legação na esperança da paz.” <small> [JDD] </small> </small> </p>
+; <p> me tuae litterae numquam in tantam <b>spem</b> adduxerunt quantam aliorum <br> <small> Cic.Att.3.19.2 <br> Tuas cartas nunca me levaram a tanta esperança como a dos outros. <small> [JDD] </small> </small> </p>
+; <p> ac tamen mea <b>spes</b> etiam tenuior semper fuit quam tuae litterae <br> <small> Cic.Att.3.19.2 <br> e, no entanto, a minha esperança sempre foi até mesmo mais fraca do que tuas cartas. <small> [JDD] </small> </small> </p>
+; <p> iste tum petere ab illis tum minari tum <b>spem</b> tum metum ostendere <br> <small> Cic.Ver.2.4.75.8 <br> Esse sujeito ora pede a eles, ora os ameaça, lhes mostra ora a esperança, ora o medo. <small> [JDD] </small> </small> </p>
+; <p> nam si <b>spes</b> erit Epirum si minus Cyzicum aut aliud aliquid sequemur <br> <small> Cic.Att.3.16.1 <br> Pois se houver esperança, seguiremos para Epiro, se não, para Cízico ou qualquer outro lugar. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> mea enim gloria erit si te istinc ubi sine <b>spe</b> exeundi fluctuaris extraxero <br> <small> Sen.Ep.20.1 <br> pois será minha a glória, se eu te tirar dali onde estavas flutuando sem esperança de sair. <small> [JDD] </small> </small> </p>
+; <p> cum uos considero milites et cum facta uostra aestumo magna me <b>spes</b> uictoriae tenet <br> <small> Sal.Cat.58.18 <br> Quando vos considero, soldados, e quando avalio os vosso feitos, uma grande esperança de vitória se apodera de mim. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> militum pars horum uirtute submotis hostibus praeter <b>spem</b> incolumis in castra peruenit pars a barbaris circumuenta periit <br> <small> Caes.Gal.6.40.8 <br> Parte dos soldados, uma vez repelidos os inimigos pelo valor daqueles, chegou, contra sua esperança, no acampamento sã e salva, parte, cercada pelos bárbaros, pereceu. <small> [JDD] </small> </small> </p>
+; <p> quos quidem ego iudices testis non modo sine ullo timore sed etiam cum aliqua <b>spe</b> delectationis exspecto <br> <small> Cic.Cael.66 <br> E eu, por certo, juízes, estou aguardando essas testemunhas não só sem temor algum, mas até com alguma esperança de divertimento. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> oblata <b>spe</b> Germani quam nacti erant praedam in occulto relinquunt ipsi Atuatucam contendunt usi eodem duce cuius haec indicio cognouerant <br> <small> Caes.Gal.6.35.10 <br> Oferecida essa esperança, os germanos deixam em lugar oculto a presa que tinham achado; eles marcham para Aduátuca, usando do mesmo guia por cuja indicação ficaram sabendo disso. <small> [JDD] </small> </small> </p>
+; <p> etiam illud iam cognitum est neque argenti scripulum esse ullum in illa insula neque ullam <b>spem</b> praedae nisi ex mancipiis <br> <small> Cic.Att.4.17.6 <br> Já se soube também isso: que não há nenhuma peça de prata naquela ilha nem esperança de butim, a não ser de escravos. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-112-101-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 20.6 and an absolute frequency of 6. The Sallustius subcorpus follows, with a normalized frequency of 15.77 and an absolute frequency of 17. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 36 ; absolute frequency: 13.5961930659415. subcorpus: Cicero ; normalized frequency: 156 ; absolute frequency: 9.71817298347911. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 17 ; absolute frequency: 15.7684815879789. subcorpus: Seneca ; normalized frequency: 28 ; absolute frequency: 5.22573300237024. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 6 ; absolute frequency: 20.5973223480947. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-112-101-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 14.57 and an absolute frequency of 55. The Prosa.histórica subcorpus follows, with a normalized frequency of 14.36 and an absolute frequency of 59. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 59 ; absolute frequency: 14.3625696828063. subcorpus: Prosa.filosófica ; normalized frequency: 34 ; absolute frequency: 5.60122567997232. subcorpus: Prosa.oratória ; normalized frequency: 93 ; absolute frequency: 8.92917150730176. subcorpus: Prosa.epistolográfica ; normalized frequency: 55 ; absolute frequency: 14.5737830891121. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-112-101-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 15.71 and an absolute frequency of 6. The I.a.C. subcorpus follows, with a normalized frequency of 10.05 and an absolute frequency of 216. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 216 ; absolute frequency: 10.0535257156155. subcorpus: I.d.C. ; normalized frequency: 33 ; absolute frequency: 5.04818724185406. subcorpus: II.d.C. ; normalized frequency: 6 ; absolute frequency: 15.7068062827225. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

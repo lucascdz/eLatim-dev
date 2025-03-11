@@ -1,0 +1,218 @@
+---
+title: "existimo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx101-120-105-115-116-105-109-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>exaestĭmō</b> <br> <small>= existìmo.</small> <br> <small></small> 
+ <b>existĭmō</b> <b>-ás</b> <b>-áre</b> <b>-áví, -átum</b> <br> <b>existŭmō</b> <small>arc.</small> <b>-ás</b> <b>-áre</b> <b>-áví, -átum</b> <br> <small>v. tr. e intr.</small> <br> <small>Obs.: Constrói-se com acus.:. com acus. e inf.: com interr. ind.: com abl. com de; com gen. de preço e. intransitivamente.</small>   <p> <b>1</b> &ensp; <small>I-Tr.:</small> &ensp; Julgar. pensar. crer &ensp; <small>Cíc. Verr. 3. 190.</small> <br> <b>2</b> &ensp; <small>I-Tr.:</small> &ensp; Apreciar &ensp; <small>Plaut. Capt. 678.</small> <br> <b>3</b> &ensp; <small>II-Intr.:</small> &ensp; Ter uma opinião, julgar &ensp; <small>Cíc. At. 6. 2. 3.</small> <br> <b>4</b> &ensp; <small>II-Intr.:-Pass. impessoal Cíc. Br. 82.</small> &ensp; <small></small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Existimo</b> -<b>as</b> -<b>avi</b> -<b>atum</b> -<b>are</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; estimar, julgar, crer, persuadir-se, avaliar. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Existimo</b> -<b>as</b>   <p> <b>1</b> &ensp; cuydar </p> 
+ <b>Extimo</b> -<b>as</b> -<b>aui</b> -<b>atum</b> <br> <small>sed rectius scribitur aestimo.</small>   <p> <b>1</b> &ensp; estimar. ou cudar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/102057 ' target="_blank"> http://lila-erc.eu/data/id/lemma/102057 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small> exaestimo, exaestumo, existumo, extimo <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> exaestimo, exaestumo, existimo, existumo, extimo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> exaestimare, exaestumare, existimare, existumare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> exaestimabit, exaestumabit, existimabit, existumabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> exaestimaui, exaestumaui, existimaui, existumaui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> exaestimatum, exaestumatum, existimatum, existumatum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> exaestimaturum, exaestumaturum, existimaturum, existumaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+existĭmō 
+ existĭmās 
+ existĭmāre 
+ existĭmāvī 
+ existĭmātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx101-120-105-115-116-105-109-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx101-120-105-115-116-105-109-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword existimo here are all the values plotted: collocate: male; scoreSUBST: 0. collocate: sic; scoreSUBST: 0. collocate: quin; scoreSUBST: 0. collocate: debeo; scoreSUBST: 0. collocate: senatus; scoreSUBST: 2. collocate: uolo; scoreSUBST: 0. collocate: ne; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: habeo; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx101-120-105-115-116-105-109-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword existimo here are all the values plotted: collocate: male; scoreADJ: 0. collocate: sic; scoreADJ: 0. collocate: quin; scoreADJ: 0. collocate: debeo; scoreADJ: 0. collocate: senatus; scoreADJ: 0. collocate: uolo; scoreADJ: 0. collocate: ne; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: habeo; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx101-120-105-115-116-105-109-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword existimo here are all the values plotted: collocate: male; scoreVERBO: 0. collocate: sic; scoreVERBO: 0. collocate: quin; scoreVERBO: 0. collocate: debeo; scoreVERBO: 2. collocate: senatus; scoreVERBO: 0. collocate: uolo; scoreVERBO: 2. collocate: ne; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: habeo; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx101-120-105-115-116-105-109-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword existimo here are all the values plotted: collocate: male; scoreADV: 2. collocate: sic; scoreADV: 2. collocate: quin; scoreADV: 0. collocate: debeo; scoreADV: 0. collocate: senatus; scoreADV: 0. collocate: uolo; scoreADV: 0. collocate: ne; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: habeo; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx101-120-105-115-116-105-109-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword existimo here are all the values plotted: collocate: male; scoreFUNC: 0. collocate: sic; scoreFUNC: 0. collocate: quin; scoreFUNC: 20. collocate: debeo; scoreFUNC: 0. collocate: senatus; scoreFUNC: 0. collocate: uolo; scoreFUNC: 0. collocate: ne; scoreFUNC: 20. collocate: ego; scoreFUNC: 0. collocate: habeo; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quid me <b>existimas</b> dicere <br> <small> Sen.Ep.7.3 <br> O que achas que estou dizendo? <small> [JDD] </small> </small> </p>
+; <p> ita me Hercule <b>existimo</b> Tubero <br> <small> Cic.Lig.12 <br> Assim, por hércules, eu penso, Tuberão. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Ne c vero hoc arroganter dictum <b>existimari</b> velim <br> <small> Cic.Off.1.2 <br> E, na verdade, eu não queria que isto fosse considerado como arrogantemente dito. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> tum uero dubitandum non <b>existimauit</b> quin ad eos proficisceretur <br> <small> Caes.Gal.2.2.5 <br> Achou, então, que não devia hesitar em partir na direção deles. <small> [JDD] </small> </small> </p>
+; <p> hoc neque ipse transire habebat in animo neque hostes transituros <b>existimabat</b> <br> <small> Caes.Gal.6.7.5 <br> Nem ele próprio tinha a intenção de atravessá-lo nem achava que os inimigos o atravessariam. <small> [JDD] </small> </small> </p>
+; <p> itaque ipse mea legens sic adficior interdum ut Catonem non me loqui <b>existimem</b> <br> <small> Cic.Amici.4 <br> e assim, eu próprio lendo minhas coisas, me impressiono às vezes de tal modo que creio que Catão fala, não eu. <small> [JDD] </small> </small> </p>
+; <p> equidem ego sic <b>existumo</b> patres conscripti omnis cruciatus minores quam facinora illorum esse <br> <small> Sal.Cat.51.15 <br> Na verdade, eu assim acho, pais conscrito, que qualquer suplício é menor que os crimes deles. <small> [JDD] </small> </small> </p>
+; <p> sed <b>existimare</b> debes omnium oculos in te esse coniectos unum te sapientem et appellant et <b>existimant</b> <br> <small> Cic.Amici.6 <br> Mas deves considerar que os olhos de todos estão voltados para ti somente; não só te chamam, mas te consideram sábio. <small> [JDD] </small> </small> </p>
+; <p> fama non faciet nec ostentatio tui et in populos nominis dimissa notitia nemo nouit deum multi de illo male <b>existimant</b> et inpune <br> <small> Sen.Ep.31.10 <br> A fama não fará, nem a ostentação de ti, nem a notoriedade de teu nome espalhado entre os povos; ninguém conhece deus, muitos pensam mal dele e impunemente. <small> [JDD] </small> </small> </p>
+; <p> sed idem illud <b>existimo</b> leni eundum uia ut quod male inplicuisti soluas potius quam abrumpas dummodo si alia soluendi ratio non erit uel abrumpas <br> <small> Sen.Ep.22.3 <br> Mas estimo também que é preciso ir por um caminho suave para que desfaças esse embrulho em que torpemente te implicaste, antes que o rompas, contanto que, se não houver outro meio de desfazê-lo, o rompas. <small> [JDD] </small> </small> </p>
+; <p> quod fieri in senatu solet faciendum ego in philosophia quoque <b>existimo</b> cum censuit aliquis quod ex parte mihi placeat iubeo illum diuidere sententiam et sequor quod probo <br> <small> Sen.Ep.21.9 <br> O que costuma ser feito no senado, eu estimo que deve ser feito também na filosofia: quando alguém deu uma opinião que me agrada em parte, mando-o dividir seu parecer e eu sigo o que aprovo. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx101-120-105-115-116-105-109-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 17 and an absolute frequency of 45. The Phaedrus subcorpus follows, with a normalized frequency of 3.04 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 45 ; absolute frequency: 16.9952413324269. subcorpus: Cicero ; normalized frequency: 98 ; absolute frequency: 6.1050061050061. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 12 ; absolute frequency: 11.1306928856321. subcorpus: Seneca ; normalized frequency: 36 ; absolute frequency: 6.71879957447603. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx101-120-105-115-116-105-109-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 13.88 and an absolute frequency of 57. The Prosa.histórica subcorpus follows, with a normalized frequency of 13.88 and an absolute frequency of 57. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 57 ; absolute frequency: 13.8757029138976. subcorpus: Prosa.filosófica ; normalized frequency: 51 ; absolute frequency: 8.40183851995848. subcorpus: Prosa.oratória ; normalized frequency: 68 ; absolute frequency: 6.52885658598408. subcorpus: Prosa.epistolográfica ; normalized frequency: 15 ; absolute frequency: 3.97466811521238. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx101-120-105-115-116-105-109-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 7.21 and an absolute frequency of 155. The I.a.C. subcorpus follows, with a normalized frequency of 7.21 and an absolute frequency of 155. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 155 ; absolute frequency: 7.21433558296486. subcorpus: I.d.C. ; normalized frequency: 38 ; absolute frequency: 5.81306409668043. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

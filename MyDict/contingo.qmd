@@ -1,0 +1,206 @@
+---
+title: "contingo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-111-110-116-105-110-103-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>contĭgī</b> <br> <small>perf. de contíngo 1.</small> <br> <small></small> 
+ <small>1.</small> <b>contīngō</b> <b>-is</b> <b>-ère</b> <b>-tígí, -táctum</b> <br> <small>v. tr. e intr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Tocar, tocar em &ensp; <small>T. Lív. 1, 56, 12; T. Lív. 28, 9, 6.</small> <br> <b>2</b> &ensp; <small>Daí</small> &ensp; Chegar a, tocar em alguém, atingir, alcançar &ensp; <small>Verg. En. 5, 18.</small> <br> <b>3</b> &ensp; <small>Empregos especiais:</small> &ensp; Ter relações com &ensp; <small>T. Lív. 25, 8, 2.</small> <br> <b>4</b> &ensp; <small></small> &ensp; Contaminar &ensp; <small>T. Lív. 4, 9, 10.</small> <br> <b>5</b> &ensp; <small>Intr.:</small> &ensp; acontecer, ter a sorte de &ensp; <small>seguido de infinitivo ou de or. integrante introduuzida por ut. tocar a, caber a Cíc.:. De Or. 2; 228; Hor. Ep. 2, 2, ,41.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Contingo</b> -<b>is</b> -<b>igi</b> -<b>actum</b> -<b>gere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; tocar. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>contingere aliquem nullo gradu &ensp; <small><small>Suet</small></small> &ensp; <small>Não ter parentesco algum com alguem</small> <br> contingere aliquid sale &ensp; <small><small>Col</small></small> &ensp; <small>Salpicar</small> </p>
+
+
+
+
+#### Velez
+
+<b>Contingo</b> -<b>is</b>   <p> <b>1</b> &ensp; tocar </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>sale aliquid contingere </p>
+
+
+
+
+#### Cardoso
+
+<b>Contingo</b> <b>is</b> <b>tigi</b> <b>actum</b>   <p> <b>1</b> &ensp; acõtecer. ou tocar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/96293 ' target="_blank"> http://lila-erc.eu/data/id/lemma/96293 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> contingo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> contingere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> continget </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> contigi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> contactum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> contacturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+contĭgī 
+ contingō 
+ contingĕre
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-111-110-116-105-110-103-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-111-110-116-105-110-103-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword contingo here are all the values plotted: collocate: possum; scoreSUBST: 0. collocate: ut; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-111-110-116-105-110-103-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword contingo here are all the values plotted: collocate: possum; scoreADJ: 0. collocate: ut; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-111-110-116-105-110-103-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword contingo here are all the values plotted: collocate: possum; scoreVERBO: 2. collocate: ut; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-111-110-116-105-110-103-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword contingo here are all the values plotted: collocate: possum; scoreADV: 0. collocate: ut; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-111-110-116-105-110-103-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword contingo here are all the values plotted: collocate: possum; scoreFUNC: 0. collocate: ut; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> num quis igitur est tam demens qui hoc P. Clodio uiuo <b>contingere</b> potuisse arbitretur <br> <small> Cic.Mil.78 <br> Acaso, portanto, existe alguém tão insensato que julgará que sido poderia acontecer com Públio Clódio vivo? <small> [JDD] </small> </small> </p>
+; <p> nemo quam bene uiuat sed quam diu curat cum omnibus possit <b>contingere</b> ut bene uiuant ut diu nulli <br> <small> Sen.Ep.22.17 <br> Ninguém se preocupa em viver bem, mas em viver por muito tempo, quando pode acontecer a todos que vivam bem e a ninguém que vivam por muito tempo. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-111-110-116-105-110-103-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 11.03 and an absolute frequency of 1. The Seneca subcorpus follows, with a normalized frequency of 5.23 and an absolute frequency of 28. the subcorpus with the least normalized frequency is Sallustius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 3 ; absolute frequency: 1.13301608882846. subcorpus: Cicero ; normalized frequency: 15 ; absolute frequency: 0.934439709949914. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 28 ; absolute frequency: 5.22573300237024. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-111-110-116-105-110-103-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 5.44 and an absolute frequency of 33. The Poesia.trágica subcorpus follows, with a normalized frequency of 1.74 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 4 ; absolute frequency: 0.973733537817376. subcorpus: Prosa.filosófica ; normalized frequency: 33 ; absolute frequency: 5.43648374820843. subcorpus: Prosa.oratória ; normalized frequency: 6 ; absolute frequency: 0.576075581116242. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-111-110-116-105-110-103-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 4.9 and an absolute frequency of 32. The I.d.C. subcorpus follows, with a normalized frequency of 4.9 and an absolute frequency of 32. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 21 ; absolute frequency: 0.9774261112404. subcorpus: I.d.C. ; normalized frequency: 32 ; absolute frequency: 4.89521187088879. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

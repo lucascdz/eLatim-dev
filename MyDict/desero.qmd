@@ -1,0 +1,208 @@
+---
+title: "desero"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-101-115-101-114-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>dēsĕrō</b> <b>-is</b> <b>-ère</b> <b>-serùí, -sértum</b> <br> <small>v. tr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>Termo da língua militar:</small> &ensp; Desertar &ensp; <small>usado intransitivamente C. Nep. Eum. 5, 1.</small> <br> <b>2</b> &ensp; <small>Na língua comum:</small> &ensp; Abandonar, deixar &ensp; <small>Cés. B. Civ. 1, 75, 2; Cíc. Of. 1,28.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Desero</b> -<b>is</b> -<b>rui</b> -<b>ertum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; desamparar. </p>
+
+
+
+
+#### Velez
+
+<b>Desero</b> -<b>is</b> <br> <small>2. b.</small>   <p> <b>1</b> &ensp; deixar, desamparar, destruir &ensp; <small>deserui, desertum</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>urbs praesidiis deserta &ensp; <small>destituida</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Desero</b> <b>is</b> <b>ui</b> -<b>ertum</b>   <p> <b>1</b> &ensp; desemparar &ensp; <small>actõ.</small> </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/98882 ' target="_blank"> http://lila-erc.eu/data/id/lemma/98882 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> desero </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> deserere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> deseret </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> deserui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> desertum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> deserturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+dēsĕrō 
+ dēsĕris 
+ dēsĕrĕre 
+ dēsĕrŭī 
+ dēsertum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-101-115-101-114-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-101-115-101-114-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword desero here are all the values plotted: collocate: nec; scoreSUBST: 0. collocate: qua; scoreSUBST: 0. collocate: sed; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-101-115-101-114-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword desero here are all the values plotted: collocate: nec; scoreADJ: 0. collocate: qua; scoreADJ: 0. collocate: sed; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-101-115-101-114-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword desero here are all the values plotted: collocate: nec; scoreVERBO: 0. collocate: qua; scoreVERBO: 0. collocate: sed; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-101-115-101-114-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword desero here are all the values plotted: collocate: nec; scoreADV: 0. collocate: qua; scoreADV: 2. collocate: sed; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-101-115-101-114-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword desero here are all the values plotted: collocate: nec; scoreFUNC: 0. collocate: qua; scoreFUNC: 0. collocate: sed; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ita fit ut illud breue uitae reliquum nec auide appetundum senibus nec sine causa <b>deserundum</b> sit <br> <small> Cic.Sen.72 <br> Assim resulta que aquele breve restante de vida nem deve ser desejado avidamente pelos velhos, nem deve ser abandonado sem motivo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quam multas existimatis insulas esse <b>desertas</b> quam multas aut metu relictas aut a praedonibus captas urbis esse sociorum <br> <small> Cic.Man.32 <br> Quão numerosas ilhas vós julgais que foram abandonadas, quão numerosas cidades dos aliados foram deixadas por medo ou tomadas pelos piratas? <small> [JDD] </small> </small> </p>
+; <p> ad primam tibi hoc scribo me ita dolere ut non modo a mente non <b>deserar</b> sed id ipsum doleam me tam firma mente ubi utar et quibus cum non habere <br> <small> Cic.Att.3.15.2 <br> À primeira te escrevo isto: que eu sofro de tal modo que não só não sou abandonado por minha mente, mas sofro exatamente por isso, não ter onde nem com quem usar essa mente tão lúcida. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-101-115-101-114-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 3.04 and an absolute frequency of 2. The Sallustius subcorpus follows, with a normalized frequency of 0.93 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 3 ; absolute frequency: 1.13301608882846. subcorpus: Cicero ; normalized frequency: 27 ; absolute frequency: 1.68199147790985. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 11 ; absolute frequency: 2.05296653664545. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-101-115-101-114-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 4.34 and an absolute frequency of 5. The Poesia.didática subcorpus follows, with a normalized frequency of 2.54 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 4 ; absolute frequency: 0.973733537817376. subcorpus: Prosa.filosófica ; normalized frequency: 11 ; absolute frequency: 1.81216124940281. subcorpus: Prosa.oratória ; normalized frequency: 15 ; absolute frequency: 1.44018895279061. subcorpus: Prosa.epistolográfica ; normalized frequency: 7 ; absolute frequency: 1.85484512043244. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-101-115-101-114-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 2.14 and an absolute frequency of 14. The I.a.C. subcorpus follows, with a normalized frequency of 1.49 and an absolute frequency of 32. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 32 ; absolute frequency: 1.48941121712823. subcorpus: I.d.C. ; normalized frequency: 14 ; absolute frequency: 2.14165519351384. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

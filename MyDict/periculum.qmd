@@ -1,0 +1,218 @@
+---
+title: "periculum"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-101-114-105-99-117-108-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>perīclum</b> <br> <small></small> <br> <small>v. pericùlum.</small> 
+ <b>perīcŭlum</b> <b>-í</b> <br> <b>perīclum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Ensaio, experiência &ensp; <small>Cíc. Caecil. 27.</small> <br> <b>2</b> &ensp; <small>II-Sent. comum</small> &ensp; Risco, perigo &ensp; <small>Cíc. Pomp. 12: Cíc. Arch. 13.</small> <br> <b>3</b> &ensp; <small>II-Na língua jurídica:</small> &ensp; Processo, causa, ação, julgamento, sentença &ensp; <small>Cíc. Pomp. 2.</small> <br> <b>4</b> &ensp; <small>II-Na língua jurídica:</small> &ensp; Sentença escrita &ensp; <small>C.Nep.En. 8. 2.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Periculum</b> -<b>i</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; perigo, risco. <br> <b>2</b> &ensp; próva, ensaio, experiencia. <br> <b>3</b> &ensp; processo, autos, sentença de condemnação. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Periculum</b> <b>i</b>   <p> <b>1</b> &ensp; ho perigo. ou esperiẽcia </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/116930 ' target="_blank"> http://lila-erc.eu/data/id/lemma/116930 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> periclom, periclum, periculom <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+pĕrīcŭlum 
+ pĕrīcŭlī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-101-114-105-99-117-108-117-109xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-101-114-105-99-117-108-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword periculum here are all the values plotted: collocate: libero; scoreSUBST: 0. collocate: subeo; scoreSUBST: 0. collocate: labor; scoreSUBST: 2. collocate: meus; scoreSUBST: 0. collocate: tantus; scoreSUBST: 0. collocate: metus; scoreSUBST: 2. collocate: seruitus; scoreSUBST: 2. collocate: caput; scoreSUBST: 2. collocate: magnitudo; scoreSUBST: 2. collocate: eripio; scoreSUBST: 0. collocate: sine; scoreSUBST: 0. collocate: magnus; scoreSUBST: 0. collocate: patria; scoreSUBST: 2. collocate: mors; scoreSUBST: 2. collocate: amicus; scoreSUBST: 2. collocate: paruus; scoreSUBST: 0. collocate: ciuis; scoreSUBST: 2. collocate: ullus; scoreSUBST: 0. collocate: superus; scoreSUBST: 0. collocate: uita; scoreSUBST: 2. collocate: publicus; scoreSUBST: 0. collocate: iudicium; scoreSUBST: 2. collocate: uel; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-101-114-105-99-117-108-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword periculum here are all the values plotted: collocate: libero; scoreADJ: 0. collocate: subeo; scoreADJ: 0. collocate: labor; scoreADJ: 0. collocate: meus; scoreADJ: 0. collocate: tantus; scoreADJ: 0. collocate: metus; scoreADJ: 0. collocate: seruitus; scoreADJ: 0. collocate: caput; scoreADJ: 0. collocate: magnitudo; scoreADJ: 0. collocate: eripio; scoreADJ: 0. collocate: sine; scoreADJ: 0. collocate: magnus; scoreADJ: 2. collocate: patria; scoreADJ: 0. collocate: mors; scoreADJ: 0. collocate: amicus; scoreADJ: 0. collocate: paruus; scoreADJ: 2. collocate: ciuis; scoreADJ: 0. collocate: ullus; scoreADJ: 0. collocate: superus; scoreADJ: 0. collocate: uita; scoreADJ: 0. collocate: publicus; scoreADJ: 2. collocate: iudicium; scoreADJ: 0. collocate: uel; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-101-114-105-99-117-108-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword periculum here are all the values plotted: collocate: libero; scoreVERBO: 3. collocate: subeo; scoreVERBO: 2. collocate: labor; scoreVERBO: 0. collocate: meus; scoreVERBO: 0. collocate: tantus; scoreVERBO: 0. collocate: metus; scoreVERBO: 0. collocate: seruitus; scoreVERBO: 0. collocate: caput; scoreVERBO: 0. collocate: magnitudo; scoreVERBO: 0. collocate: eripio; scoreVERBO: 2. collocate: sine; scoreVERBO: 0. collocate: magnus; scoreVERBO: 0. collocate: patria; scoreVERBO: 0. collocate: mors; scoreVERBO: 0. collocate: amicus; scoreVERBO: 0. collocate: paruus; scoreVERBO: 0. collocate: ciuis; scoreVERBO: 0. collocate: ullus; scoreVERBO: 0. collocate: superus; scoreVERBO: 0. collocate: uita; scoreVERBO: 0. collocate: publicus; scoreVERBO: 0. collocate: iudicium; scoreVERBO: 0. collocate: uel; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-101-114-105-99-117-108-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword periculum here are all the values plotted: collocate: libero; scoreADV: 0. collocate: subeo; scoreADV: 0. collocate: labor; scoreADV: 0. collocate: meus; scoreADV: 0. collocate: tantus; scoreADV: 0. collocate: metus; scoreADV: 0. collocate: seruitus; scoreADV: 0. collocate: caput; scoreADV: 0. collocate: magnitudo; scoreADV: 0. collocate: eripio; scoreADV: 0. collocate: sine; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: patria; scoreADV: 0. collocate: mors; scoreADV: 0. collocate: amicus; scoreADV: 0. collocate: paruus; scoreADV: 0. collocate: ciuis; scoreADV: 0. collocate: ullus; scoreADV: 0. collocate: superus; scoreADV: 0. collocate: uita; scoreADV: 0. collocate: publicus; scoreADV: 0. collocate: iudicium; scoreADV: 0. collocate: uel; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-101-114-105-99-117-108-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword periculum here are all the values plotted: collocate: libero; scoreFUNC: 0. collocate: subeo; scoreFUNC: 0. collocate: labor; scoreFUNC: 0. collocate: meus; scoreFUNC: 0. collocate: tantus; scoreFUNC: 0. collocate: metus; scoreFUNC: 0. collocate: seruitus; scoreFUNC: 0. collocate: caput; scoreFUNC: 0. collocate: magnitudo; scoreFUNC: 0. collocate: eripio; scoreFUNC: 0. collocate: sine; scoreFUNC: 20. collocate: magnus; scoreFUNC: 0. collocate: patria; scoreFUNC: 0. collocate: mors; scoreFUNC: 0. collocate: amicus; scoreFUNC: 0. collocate: paruus; scoreFUNC: 0. collocate: ciuis; scoreFUNC: 0. collocate: ullus; scoreFUNC: 0. collocate: superus; scoreFUNC: 0. collocate: uita; scoreFUNC: 0. collocate: publicus; scoreFUNC: 0. collocate: iudicium; scoreFUNC: 0. collocate: uel; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Magnae <b>periclo</b> sunt opes obnoxiae . <br> <small> Phaed.2.7 <br> as grandes riquezas estão sujeitas ao perigo. <small> [JDD] </small> </small> </p>
+; <p> Magno inquit in <b>periclo</b> sunt nati tui ; <br> <small> Phaed.2.4 <br> “Teus filhos estão em grande perigo”, diz. <small> [JDD] </small> </small> </p>
+; <p> atque hunc ille summus uir scelere solutum <b>periculo</b> liberauit <br> <small> Cic.Mil.9 <br> E aquele grande homem liberou do perigo esse absolvido do crime. <small> [JDD] </small> </small> </p>
+; <p> sed tamen meorum <b>periculorum</b> rationes utilitas rei publicae uincat <br> <small> Cic.Catil.4.9.6 <br> Mas, mesmo assim, que o bem da república esteja acima dos motivos de meus perigos. <small> [JDD] </small> </small> </p>
+; <p> qui enim <b>periculo</b> carere possumus in tanta hominum cupiditate et audacia <br> <small> Cic.Phil.3.25.4 <br> Pois como podemos estar livre do perigo em meio a tão grande cupidez e audácia dos homens? <small> [JDD] </small> </small> </p>
+; <p> sic et ad subeundum <b>periculum</b> et ad uitandum multum Fortuna ualuit <br> <small> Caes.Gal.6.30.4 <br> Assim a Fortuna lhe valeu muito tanto para afrontar como para evitar o perigo. <small> [JDD] </small> </small> </p>
+; <p> Hic pertinere ad domini respondet caput Et avertendum victima <b>periculum</b> . esse <br> <small> Phaed.3.3 <br> Um responde que tem a ver com a cabeça do dono e que ele deve afastar o perigo com uma vítima. <small> [JDD] </small> </small> </p>
+; <p> Aquila ut <b>periclo</b> mortis eriperet suos Incolumes natos supplex vulpi tradidit . <br> <small> Phaed.1.28 <br> A águia para livrar os seus do perigo de morte entregou suplicante à raposa seus filhos sãos e salvos. <small> [JDD] </small> </small> </p>
+; <p> quae mulier interficere sceleratum ac perniciosum ciuem non auderet si <b>periculum</b> non timeret <br> <small> Cic.Mil.82 <br> Que mulher não ousaria matar um cidadão celerado e pernicioso, se não temesse o perigo? <small> [JDD] </small> </small> </p>
+; <p> habet a M. Caelio res publica iudices duas accusationes uel obsides <b>periculi</b> uel pignora uoluntatis <br> <small> Cic.Cael.78 <br> A república tem, juízes, da parte de Marco Célio duas acusações: ou as garantias contra o perigo ou o penhor de sua boa vontade. <small> [JDD] </small> </small> </p>
+; <p> ignominiam iudicat gladiator cum inferiore componi et scit eum sine gloria uinci qui sine <b>periculo</b> uincitur <br> <small> Sen.Prov.3.4 <br> O gladiador considera uma desonra ser posto frente a frente com um inferior, e sabe que se vence sem glória aquele que é vencido sem risco. <small> [JDD] </small> </small> </p>
+; <p> neque enim iam mihi licet neque est integrum ut meum laborem hominum <b>periculis</b> subleuandis non impertiam <br> <small> Cic.Mur.8 <br> Pois já não me é lícito nem está em meu poder deixar de consagrar o meu trabalho em aliviar os perigos dos homens. <small> [JDD] </small> </small> </p>
+; <p> quod si immortalitas consequeretur praesentis <b>periculi</b> fugam tamen eo magis ea fugienda uideretur quo diuturnior seruitus esset <br> <small> Cic.Phil.10.20.12 <br> E se a imortalidade se alcançasse com a fuga do perigo atual, mesmo assim pareceria que ela devia ser evitada tanto mais porque a escravidão seria por muito tempo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> post ubi <b>pericula</b> uirtute propulerant sociis atque amicis auxilia portabant magisque dandis quam accipiundis beneficiis amicitias parabant <br> <small> Sal.Cat.6.5 <br> Depois, quando já tinham rechaçado com coragem os perigos, levavam ajuda aos aliados e amigos, e adquiriam amizades mais concedendo favores do que recebendo. <small> [JDD] </small> </small> </p>
+; <p> Sed ille , qui oculos centum habet , si venerit , Magno in <b>periclo</b> vita vertetur tua . <br> <small> Phaed.2.8 <br> mas se vier aquele que tem cem olhos, tua vida estará em grande perigo”. <small> [JDD] </small> </small> </p>
+; <p> igitur reges populique finitumi bello temptare pauci ex amicis auxilio esse nam ceteri metu perculsi a <b>periculis</b> aberant <br> <small> Sal.Cat.6.4 <br> Então reis e povos vizinhos a punham à prova com a guerra, poucos de seus amigos prestavam socorro: pois os outros, tocados pelo medo, se afastavam dos perigos. <small> [JDD] </small> </small> </p>
+; <p> haec cum scirem et cogitarem commisi tamen iudices Heio produxi prima actione neque id tamen ullo <b>periculo</b> feci <br> <small> Cic.Ver.2.4.16.1 <br> 16 Embora eu soubesse essas coisas e refletisse sobre elas, mesmo assim me confiei a Heio; apresentei-o como testemunha na primeira ação, e, no entanto, fiz isso sem perigo algum. <small> [JDD] </small> </small> </p>
+; <p> itaque omnis gratia potentia honos diuitiae apud illos sunt aut ubi illi uolunt nobis reliquere repulsas <b>pericula</b> iudicia egestatem <br> <small> Sal.Cat.20.8 <br> E assim toda influência, poder, cargos, riquezas estão com eles ou onde eles querem; a nós nos deixaram os perigos, os fracassos, os julgamentos, a miséria. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quamquam hoc animo semper fuimus omnes in patriae proditoribus opprimendis ut quoniam futura esset nostra gloria <b>periculum</b> quoque et inuidiam nostram putaremus <br> <small> Cic.Mil.82 <br> No entanto, ao reprimir os traidores da pátria, nós todos sempre estivemos com este espírito: visto que a glória haveria de ser nossa, que julgássemos também nossos o perigo e o ódio. <small> [JDD] </small> </small> </p>
+; <p> nobilitatur carminibus omnium quae se pro coniuge uicariam dedit hoc amplius est discrimine uitae sepulcrum uiro quaerere maior est amor qui pari <b>periculo</b> minus redimit <br> <small> Sen.Helv.19.5 <br> É enaltecida nos poemas de todos aquela que se entregou como substituta em lugar de seu marido; isto é mais grandioso: buscar um túmulo para o marido com risco de vida; maior é o amor que, por igual perigo, obtém menos. <small> [JDD] </small> </small> </p>
+; <p> regno est expulsus Ariobarzanes rex socius populi Romani atque amicus imminent duo reges toti Asiae non solum uobis inimicissimi sed etiam uestris sociis atque amicis ciuitates autem omnes cuncta Asia atque Graecia uestrum auxilium exspectare propter <b>periculi</b> magnitudinem coguntur imperatorem a uobis certum deposcere cum praesertim uos alium miseritis neque audent neque id se facere sine summo <b>periculo</b> posse arbitrantur <br> <small> Cic.Man.12 <br> O rei Ariobárzanes, aliado e amigo do povo romano, foi expulso de seu reino; dois reis inimicíssimos não só de vós, mas também de vossos aliados e amigos, ameaçam a Ásia inteira; ademais, todas as cidades, a Ásia inteira e a Grécia são forçadas, por causa da magnitude do perigo, a esperar o vosso auxílio; e eles não ousam pedir a vós um general determinado, sobretudo porque vós enviastes um outro e eles não acham que podem fazer isso sem um sumo perigo. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-101-114-105-99-117-108-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 27.83 and an absolute frequency of 30. The Cicero subcorpus follows, with a normalized frequency of 10.59 and an absolute frequency of 170. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 25 ; absolute frequency: 9.44180074023718. subcorpus: Cicero ; normalized frequency: 170 ; absolute frequency: 10.5903167127657. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 6 ; absolute frequency: 9.10885076666161. subcorpus: Sallustius ; normalized frequency: 30 ; absolute frequency: 27.8267322140803. subcorpus: Seneca ; normalized frequency: 26 ; absolute frequency: 4.8524663593438. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-101-114-105-99-117-108-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 15.07 and an absolute frequency of 157. The Prosa.histórica subcorpus follows, with a normalized frequency of 13.39 and an absolute frequency of 55. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 55 ; absolute frequency: 13.3888361449889. subcorpus: Prosa.filosófica ; normalized frequency: 22 ; absolute frequency: 3.62432249880562. subcorpus: Prosa.oratória ; normalized frequency: 157 ; absolute frequency: 15.073977705875. subcorpus: Prosa.epistolográfica ; normalized frequency: 12 ; absolute frequency: 3.1797344921699. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 7 ; absolute frequency: 5.93773856985325. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-101-114-105-99-117-108-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 10.61 and an absolute frequency of 228. The I.a.C. subcorpus follows, with a normalized frequency of 10.61 and an absolute frequency of 228. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 228 ; absolute frequency: 10.6120549220386. subcorpus: I.d.C. ; normalized frequency: 33 ; absolute frequency: 5.04818724185406. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

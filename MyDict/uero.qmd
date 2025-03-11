@@ -1,0 +1,219 @@
+---
+title: "uero"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-101-114-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>vērō</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Verdadeiramente, com toda certeza, em verdade &ensp; <small>Cíc. Of. 3, 1.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Sim, perfeitamente &ensp; <small>nas respostas Cíc. Br. 300.</small> <br> <b>3</b> &ensp; <small></small> &ensp; Em verdade, de fato, a verdade é que &ensp; <small>Cíc. Mil. 12.</small> <br> <b>4</b> &ensp; <small></small> &ensp; Até, também, ainda &ensp; <small>no meio da frase, para inserir outro fato Cíc. Mur. 45.</small> </p> 
+ <small>2.</small> <b>vērō</b> <br> <small>conj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Mas que, e que &ensp; <small>Cés. B. Gal. 1, 12, 2.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Mas em verdade, mas, porém &ensp; <small>Cíc. Sest. 143.</small> <br> <b>3</b> &ensp; <small></small> &ensp; Quanto a &ensp; <small>para destacar uma palavra Cíc. Arch. 19.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Vero</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; certamente, na verdade. </p> 
+ <b>Vero</b> <br> <small>conj.</small>
+
+
+
+
+#### Velez
+
+<b>Verò</b>   <p> <b>1</b> &ensp; certamente, na verdade, porem, mas </p>
+
+
+
+
+#### Cardoso
+
+<b>Vero</b> <br> <small>coniunctio.</small>   <p> <b>1</b> &ensp; porem </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/hypolemma/111474 ' target="_blank"> http://lila-erc.eu/data/id/hypolemma/111474 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+vērō
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-101-114-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword uero here are all the values plotted: collocate: immo; scoreSUBST: 0. collocate: nunc; scoreSUBST: 0. collocate: postea; scoreSUBST: 0. collocate: iam; scoreSUBST: 0. collocate: tum; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: multo; scoreSUBST: 0. collocate: posteaquam; scoreSUBST: 0. collocate: Marcus; scoreSUBST: 0. collocate: tam; scoreSUBST: 0. collocate: quintus; scoreSUBST: 2. collocate: ille; scoreSUBST: 0. collocate: quis; scoreSUBST: 0. collocate: iudex; scoreSUBST: 2. collocate: si; scoreSUBST: 0. collocate: quod; scoreSUBST: 0. collocate: hic; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-101-114-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword uero here are all the values plotted: collocate: immo; scoreADJ: 0. collocate: nunc; scoreADJ: 0. collocate: postea; scoreADJ: 0. collocate: iam; scoreADJ: 0. collocate: tum; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: multo; scoreADJ: 0. collocate: posteaquam; scoreADJ: 0. collocate: Marcus; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: quintus; scoreADJ: 0. collocate: ille; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: iudex; scoreADJ: 0. collocate: si; scoreADJ: 0. collocate: quod; scoreADJ: 0. collocate: hic; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-101-114-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword uero here are all the values plotted: collocate: immo; scoreVERBO: 0. collocate: nunc; scoreVERBO: 0. collocate: postea; scoreVERBO: 0. collocate: iam; scoreVERBO: 0. collocate: tum; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: multo; scoreVERBO: 0. collocate: posteaquam; scoreVERBO: 0. collocate: Marcus; scoreVERBO: 0. collocate: tam; scoreVERBO: 0. collocate: quintus; scoreVERBO: 0. collocate: ille; scoreVERBO: 0. collocate: quis; scoreVERBO: 0. collocate: iudex; scoreVERBO: 0. collocate: si; scoreVERBO: 0. collocate: quod; scoreVERBO: 0. collocate: hic; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-101-114-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword uero here are all the values plotted: collocate: immo; scoreADV: 4. collocate: nunc; scoreADV: 3. collocate: postea; scoreADV: 3. collocate: iam; scoreADV: 3. collocate: tum; scoreADV: 3. collocate: ego; scoreADV: 0. collocate: multo; scoreADV: 2. collocate: posteaquam; scoreADV: 0. collocate: Marcus; scoreADV: 0. collocate: tam; scoreADV: 2. collocate: quintus; scoreADV: 0. collocate: ille; scoreADV: 0. collocate: quis; scoreADV: 0. collocate: iudex; scoreADV: 0. collocate: si; scoreADV: 0. collocate: quod; scoreADV: 0. collocate: hic; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-101-114-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword uero here are all the values plotted: collocate: immo; scoreFUNC: 0. collocate: nunc; scoreFUNC: 0. collocate: postea; scoreFUNC: 0. collocate: iam; scoreFUNC: 0. collocate: tum; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: multo; scoreFUNC: 0. collocate: posteaquam; scoreFUNC: 20. collocate: Marcus; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: quintus; scoreFUNC: 0. collocate: ille; scoreFUNC: 0. collocate: quis; scoreFUNC: 0. collocate: iudex; scoreFUNC: 0. collocate: si; scoreFUNC: 20. collocate: quod; scoreFUNC: 10. collocate: hic; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> immo <b>vero</b> cogimur <br> <small> Cic.Att.4.13.1 <br> mas, na verdade, temos a obrigação. <small> [JDD] </small> </small> </p>
+; <p> ille <b>uero</b> non patitur <br> <small> Sen.Prov.6.1 <br> Ele, na verdade, não consente. <small> [JDD] </small> </small> </p>
+; <p> immo <b>uero</b> ipse praesens <br> <small> Cic.Ver.2.4.92.8 <br> Na verdade não, ele próprio, aqui presente. <small> [JDD] </small> </small> </p>
+; <p> illud <b>uero</b> quid est <br> <small> Cic.Font.Fr.1 <br> Mas o que é isso? <small> [JDD] </small> </small> </p>
+; <p> nunc <b>vero</b> Sampsicerame quid dices <br> <small> Cic.Att.2.16.2 <br> E agora, Sampsicéramo, o vais dizer? <small> [JDD] </small> </small> </p>
+; <p> nec <b>vero</b> nunc erat sane quod scriberem <br> <small> Cic.Att.5.3.1 <br> e agora, na verdade, não há, por certo, o que escrever. <small> [JDD] </small> </small> </p>
+; <p> mihi <b>vero</b> inquam viginti quinque iudices crediderunt <br> <small> Cic.Att.1.16.10 <br> “Na verdade”, eu digo, “25 juízes acreditaram em mim. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nunc <b>uero</b> quae tua est ista uita <br> <small> Cic.Catil.1.16.4 <br> Mas agora, que vida é essa tua? <small> [JDD] </small> </small> </p>
+; <p> illa <b>uero</b> non est paupertas si laeta est <br> <small> Sen.Ep.2.6 <br> Na verdade, não é pobreza, se ela é feliz. <small> [JDD] </small> </small> </p>
+; <p> M. <b>uero</b> Caelius cur in hoc iudicium uocatur <br> <small> Cic.Cael.72 <br> Por que, porém, Marco Célio é citado para este julgamento? <small> [JDD] </small> </small> </p>
+; <p> quid <b>uero</b> tam inauditum quam equitem Romanum triumphare <br> <small> Cic.Man.61 <br> Ademais o que de tão inaudito há quanto um cavaleiro romano triunfar? <small> [JDD] </small> </small> </p>
+; <p> hoc <b>vero</b> regnum est et ferri nullo pacto potest <br> <small> Cic.Att.2.12.1 <br> Isso na verdade é tirania e não pode ser tolerado de modo algum. <small> [JDD] </small> </small> </p>
+; <p> id <b>uero</b> iudices etiam dubitandum et diutius cogitandum est <br> <small> Cic.Mil.53 <br> Mas isso, juízes, deve ser ainda posto em dúvida e cogitado por mais tempo? <small> [JDD] </small> </small> </p>
+; <p> tum <b>uero</b> dubitandum non existimauit quin ad eos proficisceretur <br> <small> Caes.Gal.2.2.5 <br> Achou, então, que não devia hesitar em partir na direção deles. <small> [JDD] </small> </small> </p>
+; <p> et cum Graecos tum <b>vero</b> diligenter Latinos ut conserves velim <br> <small> Cic.Att.2.1.12 <br> E gostaria que conservasses cuidadosamente tanto os gregos quanto os latinos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ego <b>vero</b> in montis patrios et ad incunabula nostra pergam <br> <small> Cic.Att.2.15.3 <br> Eu na verdade vou seguir “para os montes pátrios e até o nosso berço”. <small> [JDD] </small> </small> </p>
+; <p> mihi <b>uero</b> licet et semper licebit dignitatem tueri mortem contemnere <br> <small> Cic.Phil.1.14.2 <br> A mim, na verdade, é e sempre será permitido proteger minha dignidade, desprezar a morte. <small> [JDD] </small> </small> </p>
+; <p> iam <b>uero</b> uirtuti Cn. Pompei quae potest oratio par inueniri <br> <small> Cic.Man.29 <br> Ora, que discurso pode ser encontrado equivalente ao valor de Cneu Pompeu? <small> [JDD] </small> </small> </p>
+; <p> nunc <b>vero</b> quod a te probata sunt multo mi Ἀττικώτερα videntur <br> <small> Cic.Att.1.13.5 <br> Agora, porém, como são aprovadas por ti, me parecem muito mais áticas. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> et sunt Lucili facilia cum <b>uero</b> multo ante meditatus accesseris iucunda quoque <br> <small> Sen.Ep.20.12 <br> E são, Lucílio, fáceis; quando, na verdade, tiveres te aproximado delas, tendo antes meditado muito, são também prazerosas;[*] <small>  </small> </small> </p>
+; <p> postea <b>vero</b> quam Tyrannio mihi libros disposuit mens addita videtur meis aedibus <br> <small> Cic.Att.4.8.2 <br> Realmente, depois que Tiranião organizou meus livros, a inteligência parece acrescentada à minha casa. <small> [JDD] </small> </small> </p>
+; <p> postea <b>uero</b> quam equitatus noster in conspectum uenit hostes abiectis armis terga uerterunt magnusque eorum numerus est occisus <br> <small> Caes.Gal.4.37.4 <br> Mas depois que nossa cavalaria apareceu, os inimigos, lançadas ao chão suas armas, voltaram as costas e um grande número deles foi morto. <small> [JDD] </small> </small> </p>
+; <p> duces <b>uero</b> ii deliguntur qui una cum Q. Sertorio omnes annos fuerant summamque scientiam rei militaris habere existimabantur <br> <small> Caes.Gal.3.23.5 <br> Na verdade, são escolhidos como chefes aqueles que tinham estado todos os anos junto com Quinto Sertório e eram considerados ter o sumo conhecimento da matéria militar. <small> [JDD] </small> </small> </p>
+; <p> hoc <b>uero</b> Q. Fufi cupio sine offensione nostrae amicitiae sic te cum ut a te dissentiens senator queri <br> <small> Cic.Phil.10.5.6 <br> Mas, na verdade, Quinto Fúfio, desejo, sem ofensa à nossa amizade, como um senador discordando de ti, queixar-me contigo de uma coisa. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-101-114-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 15.39 and an absolute frequency of 247. The Phaedrus subcorpus follows, with a normalized frequency of 4.55 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 13 ; absolute frequency: 4.90973638492333. subcorpus: Cicero ; normalized frequency: 247 ; absolute frequency: 15.3871072238419. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 10 ; absolute frequency: 9.27557740469344. subcorpus: Seneca ; normalized frequency: 30 ; absolute frequency: 5.59899964539669. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-101-114-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 15.37 and an absolute frequency of 58. The Prosa.oratória subcorpus follows, with a normalized frequency of 14.79 and an absolute frequency of 154. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 24 ; absolute frequency: 5.84240122690426. subcorpus: Prosa.filosófica ; normalized frequency: 65 ; absolute frequency: 10.708225564653. subcorpus: Prosa.oratória ; normalized frequency: 154 ; absolute frequency: 14.7859399153169. subcorpus: Prosa.epistolográfica ; normalized frequency: 58 ; absolute frequency: 15.3687167121545. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-101-114-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 12.66 and an absolute frequency of 272. The II.d.C. subcorpus follows, with a normalized frequency of 2.62 and an absolute frequency of 1. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 2.62 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 272 ; absolute frequency: 12.6599953455899. subcorpus: I.d.C. ; normalized frequency: 33 ; absolute frequency: 5.04818724185406. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+:::
+

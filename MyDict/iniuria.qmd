@@ -1,0 +1,203 @@
+---
+title: "iniuria"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-110-105-117-114-105-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>injūrĭa</b> <b>-ae</b> <br> <b>iniūrĭa</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Injustiça &ensp; <small>Cíc. Rep. 3. 23.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Prejuízo, agravo, injúria, ofensa &ensp; <small>Cíc. Cae. 351.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado</small> &ensp; Rigor demasiado, severidade &ensp; <small>Plín. H. Nat. 13. 134.</small> <br> <b>4</b> &ensp; <small>II-No abl. sing.:</small> &ensp; Injustamente &ensp; <small>Cíc. Mil. 57.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Injuria</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; injuria, affronta. <br> <b>2</b> &ensp; detrimento, prejuizo, damno. <br> <b>3</b> &ensp; <small>Ter.</small> &ensp; injustiça. <br> <b>4</b> &ensp; <small>Injuria, abl. abs. Ter.</small> &ensp; injustamente, sem razão. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Iniuria</b> -<b>ae</b>   <p> <b>1</b> &ensp; ho agrauo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/107914 ' target="_blank"> http://lila-erc.eu/data/id/lemma/107914 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+injūrĭa 
+ injūrĭae
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx105-110-105-117-114-105-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-110-105-117-114-105-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword iniuria here are all the values plotted: collocate: haedui; scoreSUBST: 0. collocate: socius; scoreSUBST: 2. collocate: dolor; scoreSUBST: 2. collocate: accipio; scoreSUBST: 0. collocate: an; scoreSUBST: 0. collocate: facio; scoreSUBST: 0. collocate: ab; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-110-105-117-114-105-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword iniuria here are all the values plotted: collocate: haedui; scoreADJ: 2. collocate: socius; scoreADJ: 0. collocate: dolor; scoreADJ: 0. collocate: accipio; scoreADJ: 0. collocate: an; scoreADJ: 0. collocate: facio; scoreADJ: 0. collocate: ab; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-110-105-117-114-105-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword iniuria here are all the values plotted: collocate: haedui; scoreVERBO: 0. collocate: socius; scoreVERBO: 0. collocate: dolor; scoreVERBO: 0. collocate: accipio; scoreVERBO: 2. collocate: an; scoreVERBO: 0. collocate: facio; scoreVERBO: 2. collocate: ab; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-110-105-117-114-105-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword iniuria here are all the values plotted: collocate: haedui; scoreADV: 0. collocate: socius; scoreADV: 0. collocate: dolor; scoreADV: 0. collocate: accipio; scoreADV: 0. collocate: an; scoreADV: 0. collocate: facio; scoreADV: 0. collocate: ab; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-110-105-117-114-105-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword iniuria here are all the values plotted: collocate: haedui; scoreFUNC: 0. collocate: socius; scoreFUNC: 0. collocate: dolor; scoreFUNC: 0. collocate: accipio; scoreFUNC: 0. collocate: an; scoreFUNC: 0. collocate: facio; scoreFUNC: 0. collocate: ab; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> iure an <b>iniuria</b> <br> <small> Cic.Mil.57 <br> Justa ou injustamente? <small> [JDD] </small> </small> </p>
+; <p> acceptae <b>iniuriae</b> querelam ad quem detulistis <br> <small> Cic.Lig.25 <br> A quem apresentastes vossa queixa do ultraje recebido? <small> [JDD] </small> </small> </p>
+; <p> nunc quaero utrum uestras <b>iniurias</b> an rei publicae persequamini <br> <small> Cic.Lig.29 <br> Agora quero saber se vós perseguis os vossos ultrajes ou os da república? <small> [JDD] </small> </small> </p>
+; <p> intellego Quirites a uobis hanc sententiam repudiari neque <b>iniuria</b> <br> <small> Cic.Phil.6.3.9 <br> Entendo, Quirites, que essa decisão é rechaçada por vós, e não sem razão. <small> [JDD] </small> </small> </p>
+; <p> equidem inuitus sed <b>iniuriae</b> dolor facit me praeter consuetudinem gloriosum <br> <small> Cic.Phil.14.13.7 <br> Realmente contra a minha vontade, mas a dor da ofensa me faz vanglorioso além do costume. <small> [JDD] </small> </small> </p>
+; <p> aguntur <b>iniuriae</b> sociorum agitur uis legum agitur existimatio ueritasque iudiciorum <br> <small> Cic.Ver.2.4.113.12 <br> Trata-se de injúrias contra aliados, trata-se da força da lei, trata-se da reputação e a veracidade dos julgamentos. <small> [JDD] </small> </small> </p>
+; <p> quod sibi Caesar denuntiaret se Haeduorum <b>iniurias</b> non neglecturum neminem se cum sine sua pernicie contendisse <br> <small> Caes.Gal.1.36.6 <br> Que, quanto a César ter declarado que não ficaria indiferente às injúria dos Éduos, ninguém tinha combatido com ele sem sua desgraça. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-110-105-117-114-105-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 10.2 and an absolute frequency of 11. The Caesar subcorpus follows, with a normalized frequency of 9.82 and an absolute frequency of 26. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 26 ; absolute frequency: 9.81947276984667. subcorpus: Cicero ; normalized frequency: 55 ; absolute frequency: 3.42627893648302. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 11 ; absolute frequency: 10.2031351451628. subcorpus: Seneca ; normalized frequency: 7 ; absolute frequency: 1.30643325059256. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-110-105-117-114-105-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 9.49 and an absolute frequency of 39. The Prosa.filosófica subcorpus follows, with a normalized frequency of 1.81 and an absolute frequency of 11. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 39 ; absolute frequency: 9.49390199371942. subcorpus: Prosa.filosófica ; normalized frequency: 11 ; absolute frequency: 1.81216124940281. subcorpus: Prosa.oratória ; normalized frequency: 42 ; absolute frequency: 4.0325290678137. subcorpus: Prosa.epistolográfica ; normalized frequency: 9 ; absolute frequency: 2.38480086912743. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-110-105-117-114-105-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The I.a.C. subcorpus follows, with a normalized frequency of 4.38 and an absolute frequency of 94. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 94 ; absolute frequency: 4.37514545031417. subcorpus: I.d.C. ; normalized frequency: 10 ; absolute frequency: 1.52975370965275. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

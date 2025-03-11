@@ -1,0 +1,212 @@
+---
+title: "nescio"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-101-115-99-105-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>nescĭī</b> <br> <small>= nescíví, perf. de nescìo.</small> <br> <small></small> 
+ <b>nescĭō</b> <b>-ís</b> <b>-íre</b> <b>-ívi -ìí, -ítum</b> <br> <small>v. tr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Não saber, ignorar, não conhecer &ensp; <small>C íc. Tusc. 1, 60; Cíc. Fin. 2. 12; Cíc. Tusc, 5. 116: Cíc. Br. 126.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Nescio</b> -<b>is</b> -<b>ivi</b> -<b>itum</b> -<b>ire</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; não saber. <br> <b>2</b> &ensp; <small>Plaut.</small> &ensp; desconhecer. </p>
+
+
+
+
+#### Velez
+
+<b>Nescio</b> -<b>is</b>   <p> <b>1</b> &ensp; naõ saber, ignorar, naõ conhecer &ensp; <small>Act.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Nescio</b> <b>is</b> <b>iui</b>   <p> <b>1</b> &ensp; não saber </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/113625 ' target="_blank"> http://lila-erc.eu/data/id/lemma/113625 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 4ª conjugação (tema em -ī- longo) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> nescio </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> nescire </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> nesciet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> nesciui, nescii </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> nescitum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> nesciturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+nescĭō 
+ nescīs 
+ nescīre 
+ nescĭī 
+ nescītum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx110-101-115-99-105-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-101-115-99-105-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword nescio here are all the values plotted: collocate: an2; scoreSUBST: 0. collocate: quis; scoreSUBST: 0. collocate: sed; scoreSUBST: 0. collocate: dico; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-101-115-99-105-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword nescio here are all the values plotted: collocate: an2; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: sed; scoreADJ: 0. collocate: dico; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-101-115-99-105-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword nescio here are all the values plotted: collocate: an2; scoreVERBO: 0. collocate: quis; scoreVERBO: 0. collocate: sed; scoreVERBO: 0. collocate: dico; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-101-115-99-105-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword nescio here are all the values plotted: collocate: an2; scoreADV: 0. collocate: quis; scoreADV: 0. collocate: sed; scoreADV: 0. collocate: dico; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-101-115-99-105-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword nescio here are all the values plotted: collocate: an2; scoreFUNC: 30. collocate: quis; scoreFUNC: 0. collocate: sed; scoreFUNC: 0. collocate: dico; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quid dicam <b>nescio</b> <br> <small> Cic.Att.2.16.4 <br> O que vou dizer não sei. <small> [JDD] </small> </small> </p>
+; <p> sed <b>nescio</b> an ταὐτόματον ἡμῶν <br> <small> Cic.Att.1.12.1 <br> Mas não sei se o acaso melhor que nós... <small> [JDD] </small> </small> </p>
+; <p> constantiam dico <b>nescio</b> an melius patientiam possim dicere <br> <small> Cic.Lig.26 <br> Digo constância? Não sei se poderia melhor dizer paciência. <small> [JDD] </small> </small> </p>
+; <p> nam de ipso casu <b>nescio</b> an illud melius <br> <small> Cic.Att.4.8A.2 <br> Pois a respeito do caso em si, não sei se aquilo foi melhor. <small> [JDD] </small> </small> </p>
+; <p> ait <b>nescio</b> quem ex eo numero seruum iudicatum <br> <small> Cic.Deiot.24 <br> Diz que não sei quem desse número foi considerado um escravo. <small> [JDD] </small> </small> </p>
+; <p> Gnaeus quidem noster iam plane quid cogitet <b>nescio</b> <br> <small> Cic.Att.2.16.2 <br> O que o nosso Cneu está pensando agora eu não sei. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-101-115-99-105-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Ovidius subcorpus registers the highest normalized frequency, with the value of 8.58 and an absolute frequency of 5. The Sallustius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 71 ; absolute frequency: 4.42301462709626. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 5 ; absolute frequency: 8.57927247769389. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 30 ; absolute frequency: 5.59899964539669. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-101-115-99-105-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 7.82 and an absolute frequency of 9. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 6.62 and an absolute frequency of 25. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.filosófica ; normalized frequency: 30 ; absolute frequency: 4.94225795291676. subcorpus: Prosa.oratória ; normalized frequency: 37 ; absolute frequency: 3.55246608355016. subcorpus: Prosa.epistolográfica ; normalized frequency: 25 ; absolute frequency: 6.6244468586873. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 7 ; absolute frequency: 5.93773856985325. subcorpus: Poesia.trágica ; normalized frequency: 9 ; absolute frequency: 7.81792911744267. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-101-115-99-105-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 5.66 and an absolute frequency of 37. The II.d.C. subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 76 ; absolute frequency: 3.53735164067954. subcorpus: I.d.C. ; normalized frequency: 37 ; absolute frequency: 5.66008872571516. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

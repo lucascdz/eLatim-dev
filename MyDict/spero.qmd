@@ -1,0 +1,213 @@
+---
+title: "spero"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-112-101-114-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>spērō</b> <b>-ás</b> <b>-áre</b> <b>-áví –átum</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói-se cumo absoluto; com acus.: com inf. fut.; com ut ou subj, e com abl. acompanhado da prep. de.</small>   <p> <b>1</b> &ensp; <small>Sent. próprio</small> &ensp; Esperar, ter esperança, contar com &ensp; <small>Cíc. Dej. 38; Cíc. At. 16, 3, 4; Cíc. Phil. 12, 10; Cés. B. Civ. 3, 6, 1; Ter. Eun. 920; Verg. En. 11, 275.</small> <br> <b>2</b> &ensp; <small>Daí:</small> &ensp; Recear, prever &ensp; <small>Cíc. De Or. 3, 51.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Spero</b> -<b>as</b> -<b>avi</b> -<b>atum</b> -<b>are</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; esperar. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>sperare Deos &ensp; <small><small>Plaut</small></small> &ensp; <small>Ter confiança nos Deozes</small> <br> sperare dolorem &ensp; <small><small>Virg</small></small> &ensp; <small>Esperar com temor alguma cousa triste</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Spero</b> -<b>as</b> -<b>aui</b>   <p> <b>1</b> &ensp; esperar algũ bem </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/125334 ' target="_blank"> http://lila-erc.eu/data/id/lemma/125334 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> spero </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> sperare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> sperabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> speraui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> speratum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> speraturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+spērō 
+ sperās 
+ sperāre 
+ sperāvī 
+ sperātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx115-112-101-114-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-112-101-114-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword spero here are all the values plotted: collocate: bene; scoreSUBST: 0. collocate: ut; scoreSUBST: 0. collocate: uos; scoreSUBST: 0. collocate: quidem; scoreSUBST: 0. collocate: etiam; scoreSUBST: 0. collocate: tu; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-112-101-114-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword spero here are all the values plotted: collocate: bene; scoreADJ: 0. collocate: ut; scoreADJ: 0. collocate: uos; scoreADJ: 0. collocate: quidem; scoreADJ: 0. collocate: etiam; scoreADJ: 0. collocate: tu; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-112-101-114-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword spero here are all the values plotted: collocate: bene; scoreVERBO: 0. collocate: ut; scoreVERBO: 0. collocate: uos; scoreVERBO: 0. collocate: quidem; scoreVERBO: 0. collocate: etiam; scoreVERBO: 0. collocate: tu; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-112-101-114-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword spero here are all the values plotted: collocate: bene; scoreADV: 2. collocate: ut; scoreADV: 0. collocate: uos; scoreADV: 0. collocate: quidem; scoreADV: 2. collocate: etiam; scoreADV: 2. collocate: tu; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-112-101-114-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword spero here are all the values plotted: collocate: bene; scoreFUNC: 0. collocate: ut; scoreFUNC: 30. collocate: uos; scoreFUNC: 0. collocate: quidem; scoreFUNC: 0. collocate: etiam; scoreFUNC: 0. collocate: tu; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> sed ut <b>spero</b> iam renascuntur <br> <small> Cic.Att.4.2.5 <br> Mas, como espero, já estão renascendo. <small> [JDD] </small> </small> </p>
+; <p> nihil opus fuit ut <b>spero</b> <br> <small> Cic.Att.5.21.3 <br> não havia nenhuma necessidade de “pelo que espero”. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> tamen magno timore sum sed bene <b>speramus</b> <br> <small> Cic.Att.5.14.2 <br> contudo, estou em grande temor, mas esperamos o melhor. <small> [JDD] </small> </small> </p>
+; <p> at senex ne quod <b>speret</b> quidem habet <br> <small> Cic.Sen.68 <br> Mas o velho nem sequer tem por que esperar. <small> [JDD] </small> </small> </p>
+; <p> credis aut <b>speras</b> tibi Agamemnonis fidele coniugium <br> <small> Sen.Ag.244 <br> Crês ou esperas fidelidade conjugal de Agamenão para ti? <small> [JDD] </small> </small> </p>
+; <p> sed tamen etiam illud quod non <b>speraram</b> audi <br> <small> Cic.Att.1.14.6 <br> Mas escuta também algo que eu não esperava. <small> [JDD] </small> </small> </p>
+; <p> sed res est ut <b>spero</b> non tam exitu molesta quam aditu <br> <small> Cic.Att.2.24.1 <br> Mas é uma coisa, conforme espero, não tão desagradável na saída quanto foi na entrada. <small> [JDD] </small> </small> </p>
+; <p> itaque quid ea mihi prosit nescio sed tamen quoad me vos <b>sperare</b> vultis vobis obtemperabo <br> <small> Cic.Att.3.10.1 <br> E assim não sei em que ela me é útil. Mas, mesmo assim, até onde vós quereis que eu tenha esperança, obedecer-vos-ei. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-112-101-114-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 6.49 and an absolute frequency of 7. The Cicero subcorpus follows, with a normalized frequency of 6.23 and an absolute frequency of 100. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 5 ; absolute frequency: 1.88836014804744. subcorpus: Cicero ; normalized frequency: 100 ; absolute frequency: 6.22959806633276. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 17 ; absolute frequency: 3.17276646572479. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-112-101-114-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 12.19 and an absolute frequency of 46. The Prosa.oratória subcorpus follows, with a normalized frequency of 4.22 and an absolute frequency of 44. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 12 ; absolute frequency: 2.92120061345213. subcorpus: Prosa.filosófica ; normalized frequency: 25 ; absolute frequency: 4.1185482940973. subcorpus: Prosa.oratória ; normalized frequency: 44 ; absolute frequency: 4.22455426151911. subcorpus: Prosa.epistolográfica ; normalized frequency: 46 ; absolute frequency: 12.1889822199846. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-112-101-114-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 5.49 and an absolute frequency of 118. The I.a.C. subcorpus follows, with a normalized frequency of 5.49 and an absolute frequency of 118. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 118 ; absolute frequency: 5.49220386316034. subcorpus: I.d.C. ; normalized frequency: 20 ; absolute frequency: 3.05950741930549. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,203 @@
+---
+title: "animal"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-110-105-109-97-108xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>anĭmal</b> <b>-ális</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Ser vivo, animal &ensp; <small>geralmente referindo-se aos animais, por oposição aos homens Cíc. Ac. 2, 37.</small> <br> <b>2</b> &ensp; <small>I-Sent. próprio</small> &ensp; Animal &ensp; <small>termo de injúria Cíc. Pis. 21.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Animal</b> -<b>alis</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; animal. <br> <b>2</b> &ensp; vivente, que tem alma. </p>
+
+
+
+
+#### Velez
+
+<b>Animal</b> -<b>is</b>   <p> <b>1</b> &ensp; o animal </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>dare fraenos indomito animali &ensp; <small><small>apud Liv. id est, mulieri</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Animal</b> -<b>alis</b>   <p> <b>1</b> &ensp; ho animal </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/89082 ' target="_blank"> http://lila-erc.eu/data/id/lemma/89082 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ănĭmăl 
+ ănĭmālis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-110-105-109-97-108xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-110-105-109-97-108xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword animal here are all the values plotted: collocate: mutus; scoreSUBST: 0. collocate: constitutio; scoreSUBST: 3. collocate: nullus; scoreSUBST: 0. collocate: omnis; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-110-105-109-97-108xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword animal here are all the values plotted: collocate: mutus; scoreADJ: 4. collocate: constitutio; scoreADJ: 0. collocate: nullus; scoreADJ: 0. collocate: omnis; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-110-105-109-97-108xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword animal here are all the values plotted: collocate: mutus; scoreVERBO: 0. collocate: constitutio; scoreVERBO: 0. collocate: nullus; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-110-105-109-97-108xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword animal here are all the values plotted: collocate: mutus; scoreADV: 0. collocate: constitutio; scoreADV: 0. collocate: nullus; scoreADV: 0. collocate: omnis; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-110-105-109-97-108xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword animal here are all the values plotted: collocate: mutus; scoreFUNC: 0. collocate: constitutio; scoreFUNC: 0. collocate: nullus; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> mutum <b>animal</b> sensu conprendit praesentia <br> <small> Sen.Ep.124.16 <br> O animal mudo compreende com o sentido as coisas presentes. <small> [JDD] </small> </small> </p>
+; <p> quaerebamus an esset omnibus <b>animalibus</b> constitutionis suae sensus <br> <small> Sen.Ep.121.5 <br> Queríamos saber se todos os animais tinham o sentido de sua própria constituição. <small> [JDD] </small> </small> </p>
+; <p> nullum <b>animal</b> ad uitam prodit sine metu mortis <br> <small> Sen.Ep.121.18 <br> Nenhum animal vem para a vida sem medo da morte. <small> [JDD] </small> </small> </p>
+; <p> cum omnia feceris a mutis <b>animalibus</b> decore uinceris <br> <small> Sen.Ep.124.22 <br> Depois que tiveres feito tudo, serás vencido em formosura pelos animais mudos. <small> [JDD] </small> </small> </p>
+; <p> quare autem bonum in arbore <b>animali</b>que muto non est <br> <small> Sen.Ep.124.8 <br> Porém por que o bem não está na árvore ou no animal mudo? <small> [JDD] </small> </small> </p>
+; <p> si tamen exigis dicam quomodo omne <b>animal</b> perniciosa intellegere conatur <br> <small> Sen.Ep.121.21 <br> Se, contudo, exiges, vou dizer como todo animal é levado a entender as coisas perniciosas.[*] <small>  </small> </small> </p>
+; <p> huic adiunctum est in mutis <b>animalibus</b> et infantibus non esse <br> <small> Sen.Ep.124.1 <br> a isto se acrescenta que essa percepção não existe nos animais mudos nem nos bebês. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-110-105-109-97-108xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 8.59 and an absolute frequency of 46. The Ovidius subcorpus follows, with a normalized frequency of 3.43 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 1 ; absolute frequency: 0.0622959806633276. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 46 ; absolute frequency: 8.58513278960826. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-110-105-109-97-108xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 7.74 and an absolute frequency of 47. The Poesia.lírica subcorpus follows, with a normalized frequency of 0.84 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Prosa.oratória with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 3 ; absolute frequency: 0.730300153363032. subcorpus: Prosa.filosófica ; normalized frequency: 47 ; absolute frequency: 7.74287079290292. subcorpus: Prosa.oratória ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-110-105-109-97-108xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 7.34 and an absolute frequency of 48. The I.a.C. subcorpus follows, with a normalized frequency of 0.23 and an absolute frequency of 5. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 5 ; absolute frequency: 0.232720502676286. subcorpus: I.d.C. ; normalized frequency: 48 ; absolute frequency: 7.34281780633318. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

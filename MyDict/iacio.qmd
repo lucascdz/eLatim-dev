@@ -1,0 +1,206 @@
+---
+title: "iacio"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-97-99-105-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>jacĭō</b> <b>-is</b> <b>-ère</b> <b>jécí. jáctum</b> <br> <b>iacĭō</b> <b>-is</b> <b>-ère</b> <b>jécí. jáctum</b> <br> <small>v. tr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Jogar, atirar, lançar &ensp; <small>Cíc. Mil. 41; Cíc. Div. 2. 45; Cíc. Sesl. 45; Cíc. Sull. 23.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Proferir, dizer &ensp; <small>Ck;. Flac. 6.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado</small> &ensp; Estabelecer, colocar, construir &ensp; <small>Cés. B. Gal. 2, 12, 5.</small> </p> 
+ <b>jēcī</b> <br> <small>perf. de jacìo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Jacio</b> -<b>is</b> <b>jeci</b> <b>jactum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; arremessar, arrojar, atirar, lançar. <br> <b>2</b> &ensp; divulgar, espalhar novas, & c. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>iacere contumeliam in aliquem &ensp; <small><small>Cic</small></small> &ensp; <small>Affrontar alguem</small> <br> iacere gradum &ensp; <small><small>Cic</small></small> &ensp; <small>Abrir caminho para o negocio</small> <br> iacere odorem de corpore &ensp; <small><small>Lucr</small></small> &ensp; <small>Exhalar cheiro de seu corpo</small> <br> iacere uerba &ensp; <small><small>Cic</small></small> &ensp; <small>Fallar</small> </p>
+
+
+
+
+#### Velez
+
+<b>Jacio</b> -<b>is</b>   <p> <b>1</b> &ensp; arremeçar, lançar </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>gradum, atque aditum ad caetera iacere &ensp; <small>dar principio, pôr em dia</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Iacio</b> <b>is</b> -<b>eci</b> <b>actum</b>   <p> <b>1</b> &ensp; atirar. ou arremesar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/106001 ' target="_blank"> http://lila-erc.eu/data/id/lemma/106001 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 5ª conjugação (tema em -ĭ- breve) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> iacio </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> iacere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> iaciet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> ieci </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> iactum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> iacturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+jăcĭō 
+ jăcis 
+ jăcĕre 
+ jēcī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx105-97-99-105-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> bene habet <b>iacta</b> sunt fundamenta defensionis <br> <small> Cic.Mur.14 <br> Está bem; estão postos os fundamentos da defesa. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-97-99-105-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 2.25 and an absolute frequency of 1. The Caesar subcorpus follows, with a normalized frequency of 1.89 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Sallustius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 5 ; absolute frequency: 1.88836014804744. subcorpus: Cicero ; normalized frequency: 12 ; absolute frequency: 0.747551767959931. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 8 ; absolute frequency: 1.49306657210578. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-97-99-105-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 2.25 and an absolute frequency of 1. The Poesia.trágica subcorpus follows, with a normalized frequency of 1.74 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 5 ; absolute frequency: 1.21716692227172. subcorpus: Prosa.filosófica ; normalized frequency: 6 ; absolute frequency: 0.988451590583351. subcorpus: Prosa.oratória ; normalized frequency: 10 ; absolute frequency: 0.960125968527071. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-97-99-105-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 2.25 and an absolute frequency of 1. The I.d.C. subcorpus follows, with a normalized frequency of 1.53 and an absolute frequency of 10. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 18 ; absolute frequency: 0.837793809634629. subcorpus: I.d.C. ; normalized frequency: 10 ; absolute frequency: 1.52975370965275. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

@@ -1,0 +1,200 @@
+---
+title: "tuitus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx116-117-105-116-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>tuĭtus</b> <b>-a</b> <b>-um</b> <br> <small>part. pass. de tuèor.</small> <br> <small></small> 
+ <small>A</small> <b>tūtus</b> <b>-a</b> <b>-um</b> <br> <small>Part. pass. de tuèor.</small> <br> <small>Obs.: Constrói-se como absoluto; com abl. com ab ou in; com  acus. com ad ou adversum; e com inf. na expressão: tutum est – ‘é prudente’, por exemplo: Tutius est... potiri Cés. B. Gal. 3, 24, 2 ‘é mais prudente... apoderar-se de’.</small> 
+ <small>B</small> <b>tūtus</b> <b>-a</b> <b>-um</b> <br> <small>Adj.</small> <br> <small>Obs.: Constrói-se como absoluto; com abl. com ab ou in; com  acus. com ad ou adversum; e com inf. na expressão: tutum est – ‘é prudente’, por exemplo: Tutius est... potiri Cés. B. Gal. 3, 24, 2 ‘é mais prudente... apoderar-se de’.</small>   <p> <b>1</b> &ensp; <small>Sent. próprio:</small> &ensp; Que está em segurança, que nada tem a recear, seguro &ensp; <small>Cíe. Verr. 5, 39; pc. Pomp. 31.</small> <br> <b>2</b> &ensp; <small>Sent. figurado:</small> &ensp; Prudente, circunspecto &ensp; <small>Ov. Trist. 3, 12, 36; T. Lív. 9, 32, 3.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Tuitus</b> -<b>a</b> -<b>um</b> <br> <small>Nep. part. de Tueor.</small> 
+ <b>Tutus</b> -<b>a</b> -<b>um</b> -<b>tior</b> -<b>tissimus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; seguro, que naõ tem temer, que está fóra de risco, que está em segurança. <br> <b>2</b> &ensp; <small>Hor.</small> &ensp; acautelado. </p>
+
+
+
+
+#### Velez
+
+<b>Tutus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa segura, sem perigo &ensp; <small>securus, dicitur, qui non timet, quanvis immineat periculum; tutus, qui extra periculum est, licèt timeat.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>ex tuto audere &ensp; <small>ousar com segurança</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Tutus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa segura </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/hypolemma/45533 ' target="_blank"> http://lila-erc.eu/data/id/hypolemma/45533 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> tutus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+tŭĭtus 
+ tūtus
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quia in bello <b>tutae</b> sunt <br> <small> Sen.Ep.119.6 <br> Por que na guerra estão seguras? <small> [JDD] </small> </small> </p>
+; <p> <b>tuta</b> est latetque culpa si pateris tua <br> <small> Sen.Ag.147 <br> Está segura e oculta a tua culpa, se suportas. <small> [JDD] </small> </small> </p>
+; <p> possumus ne igitur in Antoni latrocinio aeque esse <b>tuti</b> <br> <small> Cic.Phil.12.27.17 <br> Por acaso podemos então estar igualmente seguros em relação ao bando de Antônio? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx116-117-105-116-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 7.72 and an absolute frequency of 4. The Seneca subcorpus follows, with a normalized frequency of 4.67 and an absolute frequency of 25. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 6 ; absolute frequency: 2.26603217765692. subcorpus: Cicero ; normalized frequency: 12 ; absolute frequency: 0.747551767959931. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 25 ; absolute frequency: 4.66583303783057. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx116-117-105-116-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 11.29 and an absolute frequency of 13. The Poesia.trágica subcorpus follows, with a normalized frequency of 11.29 and an absolute frequency of 13. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 10 ; absolute frequency: 2.43433384454344. subcorpus: Prosa.filosófica ; normalized frequency: 12 ; absolute frequency: 1.9769031811667. subcorpus: Prosa.oratória ; normalized frequency: 9 ; absolute frequency: 0.864113371674364. subcorpus: Prosa.epistolográfica ; normalized frequency: 3 ; absolute frequency: 0.794933623042476. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 13 ; absolute frequency: 11.2925642807505. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx116-117-105-116-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 3.82 and an absolute frequency of 25. The I.a.C. subcorpus follows, with a normalized frequency of 1.4 and an absolute frequency of 30. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 30 ; absolute frequency: 1.39632301605771. subcorpus: I.d.C. ; normalized frequency: 25 ; absolute frequency: 3.82438427413186. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,198 @@
+---
+title: "tamquam"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx116-97-109-113-117-97-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>tamquam</b> <br> <small>adv.</small> <br> <small>Obs.: Pode ser usado para introduzir uma comparação, em correlação com sic ou ita Cíc. Fam. 13, 69, 1, ou para introduzir uma comparação hipotética, contrária à realidade.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Como, como se, como que &ensp; <small>Cíc. Or. 2, 43.</small> </p> 
+ <b>tanquam</b> <br> <small></small> <br> <small>v. tamquam.</small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Tamquam</b> <br> <small>v. Tanquam.</small> 
+ <b>Tanquam</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; como, de maneira, assim como. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Tanquam</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; assi como </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/127617 ' target="_blank"> http://lila-erc.eu/data/id/lemma/127617 </a> <br>
+<small> classe: </small> conjunção subordinativa    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> tanquam <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx116-97-109-113-117-97-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword tamquam here are all the values plotted: collocate: uiuo; scoreSUBST: 0. collocate: ex; scoreSUBST: 0. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx116-97-109-113-117-97-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword tamquam here are all the values plotted: collocate: uiuo; scoreADJ: 0. collocate: ex; scoreADJ: 0. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx116-97-109-113-117-97-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword tamquam here are all the values plotted: collocate: uiuo; scoreVERBO: 2. collocate: ex; scoreVERBO: 0. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx116-97-109-113-117-97-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword tamquam here are all the values plotted: collocate: uiuo; scoreADV: 0. collocate: ex; scoreADV: 0. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx116-97-109-113-117-97-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword tamquam here are all the values plotted: collocate: uiuo; scoreFUNC: 0. collocate: ex; scoreFUNC: 10. collocate: in; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> sic uiue <b>tamquam</b> quid facias auditurus sim immo <b>tamquam</b> uisurus <br> <small> Sen.Ep.32.1 <br> Vive assim como se eu fosse ouvir o que estás fazendo, mais ainda como se eu fosse ver. <small> [JDD] </small> </small> </p>
+; <p> et hic quidem Romae <b>tamquam</b> in tanta multitudine habitus animorum fuit <br> <small> Tac.Hist.1.8.1 <br> E este foi na verdade o estado de ânimos em Roma, como é natural numa multidão tão grande. <small> [JDD] </small> </small> </p>
+; <p> Epicuri adhuc enim alienas sarcinas adoro nemo non ita exit e uita <b>tamquam</b> modo intrauerit <br> <small> Sen.Ep.22.13 <br> De Epicuro; pois ainda venero as bagagens alheias: “Todo mundo sai assim da vida como se tivesse acabado de entrar”. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx116-97-109-113-117-97-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 30.9 and an absolute frequency of 9. The Suetonius subcorpus follows, with a normalized frequency of 11.03 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 59 ; absolute frequency: 3.67546285913633. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 49 ; absolute frequency: 9.14503275414793. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 9 ; absolute frequency: 30.8959835221421. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx116-97-109-113-117-97-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 12.52 and an absolute frequency of 76. The Prosa.histórica subcorpus follows, with a normalized frequency of 2.68 and an absolute frequency of 11. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 11 ; absolute frequency: 2.67776722899778. subcorpus: Prosa.filosófica ; normalized frequency: 76 ; absolute frequency: 12.5203868140558. subcorpus: Prosa.oratória ; normalized frequency: 26 ; absolute frequency: 2.49632751817038. subcorpus: Prosa.epistolográfica ; normalized frequency: 6 ; absolute frequency: 1.58986724608495. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx116-97-109-113-117-97-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 26.18 and an absolute frequency of 10. The I.d.C. subcorpus follows, with a normalized frequency of 7.5 and an absolute frequency of 49. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 62 ; absolute frequency: 2.88573423318594. subcorpus: I.d.C. ; normalized frequency: 49 ; absolute frequency: 7.49579317729845. subcorpus: II.d.C. ; normalized frequency: 10 ; absolute frequency: 26.1780104712042. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

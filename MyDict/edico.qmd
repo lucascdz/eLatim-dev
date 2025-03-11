@@ -1,0 +1,208 @@
+---
+title: "edico"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx101-100-105-99-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>ēdīce</b> <br> <small>= édíc, imperativo pres. de edíco.</small> <br> <small></small> 
+ <b>ēdīcō</b> <b>-ìs</b> <b>-ère</b> <b>-díxí, -díctum</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói-se geralmente com ut ou ne; com acus. e com acus. e inf. Em Vergílio ocorre o imperativo édíce.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Proclamar um édito, dizer em voz alta &ensp; <small>Cíc. Verr. 2, 66.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Publicar, tornar público &ensp; <small>Cíc. Fin. 2, 74.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado.</small> &ensp; Ordenar, mandar &ensp; <small>Cíc. Pis. 18.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado.</small> &ensp; Fixar, estabelecer &ensp; <small>T. Lív. 26, 18, 4.</small> </p> 
+ <b>ēdīxī</b> <br> <small>perf. de edíco.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Edico</b> -<b>is</b> -<b>ixi</b> -<b>ictum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; ordenar, mandar, dar ordens, denunciar, declarar. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Edico</b> <b>is</b> <b>xi</b> -<b>ctum</b>   <p> <b>1</b> &ensp; mandar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/100563 ' target="_blank"> http://lila-erc.eu/data/id/lemma/100563 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small> exdeico, exdico <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> edico, exdeico, exdico </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> exdeicere, exdicere, edicere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> exdeicet, exdicet, edicet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> exdixi, edixi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> exdictum, edictum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> exdicturum, edicturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+ēdīcō 
+ ēdīcis 
+ ēdīcĕre 
+ ēdixī 
+ ēdictum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx101-100-105-99-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Servilius <b>edixit</b> ut adesset <br> <small> Cic.Att.4.15.9 <br> Servílio promulgou um edito para que se apresentasse. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx101-100-105-99-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 0.93 and an absolute frequency of 1. The Cicero subcorpus follows, with a normalized frequency of 0.5 and an absolute frequency of 8. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 8 ; absolute frequency: 0.498367845306621. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx101-100-105-99-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 0.53 and an absolute frequency of 2. The Prosa.oratória subcorpus follows, with a normalized frequency of 0.48 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 1 ; absolute frequency: 0.243433384454344. subcorpus: Prosa.filosófica ; normalized frequency: 1 ; absolute frequency: 0.164741931763892. subcorpus: Prosa.oratória ; normalized frequency: 5 ; absolute frequency: 0.480062984263535. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx101-100-105-99-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 0.42 and an absolute frequency of 9. The I.a.C. subcorpus follows, with a normalized frequency of 0.42 and an absolute frequency of 9. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 9 ; absolute frequency: 0.418896904817314. subcorpus: I.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

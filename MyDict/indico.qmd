@@ -1,0 +1,207 @@
+---
+title: "indico"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-110-100-105-99-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>indĭcō</b> <b>-ás</b> <b>-áre</b> <b>-áví, -átum</b> <br> <small>v. tr.</small> <br> <small>Obs.: Fut. perf. arcaico: indicasso Plaul. Poen. 888.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Revelar, desvendar, denunciar, indicar &ensp; <small>Cíc. Clu. 180; Cíc. Lcg. 1. 9.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Mostrar, testemunhar, dar a conhecer &ensp; <small>Plín. H. Nal. 6. 96.</small> <br> <b>3</b> &ensp; <small>I-Daí</small> &ensp; Marcar o preço, avaliar &ensp; <small>Cíc. Or. 3. 62.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Indico</b> -<b>as</b> -<b>avi</b> -<b>atum</b> -<b>are</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; manifestar, patentear, indicar, descobrir. <br> <b>2</b> &ensp; denunciar, delatar o crime, principalmente proprio. <br> <b>3</b> &ensp; taixar, avaliar alguma cousa. </p>
+
+
+
+
+#### Velez
+
+<b>Indico</b> -<b>as</b>   <p> <b>1</b> &ensp; mostrar, descobrir o segredo &ensp; <small>Aliquid alicui</small> <br> <b>2</b> &ensp; <small>indicare etiam dicitur qui merci suae pretium statuit</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Indico</b> -<b>as</b>   <p> <b>1</b> &ensp; demostrar. ou descobrir </p> 
+ <b>Indico</b> -<b>as</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/107327 ' target="_blank"> http://lila-erc.eu/data/id/lemma/107327 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> indico </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> indicare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> indicabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> indicaui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> indicatum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> indicaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+indĭcō 
+ indĭcās 
+ indĭcāre 
+ indĭcāvī 
+ indĭcātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx105-110-100-105-99-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> metuebat scilicet ne <b>indicaretur</b> ne dolorem perferre non possent ne tormentis cogerentur occisum esse a seruis Milonis in Appia uia P. Clodium confiteri <br> <small> Cic.Mil.57 <br> Sem dúvida temia que fosse denunciado, que eles não podiam suportar a dor, que eles fossem obrigados, sob tortura, a confessar que Públio Clódia foi morto na via Ápia pelos escravos de Milão. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-110-100-105-99-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 2.78 and an absolute frequency of 3. The Phaedrus subcorpus follows, with a normalized frequency of 1.52 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 20 ; absolute frequency: 1.24591961326655. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 3 ; absolute frequency: 0.559899964539669. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-110-100-105-99-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 1.34 and an absolute frequency of 14. The Prosa.oratória subcorpus follows, with a normalized frequency of 1.34 and an absolute frequency of 14. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 3 ; absolute frequency: 0.730300153363032. subcorpus: Prosa.filosófica ; normalized frequency: 3 ; absolute frequency: 0.494225795291676. subcorpus: Prosa.oratória ; normalized frequency: 14 ; absolute frequency: 1.3441763559379. subcorpus: Prosa.epistolográfica ; normalized frequency: 5 ; absolute frequency: 1.32488937173746. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-110-100-105-99-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 1.12 and an absolute frequency of 24. The I.a.C. subcorpus follows, with a normalized frequency of 1.12 and an absolute frequency of 24. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 24 ; absolute frequency: 1.11705841284617. subcorpus: I.d.C. ; normalized frequency: 4 ; absolute frequency: 0.611901483861098. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

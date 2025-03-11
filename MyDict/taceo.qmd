@@ -1,0 +1,207 @@
+---
+title: "taceo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx116-97-99-101-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>tacĕō</b> <b>-és</b> <b>-ére</b> <b>tacùí, tacìtum</b> <br> <small>v. intr. e tr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>A-Intr.-Sent. próprio:</small> &ensp; Calar-se, calar, guardar silêncio &ensp; <small>Cíc. Sest. 40.</small> <br> <b>2</b> &ensp; <small>B-Tr.:</small> &ensp; Fazer silêncio, não falar de, não dizer &ensp; <small>Verg. G. 4, 123.</small> <br> <b>3</b> &ensp; <small>B-Tr.:-Donde:</small> &ensp; Estar silencioso, estar calmo &ensp; <small>Verg. En. 4, 525.</small> </p> 
+ <b>tacŭī</b> <br> <small>perf. de tacèo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Taceo</b> -<b>es</b> -<b>ui</b> -<b>itum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; calar-se, calar. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>tacet omnis ager &ensp; <small><small>Virg</small></small> &ensp; <small>Todo o campo está em silencio</small> </p>
+
+
+
+
+#### Velez
+
+<b>Taceo</b> -<b>es</b> <br> <small>Tacere propriè est, de quem naõ começou a fallar: Silere, de quem começou:</small>   <p> <b>1</b> &ensp; calar-se &ensp; <small>Neutr.</small> <br> <b>2</b> &ensp; calar, encobrir, naõ fallar &ensp; <small>abl. cum De, vel accus.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Taceo</b> -<b>es</b>   <p> <b>1</b> &ensp; calar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/127555 ' target="_blank"> http://lila-erc.eu/data/id/lemma/127555 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> taceo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> tacere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> tacebit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> tacui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> tacitum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> taciturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+tăcĕō 
+ tacēs 
+ tacēre 
+ tacŭī 
+ tacĭtum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx116-97-99-101-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>tacere</b> liceat <br> <small> Sen.Oed.523 <br> Que me seja permitido calar. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx116-97-99-101-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 4.49 and an absolute frequency of 2. The Seneca subcorpus follows, with a normalized frequency of 1.87 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Sallustius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 22 ; absolute frequency: 1.37051157459321. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 10 ; absolute frequency: 1.86633321513223. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx116-97-99-101-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 4.49 and an absolute frequency of 2. The Poesia.trágica subcorpus follows, with a normalized frequency of 4.34 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 2 ; absolute frequency: 0.486866768908688. subcorpus: Prosa.filosófica ; normalized frequency: 5 ; absolute frequency: 0.823709658819459. subcorpus: Prosa.oratória ; normalized frequency: 15 ; absolute frequency: 1.44018895279061. subcorpus: Prosa.epistolográfica ; normalized frequency: 7 ; absolute frequency: 1.85484512043244. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx116-97-99-101-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 4.49 and an absolute frequency of 2. The I.d.C. subcorpus follows, with a normalized frequency of 1.84 and an absolute frequency of 12. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 26 ; absolute frequency: 1.21014661391669. subcorpus: I.d.C. ; normalized frequency: 12 ; absolute frequency: 1.83570445158329. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

@@ -1,0 +1,201 @@
+---
+title: "hora"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx104-111-114-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>hōra</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Hora, divisão do dia &ensp; <small>Cíc. At. 14, 20, 4.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Tempo. duração. momento &ensp; <small>Hor. O. 2, 16, 31.</small> <br> <b>3</b> &ensp; <small>II-No pl.:</small> &ensp; Relógio &ensp; <small>Cíc. Br. 200.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Hora</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; hora. <br> <b>2</b> &ensp; estação, tempo, dia. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>horis suis uti &ensp; <small><small>Cic</small></small> &ensp; <small>Aproveitar o seu tempo</small> <br> in horam uiuere &ensp; <small><small>Cic</small></small> &ensp; <small>Viver só para o dia de hoje, não se lhe dar do que succederá</small> <br> omnium horarum homo &ensp; <small><small>Quinct</small></small> &ensp; <small>Homem para tudo, que a tudo se accommoda</small> <br> septembres horae &ensp; <small><small>Hor</small></small> &ensp; <small>Mez de Setembro ou outono</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Hora</b> -<b>ae</b>   <p> <b>1</b> &ensp; a hora </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/105663 ' target="_blank"> http://lila-erc.eu/data/id/lemma/105663 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a/e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+hōra 
+ hōrae
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx104-111-114-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx104-111-114-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword hora here are all the values plotted: collocate: circa; scoreSUBST: 0. collocate: ample; scoreSUBST: 0. collocate: tres; scoreSUBST: 0. collocate: nox; scoreSUBST: 2. collocate: iam; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx104-111-114-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword hora here are all the values plotted: collocate: circa; scoreADJ: 0. collocate: ample; scoreADJ: 0. collocate: tres; scoreADJ: 0. collocate: nox; scoreADJ: 0. collocate: iam; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx104-111-114-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword hora here are all the values plotted: collocate: circa; scoreVERBO: 0. collocate: ample; scoreVERBO: 0. collocate: tres; scoreVERBO: 0. collocate: nox; scoreVERBO: 0. collocate: iam; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx104-111-114-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword hora here are all the values plotted: collocate: circa; scoreADV: 0. collocate: ample; scoreADV: 2. collocate: tres; scoreADV: 0. collocate: nox; scoreADV: 0. collocate: iam; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx104-111-114-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword hora here are all the values plotted: collocate: circa; scoreFUNC: 20. collocate: ample; scoreFUNC: 0. collocate: tres; scoreFUNC: 0. collocate: nox; scoreFUNC: 0. collocate: iam; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ante tribus <b>horis</b> Roma Interamnam <br> <small> Cic.Att.2.1.5 <br> mas em três horas de Roma a Interamna. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> audio inquit circa <b>horam</b> tertiam noctis flagellorum sonum <br> <small> Sen.Ep.122.15 <br> “Ouço”, dizia ele “por volta da terceira hora da noite o som dos chicotes. <small> [JDD] </small> </small> </p>
+; <p> desertus est locus hic et iam <b>hora</b> praeterivit <br> <small> Vulg.Marc.6.35 <br> Este local é deserto e já passou a hora. <small> [JDD] </small> </small> </p>
+; <p> et cum iam <b>hora</b> multa fieret accesserunt discipuli eius dicentes <br> <small> Vulg.Marc.6.35 <br> E como já tinham transcorrido muitas horas, seus discípulos se aproximaram, dizendo. <small> [JDD] </small> </small> </p>
+; <p> interim nostri milites impetum hostium sustinuerunt atque amplius <b>horis</b> quattuor fortissime pugnauerunt et paucis uulneribus acceptis complures ex iis occiderunt <br> <small> Caes.Gal.4.37.3 <br> Entrementes, os nossos soldados aguentaram o ímpeto dos inimigos e lutaram com muita coragem por mais de quatro horas e, recebidos poucos ferimentos, mataram muitos deles. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx104-111-114-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 11.03 and an absolute frequency of 1. The Horatius subcorpus follows, with a normalized frequency of 6.22 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 8 ; absolute frequency: 3.0213762368759. subcorpus: Cicero ; normalized frequency: 25 ; absolute frequency: 1.55739951658319. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 16 ; absolute frequency: 2.98613314421157. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx104-111-114-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 5.89 and an absolute frequency of 7. The Poesia.épica subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 9 ; absolute frequency: 2.1909004600891. subcorpus: Prosa.filosófica ; normalized frequency: 16 ; absolute frequency: 2.63587090822227. subcorpus: Prosa.oratória ; normalized frequency: 13 ; absolute frequency: 1.24816375908519. subcorpus: Prosa.epistolográfica ; normalized frequency: 10 ; absolute frequency: 2.64977874347492. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx104-111-114-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 4.49 and an absolute frequency of 2. The I.d.C. subcorpus follows, with a normalized frequency of 2.75 and an absolute frequency of 18. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 1.86 and an absolute freqeuncy of 40. here are all the values: subcorpus: I.a.C. ; normalized frequency: 40 ; absolute frequency: 1.86176402141029. subcorpus: I.d.C. ; normalized frequency: 18 ; absolute frequency: 2.75355667737494. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

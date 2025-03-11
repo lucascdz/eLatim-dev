@@ -1,0 +1,196 @@
+---
+title: "umbra"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-109-98-114-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>umbra</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Sombra &ensp; <small>produzida por um corpo interposto entre a luz e a Terra Cíc. De Or. 1, 28.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Sombra, lugar à sombra, objeto que dá sombra, escuridão, trevas &ensp; <small>Cíc. Mur. 30.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Proteção, socorro, asilo &ensp; <small>T. Lív. 34, 9, 10.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Sombra, aparência &ensp; <small>Cíc. Of. 3, 69.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; As sombras dos mortos, as almas dos mortos, os manes, os infernos &ensp; <small>no pl. Ov. Mel. 9, 410.</small> <br> <b>6</b> &ensp; <small>II-Donde no sing.:</small> &ensp; Sombra, fantasma, espectro &ensp; <small>Hor. O. 4, 7, 16.</small> <br> <b>7</b> &ensp; <small>II-Donde no sing.:</small> &ensp; Sombra &ensp; <small>pessoa não convidada, levada por um conviva, da qual era como que a sombra Hor. Sát. 2, 8, 22.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Umbra</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; sombra do corpo. <br> <b>2</b> &ensp; sombra na pintura. <br> <b>3</b> &ensp; <small>Virg. no plur.</small> &ensp; alma dos mortos. <br> <b>4</b> &ensp; <small>Hor.</small> &ensp; o que vem ao banquete sem ser convidado. <br> <b>5</b> &ensp; <small>Cic.</small> &ensp; signal, vestigio de alguma cousa. <br> <b>6</b> &ensp; <small>Liv.</small> &ensp; causa, pretexto, disculpa. <br> <b>7</b> &ensp; amparo, presidio. <br> <b>8</b> &ensp; <small>Varr.</small> &ensp; sombra, peixe. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/130533 ' target="_blank"> http://lila-erc.eu/data/id/lemma/130533 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx117-109-98-114-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> et cum seminatum fuerit ascendit et fit maius omnibus holeribus et facit ramos magnos ita ut possint sub <b>umbra</b> eius aves caeli habitare <br> <small> Vulg.Marc.4.32 <br> e depois que tiver sido semeada, cresce e se torna maior que todas as hortaliças e produz grandes ramos de tal modo que as aves do ceu podem morar sob sua sombra. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-109-98-114-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 11.58 and an absolute frequency of 6. The Ovidius subcorpus follows, with a normalized frequency of 6.86 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 3 ; absolute frequency: 0.186887941989983. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 16 ; absolute frequency: 2.98613314421157. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-109-98-114-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 11.58 and an absolute frequency of 6. The Poesia.trágica subcorpus follows, with a normalized frequency of 9.56 and an absolute frequency of 11. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.filosófica ; normalized frequency: 6 ; absolute frequency: 0.988451590583351. subcorpus: Prosa.oratória ; normalized frequency: 2 ; absolute frequency: 0.192025193705414. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 5 ; absolute frequency: 4.20627576343905. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 11 ; absolute frequency: 9.55524669909659. subcorpus: Poesia.épica ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-109-98-114-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 3.06 and an absolute frequency of 20. The II.d.C. subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 14 ; absolute frequency: 0.6516174074936. subcorpus: I.d.C. ; normalized frequency: 20 ; absolute frequency: 3.05950741930549. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

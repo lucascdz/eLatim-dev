@@ -1,0 +1,204 @@
+---
+title: "impetus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-109-112-101-116-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>impĕtus</b> <b>-ús</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Ímpeto, arrojo &ensp; <small>Cés. B. Gal. 7, 28, 2</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Assalto. choque. ataque à viva força &ensp; <small>Cés. B. Gal. 3, 2, 4.</small> <br> <b>3</b> &ensp; <small>I-Na língua médica:</small> &ensp; Acesso, crise &ensp; <small>de uma doença Cels. 2, 15.</small> <br> <b>4</b> &ensp; <small>I-Na língua médica:</small> &ensp; Violência, impetuosidade &ensp; <small>do mar, dos ventos C és. B. Gal. 3, 8, 1.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Impulso, movimento, inspiração, arrebatamento, entusiasmo &ensp; <small>Cíc. O iv. 1, 111.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Desejo ardente, paixão &ensp; <small>Q. Cúrc. 5, 12, 1.</small> <br> <b>7</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Impetuosidade, ardor &ensp; <small>Cíc. Dej. 3.</small> <br> <b>8</b> &ensp; <small>II-No pl.:</small> &ensp; Instintos &ensp; <small>Cíc. Of. 2, 11.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Impetus</b> -<b>us</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; impeto, violencia, força, vehemencia. <br> <b>2</b> &ensp; <small>Vitr.</small> &ensp; pezo. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Impetus</b> <b>us</b>   <p> <b>1</b> &ensp; ho impeto </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/106560 ' target="_blank"> http://lila-erc.eu/data/id/lemma/106560 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 4ª declinação (tema em -u-) <br>
+<small> outras grafias: </small> inpetus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+impĕtŭs 
+ impĕtūs
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx105-109-112-101-116-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-109-112-101-116-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword impetus here are all the values plotted: collocate: nostri; scoreSUBST: 0. collocate: hostis; scoreSUBST: 3. collocate: animus; scoreSUBST: 2. collocate: facio; scoreSUBST: 0. collocate: miles; scoreSUBST: 2. collocate: totus; scoreSUBST: 0. collocate: fero; scoreSUBST: 0. collocate: fio; scoreSUBST: 0. collocate: magnus; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-109-112-101-116-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword impetus here are all the values plotted: collocate: nostri; scoreADJ: 0. collocate: hostis; scoreADJ: 0. collocate: animus; scoreADJ: 0. collocate: facio; scoreADJ: 0. collocate: miles; scoreADJ: 0. collocate: totus; scoreADJ: 0. collocate: fero; scoreADJ: 0. collocate: fio; scoreADJ: 0. collocate: magnus; scoreADJ: 2'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-109-112-101-116-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword impetus here are all the values plotted: collocate: nostri; scoreVERBO: 0. collocate: hostis; scoreVERBO: 0. collocate: animus; scoreVERBO: 0. collocate: facio; scoreVERBO: 3. collocate: miles; scoreVERBO: 0. collocate: totus; scoreVERBO: 0. collocate: fero; scoreVERBO: 2. collocate: fio; scoreVERBO: 2. collocate: magnus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-109-112-101-116-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword impetus here are all the values plotted: collocate: nostri; scoreADV: 0. collocate: hostis; scoreADV: 0. collocate: animus; scoreADV: 0. collocate: facio; scoreADV: 0. collocate: miles; scoreADV: 0. collocate: totus; scoreADV: 0. collocate: fero; scoreADV: 0. collocate: fio; scoreADV: 0. collocate: magnus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-109-112-101-116-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword impetus here are all the values plotted: collocate: nostri; scoreFUNC: 0. collocate: hostis; scoreFUNC: 0. collocate: animus; scoreFUNC: 0. collocate: facio; scoreFUNC: 0. collocate: miles; scoreFUNC: 0. collocate: totus; scoreFUNC: 0. collocate: fero; scoreFUNC: 0. collocate: fio; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> id ex itinere magno <b>impetu</b> Belgae oppugnare coeperunt <br> <small> Caes.Gal.2.6.1 <br> Os belgas de passagem começaram a atacá-la com grande ímpeto. <small> [JDD] </small> </small> </p>
+; <p> ea disiecta gladiis destrictis in eos <b>impetum</b> fecerunt <br> <small> Caes.Gal.1.25.2 <br> Desmanchada essa, com as espadas desembainhadas, efetuaram o ataque sobre eles. <small> [JDD] </small> </small> </p>
+; <p> hos subsecuti equites calonesque eodem <b>impetu</b> militum uirtute seruantur <br> <small> Caes.Gal.6.40.5 <br> Os criados e os cavaleiros, seguindo-os com o mesmo ímpeto, são salvos pela coragem dos soldados. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> at Germani celeriter ex consuetudine sua phalange facta <b>impetus</b> gladiorum exceperunt <br> <small> Caes.Gal.1.52.4 <br> Mas os germanos, tendo formado rapidamente a falange de acordo com seu costume, suportaram o golpe das espadas. <small> [JDD] </small> </small> </p>
+; <p> quos <b>impetus</b> in Pisonem in Curionem in totam illam manum feci <br> <small> Cic.Att.1.16.1 <br> que ataques fiz contra Pisão, contra Curião, contra toda aquela tropa! <small> [JDD] </small> </small> </p>
+; <p> contine illum et constitue ut habitus animi fiat quod est <b>inpetus</b> <br> <small> Sen.Ep.16.6 <br> Conserva-o e estabelece para que se torne hábito o que é ímpeto do espírito. <small> [JDD] </small> </small> </p>
+; <p> commisso proelio diutius nostrorum militum <b>impetum</b> hostes ferre non potuerunt ac terga uerterunt <br> <small> Caes.Gal.4.35.2 <br> Travado o combate, os inimigos não puderam aguentar por muito tempo o ímpeto de nossos soldados e voltaram as costas. <small> [JDD] </small> </small> </p>
+; <p> inopinantes nostri re noua perturbantur ac uix primum <b>impetum</b> cohors in statione sustinet <br> <small> Caes.Gal.6.37.3 <br> Desprevenidos, os nossos se perturbam com a nova situação, e a coorte no posto avançado mal sustenta o primeiro golpe. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-109-112-101-116-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 11.33 and an absolute frequency of 30. The Ovidius subcorpus follows, with a normalized frequency of 1.72 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 30 ; absolute frequency: 11.3301608882846. subcorpus: Cicero ; normalized frequency: 39 ; absolute frequency: 2.42954324586978. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 6 ; absolute frequency: 9.10885076666161. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 28 ; absolute frequency: 5.22573300237024. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-109-112-101-116-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 8.03 and an absolute frequency of 33. The Poesia.lírica subcorpus follows, with a normalized frequency of 0.84 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 33 ; absolute frequency: 8.03330168699335. subcorpus: Prosa.filosófica ; normalized frequency: 24 ; absolute frequency: 3.9538063623334. subcorpus: Prosa.oratória ; normalized frequency: 32 ; absolute frequency: 3.07240309928663. subcorpus: Prosa.epistolográfica ; normalized frequency: 6 ; absolute frequency: 1.58986724608495. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 7 ; absolute frequency: 5.93773856985325. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-109-112-101-116-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 5.35 and an absolute frequency of 35. The I.a.C. subcorpus follows, with a normalized frequency of 3.35 and an absolute frequency of 72. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 72 ; absolute frequency: 3.35117523853852. subcorpus: I.d.C. ; normalized frequency: 35 ; absolute frequency: 5.35413798378461. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

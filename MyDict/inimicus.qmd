@@ -1,0 +1,200 @@
+---
+title: "inimicus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-110-105-109-105-99-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>inimīcus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Inimigo particular, inimigo, hostil, contrário, de inimigo &ensp; <small>Cíc. Verr. 2. 149.</small> <br> <b>2</b> &ensp; <small>II-Sent. poético</small> &ensp; De inimigo &ensp; <small>de guerra Verg. En. 11. 809.</small> <br> <b>3</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Funesto, contrário &ensp; <small>Verg. En. I. 123.</small> <br> <b>4</b> &ensp; <small>III-Como subs. m.:</small> &ensp; O inimigo &ensp; <small>Cíc. Verr. 2. 18.</small> <br> <b>5</b> &ensp; <small>III-Como subs. f.:</small> &ensp; A inimiga &ensp; <small>CíC. Cael. 32.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Inimicus</b> -<b>a</b> -<b>um</b> -<b>cior</b> -<b>cissimus</b> 
+ <b>Inimicus</b> -<b>i</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; inimigo. </p>
+
+
+
+
+#### Velez
+
+<b>Inimicus</b> -<b>a</b> -<b>um</b> <br> <small>Adject.</small> <br> <small>3. l.</small> 
+ <b>Inimicus</b> -<b>i</b> <br> <small>3. l.</small>   <p> <b>1</b> &ensp; <small>propriè</small> &ensp; inimigo particular; &ensp; <small>Hostis, o publico:</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Inimicus</b> <b>i</b>   <p> <b>1</b> &ensp; ho immigo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/107882 ' target="_blank"> http://lila-erc.eu/data/id/lemma/107882 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ĭnĭmīcus 
+ ĭnĭmīca 
+ ĭnĭmīcum 
+ ĭnĭmīcī
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-110-105-109-105-99-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword inimicus here are all the values plotted: collocate: Milo; scoreSUBST: 0. collocate: tam; scoreSUBST: 0. collocate: meus; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-110-105-109-105-99-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword inimicus here are all the values plotted: collocate: Milo; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: meus; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-110-105-109-105-99-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword inimicus here are all the values plotted: collocate: Milo; scoreVERBO: 0. collocate: tam; scoreVERBO: 0. collocate: meus; scoreVERBO: 0. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-110-105-109-105-99-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword inimicus here are all the values plotted: collocate: Milo; scoreADV: 0. collocate: tam; scoreADV: 2. collocate: meus; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-110-105-109-105-99-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword inimicus here are all the values plotted: collocate: Milo; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: meus; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>inimicus</b> est <br> <small> Cic.Att.2.19.4 <br> é meu inimigo. <small> [JDD] </small> </small> </p>
+; <p> <b>inimici</b> mei mea mihi non me ipsum ademerunt <br> <small> Cic.Att.3.5 <br> Meu inimigos tomaram os meus bens, não a mim mesmo. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-110-105-109-105-99-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 5.73 and an absolute frequency of 92. The Tacitus subcorpus follows, with a normalized frequency of 3.43 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 3 ; absolute frequency: 1.13301608882846. subcorpus: Cicero ; normalized frequency: 92 ; absolute frequency: 5.73123022102614. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 13 ; absolute frequency: 2.4262331796719. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-110-105-109-105-99-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 6.53 and an absolute frequency of 68. The Prosa.oratória subcorpus follows, with a normalized frequency of 6.53 and an absolute frequency of 68. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 8 ; absolute frequency: 1.94746707563475. subcorpus: Prosa.filosófica ; normalized frequency: 19 ; absolute frequency: 3.13009670351395. subcorpus: Prosa.oratória ; normalized frequency: 68 ; absolute frequency: 6.52885658598408. subcorpus: Prosa.epistolográfica ; normalized frequency: 18 ; absolute frequency: 4.76960173825486. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-110-105-109-105-99-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 4.89 and an absolute frequency of 105. The I.d.C. subcorpus follows, with a normalized frequency of 1.99 and an absolute frequency of 13. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 105 ; absolute frequency: 4.887130556202. subcorpus: I.d.C. ; normalized frequency: 13 ; absolute frequency: 1.98867982254857. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

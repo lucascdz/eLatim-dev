@@ -1,0 +1,200 @@
+---
+title: "haud"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx104-97-117-100xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>haud</b> <br> <b>haut</b> <br> <small>arc.</small> <b>hau</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Não &ensp; <small>negação intensiva, frequente na língua familiar e nas litotes Cíc. Rep. 1, 6.</small> </p> 
+ <b>haut</b> <br> <small></small> <br> <small>v. haud.</small> 
+ <small>2.</small> <b>hau</b> <br> <small></small> <br> <small>v. haud.</small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Haud</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; não. </p>
+
+
+
+
+#### Velez
+
+<b>Haud</b>   <p> <b>1</b> &ensp; naõ </p>
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/105206 ' target="_blank"> http://lila-erc.eu/data/id/lemma/105206 </a> <br>
+<small> classe: </small> partícula    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> hau, haut <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx104-97-117-100xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx104-97-117-100xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword haud here are all the values plotted: collocate: sane; scoreSUBST: 0. collocate: facile; scoreSUBST: 0. collocate: scio; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx104-97-117-100xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword haud here are all the values plotted: collocate: sane; scoreADJ: 0. collocate: facile; scoreADJ: 0. collocate: scio; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx104-97-117-100xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword haud here are all the values plotted: collocate: sane; scoreVERBO: 0. collocate: facile; scoreVERBO: 0. collocate: scio; scoreVERBO: 3'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx104-97-117-100xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword haud here are all the values plotted: collocate: sane; scoreADV: 3. collocate: facile; scoreADV: 3. collocate: scio; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx104-97-117-100xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword haud here are all the values plotted: collocate: sane; scoreFUNC: 0. collocate: facile; scoreFUNC: 0. collocate: scio; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> rem <b>haud</b> sane difficilem Scipio et Laeli admirari uidemini <br> <small> Cic.Sen.4 <br> Vós pareceis admirar, Cipião e Lélio, uma coisa que realmente não é difícil. <small> [JDD] </small> </small> </p>
+; <p> atque <b>haud</b> sciam an ne opus sit quidem nihil umquam omnino deesse amicis <br> <small> Cic.Amici.51 <br> E eu não sei se nem mesmo é necessário que aos amigos nunca falte absolutamente nada. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quo quidem me proficiscentem <b>haud</b> sane quis facile retraxerit nec tamquam Peliam recoxerit <br> <small> Cic.Sen.83 <br> Na verdade, partindo eu para esse lugar, sem dúvida ninguém facilmente me faria voltar nem me recozeria como Pelias. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx104-97-117-100xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 12.06 and an absolute frequency of 13. The Suetonius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 17 ; absolute frequency: 1.05903167127657. subcorpus: Horatius ; normalized frequency: 6 ; absolute frequency: 5.32812361246781. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 13 ; absolute frequency: 12.0582506261015. subcorpus: Seneca ; normalized frequency: 11 ; absolute frequency: 2.05296653664545. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx104-97-117-100xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 9.65 and an absolute frequency of 5. The Poesia.trágica subcorpus follows, with a normalized frequency of 9.56 and an absolute frequency of 11. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 16 ; absolute frequency: 3.89493415126951. subcorpus: Prosa.filosófica ; normalized frequency: 10 ; absolute frequency: 1.64741931763892. subcorpus: Prosa.oratória ; normalized frequency: 4 ; absolute frequency: 0.384050387410828. subcorpus: Prosa.epistolográfica ; normalized frequency: 3 ; absolute frequency: 0.794933623042476. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 11 ; absolute frequency: 9.55524669909659. subcorpus: Poesia.épica ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx104-97-117-100xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 7.85 and an absolute frequency of 3. The I.d.C. subcorpus follows, with a normalized frequency of 1.99 and an absolute frequency of 13. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 41 ; absolute frequency: 1.90830812194554. subcorpus: I.d.C. ; normalized frequency: 13 ; absolute frequency: 1.98867982254857. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

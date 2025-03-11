@@ -1,0 +1,207 @@
+---
+title: "patior"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-97-116-105-111-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>patĭor</b> <b>-èris</b> <b>patí, passus sum</b> <br> <small>v. dep. tr.</small> <br> <small>Obs.: Constrói-se com acus.; com acus. e inf.. ou simples inf.: com ut e subj.: ou como absoluto.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Sofrer, suportar, aturar &ensp; <small>Cíc. Phil. 12, 9; Cíc. Phit. 6. 19.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Permitir, consentir, admitir &ensp; <small>Cíc. De Or. 3, 143.</small> <br> <b>3</b> &ensp; <small>II-Na língua gramatical:</small> &ensp; Ser passivo &ensp; <small>Quint. 1, 6, 10.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Patior</b> -<b>eris</b> <b>passus sum</b> -<b>ati</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; soffrer, tolerar, padecer, supportar. <br> <b>2</b> &ensp; permittir, deixar fazer. </p>
+
+
+
+
+#### Velez
+
+<b>Patior</b> -<b>eris</b>   <p> <b>1</b> &ensp; padecer, soffrer &ensp; <small>Depon. cum accus.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Patior</b> -<b>eris</b> <b>passus</b>   <p> <b>1</b> &ensp; padecer </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/116222 ' target="_blank"> http://lila-erc.eu/data/id/lemma/116222 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 5ª conjugação depoente (tema em -ĭ- breve) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+pătĭor 
+ pătĕris 
+ pătī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-97-116-105-111-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-97-116-105-111-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword patior here are all the values plotted: collocate: facile; scoreSUBST: 0. collocate: non; scoreSUBST: 0. collocate: uir; scoreSUBST: 2. collocate: ne; scoreSUBST: 0. collocate: possum; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-97-116-105-111-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword patior here are all the values plotted: collocate: facile; scoreADJ: 0. collocate: non; scoreADJ: 0. collocate: uir; scoreADJ: 0. collocate: ne; scoreADJ: 0. collocate: possum; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-97-116-105-111-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword patior here are all the values plotted: collocate: facile; scoreVERBO: 0. collocate: non; scoreVERBO: 0. collocate: uir; scoreVERBO: 0. collocate: ne; scoreVERBO: 0. collocate: possum; scoreVERBO: 1. collocate: ego; scoreVERBO: 0. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-97-116-105-111-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword patior here are all the values plotted: collocate: facile; scoreADV: 3. collocate: non; scoreADV: 2. collocate: uir; scoreADV: 0. collocate: ne; scoreADV: 0. collocate: possum; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-97-116-105-111-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword patior here are all the values plotted: collocate: facile; scoreFUNC: 0. collocate: non; scoreFUNC: 0. collocate: uir; scoreFUNC: 0. collocate: ne; scoreFUNC: 20. collocate: possum; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> sed facile <b>patior</b> <br> <small> Cic.Att.2.4.2 <br> mas aceito facilmente. <small> [JDD] </small> </small> </p>
+; <p> ille uero non <b>patitur</b> <br> <small> Sen.Prov.6.1 <br> Ele, na verdade, não consente. <small> [JDD] </small> </small> </p>
+; <p> numquam <b>patietur</b> mihi credite <br> <small> Cic.Phil.6.6.12 <br> Nunca permitirá, crede em mim. <small> [JDD] </small> </small> </p>
+; <p> infirmi animi est <b>pati</b> non posse diuitias <br> <small> Sen.Ep.5.6 <br> é próprio de um espírito fraco não poder suportar a riqueza. <small> [JDD] </small> </small> </p>
+; <p> tuta est latetque culpa si <b>pateris</b> tua <br> <small> Sen.Ag.147 <br> Está segura e oculta a tua culpa, se suportas. <small> [JDD] </small> </small> </p>
+; <p> placido ne uultu sacra et admotas manus <b>patiuntur</b> <br> <small> Sen.Oed.336 <br> Eles suportam com plácido rosto os ritos e o contato de tuas mãos? <small> [JDD] </small> </small> </p>
+; <p> non potest artifex mutare materiam hoc <b>passa</b> est <br> <small> Sen.Prov.5.9 <br> O artesão não pode mudar a matéria. Esta é a condição. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> numquam uir erit ut diu uirum <b>pati</b> possit <br> <small> Sen.Ep.122.7 <br> Nunca será um homem, para poder aguentar por muito tempo um homem? <small> [JDD] </small> </small> </p>
+; <p> Pisonem consulem nulla in re consistere umquam sum <b>passus</b> <br> <small> Cic.Att.1.16.8 <br> não mais permiti que o cônsul Pisão se firmasse em coisa alguma. <small> [JDD] </small> </small> </p>
+; <p> aliae nationes seruitutem <b>pati</b> possunt populi Romani est propria libertas <br> <small> Cic.Phil.6.19.11 <br> Outras nações pode suportar a escravidão, a liberdade é própria do povo romano. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-97-116-105-111-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 12.32 and an absolute frequency of 66. The Tacitus subcorpus follows, with a normalized frequency of 3.43 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 14 ; absolute frequency: 5.28740841453282. subcorpus: Cicero ; normalized frequency: 69 ; absolute frequency: 4.2984226657696. subcorpus: Horatius ; normalized frequency: 6 ; absolute frequency: 5.32812361246781. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 7 ; absolute frequency: 10.6269925611052. subcorpus: Sallustius ; normalized frequency: 5 ; absolute frequency: 4.63778870234672. subcorpus: Seneca ; normalized frequency: 66 ; absolute frequency: 12.3177992198727. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-97-116-105-111-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 11.58 and an absolute frequency of 6. The Prosa.filosófica subcorpus follows, with a normalized frequency of 10.54 and an absolute frequency of 64. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 20 ; absolute frequency: 4.86866768908688. subcorpus: Prosa.filosófica ; normalized frequency: 64 ; absolute frequency: 10.5434836328891. subcorpus: Prosa.oratória ; normalized frequency: 45 ; absolute frequency: 4.32056685837182. subcorpus: Prosa.epistolográfica ; normalized frequency: 16 ; absolute frequency: 4.23964598955987. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 9 ; absolute frequency: 7.63423530409704. subcorpus: Poesia.trágica ; normalized frequency: 10 ; absolute frequency: 8.68658790826963. subcorpus: Poesia.épica ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-97-116-105-111-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 11.47 and an absolute frequency of 75. The I.a.C. subcorpus follows, with a normalized frequency of 4.65 and an absolute frequency of 100. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 100 ; absolute frequency: 4.65441005352572. subcorpus: I.d.C. ; normalized frequency: 75 ; absolute frequency: 11.4731528223956. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,222 @@
+---
+title: "timeo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx116-105-109-101-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>timĕō</b> <b>-és</b> <b>-ére</b> <b>timùí</b> <br> <small>v. tr. e intr.</small> <br> <small>Obs.: Constrói-se com acus.; com dat.; com abl. com de ou ab; com inf. com ut ou ne; com or. interr. indir.; e como absoluto.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Temer, recear, ter medo, estar com medo, hesitar &ensp; <small>Cés. B. Gal. 1, 40, 2; Cés. B. Gal. 5, 57, 1; Cíc. Phil. 2, 116; Hor. Ep. 1, 17, 37; Cíc. Fam. 14, 2, 3; Cíc. Ac. 2, 135.</small> </p> 
+ <b>timŭī</b> <br> <small>perf. de timèo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Timeo</b> -<b>es</b> -<b>ui</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; temer, ter medo. <br> <b>2</b> &ensp; ter aversaõ, ter horror. </p>
+
+
+
+
+#### Velez
+
+<b>Timeo</b> -<b>es</b>   <p> <b>1</b> &ensp; temer, construitur </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>metuo </p>
+
+
+
+
+#### Cardoso
+
+<b>Timeo</b> -<b>es</b>   <p> <b>1</b> &ensp; temer </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/128264 ' target="_blank"> http://lila-erc.eu/data/id/lemma/128264 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> timeo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> timere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> timebit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> timui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+
+
+
+
+
+#### Lexicala
+
+tĭmĕō 
+ timēs 
+ timēre 
+ timŭī 
+ tĭmŭī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx116-105-109-101-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx116-105-109-101-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword timeo here are all the values plotted: collocate: mors; scoreSUBST: 2. collocate: nimie; scoreSUBST: 0. collocate: ne; scoreSUBST: 0. collocate: parum; scoreSUBST: 0. collocate: nolo; scoreSUBST: 0. collocate: neque; scoreSUBST: 0. collocate: rex; scoreSUBST: 2. collocate: magis; scoreSUBST: 0. collocate: semper; scoreSUBST: 0. collocate: nihil; scoreSUBST: 0. collocate: nec; scoreSUBST: 0. collocate: non; scoreSUBST: 0. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx116-105-109-101-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword timeo here are all the values plotted: collocate: mors; scoreADJ: 0. collocate: nimie; scoreADJ: 0. collocate: ne; scoreADJ: 0. collocate: parum; scoreADJ: 0. collocate: nolo; scoreADJ: 0. collocate: neque; scoreADJ: 0. collocate: rex; scoreADJ: 0. collocate: magis; scoreADJ: 0. collocate: semper; scoreADJ: 0. collocate: nihil; scoreADJ: 0. collocate: nec; scoreADJ: 0. collocate: non; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx116-105-109-101-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword timeo here are all the values plotted: collocate: mors; scoreVERBO: 0. collocate: nimie; scoreVERBO: 0. collocate: ne; scoreVERBO: 0. collocate: parum; scoreVERBO: 0. collocate: nolo; scoreVERBO: 2. collocate: neque; scoreVERBO: 0. collocate: rex; scoreVERBO: 0. collocate: magis; scoreVERBO: 0. collocate: semper; scoreVERBO: 0. collocate: nihil; scoreVERBO: 0. collocate: nec; scoreVERBO: 0. collocate: non; scoreVERBO: 0. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx116-105-109-101-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword timeo here are all the values plotted: collocate: mors; scoreADV: 0. collocate: nimie; scoreADV: 2. collocate: ne; scoreADV: 0. collocate: parum; scoreADV: 2. collocate: nolo; scoreADV: 0. collocate: neque; scoreADV: 0. collocate: rex; scoreADV: 0. collocate: magis; scoreADV: 2. collocate: semper; scoreADV: 2. collocate: nihil; scoreADV: 0. collocate: nec; scoreADV: 0. collocate: non; scoreADV: 2. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx116-105-109-101-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword timeo here are all the values plotted: collocate: mors; scoreFUNC: 0. collocate: nimie; scoreFUNC: 0. collocate: ne; scoreFUNC: 30. collocate: parum; scoreFUNC: 0. collocate: nolo; scoreFUNC: 0. collocate: neque; scoreFUNC: 0. collocate: rex; scoreFUNC: 0. collocate: magis; scoreFUNC: 0. collocate: semper; scoreFUNC: 0. collocate: nihil; scoreFUNC: 0. collocate: nec; scoreFUNC: 0. collocate: non; scoreFUNC: 0. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> non mortem <b>timemus</b> sed cogitationem mortis <br> <small> Sen.Ep.30.17 <br> Não tememos a morte, mas o pensamento da morte. <small> [JDD] </small> </small> </p>
+; <p> eo magis vis nobis est <b>timenda</b> <br> <small> Cic.Att.2.21.5 <br> Por isso nós devemos ter mais medo da violência. <small> [JDD] </small> </small> </p>
+; <p> dubia pro certis solent <b>timere</b> reges <br> <small> Sen.Oed.699 <br> Os rei costumam temer as coisas duvidosas como certas. <small> [JDD] </small> </small> </p>
+; <p> nihil est quod non <b>timendum</b> sit <br> <small> Cic.Att.2.17.1 <br> Não há nada que não se deva temer. <small> [JDD] </small> </small> </p>
+; <p> his tu si adesses nihil <b>timerem</b> <br> <small> Cic.Att.5.20.7 <br> Se tu estivesses presente, eu nada temeria. <small> [JDD] </small> </small> </p>
+; <p> adhuc invitamur benigne sed quod superest <b>timemus</b> <br> <small> Cic.Att.3.4 <br> Até o momento me convidam de bom grado, mas temo o que está por vir. <small> [JDD] </small> </small> </p>
+; <p> quod si ita est magnos motus <b>timeo</b> <br> <small> Cic.Att.5.2.3 <br> se isso é assim, temo grandes agitações. <small> [JDD] </small> </small> </p>
+; <p> ita si <b>timenda</b> mors est semper <b>timenda</b> est <br> <small> Sen.Ep.30.17 <br> Assim, se a morte deve ser temida, deve ser temida sempre. <small> [JDD] </small> </small> </p>
+; <p> lugentem <b>timentem</b>que custodire solemus ne solitudine male utatur <br> <small> Sen.Ep.10.2 <br> Costumamos tomar conta do agoniado e do medroso, para que não faça mal uso da solidão. <small> [JDD] </small> </small> </p>
+; <p> haec a quibus <b>timebantur</b> eos hostis appellare dubitamus <br> <small> Cic.Phil.14.10.11 <br> E aqueles devido aos quais estas coisas eram temidas hesitamos em chamar de inimigos? <small> [JDD] </small> </small> </p>
+; <p> debemus itaque exerceri ne haec <b>timeamus</b> ne illa cupiamus <br> <small> Sen.Ep.123.13 <br> Devemos, por isso, exercitar-nos para que não temamos estas, para que não cobicemos aquelas. <small> [JDD] </small> </small> </p>
+; <p> ego inquis uolo discere quomodo minus cupiam minus <b>timeam</b> <br> <small> Sen.Ep.121.4 <br> “Eu”, dizes, “quero aprender como desejar menos, temer menos. <small> [JDD] </small> </small> </p>
+; <p> odia qui nimium <b>timet</b> regnare nescit regna custodit metus <br> <small> Sen.Oed.703 <br> quem teme demasiadamente os ódios não sabe reinar: o medo guarda os reinos. <small> [JDD] </small> </small> </p>
+; <p> <b>timete</b> reges moneo furtiuum genus agrestis iste alumnus euertet domum <br> <small> Sen.Ag.732 <br> Temei, reis, eu advirto, a clandestina estirpe: esse que foi criado nos campos transtornará vossa casa. <small> [JDD] </small> </small> </p>
+; <p> profice modo intelleges quaedam ideo minus <b>timenda</b> quia multum metus adferunt <br> <small> Sen.Ep.4.3 <br> Vai em frente apenas: compreenderás que certas coisas devem ser menos temidas exatamente porque nos infundem muito medo. <small> [JDD] </small> </small> </p>
+; <p> non reprehendo nec quaero fuerit ne aliquid pertimescendum puto suo quemque arbitratu <b>timere</b> oportere <br> <small> Cic.Dom.8 <br> Não os critico nem pergunto se houve algo que temer; acho que cada um deve temer por sua própria vontade. <small> [JDD] </small> </small> </p>
+; <p> atque hoc etiam sunt <b>timendi</b> magis quod quid cogitent me scire sentiunt neque tamen permouentur <br> <small> Cic.Catil.2.5.13 <br> E devem ser mais temidos ainda porque percebem que eu sei o que pensam e, mesmo assim, não se assustam. <small> [JDD] </small> </small> </p>
+; <p> cum saeptus sis legibus et iudiciorum metu non sunt omnia <b>timenda</b> neque ad omnis insidias praesidia quaerenda <br> <small> Cic.Phil.12.25.11 <br> Quando estás cercado pelas leis e pelo receio dos julgamentos, não se deve ter medo de tudo nem se deve buscar proteção diante de quaisquer emboscadas. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx116-105-109-101-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 17.36 and an absolute frequency of 93. The Vergilius subcorpus follows, with a normalized frequency of 1.93 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 10 ; absolute frequency: 3.77672029609487. subcorpus: Cicero ; normalized frequency: 86 ; absolute frequency: 5.35745433704617. subcorpus: Horatius ; normalized frequency: 8 ; absolute frequency: 7.10416481662375. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 5 ; absolute frequency: 7.59070897221801. subcorpus: Sallustius ; normalized frequency: 9 ; absolute frequency: 8.3480196642241. subcorpus: Seneca ; normalized frequency: 93 ; absolute frequency: 17.3568989007297. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx116-105-109-101-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 25.19 and an absolute frequency of 29. The Poesia.épica subcorpus follows, with a normalized frequency of 1.93 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 1.93 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 19 ; absolute frequency: 4.62523430463254. subcorpus: Prosa.filosófica ; normalized frequency: 66 ; absolute frequency: 10.8729674964169. subcorpus: Prosa.oratória ; normalized frequency: 64 ; absolute frequency: 6.14480619857325. subcorpus: Prosa.epistolográfica ; normalized frequency: 20 ; absolute frequency: 5.29955748694984. subcorpus: Poesia.lírica ; normalized frequency: 8 ; absolute frequency: 6.73004122150248. subcorpus: Poesia.didática ; normalized frequency: 9 ; absolute frequency: 7.63423530409704. subcorpus: Poesia.trágica ; normalized frequency: 29 ; absolute frequency: 25.1911049339819. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx116-105-109-101-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 15.6 and an absolute frequency of 102. The II.d.C. subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 114 ; absolute frequency: 5.30602746101932. subcorpus: I.d.C. ; normalized frequency: 102 ; absolute frequency: 15.603487838458. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+:::
+

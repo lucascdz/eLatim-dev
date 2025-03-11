@@ -1,0 +1,195 @@
+---
+title: "cunctus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-117-110-99-116-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>cunctus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Todo, inteiro &ensp; <small>Cíc. Fam. 4, 4, 3.</small> <br> <b>2</b> &ensp; <small>Masc. pl.: cuncti =</small> &ensp; todos sem exceção, todos a um só tempo &ensp; <small>Cíc. De Or. 1, 184.</small> <br> <b>3</b> &ensp; <small>Neutro pl.: cuncta =</small> &ensp; tudo, todas as coisas &ensp; <small>Sal. B. Jug. 66, 1.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Cunctus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; <small>Virg.</small> &ensp; todo junto. </p>
+
+
+
+
+#### Velez
+
+<b>Cunctus</b> -<b>a</b> -<b>um</b> <br> <small>Vide Omnis.</small>   <p> <b>1</b> &ensp; tudo juntamente </p>
+
+
+
+
+#### Cardoso
+
+<b>Cunctus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; toda a cousa </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/97250 ' target="_blank"> http://lila-erc.eu/data/id/lemma/97250 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> conctus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-117-110-99-116-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword cunctus here are all the values plotted: collocate: Italia; scoreSUBST: 0. collocate: senatus; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-117-110-99-116-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword cunctus here are all the values plotted: collocate: Italia; scoreADJ: 0. collocate: senatus; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-117-110-99-116-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword cunctus here are all the values plotted: collocate: Italia; scoreVERBO: 0. collocate: senatus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-117-110-99-116-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword cunctus here are all the values plotted: collocate: Italia; scoreADV: 0. collocate: senatus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-117-110-99-116-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword cunctus here are all the values plotted: collocate: Italia; scoreFUNC: 0. collocate: senatus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> rem <b>cunctus</b> senatus Catinensium legibus iudicabat <br> <small> Cic.Ver.2.4.100.8 <br> O senado inteiro julgava o caso de acordo com as leis dos catinenses. <small> [JDD] </small> </small> </p>
+; <p> idem uolunt omnes ordines eodem incumbunt municipia coloniae <b>cuncta</b> Italia <br> <small> Cic.Phil.6.18.10 <br> O mesmo querem todas as ordens, no mesmo estão empenhados os municípios, as colônias, toda a Itália. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-117-110-99-116-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 10.3 and an absolute frequency of 3. The Tacitus subcorpus follows, with a normalized frequency of 10.3 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 31 ; absolute frequency: 1.93117540056316. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 5 ; absolute frequency: 7.59070897221801. subcorpus: Sallustius ; normalized frequency: 9 ; absolute frequency: 8.3480196642241. subcorpus: Seneca ; normalized frequency: 11 ; absolute frequency: 2.05296653664545. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-117-110-99-116-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 9.65 and an absolute frequency of 5. The Poesia.didática subcorpus follows, with a normalized frequency of 7.63 and an absolute frequency of 9. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 13 ; absolute frequency: 3.16463399790647. subcorpus: Prosa.filosófica ; normalized frequency: 5 ; absolute frequency: 0.823709658819459. subcorpus: Prosa.oratória ; normalized frequency: 28 ; absolute frequency: 2.6883527118758. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 9 ; absolute frequency: 7.63423530409704. subcorpus: Poesia.trágica ; normalized frequency: 7 ; absolute frequency: 6.08061153578874. subcorpus: Poesia.épica ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-117-110-99-116-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 7.85 and an absolute frequency of 3. The I.d.C. subcorpus follows, with a normalized frequency of 3.06 and an absolute frequency of 20. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 47 ; absolute frequency: 2.18757272515709. subcorpus: I.d.C. ; normalized frequency: 20 ; absolute frequency: 3.05950741930549. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

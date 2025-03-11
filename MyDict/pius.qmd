@@ -1,0 +1,198 @@
+---
+title: "pius"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-105-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>pĭus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small>Obs.: O superlativo piissimus foi censurado por Cícero Phil. 14. 43, mas se tornou corrente no latim imperial Sên. Polyb. 26.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Piedoso no sent. religioso ou profano, que cumpre os seus deveres para com os deuses, para com os pais, etc. &ensp; <small>Cíc. Rep. 3, 15.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Justo, virtuoso, santo, sagrado &ensp; <small>Cíc. Balb. 35.</small> <br> <b>3</b> &ensp; <small>II-Daí</small> &ensp; Afeiçoado aos pais, dedicado à família, afetuoso,terno, dedicado a &ensp; <small>Ov. Met. 11, 389.</small> <br> <b>4</b> &ensp; <small>II-Daí</small> &ensp; Bom, benévolo, clemente, amigo, querido &ensp; <small>Hor. O. 3, 21, 4.</small> <br> <b>5</b> &ensp; <small>II-No pl.:</small> &ensp; Os justos, os bem-aventurados &ensp; <small>Cíc. Phil. 14, 32.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Pius</b> -<b>a</b> -<b>um</b> <small>Tac</small> -<b>tissimus</b> <br> <small>Do superl. Piissimus, que Cic. reprova, usão Tac. Sen. Curt. Flor. Apul. Sulp. Sever., e algumas inscripç. antig. que traz Grutero.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; pio, religioso, que tem amor, e veneração a Deos, aos pais, á patria, aos patronos, & c. <br> <b>2</b> &ensp; <small>Ter.</small> &ensp; piedoso, misericordioso, compassivo. </p>
+
+
+
+
+#### Velez
+
+<b>Pius</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa pia, e que dâ o devido culto, e honra a Deos, á patria, aos pays, e aos que tem em seu lugar </p>
+
+
+
+
+#### Cardoso
+
+<b>Pius</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa que tẽ amor a Deos. aos pays. aa patria </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/117996 ' target="_blank"> http://lila-erc.eu/data/id/lemma/117996 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> piius <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+pĭus 
+ pĭa 
+ pĭum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-105-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> sum <b>pius</b> Aeneas raptos qui ex hoste Penatis classe ueho me cum fama super aethera notus <br> <small> Verg.A.1.378 <br> Eu sou o piedoso Enéias, conhecido pela fama além do céu, que levo comigo em minha frota os penates arrebatados do inimigo. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-105-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 9.65 and an absolute frequency of 5. The Ovidius subcorpus follows, with a normalized frequency of 3.43 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 3 ; absolute frequency: 0.186887941989983. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 4 ; absolute frequency: 0.746533286052892. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-105-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 9.65 and an absolute frequency of 5. The Poesia.trágica subcorpus follows, with a normalized frequency of 2.61 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.filosófica ; normalized frequency: 1 ; absolute frequency: 0.164741931763892. subcorpus: Prosa.oratória ; normalized frequency: 3 ; absolute frequency: 0.288037790558121. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-105-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 0.92 and an absolute frequency of 6. The I.a.C. subcorpus follows, with a normalized frequency of 0.47 and an absolute frequency of 10. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 10 ; absolute frequency: 0.465441005352572. subcorpus: I.d.C. ; normalized frequency: 6 ; absolute frequency: 0.917852225791647. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

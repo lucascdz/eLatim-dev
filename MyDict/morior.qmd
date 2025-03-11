@@ -1,0 +1,202 @@
+---
+title: "morior"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-111-114-105-111-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>morĭor</b> <b>-èris</b> <b>morí, mortùus sum</b> <br> <small>v. dep. intr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Morrer, perecer, expirar, sucumbir &ensp; <small>Cíc. AI. 6, 1, 6:</small> <br> <b>2</b> &ensp; <small>II-Empregos diversos</small> &ensp; Acabar, findar &ensp; <small>tratando-se do dia Plaut. Men. 155.</small> <br> <b>3</b> &ensp; <small>II-Empregos diversos</small> &ensp; Extinguir-se, apagar-se &ensp; <small>da memória alguma coisa, ou tratando-se de fenômeno da natureza Cíc. Pis. 93.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>potius mori miliens quam Cíc. At. 7.11. 1 “morrer mil vezes antes que”. </p> 
+ <b>morīrī</b> <br> <small>= morí, inf. pres. arc. Plaut. Capt. 732.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Morior</b> -<b>eris</b> <b>mortuus sum</b> <b>mori</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; morrer. </p>
+
+
+
+
+#### Velez
+
+<b>Morior</b> -<b>eris</b>   <p> <b>1</b> &ensp; morrer &ensp; <small>Neutr. absol.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Morior</b> -<b>eris</b> <b>mortuus sum</b>   <p> <b>1</b> &ensp; morrer </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/112796 ' target="_blank"> http://lila-erc.eu/data/id/lemma/112796 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 5ª conjugação depoente (tema em -ĭ- breve) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+mŏrĕris 
+ mŏrī 
+ mortŭus sum 
+ mŏrĭor
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx109-111-114-105-111-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-111-114-105-111-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword morior here are all the values plotted: collocate: qua; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-111-114-105-111-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword morior here are all the values plotted: collocate: qua; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-111-114-105-111-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword morior here are all the values plotted: collocate: qua; scoreVERBO: 0. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-111-114-105-111-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword morior here are all the values plotted: collocate: qua; scoreADV: 1. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-111-114-105-111-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword morior here are all the values plotted: collocate: qua; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> falsum est peiores <b>morimur</b> quam nascimur <br> <small> Sen.Ep.22.15 <br> É falso: morremos piores do que nascemos. <small> [JDD] </small> </small> </p>
+; <p> id erat vocari in locum <b>mortui</b> <br> <small> Cic.Att.2.19.4 <br> Isso era ser chamado para o lugar de um morto. <small> [JDD] </small> </small> </p>
+; <p> o quam miserum est nescire <b>mori</b> <br> <small> Sen.Ag.611 <br> Oh, quão infeliz é não saber morrer! <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-111-114-105-111-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 8.59 and an absolute frequency of 46. The Vergilius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 66 ; absolute frequency: 4.11153472377962. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 46 ; absolute frequency: 8.58513278960826. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-111-114-105-111-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 13.03 and an absolute frequency of 15. The Prosa.filosófica subcorpus follows, with a normalized frequency of 7.58 and an absolute frequency of 46. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 2 ; absolute frequency: 0.486866768908688. subcorpus: Prosa.filosófica ; normalized frequency: 46 ; absolute frequency: 7.57812886113903. subcorpus: Prosa.oratória ; normalized frequency: 43 ; absolute frequency: 4.1285416646664. subcorpus: Prosa.epistolográfica ; normalized frequency: 8 ; absolute frequency: 2.11982299477994. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 15 ; absolute frequency: 13.0298818624044. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-111-114-105-111-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 7.5 and an absolute frequency of 49. The II.d.C. subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 69 ; absolute frequency: 3.21154293693274. subcorpus: I.d.C. ; normalized frequency: 49 ; absolute frequency: 7.49579317729845. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+:::
+

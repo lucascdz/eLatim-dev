@@ -1,0 +1,208 @@
+---
+title: "domus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-111-109-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>domŭis</b> <br> <small>gen., v. domus.</small> <br> <small></small> 
+ <b>domus</b> <b>-ús</b> <br> <small>subs. f.</small> <br> <small>Obs.: As formas da 2.a declinação domi, domo, domos, domorum são as mais antigas e as mais frequentes. Paralelamente ao dat. em -ui havia um dat. em -u, que era o preferido de César A. Gél. 4, 16, 5.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Casa, domicílio, morada &ensp; <small>Cíc. Fin. 5, 42; Cíc. Or. 89.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Pátria &ensp; <small>Cés. B. Gal. 1, 31, 14.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Família, seita, escola &ensp; <small>Cíc. At. 4, 12.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Edifício &ensp; <small>de qualquer espécie Tib. 3, 2, 22.</small> <br> <b>5</b> &ensp; <small>II-Empregos especiais:-Com habere:</small> &ensp; ter em abundância &ensp; <small>Plaut. Mil. 191.</small> <br> <b>6</b> &ensp; <small>II-Empregos especiais:-Com esse:</small> &ensp; superabundar &ensp; <small>Cíc. At. 10, 14, 2.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Domus</b> -<b>us</b> -<b>i</b> <small>l</small> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; casa, habitação. <br> <b>2</b> &ensp; familia. <br> <b>3</b> &ensp; paiz. <br> <b>4</b> &ensp; <small>Virg.</small> &ensp; templo. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Domi</b> <br> <small>aduerbialiter.</small>   <p> <b>1</b> &ensp; em casa </p> 
+ <b>Domus</b> <b>us</b>   <p> <b>1</b> &ensp; a casa. ou familia </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/100071 ' target="_blank"> http://lila-erc.eu/data/id/lemma/100071 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 4ª declinação (tema em -u-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+dŏmŭs 
+ dŏmūs
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-111-109-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-111-109-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword domus here are all the values plotted: collocate: reduco; scoreSUBST: 0. collocate: euerto; scoreSUBST: 0. collocate: pateo; scoreSUBST: 0. collocate: inde; scoreSUBST: 0. collocate: dimitto; scoreSUBST: 0. collocate: suus; scoreSUBST: 0. collocate: meus; scoreSUBST: 0. collocate: tuus; scoreSUBST: 0. collocate: uenio; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-111-109-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword domus here are all the values plotted: collocate: reduco; scoreADJ: 0. collocate: euerto; scoreADJ: 0. collocate: pateo; scoreADJ: 0. collocate: inde; scoreADJ: 0. collocate: dimitto; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: meus; scoreADJ: 0. collocate: tuus; scoreADJ: 0. collocate: uenio; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-111-109-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword domus here are all the values plotted: collocate: reduco; scoreVERBO: 2. collocate: euerto; scoreVERBO: 2. collocate: pateo; scoreVERBO: 2. collocate: inde; scoreVERBO: 0. collocate: dimitto; scoreVERBO: 2. collocate: suus; scoreVERBO: 0. collocate: meus; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0. collocate: uenio; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-111-109-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword domus here are all the values plotted: collocate: reduco; scoreADV: 0. collocate: euerto; scoreADV: 0. collocate: pateo; scoreADV: 0. collocate: inde; scoreADV: 2. collocate: dimitto; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: meus; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: uenio; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-111-109-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword domus here are all the values plotted: collocate: reduco; scoreFUNC: 0. collocate: euerto; scoreFUNC: 0. collocate: pateo; scoreFUNC: 0. collocate: inde; scoreFUNC: 0. collocate: dimitto; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: meus; scoreFUNC: 0. collocate: tuus; scoreFUNC: 0. collocate: uenio; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> et veniunt ad <b>domum</b> <br> <small> Vulg.Marc.3.20 <br> E ele vêm para casa <small> [JDD] </small> </small> </p>
+; <p> euersa <b>domus</b> est funditus regna occidunt <br> <small> Sen.Ag.912 <br> A casa foi completamente destruída, o reino sucumbe. <small> [JDD] </small> </small> </p>
+; <p> inde <b>domum</b> cenatus ut sim mane praesto Miloni <br> <small> Cic.Att.4.12.1 <br> Dali, já jantado, para minha casa, para de manhã me reunir com Milão. <small> [JDD] </small> </small> </p>
+; <p> tolle grabattum tuum et vade in <b>domum</b> tuam <br> <small> Vulg.Marc.2.11 <br> toma o teu catre e vai para tua casa. <small> [JDD] </small> </small> </p>
+; <p> quocumque introieritis in <b>domum</b> illic manete donec exeatis inde <br> <small> Vulg.Marc.6.10 <br> Em qualquer casa que tiverdes entrado, permanecei ali até partirdes dali. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>domum</b> meam quod crebro invisis est mihi valde gratum <br> <small> Cic.Att.4.5.2 <br> É para mim muito grato que olhes minha casa com frequência. <small> [JDD] </small> </small> </p>
+; <p> dies fere nullus est quin hic Satyrus <b>domum</b> meam ventitet <br> <small> Cic.Att.1.1.3 <br> Quase não passa um dia sem que este Sátiro apareça em minha casa. <small> [JDD] </small> </small> </p>
+; <p> et si dimisero eos ieiunos in <b>domum</b> suam deficient in via <br> <small> Vulg.Marc.8.3 <br> e se eu os mandar em jejum para as suas casas, vão desmaiar no caminho. <small> [JDD] </small> </small> </p>
+; <p> ad me autem eadem frequentia postridie convenit qua cum abiens consulatu sum <b>domum</b> reductus <br> <small> Cic.Att.1.16.5 <br> Por outro lado, veio ao meu encontro no dia seguinte a mesma multidão com a qual fui acompanhado até em casa, quando deixei o consulado. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> velim <b>domum</b> ad te scribas ut mihi tui libri pateant non secus ac si ipse adesses cum ceteri tum Varronis <br> <small> Cic.Att.4.14.1 <br> Gostaria que escrevesses para a tua casa para que teus livros me sejam franqueados como se tu próprio estivesses presente, tanto os de Varrão como os demais. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-111-109-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 33.7 and an absolute frequency of 15. The Phaedrus subcorpus follows, with a normalized frequency of 13.66 and an absolute frequency of 9. the subcorpus with the least normalized frequency is Caesar with the normalized value of 4.91 and an absolute freqeuncy of 13. here are all the values: subcorpus: Caesar ; normalized frequency: 13 ; absolute frequency: 4.90973638492333. subcorpus: Cicero ; normalized frequency: 119 ; absolute frequency: 7.41322169893598. subcorpus: Horatius ; normalized frequency: 10 ; absolute frequency: 8.88020602077968. subcorpus: Ovidius ; normalized frequency: 7 ; absolute frequency: 12.0109814687714. subcorpus: Phaedrus ; normalized frequency: 9 ; absolute frequency: 13.6632761499924. subcorpus: Sallustius ; normalized frequency: 8 ; absolute frequency: 7.42046192375475. subcorpus: Seneca ; normalized frequency: 34 ; absolute frequency: 6.34553293144958. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Hieronymus ; normalized frequency: 15 ; absolute frequency: 33.7002920691979'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-111-109-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 33.7 and an absolute frequency of 15. The Poesia.trágica subcorpus follows, with a normalized frequency of 17.37 and an absolute frequency of 20. the subcorpus with the least normalized frequency is Prosa.filosófica with the normalized value of 3.29 and an absolute freqeuncy of 20. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 24 ; absolute frequency: 5.84240122690426. subcorpus: Prosa.filosófica ; normalized frequency: 20 ; absolute frequency: 3.29483863527784. subcorpus: Prosa.oratória ; normalized frequency: 85 ; absolute frequency: 8.1610707324801. subcorpus: Prosa.epistolográfica ; normalized frequency: 28 ; absolute frequency: 7.41938048172978. subcorpus: Poesia.lírica ; normalized frequency: 10 ; absolute frequency: 8.4125515268781. subcorpus: Poesia.didática ; normalized frequency: 16 ; absolute frequency: 13.5719738739503. subcorpus: Poesia.trágica ; normalized frequency: 20 ; absolute frequency: 17.3731758165393. subcorpus: Poesia.épica ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Prosa.ficcional ; normalized frequency: 15 ; absolute frequency: 33.7002920691979'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-111-109-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 33.7 and an absolute frequency of 15. The II.d.C. subcorpus follows, with a normalized frequency of 7.85 and an absolute frequency of 3. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 7.21 and an absolute freqeuncy of 155. here are all the values: subcorpus: I.a.C. ; normalized frequency: 155 ; absolute frequency: 7.21433558296486. subcorpus: I.d.C. ; normalized frequency: 50 ; absolute frequency: 7.64876854826373. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 15 ; absolute frequency: 33.7002920691979'}
+
+
+:::
+

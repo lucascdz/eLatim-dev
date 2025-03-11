@@ -1,0 +1,201 @@
+---
+title: "sancitus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-97-110-99-105-116-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>sancītus</b> <br> <small>= sanctus, -a, -um, part. pass. de sancìo Lucr. 1. 587.</small> <br> <small></small> 
+ <b>sānctus</b> <b>-a</b> <b>-um</b> <br> <small></small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Part. pass. de sancìo.</small> &ensp; <small></small> <br> <b>2</b> &ensp; <small>II-Adj.</small> &ensp; Tornado sagrado ou inviolável, sancionado: &ensp; <small></small> <br> <b>3</b> &ensp; <small>II-Adj.</small> &ensp; Sagrado, santo, augusto &ensp; <small>Verg. En. 3, 406.</small> <br> <b>4</b> &ensp; <small>II-Adj.-Em sent. figurado:</small> &ensp; Venerável, probo, íntegro, puro &ensp; <small>Cíc. Arch. 9.</small> <br> <b>5</b> &ensp; <small>II-Adj.-Em sent. figurado:</small> &ensp; Nobre, divino &ensp; <small>Ov. Met. 1, 76.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>officium sanctum Cíc. Quinct. 26: Cíc. Leg. 3. 9 ‘um dever tornado sagrado’ </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Sancitus</b> -<b>a</b> -<b>um</b> <br> <small>Cic. part. de Sancio.</small> 
+ <b>Sanctus</b> -<b>a</b> -<b>um</b> <br> <small>Cic. part. de Sancio.</small> 
+ <b>Sanctus</b> -<b>a</b> -<b>um</b> -<b>ctior</b> -<b>ctissimus</b>
+
+
+
+
+#### Velez
+
+<b>Sanctus</b> -<b>a</b> -<b>um</b> <br> <small>Partic. à Sancio</small>   <p> <b>1</b> &ensp; cousa decretada, firmada, estabelecida </p> 
+ <b>Sanctus</b> -<b>a</b> -<b>um</b> <br> <small>Nomen</small>
+
+
+
+
+#### Cardoso
+
+<b>Sanctus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa sancta. ou virtuosa </p> 
+ <b>Xantus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa loura </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/hypolemma/39324 ' target="_blank"> http://lila-erc.eu/data/id/hypolemma/39324 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> sanctus, santus, xantus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-97-110-99-105-116-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword sancitus here are all the values plotted: collocate: homo; scoreSUBST: 2. collocate: que; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-97-110-99-105-116-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword sancitus here are all the values plotted: collocate: homo; scoreADJ: 0. collocate: que; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-97-110-99-105-116-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword sancitus here are all the values plotted: collocate: homo; scoreVERBO: 0. collocate: que; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-97-110-99-105-116-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword sancitus here are all the values plotted: collocate: homo; scoreADV: 0. collocate: que; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-97-110-99-105-116-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword sancitus here are all the values plotted: collocate: homo; scoreFUNC: 0. collocate: que; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> his ego <b>sanctissimis</b> rei publicae uocibus et eorum hominum qui hoc idem sentiunt mentibus pauca respondebo <br> <small> Cic.Catil.1.29.5 <br> A estas palavras sacratíssimas da república e às mentes daqueles homens que sentem o mesmo, responderei brevemente. <small> [JDD] </small> </small> </p>
+; <p> sit igitur iudices <b>sanctum</b> apud uos humanissimos homines hoc poetae nomen quod nulla umquam barbaria uiolauit <br> <small> Cic.Arch.19 <br> Seja, portanto, sagrado perante vós, juízes, homens de tão humana cultura, este nome de poeta, que nenhuma barbárie jamais violou. <small> [JDD] </small> </small> </p>
+; <p> Uerres temperantissimi <b>sanctissimi</b>que uiri monumentum Dianae simulacrum uirginis in ea domo conlocabit in qua semper meretricum lenonumque flagitia uersantur <br> <small> Cic.Ver.2.4.83.6 <br> Verres colocará o monumento do homem mais moderado e mais venerável, a estátua de Diana, a virgem, nessa casa em que sempre têm lugar as infâmias da meretrizes e dos cafetões? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-97-110-99-105-116-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 8.99 and an absolute frequency of 4. The Vergilius subcorpus follows, with a normalized frequency of 1.93 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 30 ; absolute frequency: 1.86887941989983. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 7 ; absolute frequency: 1.30643325059256. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-97-110-99-105-116-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 8.99 and an absolute frequency of 4. The Poesia.trágica subcorpus follows, with a normalized frequency of 4.34 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 2 ; absolute frequency: 0.486866768908688. subcorpus: Prosa.filosófica ; normalized frequency: 3 ; absolute frequency: 0.494225795291676. subcorpus: Prosa.oratória ; normalized frequency: 29 ; absolute frequency: 2.78436530872851. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-97-110-99-105-116-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 8.99 and an absolute frequency of 4. The I.a.C. subcorpus follows, with a normalized frequency of 1.58 and an absolute frequency of 34. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 34 ; absolute frequency: 1.58249941819874. subcorpus: I.d.C. ; normalized frequency: 7 ; absolute frequency: 1.07082759675692. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+:::
+

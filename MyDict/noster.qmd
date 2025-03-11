@@ -1,0 +1,240 @@
+---
+title: "noster"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-111-115-116-101-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>noster</b> <b>-tra</b> <b>-trum</b> <br> <small>pron. poss.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Nosso, nossa &ensp; <small>Cíc. Rep. 1, 3.</small> <br> <b>2</b> &ensp; <small>II-Daí, em sent. particular</small> &ensp; Que é do nosso país, da nossa família ou do nosso partido &ensp; <small>Cíc. Arch, 24.</small> <br> <b>3</b> &ensp; <small>III-Sent. enfático:</small> &ensp; Meu, minha: &ensp; <small></small> <br> <b>4</b> &ensp; <small>III-= ego Plaut. Amph. 399.</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>3</b><br>noster Ter. Eun. 154 “meu senhor”. </p> 
+ <b>nostrōrum</b> <br> <small></small> <br> <small>v. nos e noster.</small> 
+ <b>nostrum</b> <br> <small>gen. de nos e de noster.</small> <br> <small></small> 
+ <small>2.</small> <b>nostrī</b> <br> <small>gen. de noster.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Noster</b> -<b>tra</b> -<b>trum</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; nosso. </p>
+
+
+
+
+#### Velez
+
+<b>Noster</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa nossa </p>
+
+
+
+
+#### Cardoso
+
+<b>Noster</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa nossa </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/113882 ' target="_blank"> http://lila-erc.eu/data/id/lemma/113882 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> nostermet, nosterpte <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+nostĕr
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-111-115-116-101-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword noster here are all the values plotted: collocate: maiores; scoreSUBST: 4. collocate: miles; scoreSUBST: 3. collocate: exercitus; scoreSUBST: 3. collocate: imperator; scoreSUBST: 3. collocate: memoria; scoreSUBST: 2. collocate: prouincia; scoreSUBST: 2. collocate: amicus; scoreSUBST: 2. collocate: causa; scoreSUBST: 2. collocate: consilium; scoreSUBST: 2. collocate: aduentus; scoreSUBST: 2. collocate: pater; scoreSUBST: 2. collocate: eques; scoreSUBST: 2. collocate: amicitia; scoreSUBST: 2. collocate: iter; scoreSUBST: 2. collocate: potestas; scoreSUBST: 2. collocate: nomen; scoreSUBST: 2. collocate: certus; scoreSUBST: 0. collocate: Pompeius; scoreSUBST: 0. collocate: auctoritas; scoreSUBST: 2. collocate: ciuitas; scoreSUBST: 2. collocate: amor; scoreSUBST: 2. collocate: nauis; scoreSUBST: 2. collocate: gloria; scoreSUBST: 2. collocate: legio; scoreSUBST: 2. collocate: malum; scoreSUBST: 2. collocate: mos; scoreSUBST: 2. collocate: aetas; scoreSUBST: 2. collocate: castra; scoreSUBST: 1. collocate: ratio; scoreSUBST: 1. collocate: salus; scoreSUBST: 1. collocate: agmen; scoreSUBST: 2. collocate: collega; scoreSUBST: 2. collocate: decretum; scoreSUBST: 2. collocate: Cicero; scoreSUBST: 0. collocate: cogitatio; scoreSUBST: 2. collocate: familiaris; scoreSUBST: 0. collocate: intersum; scoreSUBST: 0. collocate: numerus; scoreSUBST: 2. collocate: seruus; scoreSUBST: 1'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-111-115-116-101-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword noster here are all the values plotted: collocate: maiores; scoreADJ: 0. collocate: miles; scoreADJ: 0. collocate: exercitus; scoreADJ: 0. collocate: imperator; scoreADJ: 0. collocate: memoria; scoreADJ: 0. collocate: prouincia; scoreADJ: 0. collocate: amicus; scoreADJ: 0. collocate: causa; scoreADJ: 0. collocate: consilium; scoreADJ: 0. collocate: aduentus; scoreADJ: 0. collocate: pater; scoreADJ: 0. collocate: eques; scoreADJ: 0. collocate: amicitia; scoreADJ: 0. collocate: iter; scoreADJ: 0. collocate: potestas; scoreADJ: 0. collocate: nomen; scoreADJ: 0. collocate: certus; scoreADJ: 2. collocate: Pompeius; scoreADJ: 0. collocate: auctoritas; scoreADJ: 0. collocate: ciuitas; scoreADJ: 0. collocate: amor; scoreADJ: 0. collocate: nauis; scoreADJ: 0. collocate: gloria; scoreADJ: 0. collocate: legio; scoreADJ: 0. collocate: malum; scoreADJ: 0. collocate: mos; scoreADJ: 0. collocate: aetas; scoreADJ: 0. collocate: castra; scoreADJ: 0. collocate: ratio; scoreADJ: 0. collocate: salus; scoreADJ: 0. collocate: agmen; scoreADJ: 0. collocate: collega; scoreADJ: 0. collocate: decretum; scoreADJ: 0. collocate: Cicero; scoreADJ: 0. collocate: cogitatio; scoreADJ: 0. collocate: familiaris; scoreADJ: 2. collocate: intersum; scoreADJ: 0. collocate: numerus; scoreADJ: 0. collocate: seruus; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-111-115-116-101-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword noster here are all the values plotted: collocate: maiores; scoreVERBO: 0. collocate: miles; scoreVERBO: 0. collocate: exercitus; scoreVERBO: 0. collocate: imperator; scoreVERBO: 0. collocate: memoria; scoreVERBO: 0. collocate: prouincia; scoreVERBO: 0. collocate: amicus; scoreVERBO: 0. collocate: causa; scoreVERBO: 0. collocate: consilium; scoreVERBO: 0. collocate: aduentus; scoreVERBO: 0. collocate: pater; scoreVERBO: 0. collocate: eques; scoreVERBO: 0. collocate: amicitia; scoreVERBO: 0. collocate: iter; scoreVERBO: 0. collocate: potestas; scoreVERBO: 0. collocate: nomen; scoreVERBO: 0. collocate: certus; scoreVERBO: 0. collocate: Pompeius; scoreVERBO: 0. collocate: auctoritas; scoreVERBO: 0. collocate: ciuitas; scoreVERBO: 0. collocate: amor; scoreVERBO: 0. collocate: nauis; scoreVERBO: 0. collocate: gloria; scoreVERBO: 0. collocate: legio; scoreVERBO: 0. collocate: malum; scoreVERBO: 0. collocate: mos; scoreVERBO: 0. collocate: aetas; scoreVERBO: 0. collocate: castra; scoreVERBO: 0. collocate: ratio; scoreVERBO: 0. collocate: salus; scoreVERBO: 0. collocate: agmen; scoreVERBO: 0. collocate: collega; scoreVERBO: 0. collocate: decretum; scoreVERBO: 0. collocate: Cicero; scoreVERBO: 0. collocate: cogitatio; scoreVERBO: 0. collocate: familiaris; scoreVERBO: 0. collocate: intersum; scoreVERBO: 2. collocate: numerus; scoreVERBO: 0. collocate: seruus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-111-115-116-101-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword noster here are all the values plotted: collocate: maiores; scoreADV: 0. collocate: miles; scoreADV: 0. collocate: exercitus; scoreADV: 0. collocate: imperator; scoreADV: 0. collocate: memoria; scoreADV: 0. collocate: prouincia; scoreADV: 0. collocate: amicus; scoreADV: 0. collocate: causa; scoreADV: 0. collocate: consilium; scoreADV: 0. collocate: aduentus; scoreADV: 0. collocate: pater; scoreADV: 0. collocate: eques; scoreADV: 0. collocate: amicitia; scoreADV: 0. collocate: iter; scoreADV: 0. collocate: potestas; scoreADV: 0. collocate: nomen; scoreADV: 0. collocate: certus; scoreADV: 0. collocate: Pompeius; scoreADV: 0. collocate: auctoritas; scoreADV: 0. collocate: ciuitas; scoreADV: 0. collocate: amor; scoreADV: 0. collocate: nauis; scoreADV: 0. collocate: gloria; scoreADV: 0. collocate: legio; scoreADV: 0. collocate: malum; scoreADV: 0. collocate: mos; scoreADV: 0. collocate: aetas; scoreADV: 0. collocate: castra; scoreADV: 0. collocate: ratio; scoreADV: 0. collocate: salus; scoreADV: 0. collocate: agmen; scoreADV: 0. collocate: collega; scoreADV: 0. collocate: decretum; scoreADV: 0. collocate: Cicero; scoreADV: 0. collocate: cogitatio; scoreADV: 0. collocate: familiaris; scoreADV: 0. collocate: intersum; scoreADV: 0. collocate: numerus; scoreADV: 0. collocate: seruus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-111-115-116-101-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword noster here are all the values plotted: collocate: maiores; scoreFUNC: 0. collocate: miles; scoreFUNC: 0. collocate: exercitus; scoreFUNC: 0. collocate: imperator; scoreFUNC: 0. collocate: memoria; scoreFUNC: 0. collocate: prouincia; scoreFUNC: 0. collocate: amicus; scoreFUNC: 0. collocate: causa; scoreFUNC: 0. collocate: consilium; scoreFUNC: 0. collocate: aduentus; scoreFUNC: 0. collocate: pater; scoreFUNC: 0. collocate: eques; scoreFUNC: 0. collocate: amicitia; scoreFUNC: 0. collocate: iter; scoreFUNC: 0. collocate: potestas; scoreFUNC: 0. collocate: nomen; scoreFUNC: 0. collocate: certus; scoreFUNC: 0. collocate: Pompeius; scoreFUNC: 0. collocate: auctoritas; scoreFUNC: 0. collocate: ciuitas; scoreFUNC: 0. collocate: amor; scoreFUNC: 0. collocate: nauis; scoreFUNC: 0. collocate: gloria; scoreFUNC: 0. collocate: legio; scoreFUNC: 0. collocate: malum; scoreFUNC: 0. collocate: mos; scoreFUNC: 0. collocate: aetas; scoreFUNC: 0. collocate: castra; scoreFUNC: 0. collocate: ratio; scoreFUNC: 0. collocate: salus; scoreFUNC: 0. collocate: agmen; scoreFUNC: 0. collocate: collega; scoreFUNC: 0. collocate: decretum; scoreFUNC: 0. collocate: Cicero; scoreFUNC: 0. collocate: cogitatio; scoreFUNC: 0. collocate: familiaris; scoreFUNC: 0. collocate: intersum; scoreFUNC: 0. collocate: numerus; scoreFUNC: 0. collocate: seruus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> habes consilia <b>nostra</b> <br> <small> Cic.Att.5.21.10 <br> Tens os meus planos. <small> [JDD] </small> </small> </p>
+; <p> <b>nostris</b> ipsa sufficiam malis <br> <small> Sen.Ag.663 <br> Eu própria me bastarei para os meus males. <small> [JDD] </small> </small> </p>
+; <p> cura amabo te Ciceronem <b>nostrum</b> <br> <small> Cic.Att.2.2.1 <br> Cuida, por favor, do nosso Cícero. <small> [JDD] </small> </small> </p>
+; <p> quanto in odio <b>noster</b> amicus Magnus <br> <small> Cic.Att.2.13.2 <br> Em que grande ódio se acha o nosso Magno! <small> [JDD, de outra edição] </small> </small> </p>
+; <p> amicum enim <b>nostrum</b> in iudicium uocabas <br> <small> Cic.Ver.2.4.25.19 <br> “Pois chamavas a julgamento um amigo nosso.” <small> [JDD] </small> </small> </p>
+; <p> uicere <b>nostra</b> iam metus omnis mala <br> <small> Sen.Ag.695 <br> As nossas desgraças já superaram todos os medos. <small> [JDD] </small> </small> </p>
+; <p> nunc adice certas corporis <b>nostri</b> notas <br> <small> Sen.Oed.811 <br> Agora, acrescenta as marcas particulares de meu corpo. <small> [JDD] </small> </small> </p>
+; <p> Caluisius Sabinus memoria <b>nostra</b> fuit diues <br> <small> Sen.Ep.27.5 <br> Calvísio Sabino, em nossa lembrança, foi rico. <small> [JDD] </small> </small> </p>
+; <p> iis ardet dolore et ira <b>noster</b> Pompeius <br> <small> Cic.Att.2.19.5 <br> Por causa deles o nosso querido Pompeu arde de dor e de raiva. <small> [JDD] </small> </small> </p>
+; <p> sic enim <b>nostrae</b> rationes utilitatis meae postulabant <br> <small> Cic.Att.4.2.6 <br> pois era assim que pediam as razões de meu interesse. <small> [JDD] </small> </small> </p>
+; <p> erat in Syria <b>nostrum</b> nomen in gratia <br> <small> Cic.Att.5.20.3 <br> Meu nome estava em prestígio na Síria. <small> [JDD] </small> </small> </p>
+; <p> Axius <b>noster</b> ait <b>nostras</b> auctoritatis plenas fuisse <br> <small> Cic.Att.5.21.2 <br> Nosso amigo Áxio diz que a minha foi cheia de autoridade. <small> [JDD] </small> </small> </p>
+; <p> prouinciam suam hanc esse Galliam sicut illam <b>nostram</b> <br> <small> Caes.Gal.1.44.8 <br> Que esta Gália era província sua, assim como aquela era nossa. <small> [JDD] </small> </small> </p>
+; <p> instruar etiam consiliis idoneis ad hoc <b>nostrum</b> negotium <br> <small> Cic.Att.5.6.1 <br> e ainda me instruirei com resoluções idôneas para esse nosso negócio. <small> [JDD] </small> </small> </p>
+; <p> legionum <b>nostrarum</b> neruos ne ne his consiliis incidimus <br> <small> Cic.Phil.12.8.1 <br> Acaso não estamos com esses conselhos cortando os nervos de nossas legiões? <small> [JDD] </small> </small> </p>
+; <p> sed ut omittam communem causam ueniamus ad <b>nostram</b> <br> <small> Cic.Lig.20 <br> Mas para deixar a causa comum, vamos à nossa. <small> [JDD] </small> </small> </p>
+; <p> adventus <b>noster</b> nemini ne minimo quidem fuit sumptui <br> <small> Cic.Att.5.14.2 <br> Nossa chegada não foi de absolutamente nenhum gasto para ninguém. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> palus erat non magna inter <b>nostrum</b> atque hostium exercitum <br> <small> Caes.Gal.2.9.1 <br> Havia entre o nosso exército e o dos inimigos um charco não grande. <small> [JDD] </small> </small> </p>
+; <p> nec ille armis solum sed etiam decretis <b>nostris</b> urgendus est <br> <small> Cic.Phil.3.32.7 <br> Ele deve ser perseguido não só com as armas, mas também com nossos decretos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> si enim deferetur erit quaedam <b>nostra</b> potestas et tum deliberabimus <br> <small> Cic.Att.2.5.1 <br> Pois se me for oferecido, terei um certo poder e então vou deliberar. <small> [JDD] </small> </small> </p>
+; <p> quoniam acta quae sint habes de reliqua <b>nostra</b> cogitatione cognosce <br> <small> Cic.Att.4.2.6 <br> Já que tens o que ocorreu, torna-te ciente do restante de minhas idéias. <small> [JDD] </small> </small> </p>
+; <p> sed cognosce itinera <b>nostra</b> ut statuas ubi nos visurus sis <br> <small> Cic.Att.2.8.2 <br> Mas inteira-te do nosso itinerário para que decidas onde nos verás. <small> [JDD] </small> </small> </p>
+; <p> nolite existumare maiores <b>nostros</b> armis rem publicam ex parua magnam fecisse <br> <small> Sal.Cat.52.19 <br> Não penseis que foi com armas que os nossos antepassados  de pequena fizeram grande esta república  <small> [JDD] </small> </small> </p>
+; <p> iam enim a sapientium familiaritatibus ad uulgares amicitias oratio <b>nostra</b> delabitur <br> <small> Cic.Amici.76 <br> pois nosso discurso agora desce das relações dos sábios para as amizades vulgares. <small> [JDD] </small> </small> </p>
+; <p> tantum velim fortuna det nobis potestatem ut incolumes amore <b>nostro</b> perfruamur <br> <small> Cic.Att.3.17.3 <br> Gostaria somente que a fortuna nos dê a possibilidade de desfrutarmos sãos e salvos de nossa afeição. <small> [JDD] </small> </small> </p>
+; <p> credo enim te audisse <b>nostros</b> equites paene a senatu esse diiunctos <br> <small> Cic.Att.1.17.8 <br> Pois creio que tu ouviste que nossos cavaleiros quase romperam com o senado. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quoniam id non contigit erit hoc quoque in magno numero <b>nostrorum</b> malorum <br> <small> Cic.Att.3.6 <br> Uma vez que não aconteceu assim, isto estará também no grande número de meus infortúnios. <small> [JDD] </small> </small> </p>
+; <p> iurabo Gnaeum <b>nostrum</b> conlegam Balbi Anti mihi narrasse se in auspicio fuisse <br> <small> Cic.Att.2.12.1 <br> jurarei que o nosso Cneu, colega de Balbo Ácio, me contou que esteve no auspício. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> commisso proelio diutius <b>nostrorum</b> militum impetum hostes ferre non potuerunt ac terga uerterunt <br> <small> Caes.Gal.4.35.2 <br> Travado o combate, os inimigos não puderam aguentar por muito tempo o ímpeto de nossos soldados e voltaram as costas. <small> [JDD] </small> </small> </p>
+; <p> his rebus cum iter agminis <b>nostri</b> impediretur non omittendum sibi consilium Neruii existimauerunt <br> <small> Caes.Gal.2.17.5 <br> Como com essas coisas fosse impedido o caminho de nossa tropa, os nérvios estimaram que não deviam deixar de lado o plano. <small> [JDD] </small> </small> </p>
+; <p> permagni <b>nostra</b> interest te si comitiis non potueris at declarato illo esse Romae <br> <small> Cic.Att.2.23.3 <br> É de nosso grande interesse que, se não puderes estar em Roma para as eleições, que estejas ao menos quando designado aquele. <small> [JDD] </small> </small> </p>
+; <p> nam prorsus summa hominum est opinio tuos familiaris nobilis homines adversarios honori <b>nostro</b> fore <br> <small> Cic.Att.1.2.2 <br> Pois é bem alta a opinião das pessoas que teus amigos, homens nobres, serão contrários à minha eleição. <small> [JDD] </small> </small> </p>
+; <p> tribuebatur hoc modo M. Catoni scimus L. Acilium apud patres <b>nostros</b> appellatum esse sapientem <br> <small> Cic.Amici.6 <br> Isso era atribuído há pouco a Marco Catão; sabemos que Lúcio Acílio entre nossos pais era chamado de sábio. <small> [JDD] </small> </small> </p>
+; <p> me ne non potuisse Milonis salutem tueri per eosdem per quos <b>nostram</b> ille seruasset <br> <small> Cic.Mil.102 <br> Que eu não fui capaz de defender a salvação de Milão através dos mesmos homens através dos quais ele tinha assegurado a nossa? <small> [JDD] </small> </small> </p>
+; <p> quod Lucceio scribis te <b>nostram</b> gloriam commendaturum et aedificium <b>nostrum</b> quod crebro invisis gratum <br> <small> Cic.Att.4.9.2 <br> Quanto ao que escreves que vais recomendar o meu elogio a Luceio e que visitas com frequência o meu prédio, agradeço. <small> [JDD] </small> </small> </p>
+; <p> uerum haec genera uirtutum non solum in moribus <b>nostris</b> sed uix iam in libris reperiuntur <br> <small> Cic.Cael.40 <br> Mas esses tipos de virtudes agora dificilmente são encontrados não só em nossos costumes, mas também nos livros. <small> [JDD] </small> </small> </p>
+; <p> itaque propter hanc auaritiam imperatorum quantas calamitates quocumque uentum sit <b>nostri</b> exercitus adferant quis ignorat <br> <small> Cic.Man.37 <br> E assim quem ignora que grandes infortúnios os nossos exércitos ocasionam onde quer que se chega, por causa dessa cobiça dos generais? <small> [JDD] </small> </small> </p>
+; <p> nam puer festivus anagnostes <b>noster</b> Sositheus decesserat meque plus quam servi mors debere videbatur commoverat <br> <small> Cic.Att.1.12.4 <br> Pois Sosíteo, um menino alegre, meu anagnoste, faleceu e me comovi mais do que parece merecer a morte de um escravo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ergo et legibus et institutis uacat aetas <b>nostra</b> muneribus iis quae non possunt sine uiribus sustineri <br> <small> Cic.Sen.34 <br> Por conseguinte, graças às leis e aos costumes, a nossa idade está dispensada dessas funções que não podem ser desempenhadas sem as forças. <small> [JDD] </small> </small> </p>
+; <p> ait ' quantoque animalia cedunt cuncta deo tanto minor est tua gloria <b>nostra</b> . ' [0] <br> <small> Ov.Met.1.464-5 <br> diz, e tanto quanto os animais todos cedem ao deus, a tua glória é menor que a nossa.” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> eadem autem celeritate aduerso colle ad <b>nostra</b> castra atque eos qui in opere occupati erant contenderunt <br> <small> Caes.Gal.2.19.8 <br> Por outro lado, com a mesma rapidez pelo morro oposto chegaram ao nosso acampamento e atacaram aqueles que estavam ocupados na obra. <small> [JDD] </small> </small> </p>
+; <p> idcirco in hanc urbem uenisti ut huius urbis iura et exempla corrumperes domesticaque immanitate <b>nostrae</b> ciuitatis humanitatem inquinares <br> <small> Cic.Deiot.32 <br> Vieste por esse motivo a esta cidade, para corromperes os direitos e os exemplo desta cidade e sujares com tua brutalidade doméstica a humanidade de nossa comunidade? <small> [JDD] </small> </small> </p>
+; <p> quo mortuo me ad pontificem Scaeuolam contuli quem unum <b>nostrae</b> ciuitatis et ingenio et iustitia praestantissimum audeo dicere <br> <small> Cic.Amici.1 <br> Morto este, me dirigi até o pontífice Cévola, o único de nossa cidade que ouso chamar de eminentíssimo por seu talento e justiça. <small> [JDD] </small> </small> </p>
+; <p> quae ubi conuenit ac primum ab hostibus uisa est circiter CCXX naues eorum paratissimae atque omni genere armorum ornatissimae ex portu profectae <b>nostris</b> aduersae constiterunt <br> <small> Caes.Gal.3.14.2 <br> Quando essa chegou e logo foi vista pelos inimigos, cerca de 220 naus deles, tendo partido do porto preparadíssimas e equipadíssimas de todo gênero de armas, se postaram diante das nossas. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-111-115-116-101-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 30.96 and an absolute frequency of 497. The Caesar subcorpus follows, with a normalized frequency of 26.44 and an absolute frequency of 70. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 70 ; absolute frequency: 26.4370420726641. subcorpus: Cicero ; normalized frequency: 497 ; absolute frequency: 30.9611023896738. subcorpus: Horatius ; normalized frequency: 6 ; absolute frequency: 5.32812361246781. subcorpus: Ovidius ; normalized frequency: 13 ; absolute frequency: 22.3061084420041. subcorpus: Phaedrus ; normalized frequency: 7 ; absolute frequency: 10.6269925611052. subcorpus: Sallustius ; normalized frequency: 18 ; absolute frequency: 16.6960393284482. subcorpus: Seneca ; normalized frequency: 89 ; absolute frequency: 16.6103656146768. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 4 ; absolute frequency: 13.7315482320632. subcorpus: Vergilius ; normalized frequency: 10 ; absolute frequency: 19.3050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-111-115-116-101-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 62 and an absolute frequency of 234. The Prosa.histórica subcorpus follows, with a normalized frequency of 22.4 and an absolute frequency of 92. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 92 ; absolute frequency: 22.3958713697997. subcorpus: Prosa.filosófica ; normalized frequency: 104 ; absolute frequency: 17.1331609034448. subcorpus: Prosa.oratória ; normalized frequency: 223 ; absolute frequency: 21.4108090981537. subcorpus: Prosa.epistolográfica ; normalized frequency: 234 ; absolute frequency: 62.0048225973131. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 20 ; absolute frequency: 16.9649673424379. subcorpus: Poesia.trágica ; normalized frequency: 25 ; absolute frequency: 21.7164697706741. subcorpus: Poesia.épica ; normalized frequency: 10 ; absolute frequency: 19.3050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-111-115-116-101-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 27.97 and an absolute frequency of 601. The I.a.C. subcorpus follows, with a normalized frequency of 27.97 and an absolute frequency of 601. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 601 ; absolute frequency: 27.9730044216896. subcorpus: I.d.C. ; normalized frequency: 109 ; absolute frequency: 16.6743154352149. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

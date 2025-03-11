@@ -1,0 +1,231 @@
+---
+title: "unus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-110-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>ūnae</b> <br> <small>dat. f. de unus, Cíc. Tull. 36.</small> <br> <small></small> 
+ <b>ūnīus</b> <br> <small>gen. de unus.</small> <br> <small></small> 
+ <b>ūnus</b> <b>-a</b> <b>-um</b> <br> <small>adj. num.</small> <br> <small>Obs.: O gen. normal é únìus, mas únìus é frequente Verg. En. 1, 41. Gen. uni Catul. 17, 17. Dat.: unae Cíc. Tull. 36. Voe. une Catul. 37, 17.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Um, um só, único &ensp; <small>Cíc. Fam. 2, 7, 3.</small> <br> <b>2</b> &ensp; <small>II-Sents. diversos</small> &ensp; Um mesmo, o mesmo &ensp; <small>Cíc. Clu. 28.</small> <br> <b>3</b> &ensp; <small>II-Sents. diversos</small> &ensp; Um mais que todos os outros, o primeiro &ensp; <small>Verg. En. 1, 15.</small> <br> <b>4</b> &ensp; <small>II-Sents. diversos</small> &ensp; Um certo, certa pessoa &ensp; <small>Cíc. De Or. 1, 132.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Unus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; hum só, unico. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>ad unum &ensp; <small><small>Cic</small></small> &ensp; <small>Geralmente, sem escapar hum só</small> <br> ex unis geminas mihi facies nuptias &ensp; <small><small>Ter</small></small> &ensp; <small>Tu me farás casar duas vezes em vez de huma</small> <br> in unum &ensp; <small><small>sc. locum. Sall</small></small> &ensp; <small>Para hum só lugar</small> <br> unus & alter &ensp; <small><small>Cic</small></small> &ensp; <small>Dois</small> </p>
+
+
+
+
+#### Velez
+
+<b>unus</b>
+
+
+
+
+#### Cardoso
+
+<b>Vnus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; hum soo. ou primeyro </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/85636 ' target="_blank"> http://lila-erc.eu/data/id/lemma/85636 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> 1ª classe, pronominal (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ūnīus 
+ ūnus 
+ unī
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-110-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword unus here are all the values plotted: collocate: quisque; scoreSUBST: 0. collocate: tempus; scoreSUBST: 2. collocate: ex; scoreSUBST: 0. collocate: locus; scoreSUBST: 2. collocate: hic; scoreSUBST: 0. collocate: dies; scoreSUBST: 2. collocate: uox; scoreSUBST: 2. collocate: homo; scoreSUBST: 2. collocate: in; scoreSUBST: 0. collocate: triginta; scoreSUBST: 0. collocate: legio; scoreSUBST: 2. collocate: omnis; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: genus; scoreSUBST: 2. collocate: praeter; scoreSUBST: 0. collocate: crimen; scoreSUBST: 2. collocate: imperator; scoreSUBST: 2. collocate: autem; scoreSUBST: 0. collocate: nox; scoreSUBST: 2. collocate: mens; scoreSUBST: 2. collocate: annus; scoreSUBST: 2. collocate: domus; scoreSUBST: 2. collocate: alter; scoreSUBST: 0. collocate: gnaeus; scoreSUBST: 0. collocate: ob; scoreSUBST: 0. collocate: post; scoreSUBST: 0. collocate: uitium; scoreSUBST: 2. collocate: caput; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-110-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword unus here are all the values plotted: collocate: quisque; scoreADJ: 0. collocate: tempus; scoreADJ: 0. collocate: ex; scoreADJ: 0. collocate: locus; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: dies; scoreADJ: 0. collocate: uox; scoreADJ: 0. collocate: homo; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: triginta; scoreADJ: 0. collocate: legio; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: genus; scoreADJ: 0. collocate: praeter; scoreADJ: 0. collocate: crimen; scoreADJ: 0. collocate: imperator; scoreADJ: 0. collocate: autem; scoreADJ: 0. collocate: nox; scoreADJ: 0. collocate: mens; scoreADJ: 0. collocate: annus; scoreADJ: 0. collocate: domus; scoreADJ: 0. collocate: alter; scoreADJ: 0. collocate: gnaeus; scoreADJ: 2. collocate: ob; scoreADJ: 0. collocate: post; scoreADJ: 0. collocate: uitium; scoreADJ: 0. collocate: caput; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-110-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword unus here are all the values plotted: collocate: quisque; scoreVERBO: 0. collocate: tempus; scoreVERBO: 0. collocate: ex; scoreVERBO: 0. collocate: locus; scoreVERBO: 0. collocate: hic; scoreVERBO: 0. collocate: dies; scoreVERBO: 0. collocate: uox; scoreVERBO: 0. collocate: homo; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: triginta; scoreVERBO: 0. collocate: legio; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: genus; scoreVERBO: 0. collocate: praeter; scoreVERBO: 0. collocate: crimen; scoreVERBO: 0. collocate: imperator; scoreVERBO: 0. collocate: autem; scoreVERBO: 0. collocate: nox; scoreVERBO: 0. collocate: mens; scoreVERBO: 0. collocate: annus; scoreVERBO: 0. collocate: domus; scoreVERBO: 0. collocate: alter; scoreVERBO: 0. collocate: gnaeus; scoreVERBO: 0. collocate: ob; scoreVERBO: 0. collocate: post; scoreVERBO: 0. collocate: uitium; scoreVERBO: 0. collocate: caput; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-110-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword unus here are all the values plotted: collocate: quisque; scoreADV: 0. collocate: tempus; scoreADV: 0. collocate: ex; scoreADV: 0. collocate: locus; scoreADV: 0. collocate: hic; scoreADV: 0. collocate: dies; scoreADV: 0. collocate: uox; scoreADV: 0. collocate: homo; scoreADV: 0. collocate: in; scoreADV: 0. collocate: triginta; scoreADV: 0. collocate: legio; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: genus; scoreADV: 0. collocate: praeter; scoreADV: 0. collocate: crimen; scoreADV: 0. collocate: imperator; scoreADV: 0. collocate: autem; scoreADV: 0. collocate: nox; scoreADV: 0. collocate: mens; scoreADV: 0. collocate: annus; scoreADV: 0. collocate: domus; scoreADV: 0. collocate: alter; scoreADV: 0. collocate: gnaeus; scoreADV: 0. collocate: ob; scoreADV: 0. collocate: post; scoreADV: 0. collocate: uitium; scoreADV: 0. collocate: caput; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-110-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword unus here are all the values plotted: collocate: quisque; scoreFUNC: 0. collocate: tempus; scoreFUNC: 0. collocate: ex; scoreFUNC: 20. collocate: locus; scoreFUNC: 0. collocate: hic; scoreFUNC: 0. collocate: dies; scoreFUNC: 0. collocate: uox; scoreFUNC: 0. collocate: homo; scoreFUNC: 0. collocate: in; scoreFUNC: 20. collocate: triginta; scoreFUNC: 0. collocate: legio; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: genus; scoreFUNC: 0. collocate: praeter; scoreFUNC: 20. collocate: crimen; scoreFUNC: 0. collocate: imperator; scoreFUNC: 0. collocate: autem; scoreFUNC: 0. collocate: nox; scoreFUNC: 0. collocate: mens; scoreFUNC: 0. collocate: annus; scoreFUNC: 0. collocate: domus; scoreFUNC: 0. collocate: alter; scoreFUNC: 0. collocate: gnaeus; scoreFUNC: 0. collocate: ob; scoreFUNC: 20. collocate: post; scoreFUNC: 20. collocate: uitium; scoreFUNC: 0. collocate: caput; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Occidit <b>una</b> domus . <br> <small> Ov.Met.1.240 <br> Uma só casa sucumbiu. <small> [JDD] </small> </small> </p>
+; <p> <b>unum</b> dissimile quod huic merito <br> <small> Cic.Att.4.8A.2 <br> uma única diferença, é que ele mereceu. <small> [JDD] </small> </small> </p>
+; <p> hanc <b>unam</b> gratiam potentiamque nouerunt <br> <small> Caes.Gal.6.15.2 <br> Conhecem apenas esse único prestígio e poder. <small> [JDD] </small> </small> </p>
+; <p> hoc me tamen consolor <b>uno</b> <br> <small> Cic.Att.5.21.1 <br> Contudo, eu me consolo com isto apenas. <small> [JDD] </small> </small> </p>
+; <p> magnam rem puta <b>unum</b> hominem agere <br> <small> Sen.Ep.120.22 <br> Considera uma grande coisa agir como um único homem. <small> [JDD] </small> </small> </p>
+; <p> propheta est quasi <b>unus</b> ex prophetis <br> <small> Vulg.Marc.6.15 <br> é um profeta, como que um dos profetas. <small> [JDD] </small> </small> </p>
+; <p> <b>unus</b> autem dies gradus uitae est <br> <small> Sen.Ep.12.6 <br> E um dia é um degrau da vida. <small> [JDD] </small> </small> </p>
+; <p> tot domus locupletissimas istius domus <b>una</b> capiet <br> <small> Cic.Ver.2.4.7.16 <br> A casa dele, sozinha, abarcará tantas casas opulentíssimas? <small> [JDD] </small> </small> </p>
+; <p> hoc <b>unum</b> ad pristinam fortunam Caesari defuit <br> <small> Caes.Gal.4.26.5 <br> Apenas isso faltou a César para a sua antiga fortuna. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Sed non domus <b>una</b> perire digna fuit : <br> <small> Ov.Met.1.240-1 <br> mas não era a única casa digna de perecer. <small> [JDD] </small> </small> </p>
+; <p> non omnia in <b>unius</b> potestate ac moderatione uertentur <br> <small> Cic.Ver.1.20 <br> Não, tudo se transcorrerá de acordo com o poder e autoridade de uma única pessoa. <small> [JDD] </small> </small> </p>
+; <p> sollicitabar rebus maximis <b>uno</b> atque eo perexiguo tempore <br> <small> Cic.Ver.1.24 <br> 24 Eu era ao mesmo tempo atormentado por assuntos de grande importância e num tempo extremamente curto. <small> [JDD] </small> </small> </p>
+; <p> in <b>unius</b> hominis perditi iudicio plures similes reperti sunt <br> <small> Cic.Att.1.16.9 <br> No julgamento de um único homem devasso, foram encontrados muitos iguais a ele.” <small> [JDD] </small> </small> </p>
+; <p> uicesimus annus est cum omnes scelerati me <b>unum</b> petunt <br> <small> Cic.Phil.12.24.12 <br> Há vinte anos que todos os criminosos buscam atingir somente a mim. <small> [JDD] </small> </small> </p>
+; <p> o suavis epistulas tuas <b>uno</b> tempore mihi datas duas <br> <small> Cic.Att.2.12.1 <br> Ó que agradáveis as duas cartas tuas entregues a mim ao  mesmo tempo! <small> [JDD] </small> </small> </p>
+; <p> <b>uno</b> capite quo revocabor modo res conficiatur ero contentus <br> <small> Cic.Att.3.23.4 <br> ficarei contente com uma única cláusula, aquela pela qual serei chamado de volta, desde que o assunto seja concluído. <small> [JDD] </small> </small> </p>
+; <p> triginta <b>unus</b> fuerunt quos fames magis quam fama commoverit <br> <small> Cic.Att.1.16.5 <br> houve 31 aos quais mais a fome do que a fama influenciou. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>unius</b> autem diei quot et quantae uirtutes di immortales fuerunt <br> <small> Cic.Phil.14.25.8 <br> Por outro lado, quantos e quão grandes virtudes, deuses imortais, houve em um só dia! <small> [JDD] </small> </small> </p>
+; <p> sed omnis <b>una</b> manet nox et calcanda semel uia leti <br> <small> Hor.Carm.1.28.15 <br> Mas uma só noite aguarda a todos e a estrada da morte deve ser pisada uma única vez. <small> [JDD] </small> </small> </p>
+; <p> iste homo non est <b>unus</b> e populo ad salutem spectat <br> <small> Sen.Ep.10.3 <br> esse homem não é mais um do povo, olha para a sua salvação.” <small> [JDD] </small> </small> </p>
+; <p> exercitus hostium duo <b>unus</b> ab urbe alter a Gallia obstant <br> <small> Sal.Cat.58.6 <br> Dois exércitos dos inimigos, um do lado da cidade, o outro do lado da Gália, nos barram a passagem. <small> [JDD] </small> </small> </p>
+; <p> sumptus <b>unius</b> generis obiectus est habitationis triginta milibus dixistis habitare <br> <small> Cic.Cael.17 <br> Gasto de um único tipo lhe foi imputado, o da moradia; dissestes que ele mora por trinta mil. <small> [JDD] </small> </small> </p>
+; <p> omnes magistratus praesentes praeter <b>unum</b> praetorem et duos tribunos plebis dederunt <br> <small> Cic.Att.4.1.6 <br> Todos os magistrados presentes, exceto um pretor e dois tribunos da plebe, me cederam a palavra. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> hi constanter omnes nuntiauerunt manus cogi exercitum in <b>unum</b> locum conduci <br> <small> Caes.Gal.2.2.4 <br> Todos estes anunciaram com firmeza que tropas eram reunidas, que o exército era levado para um único lugar. <small> [JDD] </small> </small> </p>
+; <p> haec est innocentiae defensio haec ipsius causae oratio haec <b>una</b> uox ueritatis <br> <small> Cic.Cael.55 <br> Esta é a defesa da inocência, este é o discurso da própria causa, esta é a única voz da verdade. <small> [JDD] </small> </small> </p>
+; <p> omnes enim iam ciues de rei publicae salute <b>una</b> et mente et uoce consentiunt <br> <small> Cic.Phil.1.21.8 <br> Pois todos os cidadãos, com um único pensamente e uma só voz, já estão de acordo em relação à salvação da república. <small> [JDD] </small> </small> </p>
+; <p> ita trium imperatorum uirtute consilio felicitate <b>uno</b> die locis pluribus res publica est conseruata <br> <small> Cic.Phil.14.28.11 <br> Assim, graças ao valor, decisão boa fortuna dos três generais, num único dia em muitos lugares a república foi salva. <small> [JDD] </small> </small> </p>
+; <p> est boni iudicis paruis ex rebus coniecturam facere <b>unius</b> cuiusque et cupiditatis et continentiae <br> <small> Cic.Ver.2.4.34.1 <br> 34 É próprio de um bom juiz, a partir de pequenas coisas, fazer conjectura tanto da ambição como da moderação de cada um. <small> [JDD] </small> </small> </p>
+; <p> non usque eo est improbus non omnia sunt in <b>uno</b> uitia numquam fuit crudelis <br> <small> Cic.Ver.2.4.86.11 <br> Ele não é malvado até esse ponto; não estão todos os vícios em uma pessoa só; ele nunca foi cruel. <small> [JDD] </small> </small> </p>
+; <p> sunt autem duo crimina auri et ueneni in quibus <b>una</b> atque eadem persona uersatur <br> <small> Cic.Cael.30 <br> E são duas as acusações, a do ouro e a do veneno, nas quais se encontra uma única e mesma personagem. <small> [JDD] </small> </small> </p>
+; <p> non est autem uel ob hoc <b>unum</b> amanda paupertas quod a quibus ameris ostendet <br> <small> Sen.Ep.20.7 <br> Ora, a pobreza não deve ser só por esse motivo amada: porque mostra aqueles pelos quais és amado? <small> [JDD] </small> </small> </p>
+; <p> quis enim <b>unus</b> fortior quis amicior umquam rei publicae fuit quam legio Martia uniuersa <br> <small> Cic.Phil.3.6.2 <br> Pois quem, de modo particular, foi mais valorosa, quem alguma vez foi mais amiga da república do que a legião Márcia toda? <small> [JDD] </small> </small> </p>
+; <p> at Nouius collega gradu post me sedet <b>uno</b> namque est ille pater quod erat meus <br> <small> Hor.S.1.6.40 <br> --- Mas meu colega Nóvio se senta um grau atrás de mim; pois ele é o que era meu pai. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> mea quidem sententia Quirites <b>unus</b> A. Gabinius belli maritimi rerumque gestarum Cn. Pompeio socius ascribitur propterea quod alter <b>uni</b> illud bellum suscipiendum uestris suffragiis detulit alter delatum susceptumque confecit <br> <small> Cic.Man.58 <br> Na verdade, Quirites, em minha opinião, só Aulo Gabínio é associado a Cneu Pompeu como companheiro da guerra marítima e das ações realizadas, porque um, com os vossos votos, confiou a só um assumir aquela guerra, o outro, depois de confiada e assumida, pôs fim a ela. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-110-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 26.06 and an absolute frequency of 69. The Horatius subcorpus follows, with a normalized frequency of 15.98 and an absolute frequency of 18. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 69 ; absolute frequency: 26.0593700430546. subcorpus: Cicero ; normalized frequency: 349 ; absolute frequency: 21.7412972515013. subcorpus: Horatius ; normalized frequency: 18 ; absolute frequency: 15.9843708374034. subcorpus: Ovidius ; normalized frequency: 14 ; absolute frequency: 24.0219629375429. subcorpus: Phaedrus ; normalized frequency: 8 ; absolute frequency: 12.1451343555488. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 108 ; absolute frequency: 20.1563987234281. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 6 ; absolute frequency: 20.5973223480947. subcorpus: Vergilius ; normalized frequency: 10 ; absolute frequency: 19.3050193050193. subcorpus: Hieronymus ; normalized frequency: 7 ; absolute frequency: 15.7268029656257'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-110-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 24.58 and an absolute frequency of 256. The Poesia.trágica subcorpus follows, with a normalized frequency of 19.11 and an absolute frequency of 22. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 15.73 and an absolute freqeuncy of 7. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 77 ; absolute frequency: 18.7443706029845. subcorpus: Prosa.filosófica ; normalized frequency: 110 ; absolute frequency: 18.1216124940281. subcorpus: Prosa.oratória ; normalized frequency: 256 ; absolute frequency: 24.579224794293. subcorpus: Prosa.epistolográfica ; normalized frequency: 69 ; absolute frequency: 18.2834733299769. subcorpus: Poesia.lírica ; normalized frequency: 19 ; absolute frequency: 15.9838479010684. subcorpus: Poesia.didática ; normalized frequency: 21 ; absolute frequency: 17.8132157095598. subcorpus: Poesia.trágica ; normalized frequency: 22 ; absolute frequency: 19.1104933981932. subcorpus: Poesia.épica ; normalized frequency: 10 ; absolute frequency: 19.3050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 7 ; absolute frequency: 15.7268029656257'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-110-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 20.9 and an absolute frequency of 449. The I.a.C. subcorpus follows, with a normalized frequency of 20.9 and an absolute frequency of 449. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 15.71 and an absolute freqeuncy of 6. here are all the values: subcorpus: I.a.C. ; normalized frequency: 449 ; absolute frequency: 20.8983011403305. subcorpus: I.d.C. ; normalized frequency: 129 ; absolute frequency: 19.7338228545204. subcorpus: II.d.C. ; normalized frequency: 6 ; absolute frequency: 15.7068062827225. subcorpus: IV.d.C. ; normalized frequency: 7 ; absolute frequency: 15.7268029656257'}
+
+
+:::
+

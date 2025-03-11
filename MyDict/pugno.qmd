@@ -1,0 +1,210 @@
+---
+title: "pugno"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-117-103-110-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>pugnō</b> <b>-ás</b> <b>-áre</b> <b>-áví, -átum</b> <br> <small>v. intr.</small> <br> <small>Obs.: Constrói-se como intr. absoluto: com abl. com cum: com acus. com in, contra ou adversus: com acus. de obj. interno ou cognato: com dat.: com ut ou ne: ou or. inf.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Bater com os punhos, combater com os punhos &ensp; <small>cf. Plaut. Cas. 412.</small> <br> <b>2</b> &ensp; <small>II-Por extensão</small> &ensp; Combater, travar batalha, pugnar &ensp; <small>Cíc. N at. 2, 6; Sal. B. Jug. 54, 7.</small> <br> <b>3</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Lutar contra, resistir a, opor-se a &ensp; <small>Verg. En. 4. 38.</small> <br> <b>4</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Estar em luta, estar em desacordo &ensp; <small>Cíc. Phil. 2, 18.</small> <br> <b>5</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Lutar por, fazer esforços por obter, esforçar-se &ensp; <small>Cíc. Nat. 1, 75.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Pugno</b> -<b>as</b> -<b>avi</b> -<b>atum</b> -<b>are</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; combater, brigar, contender. <br> <b>2</b> &ensp; disputar, contrariar, teimar. <br> <b>3</b> &ensp; estribar-se, forcejar. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>cum eorum uita mirabiliter pugnat oratio &ensp; <small><small>Cic</small></small> &ensp; <small>O seu fallar he summamente opposto ao seu procedimento</small> <br> pugnare aliquid &ensp; <small><small>Cic</small></small> &ensp; <small>Contender a respeito de alguma cousa</small> <br> pugnare pro aliquo &ensp; <small><small>Cic</small></small> &ensp; <small>Defender alguem</small> <br> pugnare secum &ensp; <small><small>Hor</small></small> &ensp; <small>Contradizer-se</small> <br> pugnaueris &ensp; <small><small>Ter</small></small> &ensp; <small>Farás huma grande cousa</small> </p>
+
+
+
+
+#### Velez
+
+<b>Pugno</b> -<b>as</b>   <p> <b>1</b> &ensp; pelejar, contender </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>hoc pugnas &ensp; <small>isto pertendeis</small> <br> pugnare pugnam, uel praelium &ensp; <small>dar batalha</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Pugno</b> -<b>as</b>   <p> <b>1</b> &ensp; pelejar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/120417 ' target="_blank"> http://lila-erc.eu/data/id/lemma/120417 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> pugno </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> pugnare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> pugnabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> pugnaui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> pugnatum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> pugnaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+pugnō 
+ pugnās 
+ pugnāre 
+ pugnāvī 
+ pugnātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-117-103-110-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-117-103-110-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword pugno here are all the values plotted: collocate: fortiter; scoreSUBST: 0. collocate: locus; scoreSUBST: 2. collocate: que; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-117-103-110-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword pugno here are all the values plotted: collocate: fortiter; scoreADJ: 0. collocate: locus; scoreADJ: 0. collocate: que; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-117-103-110-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword pugno here are all the values plotted: collocate: fortiter; scoreVERBO: 0. collocate: locus; scoreVERBO: 0. collocate: que; scoreVERBO: 0. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-117-103-110-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword pugno here are all the values plotted: collocate: fortiter; scoreADV: 2. collocate: locus; scoreADV: 0. collocate: que; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-117-103-110-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword pugno here are all the values plotted: collocate: fortiter; scoreFUNC: 0. collocate: locus; scoreFUNC: 0. collocate: que; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> acriter in eo loco <b>pugnatum</b> est <br> <small> Caes.Gal.2.10.1 <br> Lutou-se encarniçadamente nesse local. <small> [JDD] </small> </small> </p>
+; <p> acriter utrimque usque ad uesperum <b>pugnatum</b> est <br> <small> Caes.Gal.1.50.3 <br> E de ambos os lados lutou-se encarniçadamente até a tarde. <small> [JDD] </small> </small> </p>
+; <p> ita ancipiti proelio diu atque acriter <b>pugnatum</b> est <br> <small> Caes.Gal.1.26.1 <br> Assim, em dupla batalha, combateu-se por longo tempo e encarniçadamente. <small> [JDD] </small> </small> </p>
+; <p> diu cum esset <b>pugnatum</b> impedimentis castrisque nostri potiti sunt <br> <small> Caes.Gal.1.26.4 <br> Após se ter combatido por muito tempo, os nossos se apoderaram das bagagens e do acampamento. <small> [JDD] </small> </small> </p>
+; <p> interim nostri milites impetum hostium sustinuerunt atque amplius horis quattuor fortissime <b>pugnauerunt</b> et paucis uulneribus acceptis complures ex iis occiderunt <br> <small> Caes.Gal.4.37.3 <br> Entrementes, os nossos soldados aguentaram o ímpeto dos inimigos e lutaram com muita coragem por mais de quatro horas e, recebidos poucos ferimentos, mataram muitos deles. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-117-103-110-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 13.22 and an absolute frequency of 35. The Phaedrus subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 35 ; absolute frequency: 13.218521036332. subcorpus: Cicero ; normalized frequency: 34 ; absolute frequency: 2.11806334255314. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 10 ; absolute frequency: 9.27557740469344. subcorpus: Seneca ; normalized frequency: 9 ; absolute frequency: 1.67969989361901. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-117-103-110-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 10.95 and an absolute frequency of 45. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 3.71 and an absolute frequency of 14. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 45 ; absolute frequency: 10.9545023004455. subcorpus: Prosa.filosófica ; normalized frequency: 11 ; absolute frequency: 1.81216124940281. subcorpus: Prosa.oratória ; normalized frequency: 18 ; absolute frequency: 1.72822674334873. subcorpus: Prosa.epistolográfica ; normalized frequency: 14 ; absolute frequency: 3.70969024086489. subcorpus: Poesia.lírica ; normalized frequency: 5 ; absolute frequency: 4.20627576343905. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-117-103-110-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 3.91 and an absolute frequency of 84. The I.a.C. subcorpus follows, with a normalized frequency of 3.91 and an absolute frequency of 84. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 84 ; absolute frequency: 3.9097044449616. subcorpus: I.d.C. ; normalized frequency: 10 ; absolute frequency: 1.52975370965275. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

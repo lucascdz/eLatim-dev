@@ -1,0 +1,197 @@
+---
+title: "decem"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-101-99-101-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>decem</b> <br> <small>num. card.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Dez &ensp; <small>Cés. B. Gal. 7, 21, 2.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Um grande número &ensp; <small>indefinido Hor. Ep. 1, 18, 25.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Decem</b> <br> <small>adj. indecl.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; dez. </p>
+
+
+
+
+#### Velez
+
+<b>Decem</b> <br> <small>Indeclin.</small>   <p> <b>1</b> &ensp; dez </p>
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/98009 ' target="_blank"> http://lila-erc.eu/data/id/lemma/98009 </a> <br>
+<small> classe: </small> numeral    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> dece, decim <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+dĕcĕm
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-101-99-101-109xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-101-99-101-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword decem here are all the values plotted: collocate: annus; scoreSUBST: 2. collocate: dies; scoreSUBST: 2. collocate: per; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-101-99-101-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword decem here are all the values plotted: collocate: annus; scoreADJ: 0. collocate: dies; scoreADJ: 0. collocate: per; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-101-99-101-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword decem here are all the values plotted: collocate: annus; scoreVERBO: 0. collocate: dies; scoreVERBO: 0. collocate: per; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-101-99-101-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword decem here are all the values plotted: collocate: annus; scoreADV: 0. collocate: dies; scoreADV: 0. collocate: per; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-101-99-101-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword decem here are all the values plotted: collocate: annus; scoreFUNC: 0. collocate: dies; scoreFUNC: 0. collocate: per; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>decem</b> per annos uidua respiciam uirum <br> <small> Sen.Ag.156 <br> Durante dez anos sozinha, vou ter consideração para com meu marido? <small> [JDD] </small> </small> </p>
+; <p> diebus <b>decem</b> quibus materia coepta erat comportari omni opere effecto exercitus traducitur <br> <small> Caes.Gal.4.18.1 <br> Concluída a obra em dez dias, desde aquele em que a madeira tinha começado a ser transportada, o exército é conduzido para o outro lado. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-101-99-101-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 3.02 and an absolute frequency of 8. The Horatius subcorpus follows, with a normalized frequency of 0.89 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Sallustius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 8 ; absolute frequency: 3.0213762368759. subcorpus: Cicero ; normalized frequency: 10 ; absolute frequency: 0.622959806633276. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 7 ; absolute frequency: 1.30643325059256. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-101-99-101-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 2.61 and an absolute frequency of 3. The Prosa.histórica subcorpus follows, with a normalized frequency of 1.95 and an absolute frequency of 8. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 8 ; absolute frequency: 1.94746707563475. subcorpus: Prosa.filosófica ; normalized frequency: 6 ; absolute frequency: 0.988451590583351. subcorpus: Prosa.oratória ; normalized frequency: 6 ; absolute frequency: 0.576075581116242. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-101-99-101-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 1.22 and an absolute frequency of 8. The I.a.C. subcorpus follows, with a normalized frequency of 0.93 and an absolute frequency of 20. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 20 ; absolute frequency: 0.930882010705143. subcorpus: I.d.C. ; normalized frequency: 8 ; absolute frequency: 1.2238029677222. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

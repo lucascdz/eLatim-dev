@@ -1,0 +1,194 @@
+---
+title: "siue2"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-105-117-101-50xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+no data
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Sive</b> <br> <small>conj.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; ou. </p>
+
+
+
+
+#### Velez
+
+<b>Sive</b> <br> <small>Conjunct.</small>   <p> <b>1</b> &ensp; ou </p>
+
+
+
+
+#### Cardoso
+
+<b>Siue</b> <br> <small>coniunctio.</small>   <p> <b>1</b> &ensp; ou </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/124968 ' target="_blank"> http://lila-erc.eu/data/id/lemma/124968 </a> <br>
+<small> classe: </small> conjunção subordinativa    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> seiue, seu <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+sīvĕ
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> uror <b>seu</b> tibi candidos turparunt umeros inmodicae mero rixae <b>siue</b> puer furens inpressit memorem dente labris notam <br> <small> Hor.Carm.1.13.9 <br> Fico em brasa, quer porque rixas imoderadas por causa do vinho te mancharam os brancos ombros, quer porque o garoto enlouquecido imprimiu com o dente em teus lábios uma marca inesquecível. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-105-117-101-50xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 25.75 and an absolute frequency of 29. The Tacitus subcorpus follows, with a normalized frequency of 3.43 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 23 ; absolute frequency: 1.43280755525653. subcorpus: Horatius ; normalized frequency: 29 ; absolute frequency: 25.7525974602611. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 21 ; absolute frequency: 3.91929975177768. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-105-117-101-50xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 24.4 and an absolute frequency of 29. The Poesia.trágica subcorpus follows, with a normalized frequency of 5.21 and an absolute frequency of 6. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 1 ; absolute frequency: 0.243433384454344. subcorpus: Prosa.filosófica ; normalized frequency: 15 ; absolute frequency: 2.47112897645838. subcorpus: Prosa.oratória ; normalized frequency: 23 ; absolute frequency: 2.20828972761226. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 29 ; absolute frequency: 24.3963994279465. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 6 ; absolute frequency: 5.21195274496178. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-105-117-101-50xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 3.21 and an absolute frequency of 21. The I.d.C. subcorpus follows, with a normalized frequency of 3.21 and an absolute frequency of 21. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 56 ; absolute frequency: 2.6064696299744. subcorpus: I.d.C. ; normalized frequency: 21 ; absolute frequency: 3.21248279027077. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

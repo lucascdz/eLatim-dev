@@ -1,0 +1,209 @@
+---
+title: "impero"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-109-112-101-114-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>impĕrō</b> <b>-ás</b> <b>-áre</b> <b>-áví, -átum</b> <br> <small>v. tr. e intr.</small> <br> <small>Obs.: Constrói-se com acus., às vezes acompanhado de dat.; com ut, ne ou simples subj.: com dat.; ou intr. absoluto. A forma arcaica imperassit = imperaverit  ainda ocorre em Cícero Leg. 3, 6.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio-Tr.</small> &ensp; Comandar. mandar. ordenar. requisitar, exigir &ensp; <small>Cés. B. Gal. 5. I. 6; Cíc. Flac. 33.</small> <br> <b>2</b> &ensp; <small>I-Sent. próprio-Intr. com dat.</small> &ensp; Comandar &ensp; <small>Cíc. Pomp. 56.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Dominar, ser senhor &ensp; <small>Cíc. Lae. 82; Cíc: Tose. 2. 47.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:-Absolt.:</small> &ensp; Comandar. ter o comando. o domínio &ensp; <small>Cíc. Arch. 21.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Impero</b> -<b>as</b> -<b>avi</b> -<b>atum</b> -<b>are</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; imperar, mandar, governar, commandar, senhorear, reinar. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>imperare aruis &ensp; <small><small>Virg</small></small> &ensp; <small>Cultivar com cuidado os campos</small> <br> imperare dolori &ensp; <small><small>Plin. Jun</small></small> &ensp; <small>Soffrer com paciencia a sua magoa</small> <br> imperare pecuniam &ensp; <small><small>Cic</small></small> &ensp; <small>Impôr tributo</small> <br> imperare tributum &ensp; <small><small>Plaut</small></small> &ensp; <small>Impôr tributo</small> </p>
+
+
+
+
+#### Velez
+
+<b>Impero</b> -<b>as</b>   <p> <b>1</b> &ensp; mandar com authoridade </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>imperare populo tributum, arma, pecuniam &ensp; <small>pôr tributo, obrigar a dar armas, etc</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Impero</b> -<b>as</b>   <p> <b>1</b> &ensp; mandar. ou senhorear </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/106539 ' target="_blank"> http://lila-erc.eu/data/id/lemma/106539 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small> indupero, inpero <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> impero, indupero, inpero </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> imperare, induperare, inperare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> imperabit, induperabit, inperabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> imperaui, induperaui, inperaui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> imperatum, induperatum, inperatum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> imperaturum, induperaturum, inperaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+impĕrō 
+ impĕrās 
+ impĕrāre 
+ impĕrāvī 
+ impĕrātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx105-109-112-101-114-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-109-112-101-114-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword impero here are all the values plotted: collocate: obses; scoreSUBST: 2. collocate: uolo; scoreSUBST: 0. collocate: ut; scoreSUBST: 0. collocate: que; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-109-112-101-114-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword impero here are all the values plotted: collocate: obses; scoreADJ: 0. collocate: uolo; scoreADJ: 0. collocate: ut; scoreADJ: 0. collocate: que; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-109-112-101-114-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword impero here are all the values plotted: collocate: obses; scoreVERBO: 0. collocate: uolo; scoreVERBO: 2. collocate: ut; scoreVERBO: 0. collocate: que; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-109-112-101-114-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword impero here are all the values plotted: collocate: obses; scoreADV: 0. collocate: uolo; scoreADV: 0. collocate: ut; scoreADV: 0. collocate: que; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-109-112-101-114-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword impero here are all the values plotted: collocate: obses; scoreFUNC: 0. collocate: uolo; scoreFUNC: 0. collocate: ut; scoreFUNC: 20. collocate: que; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Basilus ut <b>imperatum</b> est facit <br> <small> Caes.Gal.6.30.1 <br> Basilo faz com lhe foi ordenado. <small> [JDD] </small> </small> </p>
+; <p> peragit concilium Caesar equitesque <b>imperat</b> ciuitatibus <br> <small> Caes.Gal.6.4.6 <br> César encerra a assembléia e requisita cavaleiros às cidades. <small> [JDD] </small> </small> </p>
+; <p> obsidibus <b>imperatis</b> centum hos Haeduis custodiendos tradit <br> <small> Caes.Gal.6.4.4 <br> Exigidos cem reféns, entrega-os aos Éduos para ficarem sob custódia. <small> [JDD] </small> </small> </p>
+; <p> habere uidetur ista res iniquitatem si <b>imperare</b> uelis difficultatem si rogare <br> <small> Cic.Catil.4.7.17 <br> Essa decisão parece ter uma iniquidade, se queres ordenar, uma dificuldade, se queres pedir. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-109-112-101-114-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 10.57 and an absolute frequency of 28. The Suetonius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 28 ; absolute frequency: 10.5748168290656. subcorpus: Cicero ; normalized frequency: 34 ; absolute frequency: 2.11806334255314. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 11 ; absolute frequency: 2.05296653664545. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-109-112-101-114-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 8.28 and an absolute frequency of 34. The Prosa.filosófica subcorpus follows, with a normalized frequency of 1.98 and an absolute frequency of 12. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 34 ; absolute frequency: 8.2767350714477. subcorpus: Prosa.filosófica ; normalized frequency: 12 ; absolute frequency: 1.9769031811667. subcorpus: Prosa.oratória ; normalized frequency: 25 ; absolute frequency: 2.40031492131768. subcorpus: Prosa.epistolográfica ; normalized frequency: 6 ; absolute frequency: 1.58986724608495. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-109-112-101-114-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 7.85 and an absolute frequency of 3. The I.a.C. subcorpus follows, with a normalized frequency of 3.03 and an absolute frequency of 65. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 1.84 and an absolute freqeuncy of 12. here are all the values: subcorpus: I.a.C. ; normalized frequency: 65 ; absolute frequency: 3.02536653479172. subcorpus: I.d.C. ; normalized frequency: 12 ; absolute frequency: 1.83570445158329. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

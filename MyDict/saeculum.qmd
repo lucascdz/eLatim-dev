@@ -1,0 +1,200 @@
+---
+title: "saeculum"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-97-101-99-117-108-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>saeclum</b> <br> <small></small> <br> <small>v. saecùlum.</small> 
+ <b>saecŭlum</b> <b>-í</b> <br> <b>saeclum</b> <b>-í</b> <br> <small>ou</small> <b>sēcŭlum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Geração, gerações &ensp; <small>geralmente no pl. Lucr. 1, 21.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Duração de uma geração, século, espaço de cem anos &ensp; <small>Hor. O. 4. 6. 42.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Longo período de duração indeterminada, longa duração &ensp; <small>Cíc. Rep. 2. 20.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; O século, o tempo em que se vive, tempo, idade, época &ensp; <small>Cíc. Div. 1, 36.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Espírito do século, costumes &ensp; <small>Tác. Germ. 19.</small> </p> 
+ <b>sēclum</b> <br> <small></small> <br> <small>v. saecùlum.</small> 
+ <b>sēcŭlum</b> <br> <small></small> <br> <small>v. saec-.</small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Saeculum</b> <br> <small>v. Seculum.</small> 
+ <b>Seclum</b> <br> <small>v. Seculum.</small> 
+ <b>Seculum</b> -<b>i</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; seculo, espaço de cem annos. <br> <b>2</b> &ensp; tempo, idade. <br> <b>3</b> &ensp; <small>Virg.</small> &ensp; gente, homens que viveraõ em algum seculo. <br> <b>4</b> &ensp; <small>Lucr.</small> &ensp; geraçaõ, descendencia. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Seculum</b> <b>i</b> <br> <small>rectius scribitur sine diphtõgo.</small>   <p> <b>1</b> &ensp; espaço de cem annos </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/123105 ' target="_blank"> http://lila-erc.eu/data/id/lemma/123105 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> saeclom, saeclum, saeculom, seclom, seclum, seculom, seculum <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+saecŭlum 
+ saecŭlī
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> idem est autem omni <b>saeculo</b> quod sat est <br> <small> Sen.Ep.17.10 <br> porém o que basta é o mesmo em qualquer época. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-97-101-99-117-108-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 6.87 and an absolute frequency of 2. The Tacitus subcorpus follows, with a normalized frequency of 6.87 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 11 ; absolute frequency: 0.685255787296604. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 11 ; absolute frequency: 2.05296653664545. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-97-101-99-117-108-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 5.79 and an absolute frequency of 3. The Poesia.épica subcorpus follows, with a normalized frequency of 5.79 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 2 ; absolute frequency: 0.486866768908688. subcorpus: Prosa.filosófica ; normalized frequency: 13 ; absolute frequency: 2.14164511293059. subcorpus: Prosa.oratória ; normalized frequency: 7 ; absolute frequency: 0.672088177968949. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-97-101-99-117-108-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The II.d.C. subcorpus follows, with a normalized frequency of 5.24 and an absolute frequency of 2. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 0.74 and an absolute freqeuncy of 16. here are all the values: subcorpus: I.a.C. ; normalized frequency: 16 ; absolute frequency: 0.744705608564114. subcorpus: I.d.C. ; normalized frequency: 11 ; absolute frequency: 1.68272908061802. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

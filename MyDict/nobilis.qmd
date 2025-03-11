@@ -1,0 +1,201 @@
+---
+title: "nobilis"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-111-98-105-108-105-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>nōbĭlis</b> <b>-e</b> <br> <small>adj.</small> <br> <small>Obs.: O sent. primitivo é: “que se pode conhecer, fácil de se conhecer” Plaut. PS. 1.112.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Conhecido, bem conhecido, célebre, famoso, ilustre &ensp; <small>Cíc. Rep. 1, 3.</small> <br> <b>2</b> &ensp; <small>II-Sent. particular</small> &ensp; De boa origem, de boa ascendência, de origem nobre, nobre &ensp; <small>Cíc. Cael. 31.</small> <br> <b>3</b> &ensp; <small>II-Como subs.:</small> &ensp; Um nobre &ensp; <small>Plín. Ep. 5, 17, 5.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<small>m. f</small> <b>Nobilis</b> <small>n</small> -<b>le</b> -<b>is</b> <small>Ovid</small> -<b>ior</b> <small>Cic</small> -<b>issimus</b>   <p> <b>1</b> &ensp; <small>Virg.</small> &ensp; conhecido. <br> <b>2</b> &ensp; <small>Cic.</small> &ensp; nobre, illustre. <br> <b>3</b> &ensp; famigerado, insigne, excellente no bem, ou no mal. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Nobilis</b> -<b>e</b>   <p> <b>1</b> &ensp; cousa nobre. ou notauel </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/113751 ' target="_blank"> http://lila-erc.eu/data/id/lemma/113751 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 2ª classe (tema em -i-) <br>
+<small> outras grafias: </small> gnobilis <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+nōbĭlis 
+ nōbĭle
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-111-98-105-108-105-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword nobilis here are all the values plotted: collocate: mulier; scoreSUBST: 2. collocate: adolescens; scoreSUBST: 0. collocate: homo; scoreSUBST: 3. collocate: domus2; scoreSUBST: 2. collocate: ciuitas; scoreSUBST: 2. collocate: tam; scoreSUBST: 0. collocate: atque; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-111-98-105-108-105-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword nobilis here are all the values plotted: collocate: mulier; scoreADJ: 0. collocate: adolescens; scoreADJ: 2. collocate: homo; scoreADJ: 0. collocate: domus2; scoreADJ: 0. collocate: ciuitas; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-111-98-105-108-105-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword nobilis here are all the values plotted: collocate: mulier; scoreVERBO: 0. collocate: adolescens; scoreVERBO: 0. collocate: homo; scoreVERBO: 0. collocate: domus2; scoreVERBO: 0. collocate: ciuitas; scoreVERBO: 0. collocate: tam; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-111-98-105-108-105-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword nobilis here are all the values plotted: collocate: mulier; scoreADV: 0. collocate: adolescens; scoreADV: 0. collocate: homo; scoreADV: 0. collocate: domus2; scoreADV: 0. collocate: ciuitas; scoreADV: 0. collocate: tam; scoreADV: 2. collocate: atque; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-111-98-105-108-105-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword nobilis here are all the values plotted: collocate: mulier; scoreFUNC: 0. collocate: adolescens; scoreFUNC: 0. collocate: homo; scoreFUNC: 0. collocate: domus2; scoreFUNC: 0. collocate: ciuitas; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> nil <b>nobile</b> ausos pontus atque undae ferunt <br> <small> Sen.Ag.517 <br> “O mar e as ondas nos levarão sem termos ousado nada nobre? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> studia te tua clarum et <b>nobilem</b> efficient <br> <small> Sen.Ep.21.2 <br> Teus estudos te tornarão ilustre e conhecido. <small> [JDD] </small> </small> </p>
+; <p> nuper homines <b>nobilis</b> eius modi iudices sed quid dico nuper <br> <small> Cic.Ver.2.4.6.6 <br> Recentemente, juízes, (mas por que digo “recentemente”? -  <small> [JDD] </small> </small> </p>
+; <p> postridie sacerdotes Cereris atque illius fani antistitae maiores natu probatae ac <b>nobiles</b> mulieres rem ad magistratus suos deferunt <br> <small> Cic.Ver.2.4.99.11 <br> No dia seguinte, as sacerdotisas de Ceres e as superioras daquele templo, mulheres mais velhas, virtuosas e nobres, levam o caso aos seus magistrados. <small> [JDD] </small> </small> </p>
+; <p> iam primum adulescens Catilina multa nefanda stupra fecerat cum uirgine <b>nobili</b> cum sacerdote Uestae alia huiuscemodi contra ius fas que <br> <small> Sal.Cat.15.1 <br> Já antes, Catilina, quando jovem, tinha cometido abomináveis abusos sexuais com uma virgem nobre, com uma sacerdotisa de Vesta, e outros delitos desse tipo contrários ao direito e à lei divina. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> hanc uirtutem Agrigentinorum imitati sunt Assorini postea uiri fortes et fideles sed nequaquam ex tam ampla neque tam ex <b>nobili</b> ciuitate <br> <small> Cic.Ver.2.4.96.1 <br> 96 Essa coragem dos agrigentinos, a imitaram posteriormente os assorinos, homens valorosos e leais, mas de uma cidade de modo algum tão importante nem tão conhecida. <small> [JDD] </small> </small> </p>
+; <p> is Lilybaei multos iam annos habitat homo et domi <b>nobilis</b> et apud eos quo se contulit propter uirtutem splendidus et gratiosus <br> <small> Cic.Ver.2.4.38.7 <br> Ele mora já há muitos anos em Lilibeu; homem nobre em sua pátria e brilhante e influente por causa de sua virtude junto àqueles para onde se mudou. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-111-98-105-108-105-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 9.28 and an absolute frequency of 10. The Horatius subcorpus follows, with a normalized frequency of 5.33 and an absolute frequency of 6. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 7 ; absolute frequency: 2.64370420726641. subcorpus: Cicero ; normalized frequency: 51 ; absolute frequency: 3.17709501382971. subcorpus: Horatius ; normalized frequency: 6 ; absolute frequency: 5.32812361246781. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 10 ; absolute frequency: 9.27557740469344. subcorpus: Seneca ; normalized frequency: 12 ; absolute frequency: 2.23959985815868. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-111-98-105-108-105-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 5.21 and an absolute frequency of 6. The Poesia.lírica subcorpus follows, with a normalized frequency of 5.05 and an absolute frequency of 6. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 18 ; absolute frequency: 4.38180092017819. subcorpus: Prosa.filosófica ; normalized frequency: 7 ; absolute frequency: 1.15319352234724. subcorpus: Prosa.oratória ; normalized frequency: 47 ; absolute frequency: 4.51259205207723. subcorpus: Prosa.epistolográfica ; normalized frequency: 3 ; absolute frequency: 0.794933623042476. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 6 ; absolute frequency: 5.21195274496178. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-111-98-105-108-105-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 3.44 and an absolute frequency of 74. The I.d.C. subcorpus follows, with a normalized frequency of 2.29 and an absolute frequency of 15. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 74 ; absolute frequency: 3.44426343960903. subcorpus: I.d.C. ; normalized frequency: 15 ; absolute frequency: 2.29463056447912. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

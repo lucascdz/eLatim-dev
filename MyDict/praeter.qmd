@@ -1,0 +1,203 @@
+---
+title: "praeter"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-114-97-101-116-101-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>2.</small> <b>praeter</b> <br> <small>prep. acus.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Diante de, ao longo de: &ensp; <small></small> <br> <b>2</b> &ensp; <small></small> &ensp; Além de, contra, em oposição a: &ensp; <small></small> <br> <b>3</b> &ensp; <small></small> &ensp; Mais que, acima de: &ensp; <small></small> <br> <b>4</b> &ensp; <small></small> &ensp; Exceto, com exceção de, sem contar: &ensp; <small></small> <br> <b>5</b> &ensp; <small></small> &ensp; Além de, independente de: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>praeter castra Caesaris suas copias traduxit Cés. B. Gal. 1, 48, 2 ‘ele fez passar suas tropas ao longo do acampamento de César’. <br> <br><b>2</b><br>praeter spem Cíc. Verr. 5, 91 «contra toda esperança». <br> <br><b>3</b><br>praeter alios Cíc. Sull. 9 «mais que aos outros». <br> <br><b>4</b><br>omnibus sententiis praeter unam Cíc. Clu. 55 ‘por todos os sufrágios exceto um’. <br> <br><b>5</b><br>praeter pecunias imperatas Cés. B. Civ. 3, 32, 4 «além das somas impostas». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Praeter</b> <br> <small>prep. de accus.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; fóra, além, excepto, contra, diante, á vista, em presença, sobre. </p>
+
+
+
+
+#### Velez
+
+<b>Praeter</b> <br> <small>Praep.</small>   <p> <b>1</b> &ensp; tirando, além, fora, contra, ou sobre; <br> <b>2</b> &ensp; <small>interdum pro Ante</small> &ensp; diante </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>praeter oculos <br> praeter ora </p>
+
+
+
+
+#### Cardoso
+
+<b>Praeter</b> <br> <small>praepositio accusatiui.</small>   <p> <b>1</b> &ensp; tirando. ou junto </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/119286 ' target="_blank"> http://lila-erc.eu/data/id/lemma/119286 </a> <br>
+<small> classe: </small> preposição    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+praetĕr
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-114-97-101-116-101-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword praeter here are all the values plotted: collocate: opinio; scoreSUBST: 2. collocate: consuetudo; scoreSUBST: 2. collocate: ceterus; scoreSUBST: 0. collocate: nemo; scoreSUBST: 0. collocate: spes; scoreSUBST: 2. collocate: unus; scoreSUBST: 0. collocate: nihil; scoreSUBST: 0. collocate: alius; scoreSUBST: 0. collocate: omnis; scoreSUBST: 0. collocate: is; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-114-97-101-116-101-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword praeter here are all the values plotted: collocate: opinio; scoreADJ: 0. collocate: consuetudo; scoreADJ: 0. collocate: ceterus; scoreADJ: 0. collocate: nemo; scoreADJ: 0. collocate: spes; scoreADJ: 0. collocate: unus; scoreADJ: 0. collocate: nihil; scoreADJ: 0. collocate: alius; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: is; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-114-97-101-116-101-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword praeter here are all the values plotted: collocate: opinio; scoreVERBO: 0. collocate: consuetudo; scoreVERBO: 0. collocate: ceterus; scoreVERBO: 0. collocate: nemo; scoreVERBO: 0. collocate: spes; scoreVERBO: 0. collocate: unus; scoreVERBO: 0. collocate: nihil; scoreVERBO: 0. collocate: alius; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0. collocate: is; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-114-97-101-116-101-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword praeter here are all the values plotted: collocate: opinio; scoreADV: 0. collocate: consuetudo; scoreADV: 0. collocate: ceterus; scoreADV: 0. collocate: nemo; scoreADV: 0. collocate: spes; scoreADV: 0. collocate: unus; scoreADV: 0. collocate: nihil; scoreADV: 0. collocate: alius; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: is; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-114-97-101-116-101-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword praeter here are all the values plotted: collocate: opinio; scoreFUNC: 0. collocate: consuetudo; scoreFUNC: 0. collocate: ceterus; scoreFUNC: 0. collocate: nemo; scoreFUNC: 0. collocate: spes; scoreFUNC: 0. collocate: unus; scoreFUNC: 0. collocate: nihil; scoreFUNC: 0. collocate: alius; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0. collocate: is; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>praeter</b> eum accepit nemo <br> <small> Cic.Att.5.21.5 <br> fora ele, ninguém recebeu. <small> [JDD] </small> </small> </p>
+; <p> nihil <b>praeter</b> cibum natura desiderat <br> <small> Sen.Ep.119.13 <br> A natureza não deseja nada além da comida. <small> [JDD] </small> </small> </p>
+; <p> obstabat eius cogitationibus nemo <b>praeter</b> Milonem <br> <small> Cic.Mil.88 <br> Ninguém fazia obstáculo às suas cogitações, exceto Milão. <small> [JDD] </small> </small> </p>
+; <p> quae est igitur alia <b>praeter</b> mortem <br> <small> Cic.Lig.13 <br> Que outro há, portanto, além da morte? <small> [JDD] </small> </small> </p>
+; <p> omnes iam nostri <b>praeter</b> Tullium tuum venerunt <br> <small> Cic.Att.5.14.2 <br> Todos os nossos já chegaram, exceto o teu Túlio. <small> [JDD] </small> </small> </p>
+; <p> <b>praeter</b> sapientem autem nemo unum agit ceteri multiformes sumus <br> <small> Sen.Ep.120.22 <br> Ora, com exceção do sábio, ninguém age como um único, todos os demais somos multiformes. <small> [JDD] </small> </small> </p>
+; <p> equidem inuitus sed iniuriae dolor facit me <b>praeter</b> consuetudinem gloriosum <br> <small> Cic.Phil.14.13.7 <br> Realmente contra a minha vontade, mas a dor da ofensa me faz vanglorioso além do costume. <small> [JDD] </small> </small> </p>
+; <p> omnes magistratus praesentes <b>praeter</b> unum praetorem et duos tribunos plebis dederunt <br> <small> Cic.Att.4.1.6 <br> Todos os magistrados presentes, exceto um pretor e dois tribunos da plebe, me cederam a palavra. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nam cum id posset infitiari repente <b>praeter</b> opinionem omnium confessus est <br> <small> Cic.Catil.3.11.11 <br> Pois, embora pudesse negar aquilo, de repente, contra a opinião de todos, confessou. <small> [JDD] </small> </small> </p>
+; <p> militum pars horum uirtute submotis hostibus <b>praeter</b> spem incolumis in castra peruenit pars a barbaris circumuenta periit <br> <small> Caes.Gal.6.40.8 <br> Parte dos soldados, uma vez repelidos os inimigos pelo valor daqueles, chegou, contra sua esperança, no acampamento sã e salva, parte, cercada pelos bárbaros, pereceu. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-114-97-101-116-101-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 11.03 and an absolute frequency of 1. The Horatius subcorpus follows, with a normalized frequency of 6.22 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 11 ; absolute frequency: 4.15439232570436. subcorpus: Cicero ; normalized frequency: 70 ; absolute frequency: 4.36071864643293. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 13 ; absolute frequency: 2.4262331796719. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-114-97-101-116-101-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 8.21 and an absolute frequency of 31. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 8.21 and an absolute frequency of 31. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 17 ; absolute frequency: 4.13836753572385. subcorpus: Prosa.filosófica ; normalized frequency: 14 ; absolute frequency: 2.30638704469449. subcorpus: Prosa.oratória ; normalized frequency: 37 ; absolute frequency: 3.55246608355016. subcorpus: Prosa.epistolográfica ; normalized frequency: 31 ; absolute frequency: 8.21431410477225. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-114-97-101-116-101-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The I.a.C. subcorpus follows, with a normalized frequency of 4.28 and an absolute frequency of 92. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 92 ; absolute frequency: 4.28205724924366. subcorpus: I.d.C. ; normalized frequency: 14 ; absolute frequency: 2.14165519351384. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

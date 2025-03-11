@@ -1,0 +1,222 @@
+---
+title: "nosco"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-111-115-99-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>nōscō</b> <b>-is</b> <b>-ère</b> <b>nóví, nótum</b> <br> <small>v. incoat. tr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Série do infectum:</small> &ensp; Tomar conhecimento, começar a conhecer, aprender a conhecer: &ensp; <small></small> <br> <b>2</b> &ensp; <small>II-Série do perfectum:</small> &ensp; Conhecer, saber: &ensp; <small></small> <br> <b>3</b> &ensp; <small>II-Série do perfectum:-Na língua familiar:</small> &ensp; Reconhecer, admitir, conceber &ensp; <small>Cíc. Fam. 4. 4, 1.</small> <br> <b>4</b> &ensp; <small>II-Série do perfectum:-Na língua familiar:</small> &ensp; Examinar, estudar, considerar &ensp; <small>Plaut. Ps. 986.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>nosce te, nosce animum tuum Cíc. Tusc. 1. 52 “aprende a te conhecer, a conhecer teus sentimentos”. <br> <br><b>2</b><br>…linguam Cíc. De Or. 2, 2. “conhecer saber uma língua”. </p> 
+ <b>nōsse</b> <br> <small>= novísse, forma sincopada do inf. perf. de nosco.</small> <br> <small></small> 
+ <b>nōstī</b> <br> <small>= nóvístí, perf. de nosco.</small> <br> <small></small> 
+ <b>nōvī</b> <br> <small>perf. de nósco.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Norim</b> <b>noris</b> <b>norit</b> <br> <small>por Noverim, is, it, & c.</small> 
+ <b>Nosco</b> -<b>is</b> <b>novi</b> <b>notum</b> -<b>scere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; conhecer, saber. </p> 
+ <small>por Novisse</small> <b>Nosse</b> 
+ <small>por Novisti</small> <b>Nosti</b>
+
+
+
+
+#### Velez
+
+<b>Nosco</b> -<b>is</b>   <p> <b>1</b> &ensp; conhecer &ensp; <small>Activ.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Nosco</b> <b>is</b> <b>noui</b> <b>notum</b>   <p> <b>1</b> &ensp; conhecer </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/113840 ' target="_blank"> http://lila-erc.eu/data/id/lemma/113840 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small> gnosco <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> gnosco, nosco </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> gnoscere, noscere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> gnoscet, noscet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> noui, noi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> notum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> noturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+nōmus 
+ nōram 
+ nōrim 
+ noscō 
+ noscĕre 
+ nōvī 
+ nōtum 
+ nostī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx110-111-115-99-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-111-115-99-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword nosco here are all the values plotted: collocate: bene; scoreSUBST: 0. collocate: bonum; scoreSUBST: 2. collocate: nisi; scoreSUBST: 0. collocate: enim; scoreSUBST: 0. collocate: iam; scoreSUBST: 0. collocate: non; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-111-115-99-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword nosco here are all the values plotted: collocate: bene; scoreADJ: 0. collocate: bonum; scoreADJ: 0. collocate: nisi; scoreADJ: 0. collocate: enim; scoreADJ: 0. collocate: iam; scoreADJ: 0. collocate: non; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-111-115-99-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword nosco here are all the values plotted: collocate: bene; scoreVERBO: 0. collocate: bonum; scoreVERBO: 0. collocate: nisi; scoreVERBO: 0. collocate: enim; scoreVERBO: 0. collocate: iam; scoreVERBO: 0. collocate: non; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-111-115-99-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword nosco here are all the values plotted: collocate: bene; scoreADV: 2. collocate: bonum; scoreADV: 0. collocate: nisi; scoreADV: 0. collocate: enim; scoreADV: 2. collocate: iam; scoreADV: 2. collocate: non; scoreADV: 1'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-111-115-99-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword nosco here are all the values plotted: collocate: bene; scoreFUNC: 0. collocate: bonum; scoreFUNC: 0. collocate: nisi; scoreFUNC: 20. collocate: enim; scoreFUNC: 0. collocate: iam; scoreFUNC: 0. collocate: non; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>nosti</b> optime homines <br> <small> Cic.Lig.32 <br> conheces muito bem esses homens -. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Matinium non <b>novi</b> <br> <small> Cic.Att.5.21.10 <br> Matínio eu não conheço. <small> [JDD] </small> </small> </p>
+; <p> ceteros iam <b>nosti</b> <br> <small> Cic.Att.1.18.6 <br> Os outros já conheces. <small> [JDD] </small> </small> </p>
+; <p> <b>nosti</b> enim Marianas <br> <small> Cic.Att.1.16.10 <br> (Pois conheces as de Mário) <small> [JDD] </small> </small> </p>
+; <p> delicta <b>nouit</b> nemo nisi fidus mea <br> <small> Sen.Ag.284 <br> Meus delitos ninguém conhece a não ser alguém fiel. <small> [JDD] </small> </small> </p>
+; <p> <b>nosti</b> iam in hac materia sonitus nostros <br> <small> Cic.Att.1.14.4 <br> Já conheces meu tom nesta matéria. <small> [JDD] </small> </small> </p>
+; <p> missos enim legatos omnes uident decreti nostri non omnes uerba <b>nouerunt</b> <br> <small> Cic.Phil.7.14.10 <br> Pois todos vêem que foram enviados legados, nem todos conhecem as palavras do nosso decreto. <small> [JDD] </small> </small> </p>
+; <p> cum hoc dicis non uideris uim ac potentiam eius de quo cogitas boni <b>nosse</b> <br> <small> Sen.Ep.17.2 <br> Quando dizes isto, não pareces conhecer a força e o poder desse bem no qual pensas. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-111-115-99-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 13.66 and an absolute frequency of 9. The Sallustius subcorpus follows, with a normalized frequency of 2.78 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 5 ; absolute frequency: 1.88836014804744. subcorpus: Cicero ; normalized frequency: 71 ; absolute frequency: 4.42301462709626. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 9 ; absolute frequency: 13.6632761499924. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 35 ; absolute frequency: 6.5321662529628. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-111-115-99-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 9.56 and an absolute frequency of 11. The Poesia.didática subcorpus follows, with a normalized frequency of 9.33 and an absolute frequency of 11. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 9 ; absolute frequency: 2.1909004600891. subcorpus: Prosa.filosófica ; normalized frequency: 34 ; absolute frequency: 5.60122567997232. subcorpus: Prosa.oratória ; normalized frequency: 31 ; absolute frequency: 2.97639050243392. subcorpus: Prosa.epistolográfica ; normalized frequency: 30 ; absolute frequency: 7.94933623042476. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 11 ; absolute frequency: 9.33073203834083. subcorpus: Poesia.trágica ; normalized frequency: 11 ; absolute frequency: 9.55524669909659. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-111-115-99-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 7.04 and an absolute frequency of 46. The I.a.C. subcorpus follows, with a normalized frequency of 4.05 and an absolute frequency of 87. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 87 ; absolute frequency: 4.04933674656737. subcorpus: I.d.C. ; normalized frequency: 46 ; absolute frequency: 7.03686706440263. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

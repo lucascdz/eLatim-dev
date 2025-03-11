@@ -1,0 +1,194 @@
+---
+title: "quattuor"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx113-117-97-116-116-117-111-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>quattŭor</b> <br> <small>num. card.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Quatro &ensp; <small>Verg. G. 1, 258.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Quatuor</b> <br> <small>adj. indecl.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; quatro. </p>
+
+
+
+
+#### Velez
+
+<b>Quatuor</b>   <p> <b>1</b> &ensp; quatro </p>
+
+
+
+
+#### Cardoso
+
+<b>Quatuor</b> <br> <small>in plurali.</small>   <p> <b>1</b> &ensp; quatro em numero </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/121130 ' target="_blank"> http://lila-erc.eu/data/id/lemma/121130 </a> <br>
+<small> classe: </small> numeral    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> quator, quatuor <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+quattŭŏr
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> occisis ad hominum milibus <b>quattuor</b> reliqui in oppidum reiecti sunt <br> <small> Caes.Gal.2.33.5 <br> Mortos uns quatro mil homens, os restantes foram rechaçados para a cidadela. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx113-117-97-116-116-117-111-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 6.87 and an absolute frequency of 2. The Caesar subcorpus follows, with a normalized frequency of 4.53 and an absolute frequency of 12. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 12 ; absolute frequency: 4.53206435531385. subcorpus: Cicero ; normalized frequency: 12 ; absolute frequency: 0.747551767959931. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 2 ; absolute frequency: 0.373266643026446. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx113-117-97-116-116-117-111-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 4.49 and an absolute frequency of 2. The Prosa.histórica subcorpus follows, with a normalized frequency of 3.41 and an absolute frequency of 14. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 14 ; absolute frequency: 3.40806738236082. subcorpus: Prosa.filosófica ; normalized frequency: 5 ; absolute frequency: 0.823709658819459. subcorpus: Prosa.oratória ; normalized frequency: 6 ; absolute frequency: 0.576075581116242. subcorpus: Prosa.epistolográfica ; normalized frequency: 3 ; absolute frequency: 0.794933623042476. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx113-117-97-116-116-117-111-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The II.d.C. subcorpus follows, with a normalized frequency of 5.24 and an absolute frequency of 2. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 0.31 and an absolute freqeuncy of 2. here are all the values: subcorpus: I.a.C. ; normalized frequency: 26 ; absolute frequency: 1.21014661391669. subcorpus: I.d.C. ; normalized frequency: 2 ; absolute frequency: 0.305950741930549. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

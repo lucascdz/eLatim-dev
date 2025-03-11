@@ -1,0 +1,200 @@
+---
+title: "pecus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-101-99-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>pecŏra</b> <br> <small>n. pl. de pecus 1.</small> <br> <small></small> 
+ <b>pecŏris</b> <br> <small>gen. de pecus 1.</small> <br> <small></small> 
+ <small>1.</small> <b>pecus</b> <b>-òris</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Rebanho, gado, grande número de animais da mesma espécie &ensp; <small>Ov. Met. 14. 288.</small> <br> <b>2</b> &ensp; <small>II-Daí, em sent. particular</small> &ensp; Gado lanígero, ovelhas, carneiros, cabras &ensp; <small>Verg. G. 3, 554.</small> <br> <b>3</b> &ensp; <small>II-Daí, em sent. particular</small> &ensp; Bando &ensp; <small>tratando-se de focas Hor. O. 1, 2, 7.</small> <br> <b>4</b> &ensp; <small>II-Daí, em sent. particular</small> &ensp; Referindo-se a um só animal . &ensp; <small>Ov. Ib. 459.</small> <br> <b>5</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Bando de homens, cortejo &ensp; <small>Hor. Ep. 1, 19, 19.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Pecus</b> -<b>oris</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; gado, toda a sorte de animal. <br> <b>2</b> &ensp; <small>Plin.</small> &ensp; ovelha. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>pecus aquatile &ensp; <small><small>Col</small></small> &ensp; <small>Peixes</small> <br> pecus crapigenum &ensp; <small><small>Virg</small></small> &ensp; <small>Rebanho de cabras</small> <br> pecus uolatile &ensp; <small><small>Col</small></small> &ensp; <small>Aves, passaros</small> </p>
+
+
+
+
+#### Velez
+
+<b>Pecus</b> -<b>oris</b> <br> <small>neutr.</small>   <p> <b>1</b> &ensp; gado, ou qualquer animal, que pasta, como cavallo, ovelhas, etc </p>
+
+
+
+
+#### Cardoso
+
+<b>Pecus</b> <b>oris</b>   <p> <b>1</b> &ensp; ho fato. ou manada de gado meudo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/116374 ' target="_blank"> http://lila-erc.eu/data/id/lemma/116374 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+pĕcŭs 
+ pĕcŏris 
+ pĕcŭdis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-101-99-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-101-99-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword pecus here are all the values plotted: collocate: magnus; scoreSUBST: 0. collocate: atque; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-101-99-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword pecus here are all the values plotted: collocate: magnus; scoreADJ: 2. collocate: atque; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-101-99-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword pecus here are all the values plotted: collocate: magnus; scoreVERBO: 0. collocate: atque; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-101-99-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword pecus here are all the values plotted: collocate: magnus; scoreADV: 0. collocate: atque; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-101-99-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword pecus here are all the values plotted: collocate: magnus; scoreFUNC: 0. collocate: atque; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> neque multum frumento sed maximam partem lacte atque <b>pecore</b> uiuunt multumque sunt in uenationibus <br> <small> Caes.Gal.4.1.8 <br> Não vivem muito do trigo, mas quase que totalmente do leite e do gado e são muito dados à caça. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-101-99-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 3.04 and an absolute frequency of 2. The Horatius subcorpus follows, with a normalized frequency of 2.66 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 7 ; absolute frequency: 2.64370420726641. subcorpus: Cicero ; normalized frequency: 1 ; absolute frequency: 0.0622959806633276. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 6 ; absolute frequency: 1.11979992907934. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-101-99-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 3.47 and an absolute frequency of 4. The Poesia.didática subcorpus follows, with a normalized frequency of 2.54 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 9 ; absolute frequency: 2.1909004600891. subcorpus: Prosa.filosófica ; normalized frequency: 2 ; absolute frequency: 0.329483863527784. subcorpus: Prosa.oratória ; normalized frequency: 1 ; absolute frequency: 0.0960125968527071. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-101-99-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 1.38 and an absolute frequency of 9. The I.a.C. subcorpus follows, with a normalized frequency of 0.65 and an absolute frequency of 14. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 14 ; absolute frequency: 0.6516174074936. subcorpus: I.d.C. ; normalized frequency: 9 ; absolute frequency: 1.37677833868747. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

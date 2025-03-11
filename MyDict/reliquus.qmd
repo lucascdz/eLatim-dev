@@ -1,0 +1,211 @@
+---
+title: "reliquus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx114-101-108-105-113-117-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>relicŭus</b> <br> <small></small> <br> <small>v. relìquus Cíc. Rep. 2, 39.</small> 
+ <b>relĭquus</b> <b>-a</b> <b>-um</b> <br> <b>relicŭus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Restante, que resta &ensp; <small>Cíc. Fam. 13. 39.</small> <br> <b>2</b> &ensp; <small>II-Sent. particular</small> &ensp; Que resta tratando-se do tempo que falta para chegar. futuro: &ensp; <small></small> <br> <b>3</b> &ensp; <small>II-Sent. particular</small> &ensp; Deixado, poupado, omitido &ensp; <small>Sal. B. Jug. 76, 4.</small> <br> <b>4</b> &ensp; <small>II-No masc. pl.</small> &ensp; os restantes, os outros &ensp; <small>Cíc. Rep. 2, 21.</small> <br> <b>5</b> &ensp; <small>II-Sent. particular-Advt.: Reliqua Cíc. C. Fr. 1. 3. 10</small> &ensp; quanto ao resto'. &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>in reliquum tempus Cés. B. Gal. 1, 20, 6 “no futuro”. </p> 
+ <small>1.</small> <b>relĭquī</b> <br> <small></small> <br> <small>v. relìquus.</small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Reliquus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; restante, residuo, que resta. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Reliquus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; ho restante. ou reste </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/121488 ' target="_blank"> http://lila-erc.eu/data/id/lemma/121488 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> relicus, relicuus, reliqus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+rĕlĭquī 
+ rĕlĭquus 
+ rĕlĭqua 
+ rĕlĭquum
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx114-101-108-105-113-117-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword reliquus here are all the values plotted: collocate: tempus; scoreSUBST: 3. collocate: legio; scoreSUBST: 2. collocate: amitto; scoreSUBST: 0. collocate: pars; scoreSUBST: 2. collocate: copia; scoreSUBST: 2. collocate: que; scoreSUBST: 0. collocate: uita; scoreSUBST: 2. collocate: omnis; scoreSUBST: 0. collocate: de; scoreSUBST: 0. collocate: cum; scoreSUBST: 0. collocate: res; scoreSUBST: 1. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx114-101-108-105-113-117-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword reliquus here are all the values plotted: collocate: tempus; scoreADJ: 0. collocate: legio; scoreADJ: 0. collocate: amitto; scoreADJ: 0. collocate: pars; scoreADJ: 0. collocate: copia; scoreADJ: 0. collocate: que; scoreADJ: 0. collocate: uita; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: de; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: res; scoreADJ: 0. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx114-101-108-105-113-117-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword reliquus here are all the values plotted: collocate: tempus; scoreVERBO: 0. collocate: legio; scoreVERBO: 0. collocate: amitto; scoreVERBO: 2. collocate: pars; scoreVERBO: 0. collocate: copia; scoreVERBO: 0. collocate: que; scoreVERBO: 0. collocate: uita; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0. collocate: de; scoreVERBO: 0. collocate: cum; scoreVERBO: 0. collocate: res; scoreVERBO: 0. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx114-101-108-105-113-117-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword reliquus here are all the values plotted: collocate: tempus; scoreADV: 0. collocate: legio; scoreADV: 0. collocate: amitto; scoreADV: 0. collocate: pars; scoreADV: 0. collocate: copia; scoreADV: 0. collocate: que; scoreADV: 0. collocate: uita; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: de; scoreADV: 0. collocate: cum; scoreADV: 0. collocate: res; scoreADV: 0. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx114-101-108-105-113-117-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword reliquus here are all the values plotted: collocate: tempus; scoreFUNC: 0. collocate: legio; scoreFUNC: 0. collocate: amitto; scoreFUNC: 0. collocate: pars; scoreFUNC: 0. collocate: copia; scoreFUNC: 0. collocate: que; scoreFUNC: 0. collocate: uita; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0. collocate: de; scoreFUNC: 20. collocate: cum; scoreFUNC: 20. collocate: res; scoreFUNC: 0. collocate: in; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Tunc de <b>reliquis</b> una : inquit <br> <small> Phaed.1.31 <br> Então uma das que restavam. <small> [JDD] </small> </small> </p>
+; <p> <b>reliqui</b> temporis spatium in contentionem uocatur <br> <small> Cic.Mur.19 <br> O espaço de tempo restante é invocado para a confrontação. <small> [JDD] </small> </small> </p>
+; <p> in tribunis plebis designatis <b>reliqua</b> spes est <br> <small> Cic.Att.3.13.1 <br> Nos tribunos da plebe designados está a esperança que resta. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> itaque omni senatu necato <b>reliquos</b> sub corona uendidit <br> <small> Caes.Gal.3.16.4 <br> E assim, executado todo o senado, vendeu os demais como escravos. <small> [JDD] </small> </small> </p>
+; <p> de <b>reliquis</b> rei publicae malis licet ne dicere <br> <small> Cic.Phil.1.14.1 <br> Por acaso é permitido falar sobre os demais males da república? <small> [JDD] </small> </small> </p>
+; <p> occisis ad hominum milibus quattuor <b>reliqui</b> in oppidum reiecti sunt <br> <small> Caes.Gal.2.33.5 <br> Mortos uns quatro mil homens, os restantes foram rechaçados para a cidadela. <small> [JDD] </small> </small> </p>
+; <p> circumfunduntur hostes ex <b>reliquis</b> partibus si quem aditum reperire possint <br> <small> Caes.Gal.6.37.4 <br> Os inimigos se espalham em torno pelas partes restantes, para ver se podem descobrir algum acesso. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> exempli causa paucos nominaui genus infinitum immanitatemque ipsi cernitis <b>reliquorum</b> <br> <small> Cic.Phil.13.2.16 <br> Mencionei uns poucos a título de exemplo, vós próprios distinguis a raça inumerável e a monstruosidade dos restantes. <small> [JDD] </small> </small> </p>
+; <p> druides a bello abesse consuerunt neque tributa una cum <b>reliquis</b> pendunt <br> <small> Caes.Gal.6.14.1 <br> Os druídas costumaram estar ausente da guerra e não pagam tributos junto com os demais. <small> [JDD] </small> </small> </p>
+; <p> quibus amissis <b>reliqui</b> neque quo se reciperent neque quemadmodum oppida defenderent habebant <br> <small> Caes.Gal.3.16.3 <br> perdidas essas, os restantes não tinham onde se refugiassem, nem de que modo defendessem suas cidadelas. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> munitis castris duas ibi legiones reliquit et partem auxiliorum quattuor <b>reliquas</b> legiones in castra maiora reduxit <br> <small> Caes.Gal.1.49.5 <br> Fortificado o acampamento, deixou ali duas legiões e uma parte das tropas auxiliares, as quatro legiões restantes ele reconduziu para o acampamento maior. <small> [JDD] </small> </small> </p>
+; <p> hoc proelio facto <b>reliquas</b> copias Heluetiorum ut consequi posset pontem in Arari faciendum curat atque ita exercitum traducit <br> <small> Caes.Gal.1.13.1 <br> Terminado este combate, para que pudesse alcançar as tropas restantes dos helvécios, manda fazer uma ponte no Arar e assim conduz o exército para o outro lado. <small> [JDD] </small> </small> </p>
+; <p> itaque cum meus me maeror cotidianus lacerat et conficit tum vero haec addita cura vix mihi vitam <b>reliquam</b> facit <br> <small> Cic.Att.3.8.2 <br> Assim tanto o meu sofrimento diário me lacera e me consome, quanto esta nova preocupação quase não me deixa viver. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx114-101-108-105-113-117-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 38.14 and an absolute frequency of 101. The Phaedrus subcorpus follows, with a normalized frequency of 3.04 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 101 ; absolute frequency: 38.1448749905582. subcorpus: Cicero ; normalized frequency: 74 ; absolute frequency: 4.60990256908624. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 12 ; absolute frequency: 11.1306928856321. subcorpus: Seneca ; normalized frequency: 2 ; absolute frequency: 0.373266643026446. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx114-101-108-105-113-117-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 27.75 and an absolute frequency of 114. The Prosa.oratória subcorpus follows, with a normalized frequency of 3.94 and an absolute frequency of 41. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 114 ; absolute frequency: 27.7514058277952. subcorpus: Prosa.filosófica ; normalized frequency: 5 ; absolute frequency: 0.823709658819459. subcorpus: Prosa.oratória ; normalized frequency: 41 ; absolute frequency: 3.93651647096099. subcorpus: Prosa.epistolográfica ; normalized frequency: 30 ; absolute frequency: 7.94933623042476. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx114-101-108-105-113-117-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 8.7 and an absolute frequency of 187. The I.d.C. subcorpus follows, with a normalized frequency of 0.61 and an absolute frequency of 4. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 0.61 and an absolute freqeuncy of 4. here are all the values: subcorpus: I.a.C. ; normalized frequency: 187 ; absolute frequency: 8.70374680009309. subcorpus: I.d.C. ; normalized frequency: 4 ; absolute frequency: 0.611901483861098. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

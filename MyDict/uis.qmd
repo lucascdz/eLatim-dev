@@ -1,0 +1,210 @@
+---
+title: "uis"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-105-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>vīrēs</b> <b>-ìum</b> <br> <small>pl. de vis.</small> <br> <small></small> 
+ <small>1.</small> <b>vīs</b> <small>sing.</small> <b>e pl. víres, -ìum</b> <br> <small>subs. f.</small> <br> <small>Obs.: No sing. são usados o nom. vis, o acus vim e o abl. vi. Do gen. e dat, há poucos vestígios.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Força, força usada contra alguém, violência &ensp; <small>Cíc. Verr. 4, 116.</small> <br> <b>2</b> &ensp; <small>II-Sents. diversos</small> &ensp; Quantidade, número, grande número &ensp; <small>Cíc. Verr. 4, 131.</small> <br> <b>3</b> &ensp; <small>II-No pl.:</small> &ensp; Forças físicas, forças &ensp; <small>Cíc. C. M. 27.</small> <br> <b>4</b> &ensp; <small>II-No pl.:</small> &ensp; Forças militares, tropas &ensp; <small>na língua militar T. Lív. 9, 13, 12.</small> <br> <b>5</b> &ensp; <small>III-Sent. particular:</small> &ensp; Força das coisas, violência &ensp; <small>Cíc. Div. 1, 144.</small> <br> <b>6</b> &ensp; <small>III-Sent. particular:</small> &ensp; Assalto, ataque &ensp; <small>Cés. B. Gal. 4, 4, 4.</small> <br> <b>7</b> &ensp; <small>IV-Sent figurado:</small> &ensp; Natureza das coisas, propriedade, eficácia, valor, virtude, mérito &ensp; <small>Ov. Met. 13, 942.</small> <br> <b>8</b> &ensp; <small>IV-Sent figurado:</small> &ensp; Poder, influência, autoridade &ensp; <small>Cíc. Br. 39.</small> <br> <b>9</b> &ensp; <small>IV-Sent figurado:</small> &ensp; Animosidade &ensp; <small>Cíc. Verr. 4, 69.</small> <br> <b>10</b> &ensp; <small>IV-Sent figurado:</small> &ensp; Sentido &ensp; <small>de uma palavra Cíc. Fin, 2. 15.</small> <br> <b>11</b> &ensp; <small>IV-Sent figurado:</small> &ensp; Essência, substância &ensp; <small>Cíc. Lae. 15.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Vis</b> <small>gen</small> <b>vis</b> <small>accus</small> <b>vim</b> <small>ablat</small> <b>vi</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; força, vigor. <br> <b>2</b> &ensp; violencia. <br> <b>3</b> &ensp; virtude, propriedade. <br> <b>4</b> &ensp; autoridade, credito, poder. <br> <b>5</b> &ensp; abundancia, quantidade, multidaõ. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>inferre uim uitae suae &ensp; <small><small>Vell Pat</small></small> &ensp; <small>Matar-se por suas proprias mãos</small> </p>
+
+
+
+
+#### Velez
+
+<b>Vis</b> <b>vis</b> <br> <small>accus. Vim, abl. Vi, in pl. vires, virium.</small>   <p> <b>1</b> &ensp; poder, multidaõ, copia </p>
+
+
+
+
+#### Cardoso
+
+<b>Vis</b> <b>vim</b>   <p> <b>1</b> &ensp; força </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/130360 ' target="_blank"> http://lila-erc.eu/data/id/lemma/130360 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (tema em -i-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+vīs
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-105-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword uis here are all the values plotted: collocate: per; scoreSUBST: 0. collocate: tantus; scoreSUBST: 0. collocate: corpus; scoreSUBST: 2. collocate: magnus; scoreSUBST: 0. collocate: nullus; scoreSUBST: 0. collocate: amicitia; scoreSUBST: 2. collocate: sustineo; scoreSUBST: 0. collocate: contra; scoreSUBST: 0. collocate: umquam; scoreSUBST: 0. collocate: affero; scoreSUBST: 0. collocate: suus; scoreSUBST: 0. collocate: nec; scoreSUBST: 0. collocate: animus; scoreSUBST: 2. collocate: scelus; scoreSUBST: 2. collocate: arma; scoreSUBST: 2. collocate: aut; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-105-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword uis here are all the values plotted: collocate: per; scoreADJ: 0. collocate: tantus; scoreADJ: 0. collocate: corpus; scoreADJ: 0. collocate: magnus; scoreADJ: 3. collocate: nullus; scoreADJ: 0. collocate: amicitia; scoreADJ: 0. collocate: sustineo; scoreADJ: 0. collocate: contra; scoreADJ: 0. collocate: umquam; scoreADJ: 0. collocate: affero; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: nec; scoreADJ: 0. collocate: animus; scoreADJ: 0. collocate: scelus; scoreADJ: 0. collocate: arma; scoreADJ: 0. collocate: aut; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-105-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword uis here are all the values plotted: collocate: per; scoreVERBO: 0. collocate: tantus; scoreVERBO: 0. collocate: corpus; scoreVERBO: 0. collocate: magnus; scoreVERBO: 0. collocate: nullus; scoreVERBO: 0. collocate: amicitia; scoreVERBO: 0. collocate: sustineo; scoreVERBO: 2. collocate: contra; scoreVERBO: 0. collocate: umquam; scoreVERBO: 0. collocate: affero; scoreVERBO: 2. collocate: suus; scoreVERBO: 0. collocate: nec; scoreVERBO: 0. collocate: animus; scoreVERBO: 0. collocate: scelus; scoreVERBO: 0. collocate: arma; scoreVERBO: 0. collocate: aut; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-105-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword uis here are all the values plotted: collocate: per; scoreADV: 0. collocate: tantus; scoreADV: 0. collocate: corpus; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: nullus; scoreADV: 0. collocate: amicitia; scoreADV: 0. collocate: sustineo; scoreADV: 0. collocate: contra; scoreADV: 0. collocate: umquam; scoreADV: 2. collocate: affero; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: nec; scoreADV: 0. collocate: animus; scoreADV: 0. collocate: scelus; scoreADV: 0. collocate: arma; scoreADV: 0. collocate: aut; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-105-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword uis here are all the values plotted: collocate: per; scoreFUNC: 30. collocate: tantus; scoreFUNC: 0. collocate: corpus; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0. collocate: nullus; scoreFUNC: 0. collocate: amicitia; scoreFUNC: 0. collocate: sustineo; scoreFUNC: 0. collocate: contra; scoreFUNC: 20. collocate: umquam; scoreFUNC: 0. collocate: affero; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: nec; scoreFUNC: 0. collocate: animus; scoreFUNC: 0. collocate: scelus; scoreFUNC: 0. collocate: arma; scoreFUNC: 0. collocate: aut; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> denuntio <b>uim</b> arma remouete <br> <small> Cic.Phil.1.26.9 <br> eu denuncio a violência: removei as armas! <small> [JDD] </small> </small> </p>
+; <p> <b>uim</b> hoc quidem est adferre <br> <small> Cic.Amici.26 <br> Isso é, certamente, fazer-me violência. <small> [JDD] </small> </small> </p>
+; <p> Fortuna <b>uires</b> ipsa consumpsit suas <br> <small> Sen.Ag.698 <br> A própria Fortuna esgotou suas forças. <small> [JDD] </small> </small> </p>
+; <p> maxima est enim <b>uis</b> uetustatis et consuetudinis <br> <small> Cic.Amici.68 <br> pois é muito grande a força da antiguidade e do costume. <small> [JDD] </small> </small> </p>
+; <p> nihil per <b>uim</b> umquam Clodius omnia per <b>uim</b> Milo <br> <small> Cic.Mil.36 <br> “Clódio nunca fez nada por meio da violência, Milão, tudo por meio da violência.” <small> [JDD] </small> </small> </p>
+; <p> noueramus <b>uires</b> corporis ex his collegimus esse et animi robur <br> <small> Sen.Ep.120.5 <br> Conhecíamos as forças do corpo: a partir delas, concluímos que havia também o vigor do espírito. <small> [JDD] </small> </small> </p>
+; <p> magna <b>uis</b> est magnum numen unum et idem sentientis senatus <br> <small> Cic.Phil.3.32.9 <br> É uma grande força, um grande poder uma mesma e única opinião do senado. <small> [JDD] </small> </small> </p>
+; <p> hac re significari magnum numerum ciuitatum suam <b>uim</b> sustinere non potuisse <br> <small> Caes.Gal.4.3.1 <br> por essa situação é indicado que um grande número de cidades não podem resistir à sua força. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> an ut hoc ostenderes contra <b>uim</b> tuam in patronis praesidi nihil esse <br> <small> Cic.Ver.2.4.89.5 <br> Acaso para mostrares que contra tua força não havia nenhuma proteção dos patronos? <small> [JDD] </small> </small> </p>
+; <p> nulla est enim tanta <b>uis</b> quae non ferro et <b>uiribus</b> debilitari frangique possit <br> <small> Cic.Marc.8 <br> Pois nenhuma força é tão grande que não possa ser enfraquecida e quebrada pelo ferro e pelas forças. <small> [JDD] </small> </small> </p>
+; <p> quia nulla <b>uis</b> umquam est in libera ciuitate suscepta inter ciuis non contra rem publicam <br> <small> Cic.Mil.13 <br> Porque, numa cidade livre, toda violência entre os cidadãos sempre foi empreendida contra a república. <small> [JDD] </small> </small> </p>
+; <p> id si minus intellegitur quanta <b>uis</b> amicitiae concordiaeque sit ex dissensionibus atque discordiis percipi potest <br> <small> Cic.Amici.23 <br> Se se compreende menos isso, pode-se perceber claramente quão grande é a força da amizade e da concórdia pelas dissensões e discórdias. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> corpus quoque etiam si magnas habet <b>uires</b> non aliter quam furiosi aut phrenetici ualidum est <br> <small> Sen.Ep.15.1 <br> o corpo também, ainda que tenha grandes forças, só é forte à maneira dos furiosos ou dos frenéticos. <small> [JDD] </small> </small> </p>
+; <p> non dubitare autem se quin senilis anima in primis labris esset nec magna <b>ui</b> distraheretur a corpore <br> <small> Sen.Ep.30.14 <br> Que não duvidava, por outro lado, de que a alma dos velhos estivesse à flor dos lábios e de que não era separada do corpo com grande violência. <small> [JDD] </small> </small> </p>
+; <p> quae si opposita Miloni putarem cederem tempori iudices nec enim inter tantam <b>uim</b> armorum existimarem esse orationi locum <br> <small> Cic.Mil.2 <br> Se eu julgasse que elas foram postas contra Milão, cederia à circunstância, juízes, pois consideraria não haver lugar para o meu discurso no meio de tão grande força de armas. <small> [JDD] </small> </small> </p>
+; <p> acta M. Antoni rescidistis leges refixistis per <b>uim</b> et contra auspicia latas decreuistis totius Italiae dilectus excitauistis conlegam et scelerum socium omnium hostem iudicauistis <br> <small> Cic.Phil.13.5.2 <br> Rescindistes as disposições de Marco Antônio, revogastes suas leis, decretastes que elas tinham sido promulgadas pela força e contra os auspícios, restabelecestes as tropas de toda a Itália, julgastes como inimigo de todos um colega dele e cúmplice de seus crimes. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-105-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 13.51 and an absolute frequency of 7. The Caesar subcorpus follows, with a normalized frequency of 12.84 and an absolute frequency of 34. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 34 ; absolute frequency: 12.8408490067226. subcorpus: Cicero ; normalized frequency: 182 ; absolute frequency: 11.3378684807256. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 8 ; absolute frequency: 12.1451343555488. subcorpus: Sallustius ; normalized frequency: 13 ; absolute frequency: 12.0582506261015. subcorpus: Seneca ; normalized frequency: 43 ; absolute frequency: 8.02523282506859. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 7 ; absolute frequency: 13.5135135135135. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-105-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 13.51 and an absolute frequency of 7. The Prosa.filosófica subcorpus follows, with a normalized frequency of 13.34 and an absolute frequency of 81. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 51 ; absolute frequency: 12.4151026071715. subcorpus: Prosa.filosófica ; normalized frequency: 81 ; absolute frequency: 13.3440964728752. subcorpus: Prosa.oratória ; normalized frequency: 128 ; absolute frequency: 12.2896123971465. subcorpus: Prosa.epistolográfica ; normalized frequency: 13 ; absolute frequency: 3.4447123665174. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 11 ; absolute frequency: 9.33073203834083. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 7 ; absolute frequency: 13.5135135135135. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-105-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 11.17 and an absolute frequency of 240. The I.d.C. subcorpus follows, with a normalized frequency of 8.26 and an absolute frequency of 54. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 240 ; absolute frequency: 11.1705841284617. subcorpus: I.d.C. ; normalized frequency: 54 ; absolute frequency: 8.26067003212483. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

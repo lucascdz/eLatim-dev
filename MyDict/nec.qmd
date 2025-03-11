@@ -1,0 +1,218 @@
+---
+title: "nec"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-101-99xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>ou</small> <b>nec</b> <br> <small>conj. v. nec</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; E não, nem &ensp; <small>Cíc. Leg. 2, 26; T. Lív. 7, 9, 1.</small> <br> <b>1</b> &ensp; <small></small> &ensp; E não, nem &ensp; <small>Cíc. Leg. 2, 26; T. Lív. 7, 9, 1.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Nec</b> <br> <small>conjunc.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; nem, não. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>necne &ensp; <small><small>Cic</small></small> &ensp; <small>Ou não</small> <br> necnon et &ensp; <small><small>Ovid</small></small> &ensp; <small>Tambem</small> </p>
+
+
+
+
+#### Velez
+
+<b>Nec</b>   <p> <b>1</b> &ensp; nem </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>necne? &ensp; <small>Ou naõ?</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Nec</b> <br> <small>coniunctio.</small>   <p> <b>1</b> &ensp; nem </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/113512 ' target="_blank"> http://lila-erc.eu/data/id/lemma/113512 </a> <br>
+<small> classe: </small> conjunção coordenativa    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+nĕc
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx110-101-99xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-101-99xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword nec here are all the values plotted: collocate: uersus; scoreSUBST: 4. collocate: ullus; scoreSUBST: 0. collocate: quisquam; scoreSUBST: 0. collocate: enim; scoreSUBST: 0. collocate: solum; scoreSUBST: 0. collocate: tamen; scoreSUBST: 0. collocate: parum; scoreSUBST: 0. collocate: umquam; scoreSUBST: 0. collocate: ante2; scoreSUBST: 0. collocate: dubito; scoreSUBST: 0. collocate: tantum; scoreSUBST: 0. collocate: possum; scoreSUBST: 0. collocate: timeo; scoreSUBST: 0. collocate: amicitia; scoreSUBST: 2. collocate: mirus; scoreSUBST: 0. collocate: uis; scoreSUBST: 2. collocate: uero; scoreSUBST: 0. collocate: prius; scoreSUBST: 0. collocate: turpis; scoreSUBST: 0. collocate: regnum; scoreSUBST: 2. collocate: oculus; scoreSUBST: 2. collocate: mens; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-101-99xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword nec here are all the values plotted: collocate: uersus; scoreADJ: 0. collocate: ullus; scoreADJ: 0. collocate: quisquam; scoreADJ: 0. collocate: enim; scoreADJ: 0. collocate: solum; scoreADJ: 0. collocate: tamen; scoreADJ: 0. collocate: parum; scoreADJ: 0. collocate: umquam; scoreADJ: 0. collocate: ante2; scoreADJ: 0. collocate: dubito; scoreADJ: 0. collocate: tantum; scoreADJ: 0. collocate: possum; scoreADJ: 0. collocate: timeo; scoreADJ: 0. collocate: amicitia; scoreADJ: 0. collocate: mirus; scoreADJ: 2. collocate: uis; scoreADJ: 0. collocate: uero; scoreADJ: 0. collocate: prius; scoreADJ: 0. collocate: turpis; scoreADJ: 2. collocate: regnum; scoreADJ: 0. collocate: oculus; scoreADJ: 0. collocate: mens; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-101-99xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword nec here are all the values plotted: collocate: uersus; scoreVERBO: 0. collocate: ullus; scoreVERBO: 0. collocate: quisquam; scoreVERBO: 0. collocate: enim; scoreVERBO: 0. collocate: solum; scoreVERBO: 0. collocate: tamen; scoreVERBO: 0. collocate: parum; scoreVERBO: 0. collocate: umquam; scoreVERBO: 0. collocate: ante2; scoreVERBO: 0. collocate: dubito; scoreVERBO: 2. collocate: tantum; scoreVERBO: 0. collocate: possum; scoreVERBO: 1. collocate: timeo; scoreVERBO: 2. collocate: amicitia; scoreVERBO: 0. collocate: mirus; scoreVERBO: 0. collocate: uis; scoreVERBO: 0. collocate: uero; scoreVERBO: 0. collocate: prius; scoreVERBO: 0. collocate: turpis; scoreVERBO: 0. collocate: regnum; scoreVERBO: 0. collocate: oculus; scoreVERBO: 0. collocate: mens; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-101-99xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword nec here are all the values plotted: collocate: uersus; scoreADV: 0. collocate: ullus; scoreADV: 0. collocate: quisquam; scoreADV: 0. collocate: enim; scoreADV: 2. collocate: solum; scoreADV: 2. collocate: tamen; scoreADV: 2. collocate: parum; scoreADV: 2. collocate: umquam; scoreADV: 2. collocate: ante2; scoreADV: 2. collocate: dubito; scoreADV: 0. collocate: tantum; scoreADV: 2. collocate: possum; scoreADV: 0. collocate: timeo; scoreADV: 0. collocate: amicitia; scoreADV: 0. collocate: mirus; scoreADV: 0. collocate: uis; scoreADV: 0. collocate: uero; scoreADV: 1. collocate: prius; scoreADV: 2. collocate: turpis; scoreADV: 0. collocate: regnum; scoreADV: 0. collocate: oculus; scoreADV: 0. collocate: mens; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-101-99xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword nec here are all the values plotted: collocate: uersus; scoreFUNC: 0. collocate: ullus; scoreFUNC: 0. collocate: quisquam; scoreFUNC: 0. collocate: enim; scoreFUNC: 0. collocate: solum; scoreFUNC: 0. collocate: tamen; scoreFUNC: 0. collocate: parum; scoreFUNC: 0. collocate: umquam; scoreFUNC: 0. collocate: ante2; scoreFUNC: 0. collocate: dubito; scoreFUNC: 0. collocate: tantum; scoreFUNC: 0. collocate: possum; scoreFUNC: 0. collocate: timeo; scoreFUNC: 0. collocate: amicitia; scoreFUNC: 0. collocate: mirus; scoreFUNC: 0. collocate: uis; scoreFUNC: 0. collocate: uero; scoreFUNC: 0. collocate: prius; scoreFUNC: 0. collocate: turpis; scoreFUNC: 0. collocate: regnum; scoreFUNC: 0. collocate: oculus; scoreFUNC: 0. collocate: mens; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>nec</b> mirum <br> <small> Cic.Amici.32 <br> e não é de admirar. <small> [JDD] </small> </small> </p>
+; <p> bona mens <b>nec</b> commodatur <b>nec</b> emitur <br> <small> Sen.Ep.27.8 <br> A boa mente não se empresta nem se compra. <small> [JDD] </small> </small> </p>
+; <p> <b>nec</b> scriptum habeo <b>nec</b> possum edere <br> <small> Cic.Ver.2.4.36.5 <br> “Não tenho escrito e não posso apresentar.” <small> [JDD] </small> </small> </p>
+; <p> dixit enim parem esse horis <b>nec</b> mentitur <br> <small> Sen.Ep.12.7 <br> Pois disse que era igual em horas e não está mentindo. <small> [JDD] </small> </small> </p>
+; <p> necessariis rebus et exilia sufficiunt superuacuis <b>nec</b> regna <br> <small> Sen.Helv.11.4 <br> Para as coisas necessárias até os exílios bastam, para as supérfluas nem mesmo reinos. <small> [JDD] </small> </small> </p>
+; <p> <b>nec</b> ullum orationi aut lenocinium addit aut pretium <br> <small> Tac.Hist.1.18.11 <br> E não acrescenta ao seu discurso nenhum afago ou recompensa. <small> [JDD] </small> </small> </p>
+; <p> <b>nec</b> tamen illud genus alterum nocturnorum testium perhorresco <br> <small> Cic.Cael.20 <br> Não me apavoro, contudo, com aquele outro tipo de testemunhas noturnas. <small> [JDD] </small> </small> </p>
+; <p> <b>nec</b> enim secerni a fratre poterit tanta praesertim auctoritate <br> <small> Cic.Phil.6.10.6 <br> Pois não será possível separá-lo do irmão, especialmente com tão grande autoridade deste. <small> [JDD] </small> </small> </p>
+; <p> <b>nec</b> enim melior uir fuit Africano quisquam <b>nec</b> clarior <br> <small> Cic.Amici.6 <br> pois não houve nenhum homem melhor que o Africano nem mais ilustre. <small> [JDD] </small> </small> </p>
+; <p> <b>nec</b> uero de uirtute constantia grauitate prouinciae Galliae taceri potest <br> <small> Cic.Phil.3.13.1 <br> E, na verdade, não é possível calar-se sobre o valor, a firmeza, a seriedade da província da Gália. <small> [JDD] </small> </small> </p>
+; <p> <b>nec</b> ille armis solum sed etiam decretis nostris urgendus est <br> <small> Cic.Phil.3.32.7 <br> Ele deve ser perseguido não só com as armas, mas também com nossos decretos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>nec</b> dubito quin multum conferant rudibus adhuc et extrinsecus auscultantibus <br> <small> Sen.Ep.33.6 <br> Não tenho dúvida de que trazem muito proveito para os ainda incultos e para os que as escutam de fora. <small> [JDD] </small> </small> </p>
+; <p> praeteriti rara memoria est <b>nec</b> umquam reuocatur nisi praesentium occursu <br> <small> Sen.Ep.124.17 <br> a memória do passado é rara e nunca é despertada, a não ser com o encontro das coisas presentes. <small> [JDD] </small> </small> </p>
+; <p> haec igitur lex in amicitia sanciatur ut neque rogemus res turpes <b>nec</b> faciamus rogati <br> <small> Cic.Amici.40 <br> Que seja, portanto, sancionada na amizade esta lei: que nem solicitemos coisas vergonhosas, nem façamos quando solicitados. <small> [JDD] </small> </small> </p>
+; <p> exspectabo ergo <b>nec</b> ante edam quam aut bonum panem habere coepero aut fastidire desiero <br> <small> Sen.Ep.123.2 <br> Vou esperar, portanto, e não comerei antes de começar a ter um pão bom ou deixar de ter repugnância do ruim.[*] <small>  </small> </small> </p>
+; <p> non reprehendo <b>nec</b> quaero fuerit ne aliquid pertimescendum puto suo quemque arbitratu timere oportere <br> <small> Cic.Dom.8 <br> Não os critico nem pergunto se houve algo que temer; acho que cada um deve temer por sua própria vontade. <small> [JDD] </small> </small> </p>
+; <p> ingeniorum crescit dignatio <b>nec</b> ipsis tantum honor habetur sed quicquid illorum memoriae adhaesit excipitur <br> <small> Sen.Ep.21.6 <br> A reputação dos gênios cresce e não só é concedida a honra a eles, mas é bem acolhido tudo o que ficou aderido à memória deles. <small> [JDD] </small> </small> </p>
+; <p> si miraris haec pro aliquo esse miraberis quosdam ferro et igne curari <b>nec</b> minus fame ac siti <br> <small> Sen.Prov.3.2 <br> Se achas estranho que essas coisas são para o bem de alguém, acharás estranho que alguns são curados pelo ferro e pelo fogo, e não menos pela fome e pela sede. <small> [JDD] </small> </small> </p>
+; <p> non dubitare autem se quin senilis anima in primis labris esset <b>nec</b> magna ui distraheretur a corpore <br> <small> Sen.Ep.30.14 <br> Que não duvidava, por outro lado, de que a alma dos velhos estivesse à flor dos lábios e de que não era separada do corpo com grande violência. <small> [JDD] </small> </small> </p>
+; <p> quae si opposita Miloni putarem cederem tempori iudices <b>nec</b> enim inter tantam uim armorum existimarem esse orationi locum <br> <small> Cic.Mil.2 <br> Se eu julgasse que elas foram postas contra Milão, cederia à circunstância, juízes, pois consideraria não haver lugar para o meu discurso no meio de tão grande força de armas. <small> [JDD] </small> </small> </p>
+; <p> impedit enim consilium uoluptas rationi inimica est mentis ut ita dicam praestringit oculos <b>nec</b> habet ullum cum uirtute commercium <br> <small> Cic.Sen.42 <br> Pois o prazer impede a reflexão, é inimigo da razão, ofusca, por assim dizer, os olhos da mente e não tem nenhuma relação com a virtude. <small> [JDD] </small> </small> </p>
+; <p> improbis autem poena statuenda est <b>nec</b> uero minor iis qui secuti erunt alterum quam iis qui ipsi fuerint impietatis duces <br> <small> Cic.Amici.42 <br> mas uma punição deve ser estabelecida para os ímprobos e, em verdade, não menor para aqueles que seguirem o outro do que para aqueles que forem os próprios chefes da impiedade. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> parcius iunctas quatiunt fenestras iactibus crebris iuuenes proterui <b>nec</b> tibi somnos adimunt amatque ianua limen quae prius multum facilis mouebat cardines <br> <small> Hor.Carm.1.25.1 <br>   Menos frequentemente os jovens insolentes batem às tuas janelas fechadas com pancadas sucessivas e não te tiram o sono e tua porta se torna amiga da soleira, ela que antes movia muito fácil os gonzos. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-101-99xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 75.52 and an absolute frequency of 22. The Horatius subcorpus follows, with a normalized frequency of 62.16 and an absolute frequency of 70. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 4 ; absolute frequency: 1.51068811843795. subcorpus: Cicero ; normalized frequency: 287 ; absolute frequency: 17.878946450375. subcorpus: Horatius ; normalized frequency: 70 ; absolute frequency: 62.1614421454578. subcorpus: Ovidius ; normalized frequency: 9 ; absolute frequency: 15.442690459849. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 242 ; absolute frequency: 45.1652638062. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 22 ; absolute frequency: 75.5235152763474. subcorpus: Vergilius ; normalized frequency: 17 ; absolute frequency: 32.8185328185328. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-101-99xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 66.46 and an absolute frequency of 79. The Prosa.filosófica subcorpus follows, with a normalized frequency of 50.41 and an absolute frequency of 306. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 27 ; absolute frequency: 6.57270138026729. subcorpus: Prosa.filosófica ; normalized frequency: 306 ; absolute frequency: 50.4110311197509. subcorpus: Prosa.oratória ; normalized frequency: 184 ; absolute frequency: 17.6663178208981. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 79 ; absolute frequency: 66.459157062337. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 39 ; absolute frequency: 33.8776928422516. subcorpus: Poesia.épica ; normalized frequency: 17 ; absolute frequency: 32.8185328185328. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-101-99xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 57.59 and an absolute frequency of 22. The I.d.C. subcorpus follows, with a normalized frequency of 37.02 and an absolute frequency of 242. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 388 ; absolute frequency: 18.0591110076798. subcorpus: I.d.C. ; normalized frequency: 242 ; absolute frequency: 37.0200397735965. subcorpus: II.d.C. ; normalized frequency: 22 ; absolute frequency: 57.5916230366492. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

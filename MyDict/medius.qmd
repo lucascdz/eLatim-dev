@@ -1,0 +1,203 @@
+---
+title: "medius"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-101-100-105-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>medĭus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Que está no meio, central, médio, intermediário &ensp; <small>sent. local e temporal Cés. B. Gal. 6, 13, 10; Cíc. Prov .. 43.</small> <br> <b>2</b> &ensp; <small>II-Sent. moral</small> &ensp; Que não se inclina para lado algum, indiferente, indeterminado, equívoco, ambíguo &ensp; <small>T. Lív. 39, 39, 8.</small> <br> <b>3</b> &ensp; <small>II-Sent. moral</small> &ensp; Meio, metade &ensp; <small>de uma coisa Varr. R. Rust. 3, 7, 10; Cíc. Or. 127.</small> <br> <b>4</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Meio, ceme, coração &ensp; <small>de um assunto Cíc. Or. 11.</small> <br> <b>5</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Medíocre, comum, ordinário &ensp; <small>Cíc. Of. 1, 8.</small> <br> <b>6</b> &ensp; <small>III-Sent. figurado:</small> &ensp; De meia idade, nem velho, nem moço &ensp; <small>Cíc. C. M. 76.</small> <br> <b>7</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Neutro &ensp; <small>T. Lív. 2, 27, 3.</small> </p> 
+ <small>2.</small> <b>medius</b> <b>-í</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Medianeiro, intermediário &ensp; <small>Verg. En. 7, 536.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Medius</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; do meio, central, que está no meio. <br> <b>2</b> &ensp; <small>Liv.</small> &ensp; neutral, que não toma partido algum. <br> <b>3</b> &ensp; mediano. <br> <b>4</b> &ensp; ambiguo, duvidoso. <br> <b>5</b> &ensp; <small>Ovid.</small> &ensp; medianeiro, intercessor. <br> <b>6</b> &ensp; <small>Cic.</small> &ensp; que interrompe, que se mette de permeio. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>medii sermones &ensp; <small><small>Ovid</small></small> &ensp; <small>Conversações, ou discursos indifferentes, que não fazem ao caso presupposto, porém tendem para elle</small> <br> pacis, & belli medius &ensp; <small><small>Hor</small></small> &ensp; <small>Igualmente propenso para a paz, e para a guerra</small> </p>
+
+
+
+
+#### Velez
+
+<b>Medius</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa de meyo, de permeyo, em meyo, ou que está no meyo &ensp; <small>cum dativo reperitur, vel gen.</small> <br> <b>2</b> &ensp; <small>ponitur interdum Medius pro Dubio</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>domus omnibus uentis media <br> pacis eras, mediusque belli <br> <br><b>X</b><br>in medio afferre, consulere &ensp; <small><small>i, in commune</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Medius</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa do meyo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/111841 ' target="_blank"> http://lila-erc.eu/data/id/lemma/111841 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+mĕdĭus 
+ mĕdĭa 
+ mĕdĭum
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-101-100-105-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword medius here are all the values plotted: collocate: nox; scoreSUBST: 2. collocate: mare; scoreSUBST: 2. collocate: inter; scoreSUBST: 0. collocate: per; scoreSUBST: 0. collocate: hostis; scoreSUBST: 2. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-101-100-105-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword medius here are all the values plotted: collocate: nox; scoreADJ: 0. collocate: mare; scoreADJ: 0. collocate: inter; scoreADJ: 0. collocate: per; scoreADJ: 0. collocate: hostis; scoreADJ: 0. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-101-100-105-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword medius here are all the values plotted: collocate: nox; scoreVERBO: 0. collocate: mare; scoreVERBO: 0. collocate: inter; scoreVERBO: 0. collocate: per; scoreVERBO: 0. collocate: hostis; scoreVERBO: 0. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-101-100-105-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword medius here are all the values plotted: collocate: nox; scoreADV: 0. collocate: mare; scoreADV: 0. collocate: inter; scoreADV: 0. collocate: per; scoreADV: 0. collocate: hostis; scoreADV: 0. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-101-100-105-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword medius here are all the values plotted: collocate: nox; scoreFUNC: 0. collocate: mare; scoreFUNC: 0. collocate: inter; scoreFUNC: 20. collocate: per; scoreFUNC: 20. collocate: hostis; scoreFUNC: 0. collocate: in; scoreFUNC: 30'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> surge in <b>medium</b> <br> <small> Vulg.Marc.3.3 <br> Levanta-te e vai para o meio. <small> [JDD] </small> </small> </p>
+; <p> quos inter <b>medius</b> uenit furor <br> <small> Verg.A.1.348 <br> E entre eles veio meter-se a raiva. <small> [JDD] </small> </small> </p>
+; <p> nunc eram plane in <b>medio</b> mari <br> <small> Cic.Att.5.12.3 <br> agora estou completamente no meio do mar. <small> [JDD] </small> </small> </p>
+; <p> ipse idoneam tempestatem nactus paulo post <b>mediam</b> noctem naues soluit <br> <small> Caes.Gal.4.36.3 <br> Ele próprio, tendo encontrado um clima apropriado, zarpou com seus navios pouco depois da meia noite. <small> [JDD] </small> </small> </p>
+; <p> infert se saeptus nebula mirabile dictu per <b>medios</b> miscetque uiris neque cernitur ulli <br> <small> Verg.A.1.439 <br> Envolvido pela névoa (coisa admirável de dizer) ele se transporta pelo meio das pessoas e se mistura aos homens e não é visto por ninguém. <small> [JDD] </small> </small> </p>
+; <p> prima luce productis omnibus copiis duplici acie instituta auxiliis in <b>mediam</b> aciem coniectis quid hostes consilii caperent exspectabat <br> <small> Caes.Gal.3.24.1 <br> À primeira luz, conduzidas para diante todas as tropas, formada uma dupla linha de batalha, introduzidas as tropas auxiliares no meio da linha, aguardava que resolução os inimigos tomariam. <small> [JDD] </small> </small> </p>
+; <p> miles in <b>media</b> pace decurrit sine ullo hoste uallum iacit et superuacuo labore lassatur ut sufficere necessario possit <br> <small> Sen.Ep.18.6 <br> O soldado pratica corrida em meio à paz, constrói paliçada sem nenhum inimigo e é fatigado por um trabalho supérfluo para que possa capacitar-se para o necessário. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-101-100-105-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 27.03 and an absolute frequency of 14. The Ovidius subcorpus follows, with a normalized frequency of 10.3 and an absolute frequency of 6. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 10 ; absolute frequency: 3.77672029609487. subcorpus: Cicero ; normalized frequency: 23 ; absolute frequency: 1.43280755525653. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 6 ; absolute frequency: 10.2951269732327. subcorpus: Phaedrus ; normalized frequency: 4 ; absolute frequency: 6.0725671777744. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 24 ; absolute frequency: 4.47919971631735. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 14 ; absolute frequency: 27.027027027027. subcorpus: Hieronymus ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-101-100-105-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 27.03 and an absolute frequency of 14. The Poesia.didática subcorpus follows, with a normalized frequency of 7.63 and an absolute frequency of 9. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 1.06 and an absolute freqeuncy of 4. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 14 ; absolute frequency: 3.40806738236082. subcorpus: Prosa.filosófica ; normalized frequency: 21 ; absolute frequency: 3.45958056704173. subcorpus: Prosa.oratória ; normalized frequency: 14 ; absolute frequency: 1.3441763559379. subcorpus: Prosa.epistolográfica ; normalized frequency: 4 ; absolute frequency: 1.05991149738997. subcorpus: Poesia.lírica ; normalized frequency: 8 ; absolute frequency: 6.73004122150248. subcorpus: Poesia.didática ; normalized frequency: 9 ; absolute frequency: 7.63423530409704. subcorpus: Poesia.trágica ; normalized frequency: 8 ; absolute frequency: 6.94927032661571. subcorpus: Poesia.épica ; normalized frequency: 14 ; absolute frequency: 27.027027027027. subcorpus: Prosa.ficcional ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-101-100-105-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 6.74 and an absolute frequency of 3. The II.d.C. subcorpus follows, with a normalized frequency of 5.24 and an absolute frequency of 2. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 2.65 and an absolute freqeuncy of 57. here are all the values: subcorpus: I.a.C. ; normalized frequency: 57 ; absolute frequency: 2.65301373050966. subcorpus: I.d.C. ; normalized frequency: 33 ; absolute frequency: 5.04818724185406. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+:::
+

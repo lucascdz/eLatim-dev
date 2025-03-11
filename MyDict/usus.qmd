@@ -1,0 +1,205 @@
+---
+title: "usus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-115-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>oesus</b> <br> <small>arc. = usus Cíc. Leg. 2, 10.</small> <br> <small></small> 
+ <small>2.</small> <b>ūsus</b> <b>-ús</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Uso, emprego, utilidade &ensp; <small>Cés. B. Gal. 7, 66, 5.</small> <br> <b>2</b> &ensp; <small>II-Sent. particular. língua jurídica</small> &ensp; Usucapião, usufruto, longa posse &ensp; <small>usus fructus, usus et fructus, usus fructusque Cíc. Caec. 11.</small> <br> <b>3</b> &ensp; <small>II-Sent. particular. língua jurídica</small> &ensp; Relações de amizade, relações íntimas, amizade &ensp; <small>CÍc. Amer. 15.</small> <br> <b>4</b> &ensp; <small>II-Sent. particular. língua jurídica</small> &ensp; Uso, prática, experiência &ensp; <small>CÍc. Rep. 1, 37.</small> <br> <b>5</b> &ensp; <small>II-Sent. particular. língua jurídica</small> &ensp; Uso, hábito, costume &ensp; <small>Hor. A. Poét. 71.</small> <br> <b>6</b> &ensp; <small>II-Sent. particular. língua jurídica</small> &ensp; Vantagem, utilidade, fruto &ensp; <small>Cíc. Of. 2. 14.</small> <br> <b>7</b> &ensp; <small>II-Sent. particular. língua jurídica</small> &ensp; Necessidade, o que é necessário a, aquilo de que se tem necessidade &ensp; <small>T; Lív. 26. 43, 7.</small> <br> <b>8</b> &ensp; <small>III-Em locuções:</small> &ensp; <small></small> <br> <b>9</b> &ensp; <small>III-Em locuções:</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>8</b><br>Usus est = opus est “é necessário” Cés. B. Gal. 4. 2, 3. <br> <br><b>9</b><br>Usus venit “acontece, sucede” Cés. B. Gal. 7. 80. 1. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Usus</b> -<b>us</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; uso, exercicio, pratica, costume. <br> <b>2</b> &ensp; familiaridade, communicaçaõ. <br> <b>3</b> &ensp; proveito, utilidade. <br> <b>4</b> &ensp; <small>Caes.</small> &ensp; experiencia acquirida pelo uso. <br> <b>5</b> &ensp; posse inalteravel. <br> <b>6</b> &ensp; <small>Ter. indecl.</small> &ensp; necessidade, precisaõ. </p>
+
+
+
+
+#### Velez
+
+<b>usus</b>
+
+
+
+
+#### Cardoso
+
+<b>Vsus</b> <b>us</b>   <p> <b>1</b> &ensp; ho vso justo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/131133 ' target="_blank"> http://lila-erc.eu/data/id/lemma/131133 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 4ª declinação (tema em -u-) <br>
+<small> outras grafias: </small> oesus, oisus, ussus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ūsŭs 
+ usūs
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx117-115-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-115-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword usus here are all the values plotted: collocate: cottidianus; scoreSUBST: 0. collocate: tantum; scoreSUBST: 0. collocate: uel; scoreSUBST: 0. collocate: bellum; scoreSUBST: 2. collocate: nec; scoreSUBST: 0. collocate: atque; scoreSUBST: 0. collocate: magnus; scoreSUBST: 0. collocate: ex; scoreSUBST: 0. collocate: ad; scoreSUBST: 0. collocate: res; scoreSUBST: 1'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-115-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword usus here are all the values plotted: collocate: cottidianus; scoreADJ: 3. collocate: tantum; scoreADJ: 0. collocate: uel; scoreADJ: 0. collocate: bellum; scoreADJ: 0. collocate: nec; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: magnus; scoreADJ: 2. collocate: ex; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: res; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-115-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword usus here are all the values plotted: collocate: cottidianus; scoreVERBO: 0. collocate: tantum; scoreVERBO: 0. collocate: uel; scoreVERBO: 0. collocate: bellum; scoreVERBO: 0. collocate: nec; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: magnus; scoreVERBO: 0. collocate: ex; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: res; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-115-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword usus here are all the values plotted: collocate: cottidianus; scoreADV: 0. collocate: tantum; scoreADV: 2. collocate: uel; scoreADV: 0. collocate: bellum; scoreADV: 0. collocate: nec; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: ex; scoreADV: 0. collocate: ad; scoreADV: 0. collocate: res; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-115-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword usus here are all the values plotted: collocate: cottidianus; scoreFUNC: 0. collocate: tantum; scoreFUNC: 0. collocate: uel; scoreFUNC: 0. collocate: bellum; scoreFUNC: 0. collocate: nec; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0. collocate: ex; scoreFUNC: 20. collocate: ad; scoreFUNC: 20. collocate: res; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quae res magno <b>usui</b> nostris fuit <br> <small> Caes.Gal.4.25.1 <br> coisa que foi de grande utilidade para os nossos. <small> [JDD] </small> </small> </p>
+; <p> Si cito rem perages , <b>usus</b> fiet longior : <br> <small> Phaed.3.ep <br> Se rápido cumprires a promessa, seu uso se fará mais longo. <small> [JDD] </small> </small> </p>
+; <p> sic neque agri cultura nec ratio atque <b>usus</b> belli intermittitur <br> <small> Caes.Gal.4.1.6 <br> Assim nem a agricultura nem a arte e prática da guerra são interrompidos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ad eorum voluntatem mihi conciliandam maximo te mihi <b>usui</b> fore video <br> <small> Cic.Att.1.2.2 <br> Vejo que tu me serás de máxima ajuda para conciliar a boa vontade deles para comigo. <small> [JDD] </small> </small> </p>
+; <p> magistratus quae uisa sunt occultant quae esse ex <b>usu</b> iudicauerunt multitudini produnt <br> <small> Caes.Gal.6.20.3 <br> Os magistrados ocultam o que lhes parece, e mostram para a multidão aquilo que julgaram ser de utilidade. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> sapienti et manibus et oculis et multis ad cotidianum <b>usum</b> necessariis opus est eget nulla re <br> <small> Sen.Ep.9.14 <br> O sábio precisa das mãos e dos olhos e de muitas coisas indispensáveis para o uso cotidiano, mas não sente falta de nada. <small> [JDD] </small> </small> </p>
+; <p> habet autem non tantum <b>usus</b> amicitiae ueteris et certae magnam uoluptatem sed etiam initium et comparatio nouae <br> <small> Sen.Ep.9.6 <br> Por outro lado, tem um grande prazer não só o cultivo de uma velha e sólida amizade, mas também o início e a consecução de uma nova. <small> [JDD] </small> </small> </p>
+; <p> nam implicati ultro et citro uel <b>usu</b> diuturno uel etiam officiis repente in medio cursu amicitias exorta aliqua offensione disrumpimus <br> <small> Cic.Amici.85 <br> Pois envolvidos de um lado e de outro seja por uma relação prolongada, seja até mesmo pelos deveres, de repente, surgida alguma ofensa, rompemos as amizades no meio do caminho. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-115-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 10.57 and an absolute frequency of 28. The Phaedrus subcorpus follows, with a normalized frequency of 3.04 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 28 ; absolute frequency: 10.5748168290656. subcorpus: Cicero ; normalized frequency: 31 ; absolute frequency: 1.93117540056316. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 6 ; absolute frequency: 5.56534644281607. subcorpus: Seneca ; normalized frequency: 18 ; absolute frequency: 3.35939978723801. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-115-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 8.28 and an absolute frequency of 34. The Prosa.histórica subcorpus follows, with a normalized frequency of 8.28 and an absolute frequency of 34. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 34 ; absolute frequency: 8.2767350714477. subcorpus: Prosa.filosófica ; normalized frequency: 27 ; absolute frequency: 4.44803215762508. subcorpus: Prosa.oratória ; normalized frequency: 15 ; absolute frequency: 1.44018895279061. subcorpus: Prosa.epistolográfica ; normalized frequency: 6 ; absolute frequency: 1.58986724608495. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-115-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 3.37 and an absolute frequency of 22. The I.a.C. subcorpus follows, with a normalized frequency of 3.16 and an absolute frequency of 68. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 68 ; absolute frequency: 3.16499883639749. subcorpus: I.d.C. ; normalized frequency: 22 ; absolute frequency: 3.36545816123604. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

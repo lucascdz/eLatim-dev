@@ -1,0 +1,211 @@
+---
+title: "laudo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx108-97-117-100-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>laudō</b> <b>-ás</b> <b>-áre</b> <b>-áví, -átum</b> <br> <small>v. tr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Louvar, elogiar, celebrar, gabar, exaltar &ensp; <small>Cíc. Mil. 99: Cíc. Sest. 74.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Pronunciar o elogio fúnebre &ensp; <small>Cíc. Mur. 75.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Exaltar a felicidade de alguém &ensp; <small>Hor. Sát. 1. 1. 9.</small> <br> <b>4</b> &ensp; <small>II-Por extensão:</small> &ensp; Nomear, chamar, citar &ensp; <small>Cíc. De Or. 3, 68.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Laudo</b> -<b>as</b> -<b>avi</b> -<b>atum</b> -<b>are</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; louvar. <br> <b>2</b> &ensp; nomear, citar para testemunha. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Laudo</b> -<b>as</b> -<b>aui</b>   <p> <b>1</b> &ensp; louuar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/110078 ' target="_blank"> http://lila-erc.eu/data/id/lemma/110078 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> laudo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> laudare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> laudabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> laudaui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> laudatum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> laudaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+laudō 
+ laudās 
+ laudāre 
+ laudāvī 
+ laudātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx108-97-117-100-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx108-97-117-100-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword laudo here are all the values plotted: collocate: iure; scoreSUBST: 0. collocate: ita; scoreSUBST: 0. collocate: quod; scoreSUBST: 0. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx108-97-117-100-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword laudo here are all the values plotted: collocate: iure; scoreADJ: 0. collocate: ita; scoreADJ: 0. collocate: quod; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx108-97-117-100-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword laudo here are all the values plotted: collocate: iure; scoreVERBO: 0. collocate: ita; scoreVERBO: 0. collocate: quod; scoreVERBO: 0. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx108-97-117-100-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword laudo here are all the values plotted: collocate: iure; scoreADV: 2. collocate: ita; scoreADV: 2. collocate: quod; scoreADV: 0. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx108-97-117-100-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword laudo here are all the values plotted: collocate: iure; scoreFUNC: 0. collocate: ita; scoreFUNC: 0. collocate: quod; scoreFUNC: 20. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> sed si ita placuit <b>laudemus</b> <br> <small> Cic.Att.2.1.10 <br> Mas se assim agradou, louvemos. <small> [JDD] </small> </small> </p>
+; <p> cur senatum cogor quem <b>laudaui</b> semper reprehendere <br> <small> Cic.Phil.7.14.1 <br> Por que sou obrigado a repreender o senado, que sempre louvei:? <small> [JDD] </small> </small> </p>
+; <p> alteram ne <b>laudarem</b> eum quem non amabam <br> <small> Cic.Att.2.7.1 <br> o outro para não elogiar quem eu não estimava. <small> [JDD] </small> </small> </p>
+; <p> at idem quod sale multo urbem defricuit charta <b>laudatur</b> eadem <br> <small> Hor.S.1.10.3 <br> “Mas ele também, por ter esfregado a cidade com muito sal, é louvado na mesma folha”. <small> [JDD] </small> </small> </p>
+; <p> <b>Laudatis</b> utiliora quae contempseris Saepe inveniri haec asserit narratio . <br> <small> Phaed.1.12 <br> Esta narração é testemunha de que, muitas vezes, se revelam mais úteis as coisas que desprezas do que as louvadas. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> deinde L. Flaccus et C. Pomptinus praetores quod eorum opera forti fidelique usus essem merito ac iure <b>laudantur</b> <br> <small> Cic.Catil.3.14.3 <br> Em seguida os pretores Lúcio Flaco e Caio Pomptino, por eu ter me valido da corajosa e fiel colaboração deles, são louvados com razão e justiça. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx108-97-117-100-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 13.32 and an absolute frequency of 15. The Seneca subcorpus follows, with a normalized frequency of 3.17 and an absolute frequency of 17. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 73 ; absolute frequency: 4.54760658842291. subcorpus: Horatius ; normalized frequency: 15 ; absolute frequency: 13.3203090311695. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 6 ; absolute frequency: 9.10885076666161. subcorpus: Sallustius ; normalized frequency: 8 ; absolute frequency: 7.42046192375475. subcorpus: Seneca ; normalized frequency: 17 ; absolute frequency: 3.17276646572479. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx108-97-117-100-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 13.46 and an absolute frequency of 16. The Poesia.lírica subcorpus follows, with a normalized frequency of 13.46 and an absolute frequency of 16. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 12 ; absolute frequency: 2.92120061345213. subcorpus: Prosa.filosófica ; normalized frequency: 22 ; absolute frequency: 3.62432249880562. subcorpus: Prosa.oratória ; normalized frequency: 46 ; absolute frequency: 4.41657945522453. subcorpus: Prosa.epistolográfica ; normalized frequency: 21 ; absolute frequency: 5.56453536129733. subcorpus: Poesia.lírica ; normalized frequency: 16 ; absolute frequency: 13.460082443005. subcorpus: Poesia.didática ; normalized frequency: 7 ; absolute frequency: 5.93773856985325. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx108-97-117-100-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 10.47 and an absolute frequency of 4. The I.a.C. subcorpus follows, with a normalized frequency of 4.51 and an absolute frequency of 97. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 97 ; absolute frequency: 4.51477775191994. subcorpus: I.d.C. ; normalized frequency: 24 ; absolute frequency: 3.67140890316659. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

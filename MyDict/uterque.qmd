@@ -1,0 +1,208 @@
+---
+title: "uterque"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-116-101-114-113-117-101xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>utērque</b> <b>utràque, utrúmque</b> <br> <small>pron.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Um e outro, cada um de &ensp; <small>Cíc. Rep. 3, 4.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Uns e outros, ambos &ensp; <small>no pl. Cíc. Mur. 26.</small> </p> 
+ <b>utraeque</b> <br> <small>gen. e dat.</small> <br> <small>v. utérque.</small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Uterque</b> <b>utraque</b> -<b>trumque</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; hum, e outro. </p>
+
+
+
+
+#### Velez
+
+<small>et c.</small> <b>Uterque</b>   <p> <b>1</b> &ensp; hum, e outro </p>
+
+
+
+
+#### Cardoso
+
+<b>Vterque</b> <b>utraque</b> <b>utrunque</b>   <p> <b>1</b> &ensp; hum & outro </p> 
+ <b>Vtrunque</b>   <p> <b>1</b> &ensp; <small>Dir-se-ha a arma que sirue de ambas as mãos.</small> </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/135768 ' target="_blank"> http://lila-erc.eu/data/id/lemma/135768 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> 1ª classe, pronominal (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ŭterquĕ 
+ ŭtrăquĕ 
+ ŭtrumquĕ
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-116-101-114-113-117-101xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword uterque here are all the values plotted: collocate: pars; scoreSUBST: 3. collocate: siue2; scoreSUBST: 0. collocate: castra; scoreSUBST: 2. collocate: nos; scoreSUBST: 0. collocate: uos; scoreSUBST: 0. collocate: autem; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: ad; scoreSUBST: 0. collocate: cum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-116-101-114-113-117-101xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword uterque here are all the values plotted: collocate: pars; scoreADJ: 0. collocate: siue2; scoreADJ: 0. collocate: castra; scoreADJ: 0. collocate: nos; scoreADJ: 0. collocate: uos; scoreADJ: 0. collocate: autem; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: cum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-116-101-114-113-117-101xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword uterque here are all the values plotted: collocate: pars; scoreVERBO: 0. collocate: siue2; scoreVERBO: 0. collocate: castra; scoreVERBO: 0. collocate: nos; scoreVERBO: 0. collocate: uos; scoreVERBO: 0. collocate: autem; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: cum; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-116-101-114-113-117-101xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword uterque here are all the values plotted: collocate: pars; scoreADV: 0. collocate: siue2; scoreADV: 0. collocate: castra; scoreADV: 0. collocate: nos; scoreADV: 0. collocate: uos; scoreADV: 0. collocate: autem; scoreADV: 0. collocate: in; scoreADV: 0. collocate: ad; scoreADV: 0. collocate: cum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-116-101-114-113-117-101xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword uterque here are all the values plotted: collocate: pars; scoreFUNC: 0. collocate: siue2; scoreFUNC: 0. collocate: castra; scoreFUNC: 0. collocate: nos; scoreFUNC: 0. collocate: uos; scoreFUNC: 0. collocate: autem; scoreFUNC: 0. collocate: in; scoreFUNC: 20. collocate: ad; scoreFUNC: 10. collocate: cum; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>utrique</b> nostrum honestum existimo <br> <small> Cic.Att.5.20.10 <br> estimo isso honroso para nós ambos <small> [JDD] </small> </small> </p>
+; <p> cum autem erit spatium <b>utrumque</b> praestabo <br> <small> Cic.Att.5.14.1 <br> porém, quando houver espaço, garantirei as duas coisas. <small> [JDD] </small> </small> </p>
+; <p> summa rei in <b>utroque</b> eadem est non torqueberis <br> <small> Sen.Ep.119.2 <br> O resultado é o mesmo em ambos os casos: não serás atormentado. <small> [JDD] </small> </small> </p>
+; <p> horum <b>utrumque</b> ei fortuna ad consulatus petitionem reseruauit <br> <small> Cic.Mur.37 <br> Cada uma dessas coisas a fortuna lhe reservou para a candidatura ao consulado. <small> [JDD] </small> </small> </p>
+; <p> quam ob rem <b>utrique</b> nostrum gratum admodum feceris <br> <small> Cic.Amici.16 <br> Por isso farás algo muito gratificante a cada um de nós. <small> [JDD] </small> </small> </p>
+; <p> hi ad <b>utramque</b> ripam fluminis agros aedificia uicosque habebant <br> <small> Caes.Gal.4.4.2 <br> estes tinham, em uma e outra margem do rio, campos, edifícios e aldeias. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> atque harum rerum commemorationem verecundia saepe impedivit <b>utriusque</b> nostrum <br> <small> Cic.Att.1.17.7 <br> E o recato de cada um de nós dois frequentemente impediu a lembrança dessas coisas. <small> [JDD] </small> </small> </p>
+; <p> remoue existimationem hominum dubia semper est et in partem <b>utramque</b> diuiditur <br> <small> Sen.Ep.26.6 <br> Deixa de lado a opinião dos homens: é sempre dúbia e se divide para um lado e para o outro. <small> [JDD] </small> </small> </p>
+; <p> de me autem ut iam cum <b>utroque</b> uestrum loquar sic habetote <br> <small> Cic.Amici.10 <br> Já a meu respeito, conforme eu fale agora com cada um de vós, considerai assim. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> hic locus aequum fere spatium a castris <b>utriusque</b> Ariouisti et Caesaris aberat <br> <small> Caes.Gal.1.43.1 <br> Este local estava afastado um espaço quase igual dos acampamentos de ambos, de Ariovisto e de César. <small> [JDD] </small> </small> </p>
+; <p> nam siue in communi gaudio populi Romani uni gratulabantur magnum iudicium siue uni gratias agebant eo maius siue <b>utrumque</b> nihil magnificentius cogitari potest <br> <small> Cic.Phil.14.13.3 <br> Com efeito, se na comum alegria do povo romano felicitavam a um só, é um grande reconhecimento, se rendiam graças a um só, esse é maior, se ambas as coisas, não se pode imaginar nada mais grandioso. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-116-101-114-113-117-101xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 8.88 and an absolute frequency of 10. The Caesar subcorpus follows, with a normalized frequency of 7.18 and an absolute frequency of 19. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 19 ; absolute frequency: 7.17576856258025. subcorpus: Cicero ; normalized frequency: 50 ; absolute frequency: 3.11479903316638. subcorpus: Horatius ; normalized frequency: 10 ; absolute frequency: 8.88020602077968. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 4 ; absolute frequency: 6.0725671777744. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 29 ; absolute frequency: 5.41236632388347. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-116-101-114-113-117-101xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 10.94 and an absolute frequency of 13. The Prosa.filosófica subcorpus follows, with a normalized frequency of 6.75 and an absolute frequency of 41. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 27 ; absolute frequency: 6.57270138026729. subcorpus: Prosa.filosófica ; normalized frequency: 41 ; absolute frequency: 6.75441920231957. subcorpus: Prosa.oratória ; normalized frequency: 27 ; absolute frequency: 2.59234011502309. subcorpus: Prosa.epistolográfica ; normalized frequency: 7 ; absolute frequency: 1.85484512043244. subcorpus: Poesia.lírica ; normalized frequency: 13 ; absolute frequency: 10.9363169849415. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-116-101-114-113-117-101xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 5.05 and an absolute frequency of 33. The I.a.C. subcorpus follows, with a normalized frequency of 4.14 and an absolute frequency of 89. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 89 ; absolute frequency: 4.14242494763789. subcorpus: I.d.C. ; normalized frequency: 33 ; absolute frequency: 5.04818724185406. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

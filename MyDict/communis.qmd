@@ -1,0 +1,206 @@
+---
+title: "communis"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-111-109-109-117-110-105-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>commūnis</b> <b>-e</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Comum, que pertence a vários ou a todos, público, geral &ensp; <small>Cíc. C. M. 2.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Medíocre, banal, comum &ensp; <small>Cíc. Fam. 7, 1, 1.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Acessível, afável, benévolo &ensp; <small>Cíc. Mur. 66.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<small>m. f</small> <b>Communis</b> <small>n</small> -<b>ne</b> -<b>is</b> -<b>ior</b> <small>Suet</small> -<b>issimus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; commum, pertencente a muitos. <br> <b>2</b> &ensp; ordinario, vulgar, trivial. <br> <b>3</b> &ensp; affavel, humano, popular. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>communi sensu carere &ensp; <small><small>Hor</small></small> &ensp; <small>Ser tolo</small> <br> communis belli mars &ensp; <small><small>Cic</small></small> &ensp; <small>Vitoria tanto de huma, como de outra parte</small> </p>
+
+
+
+
+#### Velez
+
+<b>Communis</b> -<b>ne</b> <small>et</small>   <p> <b>1</b> &ensp; cousa commua &ensp; <small>Dat. vel Gen. & interdum abl. cum praepos. cum.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Communis</b> -<b>e</b>   <p> <b>1</b> &ensp; cousa commũ. ou igual </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/97171 ' target="_blank"> http://lila-erc.eu/data/id/lemma/97171 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 2ª classe (tema em -i-) <br>
+<small> outras grafias: </small> commoinis, comunis, conmunis <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+commūnis 
+ commūne
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-111-109-109-117-110-105-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-111-109-109-117-110-105-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword communis here are all the values plotted: collocate: salus; scoreSUBST: 3. collocate: sensus; scoreSUBST: 2. collocate: uita; scoreSUBST: 2. collocate: natura; scoreSUBST: 2. collocate: pro; scoreSUBST: 0. collocate: consilium; scoreSUBST: 2. collocate: causa; scoreSUBST: 2. collocate: ad; scoreSUBST: 0. collocate: omnis; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-111-109-109-117-110-105-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword communis here are all the values plotted: collocate: salus; scoreADJ: 0. collocate: sensus; scoreADJ: 0. collocate: uita; scoreADJ: 0. collocate: natura; scoreADJ: 0. collocate: pro; scoreADJ: 0. collocate: consilium; scoreADJ: 0. collocate: causa; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-111-109-109-117-110-105-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword communis here are all the values plotted: collocate: salus; scoreVERBO: 0. collocate: sensus; scoreVERBO: 0. collocate: uita; scoreVERBO: 0. collocate: natura; scoreVERBO: 0. collocate: pro; scoreVERBO: 0. collocate: consilium; scoreVERBO: 0. collocate: causa; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0. collocate: sum; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-111-109-109-117-110-105-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword communis here are all the values plotted: collocate: salus; scoreADV: 0. collocate: sensus; scoreADV: 0. collocate: uita; scoreADV: 0. collocate: natura; scoreADV: 0. collocate: pro; scoreADV: 0. collocate: consilium; scoreADV: 0. collocate: causa; scoreADV: 0. collocate: ad; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-111-109-109-117-110-105-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword communis here are all the values plotted: collocate: salus; scoreFUNC: 0. collocate: sensus; scoreFUNC: 0. collocate: uita; scoreFUNC: 0. collocate: natura; scoreFUNC: 0. collocate: pro; scoreFUNC: 20. collocate: consilium; scoreFUNC: 0. collocate: causa; scoreFUNC: 0. collocate: ad; scoreFUNC: 20. collocate: omnis; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Atque haec quidem quaestio <b>communis</b> est omnium philosophorum <br> <small> Cic.Off.1.5 <br> E, na verdade, esta questão é comum a todos os filósofos. <small> [JDD] </small> </small> </p>
+; <p> sed ut omittam <b>communem</b> causam ueniamus ad nostram <br> <small> Cic.Lig.20 <br> Mas para deixar a causa comum, vamos à nossa. <small> [JDD] </small> </small> </p>
+; <p> est enim <b>commune</b> cum multis et cum quibusdam bonis <br> <small> Cic.Cael.14 <br> Pois ela é comum a muitos e a alguns bons. <small> [JDD] </small> </small> </p>
+; <p> hoc primum philosophia promittit sensum <b>communem</b> humanitatem et congregationem <br> <small> Sen.Ep.5.4 <br> É isso que em primeiro lugar a filosofia promete, o senso comum, a cortesia e sociabilidade. <small> [JDD] </small> </small> </p>
+; <p> sciunt enim ipsos omnia habere <b>communia</b> et quidem magis aduersa <br> <small> Sen.Ep.6.3 <br> Porque sabem que eles têm todas as coisas em comum, e mais ainda as adversas. <small> [JDD] </small> </small> </p>
+; <p> causa tamen praecipua mihi uidetur huius morbi uitae <b>communis</b> fastidium <br> <small> Sen.Ep.122.18 <br> Contudo a causa principal dessa doença me parece ser o fastio da vida ordinária. <small> [JDD] </small> </small> </p>
+; <p> quomodo ad aliam proprietatem peruenit cum utrique praecipuum illud <b>commune</b> sit secundum naturam esse <br> <small> Sen.Ep.118.13 <br> De que modo ele chegou à outra característica quando ambas têm essa particularidade comum: estar em conformidade com a natureza?” <small> [JDD] </small> </small> </p>
+; <p> ceteri uero di immortales qua frequentia quo studio qua uirtute ad <b>communem</b> salutem dignitatemque consentiunt <br> <small> Cic.Catil.4.15.4 <br> Os demais, porém, deuses imortais! com que afluência, com que entusiasmo, com que energia se põem de acordo para a salvação e dignidade comum! <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quid de tribunis aerariis ceterorumque ordinum omnium hominibus qui tum arma pro <b>communi</b> libertate ceperunt <br> <small> Cic.Rab.Perd.27 <br> E dos tribunos do erário e de todas as pessoas das demais ordens que na época pegaram em armas em defesa da liberdade comum? <small> [JDD] </small> </small> </p>
+; <p> ea re permissa diem concilio constituerunt et iure iurando ne quis enuntiaret nisi quibus <b>communi</b> consilio mandatum esset inter se sanxerunt <br> <small> Caes.Gal.1.30.5 <br> Obtida a permissão, fixaram o dia para o conselho e, sob juramento, estabeleceram solenemente entre si que ninguém revelaria nada, a não ser aos que, por decisão comum, tinham o mandato. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-111-109-109-117-110-105-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 5.11 and an absolute frequency of 82. The Vergilius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 10 ; absolute frequency: 3.77672029609487. subcorpus: Cicero ; normalized frequency: 82 ; absolute frequency: 5.10827041439286. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 14 ; absolute frequency: 2.61286650118512. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-111-109-109-117-110-105-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 5.86 and an absolute frequency of 61. The Prosa.filosófica subcorpus follows, with a normalized frequency of 4.94 and an absolute frequency of 30. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 11 ; absolute frequency: 2.67776722899778. subcorpus: Prosa.filosófica ; normalized frequency: 30 ; absolute frequency: 4.94225795291676. subcorpus: Prosa.oratória ; normalized frequency: 61 ; absolute frequency: 5.85676840801513. subcorpus: Prosa.epistolográfica ; normalized frequency: 5 ; absolute frequency: 1.32488937173746. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-111-109-109-117-110-105-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 4.49 and an absolute frequency of 2. The I.a.C. subcorpus follows, with a normalized frequency of 4.42 and an absolute frequency of 95. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 95 ; absolute frequency: 4.42168955084943. subcorpus: I.d.C. ; normalized frequency: 17 ; absolute frequency: 2.60058130640967. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

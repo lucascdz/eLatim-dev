@@ -1,0 +1,243 @@
+---
+title: "non"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-111-110xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>nōn</b> <br> <small>adv. de negação</small> <br> <small>Obs.: Notem-se as expressões: a non ita, non tam Cíc. Verr. 4, 109 "não assim exatamente"; b non tam... quam Cíc. C. M. 27 "não tanto quanto, i. e., menos ... que"; c non fere quisquam Cíc. Verr. 5. 182 “quase ninguém”. Non é por excelência a negação do indicativo e da oração principal. Seu uso nas proibições não é permitido pela prosa clássica, mas frequente em poesia.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Não &ensp; <small>colocado antes do verbo.</small> <br> <b>2</b> &ensp; <small>Aparece junto do nome quando a ele se refere:</small> &ensp; <small></small> <br> <b>3</b> &ensp; <small></small> &ensp; Não é verdade que, longe de &ensp; <small>Cíc. Oro 51.</small> <br> <b>4</b> &ensp; <small></small> &ensp; Ou melhor &ensp; <small>= non dico Cíc. Phil. 5, 24.</small> <br> <b>5</b> &ensp; <small></small> &ensp; Por acaso não &ensp; <small>quando a interrogação está no tom da frase, equivalendo nonne:</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>* non curia vires meas desiderat C íc. C. M. 32 “não é a cúria que lastima o desaparecimento de minhas forças”. <br> <br><b>5</b><br>non semper otio studui? Cíc. Phil. 8, 11 “por acaso não procurei sempre o repouso?”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Non</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; não. </p>
+
+
+
+
+#### Velez
+
+<b>Non</b>   <p> <b>1</b> &ensp; naõ </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>nonnihilo &ensp; <small>em alguma cousa</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Non</b> <br> <small>aduerb. negandi.</small>   <p> <b>1</b> &ensp; nam </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/114108 ' target="_blank"> http://lila-erc.eu/data/id/lemma/114108 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+nōn
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-111-110xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword non here are all the values plotted: collocate: possum; scoreSUBST: 0. collocate: modo; scoreSUBST: 0. collocate: sum; scoreSUBST: 0. collocate: solum; scoreSUBST: 0. collocate: enim; scoreSUBST: 0. collocate: ut; scoreSUBST: 0. collocate: uideo; scoreSUBST: 0. collocate: habeo; scoreSUBST: 0. collocate: dico; scoreSUBST: 0. collocate: dubito; scoreSUBST: 0. collocate: facio; scoreSUBST: 0. collocate: tam; scoreSUBST: 0. collocate: fero; scoreSUBST: 0. collocate: quia; scoreSUBST: 0. collocate: tantum; scoreSUBST: 0. collocate: licet; scoreSUBST: 0. collocate: puto; scoreSUBST: 0. collocate: uenio; scoreSUBST: 0. collocate: audeo; scoreSUBST: 0. collocate: intellego; scoreSUBST: 0. collocate: parum; scoreSUBST: 0. collocate: nonnullus; scoreSUBST: 0. collocate: debeo; scoreSUBST: 0. collocate: sine; scoreSUBST: 0. collocate: timeo; scoreSUBST: 0. collocate: paruus; scoreSUBST: 0. collocate: desum; scoreSUBST: 0. collocate: fio; scoreSUBST: 0. collocate: audio; scoreSUBST: 0. collocate: patior; scoreSUBST: 0. collocate: ample; scoreSUBST: 0. collocate: queo; scoreSUBST: 0. collocate: sino; scoreSUBST: 0. collocate: committo; scoreSUBST: 0. collocate: egeo; scoreSUBST: 0. collocate: aliter; scoreSUBST: 0. collocate: probo; scoreSUBST: 0. collocate: reddo; scoreSUBST: 0. collocate: longe; scoreSUBST: 0. collocate: secus; scoreSUBST: 0. collocate: fastidio; scoreSUBST: 0. collocate: libet; scoreSUBST: 0. collocate: acerbitas; scoreSUBST: 2. collocate: desisto; scoreSUBST: 0. collocate: extimesco; scoreSUBST: 0. collocate: effugio; scoreSUBST: 0. collocate: ignoro; scoreSUBST: 0. collocate: exprimo; scoreSUBST: 0. collocate: aeque; scoreSUBST: 0. collocate: lenis; scoreSUBST: 0. collocate: ligneolus; scoreSUBST: 0. collocate: recuso; scoreSUBST: 0. collocate: mehercule; scoreSUBST: 0. collocate: mediocris; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-111-110xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword non here are all the values plotted: collocate: possum; scoreADJ: 0. collocate: modo; scoreADJ: 0. collocate: sum; scoreADJ: 0. collocate: solum; scoreADJ: 0. collocate: enim; scoreADJ: 0. collocate: ut; scoreADJ: 0. collocate: uideo; scoreADJ: 0. collocate: habeo; scoreADJ: 0. collocate: dico; scoreADJ: 0. collocate: dubito; scoreADJ: 0. collocate: facio; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: fero; scoreADJ: 0. collocate: quia; scoreADJ: 0. collocate: tantum; scoreADJ: 0. collocate: licet; scoreADJ: 0. collocate: puto; scoreADJ: 0. collocate: uenio; scoreADJ: 0. collocate: audeo; scoreADJ: 0. collocate: intellego; scoreADJ: 0. collocate: parum; scoreADJ: 0. collocate: nonnullus; scoreADJ: 0. collocate: debeo; scoreADJ: 0. collocate: sine; scoreADJ: 0. collocate: timeo; scoreADJ: 0. collocate: paruus; scoreADJ: 2. collocate: desum; scoreADJ: 0. collocate: fio; scoreADJ: 0. collocate: audio; scoreADJ: 0. collocate: patior; scoreADJ: 0. collocate: ample; scoreADJ: 0. collocate: queo; scoreADJ: 0. collocate: sino; scoreADJ: 0. collocate: committo; scoreADJ: 0. collocate: egeo; scoreADJ: 0. collocate: aliter; scoreADJ: 0. collocate: probo; scoreADJ: 0. collocate: reddo; scoreADJ: 0. collocate: longe; scoreADJ: 0. collocate: secus; scoreADJ: 0. collocate: fastidio; scoreADJ: 0. collocate: libet; scoreADJ: 0. collocate: acerbitas; scoreADJ: 0. collocate: desisto; scoreADJ: 0. collocate: extimesco; scoreADJ: 0. collocate: effugio; scoreADJ: 0. collocate: ignoro; scoreADJ: 0. collocate: exprimo; scoreADJ: 0. collocate: aeque; scoreADJ: 0. collocate: lenis; scoreADJ: 2. collocate: ligneolus; scoreADJ: 2. collocate: recuso; scoreADJ: 0. collocate: mehercule; scoreADJ: 0. collocate: mediocris; scoreADJ: 2'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-111-110xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword non here are all the values plotted: collocate: possum; scoreVERBO: 5. collocate: modo; scoreVERBO: 0. collocate: sum; scoreVERBO: 4. collocate: solum; scoreVERBO: 0. collocate: enim; scoreVERBO: 0. collocate: ut; scoreVERBO: 0. collocate: uideo; scoreVERBO: 2. collocate: habeo; scoreVERBO: 2. collocate: dico; scoreVERBO: 2. collocate: dubito; scoreVERBO: 4. collocate: facio; scoreVERBO: 2. collocate: tam; scoreVERBO: 0. collocate: fero; scoreVERBO: 2. collocate: quia; scoreVERBO: 0. collocate: tantum; scoreVERBO: 0. collocate: licet; scoreVERBO: 3. collocate: puto; scoreVERBO: 2. collocate: uenio; scoreVERBO: 2. collocate: audeo; scoreVERBO: 3. collocate: intellego; scoreVERBO: 2. collocate: parum; scoreVERBO: 0. collocate: nonnullus; scoreVERBO: 0. collocate: debeo; scoreVERBO: 2. collocate: sine; scoreVERBO: 0. collocate: timeo; scoreVERBO: 2. collocate: paruus; scoreVERBO: 0. collocate: desum; scoreVERBO: 2. collocate: fio; scoreVERBO: 2. collocate: audio; scoreVERBO: 1. collocate: patior; scoreVERBO: 2. collocate: ample; scoreVERBO: 0. collocate: queo; scoreVERBO: 2. collocate: sino; scoreVERBO: 2. collocate: committo; scoreVERBO: 2. collocate: egeo; scoreVERBO: 2. collocate: aliter; scoreVERBO: 0. collocate: probo; scoreVERBO: 2. collocate: reddo; scoreVERBO: 2. collocate: longe; scoreVERBO: 0. collocate: secus; scoreVERBO: 0. collocate: fastidio; scoreVERBO: 2. collocate: libet; scoreVERBO: 2. collocate: acerbitas; scoreVERBO: 0. collocate: desisto; scoreVERBO: 2. collocate: extimesco; scoreVERBO: 2. collocate: effugio; scoreVERBO: 2. collocate: ignoro; scoreVERBO: 2. collocate: exprimo; scoreVERBO: 2. collocate: aeque; scoreVERBO: 0. collocate: lenis; scoreVERBO: 0. collocate: ligneolus; scoreVERBO: 0. collocate: recuso; scoreVERBO: 2. collocate: mehercule; scoreVERBO: 0. collocate: mediocris; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-111-110xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword non here are all the values plotted: collocate: possum; scoreADV: 0. collocate: modo; scoreADV: 5. collocate: sum; scoreADV: 0. collocate: solum; scoreADV: 5. collocate: enim; scoreADV: 3. collocate: ut; scoreADV: 0. collocate: uideo; scoreADV: 0. collocate: habeo; scoreADV: 0. collocate: dico; scoreADV: 0. collocate: dubito; scoreADV: 0. collocate: facio; scoreADV: 0. collocate: tam; scoreADV: 2. collocate: fero; scoreADV: 0. collocate: quia; scoreADV: 0. collocate: tantum; scoreADV: 3. collocate: licet; scoreADV: 0. collocate: puto; scoreADV: 0. collocate: uenio; scoreADV: 0. collocate: audeo; scoreADV: 0. collocate: intellego; scoreADV: 0. collocate: parum; scoreADV: 2. collocate: nonnullus; scoreADV: 0. collocate: debeo; scoreADV: 0. collocate: sine; scoreADV: 0. collocate: timeo; scoreADV: 0. collocate: paruus; scoreADV: 0. collocate: desum; scoreADV: 0. collocate: fio; scoreADV: 0. collocate: audio; scoreADV: 0. collocate: patior; scoreADV: 0. collocate: ample; scoreADV: 2. collocate: queo; scoreADV: 0. collocate: sino; scoreADV: 0. collocate: committo; scoreADV: 0. collocate: egeo; scoreADV: 0. collocate: aliter; scoreADV: 2. collocate: probo; scoreADV: 0. collocate: reddo; scoreADV: 0. collocate: longe; scoreADV: 2. collocate: secus; scoreADV: 2. collocate: fastidio; scoreADV: 0. collocate: libet; scoreADV: 0. collocate: acerbitas; scoreADV: 0. collocate: desisto; scoreADV: 0. collocate: extimesco; scoreADV: 0. collocate: effugio; scoreADV: 0. collocate: ignoro; scoreADV: 0. collocate: exprimo; scoreADV: 0. collocate: aeque; scoreADV: 2. collocate: lenis; scoreADV: 0. collocate: ligneolus; scoreADV: 0. collocate: recuso; scoreADV: 0. collocate: mehercule; scoreADV: 0. collocate: mediocris; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-111-110xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword non here are all the values plotted: collocate: possum; scoreFUNC: 0. collocate: modo; scoreFUNC: 0. collocate: sum; scoreFUNC: 0. collocate: solum; scoreFUNC: 0. collocate: enim; scoreFUNC: 0. collocate: ut; scoreFUNC: 20. collocate: uideo; scoreFUNC: 0. collocate: habeo; scoreFUNC: 0. collocate: dico; scoreFUNC: 0. collocate: dubito; scoreFUNC: 0. collocate: facio; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: fero; scoreFUNC: 0. collocate: quia; scoreFUNC: 30. collocate: tantum; scoreFUNC: 0. collocate: licet; scoreFUNC: 0. collocate: puto; scoreFUNC: 0. collocate: uenio; scoreFUNC: 0. collocate: audeo; scoreFUNC: 0. collocate: intellego; scoreFUNC: 0. collocate: parum; scoreFUNC: 0. collocate: nonnullus; scoreFUNC: 0. collocate: debeo; scoreFUNC: 0. collocate: sine; scoreFUNC: 20. collocate: timeo; scoreFUNC: 0. collocate: paruus; scoreFUNC: 0. collocate: desum; scoreFUNC: 0. collocate: fio; scoreFUNC: 0. collocate: audio; scoreFUNC: 0. collocate: patior; scoreFUNC: 0. collocate: ample; scoreFUNC: 0. collocate: queo; scoreFUNC: 0. collocate: sino; scoreFUNC: 0. collocate: committo; scoreFUNC: 0. collocate: egeo; scoreFUNC: 0. collocate: aliter; scoreFUNC: 0. collocate: probo; scoreFUNC: 0. collocate: reddo; scoreFUNC: 0. collocate: longe; scoreFUNC: 0. collocate: secus; scoreFUNC: 0. collocate: fastidio; scoreFUNC: 0. collocate: libet; scoreFUNC: 0. collocate: acerbitas; scoreFUNC: 0. collocate: desisto; scoreFUNC: 0. collocate: extimesco; scoreFUNC: 0. collocate: effugio; scoreFUNC: 0. collocate: ignoro; scoreFUNC: 0. collocate: exprimo; scoreFUNC: 0. collocate: aeque; scoreFUNC: 0. collocate: lenis; scoreFUNC: 0. collocate: ligneolus; scoreFUNC: 0. collocate: recuso; scoreFUNC: 0. collocate: mehercule; scoreFUNC: 0. collocate: mediocris; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>non</b> lubet fugere <br> <small> Cic.Att.2.18.3 <br> Não tenho vontade de fugir. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>non</b> dubitat facere <br> <small> Cic.Att.4.3.5 <br> Não duvida em fazê-lo. <small> [JDD] </small> </small> </p>
+; <p> <b>non</b> dubitant iurare ceteri <br> <small> Cic.Att.2.18.2 <br> Todos os demais não hesitam em jurar. <small> [JDD] </small> </small> </p>
+; <p> <b>non</b> probabunt nisi agnouerint <br> <small> Sen.Ep.29.11 <br> não te aprovarão se não te reconhecerem. <small> [JDD] </small> </small> </p>
+; <p> ille uero <b>non</b> patitur <br> <small> Sen.Prov.6.1 <br> Ele, na verdade, não consente. <small> [JDD] </small> </small> </p>
+; <p> an <b>non</b> est professus <br> <small> Cic.Arch.9 <br> Será que ele não se registrou? <small> [JDD] </small> </small> </p>
+; <p> fructum domesticum <b>non</b> habent <br> <small> Cic.Att.1.18.1 <br> não têm utilidade para minha vida doméstica. <small> [JDD] </small> </small> </p>
+; <p> animum debes mutare <b>non</b> caelum <br> <small> Sen.Ep.28.1 <br> Deves mudar o espírito, não o clima. <small> [JDD] </small> </small> </p>
+; <p> si <b>non</b> dixit cur dedit <br> <small> Cic.Cael.52 <br> Se não disse, por que ela deu? <small> [JDD] </small> </small> </p>
+; <p> quam multa <b>non</b> expectata uenerunt <br> <small> Sen.Ep.13.10 <br> Quantos não esperados vieram! <small> [JDD] </small> </small> </p>
+; <p> <b>non</b> mortem timemus sed cogitationem mortis <br> <small> Sen.Ep.30.17 <br> Não tememos a morte, mas o pensamento da morte. <small> [JDD] </small> </small> </p>
+; <p> nam Phaetho libertus eum <b>non</b> vidit <br> <small> Cic.Att.3.8.2 <br> De fato, o liberto Fetão não o viu. <small> [JDD] </small> </small> </p>
+; <p> <b>non</b> minimum quod soror praegnas est <br> <small> Cic.Att.1.10.5 <br> e não é o menor o fato de tua irmã estar grávida. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> lege enim collegi sui <b>non</b> tenebantur <br> <small> Cic.Att.3.23.4 <br> pois eles não estavam submetidos a uma lei de seu colégio. <small> [JDD] </small> </small> </p>
+; <p> sed ille ut scripsi <b>non</b> miser <br> <small> Cic.Att.4.6.2 <br> Mas ele, como escrevi, não é infeliz. <small> [JDD] </small> </small> </p>
+; <p> eum quia <b>non</b> videbam abesse putabam <br> <small> Cic.Att.4.8A.3 <br> Eu, porque não o via, achava que ele estava ausente. <small> [JDD] </small> </small> </p>
+; <p> <b>non</b> enim veni vocare iustos sed peccatores <br> <small> Vulg.Marc.2.17 <br> pois eu não vim chamar os justos, mas os pecadores. <small> [JDD] </small> </small> </p>
+; <p> ubi dominus odit fit nocens <b>non</b> quaeritur <br> <small> Sen.Ag.280 <br> Quando o amo odeia alguém, este se torna culpado; não se investiga. <small> [JDD] </small> </small> </p>
+; <p> infirmi animi est pati <b>non</b> posse diuitias <br> <small> Sen.Ep.5.6 <br> é próprio de um espírito fraco não poder suportar a riqueza. <small> [JDD] </small> </small> </p>
+; <p> bonos inimicos habet improbos ipsos <b>non</b> amicos <br> <small> Cic.Att.2.21.3 <br> Tem os homens de bem como inimigos, os próprios ímprobos não tem como amigos. <small> [JDD] </small> </small> </p>
+; <p> laborem si <b>non</b> recuses parum est posce <br> <small> Sen.Ep.31.6 <br> É pouco, se não recusas o trabalho; busca-o. <small> [JDD] </small> </small> </p>
+; <p> primum quaeritur an intellegat <b>non</b> quemadmodum intellegat <br> <small> Sen.Ep.121.19 <br> Em primeiro lugar se quer saber se ele entende, não como ele entende. <small> [JDD] </small> </small> </p>
+; <p> itaque oratio iuventuti nostrae deberi <b>non</b> potest <br> <small> Cic.Att.4.2.2 <br> E assim o discurso não pode deixar a dever à nossa juventude. <small> [JDD] </small> </small> </p>
+; <p> mirum illi uideri mittit iterum <b>non</b> redditur <br> <small> Cic.Ver.2.4.66.3 <br> A ele lhe parecia estranho; envia novamente; não é devolvido. <small> [JDD] </small> </small> </p>
+; <p> hunc iudicem ex kalendis Ianuariis <b>non</b> habebimus <br> <small> Cic.Ver.1.29 <br> Esse juiz não o teremos a partir das calendas de janeiro [1º. de janeiro]. <small> [JDD] </small> </small> </p>
+; <p> <b>non</b> enim dicentur tantum illa sed probabuntur <br> <small> Sen.Ep.20.9 <br> pois aquelas coisas não só serão ditas, mas serão provadas.” <small> [JDD] </small> </small> </p>
+; <p> <b>non</b> licet diuitias in sinu positas contemnere <br> <small> Sen.Ep.20.10 <br> Não é lícito desprezar as riquezas postas em seu poder? <small> [JDD] </small> </small> </p>
+; <p> sed de re publica <b>non</b> libet plura scribere <br> <small> Cic.Att.2.18.3 <br> Mas não tenho mais vontade de escrever sobre a república. <small> [JDD] </small> </small> </p>
+; <p> et puto si uenalis esset <b>non</b> haberet emptorem <br> <small> Sen.Ep.27.8 <br> e acho, se fosse vendável, não teria comprador. <small> [JDD] </small> </small> </p>
+; <p> <b>non</b> potest artifex mutare materiam hoc passa est <br> <small> Sen.Prov.5.9 <br> O artesão não pode mudar a matéria. Esta é a condição. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> hoc feci dum licuit intermisi quoad <b>non</b> licuit <br> <small> Cic.Phil.3.33.10 <br> Isso fiz, sempre que me foi permitido; deixei de fazer, enquanto não me foi permitido. <small> [JDD] </small> </small> </p>
+; <p> cum a proximis impetrare <b>non</b> possent ulteriores temptant <br> <small> Caes.Gal.6.2.2 <br> Como não pudessem consegui-lo dos mais próximos, tentam os mais afastados. <small> [JDD] </small> </small> </p>
+; <p> <b>non</b> sine magno quidem rei publicae prouinciaeque Siciliae detrimento <br> <small> Cic.Ver.2.4.20.7 <br> Na verdade, não sem um grande dano à república e à província da Sicília. <small> [JDD] </small> </small> </p>
+; <p> <b>non</b> potest fieri ut <b>non</b> aliquando succedat multa temptanti <br> <small> Sen.Ep.29.2 <br> não pode ocorrer que não tenha êxito algumas vezes quem tenta muitas coisas.” <small> [JDD] </small> </small> </p>
+; <p> prouinciae praefuit <b>non</b> minore iustitia quam fortitudine ; praefuit <br> <small> Suet.Aug.2.3.2 <br> Governou a província com não menor justiça do que valor. <small> [JDD] </small> </small> </p>
+; <p> multa quam superuacua essent <b>non</b> intelleximus nisi deesse coeperunt <br> <small> Sen.Ep.123.6 <br> Não entendemos quão supérfluas eram muitas coisas, a não ser quando começaram a faltar. <small> [JDD] </small> </small> </p>
+; <p> utebamur enim illis <b>non</b> quia debebamus sed quia habebamus <br> <small> Sen.Ep.123.6 <br> pois as usávamos não porque devíamos, mas porque as tínhamos. <small> [JDD] </small> </small> </p>
+; <p> Graecis querentibus ut in fano deponerent postulantibus <b>non</b> concessi <br> <small> Cic.Att.5.21.12 <br> aos gregos que se queixavam, postulando para depositar o dinheiro no templo, eu não concedi. <small> [JDD] </small> </small> </p>
+; <p> palus erat <b>non</b> magna inter nostrum atque hostium exercitum <br> <small> Caes.Gal.2.9.1 <br> Havia entre o nosso exército e o dos inimigos um charco não grande. <small> [JDD] </small> </small> </p>
+; <p> vereor enim ne dum defendam meos <b>non</b> parcam tuis <br> <small> Cic.Att.1.17.3 <br> pois receio que, defendendo os meus, eu não poupe os teus. <small> [JDD] </small> </small> </p>
+; <p> cognoscite Quirites <b>non</b> enim hoc sine causa quaeri uidetur <br> <small> Cic.Man.22 <br> Ficai sabendo, Quirites; pois isso não parece ser perguntado sem motivo. <small> [JDD] </small> </small> </p>
+; <p> Sallustium praesentem restituere in eius veterem gratiam <b>non</b> potui <br> <small> Cic.Att.1.3.3 <br> Não consegui devolver Salústio, que está aqui, à sua velha amizade. <small> [JDD] </small> </small> </p>
+; <p> illi finitimos Germanos sollicitare et pecuniam polliceri <b>non</b> desistunt <br> <small> Caes.Gal.6.2.1 <br> Eles não desistem de incitar os vizinhos germanos e de prometer-lhes dinheiro. <small> [JDD] </small> </small> </p>
+; <p> <b>non</b> tantum praesentis sed uigilantis est occasionem obseruare properantem <br> <small> Sen.Ep.22.3 <br> É próprio não somente de quem está presente, mas de quem está atento observar a ocasião que passa apressada. <small> [JDD] </small> </small> </p>
+; <p> <b>non</b> minus incerta in re publica quam in epistula tua <br> <small> Cic.Att.2.15.1 <br> que a situação não é menos incerta na república do em tua carta. <small> [JDD] </small> </small> </p>
+; <p> quaedam incremento <b>non</b> tantum in maius exeunt sed in aliud <br> <small> Sen.Ep.118.14 <br> Certas coisas, com o crescimento, não só se tornam maiores, mas também outras. <small> [JDD] </small> </small> </p>
+; <p> atque his irascebamur hos requirebamus his <b>non</b> nulli etiam minabantur <br> <small> Cic.Lig.33 <br> E estávamos irritados com eles, os procurávamos, alguns até mesmo os ameaçavam. <small> [JDD] </small> </small> </p>
+; <p> intus omne posui bonum <b>non</b> egere felicitate felicitas uestra est <br> <small> Sen.Prov.6.5 <br> Pus dentro todo o bem; não necessitar da felicidade é a vossa felicidade. <small> [JDD] </small> </small> </p>
+; <p> incredibile dicam sed ita clarum ut ipsum negaturum <b>non</b> arbitrer <br> <small> Cic.Ver.2.4.57.14 <br> Vou dizer algo incrível, mas tão evidente que eu creio que nem ele próprio vai negar. <small> [JDD] </small> </small> </p>
+; <p> ille autem <b>non</b> simulat sed plane tribunus plebis fieri cupit <br> <small> Cic.Att.2.1.5 <br> Já aquele não disfarça, mas revela abertamente o desejo de se tornar tribuno da plebe. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-111-110xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 182.15 and an absolute frequency of 976. The Cicero subcorpus follows, with a normalized frequency of 157.36 and an absolute frequency of 2526. the subcorpus with the least normalized frequency is Vergilius with the normalized value of 32.82 and an absolute freqeuncy of 17. here are all the values: subcorpus: Caesar ; normalized frequency: 198 ; absolute frequency: 74.7790618626784. subcorpus: Cicero ; normalized frequency: 2526 ; absolute frequency: 157.359647155566. subcorpus: Horatius ; normalized frequency: 115 ; absolute frequency: 102.122369238966. subcorpus: Ovidius ; normalized frequency: 32 ; absolute frequency: 54.9073438572409. subcorpus: Phaedrus ; normalized frequency: 52 ; absolute frequency: 78.9433733110672. subcorpus: Sallustius ; normalized frequency: 43 ; absolute frequency: 39.8849828401818. subcorpus: Seneca ; normalized frequency: 976 ; absolute frequency: 182.154121796906. subcorpus: Suetonius ; normalized frequency: 3 ; absolute frequency: 33.0760749724366. subcorpus: Tacitus ; normalized frequency: 27 ; absolute frequency: 92.6879505664264. subcorpus: Vergilius ; normalized frequency: 17 ; absolute frequency: 32.8185328185328. subcorpus: Hieronymus ; normalized frequency: 51 ; absolute frequency: 114.580993035273'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-111-110xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 187.97 and an absolute frequency of 1141. The Prosa.filosófica subcorpus follows, with a normalized frequency of 187.97 and an absolute frequency of 1141. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 32.82 and an absolute freqeuncy of 17. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 271 ; absolute frequency: 65.9704471871272. subcorpus: Prosa.filosófica ; normalized frequency: 1141 ; absolute frequency: 187.970544142601. subcorpus: Prosa.oratória ; normalized frequency: 1722 ; absolute frequency: 165.333691780362. subcorpus: Prosa.epistolográfica ; normalized frequency: 532 ; absolute frequency: 140.968229152866. subcorpus: Poesia.lírica ; normalized frequency: 116 ; absolute frequency: 97.585597711786. subcorpus: Poesia.didática ; normalized frequency: 83 ; absolute frequency: 70.4046144711171. subcorpus: Poesia.trágica ; normalized frequency: 107 ; absolute frequency: 92.9464906184851. subcorpus: Poesia.épica ; normalized frequency: 17 ; absolute frequency: 32.8185328185328. subcorpus: Prosa.ficcional ; normalized frequency: 51 ; absolute frequency: 114.580993035273'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-111-110xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 162 and an absolute frequency of 1059. The I.a.C. subcorpus follows, with a normalized frequency of 134.98 and an absolute frequency of 2900. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 78.53 and an absolute freqeuncy of 30. here are all the values: subcorpus: I.a.C. ; normalized frequency: 2900 ; absolute frequency: 134.977891552246. subcorpus: I.d.C. ; normalized frequency: 1059 ; absolute frequency: 162.000917852226. subcorpus: II.d.C. ; normalized frequency: 30 ; absolute frequency: 78.5340314136126. subcorpus: IV.d.C. ; normalized frequency: 51 ; absolute frequency: 114.580993035273'}
+
+
+:::
+

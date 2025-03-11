@@ -1,0 +1,201 @@
+---
+title: "signum"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-105-103-110-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>signum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Sinal, marca, distintivo, indício &ensp; <small>Verg. G. 1, 263.</small> <br> <b>2</b> &ensp; <small>II-Na linguagem militar</small> &ensp; Insígnia, insígnias que distinguem as divisões do exército, estandarte &ensp; <small>Cés. B. Gal. 5, 16, 1.</small> <br> <b>3</b> &ensp; <small>III-Na linguagem dos artistas:</small> &ensp; Figura pintada ou esculpida, estátua, efígie &ensp; <small>Cíc. Verr. 4, 1.</small> <br> <b>4</b> &ensp; <small>IV-Sent. particular:</small> &ensp; Selo, sinete &ensp; <small>Cíc. Cat. 3, 6.</small> <br> <b>5</b> &ensp; <small>IV-Sent. particular:</small> &ensp; Sinal, presságio, prognóstico, sintoma &ensp; <small>Verg. G. 3, 440.</small> <br> <b>6</b> &ensp; <small>IV-Sent. particular:</small> &ensp; Gesto, sinal &ensp; <small>militar Cés. B. Gal. 2, 20, 1.</small> <br> <b>7</b> &ensp; <small>IV-Sent. particular:</small> &ensp; Ordem, senha &ensp; <small>Suet. Cal. 56.</small> <br> <b>8</b> &ensp; <small>IV-Sent. particular:</small> &ensp; Manípulo, coorte, corpo de tropas, sinal de reunião &ensp; <small>Cíc. Pomp. 66.</small> <br> <b>9</b> &ensp; <small>IV-Sent. particular:</small> &ensp; Signa do Zodíaco, constelação, astro &ensp; <small>Cíc. Inv. 1, 59.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Signum</b> -<b>i</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; signal, indicio, mostra. <br> <b>2</b> &ensp; signo do Zodiaco. <br> <b>3</b> &ensp; estandarte, bandeira, guiaõ militar. <br> <b>4</b> &ensp; <small>Suet.</small> &ensp; santo para a sentinella. <br> <b>5</b> &ensp; <small>Cic.</small> &ensp; estatua, imagem. <br> <b>6</b> &ensp; sinete, figura impressa no sinete. <br> <b>7</b> &ensp; prodigio, presagio. <br> <b>8</b> &ensp; <small>Quinct.</small> &ensp; taboleta nas lojeas de venda. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Signum</b> <b>i</b>   <p> <b>1</b> &ensp; ho sinal. ou statua </p> 
+ <b>Signum</b> <b>i</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/124767 ' target="_blank"> http://lila-erc.eu/data/id/lemma/124767 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> signom <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+signī
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-105-103-110-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword signum here are all the values plotted: collocate: tabula; scoreSUBST: 2. collocate: confero; scoreSUBST: 0. collocate: pulcher; scoreSUBST: 0. collocate: do; scoreSUBST: 0. collocate: exercitus; scoreSUBST: 2. collocate: fero; scoreSUBST: 0. collocate: ille; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-105-103-110-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword signum here are all the values plotted: collocate: tabula; scoreADJ: 0. collocate: confero; scoreADJ: 0. collocate: pulcher; scoreADJ: 2. collocate: do; scoreADJ: 0. collocate: exercitus; scoreADJ: 0. collocate: fero; scoreADJ: 0. collocate: ille; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-105-103-110-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword signum here are all the values plotted: collocate: tabula; scoreVERBO: 0. collocate: confero; scoreVERBO: 2. collocate: pulcher; scoreVERBO: 0. collocate: do; scoreVERBO: 3. collocate: exercitus; scoreVERBO: 0. collocate: fero; scoreVERBO: 2. collocate: ille; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-105-103-110-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword signum here are all the values plotted: collocate: tabula; scoreADV: 0. collocate: confero; scoreADV: 0. collocate: pulcher; scoreADV: 0. collocate: do; scoreADV: 0. collocate: exercitus; scoreADV: 0. collocate: fero; scoreADV: 0. collocate: ille; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-105-103-110-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword signum here are all the values plotted: collocate: tabula; scoreFUNC: 0. collocate: confero; scoreFUNC: 0. collocate: pulcher; scoreFUNC: 0. collocate: do; scoreFUNC: 0. collocate: exercitus; scoreFUNC: 0. collocate: fero; scoreFUNC: 0. collocate: ille; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>Signa</b> dedi venisse deum , vulgusque precari coeperat : <br> <small> Ov.Met.1.220-1 <br> Dei sinais de que tinha chegado um deus, e o vulgo se pôs a orar. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> esse illa <b>signa</b> domi suae non esse apud Uerrem <br> <small> Cic.Ver.2.4.16.4 <br> Que aquelas estátuas estavam em sua casa, não na de Verres? <small> [JDD] </small> </small> </p>
+; <p> quid ista sacri <b>signa</b> terrifici ferant exprome uoces aure non timida hauriam <br> <small> Sen.Oed.384 <br> Explica o que nos trazem esses sinais do pavoroso sacrifício: devorarei tuas palavras com o ouvido não temeroso. <small> [JDD] </small> </small> </p>
+; <p> inde ad Taurum cogitabam ut cum Moeragene <b>signis</b> collatis si possem de servo tuo deciderem <br> <small> Cic.Att.5.15.3 <br> Dali penso ir a Tauro para resolver, se eu posso, em uma batalha com Merágenes, o caso de teu escravo. <small> [JDD] </small> </small> </p>
+; <p> sed ubi omnibus rebus exploratis Petreius tuba <b>signum</b> dat cohortis paulatim incedere iubet idem facit hostium exercitus <br> <small> Sal.Cat.60.1 <br> Mas assim que, examinados todas os detalhes, Petreio dá o sinal com a trombeta, manda as coortes avançarem paulatinamente; o mesmo faz o exército dos inimigos. <small> [JDD] </small> </small> </p>
+; <p> ante aedem Cereris in aperto ac propatulo loco <b>signa</b> duo sunt Cereris unum alterum Triptolemi pulcherrima ac perampla <br> <small> Cic.Ver.2.4.110.1 <br> 110 Diante do templo de Ceres, em um lugar aberto e espaçoso, há duas estátuas de Ceres e uma outra de Tripólemo, belíssimas e muito vastas. <small> [JDD] </small> </small> </p>
+; <p> ita iussisti opinor ipsum in tabulas referre haec omnia <b>signa</b> Praxiteli Myronis Polycliti hs sex milibus quingentis Uerri uendita <br> <small> Cic.Ver.2.4.12.6 <br> Tu ordenaste, eu acho, que ele próprio anotasse assim nas tabuinhas: “Todas estas estátuas de Praxíteles, de Mirão, de Policleto foram vendidas a Verres por seis mil e quinhentos sestércios”. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-105-103-110-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 10.2 and an absolute frequency of 11. The Caesar subcorpus follows, with a normalized frequency of 10.2 and an absolute frequency of 27. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 27 ; absolute frequency: 10.1971447994562. subcorpus: Cicero ; normalized frequency: 87 ; absolute frequency: 5.4197503177095. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 11 ; absolute frequency: 10.2031351451628. subcorpus: Seneca ; normalized frequency: 15 ; absolute frequency: 2.79949982269834. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-105-103-110-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 9.25 and an absolute frequency of 38. The Prosa.filosófica subcorpus follows, with a normalized frequency of 1.65 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Prosa.filosófica with the normalized value of 1.65 and an absolute freqeuncy of 10. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 38 ; absolute frequency: 9.25046860926508. subcorpus: Prosa.filosófica ; normalized frequency: 10 ; absolute frequency: 1.64741931763892. subcorpus: Prosa.oratória ; normalized frequency: 72 ; absolute frequency: 6.91290697339491. subcorpus: Prosa.epistolográfica ; normalized frequency: 13 ; absolute frequency: 3.4447123665174. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 7 ; absolute frequency: 6.08061153578874. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-105-103-110-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 6.74 and an absolute frequency of 3. The I.a.C. subcorpus follows, with a normalized frequency of 6.05 and an absolute frequency of 130. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 130 ; absolute frequency: 6.05073306958343. subcorpus: I.d.C. ; normalized frequency: 19 ; absolute frequency: 2.90653204834022. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+:::
+

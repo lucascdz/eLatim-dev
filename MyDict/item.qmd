@@ -1,0 +1,196 @@
+---
+title: "item"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-116-101-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>item</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Do mesmo modo, paralelamente, igualmente, bem como, também &ensp; <small>Cíc. Leg. 2, 52.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Item</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; da mesma sorte, tambem, outro sim. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Item</b> <br> <small>coniunctio.</small>   <p> <b>1</b> &ensp; otrosi </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/109131 ' target="_blank"> http://lila-erc.eu/data/id/lemma/109131 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ĭtĕm
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-116-101-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword item here are all the values plotted: collocate: alius; scoreSUBST: 0. collocate: que; scoreSUBST: 0. collocate: dico; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-116-101-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword item here are all the values plotted: collocate: alius; scoreADJ: 0. collocate: que; scoreADJ: 0. collocate: dico; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-116-101-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword item here are all the values plotted: collocate: alius; scoreVERBO: 0. collocate: que; scoreVERBO: 0. collocate: dico; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-116-101-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword item here are all the values plotted: collocate: alius; scoreADV: 0. collocate: que; scoreADV: 0. collocate: dico; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-116-101-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword item here are all the values plotted: collocate: alius; scoreFUNC: 0. collocate: que; scoreFUNC: 0. collocate: dico; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> totius theatri clamore dixit <b>item</b>que cetera <br> <small> Cic.Att.2.19.3 <br> disse, com o clamor de todo o teatro, e também o resto. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> dixit hoc <b>item</b> comes P. Clodi C. Clodius <br> <small> Cic.Mil.46 <br> Disse o mesmo Caio Clódio, acompanhante de Públio Clódio. <small> [JDD] </small> </small> </p>
+; <p> at aliae leges <b>item</b> condemnatis ciuibus non animam eripi sed exilium permitti iubent <br> <small> Sal.Cat.51.22 <br> Mas outras leis também prescrevem que não se tire a vida aos cidadãos condenados, mas que se lhes conceda o exílio. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-116-101-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 16.7 and an absolute frequency of 18. The Seneca subcorpus follows, with a normalized frequency of 0.56 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 27 ; absolute frequency: 10.1971447994562. subcorpus: Cicero ; normalized frequency: 41 ; absolute frequency: 2.55413520719643. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 18 ; absolute frequency: 16.6960393284482. subcorpus: Seneca ; normalized frequency: 3 ; absolute frequency: 0.559899964539669. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-116-101-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 11.2 and an absolute frequency of 46. The Prosa.filosófica subcorpus follows, with a normalized frequency of 0.99 and an absolute frequency of 6. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 46 ; absolute frequency: 11.1979356848998. subcorpus: Prosa.filosófica ; normalized frequency: 6 ; absolute frequency: 0.988451590583351. subcorpus: Prosa.oratória ; normalized frequency: 28 ; absolute frequency: 2.6883527118758. subcorpus: Prosa.epistolográfica ; normalized frequency: 10 ; absolute frequency: 2.64977874347492. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-116-101-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 4.05 and an absolute frequency of 87. The I.d.C. subcorpus follows, with a normalized frequency of 0.46 and an absolute frequency of 3. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 87 ; absolute frequency: 4.04933674656737. subcorpus: I.d.C. ; normalized frequency: 3 ; absolute frequency: 0.458926112895824. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

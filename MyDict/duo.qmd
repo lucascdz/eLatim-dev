@@ -1,0 +1,213 @@
+---
+title: "duo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-117-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>dua</b> <br> <small>antigo neutro criticado por Quintiliano. Quint. 1, 5, 151. v. duo.</small> <br> <small></small> 
+ <b>duo</b> <b>duae, duo</b> <br> <small>num. card.</small> <br> <small>obs.: Gen. arc. duum = duorum Sal. B. Jug. 106, 5.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Dois &ensp; <small>Cíc. Rep. 1, 15.</small> </p> 
+ <b>duum</b> <br> <small>= duorum, v. duo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Duo</b> -<b>ae</b> -<b>o</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; dous. </p>
+
+
+
+
+#### Velez
+
+<b>Duo</b> -<b>ae</b> -<b>o</b> <br> <small>ult. b.</small>   <p> <b>1</b> &ensp; dous </p>
+
+
+
+
+#### Cardoso
+
+<b>Duo</b> -<b>ae</b> <b>o</b>   <p> <b>1</b> &ensp; dous </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/100246 ' target="_blank"> http://lila-erc.eu/data/id/lemma/100246 </a> <br>
+<small> classe: </small> numeral    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+dŭŏ 
+ dŭae
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-117-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-117-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword duo here are all the values plotted: collocate: legio; scoreSUBST: 3. collocate: mille; scoreSUBST: 0. collocate: consul; scoreSUBST: 2. collocate: piscis; scoreSUBST: 2. collocate: cohors; scoreSUBST: 2. collocate: praeterea; scoreSUBST: 0. collocate: inter; scoreSUBST: 0. collocate: rex; scoreSUBST: 2. collocate: castra; scoreSUBST: 2. collocate: urbs; scoreSUBST: 2. collocate: pars; scoreSUBST: 2. collocate: aut; scoreSUBST: 0. collocate: hic; scoreSUBST: 0. collocate: cum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-117-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword duo here are all the values plotted: collocate: legio; scoreADJ: 0. collocate: mille; scoreADJ: 0. collocate: consul; scoreADJ: 0. collocate: piscis; scoreADJ: 0. collocate: cohors; scoreADJ: 0. collocate: praeterea; scoreADJ: 0. collocate: inter; scoreADJ: 0. collocate: rex; scoreADJ: 0. collocate: castra; scoreADJ: 0. collocate: urbs; scoreADJ: 0. collocate: pars; scoreADJ: 0. collocate: aut; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: cum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-117-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword duo here are all the values plotted: collocate: legio; scoreVERBO: 0. collocate: mille; scoreVERBO: 0. collocate: consul; scoreVERBO: 0. collocate: piscis; scoreVERBO: 0. collocate: cohors; scoreVERBO: 0. collocate: praeterea; scoreVERBO: 0. collocate: inter; scoreVERBO: 0. collocate: rex; scoreVERBO: 0. collocate: castra; scoreVERBO: 0. collocate: urbs; scoreVERBO: 0. collocate: pars; scoreVERBO: 0. collocate: aut; scoreVERBO: 0. collocate: hic; scoreVERBO: 0. collocate: cum; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-117-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword duo here are all the values plotted: collocate: legio; scoreADV: 0. collocate: mille; scoreADV: 0. collocate: consul; scoreADV: 0. collocate: piscis; scoreADV: 0. collocate: cohors; scoreADV: 0. collocate: praeterea; scoreADV: 2. collocate: inter; scoreADV: 0. collocate: rex; scoreADV: 0. collocate: castra; scoreADV: 0. collocate: urbs; scoreADV: 0. collocate: pars; scoreADV: 0. collocate: aut; scoreADV: 0. collocate: hic; scoreADV: 0. collocate: cum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-117-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword duo here are all the values plotted: collocate: legio; scoreFUNC: 0. collocate: mille; scoreFUNC: 0. collocate: consul; scoreFUNC: 0. collocate: piscis; scoreFUNC: 0. collocate: cohors; scoreFUNC: 0. collocate: praeterea; scoreFUNC: 0. collocate: inter; scoreFUNC: 20. collocate: rex; scoreFUNC: 0. collocate: castra; scoreFUNC: 0. collocate: urbs; scoreFUNC: 0. collocate: pars; scoreFUNC: 0. collocate: aut; scoreFUNC: 0. collocate: hic; scoreFUNC: 0. collocate: cum; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quinque et <b>duos</b> pisces <br> <small> Vulg.Marc.6.38 <br> Cinco e dois peixes. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> et <b>duos</b> pisces divisit omnibus <br> <small> Vulg.Marc.6.41 <br> e repartiu os dois peixes entre todos. <small> [JDD] </small> </small> </p>
+; <p> cum habeat <b>duo</b> facilis nihil difficilius <br> <small> Cic.Att.4.16.4 <br> embora ele tenha duas pessoas bem dispostas, não há nada mais difícil. <small> [JDD] </small> </small> </p>
+; <p> interim proelio equestri inter <b>duas</b> acies contendebatur <br> <small> Caes.Gal.2.9.2 <br> Nesse ínterim, travava-se, em batalha equestre, um combate entre as duas linhas. <small> [JDD] </small> </small> </p>
+; <p> si locare voluisses <b>duobus</b> his muneribus liber esses <br> <small> Cic.Att.4.4A.2 <br> Se tivesses querido alugá-los, com estes dois espetáculos terias amortizado a dívida. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> sunt praeterea <b>duae</b> breves quasi ἀποσπασμάτια legis agrariae <br> <small> Cic.Att.2.1.3 <br> Além desses, há dois curtos, como que fragmentos da lei agrária. <small> [JDD] </small> </small> </p>
+; <p> an quia non condemnaui sententia mea <b>duo</b> consules sum reprehendendus <br> <small> Cic.Dom.9 <br> 9 Por acaso devo ser repreendido porque não condenei com meu parecer os dois cônsules? <small> [JDD] </small> </small> </p>
+; <p> exercitus hostium <b>duo</b> unus ab urbe alter a Gallia obstant <br> <small> Sal.Cat.58.6 <br> Dois exércitos dos inimigos, um do lado da cidade, o outro do lado da Gália, nos barram a passagem. <small> [JDD] </small> </small> </p>
+; <p> horam unam aut <b>duas</b> eodem loco armatos ut conlocati fuerant retineri magnum fuit <br> <small> Cic.Deiot.19 <br> Foi complicado manter durante uma ou duas horas no mesmo local homens armados como tinham sido colocados? <small> [JDD] </small> </small> </p>
+; <p> Quae genus utrumque nosset cum pulcherrime , Legem <b>duabus</b> hanc proposuit partibus : <br> <small> Phaed.3.13 <br> Esta, uma vez que conhecia muito belamente ambos os gêneros, propôs para as duas partes esta lei. <small> [JDD] </small> </small> </p>
+; <p> iamque ab eo non longius bidui uia aberant cum <b>duas</b> uenisse legiones missu Caesaris cognoscunt <br> <small> Caes.Gal.6.7.2 <br> e já distavam dele não mais longe que dois dias de marcha, quando ficam sabendo que tinham chegado duas legiões por envio de César. <small> [JDD] </small> </small> </p>
+; <p> munitis castris <b>duas</b> ibi legiones reliquit et partem auxiliorum quattuor reliquas legiones in castra maiora reduxit <br> <small> Caes.Gal.1.49.5 <br> Fortificado o acampamento, deixou ali duas legiões e uma parte das tropas auxiliares, as quatro legiões restantes ele reconduziu para o acampamento maior. <small> [JDD] </small> </small> </p>
+; <p> et magno impetu grex praecipitatus est in mare ad <b>duo</b> milia et suffocati sunt in mare <br> <small> Vulg.Marc.5.13 <br> e com grande ímpeto a manada precipitou-se no mar e, eram cerca de dois mil, afogaram-se no mar. <small> [JDD] </small> </small> </p>
+; <p> propone tibi <b>duos</b> reges et id animo contemplare quod oculis non potes dabis profecto id misericordiae quod iracundiae denegasti <br> <small> Cic.Deiot.40 <br> Propõe-te dois reis e contempla em teu espírito o que não podes com os olhos: com certeza concederás à misericórdia o que negaste à ira. <small> [JDD] </small> </small> </p>
+; <p> cum hic in <b>duas</b> partes flumine diuideretur alteram partem eius uici Gallis ad hiemandum concessit alteram uacuam ab his relictam cohortibus attribuit <br> <small> Caes.Gal.3.1.6 <br> Como ele fosse dividido em duas partes por um rio, uma parte desse vilarejo concedeu aos gauleses para passarem o inverno, a outra, deixada vazia por estes, destinou às suas coortes. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-117-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 16.24 and an absolute frequency of 43. The Horatius subcorpus follows, with a normalized frequency of 2.66 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 43 ; absolute frequency: 16.2398972732079. subcorpus: Cicero ; normalized frequency: 103 ; absolute frequency: 6.41648600832274. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 9 ; absolute frequency: 15.442690459849. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 24 ; absolute frequency: 4.47919971631735. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-117-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 12.9 and an absolute frequency of 53. The Poesia.épica subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 53 ; absolute frequency: 12.9019693760802. subcorpus: Prosa.filosófica ; normalized frequency: 34 ; absolute frequency: 5.60122567997232. subcorpus: Prosa.oratória ; normalized frequency: 65 ; absolute frequency: 6.24081879542596. subcorpus: Prosa.epistolográfica ; normalized frequency: 25 ; absolute frequency: 6.6244468586873. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 9 ; absolute frequency: 7.63423530409704. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-117-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 11.23 and an absolute frequency of 5. The II.d.C. subcorpus follows, with a normalized frequency of 7.85 and an absolute frequency of 3. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 5.05 and an absolute freqeuncy of 33. here are all the values: subcorpus: I.a.C. ; normalized frequency: 159 ; absolute frequency: 7.40051198510589. subcorpus: I.d.C. ; normalized frequency: 33 ; absolute frequency: 5.04818724185406. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+:::
+

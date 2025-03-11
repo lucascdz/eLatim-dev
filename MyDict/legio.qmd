@@ -1,0 +1,207 @@
+---
+title: "legio"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx108-101-103-105-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>legĭō</b> <b>-ónis</b> <br> <small>subs. f.</small> <br> <small>Obs.: Passou-se da 1ª para a 2ª acepção ou porque os soldados eram escolhidos por ocasião do recrutamento ou porque, originariamente, cada combatente tinha o direito de escolher um companheiro de armas.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Escolha, faculdade de escolher: &ensp; <small></small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Legião &ensp; <small>divisão do exército romano Cés. B. Gal. 1. 42, 6.</small> <br> <b>3</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Tropas, baterias &ensp; <small>Plaut. Caso 50.</small> <br> <b>4</b> &ensp; <small>IV-Sent. poético:</small> &ensp; Exército &ensp; <small>Verg. En. 9, 368.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>tua est legio Plaut. Men. 188 “a escolha é tua”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Legio</b> -<b>onis</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; legião, regimento, tropa de gente na milicia Romana. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>supplere legiones &ensp; <small><small>Liv</small></small> &ensp; <small>Fazer reclutas de gente</small> </p>
+
+
+
+
+#### Velez
+
+<b>Legio</b> -<b>nis</b>   <p> <b>1</b> &ensp; legiaõ, contem 6. ou 7. mil soldados </p>
+
+
+
+
+#### Cardoso
+
+<b>Legio</b> <b>onis</b>   <p> <b>1</b> &ensp; a legião de gente de pee </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/110166 ' target="_blank"> http://lila-erc.eu/data/id/lemma/110166 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> lecio <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+lĕgĭō 
+ lĕgĭōnis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx108-101-103-105-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx108-101-103-105-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword legio here are all the values plotted: collocate: martius; scoreSUBST: 0. collocate: decimus; scoreSUBST: 0. collocate: duo; scoreSUBST: 0. collocate: tres; scoreSUBST: 0. collocate: quartus; scoreSUBST: 0. collocate: singulus; scoreSUBST: 0. collocate: hiberna; scoreSUBST: 2. collocate: impedimentum; scoreSUBST: 2. collocate: conscribo; scoreSUBST: 0. collocate: reliquus; scoreSUBST: 0. collocate: uirtus; scoreSUBST: 2. collocate: gero; scoreSUBST: 0. collocate: unus; scoreSUBST: 0. collocate: noster; scoreSUBST: 0. collocate: Caesar; scoreSUBST: 0. collocate: cum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx108-101-103-105-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword legio here are all the values plotted: collocate: martius; scoreADJ: 4. collocate: decimus; scoreADJ: 3. collocate: duo; scoreADJ: 0. collocate: tres; scoreADJ: 0. collocate: quartus; scoreADJ: 2. collocate: singulus; scoreADJ: 2. collocate: hiberna; scoreADJ: 0. collocate: impedimentum; scoreADJ: 0. collocate: conscribo; scoreADJ: 0. collocate: reliquus; scoreADJ: 0. collocate: uirtus; scoreADJ: 0. collocate: gero; scoreADJ: 0. collocate: unus; scoreADJ: 0. collocate: noster; scoreADJ: 0. collocate: Caesar; scoreADJ: 0. collocate: cum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx108-101-103-105-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword legio here are all the values plotted: collocate: martius; scoreVERBO: 0. collocate: decimus; scoreVERBO: 0. collocate: duo; scoreVERBO: 0. collocate: tres; scoreVERBO: 0. collocate: quartus; scoreVERBO: 0. collocate: singulus; scoreVERBO: 0. collocate: hiberna; scoreVERBO: 0. collocate: impedimentum; scoreVERBO: 0. collocate: conscribo; scoreVERBO: 2. collocate: reliquus; scoreVERBO: 0. collocate: uirtus; scoreVERBO: 0. collocate: gero; scoreVERBO: 2. collocate: unus; scoreVERBO: 0. collocate: noster; scoreVERBO: 0. collocate: Caesar; scoreVERBO: 0. collocate: cum; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx108-101-103-105-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword legio here are all the values plotted: collocate: martius; scoreADV: 0. collocate: decimus; scoreADV: 0. collocate: duo; scoreADV: 0. collocate: tres; scoreADV: 0. collocate: quartus; scoreADV: 0. collocate: singulus; scoreADV: 0. collocate: hiberna; scoreADV: 0. collocate: impedimentum; scoreADV: 0. collocate: conscribo; scoreADV: 0. collocate: reliquus; scoreADV: 0. collocate: uirtus; scoreADV: 0. collocate: gero; scoreADV: 0. collocate: unus; scoreADV: 0. collocate: noster; scoreADV: 0. collocate: Caesar; scoreADV: 0. collocate: cum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx108-101-103-105-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword legio here are all the values plotted: collocate: martius; scoreFUNC: 0. collocate: decimus; scoreFUNC: 0. collocate: duo; scoreFUNC: 0. collocate: tres; scoreFUNC: 0. collocate: quartus; scoreFUNC: 0. collocate: singulus; scoreFUNC: 0. collocate: hiberna; scoreFUNC: 0. collocate: impedimentum; scoreFUNC: 0. collocate: conscribo; scoreFUNC: 0. collocate: reliquus; scoreFUNC: 0. collocate: uirtus; scoreFUNC: 0. collocate: gero; scoreFUNC: 0. collocate: unus; scoreFUNC: 0. collocate: noster; scoreFUNC: 0. collocate: Caesar; scoreFUNC: 0. collocate: cum; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>legionum</b> nostrarum neruos ne ne his consiliis incidimus <br> <small> Cic.Phil.12.8.1 <br> Acaso não estamos com esses conselhos cortando os nervos de nossas legiões? <small> [JDD] </small> </small> </p>
+; <p> eo celeriter confecto negotio rursus in hiberna <b>legiones</b> reduxit <br> <small> Caes.Gal.6.3.3 <br> Acabado esse negócio com rapidez, reconduziu as legiões aos quartéis de inverno. <small> [JDD] </small> </small> </p>
+; <p> huic Caesar <b>legioni</b> indulserat praecipue et propter uirtutem confidebat maxime <br> <small> Caes.Gal.1.40.15 <br> A esta legião César se dedicara especialmente e nela confiava muito mais em razão de sua bravura. <small> [JDD] </small> </small> </p>
+; <p> bellum Iudaicum Flauius Uespasianus ducem eum Nero delegerat tribus <b>legionibus</b> administrabat <br> <small> Tac.Hist.1.10.11 <br> Flávio Vespasiano geria com três legiões a guerra contra os judeus (Nero o tinha escolhido como general). <small> [JDD] </small> </small> </p>
+; <p> tum copiis in tres partes distributis impedimenta omnium <b>legionum</b> Atuatucam contulit <br> <small> Caes.Gal.6.32.3 <br> Então, distribuídas em três partes as tropas, transportou as bagagens de todas as legiões para Aduátuca. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quis enim unus fortior quis amicior umquam rei publicae fuit quam <b>legio</b> Martia uniuersa <br> <small> Cic.Phil.3.6.2 <br> Pois quem, de modo particular, foi mais valorosa, quem alguma vez foi mais amiga da república do que a legião Márcia toda? <small> [JDD] </small> </small> </p>
+; <p> iamque ab eo non longius bidui uia aberant cum duas uenisse <b>legiones</b> missu Caesaris cognoscunt <br> <small> Caes.Gal.6.7.2 <br> e já distavam dele não mais longe que dois dias de marcha, quando ficam sabendo que tinham chegado duas legiões por envio de César. <small> [JDD] </small> </small> </p>
+; <p> munitis castris duas ibi <b>legiones</b> reliquit et partem auxiliorum quattuor reliquas <b>legiones</b> in castra maiora reduxit <br> <small> Caes.Gal.1.49.5 <br> Fortificado o acampamento, deixou ali duas legiões e uma parte das tropas auxiliares, as quatro legiões restantes ele reconduziu para o acampamento maior. <small> [JDD] </small> </small> </p>
+; <p> praesidio impedimentis <b>legionem</b> quartam decimam reliquit unam ex his tribus quas proxime conscriptas ex Italia traduxerat <br> <small> Caes.Gal.6.32.5 <br> Deixou como guarda das bagagens a décima quarta legião, uma das três que, recrutadas mais recentemente, ele tinha feito vir da Itália <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ciuile bellum consul Sulla gessit <b>legionibus</b> in urbem adductis quos uoluit expulit quos potuit occidit supplicationis mentio nulla <br> <small> Cic.Phil.14.23.1 <br> O cônsul Sila fez uma guerra civil e tendo trazido à cidade suas legiões, deserrou os que quis, matou os que pôde: nenhuma menção de ação de graças. <small> [JDD] </small> </small> </p>
+; <p> Caesar singulis <b>legionibus</b> singulos legatos et quaestorem praefecit uti eos testes suae quisque uirtutis haberet ipse a dextro cornu quod eam partem minime firmam hostium esse animaduerterat proelium commisit <br> <small> Caes.Gal.1.52.1 <br> César pôs à frente de cada legião um embaixador e um questor, para que cada um os tivesse como testemunhas de seu valor; ele próprio travou o combate com sua ala direita, porque tinha observado que essa era a parte menos firme dos inimigos. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx108-101-103-105-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 48.06 and an absolute frequency of 14. The Caesar subcorpus follows, with a normalized frequency of 33.61 and an absolute frequency of 89. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 89 ; absolute frequency: 33.6128106352444. subcorpus: Cicero ; normalized frequency: 72 ; absolute frequency: 4.48531060775959. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 5 ; absolute frequency: 4.63778870234672. subcorpus: Seneca ; normalized frequency: 1 ; absolute frequency: 0.186633321513223. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 14 ; absolute frequency: 48.0604188122211. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx108-101-103-105-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 26.29 and an absolute frequency of 108. The Prosa.filosófica subcorpus follows, with a normalized frequency of 0.33 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 108 ; absolute frequency: 26.2908055210692. subcorpus: Prosa.filosófica ; normalized frequency: 2 ; absolute frequency: 0.329483863527784. subcorpus: Prosa.oratória ; normalized frequency: 69 ; absolute frequency: 6.62486918283679. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx108-101-103-105-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 36.65 and an absolute frequency of 14. The I.a.C. subcorpus follows, with a normalized frequency of 7.82 and an absolute frequency of 168. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 168 ; absolute frequency: 7.8194088899232. subcorpus: I.d.C. ; normalized frequency: 1 ; absolute frequency: 0.152975370965275. subcorpus: II.d.C. ; normalized frequency: 14 ; absolute frequency: 36.6492146596859. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,207 @@
+---
+title: "diligo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-105-108-105-103-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>dīlēxī</b> <br> <small>perf. de dilìgo.</small> <br> <small></small> 
+ <b>dīlīgō</b> <b>-is</b> <b>-ére</b> <b>-léxí, -léctum</b> <br> <small>v. tr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Estimar, amar, considerar, distinguir, honrar &ensp; <small>Cíc. Of. 3, 31; Cíc. Prov. 25.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Diligo</b> -<b>is</b> -<b>exi</b> -<b>ectum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; amar com escolha, amar. </p>
+
+
+
+
+#### Velez
+
+<b>Diligo</b> -<b>is</b> <br> <small>1. l. 2. b.</small>   <p> <b>1</b> &ensp; amar &ensp; <small>Act.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Diligo</b> <b>is</b> <b>exi</b> -<b>ectum</b>   <p> <b>1</b> &ensp; amar &ensp; <small>actiuo.</small> </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/99463 ' target="_blank"> http://lila-erc.eu/data/id/lemma/99463 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> diligo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> diligere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> diliget </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> dilexi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> dilectum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> dilecturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+dīlexī 
+ dīlĭgō 
+ dīlĭgis 
+ dīlĭgĕre 
+ dīlectum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-105-108-105-103-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> humanitate iam tanta est ut difficile dictu sit utrum hostes magis uirtutem eius pugnantes timuerint an mansuetudinem uicti <b>dilexerint</b> <br> <small> Cic.Man.42 <br> Ele é  de uma humanidade tão grande que é difícil dizer se os inimigos temeram mais o seu valor, quando combatiam, ou amaram sua mansidão, quando vencidos. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-105-108-105-103-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 3.68 and an absolute frequency of 59. The Ovidius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 59 ; absolute frequency: 3.67546285913633. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 5 ; absolute frequency: 0.933166607566115. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-105-108-105-103-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 5.77 and an absolute frequency of 35. The Prosa.oratória subcorpus follows, with a normalized frequency of 1.34 and an absolute frequency of 14. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 1 ; absolute frequency: 0.243433384454344. subcorpus: Prosa.filosófica ; normalized frequency: 35 ; absolute frequency: 5.76596761173622. subcorpus: Prosa.oratória ; normalized frequency: 14 ; absolute frequency: 1.3441763559379. subcorpus: Prosa.epistolográfica ; normalized frequency: 14 ; absolute frequency: 3.70969024086489. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-105-108-105-103-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 2.93 and an absolute frequency of 63. The I.a.C. subcorpus follows, with a normalized frequency of 2.93 and an absolute frequency of 63. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 63 ; absolute frequency: 2.9322783337212. subcorpus: I.d.C. ; normalized frequency: 7 ; absolute frequency: 1.07082759675692. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

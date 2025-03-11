@@ -1,0 +1,210 @@
+---
+title: "frater"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx102-114-97-116-101-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>frāter</b> <b>-tris</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Irmão &ensp; <small>por consanguinidade. Sendo o parentesco precisado por um epíteto: germanus, geminus, uterinus:</small> <br> <b>2</b> &ensp; <small>I-Sent. próprio</small> &ensp; Irmão por aliança. primo coirmão: &ensp; <small></small> <br> <b>3</b> &ensp; <small>I-Daí:</small> &ensp; Membro de uma irmandade ou colégio &ensp; <small>Plín. H. Nat. 18,6.</small> <br> <b>4</b> &ensp; <small>II-Como termo de carinho:</small> &ensp; Irmão querido &ensp; <small>Cíc. Verr. 3, 155.</small> <br> <b>5</b> &ensp; <small>II-No pl.:</small> &ensp; Irmãos &ensp; <small>o irmão e a irmã Tác. An. 12. 4</small> <br> <b>6</b> &ensp; <small>II-No pl.:</small> &ensp; Aliados, confederados &ensp; <small>Cés. B. Gal. L 33, 2.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>fratres gemini Cíc. Clu. 46 “irmãos gêmeos”; dii fratres Ov. F. I, 707 “os irmãos Castor e Pólux”. <br> <br><b>2</b><br>frater patruelis Cíc. Verr. 4, 25 “primo coirmão”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Frater</b> -<b>tris</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; irmão. </p>
+
+
+
+
+#### Velez
+
+<b>Frater</b> -<b>tris</b>   <p> <b>1</b> &ensp; o irmaõ </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>fratres germani &ensp; <small><small>qui patre eodem, eâdemque matre</small></small> <br> fratres uterini &ensp; <small><small>qui eâdem matre, diversis altem patribus editi sunt</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Frater</b> <b>tris</b>   <p> <b>1</b> &ensp; ho irmão </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/103739 ' target="_blank"> http://lila-erc.eu/data/id/lemma/103739 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+frāter 
+ frātris
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx102-114-97-116-101-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx102-114-97-116-101-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword frater here are all the values plotted: collocate: quintus; scoreSUBST: 5. collocate: Diuitiacus; scoreSUBST: 0. collocate: lucius; scoreSUBST: 2. collocate: meus; scoreSUBST: 0. collocate: Iohannes; scoreSUBST: 0. collocate: coniunx; scoreSUBST: 2. collocate: littera; scoreSUBST: 2. collocate: suus; scoreSUBST: 0. collocate: ab; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx102-114-97-116-101-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword frater here are all the values plotted: collocate: quintus; scoreADJ: 0. collocate: Diuitiacus; scoreADJ: 0. collocate: lucius; scoreADJ: 0. collocate: meus; scoreADJ: 0. collocate: Iohannes; scoreADJ: 0. collocate: coniunx; scoreADJ: 0. collocate: littera; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: ab; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx102-114-97-116-101-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword frater here are all the values plotted: collocate: quintus; scoreVERBO: 0. collocate: Diuitiacus; scoreVERBO: 0. collocate: lucius; scoreVERBO: 0. collocate: meus; scoreVERBO: 0. collocate: Iohannes; scoreVERBO: 0. collocate: coniunx; scoreVERBO: 0. collocate: littera; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: ab; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx102-114-97-116-101-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword frater here are all the values plotted: collocate: quintus; scoreADV: 0. collocate: Diuitiacus; scoreADV: 0. collocate: lucius; scoreADV: 0. collocate: meus; scoreADV: 0. collocate: Iohannes; scoreADV: 0. collocate: coniunx; scoreADV: 0. collocate: littera; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: ab; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx102-114-97-116-101-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword frater here are all the values plotted: collocate: quintus; scoreFUNC: 0. collocate: Diuitiacus; scoreFUNC: 0. collocate: lucius; scoreFUNC: 0. collocate: meus; scoreFUNC: 0. collocate: Iohannes; scoreFUNC: 0. collocate: coniunx; scoreFUNC: 0. collocate: littera; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: ab; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> a <b>fratre</b> uincar <br> <small> Sen.Ag.26 <br> por meu irmão serei superado. <small> [JDD] </small> </small> </p>
+; <p> Quintum <b>fratrem</b> cotidie exspectamus <br> <small> Cic.Att.1.5.8 <br> Espero todos os dias o meu irmão Quinto. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Quintum <b>fratrem</b> optimum humanissimumque sustenta <br> <small> Cic.Att.3.11.2 <br> Protege Quinto, o melhor e mais humano irmão. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Quintum <b>fratrem</b> meum fac diligas <br> <small> Cic.Att.3.13.2 <br> Faz por estimar o meu irmão Quinto. <small> [JDD] </small> </small> </p>
+; <p> ecce mater mea et <b>fratres</b> mei <br> <small> Vulg.Marc.3.34 <br> Eis minha mãe e meus irmãos. <small> [JDD] </small> </small> </p>
+; <p> amamur a <b>fratre</b> et a filia <br> <small> Cic.Att.4.2.7 <br> Somos amados por meu irmão e por minha filha. <small> [JDD] </small> </small> </p>
+; <p> ipse si uelit num etiam Lucium <b>fratrem</b> passurum arbitramur <br> <small> Cic.Phil.6.10.1 <br> Se ele próprio quisesse, por acaso julgamos que seu irmão Lúcio permitiria? <small> [JDD] </small> </small> </p>
+; <p> nec enim secerni a <b>fratre</b> poterit tanta praesertim auctoritate <br> <small> Cic.Phil.6.10.6 <br> Pois não será possível separá-lo do irmão, especialmente com tão grande autoridade deste. <small> [JDD] </small> </small> </p>
+; <p> ex Quinti <b>fratris</b> litteris suspicor iam eum esse in Britannia <br> <small> Cic.Att.4.15.10 <br> Por uma carta de meu irmão Quinto, suspeito que ele já esteja na Britânia. <small> [JDD] </small> </small> </p>
+; <p> Macedoniam suam uocat omnino quoniam Gaius <b>frater</b> est inde reuocatus <br> <small> Cic.Phil.7.3.4 <br> Chama Macedônia inteiramente sua, já que seu irmão Caio foi chamado de volta de lá. <small> [JDD] </small> </small> </p>
+; <p> et <b>fratres</b> meos inquit quod erant conscii in uincla coniecit <br> <small> Cic.Deiot.22 <br> 22 “E os meus irmãos,” diz “porque eram sabedores, ele os meteu na prisão.” <small> [JDD] </small> </small> </p>
+; <p> tu pande uiuat coniugis <b>frater</b> mei et pande teneat quas soror sedes mea <br> <small> Sen.Ag.404a <br> Tu, revela se vive o irmão de meu esposo e revela que morada tem a minha irmã. <small> [JDD] </small> </small> </p>
+; <p> et non admisit quemquam sequi se nisi Petrum et Iacobum et Iohannem <b>fratrem</b> Iacobi <br> <small> Vulg.Marc.5.37 <br> E não permitiu que ninguém o seguisse, a não ser Pedro e Tiago e João, irmão de Tiago. <small> [JDD] </small> </small> </p>
+; <p> Caesar hac oratione Lisci Dumnorigem Diuiciaci <b>fratrem</b> designari sentiebat sed quod pluribus praesentibus eas res iactari nolebat celeriter concilium dimittit Liscum retinet <br> <small> Caes.Gal.1.18.1 <br> César percebia que, por este discurso de Lisco era apontado Dumnórige, irmão de Divicíaco; mas como não queria que essas coisas fossem tratadas na presença de muitos, rapidamente dissolve a assembléia, retém Lisco. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx102-114-97-116-101-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 26.96 and an absolute frequency of 12. The Suetonius subcorpus follows, with a normalized frequency of 11.03 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Sallustius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 13 ; absolute frequency: 4.90973638492333. subcorpus: Cicero ; normalized frequency: 133 ; absolute frequency: 8.28536542822257. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 14 ; absolute frequency: 2.61286650118512. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 12 ; absolute frequency: 26.9602336553583'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx102-114-97-116-101-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 26.96 and an absolute frequency of 12. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 17.22 and an absolute frequency of 65. the subcorpus with the least normalized frequency is Prosa.filosófica with the normalized value of 1.65 and an absolute freqeuncy of 10. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 15 ; absolute frequency: 3.65150076681516. subcorpus: Prosa.filosófica ; normalized frequency: 10 ; absolute frequency: 1.64741931763892. subcorpus: Prosa.oratória ; normalized frequency: 60 ; absolute frequency: 5.76075581116242. subcorpus: Prosa.epistolográfica ; normalized frequency: 65 ; absolute frequency: 17.223561832587. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 12 ; absolute frequency: 10.4239054899236. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 12 ; absolute frequency: 26.9602336553583'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx102-114-97-116-101-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 26.96 and an absolute frequency of 12. The I.a.C. subcorpus follows, with a normalized frequency of 7.12 and an absolute frequency of 153. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 2.6 and an absolute freqeuncy of 17. here are all the values: subcorpus: I.a.C. ; normalized frequency: 153 ; absolute frequency: 7.12124738189434. subcorpus: I.d.C. ; normalized frequency: 17 ; absolute frequency: 2.60058130640967. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 12 ; absolute frequency: 26.9602336553583'}
+
+
+:::
+

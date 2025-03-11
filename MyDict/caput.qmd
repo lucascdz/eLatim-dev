@@ -1,0 +1,201 @@
+---
+title: "caput"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-97-112-117-116xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>caput</b> <b>-ìtis</b> <br> <small>subs. n.</small> <br> <small>Obs.: abl.: capiti, em Verg. En. 7, 668 e Catulo 68, 124.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Cabeça &ensp; <small>do homem ou dos animais Hor. Ep. 1, 1,76; Cíc. C. M. 34.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Pessoa, indivíduo &ensp; <small>Hor. Sat. 2, 1, 27.</small> <br> <b>3</b> &ensp; <small>II-Daí</small> &ensp; Vida, existência &ensp; <small>Cíc. Of. 3, 107.</small> <br> <b>4</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Cimo, parte superior, extremidade de um objeto, ponta &ensp; <small>Verg. En. 9, 678.</small> <br> <b>5</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Fonte, origem, ponto de partida &ensp; <small>Cíc. De Dr., 1, 195.</small> <br> <b>6</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Pessoa principal, chefe, cabeça &ensp; <small>T. Lív. 8, 19, 13.</small> <br> <b>7</b> &ensp; <small>III-Sent. figurado:</small> &ensp; O essencial, a parte principal &ensp; <small>falando de coisas Cíc. Pis. 47.</small> <br> <b>8</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Capital &ensp; <small>de cidade T. Lív. 6, 9, 1.</small> </p> 
+ <b>kaput</b> <br> <small></small> <br> <small>v. caput.</small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Caput</b> -<b>itis</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; cabeça. <br> <b>2</b> &ensp; origem, principio de alguma cousa. <br> <b>3</b> &ensp; summa, compendio. <br> <b>4</b> &ensp; principal, ponto mais importante. <br> <b>5</b> &ensp; o homem, ou huma pessoa. <br> <b>6</b> &ensp; vida. <br> <b>7</b> &ensp; capitulo do livro. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>capita exigere &ensp; <small><small>Cic</small></small> &ensp; <small>Cobrar os tributos do cabeção, ou capitação</small> <br> capite censi &ensp; <small><small>Sall</small></small> &ensp; <small>Os que não tendo bens de raiz, se lhes lançavão os tributos só por cabeça</small> <br> capitis diminutio &ensp; <small><small>Cic</small></small> &ensp; <small>Mudança de estado para peior</small> <br> capitis minor &ensp; <small><small>Hor</small></small> &ensp; <small>Degradado, privado do privilegio de Cidadão</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Caput</b> <b>isis</b> 
+ <b>Caput</b> <b>itis</b>   <p> <b>1</b> &ensp; a cabeça. ou capitolo do liuro </p> 
+ <b>Caput</b> <b>itis</b>   <p> <b>1</b> &ensp; ho autor. ou principal de qualquer negocio </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/92796 ' target="_blank"> http://lila-erc.eu/data/id/lemma/92796 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> capud, capus, kaput <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+căpŭt 
+ căpĭtis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-97-112-117-116xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-97-112-117-116xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword caput here are all the values plotted: collocate: periculum; scoreSUBST: 2. collocate: meus; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-97-112-117-116xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword caput here are all the values plotted: collocate: periculum; scoreADJ: 0. collocate: meus; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-97-112-117-116xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword caput here are all the values plotted: collocate: periculum; scoreVERBO: 0. collocate: meus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-97-112-117-116xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword caput here are all the values plotted: collocate: periculum; scoreADV: 0. collocate: meus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-97-112-117-116xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword caput here are all the values plotted: collocate: periculum; scoreFUNC: 0. collocate: meus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> tuta iam opperiar meos hostes et ultro uulneri opponam <b>caput</b> <br> <small> Sen.Ag.945 <br> Agora, em segurança, vou esperar meus inimigos e oferecer espontaneamente minha cabeça ao golpe. <small> [JDD] </small> </small> </p>
+; <p> Hic pertinere ad domini respondet <b>caput</b> Et avertendum victima periculum . esse <br> <small> Phaed.3.3 <br> Um responde que tem a ver com a cabeça do dono e que ele deve afastar o perigo com uma vítima. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-97-112-117-116xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Ovidius subcorpus registers the highest normalized frequency, with the value of 17.16 and an absolute frequency of 10. The Ovidius subcorpus follows, with a normalized frequency of 17.16 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Sallustius with the normalized value of 0.93 and an absolute freqeuncy of 1. here are all the values: subcorpus: Caesar ; normalized frequency: 5 ; absolute frequency: 1.88836014804744. subcorpus: Cicero ; normalized frequency: 60 ; absolute frequency: 3.73775883979966. subcorpus: Horatius ; normalized frequency: 13 ; absolute frequency: 11.5442678270136. subcorpus: Ovidius ; normalized frequency: 10 ; absolute frequency: 17.1585449553878. subcorpus: Phaedrus ; normalized frequency: 8 ; absolute frequency: 12.1451343555488. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 53 ; absolute frequency: 9.89156604020082. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-97-112-117-116xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 33.88 and an absolute frequency of 39. The Poesia.didática subcorpus follows, with a normalized frequency of 15.27 and an absolute frequency of 18. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 1.95 and an absolute freqeuncy of 8. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 8 ; absolute frequency: 1.94746707563475. subcorpus: Prosa.filosófica ; normalized frequency: 18 ; absolute frequency: 2.96535477175005. subcorpus: Prosa.oratória ; normalized frequency: 40 ; absolute frequency: 3.84050387410828. subcorpus: Prosa.epistolográfica ; normalized frequency: 16 ; absolute frequency: 4.23964598955987. subcorpus: Poesia.lírica ; normalized frequency: 13 ; absolute frequency: 10.9363169849415. subcorpus: Poesia.didática ; normalized frequency: 18 ; absolute frequency: 15.2684706081941. subcorpus: Poesia.trágica ; normalized frequency: 39 ; absolute frequency: 33.8776928422516. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-97-112-117-116xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 10.86 and an absolute frequency of 71. The II.d.C. subcorpus follows, with a normalized frequency of 5.24 and an absolute frequency of 2. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 3.86 and an absolute freqeuncy of 83. here are all the values: subcorpus: I.a.C. ; normalized frequency: 83 ; absolute frequency: 3.86316034442634. subcorpus: I.d.C. ; normalized frequency: 71 ; absolute frequency: 10.8612513385345. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+:::
+

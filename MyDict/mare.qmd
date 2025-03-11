@@ -1,0 +1,208 @@
+---
+title: "mare"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-97-114-101xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>mare</b> <b>-is</b> <br> <small>subs. n.</small> <br> <small>Obs.: O termo corrente para designar mar é mare: pelagus e pontus são helenismos e quase que de uso exclusivo na poesia.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Mar: &ensp; <small></small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Água do mar, água salgada &ensp; <small>Hor. Sát. 2, 8, 15.</small> <br> <b>3</b> &ensp; <small>I-Daí:</small> &ensp; Verde do mar &ensp; <small>referindo-se à cor das águas Plín. H. Nat. 37, 80.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Mar, oceano: &ensp; <small></small> <br> <b>5</b> &ensp; <small>II-Em expressões proverbiais:</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>mare Oceanus Cés. B. Gal. 3, 7, 2 “o Oceano”; nostrum mare Cés. B. Gal. 5. 1,2 “o mar Mediterrâneo”. <br> <br><b>4</b><br>aeris magnum mare Lucr. 5, 276 “o vasto oceano do ar”. <br> <br><b>5</b><br>mare caelo confundere Juv. 6, 283 “remover céus e mares, i. e., tentar tudo, o possível e o impossível para conseguir uma coisa”; em português mais comum; “remover céus e terras”; maria et montes polliceri Sal. C. Cat. 23, 3 “prometer céus e mares, i. e., o impossível”; in mare fundere aquas Ov. Trist. 5. 6. 41 «levar água para o mar. i. e.. perder seu tempo». </p> 
+ <b>marĭbus</b> <br> <small>dat. abl. pl. de mare e de mas.</small> <br> <small></small> 
+ <b>maris</b> <br> <small>gen. de mare e de mas.</small> <br> <small></small> 
+ <b>marĭum</b> <br> <small>gen. pl. de mare.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Mare</b> -<b>is</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; mar. <br> <b>2</b> &ensp; <small>Virg.</small> &ensp; rio. </p>
+
+
+
+
+#### Velez
+
+<b>Mare</b> -<b>is</b> <br> <small>Abl. mari, & interdum mare.</small>   <p> <b>1</b> &ensp; o mar </p>
+
+
+
+
+#### Cardoso
+
+<b>Mare</b> <b>is</b>   <p> <b>1</b> &ensp; ho mar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/111604 ' target="_blank"> http://lila-erc.eu/data/id/lemma/111604 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 3ª declinação (tema em -i-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+măre 
+ măris 
+ mărĭum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx109-97-114-101xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-97-114-101xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword mare here are all the values plotted: collocate: terra; scoreSUBST: 3. collocate: mons; scoreSUBST: 2. collocate: medius; scoreSUBST: 0. collocate: que; scoreSUBST: 0. collocate: ad; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-97-114-101xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword mare here are all the values plotted: collocate: terra; scoreADJ: 0. collocate: mons; scoreADJ: 0. collocate: medius; scoreADJ: 2. collocate: que; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-97-114-101xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword mare here are all the values plotted: collocate: terra; scoreVERBO: 0. collocate: mons; scoreVERBO: 0. collocate: medius; scoreVERBO: 0. collocate: que; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-97-114-101xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword mare here are all the values plotted: collocate: terra; scoreADV: 0. collocate: mons; scoreADV: 0. collocate: medius; scoreADV: 0. collocate: que; scoreADV: 0. collocate: ad; scoreADV: 0. collocate: in; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-97-114-101xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword mare here are all the values plotted: collocate: terra; scoreFUNC: 0. collocate: mons; scoreFUNC: 0. collocate: medius; scoreFUNC: 0. collocate: que; scoreFUNC: 0. collocate: ad; scoreFUNC: 10. collocate: in; scoreFUNC: 20. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> nunc eram plane in medio <b>mari</b> <br> <small> Cic.Att.5.12.3 <br> agora estou completamente no meio do mar. <small> [JDD] </small> </small> </p>
+; <p> et iterum coepit docere ad <b>mare</b> <br> <small> Vulg.Marc.4.1 <br> E novamente começou a ensinar junto ao mar. <small> [JDD] </small> </small> </p>
+; <p> iam timent terram rates et <b>maria</b> malunt <br> <small> Sen.Ag.575 <br> Agora os barcos temem a terra e preferem os mares. <small> [JDD] </small> </small> </p>
+; <p> et venerunt trans fretum <b>maris</b> in regionem Gerasenorum <br> <small> Vulg.Marc.5.1 <br> E chegaram ao outro lado do estreito do mar, à região dos gerasenos. <small> [JDD] </small> </small> </p>
+; <p> Iamque <b>mare</b> et tellus nullum discrimen habebant : <br> <small> Ov.Met.1.291 <br> E o mar e a terra já não tinham nenhuma distinção. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> et Iesus cum discipulis suis secessit ad <b>mare</b> <br> <small> Vulg.Marc.3.7 <br> E Jesus retirou-se com seus discípulos para o mar. <small> [JDD] </small> </small> </p>
+; <p> <b>maria</b> montes regionum magnitudines interessent odisses eum quem non uideres <br> <small> Cic.Phil.13.5.7 <br> Os mares, as montanhas, as grandes extensões de terras estariam no meio: odiarias aquele que não visses. <small> [JDD] </small> </small> </p>
+; <p> sulcata uibrant aequora et latera increpant dirimuntque canae caerulum spumae <b>mare</b> <br> <small> Sen.Ag.440 <br> As águas sulcadas vibram e os flancos rangem e as brancas espumas dividem o mar azul. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-97-114-101xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 38.19 and an absolute frequency of 17. The Vergilius subcorpus follows, with a normalized frequency of 19.31 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 10 ; absolute frequency: 3.77672029609487. subcorpus: Cicero ; normalized frequency: 29 ; absolute frequency: 1.8065834392365. subcorpus: Horatius ; normalized frequency: 13 ; absolute frequency: 11.5442678270136. subcorpus: Ovidius ; normalized frequency: 9 ; absolute frequency: 15.442690459849. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 6 ; absolute frequency: 5.56534644281607. subcorpus: Seneca ; normalized frequency: 59 ; absolute frequency: 11.0113659692802. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 10 ; absolute frequency: 19.3050193050193. subcorpus: Hieronymus ; normalized frequency: 17 ; absolute frequency: 38.193664345091'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-97-114-101xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 38.19 and an absolute frequency of 17. The Poesia.trágica subcorpus follows, with a normalized frequency of 24.32 and an absolute frequency of 28. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0.26 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 17 ; absolute frequency: 4.13836753572385. subcorpus: Prosa.filosófica ; normalized frequency: 31 ; absolute frequency: 5.10699988468065. subcorpus: Prosa.oratória ; normalized frequency: 28 ; absolute frequency: 2.6883527118758. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 13 ; absolute frequency: 10.9363169849415. subcorpus: Poesia.didática ; normalized frequency: 11 ; absolute frequency: 9.33073203834083. subcorpus: Poesia.trágica ; normalized frequency: 28 ; absolute frequency: 24.322446143155. subcorpus: Poesia.épica ; normalized frequency: 10 ; absolute frequency: 19.3050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 17 ; absolute frequency: 38.193664345091'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-97-114-101xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 38.19 and an absolute frequency of 17. The I.d.C. subcorpus follows, with a normalized frequency of 10.71 and an absolute frequency of 70. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 2.62 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 68 ; absolute frequency: 3.16499883639749. subcorpus: I.d.C. ; normalized frequency: 70 ; absolute frequency: 10.7082759675692. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 17 ; absolute frequency: 38.193664345091'}
+
+
+:::
+

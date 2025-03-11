@@ -1,0 +1,205 @@
+---
+title: "grauis"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx103-114-97-117-105-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>gravis</b> <b>-e</b> <br> <small>adj.</small> <br> <small>Obs.: Constrói-se absolutamente, e com abl.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Pesado, grave, prenhe &ensp; <small>Cés. B. Gal. 5, 8, 3.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Pesado &ensp; <small>Cíc. C. M. 4.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado</small> &ensp; Forte &ensp; <small>tratando-se do homem Verg. En. 5, 447.</small> <br> <b>4</b> &ensp; <small>II-Em particular:</small> &ensp; Armado pesadamente &ensp; <small>T. Lív. 3 I, 39, 2.</small> <br> <b>5</b> &ensp; <small>II-Em particular:</small> &ensp; Grave, forte &ensp; <small>tratando-se do som Quint. I, 5, 22.</small> <br> <b>6</b> &ensp; <small>II-Em particular:</small> &ensp; Forte, fétido &ensp; <small>tratando-se do cheiro:</small> <br> <b>7</b> &ensp; <small>II-Em particular:</small> &ensp; Forte &ensp; <small>tratando-se da comida Cíc. Nat. 2, 24.</small> <br> <b>8</b> &ensp; <small>II-Em particular:</small> &ensp; Que tem peso, autoridade, grave, sério, importante, considerado, digno, considerável &ensp; <small>Cíc. Flac. 56.</small> <br> <b>9</b> &ensp; <small>II-Em particular:</small> &ensp; Severo, rígido, rigoroso, difícil &ensp; <small>Cíc. Verr. 3, 134.</small> <br> <b>10</b> &ensp; <small>II-Em particular:</small> &ensp; Penoso, custoso, insuportável, triste, funesto, pernicioso, doentio &ensp; <small>cic. C. m. 4.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>6</b><br>ellebori graves Verg. G. 3, 451 «o eléboro fétido». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<small>m. f</small> <b>Gravis</b> <small>n</small> -<b>ve</b> -<b>is</b> -<b>ior</b> -<b>issimus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; pezado. <br> <b>2</b> &ensp; grave, serio, majestoso, de autoridade. <br> <b>3</b> &ensp; nocivo, desagradavel, molesto, triste. <br> <b>4</b> &ensp; <small>Col.</small> &ensp; fedorento. <br> <b>5</b> &ensp; <small>Cels.</small> &ensp; doentio, pouco sadio. </p>
+
+
+
+
+#### Velez
+
+<b>Gravis</b> -<b>ve</b> <small>et</small>   <p> <b>1</b> &ensp; cousa grave, modesta, confiante, severa, pesada &ensp; <small>abl.</small> <br> <b>2</b> &ensp; cousa molesta, perniciosa, ou acerba &ensp; <small>dat.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Grauis</b> -<b>e</b>   <p> <b>1</b> &ensp; cousa graue ou pesada </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/104903 ' target="_blank"> http://lila-erc.eu/data/id/lemma/104903 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 2ª classe (tema em -i-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+grăvis 
+ grăve
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx103-114-97-117-105-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword grauis here are all the values plotted: collocate: morbus; scoreSUBST: 2. collocate: bellum; scoreSUBST: 2. collocate: tam; scoreSUBST: 0. collocate: iudicium; scoreSUBST: 2. collocate: homo; scoreSUBST: 2. collocate: et; scoreSUBST: 0. collocate: que; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx103-114-97-117-105-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword grauis here are all the values plotted: collocate: morbus; scoreADJ: 0. collocate: bellum; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: iudicium; scoreADJ: 0. collocate: homo; scoreADJ: 0. collocate: et; scoreADJ: 0. collocate: que; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx103-114-97-117-105-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword grauis here are all the values plotted: collocate: morbus; scoreVERBO: 0. collocate: bellum; scoreVERBO: 0. collocate: tam; scoreVERBO: 0. collocate: iudicium; scoreVERBO: 0. collocate: homo; scoreVERBO: 0. collocate: et; scoreVERBO: 0. collocate: que; scoreVERBO: 0. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx103-114-97-117-105-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword grauis here are all the values plotted: collocate: morbus; scoreADV: 0. collocate: bellum; scoreADV: 0. collocate: tam; scoreADV: 2. collocate: iudicium; scoreADV: 0. collocate: homo; scoreADV: 0. collocate: et; scoreADV: 0. collocate: que; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx103-114-97-117-105-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword grauis here are all the values plotted: collocate: morbus; scoreFUNC: 0. collocate: bellum; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: iudicium; scoreFUNC: 0. collocate: homo; scoreFUNC: 0. collocate: et; scoreFUNC: 0. collocate: que; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> tamen opinio est <b>grauis</b> <br> <small> Cic.Phil.7.14.10 <br> A opinião, contudo, é de mais peso. <small> [JDD] </small> </small> </p>
+; <p> haec poena apud eos est <b>grauissima</b> <br> <small> Caes.Gal.6.13.6 <br> Essa pena é a mais grave entre eles. <small> [JDD] </small> </small> </p>
+; <p> quae exspectas M. Antoni iudicia <b>grauiora</b> <br> <small> Cic.Phil.4.6.7 <br> Que decisões mais severas estás esperando, Marco Antônio? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> an quia <b>grauius</b> est uerberari quam necari <br> <small> Sal.Cat.51.23 <br> Acaso porque é mais grave ser açoitado do que ser morto? <small> [JDD] </small> </small> </p>
+; <p> stat <b>grauis</b> strages premiturque iuncto funere funus <br> <small> Sen.Oed.131 <br> O terrível morticínio continua e um funeral se espreme junto a outro funeral. <small> [JDD] </small> </small> </p>
+; <p> remeasse laetor uulnus et regni <b>graue</b> lugere cogor <br> <small> Sen.Ag.580 <br> Fico alegre de que tenha voltado: mas sou obrigada a chorar a grave ferida do reino. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> hortaris etiam sponte deponam ut mea tam <b>grauia</b> regna <br> <small> Sen.Oed.678 <br> Até mesmo me exortas a que eu espontaneamente abandone o meu tão pesado reino? <small> [JDD] </small> </small> </p>
+; <p> <b>graue</b> bellum Octauianum insecutum est supplicatio Cinnae nulla uictori <br> <small> Cic.Phil.14.23.4 <br> Seguiu-se a penosa guerra de Otaviano: nenhuma ação de graças em honra do vencedor Cina. <small> [JDD] </small> </small> </p>
+; <p> quis M. Scaurum hominem <b>grauissimum</b> ciuem egregium fortissimum senatorem a Q. Maximo <br> <small> Cic.Mur.36 <br> Quem [pensou] que Marco Escauro, homem seriíssimo, notável cidadão, valorosíssimo senador, [pudesse ser vencido] por Quinto Máximo? <small> [JDD] </small> </small> </p>
+; <p> quid autem acerbum aut nimis <b>graue</b> est in homines tanti facinoris conuictos <br> <small> Sal.Cat.51.23 <br> Mas o que é terrível ou demasiadamente grave contra homens convictos de tão enorme crime? <small> [JDD] </small> </small> </p>
+; <p> quicumque fessi corpore et morbo <b>graues</b> semanima trahitis pectora en fugio exeo releuate colla <br> <small> Sen.Oed.1052 <br> Todos vós que, extenuados no corpo e esgotados pela doença, arrastais os vossos corações semimortos, eis que eu fujo, me vou: levantai a cabeça. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx103-114-97-117-105-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 14.21 and an absolute frequency of 16. The Sallustius subcorpus follows, with a normalized frequency of 4.64 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 14 ; absolute frequency: 5.28740841453282. subcorpus: Cicero ; normalized frequency: 103 ; absolute frequency: 6.41648600832274. subcorpus: Horatius ; normalized frequency: 16 ; absolute frequency: 14.2083296332475. subcorpus: Ovidius ; normalized frequency: 5 ; absolute frequency: 8.57927247769389. subcorpus: Phaedrus ; normalized frequency: 7 ; absolute frequency: 10.6269925611052. subcorpus: Sallustius ; normalized frequency: 5 ; absolute frequency: 4.63778870234672. subcorpus: Seneca ; normalized frequency: 74 ; absolute frequency: 13.8108657919785. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx103-114-97-117-105-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 29.53 and an absolute frequency of 34. The Poesia.lírica subcorpus follows, with a normalized frequency of 13.46 and an absolute frequency of 16. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 21 ; absolute frequency: 5.11210107354123. subcorpus: Prosa.filosófica ; normalized frequency: 56 ; absolute frequency: 9.22554817877795. subcorpus: Prosa.oratória ; normalized frequency: 71 ; absolute frequency: 6.8168943765422. subcorpus: Prosa.epistolográfica ; normalized frequency: 16 ; absolute frequency: 4.23964598955987. subcorpus: Poesia.lírica ; normalized frequency: 16 ; absolute frequency: 13.460082443005. subcorpus: Poesia.didática ; normalized frequency: 12 ; absolute frequency: 10.1789804054627. subcorpus: Poesia.trágica ; normalized frequency: 34 ; absolute frequency: 29.5343988881167. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx103-114-97-117-105-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 13.16 and an absolute frequency of 86. The I.a.C. subcorpus follows, with a normalized frequency of 6.61 and an absolute frequency of 142. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 142 ; absolute frequency: 6.60926227600652. subcorpus: I.d.C. ; normalized frequency: 86 ; absolute frequency: 13.1558819030136. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

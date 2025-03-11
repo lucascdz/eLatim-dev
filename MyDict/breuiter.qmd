@@ -1,0 +1,197 @@
+---
+title: "breuiter"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx98-114-101-117-105-116-101-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>brĕvīter</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>Sent. próprio:</small> &ensp; Com brevidade &ensp; <small>no tempo ou no espaço.</small> <br> <b>2</b> &ensp; <small>Sent. próprio:</small> &ensp; Brevemente, em pouco tempo &ensp; <small>Sen. Contr. 1, 7, 9.</small> <br> <b>3</b> &ensp; <small>Sent. próprio:</small> &ensp; Em curto espaço &ensp; <small>Prop. 4, 8, 41; Plín. H. Nat. 36, 30.</small> <br> <b>4</b> &ensp; <small>Na língua retórica:</small> &ensp; Com brevidade, com concisão, concisamente &ensp; <small>Cíc. Cat. 3, 2; Cíc. Br. 197.</small> <br> <b>5</b> &ensp; <small>Na linguagem gramatical</small> &ensp; Com a quantidade breve &ensp; <small>Cíc. Or. 159.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Breviter</b> -<b>vius</b> -<b>vissime</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; brevemente. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Breuiter</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; breuemente </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/hypolemma/4964 ' target="_blank"> http://lila-erc.eu/data/id/hypolemma/4964 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+brĕvĭtĕr
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx98-114-101-117-105-116-101-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx98-114-101-117-105-116-101-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword breuiter here are all the values plotted: collocate: expono; scoreSUBST: 0. collocate: ut; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx98-114-101-117-105-116-101-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword breuiter here are all the values plotted: collocate: expono; scoreADJ: 0. collocate: ut; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx98-114-101-117-105-116-101-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword breuiter here are all the values plotted: collocate: expono; scoreVERBO: 3. collocate: ut; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx98-114-101-117-105-116-101-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword breuiter here are all the values plotted: collocate: expono; scoreADV: 0. collocate: ut; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx98-114-101-117-105-116-101-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword breuiter here are all the values plotted: collocate: expono; scoreFUNC: 0. collocate: ut; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Utriusque exemplum <b>breviter</b> exponam rei . <br> <small> Phaed.3.10 <br> Vou pôr sucintamente um exemplo de ambas as situações. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> de exercitu dicam <b>breuiter</b> ut cetera <br> <small> Cic.Deiot.22 <br> Sobre o exército vou falar sucintamente, assim como das demais coisas. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx98-114-101-117-105-116-101-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 3.04 and an absolute frequency of 2. The Tacitus subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 18 ; absolute frequency: 1.1213276519399. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx98-114-101-117-105-116-101-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 1.93 and an absolute frequency of 1. The Poesia.didática subcorpus follows, with a normalized frequency of 1.7 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.filosófica ; normalized frequency: 2 ; absolute frequency: 0.329483863527784. subcorpus: Prosa.oratória ; normalized frequency: 13 ; absolute frequency: 1.24816375908519. subcorpus: Prosa.epistolográfica ; normalized frequency: 3 ; absolute frequency: 0.794933623042476. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx98-114-101-117-105-116-101-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 0.88 and an absolute frequency of 19. The I.a.C. subcorpus follows, with a normalized frequency of 0.88 and an absolute frequency of 19. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 19 ; absolute frequency: 0.884337910169886. subcorpus: I.d.C. ; normalized frequency: 2 ; absolute frequency: 0.305950741930549. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

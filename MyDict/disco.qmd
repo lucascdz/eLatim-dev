@@ -1,0 +1,205 @@
+---
+title: "disco"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-105-115-99-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>dīdĭcī</b> <br> <small>perf. de dísco.</small> <br> <small></small> 
+ <b>discō</b> <b>-is</b> <b>-ère</b> <b>didìcí</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói-se com acus.; com acus. e abl.; com inf. ou acus. e inf.; com interrog. indireta. o part. pass. discitus só é atestado em Prisciano e, ainda assim, sem exemplificação.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Aprender, instruir-se, estudar &ensp; <small>Cíc. C. M. 26; Cíc. De Or. 3, 83.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Disco</b> -<b>is</b> <b>didici</b> -<b>scere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; aprender. <br> <b>2</b> &ensp; <small>Virg.</small> &ensp; conhecer. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>discere aliqui ab &ensp; <small><small>Ter</small></small> &ensp; <small>Aprender alguma cousa com alguem</small> <br> discere aliqui de &ensp; <small><small>Ter</small></small> &ensp; <small>Aprender alguma cousa com alguem</small> <br> discere apud &ensp; <small><small>Cic</small></small> &ensp; <small>Aprender alguma cousa com alguem</small> <br> discere ex &ensp; <small><small>Cic</small></small> &ensp; <small>Aprender alguma cousa com alguem</small> <br> discere per aliquem &ensp; <small><small>Ovid</small></small> &ensp; <small>Aprender alguma cousa com alguem</small> <br> discere sidibus &ensp; <small><small>Cic</small></small> &ensp; <small>Aprender a tocar algum instrumento de cordas</small> <br> discere sub aliquo &ensp; <small><small>Liv</small></small> &ensp; <small>Aprender alguma cousa com alguem</small> </p> 
+ <small>pret. de Disco</small> <b>Didici</b>
+
+
+
+
+#### Velez
+
+<b>Disco</b> -<b>is</b>   <p> <b>1</b> &ensp; aprender, conhecer &ensp; <small>aliquid ab aliquo.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Disco</b> <b>is</b> <b>didici</b> <small>caret</small>   <p> <b>1</b> &ensp; aprender </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/99619 ' target="_blank"> http://lila-erc.eu/data/id/lemma/99619 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> disco </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> discere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> discet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> didici, dedici </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> disciturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+dĭdĭcī 
+ discō 
+ discĕre
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-105-115-99-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> non est quod timeas ne operam perdideris tibi <b>didicisti</b> <br> <small> Sen.Ep.7.9 <br> Não há razão para temeres que perdeste tempo, se aprendeste para ti.[*] <small>  </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-105-115-99-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 5.6 and an absolute frequency of 30. The Tacitus subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 3 ; absolute frequency: 1.13301608882846. subcorpus: Cicero ; normalized frequency: 24 ; absolute frequency: 1.49510353591986. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 30 ; absolute frequency: 5.59899964539669. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-105-115-99-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 6.42 and an absolute frequency of 39. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 0.79 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 4 ; absolute frequency: 0.973733537817376. subcorpus: Prosa.filosófica ; normalized frequency: 39 ; absolute frequency: 6.42493533879178. subcorpus: Prosa.oratória ; normalized frequency: 11 ; absolute frequency: 1.05613856537978. subcorpus: Prosa.epistolográfica ; normalized frequency: 3 ; absolute frequency: 0.794933623042476. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-105-115-99-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 4.74 and an absolute frequency of 31. The I.a.C. subcorpus follows, with a normalized frequency of 1.49 and an absolute frequency of 32. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 32 ; absolute frequency: 1.48941121712823. subcorpus: I.d.C. ; normalized frequency: 31 ; absolute frequency: 4.74223649992351. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

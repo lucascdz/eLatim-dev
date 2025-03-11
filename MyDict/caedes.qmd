@@ -1,0 +1,202 @@
+---
+title: "caedes"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-97-101-100-101-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>caedēs</b> <b>-is</b> <br> <small>subs. f.</small> <br> <small>Obs.: Nom. arc. caedis T. Lív. 1, 98, 10; 3, 5, 9.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Ação de cortar, corte &ensp; <small>das árvores A. Gél. 19, 12, 7.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Matança, massacre, carnificina &ensp; <small>Cés. B. Civ. 3, 65, 1.</small> <br> <b>3</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Imolação de animais nos sacrifícios &ensp; <small>Hor. O. 3, 23, 14.</small> <br> <b>4</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Sangue derramado &ensp; <small>Verg. En. 9, 818.</small> </p> 
+ <b>caedis</b> <br> <small></small> <br> <small>v. caedes.</small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Caedes</b> -<b>is</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; mortandade, matança, morte violenta. </p>
+
+
+
+
+#### Velez
+
+<b>Caedes</b> -<b>is</b>   <p> <b>1</b> &ensp; a morte, a matança </p>
+
+
+
+
+#### Cardoso
+
+<b>Caedes</b> <b>is</b>   <p> <b>1</b> &ensp; a matança </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/92206 ' target="_blank"> http://lila-erc.eu/data/id/lemma/92206 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> caedis <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+caedēs
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-97-101-100-101-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-97-101-100-101-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword caedes here are all the values plotted: collocate: incendium; scoreSUBST: 3. collocate: boni; scoreSUBST: 2. collocate: ciuis; scoreSUBST: 2. collocate: nisi; scoreSUBST: 0. collocate: ad; scoreSUBST: 0. collocate: de; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-97-101-100-101-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword caedes here are all the values plotted: collocate: incendium; scoreADJ: 0. collocate: boni; scoreADJ: 0. collocate: ciuis; scoreADJ: 0. collocate: nisi; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: de; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-97-101-100-101-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword caedes here are all the values plotted: collocate: incendium; scoreVERBO: 0. collocate: boni; scoreVERBO: 0. collocate: ciuis; scoreVERBO: 0. collocate: nisi; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: de; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-97-101-100-101-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword caedes here are all the values plotted: collocate: incendium; scoreADV: 0. collocate: boni; scoreADV: 0. collocate: ciuis; scoreADV: 0. collocate: nisi; scoreADV: 0. collocate: ad; scoreADV: 0. collocate: de; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-97-101-100-101-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword caedes here are all the values plotted: collocate: incendium; scoreFUNC: 0. collocate: boni; scoreFUNC: 0. collocate: ciuis; scoreFUNC: 0. collocate: nisi; scoreFUNC: 20. collocate: ad; scoreFUNC: 20. collocate: de; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> si quidem exiturus ad <b>caedem</b> e uilla non fuisset <br> <small> Cic.Mil.48 <br> Se, na verdade, não tivesse sido su intenção sair de sua chácara para o crime. <small> [JDD] </small> </small> </p>
+; <p> muta iam istam mentem mihi crede obliuiscere <b>caedis</b> atque incendiorum <br> <small> Cic.Catil.1.6.10 <br> Muda já essa idéia, acredita em mim, esquece a matança e os incêndios. <small> [JDD] </small> </small> </p>
+; <p> nullus ei ludus uidetur esse iucundior quam cruor quam <b>caedes</b> quam ante oculos trucidatio ciuium <br> <small> Cic.Phil.4.11.9 <br> Nenhum espetáculo lhe parece mais prazeroso do que o sangue derramado, do que as matanças, do que o massacre de cidadãos diante de seus olhos. <small> [JDD] </small> </small> </p>
+; <p> non enim iam sunt mediocres hominum libidines non humanae ac tolerandae audaciae nihil cogitant nisi <b>caedem</b> nisi incendia nisi rapinas <br> <small> Cic.Catil.2.10.5 <br> Pois já não são paixões normais de uns homens, não são ousadias humanas e toleráveis; não pensam em nada, a não ser morte, a não ser incêndios, a não ser rapinas. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ibi cum consilia inirent de <b>caede</b> nostra partirenturque inter se qui Capitolium qui rostra qui urbis portas occuparent ad me concursum futurum ciuitatis putabant <br> <small> Cic.Phil.14.15.4 <br> Ali, elaborando planos sobre nossa morte e repartindo entre eles quem ocuparia o Capitólio, quem os rostros, quem as portas da cidade, achavam que haveria uma afluência da cidade até minha casa. <small> [JDD] </small> </small> </p>
+; <p> qui mihi accubantes in conuiuiis complexi mulieres impudicas uino languidi conferti cibo sertis redimiti unguentis obliti debilitati stupris eructant sermonibus suis <b>caedem</b> bonorum atque urbis incendia <br> <small> Cic.Catil.2.10.14 <br> E esses, reclinados nos banquetes, abraçados a mulheres sem-vergonhas, moles por causa do vinho, empanturrados de comida, coroados de grinaldas, untado de perfumes, debilitados com os estupros, me arrotam em suas falas a morte dos bons e os incêndios da cidade. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-97-101-100-101-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 13.73 and an absolute frequency of 4. The Sallustius subcorpus follows, with a normalized frequency of 7.42 and an absolute frequency of 8. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 51 ; absolute frequency: 3.17709501382971. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 8 ; absolute frequency: 7.42046192375475. subcorpus: Seneca ; normalized frequency: 16 ; absolute frequency: 2.98613314421157. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 4 ; absolute frequency: 13.7315482320632. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-97-101-100-101-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 10.42 and an absolute frequency of 12. The Prosa.oratória subcorpus follows, with a normalized frequency of 4.7 and an absolute frequency of 49. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 13 ; absolute frequency: 3.16463399790647. subcorpus: Prosa.filosófica ; normalized frequency: 4 ; absolute frequency: 0.658967727055567. subcorpus: Prosa.oratória ; normalized frequency: 49 ; absolute frequency: 4.70461724578265. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 12 ; absolute frequency: 10.4239054899236. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-97-101-100-101-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 10.47 and an absolute frequency of 4. The I.d.C. subcorpus follows, with a normalized frequency of 2.91 and an absolute frequency of 19. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 62 ; absolute frequency: 2.88573423318594. subcorpus: I.d.C. ; normalized frequency: 19 ; absolute frequency: 2.90653204834022. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

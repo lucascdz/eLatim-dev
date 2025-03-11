@@ -1,0 +1,201 @@
+---
+title: "dux"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-117-120xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>dux</b> <b>ducis</b> <br> <small>subs. m. e f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; O que conduz, guia &ensp; <small>Cíc. Of. 1, 22.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Chefe, general &ensp; <small>Cés. B. Gal. l, 13, 2.</small> <br> <b>3</b> &ensp; <small>I-Daí:</small> &ensp; O que guarda o rebanho, pastor &ensp; <small>emprego raro Tib. 1, 10, 10.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; O que inspira, que produz, conselheiro, autor &ensp; <small>Cíc. Mil. 39.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Dux</b> <b>ducis</b> <br> <small>m. Cic. f. Virg.</small>   <p> <b>1</b> &ensp; o que, ou a que guia. <br> <b>2</b> &ensp; capitão, General, Commandante, Chefe. </p> 
+ <small>genit. de Dux</small> <b>Ducis</b>
+
+
+
+
+#### Velez
+
+<b>Dux</b> -<b>cis</b>   <p> <b>1</b> &ensp; guia, Capitaõ, Duque, ou Duqueza, etc </p>
+
+
+
+
+#### Cardoso
+
+<b>Dux</b> <b>ucis</b>   <p> <b>1</b> &ensp; ho capitão. ou capitoa </p> 
+ <b>Dux</b> <b>ucis</b>   <p> <b>1</b> &ensp; ho duque. ou duquesa </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/100327 ' target="_blank"> http://lila-erc.eu/data/id/lemma/100327 </a> <br>
+<small> classe: </small> substantivo comum de dois gêneros   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+dŭcis 
+ dūcis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-117-120xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-117-120xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword dux here are all the values plotted: collocate: idem; scoreSUBST: 0. collocate: bellum; scoreSUBST: 2. collocate: tu; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-117-120xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword dux here are all the values plotted: collocate: idem; scoreADJ: 0. collocate: bellum; scoreADJ: 0. collocate: tu; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-117-120xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword dux here are all the values plotted: collocate: idem; scoreVERBO: 0. collocate: bellum; scoreVERBO: 0. collocate: tu; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-117-120xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword dux here are all the values plotted: collocate: idem; scoreADV: 0. collocate: bellum; scoreADV: 0. collocate: tu; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-117-120xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword dux here are all the values plotted: collocate: idem; scoreFUNC: 0. collocate: bellum; scoreFUNC: 0. collocate: tu; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> eodem <b>duce</b> redibant <br> <small> Cic.Mur.26 <br> E, com ele mesmo de guia, voltavam. <small> [JDD] </small> </small> </p>
+; <p> atque hunc quidem unum huius belli domestici <b>ducem</b> sine controuersia uicimus <br> <small> Cic.Catil.2.1.7 <br> E, na verdade, vencemos, sem controvérsia, esse único comandante desta guerra civil. <small> [JDD] </small> </small> </p>
+; <p> tu <b>ducibus</b> Latiis aderis , cum laeta triumphum vox canet et visent longas Capitolia pompas : <br> <small> Ov.Met.1.559-60 <br> tu estarás junto dos generais do Lácio, quando uma voz jubilosa cantar o Triunfo e os Capitólios divisarem longas pompas. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-117-120xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 13.73 and an absolute frequency of 4. The Suetonius subcorpus follows, with a normalized frequency of 11.03 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 14 ; absolute frequency: 5.28740841453282. subcorpus: Cicero ; normalized frequency: 69 ; absolute frequency: 4.2984226657696. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 12 ; absolute frequency: 2.23959985815868. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 4 ; absolute frequency: 13.7315482320632. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-117-120xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 7.82 and an absolute frequency of 9. The Poesia.trágica subcorpus follows, with a normalized frequency of 7.82 and an absolute frequency of 9. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 22 ; absolute frequency: 5.35553445799557. subcorpus: Prosa.filosófica ; normalized frequency: 10 ; absolute frequency: 1.64741931763892. subcorpus: Prosa.oratória ; normalized frequency: 57 ; absolute frequency: 5.4727180206043. subcorpus: Prosa.epistolográfica ; normalized frequency: 5 ; absolute frequency: 1.32488937173746. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 9 ; absolute frequency: 7.81792911744267. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-117-120xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 13.09 and an absolute frequency of 5. The I.a.C. subcorpus follows, with a normalized frequency of 4.33 and an absolute frequency of 93. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 93 ; absolute frequency: 4.32860134977892. subcorpus: I.d.C. ; normalized frequency: 14 ; absolute frequency: 2.14165519351384. subcorpus: II.d.C. ; normalized frequency: 5 ; absolute frequency: 13.0890052356021. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

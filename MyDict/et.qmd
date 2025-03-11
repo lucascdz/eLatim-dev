@@ -1,0 +1,243 @@
+---
+title: "et"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx101-116xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>et</b> <br> <small>conj.</small> <br> <small>Obs.: A conj. et pode repetir-se uma ou mais vezes para indicar uma conexão especial entre os termos ou frases que une.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; E &ensp; <small>Cíc. Of. 2, 57.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; E também, e além disso, e até &ensp; <small>Cíc. Verr. 5, 121.</small> <br> <b>3</b> &ensp; <small>II-Com valor temporal:</small> &ensp; E então, e depois &ensp; <small>Verg. En. 6. 498.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Et</b> <br> <small>conjunç.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; e, tambem. </p>
+
+
+
+
+#### Velez
+
+<b>Et</b> <br> <small>Conjunct.</small>   <p> <b>1</b> &ensp; e </p>
+
+
+
+
+#### Cardoso
+
+<b>Et</b> <br> <small>coniunctio.</small>   <p> <b>1</b> &ensp; tambem </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/101542 ' target="_blank"> http://lila-erc.eu/data/id/lemma/101542 </a> <br>
+<small> classe: </small> conjunção coordenativa    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> e, ed, es, id <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ĕt
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx101-116xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword et here are all the values plotted: collocate: dico; scoreSUBST: 0. collocate: magnus; scoreSUBST: 0. collocate: uenio; scoreSUBST: 0. collocate: bonus; scoreSUBST: 0. collocate: fortis; scoreSUBST: 0. collocate: animus; scoreSUBST: 1. collocate: nam; scoreSUBST: 0. collocate: uis; scoreSUBST: 2. collocate: grauis; scoreSUBST: 0. collocate: simul; scoreSUBST: 0. collocate: auctoritas; scoreSUBST: 2. collocate: ceterus; scoreSUBST: 0. collocate: statim; scoreSUBST: 0. collocate: clarus; scoreSUBST: 0. collocate: aio; scoreSUBST: 0. collocate: corpus; scoreSUBST: 1. collocate: mos; scoreSUBST: 2. collocate: studium; scoreSUBST: 1. collocate: laus; scoreSUBST: 2. collocate: cogito; scoreSUBST: 0. collocate: cognosco; scoreSUBST: 0. collocate: constituo; scoreSUBST: 0. collocate: furor; scoreSUBST: 2. collocate: ea; scoreSUBST: 0. collocate: ignis; scoreSUBST: 2. collocate: exeo; scoreSUBST: 0. collocate: rogo; scoreSUBST: 0. collocate: religio; scoreSUBST: 1. collocate: amo; scoreSUBST: 0. collocate: ingenium; scoreSUBST: 1. collocate: erectus; scoreSUBST: 0. collocate: laelius; scoreSUBST: 0. collocate: locuples; scoreSUBST: 0. collocate: Fannius; scoreSUBST: 0. collocate: cottidianus; scoreSUBST: 0. collocate: uiginti; scoreSUBST: 0. collocate: praecipio; scoreSUBST: 0. collocate: uarius; scoreSUBST: 0. collocate: misericordia; scoreSUBST: 2. collocate: protinus; scoreSUBST: 0. collocate: diligentia; scoreSUBST: 2. collocate: sapiens2; scoreSUBST: 0. collocate: mansuetudo; scoreSUBST: 2. collocate: aeger; scoreSUBST: 0. collocate: nubes; scoreSUBST: 2. collocate: affligo; scoreSUBST: 0. collocate: gemitus; scoreSUBST: 2. collocate: inconstantia; scoreSUBST: 2. collocate: trux; scoreSUBST: 0. collocate: exsulto; scoreSUBST: 0. collocate: strepitus; scoreSUBST: 2. collocate: Flaccus; scoreSUBST: 0. collocate: angustus; scoreSUBST: 0. collocate: blandus; scoreSUBST: 0. collocate: circumdo; scoreSUBST: 0. collocate: modestia; scoreSUBST: 2. collocate: pecus2; scoreSUBST: 2. collocate: constans; scoreSUBST: 0. collocate: alacer; scoreSUBST: 0. collocate: necessitudo; scoreSUBST: 2. collocate: coniunctio; scoreSUBST: 2. collocate: conquiro; scoreSUBST: 0. collocate: subicio; scoreSUBST: 0. collocate: Scaeuola; scoreSUBST: 0. collocate: uagus; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx101-116xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword et here are all the values plotted: collocate: dico; scoreADJ: 0. collocate: magnus; scoreADJ: 2. collocate: uenio; scoreADJ: 0. collocate: bonus; scoreADJ: 2. collocate: fortis; scoreADJ: 3. collocate: animus; scoreADJ: 0. collocate: nam; scoreADJ: 0. collocate: uis; scoreADJ: 0. collocate: grauis; scoreADJ: 2. collocate: simul; scoreADJ: 0. collocate: auctoritas; scoreADJ: 0. collocate: ceterus; scoreADJ: 0. collocate: statim; scoreADJ: 0. collocate: clarus; scoreADJ: 2. collocate: aio; scoreADJ: 0. collocate: corpus; scoreADJ: 0. collocate: mos; scoreADJ: 0. collocate: studium; scoreADJ: 0. collocate: laus; scoreADJ: 0. collocate: cogito; scoreADJ: 0. collocate: cognosco; scoreADJ: 0. collocate: constituo; scoreADJ: 0. collocate: furor; scoreADJ: 0. collocate: ea; scoreADJ: 0. collocate: ignis; scoreADJ: 0. collocate: exeo; scoreADJ: 0. collocate: rogo; scoreADJ: 0. collocate: religio; scoreADJ: 0. collocate: amo; scoreADJ: 0. collocate: ingenium; scoreADJ: 0. collocate: erectus; scoreADJ: 2. collocate: laelius; scoreADJ: 2. collocate: locuples; scoreADJ: 2. collocate: Fannius; scoreADJ: 0. collocate: cottidianus; scoreADJ: 2. collocate: uiginti; scoreADJ: 0. collocate: praecipio; scoreADJ: 0. collocate: uarius; scoreADJ: 2. collocate: misericordia; scoreADJ: 0. collocate: protinus; scoreADJ: 0. collocate: diligentia; scoreADJ: 0. collocate: sapiens2; scoreADJ: 2. collocate: mansuetudo; scoreADJ: 0. collocate: aeger; scoreADJ: 2. collocate: nubes; scoreADJ: 0. collocate: affligo; scoreADJ: 0. collocate: gemitus; scoreADJ: 0. collocate: inconstantia; scoreADJ: 0. collocate: trux; scoreADJ: 2. collocate: exsulto; scoreADJ: 0. collocate: strepitus; scoreADJ: 0. collocate: Flaccus; scoreADJ: 0. collocate: angustus; scoreADJ: 2. collocate: blandus; scoreADJ: 2. collocate: circumdo; scoreADJ: 0. collocate: modestia; scoreADJ: 0. collocate: pecus2; scoreADJ: 0. collocate: constans; scoreADJ: 2. collocate: alacer; scoreADJ: 2. collocate: necessitudo; scoreADJ: 0. collocate: coniunctio; scoreADJ: 0. collocate: conquiro; scoreADJ: 0. collocate: subicio; scoreADJ: 0. collocate: Scaeuola; scoreADJ: 0. collocate: uagus; scoreADJ: 2'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx101-116xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword et here are all the values plotted: collocate: dico; scoreVERBO: 1. collocate: magnus; scoreVERBO: 0. collocate: uenio; scoreVERBO: 2. collocate: bonus; scoreVERBO: 0. collocate: fortis; scoreVERBO: 0. collocate: animus; scoreVERBO: 0. collocate: nam; scoreVERBO: 0. collocate: uis; scoreVERBO: 0. collocate: grauis; scoreVERBO: 0. collocate: simul; scoreVERBO: 0. collocate: auctoritas; scoreVERBO: 0. collocate: ceterus; scoreVERBO: 0. collocate: statim; scoreVERBO: 0. collocate: clarus; scoreVERBO: 0. collocate: aio; scoreVERBO: 2. collocate: corpus; scoreVERBO: 0. collocate: mos; scoreVERBO: 0. collocate: studium; scoreVERBO: 0. collocate: laus; scoreVERBO: 0. collocate: cogito; scoreVERBO: 1. collocate: cognosco; scoreVERBO: 1. collocate: constituo; scoreVERBO: 1. collocate: furor; scoreVERBO: 0. collocate: ea; scoreVERBO: 0. collocate: ignis; scoreVERBO: 0. collocate: exeo; scoreVERBO: 2. collocate: rogo; scoreVERBO: 1. collocate: religio; scoreVERBO: 0. collocate: amo; scoreVERBO: 1. collocate: ingenium; scoreVERBO: 0. collocate: erectus; scoreVERBO: 0. collocate: laelius; scoreVERBO: 0. collocate: locuples; scoreVERBO: 0. collocate: Fannius; scoreVERBO: 0. collocate: cottidianus; scoreVERBO: 0. collocate: uiginti; scoreVERBO: 0. collocate: praecipio; scoreVERBO: 2. collocate: uarius; scoreVERBO: 0. collocate: misericordia; scoreVERBO: 0. collocate: protinus; scoreVERBO: 0. collocate: diligentia; scoreVERBO: 0. collocate: sapiens2; scoreVERBO: 0. collocate: mansuetudo; scoreVERBO: 0. collocate: aeger; scoreVERBO: 0. collocate: nubes; scoreVERBO: 0. collocate: affligo; scoreVERBO: 2. collocate: gemitus; scoreVERBO: 0. collocate: inconstantia; scoreVERBO: 0. collocate: trux; scoreVERBO: 0. collocate: exsulto; scoreVERBO: 2. collocate: strepitus; scoreVERBO: 0. collocate: Flaccus; scoreVERBO: 0. collocate: angustus; scoreVERBO: 0. collocate: blandus; scoreVERBO: 0. collocate: circumdo; scoreVERBO: 2. collocate: modestia; scoreVERBO: 0. collocate: pecus2; scoreVERBO: 0. collocate: constans; scoreVERBO: 0. collocate: alacer; scoreVERBO: 0. collocate: necessitudo; scoreVERBO: 0. collocate: coniunctio; scoreVERBO: 0. collocate: conquiro; scoreVERBO: 2. collocate: subicio; scoreVERBO: 2. collocate: Scaeuola; scoreVERBO: 0. collocate: uagus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx101-116xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword et here are all the values plotted: collocate: dico; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: uenio; scoreADV: 0. collocate: bonus; scoreADV: 0. collocate: fortis; scoreADV: 0. collocate: animus; scoreADV: 0. collocate: nam; scoreADV: 1. collocate: uis; scoreADV: 0. collocate: grauis; scoreADV: 0. collocate: simul; scoreADV: 2. collocate: auctoritas; scoreADV: 0. collocate: ceterus; scoreADV: 0. collocate: statim; scoreADV: 2. collocate: clarus; scoreADV: 0. collocate: aio; scoreADV: 0. collocate: corpus; scoreADV: 0. collocate: mos; scoreADV: 0. collocate: studium; scoreADV: 0. collocate: laus; scoreADV: 0. collocate: cogito; scoreADV: 0. collocate: cognosco; scoreADV: 0. collocate: constituo; scoreADV: 0. collocate: furor; scoreADV: 0. collocate: ea; scoreADV: 1. collocate: ignis; scoreADV: 0. collocate: exeo; scoreADV: 0. collocate: rogo; scoreADV: 0. collocate: religio; scoreADV: 0. collocate: amo; scoreADV: 0. collocate: ingenium; scoreADV: 0. collocate: erectus; scoreADV: 0. collocate: laelius; scoreADV: 0. collocate: locuples; scoreADV: 0. collocate: Fannius; scoreADV: 0. collocate: cottidianus; scoreADV: 0. collocate: uiginti; scoreADV: 0. collocate: praecipio; scoreADV: 0. collocate: uarius; scoreADV: 0. collocate: misericordia; scoreADV: 0. collocate: protinus; scoreADV: 2. collocate: diligentia; scoreADV: 0. collocate: sapiens2; scoreADV: 0. collocate: mansuetudo; scoreADV: 0. collocate: aeger; scoreADV: 0. collocate: nubes; scoreADV: 0. collocate: affligo; scoreADV: 0. collocate: gemitus; scoreADV: 0. collocate: inconstantia; scoreADV: 0. collocate: trux; scoreADV: 0. collocate: exsulto; scoreADV: 0. collocate: strepitus; scoreADV: 0. collocate: Flaccus; scoreADV: 0. collocate: angustus; scoreADV: 0. collocate: blandus; scoreADV: 0. collocate: circumdo; scoreADV: 0. collocate: modestia; scoreADV: 0. collocate: pecus2; scoreADV: 0. collocate: constans; scoreADV: 0. collocate: alacer; scoreADV: 0. collocate: necessitudo; scoreADV: 0. collocate: coniunctio; scoreADV: 0. collocate: conquiro; scoreADV: 0. collocate: subicio; scoreADV: 0. collocate: Scaeuola; scoreADV: 0. collocate: uagus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx101-116xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword et here are all the values plotted: collocate: dico; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0. collocate: uenio; scoreFUNC: 0. collocate: bonus; scoreFUNC: 0. collocate: fortis; scoreFUNC: 0. collocate: animus; scoreFUNC: 0. collocate: nam; scoreFUNC: 0. collocate: uis; scoreFUNC: 0. collocate: grauis; scoreFUNC: 0. collocate: simul; scoreFUNC: 0. collocate: auctoritas; scoreFUNC: 0. collocate: ceterus; scoreFUNC: 0. collocate: statim; scoreFUNC: 0. collocate: clarus; scoreFUNC: 0. collocate: aio; scoreFUNC: 0. collocate: corpus; scoreFUNC: 0. collocate: mos; scoreFUNC: 0. collocate: studium; scoreFUNC: 0. collocate: laus; scoreFUNC: 0. collocate: cogito; scoreFUNC: 0. collocate: cognosco; scoreFUNC: 0. collocate: constituo; scoreFUNC: 0. collocate: furor; scoreFUNC: 0. collocate: ea; scoreFUNC: 0. collocate: ignis; scoreFUNC: 0. collocate: exeo; scoreFUNC: 0. collocate: rogo; scoreFUNC: 0. collocate: religio; scoreFUNC: 0. collocate: amo; scoreFUNC: 0. collocate: ingenium; scoreFUNC: 0. collocate: erectus; scoreFUNC: 0. collocate: laelius; scoreFUNC: 0. collocate: locuples; scoreFUNC: 0. collocate: Fannius; scoreFUNC: 0. collocate: cottidianus; scoreFUNC: 0. collocate: uiginti; scoreFUNC: 0. collocate: praecipio; scoreFUNC: 0. collocate: uarius; scoreFUNC: 0. collocate: misericordia; scoreFUNC: 0. collocate: protinus; scoreFUNC: 0. collocate: diligentia; scoreFUNC: 0. collocate: sapiens2; scoreFUNC: 0. collocate: mansuetudo; scoreFUNC: 0. collocate: aeger; scoreFUNC: 0. collocate: nubes; scoreFUNC: 0. collocate: affligo; scoreFUNC: 0. collocate: gemitus; scoreFUNC: 0. collocate: inconstantia; scoreFUNC: 0. collocate: trux; scoreFUNC: 0. collocate: exsulto; scoreFUNC: 0. collocate: strepitus; scoreFUNC: 0. collocate: Flaccus; scoreFUNC: 0. collocate: angustus; scoreFUNC: 0. collocate: blandus; scoreFUNC: 0. collocate: circumdo; scoreFUNC: 0. collocate: modestia; scoreFUNC: 0. collocate: pecus2; scoreFUNC: 0. collocate: constans; scoreFUNC: 0. collocate: alacer; scoreFUNC: 0. collocate: necessitudo; scoreFUNC: 0. collocate: coniunctio; scoreFUNC: 0. collocate: conquiro; scoreFUNC: 0. collocate: subicio; scoreFUNC: 0. collocate: Scaeuola; scoreFUNC: 0. collocate: uagus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>et</b> Priamum simul <br> <small> Sen.Ag.794 <br> E Príamo também. <small> [JDD] </small> </small> </p>
+; <p> rogat <b>et</b> respondet <br> <small> Hor.S.1.9.63 <br> pergunta e responde. <small> [JDD] </small> </small> </p>
+; <p> <b>et</b> ait illis <br> <small> Vulg.Marc.1.38 <br> E ele lhes disse. <small> [JDD] </small> </small> </p>
+; <p> <b>et</b> statim vocavit illos <br> <small> Vulg.Marc.1.20 <br> E de imediato chamou-os <small> [JDD] </small> </small> </p>
+; <p> <b>et</b> statim ille surrexit <br> <small> Vulg.Marc.2.12 <br> E imediatamente ele se levantou <small> [JDD] </small> </small> </p>
+; <p> Dixerat , <b>et</b> flebant . <br> <small> Ov.Met.1.367 <br> Tinha dito e eles choravam. <small> [JDD] </small> </small> </p>
+; <p> ferro <b>et</b> igne res geritur <br> <small> Sen.Ep.7.4 <br> A ação se leva a cabo a ferro e fogo. <small> [JDD] </small> </small> </p>
+; <p> unde uenis <b>et</b> quo tendis <br> <small> Hor.S.1.9.62 <br> “De onde vens?” e “Para onde vais?” <small> [JDD] </small> </small> </p>
+; <p> <b>et</b> eo amplius admirabantur dicentes <br> <small> Vulg.Marc.7.37 <br> e ficavam cada vez mais admirados, dizendo. <small> [JDD] </small> </small> </p>
+; <p> Aeneas ait <b>et</b> fastigia suspicit urbis <br> <small> Verg.A.1.438 <br> Diz Enéias e contempla as cumeeiras da cidade. <small> [JDD] </small> </small> </p>
+; <p> ita sum animo perculso <b>et</b> abiecto <br> <small> Cic.Att.3.2 <br> de tal modo estou com o espírito prostrado e abatido. <small> [JDD] </small> </small> </p>
+; <p> <b>et</b> aliud cecidit in terram bonam <br> <small> Vulg.Marc.4.8 <br> E outra caiu em terra boa. <small> [JDD] </small> </small> </p>
+; <p> amamur a fratre <b>et</b> a filia <br> <small> Cic.Att.4.2.7 <br> Somos amados por meu irmão e por minha filha. <small> [JDD] </small> </small> </p>
+; <p> <b>et</b> exeuntes praedicabant ut paenitentiam agerent <br> <small> Vulg.Marc.6.12 <br> E saindo eles, pregavam que se arrependessem. <small> [JDD] </small> </small> </p>
+; <p> Venit ecce dives <b>et</b> potens : <br> <small> Phaed.3.5 <br> Aí vem vindo um homem rico e poderoso. <small> [JDD] </small> </small> </p>
+; <p> <b>et</b> exiens vidit multam turbam Iesus <br> <small> Vulg.Marc.6.34 <br> E, ao sair, viu Jesus a multidão <small> [JDD] </small> </small> </p>
+; <p> <b>et</b> statim dicunt ei de illa <br> <small> Vulg.Marc.1.30 <br> e logo lhe falam dela. <small> [JDD] </small> </small> </p>
+; <p> magno enim strepitu <b>et</b> tumultu uenit <br> <small> Sen.Ep.14.4 <br> pois vem com grande estrépito e tumulto. <small> [JDD] </small> </small> </p>
+; <p> ceteris prae se fert <b>et</b> ostentat <br> <small> Cic.Att.2.23.3 <br> perante os outros mostra e ostenta. <small> [JDD] </small> </small> </p>
+; <p> Magnis clamoribus adflictus conticuit <b>et</b> concidit <br> <small> Cic.Att.1.16.10 <br> Acabrunhado por grandes gritarias, calou-se e se sentou. <small> [JDD] </small> </small> </p>
+; <p> Quantum decoris corpore <b>et</b> vultu geris ! <br> <small> Phaed.1.13 <br> Que grande formosura trazes no corpo e no rosto! <small> [JDD] </small> </small> </p>
+; <p> <b>et</b> cum audissent sui exierunt tenere eum <br> <small> Vulg.Marc.3.21 <br> E quando os seus ouviram isso, saíram para o deter. <small> [JDD] </small> </small> </p>
+; <p> conantes dicere prohibuit <b>et</b> in catenas coniecit <br> <small> Caes.Gal.1.47.6 <br> Impediu-os de tentar falar e colocou-os em correntes. <small> [JDD] </small> </small> </p>
+; <p> maxima est enim uis uetustatis <b>et</b> consuetudinis <br> <small> Cic.Amici.68 <br> pois é muito grande a força da antiguidade e do costume. <small> [JDD] </small> </small> </p>
+; <p> <b>et</b> viderunt eos abeuntes <b>et</b> cognoverunt multi <br> <small> Vulg.Marc.6.33 <br> E muitos os viram indo e os reconheceram. <small> [JDD] </small> </small> </p>
+; <p> equi fortis <b>et</b> uictoris senectuti comparat suam <br> <small> Cic.Sen.14 <br> Ele compara a sua com a velhice de um cavalo forte e vitorioso. <small> [JDD] </small> </small> </p>
+; <p> id est maximum <b>et</b> miserrimum mearum omnium miseriarum <br> <small> Cic.Att.3.7.3 <br> Essa é a maior e mais desgraçada de todas as minhas desgraças. <small> [JDD] </small> </small> </p>
+; <p> sermonem tuum <b>et</b> Pompei cognovi ex tuis litteris <br> <small> Cic.Att.3.8.3 <br> Soube por tua carta de tua conversa com Pompeu. <small> [JDD] </small> </small> </p>
+; <p> laedere gaudes inquit <b>et</b> hoc studio prauus facis <br> <small> Hor.S.1.4.78 <br> “Gostas de ofender”, diz, “e, maldoso, fazes isso intencionalmente. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> remeasse laetor uulnus <b>et</b> regni graue lugere cogor <br> <small> Sen.Ag.580 <br> Fico alegre de que tenha voltado: mas sou obrigada a chorar a grave ferida do reino. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> hoc animadversum Graecorum laude <b>et</b> multo sermone celebratur <br> <small> Cic.Att.5.10.2 <br> Isso foi observado com louvor dos gregos e é comentado em muita conversa. <small> [JDD] </small> </small> </p>
+; <p> <b>et</b> sensit corpore quod sanata esset a plaga <br> <small> Vulg.Marc.5.29 <br> e ela sentiu no corpo que estava curada da enfermidade. <small> [JDD] </small> </small> </p>
+; <p> Nam <b>et</b> medium quoddam officium dicitur <b>et</b> perfectum <br> <small> Cic.Off.1.8 <br> Pois um dever é dito médio e outro, perfeito. <small> [JDD] </small> </small> </p>
+; <p> <b>et</b> ferrum <b>et</b> ignis saepe medicinae loco est <br> <small> Sen.Ag.152 <br> Tanto o ferro como o fogo muitas vezes estão frequentemente no lugar da medicina. <small> [JDD] </small> </small> </p>
+; <p> hunc murus circumdatus arcem efficit <b>et</b> cum oppido coniungit <br> <small> Caes.Gal.1.38.6 <br> Um muro em torno faz dessa montanha uma cidadela e a une com a cidade. <small> [JDD] </small> </small> </p>
+; <p> id uero iudices etiam dubitandum <b>et</b> diutius cogitandum est <br> <small> Cic.Mil.53 <br> Mas isso, juízes, deve ser ainda posto em dúvida e cogitado por mais tempo? <small> [JDD] </small> </small> </p>
+; <p> cura ut valeas <b>et</b> ut sciam quando cogites Romam <br> <small> Cic.Att.5.20.9 <br> Cuida para que fiques bem e para que eu saiba quando pensas ir para Roma. <small> [JDD] </small> </small> </p>
+; <p> tum ostendi tabellas Lentulo <b>et</b> quaesiui cognosceret ne signum <br> <small> Cic.Catil.3.10.17 <br> Mostrei então as tabuinhas a Lêntulo e perguntei se ele reconhecia o sinete. <small> [JDD] </small> </small> </p>
+; <p> at ex bono uiro credo audieras <b>et</b> bono auctore <br> <small> Cic.Ver.2.4.102.1 <br> 102 Mas tinhas ouvido, creio, de um homem de bem e com a autoridade de um homem de bem. <small> [JDD] </small> </small> </p>
+; <p> est consul φιλόπατρις <b>et</b> ut semper iudicavi natura bonus <br> <small> Cic.Att.2.1.4 <br> Ele é um cônsul patriota e, como sempre julguei, bom por natureza. <small> [JDD] </small> </small> </p>
+; <p> <b>et</b> cetera magno cum fremitu <b>et</b> clamore sunt dicta <br> <small> Cic.Att.2.19.3 <br> e demais coisas foram ditas com grande frêmito e clamor. <small> [JDD] </small> </small> </p>
+; <p> rem haud sane difficilem Scipio <b>et</b> Laeli admirari uidemini <br> <small> Cic.Sen.4 <br> Vós pareceis admirar, Cipião e Lélio, uma coisa que realmente não é difícil. <small> [JDD] </small> </small> </p>
+; <p> ille se recepit magno <b>et</b> turpi Quinti Flacci convicio <br> <small> Cic.Att.4.3.4 <br> Ele se retirou em meio a grande e vergonhoso insulto de Quinto Flaco. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nam <b>et</b> senatus auctoritatem abiecit <b>et</b> ordinum concordiam diiunxit <br> <small> Cic.Att.1.18.3 <br> pois tanto destruiu a autoridade do senado como desfez a concórdia das ordens. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> id fit etiam <b>et</b> legatorum <b>et</b> tribunorum <b>et</b> praefectorum diligentia <br> <small> Cic.Att.5.17.2 <br> Isso também se dá graças à aplicação dos legados, dos tribunos e dos prefeitos. <small> [JDD] </small> </small> </p>
+; <p> magna uis est magnum numen unum <b>et</b> idem sentientis senatus <br> <small> Cic.Phil.3.32.9 <br> É uma grande força, um grande poder uma mesma e única opinião do senado. <small> [JDD] </small> </small> </p>
+; <p> ille mansuetudine <b>et</b> misericordia clarus factus huic seueritas dignitatem addiderat <br> <small> Sal.Cat.54.2 <br> Aquele se fez ilustre por sua brandura e misericórdia, a este sua severidade lhe tinha conferido dignidade. <small> [JDD] </small> </small> </p>
+; <p> Ad rivum eundem lupus <b>et</b> agnus venerant Siti compulsi ; <br> <small> Phaed.1.1 <br> A um mesmo rio tinham vindo um lobo e um cordeiro, compelidos pela sede. <small> [JDD] </small> </small> </p>
+; <p> nam ne absens censeare curabo edicendum <b>et</b> proponendum locis omnibus <br> <small> Cic.Att.1.18.8 <br> E, para que não sejas censeado como ausente, cuidarei de dar a notícia e divulgá-la por todos os lugares. <small> [JDD] </small> </small> </p>
+; <p> a clamore protinus <b>et</b> a summa contentione uox tua incipiet <br> <small> Sen.Ep.15.7 <br> Tua voz começará em seguida pelo clamor e pelo supremo esforço? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx101-116xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 1175.02 and an absolute frequency of 523. The Tacitus subcorpus follows, with a normalized frequency of 322.69 and an absolute frequency of 94. the subcorpus with the least normalized frequency is Sallustius with the normalized value of 110.38 and an absolute freqeuncy of 119. here are all the values: subcorpus: Caesar ; normalized frequency: 564 ; absolute frequency: 213.007024699751. subcorpus: Cicero ; normalized frequency: 3308 ; absolute frequency: 206.075104034288. subcorpus: Horatius ; normalized frequency: 244 ; absolute frequency: 216.677026907024. subcorpus: Ovidius ; normalized frequency: 120 ; absolute frequency: 205.902539464653. subcorpus: Phaedrus ; normalized frequency: 102 ; absolute frequency: 154.850463033247. subcorpus: Sallustius ; normalized frequency: 119 ; absolute frequency: 110.379371115852. subcorpus: Seneca ; normalized frequency: 1470 ; absolute frequency: 274.350982624438. subcorpus: Suetonius ; normalized frequency: 26 ; absolute frequency: 286.659316427784. subcorpus: Tacitus ; normalized frequency: 94 ; absolute frequency: 322.691383453484. subcorpus: Vergilius ; normalized frequency: 161 ; absolute frequency: 310.810810810811. subcorpus: Hieronymus ; normalized frequency: 523 ; absolute frequency: 1175.01685014603'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx101-116xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 1175.02 and an absolute frequency of 523. The Poesia.épica subcorpus follows, with a normalized frequency of 310.81 and an absolute frequency of 161. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 178.13 and an absolute freqeuncy of 210. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 803 ; absolute frequency: 195.477007716838. subcorpus: Prosa.filosófica ; normalized frequency: 1677 ; absolute frequency: 276.272219568047. subcorpus: Prosa.oratória ; normalized frequency: 1960 ; absolute frequency: 188.184689831306. subcorpus: Prosa.epistolográfica ; normalized frequency: 871 ; absolute frequency: 230.795728556666. subcorpus: Poesia.lírica ; normalized frequency: 256 ; absolute frequency: 215.361319088079. subcorpus: Poesia.didática ; normalized frequency: 210 ; absolute frequency: 178.132157095598. subcorpus: Poesia.trágica ; normalized frequency: 270 ; absolute frequency: 234.53787352328. subcorpus: Poesia.épica ; normalized frequency: 161 ; absolute frequency: 310.810810810811. subcorpus: Prosa.ficcional ; normalized frequency: 523 ; absolute frequency: 1175.01685014603'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx101-116xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 1175.02 and an absolute frequency of 523. The II.d.C. subcorpus follows, with a normalized frequency of 314.14 and an absolute frequency of 120. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 205.17 and an absolute freqeuncy of 4408. here are all the values: subcorpus: I.a.C. ; normalized frequency: 4408 ; absolute frequency: 205.166395159414. subcorpus: I.d.C. ; normalized frequency: 1680 ; absolute frequency: 256.998623221661. subcorpus: II.d.C. ; normalized frequency: 120 ; absolute frequency: 314.13612565445. subcorpus: IV.d.C. ; normalized frequency: 523 ; absolute frequency: 1175.01685014603'}
+
+
+:::
+

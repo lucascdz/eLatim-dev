@@ -1,0 +1,209 @@
+---
+title: "corpus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-111-114-112-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>corpus</b> <b>-òris</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Corpo &ensp; <small>em oposição à alma Cíc. Fin. 1, 55.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Corpo inanimado, cadáver &ensp; <small>Cés. B. Gal. 2, 10, 3.</small> <br> <b>3</b> &ensp; <small>I-Daí:</small> &ensp; Objeto material, substância, matéria, corpo &ensp; <small>do homem e dos animais Lucr. 1, 679.</small> <br> <b>4</b> &ensp; <small>I-Daí:</small> &ensp; Tronco de uma árvore &ensp; <small>Ov. Met. 11, 794.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Reunião de indivíduos, reunião, povo, corporação, nação &ensp; <small>T. Lív. 34, 9, 3.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Pessoa, indivíduo: &ensp; <small></small> <br> <b>7</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Substância, essência &ensp; <small>Quint. 10, 1, 87.</small> <br> <b>8</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Carne, gordura &ensp; <small>Cíc. Nat. 2, 139.</small> <br> <b>9</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Corpo ou texto &ensp; <small>em oposição às notas de um trabalho:</small> <br> <b>10</b> &ensp; <small>II-Sent. poético:</small> &ensp; A alma, sombra &ensp; <small>dos mortos Verg. En. 6, 303.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>6</b><br>liberum corpus T. Lív. 3. 56, 8 “uma pessoa lívre”. <br> <br><b>9</b><br>corpus omnis juris Romani T. Lív. 3. 34,7 “um texto de todo o direito romano”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Corpus</b> -<b>oris</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; corpo. <br> <b>2</b> &ensp; obra escrita, volume. <br> <b>3</b> &ensp; <small>Nep.</small> &ensp; homem. <br> <b>4</b> &ensp; <small>Liv.</small> &ensp; familia, tribu. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>corpus amittere &ensp; <small><small>Cic</small></small> &ensp; <small>Emmagrecer</small> <br> corpus euirare &ensp; <small><small>Catul</small></small> &ensp; <small>Castrar</small> </p>
+
+
+
+
+#### Velez
+
+<b>Corpus</b> -<b>oris</b>   <p> <b>1</b> &ensp; o corpo, ou volume de livro </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>corpus bene constitutum &ensp; <small>de boa compleiçaõ</small> <br> corpus sine pectore &ensp; <small><small>i, sine mente apud Horat</small></small> <br> toto corpore, atque omnibus ungulis &ensp; <small><small>i, summâ pertinaciâ</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Corpus</b> <b>oris</b>   <p> <b>1</b> &ensp; ho corpo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/96667 ' target="_blank"> http://lila-erc.eu/data/id/lemma/96667 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+corpŏris
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-111-114-112-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-111-114-112-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword corpus here are all the values plotted: collocate: uis; scoreSUBST: 2. collocate: tego; scoreSUBST: 0. collocate: uoluptas; scoreSUBST: 2. collocate: humanus; scoreSUBST: 0. collocate: magnitudo; scoreSUBST: 2. collocate: totus; scoreSUBST: 0. collocate: pars; scoreSUBST: 2. collocate: suus; scoreSUBST: 0. collocate: tuus; scoreSUBST: 0. collocate: animus; scoreSUBST: 2. collocate: nec; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-111-114-112-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword corpus here are all the values plotted: collocate: uis; scoreADJ: 0. collocate: tego; scoreADJ: 0. collocate: uoluptas; scoreADJ: 0. collocate: humanus; scoreADJ: 2. collocate: magnitudo; scoreADJ: 0. collocate: totus; scoreADJ: 0. collocate: pars; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: tuus; scoreADJ: 0. collocate: animus; scoreADJ: 0. collocate: nec; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-111-114-112-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword corpus here are all the values plotted: collocate: uis; scoreVERBO: 0. collocate: tego; scoreVERBO: 2. collocate: uoluptas; scoreVERBO: 0. collocate: humanus; scoreVERBO: 0. collocate: magnitudo; scoreVERBO: 0. collocate: totus; scoreVERBO: 0. collocate: pars; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0. collocate: animus; scoreVERBO: 0. collocate: nec; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-111-114-112-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword corpus here are all the values plotted: collocate: uis; scoreADV: 0. collocate: tego; scoreADV: 0. collocate: uoluptas; scoreADV: 0. collocate: humanus; scoreADV: 0. collocate: magnitudo; scoreADV: 0. collocate: totus; scoreADV: 0. collocate: pars; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: animus; scoreADV: 0. collocate: nec; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-111-114-112-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword corpus here are all the values plotted: collocate: uis; scoreFUNC: 0. collocate: tego; scoreFUNC: 0. collocate: uoluptas; scoreFUNC: 0. collocate: humanus; scoreFUNC: 0. collocate: magnitudo; scoreFUNC: 0. collocate: totus; scoreFUNC: 0. collocate: pars; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: tuus; scoreFUNC: 0. collocate: animus; scoreFUNC: 0. collocate: nec; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Quantum decoris <b>corpore</b> et vultu geris ! <br> <small> Phaed.1.13 <br> Que grande formosura trazes no corpo e no rosto! <small> [JDD] </small> </small> </p>
+; <p> quam minimum sit in <b>corpore</b> tuo spoliorum <br> <small> Sen.Ep.14.9 <br> que haja em teu corpo o mínimo de despojos possível. <small> [JDD] </small> </small> </p>
+; <p> uobis illos sustuli uultis aliquam partem <b>corporis</b> <br> <small> Sen.Prov.5.5 <br> Para vós os criei. Quereis alguma parte do meu corpo? <small> [JDD] </small> </small> </p>
+; <p> et sensit <b>corpore</b> quod sanata esset a plaga <br> <small> Vulg.Marc.5.29 <br> e ela sentiu no corpo que estava curada da enfermidade. <small> [JDD] </small> </small> </p>
+; <p> nobis cum nec animo certe est nec <b>corpore</b> <br> <small> Cic.Phil.12.23.4 <br> Com certeza não está conosco nem de espírito nem de corpo. <small> [JDD] </small> </small> </p>
+; <p> In nova fert animus mutatas dicere formas <b>corpora</b> ; <br> <small> Ov.Met.1.1-2 <br> O espírito me leva a relatar as formas mudadas em novos corpos. <small> [JDD] </small> </small> </p>
+; <p> quibus profecto contra naturam <b>corpus</b> uoluptati anima oneri fuit <br> <small> Sal.Cat.2.8 <br> e esses, indubitavelmente contra a natureza, têm o corpo para o prazer, a alma para a carga. <small> [JDD] </small> </small> </p>
+; <p> quae sunt igitur uoluptates <b>corporis</b> cum auctoritatis praemiis comparandae <br> <small> Cic.Sen.64 <br> Portanto, que prazeres do corpo devem ser comparados com os prêmios da autoridade? <small> [JDD] </small> </small> </p>
+; <p> noueramus uires <b>corporis</b> ex his collegimus esse et animi robur <br> <small> Sen.Ep.120.5 <br> Conhecíamos as forças do corpo: a partir delas, concluímos que havia também o vigor do espírito. <small> [JDD] </small> </small> </p>
+; <p> quid aliud uoces hunc quam deum in <b>corpore</b> humano hospitantem <br> <small> Sen.Ep.31.11 <br> De que outra coisa chamas este do que de um deus hospedando-se no corpo humano? <small> [JDD] </small> </small> </p>
+; <p> nam fere quem quisque uiuos pugnando locum ceperat eum amissa anima <b>corpore</b> tegebat <br> <small> Sal.Cat.61.2 <br> Pois praticamente o local que cada um ocupara lutando vivo, perdida sua vida, cobria-o com seu corpo. <small> [JDD] </small> </small> </p>
+; <p> nihil habent quo tegantur ad ictum totis <b>corporibus</b> expositi numquam frustra manum mittunt <br> <small> Sen.Ep.7.3 <br> Eles nada têm para se cobrir; expostos ao golpe em todo o corpo, nunca atacam em vão. <small> [JDD] </small> </small> </p>
+; <p> utatur ut uult suis natura <b>corporibus</b> nos laeti ad omnia et fortes cogitemus nihil perire de nostro <br> <small> Sen.Prov.5.8 <br> Que a natureza use como quer os corpos que são dela; nós, alegres com tudo e fortes, pensemos que nada do nosso perece. <small> [JDD] </small> </small> </p>
+; <p> quae res et cibi genere et cotidiana exercitatione et libertate uitae quod a pueris nullo officio aut disciplina adsuefacti nihil omnino contra uoluntatem faciunt et uires alit et immani <b>corporum</b> magnitudine homines efficit <br> <small> Caes.Gal.4.1.9 <br> o que, pelo tipo de alimento, pelo exercício cotidiano e pela liberdade de vida, já que, não habituados desde pequenos a nenhum ofício ou disciplina, não fazem absolutamente nada contra a sua vontade, não só lhes cria forças, mas também os torna homens de descomunal tamanho de corpos. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-111-114-112-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Ovidius subcorpus registers the highest normalized frequency, with the value of 25.74 and an absolute frequency of 15. The Sallustius subcorpus follows, with a normalized frequency of 16.7 and an absolute frequency of 18. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 9 ; absolute frequency: 3.39904826648538. subcorpus: Cicero ; normalized frequency: 72 ; absolute frequency: 4.48531060775959. subcorpus: Horatius ; normalized frequency: 8 ; absolute frequency: 7.10416481662375. subcorpus: Ovidius ; normalized frequency: 15 ; absolute frequency: 25.7378174330817. subcorpus: Phaedrus ; normalized frequency: 10 ; absolute frequency: 15.181417944436. subcorpus: Sallustius ; normalized frequency: 18 ; absolute frequency: 16.6960393284482. subcorpus: Seneca ; normalized frequency: 96 ; absolute frequency: 17.9167988652694. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-111-114-112-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 18.29 and an absolute frequency of 111. The Poesia.lírica subcorpus follows, with a normalized frequency of 10.1 and an absolute frequency of 12. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0.53 and an absolute freqeuncy of 2. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 29 ; absolute frequency: 7.05956814917598. subcorpus: Prosa.filosófica ; normalized frequency: 111 ; absolute frequency: 18.286354425792. subcorpus: Prosa.oratória ; normalized frequency: 37 ; absolute frequency: 3.55246608355016. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 12 ; absolute frequency: 10.0950618322537. subcorpus: Poesia.didática ; normalized frequency: 21 ; absolute frequency: 17.8132157095598. subcorpus: Poesia.trágica ; normalized frequency: 18 ; absolute frequency: 15.6358582348853. subcorpus: Poesia.épica ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-111-114-112-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 17.9 and an absolute frequency of 117. The I.a.C. subcorpus follows, with a normalized frequency of 5.45 and an absolute frequency of 117. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 4.49 and an absolute freqeuncy of 2. here are all the values: subcorpus: I.a.C. ; normalized frequency: 117 ; absolute frequency: 5.44565976262509. subcorpus: I.d.C. ; normalized frequency: 117 ; absolute frequency: 17.8981184029371. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

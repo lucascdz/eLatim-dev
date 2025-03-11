@@ -1,0 +1,204 @@
+---
+title: "malus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-97-108-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>malus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Mau, de má qualidade &ensp; <small>Cíc. Arch. 25.</small> <br> <b>2</b> &ensp; <small>II-Sent. moral</small> &ensp; Desonesto, depravado, mau &ensp; <small>Cíc. Phil. 3, 183.</small> <br> <b>3</b> &ensp; <small>II-Sent. moral</small> &ensp; Manhoso, pernicioso, matreiro &ensp; <small>Plaut. Rud. 466.</small> <br> <b>4</b> &ensp; <small>II-Sent. moral</small> &ensp; Infeliz, funesto, miserável &ensp; <small>Cíc. Div. 2, 54.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Malus</b> -<b>a</b> -<b>um</b> <small>Cic</small> -<b>pejor</b> <small>Liv</small> -<b>pessimus</b>   <p> <b>1</b> &ensp; máo, ruim, malvado. <br> <b>2</b> &ensp; <small>Hor.</small> &ensp; infeliz, pernicioso. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>haud mala est mulier &ensp; <small><small>Plaut</small></small> &ensp; <small>Não he fea esta mulher</small> <br> mala aetas &ensp; <small><small>Plaut</small></small> &ensp; <small>Velhice</small> <br> mala falx &ensp; <small><small>Virg</small></small> &ensp; <small>Fouce daninha</small> <br> mala gramina &ensp; <small><small>Virg</small></small> &ensp; <small>Hervas magicas, que servem para feitiços</small> </p>
+
+
+
+
+#### Velez
+
+<b>Malus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa má </p>
+
+
+
+
+#### Cardoso
+
+<b>Malus</b> -<b>a</b> <b>um</b> <br> <small>prima breui.</small>   <p> <b>1</b> &ensp; cousa maa </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/111418 ' target="_blank"> http://lila-erc.eu/data/id/lemma/111418 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+mălus 
+ măla 
+ mălum
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-97-108-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword malus here are all the values plotted: collocate: exemplum; scoreSUBST: 2. collocate: facinus; scoreSUBST: 2. collocate: ars; scoreSUBST: 2. collocate: mos; scoreSUBST: 2. collocate: fortuna; scoreSUBST: 2. collocate: tantus; scoreSUBST: 0. collocate: bonus; scoreSUBST: 0. collocate: aut; scoreSUBST: 0. collocate: atque; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-97-108-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword malus here are all the values plotted: collocate: exemplum; scoreADJ: 0. collocate: facinus; scoreADJ: 0. collocate: ars; scoreADJ: 0. collocate: mos; scoreADJ: 0. collocate: fortuna; scoreADJ: 0. collocate: tantus; scoreADJ: 0. collocate: bonus; scoreADJ: 2. collocate: aut; scoreADJ: 0. collocate: atque; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-97-108-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword malus here are all the values plotted: collocate: exemplum; scoreVERBO: 0. collocate: facinus; scoreVERBO: 0. collocate: ars; scoreVERBO: 0. collocate: mos; scoreVERBO: 0. collocate: fortuna; scoreVERBO: 0. collocate: tantus; scoreVERBO: 0. collocate: bonus; scoreVERBO: 0. collocate: aut; scoreVERBO: 0. collocate: atque; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-97-108-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword malus here are all the values plotted: collocate: exemplum; scoreADV: 0. collocate: facinus; scoreADV: 0. collocate: ars; scoreADV: 0. collocate: mos; scoreADV: 0. collocate: fortuna; scoreADV: 0. collocate: tantus; scoreADV: 0. collocate: bonus; scoreADV: 0. collocate: aut; scoreADV: 0. collocate: atque; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-97-108-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword malus here are all the values plotted: collocate: exemplum; scoreFUNC: 0. collocate: facinus; scoreFUNC: 0. collocate: ars; scoreFUNC: 0. collocate: mos; scoreFUNC: 0. collocate: fortuna; scoreFUNC: 0. collocate: tantus; scoreFUNC: 0. collocate: bonus; scoreFUNC: 0. collocate: aut; scoreFUNC: 0. collocate: atque; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> habet etiam <b>mala</b> fortuna leuitatem <br> <small> Sen.Ep.13.11 <br> A má fortuna também tem a sua veleidade. <small> [JDD] </small> </small> </p>
+; <p> magnum exemplum nisi <b>mala</b> fortuna non inuenit <br> <small> Sen.Prov.3.4 <br> Não encontra um grande exemplo que não seja na má fortuna. <small> [JDD] </small> </small> </p>
+; <p> esse putat nusquam atque animo <b>peiora</b> veretur . <br> <small> Ov.Met.1.586 <br> imagina que não está em nenhum lugar e, em seu espírito, teme coisas piores. <small> [JDD] </small> </small> </p>
+; <p> omnia <b>mala</b> exempla ex rebus bonis orta sunt <br> <small> Sal.Cat.51.27 <br> Todos os maus exemplos se originam de boas coisas. <small> [JDD] </small> </small> </p>
+; <p> <b>malis</b> artibus popularis fauor quaeritur similem te illis facias oportet <br> <small> Sen.Ep.29.11 <br> Com más artes se busca o favor popular. É preciso que te faças semelhante a eles. <small> [JDD] </small> </small> </p>
+; <p> sed iuuentutem quam ut supra diximus inlexerat multis modis <b>mala</b> facinora edocebat <br> <small> Sal.Cat.16.1 <br> Mas ele ensinava de muitas maneiras as más ações à juventude, que, como dissemos acima, tinha aliciado. <small> [JDD] </small> </small> </p>
+; <p> quare deus optimum quemque aut <b>mala</b> ualitudine aut luctu aut aliis incommodis afficit <br> <small> Sen.Prov.4.8 <br> Por que motivo o deus afeta os melhores ou com má saúde ou com luto ou com outros inconvenientes? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> incitabant praeterea corrupti ciuitatis mores quos <b>pessuma</b> ac diuorsa inter se mala luxuria atque auaritia uexabant <br> <small> Sal.Cat.5.8 <br> Além disso, o estimulavam os costumes corruptos da cidade, os quais os péssimos e diversos entre si, a luxúria e a avareza, atormentavam. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> excidunt ignes tamen et nube dirum fulmen elisa micat miserisque lucis tanta dulcedo est <b>malae</b> hoc lumen optant <br> <small> Sen.Ag.494 <br> Caem fogos, no entanto, e entre nuvem rasgada brilha o sinistro raio e para os infelizes, é tão grande a doçura da calamitosa luz: eles desejam esta claridade. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-97-108-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 21.25 and an absolute frequency of 14. The Phaedrus subcorpus follows, with a normalized frequency of 21.25 and an absolute frequency of 14. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 22 ; absolute frequency: 1.37051157459321. subcorpus: Horatius ; normalized frequency: 17 ; absolute frequency: 15.0963502353255. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 14 ; absolute frequency: 21.2539851222104. subcorpus: Sallustius ; normalized frequency: 19 ; absolute frequency: 17.6235970689175. subcorpus: Seneca ; normalized frequency: 42 ; absolute frequency: 7.83859950355536. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 4 ; absolute frequency: 13.7315482320632. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-97-108-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 14.3 and an absolute frequency of 17. The Poesia.lírica subcorpus follows, with a normalized frequency of 14.3 and an absolute frequency of 17. the subcorpus with the least normalized frequency is Prosa.oratória with the normalized value of 1.06 and an absolute freqeuncy of 11. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 24 ; absolute frequency: 5.84240122690426. subcorpus: Prosa.filosófica ; normalized frequency: 40 ; absolute frequency: 6.58967727055567. subcorpus: Prosa.oratória ; normalized frequency: 11 ; absolute frequency: 1.05613856537978. subcorpus: Prosa.epistolográfica ; normalized frequency: 8 ; absolute frequency: 2.11982299477994. subcorpus: Poesia.lírica ; normalized frequency: 17 ; absolute frequency: 14.3013375956928. subcorpus: Poesia.didática ; normalized frequency: 15 ; absolute frequency: 12.7237255068284. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-97-108-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 10.47 and an absolute frequency of 4. The I.d.C. subcorpus follows, with a normalized frequency of 8.72 and an absolute frequency of 57. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 2.79 and an absolute freqeuncy of 60. here are all the values: subcorpus: I.a.C. ; normalized frequency: 60 ; absolute frequency: 2.79264603211543. subcorpus: I.d.C. ; normalized frequency: 57 ; absolute frequency: 8.71959614502065. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+:::
+

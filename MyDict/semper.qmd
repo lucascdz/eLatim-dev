@@ -1,0 +1,208 @@
+---
+title: "semper"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-101-109-112-101-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>semper</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; De uma vez por todas, para sempre, sem cessar &ensp; <small>Cíc. Tusc. 1. 53.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Semper</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; sempre. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Semper</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; sempre </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/124294 ' target="_blank"> http://lila-erc.eu/data/id/lemma/124294 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> semperum <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+sempĕr
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-101-109-112-101-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword semper here are all the values plotted: collocate: nouus; scoreSUBST: 0. collocate: pax; scoreSUBST: 2. collocate: carus; scoreSUBST: 0. collocate: auctor; scoreSUBST: 2. collocate: scelus; scoreSUBST: 2. collocate: timeo; scoreSUBST: 0. collocate: aliquis; scoreSUBST: 0. collocate: idem; scoreSUBST: 0. collocate: habeo; scoreSUBST: 0. collocate: que; scoreSUBST: 0. collocate: ego; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-101-109-112-101-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword semper here are all the values plotted: collocate: nouus; scoreADJ: 2. collocate: pax; scoreADJ: 0. collocate: carus; scoreADJ: 2. collocate: auctor; scoreADJ: 0. collocate: scelus; scoreADJ: 0. collocate: timeo; scoreADJ: 0. collocate: aliquis; scoreADJ: 0. collocate: idem; scoreADJ: 0. collocate: habeo; scoreADJ: 0. collocate: que; scoreADJ: 0. collocate: ego; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-101-109-112-101-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword semper here are all the values plotted: collocate: nouus; scoreVERBO: 0. collocate: pax; scoreVERBO: 0. collocate: carus; scoreVERBO: 0. collocate: auctor; scoreVERBO: 0. collocate: scelus; scoreVERBO: 0. collocate: timeo; scoreVERBO: 2. collocate: aliquis; scoreVERBO: 0. collocate: idem; scoreVERBO: 0. collocate: habeo; scoreVERBO: 2. collocate: que; scoreVERBO: 0. collocate: ego; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-101-109-112-101-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword semper here are all the values plotted: collocate: nouus; scoreADV: 0. collocate: pax; scoreADV: 0. collocate: carus; scoreADV: 0. collocate: auctor; scoreADV: 0. collocate: scelus; scoreADV: 0. collocate: timeo; scoreADV: 0. collocate: aliquis; scoreADV: 0. collocate: idem; scoreADV: 0. collocate: habeo; scoreADV: 0. collocate: que; scoreADV: 0. collocate: ego; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-101-109-112-101-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword semper here are all the values plotted: collocate: nouus; scoreFUNC: 0. collocate: pax; scoreFUNC: 0. collocate: carus; scoreFUNC: 0. collocate: auctor; scoreFUNC: 0. collocate: scelus; scoreFUNC: 0. collocate: timeo; scoreFUNC: 0. collocate: aliquis; scoreFUNC: 0. collocate: idem; scoreFUNC: 0. collocate: habeo; scoreFUNC: 0. collocate: que; scoreFUNC: 0. collocate: ego; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>semper</b> idem uelle atque idem nolle <br> <small> Sen.Ep.20.5 <br> Querer sempre o mesmo e não querer sempre o mesmo. <small> [JDD] </small> </small> </p>
+; <p> hanc enim habebat <b>semper</b> in ore prouinciam <br> <small> Cic.Phil.3.26.8 <br> Pois sempre tinha em sua boca esta província. <small> [JDD] </small> </small> </p>
+; <p> horum <b>semper</b> ego optarim pauperrimus esse bonorum <br> <small> Hor.S.1.1.78 <br> Desses bens eu sempre desejaria ser paupérrimo. <small> [JDD] </small> </small> </p>
+; <p> suspectum <b>semper</b> inuisumque dominantibus qui proximus destinaretur <br> <small> Tac.Hist.1.21.6 <br> Que era sempre suspeito e odioso para os governantes aquele que estava destinado a ser o próximo. <small> [JDD] </small> </small> </p>
+; <p> ita si timenda mors est <b>semper</b> timenda est <br> <small> Sen.Ep.30.17 <br> Assim, se a morte deve ser temida, deve ser temida sempre. <small> [JDD] </small> </small> </p>
+; <p> Cito rumpes arcum <b>semper</b> si tensum habueris ; <br> <small> Phaed.3.14 <br> “Rapidamente romperás o arco, se o tiveres sempre esticado. <small> [JDD] </small> </small> </p>
+; <p> inter cetera mala hoc quoque habet stultitia <b>semper</b> incipit uiuere <br> <small> Sen.Ep.13.16 <br> “Entre outros males a tolice tem também este: sempre começa a viver.” <small> [JDD] </small> </small> </p>
+; <p> ita fato placuit nullius rei eodem <b>semper</b> loco stare fortunam <br> <small> Sen.Helv.7.10 <br> Assim agradou ao destino que a sorte de coisa alguma ficasse sempre no mesmo lugar. <small> [JDD] </small> </small> </p>
+; <p> laetus Cithaeron pabulo <b>semper</b> nouo aestiua nostro prata summittit gregi <br> <small> Sen.Oed.845 <br> O fértil Citerão, com sua pastagem sempre fresca, fornece seus prados para o nosso rebanho. <small> [JDD] </small> </small> </p>
+; <p> mihi uero licet et <b>semper</b> licebit dignitatem tueri mortem contemnere <br> <small> Cic.Phil.1.14.2 <br> A mim, na verdade, é e sempre será permitido proteger minha dignidade, desprezar a morte. <small> [JDD] </small> </small> </p>
+; <p> o scelera <b>semper</b> sceleribus uincens domus cruore uentos emimus bellum nece <br> <small> Sen.Ag.169 <br> Oh, casa que sempre vence os crimes com crimes, com sangue compramos os ventos, com morticínio, a guerra. <small> [JDD] </small> </small> </p>
+; <p> nostri enim sensus ut in pace <b>semper</b> sic tum etiam in bello congruebant <br> <small> Cic.Marc.16 <br> Pois nossos pareceres assim como sempre coincidiam na paz, assim também na guerra. <small> [JDD] </small> </small> </p>
+; <p> premor luctu desiderio cum omnium rerum tum meorum qui mihi me cariores <b>semper</b> fuerunt <br> <small> Cic.Att.3.22.3 <br> Sou consumido pela tristeza com a falta de todas as coisas que sempre me foram mais queridas do que eu mesmo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ante quam aliquo loco consedero neque longas a me neque <b>semper</b> mea manu litteras exspectabis <br> <small> Cic.Att.5.14.1 <br> Antes de eu me deter em algum lugr, nao irás esperar cartas longas de minha parte e nem sempre de minha própria mão. <small> [JDD] </small> </small> </p>
+; <p> pacis equidem <b>semper</b> auctor fui sed tum sero erat enim amentis cum aciem uideres pacem cogitare <br> <small> Cic.Lig.28 <br> Na verdade, sempre fui o promotor da paz, mas então era tarde; pois era próprio de loucos pensar na paz, quando vias as linhas de batalha. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-101-109-112-101-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 13.62 and an absolute frequency of 73. The Sallustius subcorpus follows, with a normalized frequency of 11.13 and an absolute frequency of 12. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 4 ; absolute frequency: 1.51068811843795. subcorpus: Cicero ; normalized frequency: 171 ; absolute frequency: 10.652612693429. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 12 ; absolute frequency: 11.1306928856321. subcorpus: Seneca ; normalized frequency: 73 ; absolute frequency: 13.6242324704653. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-101-109-112-101-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 16.5 and an absolute frequency of 19. The Prosa.oratória subcorpus follows, with a normalized frequency of 12.58 and an absolute frequency of 131. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 1.93 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 18 ; absolute frequency: 4.38180092017819. subcorpus: Prosa.filosófica ; normalized frequency: 76 ; absolute frequency: 12.5203868140558. subcorpus: Prosa.oratória ; normalized frequency: 131 ; absolute frequency: 12.5776501877046. subcorpus: Prosa.epistolográfica ; normalized frequency: 18 ; absolute frequency: 4.76960173825486. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 6 ; absolute frequency: 5.08949020273136. subcorpus: Poesia.trágica ; normalized frequency: 19 ; absolute frequency: 16.5045170257123. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-101-109-112-101-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 12.09 and an absolute frequency of 79. The I.a.C. subcorpus follows, with a normalized frequency of 9.08 and an absolute frequency of 195. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 195 ; absolute frequency: 9.07609960437514. subcorpus: I.d.C. ; normalized frequency: 79 ; absolute frequency: 12.0850543062567. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

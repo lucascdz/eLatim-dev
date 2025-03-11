@@ -1,0 +1,232 @@
+---
+title: "tam"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx116-97-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>tam</b> <br> <small>adv. demonstr.</small> <br> <small>Obs.: Este advérbio pode ser empregado tendo como correlativo: quam, quase, ut ou qui, quae, quod. com subjuntivo; quin com subjuntivo, quando a or. principal é negativa Cíc. At. 13, 20, 4; Cíc. Nat. 1, 1; Cíc. Div. 2, 119; Cíc. Verr. 4, 95.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Tão, tanto, de tal forma &ensp; <small>Cíc. Verr. 3, 85.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Tam</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; taõ, tanto, assim. </p>
+
+
+
+
+#### Velez
+
+<b>Tam</b> <br> <small>Adv.</small>   <p> <b>1</b> &ensp; taõ, ou tanto </p>
+
+
+
+
+#### Cardoso
+
+<b>Tam</b> <br> <small>coniunctio.</small>   <p> <b>1</b> &ensp; tanto </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/127600 ' target="_blank"> http://lila-erc.eu/data/id/lemma/127600 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> tame, tamine, tanne <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx116-97-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword tam here are all the values plotted: collocate: longus; scoreSUBST: 0. collocate: multus; scoreSUBST: 0. collocate: non; scoreSUBST: 0. collocate: nihil; scoreSUBST: 0. collocate: iste; scoreSUBST: 0. collocate: longe; scoreSUBST: 0. collocate: clarus; scoreSUBST: 0. collocate: amens; scoreSUBST: 0. collocate: demens; scoreSUBST: 0. collocate: uehemens; scoreSUBST: 0. collocate: stultus; scoreSUBST: 0. collocate: familiaris; scoreSUBST: 0. collocate: tot; scoreSUBST: 0. collocate: magnus; scoreSUBST: 0. collocate: diu; scoreSUBST: 0. collocate: enim; scoreSUBST: 0. collocate: nemo; scoreSUBST: 0. collocate: cur; scoreSUBST: 0. collocate: uero; scoreSUBST: 0. collocate: atrox; scoreSUBST: 0. collocate: immanis; scoreSUBST: 0. collocate: exiguus; scoreSUBST: 0. collocate: grauis; scoreSUBST: 0. collocate: ualde; scoreSUBST: 0. collocate: breuis; scoreSUBST: 0. collocate: numquam; scoreSUBST: 0. collocate: carus; scoreSUBST: 0. collocate: praeclarus; scoreSUBST: 0. collocate: improbus; scoreSUBST: 0. collocate: quis; scoreSUBST: 0. collocate: umquam; scoreSUBST: 0. collocate: tantus; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx116-97-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword tam here are all the values plotted: collocate: longus; scoreADJ: 2. collocate: multus; scoreADJ: 0. collocate: non; scoreADJ: 0. collocate: nihil; scoreADJ: 0. collocate: iste; scoreADJ: 0. collocate: longe; scoreADJ: 0. collocate: clarus; scoreADJ: 2. collocate: amens; scoreADJ: 2. collocate: demens; scoreADJ: 2. collocate: uehemens; scoreADJ: 2. collocate: stultus; scoreADJ: 2. collocate: familiaris; scoreADJ: 2. collocate: tot; scoreADJ: 0. collocate: magnus; scoreADJ: 2. collocate: diu; scoreADJ: 0. collocate: enim; scoreADJ: 0. collocate: nemo; scoreADJ: 0. collocate: cur; scoreADJ: 0. collocate: uero; scoreADJ: 0. collocate: atrox; scoreADJ: 2. collocate: immanis; scoreADJ: 2. collocate: exiguus; scoreADJ: 2. collocate: grauis; scoreADJ: 2. collocate: ualde; scoreADJ: 0. collocate: breuis; scoreADJ: 2. collocate: numquam; scoreADJ: 0. collocate: carus; scoreADJ: 2. collocate: praeclarus; scoreADJ: 2. collocate: improbus; scoreADJ: 2. collocate: quis; scoreADJ: 0. collocate: umquam; scoreADJ: 0. collocate: tantus; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx116-97-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword tam here are all the values plotted: collocate: longus; scoreVERBO: 0. collocate: multus; scoreVERBO: 0. collocate: non; scoreVERBO: 0. collocate: nihil; scoreVERBO: 0. collocate: iste; scoreVERBO: 0. collocate: longe; scoreVERBO: 0. collocate: clarus; scoreVERBO: 0. collocate: amens; scoreVERBO: 0. collocate: demens; scoreVERBO: 0. collocate: uehemens; scoreVERBO: 0. collocate: stultus; scoreVERBO: 0. collocate: familiaris; scoreVERBO: 0. collocate: tot; scoreVERBO: 0. collocate: magnus; scoreVERBO: 0. collocate: diu; scoreVERBO: 0. collocate: enim; scoreVERBO: 0. collocate: nemo; scoreVERBO: 0. collocate: cur; scoreVERBO: 0. collocate: uero; scoreVERBO: 0. collocate: atrox; scoreVERBO: 0. collocate: immanis; scoreVERBO: 0. collocate: exiguus; scoreVERBO: 0. collocate: grauis; scoreVERBO: 0. collocate: ualde; scoreVERBO: 0. collocate: breuis; scoreVERBO: 0. collocate: numquam; scoreVERBO: 0. collocate: carus; scoreVERBO: 0. collocate: praeclarus; scoreVERBO: 0. collocate: improbus; scoreVERBO: 0. collocate: quis; scoreVERBO: 0. collocate: umquam; scoreVERBO: 0. collocate: tantus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx116-97-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword tam here are all the values plotted: collocate: longus; scoreADV: 0. collocate: multus; scoreADV: 0. collocate: non; scoreADV: 3. collocate: nihil; scoreADV: 0. collocate: iste; scoreADV: 0. collocate: longe; scoreADV: 2. collocate: clarus; scoreADV: 0. collocate: amens; scoreADV: 0. collocate: demens; scoreADV: 0. collocate: uehemens; scoreADV: 0. collocate: stultus; scoreADV: 0. collocate: familiaris; scoreADV: 0. collocate: tot; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: diu; scoreADV: 2. collocate: enim; scoreADV: 2. collocate: nemo; scoreADV: 0. collocate: cur; scoreADV: 2. collocate: uero; scoreADV: 2. collocate: atrox; scoreADV: 0. collocate: immanis; scoreADV: 0. collocate: exiguus; scoreADV: 0. collocate: grauis; scoreADV: 0. collocate: ualde; scoreADV: 2. collocate: breuis; scoreADV: 0. collocate: numquam; scoreADV: 2. collocate: carus; scoreADV: 0. collocate: praeclarus; scoreADV: 0. collocate: improbus; scoreADV: 0. collocate: quis; scoreADV: 0. collocate: umquam; scoreADV: 2. collocate: tantus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx116-97-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword tam here are all the values plotted: collocate: longus; scoreFUNC: 0. collocate: multus; scoreFUNC: 0. collocate: non; scoreFUNC: 0. collocate: nihil; scoreFUNC: 0. collocate: iste; scoreFUNC: 0. collocate: longe; scoreFUNC: 0. collocate: clarus; scoreFUNC: 0. collocate: amens; scoreFUNC: 0. collocate: demens; scoreFUNC: 0. collocate: uehemens; scoreFUNC: 0. collocate: stultus; scoreFUNC: 0. collocate: familiaris; scoreFUNC: 0. collocate: tot; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0. collocate: diu; scoreFUNC: 0. collocate: enim; scoreFUNC: 0. collocate: nemo; scoreFUNC: 0. collocate: cur; scoreFUNC: 0. collocate: uero; scoreFUNC: 0. collocate: atrox; scoreFUNC: 0. collocate: immanis; scoreFUNC: 0. collocate: exiguus; scoreFUNC: 0. collocate: grauis; scoreFUNC: 0. collocate: ualde; scoreFUNC: 0. collocate: breuis; scoreFUNC: 0. collocate: numquam; scoreFUNC: 0. collocate: carus; scoreFUNC: 0. collocate: praeclarus; scoreFUNC: 0. collocate: improbus; scoreFUNC: 0. collocate: quis; scoreFUNC: 0. collocate: umquam; scoreFUNC: 0. collocate: tantus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>tam</b> magnas spes relinquam <br> <small> Sen.Ep.22.9 <br> Abandonarei tão grandes esperanças? <small> [JDD] </small> </small> </p>
+; <p> quid enim ἀκκιζόμεθα <b>tam</b> diu <br> <small> Cic.Att.2.19.5 <br> Pois por que disfarçar por mais tempo? <small> [JDD] </small> </small> </p>
+; <p> iam dudum pudet <b>tam</b> multa scribere <br> <small> Cic.Att.3.23.4 <br> Já faz tempo que sinto vergonha de escrever tanto. <small> [JDD] </small> </small> </p>
+; <p> quod <b>tam</b> cito fit timetis diu <br> <small> Sen.Prov.6.9 <br> Temeis por tanto tempo o que ocorre tão rápido. <small> [JDD] </small> </small> </p>
+; <p> numquam ego vidi <b>tam</b> paris candidatos <br> <small> Cic.Att.4.16.6 <br> Eu nunca vi candidatos tão iguais. <small> [JDD] </small> </small> </p>
+; <p> dices quomodo ista <b>tam</b> diuersa pariter eunt <br> <small> Sen.Ep.5.7 <br> Dirás: “Como esses sentimentos tão díspares estão par a par?”[*] <small>  </small> </small> </p>
+; <p> parum ne me <b>tam</b> longa defendit fides <br> <small> Sen.Oed.685 <br> Será que me defende tão pouco uma tão longa fidelidade? <small> [JDD] </small> </small> </p>
+; <p> quorsum igitur haec <b>tam</b> multa de Maximo <br> <small> Cic.Sen.13 <br> Mas para que falo estas tão numerosas coisas sobre Máximo? <small> [JDD] </small> </small> </p>
+; <p> sed nam nam est iste <b>tam</b> demens <br> <small> Cic.Marc.21 <br> Mas quem é esse tão insensato? <small> [JDD] </small> </small> </p>
+; <p> num quid <b>tam</b> turbidum fieri potest quam forum <br> <small> Sen.Ep.28.6 <br> Por acaso pode haver algo tão turbulento como o foro? <small> [JDD] </small> </small> </p>
+; <p> populare nunc nihil <b>tam</b> est quam odium popularium <br> <small> Cic.Att.2.20.4 <br> Nada é agora tão popular como o ódio dos populares. <small> [JDD] </small> </small> </p>
+; <p> quid uero <b>tam</b> inauditum quam equitem Romanum triumphare <br> <small> Cic.Man.61 <br> Ademais o que de tão inaudito há quanto um cavaleiro romano triunfar? <small> [JDD] </small> </small> </p>
+; <p> dedignatur aliquis paupertatem cuius <b>tam</b> clarae imagines sunt <br> <small> Sen.Helv.12.7 <br> Pode alguém desdenhar a pobreza da qual há tão claros exemplos? <small> [JDD] </small> </small> </p>
+; <p> hortaris etiam sponte deponam ut mea <b>tam</b> grauia regna <br> <small> Sen.Oed.678 <br> Até mesmo me exortas a que eu espontaneamente abandone o meu tão pesado reino? <small> [JDD] </small> </small> </p>
+; <p> cedo qui uestram rem publicam tantam amisistis <b>tam</b> cito <br> <small> Cic.Sen.20 <br> “Diz como perdestes tão depressa vossa república tão poderosa?” <small> [JDD] </small> </small> </p>
+; <p> quis desiderio sit pudor aut modus <b>tam</b> cari capitis <br> <small> Hor.Carm.1.24.1 <br>   Que pudor ou medida poderia haver para a saudade de ente tão querido? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nemo enim in terris est mihi <b>tam</b> consentientibus sensibus <br> <small> Cic.Att.4.18.2 <br> Pois não há na terra ninguém com sentimentos que estão tão de acordo comigo. <small> [JDD] </small> </small> </p>
+; <p> unde illam tantam celeritatem et <b>tam</b> incredibilem cursum inuentum putatis <br> <small> Cic.Man.40 <br> De onde vós julgais que aquela rapidez tão grande e aquele curso tão incrível foram encontrados? <small> [JDD] </small> </small> </p>
+; <p> primum ista <b>tam</b> seni ante oculos debet esse quam iuueni <br> <small> Sen.Ep.12.6 <br> Primeiramente, ela deve estar tanto diante dos olhos do velho como do jovem <small> [JDD] </small> </small> </p>
+; <p> deinde nemo <b>tam</b> senex est ut inprobe unum diem speret <br> <small> Sen.Ep.12.6 <br> depois, ninguém é tão velho a ponto de aguardar de modo desonesto mais um dia. <small> [JDD] </small> </small> </p>
+; <p> sed uereri debeo ne <b>tam</b> longas epistulas peius quam mortem oderis <br> <small> Sen.Ep.30.18 <br> 18 Mas devo recear que mais do que a morte odeias cartas tão longas. <small> [JDD] </small> </small> </p>
+; <p> sed res est ut spero non <b>tam</b> exitu molesta quam aditu <br> <small> Cic.Att.2.24.1 <br> Mas é uma coisa, conforme espero, não tão desagradável na saída quanto foi na entrada. <small> [JDD] </small> </small> </p>
+; <p> reliqua tempora sunt non <b>tam</b> ad medicinam quam ad finem doloris <br> <small> Cic.Att.3.7.2 <br> os momentos que me restam já não são para o remédio, mas para o fim da dor. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>tam</b> magnis breues poenas sceleribus soluis atque uno omnia pensabis ictu <br> <small> Sen.Oed.936 <br> Pagas tão grandes crimes com curto castigo e compensarás tudo com um só golpe? <small> [JDD] </small> </small> </p>
+; <p> uirtute enim ipsa non <b>tam</b> multi praediti esse quam uideri uolunt <br> <small> Cic.Amici.98 <br> Pois muitos querem não tanto estar dotados da própria virtude quanto parecê-lo. <small> [JDD] </small> </small> </p>
+; <p> esset mihi ista solitudo praesertim <b>tam</b> familiari in loco non amara <br> <small> Cic.Att.3.7.1 <br> essa solidão, sobretudo num lugar tão familiar, não me seria tão amarga. <small> [JDD] </small> </small> </p>
+; <p> sed cum <b>tam</b> atroci edicto nos concitauisset cur ipse non adfuit <br> <small> Cic.Phil.3.20.1 <br> Mas, depois de ter-nos concitado com um edito tão duro, por que ele próprio não compareceu? <small> [JDD] </small> </small> </p>
+; <p> nemo <b>tam</b> timidus est ut malit semper pendere quam semel cadere <br> <small> Sen.Ep.22.3 <br> Ninguém é tão temeroso que prefira sempre estar pendurado do que cair de uma vez. <small> [JDD] </small> </small> </p>
+; <p> is ait <b>tam</b> stultum esse qui mortem timeat quam qui senectutem <br> <small> Sen.Ep.30.10 <br> Ele afirma que quem teme a morte é tão tolo quanto quem teme a velhice. <small> [JDD] </small> </small> </p>
+; <p> instruite nunc Quirites contra has <b>tam</b> praeclaras Catilinae copias uestra praesidia uestrosque exercitus <br> <small> Cic.Catil.2.24.3 <br> Preparai agora, Quirites, contra estas tão ilustres tropas de Catilina, as vossas guarnições e os vossos exércitos. <small> [JDD] </small> </small> </p>
+; <p> qua enim in urbe <b>tam</b> immanis Hannibal capta quam in Parma surrepta Antonius <br> <small> Cic.Phil.14.9.9 <br> Pois em que cidade tomada Aníbal foi tão desumano quanto Antônio em Parma furtivamente arrebatada? <small> [JDD] </small> </small> </p>
+; <p> ut pudeat animum tot miseriarum uictorem aegre ferre unum uulnus in corpore <b>tam</b> cicatricoso <br> <small> Sen.Helv.2.2 <br> Que um espírito vitorioso sobre tantas desgraças se envergonhe de suportar mal uma única ferida num corpo tão coberto de cicatrizes. <small> [JDD] </small> </small> </p>
+; <p> Lucceius de Quinto Cassio cur <b>tam</b> vehemens fuerit et quid actum sit aveo scire <br> <small> Cic.Att.5.20.8 <br> Estou ávido por saber por que Luceio foi tão veemente a respeito de Quinto Cássio e o que foi feito. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quis autem rex umquam fuit <b>tam</b> insignite impudens ut haberet omnia commoda beneficia iura regni uenalia <br> <small> Cic.Phil.3.10.1 <br> Por outro lado, que rei houve algum dia tão notavelmente despudorado que considerasse como vendáveis todas as gratificações, benefícios e direitos do reino? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> cum Hortensius veniret et infirmus et <b>tam</b> longe et Hortensius cum maxima praeterea multitudo ille non venit <br> <small> Cic.Att.5.2.2 <br> Depois de Hortênsio ter vindo e enfermo e de tão longe, e Hortênsio! além disso depois de ter vindo a maior multidão, ele não veio?” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nam Quintus frater homo mirus qui me <b>tam</b> valde amat omnia mittit spei plena metuens credo defectionem animi mei <br> <small> Cic.Att.3.18.2 <br> Pois meu irmão Quinto, homem admirável que tão profunda afeição tem por mim, me envia todas cheias de esperança, temendo, creio, o abatimento de meu ânimo. <small> [JDD] </small> </small> </p>
+; <p> tum denique interficiere cum iam nemo <b>tam</b> improbus <b>tam</b> perditus <b>tam</b> tui similis inueniri poterit qui id non iure factum esse fateatur <br> <small> Cic.Catil.1.5.10 <br> Morrerás então finalmente, quando já não puder ser encontrado ninguém tão ímprobo, tão perdido, tão semelhante a ti, que não reconheça que isso foi feito com justiça. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quae si non esset longior quam haec uita quis esset <b>tam</b> amens qui maximis laboribus et periculis ad summam laudem gloriamque contenderet <br> <small> Cic.Phil.14.32.10 <br> E se esta não fosse mais longa do que esta vida, quem seria tão louco de ir em busca do mais alto louvor e glória à custa dos maiores sofrimentos e perigos? <small> [JDD] </small> </small> </p>
+; <p> nullam enim uirtus aliam mercedem laborum periculorumque desiderat praeter hanc laudis et gloriae qua quidem detracta iudices quid est quod in hoc <b>tam</b> exiguo uitae curriculo et <b>tam</b> breui tantis nos in laboribus exerceamus <br> <small> Cic.Arch.28 <br> Pois a virtude não sente falta de nenhuma outra recompensa dos trabalhos e perigos, exceto a do louvor e da glória: suprimida esta recompensa, juízes, que motivo há para que neste tão exíguo e tão breve decurso na vida nos agitemos em tão grandes fadigas? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx116-97-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 23.67 and an absolute frequency of 380. The Sallustius subcorpus follows, with a normalized frequency of 3.71 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 11 ; absolute frequency: 4.15439232570436. subcorpus: Cicero ; normalized frequency: 380 ; absolute frequency: 23.6724726520645. subcorpus: Horatius ; normalized frequency: 8 ; absolute frequency: 7.10416481662375. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 101 ; absolute frequency: 18.8499654728355. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx116-97-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 26.31 and an absolute frequency of 274. The Prosa.filosófica subcorpus follows, with a normalized frequency of 21.25 and an absolute frequency of 129. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 18 ; absolute frequency: 4.38180092017819. subcorpus: Prosa.filosófica ; normalized frequency: 129 ; absolute frequency: 21.2517091975421. subcorpus: Prosa.oratória ; normalized frequency: 274 ; absolute frequency: 26.3074515376417. subcorpus: Prosa.epistolográfica ; normalized frequency: 69 ; absolute frequency: 18.2834733299769. subcorpus: Poesia.lírica ; normalized frequency: 8 ; absolute frequency: 6.73004122150248. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 9 ; absolute frequency: 7.81792911744267. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx116-97-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 18.9 and an absolute frequency of 406. The I.a.C. subcorpus follows, with a normalized frequency of 18.9 and an absolute frequency of 406. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 406 ; absolute frequency: 18.8969048173144. subcorpus: I.d.C. ; normalized frequency: 103 ; absolute frequency: 15.7564632094233. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

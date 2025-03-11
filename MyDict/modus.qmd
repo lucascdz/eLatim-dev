@@ -1,0 +1,221 @@
+---
+title: "modus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-111-100-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>modus</b> <b>-í</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Medida de superfície, medida agrária, medida, comprimento, altura, circunferência, dimensão: &ensp; <small></small> <br> <b>2</b> &ensp; <small>II-Sent. moral</small> &ensp; Medida que não deve ser ultrapassada, moderação, meio-termo, lei, regra &ensp; <small>Cíc. Of. 1, 104.</small> <br> <b>3</b> &ensp; <small>II-Na língua retórica e musical:</small> &ensp; Medida rítmica, cadência, compasso musical &ensp; <small>T. Lív. 7, 2, 4; Cíc. Br. 32.</small> <br> <b>4</b> &ensp; <small>III-Sents. diversos:</small> &ensp; Limite, termo, fim &ensp; <small>Cíc. Verr. 2, 145.</small> <br> <b>5</b> &ensp; <small>III-Sents. diversos:</small> &ensp; Maneira de se encaminhar, conduta, comportamento &ensp; <small>Cíc. Marc. 1.</small> <br> <b>6</b> &ensp; <small>III-Sents. diversos:</small> &ensp; Modo, maneira, método, forma &ensp; <small>Cíc. Rep. 1, 46.</small> <br> <b>7</b> &ensp; <small>III-Em locuções:</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>~ agri Cíc. A t. 13, 33. 2 “medida de um campo”. <br> <br><b>7</b><br>bono modo Cat. Agr. 5, 2 “honestamente, sem exagerar”; nullo modo Cíc. Verr. 2, 186 “de maneira alguma”; omni modo Cíc. A 1. 6. 2,7 “de toda maneira”; miris modis T. Lív. 1, 57,6 “de maneira admirável”; isto modo C íc. Br. 296 “à tua maneira”; miserandum in modum Cíc. Verr. 4. 31; Provo5 «de maneira lamentável»; ad hune modum Cés. B. Gal. 3, 13, 1 “desta maneira”; cojusque modi Cíc. Verr. 4.7 “de toda espécie”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Modus</b> -<b>i</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; modo, maneira. <br> <b>2</b> &ensp; medição dos versos, compasso da musica. <br> <b>3</b> &ensp; quantidade, extensão, medida. <br> <b>4</b> &ensp; moderação. <br> <b>5</b> &ensp; termo, fim, limite. <br> <b>6</b> &ensp; <small>Quinct.</small> &ensp; modo nos verbos. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>ad modos tibicinis saltare &ensp; <small><small>Liv</small></small> &ensp; <small>Dançar ao som da frauta</small> <br> figere modum nequitiae &ensp; <small><small>Hor</small></small> &ensp; <small>Moderar o curso dos delictos</small> </p>
+
+
+
+
+#### Velez
+
+<b>modus</b>
+
+
+
+
+#### Cardoso
+
+<b>Modus</b> <b>i</b>   <p> <b>1</b> &ensp; a maneyra. ou fim. ou medida </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/112553 ' target="_blank"> http://lila-erc.eu/data/id/lemma/112553 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+mŏdus 
+ mŏdī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx109-111-100-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-111-100-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword modus here are all the values plotted: collocate: quomodo; scoreSUBST: 0. collocate: nullus; scoreSUBST: 0. collocate: quisquis; scoreSUBST: 0. collocate: quidam; scoreSUBST: 0. collocate: quisnam; scoreSUBST: 0. collocate: is; scoreSUBST: 0. collocate: ad; scoreSUBST: 0. collocate: possum; scoreSUBST: 0. collocate: ullus; scoreSUBST: 0. collocate: prope2; scoreSUBST: 0. collocate: idem; scoreSUBST: 0. collocate: naturalis; scoreSUBST: 0. collocate: excedo; scoreSUBST: 0. collocate: quicumque; scoreSUBST: 0. collocate: aliquis; scoreSUBST: 0. collocate: iste; scoreSUBST: 0. collocate: pecunia; scoreSUBST: 2. collocate: certus; scoreSUBST: 0. collocate: hic; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-111-100-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword modus here are all the values plotted: collocate: quomodo; scoreADJ: 0. collocate: nullus; scoreADJ: 0. collocate: quisquis; scoreADJ: 0. collocate: quidam; scoreADJ: 0. collocate: quisnam; scoreADJ: 0. collocate: is; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: possum; scoreADJ: 0. collocate: ullus; scoreADJ: 0. collocate: prope2; scoreADJ: 0. collocate: idem; scoreADJ: 0. collocate: naturalis; scoreADJ: 2. collocate: excedo; scoreADJ: 0. collocate: quicumque; scoreADJ: 0. collocate: aliquis; scoreADJ: 0. collocate: iste; scoreADJ: 0. collocate: pecunia; scoreADJ: 0. collocate: certus; scoreADJ: 2. collocate: hic; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-111-100-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword modus here are all the values plotted: collocate: quomodo; scoreVERBO: 0. collocate: nullus; scoreVERBO: 0. collocate: quisquis; scoreVERBO: 0. collocate: quidam; scoreVERBO: 0. collocate: quisnam; scoreVERBO: 0. collocate: is; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: possum; scoreVERBO: 2. collocate: ullus; scoreVERBO: 0. collocate: prope2; scoreVERBO: 0. collocate: idem; scoreVERBO: 0. collocate: naturalis; scoreVERBO: 0. collocate: excedo; scoreVERBO: 2. collocate: quicumque; scoreVERBO: 0. collocate: aliquis; scoreVERBO: 0. collocate: iste; scoreVERBO: 0. collocate: pecunia; scoreVERBO: 0. collocate: certus; scoreVERBO: 0. collocate: hic; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-111-100-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword modus here are all the values plotted: collocate: quomodo; scoreADV: 4. collocate: nullus; scoreADV: 0. collocate: quisquis; scoreADV: 0. collocate: quidam; scoreADV: 0. collocate: quisnam; scoreADV: 0. collocate: is; scoreADV: 0. collocate: ad; scoreADV: 0. collocate: possum; scoreADV: 0. collocate: ullus; scoreADV: 0. collocate: prope2; scoreADV: 0. collocate: idem; scoreADV: 0. collocate: naturalis; scoreADV: 0. collocate: excedo; scoreADV: 0. collocate: quicumque; scoreADV: 0. collocate: aliquis; scoreADV: 0. collocate: iste; scoreADV: 0. collocate: pecunia; scoreADV: 0. collocate: certus; scoreADV: 0. collocate: hic; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-111-100-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword modus here are all the values plotted: collocate: quomodo; scoreFUNC: 0. collocate: nullus; scoreFUNC: 0. collocate: quisquis; scoreFUNC: 0. collocate: quidam; scoreFUNC: 0. collocate: quisnam; scoreFUNC: 0. collocate: is; scoreFUNC: 0. collocate: ad; scoreFUNC: 30. collocate: possum; scoreFUNC: 0. collocate: ullus; scoreFUNC: 0. collocate: prope2; scoreFUNC: 20. collocate: idem; scoreFUNC: 0. collocate: naturalis; scoreFUNC: 0. collocate: excedo; scoreFUNC: 0. collocate: quicumque; scoreFUNC: 0. collocate: aliquis; scoreFUNC: 0. collocate: iste; scoreFUNC: 0. collocate: pecunia; scoreFUNC: 0. collocate: certus; scoreFUNC: 0. collocate: hic; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quo <b>modo</b> id tulistis <br> <small> Cic.Lig.25 <br> Como suportastes isso? <small> [JDD] </small> </small> </p>
+; <p> at quo <b>modo</b> edixit <br> <small> Cic.Phil.3.19.4 <br> Mas de que modo ordenou? <small> [JDD] </small> </small> </p>
+; <p> licuit eodem <b>modo</b> ut signa <br> <small> Cic.Ver.2.4.27.3 <br> Te foi permitido do mesmo modo que as estátuas. <small> [JDD] </small> </small> </p>
+; <p> atque haec huius <b>modi</b> sunt <br> <small> Cic.Att.1.1.2 <br> E é deste modo que estão esses assuntos. <small> [JDD] </small> </small> </p>
+; <p> et similia huius <b>modi</b> multa facitis <br> <small> Vulg.Marc.7.13 <br> e fazeis muitas coisas semelhantes desse tipo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quicquid excessit <b>modum</b> pendet instabili loco <br> <small> Sen.Oed.909 <br> Tudo o que passa da medida fica suspenso em lugar instável. <small> [JDD] </small> </small> </p>
+; <p> eodem <b>modo</b> dicendum est diuitiae illum tenent <br> <small> Sen.Ep.119.12 <br> do mesmo modo deve se dizer “a riqueza se apoderou dele”. <small> [JDD] </small> </small> </p>
+; <p> num argumentis utendum in re eius <b>modi</b> <br> <small> Cic.Ver.2.4.11.1 <br> Por acaso é preciso recorrer a provas num caso desse tipo? <small> [JDD] </small> </small> </p>
+; <p> sed quo <b>modo</b> id consequi possis quaeris <br> <small> Sen.Ep.22.1 <br> mas queres saber como podes conseguir isso. <small> [JDD] </small> </small> </p>
+; <p> quaesiui quem ad <b>modum</b> reuertissent negauit adhuc reuertisse <br> <small> Cic.Ver.2.4.27.13 <br> Perguntei como tinham voltado; disse que até agora não tinham voltado. <small> [JDD] </small> </small> </p>
+; <p> quem ad <b>modum</b> igitur eum dies non fefellit <br> <small> Cic.Mil.45 <br> Como, portanto, o dia não o enganou? <small> [JDD] </small> </small> </p>
+; <p> quo <b>modo</b> ut alia omittam mortem fili tulit <br> <small> Cic.Amici.9 <br> Como, para omitir outras coisas, suportou a morte do filho! <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Constiterat quocumque <b>modo</b> , spectabat ad Io . <br> <small> Ov.Met.1.627 <br> De qualquer modo que se pusesse, olhava para Io. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> magnum uideor dicere attendite etiam quem ad <b>modum</b> dicam <br> <small> Cic.Ver.2.4.2.1 <br> 2 Pareço estar dizendo algo grave: notai também de que modo eu digo. <small> [JDD] </small> </small> </p>
+; <p> sed quaestura utriusque prope <b>modum</b> pari momento sortis fuit <br> <small> Cic.Mur.18 <br> Mas a questura de ambos foi, por sorte, de uma importância quase igual. <small> [JDD] </small> </small> </p>
+; <p> i nunc et puta pecuniae <b>modum</b> ad rem pertinere non animi <br> <small> Sen.Helv.10.10 <br> Vai agora e considera que é a moderação do dinheiro que importa para o caso, não a do espírito. <small> [JDD] </small> </small> </p>
+; <p> ille praetoris arcessitus nuntio rem demonstrat negat ullo <b>modo</b> fieri posse <br> <small> Cic.Ver.2.4.85.16 <br> Aquele, chamado por um mensageiro do pretor, lhe mostra a situação; diz que não pode se fazer de modo algum. <small> [JDD] </small> </small> </p>
+; <p> tamen in lege nulla esse eius <b>modi</b> caput te non fallit <br> <small> Cic.Att.3.23.4 <br> No entanto, não te escapa que não existe em nenhuma lei uma cláusula desse tipo. <small> [JDD] </small> </small> </p>
+; <p> nam si uidisset quouis profecto quam isto <b>modo</b> a te agi maluisset <br> <small> Cic.Lig.10 <br> pois se tivesse visto, teria preferido, sem dúvida, que fosse conduzida por ti de qualquer outro modo do que esse. <small> [JDD] </small> </small> </p>
+; <p> nam nam <b>modo</b> ille uos uiuus adficeret quos mortuus inani cogitatione percussit <br> <small> Cic.Mil.79 <br> Como ele, vivo, vos perturbaria, se, morto, vos impressionou com um vago pensamento? <small> [JDD] </small> </small> </p>
+; <p> hostis si esset externus id ipsum uix talibus factis sed posset aliquo <b>modo</b> <br> <small> Cic.Phil.13.5.6 <br> Se fosse um inimigo estrangeiro, isso seria difícil ocorridas tais coisas, mas de algum modo seria possível. <small> [JDD] </small> </small> </p>
+; <p> constitutio inquit est ut uos dicitis principale animi quodam <b>modo</b> se habens erga corpus <br> <small> Sen.Ep.121.10 <br> “A constituição”, diz-se, “é, conforme vós dizeis, de certo modo, o essencial do espírito se relacionando com o corpo. <small> [JDD] </small> </small> </p>
+; <p> tu quid agas ubi sis cuius <b>modi</b> istae res sint fac me quam diligentissime certiorem <br> <small> Cic.Att.1.14.7 <br> Quanto a ti, faz-me saber o mais detalhadamente possível o que fazes, onde estás e como vão as coisas por aí. <small> [JDD] </small> </small> </p>
+; <p> nec tu intentionem uocis contempseris quam ueto te per gradus et certos <b>modos</b> extollere deinde deprimere <br> <small> Sen.Ep.15.7 <br> Não menosprezes a intensidade de tua voz, a qual proibo que levantes, em seguida baixes através de gradações e certas modulações. <small> [JDD] </small> </small> </p>
+; <p> qui continebit itaque se intra naturalem <b>modum</b> paupertatem non sentiet qui naturalem <b>modum</b> excedet eum in summis quoque opibus paupertas sequetur <br> <small> Sen.Helv.11.4 <br> E assim, quem se contiver dentro do limite da natureza não perceberá a pobreza; quem exceder o limite da natureza, a pobreza o acompanhará também nas mais altas riquezas. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-111-100-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 18.55 and an absolute frequency of 20. The Cicero subcorpus follows, with a normalized frequency of 14.89 and an absolute frequency of 239. the subcorpus with the least normalized frequency is Vergilius with the normalized value of 1.93 and an absolute freqeuncy of 1. here are all the values: subcorpus: Caesar ; normalized frequency: 10 ; absolute frequency: 3.77672029609487. subcorpus: Cicero ; normalized frequency: 239 ; absolute frequency: 14.8887393785353. subcorpus: Horatius ; normalized frequency: 9 ; absolute frequency: 7.99218541870171. subcorpus: Ovidius ; normalized frequency: 5 ; absolute frequency: 8.57927247769389. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 20 ; absolute frequency: 18.5511548093869. subcorpus: Seneca ; normalized frequency: 43 ; absolute frequency: 8.02523282506859. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-111-100-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 15.07 and an absolute frequency of 157. The Prosa.oratória subcorpus follows, with a normalized frequency of 15.07 and an absolute frequency of 157. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 1.93 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 34 ; absolute frequency: 8.2767350714477. subcorpus: Prosa.filosófica ; normalized frequency: 67 ; absolute frequency: 11.0377094281808. subcorpus: Prosa.oratória ; normalized frequency: 157 ; absolute frequency: 15.073977705875. subcorpus: Prosa.epistolográfica ; normalized frequency: 48 ; absolute frequency: 12.7189379686796. subcorpus: Poesia.lírica ; normalized frequency: 11 ; absolute frequency: 9.25380667956591. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 10 ; absolute frequency: 8.68658790826963. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-111-100-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 13.08 and an absolute frequency of 281. The I.d.C. subcorpus follows, with a normalized frequency of 7.34 and an absolute frequency of 48. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 281 ; absolute frequency: 13.0788922504073. subcorpus: I.d.C. ; normalized frequency: 48 ; absolute frequency: 7.34281780633318. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

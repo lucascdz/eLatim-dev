@@ -1,0 +1,211 @@
+---
+title: "tum"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx116-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>tum</b> <br> <small>adv.</small> <br> <small>Obs.: Frequentemente é usado junto de outro advérbio de tempo para reforça-lo; muitas vezes o valor temporal de tum é nulo, sendo empregado na língua falada como simples partícula de insistência: tum ... cum Cíc. Div. 1, 118. "quando".</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Então, naquele tempo &ensp; <small>Cíc. Rep. 2, 16:</small> <br> <b>2</b> &ensp; <small>II-Daí:</small> &ensp; Depois disso, depois &ensp; <small>Cés. B. Gal. 5, 26, 4.</small> <br> <b>3</b> &ensp; <small>II-Donde:</small> &ensp; Além disso, por outro lado &ensp; <small>Cés. B. Gal. 7, 56, 2.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Tum</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; entaõ, além disto, de mais disto. <br> <b>2</b> &ensp; depois. <br> <b>3</b> &ensp; finalmente, tanto assim. </p> 
+ <b>Tum</b> <br> <small>conj.</small>
+
+
+
+
+#### Velez
+
+<b>Tum</b> <br> <small>copulativa particula</small> <br> <small>Vide infrà Tunc.</small>   <p> <b>1</b> &ensp; <small>saepe ponitur post Cùm, & idem ferè significat, nisi quod Tum maius quoddam in se contineat, aut specialius. Itaque, Cùm significat assim, Tum como tambem</small> <br> <b>2</b> &ensp; <small>In rebus paribus geminatur. Tum</small> <br> <b>3</b> &ensp; <small>geminatur etiam Tum pro Modò</small> <br> <b>4</b> &ensp; <small>ponitur etiam Tum pro Tunc</small> <br> <b>5</b> &ensp; <small>tum autem pro Et, vel Praetereá</small> &ensp; ou alem disso <br> <b>6</b> &ensp; <small>tum, vel Tum verò non praecedente Cùm pro Deinde</small> &ensp; depois disso </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>uirtutem cum omnes amplecti debent, tum ii praecipue, qui literis uacant <br> <br><b>2</b><br>omnia tum rebus, tum personis accommodata <br> <br><b>3</b><br>tum hoc, tum illud dicebat &ensp; <small>dizia humas vezes huma cousa, outras vezes outra</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Tum</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; entonces </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/129198 ' target="_blank"> http://lila-erc.eu/data/id/lemma/129198 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx116-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword tum here are all the values plotted: collocate: etiam; scoreSUBST: 0. collocate: uero; scoreSUBST: 0. collocate: uersus; scoreSUBST: 3. collocate: denique; scoreSUBST: 0. collocate: demum; scoreSUBST: 0. collocate: cum; scoreSUBST: 0. collocate: iam; scoreSUBST: 0. collocate: uita; scoreSUBST: 2. collocate: magis; scoreSUBST: 0. collocate: primum; scoreSUBST: 0. collocate: casus; scoreSUBST: 2. collocate: ille; scoreSUBST: 0. collocate: religio; scoreSUBST: 2. collocate: quintus; scoreSUBST: 2. collocate: soleo; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx116-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword tum here are all the values plotted: collocate: etiam; scoreADJ: 0. collocate: uero; scoreADJ: 0. collocate: uersus; scoreADJ: 0. collocate: denique; scoreADJ: 0. collocate: demum; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: iam; scoreADJ: 0. collocate: uita; scoreADJ: 0. collocate: magis; scoreADJ: 0. collocate: primum; scoreADJ: 0. collocate: casus; scoreADJ: 0. collocate: ille; scoreADJ: 0. collocate: religio; scoreADJ: 0. collocate: quintus; scoreADJ: 0. collocate: soleo; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx116-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword tum here are all the values plotted: collocate: etiam; scoreVERBO: 0. collocate: uero; scoreVERBO: 0. collocate: uersus; scoreVERBO: 0. collocate: denique; scoreVERBO: 0. collocate: demum; scoreVERBO: 0. collocate: cum; scoreVERBO: 0. collocate: iam; scoreVERBO: 0. collocate: uita; scoreVERBO: 0. collocate: magis; scoreVERBO: 0. collocate: primum; scoreVERBO: 0. collocate: casus; scoreVERBO: 0. collocate: ille; scoreVERBO: 0. collocate: religio; scoreVERBO: 0. collocate: quintus; scoreVERBO: 0. collocate: soleo; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx116-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword tum here are all the values plotted: collocate: etiam; scoreADV: 3. collocate: uero; scoreADV: 3. collocate: uersus; scoreADV: 0. collocate: denique; scoreADV: 2. collocate: demum; scoreADV: 2. collocate: cum; scoreADV: 0. collocate: iam; scoreADV: 2. collocate: uita; scoreADV: 0. collocate: magis; scoreADV: 2. collocate: primum; scoreADV: 2. collocate: casus; scoreADV: 0. collocate: ille; scoreADV: 0. collocate: religio; scoreADV: 0. collocate: quintus; scoreADV: 0. collocate: soleo; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx116-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword tum here are all the values plotted: collocate: etiam; scoreFUNC: 0. collocate: uero; scoreFUNC: 0. collocate: uersus; scoreFUNC: 0. collocate: denique; scoreFUNC: 0. collocate: demum; scoreFUNC: 0. collocate: cum; scoreFUNC: 20. collocate: iam; scoreFUNC: 0. collocate: uita; scoreFUNC: 0. collocate: magis; scoreFUNC: 0. collocate: primum; scoreFUNC: 0. collocate: casus; scoreFUNC: 0. collocate: ille; scoreFUNC: 0. collocate: religio; scoreFUNC: 0. collocate: quintus; scoreFUNC: 0. collocate: soleo; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> sic illi <b>tum</b> inanes ad Antiochum reuertuntur <br> <small> Cic.Ver.2.4.65.20 <br> Assim eles então voltam de mãos vazias para junto de Antíoco <small> [JDD] </small> </small> </p>
+; <p> ne <b>tum</b> quidem quom iri maxime debuit <br> <small> Cic.Att.2.1.5 <br> nem mesmo então, quando mais se devia ir.” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> cum facile orari Caesar <b>tum</b> semel exorari soles <br> <small> Cic.Deiot.9 <br> 9 Costumas, César, não só acolher facilmente os rogos, como também acolhê-los de uma vez por todas. <small> [JDD] </small> </small> </p>
+; <p> <b>tum</b> uero dubitandum non existimauit quin ad eos proficisceretur <br> <small> Caes.Gal.2.2.5 <br> Achou, então, que não devia hesitar em partir na direção deles. <small> [JDD] </small> </small> </p>
+; <p> nihil fortunatius est Catulo cum splendore vitae <b>tum</b> tempore <br> <small> Cic.Att.2.24.4 <br> Para mim, não há nada mais afortunado que Cátulo, tanto no esplendor de sua vida, quato neste momento. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> et cum Graecos <b>tum</b> vero diligenter Latinos ut conserves velim <br> <small> Cic.Att.2.1.12 <br> E gostaria que conservasses cuidadosamente tanto os gregos quanto os latinos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> iam <b>tum</b> non consulibus modo sed plerisque senatoribus perniciem machinabantur <br> <small> Sal.Cat.18.7 <br> Nessa altura, já maquinavam a matança não só dos cônsules, mas da maior parte dos senadores. <small> [JDD] </small> </small> </p>
+; <p> <b>tum</b> ex Anniana Milonis domo Quintus Flaccus eduxit viros acris <br> <small> Cic.Att.4.3.3 <br> Então Quinto Flaco conduziu para fora da casa aniana de Milão homens aguerridos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>tum</b> iste quam mihi religionem narras quam poenam quem senatum <br> <small> Cic.Ver.2.4.85.10 <br> Então esse: “De que caráter religioso falas, de que pena, de que senado? <small> [JDD] </small> </small> </p>
+; <p> et cum uniuerso populo Romano <b>tum</b> uero equestri ordini longe carissimus <br> <small> Cic.Rab.Perd.39 <br> E ele é de longe o mais caro não só a todo o povo romano, mas também à ordem equestre. <small> [JDD] </small> </small> </p>
+; <p> <b>tum</b> ego etiam ne si te in Capitolium faces ferre uellet <br> <small> Cic.Amici.37 <br> Então eu: “Acaso também, se ele quisesse que tu levasses tochas para o Capitólio?” <small> [JDD] </small> </small> </p>
+; <p> <b>tum</b> demum Ariouistus partem suarum copiarum quae castra minora oppugnaret misit <br> <small> Caes.Gal.1.50.2 <br> Então finalmente Ariovisto enviou uma parte de suas tropas, para que atacasse o acampamento menor. <small> [JDD] </small> </small> </p>
+; <p> dulce enim etiam nomen est pacis res uero ipsa cum iucunda <b>tum</b> salutaris <br> <small> Cic.Phil.13.1.4 <br> Pois até mesmo o nome da paz é doce, mas, na verdade, ela própria é tanto prazerosa como salutar. <small> [JDD] </small> </small> </p>
+; <p> nostri enim sensus ut in pace semper sic <b>tum</b> etiam in bello congruebant <br> <small> Cic.Marc.16 <br> Pois nossos pareceres assim como sempre coincidiam na paz, assim também na guerra. <small> [JDD] </small> </small> </p>
+; <p> par est autem primum ipsum esse uirum bonum <b>tum</b> alterum similem sui quaerere <br> <small> Cic.Amici.82 <br> Ora, é justo que, primeiramente, ele próprio seja um homem bom e então busque um outro semelhante a si. <small> [JDD] </small> </small> </p>
+; <p> <b>tum</b> denique liberati per uiros fortissimos uidebamur quia ut illi uoluerant libertatem pax consequebatur <br> <small> Cic.Phil.1.32.3 <br> Então finalmente parecíamos ter sido libertados graças a homens muito valorosos, porque, como eles tinham querido, a paz seguia a libedade. <small> [JDD] </small> </small> </p>
+; <p> uentum erat ad Uestae quarta iam parte diei praeterita et casu <b>tum</b> respondere uadato debebat quod ni fecisset perdere litem <br> <small> Hor.S.1.9.35 <br> Tinha-se chegado ao templo de Vesta, transcorrida já a quarta parte do dia, e, naquele momento, casualmente ele devia responder a uma citação judicial; se não fizesse isso, perderia o processo. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx116-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 34.75 and an absolute frequency of 18. The Cicero subcorpus follows, with a normalized frequency of 23.17 and an absolute frequency of 372. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 22 ; absolute frequency: 8.30878465140872. subcorpus: Cicero ; normalized frequency: 372 ; absolute frequency: 23.1741048067579. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 15 ; absolute frequency: 22.772126916654. subcorpus: Sallustius ; normalized frequency: 13 ; absolute frequency: 12.0582506261015. subcorpus: Seneca ; normalized frequency: 10 ; absolute frequency: 1.86633321513223. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 18 ; absolute frequency: 34.7490347490347. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx116-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 34.75 and an absolute frequency of 18. The Prosa.oratória subcorpus follows, with a normalized frequency of 24.48 and an absolute frequency of 255. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 36 ; absolute frequency: 8.76360184035639. subcorpus: Prosa.filosófica ; normalized frequency: 57 ; absolute frequency: 9.39029011054184. subcorpus: Prosa.oratória ; normalized frequency: 255 ; absolute frequency: 24.4832121974403. subcorpus: Prosa.epistolográfica ; normalized frequency: 63 ; absolute frequency: 16.693606083892. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 18 ; absolute frequency: 15.2684706081941. subcorpus: Poesia.trágica ; normalized frequency: 7 ; absolute frequency: 6.08061153578874. subcorpus: Poesia.épica ; normalized frequency: 18 ; absolute frequency: 34.7490347490347. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx116-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 20.11 and an absolute frequency of 432. The I.a.C. subcorpus follows, with a normalized frequency of 20.11 and an absolute frequency of 432. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 432 ; absolute frequency: 20.1070514312311. subcorpus: I.d.C. ; normalized frequency: 28 ; absolute frequency: 4.28331038702769. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

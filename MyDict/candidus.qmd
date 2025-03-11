@@ -1,0 +1,198 @@
+---
+title: "candidus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-97-110-100-105-100-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>candĭdus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Branco brilhante, vestido de branco &ensp; <small>Tib. 2, 1, 16.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Brilhante, resplandecente, ofuscante &ensp; <small>pela brancura de neve: lírio, cegonha, barba, cabelos, roupa, etc.. Hor. O. 1, 9, 1.</small> <br> <b>3</b> &ensp; <small>I-Daí:</small> &ensp; Claro, radioso &ensp; <small>Verg. En. 5, 571.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Feliz, favorável &ensp; <small>Tib. 1, 7, 64.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Sincero, franco, límpido &ensp; <small>Hor. Ep. 1.4, 1.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Candidus</b> -<b>a</b> -<b>um</b> <small>Tib</small> -<b>dior</b> <small>Plin. Jun</small> -<b>dissimus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; candido, branco. <br> <b>2</b> &ensp; <small>Tibul.</small> &ensp; feliz. <br> <b>3</b> &ensp; <small>Hor.</small> &ensp; sincero. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Candidus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa branca. ou desenganada </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/92556 ' target="_blank"> http://lila-erc.eu/data/id/lemma/92556 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+candĭdus 
+ candĭda 
+ candĭdum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-97-110-100-105-100-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> non ego te <b>candide</b> Bassareu inuitum quatiam nec uariis obsita frondibus sub diuum rapiam <br> <small> Hor.Carm.1.18.11 <br> Não sou eu que te sacudirei contra a tua vontade, resplandecente Bassareu, nem arrebatarei à luz do dia o que se esconde sob as folhagens variadas. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-97-110-100-105-100-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 5.33 and an absolute frequency of 6. The Horatius subcorpus follows, with a normalized frequency of 5.33 and an absolute frequency of 6. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Horatius ; normalized frequency: 6 ; absolute frequency: 5.32812361246781. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 5 ; absolute frequency: 0.933166607566115. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-97-110-100-105-100-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 5.89 and an absolute frequency of 7. The Poesia.didática subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.filosófica ; normalized frequency: 1 ; absolute frequency: 0.164741931763892. subcorpus: Prosa.oratória ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-97-110-100-105-100-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 0.76 and an absolute frequency of 5. The I.a.C. subcorpus follows, with a normalized frequency of 0.33 and an absolute frequency of 7. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 7 ; absolute frequency: 0.3258087037468. subcorpus: I.d.C. ; normalized frequency: 5 ; absolute frequency: 0.764876854826373. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

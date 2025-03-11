@@ -1,0 +1,205 @@
+---
+title: "beneficium"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx98-101-110-101-102-105-99-105-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>beneficĭum</b> <b>-í</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Benefício, favor, serviço prestado &ensp; <small>Cíc. Of. 1, 56.</small> <br> <b>2</b> &ensp; <small>I-Donde</small> &ensp; Distinção, favor, mercê &ensp; <small>oficialmente falando Cíc. Mur. 2.</small> <br> <b>3</b> &ensp; <small>I-Donde</small> &ensp; Gratificação &ensp; <small>Cíc. Arch. 11.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Beneficium</b> -<b>ii</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; beneficio, favor, mercê. <br> <b>2</b> &ensp; pensão paga á custa do público. <br> <b>3</b> &ensp; <small>Sen.</small> &ensp; promoção militar para maior posto. <br> <b>4</b> &ensp; <small>Ulp.</small> &ensp; beneficio, privilegio, exempção da Lei. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>meo beneficio &ensp; <small><small>Cic</small></small> &ensp; <small>Por meu respeito, por minha intervenção</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Beneficium</b> <b>ij</b>   <p> <b>1</b> &ensp; a merce. ou boa obra </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/91483 ' target="_blank"> http://lila-erc.eu/data/id/lemma/91483 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> beneficiom, benficiom, benficium, benificiom, benificium <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+bĕnĕfĭcĭum 
+ bĕnĕfĭcĭī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx98-101-110-101-102-105-99-105-117-109xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx98-101-110-101-102-105-99-105-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword beneficium here are all the values plotted: collocate: immortalis; scoreSUBST: 0. collocate: uester; scoreSUBST: 0. collocate: populus; scoreSUBST: 2. collocate: Caesar; scoreSUBST: 0. collocate: tuus; scoreSUBST: 0. collocate: deus; scoreSUBST: 2. collocate: romanus; scoreSUBST: 0. collocate: suus; scoreSUBST: 0. collocate: meus; scoreSUBST: 0. collocate: is; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx98-101-110-101-102-105-99-105-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword beneficium here are all the values plotted: collocate: immortalis; scoreADJ: 2. collocate: uester; scoreADJ: 0. collocate: populus; scoreADJ: 0. collocate: Caesar; scoreADJ: 0. collocate: tuus; scoreADJ: 0. collocate: deus; scoreADJ: 0. collocate: romanus; scoreADJ: 2. collocate: suus; scoreADJ: 0. collocate: meus; scoreADJ: 0. collocate: is; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx98-101-110-101-102-105-99-105-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword beneficium here are all the values plotted: collocate: immortalis; scoreVERBO: 0. collocate: uester; scoreVERBO: 0. collocate: populus; scoreVERBO: 0. collocate: Caesar; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0. collocate: deus; scoreVERBO: 0. collocate: romanus; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: meus; scoreVERBO: 0. collocate: is; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx98-101-110-101-102-105-99-105-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword beneficium here are all the values plotted: collocate: immortalis; scoreADV: 0. collocate: uester; scoreADV: 0. collocate: populus; scoreADV: 0. collocate: Caesar; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: deus; scoreADV: 0. collocate: romanus; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: meus; scoreADV: 0. collocate: is; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx98-101-110-101-102-105-99-105-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword beneficium here are all the values plotted: collocate: immortalis; scoreFUNC: 0. collocate: uester; scoreFUNC: 0. collocate: populus; scoreFUNC: 0. collocate: Caesar; scoreFUNC: 0. collocate: tuus; scoreFUNC: 0. collocate: deus; scoreFUNC: 0. collocate: romanus; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: meus; scoreFUNC: 0. collocate: is; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> cooptatio enim collegiorum ad populi <b>beneficium</b> transferebatur <br> <small> Cic.Amici.96 <br> Pois a escolha dos colégios era transferida ao privilégio do povo. <small> [JDD] </small> </small> </p>
+; <p> suo inquis et patientiae suae <b>beneficio</b> non fortunae <br> <small> Sen.Ep.119.5 <br> “É por seu próprio mérito”, dizes, “e de sua paciência, não de sua fortuna.” <small> [JDD] </small> </small> </p>
+; <p> Caesarem deorum <b>beneficio</b> rei publicae procreatum dubitem ne appellare imperatorem <br> <small> Cic.Phil.14.25.4 <br> Eu duvidaria em chamar de general vitorioso, nascido para a república pelo favor dos deuses? <small> [JDD] </small> </small> </p>
+; <p> petivi etiam pro meis in civitatem <b>beneficiis</b> ut negotium conficerent <br> <small> Cic.Att.5.21.11 <br> pedi até mesmo pelos meus benefícios na cidade que concluíssem o negócio. <small> [JDD] </small> </small> </p>
+; <p> nemo ab eo ciuis uiolatus multi eius <b>beneficio</b> et misericordia liberati <br> <small> Cic.Phil.13.8.12 <br> Nenhum cidadão foi prejudicado por ele, muitos foram libertados por seu benefício e misericórdia. <small> [JDD] </small> </small> </p>
+; <p> est ille quidem consul sed alterum nomen <b>benefici</b> populi Romani est alterum uirtutis atque uictoriae <br> <small> Cic.Phil.14.25.2 <br> Ele é certamente cônsul, mas um é o título do favor do povo romano, outro, é o do valor e da vitória. <small> [JDD] </small> </small> </p>
+; <p> haec ego non dicerem Tubero si aut uos constantiae uestrae aut Caesarem <b>benefici</b> sui paeniteret <br> <small> Cic.Lig.29 <br> Eu não diria essas coisas, Tuberão, se vós vos arrependeis de vossa constância ou César de sua generosidade. <small> [JDD] </small> </small> </p>
+; <p> sed huius <b>benefici</b> gratiam iudices Fortuna populi Romani et uestra felicitas et di immortales sibi deberi putant <br> <small> Cic.Mil.83 <br> Mas, juízes, a Fortuna do povo romano e a vossa felicidade e os deuses imortais consideram que o agradecimento desse benefício lhes é devido. <small> [JDD] </small> </small> </p>
+; <p> ac si restituor etiam minus videbimur deliquisse abs teque certe quoniam nullo nostro tuo ipsius <b>beneficio</b> diligemur <br> <small> Cic.Att.3.15.4 <br> Mas se sou reabilitado, vou parecer ter delinquido ainda menos e serei certamente estimado por ti, uma vez que não é por minha generosidade, mas pela tua própria. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx98-101-110-101-102-105-99-105-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 4.55 and an absolute frequency of 3. The Cicero subcorpus follows, with a normalized frequency of 4.11 and an absolute frequency of 66. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 8 ; absolute frequency: 3.0213762368759. subcorpus: Cicero ; normalized frequency: 66 ; absolute frequency: 4.11153472377962. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 11 ; absolute frequency: 2.05296653664545. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx98-101-110-101-102-105-99-105-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 5.28 and an absolute frequency of 55. The Prosa.histórica subcorpus follows, with a normalized frequency of 3.16 and an absolute frequency of 13. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 13 ; absolute frequency: 3.16463399790647. subcorpus: Prosa.filosófica ; normalized frequency: 14 ; absolute frequency: 2.30638704469449. subcorpus: Prosa.oratória ; normalized frequency: 55 ; absolute frequency: 5.28069282689889. subcorpus: Prosa.epistolográfica ; normalized frequency: 8 ; absolute frequency: 2.11982299477994. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx98-101-110-101-102-105-99-105-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 3.63 and an absolute frequency of 78. The I.d.C. subcorpus follows, with a normalized frequency of 2.14 and an absolute frequency of 14. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 78 ; absolute frequency: 3.63043984175006. subcorpus: I.d.C. ; normalized frequency: 14 ; absolute frequency: 2.14165519351384. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

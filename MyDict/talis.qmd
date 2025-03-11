@@ -1,0 +1,201 @@
+---
+title: "talis"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx116-97-108-105-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>tālis</b> <b>-e</b> <br> <small>pron.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Tal, de tal natureza, de tal espécie &ensp; <small>Cic. Nat. 3, 92.</small> <br> <b>2</b> &ensp; <small>II-Sent. particular</small> &ensp; Igual, semelhante &ensp; <small>Cíc. Rep. 2, 43.</small> <br> <b>3</b> &ensp; <small>II-Sent. particular</small> &ensp; Tão importante, tão considerável &ensp; <small>Cíc. Quinct. 42.</small> <br> <b>4</b> &ensp; <small>III-Em correlação:</small> &ensp; talis... qualis, tal... qual &ensp; <small>Cíc. Mur. 32.</small> <br> <b>5</b> &ensp; <small>III-Em correlação:</small> &ensp; talis... ac. atque, tal.. qual &ensp; <small>Cíc. Vat. 10.</small> <br> <b>6</b> &ensp; <small>III-Em correlação:</small> &ensp; talis ... ut, qui, tal.. que &ensp; <small>Cíc. Or. 1, 91.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<small>m. f</small> <b>Talis</b> <small>n</small> -<b>le</b> -<b>is</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; tal, semelhante, igual. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Talis</b> -<b>e</b>   <p> <b>1</b> &ensp; tal </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/127592 ' target="_blank"> http://lila-erc.eu/data/id/lemma/127592 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> 2ª classe (tema em -i-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+tālis
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx116-97-108-105-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword talis here are all the values plotted: collocate: qualis; scoreSUBST: 0. collocate: uir; scoreSUBST: 3. collocate: facinus; scoreSUBST: 2. collocate: igitur; scoreSUBST: 0. collocate: uox; scoreSUBST: 2. collocate: amicus; scoreSUBST: 2. collocate: in; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx116-97-108-105-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword talis here are all the values plotted: collocate: qualis; scoreADJ: 0. collocate: uir; scoreADJ: 0. collocate: facinus; scoreADJ: 0. collocate: igitur; scoreADJ: 0. collocate: uox; scoreADJ: 0. collocate: amicus; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx116-97-108-105-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword talis here are all the values plotted: collocate: qualis; scoreVERBO: 0. collocate: uir; scoreVERBO: 0. collocate: facinus; scoreVERBO: 0. collocate: igitur; scoreVERBO: 0. collocate: uox; scoreVERBO: 0. collocate: amicus; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: sum; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx116-97-108-105-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword talis here are all the values plotted: collocate: qualis; scoreADV: 0. collocate: uir; scoreADV: 0. collocate: facinus; scoreADV: 0. collocate: igitur; scoreADV: 2. collocate: uox; scoreADV: 0. collocate: amicus; scoreADV: 0. collocate: in; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx116-97-108-105-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword talis here are all the values plotted: collocate: qualis; scoreFUNC: 0. collocate: uir; scoreFUNC: 0. collocate: facinus; scoreFUNC: 0. collocate: igitur; scoreFUNC: 0. collocate: uox; scoreFUNC: 0. collocate: amicus; scoreFUNC: 0. collocate: in; scoreFUNC: 20. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Quale inquit caput est , <b>talis</b> praestatur sapor . <br> <small> Phaed.3.4 <br> “Garante-se que seu sabor é tal qual sua cabeça”. <small> [JDD] </small> </small> </p>
+; <p> Quaeso , tam angustam <b>talis</b> vir ponis domum ? <br> <small> Phaed.3.9 <br> “Pergunto-te, tu, um tal homem, fazes uma casa tão estreita?” <small> [JDD] </small> </small> </p>
+; <p> quia profecto uidetis nefas esse dictu miseram fuisse <b>talem</b> senectutem <br> <small> Cic.Sen.13 <br> Para que, sem dúvida, vejais que é um sacrilégio dizer que tal velhice foi infeliz. <small> [JDD] </small> </small> </p>
+; <p> <b>tale</b> quiddam sapiens facit in se reconditur se cum est <br> <small> Sen.Ep.9.16 <br> Algo semelhante faz o sábio: se concentra em si mesmo, fica consigo. <small> [JDD] </small> </small> </p>
+; <p> <b>talis</b> igitur inter uiros amicitia tantas opportunitates habet quantas uix queo dicere <br> <small> Cic.Amici.22 <br> Portanto, entre tais varões, a amizade tem tão grandes oportunidades quantas eu mal posso dizer. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>talia</b> uoce refert curisque ingentibus aeger spem uoltu simulat premit altum corde dolorem <br> <small> Verg.A.1.208 <br> Diz tais coisas com sua voz e, atormentado por enormes preocupações, finge esperança em seu rosto, reprime no coração profunda dor. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> moueor enim <b>tali</b> amico orbatus qualis ut arbitror nemo umquam erit ut confirmare possum nemo certe fuit <br> <small> Cic.Amici.10 <br> Pois me comovo privado de um amigo tal qual, conforme penso, ninguém jamais será e, como posso afirmar, certamente ninguém foi. <small> [JDD] </small> </small> </p>
+; <p> sed gloriae maxumum certamen inter ipsos erat se quisque hostem ferire murum ascendere conspici dum <b>tale</b> facinus faceret properabat eas diuitias eam bonam famam magnamque nobilitatem putabant <br> <small> Sal.Cat.7.6 <br> Mas a maior disputa da glória era entre eles mesmos: cada um se apressava em ferir o inimigo, escalar o muro, ser notado, enquanto fazia tal ação. eles consideravam que essas eram as riquezas, essa, a boa reputação e a grande nobreza. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx116-97-108-105-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 32.82 and an absolute frequency of 17. The Ovidius subcorpus follows, with a normalized frequency of 15.44 and an absolute frequency of 9. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 3 ; absolute frequency: 1.13301608882846. subcorpus: Cicero ; normalized frequency: 70 ; absolute frequency: 4.36071864643293. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 9 ; absolute frequency: 15.442690459849. subcorpus: Phaedrus ; normalized frequency: 7 ; absolute frequency: 10.6269925611052. subcorpus: Sallustius ; normalized frequency: 12 ; absolute frequency: 11.1306928856321. subcorpus: Seneca ; normalized frequency: 15 ; absolute frequency: 2.79949982269834. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 17 ; absolute frequency: 32.8185328185328. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx116-97-108-105-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 32.82 and an absolute frequency of 17. The Poesia.didática subcorpus follows, with a normalized frequency of 12.72 and an absolute frequency of 15. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 18 ; absolute frequency: 4.38180092017819. subcorpus: Prosa.filosófica ; normalized frequency: 34 ; absolute frequency: 5.60122567997232. subcorpus: Prosa.oratória ; normalized frequency: 49 ; absolute frequency: 4.70461724578265. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 15 ; absolute frequency: 12.7237255068284. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 17 ; absolute frequency: 32.8185328185328. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx116-97-108-105-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 7.85 and an absolute frequency of 3. The I.a.C. subcorpus follows, with a normalized frequency of 4.84 and an absolute frequency of 104. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 4.49 and an absolute freqeuncy of 2. here are all the values: subcorpus: I.a.C. ; normalized frequency: 104 ; absolute frequency: 4.84058645566674. subcorpus: I.d.C. ; normalized frequency: 30 ; absolute frequency: 4.58926112895824. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

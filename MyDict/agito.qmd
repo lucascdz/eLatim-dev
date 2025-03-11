@@ -1,0 +1,207 @@
+---
+title: "agito"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-103-105-116-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>agĭtō</b> <b>-áre, -áví, -átum</b> <br> <small>v. freq. tr.</small> <br> <small>Obs.: Constrói-se com obj. dir., com abl. com prep. ou sem ela: ou intransitivamente.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio com idéia de movimento</small> &ensp; Impelir com força, fazer avançar: &ensp; <small></small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Perseguir sent. físico e moral, não deixar em repouso, excitar, inquietar, atormentar, censurar: &ensp; <small></small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Remover constantemente no espírito, pensar, refletir, debater, discutir &ensp; <small>C. Nep. Ham. 1, 4.</small> <br> <b>4</b> &ensp; <small>II-Daí:</small> &ensp; Ocupar-se de, tratar de, falar de, deliberar, preparar &ensp; <small>Sal. B.Jug. 66, 1.</small> <br> <b>5</b> &ensp; <small>II-Com idéia temporal Ir. e intr.:</small> &ensp; passar a vida, o tempo: viver, habitar &ensp; <small>Verg. G. 4, 154.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>donde: agitar: agitare equum Cíc. Br. 192 “fazer avançar o cavalo”; corpora huc et illuc agitare Sal. B. Jug. 60 «agitar os corpos para cá e para lá» <br> <br><b>2</b><br>eos agitant Furiae Cíc. Leg. 1,40 «as Fúrias os perseguem». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Agito</b> -<b>as</b> -<b>avi</b> -<b>atum</b> -<b>are</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; agitar, mover. <br> <b>2</b> &ensp; estimular, excitar. <br> <b>3</b> &ensp; <small>Virg.</small> &ensp; molestar, affligir, perseguir, enojar. <br> <b>4</b> &ensp; <small>Liv.</small> &ensp; considerar, pensar. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Agito</b> -<b>as</b> -<b>aui</b> -<b>atum</b>   <p> <b>1</b> &ensp; tratar. mouer. ou enxotar &ensp; <small>Actiuo.</small> </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/88103 ' target="_blank"> http://lila-erc.eu/data/id/lemma/88103 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> agito </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> agitare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> agitabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> agitaui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> agitatum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> agitaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+ăgĭtō 
+ ăgĭtās 
+ ăgĭtāre 
+ ăgĭtāvī 
+ ăgĭtātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-103-105-116-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-103-105-116-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword agito here are all the values plotted: collocate: mens; scoreSUBST: 2. collocate: multus; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-103-105-116-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword agito here are all the values plotted: collocate: mens; scoreADJ: 0. collocate: multus; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-103-105-116-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword agito here are all the values plotted: collocate: mens; scoreVERBO: 0. collocate: multus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-103-105-116-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword agito here are all the values plotted: collocate: mens; scoreADV: 0. collocate: multus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-103-105-116-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword agito here are all the values plotted: collocate: mens; scoreFUNC: 0. collocate: multus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> sed ego quae mente <b>agitaui</b> omnes iam antea diuorsi audistis <br> <small> Sal.Cat.20.5 <br> Mas as coisas que eu elaborei em minha mente, todos vós já ouvistes antes separados. <small> [JDD] </small> </small> </p>
+; <p> et patrum fauor aderat multi uoluntate effusius qui noluerant medii ac plurimi obuio obsequio priuatas spes <b>agitantes</b> sine publica cura <br> <small> Tac.Hist.1.19.2 <br> E deu-se a manifestação de apoio dos pais [senadores]: muitos de boa vontade, mais efusivamente os que não queriam, os indiferentes, e mais numerosos, por óbvia submissão, tendo em mente suas esperanças particulares sem preocupação com o bem público. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-103-105-116-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 13.73 and an absolute frequency of 4. The Sallustius subcorpus follows, with a normalized frequency of 12.06 and an absolute frequency of 13. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 7 ; absolute frequency: 0.436071864643293. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 13 ; absolute frequency: 12.0582506261015. subcorpus: Seneca ; normalized frequency: 9 ; absolute frequency: 1.67969989361901. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 4 ; absolute frequency: 13.7315482320632. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-103-105-116-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 4.34 and an absolute frequency of 5. The Prosa.histórica subcorpus follows, with a normalized frequency of 4.14 and an absolute frequency of 17. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 17 ; absolute frequency: 4.13836753572385. subcorpus: Prosa.filosófica ; normalized frequency: 6 ; absolute frequency: 0.988451590583351. subcorpus: Prosa.oratória ; normalized frequency: 4 ; absolute frequency: 0.384050387410828. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-103-105-116-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 10.47 and an absolute frequency of 4. The I.d.C. subcorpus follows, with a normalized frequency of 1.84 and an absolute frequency of 12. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 23 ; absolute frequency: 1.07051431231091. subcorpus: I.d.C. ; normalized frequency: 12 ; absolute frequency: 1.83570445158329. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

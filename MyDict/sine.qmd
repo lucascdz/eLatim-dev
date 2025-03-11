@@ -1,0 +1,213 @@
+---
+title: "sine"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-105-110-101xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>sine</b> <br> <small>prep. abl.</small> <br> <small>Obs.: É usada isoladamente ou com uma negativa em litotes: haud sine "não sem".</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Sem: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>sine regibus Cíc. Rep. 1, 58 ‘sem reis’. </p> 
+ <small>2.</small> <b>sē</b> <br> <small>prep. arc. e prevérbio</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Prep.:</small> &ensp; Sem: &ensp; <small></small> <br> <b>2</b> &ensp; <small>II-Prevérbio:</small> &ensp; Sem: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>se fraude esto XII T. apud Cíc. Leg. 2, 60, “que esteja sem erro”. <br> <br><b>2</b><br>sécúrus “sem cuidado”, sédùló “sem engano”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Sine</b> <br> <small>prep. de ablat.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; sem. </p>
+
+
+
+
+#### Velez
+
+<b>Sine</b> <br> <small>Praepos.</small>   <p> <b>1</b> &ensp; sem </p>
+
+
+
+
+#### Cardoso
+
+<b>Sine</b> <br> <small>praepositio.</small>   <p> <b>1</b> &ensp; sem </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/124883 ' target="_blank"> http://lila-erc.eu/data/id/lemma/124883 </a> <br>
+<small> classe: </small> preposição    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> se, sed, seine, sene <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+sĭnĕ
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-105-110-101xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword sine here are all the values plotted: collocate: ullus; scoreSUBST: 0. collocate: causa; scoreSUBST: 3. collocate: dubium; scoreSUBST: 3. collocate: mora; scoreSUBST: 2. collocate: molestia; scoreSUBST: 2. collocate: amicus; scoreSUBST: 2. collocate: cura; scoreSUBST: 2. collocate: controuersia; scoreSUBST: 2. collocate: metus; scoreSUBST: 2. collocate: lex; scoreSUBST: 2. collocate: sensus; scoreSUBST: 2. collocate: testis; scoreSUBST: 2. collocate: magnus; scoreSUBST: 0. collocate: periculum; scoreSUBST: 2. collocate: scelus; scoreSUBST: 2. collocate: non; scoreSUBST: 0. collocate: ratio; scoreSUBST: 2. collocate: etiam; scoreSUBST: 0. collocate: possum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-105-110-101xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword sine here are all the values plotted: collocate: ullus; scoreADJ: 0. collocate: causa; scoreADJ: 0. collocate: dubium; scoreADJ: 0. collocate: mora; scoreADJ: 0. collocate: molestia; scoreADJ: 0. collocate: amicus; scoreADJ: 0. collocate: cura; scoreADJ: 0. collocate: controuersia; scoreADJ: 0. collocate: metus; scoreADJ: 0. collocate: lex; scoreADJ: 0. collocate: sensus; scoreADJ: 0. collocate: testis; scoreADJ: 0. collocate: magnus; scoreADJ: 2. collocate: periculum; scoreADJ: 0. collocate: scelus; scoreADJ: 0. collocate: non; scoreADJ: 0. collocate: ratio; scoreADJ: 0. collocate: etiam; scoreADJ: 0. collocate: possum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-105-110-101xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword sine here are all the values plotted: collocate: ullus; scoreVERBO: 0. collocate: causa; scoreVERBO: 0. collocate: dubium; scoreVERBO: 0. collocate: mora; scoreVERBO: 0. collocate: molestia; scoreVERBO: 0. collocate: amicus; scoreVERBO: 0. collocate: cura; scoreVERBO: 0. collocate: controuersia; scoreVERBO: 0. collocate: metus; scoreVERBO: 0. collocate: lex; scoreVERBO: 0. collocate: sensus; scoreVERBO: 0. collocate: testis; scoreVERBO: 0. collocate: magnus; scoreVERBO: 0. collocate: periculum; scoreVERBO: 0. collocate: scelus; scoreVERBO: 0. collocate: non; scoreVERBO: 0. collocate: ratio; scoreVERBO: 0. collocate: etiam; scoreVERBO: 0. collocate: possum; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-105-110-101xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword sine here are all the values plotted: collocate: ullus; scoreADV: 0. collocate: causa; scoreADV: 0. collocate: dubium; scoreADV: 0. collocate: mora; scoreADV: 0. collocate: molestia; scoreADV: 0. collocate: amicus; scoreADV: 0. collocate: cura; scoreADV: 0. collocate: controuersia; scoreADV: 0. collocate: metus; scoreADV: 0. collocate: lex; scoreADV: 0. collocate: sensus; scoreADV: 0. collocate: testis; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: periculum; scoreADV: 0. collocate: scelus; scoreADV: 0. collocate: non; scoreADV: 2. collocate: ratio; scoreADV: 0. collocate: etiam; scoreADV: 2. collocate: possum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-105-110-101xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword sine here are all the values plotted: collocate: ullus; scoreFUNC: 0. collocate: causa; scoreFUNC: 0. collocate: dubium; scoreFUNC: 0. collocate: mora; scoreFUNC: 0. collocate: molestia; scoreFUNC: 0. collocate: amicus; scoreFUNC: 0. collocate: cura; scoreFUNC: 0. collocate: controuersia; scoreFUNC: 0. collocate: metus; scoreFUNC: 0. collocate: lex; scoreFUNC: 0. collocate: sensus; scoreFUNC: 0. collocate: testis; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0. collocate: periculum; scoreFUNC: 0. collocate: scelus; scoreFUNC: 0. collocate: non; scoreFUNC: 0. collocate: ratio; scoreFUNC: 0. collocate: etiam; scoreFUNC: 0. collocate: possum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>sine</b> amico quidem numquam erit <br> <small> Sen.Ep.9.5 <br> Sem amigo na verdade ele nunca estará. <small> [JDD] </small> </small> </p>
+; <p> genitor <b>sine</b> ulla caede defunctus iacet <br> <small> Sen.Oed.789 <br> Meu pai jaz morto sem nenhum assassinato. <small> [JDD] </small> </small> </p>
+; <p> uiuet enim etiam <b>sine</b> amicis beate <br> <small> Sen.Ep.9.15 <br> pois viverá feliz mesmo sem amigos. <small> [JDD] </small> </small> </p>
+; <p> ne tanta eius opera <b>sine</b> teste sit <br> <small> Sen.Ot.4.2 <br> Para que sua tão grande obra não fique sem testemunha. <small> [JDD] </small> </small> </p>
+; <p> propagandi <b>sine</b> dubio imperii causa sed nempe caruit <br> <small> Sen.Helv.9.7 <br> Para ampliar o império, sem dúvida, mas a verdade é que ficou privado. <small> [JDD] </small> </small> </p>
+; <p> nullum animal ad uitam prodit <b>sine</b> metu mortis <br> <small> Sen.Ep.121.18 <br> Nenhum animal vem para a vida sem medo da morte. <small> [JDD] </small> </small> </p>
+; <p> Appius <b>sine</b> lege suo sumptu in Ciliciam cogitat <br> <small> Cic.Att.4.18.4 <br> Ápio pensa em ira à Cilícia sem lei autorizando, às suas próprias expensas. <small> [JDD] </small> </small> </p>
+; <p> deinde cogitabam <b>sine</b> ulla mora iusta itinera facere <br> <small> Cic.Att.5.2.1 <br> em seguida pensava em fazer sem nenhuma demora as viagens normais. <small> [JDD] </small> </small> </p>
+; <p> ceteri enim <b>sine</b> ratione hi <b>sine</b> mente sunt <br> <small> Sen.Ep.13.9 <br> pois os demais são sem razão, estes são sem mente. <small> [JDD] </small> </small> </p>
+; <p> non <b>sine</b> magno quidem rei publicae prouinciaeque Siciliae detrimento <br> <small> Cic.Ver.2.4.20.7 <br> Na verdade, não sem um grande dano à república e à província da Sicília. <small> [JDD] </small> </small> </p>
+; <p> cognoscite Quirites non enim hoc <b>sine</b> causa quaeri uidetur <br> <small> Cic.Man.22 <br> Ficai sabendo, Quirites; pois isso não parece ser perguntado sem motivo. <small> [JDD] </small> </small> </p>
+; <p> uirgis iste caederet <b>sine</b> causa socium populi Romani atque amicum <br> <small> Cic.Ver.2.4.86.10 <br> Cortaria de varas esse sujeito, sem motivo, a um aliado e amigo do povo romano? <small> [JDD] </small> </small> </p>
+; <p> delet enim ueritatem <b>sine</b> qua nomen amicitiae ualere non potest <br> <small> Cic.Amici.92 <br> pois destrói a verdade, sem a qual o nome de amizade não pode valer. <small> [JDD] </small> </small> </p>
+; <p> atque hunc quidem unum huius belli domestici ducem <b>sine</b> controuersia uicimus <br> <small> Cic.Catil.2.1.7 <br> E, na verdade, vencemos, sem controvérsia, esse único comandante desta guerra civil. <small> [JDD] </small> </small> </p>
+; <p> spero nos aut cum summa gloria aut certe <b>sine</b> molestia discessuros <br> <small> Cic.Att.2.21.6 <br> Espero ir embora ou certamente com a maior glória ou ao menos sem desgosto. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ita <b>sine</b> cura consules sunt ut paene liberum sit senatori non adesse <br> <small> Cic.Phil.1.12.4 <br> De tal modo são os cônsules sem preocupação com isso, que é quase livre para o senador não estar presente. <small> [JDD] </small> </small> </p>
+; <p> inanis hoc iuuat haud illud quaerentis num <b>sine</b> sensu tempore num faciant alieno <br> <small> Hor.S.1.4.76 <br> Isso agrada a homens vazios, que não perguntam se o fazem sem sentido ou se o fazem no momento importuno. <small> [JDD] </small> </small> </p>
+; <p> ignominiam iudicat gladiator cum inferiore componi et scit eum <b>sine</b> gloria uinci qui <b>sine</b> periculo uincitur <br> <small> Sen.Prov.3.4 <br> O gladiador considera uma desonra ser posto frente a frente com um inferior, e sabe que se vence sem glória aquele que é vencido sem risco. <small> [JDD] </small> </small> </p>
+; <p> succurrendum est D. Bruto omnes undique copiae conligendae moram exhibere ullam in tali ciue liberando <b>sine</b> scelere non possumus <br> <small> Cic.Phil.6.7.7 <br> É preciso socorrer Décimo Bruto, todas as tropas precisam ser reunidas de todas as partes; não podemos perder nenhuma hora em libertar sem um crime a tal cidadão. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-105-110-101xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 24.03 and an absolute frequency of 7. The Seneca subcorpus follows, with a normalized frequency of 17.17 and an absolute frequency of 92. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 25 ; absolute frequency: 9.44180074023718. subcorpus: Cicero ; normalized frequency: 192 ; absolute frequency: 11.9608282873589. subcorpus: Horatius ; normalized frequency: 12 ; absolute frequency: 10.6562472249356. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 15 ; absolute frequency: 13.9133661070402. subcorpus: Seneca ; normalized frequency: 92 ; absolute frequency: 17.1702655792165. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 7 ; absolute frequency: 24.0302094061105. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-105-110-101xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 18.12 and an absolute frequency of 110. The Prosa.filosófica subcorpus follows, with a normalized frequency of 18.12 and an absolute frequency of 110. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 2.61 and an absolute freqeuncy of 3. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 47 ; absolute frequency: 11.4413690693542. subcorpus: Prosa.filosófica ; normalized frequency: 110 ; absolute frequency: 18.1216124940281. subcorpus: Prosa.oratória ; normalized frequency: 128 ; absolute frequency: 12.2896123971465. subcorpus: Prosa.epistolográfica ; normalized frequency: 43 ; absolute frequency: 11.3940485969422. subcorpus: Poesia.lírica ; normalized frequency: 13 ; absolute frequency: 10.9363169849415. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-105-110-101xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 18.32 and an absolute frequency of 7. The I.d.C. subcorpus follows, with a normalized frequency of 14.84 and an absolute frequency of 97. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 6.74 and an absolute freqeuncy of 3. here are all the values: subcorpus: I.a.C. ; normalized frequency: 247 ; absolute frequency: 11.4963928322085. subcorpus: I.d.C. ; normalized frequency: 97 ; absolute frequency: 14.8386109836316. subcorpus: II.d.C. ; normalized frequency: 7 ; absolute frequency: 18.3246073298429. subcorpus: IV.d.C. ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+:::
+

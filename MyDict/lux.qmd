@@ -1,0 +1,201 @@
+---
+title: "lux"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx108-117-120xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>lūcĕ</b> <br> <small>abl. de lúx.</small> <br> <small></small> 
+ <b>lūx</b> <b>lúcis</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Luz considerada como uma força em atividade, claridade &ensp; <small>Cíc. Div. 1. 6.</small> <br> <b>2</b> &ensp; <small>I-Daí. em sent. especial</small> &ensp; Luz do dia, dia: &ensp; <small></small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Brilho, ilustração, glória &ensp; <small>Verg. En. 2. 281</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Luz do mundo, vida &ensp; <small>Cíc. Tusc. 3, 2: Verg. G. 4. 255.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Vista, olhos &ensp; <small>Ov. Met. 14. 197.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Luzes, ajuda, socorro &ensp; <small>Cíc” Pomp. 33.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>prima luce Cés. B. Gal. 1. 22. 1 “ao romper do dia”: Cíc. 'De Or. 2. 259 luce ou luci Cíc. Of. 3, 93 “em pleno dia, durante o dia”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Lux</b> -<b>ucis</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Lucr.</small> &ensp; luz, claridade, resplandor. <br> <b>2</b> &ensp; <small>Cic.</small> &ensp; dia. <br> <b>3</b> &ensp; vida. <br> <b>4</b> &ensp; gloria, lustre, ornato. <br> <b>5</b> &ensp; <small>No plur.</small> &ensp; astros, estrellas. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>mea lux &ensp; <small><small>Cic</small></small> &ensp; <small>Termo de caricia</small> </p> 
+ <small>* Plaut. Ter. por Luce</small> <b>Lucu</b>
+
+
+
+
+#### Velez
+
+<b>Lux</b> -<b>cis</b>   <p> <b>1</b> &ensp; luz, ou vida </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>prima luce &ensp; <small>em amanhecendo</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Lux</b> <b>ucis</b>   <p> <b>1</b> &ensp; a luz. ou a vida </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/111048 ' target="_blank"> http://lila-erc.eu/data/id/lemma/111048 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+lūcis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx108-117-120xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx108-117-120xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword lux here are all the values plotted: collocate: primus; scoreSUBST: 0. collocate: ante; scoreSUBST: 0. collocate: affero; scoreSUBST: 0. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx108-117-120xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword lux here are all the values plotted: collocate: primus; scoreADJ: 3. collocate: ante; scoreADJ: 0. collocate: affero; scoreADJ: 0. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx108-117-120xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword lux here are all the values plotted: collocate: primus; scoreVERBO: 0. collocate: ante; scoreVERBO: 0. collocate: affero; scoreVERBO: 2. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx108-117-120xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword lux here are all the values plotted: collocate: primus; scoreADV: 0. collocate: ante; scoreADV: 0. collocate: affero; scoreADV: 0. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx108-117-120xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword lux here are all the values plotted: collocate: primus; scoreFUNC: 0. collocate: ante; scoreFUNC: 20. collocate: affero; scoreFUNC: 0. collocate: in; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> videtur enim posse aliquid nostris rebus <b>lucis</b> adferre <br> <small> Cic.Att.2.1.2 <br> Pois elas parecem poder trazer alguma luz às minhas coisas. <small> [JDD] </small> </small> </p>
+; <p> Metellus cum prima <b>luce</b> furtim in campum itineribus prope deviis currebat <br> <small> Cic.Att.4.3.4 <br> Com as primeiras luzes, Metelo corria furtivamente para o Campo de Marte por caminhos pouco habituais. <small> [JDD] </small> </small> </p>
+; <p> periucundus mihi Cincius fuit ante diem iii Kal Febr ante <b>lucem</b> <br> <small> Cic.Att.4.4.1 <br> No terceiro dia antes das calendas de fevereiro [30 de janeiro], antes do amanhecer, Cíncio me deu uma grande alegria. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> haec quoque per exploratores ante <b>lucem</b> in tanta propinquitate castrorum ad hostes deferuntur <br> <small> Caes.Gal.6.7.9 <br> Em tão grande proximidade dos acampamentos, essas informações também são levadas antes do amanhecer, por meio dos batedores, aos inimigos. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx108-117-120xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 5.6 and an absolute frequency of 30. The Ovidius subcorpus follows, with a normalized frequency of 5.15 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Sallustius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 5 ; absolute frequency: 1.88836014804744. subcorpus: Cicero ; normalized frequency: 32 ; absolute frequency: 1.99347138122648. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 30 ; absolute frequency: 5.59899964539669. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx108-117-120xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 14.77 and an absolute frequency of 17. The Poesia.didática subcorpus follows, with a normalized frequency of 4.24 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 5 ; absolute frequency: 1.21716692227172. subcorpus: Prosa.filosófica ; normalized frequency: 15 ; absolute frequency: 2.47112897645838. subcorpus: Prosa.oratória ; normalized frequency: 24 ; absolute frequency: 2.30430232446497. subcorpus: Prosa.epistolográfica ; normalized frequency: 6 ; absolute frequency: 1.58986724608495. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 17 ; absolute frequency: 14.7671994440584. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx108-117-120xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 5.35 and an absolute frequency of 35. The I.a.C. subcorpus follows, with a normalized frequency of 1.86 and an absolute frequency of 40. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 40 ; absolute frequency: 1.86176402141029. subcorpus: I.d.C. ; normalized frequency: 35 ; absolute frequency: 5.35413798378461. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

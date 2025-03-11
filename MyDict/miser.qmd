@@ -1,0 +1,199 @@
+---
+title: "miser"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-105-115-101-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>miser</b> <b>-èra</b> <b>-èrum</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Infeliz, miserável &ensp; <small>Cíc. Phil. 7, 14.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Que torna infeliz, triste, deplorável, lamentável &ensp; <small>tratando-se de coisas:</small> <br> <b>3</b> &ensp; <small>II-Sents. diversos:</small> &ensp; Doente, que sofre &ensp; <small>de amor Ter. Eun. 71.</small> <br> <b>4</b> &ensp; <small>II-Sents. diversos:</small> &ensp; Em mau estado &ensp; <small>fisicamente Plaut. Capt. 135.</small> <br> <b>5</b> &ensp; <small>II-Sents. diversos:</small> &ensp; Sem valor, sem importância, mesquinho &ensp; <small>Verg. Buc. 3, 26.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>miserum! Verg. En. 6, 21 «ó desgraça!» exclam.. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Miser</b> -<b>era</b> -<b>erum</b> -<b>rior</b> -<b>errimus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; miseravel, mesquinho, desgraçado, digno de compaixão. </p>
+
+
+
+
+#### Velez
+
+<b>Miser</b> -<b>a</b> -<b>um</b> <br> <small>1. b.</small>   <p> <b>1</b> &ensp; cousa miseravel, e infeliz </p>
+
+
+
+
+#### Cardoso
+
+<b>Miser</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa mesquinha. ou desditosa </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/112452 ' target="_blank"> http://lila-erc.eu/data/id/lemma/112452 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> miserus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+mĭsĕr 
+ mĭsĕra 
+ mĭsĕrum
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-105-115-101-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword miser here are all the values plotted: collocate: atque; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-105-115-101-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword miser here are all the values plotted: collocate: atque; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-105-115-101-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword miser here are all the values plotted: collocate: atque; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-105-115-101-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword miser here are all the values plotted: collocate: atque; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-105-115-101-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword miser here are all the values plotted: collocate: atque; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> o quam <b>miserum</b> est nescire mori <br> <small> Sen.Ag.611 <br> Oh, quão infeliz é não saber morrer! <small> [JDD] </small> </small> </p>
+; <p> id est maximum et <b>miserrimum</b> mearum omnium miseriarum <br> <small> Cic.Att.3.7.3 <br> Essa é a maior e mais desgraçada de todas as minhas desgraças. <small> [JDD] </small> </small> </p>
+; <p> quia profecto uidetis nefas esse dictu <b>miseram</b> fuisse talem senectutem <br> <small> Cic.Sen.13 <br> Para que, sem dúvida, vejais que é um sacrilégio dizer que tal velhice foi infeliz. <small> [JDD] </small> </small> </p>
+; <p> omnes id fore putabant ut <b>miser</b> atque innocens uirgis caederetur fefellit hic homines opinio <br> <small> Cic.Ver.2.4.86.8 <br> Todos achavam que aconteceria que um pobre e inocente cidadão seria cortado de varas; aqui a expectativa enganou os homens. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-105-115-101-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 11.54 and an absolute frequency of 13. The Tacitus subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 3 ; absolute frequency: 1.13301608882846. subcorpus: Cicero ; normalized frequency: 72 ; absolute frequency: 4.48531060775959. subcorpus: Horatius ; normalized frequency: 13 ; absolute frequency: 11.5442678270136. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 6 ; absolute frequency: 5.56534644281607. subcorpus: Seneca ; normalized frequency: 41 ; absolute frequency: 7.65196618204214. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-105-115-101-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 10.94 and an absolute frequency of 13. The Poesia.didática subcorpus follows, with a normalized frequency of 5.94 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 9 ; absolute frequency: 2.1909004600891. subcorpus: Prosa.filosófica ; normalized frequency: 35 ; absolute frequency: 5.76596761173622. subcorpus: Prosa.oratória ; normalized frequency: 42 ; absolute frequency: 4.0325290678137. subcorpus: Prosa.epistolográfica ; normalized frequency: 24 ; absolute frequency: 6.35946898433981. subcorpus: Poesia.lírica ; normalized frequency: 13 ; absolute frequency: 10.9363169849415. subcorpus: Poesia.didática ; normalized frequency: 7 ; absolute frequency: 5.93773856985325. subcorpus: Poesia.trágica ; normalized frequency: 12 ; absolute frequency: 10.4239054899236. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-105-115-101-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 7.34 and an absolute frequency of 48. The I.a.C. subcorpus follows, with a normalized frequency of 4.56 and an absolute frequency of 98. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 98 ; absolute frequency: 4.5613218524552. subcorpus: I.d.C. ; normalized frequency: 48 ; absolute frequency: 7.34281780633318. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

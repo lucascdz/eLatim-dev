@@ -1,0 +1,207 @@
+---
+title: "quomodo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx113-117-111-109-111-100-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>quōmŏdo</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Interr.</small> &ensp; De que maneira? como? &ensp; <small>Cíc. Verr. 3, 25.</small> <br> <b>2</b> &ensp; <small>II-Relat.:</small> &ensp; De modo como. como &ensp; <small>Cíc. At. 13, 2, 2.</small> <br> <b>3</b> &ensp; <small>II-Relat.:-Em correlação com sic, ita:</small> &ensp; Do mesmo modo que &ensp; <small>Cíc. Agr. 2, 3.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Quomodo</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; de que sorte? como? Da maneira que, como. </p>
+
+
+
+
+#### Velez
+
+<b>Quomodo</b> <br> <small>2. br.</small>   <p> <b>1</b> &ensp; como? De que modo? </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>quomodo &ensp; <small><small></small></small> &ensp; <small>como? De que modo?</small> &ensp; <small><small>2. br.</small></small> <br> quomodo &ensp; <small><small></small></small> &ensp; <small>como? De que modo?</small> &ensp; <small><small>2. br.</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Quomodo</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; como </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/121286 ' target="_blank"> http://lila-erc.eu/data/id/lemma/121286 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+quōmŏdŏ
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx113-117-111-109-111-100-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword quomodo here are all the values plotted: collocate: modus; scoreSUBST: 4. collocate: modo; scoreSUBST: 0. collocate: ergo; scoreSUBST: 0. collocate: inquam; scoreSUBST: 0. collocate: habeo; scoreSUBST: 0. collocate: dico; scoreSUBST: 0. collocate: aut; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx113-117-111-109-111-100-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword quomodo here are all the values plotted: collocate: modus; scoreADJ: 0. collocate: modo; scoreADJ: 0. collocate: ergo; scoreADJ: 0. collocate: inquam; scoreADJ: 0. collocate: habeo; scoreADJ: 0. collocate: dico; scoreADJ: 0. collocate: aut; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx113-117-111-109-111-100-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword quomodo here are all the values plotted: collocate: modus; scoreVERBO: 0. collocate: modo; scoreVERBO: 0. collocate: ergo; scoreVERBO: 0. collocate: inquam; scoreVERBO: 2. collocate: habeo; scoreVERBO: 2. collocate: dico; scoreVERBO: 2. collocate: aut; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx113-117-111-109-111-100-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword quomodo here are all the values plotted: collocate: modus; scoreADV: 0. collocate: modo; scoreADV: 4. collocate: ergo; scoreADV: 0. collocate: inquam; scoreADV: 0. collocate: habeo; scoreADV: 0. collocate: dico; scoreADV: 0. collocate: aut; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx113-117-111-109-111-100-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword quomodo here are all the values plotted: collocate: modus; scoreFUNC: 0. collocate: modo; scoreFUNC: 0. collocate: ergo; scoreFUNC: 0. collocate: inquam; scoreFUNC: 0. collocate: habeo; scoreFUNC: 0. collocate: dico; scoreFUNC: 0. collocate: aut; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>quomodo</b> inquis exibo <br> <small> Sen.Ep.19.8 <br> “Como sairei disso?” dizes. <small> [JDD] </small> </small> </p>
+; <p> <b>quo</b> modo id tulistis <br> <small> Cic.Lig.25 <br> Como suportastes isso? <small> [JDD] </small> </small> </p>
+; <p> <b>quo</b> modo exciderit nescio <br> <small> Cic.Att.3.12.2 <br> Não sei como escapou. <small> [JDD] </small> </small> </p>
+; <p> <b>quo</b> modo ergo absolutus <br> <small> Cic.Att.4.18.1 <br> Como então foi absolvido? <small> [JDD] </small> </small> </p>
+; <p> at <b>quo</b> modo edixit <br> <small> Cic.Phil.3.19.4 <br> Mas de que modo ordenou? <small> [JDD] </small> </small> </p>
+; <p> <b>quomodo</b> ergo ad illam accedit <br> <small> Sen.Ep.9.12 <br> “Como então chega a ela?” <small> [JDD] </small> </small> </p>
+; <p> dices <b>quomodo</b> ista tam diuersa pariter eunt <br> <small> Sen.Ep.5.7 <br> Dirás: “Como esses sentimentos tão díspares estão par a par?”[*] <small>  </small> </small> </p>
+; <p> <b>quo</b> modo ut alia omittam mortem fili tulit <br> <small> Cic.Amici.9 <br> Como, para omitir outras coisas, suportou a morte do filho! <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>quo</b> modo sum insectatus levitatem senum libidinem iuventutis <br> <small> Cic.Att.1.16.1 <br> como fustiguei a irresponsabilidade dos velhos, a devassidão da juventude! <small> [JDD] </small> </small> </p>
+; <p> quid enim vides agi posse aut <b>quo</b> modo <br> <small> Cic.Att.3.15.6 <br> Pois o que vês que se possa fazer ou de que maneira? <small> [JDD] </small> </small> </p>
+; <p> <b>quomodo</b> ergo illud bonum est cum haec non sint <br> <small> Sen.Ep.118.13 <br> De que modo, então, aquele é um bem quando estas não são? <small> [JDD] </small> </small> </p>
+; <p> si tamen exigis dicam <b>quomodo</b> omne animal perniciosa intellegere conatur <br> <small> Sen.Ep.121.21 <br> Se, contudo, exiges, vou dizer como todo animal é levado a entender as coisas perniciosas.[*] <small>  </small> </small> </p>
+; <p> hanc uero taeterrimam beluam quis ferre potest aut <b>quo</b> modo <br> <small> Cic.Phil.3.28.6 <br> Na verdade, quem pode suportar esse abominável monstro ou de que modo? <small> [JDD] </small> </small> </p>
+; <p> timere se dicunt <b>quo</b> modo ferant ueterani exercitum Brutum habere <br> <small> Cic.Phil.10.15.2 <br> Dizem que temem como suportam os veteranos que Bruto tenha um exército. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx113-117-111-109-111-100-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 8.99 and an absolute frequency of 4. The Seneca subcorpus follows, with a normalized frequency of 8.96 and an absolute frequency of 48. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 33 ; absolute frequency: 2.05576736188981. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 48 ; absolute frequency: 8.9583994326347. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx113-117-111-109-111-100-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 8.99 and an absolute frequency of 4. The Prosa.filosófica subcorpus follows, with a normalized frequency of 8.57 and an absolute frequency of 52. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 1 ; absolute frequency: 0.243433384454344. subcorpus: Prosa.filosófica ; normalized frequency: 52 ; absolute frequency: 8.56658045172238. subcorpus: Prosa.oratória ; normalized frequency: 14 ; absolute frequency: 1.3441763559379. subcorpus: Prosa.epistolográfica ; normalized frequency: 15 ; absolute frequency: 3.97466811521238. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx113-117-111-109-111-100-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 8.99 and an absolute frequency of 4. The I.d.C. subcorpus follows, with a normalized frequency of 7.34 and an absolute frequency of 48. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 35 ; absolute frequency: 1.629043518734. subcorpus: I.d.C. ; normalized frequency: 48 ; absolute frequency: 7.34281780633318. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+:::
+

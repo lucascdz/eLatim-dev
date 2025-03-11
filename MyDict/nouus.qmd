@@ -1,0 +1,207 @@
+---
+title: "nouus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-111-117-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>novus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Novo, recente, fresco &ensp; <small>Cíc. Br. 287.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Novo, inovado, desconhecido, desusado &ensp; <small>Cíc. Br. 324.</small> <br> <b>3</b> &ensp; <small>I-Daí</small> &ensp; Noviço, inexperiente, que não está habituado &ensp; <small>Cíc. Lae. 68.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Estranho, singular, inaudito &ensp; <small>Cíc. Lig. 1.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Novo &ensp; <small>= outro, segundo Cíc. Phil. 13, 25.</small> <br> <b>6</b> &ensp; <small>III-Sents. particulares:</small> &ensp; Novidades políticas, mudança política, revolução: &ensp; <small></small> <br> <b>7</b> &ensp; <small>III-Sents. particulares:</small> &ensp; Livros onde são registradas as dívidas, redução ou abolição de dívidas: &ensp; <small></small> <br> <b>8</b> &ensp; <small>III-Sents. particulares:</small> &ensp; Homem que não tem família nobre homo novus e que, ao exercer pela primeira vez um cargo público, como que inaugura sua própria nobreza &ensp; <small>Cíc. Of. 1, 138.</small> <br> <b>9</b> &ensp; <small>III-Sents. particulares:</small> &ensp; Como subs. m. pl.: os escritores novos, modernos &ensp; <small>Quint. 2, 5, 26.</small> <br> <b>10</b> &ensp; <small>III-No superl.: novissímus, -a, -um:</small> &ensp; último, que vem em último lugar, o mais recente, o último, o maior &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>6</b><br>res novae Cíc. Cal. I. 3 «novidades políticas». <br> <br><b>7</b><br>tabulae novae Cíc. Or. 2, 8 4 “novos livros de conta, onde se registravam as dívidas”. <br> <br><b>10</b><br>novissimum agmen Cés. B. Gal. I, 15, 2 «a retaguarda». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Novus</b> -<b>a</b> -<b>um</b> <small>Varr</small> -<b>vior</b> <small>Cic</small> -<b>vissimus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; novo, moderno, de pouco tempo. </p>
+
+
+
+
+#### Velez
+
+<b>Novus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa nova, admiravel, nunca ouvida </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>homines noui &ensp; <small>os que so por si saõ nobres, e naõ por sangue</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Nouus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa noua </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/113900 ' target="_blank"> http://lila-erc.eu/data/id/lemma/113900 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+nŏvus 
+ nŏva 
+ nŏvum
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-111-117-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword nouus here are all the values plotted: collocate: agmen; scoreSUBST: 3. collocate: tabula; scoreSUBST: 3. collocate: quaestio; scoreSUBST: 2. collocate: monstrum; scoreSUBST: 2. collocate: quidam; scoreSUBST: 0. collocate: semper; scoreSUBST: 0. collocate: res; scoreSUBST: 3. collocate: decerno; scoreSUBST: 0. collocate: consilium; scoreSUBST: 2. collocate: homo; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-111-117-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword nouus here are all the values plotted: collocate: agmen; scoreADJ: 0. collocate: tabula; scoreADJ: 0. collocate: quaestio; scoreADJ: 0. collocate: monstrum; scoreADJ: 0. collocate: quidam; scoreADJ: 0. collocate: semper; scoreADJ: 0. collocate: res; scoreADJ: 0. collocate: decerno; scoreADJ: 0. collocate: consilium; scoreADJ: 0. collocate: homo; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-111-117-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword nouus here are all the values plotted: collocate: agmen; scoreVERBO: 0. collocate: tabula; scoreVERBO: 0. collocate: quaestio; scoreVERBO: 0. collocate: monstrum; scoreVERBO: 0. collocate: quidam; scoreVERBO: 0. collocate: semper; scoreVERBO: 0. collocate: res; scoreVERBO: 0. collocate: decerno; scoreVERBO: 2. collocate: consilium; scoreVERBO: 0. collocate: homo; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-111-117-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword nouus here are all the values plotted: collocate: agmen; scoreADV: 0. collocate: tabula; scoreADV: 0. collocate: quaestio; scoreADV: 0. collocate: monstrum; scoreADV: 0. collocate: quidam; scoreADV: 0. collocate: semper; scoreADV: 2. collocate: res; scoreADV: 0. collocate: decerno; scoreADV: 0. collocate: consilium; scoreADV: 0. collocate: homo; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-111-117-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword nouus here are all the values plotted: collocate: agmen; scoreFUNC: 0. collocate: tabula; scoreFUNC: 0. collocate: quaestio; scoreFUNC: 0. collocate: monstrum; scoreFUNC: 0. collocate: quidam; scoreFUNC: 0. collocate: semper; scoreFUNC: 0. collocate: res; scoreFUNC: 0. collocate: decerno; scoreFUNC: 0. collocate: consilium; scoreFUNC: 0. collocate: homo; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> an tabulas <b>nouas</b> <br> <small> Cic.Catil.2.18.10 <br> Por acaso esperas novos livros de registros? <small> [JDD] </small> </small> </p>
+; <p> <b>novo</b> quodam genere in summam gloriam venit <br> <small> Cic.Att.2.20.4 <br> Chega à suprema glória por certo método novo. <small> [JDD] </small> </small> </p>
+; <p> nec hoc <b>nouum</b> est quaedam crescendo mutari <br> <small> Sen.Ep.118.14 <br> E não é novo que certas coisas mudem com o crescimento. <small> [JDD] </small> </small> </p>
+; <p> <b>nova</b> quaedam divina mitto sed haec summa est <br> <small> Cic.Att.4.3.5 <br> Omito certas predições, mas o resumo é este. <small> [JDD] </small> </small> </p>
+; <p> laetus Cithaeron pabulo semper <b>nouo</b> aestiua nostro prata summittit gregi <br> <small> Sen.Oed.845 <br> O fértil Citerão, com sua pastagem sempre fresca, fornece seus prados para o nosso rebanho. <small> [JDD] </small> </small> </p>
+; <p> num quae rogatio lata num quae <b>noua</b> quaestio decreta est <br> <small> Cic.Mil.19 <br> Por acaso algum projeto de lei foi apresentado, por acaso um novo inquérito foi decretado? <small> [JDD] </small> </small> </p>
+; <p> non enim ut vere loquamur tam rebus <b>novis</b> quam tuis litteris delector <br> <small> Cic.Att.4.11.2 <br> Pois, para falar a verdade, não me deleito tanto com as novidades do que com tuas cartas. <small> [JDD] </small> </small> </p>
+; <p> prima luce confirmata re ab exploratoribus omnem equitatum qui <b>nouissimum</b> agmen moraretur praemisit <br> <small> Caes.Gal.2.11.3 <br> À primeira luz, confirmado o fato por seus batedores, envia antecipadamente toda a cavalaria para que retardasse a última tropa. <small> [JDD] </small> </small> </p>
+; <p> quid ergo opus est <b>nouo</b> consilio si in re nihil omnino <b>noui</b> est <br> <small> Cic.Phil.12.3.7 <br> Logo, que necessidade há de uma nova decisão, se, na situação, não há absolutamente nada de novo? <small> [JDD] </small> </small> </p>
+; <p> hanc ego causam patres conscripti quo minus <b>nouom</b> consilium capiamus in primis magnam puto <br> <small> Sal.Cat.51.41 <br> Esse motivo, pais conscritos, eu julgo acima de tudo importante para que não tomemos uma decisão sem precedentes. <small> [JDD] </small> </small> </p>
+; <p> quod si id crimen homini <b>nouo</b> esse deberet profecto mihi neque inimici neque inuidi defuissent <br> <small> Cic.Mur.17 <br> E se isso devesse ser um crime para um homem novo, com certeza não me teriam faltado nem inimigos nem invejosos. <small> [JDD] </small> </small> </p>
+; <p> Ergo ubi diluvio tellus lutulenta recenti solibus aetheriis altoque recanduit aestu , edidit innumeras species , partimque figuras rettulit antiquas , partim <b>nova</b> monstra creavit . <br> <small> Ov.Met.1.434-7 <br> Portanto, quando a terra lamacenta com o recente dilúvio tornou a esquentar com os sóis etéreos e com o intenso calor, produziu inúmeras espécies; em parte refez antigas figuras, em parte criou novos monstros. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-111-117-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 27.46 and an absolute frequency of 8. The Suetonius subcorpus follows, with a normalized frequency of 22.05 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 1.52 and an absolute freqeuncy of 1. here are all the values: subcorpus: Caesar ; normalized frequency: 26 ; absolute frequency: 9.81947276984667. subcorpus: Cicero ; normalized frequency: 106 ; absolute frequency: 6.60337395031273. subcorpus: Horatius ; normalized frequency: 10 ; absolute frequency: 8.88020602077968. subcorpus: Ovidius ; normalized frequency: 8 ; absolute frequency: 13.7268359643102. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 15 ; absolute frequency: 13.9133661070402. subcorpus: Seneca ; normalized frequency: 48 ; absolute frequency: 8.9583994326347. subcorpus: Suetonius ; normalized frequency: 2 ; absolute frequency: 22.0507166482911. subcorpus: Tacitus ; normalized frequency: 8 ; absolute frequency: 27.4630964641263. subcorpus: Vergilius ; normalized frequency: 9 ; absolute frequency: 17.3745173745174. subcorpus: Hieronymus ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-111-117-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 23.45 and an absolute frequency of 27. The Poesia.trágica subcorpus follows, with a normalized frequency of 23.45 and an absolute frequency of 27. the subcorpus with the least normalized frequency is Prosa.filosófica with the normalized value of 4.45 and an absolute freqeuncy of 27. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 51 ; absolute frequency: 12.4151026071715. subcorpus: Prosa.filosófica ; normalized frequency: 27 ; absolute frequency: 4.44803215762508. subcorpus: Prosa.oratória ; normalized frequency: 62 ; absolute frequency: 5.95278100486784. subcorpus: Prosa.epistolográfica ; normalized frequency: 38 ; absolute frequency: 10.0691592252047. subcorpus: Poesia.lírica ; normalized frequency: 10 ; absolute frequency: 8.4125515268781. subcorpus: Poesia.didática ; normalized frequency: 9 ; absolute frequency: 7.63423530409704. subcorpus: Poesia.trágica ; normalized frequency: 27 ; absolute frequency: 23.453787352328. subcorpus: Poesia.épica ; normalized frequency: 9 ; absolute frequency: 17.3745173745174. subcorpus: Prosa.ficcional ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-111-117-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 26.18 and an absolute frequency of 10. The II.d.C. subcorpus follows, with a normalized frequency of 26.18 and an absolute frequency of 10. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 7.73 and an absolute freqeuncy of 166. here are all the values: subcorpus: I.a.C. ; normalized frequency: 166 ; absolute frequency: 7.72632068885269. subcorpus: I.d.C. ; normalized frequency: 57 ; absolute frequency: 8.71959614502065. subcorpus: II.d.C. ; normalized frequency: 10 ; absolute frequency: 26.1780104712042. subcorpus: IV.d.C. ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+:::
+

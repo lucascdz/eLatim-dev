@@ -1,0 +1,194 @@
+---
+title: "uentus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-101-110-116-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>ventus</b> <b>-í</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Vento &ensp; <small>Cíc. Clu. 138.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Sopro, bafejo &ensp; <small>da sorte Cíc. At. 2, 1, 16.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado</small> &ensp; Aura popular &ensp; <small>Cíc. Clu. 130.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado</small> &ensp; Correntes de opinião, tendências, influências, planos &ensp; <small>Cíc. Clu. 77.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado</small> &ensp; Desventura, calamidade &ensp; <small>Cíc. Sull. 41.</small> <br> <b>6</b> &ensp; <small>III-Em expressões proverbiais:</small> &ensp; <small></small> <br> <b>7</b> &ensp; <small>III-Em expressões proverbiais:</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>6</b><br>In vento et aqua scribere Catul. 70, 4 ‘perder seu tempo’. <br> <br><b>7</b><br>Verba dare ventis Ov. Her. 2, 25 ‘não cumprir as promessas feitas’. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Ventus</b> -<b>i</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; vento. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>uentus popularis &ensp; <small><small>Cic</small></small> &ensp; <small>Aura popular, honra, reputaçaõ</small> <br> uentus textilis &ensp; <small><small>Petr</small></small> &ensp; <small>Panno finissimo</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Ventus</b> <b>i</b>   <p> <b>1</b> &ensp; ho vento </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/129820 ' target="_blank"> http://lila-erc.eu/data/id/lemma/129820 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ventī
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> permitte diuis cetera qui simul strauere <b>uentos</b> aequore feruido deproeliantis nec cupressi nec ueteres agitantur orni <br> <small> Hor.Carm.1.9.9 <br> Deixa o resto para os deuses: tão logo eles amainaram os ventos que lutavam sobre o mar fervente, não se agitam nem os ciprestes nem os velhos freixos. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-101-110-116-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 25.1 and an absolute frequency of 13. The Vergilius subcorpus follows, with a normalized frequency of 25.1 and an absolute frequency of 13. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 6 ; absolute frequency: 2.26603217765692. subcorpus: Cicero ; normalized frequency: 9 ; absolute frequency: 0.560663825969948. subcorpus: Horatius ; normalized frequency: 10 ; absolute frequency: 8.88020602077968. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 15 ; absolute frequency: 2.79949982269834. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 13 ; absolute frequency: 25.0965250965251. subcorpus: Hieronymus ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-101-110-116-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 25.1 and an absolute frequency of 13. The Poesia.épica subcorpus follows, with a normalized frequency of 25.1 and an absolute frequency of 13. the subcorpus with the least normalized frequency is Prosa.oratória with the normalized value of 0.48 and an absolute freqeuncy of 5. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 6 ; absolute frequency: 1.46060030672606. subcorpus: Prosa.filosófica ; normalized frequency: 3 ; absolute frequency: 0.494225795291676. subcorpus: Prosa.oratória ; normalized frequency: 5 ; absolute frequency: 0.480062984263535. subcorpus: Prosa.epistolográfica ; normalized frequency: 4 ; absolute frequency: 1.05991149738997. subcorpus: Poesia.lírica ; normalized frequency: 10 ; absolute frequency: 8.4125515268781. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 12 ; absolute frequency: 10.4239054899236. subcorpus: Poesia.épica ; normalized frequency: 13 ; absolute frequency: 25.0965250965251. subcorpus: Prosa.ficcional ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-101-110-116-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 13.48 and an absolute frequency of 6. The I.d.C. subcorpus follows, with a normalized frequency of 2.6 and an absolute frequency of 17. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 38 ; absolute frequency: 1.76867582033977. subcorpus: I.d.C. ; normalized frequency: 17 ; absolute frequency: 2.60058130640967. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+:::
+

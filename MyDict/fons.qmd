@@ -1,0 +1,193 @@
+---
+title: "fons"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx102-111-110-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>fons</b> <b>-tis</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Fonte, nascente &ensp; <small>Cíc. Verr. 4, 118.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Origem, causa, princípio &ensp; <small>C fe. De Or. I, 42.</small> <br> <b>3</b> &ensp; <small>II-Na língua poética:</small> &ensp; Água &ensp; <small>Verg. En. 12, 119.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Fons</b> -<b>ontis</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Caes.</small> &ensp; fonte. <br> <b>2</b> &ensp; <small>Cic.</small> &ensp; origem, causa, principio. <br> <b>3</b> &ensp; <small>Virg.</small> &ensp; agoa da fonte. </p>
+
+
+
+
+#### Velez
+
+<b>Fons</b> -<b>tis</b>   <p> <b>1</b> &ensp; a fonte, origem, ou causa de alguma cousa </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>fontes sitium &ensp; <small>se diz, dos que pedem aquillo, de que tem abundancia</small> <br> omissis fontibus, consectari ribulos &ensp; <small><small>i, minus ad rem pertinentia dicere, omisso eo, quod est negotij caput</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Fons</b> <b>ontis</b>   <p> <b>1</b> &ensp; a fonte </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/103593 ' target="_blank"> http://lila-erc.eu/data/id/lemma/103593 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> funtes <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx102-111-110-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+no data
+
+
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+no data
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx102-111-110-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Ovidius subcorpus registers the highest normalized frequency, with the value of 3.43 and an absolute frequency of 2. The Ovidius subcorpus follows, with a normalized frequency of 3.43 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 11 ; absolute frequency: 0.685255787296604. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 7 ; absolute frequency: 1.30643325059256. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx102-111-110-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 5.21 and an absolute frequency of 6. The Poesia.didática subcorpus follows, with a normalized frequency of 2.54 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.filosófica ; normalized frequency: 3 ; absolute frequency: 0.494225795291676. subcorpus: Prosa.oratória ; normalized frequency: 9 ; absolute frequency: 0.864113371674364. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 6 ; absolute frequency: 5.21195274496178. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx102-111-110-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 2.25 and an absolute frequency of 1. The I.d.C. subcorpus follows, with a normalized frequency of 1.53 and an absolute frequency of 10. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 14 ; absolute frequency: 0.6516174074936. subcorpus: I.d.C. ; normalized frequency: 10 ; absolute frequency: 1.52975370965275. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

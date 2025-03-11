@@ -1,0 +1,205 @@
+---
+title: "egredior"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx101-103-114-101-100-105-111-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>ēgrĕdĭor</b> <b>-èris</b> <b>-dí</b> <b>-gréssus sum</b> <br> <small>v. dep. intr. e tr.</small> <br> <small>Obs.: Constrói-se geralmente com abl.; com abl. com ex ou ab; ou como intransitivo; como transitivo com acus.; com acus. com prep. ad ou in.</small>   <p> <b>1</b> &ensp; <small>A-Intr.</small> &ensp; Sair sent. próprio e figurado, sair de, afastar-se &ensp; <small>Cés: B. Gal. 2, 13, 2.</small> <br> <b>2</b> &ensp; <small>A-Intr.-Daí:</small> &ensp; Desembarcar &ensp; <small>Cés. B. Gal. 4, 26, 2.</small> <br> <b>3</b> &ensp; <small>A-Intr.-Sent. figurado:</small> &ensp; Elevar-se, trepar &ensp; <small>Sal. B. Jug. 60, 6.</small> <br> <b>4</b> &ensp; <small>B-Tr.</small> &ensp; Sair de, ultrapassar, exceder, passar além de &ensp; <small>Cés. B. Civ. 3, 35, 2.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Egredior</b> -<b>eris</b> -<b>essus sum</b> -<b>edi</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; sahir para fóra. <br> <b>2</b> &ensp; <small>Caes.</small> &ensp; desembarcar. </p>
+
+
+
+
+#### Velez
+
+<b>Egredior</b> -<b>eris</b> <br> <small>2. b.</small>   <p> <b>1</b> &ensp; sahir fora &ensp; <small>Habet & accus.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>portu, uel ex portu egredi <br> pueritiam egressus </p>
+
+
+
+
+#### Cardoso
+
+<b>Egredior</b> -<b>eris</b> -<b>essus sum</b>   <p> <b>1</b> &ensp; sayr fora </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/100715 ' target="_blank"> http://lila-erc.eu/data/id/lemma/100715 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 5ª conjugação depoente (tema em -ĭ- breve) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> egredior </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz passiva </small><br>
+; <b> egredi </b>&emsp;<small> presente | infinitivo | passivo </small><br>
+; <b> egredietur </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz passiva </small><br>
+; <b> egressum, egretum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> egressurum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+ēgrĕdĭor 
+ ēgrĕdĕris 
+ ēgrĕdī 
+ ēgressus sum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx101-103-114-101-100-105-111-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx101-103-114-101-100-105-111-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword egredior here are all the values plotted: collocate: nauis; scoreSUBST: 2. collocate: ex; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx101-103-114-101-100-105-111-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword egredior here are all the values plotted: collocate: nauis; scoreADJ: 0. collocate: ex; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx101-103-114-101-100-105-111-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword egredior here are all the values plotted: collocate: nauis; scoreVERBO: 0. collocate: ex; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx101-103-114-101-100-105-111-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword egredior here are all the values plotted: collocate: nauis; scoreADV: 0. collocate: ex; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx101-103-114-101-100-105-111-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword egredior here are all the values plotted: collocate: nauis; scoreFUNC: 0. collocate: ex; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> cumque <b>egressi</b> essent de navi continuo cognoverunt eum <br> <small> Vulg.Marc.6.54 <br> E imediatamente depois que saíram da barca, o povo o reconheceu. <small> [JDD] </small> </small> </p>
+; <p> uidete nunc illum primum <b>egredientem</b> e uilla subito cur <br> <small> Cic.Mil.54 <br> Vede agora aquele, primeiramente saindo repentinamente da chácara: por quê? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx101-103-114-101-100-105-111-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 17.97 and an absolute frequency of 8. The Caesar subcorpus follows, with a normalized frequency of 5.29 and an absolute frequency of 14. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 14 ; absolute frequency: 5.28740841453282. subcorpus: Cicero ; normalized frequency: 8 ; absolute frequency: 0.498367845306621. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 8 ; absolute frequency: 17.9734891035722'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx101-103-114-101-100-105-111-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 17.97 and an absolute frequency of 8. The Prosa.histórica subcorpus follows, with a normalized frequency of 3.89 and an absolute frequency of 16. the subcorpus with the least normalized frequency is Prosa.filosófica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 16 ; absolute frequency: 3.89493415126951. subcorpus: Prosa.filosófica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.oratória ; normalized frequency: 8 ; absolute frequency: 0.768100774821657. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 8 ; absolute frequency: 17.9734891035722'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx101-103-114-101-100-105-111-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 17.97 and an absolute frequency of 8. The I.a.C. subcorpus follows, with a normalized frequency of 1.26 and an absolute frequency of 27. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 27 ; absolute frequency: 1.25669071445194. subcorpus: I.d.C. ; normalized frequency: 1 ; absolute frequency: 0.152975370965275. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 8 ; absolute frequency: 17.9734891035722'}
+
+
+:::
+

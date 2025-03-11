@@ -1,0 +1,205 @@
+---
+title: "memoria"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-101-109-111-114-105-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>memorĭa</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Memória, lembrança sent. concreto e abstrato, recordação &ensp; <small>Cíc. Br. 30 I.</small> <br> <b>2</b> &ensp; <small>I-Daí, no pl.</small> &ensp; Memórias, monumentos comemorativos &ensp; <small>A. Gél. 4, 6, 1.</small> <br> <b>3</b> &ensp; <small>II-Sents. diversos:</small> &ensp; O tempo passado, tradição &ensp; <small>Cíc. Br. 3.</small> <br> <b>4</b> &ensp; <small>II-Sents. diversos:</small> &ensp; Época, tempo &ensp; <small>Cés. B. Ga!. 2, 4, 7.</small> <br> <b>5</b> &ensp; <small>II-Sents. diversos:</small> &ensp; História, relação, anais, narração &ensp; <small>Cic. Br. 14.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Memoria</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; memoria. <br> <b>2</b> &ensp; lembrança, recordação. <br> <b>3</b> &ensp; historia dos tempos. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>post hominum memoriam &ensp; <small><small>Cic</small></small> &ensp; <small>Em todos os tempos, desde que o mundo he mundo</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Memoria</b> -<b>ae</b>   <p> <b>1</b> &ensp; a memoria </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/112000 ' target="_blank"> http://lila-erc.eu/data/id/lemma/112000 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+mĕmŏrĭa 
+ mĕmŏrĭae
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx109-101-109-111-114-105-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-101-109-111-114-105-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword memoria here are all the values plotted: collocate: prodo; scoreSUBST: 0. collocate: posteritas; scoreSUBST: 3. collocate: teneo; scoreSUBST: 0. collocate: mando; scoreSUBST: 0. collocate: noster; scoreSUBST: 0. collocate: homo; scoreSUBST: 2. collocate: uirtus; scoreSUBST: 2. collocate: uester; scoreSUBST: 0. collocate: meus; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-101-109-111-114-105-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword memoria here are all the values plotted: collocate: prodo; scoreADJ: 0. collocate: posteritas; scoreADJ: 0. collocate: teneo; scoreADJ: 0. collocate: mando; scoreADJ: 0. collocate: noster; scoreADJ: 0. collocate: homo; scoreADJ: 0. collocate: uirtus; scoreADJ: 0. collocate: uester; scoreADJ: 0. collocate: meus; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-101-109-111-114-105-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword memoria here are all the values plotted: collocate: prodo; scoreVERBO: 3. collocate: posteritas; scoreVERBO: 0. collocate: teneo; scoreVERBO: 3. collocate: mando; scoreVERBO: 2. collocate: noster; scoreVERBO: 0. collocate: homo; scoreVERBO: 0. collocate: uirtus; scoreVERBO: 0. collocate: uester; scoreVERBO: 0. collocate: meus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-101-109-111-114-105-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword memoria here are all the values plotted: collocate: prodo; scoreADV: 0. collocate: posteritas; scoreADV: 0. collocate: teneo; scoreADV: 0. collocate: mando; scoreADV: 0. collocate: noster; scoreADV: 0. collocate: homo; scoreADV: 0. collocate: uirtus; scoreADV: 0. collocate: uester; scoreADV: 0. collocate: meus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-101-109-111-114-105-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword memoria here are all the values plotted: collocate: prodo; scoreFUNC: 0. collocate: posteritas; scoreFUNC: 0. collocate: teneo; scoreFUNC: 0. collocate: mando; scoreFUNC: 0. collocate: noster; scoreFUNC: 0. collocate: homo; scoreFUNC: 0. collocate: uirtus; scoreFUNC: 0. collocate: uester; scoreFUNC: 0. collocate: meus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> mandate hoc <b>memoriae</b> iudices <br> <small> Cic.Mil.77 <br> Guardai isso em vossa memória, juízes. <small> [JDD] </small> </small> </p>
+; <p> Caluisius Sabinus <b>memoria</b> nostra fuit diues <br> <small> Sen.Ep.27.5 <br> Calvísio Sabino, em nossa lembrança, foi rico. <small> [JDD] </small> </small> </p>
+; <p> sunt alii plures fortasse sed mea <b>memoria</b> dilabuntur <br> <small> Cic.Phil.13.11.9 <br> Há outros muitos talvez, mas escapam de minha memória. <small> [JDD] </small> </small> </p>
+; <p> sed <b>memoria</b> mea ingenti uirtute diuorsis moribus fuere uiri duo M. Cato et C. Caesar <br> <small> Sal.Cat.53.6 <br> Mas, em minha época, existiram dois homens de imenso valor e diferentes no caráter, Marco Catão e Caio César. <small> [JDD] </small> </small> </p>
+; <p> itaque non ex sermone hominum recenti sed ex annalium uetustate eruenda <b>memoria</b> est nobilitatis tuae <br> <small> Cic.Mur.16 <br> E assim a memória de tua nobreza deve ser extraída não da conversação recente dos homens, mas da antiguidade dos anais. <small> [JDD] </small> </small> </p>
+; <p> multae etiam ut in homine Romano litterae omnia <b>memoria</b> tenebat non domestica solum sed etiam externa <br> <small> Cic.Sen.12 <br> Também, como num homem romano, era muita sua cultura literária; sua memória retinha todas as guerras, não só as civis, mas também as externas. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quare ne committeret ut is locus ubi constitissent ex calamitate populi Romani et internecione exercitus nomen caperet aut <b>memoriam</b> proderet <br> <small> Caes.Gal.1.13.7 <br> Por isso, que ele não corresse o risco de que esse lugar, onde eles tinham parado, tomasse o nome da calamidade do povo romano e do extermínio de seu exército ou perpetuasse a memória disso. <small> [JDD] </small> </small> </p>
+; <p> huius iudici et laudis fructum et offensionis periculum uestrum laborem sollicitudinemque nostram scientiam quid agatur <b>memoriam</b>que quid a quoque dictum sit omnium puto esse oportere <br> <small> Cic.Ver.1.54 <br> Acho que convém que desse julgamento tanto o fruto da glória como o perigo do descrédito sejam vossos, o esforço e a preocupação, nossos; já o conhecimento do que é tratado e a lembrança também do que foi dito acho que convém que sejam de todos. <small> [JDD] </small> </small> </p>
+; <p> tametsi uideo si mea uoce perterritus ire in exsilium animum induxeris quanta tempestas inuidiae nobis si minus in praesens tempus recenti <b>memoria</b> scelerum tuorum at in posteritatem impendeat <br> <small> Cic.Catil.1.22.4 <br> Todavia vejo, se, aterrorizado por minha voz, induzires o espírito a ir para o exílio, que grande tempestade de ódio, se não no momento presente, em razão da recente lembrança de teus crimes, mas na posteridade, cairia sobre nós. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-101-109-111-114-105-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 11.03 and an absolute frequency of 1. The Cicero subcorpus follows, with a normalized frequency of 6.98 and an absolute frequency of 112. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 16 ; absolute frequency: 6.04275247375179. subcorpus: Cicero ; normalized frequency: 112 ; absolute frequency: 6.97714983429269. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 5 ; absolute frequency: 4.63778870234672. subcorpus: Seneca ; normalized frequency: 24 ; absolute frequency: 4.47919971631735. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-101-109-111-114-105-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 8.16 and an absolute frequency of 85. The Prosa.filosófica subcorpus follows, with a normalized frequency of 6.75 and an absolute frequency of 41. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 23 ; absolute frequency: 5.59896784244991. subcorpus: Prosa.filosófica ; normalized frequency: 41 ; absolute frequency: 6.75441920231957. subcorpus: Prosa.oratória ; normalized frequency: 85 ; absolute frequency: 8.1610707324801. subcorpus: Prosa.epistolográfica ; normalized frequency: 5 ; absolute frequency: 1.32488937173746. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-101-109-111-114-105-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 6.19 and an absolute frequency of 133. The I.d.C. subcorpus follows, with a normalized frequency of 3.82 and an absolute frequency of 25. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 133 ; absolute frequency: 6.1903653711892. subcorpus: I.d.C. ; normalized frequency: 25 ; absolute frequency: 3.82438427413186. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

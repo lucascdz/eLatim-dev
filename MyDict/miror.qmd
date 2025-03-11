@@ -1,0 +1,202 @@
+---
+title: "miror"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-105-114-111-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>mīror</b> <b>-áris</b> <b>-árí</b> <b>-átus sum</b> <br> <small>v. dep. tr.</small> <br> <small>Obs.: Constrói-se com acus., com acus. e inf.; com quod si com abl. com de .e, finalmente, como absoluto. Obs.: inf. arc. mirarier Lucr. 2, 1.029.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Espantar-se, ficar assombrado, espantado &ensp; <small>Cíc. Fin. 4, 39.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Olhar com espanto, olhar com admiração, admirar, contemplar, ter em grande apreço &ensp; <small>Verg. En. 11, 126; Cíc. Inv. 2, 2.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Miror</b> -<b>aris</b> -<b>atus sum</b> -<b>ari</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; admirar, ver alguma cousa com espanto. <br> <b>2</b> &ensp; <small>Ter.</small> &ensp; ignorar, não saber. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/112442 ' target="_blank"> http://lila-erc.eu/data/id/lemma/112442 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação depoente (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+mīror 
+ mīrāris 
+ mīrārī 
+ mīrātus sum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx109-105-114-111-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-105-114-111-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword miror here are all the values plotted: collocate: soleo; scoreSUBST: 0. collocate: quod; scoreSUBST: 0. collocate: si; scoreSUBST: 0. collocate: qua; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-105-114-111-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword miror here are all the values plotted: collocate: soleo; scoreADJ: 0. collocate: quod; scoreADJ: 0. collocate: si; scoreADJ: 0. collocate: qua; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-105-114-111-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword miror here are all the values plotted: collocate: soleo; scoreVERBO: 2. collocate: quod; scoreVERBO: 0. collocate: si; scoreVERBO: 0. collocate: qua; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-105-114-111-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword miror here are all the values plotted: collocate: soleo; scoreADV: 0. collocate: quod; scoreADV: 0. collocate: si; scoreADV: 0. collocate: qua; scoreADV: 1'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-105-114-111-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword miror here are all the values plotted: collocate: soleo; scoreFUNC: 0. collocate: quod; scoreFUNC: 20. collocate: si; scoreFUNC: 20. collocate: qua; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> qui domum intrauerit nos potius <b>miretur</b> quam supellectilem nostram <br> <small> Sen.Ep.5.6 <br> quem entrar em nossa casa admirará antes a nós do que os nossos utensilhos. <small> [JDD] </small> </small> </p>
+; <p> si id non feceris <b>mirabor</b> sed confido te esse facturum <br> <small> Cic.Att.3.3 <br> Se não fizeres isso, ficarei surpreso; mas confio que farás. <small> [JDD] </small> </small> </p>
+; <p> quod si ipsi haec neque attingere neque sensu nostro gustare possemus tamen ea <b>mirari</b> deberemus etiam cum in aliis uideremus <br> <small> Cic.Arch.17 <br> E ainda que nós próprios não pudéssemos nem atingir nem saborear com nosso sentdo estes estudo, mesmo assim deveríamos admirá-los, mesmo quando os víssemos nos outros. <small> [JDD] </small> </small> </p>
+; <p> <b>mirari</b> solemus saltandi peritos quod in omnem significationem rerum et adfectuum parata illorum est manus et uerborum uelocitatem gestus adsequitur quod illis ars praestat his natura <br> <small> Sen.Ep.121.6 <br> Costumamos admirar os especialistas em dançar porque sua mão é preparada para a expressão das ações e dos sentimentos e seu gesto segue a velocidade das palavras: o que a eles a arte concede, a estes é a natureza que concede. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-105-114-111-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 22.05 and an absolute frequency of 2. The Tacitus subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Tacitus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 27 ; absolute frequency: 1.68199147790985. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 25 ; absolute frequency: 4.66583303783057. subcorpus: Suetonius ; normalized frequency: 2 ; absolute frequency: 22.0507166482911. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Hieronymus ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-105-114-111-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 9.65 and an absolute frequency of 5. The Poesia.épica subcorpus follows, with a normalized frequency of 9.65 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 1.22 and an absolute freqeuncy of 5. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 5 ; absolute frequency: 1.21716692227172. subcorpus: Prosa.filosófica ; normalized frequency: 27 ; absolute frequency: 4.44803215762508. subcorpus: Prosa.oratória ; normalized frequency: 17 ; absolute frequency: 1.63221414649602. subcorpus: Prosa.epistolográfica ; normalized frequency: 6 ; absolute frequency: 1.58986724608495. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Prosa.ficcional ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-105-114-111-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 6.74 and an absolute frequency of 3. The II.d.C. subcorpus follows, with a normalized frequency of 5.24 and an absolute frequency of 2. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 1.82 and an absolute freqeuncy of 39. here are all the values: subcorpus: I.a.C. ; normalized frequency: 39 ; absolute frequency: 1.81521992087503. subcorpus: I.d.C. ; normalized frequency: 28 ; absolute frequency: 4.28331038702769. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+:::
+

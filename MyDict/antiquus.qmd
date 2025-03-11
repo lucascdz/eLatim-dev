@@ -1,0 +1,203 @@
+---
+title: "antiquus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-110-116-105-113-117-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>antīquus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small>Obs.: A forma anticus é também encontrável T. Lív. 38. 17, 20.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Antigo, velho, passado, de outrora &ensp; <small>Cíc. Tusc. 5. 10.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Mais importante, preferível, muito notável &ensp; <small>no comparativo -antiquìor -e no superlativo -antiquissìmus -usado metaforicamente Cíc. Div. 1, 27.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado-Antíqui m. pl.:</small> &ensp; os antigos escritores, os homens de outras eras &ensp; <small>Cíc. Or. 218.</small> </p> 
+ <small>1.</small> <b>antīcus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Que está adiante, anterior &ensp; <small>Cíc. Tim. 10.</small> </p> 
+ <small>2.</small> <b>antīcus</b> <br> <small></small> <br> <small>v. antíquus.</small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Anticus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; dianteiro, que está diante. </p> 
+ <b>Antiquus</b> -<b>a</b> -<b>um</b> -<b>quior</b> -<b>quissimus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; antigo, ancião, velho. <br> <b>2</b> &ensp; bom, respeitavel, amado. <br> <b>3</b> &ensp; sincero, singello, sem refolho ou malicia. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>antiqui homines &ensp; <small><small>Cic</small></small> &ensp; <small>Homens sinceros, e de grande probidade, bem como os antigos</small> <br> homines antiqui officii &ensp; <small><small>Cic</small></small> &ensp; <small>Homens sinceros, e de grande probidade, bem como os antigos</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Antiquus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa antiga. ou nobre </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/87976 ' target="_blank"> http://lila-erc.eu/data/id/lemma/87976 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> anticus, anticuus, antiqus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+antīquus 
+ antīqua 
+ antīquĭor 
+ antīquissĭmus 
+ antīquum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-110-116-105-113-117-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> sunt ea perampla atque praeclara sed non ita <b>antiqua</b> <br> <small> Cic.Ver.2.4.109.9 <br> São elas muito amplas e excelentes, mas não tão antigas. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-110-116-105-113-117-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 10.3 and an absolute frequency of 3. The Tacitus subcorpus follows, with a normalized frequency of 10.3 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 30 ; absolute frequency: 1.86887941989983. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 9 ; absolute frequency: 1.67969989361901. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-110-116-105-113-117-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 9.65 and an absolute frequency of 5. The Prosa.oratória subcorpus follows, with a normalized frequency of 2.59 and an absolute frequency of 27. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 5 ; absolute frequency: 1.21716692227172. subcorpus: Prosa.filosófica ; normalized frequency: 8 ; absolute frequency: 1.31793545411113. subcorpus: Prosa.oratória ; normalized frequency: 27 ; absolute frequency: 2.59234011502309. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-110-116-105-113-117-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 7.85 and an absolute frequency of 3. The I.a.C. subcorpus follows, with a normalized frequency of 1.77 and an absolute frequency of 38. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 38 ; absolute frequency: 1.76867582033977. subcorpus: I.d.C. ; normalized frequency: 11 ; absolute frequency: 1.68272908061802. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

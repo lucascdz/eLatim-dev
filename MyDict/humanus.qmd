@@ -1,0 +1,200 @@
+---
+title: "humanus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx104-117-109-97-110-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>hūmānus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Humano, relativo ao homem, próprio do homem &ensp; <small>Cíc. Lae. 20.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Que convém, que pertence ao homem: &ensp; <small></small> <br> <b>3</b> &ensp; <small>II-Sent. moral:</small> &ensp; Culto, cívilizado, instruído &ensp; <small>Cíc. Verr. 4, 98.</small> <br> <b>4</b> &ensp; <small>II-Sent. moral:</small> &ensp; Amável, afetuoso, benevolente, clemente, humanitário &ensp; <small>Cíc. At . .16. 16c, 12.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>humani nihil a me alienum puto Ter. Heaut. 77 “nada do que é humano que pertence ao hamem julgo alheio a mim”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Humanus</b> -<b>a</b> -<b>um</b> <small>Varr</small> -<b>nior</b> <small>Cic</small> -<b>nissimus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; humano, do homem, pertencente ao homem. <br> <b>2</b> &ensp; affavel, benigno, cortez, civil. <br> <b>3</b> &ensp; que sabe as bellas letras, instruido nas humanidades. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>homo sum, humani nihil a me alienum puto &ensp; <small><small>Ter</small></small> &ensp; <small>Como sou homem, creio que me devo interessar em tudo que succede ao meu proximo</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Humanus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa humana. ou cousa de homem </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/105765 ' target="_blank"> http://lila-erc.eu/data/id/lemma/105765 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> hemonus, omanus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+hūmānus 
+ hūmāna 
+ hūmānum
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx104-117-109-97-110-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword humanus here are all the values plotted: collocate: genus; scoreSUBST: 4. collocate: consilium; scoreSUBST: 2. collocate: corpus; scoreSUBST: 2. collocate: animus; scoreSUBST: 2. collocate: res; scoreSUBST: 2. collocate: atque; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx104-117-109-97-110-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword humanus here are all the values plotted: collocate: genus; scoreADJ: 0. collocate: consilium; scoreADJ: 0. collocate: corpus; scoreADJ: 0. collocate: animus; scoreADJ: 0. collocate: res; scoreADJ: 0. collocate: atque; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx104-117-109-97-110-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword humanus here are all the values plotted: collocate: genus; scoreVERBO: 0. collocate: consilium; scoreVERBO: 0. collocate: corpus; scoreVERBO: 0. collocate: animus; scoreVERBO: 0. collocate: res; scoreVERBO: 0. collocate: atque; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx104-117-109-97-110-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword humanus here are all the values plotted: collocate: genus; scoreADV: 0. collocate: consilium; scoreADV: 0. collocate: corpus; scoreADV: 0. collocate: animus; scoreADV: 0. collocate: res; scoreADV: 0. collocate: atque; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx104-117-109-97-110-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword humanus here are all the values plotted: collocate: genus; scoreFUNC: 0. collocate: consilium; scoreFUNC: 0. collocate: corpus; scoreFUNC: 0. collocate: animus; scoreFUNC: 0. collocate: res; scoreFUNC: 0. collocate: atque; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> sola ius aecum generis <b>humani</b> <br> <small> Sen.Ep.123.16 <br> O único direito igual do gênero humano. <small> [JDD] </small> </small> </p>
+; <p> aggredere anime diu meditatum opus eripe te rebus <b>humanis</b> <br> <small> Sen.Prov.2.10 <br> Empreende, ó espírito, a obra por longo tempo meditada, liberta-te das coisas humanas! <small> [JDD] </small> </small> </p>
+; <p> quid aliud uoces hunc quam deum in corpore <b>humano</b> hospitantem <br> <small> Sen.Ep.31.11 <br> De que outra coisa chamas este do que de um deus hospedando-se no corpo humano? <small> [JDD] </small> </small> </p>
+; <p> non est <b>humano</b> consilio ne mediocri quidem iudices deorum immortalium cura res illa perfecta <br> <small> Cic.Mil.85 <br> Aquele fato não foi realizado por decisão humana, juízes, nem mesmo por uma preocupação mediana dos deuses imortais. <small> [JDD] </small> </small> </p>
+; <p> si genus <b>humanum</b> et mortalia temnitis arma at sperate deos memores fandi atque nefandi <br> <small> Verg.A.1.542 <br> Se desprezais a raça humana e as armas mortais, esperai ao menos que os deuses têm lembrança do bem e do mal. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx104-117-109-97-110-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 6.87 and an absolute frequency of 2. The Seneca subcorpus follows, with a normalized frequency of 5.97 and an absolute frequency of 32. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 29 ; absolute frequency: 1.8065834392365. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 32 ; absolute frequency: 5.97226628842314. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx104-117-109-97-110-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 6.59 and an absolute frequency of 40. The Poesia.lírica subcorpus follows, with a normalized frequency of 3.37 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 6 ; absolute frequency: 1.46060030672606. subcorpus: Prosa.filosófica ; normalized frequency: 40 ; absolute frequency: 6.58967727055567. subcorpus: Prosa.oratória ; normalized frequency: 18 ; absolute frequency: 1.72822674334873. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx104-117-109-97-110-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 5.66 and an absolute frequency of 37. The I.d.C. subcorpus follows, with a normalized frequency of 5.66 and an absolute frequency of 37. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 38 ; absolute frequency: 1.76867582033977. subcorpus: I.d.C. ; normalized frequency: 37 ; absolute frequency: 5.66008872571516. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,245 @@
+---
+title: "magnus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-97-103-110-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>magnī</b> <br> <small>gen. de preço, v. magnus.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; De grande valor, muito. &ensp; <small></small> </p> 
+ <small>1.</small> <b>magnus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small>Obs.: Abl. e gen. de preço: magno, magni. Difere de grandis porque muitas vezes contém a ideia acessória de força, poder ou nobreza que grandis não designa.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Grande, elevado, vasto, abundante, espaçoso &ensp; <small>Cíc. Nat. 2, 17.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Grande &ensp; <small>como quantidade Cíc. Verr. 2, 176.</small> <br> <b>3</b> &ensp; <small>I-Daí</small> &ensp; Grande como força, alto, forte tratando-se da voz &ensp; <small>Cíc. Caec. 92.</small> <br> <b>4</b> &ensp; <small>I-Daí</small> &ensp; Longo, de longa duração &ensp; <small>tratando-se de tempo Cíc. Nat. 2, 51.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Idoso: &ensp; <small></small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Importante, considerável &ensp; <small>Cíc. Arch. 21.</small> <br> <b>7</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Orgulhoso, soberbo &ensp; <small>sent. pejorativo:</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>5</b><br>natu major Cíc. Tusc.1. 3 “mais idoso” <br> <br><b>7</b><br>lingua magna Hor. O. 4. 6. 2 “língua orgulhosa”. </p> 
+ <small>2.</small> <b>Magnus</b> <b>-í</b> <br> <small>subs. pr. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Magno, epíteto de Pompeu e Alexandre. &ensp; <small></small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Magnus</b> -<b>a</b> -<b>um</b> <b>major</b> <b>maximus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; grande, poderoso, illustre, excellente. <br> <b>2</b> &ensp; excessivo. <br> <b>3</b> &ensp; <small>Virg.</small> &ensp; grande em número. <br> <b>4</b> &ensp; <small>Juv.</small> &ensp; rico. </p>
+
+
+
+
+#### Velez
+
+<b>Magnus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa grande </p>
+
+
+
+
+#### Cardoso
+
+<b>Magnus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa grande </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/111319 ' target="_blank"> http://lila-erc.eu/data/id/lemma/111319 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-97-103-110-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword magnus here are all the values plotted: collocate: pars; scoreSUBST: 4. collocate: opus; scoreSUBST: 3. collocate: numerus; scoreSUBST: 3. collocate: copia; scoreSUBST: 3. collocate: uis; scoreSUBST: 2. collocate: cum; scoreSUBST: 0. collocate: res; scoreSUBST: 2. collocate: natu; scoreSUBST: 4. collocate: et; scoreSUBST: 0. collocate: que; scoreSUBST: 0. collocate: bonus; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: animus; scoreSUBST: 2. collocate: cura; scoreSUBST: 2. collocate: uir; scoreSUBST: 2. collocate: spes; scoreSUBST: 2. collocate: tam; scoreSUBST: 0. collocate: bellum; scoreSUBST: 2. collocate: qua; scoreSUBST: 0. collocate: periculum; scoreSUBST: 2. collocate: multitudo; scoreSUBST: 2. collocate: sine; scoreSUBST: 0. collocate: inter; scoreSUBST: 0. collocate: pontifex; scoreSUBST: 2. collocate: clamor; scoreSUBST: 2. collocate: pecunia; scoreSUBST: 2. collocate: uox; scoreSUBST: 2. collocate: auctoritas; scoreSUBST: 2. collocate: capio; scoreSUBST: 0. collocate: praemium; scoreSUBST: 2. collocate: pecus; scoreSUBST: 2. collocate: consto; scoreSUBST: 0. collocate: comparo; scoreSUBST: 0. collocate: multo; scoreSUBST: 0. collocate: impetus; scoreSUBST: 2. collocate: indicium; scoreSUBST: 2. collocate: aestimo; scoreSUBST: 0. collocate: potentia; scoreSUBST: 2. collocate: praeterea; scoreSUBST: 0. collocate: cursus; scoreSUBST: 2. collocate: usus; scoreSUBST: 2. collocate: templum; scoreSUBST: 2. collocate: timor; scoreSUBST: 2. collocate: dolor; scoreSUBST: 2. collocate: gratia; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-97-103-110-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword magnus here are all the values plotted: collocate: pars; scoreADJ: 0. collocate: opus; scoreADJ: 0. collocate: numerus; scoreADJ: 0. collocate: copia; scoreADJ: 0. collocate: uis; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: res; scoreADJ: 0. collocate: natu; scoreADJ: 0. collocate: et; scoreADJ: 0. collocate: que; scoreADJ: 0. collocate: bonus; scoreADJ: 2. collocate: in; scoreADJ: 0. collocate: animus; scoreADJ: 0. collocate: cura; scoreADJ: 0. collocate: uir; scoreADJ: 0. collocate: spes; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: bellum; scoreADJ: 0. collocate: qua; scoreADJ: 0. collocate: periculum; scoreADJ: 0. collocate: multitudo; scoreADJ: 0. collocate: sine; scoreADJ: 0. collocate: inter; scoreADJ: 0. collocate: pontifex; scoreADJ: 0. collocate: clamor; scoreADJ: 0. collocate: pecunia; scoreADJ: 0. collocate: uox; scoreADJ: 0. collocate: auctoritas; scoreADJ: 0. collocate: capio; scoreADJ: 0. collocate: praemium; scoreADJ: 0. collocate: pecus; scoreADJ: 0. collocate: consto; scoreADJ: 0. collocate: comparo; scoreADJ: 0. collocate: multo; scoreADJ: 0. collocate: impetus; scoreADJ: 0. collocate: indicium; scoreADJ: 0. collocate: aestimo; scoreADJ: 0. collocate: potentia; scoreADJ: 0. collocate: praeterea; scoreADJ: 0. collocate: cursus; scoreADJ: 0. collocate: usus; scoreADJ: 0. collocate: templum; scoreADJ: 0. collocate: timor; scoreADJ: 0. collocate: dolor; scoreADJ: 0. collocate: gratia; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-97-103-110-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword magnus here are all the values plotted: collocate: pars; scoreVERBO: 0. collocate: opus; scoreVERBO: 0. collocate: numerus; scoreVERBO: 0. collocate: copia; scoreVERBO: 0. collocate: uis; scoreVERBO: 0. collocate: cum; scoreVERBO: 0. collocate: res; scoreVERBO: 0. collocate: natu; scoreVERBO: 0. collocate: et; scoreVERBO: 0. collocate: que; scoreVERBO: 0. collocate: bonus; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: animus; scoreVERBO: 0. collocate: cura; scoreVERBO: 0. collocate: uir; scoreVERBO: 0. collocate: spes; scoreVERBO: 0. collocate: tam; scoreVERBO: 0. collocate: bellum; scoreVERBO: 0. collocate: qua; scoreVERBO: 0. collocate: periculum; scoreVERBO: 0. collocate: multitudo; scoreVERBO: 0. collocate: sine; scoreVERBO: 0. collocate: inter; scoreVERBO: 0. collocate: pontifex; scoreVERBO: 0. collocate: clamor; scoreVERBO: 0. collocate: pecunia; scoreVERBO: 0. collocate: uox; scoreVERBO: 0. collocate: auctoritas; scoreVERBO: 0. collocate: capio; scoreVERBO: 2. collocate: praemium; scoreVERBO: 0. collocate: pecus; scoreVERBO: 0. collocate: consto; scoreVERBO: 2. collocate: comparo; scoreVERBO: 2. collocate: multo; scoreVERBO: 0. collocate: impetus; scoreVERBO: 0. collocate: indicium; scoreVERBO: 0. collocate: aestimo; scoreVERBO: 2. collocate: potentia; scoreVERBO: 0. collocate: praeterea; scoreVERBO: 0. collocate: cursus; scoreVERBO: 0. collocate: usus; scoreVERBO: 0. collocate: templum; scoreVERBO: 0. collocate: timor; scoreVERBO: 0. collocate: dolor; scoreVERBO: 0. collocate: gratia; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-97-103-110-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword magnus here are all the values plotted: collocate: pars; scoreADV: 0. collocate: opus; scoreADV: 0. collocate: numerus; scoreADV: 0. collocate: copia; scoreADV: 0. collocate: uis; scoreADV: 0. collocate: cum; scoreADV: 0. collocate: res; scoreADV: 0. collocate: natu; scoreADV: 0. collocate: et; scoreADV: 0. collocate: que; scoreADV: 0. collocate: bonus; scoreADV: 0. collocate: in; scoreADV: 0. collocate: animus; scoreADV: 0. collocate: cura; scoreADV: 0. collocate: uir; scoreADV: 0. collocate: spes; scoreADV: 0. collocate: tam; scoreADV: 2. collocate: bellum; scoreADV: 0. collocate: qua; scoreADV: 1. collocate: periculum; scoreADV: 0. collocate: multitudo; scoreADV: 0. collocate: sine; scoreADV: 0. collocate: inter; scoreADV: 0. collocate: pontifex; scoreADV: 0. collocate: clamor; scoreADV: 0. collocate: pecunia; scoreADV: 0. collocate: uox; scoreADV: 0. collocate: auctoritas; scoreADV: 0. collocate: capio; scoreADV: 0. collocate: praemium; scoreADV: 0. collocate: pecus; scoreADV: 0. collocate: consto; scoreADV: 0. collocate: comparo; scoreADV: 0. collocate: multo; scoreADV: 2. collocate: impetus; scoreADV: 0. collocate: indicium; scoreADV: 0. collocate: aestimo; scoreADV: 0. collocate: potentia; scoreADV: 0. collocate: praeterea; scoreADV: 2. collocate: cursus; scoreADV: 0. collocate: usus; scoreADV: 0. collocate: templum; scoreADV: 0. collocate: timor; scoreADV: 0. collocate: dolor; scoreADV: 0. collocate: gratia; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-97-103-110-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword magnus here are all the values plotted: collocate: pars; scoreFUNC: 0. collocate: opus; scoreFUNC: 0. collocate: numerus; scoreFUNC: 0. collocate: copia; scoreFUNC: 0. collocate: uis; scoreFUNC: 0. collocate: cum; scoreFUNC: 20. collocate: res; scoreFUNC: 0. collocate: natu; scoreFUNC: 0. collocate: et; scoreFUNC: 0. collocate: que; scoreFUNC: 0. collocate: bonus; scoreFUNC: 0. collocate: in; scoreFUNC: 10. collocate: animus; scoreFUNC: 0. collocate: cura; scoreFUNC: 0. collocate: uir; scoreFUNC: 0. collocate: spes; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: bellum; scoreFUNC: 0. collocate: qua; scoreFUNC: 0. collocate: periculum; scoreFUNC: 0. collocate: multitudo; scoreFUNC: 0. collocate: sine; scoreFUNC: 20. collocate: inter; scoreFUNC: 20. collocate: pontifex; scoreFUNC: 0. collocate: clamor; scoreFUNC: 0. collocate: pecunia; scoreFUNC: 0. collocate: uox; scoreFUNC: 0. collocate: auctoritas; scoreFUNC: 0. collocate: capio; scoreFUNC: 0. collocate: praemium; scoreFUNC: 0. collocate: pecus; scoreFUNC: 0. collocate: consto; scoreFUNC: 0. collocate: comparo; scoreFUNC: 0. collocate: multo; scoreFUNC: 0. collocate: impetus; scoreFUNC: 0. collocate: indicium; scoreFUNC: 0. collocate: aestimo; scoreFUNC: 0. collocate: potentia; scoreFUNC: 0. collocate: praeterea; scoreFUNC: 0. collocate: cursus; scoreFUNC: 0. collocate: usus; scoreFUNC: 0. collocate: templum; scoreFUNC: 0. collocate: timor; scoreFUNC: 0. collocate: dolor; scoreFUNC: 0. collocate: gratia; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> cetera in <b>magnis</b> rebus <br> <small> Cic.Att.2.19.1 <br> O resto nos grandes assuntos. <small> [JDD] </small> </small> </p>
+; <p> tam <b>magnas</b> spes relinquam <br> <small> Sen.Ep.22.9 <br> Abandonarei tão grandes esperanças? <small> [JDD] </small> </small> </p>
+; <p> <b>magnam</b> partem oneris sui posuit <br> <small> Sen.Ep.26.2 <br> pôs de lado grande parte de sua carga. <small> [JDD] </small> </small> </p>
+; <p> et clamans voce <b>magna</b> dicit <br> <small> Vulg.Marc.5.7 <br> e clamando em alta voz, diz. <small> [JDD] </small> </small> </p>
+; <p> eos concludit <b>magnam</b> hominum multitudinem <br> <small> Cic.Ver.2.4.54.9 <br> Encerra-os: uma grande multidão de homens. <small> [JDD] </small> </small> </p>
+; <p> paruo fames constat <b>magno</b> fastidium <br> <small> Sen.Ep.17.4 <br> a fome custa pouco, caro é o fastio. <small> [JDD] </small> </small> </p>
+; <p> curam perempti <b>maior</b> excussit timor <br> <small> Sen.Oed.244 <br> Um temor maior afugentou a preocupação com o assassinato. <small> [JDD] </small> </small> </p>
+; <p> est res sane <b>magni</b> consili <br> <small> Cic.Att.2.3.3 <br> É, sem dúvida, uma coisa de grande reflexão. <small> [JDD] </small> </small> </p>
+; <p> <b>magnus</b> undique numerus celeriter conuenit <br> <small> Caes.Gal.6.34.9 <br> De toda parte veio juntar-se rapidamente um grande número. <small> [JDD] </small> </small> </p>
+; <p> Terentia <b>magnos</b> articulorum dolores habet <br> <small> Cic.Att.1.5.8 <br> Terência está com fortes dores nas articulações. <small> [JDD] </small> </small> </p>
+; <p> quanto in odio noster amicus <b>Magnus</b> <br> <small> Cic.Att.2.13.2 <br> Em que grande ódio se acha o nosso Magno! <small> [JDD, de outra edição] </small> </small> </p>
+; <p> animus sed hic rectus bonus <b>magnus</b> <br> <small> Sen.Ep.31.11 <br> O espírito, mas sendo este reto, bom, grande. <small> [JDD] </small> </small> </p>
+; <p> pecudibus istas <b>maiores</b> ferisque natura concessit <br> <small> Sen.Ep.124.22 <br> A natureza as concedeu maiores aos gados e às feras. <small> [JDD] </small> </small> </p>
+; <p> <b>Magnae</b> periclo sunt opes obnoxiae . <br> <small> Phaed.2.7 <br> as grandes riquezas estão sujeitas ao perigo. <small> [JDD] </small> </small> </p>
+; <p> multo haec inquam nostra res <b>maior</b> <br> <small> Cic.Att.1.16.5 <br> este meu caso, eu garanto, foi muito maior. <small> [JDD] </small> </small> </p>
+; <p> <b>Magnis</b> clamoribus adflictus conticuit et concidit <br> <small> Cic.Att.1.16.10 <br> Acabrunhado por grandes gritarias, calou-se e se sentou. <small> [JDD] </small> </small> </p>
+; <p> quae res <b>magno</b> usui nostris fuit <br> <small> Caes.Gal.4.25.1 <br> coisa que foi de grande utilidade para os nossos. <small> [JDD] </small> </small> </p>
+; <p> tamen <b>magno</b> timore sum sed bene speramus <br> <small> Cic.Att.5.14.2 <br> contudo, estou em grande temor, mas esperamos o melhor. <small> [JDD] </small> </small> </p>
+; <p> <b>maxima</b> est enim uis uetustatis et consuetudinis <br> <small> Cic.Amici.68 <br> pois é muito grande a força da antiguidade e do costume. <small> [JDD] </small> </small> </p>
+; <p> ego vivo miserrimus et <b>maximo</b> dolore conficior <br> <small> Cic.Att.3.5 <br> Eu vivo na maior desgraça e sou consumido por profunda dor. <small> [JDD] </small> </small> </p>
+; <p> etenim γεωγραφικὰ quae constitueram <b>magnum</b> opus est <br> <small> Cic.Att.2.6.1 <br> A verdade é que a geografia que eu tinha empreendido é uma obra grande. <small> [JDD] </small> </small> </p>
+; <p> id est <b>maximum</b> et miserrimum mearum omnium miseriarum <br> <small> Cic.Att.3.7.3 <br> Essa é a maior e mais desgraçada de todas as minhas desgraças. <small> [JDD] </small> </small> </p>
+; <p> et timuerunt <b>magno</b> timore et dicebant ad alterutrum <br> <small> Vulg.Marc.4.40 <br> E eles sentiram um grande medo e diziam uns aos outros. <small> [JDD] </small> </small> </p>
+; <p> <b>Magno</b> inquit in periclo sunt nati tui ; <br> <small> Phaed.2.4 <br> “Teus filhos estão em grande perigo”, diz. <small> [JDD] </small> </small> </p>
+; <p> sed <b>maximum</b> est in amicitia parem esse inferiori <br> <small> Cic.Amici.69 <br> Mas, na amizade, é muito importante ser igual ao inferior. <small> [JDD] </small> </small> </p>
+; <p> nullum enim dolorem longum esse qui <b>magnus</b> est <br> <small> Sen.Ep.30.14 <br> Pois não é longa nenhum dor que é intensa. <small> [JDD] </small> </small> </p>
+; <p> id ex itinere <b>magno</b> impetu Belgae oppugnare coeperunt <br> <small> Caes.Gal.2.6.1 <br> Os belgas de passagem começaram a atacá-la com grande ímpeto. <small> [JDD] </small> </small> </p>
+; <p> hodie vero hiemant in Cyrrhestica <b>maximum</b>que bellum impendet <br> <small> Cic.Att.5.21.2 <br> de fato, hoje eles passam o inverno em Cirréstica e uma grande guerra está iminente. <small> [JDD] </small> </small> </p>
+; <p> non sine <b>magno</b> quidem rei publicae prouinciaeque Siciliae detrimento <br> <small> Cic.Ver.2.4.20.7 <br> Na verdade, não sem um grande dano à república e à província da Sicília. <small> [JDD] </small> </small> </p>
+; <p> palus erat non <b>magna</b> inter nostrum atque hostium exercitum <br> <small> Caes.Gal.2.9.1 <br> Havia entre o nosso exército e o dos inimigos um charco não grande. <small> [JDD] </small> </small> </p>
+; <p> <b>magna</b> pax Antonio cum eis his item cum illo <br> <small> Cic.Phil.7.23.9 <br> Grande paz de Antônio com eles e igualmente deles com ele. <small> [JDD] </small> </small> </p>
+; <p> sic ignis non refert quam <b>magnus</b> sed quo incidat <br> <small> Sen.Ep.18.15 <br> Assim como o fogo, não interessa quão grande seja, mas onde incida. <small> [JDD] </small> </small> </p>
+; <p> et cetera <b>magno</b> cum fremitu et clamore sunt dicta <br> <small> Cic.Att.2.19.3 <br> e demais coisas foram ditas com grande frêmito e clamor. <small> [JDD] </small> </small> </p>
+; <p> <b>magnus</b> dicendi labor <b>magna</b> res <b>magna</b> dignitas summa autem gratia <br> <small> Cic.Mur.29 <br> Grande é o labor de discursar, grande seu assunto, grande sua dignidade, suprema, porém, a sua influência. <small> [JDD] </small> </small> </p>
+; <p> sed in <b>magna</b> copia rerum aliud alii natura iter ostendit <br> <small> Sal.Cat.3.1 <br> Mas em meio a uma grande abundância de coisas a natureza mostra um caminho para um e outro para outro. <small> [JDD] </small> </small> </p>
+; <p> hic a. d. iii Idus Octobr <b>magnum</b> numerum hostium occidimus <br> <small> Cic.Att.5.20.3 <br> Aqui, no terceiro dia antes dos idos de outubro [13 de outubro], matamos um grande número de inimigos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> civitates locupletes ne in hiberna milites reciperent <b>magnas</b> pecunias dabant <br> <small> Cic.Att.5.21.7 <br> As cidades ricas, para não receberem os soldados nos quartéis de inverno, davam grandes somas de dinheiro. <small> [JDD] </small> </small> </p>
+; <p> <b>magna</b> uis est <b>magnum</b> numen unum et idem sentientis senatus <br> <small> Cic.Phil.3.32.9 <br> É uma grande força, um grande poder uma mesma e única opinião do senado. <small> [JDD] </small> </small> </p>
+; <p> Gracchorum potentiam <b>maiorem</b> fuisse arbitramini quam huius gladiatoris futura sit <br> <small> Cic.Phil.7.17.4 <br> Julgais que o poder dos Gracos tenha sido maior do que será o desse gladiador? <small> [JDD] </small> </small> </p>
+; <p> unum reprehendo quod otium nuntiari e Gallia non <b>magno</b> opere gaudet <br> <small> Cic.Att.1.20.5 <br> só lhe critico uma coisa: não se alegra muito que a paz na Gália seja anunciada. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nota atque instituta ratione <b>magno</b> militum studio paucis diebus opus efficitur <br> <small> Caes.Gal.6.9.4 <br> Conhecido e definido o seu método, em poucos dias, com o empenho dos soldados, a obra é concluída. <small> [JDD] </small> </small> </p>
+; <p> itaque re frumentaria quam celerrime potuit comparata <b>magnis</b> itineribus ad Ariouistum contendit <br> <small> Caes.Gal.1.37.5 <br> E assim providenciada o mais rapidamente possível uma provisão de trigo, dirige-se a grandes marchas na direção de Ariovisto. <small> [JDD] </small> </small> </p>
+; <p> quorum aduentu <b>magna</b> cum auctoritate et <b>magna</b> cum hominum multitudine bellum gerere conantur <br> <small> Caes.Gal.3.23.4 <br> Com a chegada destes, tentam fazer a guerra com grande autoridade e com grande multidão de homens. <small> [JDD] </small> </small> </p>
+; <p> hanc ego causam patres conscripti quo minus nouom consilium capiamus in primis <b>magnam</b> puto <br> <small> Sal.Cat.51.41 <br> Esse motivo, pais conscritos, eu julgo acima de tudo importante para que não tomemos uma decisão sem precedentes. <small> [JDD] </small> </small> </p>
+; <p> <b>magnus</b> uir es sed unde scio si tibi fortuna non dat facultatem exhibendae uirtutis <br> <small> Sen.Prov.4.2 <br> És um grande homem? Mas como sei, se a fortuna não te dá oportunidade de exibir o teu valor? <small> [JDD] </small> </small> </p>
+; <p> cum uos considero milites et cum facta uostra aestumo <b>magna</b> me spes uictoriae tenet <br> <small> Sal.Cat.58.18 <br> Quando vos considero, soldados, e quando avalio os vosso feitos, uma grande esperança de vitória se apodera de mim. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> neque multum frumento sed <b>maximam</b> partem lacte atque pecore uiuunt multumque sunt in uenationibus <br> <small> Caes.Gal.4.1.8 <br> Não vivem muito do trigo, mas quase que totalmente do leite e do gado e são muito dados à caça. <small> [JDD] </small> </small> </p>
+; <p> huic <b>magnis</b> praemiis pollicitationibusque persuadet uti ad hostes transeat et quid fieri uelit edocet <br> <small> Caes.Gal.3.18.2 <br> Persuade este com grandes recompensas e promessas a que passe para os inimigos e lhes ensine o que queria que fosse feito. <small> [JDD] </small> </small> </p>
+; <p> <b>magnus</b> gubernator et scisso nauigat uelo et si exarmauit tamen reliquias nauigii aptat ad cursum <br> <small> Sen.Ep.30.3 <br> Um grande piloto navega com a vela rasgada e, se, contudo, perdeu os seus aprestos, ajusta os restos da embarcação para a travessia. <small> [JDD] </small> </small> </p>
+; <p> cum Hortensius veniret et infirmus et tam longe et Hortensius cum <b>maxima</b> praeterea multitudo ille non venit <br> <small> Cic.Att.5.2.2 <br> Depois de Hortênsio ter vindo e enfermo e de tão longe, e Hortênsio! além disso depois de ter vindo a maior multidão, ele não veio?” <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-97-103-110-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 77.18 and an absolute frequency of 7. The Sallustius subcorpus follows, with a normalized frequency of 72.35 and an absolute frequency of 78. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 15.44 and an absolute freqeuncy of 9. here are all the values: subcorpus: Caesar ; normalized frequency: 161 ; absolute frequency: 60.8051967671274. subcorpus: Cicero ; normalized frequency: 567 ; absolute frequency: 35.3218210361067. subcorpus: Horatius ; normalized frequency: 54 ; absolute frequency: 47.9531125122103. subcorpus: Ovidius ; normalized frequency: 9 ; absolute frequency: 15.442690459849. subcorpus: Phaedrus ; normalized frequency: 14 ; absolute frequency: 21.2539851222104. subcorpus: Sallustius ; normalized frequency: 78 ; absolute frequency: 72.3495037566089. subcorpus: Seneca ; normalized frequency: 234 ; absolute frequency: 43.6721972340942. subcorpus: Suetonius ; normalized frequency: 7 ; absolute frequency: 77.1775082690187. subcorpus: Tacitus ; normalized frequency: 12 ; absolute frequency: 41.1946446961895. subcorpus: Vergilius ; normalized frequency: 23 ; absolute frequency: 44.4015444015444. subcorpus: Hieronymus ; normalized frequency: 12 ; absolute frequency: 26.9602336553583'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-97-103-110-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 62.81 and an absolute frequency of 258. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 27.82 and an absolute frequency of 105. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 19.51 and an absolute freqeuncy of 23. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 258 ; absolute frequency: 62.8058131892208. subcorpus: Prosa.filosófica ; normalized frequency: 264 ; absolute frequency: 43.4918699856674. subcorpus: Prosa.oratória ; normalized frequency: 391 ; absolute frequency: 37.5409253694085. subcorpus: Prosa.epistolográfica ; normalized frequency: 105 ; absolute frequency: 27.8226768064867. subcorpus: Poesia.lírica ; normalized frequency: 54 ; absolute frequency: 45.4277782451418. subcorpus: Poesia.didática ; normalized frequency: 23 ; absolute frequency: 19.5097124438035. subcorpus: Poesia.trágica ; normalized frequency: 41 ; absolute frequency: 35.6150104239055. subcorpus: Poesia.épica ; normalized frequency: 23 ; absolute frequency: 44.4015444015444. subcorpus: Prosa.ficcional ; normalized frequency: 12 ; absolute frequency: 26.9602336553583'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-97-103-110-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 49.74 and an absolute frequency of 19. The I.a.C. subcorpus follows, with a normalized frequency of 41.1 and an absolute frequency of 883. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 26.96 and an absolute freqeuncy of 12. here are all the values: subcorpus: I.a.C. ; normalized frequency: 883 ; absolute frequency: 41.0984407726321. subcorpus: I.d.C. ; normalized frequency: 257 ; absolute frequency: 39.3146703380756. subcorpus: II.d.C. ; normalized frequency: 19 ; absolute frequency: 49.738219895288. subcorpus: IV.d.C. ; normalized frequency: 12 ; absolute frequency: 26.9602336553583'}
+
+
+:::
+

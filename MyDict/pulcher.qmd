@@ -1,0 +1,199 @@
+---
+title: "pulcher"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-117-108-99-104-101-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>pulcer</b> <br> <small></small> <br> <small>v. pulcher.</small> 
+ <small>1.</small> <b>pulcher</b> <b>-chra</b> <b>-chrum</b> <br> <small>1.</small> <b>pulcer</b> <b>-cra</b> <b>-crum</b> <br> <small>adj.</small> <br> <small>Obs.: A grafia pulcer, pulcra, pulcrum é ainda encontrada nos bons manuscritos de Cícero.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Belo, formoso, pulcro, poderoso, forte &ensp; <small>Cíc. Verr. 4, 117; Hor. Ep. 1, 16, 60.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Magnífico, precioso, excelente, corpulento &ensp; <small>tratando-se de um animal Ov. Her. 4, 125.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Belo, nobre, ilustre, honroso &ensp; <small>Cíc. Phil. 2. 114.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Pulcher</b> -<b>chra</b> -<b>chrum</b> <small>Cic</small> -<b>chrior</b> <small>Virg</small> -<b>cherrimus</b>   <p> <b>1</b> &ensp; formoso, gentil, lindo, bello, bonito. <br> <b>2</b> &ensp; <small>Virg.</small> &ensp; glorioso, que enche de gloria. <br> <b>3</b> &ensp; <small>Hor.</small> &ensp; prospero, feliz. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Pulcher</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; ho mesmo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/120421 ' target="_blank"> http://lila-erc.eu/data/id/lemma/120421 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> polcer, pulcer <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-117-108-99-104-101-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword pulcher here are all the values plotted: collocate: factum; scoreSUBST: 2. collocate: signum; scoreSUBST: 2. collocate: urbs; scoreSUBST: 2. collocate: atque; scoreSUBST: 0. collocate: res; scoreSUBST: 1. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-117-108-99-104-101-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword pulcher here are all the values plotted: collocate: factum; scoreADJ: 0. collocate: signum; scoreADJ: 0. collocate: urbs; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: res; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-117-108-99-104-101-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword pulcher here are all the values plotted: collocate: factum; scoreVERBO: 0. collocate: signum; scoreVERBO: 0. collocate: urbs; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: res; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-117-108-99-104-101-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword pulcher here are all the values plotted: collocate: factum; scoreADV: 0. collocate: signum; scoreADV: 0. collocate: urbs; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: res; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-117-108-99-104-101-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword pulcher here are all the values plotted: collocate: factum; scoreFUNC: 0. collocate: signum; scoreFUNC: 0. collocate: urbs; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: res; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> urbem Syracusas maximam esse Graecarum <b>pulcherrimam</b> omnium saepe audistis <br> <small> Cic.Ver.2.4.117.1 <br> 117 Ouvistes com frequência que a cidade de Siracusa é a maior das cidades gregas e a mais bela de todas. <small> [JDD] </small> </small> </p>
+; <p> quomodo ad rem <b>pulcherrimam</b> non lucro captus nec uarietate fortunae perterritus <br> <small> Sen.Ep.9.12 <br> Como a uma coisa belíssima, não atraído pelo lucro nem amedrontado pela mudança da fortuna. <small> [JDD] </small> </small> </p>
+; <p> uincere illi expetunt pacisque dulcissimum et <b>pulcherrimum</b> nomen non pactione sed uictoria concupiuerunt <br> <small> Cic.Phil.12.9.7 <br> Buscam eles vencer e têm desejado o dulcíssimo e belíssimo nome da paz não por um tratado, mas pela vitória. <small> [JDD] </small> </small> </p>
+; <p> erectus enim maximi ac <b>pulcherrimi</b> facti sui conscientia nihil de suo casu multa de uestro querebatur <br> <small> Cic.Phil.1.9.9 <br> pois de cabeça erguida pela consciência de seu importantíssimo e belíssimo feito, não se queixava nada de sua desgraça, muito da vossa. <small> [JDD] </small> </small> </p>
+; <p> ante aedem Cereris in aperto ac propatulo loco signa duo sunt Cereris unum alterum Triptolemi <b>pulcherrima</b> ac perampla <br> <small> Cic.Ver.2.4.110.1 <br> 110 Diante do templo de Ceres, em um lugar aberto e espaçoso, há duas estátuas de Ceres e uma outra de Tripólemo, belíssimas e muito vastas. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-117-108-99-104-101-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 7.72 and an absolute frequency of 4. The Horatius subcorpus follows, with a normalized frequency of 7.1 and an absolute frequency of 8. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 42 ; absolute frequency: 2.61643118785976. subcorpus: Horatius ; normalized frequency: 8 ; absolute frequency: 7.10416481662375. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 9 ; absolute frequency: 1.67969989361901. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-117-108-99-104-101-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 7.72 and an absolute frequency of 4. The Poesia.lírica subcorpus follows, with a normalized frequency of 6.73 and an absolute frequency of 8. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 4 ; absolute frequency: 0.973733537817376. subcorpus: Prosa.filosófica ; normalized frequency: 14 ; absolute frequency: 2.30638704469449. subcorpus: Prosa.oratória ; normalized frequency: 37 ; absolute frequency: 3.55246608355016. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 8 ; absolute frequency: 6.73004122150248. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-117-108-99-104-101-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 2.7 and an absolute frequency of 58. The I.a.C. subcorpus follows, with a normalized frequency of 2.7 and an absolute frequency of 58. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 58 ; absolute frequency: 2.69955783104492. subcorpus: I.d.C. ; normalized frequency: 12 ; absolute frequency: 1.83570445158329. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

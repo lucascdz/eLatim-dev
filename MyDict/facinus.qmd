@@ -1,0 +1,203 @@
+---
+title: "facinus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx102-97-99-105-110-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>facĭnus</b> <b>-òris</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Ação boa ou má, feito, ato &ensp; <small>Cés. B. Gal. 7. 38, 8.</small> <br> <b>2</b> &ensp; <small>II-Em sent. especial e pejorativo</small> &ensp; Má ação, crime, atentado &ensp; <small>Cíc. Cat. I. 26.</small> <br> <b>3</b> &ensp; <small>III-Sent. poético:</small> &ensp; Instrumento de crime &ensp; <small>Ov. Met. 7,423.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Facinus</b> -<b>oris</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; façanha, acção illustre. <br> <b>2</b> &ensp; maldade, delicto. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Facinus</b> <b>oris</b>   <p> <b>1</b> &ensp; a façanha. assi boa como mâ </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/102757 ' target="_blank"> http://lila-erc.eu/data/id/lemma/102757 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+făcĭnus 
+ făcĭnŏris
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx102-97-99-105-110-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx102-97-99-105-110-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword facinus here are all the values plotted: collocate: admitto; scoreSUBST: 0. collocate: tantus; scoreSUBST: 0. collocate: malus; scoreSUBST: 0. collocate: talis; scoreSUBST: 0. collocate: nullus; scoreSUBST: 0. collocate: facio; scoreSUBST: 0. collocate: ad; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx102-97-99-105-110-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword facinus here are all the values plotted: collocate: admitto; scoreADJ: 0. collocate: tantus; scoreADJ: 0. collocate: malus; scoreADJ: 2. collocate: talis; scoreADJ: 0. collocate: nullus; scoreADJ: 0. collocate: facio; scoreADJ: 0. collocate: ad; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx102-97-99-105-110-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword facinus here are all the values plotted: collocate: admitto; scoreVERBO: 3. collocate: tantus; scoreVERBO: 0. collocate: malus; scoreVERBO: 0. collocate: talis; scoreVERBO: 0. collocate: nullus; scoreVERBO: 0. collocate: facio; scoreVERBO: 2. collocate: ad; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx102-97-99-105-110-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword facinus here are all the values plotted: collocate: admitto; scoreADV: 0. collocate: tantus; scoreADV: 0. collocate: malus; scoreADV: 0. collocate: talis; scoreADV: 0. collocate: nullus; scoreADV: 0. collocate: facio; scoreADV: 0. collocate: ad; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx102-97-99-105-110-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword facinus here are all the values plotted: collocate: admitto; scoreFUNC: 0. collocate: tantus; scoreFUNC: 0. collocate: malus; scoreFUNC: 0. collocate: talis; scoreFUNC: 0. collocate: nullus; scoreFUNC: 0. collocate: facio; scoreFUNC: 0. collocate: ad; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ita illi ianua prohibiti tantum <b>facinus</b> frustra susceperant <br> <small> Sal.Cat.28.3 <br> Assim eles, impedidos na porta, conceberam em vão um tão abominável crime. <small> [JDD] </small> </small> </p>
+; <p> haec iuuentutem ubi familiares opes defecerant ad <b>facinora</b> incendebant <br> <small> Sal.Cat.13.4 <br> Essas coisas incitava a juventude ao crime, quando os recursos familiares faltavam. <small> [JDD] </small> </small> </p>
+; <p> credibile est igitur tantum <b>facinus</b> nullam ob causam esse commissum <br> <small> Cic.Cael.56 <br> É crível, portanto, que um tão grande crime foi cometido sem motivo algum? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> sed iuuentutem quam ut supra diximus inlexerat multis modis mala <b>facinora</b> edocebat <br> <small> Sal.Cat.16.1 <br> Mas ele ensinava de muitas maneiras as más ações à juventude, que, como dissemos acima, tinha aliciado. <small> [JDD] </small> </small> </p>
+; <p> sed quo nefandum <b>facinus</b> admissum loco est memorate aperto Marte an insidiis iacet <br> <small> Sen.Oed.274 <br> Mas o local em que o abominável crime foi cometido tu te lembras? Caiu em combate aberto ou a traição? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> in tanta tamque corrupta ciuitate Catilina id quod factu facillumum erat omnium flagitiorum atque <b>facinorum</b> circum se tamquam stipatorum cateruas habebat <br> <small> Sal.Cat.14.1 <br> Em uma cidade tão grande e tão corrupta, Catilina, o que era muito fácil de fazer, tinha em torno de si um bando de todas as infâmias e crimes a feição de guardas. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> sed gloriae maxumum certamen inter ipsos erat se quisque hostem ferire murum ascendere conspici dum tale <b>facinus</b> faceret properabat eas diuitias eam bonam famam magnamque nobilitatem putabant <br> <small> Sal.Cat.7.6 <br> Mas a maior disputa da glória era entre eles mesmos: cada um se apressava em ferir o inimigo, escalar o muro, ser notado, enquanto fazia tal ação. eles consideravam que essas eram as riquezas, essa, a boa reputação e a grande nobreza. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx102-97-99-105-110-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 23.19 and an absolute frequency of 25. The Cicero subcorpus follows, with a normalized frequency of 2.93 and an absolute frequency of 47. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 5 ; absolute frequency: 1.88836014804744. subcorpus: Cicero ; normalized frequency: 47 ; absolute frequency: 2.9279110911764. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 25 ; absolute frequency: 23.1889435117336. subcorpus: Seneca ; normalized frequency: 3 ; absolute frequency: 0.559899964539669. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx102-97-99-105-110-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 7.3 and an absolute frequency of 30. The Prosa.filosófica subcorpus follows, with a normalized frequency of 0.16 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 30 ; absolute frequency: 7.30300153363032. subcorpus: Prosa.filosófica ; normalized frequency: 1 ; absolute frequency: 0.164741931763892. subcorpus: Prosa.oratória ; normalized frequency: 45 ; absolute frequency: 4.32056685837182. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx102-97-99-105-110-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 3.58 and an absolute frequency of 77. The I.a.C. subcorpus follows, with a normalized frequency of 3.58 and an absolute frequency of 77. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 77 ; absolute frequency: 3.5838957412148. subcorpus: I.d.C. ; normalized frequency: 5 ; absolute frequency: 0.764876854826373. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

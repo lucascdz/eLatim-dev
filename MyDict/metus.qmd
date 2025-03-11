@@ -1,0 +1,204 @@
+---
+title: "metus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-101-116-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>metus</b> <b>-ús</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Receio, inquietação, ansiedade, temor, medo &ensp; <small>Cíc. Verr. 5, 160.</small> <br> <b>2</b> &ensp; <small>II-Em sent. particular</small> &ensp; Temor religioso &ensp; <small>Verg. En. 7, 60.</small> <br> <b>3</b> &ensp; <small>II-Por extensão:</small> &ensp; Objeto de receio &ensp; <small>Estác. Theb. 12, 606.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Metus</b> -<b>us</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; medo. <br> <b>2</b> &ensp; <small>Virg.</small> &ensp; respeito, horror sagrado. <br> <b>3</b> &ensp; <small>Hor.</small> &ensp; furor procedido do vinho. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Metus</b> <b>us</b>   <p> <b>1</b> &ensp; ho medo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/112261 ' target="_blank"> http://lila-erc.eu/data/id/lemma/112261 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 4ª declinação (tema em -u-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+mĕtŭs 
+ mĕtūs
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx109-101-116-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-101-116-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword metus here are all the values plotted: collocate: propter; scoreSUBST: 0. collocate: mors; scoreSUBST: 2. collocate: libero; scoreSUBST: 0. collocate: spes; scoreSUBST: 2. collocate: periculum; scoreSUBST: 2. collocate: sine; scoreSUBST: 0. collocate: aut; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-101-116-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword metus here are all the values plotted: collocate: propter; scoreADJ: 0. collocate: mors; scoreADJ: 0. collocate: libero; scoreADJ: 0. collocate: spes; scoreADJ: 0. collocate: periculum; scoreADJ: 0. collocate: sine; scoreADJ: 0. collocate: aut; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-101-116-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword metus here are all the values plotted: collocate: propter; scoreVERBO: 0. collocate: mors; scoreVERBO: 0. collocate: libero; scoreVERBO: 2. collocate: spes; scoreVERBO: 0. collocate: periculum; scoreVERBO: 0. collocate: sine; scoreVERBO: 0. collocate: aut; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-101-116-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword metus here are all the values plotted: collocate: propter; scoreADV: 0. collocate: mors; scoreADV: 0. collocate: libero; scoreADV: 0. collocate: spes; scoreADV: 0. collocate: periculum; scoreADV: 0. collocate: sine; scoreADV: 0. collocate: aut; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-101-116-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword metus here are all the values plotted: collocate: propter; scoreFUNC: 20. collocate: mors; scoreFUNC: 0. collocate: libero; scoreFUNC: 0. collocate: spes; scoreFUNC: 0. collocate: periculum; scoreFUNC: 0. collocate: sine; scoreFUNC: 20. collocate: aut; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> spe <b>metus</b> falsa leuas <br> <small> Sen.Ag.283 <br> Alivias o medo com falsa esperança. <small> [JDD] </small> </small> </p>
+; <p> curas reuoluit animus et repetit <b>metus</b> <br> <small> Sen.Oed.764 <br> Meu espírito revolve preocupações e recorda seus medos. <small> [JDD] </small> </small> </p>
+; <p> nullum animal ad uitam prodit sine <b>metu</b> mortis <br> <small> Sen.Ep.121.18 <br> Nenhum animal vem para a vida sem medo da morte. <small> [JDD] </small> </small> </p>
+; <p> si minus uitio uitium repelle spe <b>metum</b> tempera <br> <small> Sen.Ep.13.12 <br> se não, repele um defeito com outro defeito, modera o medo com a esperança. <small> [JDD] </small> </small> </p>
+; <p> at enim liberum senatus iudicium propter <b>metum</b> non fuit <br> <small> Cic.Dom.10 <br> 10 Mas, de fato, o julgamento do senado não foi livre, por causa do medo. <small> [JDD] </small> </small> </p>
+; <p> magno me <b>metu</b> liberaueris modo inter me atque te murus intersit <br> <small> Cic.Catil.1.10.11 <br> Me terás livrado de um grande medo, se entre mim e ti fique interposto um muro. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quis aut sapientior ad coniecturam rerum futurarum aut ad propulsandum <b>metum</b> diligentior <br> <small> Cic.Phil.10.17.5 <br> Quem há ou mais sábio para a conjectura das coisas futuras ou mais diligente para rechaçar o medo? <small> [JDD] </small> </small> </p>
+; <p> igitur reges populique finitumi bello temptare pauci ex amicis auxilio esse nam ceteri <b>metu</b> perculsi a periculis aberant <br> <small> Sal.Cat.6.4 <br> Então reis e povos vizinhos a punham à prova com a guerra, poucos de seus amigos prestavam socorro: pois os outros, tocados pelo medo, se afastavam dos perigos. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-101-116-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 17.16 and an absolute frequency of 5. The Tacitus subcorpus follows, with a normalized frequency of 17.16 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 4 ; absolute frequency: 1.51068811843795. subcorpus: Cicero ; normalized frequency: 58 ; absolute frequency: 3.613166878473. subcorpus: Horatius ; normalized frequency: 6 ; absolute frequency: 5.32812361246781. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 9 ; absolute frequency: 8.3480196642241. subcorpus: Seneca ; normalized frequency: 54 ; absolute frequency: 10.078199361714. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 5 ; absolute frequency: 17.164435290079. subcorpus: Vergilius ; normalized frequency: 8 ; absolute frequency: 15.4440154440154. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-101-116-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 15.44 and an absolute frequency of 8. The Poesia.trágica subcorpus follows, with a normalized frequency of 14.77 and an absolute frequency of 17. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 19 ; absolute frequency: 4.62523430463254. subcorpus: Prosa.filosófica ; normalized frequency: 37 ; absolute frequency: 6.095451475264. subcorpus: Prosa.oratória ; normalized frequency: 51 ; absolute frequency: 4.89664243948806. subcorpus: Prosa.epistolográfica ; normalized frequency: 7 ; absolute frequency: 1.85484512043244. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 17 ; absolute frequency: 14.7671994440584. subcorpus: Poesia.épica ; normalized frequency: 8 ; absolute frequency: 15.4440154440154. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-101-116-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 15.71 and an absolute frequency of 6. The I.d.C. subcorpus follows, with a normalized frequency of 8.87 and an absolute frequency of 58. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 85 ; absolute frequency: 3.95624854549686. subcorpus: I.d.C. ; normalized frequency: 58 ; absolute frequency: 8.87257151598593. subcorpus: II.d.C. ; normalized frequency: 6 ; absolute frequency: 15.7068062827225. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

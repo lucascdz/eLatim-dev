@@ -1,0 +1,204 @@
+---
+title: "paruus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-97-114-117-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>parvus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Pequeno &ensp; <small>Cíc. Leg. 1, 17.</small> <br> <b>2</b> &ensp; <small>II-Sent. particular</small> &ensp; Breve, curto &ensp; <small>Cíc. Verr. 5, 165.</small> <br> <b>3</b> &ensp; <small>II-Sent. particular</small> &ensp; Pouco abundante, em pequeno número &ensp; <small>Cíc. Of. 3, 114.</small> <br> <b>4</b> &ensp; <small>II-Sent. particular</small> &ensp; Pouco importante &ensp; <small>com ideia de valor Cíc. Caec. 26.</small> <br> <b>5</b> &ensp; <small>II-Sent. particular</small> &ensp; De pouca idade, muito jovem &ensp; <small>Cíc. Cal. 3, 19.</small> <br> <b>6</b> &ensp; <small>III-Sent. moral:</small> &ensp; Mesquinho, baixo &ensp; <small>Cíc. Arch. 30.</small> <br> <b>7</b> &ensp; <small>III-Sent. moral:</small> &ensp; Humilde, de baixa categoria, pequeno &ensp; <small>Hor. Ep. 1. 3. 28.</small> <br> <b>8</b> &ensp; <small>III-No m. pl. usado substantivadamente:</small> &ensp; As crianças &ensp; <small>Cíc. Fin. 3. 16.</small> <br> <b>9</b> &ensp; <small>IV-Em expressões adverbiais:</small> &ensp; <small></small> <br> <b>10</b> &ensp; <small>IV-Em expressões adverbiais:</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>9</b><br>a parvis referindo-se a vários, “desde pequeno”, “desde a infância” Cíc. Nat. 1. 81. <br> <br><b>10</b><br>a parvo referindo-se a um só, “desde pequeno”, “desde a infância” T. Lív. 1, 39, 6. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Parvus</b> -<b>a</b> -<b>um</b> -<b>minor</b> <small>Cic</small> -<b>minimus</b> <small>Lucr</small> <b>parvissimus</b> <small>l</small>   <p> <b>1</b> &ensp; pequeno. <br> <b>2</b> &ensp; abjecto, humilde, desprezado, vil. <br> <b>3</b> &ensp; <small>Ter.</small> &ensp; breve. <br> <b>4</b> &ensp; <small>Plin.</small> &ensp; pouco. </p> 
+ <b>Parvus</b> -<b>i</b> <br> <small>m.</small>
+
+
+
+
+#### Velez
+
+<b>Parvus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa pequena </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>parui &ensp; <small>pouco, ou em pouco</small> &ensp; <small><small>cum Interest. vel Refert, & verbis aestimandi</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Paruus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa piquena </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/116136 ' target="_blank"> http://lila-erc.eu/data/id/lemma/116136 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-97-114-117-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword paruus here are all the values plotted: collocate: quidem; scoreSUBST: 0. collocate: periculum; scoreSUBST: 2. collocate: qua; scoreSUBST: 0. collocate: uos; scoreSUBST: 0. collocate: ex; scoreSUBST: 0. collocate: aut; scoreSUBST: 0. collocate: magnus; scoreSUBST: 0. collocate: non; scoreSUBST: 0. collocate: ne; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-97-114-117-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword paruus here are all the values plotted: collocate: quidem; scoreADJ: 0. collocate: periculum; scoreADJ: 0. collocate: qua; scoreADJ: 0. collocate: uos; scoreADJ: 0. collocate: ex; scoreADJ: 0. collocate: aut; scoreADJ: 0. collocate: magnus; scoreADJ: 2. collocate: non; scoreADJ: 0. collocate: ne; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-97-114-117-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword paruus here are all the values plotted: collocate: quidem; scoreVERBO: 0. collocate: periculum; scoreVERBO: 0. collocate: qua; scoreVERBO: 0. collocate: uos; scoreVERBO: 0. collocate: ex; scoreVERBO: 0. collocate: aut; scoreVERBO: 0. collocate: magnus; scoreVERBO: 0. collocate: non; scoreVERBO: 0. collocate: ne; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-97-114-117-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword paruus here are all the values plotted: collocate: quidem; scoreADV: 2. collocate: periculum; scoreADV: 0. collocate: qua; scoreADV: 2. collocate: uos; scoreADV: 0. collocate: ex; scoreADV: 0. collocate: aut; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: non; scoreADV: 2. collocate: ne; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-97-114-117-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword paruus here are all the values plotted: collocate: quidem; scoreFUNC: 0. collocate: periculum; scoreFUNC: 0. collocate: qua; scoreFUNC: 0. collocate: uos; scoreFUNC: 0. collocate: ex; scoreFUNC: 20. collocate: aut; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0. collocate: non; scoreFUNC: 0. collocate: ne; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>paruo</b> fames constat magno fastidium <br> <small> Sen.Ep.17.4 <br> a fome custa pouco, caro é o fastio. <small> [JDD] </small> </small> </p>
+; <p> non <b>minimum</b> quod soror praegnas est <br> <small> Cic.Att.1.10.5 <br> e não é o menor o fato de tua irmã estar grávida. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> cum privatis non poterat transigi <b>minore</b> pecunia <br> <small> Cic.Att.4.17.7 <br> não se podia chegar a um acordo com os particulares por uma quantia menor de dinheiro. <small> [JDD] </small> </small> </p>
+; <p> quam <b>minimum</b> sit in corpore tuo spoliorum <br> <small> Sen.Ep.14.9 <br> que haja em teu corpo o mínimo de despojos possível. <small> [JDD] </small> </small> </p>
+; <p> non uoltis cogitare quam <b>parua</b> uobis corpora sint <br> <small> Sen.Helv.10.6 <br> Não quereis pensar quão pequenos são os vossos corpos? <small> [JDD] </small> </small> </p>
+; <p> adventus noster nemini ne <b>minimo</b> quidem fuit sumptui <br> <small> Cic.Att.5.14.2 <br> Nossa chegada não foi de absolutamente nenhum gasto para ninguém. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> prouinciae praefuit non <b>minore</b> iustitia quam fortitudine ; praefuit <br> <small> Suet.Aug.2.3.2 <br> Governou a província com não menor justiça do que valor. <small> [JDD] </small> </small> </p>
+; <p> quae est igitur exspectatio aut quae uel <b>minimi</b> dilatio temporis <br> <small> Cic.Phil.3.2.1 <br> Que espera, portanto, é essa ou que demora de tempo, mesmo mínimo? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nolite existumare maiores nostros armis rem publicam ex <b>parua</b> magnam fecisse <br> <small> Sal.Cat.52.19 <br> Não penseis que foi com armas que os nossos antepassados  de pequena fizeram grande esta república  <small> [JDD] </small> </small> </p>
+; <p> nobilitatur carminibus omnium quae se pro coniuge uicariam dedit hoc amplius est discrimine uitae sepulcrum uiro quaerere maior est amor qui pari periculo <b>minus</b> redimit <br> <small> Sen.Helv.19.5 <br> É enaltecida nos poemas de todos aquela que se entregou como substituta em lugar de seu marido; isto é mais grandioso: buscar um túmulo para o marido com risco de vida; maior é o amor que, por igual perigo, obtém menos. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-97-114-117-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 33.08 and an absolute frequency of 3. The Sallustius subcorpus follows, with a normalized frequency of 16.7 and an absolute frequency of 18. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: Caesar ; normalized frequency: 11 ; absolute frequency: 4.15439232570436. subcorpus: Cicero ; normalized frequency: 79 ; absolute frequency: 4.92138247240288. subcorpus: Horatius ; normalized frequency: 14 ; absolute frequency: 12.4322884290916. subcorpus: Ovidius ; normalized frequency: 6 ; absolute frequency: 10.2951269732327. subcorpus: Phaedrus ; normalized frequency: 4 ; absolute frequency: 6.0725671777744. subcorpus: Sallustius ; normalized frequency: 18 ; absolute frequency: 16.6960393284482. subcorpus: Seneca ; normalized frequency: 36 ; absolute frequency: 6.71879957447603. subcorpus: Suetonius ; normalized frequency: 3 ; absolute frequency: 33.0760749724366. subcorpus: Tacitus ; normalized frequency: 4 ; absolute frequency: 13.7315482320632. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-97-114-117-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 13.46 and an absolute frequency of 16. The Prosa.histórica subcorpus follows, with a normalized frequency of 8.76 and an absolute frequency of 36. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 36 ; absolute frequency: 8.76360184035639. subcorpus: Prosa.filosófica ; normalized frequency: 43 ; absolute frequency: 7.08390306584735. subcorpus: Prosa.oratória ; normalized frequency: 45 ; absolute frequency: 4.32056685837182. subcorpus: Prosa.epistolográfica ; normalized frequency: 21 ; absolute frequency: 5.56453536129733. subcorpus: Poesia.lírica ; normalized frequency: 16 ; absolute frequency: 13.460082443005. subcorpus: Poesia.didática ; normalized frequency: 8 ; absolute frequency: 6.78598693697515. subcorpus: Poesia.trágica ; normalized frequency: 6 ; absolute frequency: 5.21195274496178. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-97-114-117-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 18.32 and an absolute frequency of 7. The I.d.C. subcorpus follows, with a normalized frequency of 6.73 and an absolute frequency of 44. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 126 ; absolute frequency: 5.8645566674424. subcorpus: I.d.C. ; normalized frequency: 44 ; absolute frequency: 6.73091632247208. subcorpus: II.d.C. ; normalized frequency: 7 ; absolute frequency: 18.3246073298429. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

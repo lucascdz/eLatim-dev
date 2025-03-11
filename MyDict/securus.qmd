@@ -1,0 +1,197 @@
+---
+title: "securus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-101-99-117-114-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>sēcūrus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small>Obs.: Constrói-se como absoluto: com abl. acompanhado de ab ou de: com gen.: com or. interrog. indir.: com ne.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Livre de inquietações, tranquilo, sossegado &ensp; <small>Cic. Flac. 46.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Seguro, sem inquietações tratando-se de coisas, livre de &ensp; <small>Ov. Met. 12. 199.</small> <br> <b>3</b> &ensp; <small>I-Daí</small> &ensp; Isento de perigo, em segurança &ensp; <small>T. Lív. 39, 1, 6.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Securus</b> -<b>a</b> -<b>um</b> <small>Ovid</small> -<b>rior</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; seguro, cheio de segurança, isento de cuidado. <br> <b>2</b> &ensp; <small>Virg.</small> &ensp; negligente, descuidado, que toma pouco cuidado. </p>
+
+
+
+
+#### Velez
+
+<b>Securus</b> -<b>a</b> -<b>um</b> <br> <small>pr. & sec. long.</small>   <p> <b>1</b> &ensp; cousa segura, e que naõ tem cuidado, ou naõ se lhe dá de alguma cousa &ensp; <small>gen. | abl. cum Ab, vel A, vel De</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>securus a metu, de bello, & c <br> securus futuri &ensp; <small>por cousa segura, ou que naõ tem medo</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Securus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa segura. ou descuidada </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/123986 ' target="_blank"> http://lila-erc.eu/data/id/lemma/123986 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+sēcūrus 
+ sēcūra 
+ sēcūrum
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> adiciam quo <b>securior</b> sis ne fieri quidem me posse miserum <br> <small> Sen.Helv.4.3 <br> Acrescentarei, para que estejas mais segura, que nem mesmo posso me tornar infeliz. <small> [JDD] </small> </small> </p>
+; <p> multis ad philosophandum obstitere diuitiae paupertas expedita est <b>secura</b> est <br> <small> Sen.Ep.17.3 <br> A muitos as riquezas constituíram obstáculos para praticar a filosofia: a pobreza é expedita, é segura. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-101-99-117-114-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 6.87 and an absolute frequency of 2. The Seneca subcorpus follows, with a normalized frequency of 3.92 and an absolute frequency of 21. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 21 ; absolute frequency: 3.91929975177768. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-101-99-117-114-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 3.86 and an absolute frequency of 2. The Poesia.trágica subcorpus follows, with a normalized frequency of 3.47 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Prosa.oratória with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 2 ; absolute frequency: 0.486866768908688. subcorpus: Prosa.filosófica ; normalized frequency: 17 ; absolute frequency: 2.80061283998616. subcorpus: Prosa.oratória ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-101-99-117-114-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The I.d.C. subcorpus follows, with a normalized frequency of 3.52 and an absolute frequency of 23. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 4 ; absolute frequency: 0.186176402141029. subcorpus: I.d.C. ; normalized frequency: 23 ; absolute frequency: 3.51843353220132. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

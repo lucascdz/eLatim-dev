@@ -1,0 +1,206 @@
+---
+title: "discedo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-105-115-99-101-100-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>discēdō</b> <b>-is</b> <b>-ère</b> <b>-céssí, -céssum</b> <br> <small>v. intr.</small> <br> <small>Obs.: Constrói-se com abl.: com abl. com as preps. ab, ex e, às vezes, de, com acus. com in ou ad, e absolutamente.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Afastar-se, separar-se &ensp; <small>Cíc. Lae. 42.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Repartir-se, dividir-se, dispersar-se &ensp; <small>Sal. B. Jug. 34, 2.</small> <br> <b>3</b> &ensp; <small>I-Daí:</small> &ensp; Retirar-se, sair do combate vitorioso ou vencido, abandonar, desertar, fugir &ensp; <small>Cés. B. Civ. 2, 31, 3; Cíc. Caec. 2</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Afastar-se de, divergir, divorciar, romper, quebrar &ensp; <small>Cés. B. Gal. 1, 40, 2.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Por-se ao lado de, seguir &ensp; <small>Sal. C. Cat. 55, 1.</small> </p> 
+ <b>discēssī</b> <br> <small>perf. de discédo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Discedo</b> -<b>is</b> -<b>essi</b> -<b>essum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; apartar-se. <br> <b>2</b> &ensp; abrir-se, fender-se. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Discedo</b> <b>is</b> <b>ssi</b> <b>ssum</b>   <p> <b>1</b> &ensp; apartar-se </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/99589 ' target="_blank"> http://lila-erc.eu/data/id/lemma/99589 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> discedo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> discedere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> discedet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> discessi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> discessum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> discessurum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+discēdō 
+ discēdis 
+ discēdĕre 
+ discessī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-105-115-99-101-100-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quibus in locis sit Caesar ex captiuis quaerunt profectum longius reperiunt omnemque exercitum <b>discessisse</b> cognoscunt <br> <small> Caes.Gal.6.35.7 <br> Em que lugares está César querem saber de seus prisioneiros; descobrem que partiu para longe e ficam sabendo que todo exército se retirou. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-105-115-99-101-100-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 6.8 and an absolute frequency of 18. The Phaedrus subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 18 ; absolute frequency: 6.79809653297077. subcorpus: Cicero ; normalized frequency: 55 ; absolute frequency: 3.42627893648302. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 13 ; absolute frequency: 2.4262331796719. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-105-115-99-101-100-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 6.09 and an absolute frequency of 25. The Prosa.oratória subcorpus follows, with a normalized frequency of 2.59 and an absolute frequency of 27. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 25 ; absolute frequency: 6.0858346113586. subcorpus: Prosa.filosófica ; normalized frequency: 21 ; absolute frequency: 3.45958056704173. subcorpus: Prosa.oratória ; normalized frequency: 27 ; absolute frequency: 2.59234011502309. subcorpus: Prosa.epistolográfica ; normalized frequency: 19 ; absolute frequency: 5.03457961260235. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-105-115-99-101-100-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 4.49 and an absolute frequency of 2. The I.a.C. subcorpus follows, with a normalized frequency of 3.91 and an absolute frequency of 84. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 84 ; absolute frequency: 3.9097044449616. subcorpus: I.d.C. ; normalized frequency: 15 ; absolute frequency: 2.29463056447912. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

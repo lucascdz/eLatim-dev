@@ -1,0 +1,201 @@
+---
+title: "plenus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-108-101-110-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>plēnus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small>Obs.: Constrói-se com gen.: com abl.; ou absoluto.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Cheio, pleno &ensp; <small>Cíc. Verr. 1, 53.</small> <br> <b>2</b> &ensp; <small>II-Daí, em sent. particular</small> &ensp; Farto, satisfeito &ensp; <small>Hor. Ep. 1, 20, 8.</small> <br> <b>3</b> &ensp; <small>II-Daí, em sent. particular</small> &ensp; Desenvolvido, grosso, corpulento, espesso &ensp; <small>Ov. A. Am. 2. 661.</small> <br> <b>4</b> &ensp; <small>II-Daí, em sent. particular</small> &ensp; Grávida &ensp; <small>Cíc. Div. 1. 101.</small> <br> <b>5</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Abundante, rico &ensp; <small>tratando-se do estilo Cíc. De Or. 3, 16.</small> <br> <b>6</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Inteiro, completo, todo &ensp; <small>Cíc. Tusc. 5, 67.</small> <br> <b>7</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Decorrido, passado, completado &ensp; <small>Cíc. Mil. 24.</small> <br> <b>8</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Guarnecido, bem fornecido, abundante em, carregado de &ensp; <small>Cíc. Verr. 2, 12.</small> <br> <b>9</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Completo, substancial, nutritivo &ensp; <small>Cels. 3. 20.</small> <br> <b>10</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Intenso, forte, cheio &ensp; <small>Cíc. Br. 289.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Plenus</b> -<b>a</b> -<b>um</b> -<b>nior</b> -<b>nissimus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; cheio. <br> <b>2</b> &ensp; completo, inteiro, perfeito, acabado. <br> <b>3</b> &ensp; rico, copioso, abundante. <br> <b>4</b> &ensp; gordo, grosso, corpulento. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>in plenum dici potest &ensp; <small><small>Plin</small></small> &ensp; <small>Póde se dizer em geral</small> <br> plena mulier &ensp; <small><small>Ovid</small></small> &ensp; <small>Mulher prenhe</small> <br> pleniore ore laudare &ensp; <small><small>Cic</small></small> &ensp; <small>Louvar excessivamente</small> <br> plenus sanguinis &ensp; <small><small>Plaut</small></small> &ensp; <small>Homicida</small> </p>
+
+
+
+
+#### Velez
+
+<b>Plenus</b> -<b>a</b> -<b>um</b> <br> <small>1. l.</small>   <p> <b>1</b> &ensp; cousa chea, ou abundante </p>
+
+
+
+
+#### Cardoso
+
+<b>Plenus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa chea. ou cõprida </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/118143 ' target="_blank"> http://lila-erc.eu/data/id/lemma/118143 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+plēnus 
+ plēna 
+ plēnum
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-108-101-110-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword plenus here are all the values plotted: collocate: manus; scoreSUBST: 2. collocate: sed; scoreSUBST: 0. collocate: et; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-108-101-110-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword plenus here are all the values plotted: collocate: manus; scoreADJ: 0. collocate: sed; scoreADJ: 0. collocate: et; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-108-101-110-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword plenus here are all the values plotted: collocate: manus; scoreVERBO: 0. collocate: sed; scoreVERBO: 0. collocate: et; scoreVERBO: 0. collocate: sum; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-108-101-110-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword plenus here are all the values plotted: collocate: manus; scoreADV: 0. collocate: sed; scoreADV: 0. collocate: et; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-108-101-110-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword plenus here are all the values plotted: collocate: manus; scoreFUNC: 0. collocate: sed; scoreFUNC: 0. collocate: et; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ita sunt omnia omnium miseriarum <b>plenissima</b> <br> <small> Cic.Att.2.24.4 <br> tão completamente cheio está tudo de todas as desgraças. <small> [JDD] </small> </small> </p>
+; <p> habes epistulam <b>plenam</b> festinationis et pulveris <br> <small> Cic.Att.5.14.3 <br> Tens uma carta cheia de pressa e de pó. <small> [JDD] </small> </small> </p>
+; <p> Axius noster ait nostras auctoritatis <b>plenas</b> fuisse <br> <small> Cic.Att.5.21.2 <br> Nosso amigo Áxio diz que a minha foi cheia de autoridade. <small> [JDD] </small> </small> </p>
+; <p> noctu occidisset insidioso et <b>pleno</b> latronum in loco occidisset <br> <small> Cic.Mil.50 <br> O teria matado à noite: o teria matado num lugar apropriado para ciladas e cheio de bandidos. <small> [JDD] </small> </small> </p>
+; <p> conplectamur illam et amemus <b>plena</b> est uoluptatis si illa scias uti <br> <small> Sen.Ep.12.4 <br> Abracemo-la e tenhamos afeição por ela; ela é cheia de prazeres, se soubermos nos servir dela. <small> [JDD] </small> </small> </p>
+; <p> uidimus ubi tribuendum esset <b>plena</b> manu dantem ubi laborandum pertinacem et obnixum et lassitudinem corporis animo subleuantem <br> <small> Sen.Ep.120.10 <br> O vimos dando com a mão cheia quando devia contribuir, pertinaz e obstinado e mitigando com o espírito o cansaço do corpo, quando devia trabalhar. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-108-101-110-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 6.87 and an absolute frequency of 2. The Tacitus subcorpus follows, with a normalized frequency of 6.87 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Sallustius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 54 ; absolute frequency: 3.36398295581969. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 14 ; absolute frequency: 2.61286650118512. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-108-101-110-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 5.79 and an absolute frequency of 3. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 5.03 and an absolute frequency of 19. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 0.97 and an absolute freqeuncy of 4. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 4 ; absolute frequency: 0.973733537817376. subcorpus: Prosa.filosófica ; normalized frequency: 12 ; absolute frequency: 1.9769031811667. subcorpus: Prosa.oratória ; normalized frequency: 32 ; absolute frequency: 3.07240309928663. subcorpus: Prosa.epistolográfica ; normalized frequency: 19 ; absolute frequency: 5.03457961260235. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-108-101-110-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The II.d.C. subcorpus follows, with a normalized frequency of 5.24 and an absolute frequency of 2. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 2.45 and an absolute freqeuncy of 16. here are all the values: subcorpus: I.a.C. ; normalized frequency: 61 ; absolute frequency: 2.83919013265069. subcorpus: I.d.C. ; normalized frequency: 16 ; absolute frequency: 2.44760593544439. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

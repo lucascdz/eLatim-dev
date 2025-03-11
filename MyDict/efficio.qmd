@@ -1,0 +1,210 @@
+---
+title: "efficio"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx101-102-102-105-99-105-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>effēcī</b> <br> <small>perf. de effícìo.</small> <br> <small></small> 
+ <b>efficĭo</b> <b>-is</b> <b>-ère</b> <b>-fécí, -féctum</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói-se com acus.; com ut; às vezes com ne;com quo magis; com acus. e inf.; com duplo acus. Obs.: Perf. subj. arc.: effexis Plaut. Cas. 709.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Acabar de fazer, fazer completamente, acabar, efetuar &ensp; <small>Cés. B. Civ. 1, 36, 5.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado:-Muitas vezes empregada em lugar de facere para indicar que se insiste na ideia de acabamento; daí:</small> &ensp; Fazer por, fazer que, fazer, tornar obter, realizar, construir &ensp; <small>Cés. B. Gal. 6, 6, 1; Cíc. Rep. 2, 52; Cíc. C. M. 2.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:-Muitas vezes empregada em lugar de facere para indicar que se insiste na ideia de acabamento; Donde:</small> &ensp; Executar, cumprir &ensp; <small>Cíc. Rep. 1, 70.</small> <br> <b>4</b> &ensp; <small>III-Sent. técnico:</small> &ensp; Produzir, dar &ensp; <small>tratando-se do solo Cíc. Verr. 3, 112.</small> <br> <b>5</b> &ensp; <small>III-Sent. técnico:</small> &ensp; Subir a, perfazer uma quantia &ensp; <small>Cíc. At. 6, 1, 3.</small> <br> <b>6</b> &ensp; <small>III-Sent. técnico:</small> &ensp; Provar, concluir, demonstrar, estabelecer &ensp; <small>tratando-se de um raciocínio, de uma proposição Cíc. Tusc. 1, 77.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Efficio</b> -<b>is</b> -<b>eci</b> -<b>ectum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; effeituar, obrar, executar, acabar. <br> <b>2</b> &ensp; fazer. <br> <b>3</b> &ensp; concluir. </p> 
+ <b>Exefficio</b> -<b>is</b> -<b>feci</b> -<b>factum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>* Plaut.</small> &ensp; aperfeiçoar. </p> 
+ <small>pret. de Efficio</small> <b>Effeci</b>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Efficio</b> <b>is</b> -<b>eci</b> -<b>ectum</b>   <p> <b>1</b> &ensp; acabar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/100627 ' target="_blank"> http://lila-erc.eu/data/id/lemma/100627 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 5ª conjugação (tema em -ĭ- breve) <br>
+<small> outras grafias: </small> ecficio, exefficio, exficio <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> ecficio, efficio, exefficio, exficio </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> ecficere, exficere, efficere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> ecficiet, exficiet, efficiet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> ecfeci, exfeci, effeci </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> ecfectum, exfectum, effectum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> ecfecturum, exfecturum, effecturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+effēcī 
+ effĭcĭō 
+ effĭcis 
+ effĭcĕre
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx101-102-102-105-99-105-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx101-102-102-105-99-105-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword efficio here are all the values plotted: collocate: possum; scoreSUBST: 0. collocate: ut; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx101-102-102-105-99-105-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword efficio here are all the values plotted: collocate: possum; scoreADJ: 0. collocate: ut; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx101-102-102-105-99-105-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword efficio here are all the values plotted: collocate: possum; scoreVERBO: 3. collocate: ut; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx101-102-102-105-99-105-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword efficio here are all the values plotted: collocate: possum; scoreADV: 0. collocate: ut; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx101-102-102-105-99-105-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword efficio here are all the values plotted: collocate: possum; scoreFUNC: 0. collocate: ut; scoreFUNC: 30'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>effice</b> ut possis laudari si minus ut adgnosci <br> <small> Sen.Ep.120.22 <br> Faz com que possas ser louvado, se não, pelo menos reconhecido. <small> [JDD] </small> </small> </p>
+; <p> poterat ne tantus animus <b>efficere</b> non iucundam senectutem <br> <small> Cic.Sen.56 <br> Por acaso poderia um espírito tão grande fazer a velhice não prazerosa? <small> [JDD] </small> </small> </p>
+; <p> conantibus priusquam id <b>effici</b> posset adesse Romanos nuntiatur <br> <small> Caes.Gal.6.4.1 <br> Aos que tentavam, antes que pudessem fazê-lo, é anunciado que os romanos estavam lá. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx101-102-102-105-99-105-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 7.18 and an absolute frequency of 19. The Vergilius subcorpus follows, with a normalized frequency of 1.93 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 19 ; absolute frequency: 7.17576856258025. subcorpus: Cicero ; normalized frequency: 43 ; absolute frequency: 2.67872716852309. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 24 ; absolute frequency: 4.47919971631735. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx101-102-102-105-99-105-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 6.42 and an absolute frequency of 39. The Prosa.histórica subcorpus follows, with a normalized frequency of 5.6 and an absolute frequency of 23. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 23 ; absolute frequency: 5.59896784244991. subcorpus: Prosa.filosófica ; normalized frequency: 39 ; absolute frequency: 6.42493533879178. subcorpus: Prosa.oratória ; normalized frequency: 19 ; absolute frequency: 1.82423934020143. subcorpus: Prosa.epistolográfica ; normalized frequency: 9 ; absolute frequency: 2.38480086912743. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx101-102-102-105-99-105-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 4.49 and an absolute frequency of 2. The I.d.C. subcorpus follows, with a normalized frequency of 3.98 and an absolute frequency of 26. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 67 ; absolute frequency: 3.11845473586223. subcorpus: I.d.C. ; normalized frequency: 26 ; absolute frequency: 3.97735964509714. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

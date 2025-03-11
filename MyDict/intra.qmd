@@ -1,0 +1,195 @@
+---
+title: "intra"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-110-116-114-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>intra</b> <br> <small>prep. acus.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; No interior de, em: &ensp; <small></small> <br> <b>2</b> &ensp; <small>II-Sents. diversos</small> &ensp; Nos limites de, dentro de: &ensp; <small></small> <br> <b>3</b> &ensp; <small>II-Sents. diversos</small> &ensp; Aquém de, abaixo de, até a &ensp; <small>T. Lív. 1,43.4.</small> <br> <b>4</b> &ensp; <small>II-Sents. diversos</small> &ensp; Aquém de: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>intra parietesmeos Cíc. A!. 3. 10. 2 “dentro das minhas paredes. i.e., dentro de minha casa”. <br> <br><b>2</b><br>intra paucos dies trajiciet T. Lív. 29. 19, 1 «ele efetuará a travessia dentro de poucos dias». <br> <br><b>4</b><br>intra modum Cíc. Fam. 4. 4,4 «aquém da medida». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Intra</b> <br> <small>prep. de accus.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; dentro, para dentro, entre, em, menos. </p>
+
+
+
+
+#### Velez
+
+<b>Intra</b> <br> <small>Praep.</small>   <p> <b>1</b> &ensp; dentro </p>
+
+
+
+
+#### Cardoso
+
+<b>Intra</b> <br> <small>praepositio.</small>   <p> <b>1</b> &ensp; dedentro </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/108726 ' target="_blank"> http://lila-erc.eu/data/id/lemma/108726 </a> <br>
+<small> classe: </small> preposição    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+intrā
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-110-116-114-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword intra here are all the values plotted: collocate: moenia; scoreSUBST: 3. collocate: sui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-110-116-114-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword intra here are all the values plotted: collocate: moenia; scoreADJ: 0. collocate: sui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-110-116-114-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword intra here are all the values plotted: collocate: moenia; scoreVERBO: 0. collocate: sui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-110-116-114-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword intra here are all the values plotted: collocate: moenia; scoreADV: 0. collocate: sui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-110-116-114-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword intra here are all the values plotted: collocate: moenia; scoreFUNC: 0. collocate: sui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>intra</b> eas siluas hostes in occulto sese continebant <br> <small> Caes.Gal.2.18.3 <br> Dentro dessas florestas se mantinham de modo oculto os inimigos. <small> [JDD] </small> </small> </p>
+; <p> nulla iam pernicies a monstro illo atque prodigio moenibus ipsis <b>intra</b> moenia comparabitur <br> <small> Cic.Catil.2.1.6 <br> Já nenhuma desgraça será preparada por aquele monstro e prodígio dentro das muralhas contra as próprias muralhas. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-110-116-114-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 4.49 and an absolute frequency of 2. The Seneca subcorpus follows, with a normalized frequency of 2.8 and an absolute frequency of 15. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 6 ; absolute frequency: 2.26603217765692. subcorpus: Cicero ; normalized frequency: 9 ; absolute frequency: 0.560663825969948. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 15 ; absolute frequency: 2.79949982269834. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-110-116-114-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 4.49 and an absolute frequency of 2. The Prosa.filosófica subcorpus follows, with a normalized frequency of 2.47 and an absolute frequency of 15. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 9 ; absolute frequency: 2.1909004600891. subcorpus: Prosa.filosófica ; normalized frequency: 15 ; absolute frequency: 2.47112897645838. subcorpus: Prosa.oratória ; normalized frequency: 7 ; absolute frequency: 0.672088177968949. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-110-116-114-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 4.49 and an absolute frequency of 2. The I.d.C. subcorpus follows, with a normalized frequency of 2.29 and an absolute frequency of 15. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 19 ; absolute frequency: 0.884337910169886. subcorpus: I.d.C. ; normalized frequency: 15 ; absolute frequency: 2.29463056447912. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

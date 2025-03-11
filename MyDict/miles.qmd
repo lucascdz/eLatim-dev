@@ -1,0 +1,206 @@
+---
+title: "miles"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-105-108-101-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>mīles</b> <b>-ìtis</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Soldado &ensp; <small>Cés. B. Gal. 1, 7, 2.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Soldados, exércitos &ensp; <small>sing. coletivo Verg. En. 2. 495.</small> <br> <b>3</b> &ensp; <small>II-Sent. particular:</small> &ensp; Soldado de infantaria &ensp; <small>Cés. B. Gal. 5, 10, 1.</small> <br> <b>4</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Que faz parte da comitiva, do cortejo de uma deusa &ensp; <small>Ov. Mel. 2, 415.</small> <br> <b>5</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Peão &ensp; <small>no jogo de xadrez Ov. Trist. 2, 477.</small> </p> 
+ <b>mīlĭtis</b> <br> <small>gen. de míles.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Miles</b> -<b>itis</b> <br> <small>m. Cic. f. Ovid.</small>   <p> <b>1</b> &ensp; soldado. <br> <b>2</b> &ensp; <small>Virg.</small> &ensp; soldadesca. <br> <b>3</b> &ensp; <small>Ulp.</small> &ensp; archeiro, homem que levava as insignias dos Magistrados. </p>
+
+
+
+
+#### Velez
+
+<b>Miles</b> -<b>tis</b> <br> <small>comm. duor. 1. l.</small>   <p> <b>1</b> &ensp; o soldado </p>
+
+
+
+
+#### Cardoso
+
+<b>Miles</b> <b>itis</b>   <p> <b>1</b> &ensp; ho soldado </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/112318 ' target="_blank"> http://lila-erc.eu/data/id/lemma/112318 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> meiles <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+mīlĕs 
+ mīlĭtis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx109-105-108-101-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-105-108-101-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword miles here are all the values plotted: collocate: tribunus; scoreSUBST: 3. collocate: ueteranus; scoreSUBST: 0. collocate: noster; scoreSUBST: 0. collocate: centurio; scoreSUBST: 2. collocate: impetus; scoreSUBST: 2. collocate: legio; scoreSUBST: 2. collocate: fortis; scoreSUBST: 0. collocate: uirtus; scoreSUBST: 2. collocate: animus; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-105-108-101-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword miles here are all the values plotted: collocate: tribunus; scoreADJ: 0. collocate: ueteranus; scoreADJ: 3. collocate: noster; scoreADJ: 0. collocate: centurio; scoreADJ: 0. collocate: impetus; scoreADJ: 0. collocate: legio; scoreADJ: 0. collocate: fortis; scoreADJ: 2. collocate: uirtus; scoreADJ: 0. collocate: animus; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-105-108-101-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword miles here are all the values plotted: collocate: tribunus; scoreVERBO: 0. collocate: ueteranus; scoreVERBO: 0. collocate: noster; scoreVERBO: 0. collocate: centurio; scoreVERBO: 0. collocate: impetus; scoreVERBO: 0. collocate: legio; scoreVERBO: 0. collocate: fortis; scoreVERBO: 0. collocate: uirtus; scoreVERBO: 0. collocate: animus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-105-108-101-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword miles here are all the values plotted: collocate: tribunus; scoreADV: 0. collocate: ueteranus; scoreADV: 0. collocate: noster; scoreADV: 0. collocate: centurio; scoreADV: 0. collocate: impetus; scoreADV: 0. collocate: legio; scoreADV: 0. collocate: fortis; scoreADV: 0. collocate: uirtus; scoreADV: 0. collocate: animus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-105-108-101-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword miles here are all the values plotted: collocate: tribunus; scoreFUNC: 0. collocate: ueteranus; scoreFUNC: 0. collocate: noster; scoreFUNC: 0. collocate: centurio; scoreFUNC: 0. collocate: impetus; scoreFUNC: 0. collocate: legio; scoreFUNC: 0. collocate: fortis; scoreFUNC: 0. collocate: uirtus; scoreFUNC: 0. collocate: animus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> hos subsecuti equites calonesque eodem impetu <b>militum</b> uirtute seruantur <br> <small> Caes.Gal.6.40.5 <br> Os criados e os cavaleiros, seguindo-os com o mesmo ímpeto, são salvos pela coragem dos soldados. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> loca amoena uoluptaria facile in otio ferocis <b>militum</b> animos molliuerant <br> <small> Sal.Cat.11.5 <br> Os lugares amenos, voluptuosos, tinham, no ócio, fácilmente amolecido os ânimos ferozes dos soldados. <small> [JDD] </small> </small> </p>
+; <p> commisso proelio diutius nostrorum <b>militum</b> impetum hostes ferre non potuerunt ac terga uerterunt <br> <small> Caes.Gal.4.35.2 <br> Travado o combate, os inimigos não puderam aguentar por muito tempo o ímpeto de nossos soldados e voltaram as costas. <small> [JDD] </small> </small> </p>
+; <p> est autem fidei pietatisque nostrae declarare fortissimis <b>militibus</b> quam memores simus quamque grati <br> <small> Cic.Phil.14.29.4 <br> É, por outro lado, próprio de nossa lealdade e afeto declarar aos valorosíssimos soldados quão lembrados e quão gratos estamos. <small> [JDD] </small> </small> </p>
+; <p> proauus Augusti secundo Punico bello stipendia in Sicilia tribunus <b>militum</b> fecit Aemilio Papo imperatore . <br> <small> Suet.Aug.2.2.2 <br> O bisavô de Augusto, na segunda guerra púnica, serviu como tribuno dos soldados na Sicília, sob o comando do general Emílio Papo. <small> [JDD] </small> </small> </p>
+; <p> placet igitur mihi patres conscripti legionis Martiae <b>militibus</b> et eis qui una pugnantes occiderint monumentum fieri quam amplissimum <br> <small> Cic.Phil.14.31.5 <br> Agrada-me, portanto, pais conscritos, que seja feito um monumento o mais amplo possível para os soldados da legião Márcia e para aqueles que, junto a ela, morreram lutando. <small> [JDD] </small> </small> </p>
+; <p> Caesar necessariis rebus imperatis ad cohortandos <b>milites</b> quam in partem fors obtulit decucurrit et ad legionem decimam deuenit <br> <small> Caes.Gal.2.21.1 <br> César, ordenadas as coisas necessárias, correu para exortar os soldados na parte que a sorte ofereceu e veio até a décima legião. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ab eis centuriones omnis lectos et euocatos praeterea ex gregariis <b>militibus</b> optumum quemque armatum in primam aciem subducit <br> <small> Sal.Cat.59.3 <br> Destas, ele retira para a primeira fileira todos os veteranos e centuriões e, além disso, dentre os soldados rasos, cada um dos melhores devidamente armado. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> uirtute enim admirabili Caesaris constantiaque <b>militum</b> ueteranorum legionumque earum quae optimo iudicio auctoritatem nostram libertatem populi Romani uirtutem Caesaris secutae sunt a ceruicibus nostris est depulsus Antonius <br> <small> Cic.Phil.3.8.3 <br> Pois com o admirável valor de César e com a firmeza dos soldados veteranos e daquelas legiões que, com ótimo juízo, seguiram a vossa autoridade, a liberdade do povo romano, o valor de César, Antônio foi rechaçado de nossos pescoços. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-105-108-101-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 44.63 and an absolute frequency of 13. The Caesar subcorpus follows, with a normalized frequency of 27.57 and an absolute frequency of 73. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 73 ; absolute frequency: 27.5700581614926. subcorpus: Cicero ; normalized frequency: 70 ; absolute frequency: 4.36071864643293. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 14 ; absolute frequency: 12.9858083665708. subcorpus: Seneca ; normalized frequency: 11 ; absolute frequency: 2.05296653664545. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 13 ; absolute frequency: 44.6275317542053. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-105-108-101-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 24.59 and an absolute frequency of 101. The Prosa.filosófica subcorpus follows, with a normalized frequency of 1.81 and an absolute frequency of 11. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 101 ; absolute frequency: 24.5867718298888. subcorpus: Prosa.filosófica ; normalized frequency: 11 ; absolute frequency: 1.81216124940281. subcorpus: Prosa.oratória ; normalized frequency: 59 ; absolute frequency: 5.66474321430972. subcorpus: Prosa.epistolográfica ; normalized frequency: 7 ; absolute frequency: 1.85484512043244. subcorpus: Poesia.lírica ; normalized frequency: 5 ; absolute frequency: 4.20627576343905. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-105-108-101-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 36.65 and an absolute frequency of 14. The I.a.C. subcorpus follows, with a normalized frequency of 7.54 and an absolute frequency of 162. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 162 ; absolute frequency: 7.54014428671166. subcorpus: I.d.C. ; normalized frequency: 11 ; absolute frequency: 1.68272908061802. subcorpus: II.d.C. ; normalized frequency: 14 ; absolute frequency: 36.6492146596859. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

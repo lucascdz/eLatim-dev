@@ -1,0 +1,200 @@
+---
+title: "fama"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx102-97-109-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>fāma</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; O que se diz conta de alguém, voz pública, voz corrente &ensp; <small>C Ie. Fam. 12. 4, 2.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Renome, reputação boa ou má, honra, glória, fama &ensp; <small>boa ou má Cíc. Tuse. 3, 4; Cíc. Fin. 3, 57.</small> <br> <b>3</b> &ensp; <small>II-Daí</small> &ensp; Opinião firmada, crença, tradição &ensp; <small>Cíc. N at. 2, 95</small> <br> <b>4</b> &ensp; <small>III-Subs. Pr.</small> &ensp; A Fama, divindade, filha da Terra; possuía numerosos olhos e ouvidos que tudo viam e ouviam, e outras tantas bocas para o propalar &ensp; <small>V erg. En. 4, 173-188.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+no data
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Fama</b> -<b>ae</b>   <p> <b>1</b> &ensp; a fama </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/102868 ' target="_blank"> http://lila-erc.eu/data/id/lemma/102868 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+fāma 
+ fāmae
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx102-97-109-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx102-97-109-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword fama here are all the values plotted: collocate: fortuna; scoreSUBST: 2. collocate: homo; scoreSUBST: 2. collocate: atque; scoreSUBST: 0. collocate: qua; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx102-97-109-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword fama here are all the values plotted: collocate: fortuna; scoreADJ: 0. collocate: homo; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: qua; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx102-97-109-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword fama here are all the values plotted: collocate: fortuna; scoreVERBO: 0. collocate: homo; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: qua; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx102-97-109-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword fama here are all the values plotted: collocate: fortuna; scoreADV: 0. collocate: homo; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: qua; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx102-97-109-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword fama here are all the values plotted: collocate: fortuna; scoreFUNC: 0. collocate: homo; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: qua; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> hoc quanti putas esse ad <b>famam</b> hominum ac uoluntatem <br> <small> Cic.Mur.38 <br> Quanto achas que isso vale para a fama e disposição favorável dos homens? <small> [JDD] </small> </small> </p>
+; <p> triginta unus fuerunt quos fames magis quam <b>fama</b> commoverit <br> <small> Cic.Att.1.16.5 <br> houve 31 aos quais mais a fome do que a fama influenciou. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> qui demissi in obscuro uitam habent si quid iracundia deliquere pauci sciunt <b>fama</b> atque fortuna pares sunt <br> <small> Sal.Cat.51.12 <br> Os que levam a vida mergulhados na obscuridade, se, por raiva, cometem algum delito, poucos ficam sabendo, a fama e a fortuna são iguais. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> multi autem Gnathonum similes cum sint loco fortuna <b>fama</b> superiores horum est adsentatio molesta cum ad uanitatem accessit auctoritas <br> <small> Cic.Amici.94 <br> Porém, com há muitos semelhantes a Gnatões, superiores por sua posição, fortuna, fama, a bajulação destes é molesta, uma vez que a autoridade se juntou à vaidade <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx102-97-109-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 11.03 and an absolute frequency of 1. The Suetonius subcorpus follows, with a normalized frequency of 11.03 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 6 ; absolute frequency: 2.26603217765692. subcorpus: Cicero ; normalized frequency: 46 ; absolute frequency: 2.86561511051307. subcorpus: Horatius ; normalized frequency: 10 ; absolute frequency: 8.88020602077968. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 4 ; absolute frequency: 6.0725671777744. subcorpus: Sallustius ; normalized frequency: 11 ; absolute frequency: 10.2031351451628. subcorpus: Seneca ; normalized frequency: 6 ; absolute frequency: 1.11979992907934. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx102-97-109-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 9.65 and an absolute frequency of 5. The Poesia.lírica subcorpus follows, with a normalized frequency of 8.41 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 21 ; absolute frequency: 5.11210107354123. subcorpus: Prosa.filosófica ; normalized frequency: 9 ; absolute frequency: 1.48267738587503. subcorpus: Prosa.oratória ; normalized frequency: 35 ; absolute frequency: 3.36044088984475. subcorpus: Prosa.epistolográfica ; normalized frequency: 6 ; absolute frequency: 1.58986724608495. subcorpus: Poesia.lírica ; normalized frequency: 10 ; absolute frequency: 8.4125515268781. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx102-97-109-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 10.47 and an absolute frequency of 4. The I.a.C. subcorpus follows, with a normalized frequency of 3.63 and an absolute frequency of 78. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 78 ; absolute frequency: 3.63043984175006. subcorpus: I.d.C. ; normalized frequency: 11 ; absolute frequency: 1.68272908061802. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

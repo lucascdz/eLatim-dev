@@ -1,0 +1,200 @@
+---
+title: "materia"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-97-116-101-114-105-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>māterĭa</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. primitivo-língua rústica:</small> &ensp; Substância de que se fez o tronco das árvores &ensp; <small>como produtor dos ramos e rebentos</small> <br> <b>2</b> &ensp; <small>I-daí:</small> &ensp; substância ou matéria de que alguma coisa é feita &ensp; <small>Lucr. I, 91.</small> <br> <b>3</b> &ensp; <small>I-Por extensão:</small> &ensp; A parte dura da árvore &ensp; <small>em oposição às folhas e casca Cal. 5, 11, 4.</small> <br> <b>4</b> &ensp; <small>I-Daí: na língua dos carpinteiros:</small> &ensp; Madeira, e, em especial: &ensp; <small></small> <br> <b>5</b> &ensp; <small>I-Na língua comum:</small> &ensp; Materiais &ensp; <small>em geral Ov. Met. 2, 5.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Matéria, objeto, assunto, tema &ensp; <small>Cíc. Q. Fr. 1, 2, 3.</small> <br> <b>7</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Ocasião, causa, pretexto &ensp; <small>Cíc. Phil. 11, 21.</small> <br> <b>8</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Caráter, índole, recurso do espírito, cabedal, talento, modo de ser &ensp; <small>T. Lív. 1, 39, 3.</small> <br> <b>9</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Assunto tratado, tratado &ensp; <small>Sên. Ep. 87, 11.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>4</b><br>madeira de construção em oposição a lignum: materia caesa Cés. B. Gal. 3. 29. 1 “a madeira cortada”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Materia</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; materia de que alguma cousa se faz, ou procede. <br> <b>2</b> &ensp; argumento, assumpto do livro, & c. <br> <b>3</b> &ensp; madeira. <br> <b>4</b> &ensp; <small>Col.</small> &ensp; vara da vide, particularmente a que brotou de outra nova. <br> <b>5</b> &ensp; raça nos brutos. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Materia</b> -<b>ae</b>   <p> <b>1</b> &ensp; a madeyra </p> 
+ <b>Materia</b> -<b>ae</b>   <p> <b>1</b> &ensp; a materia de qualquer cousa </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/111691 ' target="_blank"> http://lila-erc.eu/data/id/lemma/111691 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+mātĕrĭa 
+ mātĕrĭae
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx109-97-116-101-114-105-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-97-116-101-114-105-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword materia here are all the values plotted: collocate: hic; scoreSUBST: 0. collocate: is; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-97-116-101-114-105-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword materia here are all the values plotted: collocate: hic; scoreADJ: 0. collocate: is; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-97-116-101-114-105-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword materia here are all the values plotted: collocate: hic; scoreVERBO: 0. collocate: is; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-97-116-101-114-105-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword materia here are all the values plotted: collocate: hic; scoreADV: 0. collocate: is; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-97-116-101-114-105-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword materia here are all the values plotted: collocate: hic; scoreFUNC: 0. collocate: is; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> nosti iam in hac <b>materia</b> sonitus nostros <br> <small> Cic.Att.1.14.4 <br> Já conheces meu tom nesta matéria. <small> [JDD] </small> </small> </p>
+; <p> non potest artifex mutare <b>materiam</b> hoc passa est <br> <small> Sen.Prov.5.9 <br> O artesão não pode mudar a matéria. Esta é a condição. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nam et frumentum ex agris cotidie in castra conferebat et quae grauissime adflictae erant naues earum <b>materia</b> atque aere ad reliquas reficiendas utebatur et quae ad eas res erant usui ex continenti comportari iubebat <br> <small> Caes.Gal.4.31.2 <br> Pois tanto acarreava diariamente trigo dos campos para o acampamento, como utilizava a madeira e o bronze daqueles navios que tinham sido gravissimamente golpeados para refazer as restantes e ordenava que fosse transportado do continente oque era de utilidade para essas coisas. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-97-116-101-114-105-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 6.87 and an absolute frequency of 2. The Phaedrus subcorpus follows, with a normalized frequency of 3.04 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 4 ; absolute frequency: 1.51068811843795. subcorpus: Cicero ; normalized frequency: 2 ; absolute frequency: 0.124591961326655. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 10 ; absolute frequency: 1.86633321513223. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-97-116-101-114-105-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.didática subcorpus registers the highest normalized frequency, with the value of 1.7 and an absolute frequency of 2. The Prosa.filosófica subcorpus follows, with a normalized frequency of 1.65 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 6 ; absolute frequency: 1.46060030672606. subcorpus: Prosa.filosófica ; normalized frequency: 10 ; absolute frequency: 1.64741931763892. subcorpus: Prosa.oratória ; normalized frequency: 1 ; absolute frequency: 0.0960125968527071. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-97-116-101-114-105-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The I.d.C. subcorpus follows, with a normalized frequency of 1.84 and an absolute frequency of 12. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 6 ; absolute frequency: 0.279264603211543. subcorpus: I.d.C. ; normalized frequency: 12 ; absolute frequency: 1.83570445158329. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,204 @@
+---
+title: "confiteor"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-111-110-102-105-116-101-111-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>confitĕor</b> <b>-éris</b> <b>-fitéri</b> <b>-féssus sum</b> <br> <small>v. dep. tr.</small> <br> <small>Obs.: Constrói-se com acus. ou com duplo acus.como: confitere se victos "confessarem-se vencidos", e ainda com acus. e inf. Inf. pass. arc. confiterier Plaut. Cis. 170.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Reconhecer sua falta, seu erro, confessar, declarar &ensp; <small>Cíc. Nat: 2, II.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Indicar, mostrar, revelar, fazer conhecer &ensp; <small>Verg. En. 2, 591.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Confiteor</b> -<b>eris</b> -<b>essus sum</b> -<b>eri</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; confessar. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Confiteor</b> -<b>eris</b> -<b>essus sum</b>   <p> <b>1</b> &ensp; confessar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/95769 ' target="_blank"> http://lila-erc.eu/data/id/lemma/95769 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação depoente (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> confiteor </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz passiva </small><br>
+; <b> confiteri </b>&emsp;<small> presente | infinitivo | passivo </small><br>
+; <b> confitebitur </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz passiva </small><br>
+; <b> confessum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> confessurum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+confĭtĕor 
+ confĭtēris 
+ confĭtērī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-111-110-102-105-116-101-111-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-111-110-102-105-116-101-111-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword confiteor here are all the values plotted: collocate: reus; scoreSUBST: 2. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-111-110-102-105-116-101-111-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword confiteor here are all the values plotted: collocate: reus; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-111-110-102-105-116-101-111-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword confiteor here are all the values plotted: collocate: reus; scoreVERBO: 0. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-111-110-102-105-116-101-111-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword confiteor here are all the values plotted: collocate: reus; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-111-110-102-105-116-101-111-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword confiteor here are all the values plotted: collocate: reus; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Saepe impetravit veniam <b>confessus</b> reus : <br> <small> Phaed.3.ep <br> Muitas vezes obteve o perdão o réu confesso. <small> [JDD] </small> </small> </p>
+; <p> recitatae sunt tabellae in eandem fere sententiam <b>confessus</b> est <br> <small> Cic.Catil.3.10.16 <br> As tabuinhas foram lidas quase no mesmo sentido; confessou. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-111-110-102-105-116-101-111-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 3.04 and an absolute frequency of 2. The Cicero subcorpus follows, with a normalized frequency of 2.8 and an absolute frequency of 45. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 45 ; absolute frequency: 2.80331912984974. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 3 ; absolute frequency: 0.559899964539669. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-111-110-102-105-116-101-111-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 4.03 and an absolute frequency of 42. The Poesia.épica subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 2 ; absolute frequency: 0.486866768908688. subcorpus: Prosa.filosófica ; normalized frequency: 3 ; absolute frequency: 0.494225795291676. subcorpus: Prosa.oratória ; normalized frequency: 42 ; absolute frequency: 4.0325290678137. subcorpus: Prosa.epistolográfica ; normalized frequency: 3 ; absolute frequency: 0.794933623042476. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-111-110-102-105-116-101-111-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 2.25 and an absolute frequency of 1. The I.a.C. subcorpus follows, with a normalized frequency of 2.19 and an absolute frequency of 47. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 47 ; absolute frequency: 2.18757272515709. subcorpus: I.d.C. ; normalized frequency: 5 ; absolute frequency: 0.764876854826373. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

@@ -1,0 +1,207 @@
+---
+title: "conor"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-111-110-111-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>cōnor</b> <b>-áris, -árí, -átus sum</b> <br> <small>v. dep. tr.</small> <br> <small>Obs.: Constrói-se com acus., com inf., com si Cés. B. Gal. 1. 8, 4.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Pôr-se em marcha &ensp; <small>Ter. Phorm. 52; T. Lív. 45, 23, 15.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado;</small> &ensp; Empreender, tentar, ensaiar &ensp; <small>Cíc Or. 33.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Conor</b> -<b>aris</b> -<b>atus sum</b> -<b>ari</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; pertender, esforçar-se, fazer diligencia. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>conari aliquid fallaciae &ensp; <small><small>Ter</small></small> &ensp; <small>Maquinar algum engano</small> <br> conari manibus pedibusque &ensp; <small><small>Ter</small></small> &ensp; <small>Empregar todo o seu poder, fazer o mais que he possivel</small> <br> conari obuiam alicui &ensp; <small><small>sc ire Ter</small></small> &ensp; <small>Pertender ir ao encontro a alguem</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Conor</b> -<b>aris</b>   <p> <b>1</b> &ensp; tentar pera fazer algo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/95962 ' target="_blank"> http://lila-erc.eu/data/id/lemma/95962 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação depoente (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> conor </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz passiva </small><br>
+; <b> conari </b>&emsp;<small> presente | infinitivo | passivo </small><br>
+; <b> conabitur </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz passiva </small><br>
+; <b> conatum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> conaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+cōnor 
+ cōnāris 
+ cōnārī 
+ cōnātus sum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-111-110-111-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-111-110-111-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword conor here are all the values plotted: collocate: transeo; scoreSUBST: 0. collocate: prohibeo; scoreSUBST: 0. collocate: facio; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-111-110-111-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword conor here are all the values plotted: collocate: transeo; scoreADJ: 0. collocate: prohibeo; scoreADJ: 0. collocate: facio; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-111-110-111-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword conor here are all the values plotted: collocate: transeo; scoreVERBO: 3. collocate: prohibeo; scoreVERBO: 2. collocate: facio; scoreVERBO: 2. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-111-110-111-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword conor here are all the values plotted: collocate: transeo; scoreADV: 0. collocate: prohibeo; scoreADV: 0. collocate: facio; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-111-110-111-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword conor here are all the values plotted: collocate: transeo; scoreFUNC: 0. collocate: prohibeo; scoreFUNC: 0. collocate: facio; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>conantes</b> dicere prohibuit et in catenas coniecit <br> <small> Caes.Gal.1.47.6 <br> Impediu-os de tentar falar e colocou-os em correntes. <small> [JDD] </small> </small> </p>
+; <p> illi inquam urbi fortissime <b>conanti</b> e manibus est ereptus Antonius <br> <small> Cic.Phil.12.7.16 <br> Das mãos daquela, eu digo, daquela cidade que com muita valentia tentava, Antônio foi resgatado. <small> [JDD] </small> </small> </p>
+; <p> quod si id ante facere <b>conatus</b> essem nunc facere non possem <br> <small> Cic.Phil.4.1.7 <br> Pois se eu tivesse tentado fazer isso antes, não poderia fazê-lo agora. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> eo opere perfecto praesidia disponit castella communit quo facilius si se inuito transire <b>conarentur</b> prohibere possit <br> <small> Caes.Gal.1.8.2 <br> Concluída essa obra, dispõe postos de guarda, guarnece os redutos para que mais facilmente possa impedir, caso eles tentassem passar sem o consentimento dele. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-111-110-111-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 8.31 and an absolute frequency of 22. The Horatius subcorpus follows, with a normalized frequency of 0.89 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Sallustius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 22 ; absolute frequency: 8.30878465140872. subcorpus: Cicero ; normalized frequency: 46 ; absolute frequency: 2.86561511051307. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 5 ; absolute frequency: 0.933166607566115. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-111-110-111-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 5.36 and an absolute frequency of 22. The Prosa.filosófica subcorpus follows, with a normalized frequency of 1.32 and an absolute frequency of 8. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 22 ; absolute frequency: 5.35553445799557. subcorpus: Prosa.filosófica ; normalized frequency: 8 ; absolute frequency: 1.31793545411113. subcorpus: Prosa.oratória ; normalized frequency: 39 ; absolute frequency: 3.74449127725558. subcorpus: Prosa.epistolográfica ; normalized frequency: 3 ; absolute frequency: 0.794933623042476. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-111-110-111-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 3.21 and an absolute frequency of 69. The I.a.C. subcorpus follows, with a normalized frequency of 3.21 and an absolute frequency of 69. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 69 ; absolute frequency: 3.21154293693274. subcorpus: I.d.C. ; normalized frequency: 8 ; absolute frequency: 1.2238029677222. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

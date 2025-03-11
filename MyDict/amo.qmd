@@ -1,0 +1,218 @@
+---
+title: "amo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-109-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>amābō</b> <br> <small>fut. de amo, empregado como expressão de cortesia:</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Por favor, por mercê &ensp; <small>Cic. At. 2, 2, I.</small> </p> 
+ <b>amāsso</b> <br> <small>= amavèro, fut. perf. de amo Plaut.Cas. 1.001.</small> <br> <small></small> 
+ <b>amō</b> <b>-ás</b> <b>-áre</b> <b>-áví, -átum</b> <br> <small>v. tr.</small> <br> <small>Obs.: I Notem-se as locuções: a ita me dii ament amabunt Ter. Hec. 579 «pelo amor dos deuses, com firme certeza, sem dúvida» fórmula de juramento: b amabo te, ou simplesmente, amabo: por favor, por mercê Cíc. At. 2, 2, 1. 2 Constrói-se com acus. com infinitivo, com oração infinitiva, ou ainda, intransitivamente no significado 2. Fut. Perf. arc. amasso = amavero Plaut. Mil. 1.007.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Amar, querer bern, estimar, gostar de &ensp; <small>usado com referência às pessoas, aos deuses, ou às coisas Cíc. Lae. 10.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Estar apaixonado por, ter uma amante, ter uma namorada &ensp; <small>Cíc. Verr. 5, 82.</small> <br> <b>3</b> &ensp; <small>Na linguagem poética:</small> &ensp; Amar, gostar de &ensp; <small>Hor. O. I, 2, 50.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Amo</b> -<b>as</b> -<b>avi</b> -<b>atum</b> -<b>are</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; amar, querer bem. </p>
+
+
+
+
+#### Velez
+
+<b>Amo</b> -<b>as</b>   <p> <b>1</b> &ensp; amar com affeiçaõ <br> <b>3</b> &ensp; <small>amat pro Solet</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>3</b><br>amat fieri &ensp; <small>costuma-se fazer</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Amo</b> -<b>as</b> -<b>aui</b> -<b>atum</b>   <p> <b>1</b> &ensp; amar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/88705 ' target="_blank"> http://lila-erc.eu/data/id/lemma/88705 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> amo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> amare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> amabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> amaui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> amatum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> amaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+ămō 
+ ămās 
+ ămāre 
+ ămāvī 
+ ămātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-109-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-109-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword amo here are all the values plotted: collocate: ualde; scoreSUBST: 0. collocate: tantum; scoreSUBST: 0. collocate: nos; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: tu; scoreSUBST: 0. collocate: ipse; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-109-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword amo here are all the values plotted: collocate: ualde; scoreADJ: 0. collocate: tantum; scoreADJ: 0. collocate: nos; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: tu; scoreADJ: 0. collocate: ipse; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-109-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword amo here are all the values plotted: collocate: ualde; scoreVERBO: 0. collocate: tantum; scoreVERBO: 0. collocate: nos; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: tu; scoreVERBO: 0. collocate: ipse; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-109-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword amo here are all the values plotted: collocate: ualde; scoreADV: 2. collocate: tantum; scoreADV: 2. collocate: nos; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: tu; scoreADV: 0. collocate: ipse; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-109-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword amo here are all the values plotted: collocate: ualde; scoreFUNC: 0. collocate: tantum; scoreFUNC: 0. collocate: nos; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: tu; scoreFUNC: 0. collocate: ipse; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> multum te <b>amamus</b> <br> <small> Cic.Att.1.1.5 <br> Te estimo muito. <small> [JDD] </small> </small> </p>
+; <p> hunc tu non <b>ames</b> <br> <small> Cic.Att.4.19.2 <br> Tu não amarias este homem? <small> [JDD] </small> </small> </p>
+; <p> perfer si me <b>amas</b> <br> <small> Cic.Att.5.21.7 <br> Tolera, se me estimas. <small> [JDD] </small> </small> </p>
+; <p> saluti si me <b>amas</b> consule <br> <small> Cic.Att.2.19.1 <br> Olha por tua salvação, se me estimas.” <small> [JDD] </small> </small> </p>
+; <p> Pompeius <b>amat</b> nos carosque habet <br> <small> Cic.Att.2.20.1 <br> Pompeu me estima e me tem como querido. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> cura <b>amabo</b> te Ciceronem nostrum <br> <small> Cic.Att.2.2.1 <br> Cuida, por favor, do nosso Cícero. <small> [JDD] </small> </small> </p>
+; <p> <b>amamur</b> a fratre et a filia <br> <small> Cic.Att.4.2.7 <br> Somos amados por meu irmão e por minha filha. <small> [JDD] </small> </small> </p>
+; <p> ex ea die si me <b>amas</b> παράπηγμα ἐνιαύσιον commoveto <br> <small> Cic.Att.5.14.1 <br> A partir desse dia, se gostas de mim, move o teu calendário. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ego autem ne irasci possum quidem iis quos valde <b>amo</b> <br> <small> Cic.Att.2.19.1 <br> Eu, por minha vez, não consigo nem sequer irritar-me com os que realmente estimo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ab his ergo inuiti homines recedunt et mercedem miseriarum <b>amant</b> ipsas execrantur <br> <small> Sen.Ep.22.9 <br> Destas coisas os homens se retiram contra a vontade e amam a recompensa das misérias, elas próprias são execradas. <small> [JDD] </small> </small> </p>
+; <p> tantum te oro ut quoniam me ipsum semper <b>amasti</b> ut eodem amore sis <br> <small> Cic.Att.3.5 <br> Te peço somente que, já que sempre me estimaste, que continues com a mesma estima. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-109-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Ovidius subcorpus registers the highest normalized frequency, with the value of 10.3 and an absolute frequency of 6. The Horatius subcorpus follows, with a normalized frequency of 8.88 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 86 ; absolute frequency: 5.35745433704617. subcorpus: Horatius ; normalized frequency: 10 ; absolute frequency: 8.88020602077968. subcorpus: Ovidius ; normalized frequency: 6 ; absolute frequency: 10.2951269732327. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 19 ; absolute frequency: 3.54603310875124. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-109-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 16.16 and an absolute frequency of 61. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 16.16 and an absolute frequency of 61. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 2 ; absolute frequency: 0.486866768908688. subcorpus: Prosa.filosófica ; normalized frequency: 33 ; absolute frequency: 5.43648374820843. subcorpus: Prosa.oratória ; normalized frequency: 11 ; absolute frequency: 1.05613856537978. subcorpus: Prosa.epistolográfica ; normalized frequency: 61 ; absolute frequency: 16.163650335197. subcorpus: Poesia.lírica ; normalized frequency: 11 ; absolute frequency: 9.25380667956591. subcorpus: Poesia.didática ; normalized frequency: 8 ; absolute frequency: 6.78598693697515. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-109-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 4.56 and an absolute frequency of 98. The I.a.C. subcorpus follows, with a normalized frequency of 4.56 and an absolute frequency of 98. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 98 ; absolute frequency: 4.5613218524552. subcorpus: I.d.C. ; normalized frequency: 27 ; absolute frequency: 4.13033501606241. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

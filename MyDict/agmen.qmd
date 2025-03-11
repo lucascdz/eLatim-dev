@@ -1,0 +1,198 @@
+---
+title: "agmen"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-103-109-101-110xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>agmen</b> <b>-ìnis</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio-Movimento para frente:</small> &ensp; Marcha, curso, movimento: &ensp; <small></small> <br> <b>2</b> &ensp; <small>II-Na língua militar</small> &ensp; Exército em marcha, fileira, coluna: &ensp; <small></small> <br> <b>3</b> &ensp; <small>III-Daí, na língua comum:</small> &ensp; Multidão em marcha, multidão &ensp; <small>T. Lív. 6, 38, 5.</small> <br> <b>4</b> &ensp; <small>III-No pl.</small> &ensp; tropas, esquadrão &ensp; <small>Verg. En. 1, 490.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>leni f1uit agmine Thybris Verg. En. 2, 782 «o Tibre corre num curso calmo». <br> <br><b>2</b><br>ordo agminis Cés. B. Gal. 2, 19, 1 «ordem do exército em marcha»; primum agmen Cés. B. Gal. 1, 15, 5 «a vanguarda»: novissimum agmen Cés. B. Gal. 1, 15, 2 «a retaguarda»: agmen constituere Sa1. B. Jug. 49, 5 «fazer alto»: lentum agmen Tác. Hist. 2, 99 «marcha lenta». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Agmen</b> -<b>inis</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Virg.</small> &ensp; multidão, exercito, esquadrão, tropa, principalmente de soldados. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>agmina caudae &ensp; <small><small>Virg</small></small> &ensp; <small>Roscas na cauda da serpente</small> </p>
+
+
+
+
+#### Velez
+
+<b>Agmen</b> -<b>inis</b>   <p> <b>1</b> &ensp; multidaõ, ou esquadraõ de gente, ou exercito <br> <b>2</b> &ensp; <small>interdum impetum significat</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>leni fluit agmine Thybris </p>
+
+
+
+
+#### Cardoso
+
+<b>Agmen</b> <b>inis</b>   <p> <b>1</b> &ensp; a companha de gente </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/88106 ' target="_blank"> http://lila-erc.eu/data/id/lemma/88106 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+agmĕn 
+ agmĭnis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-103-109-101-110xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-103-109-101-110xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword agmen here are all the values plotted: collocate: nouus; scoreSUBST: 0. collocate: noster; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-103-109-101-110xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword agmen here are all the values plotted: collocate: nouus; scoreADJ: 3. collocate: noster; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-103-109-101-110xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword agmen here are all the values plotted: collocate: nouus; scoreVERBO: 0. collocate: noster; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-103-109-101-110xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword agmen here are all the values plotted: collocate: nouus; scoreADV: 0. collocate: noster; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-103-109-101-110xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword agmen here are all the values plotted: collocate: nouus; scoreFUNC: 0. collocate: noster; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> prima luce confirmata re ab exploratoribus omnem equitatum qui nouissimum <b>agmen</b> moraretur praemisit <br> <small> Caes.Gal.2.11.3 <br> À primeira luz, confirmado o fato por seus batedores, envia antecipadamente toda a cavalaria para que retardasse a última tropa. <small> [JDD] </small> </small> </p>
+; <p> his rebus cum iter <b>agminis</b> nostri impediretur non omittendum sibi consilium Neruii existimauerunt <br> <small> Caes.Gal.2.17.5 <br> Como com essas coisas fosse impedido o caminho de nossa tropa, os nérvios estimaram que não deviam deixar de lado o plano. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-103-109-101-110xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 9.65 and an absolute frequency of 5. The Caesar subcorpus follows, with a normalized frequency of 6.8 and an absolute frequency of 18. the subcorpus with the least normalized frequency is Cicero with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 18 ; absolute frequency: 6.79809653297077. subcorpus: Cicero ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 4 ; absolute frequency: 0.746533286052892. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-103-109-101-110xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 9.65 and an absolute frequency of 5. The Prosa.histórica subcorpus follows, with a normalized frequency of 4.38 and an absolute frequency of 18. the subcorpus with the least normalized frequency is Prosa.oratória with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 18 ; absolute frequency: 4.38180092017819. subcorpus: Prosa.filosófica ; normalized frequency: 2 ; absolute frequency: 0.329483863527784. subcorpus: Prosa.oratória ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-103-109-101-110xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 1.07 and an absolute frequency of 23. The I.a.C. subcorpus follows, with a normalized frequency of 1.07 and an absolute frequency of 23. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 23 ; absolute frequency: 1.07051431231091. subcorpus: I.d.C. ; normalized frequency: 4 ; absolute frequency: 0.611901483861098. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

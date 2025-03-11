@@ -1,0 +1,217 @@
+---
+title: "nam"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-97-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>nam</b> <br> <small></small> <br> <small>Obs.: 1 Nam é uma partícula de sentido afirmativo como enim. Com mais frequência, porém, serve para introduzir um novo desenvolvimento, uma confirmação especial, ou uma explicação, justificação, ou exemplos em apoio de uma afirmação precedente. 2 -nam, enclítica, acrescenta-se a pronomes ou a uma partícula de caráter interrogativo ou indefinido, para reforçar a indeterminação: quisnan, ubinam. 3 Normalmente nam coloca-se no início da frase. Entretanto, principalmente nos cômicos, é costume aparecer depois da primeira, ou até de várias palavras da oração.</small>   <p> <b>1</b> &ensp; <small>I-Partic. afirmativa:</small> &ensp; De fato, em Verdade, realmente, com efeito &ensp; <small>Plaut. Caso 196.</small> <br> <b>2</b> &ensp; <small>I-Partic. afirmativa:</small> &ensp; Pois, porque &ensp; <small>Cíc. Nat. 3. 13.</small> <br> <b>3</b> &ensp; <small>I-Partic. afirmativa:</small> &ensp; Quanto a, por exemplo, assim &ensp; <small>Cíc. Of. 2, 47.</small> <br> <b>4</b> &ensp; <small>II-Conj.:</small> &ensp; De fato, realmente &ensp; <small>Cíc. Leg. 2, 17.</small> <br> <b>5</b> &ensp; <small>II-Conj.:</small> &ensp; Pois, porque, por isso que &ensp; <small>Cés. B. Gal. 1, 12, 4.</small> <br> <b>6</b> &ensp; <small>II-Conj.:</small> &ensp; Assim, por exemplo &ensp; <small>Cíc. Br. 81.</small> <br> <b>7</b> &ensp; <small>II-Conj.:</small> &ensp; Pois, com efeito &ensp; <small>Cíc. De Or. 3, 192.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Nam</b> <br> <small>conjunc.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; porque. </p>
+
+
+
+
+#### Velez
+
+<b>Nam</b>   <p> <b>1</b> &ensp; porque, certamente, mas </p>
+
+
+
+
+#### Cardoso
+
+<b>Nam</b> <br> <small>coniunctiones.</small>   <p> <b>1</b> &ensp; porque </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/113344 ' target="_blank"> http://lila-erc.eu/data/id/lemma/113344 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> namque <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-97-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword nam here are all the values plotted: collocate: si; scoreSUBST: 0. collocate: ceterus; scoreSUBST: 0. collocate: quod; scoreSUBST: 0. collocate: et2; scoreSUBST: 0. collocate: ut; scoreSUBST: 0. collocate: cum; scoreSUBST: 0. collocate: quoad; scoreSUBST: 0. collocate: quis; scoreSUBST: 0. collocate: rex; scoreSUBST: 2. collocate: profecto; scoreSUBST: 0. collocate: Cato; scoreSUBST: 0. collocate: cum3; scoreSUBST: 0. collocate: sic; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: de; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-97-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword nam here are all the values plotted: collocate: si; scoreADJ: 0. collocate: ceterus; scoreADJ: 0. collocate: quod; scoreADJ: 0. collocate: et2; scoreADJ: 0. collocate: ut; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: quoad; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: rex; scoreADJ: 0. collocate: profecto; scoreADJ: 0. collocate: Cato; scoreADJ: 0. collocate: cum3; scoreADJ: 0. collocate: sic; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: de; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-97-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword nam here are all the values plotted: collocate: si; scoreVERBO: 0. collocate: ceterus; scoreVERBO: 0. collocate: quod; scoreVERBO: 0. collocate: et2; scoreVERBO: 0. collocate: ut; scoreVERBO: 0. collocate: cum; scoreVERBO: 0. collocate: quoad; scoreVERBO: 0. collocate: quis; scoreVERBO: 0. collocate: rex; scoreVERBO: 0. collocate: profecto; scoreVERBO: 0. collocate: Cato; scoreVERBO: 0. collocate: cum3; scoreVERBO: 0. collocate: sic; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: de; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-97-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword nam here are all the values plotted: collocate: si; scoreADV: 0. collocate: ceterus; scoreADV: 0. collocate: quod; scoreADV: 0. collocate: et2; scoreADV: 2. collocate: ut; scoreADV: 0. collocate: cum; scoreADV: 0. collocate: quoad; scoreADV: 2. collocate: quis; scoreADV: 0. collocate: rex; scoreADV: 0. collocate: profecto; scoreADV: 2. collocate: Cato; scoreADV: 0. collocate: cum3; scoreADV: 2. collocate: sic; scoreADV: 2. collocate: ego; scoreADV: 0. collocate: de; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-97-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword nam here are all the values plotted: collocate: si; scoreFUNC: 30. collocate: ceterus; scoreFUNC: 0. collocate: quod; scoreFUNC: 20. collocate: et2; scoreFUNC: 0. collocate: ut; scoreFUNC: 20. collocate: cum; scoreFUNC: 20. collocate: quoad; scoreFUNC: 0. collocate: quis; scoreFUNC: 0. collocate: rex; scoreFUNC: 0. collocate: profecto; scoreFUNC: 0. collocate: Cato; scoreFUNC: 0. collocate: cum3; scoreFUNC: 0. collocate: sic; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: de; scoreFUNC: 10. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>nam</b> Cato aegrotat <br> <small> Cic.Att.4.17.4 <br> pois Catão está doente. <small> [JDD] </small> </small> </p>
+; <p> <b>nam</b> ego dissensi <br> <small> Cic.Att.2.1.8 <br> pois eu discordei. <small> [JDD] </small> </small> </p>
+; <p> <b>nam</b> quid agis aliud <br> <small> Cic.Lig.11 <br> Pois que outra coisa buscas? <small> [JDD] </small> </small> </p>
+; <p> <b>nam</b> ceteri dolores mitigantur vetustate <br> <small> Cic.Att.3.15.2 <br> Pois as demais dores são mitigadas com o passar do tempo. <small> [JDD] </small> </small> </p>
+; <p> <b>nam</b> ad me non accessit <br> <small> Cic.Att.5.2.2 <br> pois não veio à minha casa. <small> [JDD] </small> </small> </p>
+; <p> <b>nam</b> castellum munitum habitanti mihi prodesset <br> <small> Cic.Att.3.7.1 <br> Um castelo fortificado me seria útil para morar. <small> [JDD] </small> </small> </p>
+; <p> <b>nam</b> si tacetur perdere se putant operam <br> <small> Sen.Ep.122.14 <br> pois se é silenciada, eles acham que estão perdendo tempo. <small> [JDD] </small> </small> </p>
+; <p> <b>nam</b> quid foedius nostra vita praecipue mea <br> <small> Cic.Att.4.6.1 <br> Pois o que há de mais ignominioso do que nossa vida, especialmente a minha? <small> [JDD] </small> </small> </p>
+; <p> <b>nam</b> de ipso casu nescio an illud melius <br> <small> Cic.Att.4.8A.2 <br> Pois a respeito do caso em si, não sei se aquilo foi melhor. <small> [JDD] </small> </small> </p>
+; <p> <b>Nam</b> et medium quoddam officium dicitur et perfectum <br> <small> Cic.Off.1.8 <br> Pois um dever é dito médio e outro, perfeito. <small> [JDD] </small> </small> </p>
+; <p> <b>nam</b> si utilitas amicitias conglutinaret eadem commutata dissolueret <br> <small> Cic.Amici.32 <br> Pois se a utilidade unisse as amizades, ela mesma, mudada, as dissolveria. <small> [JDD] </small> </small> </p>
+; <p> <b>nam</b> si id esset nulla fere abrogari posset <br> <small> Cic.Att.3.23.2 <br> Com efeito, se fosse assim, praticamente nenhuma poderia ser revogada. <small> [JDD] </small> </small> </p>
+; <p> <b>nam</b> ut illi auderent hoc postulare Crassus eos impulit <br> <small> Cic.Att.1.17.9 <br> pois quando eles se atreveram a pedir isso, Crasso os impulsionou. <small> [JDD] </small> </small> </p>
+; <p> <b>nam</b> de ceteris sed tamen commode quod cum Scrofa <br> <small> Cic.Att.5.4.2 <br> Pois quanto aos outros - mas ótimo o que tratasta com Escrofa. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>nam</b> concordiam ciuium qui habere potest nullam cum habeat ciuitatem <br> <small> Cic.Phil.4.14.8 <br> ora, como ele pode ter a concórdia dos cidadãos, se não tem nenhuma cidade? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>nam</b> ne absens censeare curabo edicendum et proponendum locis omnibus <br> <small> Cic.Att.1.18.8 <br> E, para que não sejas censeado como ausente, cuidarei de dar a notícia e divulgá-la por todos os lugares. <small> [JDD] </small> </small> </p>
+; <p> <b>nam</b> profecto spem habes nullam haec negotia multarum nundinarum fore <br> <small> Cic.Att.4.17.4 <br> pois com certeza não tens nenhuma esperança de que estes negócios durarão muitos dias de mercado. <small> [JDD] </small> </small> </p>
+; <p> <b>nam</b> ut aliarum nobis rerum innata dulcedo est sic amicitiae <br> <small> Sen.Ep.9.17 <br> pois assim como a doçura das outras coisas nos é inata, assim também a da amizade. <small> [JDD] </small> </small> </p>
+; <p> ob hoc in infante quoque non est <b>nam</b> et huic deest <br> <small> Sen.Ep.124.8 <br> Por isso num bebê também não está; pois também lhe falta [a razão]. <small> [JDD] </small> </small> </p>
+; <p> <b>nam</b> de raudusculo quod scribis μήπω μέγ’ εἴπῃς πρὶν τελευτήσαντ’ ἴδῃς <br> <small> Cic.Att.4.8.1 <br> Pois o que escreves sobre a pequena dívida, “não grites até que estejas fora do bosque”. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>nam</b> inter cetera mala illud pessimum est quod uitia ipsa mutamus <br> <small> Sen.Ot.1.2 <br> Com efeito, entre os demais males, o pior é que mudamos os próprios vícios. <small> [JDD] </small> </small> </p>
+; <p> <b>nam</b> regibus boni quam mali suspectiores sunt semperque eis aliena uirtus formidulosa est <br> <small> Sal.Cat.7.2 <br> Pois para os reis os bons são mais suspeitos do que os maus, e o mérito alheio é sempre temível para eles. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>nam</b> cum graue est uere accusari in amicitia tum etiam si falso accuseris non est neglegendum <br> <small> Cic.Mur.7 <br> Pois, se, na amizade, é duro ser acusado justamente, também não se deve ficar indiferente se fores acusado injustamente. <small> [JDD] </small> </small> </p>
+; <p> <b>nam</b> quoad aetas M. Caeli dare potuit isti suspicioni locum fuit primum ipsius pudore deinde etiam patris diligentia disciplinaque munita <br> <small> Cic.Cael.9 <br> Pois até que a idade de Marco Célio pôde dar margem a essa suspeita, ela foi defendida primeiramente por seu próprio recato, depois também pelo atento cuidado e disciplina de seu pai. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-97-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 44.1 and an absolute frequency of 4. The Sallustius subcorpus follows, with a normalized frequency of 35.25 and an absolute frequency of 38. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: Caesar ; normalized frequency: 30 ; absolute frequency: 11.3301608882846. subcorpus: Cicero ; normalized frequency: 278 ; absolute frequency: 17.3182826244051. subcorpus: Horatius ; normalized frequency: 33 ; absolute frequency: 29.304679868573. subcorpus: Ovidius ; normalized frequency: 5 ; absolute frequency: 8.57927247769389. subcorpus: Phaedrus ; normalized frequency: 9 ; absolute frequency: 13.6632761499924. subcorpus: Sallustius ; normalized frequency: 38 ; absolute frequency: 35.2471941378351. subcorpus: Seneca ; normalized frequency: 55 ; absolute frequency: 10.2648326832273. subcorpus: Suetonius ; normalized frequency: 4 ; absolute frequency: 44.1014332965821. subcorpus: Tacitus ; normalized frequency: 5 ; absolute frequency: 17.164435290079. subcorpus: Vergilius ; normalized frequency: 12 ; absolute frequency: 23.1660231660232. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-97-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 28.88 and an absolute frequency of 109. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 28.88 and an absolute frequency of 109. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 77 ; absolute frequency: 18.7443706029845. subcorpus: Prosa.filosófica ; normalized frequency: 78 ; absolute frequency: 12.8498706775836. subcorpus: Prosa.oratória ; normalized frequency: 141 ; absolute frequency: 13.5377761562317. subcorpus: Prosa.epistolográfica ; normalized frequency: 109 ; absolute frequency: 28.8825883038766. subcorpus: Poesia.lírica ; normalized frequency: 33 ; absolute frequency: 27.7614200386977. subcorpus: Poesia.didática ; normalized frequency: 14 ; absolute frequency: 11.8754771397065. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 12 ; absolute frequency: 23.1660231660232. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-97-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 23.56 and an absolute frequency of 9. The I.a.C. subcorpus follows, with a normalized frequency of 18.2 and an absolute frequency of 391. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 391 ; absolute frequency: 18.1987433092855. subcorpus: I.d.C. ; normalized frequency: 69 ; absolute frequency: 10.5553005966039. subcorpus: II.d.C. ; normalized frequency: 9 ; absolute frequency: 23.5602094240838. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

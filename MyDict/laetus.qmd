@@ -1,0 +1,194 @@
+---
+title: "laetus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx108-97-101-116-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>laetus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small>Obs.: Constrói-se absolt.: com abl.; com gen.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio língua rústica</small> &ensp; Gordo tratando-se de animais, do leite, da terra, fértil tratando-se das searas, bem tratado, nédio: &ensp; <small></small> <br> <b>2</b> &ensp; <small>II-Sents. diversos: Na língua augural</small> &ensp; Que promete abundância ou prosperidade, favorável, propício, venturoso, feliz &ensp; <small>Tác. Hist. 1, 62.</small> <br> <b>3</b> &ensp; <small>II-Na língua retórica:</small> &ensp; Florido, ornado &ensp; <small>Cíc. De Oro 1, 81.</small> <br> <b>4</b> &ensp; <small>II-Na língua comum sent. genérico:</small> &ensp; Alegre, contente, satisfeito &ensp; <small>Cíc. At. 8, 9. 2.</small> <br> <b>5</b> &ensp; <small>II-Na língua comum sent. genérico:</small> &ensp; Agradável, que apraz a &ensp; <small>Tác. His!. 4. 68.</small> <br> <b>6</b> &ensp; <small>II-Na língua comum sent. genérico:</small> &ensp; Que tem um aspecto risonho, aprazível &ensp; <small>Cíc. De Or. 3, 155.</small> <br> <b>7</b> &ensp; <small>II-Na língua comum sent. genérico:</small> &ensp; Fértil, fecundo, abundante, rico: &ensp; <small></small> <br> <b>8</b> &ensp; <small>II-Na língua comum sent. genérico:</small> &ensp; Belo: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>laetas segetes Verg. G. 1. 1 “colheitas férteis”. <br> <br><b>7</b><br>lucus laetissimus umbrae Verg. En. 1, 441 “bosque bastante sombreado”. <br> <br><b>8</b><br>laeta armenta Verg. En. 3, 220 “belos rebanhos”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Laetus</b> -<b>a</b> -<b>um</b> -<b>tior</b> -<b>tissimus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; alegre, prazenteiro, contente, que mostra exteriormente alegria. <br> <b>2</b> &ensp; <small>Ovid.</small> &ensp; feliz, venturoso. <br> <b>3</b> &ensp; <small>Plaut.</small> &ensp; favoravel, propicio. <br> <b>4</b> &ensp; <small>Virg.</small> &ensp; fecundo, fertil. </p>
+
+
+
+
+#### Velez
+
+<b>Laetus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa alegre, e jucunda </p>
+
+
+
+
+#### Cardoso
+
+<b>Laetus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa alegre </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/109739 ' target="_blank"> http://lila-erc.eu/data/id/lemma/109739 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quo senatus die <b>laetior</b> quo populus Romanus <br> <small> Cic.Phil.1.32.1 <br> Em que dia esteve o senado mais feliz, em que dia o povo romano. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx108-97-101-116-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 23.17 and an absolute frequency of 12. The Tacitus subcorpus follows, with a normalized frequency of 10.3 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 12 ; absolute frequency: 0.747551767959931. subcorpus: Horatius ; normalized frequency: 6 ; absolute frequency: 5.32812361246781. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 25 ; absolute frequency: 4.66583303783057. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 12 ; absolute frequency: 23.1660231660232. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx108-97-101-116-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 23.17 and an absolute frequency of 12. The Poesia.trágica subcorpus follows, with a normalized frequency of 7.82 and an absolute frequency of 9. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 5 ; absolute frequency: 1.21716692227172. subcorpus: Prosa.filosófica ; normalized frequency: 19 ; absolute frequency: 3.13009670351395. subcorpus: Prosa.oratória ; normalized frequency: 9 ; absolute frequency: 0.864113371674364. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 9 ; absolute frequency: 7.81792911744267. subcorpus: Poesia.épica ; normalized frequency: 12 ; absolute frequency: 23.1660231660232. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx108-97-101-116-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 7.85 and an absolute frequency of 3. The I.d.C. subcorpus follows, with a normalized frequency of 4.28 and an absolute frequency of 28. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 32 ; absolute frequency: 1.48941121712823. subcorpus: I.d.C. ; normalized frequency: 28 ; absolute frequency: 4.28331038702769. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

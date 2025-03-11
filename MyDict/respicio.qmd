@@ -1,0 +1,209 @@
+---
+title: "respicio"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx114-101-115-112-105-99-105-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>respēxī</b> <br> <small>perf. de respicìo.</small> <br> <small></small> 
+ <b>respēxis</b> <br> <small>forma arcaica sincopada de respexèris Plaut. Aul. 58</small> <br> <small></small> 
+ <b>respicĭō</b> <b>-is</b> <b>-ère</b> <b>-spéxí, -spéctum</b> <br> <small>v. intr. e tr.</small> <br> <small>Obs.: respexis = respexeris Plaut. Aul. 58.</small>   <p> <b>1</b> &ensp; <small>A-Intr.-Sent. próprio:</small> &ensp; Olhar para trás, volver os olhos para &ensp; <small>Cíc. Div. 1, 73; Cés. B. Gal. 5, 43, 4.</small> <br> <b>2</b> &ensp; <small>A-Intr.-Sent. figurado:</small> &ensp; Olhar com atenção, volver a atenção, examinar, ponderar, ter respeito a &ensp; <small>Cíc, Verr. 3, 26.</small> <br> <b>3</b> &ensp; <small>B-Tr.-Sent. próprio:</small> &ensp; Olhar para, voltar-se para olhar &ensp; <small>Cés. B, Gal. 3, 91, 3.</small> <br> <b>4</b> &ensp; <small>B-Tr.-Sent. próprio:</small> &ensp; Olhar por, proteger &ensp; <small>Ter. Phorm. 817.</small> <br> <b>5</b> &ensp; <small>B-Tr.-Sent. próprio:</small> &ensp; Esperar, aguardar, sonhar &ensp; <small>T. Lív. 4, 17, 5.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Respexim</b> -<b>is</b> -<b>it</b> <br> <small>Plaut. por Respexerim, is, it.</small> 
+ <b>Respicio</b> -<b>is</b> -<b>exi</b> -<b>ectum</b> -<b>ere</b>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Respicio</b> <b>is</b> <b>exi</b> -<b>ctum</b>   <p> <b>1</b> &ensp; olhar pera tras. ou fauorecer </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/122736 ' target="_blank"> http://lila-erc.eu/data/id/lemma/122736 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 5ª conjugação (tema em -ĭ- breve) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> respicio </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> respicere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> respiciet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> respexi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> respectum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> respecturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+respexī 
+ respĭcĭō 
+ respĭcis 
+ respĭcĕre
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx114-101-115-112-105-99-105-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx114-101-115-112-105-99-105-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword respicio here are all the values plotted: collocate: ad; scoreSUBST: 0. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx114-101-115-112-105-99-105-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword respicio here are all the values plotted: collocate: ad; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx114-101-115-112-105-99-105-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword respicio here are all the values plotted: collocate: ad; scoreVERBO: 0. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx114-101-115-112-105-99-105-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword respicio here are all the values plotted: collocate: ad; scoreADV: 0. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx114-101-115-112-105-99-105-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword respicio here are all the values plotted: collocate: ad; scoreFUNC: 20. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>respice</b> ad matrem decet <br> <small> Sen.Ag.52 <br> Olha para tua mãe: é lícito. <small> [JDD] </small> </small> </p>
+; <p> <b>respice</b> fratres meos quibus saluis fas tibi non est accusare fortunam <br> <small> Sen.Helv.18.1 <br> Olha para os meus irmãos: estando eles a salvo, não te é lícito acusar a sorte. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx114-101-115-112-105-99-105-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 4.29 and an absolute frequency of 23. The Horatius subcorpus follows, with a normalized frequency of 1.78 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 4 ; absolute frequency: 0.24918392265331. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 23 ; absolute frequency: 4.29256639480413. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx114-101-115-112-105-99-105-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 6.08 and an absolute frequency of 7. The Prosa.filosófica subcorpus follows, with a normalized frequency of 2.64 and an absolute frequency of 16. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 1 ; absolute frequency: 0.243433384454344. subcorpus: Prosa.filosófica ; normalized frequency: 16 ; absolute frequency: 2.63587090822227. subcorpus: Prosa.oratória ; normalized frequency: 2 ; absolute frequency: 0.192025193705414. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 7 ; absolute frequency: 6.08061153578874. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx114-101-115-112-105-99-105-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 3.67 and an absolute frequency of 24. The I.a.C. subcorpus follows, with a normalized frequency of 0.33 and an absolute frequency of 7. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 7 ; absolute frequency: 0.3258087037468. subcorpus: I.d.C. ; normalized frequency: 24 ; absolute frequency: 3.67140890316659. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

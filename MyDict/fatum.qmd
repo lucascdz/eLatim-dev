@@ -1,0 +1,198 @@
+---
+title: "fatum"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx102-97-116-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>fātum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Destino. fado &ensp; <small>Cíc. Fat. 28.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Fatalidade. desgraça. ruína. destruição &ensp; <small>Cíc. Div. 2. 20: Cíc. Cat. 2. II.</small> <br> <b>3</b> &ensp; <small>II-Daí</small> &ensp; Tempo fixado pelo destino. morte &ensp; <small>T. Lív. 9, I. 6; T. Lív. 26. 13. 17.</small> <br> <b>4</b> &ensp; <small>II-Daí</small> &ensp; Predição. oráculo &ensp; <small>Cíc. Cat. 3, 9.</small> <br> <b>5</b> &ensp; <small>II-Daí</small> &ensp; As Parcas personificadas: Fata &ensp; <small>Prop. 4,7,51.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Fatum</b> -<b>i</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; fado, destino, providencia, determinação. <br> <b>2</b> &ensp; divina. <br> <b>3</b> &ensp; morte, fatalidade, sucesso inevitavel, tanto feliz, como desgraçado. </p>
+
+
+
+
+#### Velez
+
+<b>Fatum</b>   <p> <b>1</b> &ensp; <small>significat dictum, & jussum Divinum</small> <br> <b>2</b> &ensp; <small>quia Fatum à Poetis accipitur pro fortuna, & morte</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Fatum</b> <b>i</b>   <p> <b>1</b> &ensp; ho fado. i. a vontade de Deos </p> 
+ <b>Fatum</b> <b>i</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/103575 ' target="_blank"> http://lila-erc.eu/data/id/lemma/103575 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> fatom <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+fātum 
+ fātī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx102-97-116-117-109xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>Fatorum</b> arbitrio partes sunt vobis datae : <br> <small> Phaed.3.18 <br> “As qualidades vos foram dadas pelo arbítrio dos fados. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx102-97-116-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 25.1 and an absolute frequency of 13. The Seneca subcorpus follows, with a normalized frequency of 10.64 and an absolute frequency of 57. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 18 ; absolute frequency: 1.1213276519399. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 57 ; absolute frequency: 10.6380993262537. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 13 ; absolute frequency: 25.0965250965251. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx102-97-116-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 33.01 and an absolute frequency of 38. The Poesia.trágica subcorpus follows, with a normalized frequency of 33.01 and an absolute frequency of 38. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 4 ; absolute frequency: 0.973733537817376. subcorpus: Prosa.filosófica ; normalized frequency: 20 ; absolute frequency: 3.29483863527784. subcorpus: Prosa.oratória ; normalized frequency: 17 ; absolute frequency: 1.63221414649602. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 5 ; absolute frequency: 4.20627576343905. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 38 ; absolute frequency: 33.0090340514246. subcorpus: Poesia.épica ; normalized frequency: 13 ; absolute frequency: 25.0965250965251. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx102-97-116-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 9.33 and an absolute frequency of 61. The I.d.C. subcorpus follows, with a normalized frequency of 9.33 and an absolute frequency of 61. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 38 ; absolute frequency: 1.76867582033977. subcorpus: I.d.C. ; normalized frequency: 61 ; absolute frequency: 9.33149762888175. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

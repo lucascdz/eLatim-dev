@@ -1,0 +1,199 @@
+---
+title: "tot"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx116-111-116xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>tot</b> <br> <small>adv.</small> <br> <small>Obs.: Só é empregado com plurais, com objetos cujo número se considera. Pode estar em correlação com quot, quotiens, quantum ou ut consecutivo: quot homines, tot sententiae Cíc. Fin. L 15 «tantos homens, tantas sentenças». i. e.. «tantas cabeças quantas sentenças».</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Tantos, tão grande número &ensp; <small>Cés. B. Gal. 3, 10, 2.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Tot</b> <br> <small>adj. indecl.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; tantos. </p>
+
+
+
+
+#### Velez
+
+<b>Tot</b>   <p> <b>1</b> &ensp; tantos em numero </p>
+
+
+
+
+#### Cardoso
+
+<b>Tot</b> <br> <small>indeclinabile.</small>   <p> <b>1</b> &ensp; tantos </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/128477 ' target="_blank"> http://lila-erc.eu/data/id/lemma/128477 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> pronominal <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+tŏt
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx116-111-116xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword tot here are all the values plotted: collocate: annus; scoreSUBST: 4. collocate: mille; scoreSUBST: 0. collocate: uitium; scoreSUBST: 2. collocate: per; scoreSUBST: 0. collocate: tam; scoreSUBST: 0. collocate: uir; scoreSUBST: 2. collocate: cum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx116-111-116xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword tot here are all the values plotted: collocate: annus; scoreADJ: 0. collocate: mille; scoreADJ: 0. collocate: uitium; scoreADJ: 0. collocate: per; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: uir; scoreADJ: 0. collocate: cum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx116-111-116xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword tot here are all the values plotted: collocate: annus; scoreVERBO: 0. collocate: mille; scoreVERBO: 0. collocate: uitium; scoreVERBO: 0. collocate: per; scoreVERBO: 0. collocate: tam; scoreVERBO: 0. collocate: uir; scoreVERBO: 0. collocate: cum; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx116-111-116xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword tot here are all the values plotted: collocate: annus; scoreADV: 0. collocate: mille; scoreADV: 0. collocate: uitium; scoreADV: 0. collocate: per; scoreADV: 0. collocate: tam; scoreADV: 2. collocate: uir; scoreADV: 0. collocate: cum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx116-111-116xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword tot here are all the values plotted: collocate: annus; scoreFUNC: 0. collocate: mille; scoreFUNC: 0. collocate: uitium; scoreFUNC: 0. collocate: per; scoreFUNC: 20. collocate: tam; scoreFUNC: 0. collocate: uir; scoreFUNC: 0. collocate: cum; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> multi fuerunt multis in legionibus per <b>tot</b> annos <br> <small> Cic.Phil.6.14.3 <br> Muitos estiveram em muitas legiões por tantos anos. <small> [JDD] </small> </small> </p>
+; <p> cum <b>tot</b> edicta proposuisset edixit ut adesset senatus frequens a. d. VIII <br> <small> Cic.Phil.3.19.1 <br> Depois de ter proposto tantos editos, ordenou que o senado se apresentasse cheio no oitavo dia antes das calendas de dezembro [24 de novembro] <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ut pudeat animum <b>tot</b> miseriarum uictorem aegre ferre unum uulnus in corpore tam cicatricoso <br> <small> Sen.Helv.2.2 <br> Que um espírito vitorioso sobre tantas desgraças se envergonhe de suportar mal uma única ferida num corpo tão coberto de cicatrizes. <small> [JDD] </small> </small> </p>
+; <p> introitus in urbem trucidatis <b>tot</b> milibus inermium militum infaustus omine atque ipsis etiam qui occiderant formidolosus <br> <small> Tac.Hist.1.6.7 <br> A entrada na cidade foi de mau agouro por terem sido trucidados muitos milhares de soldados desarmados e que encheu de medo até mesmo nos próprios homens que os tinham matado. <small> [JDD] </small> </small> </p>
+; <p> hoc equidem occasum Troiae tristisque ruinas solabar fatis contraria fata rependens nunc eadem fortuna uiros <b>tot</b> casibus actos insequitur <br> <small> Verg.A.1.238 <br> Com isto, na verdade, eu, compensando com estes fados os fados contrários, me consolava da queda de Tróia e das tristes ruínas; agora a mesma fortuna persegue esses homens, sacudidos por tantas desgraças. <small> [JDD] </small> </small> </p>
+; <p> neque umquam ex illo delendi huius imperi tam consceleratus impetus exstitisset nisi <b>tot</b> uitiorum tanta immanitas quibusdam facilitatis et patientiae radicibus niteretur <br> <small> Cic.Cael.14 <br> E nunca teria vindo dele uma tentativa tão criminosa de destruir este império, se uma tão grande ferocidade de tantos vícios não se apoiasse em algumas raízes de afabilidade e resistência. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx116-111-116xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 15.44 and an absolute frequency of 8. The Ovidius subcorpus follows, with a normalized frequency of 8.58 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 63 ; absolute frequency: 3.92464678178964. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 5 ; absolute frequency: 8.57927247769389. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 19 ; absolute frequency: 3.54603310875124. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 8 ; absolute frequency: 15.4440154440154. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx116-111-116xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 15.44 and an absolute frequency of 8. The Prosa.oratória subcorpus follows, with a normalized frequency of 5.47 and an absolute frequency of 57. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 2 ; absolute frequency: 0.486866768908688. subcorpus: Prosa.filosófica ; normalized frequency: 17 ; absolute frequency: 2.80061283998616. subcorpus: Prosa.oratória ; normalized frequency: 57 ; absolute frequency: 5.4727180206043. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 6 ; absolute frequency: 5.21195274496178. subcorpus: Poesia.épica ; normalized frequency: 8 ; absolute frequency: 15.4440154440154. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx116-111-116xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 3.67 and an absolute frequency of 24. The I.a.C. subcorpus follows, with a normalized frequency of 3.35 and an absolute frequency of 72. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 72 ; absolute frequency: 3.35117523853852. subcorpus: I.d.C. ; normalized frequency: 24 ; absolute frequency: 3.67140890316659. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

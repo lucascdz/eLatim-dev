@@ -1,0 +1,198 @@
+---
+title: "forum"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx102-111-114-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>forum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Recinto ou cercado em volta de uma casa. &ensp; <small></small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Vestíbulo no túmulo &ensp; <small>XII T. apud Cíc. Leg. 2. 61.</small> <br> <b>3</b> &ensp; <small>I-Na língua rústica:</small> &ensp; Partes do lugar onde se colocavam as uvas ou as azeitonas para serem pisadas &ensp; <small>Varr. R. Rust. I. 54.2.</small> <br> <b>4</b> &ensp; <small>II-Sent. genérico:</small> &ensp; Praça pública, mercado &ensp; <small>Cíc. Scaur. 23.</small> <br> <b>5</b> &ensp; <small>II-Daí:</small> &ensp; Foro centro da vida romana. onde se tratavam assuntos de interesse público e privado. onde se regulavam contestações e processos. e em torno do qual se erguiam os monumentos públicos mais importantes, como templos, tribunais, etc.: &ensp; <small></small> <br> <b>6</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Foro, jurisdição. audiência. administração da justiça &ensp; <small>C IC. F am. 3. 6. 4.</small> <br> <b>7</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Uso corrente: &ensp; <small></small> <br> <b>8</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Assuntos financeiros &ensp; <small>Cíc. Flac. 70.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>5</b><br>forum Romanum Tác. An. 12.24 ‘o foro romano’. ou simplesmente: forum Cíc. At. 4. 16. 14. <br> <br><b>7</b><br>arripere verba de foro Cíc. Fin. 3, 4 ‘tomar as palavras no uso corrente’. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Forum</b> -<b>i</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; mercado, praça pública, lugar, onde se ajuntão os homens de negocio, e se fazem feiras, audiencias, e mais funções de justiça, & c. <br> <b>2</b> &ensp; <small>Varr.</small> &ensp; pia nos lagares de vinho, e azeite para os trasfegar. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>foro cedere &ensp; <small><small>Juv</small></small> &ensp; <small>Quebrar, fallir de credito</small> <br> foro uti &ensp; <small><small>Ter</small></small> &ensp; <small>Contemporizar, ir com o tempo</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Forum</b> <b>i</b>   <p> <b>1</b> &ensp; a praça. ou audiencia </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/103701 ' target="_blank"> http://lila-erc.eu/data/id/lemma/103701 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> forom <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+fŏrum 
+ fŏrī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx102-111-114-117-109xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx102-111-114-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword forum here are all the values plotted: collocate: refartus; scoreSUBST: 0. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx102-111-114-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword forum here are all the values plotted: collocate: refartus; scoreADJ: 3. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx102-111-114-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword forum here are all the values plotted: collocate: refartus; scoreVERBO: 0. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx102-111-114-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword forum here are all the values plotted: collocate: refartus; scoreADV: 0. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx102-111-114-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword forum here are all the values plotted: collocate: refartus; scoreFUNC: 0. collocate: in; scoreFUNC: 40'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> atque is primus instituit in <b>forum</b> uersus agere cum populo <br> <small> Cic.Amici.96 <br> e ele foi o primeiro que instituiu tratar com o povo voltado para o forum. <small> [JDD] </small> </small> </p>
+; <p> uidetis ne refertum <b>forum</b> populumque Romanum ad spem recuperandae libertatis erectum <br> <small> Cic.Phil.3.32.10 <br> Não vedes o foro lotado e o povo romano de pé na esperança de recuperar a liberdade? <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx102-111-114-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 5.23 and an absolute frequency of 84. The Cicero subcorpus follows, with a normalized frequency of 5.23 and an absolute frequency of 84. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 84 ; absolute frequency: 5.23286237571952. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 8 ; absolute frequency: 1.49306657210578. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx102-111-114-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 6.43 and an absolute frequency of 67. The Prosa.oratória subcorpus follows, with a normalized frequency of 6.43 and an absolute frequency of 67. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 2 ; absolute frequency: 0.486866768908688. subcorpus: Prosa.filosófica ; normalized frequency: 10 ; absolute frequency: 1.64741931763892. subcorpus: Prosa.oratória ; normalized frequency: 67 ; absolute frequency: 6.43284398913137. subcorpus: Prosa.epistolográfica ; normalized frequency: 15 ; absolute frequency: 3.97466811521238. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx102-111-114-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 4.19 and an absolute frequency of 90. The II.d.C. subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 90 ; absolute frequency: 4.18896904817314. subcorpus: I.d.C. ; normalized frequency: 10 ; absolute frequency: 1.52975370965275. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

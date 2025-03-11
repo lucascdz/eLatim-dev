@@ -1,0 +1,200 @@
+---
+title: "celeriter"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-101-108-101-114-105-116-101-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>celerĭter</b> <br> <small>adv.</small> <br> <small>Obs.: Comp. celerìus Cíc. Verr. 3, 60; superl. celerrìme Cíc. Fin. 2, 45.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Prontamente, rapidamente, com presteza &ensp; <small>Cíc. At. 15, 27, 1.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Celeriter</b> -<b>rius</b> -<b>errime</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; de pressa, ligeiramente, velozmente. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Celeriter</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; ligeyramente </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/hypolemma/6099 ' target="_blank"> http://lila-erc.eu/data/id/hypolemma/6099 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+cĕlĕrĭtĕr
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-101-108-101-114-105-116-101-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-101-108-101-114-105-116-101-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword celeriter here are all the values plotted: collocate: nostri; scoreSUBST: 0. collocate: conficio; scoreSUBST: 0. collocate: ad; scoreSUBST: 0. collocate: que; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-101-108-101-114-105-116-101-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword celeriter here are all the values plotted: collocate: nostri; scoreADJ: 0. collocate: conficio; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: que; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-101-108-101-114-105-116-101-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword celeriter here are all the values plotted: collocate: nostri; scoreVERBO: 0. collocate: conficio; scoreVERBO: 2. collocate: ad; scoreVERBO: 0. collocate: que; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-101-108-101-114-105-116-101-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword celeriter here are all the values plotted: collocate: nostri; scoreADV: 0. collocate: conficio; scoreADV: 0. collocate: ad; scoreADV: 0. collocate: que; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-101-108-101-114-105-116-101-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword celeriter here are all the values plotted: collocate: nostri; scoreFUNC: 0. collocate: conficio; scoreFUNC: 0. collocate: ad; scoreFUNC: 20. collocate: que; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>celeriter</b> nostri clamore sublato pila in hostes immittunt <br> <small> Caes.Gal.6.8.6 <br> Rapidamente os nossos, erguido um clamor, lançam dardos contra os inimigos. <small> [JDD] </small> </small> </p>
+; <p> eo <b>celeriter</b> confecto negotio rursus in hiberna legiones reduxit <br> <small> Caes.Gal.6.3.3 <br> Acabado esse negócio com rapidez, reconduziu as legiões aos quartéis de inverno. <small> [JDD] </small> </small> </p>
+; <p> his rebus <b>celeriter</b> magna multitudine peditatus equitatusque coacta ad castra uenerunt <br> <small> Caes.Gal.4.34.6 <br> Por essas coisas, reunida rapidamente uma grande quantidade de infantaria e de cavalaria, vieram ao acampamento. <small> [JDD] </small> </small> </p>
+; <p> <b>celeriter</b> contraque omnium opinionem confecto itinere multos in agris inopinantes deprehendit <br> <small> Caes.Gal.6.30.1 <br> Concluído o caminho rapidamente e contra a opinião de todos, apreendeu nos campos muitos desprevenidos. <small> [JDD] </small> </small> </p>
+; <p> itaque re frumentaria quam <b>celerrime</b> potuit comparata magnis itineribus ad Ariouistum contendit <br> <small> Caes.Gal.1.37.5 <br> E assim providenciada o mais rapidamente possível uma provisão de trigo, dirige-se a grandes marchas na direção de Ariovisto. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-101-108-101-114-105-116-101-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 12.84 and an absolute frequency of 34. The Ovidius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 34 ; absolute frequency: 12.8408490067226. subcorpus: Cicero ; normalized frequency: 12 ; absolute frequency: 0.747551767959931. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 2 ; absolute frequency: 0.373266643026446. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-101-108-101-114-105-116-101-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 8.28 and an absolute frequency of 34. The Poesia.lírica subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 34 ; absolute frequency: 8.2767350714477. subcorpus: Prosa.filosófica ; normalized frequency: 3 ; absolute frequency: 0.494225795291676. subcorpus: Prosa.oratória ; normalized frequency: 8 ; absolute frequency: 0.768100774821657. subcorpus: Prosa.epistolográfica ; normalized frequency: 3 ; absolute frequency: 0.794933623042476. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-101-108-101-114-105-116-101-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 2.14 and an absolute frequency of 46. The I.a.C. subcorpus follows, with a normalized frequency of 2.14 and an absolute frequency of 46. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 46 ; absolute frequency: 2.14102862462183. subcorpus: I.d.C. ; normalized frequency: 4 ; absolute frequency: 0.611901483861098. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

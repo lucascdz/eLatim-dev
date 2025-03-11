@@ -1,0 +1,259 @@
+---
+title: "hic"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx104-105-99xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>haec</b> <br> <small>nom. sing. f. e nom. acus. pI. n. de hic.</small> <br> <small></small> 
+ <b>heic</b> <br> <small></small> <br> <small>v. hic.</small> 
+ <b>hi</b> <br> <small>nom. pl. m. de hic, pronome.</small> <br> <small></small> 
+ <b>hice</b> <b>haece</b> <b>hoce</b> <br> <b>hicce</b> <b>haecce</b> <b>hocce</b> <br> <small>pron. reforço de hic.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Este. esta. isto: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>hujusce modi requies Ck. De 01'. I. 224 “um repouso desta espécie”. </p> 
+ <b>huic</b> <b>hujus</b> <br> <small>dat. e gen. sg. de hic.</small> <br> <small></small> 
+ <b>hunc</b> <br> <small>acus. sg. m. de hic.</small> <br> <small></small> 
+ <small>2.</small> <b>hāc</b> <br> <small>abl. f. de hic.</small> <br> <small></small> 
+ <small>2.</small> <b>hic</b> <b>haec, hoc</b> <br> <small>pron. demonstr.</small> <br> <small>Obs.: Principalmente no período arcaico ocorrem as seguintes formas: hic, nom. m. pl. Plaut. PS. 822; haec, nom. f. pl. Plaut. Bac. 1.142; Lucr. 3. 599; Cie. Tusc. I. 22; hibus. dat.. abl. pl. P laut. Cure. 506.</small>   <p> <b>1</b> &ensp; <small>I-Sent. genérico</small> &ensp; Este, esta, isto &ensp; <small>de que falo, que mostro Cíc. Rep. 1, 1.</small> <br> <b>2</b> &ensp; <small>II-Sents. especiais</small> &ensp; Tal &ensp; <small>com acus. de exclamação:</small> <br> <b>3</b> &ensp; <small>II-Sents. especiais</small> &ensp; Um ou outro &ensp; <small>tratando-se de dois objetos T. Lív. 24. . 17.</small> <br> <b>4</b> &ensp; <small>II-Sents. especiais</small> &ensp; Eis &ensp; <small>designando o que se vai seguir:</small> <br> <b>5</b> &ensp; <small>II-Sents. especiais</small> &ensp; Eis. tal é &ensp; <small>resumindo o que precede Cíc. Ac. I. 22.</small> <br> <b>6</b> &ensp; <small>II-Sents. especiais</small> &ensp; Neutro hoc + gen.: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>hanc audaciam! Cíc. Verr. 5, 62 “uma tal audácia”. <br> <br><b>4</b><br>hic est ille Demosthenes Cíc. Tusc. 5. 103 “eis o famoso Demóstenes”. <br> <br><b>6</b><br>hoc muneris C íc. Or. 2. 50 «este cargo». </p> 
+ <small>2.</small> <b>Hōc</b> <br> <small>nom. acus. sg. n. de hic.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Hic</b> <b>haec</b> <b>hoc</b> 
+ <b>Hicce</b> <b>haecce</b> <b>hocce</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; este, esta, isto. </p> 
+ <small>ablat. Plaut. por His</small> <b>Hibus</b> 
+ <small>genit. Plaut. por Horum</small> <b>Horunc</b>
+
+
+
+
+#### Velez
+
+<small>& c.</small> <b>Hicce</b> 
+ <small>et c.</small> <b>Hic</b> <br> <small>Vide Iste.</small>   <p> <b>1</b> &ensp; este </p>
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/105455 ' target="_blank"> http://lila-erc.eu/data/id/lemma/105455 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> pronominal <br>
+<small> outras grafias: </small> eic, heic, hicc, hicce, hice, ic <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+hāc 
+ hōc 
+ hicĕ 
+ haecĕ 
+ hōcĕ
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx104-105-99xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword hic here are all the values plotted: collocate: in; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: res; scoreSUBST: 3. collocate: ad; scoreSUBST: 0. collocate: cum; scoreSUBST: 0. collocate: ex; scoreSUBST: 0. collocate: ab; scoreSUBST: 0. collocate: tu; scoreSUBST: 0. collocate: si; scoreSUBST: 0. collocate: sed; scoreSUBST: 0. collocate: ipse; scoreSUBST: 0. collocate: enim; scoreSUBST: 0. collocate: omnis; scoreSUBST: 0. collocate: igitur; scoreSUBST: 0. collocate: tempus; scoreSUBST: 3. collocate: quidem; scoreSUBST: 0. collocate: locus; scoreSUBST: 2. collocate: qua2; scoreSUBST: 0. collocate: urbs; scoreSUBST: 3. collocate: ordo; scoreSUBST: 4. collocate: causa; scoreSUBST: 2. collocate: autem; scoreSUBST: 0. collocate: unus; scoreSUBST: 0. collocate: tamen; scoreSUBST: 0. collocate: genus; scoreSUBST: 2. collocate: ergo; scoreSUBST: 0. collocate: idem; scoreSUBST: 0. collocate: neque; scoreSUBST: 0. collocate: uero; scoreSUBST: 0. collocate: uox; scoreSUBST: 2. collocate: post; scoreSUBST: 0. collocate: omitto; scoreSUBST: 0. collocate: crimen; scoreSUBST: 2. collocate: annus; scoreSUBST: 2. collocate: coram2; scoreSUBST: 0. collocate: ob; scoreSUBST: 0. collocate: hactenus; scoreSUBST: 0. collocate: affirmo; scoreSUBST: 0. collocate: maledictum; scoreSUBST: 2. collocate: commutatio; scoreSUBST: 2. collocate: Diuitiacus; scoreSUBST: 0. collocate: difficultas; scoreSUBST: 2. collocate: materia; scoreSUBST: 2. collocate: fundamentum; scoreSUBST: 2. collocate: praecipio; scoreSUBST: 0. collocate: persona; scoreSUBST: 2. collocate: insula; scoreSUBST: 2. collocate: quanto; scoreSUBST: 0. collocate: centum; scoreSUBST: 0. collocate: liber2; scoreSUBST: 2. collocate: actio; scoreSUBST: 1. collocate: gladiator; scoreSUBST: 1. collocate: adiungo; scoreSUBST: 0. collocate: decet; scoreSUBST: 0. collocate: inuideo; scoreSUBST: 0. collocate: quamquam2; scoreSUBST: 0. collocate: contra2; scoreSUBST: 0. collocate: significo; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx104-105-99xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword hic here are all the values plotted: collocate: in; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: res; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: ex; scoreADJ: 0. collocate: ab; scoreADJ: 0. collocate: tu; scoreADJ: 0. collocate: si; scoreADJ: 0. collocate: sed; scoreADJ: 0. collocate: ipse; scoreADJ: 0. collocate: enim; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: igitur; scoreADJ: 0. collocate: tempus; scoreADJ: 0. collocate: quidem; scoreADJ: 0. collocate: locus; scoreADJ: 0. collocate: qua2; scoreADJ: 0. collocate: urbs; scoreADJ: 0. collocate: ordo; scoreADJ: 0. collocate: causa; scoreADJ: 0. collocate: autem; scoreADJ: 0. collocate: unus; scoreADJ: 0. collocate: tamen; scoreADJ: 0. collocate: genus; scoreADJ: 0. collocate: ergo; scoreADJ: 0. collocate: idem; scoreADJ: 0. collocate: neque; scoreADJ: 0. collocate: uero; scoreADJ: 0. collocate: uox; scoreADJ: 0. collocate: post; scoreADJ: 0. collocate: omitto; scoreADJ: 0. collocate: crimen; scoreADJ: 0. collocate: annus; scoreADJ: 0. collocate: coram2; scoreADJ: 0. collocate: ob; scoreADJ: 0. collocate: hactenus; scoreADJ: 0. collocate: affirmo; scoreADJ: 0. collocate: maledictum; scoreADJ: 0. collocate: commutatio; scoreADJ: 0. collocate: Diuitiacus; scoreADJ: 0. collocate: difficultas; scoreADJ: 0. collocate: materia; scoreADJ: 0. collocate: fundamentum; scoreADJ: 0. collocate: praecipio; scoreADJ: 0. collocate: persona; scoreADJ: 0. collocate: insula; scoreADJ: 0. collocate: quanto; scoreADJ: 0. collocate: centum; scoreADJ: 0. collocate: liber2; scoreADJ: 0. collocate: actio; scoreADJ: 0. collocate: gladiator; scoreADJ: 0. collocate: adiungo; scoreADJ: 0. collocate: decet; scoreADJ: 0. collocate: inuideo; scoreADJ: 0. collocate: quamquam2; scoreADJ: 0. collocate: contra2; scoreADJ: 0. collocate: significo; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx104-105-99xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword hic here are all the values plotted: collocate: in; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: res; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: cum; scoreVERBO: 0. collocate: ex; scoreVERBO: 0. collocate: ab; scoreVERBO: 0. collocate: tu; scoreVERBO: 0. collocate: si; scoreVERBO: 0. collocate: sed; scoreVERBO: 0. collocate: ipse; scoreVERBO: 0. collocate: enim; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0. collocate: igitur; scoreVERBO: 0. collocate: tempus; scoreVERBO: 0. collocate: quidem; scoreVERBO: 0. collocate: locus; scoreVERBO: 0. collocate: qua2; scoreVERBO: 0. collocate: urbs; scoreVERBO: 0. collocate: ordo; scoreVERBO: 0. collocate: causa; scoreVERBO: 0. collocate: autem; scoreVERBO: 0. collocate: unus; scoreVERBO: 0. collocate: tamen; scoreVERBO: 0. collocate: genus; scoreVERBO: 0. collocate: ergo; scoreVERBO: 0. collocate: idem; scoreVERBO: 0. collocate: neque; scoreVERBO: 0. collocate: uero; scoreVERBO: 0. collocate: uox; scoreVERBO: 0. collocate: post; scoreVERBO: 0. collocate: omitto; scoreVERBO: 2. collocate: crimen; scoreVERBO: 0. collocate: annus; scoreVERBO: 0. collocate: coram2; scoreVERBO: 0. collocate: ob; scoreVERBO: 0. collocate: hactenus; scoreVERBO: 0. collocate: affirmo; scoreVERBO: 2. collocate: maledictum; scoreVERBO: 0. collocate: commutatio; scoreVERBO: 0. collocate: Diuitiacus; scoreVERBO: 0. collocate: difficultas; scoreVERBO: 0. collocate: materia; scoreVERBO: 0. collocate: fundamentum; scoreVERBO: 0. collocate: praecipio; scoreVERBO: 2. collocate: persona; scoreVERBO: 0. collocate: insula; scoreVERBO: 0. collocate: quanto; scoreVERBO: 0. collocate: centum; scoreVERBO: 0. collocate: liber2; scoreVERBO: 0. collocate: actio; scoreVERBO: 0. collocate: gladiator; scoreVERBO: 0. collocate: adiungo; scoreVERBO: 1. collocate: decet; scoreVERBO: 1. collocate: inuideo; scoreVERBO: 1. collocate: quamquam2; scoreVERBO: 0. collocate: contra2; scoreVERBO: 0. collocate: significo; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx104-105-99xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword hic here are all the values plotted: collocate: in; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: res; scoreADV: 0. collocate: ad; scoreADV: 0. collocate: cum; scoreADV: 0. collocate: ex; scoreADV: 0. collocate: ab; scoreADV: 0. collocate: tu; scoreADV: 0. collocate: si; scoreADV: 0. collocate: sed; scoreADV: 0. collocate: ipse; scoreADV: 0. collocate: enim; scoreADV: 2. collocate: omnis; scoreADV: 0. collocate: igitur; scoreADV: 4. collocate: tempus; scoreADV: 0. collocate: quidem; scoreADV: 2. collocate: locus; scoreADV: 0. collocate: qua2; scoreADV: 3. collocate: urbs; scoreADV: 0. collocate: ordo; scoreADV: 0. collocate: causa; scoreADV: 0. collocate: autem; scoreADV: 0. collocate: unus; scoreADV: 0. collocate: tamen; scoreADV: 2. collocate: genus; scoreADV: 0. collocate: ergo; scoreADV: 0. collocate: idem; scoreADV: 0. collocate: neque; scoreADV: 0. collocate: uero; scoreADV: 2. collocate: uox; scoreADV: 0. collocate: post; scoreADV: 0. collocate: omitto; scoreADV: 0. collocate: crimen; scoreADV: 0. collocate: annus; scoreADV: 0. collocate: coram2; scoreADV: 2. collocate: ob; scoreADV: 0. collocate: hactenus; scoreADV: 2. collocate: affirmo; scoreADV: 0. collocate: maledictum; scoreADV: 0. collocate: commutatio; scoreADV: 0. collocate: Diuitiacus; scoreADV: 0. collocate: difficultas; scoreADV: 0. collocate: materia; scoreADV: 0. collocate: fundamentum; scoreADV: 0. collocate: praecipio; scoreADV: 0. collocate: persona; scoreADV: 0. collocate: insula; scoreADV: 0. collocate: quanto; scoreADV: 2. collocate: centum; scoreADV: 0. collocate: liber2; scoreADV: 0. collocate: actio; scoreADV: 0. collocate: gladiator; scoreADV: 0. collocate: adiungo; scoreADV: 0. collocate: decet; scoreADV: 0. collocate: inuideo; scoreADV: 0. collocate: quamquam2; scoreADV: 2. collocate: contra2; scoreADV: 2. collocate: significo; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx104-105-99xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword hic here are all the values plotted: collocate: in; scoreFUNC: 40. collocate: ego; scoreFUNC: 0. collocate: res; scoreFUNC: 0. collocate: ad; scoreFUNC: 30. collocate: cum; scoreFUNC: 20. collocate: ex; scoreFUNC: 30. collocate: ab; scoreFUNC: 20. collocate: tu; scoreFUNC: 0. collocate: si; scoreFUNC: 20. collocate: sed; scoreFUNC: 0. collocate: ipse; scoreFUNC: 0. collocate: enim; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0. collocate: igitur; scoreFUNC: 0. collocate: tempus; scoreFUNC: 0. collocate: quidem; scoreFUNC: 0. collocate: locus; scoreFUNC: 0. collocate: qua2; scoreFUNC: 0. collocate: urbs; scoreFUNC: 0. collocate: ordo; scoreFUNC: 0. collocate: causa; scoreFUNC: 0. collocate: autem; scoreFUNC: 0. collocate: unus; scoreFUNC: 0. collocate: tamen; scoreFUNC: 0. collocate: genus; scoreFUNC: 0. collocate: ergo; scoreFUNC: 0. collocate: idem; scoreFUNC: 0. collocate: neque; scoreFUNC: 0. collocate: uero; scoreFUNC: 0. collocate: uox; scoreFUNC: 0. collocate: post; scoreFUNC: 20. collocate: omitto; scoreFUNC: 0. collocate: crimen; scoreFUNC: 0. collocate: annus; scoreFUNC: 0. collocate: coram2; scoreFUNC: 0. collocate: ob; scoreFUNC: 20. collocate: hactenus; scoreFUNC: 0. collocate: affirmo; scoreFUNC: 0. collocate: maledictum; scoreFUNC: 0. collocate: commutatio; scoreFUNC: 0. collocate: Diuitiacus; scoreFUNC: 0. collocate: difficultas; scoreFUNC: 0. collocate: materia; scoreFUNC: 0. collocate: fundamentum; scoreFUNC: 0. collocate: praecipio; scoreFUNC: 0. collocate: persona; scoreFUNC: 0. collocate: insula; scoreFUNC: 0. collocate: quanto; scoreFUNC: 0. collocate: centum; scoreFUNC: 0. collocate: liber2; scoreFUNC: 0. collocate: actio; scoreFUNC: 0. collocate: gladiator; scoreFUNC: 0. collocate: adiungo; scoreFUNC: 0. collocate: decet; scoreFUNC: 0. collocate: inuideo; scoreFUNC: 0. collocate: quamquam2; scoreFUNC: 0. collocate: contra2; scoreFUNC: 0. collocate: significo; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>haec</b> igitur <br> <small> Cic.Att.2.11.1 <br> É isso então <small> [JDD] </small> </small> </p>
+; <p> sed <b>haec</b> hactenus <br> <small> Cic.Amici.55 <br> Mas estas coisas até aqui. <small> [JDD] </small> </small> </p>
+; <p> <b>hunc</b> quoque felicem <br> <small> Cic.Phil.3.26.8 <br> Feliz este também! <small> [JDD] </small> </small> </p>
+; <p> cogitanti autem <b>haec</b> fere succurrebant <br> <small> Cic.Att.2.16.1 <br> Enquanto eu refletia, me vinha mais ou menos isto. <small> [JDD] </small> </small> </p>
+; <p> uim <b>hoc</b> quidem est adferre <br> <small> Cic.Amici.26 <br> Isso é, certamente, fazer-me violência. <small> [JDD] </small> </small> </p>
+; <p> genus <b>hoc</b> est voluptatis meae <br> <small> Cic.Att.1.9.2 <br> Este é meu gênero de prazer. <small> [JDD] </small> </small> </p>
+; <p> <b>haec</b> primae actionis erit accusatio <br> <small> Cic.Ver.1.56 <br> 56 Esta sera a acusação da primeiro ação. <small> [JDD] </small> </small> </p>
+; <p> unum dissimile quod <b>huic</b> merito <br> <small> Cic.Att.4.8A.2 <br> uma única diferença, é que ele mereceu. <small> [JDD] </small> </small> </p>
+; <p> <b>hanc</b> unam gratiam potentiamque nouerunt <br> <small> Caes.Gal.6.15.2 <br> Conhecem apenas esse único prestígio e poder. <small> [JDD] </small> </small> </p>
+; <p> fundamentum <b>hoc</b> esse dixi culmen est <br> <small> Sen.Ep.23.1 <br> Eu disse ser este o fundamento: é o ponto culminante. <small> [JDD] </small> </small> </p>
+; <p> <b>hic</b> est locus soluendi aeris alieni <br> <small> Sen.Ep.23.9 <br> Este é o lugar de te pagar com dinheiro alheio. <small> [JDD] </small> </small> </p>
+; <p> mansisses profecto si <b>haec</b> fore putassemus <br> <small> Cic.Att.2.22.1 <br> Terias permanecido, sem dúvida, se tivéssemos imaginado que aconteceriam essas coisas. <small> [JDD] </small> </small> </p>
+; <p> post <b>haec</b> ait iunge datos currus <br> <small> Sen.Prov.5.11 <br> Após isso, diz: “Atrela os carros oferecidos! <small> [JDD] </small> </small> </p>
+; <p> quartus si etiam <b>hoc</b> quaeris Hortensius <br> <small> Cic.Att.1.13.2 <br> o quarto, se ainda queres saber, Hortêncio. <small> [JDD] </small> </small> </p>
+; <p> <b>hoc</b> autem commune officium καθῆκον vocant <br> <small> Cic.Off.1.8 <br> ao passo que chamam o dever comum καθήκον. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> multo <b>haec</b> inquam nostra res maior <br> <small> Cic.Att.1.16.5 <br> este meu caso, eu garanto, foi muito maior. <small> [JDD] </small> </small> </p>
+; <p> Germani multum ab <b>hac</b> consuetudine differunt <br> <small> Caes.Gal.6.21.1 <br> Os germanos diferem muito desse costume. <small> [JDD] </small> </small> </p>
+; <p> iacere <b>hos</b> post terga iubemur . ' <br> <small> Ov.Met.1.394 <br> estas somos ordenados a atirar atrás das costas.” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>hoc</b> enim ad edendas operas tempus acceperat <br> <small> Sen.Ep.29.6 <br> pois tinha escolhido este momento para dar a conhecer suas obras.[*] <small>  </small> </small> </p>
+; <p> cuperem vultum videre tuum cum <b>haec</b> legeres <br> <small> Cic.Att.4.17.4 <br> Eu desejaria ver tua cara quando lesses estas coisas. <small> [JDD] </small> </small> </p>
+; <p> <b>hoc</b> enim ipsum philosophiae seruire libertas est <br> <small> Sen.Ep.8.7 <br> pois ser escravo da filosofia é precisamente a liberdade. <small> [JDD] </small> </small> </p>
+; <p> nosti iam in <b>hac</b> materia sonitus nostros <br> <small> Cic.Att.1.14.4 <br> Já conheces meu tom nesta matéria. <small> [JDD] </small> </small> </p>
+; <p> quam dissimilis <b>hic</b> dies illi tempori uidebatur <br> <small> Cic.Ver.2.4.77.11 <br> Quão diferente lhes parecia este dia daquele momento! <small> [JDD] </small> </small> </p>
+; <p> <b>haec</b> sunt ut opinor in re publica <br> <small> Cic.Att.1.19.5 <br> Isto é, a meu ver, o que há na república. <small> [JDD] </small> </small> </p>
+; <p> <b>hunc</b> iudicem ex kalendis Ianuariis non habebimus <br> <small> Cic.Ver.1.29 <br> Esse juiz não o teremos a partir das calendas de janeiro [1º. de janeiro]. <small> [JDD] </small> </small> </p>
+; <p> tollite <b>hanc</b> nullam tam prauae sententiae causam reperietis <br> <small> Cic.Phil.14.3.8 <br> Tirai esta causa: não encontrareis nenhuma outra para uma proposta tão ruim. <small> [JDD] </small> </small> </p>
+; <p> <b>Haec</b> inquit merces fraudis a superis datur . <br> <small> Phaed.1.17 <br> “Esta”, diz, “é a recompensa dada pelos deuses para as trapaças.” <small> [JDD] </small> </small> </p>
+; <p> non potest artifex mutare materiam <b>hoc</b> passa est <br> <small> Sen.Prov.5.9 <br> O artesão não pode mudar a matéria. Esta é a condição. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Atque <b>haec</b> quidem quaestio communis est omnium philosophorum <br> <small> Cic.Off.1.5 <br> E, na verdade, esta questão é comum a todos os filósofos. <small> [JDD] </small> </small> </p>
+; <p> si locare voluisses duobus <b>his</b> muneribus liber esses <br> <small> Cic.Att.4.4A.2 <br> Se tivesses querido alugá-los, com estes dois espetáculos terias amortizado a dívida. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>haec</b> eadem quacumque exercitum duxit fecit M. Antonius <br> <small> Cic.Phil.3.31.12 <br> Essas mesmas coisas fez Marco Antônio, onde quer que tenha levado seu exército. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> desertus est locus <b>hic</b> et iam hora praeterivit <br> <small> Vulg.Marc.6.35 <br> Este local é deserto e já passou a hora. <small> [JDD] </small> </small> </p>
+; <p> sed de <b>hoc</b> alias nunc redeo ad augurem <br> <small> Cic.Amici.1 <br> Mas sobre ele, em outra ocasião; agora volto ao áugure. <small> [JDD] </small> </small> </p>
+; <p> senatus <b>haec</b> intellegit consul uidet <b>hic</b> tamen uiuit <br> <small> Cic.Catil.1.2.1 <br> O senado sabe essas coisas. O cônsul as vê; este, no entanto, vive. <small> [JDD] </small> </small> </p>
+; <p> <b>haec</b> nec hominis nec ad hominem uox est <br> <small> Cic.Lig.16 <br> Esta fala não é nem de um homem nem para um homem. <small> [JDD] </small> </small> </p>
+; <p> <b>hoc</b> illius munus in tua diligentia positum est <br> <small> Cic.Att.2.1.12 <br> Esse presente dele foi colocado aos teus cuidados. <small> [JDD] </small> </small> </p>
+; <p> <b>hoc</b> vero regnum est et ferri nullo pacto potest <br> <small> Cic.Att.2.12.1 <br> Isso na verdade é tirania e não pode ser tolerado de modo algum. <small> [JDD] </small> </small> </p>
+; <p> <b>hunc</b> murus circumdatus arcem efficit et cum oppido coniungit <br> <small> Caes.Gal.1.38.6 <br> Um muro em torno faz dessa montanha uma cidadela e a une com a cidade. <small> [JDD] </small> </small> </p>
+; <p> aut <b>hoc</b> ipsum succedit in locum uoluptatium nullis egere <br> <small> Sen.Ep.12.5 <br> ou isso mesmo substitui o lugar dos prazeres, não ter necessidade de nenhum. <small> [JDD] </small> </small> </p>
+; <p> omnia <b>haec</b> mala ab intus procedunt et communicant hominem <br> <small> Vulg.Marc.7.23 <br> Todos esses males saem de dentro e contaminam o homem. <small> [JDD] </small> </small> </p>
+; <p> cognoscite Quirites non enim <b>hoc</b> sine causa quaeri uidetur <br> <small> Cic.Man.22 <br> Ficai sabendo, Quirites; pois isso não parece ser perguntado sem motivo. <small> [JDD] </small> </small> </p>
+; <p> <b>hi</b> ad utramque ripam fluminis agros aedificia uicosque habebant <br> <small> Caes.Gal.4.4.2 <br> estes tinham, em uma e outra margem do rio, campos, edifícios e aldeias. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> post <b>hunc</b> Apollinem et Martem et Iouem et Mineruam <br> <small> Caes.Gal.6.17.1 <br> Depois deste, Apolo e Marte e Júpiter e Minerva. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quanto ille plura miscebat tanto <b>hic</b> magis in dies conualescebat <br> <small> Cic.Mil.25 <br> Quanto mais coisas ele [Clódio] agitava, mais este [Milão] se fortalecia a cada dia. <small> [JDD] </small> </small> </p>
+; <p> atque <b>hoc</b> quidem omnes mortales et intellegunt et re probant <br> <small> Cic.Amici.24 <br> E, na verdade, todos os mortais entendem isso e aprovam na realidade. <small> [JDD] </small> </small> </p>
+; <p> sed <b>haec</b> est pridie data quam illa quo conturber magis <br> <small> Cic.Att.3.8.2 <br> Mas esta foi remetida um dia antes daquela, o que aumenta minha preocupação. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>huic</b> adiunctum est in mutis animalibus et infantibus non esse <br> <small> Sen.Ep.124.1 <br> a isto se acrescenta que essa percepção não existe nos animais mudos nem nos bebês. <small> [JDD] </small> </small> </p>
+; <p> num est num potest magis carere <b>his</b> omnibus quam caret <br> <small> Cic.Lig.11 <br> Por acaso está, por acaso pode ele carecer de todas estas coisas mais do que carece? <small> [JDD] </small> </small> </p>
+; <p> Gracchorum potentiam maiorem fuisse arbitramini quam <b>huius</b> gladiatoris futura sit <br> <small> Cic.Phil.7.17.4 <br> Julgais que o poder dos Gracos tenha sido maior do que será o desse gladiador? <small> [JDD] </small> </small> </p>
+; <p> <b>hos</b> item ex proximis nauibus cum conspexissent subsecuti hostibus adpropinquauerunt <br> <small> Caes.Gal.4.25.6 <br> Como igualmente tivessem visto esses dos navios imediatos, seguindo-os se aproximaram dos inimigos. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx104-105-99xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 142.6 and an absolute frequency of 2289. The Cicero subcorpus follows, with a normalized frequency of 142.6 and an absolute frequency of 2289. the subcorpus with the least normalized frequency is Tacitus with the normalized value of 44.63 and an absolute freqeuncy of 13. here are all the values: subcorpus: Caesar ; normalized frequency: 360 ; absolute frequency: 135.961930659415. subcorpus: Cicero ; normalized frequency: 2289 ; absolute frequency: 142.595499738357. subcorpus: Horatius ; normalized frequency: 156 ; absolute frequency: 138.531213924163. subcorpus: Ovidius ; normalized frequency: 48 ; absolute frequency: 82.3610157858614. subcorpus: Phaedrus ; normalized frequency: 61 ; absolute frequency: 92.6066494610597. subcorpus: Sallustius ; normalized frequency: 61 ; absolute frequency: 56.58102216863. subcorpus: Seneca ; normalized frequency: 722 ; absolute frequency: 134.749258132547. subcorpus: Suetonius ; normalized frequency: 6 ; absolute frequency: 66.1521499448732. subcorpus: Tacitus ; normalized frequency: 13 ; absolute frequency: 44.6275317542053. subcorpus: Vergilius ; normalized frequency: 45 ; absolute frequency: 86.8725868725869. subcorpus: Hieronymus ; normalized frequency: 22 ; absolute frequency: 49.4270950348236'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx104-105-99xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 163.7 and an absolute frequency of 1705. The Prosa.filosófica subcorpus follows, with a normalized frequency of 136.08 and an absolute frequency of 826. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 49.43 and an absolute freqeuncy of 22. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 440 ; absolute frequency: 107.110689159911. subcorpus: Prosa.filosófica ; normalized frequency: 826 ; absolute frequency: 136.076835636975. subcorpus: Prosa.oratória ; normalized frequency: 1705 ; absolute frequency: 163.701477633866. subcorpus: Prosa.epistolográfica ; normalized frequency: 405 ; absolute frequency: 107.316039110734. subcorpus: Poesia.lírica ; normalized frequency: 159 ; absolute frequency: 133.759569277362. subcorpus: Poesia.didática ; normalized frequency: 106 ; absolute frequency: 89.9143269149207. subcorpus: Poesia.trágica ; normalized frequency: 75 ; absolute frequency: 65.1494093120222. subcorpus: Poesia.épica ; normalized frequency: 45 ; absolute frequency: 86.8725868725869. subcorpus: Prosa.ficcional ; normalized frequency: 22 ; absolute frequency: 49.4270950348236'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx104-105-99xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 135.63 and an absolute frequency of 2914. The I.a.C. subcorpus follows, with a normalized frequency of 135.63 and an absolute frequency of 2914. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 49.43 and an absolute freqeuncy of 22. here are all the values: subcorpus: I.a.C. ; normalized frequency: 2914 ; absolute frequency: 135.629508959739. subcorpus: I.d.C. ; normalized frequency: 828 ; absolute frequency: 126.663607159247. subcorpus: II.d.C. ; normalized frequency: 19 ; absolute frequency: 49.738219895288. subcorpus: IV.d.C. ; normalized frequency: 22 ; absolute frequency: 49.4270950348236'}
+
+
+:::
+

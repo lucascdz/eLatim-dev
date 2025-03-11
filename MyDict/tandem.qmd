@@ -1,0 +1,199 @@
+---
+title: "tandem"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx116-97-110-100-101-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>tandem</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Por fim, por último &ensp; <small>Cés. B. Gal. 1, 25, 5.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Enfim, finalmente &ensp; <small>Cíc. Cal. 1, 8.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Tandem</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; finalmente. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Tandem</b>   <p> <b>1</b> &ensp; finalmente </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/127618 ' target="_blank"> http://lila-erc.eu/data/id/lemma/127618 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx116-97-110-100-101-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword tandem here are all the values plotted: collocate: utrum; scoreSUBST: 0. collocate: aliquando; scoreSUBST: 0. collocate: quis; scoreSUBST: 0. collocate: animus; scoreSUBST: 2. collocate: ego; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx116-97-110-100-101-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword tandem here are all the values plotted: collocate: utrum; scoreADJ: 0. collocate: aliquando; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: animus; scoreADJ: 0. collocate: ego; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx116-97-110-100-101-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword tandem here are all the values plotted: collocate: utrum; scoreVERBO: 0. collocate: aliquando; scoreVERBO: 0. collocate: quis; scoreVERBO: 0. collocate: animus; scoreVERBO: 0. collocate: ego; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx116-97-110-100-101-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword tandem here are all the values plotted: collocate: utrum; scoreADV: 2. collocate: aliquando; scoreADV: 2. collocate: quis; scoreADV: 0. collocate: animus; scoreADV: 0. collocate: ego; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx116-97-110-100-101-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword tandem here are all the values plotted: collocate: utrum; scoreFUNC: 0. collocate: aliquando; scoreFUNC: 0. collocate: quis; scoreFUNC: 0. collocate: animus; scoreFUNC: 0. collocate: ego; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quo <b>tandem</b> animo hoc tyrannum illum tulisse creditis <br> <small> Cic.Mil.35 <br> Com que espírito, enfim, acreditais que aquele tirano suportou isto? <small> [JDD] </small> </small> </p>
+; <p> in qua <b>tandem</b> urbe hoc homines stultissimi disputant <br> <small> Cic.Mil.7 <br> Em que cidade afinal homens estultíssimos sustentam isso? <small> [JDD] </small> </small> </p>
+; <p> Galliam quo <b>tandem</b> animo hanc rem audituram putatis <br> <small> Cic.Phil.12.9.9 <br> Com que ânimo afinal achais que a Gália vai ouvir isso? <small> [JDD] </small> </small> </p>
+; <p> haec utrum <b>tandem</b> lex est an legum omnium dissolutio <br> <small> Cic.Phil.1.21.3 <br> Esta, afinal, é uma lei ou é a anulação de todas as leis? <small> [JDD] </small> </small> </p>
+; <p> quis deus <b>tandem</b> mihi placatus atra nube perfundit caput <br> <small> Sen.Oed.999 <br> Que deus afinal bem disposto para comigo cobriu minha cabeça com essa nuvem negra? <small> [JDD] </small> </small> </p>
+; <p> quam ob rem discede atque hunc mihi timorem eripe si est uerus ne opprimar sin falsus ut <b>tandem</b> aliquando timere desinam <br> <small> Cic.Catil.1.18.11 <br> Por isso, vai embora e arranca de mim este temor; se ele é verdadeiro, para que eu não seja oprimida, se falso, para que finalmente eu deixe de uma vez de temer.” <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx116-97-110-100-101-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 3.86 and an absolute frequency of 2. The Ovidius subcorpus follows, with a normalized frequency of 3.43 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 3 ; absolute frequency: 1.13301608882846. subcorpus: Cicero ; normalized frequency: 46 ; absolute frequency: 2.86561511051307. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 14 ; absolute frequency: 2.61286650118512. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx116-97-110-100-101-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 10.42 and an absolute frequency of 12. The Prosa.oratória subcorpus follows, with a normalized frequency of 4.13 and an absolute frequency of 43. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 5 ; absolute frequency: 1.21716692227172. subcorpus: Prosa.filosófica ; normalized frequency: 3 ; absolute frequency: 0.494225795291676. subcorpus: Prosa.oratória ; normalized frequency: 43 ; absolute frequency: 4.1285416646664. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 12 ; absolute frequency: 10.4239054899236. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx116-97-110-100-101-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 2.75 and an absolute frequency of 18. The I.a.C. subcorpus follows, with a normalized frequency of 2.61 and an absolute frequency of 56. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 56 ; absolute frequency: 2.6064696299744. subcorpus: I.d.C. ; normalized frequency: 18 ; absolute frequency: 2.75355667737494. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

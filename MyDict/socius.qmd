@@ -1,0 +1,206 @@
+---
+title: "socius"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-111-99-105-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>2.</small> <b>socĭus</b> <b>-í</b> <br> <small>subs. m.</small> <br> <small>Obs:. Gen. pl.: socium Verg. En. 5, 174.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Companheiro, associado, sócio &ensp; <small>Cíc. Rep. 2. 35.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Aliado, confederado &ensp; <small>Cic. Lae. 12.</small> <br> <b>3</b> &ensp; <small>II-Daí</small> &ensp; Colega, associado &ensp; <small>em um negócio Cíc. Verr. 3. 50.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+no data
+
+
+
+
+#### Velez
+
+<b>Socius</b> -<b>ii</b>   <p> <b>1</b> &ensp; o companheiro; </p>
+
+
+
+
+#### Cardoso
+
+<b>Socius</b> <b>ij</b>   <p> <b>1</b> &ensp; ho companheyro </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/125001 ' target="_blank"> http://lila-erc.eu/data/id/lemma/125001 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+sŏcĭus 
+ sŏcĭī
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-111-99-105-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword socius here are all the values plotted: collocate: classis; scoreSUBST: 2. collocate: iniuria; scoreSUBST: 2. collocate: salus; scoreSUBST: 2. collocate: populus; scoreSUBST: 2. collocate: fortuna; scoreSUBST: 2. collocate: urbs; scoreSUBST: 2. collocate: atque; scoreSUBST: 0. collocate: bellum; scoreSUBST: 2. collocate: romanus; scoreSUBST: 0. collocate: uos; scoreSUBST: 0. collocate: omnis; scoreSUBST: 0. collocate: que; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-111-99-105-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword socius here are all the values plotted: collocate: classis; scoreADJ: 0. collocate: iniuria; scoreADJ: 0. collocate: salus; scoreADJ: 0. collocate: populus; scoreADJ: 0. collocate: fortuna; scoreADJ: 0. collocate: urbs; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: bellum; scoreADJ: 0. collocate: romanus; scoreADJ: 2. collocate: uos; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: que; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-111-99-105-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword socius here are all the values plotted: collocate: classis; scoreVERBO: 0. collocate: iniuria; scoreVERBO: 0. collocate: salus; scoreVERBO: 0. collocate: populus; scoreVERBO: 0. collocate: fortuna; scoreVERBO: 0. collocate: urbs; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: bellum; scoreVERBO: 0. collocate: romanus; scoreVERBO: 0. collocate: uos; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0. collocate: que; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-111-99-105-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword socius here are all the values plotted: collocate: classis; scoreADV: 0. collocate: iniuria; scoreADV: 0. collocate: salus; scoreADV: 0. collocate: populus; scoreADV: 0. collocate: fortuna; scoreADV: 0. collocate: urbs; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: bellum; scoreADV: 0. collocate: romanus; scoreADV: 0. collocate: uos; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: que; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-111-99-105-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword socius here are all the values plotted: collocate: classis; scoreFUNC: 0. collocate: iniuria; scoreFUNC: 0. collocate: salus; scoreFUNC: 0. collocate: populus; scoreFUNC: 0. collocate: fortuna; scoreFUNC: 0. collocate: urbs; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: bellum; scoreFUNC: 0. collocate: romanus; scoreFUNC: 0. collocate: uos; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0. collocate: que; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> his commota fugam Dido <b>socios</b>que parabat <br> <small> Verg.A.1.360 <br> Tocada por essas coisas, Dido preparava sua fuga e seus companheiros. <small> [JDD] </small> </small> </p>
+; <p> hinc portum petit et <b>socios</b> partitur in omnis <br> <small> Verg.A.1.194 <br> Dali se dirige para o porto e os reparte entre todos os companheiros. <small> [JDD] </small> </small> </p>
+; <p> uirgis iste caederet sine causa <b>socium</b> populi Romani atque amicum <br> <small> Cic.Ver.2.4.86.10 <br> Cortaria de varas esse sujeito, sem motivo, a um aliado e amigo do povo romano? <small> [JDD] </small> </small> </p>
+; <p> aguntur iniuriae <b>sociorum</b> agitur uis legum agitur existimatio ueritasque iudiciorum <br> <small> Cic.Ver.2.4.113.12 <br> Trata-se de injúrias contra aliados, trata-se da força da lei, trata-se da reputação e a veracidade dos julgamentos. <small> [JDD] </small> </small> </p>
+; <p> quod salus <b>sociorum</b> summum in periculum ac discrimen uocatur quo id tandem animo ferre debetis <br> <small> Cic.Man.12 <br> E o fato de a segurança dos aliados ser chamada para um sumo perigo e situação crítica, com que disposição de espírito deveis, afinal, tolerar isso <small> [JDD] </small> </small> </p>
+; <p> pro <b>sociis</b> uos contra hostis exercitus mittere putatis an hostium simulatione contra <b>socios</b> atque amicos <br> <small> Cic.Man.66 <br> Vós julgais que enviais os exércitos em defesa dos aliados contra os inimigos ou contra os aliados e amigos com a desculpa dos inimigos? <small> [JDD] </small> </small> </p>
+; <p> idem ad uos priuatim iudices confugit utitur hac lege qua iudicium est communi arce <b>sociorum</b> <br> <small> Cic.Ver.2.4.17.13 <br> Esse homem busca, de modo privado, refúgio junto a vós, juízes, utiliza-se desta lei pela qual se realiza este julgamento, salvaguarda comum dos aliados. <small> [JDD] </small> </small> </p>
+; <p> utrum pluris arbitramini per hosce annos militum uestrorum armis hostium urbis an hibernis <b>sociorum</b> ciuitates esse deletas <br> <small> Cic.Man.38 <br> Por acaso julgais que foram destruídas, durante estes anos, pelas armas de vossos soldados mais cidades dos inimigos ou comunidades dos aliados pelos quartéis de inverno? <small> [JDD] </small> </small> </p>
+; <p> prior Aenean compellat Achates nate dea quae nunc animo sententia surgit omnia tuta uides classem <b>socios</b>que receptos <br> <small> Verg.A.1.581 <br> Antes Acates interpela Enéias: “Filho da deusa, que parecer surge agora em teu espírito? Vês tudo seguro, a frota e os companheiros recobrados. <small> [JDD] </small> </small> </p>
+; <p> quibus rebus adductus Caesar non exspectandum sibi statuit dum omnibus fortunis <b>sociorum</b> consumptis in Santonos Heluetii peruenirent <br> <small> Caes.Gal.1.11.6 <br> Movido por essas coisas, César decidiu que não devia ficar esperando, enquanto os helvécios, depois de arruinadas todas as fortunas dos aliados, chegassem aos santões. <small> [JDD] </small> </small> </p>
+; <p> fuit hoc quondam fuit proprium populi Romani longe a domo bellare et propugnaculis imperi <b>sociorum</b> fortunas non sua tecta defendere <br> <small> Cic.Man.32 <br> Isto foi outrora, foi próprio do povo romano guerrear longe de sua pátria e defender, com os baluartes do império, a fortunas dos aliados, não os seus próprios tetos. <small> [JDD] </small> </small> </p>
+; <p> Haeduis se obsides redditurum non esse neque his neque eorum <b>sociis</b> iniuria bellum inlaturum si in eo manerent quod conuenisset stipendiumque quotannis penderent <br> <small> Caes.Gal.1.36.5 <br> que não devolveria ao Éduos os reféns, nem faria a eles nem aos seus aliados uma guerra sem razão, se permanecessem no que tinha sido ajustado e eles pagassem o tributo todos os anos. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-111-99-105-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 17.37 and an absolute frequency of 9. The Sallustius subcorpus follows, with a normalized frequency of 12.99 and an absolute frequency of 14. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 11 ; absolute frequency: 4.15439232570436. subcorpus: Cicero ; normalized frequency: 88 ; absolute frequency: 5.48204629837283. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 14 ; absolute frequency: 12.9858083665708. subcorpus: Seneca ; normalized frequency: 8 ; absolute frequency: 1.49306657210578. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 9 ; absolute frequency: 17.3745173745174. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-111-99-105-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 17.37 and an absolute frequency of 9. The Prosa.oratória subcorpus follows, with a normalized frequency of 7.49 and an absolute frequency of 78. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 27 ; absolute frequency: 6.57270138026729. subcorpus: Prosa.filosófica ; normalized frequency: 6 ; absolute frequency: 0.988451590583351. subcorpus: Prosa.oratória ; normalized frequency: 78 ; absolute frequency: 7.48898255451115. subcorpus: Prosa.epistolográfica ; normalized frequency: 7 ; absolute frequency: 1.85484512043244. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 9 ; absolute frequency: 17.3745173745174. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-111-99-105-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 5.72 and an absolute frequency of 123. The I.d.C. subcorpus follows, with a normalized frequency of 1.22 and an absolute frequency of 8. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 123 ; absolute frequency: 5.72492436583663. subcorpus: I.d.C. ; normalized frequency: 8 ; absolute frequency: 1.2238029677222. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

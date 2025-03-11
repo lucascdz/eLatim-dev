@@ -1,0 +1,243 @@
+---
+title: "omnis"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx111-109-110-105-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>omnis</b> <b>-e</b> <br> <small>adj. e pron. indef.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>Sent. próprio</small> &ensp; Todo, toda &ensp; <small>Cíc. Agr. 2, 70.</small> <br> <b>2</b> &ensp; <small>Sent. próprio</small> &ensp; De toda a espécie, qualquer &ensp; <small>com sent. indefinido Cés. B. Gal. 5, 6, 3.</small> <br> <b>3</b> &ensp; <small>Sent. próprio</small> &ensp; Todo, cada ideia de número, em todo o tempo. &ensp; <small>Cíc. Amer. 16</small> <br> <b>4</b> &ensp; <small>No neutro sing. omne</small> &ensp; Tudo &ensp; <small>Cíc. De Or.. 2, 158.</small> <br> <b>5</b> &ensp; <small>No neutro pl.:</small> &ensp; Todas as coisas, tudo &ensp; <small>Cíc. Lae, 35.</small> <br> <b>6</b> &ensp; <small>No masculino pl.:</small> &ensp; Todas as pessoas, toda gente, todos &ensp; <small>T. Lív. 31, 45, 7.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<small>m. f</small> <b>omnis</b> <small>n</small> -<b>ne</b> -<b>is</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; todo em número. <br> <b>2</b> &ensp; <small>Omne. Cic.</small> &ensp; o universo, todo o mundo. </p>
+
+
+
+
+#### Velez
+
+<b>Omnis</b> -<b>ne</b> <small>et</small> <br> <small>Vide Totus.</small>   <p> <b>1</b> &ensp; tudo, ou toda a cousa </p>
+
+
+
+
+#### Cardoso
+
+<b>Omnis</b> -<b>e</b>   <p> <b>1</b> &ensp; todo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/114954 ' target="_blank"> http://lila-erc.eu/data/id/lemma/114954 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> 2ª classe (tema em -i-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx111-109-110-105-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword omnis here are all the values plotted: collocate: res; scoreSUBST: 3. collocate: ex; scoreSUBST: 0. collocate: que; scoreSUBST: 0. collocate: qui; scoreSUBST: 0. collocate: ut; scoreSUBST: 0. collocate: cum; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: hic; scoreSUBST: 0. collocate: ab; scoreSUBST: 0. collocate: copia; scoreSUBST: 3. collocate: boni; scoreSUBST: 3. collocate: per; scoreSUBST: 0. collocate: iste; scoreSUBST: 0. collocate: gens; scoreSUBST: 3. collocate: unus; scoreSUBST: 0. collocate: nos; scoreSUBST: 0. collocate: pars; scoreSUBST: 2. collocate: ciuis; scoreSUBST: 2. collocate: uos; scoreSUBST: 0. collocate: scelus; scoreSUBST: 2. collocate: tempus; scoreSUBST: 1. collocate: Gallia; scoreSUBST: 0. collocate: malum; scoreSUBST: 2. collocate: sermo; scoreSUBST: 2. collocate: ante; scoreSUBST: 0. collocate: oculus; scoreSUBST: 2. collocate: uoluptas; scoreSUBST: 2. collocate: ordo; scoreSUBST: 2. collocate: reliquus; scoreSUBST: 0. collocate: aetas; scoreSUBST: 2. collocate: saeculum; scoreSUBST: 2. collocate: uicus; scoreSUBST: 2. collocate: natio; scoreSUBST: 2. collocate: equitatus; scoreSUBST: 2. collocate: Belgae; scoreSUBST: 0. collocate: circum; scoreSUBST: 0. collocate: molestia; scoreSUBST: 2. collocate: fere; scoreSUBST: 0. collocate: mortalis; scoreSUBST: 2. collocate: animal; scoreSUBST: 2. collocate: tui; scoreSUBST: 0. collocate: concido; scoreSUBST: 0. collocate: comperio; scoreSUBST: 0. collocate: ora; scoreSUBST: 2. collocate: sueui; scoreSUBST: 0. collocate: membrum; scoreSUBST: 2. collocate: cerno; scoreSUBST: 0. collocate: siculi; scoreSUBST: 0. collocate: aditus; scoreSUBST: 2. collocate: iuuentus; scoreSUBST: 2. collocate: misceo; scoreSUBST: 0. collocate: potentia; scoreSUBST: 2. collocate: notus; scoreSUBST: 0. collocate: supplicium; scoreSUBST: 2. collocate: undique; scoreSUBST: 0. collocate: opinio; scoreSUBST: 2. collocate: aduersus; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx111-109-110-105-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword omnis here are all the values plotted: collocate: res; scoreADJ: 0. collocate: ex; scoreADJ: 0. collocate: que; scoreADJ: 0. collocate: qui; scoreADJ: 0. collocate: ut; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: ab; scoreADJ: 0. collocate: copia; scoreADJ: 0. collocate: boni; scoreADJ: 0. collocate: per; scoreADJ: 0. collocate: iste; scoreADJ: 0. collocate: gens; scoreADJ: 0. collocate: unus; scoreADJ: 0. collocate: nos; scoreADJ: 0. collocate: pars; scoreADJ: 0. collocate: ciuis; scoreADJ: 0. collocate: uos; scoreADJ: 0. collocate: scelus; scoreADJ: 0. collocate: tempus; scoreADJ: 0. collocate: Gallia; scoreADJ: 0. collocate: malum; scoreADJ: 0. collocate: sermo; scoreADJ: 0. collocate: ante; scoreADJ: 0. collocate: oculus; scoreADJ: 0. collocate: uoluptas; scoreADJ: 0. collocate: ordo; scoreADJ: 0. collocate: reliquus; scoreADJ: 0. collocate: aetas; scoreADJ: 0. collocate: saeculum; scoreADJ: 0. collocate: uicus; scoreADJ: 0. collocate: natio; scoreADJ: 0. collocate: equitatus; scoreADJ: 0. collocate: Belgae; scoreADJ: 0. collocate: circum; scoreADJ: 0. collocate: molestia; scoreADJ: 0. collocate: fere; scoreADJ: 0. collocate: mortalis; scoreADJ: 0. collocate: animal; scoreADJ: 0. collocate: tui; scoreADJ: 0. collocate: concido; scoreADJ: 0. collocate: comperio; scoreADJ: 0. collocate: ora; scoreADJ: 0. collocate: sueui; scoreADJ: 2. collocate: membrum; scoreADJ: 0. collocate: cerno; scoreADJ: 0. collocate: siculi; scoreADJ: 2. collocate: aditus; scoreADJ: 0. collocate: iuuentus; scoreADJ: 0. collocate: misceo; scoreADJ: 0. collocate: potentia; scoreADJ: 0. collocate: notus; scoreADJ: 2. collocate: supplicium; scoreADJ: 0. collocate: undique; scoreADJ: 0. collocate: opinio; scoreADJ: 0. collocate: aduersus; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx111-109-110-105-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword omnis here are all the values plotted: collocate: res; scoreVERBO: 0. collocate: ex; scoreVERBO: 0. collocate: que; scoreVERBO: 0. collocate: qui; scoreVERBO: 0. collocate: ut; scoreVERBO: 0. collocate: cum; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: hic; scoreVERBO: 0. collocate: ab; scoreVERBO: 0. collocate: copia; scoreVERBO: 0. collocate: boni; scoreVERBO: 0. collocate: per; scoreVERBO: 0. collocate: iste; scoreVERBO: 0. collocate: gens; scoreVERBO: 0. collocate: unus; scoreVERBO: 0. collocate: nos; scoreVERBO: 0. collocate: pars; scoreVERBO: 0. collocate: ciuis; scoreVERBO: 0. collocate: uos; scoreVERBO: 0. collocate: scelus; scoreVERBO: 0. collocate: tempus; scoreVERBO: 0. collocate: Gallia; scoreVERBO: 0. collocate: malum; scoreVERBO: 0. collocate: sermo; scoreVERBO: 0. collocate: ante; scoreVERBO: 0. collocate: oculus; scoreVERBO: 0. collocate: uoluptas; scoreVERBO: 0. collocate: ordo; scoreVERBO: 0. collocate: reliquus; scoreVERBO: 0. collocate: aetas; scoreVERBO: 0. collocate: saeculum; scoreVERBO: 0. collocate: uicus; scoreVERBO: 0. collocate: natio; scoreVERBO: 0. collocate: equitatus; scoreVERBO: 0. collocate: Belgae; scoreVERBO: 0. collocate: circum; scoreVERBO: 0. collocate: molestia; scoreVERBO: 0. collocate: fere; scoreVERBO: 0. collocate: mortalis; scoreVERBO: 0. collocate: animal; scoreVERBO: 0. collocate: tui; scoreVERBO: 0. collocate: concido; scoreVERBO: 2. collocate: comperio; scoreVERBO: 2. collocate: ora; scoreVERBO: 0. collocate: sueui; scoreVERBO: 0. collocate: membrum; scoreVERBO: 0. collocate: cerno; scoreVERBO: 2. collocate: siculi; scoreVERBO: 0. collocate: aditus; scoreVERBO: 0. collocate: iuuentus; scoreVERBO: 0. collocate: misceo; scoreVERBO: 2. collocate: potentia; scoreVERBO: 0. collocate: notus; scoreVERBO: 0. collocate: supplicium; scoreVERBO: 0. collocate: undique; scoreVERBO: 0. collocate: opinio; scoreVERBO: 0. collocate: aduersus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx111-109-110-105-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword omnis here are all the values plotted: collocate: res; scoreADV: 0. collocate: ex; scoreADV: 0. collocate: que; scoreADV: 0. collocate: qui; scoreADV: 0. collocate: ut; scoreADV: 0. collocate: cum; scoreADV: 0. collocate: in; scoreADV: 0. collocate: hic; scoreADV: 0. collocate: ab; scoreADV: 0. collocate: copia; scoreADV: 0. collocate: boni; scoreADV: 0. collocate: per; scoreADV: 0. collocate: iste; scoreADV: 0. collocate: gens; scoreADV: 0. collocate: unus; scoreADV: 0. collocate: nos; scoreADV: 0. collocate: pars; scoreADV: 0. collocate: ciuis; scoreADV: 0. collocate: uos; scoreADV: 0. collocate: scelus; scoreADV: 0. collocate: tempus; scoreADV: 0. collocate: Gallia; scoreADV: 0. collocate: malum; scoreADV: 0. collocate: sermo; scoreADV: 0. collocate: ante; scoreADV: 0. collocate: oculus; scoreADV: 0. collocate: uoluptas; scoreADV: 0. collocate: ordo; scoreADV: 0. collocate: reliquus; scoreADV: 0. collocate: aetas; scoreADV: 0. collocate: saeculum; scoreADV: 0. collocate: uicus; scoreADV: 0. collocate: natio; scoreADV: 0. collocate: equitatus; scoreADV: 0. collocate: Belgae; scoreADV: 0. collocate: circum; scoreADV: 0. collocate: molestia; scoreADV: 0. collocate: fere; scoreADV: 2. collocate: mortalis; scoreADV: 0. collocate: animal; scoreADV: 0. collocate: tui; scoreADV: 0. collocate: concido; scoreADV: 0. collocate: comperio; scoreADV: 0. collocate: ora; scoreADV: 0. collocate: sueui; scoreADV: 0. collocate: membrum; scoreADV: 0. collocate: cerno; scoreADV: 0. collocate: siculi; scoreADV: 0. collocate: aditus; scoreADV: 0. collocate: iuuentus; scoreADV: 0. collocate: misceo; scoreADV: 0. collocate: potentia; scoreADV: 0. collocate: notus; scoreADV: 0. collocate: supplicium; scoreADV: 0. collocate: undique; scoreADV: 2. collocate: opinio; scoreADV: 0. collocate: aduersus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx111-109-110-105-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword omnis here are all the values plotted: collocate: res; scoreFUNC: 0. collocate: ex; scoreFUNC: 30. collocate: que; scoreFUNC: 0. collocate: qui; scoreFUNC: 0. collocate: ut; scoreFUNC: 20. collocate: cum; scoreFUNC: 20. collocate: in; scoreFUNC: 10. collocate: hic; scoreFUNC: 0. collocate: ab; scoreFUNC: 20. collocate: copia; scoreFUNC: 0. collocate: boni; scoreFUNC: 0. collocate: per; scoreFUNC: 20. collocate: iste; scoreFUNC: 0. collocate: gens; scoreFUNC: 0. collocate: unus; scoreFUNC: 0. collocate: nos; scoreFUNC: 0. collocate: pars; scoreFUNC: 0. collocate: ciuis; scoreFUNC: 0. collocate: uos; scoreFUNC: 0. collocate: scelus; scoreFUNC: 0. collocate: tempus; scoreFUNC: 0. collocate: Gallia; scoreFUNC: 0. collocate: malum; scoreFUNC: 0. collocate: sermo; scoreFUNC: 0. collocate: ante; scoreFUNC: 20. collocate: oculus; scoreFUNC: 0. collocate: uoluptas; scoreFUNC: 0. collocate: ordo; scoreFUNC: 0. collocate: reliquus; scoreFUNC: 0. collocate: aetas; scoreFUNC: 0. collocate: saeculum; scoreFUNC: 0. collocate: uicus; scoreFUNC: 0. collocate: natio; scoreFUNC: 0. collocate: equitatus; scoreFUNC: 0. collocate: Belgae; scoreFUNC: 0. collocate: circum; scoreFUNC: 20. collocate: molestia; scoreFUNC: 0. collocate: fere; scoreFUNC: 0. collocate: mortalis; scoreFUNC: 0. collocate: animal; scoreFUNC: 0. collocate: tui; scoreFUNC: 0. collocate: concido; scoreFUNC: 0. collocate: comperio; scoreFUNC: 0. collocate: ora; scoreFUNC: 0. collocate: sueui; scoreFUNC: 0. collocate: membrum; scoreFUNC: 0. collocate: cerno; scoreFUNC: 0. collocate: siculi; scoreFUNC: 0. collocate: aditus; scoreFUNC: 0. collocate: iuuentus; scoreFUNC: 0. collocate: misceo; scoreFUNC: 0. collocate: potentia; scoreFUNC: 0. collocate: notus; scoreFUNC: 0. collocate: supplicium; scoreFUNC: 0. collocate: undique; scoreFUNC: 0. collocate: opinio; scoreFUNC: 0. collocate: aduersus; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>omnia</b> ista mortis morae sunt <br> <small> Sen.Ep.7.4 <br> Tudo isso é um retardo da morte. <small> [JDD] </small> </small> </p>
+; <p> illa <b>omnia</b> in Tusculanum deportabo <br> <small> Cic.Att.1.4.3 <br> Vou transportá-las todas para a chácara de Túsculo. <small> [JDD] </small> </small> </p>
+; <p> me tantum comperisse <b>omnia</b> criminabatur <br> <small> Cic.Att.1.14.5 <br> a mim só me acusava de ter descoberto tudo. <small> [JDD] </small> </small> </p>
+; <p> quae est grata <b>omnibus</b> gentibus <br> <small> Cic.Mil.102 <br> Naquela que é do agrado de todas as nações. <small> [JDD] </small> </small> </p>
+; <p> uicere nostra iam metus <b>omnis</b> mala <br> <small> Sen.Ag.695 <br> As nossas desgraças já superaram todos os medos. <small> [JDD] </small> </small> </p>
+; <p> Caesar equitatu praemisso subsequebatur <b>omnibus</b> copiis <br> <small> Caes.Gal.2.19.1 <br> César, enviada na frente a cavalaria, a seguia com todas as tropas. <small> [JDD] </small> </small> </p>
+; <p> militiae uacationem <b>omnium</b>que rerum habent immunitatem <br> <small> Caes.Gal.6.14.1 <br> têm isenção do serviço militar e imunidade de todas os encargos. <small> [JDD] </small> </small> </p>
+; <p> quae <b>omnia</b> fere Gallis erant incognita <br> <small> Caes.Gal.4.20.3 <br> e quase tudo isso era desconhecido dos gauleses. <small> [JDD] </small> </small> </p>
+; <p> supra <b>omnem</b> potentiam est certe extra <b>omnem</b> <br> <small> Sen.Ep.26.10 <br> está acima de todo poder, com toda certeza fora de todo o poder. <small> [JDD] </small> </small> </p>
+; <p> aget illum per <b>omnes</b> terras uictoria sua <br> <small> Sen.Helv.9.8 <br> Sua vitória o levará por todas as terras. <small> [JDD] </small> </small> </p>
+; <p> eos atque alios <b>omnis</b> malum publicum alebat <br> <small> Sal.Cat.37.7 <br> A esses e a todos os outros o mal público alimentava. <small> [JDD] </small> </small> </p>
+; <p> occidit homines ex <b>omni</b> latrocinio Clodiano notissimos <br> <small> Cic.Att.4.3.3 <br> matou os mais conhecidos homens de toda quadrilha de Clódio. <small> [JDD] </small> </small> </p>
+; <p> Caesar in Belgis <b>omnium</b> legionum hiberna constituit <br> <small> Caes.Gal.4.38.4 <br> César estabeleceu entre os belgas os quartéis de inverno de todas as legiões. <small> [JDD] </small> </small> </p>
+; <p> hoc ante <b>omnia</b> fac mi Lucili disce gaudere <br> <small> Sen.Ep.23.3 <br> Faz isto antes de tudo, meu querido Lucílio: aprende a satisfazer-te. <small> [JDD] </small> </small> </p>
+; <p> <b>omnia</b> Lucili aliena sunt tempus tantum nostrum est <br> <small> Sen.Ep.1.3 <br> Todas as coisas, Lucílio, são dos outros, somente o tempo é nosso. <small> [JDD] </small> </small> </p>
+; <p> Atque haec quidem quaestio communis est <b>omnium</b> philosophorum <br> <small> Cic.Off.1.5 <br> E, na verdade, esta questão é comum a todos os filósofos. <small> [JDD] </small> </small> </p>
+; <p> quaerebamus an esset <b>omnibus</b> animalibus constitutionis suae sensus <br> <small> Sen.Ep.121.5 <br> Queríamos saber se todos os animais tinham o sentido de sua própria constituição. <small> [JDD] </small> </small> </p>
+; <p> cum <b>omnia</b> feceris a mutis animalibus decore uinceris <br> <small> Sen.Ep.124.22 <br> Depois que tiveres feito tudo, serás vencido em formosura pelos animais mudos. <small> [JDD] </small> </small> </p>
+; <p> cura ut <b>omnia</b> sciam sed maxime ut valeas <br> <small> Cic.Att.5.11.7 <br> Cuida para que eu saiba tudo, mas principalmente como estás de saúde. <small> [JDD] </small> </small> </p>
+; <p> uerum ad istam <b>omnem</b> orationem breuis est defensio <br> <small> Cic.Cael.9 <br> Mas para todo esse teu discurso minha defesa é breve. <small> [JDD] </small> </small> </p>
+; <p> cogor ut velim ita sit sed <b>omnia</b> metuo <br> <small> Cic.Att.5.21.3 <br> Sou obrigado; gostaria que fosse assim, mas tenho medo de tudo. <small> [JDD] </small> </small> </p>
+; <p> <b>omnia</b> mala exempla ex rebus bonis orta sunt <br> <small> Sal.Cat.51.27 <br> Todos os maus exemplos se originam de boas coisas. <small> [JDD] </small> </small> </p>
+; <p> itaque <b>omni</b> senatu necato reliquos sub corona uendidit <br> <small> Caes.Gal.3.16.4 <br> E assim, executado todo o senado, vendeu os demais como escravos. <small> [JDD] </small> </small> </p>
+; <p> non <b>omnia</b> in unius potestate ac moderatione uertentur <br> <small> Cic.Ver.1.20 <br> Não, tudo se transcorrerá de acordo com o poder e autoridade de uma única pessoa. <small> [JDD] </small> </small> </p>
+; <p> cum <b>omnia</b> habueris tunc habere et sapientiam uoles <br> <small> Sen.Ep.17.8 <br> Quando tiveres tudo, então vais querer ter também a sabedoria? <small> [JDD] </small> </small> </p>
+; <p> risus populi atque admiratio <b>omnium</b> uestrum facta est <br> <small> Cic.Ver.2.4.27.14 <br> Houve um riso do povo e um espanto de todos vós. <small> [JDD] </small> </small> </p>
+; <p> ipse mihi custos incorruptissimus <b>omnis</b> circum doctores aderat <br> <small> Hor.S.1.6.81 <br> Ele próprio, o meu mais incorrupto guardião, me assistia em torno de todos os mestres. <small> [JDD] </small> </small> </p>
+; <p> idem est autem <b>omni</b> saeculo quod sat est <br> <small> Sen.Ep.17.10 <br> porém o que basta é o mesmo em qualquer época. <small> [JDD] </small> </small> </p>
+; <p> ipse triduo intermisso cum <b>omnibus</b> copiis eos sequi coepit <br> <small> Caes.Gal.1.26.6 <br> Ele, passados os três dias, pôs-se a segui-los com todas as suas tropas. <small> [JDD] </small> </small> </p>
+; <p> <b>omnia</b> uitia contra naturam pugnant <b>omnia</b> debitum ordinem deserunt <br> <small> Sen.Ep.122.5 <br> Todos os vícios lutam contra a natureza, todos abandonam a ordem devida. <small> [JDD] </small> </small> </p>
+; <p> iustitia abstinentia clementia tui Ciceronis itaque opiniones <b>omnium</b> superavit <br> <small> Cic.Att.5.16.3 <br> graças à justiça, à moderação, à clemência de teu Cícero e assim ele superou as opiniões de todos. <small> [JDD] </small> </small> </p>
+; <p> <b>omnia</b> haec mala ab intus procedunt et communicant hominem <br> <small> Vulg.Marc.7.23 <br> Todos esses males saem de dentro e contaminam o homem. <small> [JDD] </small> </small> </p>
+; <p> hic deinde populus quot colonias in <b>omnem</b> prouinciam misit <br> <small> Sen.Helv.7.7 <br> Quantas colônias esse povo depois enviou para cada província! <small> [JDD] </small> </small> </p>
+; <p> quae <b>omnia</b> ab his diligenter ad diem facta sunt <br> <small> Caes.Gal.2.5.1 <br> E todas essas coisas foram diligentemente feitas por estes no dia marcado. <small> [JDD] </small> </small> </p>
+; <p> Sueborum gens est longe maxima et bellicosissima Germanorum <b>omnium</b> <br> <small> Caes.Gal.4.1.3 <br> A nação dos suevos é, de longe, a maior e mais belicosa dentre todos os germanos. <small> [JDD] </small> </small> </p>
+; <p> et inimicissimus quidem Caesaris et ut <b>omnia</b> inquit ista rescindat <br> <small> Cic.Att.2.12.2 <br> “E na verdade inimicíssimo de César”, diz, “e pretendendo anular todos os seus atos”. <small> [JDD] </small> </small> </p>
+; <p> atque hoc quidem <b>omnes</b> mortales et intellegunt et re probant <br> <small> Cic.Amici.24 <br> E, na verdade, todos os mortais entendem isso e aprovam na realidade. <small> [JDD] </small> </small> </p>
+; <p> iter esse molestum scio sed tota calamitas <b>omnis</b> molestias habet <br> <small> Cic.Att.3.2 <br> Sei que a viagem é molesta, mas todo infortúnio tem as moléstias todas. <small> [JDD] </small> </small> </p>
+; <p> sed <b>omnis</b> una manet nox et calcanda semel uia leti <br> <small> Hor.Carm.1.28.15 <br> Mas uma só noite aguarda a todos e a estrada da morte deve ser pisada uma única vez. <small> [JDD] </small> </small> </p>
+; <p> si tamen exigis dicam quomodo <b>omne</b> animal perniciosa intellegere conatur <br> <small> Sen.Ep.121.21 <br> Se, contudo, exiges, vou dizer como todo animal é levado a entender as coisas perniciosas.[*] <small>  </small> </small> </p>
+; <p> <b>omnia</b> norat <b>omnium</b> aditus tenebat appellare temptare sollicitare poterat audebat <br> <small> Cic.Catil.3.16.9 <br> Conhecia tudo, tinha entrada a todas as partes; podia abordar, sondar, seduzir, ousava. <small> [JDD] </small> </small> </p>
+; <p> <b>omnes</b> ordines ad conseruandam rem publicam mente uoluntate uoce consentiunt <br> <small> Cic.Catil.4.18.6 <br> Todas as classes concordam com a mente, com a vontade, com a voz para salvar a república. <small> [JDD] </small> </small> </p>
+; <p> num est num potest magis carere his <b>omnibus</b> quam caret <br> <small> Cic.Lig.11 <br> Por acaso está, por acaso pode ele carecer de todas estas coisas mais do que carece? <small> [JDD] </small> </small> </p>
+; <p> idem uolunt <b>omnes</b> ordines eodem incumbunt municipia coloniae cuncta Italia <br> <small> Cic.Phil.6.18.10 <br> O mesmo querem todas as ordens, no mesmo estão empenhados os municípios, as colônias, toda a Itália. <small> [JDD] </small> </small> </p>
+; <p> atque utinam patres conscripti ciuibus <b>omnibus</b> soluere nobis praemia liceret <br> <small> Cic.Phil.14.30.1 <br> E quem dera, pais conscritos, nos fosse permitido recompensar todos os cidadãos! <small> [JDD] </small> </small> </p>
+; <p> in universa salute si ea modo nobis restituetur inerunt <b>omnia</b> <br> <small> Cic.Att.3.20.2 <br> Na minha salvação total, se é que ela me será concedida, estarão todos os bens. <small> [JDD] </small> </small> </p>
+; <p> in hos eadem <b>omnia</b> sunt iura quae dominis in seruos <br> <small> Caes.Gal.6.13.2 <br> e sobre eles têm todos os mesmos direitos que os senhores têm sobre seus escravos. <small> [JDD] </small> </small> </p>
+; <p> iam enim ipsius Catonis sermo explicabit nostram <b>omnem</b> de senectute sententiam <br> <small> Cic.Sen.3 <br> Pois a fala do próprio Catão já vai desenvolver toda a nossa opinião sobre a velhice. <small> [JDD] </small> </small> </p>
+; <p> tam magnis breues poenas sceleribus soluis atque uno <b>omnia</b> pensabis ictu <br> <small> Sen.Oed.936 <br> Pagas tão grandes crimes com curto castigo e compensarás tudo com um só golpe? <small> [JDD] </small> </small> </p>
+; <p> tum copiis in tres partes distributis impedimenta <b>omnium</b> legionum Atuatucam contulit <br> <small> Caes.Gal.6.32.3 <br> Então, distribuídas em três partes as tropas, transportou as bagagens de todas as legiões para Aduátuca. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx111-109-110-105-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 103.86 and an absolute frequency of 275. The Phaedrus subcorpus follows, with a normalized frequency of 15.18 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 11.03 and an absolute freqeuncy of 1. here are all the values: subcorpus: Caesar ; normalized frequency: 275 ; absolute frequency: 103.859808142609. subcorpus: Cicero ; normalized frequency: 1188 ; absolute frequency: 74.0076250280332. subcorpus: Horatius ; normalized frequency: 37 ; absolute frequency: 32.8567622768848. subcorpus: Ovidius ; normalized frequency: 12 ; absolute frequency: 20.5902539464653. subcorpus: Phaedrus ; normalized frequency: 10 ; absolute frequency: 15.181417944436. subcorpus: Sallustius ; normalized frequency: 92 ; absolute frequency: 85.3353121231797. subcorpus: Seneca ; normalized frequency: 340 ; absolute frequency: 63.4553293144958. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 9 ; absolute frequency: 30.8959835221421. subcorpus: Vergilius ; normalized frequency: 22 ; absolute frequency: 42.4710424710425. subcorpus: Hieronymus ; normalized frequency: 34 ; absolute frequency: 76.387328690182'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx111-109-110-105-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 91.77 and an absolute frequency of 377. The Prosa.filosófica subcorpus follows, with a normalized frequency of 70.18 and an absolute frequency of 426. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 16.96 and an absolute freqeuncy of 20. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 377 ; absolute frequency: 91.7743859392877. subcorpus: Prosa.filosófica ; normalized frequency: 426 ; absolute frequency: 70.1800629314179. subcorpus: Prosa.oratória ; normalized frequency: 840 ; absolute frequency: 80.6505813562739. subcorpus: Prosa.epistolográfica ; normalized frequency: 223 ; absolute frequency: 59.0900659794907. subcorpus: Poesia.lírica ; normalized frequency: 39 ; absolute frequency: 32.8089509548246. subcorpus: Poesia.didática ; normalized frequency: 20 ; absolute frequency: 16.9649673424379. subcorpus: Poesia.trágica ; normalized frequency: 39 ; absolute frequency: 33.8776928422516. subcorpus: Poesia.épica ; normalized frequency: 22 ; absolute frequency: 42.4710424710425. subcorpus: Prosa.ficcional ; normalized frequency: 34 ; absolute frequency: 76.387328690182'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx111-109-110-105-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 76.39 and an absolute frequency of 34. The I.a.C. subcorpus follows, with a normalized frequency of 75.22 and an absolute frequency of 1616. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 26.18 and an absolute freqeuncy of 10. here are all the values: subcorpus: I.a.C. ; normalized frequency: 1616 ; absolute frequency: 75.2152664649756. subcorpus: I.d.C. ; normalized frequency: 360 ; absolute frequency: 55.0711335474989. subcorpus: II.d.C. ; normalized frequency: 10 ; absolute frequency: 26.1780104712042. subcorpus: IV.d.C. ; normalized frequency: 34 ; absolute frequency: 76.387328690182'}
+
+
+:::
+

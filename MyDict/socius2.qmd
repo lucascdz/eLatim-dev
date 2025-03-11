@@ -1,0 +1,193 @@
+---
+title: "socius2"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-111-99-105-117-115-50xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>socĭus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Que acompanha, que vai com. &ensp; <small></small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Associado, em comum, unido &ensp; <small>Cíc. Phil. 2, 45.</small> <br> <b>3</b> &ensp; <small>I-Daí:</small> &ensp; Aliado, confederado: &ensp; <small>T. Lív. 27. 1. 6.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Auxiliar, protetor &ensp; <small>Cíc. Fam. 15, 4, 3.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Socius</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; socio, companheiro, camerada. <br> <b>2</b> &ensp; alliado, confederado. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>socius ad malam rem &ensp; <small><small>Plaut</small></small> &ensp; <small>Cumplice no delicto</small> <br> socius in negotio &ensp; <small><small>Ter</small></small> &ensp; <small>Socio no negocio</small> </p>
+
+
+
+
+#### Velez
+
+<b>Socius</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa companheira, de companheiros, ou de companhia &ensp; <small>dat. interdum</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>urbi socia </p>
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/124999 ' target="_blank"> http://lila-erc.eu/data/id/lemma/124999 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+sŏcĭus 
+ sŏcĭa 
+ sŏcĭum
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+no data
+
+
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+no data
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-111-99-105-117-115-50xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 22.05 and an absolute frequency of 2. The Phaedrus subcorpus follows, with a normalized frequency of 1.52 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 2 ; absolute frequency: 0.124591961326655. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 2 ; absolute frequency: 0.373266643026446. subcorpus: Suetonius ; normalized frequency: 2 ; absolute frequency: 22.0507166482911. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-111-99-105-117-115-50xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 1.74 and an absolute frequency of 2. The Poesia.didática subcorpus follows, with a normalized frequency of 0.85 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Prosa.filosófica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 2 ; absolute frequency: 0.486866768908688. subcorpus: Prosa.filosófica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.oratória ; normalized frequency: 2 ; absolute frequency: 0.192025193705414. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-111-99-105-117-115-50xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The I.d.C. subcorpus follows, with a normalized frequency of 0.46 and an absolute frequency of 3. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 2 ; absolute frequency: 0.0930882010705143. subcorpus: I.d.C. ; normalized frequency: 3 ; absolute frequency: 0.458926112895824. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

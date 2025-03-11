@@ -1,0 +1,209 @@
+---
+title: "patria"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-97-116-114-105-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>patrĭa</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Pátria, terra natal &ensp; <small>Cíc. Cát. 1, 17.</small> <br> <b>2</b> &ensp; <small>I-Daí, por extensão</small> &ensp; Pátria adotiva &ensp; <small>Verg. En. 1, 380.</small> <br> <b>3</b> &ensp; <small>II-Sent. poético:</small> &ensp; País de origem &ensp; <small>Verg. G. 2, 116.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Patria</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; patria. <br> <b>2</b> &ensp; <small>Virg.</small> &ensp; região, terra. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Patria</b> -<b>ae</b>   <p> <b>1</b> &ensp; a patria. ou terra natural </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/116250 ' target="_blank"> http://lila-erc.eu/data/id/lemma/116250 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+pătrĭa 
+ pătrĭae
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-97-116-114-105-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-97-116-114-105-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword patria here are all the values plotted: collocate: careo; scoreSUBST: 0. collocate: pro; scoreSUBST: 0. collocate: parens; scoreSUBST: 2. collocate: contra; scoreSUBST: 0. collocate: reddo; scoreSUBST: 0. collocate: salus; scoreSUBST: 2. collocate: periculum; scoreSUBST: 2. collocate: capio; scoreSUBST: 0. collocate: ciuis; scoreSUBST: 2. collocate: bellum; scoreSUBST: 2. collocate: hostis; scoreSUBST: 2. collocate: uir; scoreSUBST: 2. collocate: qua; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: que; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-97-116-114-105-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword patria here are all the values plotted: collocate: careo; scoreADJ: 0. collocate: pro; scoreADJ: 0. collocate: parens; scoreADJ: 0. collocate: contra; scoreADJ: 0. collocate: reddo; scoreADJ: 0. collocate: salus; scoreADJ: 0. collocate: periculum; scoreADJ: 0. collocate: capio; scoreADJ: 0. collocate: ciuis; scoreADJ: 0. collocate: bellum; scoreADJ: 0. collocate: hostis; scoreADJ: 0. collocate: uir; scoreADJ: 0. collocate: qua; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: que; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-97-116-114-105-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword patria here are all the values plotted: collocate: careo; scoreVERBO: 3. collocate: pro; scoreVERBO: 0. collocate: parens; scoreVERBO: 0. collocate: contra; scoreVERBO: 0. collocate: reddo; scoreVERBO: 2. collocate: salus; scoreVERBO: 0. collocate: periculum; scoreVERBO: 0. collocate: capio; scoreVERBO: 2. collocate: ciuis; scoreVERBO: 0. collocate: bellum; scoreVERBO: 0. collocate: hostis; scoreVERBO: 0. collocate: uir; scoreVERBO: 0. collocate: qua; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: que; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-97-116-114-105-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword patria here are all the values plotted: collocate: careo; scoreADV: 0. collocate: pro; scoreADV: 0. collocate: parens; scoreADV: 0. collocate: contra; scoreADV: 0. collocate: reddo; scoreADV: 0. collocate: salus; scoreADV: 0. collocate: periculum; scoreADV: 0. collocate: capio; scoreADV: 0. collocate: ciuis; scoreADV: 0. collocate: bellum; scoreADV: 0. collocate: hostis; scoreADV: 0. collocate: uir; scoreADV: 0. collocate: qua; scoreADV: 2. collocate: in; scoreADV: 0. collocate: que; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-97-116-114-105-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword patria here are all the values plotted: collocate: careo; scoreFUNC: 0. collocate: pro; scoreFUNC: 30. collocate: parens; scoreFUNC: 0. collocate: contra; scoreFUNC: 20. collocate: reddo; scoreFUNC: 0. collocate: salus; scoreFUNC: 0. collocate: periculum; scoreFUNC: 0. collocate: capio; scoreFUNC: 0. collocate: ciuis; scoreFUNC: 0. collocate: bellum; scoreFUNC: 0. collocate: hostis; scoreFUNC: 0. collocate: uir; scoreFUNC: 0. collocate: qua; scoreFUNC: 0. collocate: in; scoreFUNC: 20. collocate: que; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> carere <b>patria</b> intolerabile est <br> <small> Sen.Helv.6.2 <br> Estar privado da pátria é intolerável. <small> [JDD] </small> </small> </p>
+; <p> et egressus inde abiit in <b>patriam</b> suam <br> <small> Vulg.Marc.6.1 <br> E tendo saído dali, foi para sua terra <small> [JDD] </small> </small> </p>
+; <p> o fortunata mors quae naturae debita pro <b>patria</b> est potissimum reddita <br> <small> Cic.Phil.14.31.13 <br> Ó morte afortunada, que da melhor forma possível pagou sua dívida com a natureza em defesa da pátria! <small> [JDD] </small> </small> </p>
+; <p> quod aequiore animo passus est se <b>patriae</b> eripi quam sibi exilium <br> <small> Sen.Prov.3.7 <br> porque suportou ser arrebatado de sua pátria com o ânimo mais sereno do que ficar privado do exílio? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ita te disciplinis inbuisti ut scires omnem locum sapienti uiro <b>patriam</b> esse <br> <small> Sen.Helv.9.7 <br> Te impregnaste tanto de ensinamentos que sabias que todo lugar é uma pátria para um homem sábio. <small> [JDD] </small> </small> </p>
+; <p> his adiutor contra <b>patriam</b> inuentus est nemo itaque mortem sibi uterque consciuit <br> <small> Cic.Amici.42 <br> Não foi encontrado ninguém como ajudante deles contra a pátria; e assim ambos deram a si mesmos a morte. <small> [JDD] </small> </small> </p>
+; <p> multi etiam Catilinam atque illa portenta loquebantur erumpet occupabit aliquem locum bellum <b>patriae</b> faciet <br> <small> Cic.Mil.63 <br> Muitos também falavam de Catilina e daqueles feitos monstruosos: “Vai se manifestar violentamente, ocupará algum local, fará guerra à pátria.” <small> [JDD] </small> </small> </p>
+; <p> et primum tibi ut aequum est civi amanti <b>patriam</b> quae sint in re publica exponam <br> <small> Cic.Att.1.19.1 <br> E primeiramente vou te expor, como é justo para um cidadão que ama a pátria, o que se passa na república. <small> [JDD] </small> </small> </p>
+; <p> at Romani domi militiaeque intenti festinare parare alius alium hortari hostibus obuiam ire libertatem <b>patriam</b> parentesque armis tegere <br> <small> Sal.Cat.6.5 <br> Mas os romanos, atentos na paz e na guerra, se apressavam, se preparavam, um exortava o outro, ia de encontro aos inimigos, protegiam com as armas sua liberdade, sua pátria e seus parentes. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> idem possunt abducunt a <b>patria</b> a parentibus ab amicis a uirtutibus et inter spem uitam misera nisi turpis inludunt <br> <small> Sen.Ep.123.12 <br> Elas podem o mesmo: nos afastam da pátria, dos pais, dos amigos, das virtudes e com uma esperança infeliz, senão vergonhosa, nos lançam a uma vida vergonhosa.[*] <small>  </small> </small> </p>
+; <p> itaque iudicum vocibus cum ego sic ab iis ut salus <b>patriae</b> defenderer fractus reus et una patroni omnes conciderunt <br> <small> Cic.Att.1.16.5 <br> E assim, diante das vozes dos juízes, sendo eu assim defendido por eles como salvação da pátria, o réu, quebrantado, e, junto com ele, todos os seus advogados sucumbiram. <small> [JDD] </small> </small> </p>
+; <p> quamquam hoc animo semper fuimus omnes in <b>patriae</b> proditoribus opprimendis ut quoniam futura esset nostra gloria periculum quoque et inuidiam nostram putaremus <br> <small> Cic.Mil.82 <br> No entanto, ao reprimir os traidores da pátria, nós todos sempre estivemos com este espírito: visto que a glória haveria de ser nossa, que julgássemos também nossos o perigo e o ódio. <small> [JDD] </small> </small> </p>
+; <p> Romanum imperium nempe auctorem exulem respicit quem profugum capta <b>patria</b> exiguas reliquias trahentem necessitas et uictoris metus longinqua quaerentem in Italiam detulit <br> <small> Sen.Helv.7.7 <br> O império romano, sem dúvida, contempla como seu fundador um exilado que, fugitivo de sua pátria subjugada, levando consigo uns poucos despojos, enquanto buscava terras longínquas, a necessidade e o medo do vencedor o levaram para a Itália,. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-97-116-114-105-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 9.28 and an absolute frequency of 10. The Tacitus subcorpus follows, with a normalized frequency of 3.43 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 95 ; absolute frequency: 5.91811816301612. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 10 ; absolute frequency: 9.27557740469344. subcorpus: Seneca ; normalized frequency: 24 ; absolute frequency: 4.47919971631735. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-97-116-114-105-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 7.72 and an absolute frequency of 4. The Prosa.oratória subcorpus follows, with a normalized frequency of 7.68 and an absolute frequency of 80. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0.84 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 11 ; absolute frequency: 2.67776722899778. subcorpus: Prosa.filosófica ; normalized frequency: 24 ; absolute frequency: 3.9538063623334. subcorpus: Prosa.oratória ; normalized frequency: 80 ; absolute frequency: 7.68100774821657. subcorpus: Prosa.epistolográfica ; normalized frequency: 8 ; absolute frequency: 2.11982299477994. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 7 ; absolute frequency: 6.08061153578874. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-97-116-114-105-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 5.12 and an absolute frequency of 110. The II.d.C. subcorpus follows, with a normalized frequency of 2.62 and an absolute frequency of 1. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 2.62 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 110 ; absolute frequency: 5.11985105887829. subcorpus: I.d.C. ; normalized frequency: 25 ; absolute frequency: 3.82438427413186. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

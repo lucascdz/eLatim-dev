@@ -1,0 +1,204 @@
+---
+title: "auctor"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-117-99-116-111-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>auctor</b> <b>-óris</b> <br> <small>subs. m.</small> <br> <small>Obs.: Auctor, como f., em Cícero Div. 1, 27; Verg. En. 12, 159; Ov. F. 6, 709; Met. 7, 157; T. Lív. 40, 4, 14.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Aquele que faz crescer, aquele que produz &ensp; <small>Verg. G. 1, 27.</small> <br> <b>4</b> &ensp; <small></small> &ensp; Instigador, promotor &ensp; <small>Cíc. Of. 3, 109.</small> <br> <b>5</b> &ensp; <small></small> &ensp; Fiador, abonador &ensp; <small>língua do direito T. Lív. 34, 2, 11.</small> <br> <b>6</b> &ensp; <small></small> &ensp; Vendedor em hasta pública, vendedor &ensp; <small>Cíc. Verr. 5, 56.</small> <br> <b>7</b> &ensp; <small></small> &ensp; O que tem poder para fazer uma coisa, testemunha, ratificador &ensp; <small>Cíc. Br. 55.</small> <br> <b>8</b> &ensp; <small></small> &ensp; Autoridade, defensor &ensp; <small>Cíc. At. 7, 3,10.</small> </p> 
+ <b>autor</b> <small>e seus derivados</small> <br> <small></small> <br> <small>v. auctor.</small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Auctor</b> -<b>oris</b> <br> <small>m. Cic. f. Ovid.</small>   <p> <b>1</b> &ensp; autor, autora. </p> 
+ <small>& c.</small> <b>Author</b> <br> <small>v. Auctor.</small>
+
+
+
+
+#### Velez
+
+<b>Auctor</b> -<b>oris</b>   <p> <b>1</b> &ensp; o autor, ou autora &ensp; <small>figuratè per obliquos, sicut alia verbalia in Or, neutris adjungitur</small> <br> <b>2</b> &ensp; <small>significat etiam Auctor primum inductorem, vel persuasorem vel reprobatorem, pormissotem, defensorem, aut vindicem;</small> <br> <b>3</b> &ensp; <small>item eum, qui vendendi potestatem habet, & primum denuntiatorem</small> <br> <b>4</b> &ensp; <small>eum, cui quis fidem habet</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>fatis authoribus, & c </p> 
+ <b>Author</b>   <p> <b>1</b> &ensp; o autor, ou autora &ensp; <small>figuratè per obliquos, sicut alia verbalia in Or, neutris adjungitur</small> <br> <b>2</b> &ensp; <small>significat etiam Auctor primum inductorem, vel persuasorem vel reprobatorem, pormissotem, defensorem, aut vindicem;</small> <br> <b>3</b> &ensp; <small>item eum, qui vendendi potestatem habet, & primum denuntiatorem</small> <br> <b>4</b> &ensp; <small>eum, cui quis fidem habet</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>fatis authoribus, & c </p> 
+ <b>Autor</b> -<b>oris</b>   <p> <b>1</b> &ensp; o autor, ou autora &ensp; <small>figuratè per obliquos, sicut alia verbalia in Or, neutris adjungitur</small> <br> <b>2</b> &ensp; <small>significat etiam Auctor primum inductorem, vel persuasorem vel reprobatorem, pormissotem, defensorem, aut vindicem;</small> <br> <b>3</b> &ensp; <small>item eum, qui vendendi potestatem habet, & primum denuntiatorem</small> <br> <b>4</b> &ensp; <small>eum, cui quis fidem habet</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>fatis authoribus, & c </p>
+
+
+
+
+#### Cardoso
+
+<b>Autor</b> <b>oris</b>   <p> <b>1</b> &ensp; ho fazedor. ou causador </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/90615 ' target="_blank"> http://lila-erc.eu/data/id/lemma/90615 </a> <br>
+<small> classe: </small> substantivo comum de dois gêneros   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> author, autor <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+auctŏr 
+ auctōris
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-117-99-116-111-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-117-99-116-111-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword auctor here are all the values plotted: collocate: pax; scoreSUBST: 2. collocate: semper; scoreSUBST: 0. collocate: Pompeius; scoreSUBST: 0. collocate: consilium; scoreSUBST: 2. collocate: tu; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-117-99-116-111-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword auctor here are all the values plotted: collocate: pax; scoreADJ: 0. collocate: semper; scoreADJ: 0. collocate: Pompeius; scoreADJ: 0. collocate: consilium; scoreADJ: 0. collocate: tu; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-117-99-116-111-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword auctor here are all the values plotted: collocate: pax; scoreVERBO: 0. collocate: semper; scoreVERBO: 0. collocate: Pompeius; scoreVERBO: 0. collocate: consilium; scoreVERBO: 0. collocate: tu; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-117-99-116-111-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword auctor here are all the values plotted: collocate: pax; scoreADV: 0. collocate: semper; scoreADV: 2. collocate: Pompeius; scoreADV: 0. collocate: consilium; scoreADV: 0. collocate: tu; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-117-99-116-111-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword auctor here are all the values plotted: collocate: pax; scoreFUNC: 0. collocate: semper; scoreFUNC: 0. collocate: Pompeius; scoreFUNC: 0. collocate: consilium; scoreFUNC: 0. collocate: tu; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> vix aliquando te <b>auctore</b> resipui <br> <small> Cic.Att.4.5.1 <br> Com dificuldade, recuperei finalmente os sentidos, graças ao teu conselho. <small> [JDD] </small> </small> </p>
+; <p> agraria lex a Flavio tribuno plebis vehementer agitabatur <b>auctore</b> Pompeio <br> <small> Cic.Att.1.19.4 <br> a lei agrária é veementemente promovida pelo tribuno da plebe Flávio, com o apoio de Pompeu. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> te habere consiliorum <b>auctorem</b> sollicitudinum socium omni in cogitatione coniunctum cupio <br> <small> Cic.Att.2.24.5 <br> Desejo ter-te como inspirador de minhas decisões, companheiro de minhas inquietudes, co-participante em todo meu pensamento. <small> [JDD] </small> </small> </p>
+; <p> pacis equidem semper <b>auctor</b> fui sed tum sero erat enim amentis cum aciem uideres pacem cogitare <br> <small> Cic.Lig.28 <br> Na verdade, sempre fui o promotor da paz, mas então era tarde; pois era próprio de loucos pensar na paz, quando vias as linhas de batalha. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-117-99-116-111-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 7.59 and an absolute frequency of 5. The Suetonius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 3 ; absolute frequency: 1.13301608882846. subcorpus: Cicero ; normalized frequency: 44 ; absolute frequency: 2.74102314918641. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 5 ; absolute frequency: 7.59070897221801. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 14 ; absolute frequency: 2.61286650118512. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-117-99-116-111-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 4.34 and an absolute frequency of 5. The Poesia.didática subcorpus follows, with a normalized frequency of 4.24 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 7 ; absolute frequency: 1.70403369118041. subcorpus: Prosa.filosófica ; normalized frequency: 9 ; absolute frequency: 1.48267738587503. subcorpus: Prosa.oratória ; normalized frequency: 33 ; absolute frequency: 3.16841569613933. subcorpus: Prosa.epistolográfica ; normalized frequency: 11 ; absolute frequency: 2.91475661782241. subcorpus: Poesia.lírica ; normalized frequency: 5 ; absolute frequency: 4.20627576343905. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-117-99-116-111-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The I.d.C. subcorpus follows, with a normalized frequency of 2.91 and an absolute frequency of 19. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 54 ; absolute frequency: 2.51338142890389. subcorpus: I.d.C. ; normalized frequency: 19 ; absolute frequency: 2.90653204834022. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

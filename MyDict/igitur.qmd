@@ -1,0 +1,210 @@
+---
+title: "igitur"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-103-105-116-117-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>igĭtur</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Nestas circunstâncias. portanto. pois. então &ensp; <small>Plaut. Caso 216.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Pois. por conseguinte &ensp; <small>Cíc. Tusc. I. 71.</small> <br> <b>3</b> &ensp; <small></small> &ensp; Pois &ensp; <small>interrogativo conclusivo Cíc. Tusc. 1. 70.</small> <br> <b>4</b> &ensp; <small></small> &ensp; Então &ensp; <small>usado para retomar um assunto interrompido Cíc. Tusc. I. 30.</small> <br> <b>5</b> &ensp; <small></small> &ensp; Então. assim pois. em resumo. numa palavra &ensp; <small>Cíc. Tusc. 1,70.</small> <br> <b>6</b> &ensp; <small></small> &ensp; E pois. portanto &ensp; <small>usado para abordar um desenvolvimento já anunciado C íc. F in. I. 66.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Igitur</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; logo, por tanto. </p>
+
+
+
+
+#### Velez
+
+<b>Igitur</b> <br> <small>Conjunct.</small>   <p> <b>1</b> &ensp; por tanto </p>
+
+
+
+
+#### Cardoso
+
+<b>Igitur</b> <br> <small>coniunctio illatiua.</small>   <p> <b>1</b> &ensp; assi que </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/106127 ' target="_blank"> http://lila-erc.eu/data/id/lemma/106127 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ĭgĭtŭr
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-103-105-116-117-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword igitur here are all the values plotted: collocate: num; scoreSUBST: 0. collocate: cur; scoreSUBST: 0. collocate: talis; scoreSUBST: 0. collocate: hic; scoreSUBST: 0. collocate: unde; scoreSUBST: 0. collocate: placeo; scoreSUBST: 0. collocate: primum; scoreSUBST: 0. collocate: ne; scoreSUBST: 0. collocate: quis; scoreSUBST: 0. collocate: nos; scoreSUBST: 0. collocate: is; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-103-105-116-117-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword igitur here are all the values plotted: collocate: num; scoreADJ: 0. collocate: cur; scoreADJ: 0. collocate: talis; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: unde; scoreADJ: 0. collocate: placeo; scoreADJ: 0. collocate: primum; scoreADJ: 0. collocate: ne; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: nos; scoreADJ: 0. collocate: is; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-103-105-116-117-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword igitur here are all the values plotted: collocate: num; scoreVERBO: 0. collocate: cur; scoreVERBO: 0. collocate: talis; scoreVERBO: 0. collocate: hic; scoreVERBO: 0. collocate: unde; scoreVERBO: 0. collocate: placeo; scoreVERBO: 2. collocate: primum; scoreVERBO: 0. collocate: ne; scoreVERBO: 0. collocate: quis; scoreVERBO: 0. collocate: nos; scoreVERBO: 0. collocate: is; scoreVERBO: 0. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-103-105-116-117-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword igitur here are all the values plotted: collocate: num; scoreADV: 3. collocate: cur; scoreADV: 2. collocate: talis; scoreADV: 0. collocate: hic; scoreADV: 0. collocate: unde; scoreADV: 2. collocate: placeo; scoreADV: 0. collocate: primum; scoreADV: 2. collocate: ne; scoreADV: 0. collocate: quis; scoreADV: 0. collocate: nos; scoreADV: 0. collocate: is; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-103-105-116-117-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword igitur here are all the values plotted: collocate: num; scoreFUNC: 0. collocate: cur; scoreFUNC: 0. collocate: talis; scoreFUNC: 0. collocate: hic; scoreFUNC: 0. collocate: unde; scoreFUNC: 0. collocate: placeo; scoreFUNC: 0. collocate: primum; scoreFUNC: 0. collocate: ne; scoreFUNC: 20. collocate: quis; scoreFUNC: 0. collocate: nos; scoreFUNC: 0. collocate: is; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> haec <b>igitur</b> <br> <small> Cic.Att.2.11.1 <br> É isso então <small> [JDD] </small> </small> </p>
+; <p> cur <b>igitur</b> uictus est <br> <small> Cic.Mil.55 <br> Por que então ele foi vencido? <small> [JDD] </small> </small> </p>
+; <p> cur <b>igitur</b> pacem nolo <br> <small> Cic.Phil.7.9.1 <br> Por que, portanto, não quero a paz? <small> [JDD] </small> </small> </p>
+; <p> quid <b>igitur</b> causae fuit <br> <small> Cic.Att.4.2.5 <br> “Qual foi, portanto, o motivo?” <small> [JDD] </small> </small> </p>
+; <p> cur <b>igitur</b> eos manu misit <br> <small> Cic.Mil.57 <br> Por que então lhes concedeu liberdade? <small> [JDD] </small> </small> </p>
+; <p> id <b>igitur</b> Caelius non uidebat <br> <small> Cic.Cael.57 <br> Então Célio não via isso? <small> [JDD] </small> </small> </p>
+; <p> quae sunt <b>igitur</b> meae partes <br> <small> Cic.Balb.1 <br> Qual é, portanto, o meu papel? <small> [JDD] </small> </small> </p>
+; <p> quid <b>igitur</b> nobis faciendum est <br> <small> Cic.Ver.2.4.11.1 <br> 11 O que então devemos fazer? <small> [JDD] </small> </small> </p>
+; <p> unde <b>igitur</b> subito tanta ista mutatio <br> <small> Cic.Phil.1.33.3 <br> De onde, portanto, assim de repente essa tão grande mudança? <small> [JDD] </small> </small> </p>
+; <p> id ne <b>igitur</b> inquies facile fers <br> <small> Cic.Att.4.18.2 <br> “E isso então”, dirás, “suportas facilmente?” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> placet <b>igitur</b> eos dimitti et augeri exercitum Catilinae <br> <small> Sal.Cat.51.43 <br> Me agrada então que eles sejam mandados embora e aumentem o exército de Catilina? <small> [JDD] </small> </small> </p>
+; <p> possumus ne <b>igitur</b> in Antoni latrocinio aeque esse tuti <br> <small> Cic.Phil.12.27.17 <br> Por acaso podemos então estar igualmente seguros em relação ao bando de Antônio? <small> [JDD] </small> </small> </p>
+; <p> unde <b>igitur</b> ista suspicio uel potius unde iste sermo <br> <small> Cic.Phil.14.14.10 <br> De onde, portanto, essa suspeita, ou melhor, de onde essa conversa? <small> [JDD] </small> </small> </p>
+; <p> nulla est <b>igitur</b> excusatio peccati si amici causa peccaueris <br> <small> Cic.Amici.37 <br> Não há, portanto, nenhuma escusa do erro, se errares por causa de um amigo. <small> [JDD] </small> </small> </p>
+; <p> non <b>igitur</b> utilitatem amicitia sed utilitas amicitiam secuta est <br> <small> Cic.Amici.51 <br> Portanto, a amizade não foi consequência da utilidade, mas a utilidade foi consequência da amizade. <small> [JDD] </small> </small> </p>
+; <p> num <b>igitur</b> ulla quaestio de Africani morte lata est <br> <small> Cic.Mil.16 <br> Por ventura algum inquérito sobre a morte do Africano foi então proposto? <small> [JDD] </small> </small> </p>
+; <p> talis <b>igitur</b> inter uiros amicitia tantas opportunitates habet quantas uix queo dicere <br> <small> Cic.Amici.22 <br> Portanto, entre tais varões, a amizade tem tão grandes oportunidades quantas eu mal posso dizer. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-103-105-116-117-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 20.41 and an absolute frequency of 22. The Cicero subcorpus follows, with a normalized frequency of 13.46 and an absolute frequency of 216. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 216 ; absolute frequency: 13.4559318232788. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 22 ; absolute frequency: 20.4062702903256. subcorpus: Seneca ; normalized frequency: 1 ; absolute frequency: 0.186633321513223. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-103-105-116-117-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 14.59 and an absolute frequency of 152. The Prosa.filosófica subcorpus follows, with a normalized frequency of 7.91 and an absolute frequency of 48. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 23 ; absolute frequency: 5.59896784244991. subcorpus: Prosa.filosófica ; normalized frequency: 48 ; absolute frequency: 7.90761272466681. subcorpus: Prosa.oratória ; normalized frequency: 152 ; absolute frequency: 14.5939147216115. subcorpus: Prosa.epistolográfica ; normalized frequency: 16 ; absolute frequency: 4.23964598955987. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-103-105-116-117-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 11.12 and an absolute frequency of 239. The I.d.C. subcorpus follows, with a normalized frequency of 0.61 and an absolute frequency of 4. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 239 ; absolute frequency: 11.1240400279265. subcorpus: I.d.C. ; normalized frequency: 4 ; absolute frequency: 0.611901483861098. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

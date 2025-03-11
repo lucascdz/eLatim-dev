@@ -1,0 +1,210 @@
+---
+title: "annus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-110-110-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>annus</b> <b>-í</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Ano &ensp; <small>Cíc. C. M. 24.</small> <br> <b>2</b> &ensp; <small>II-Daí, na língua rústica</small> &ensp; Produção de um ano, colheita: &ensp; <small></small> <br> <b>3</b> &ensp; <small>II-No sent. poético:</small> &ensp; Estação das colheitas, outono &ensp; <small>Verg. Buc. 2, 57.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>nec arare terram aut expectare annum Tác. Germ. 14 «nem arar a terra nem esperar a colheita do ano». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Annus</b> -<b>i</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; anno. <br> <b>2</b> &ensp; estação do anno. </p>
+
+
+
+
+#### Velez
+
+<b>annus</b>
+
+
+
+
+#### Cardoso
+
+<b>Annus</b> <b>i</b>   <p> <b>1</b> &ensp; o anno </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/89129 ' target="_blank"> http://lila-erc.eu/data/id/lemma/89129 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> anus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+annī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-110-110-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-110-110-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword annus here are all the values plotted: collocate: tot; scoreSUBST: 0. collocate: aliquot; scoreSUBST: 0. collocate: post2; scoreSUBST: 0. collocate: decem; scoreSUBST: 0. collocate: tempus; scoreSUBST: 2. collocate: ante2; scoreSUBST: 0. collocate: complures; scoreSUBST: 0. collocate: multus; scoreSUBST: 0. collocate: certus; scoreSUBST: 0. collocate: unus; scoreSUBST: 0. collocate: per; scoreSUBST: 0. collocate: totus; scoreSUBST: 0. collocate: iam; scoreSUBST: 0. collocate: superus; scoreSUBST: 0. collocate: hic; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-110-110-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword annus here are all the values plotted: collocate: tot; scoreADJ: 0. collocate: aliquot; scoreADJ: 0. collocate: post2; scoreADJ: 0. collocate: decem; scoreADJ: 0. collocate: tempus; scoreADJ: 0. collocate: ante2; scoreADJ: 0. collocate: complures; scoreADJ: 0. collocate: multus; scoreADJ: 0. collocate: certus; scoreADJ: 2. collocate: unus; scoreADJ: 0. collocate: per; scoreADJ: 0. collocate: totus; scoreADJ: 0. collocate: iam; scoreADJ: 0. collocate: superus; scoreADJ: 0. collocate: hic; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-110-110-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword annus here are all the values plotted: collocate: tot; scoreVERBO: 0. collocate: aliquot; scoreVERBO: 0. collocate: post2; scoreVERBO: 0. collocate: decem; scoreVERBO: 0. collocate: tempus; scoreVERBO: 0. collocate: ante2; scoreVERBO: 0. collocate: complures; scoreVERBO: 0. collocate: multus; scoreVERBO: 0. collocate: certus; scoreVERBO: 0. collocate: unus; scoreVERBO: 0. collocate: per; scoreVERBO: 0. collocate: totus; scoreVERBO: 0. collocate: iam; scoreVERBO: 0. collocate: superus; scoreVERBO: 0. collocate: hic; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-110-110-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword annus here are all the values plotted: collocate: tot; scoreADV: 0. collocate: aliquot; scoreADV: 0. collocate: post2; scoreADV: 2. collocate: decem; scoreADV: 0. collocate: tempus; scoreADV: 0. collocate: ante2; scoreADV: 2. collocate: complures; scoreADV: 0. collocate: multus; scoreADV: 0. collocate: certus; scoreADV: 0. collocate: unus; scoreADV: 0. collocate: per; scoreADV: 0. collocate: totus; scoreADV: 0. collocate: iam; scoreADV: 2. collocate: superus; scoreADV: 0. collocate: hic; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-110-110-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword annus here are all the values plotted: collocate: tot; scoreFUNC: 0. collocate: aliquot; scoreFUNC: 0. collocate: post2; scoreFUNC: 0. collocate: decem; scoreFUNC: 0. collocate: tempus; scoreFUNC: 0. collocate: ante2; scoreFUNC: 0. collocate: complures; scoreFUNC: 0. collocate: multus; scoreFUNC: 0. collocate: certus; scoreFUNC: 0. collocate: unus; scoreFUNC: 0. collocate: per; scoreFUNC: 20. collocate: totus; scoreFUNC: 0. collocate: iam; scoreFUNC: 0. collocate: superus; scoreFUNC: 0. collocate: hic; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ex hoc die clavum <b>anni</b> movebis <br> <small> Cic.Att.5.15.1 <br> a partir desse dia moverás o indicador do ano. <small> [JDD] </small> </small> </p>
+; <p> decem per <b>annos</b> uidua respiciam uirum <br> <small> Sen.Ag.156 <br> Durante dez anos sozinha, vou ter consideração para com meu marido? <small> [JDD] </small> </small> </p>
+; <p> uerum negas te horum <b>annorum</b> aliquot confecisse <br> <small> Cic.Ver.2.4.36.3 <br> Mas tu dizes que não fizeste os registros de algum desses anos. <small> [JDD] </small> </small> </p>
+; <p> multi fuerunt multis in legionibus per tot <b>annos</b> <br> <small> Cic.Phil.6.14.3 <br> Muitos estiveram em muitas legiões por tantos anos. <small> [JDD] </small> </small> </p>
+; <p> id adeo malum multos post <b>annos</b> in ciuitatem reuorterat <br> <small> Sal.Cat.37.11 <br> De tal modo esse mal, depois de muitos anos, tinha retornado à cidade. <small> [JDD] </small> </small> </p>
+; <p> uicesimus <b>annus</b> est cum omnes scelerati me unum petunt <br> <small> Cic.Phil.12.24.12 <br> Há vinte anos que todos os criminosos buscam atingir somente a mim. <small> [JDD] </small> </small> </p>
+; <p> qui uiginti iam <b>annos</b> bellum geram cum impiis ciuibus <br> <small> Cic.Phil.6.17.11 <br> Eu, que já faz vinte anos que travo guerra com ímpios cidadãos. <small> [JDD] </small> </small> </p>
+; <p> at studuit Catilinae cum iam aliquot <b>annos</b> esset in foro Caelius <br> <small> Cic.Cael.12 <br> Mas Célio aderiu a Catilina, quando já estava por alguns anos no foro. <small> [JDD] </small> </small> </p>
+; <p> hi rursus inuicem <b>anno</b> post in armis sunt illi domi remanent <br> <small> Caes.Gal.4.1.5 <br> no ano seguinte, estes, por sua vez, pegam em arma e, aqueles ficam em casa. <small> [JDD] </small> </small> </p>
+; <p> atque etiam spero toto <b>anno</b> imperi nostri terruncium sumptus in provincia nullum fore <br> <small> Cic.Att.5.20.6 <br> E espero até mesmo que, em todo o ano de nosso mandato, náo haja o gasto de nenhum tostão na província. <small> [JDD] </small> </small> </p>
+; <p> his rebus celeriter administratis ipse cum primum per <b>anni</b> tempus potuit ad exercitum contendit <br> <small> Caes.Gal.3.9.2 <br> Administradas rapidamente essas coisas, ele próprio, tão logo pôde pela estação do ano, dirige-se apressadamente até o exército. <small> [JDD] </small> </small> </p>
+; <p> causa transeundi fuit quod ab Suebis complures <b>annos</b> exagitati bello premebantur et agri cultura prohibebantur <br> <small> Caes.Gal.4.1.2 <br> O motivo de atravessá-lo foi o fato de que, atormentados muitos anos pela guerra, eram oprimidos pelos Suevos e impedidos do cultivo de suas terras. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> hunc cum reliquis rebus locum probabat tum quod superioris <b>anni</b> munitiones integrae manebant ut militum laborem subleuaret <br> <small> Caes.Gal.6.32.5 <br> Aprovava este local não só pelas demais coisas, mas principalmente porque permaneciam intactas as trincheiras dos anos anteriores, de modo que atenuava o trabalho dos soldados. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> hi certo <b>anni</b> tempore in finibus Carnutum quae regio totius Galliae media habetur considunt in loco consecrato <br> <small> Caes.Gal.6.13.10 <br> Estes, em certo período do ano, vêm sentar-se num local consagrado dentro das fronteiras dos carnutos, região que é tida como o centro de toda a Gália. <small> [JDD] </small> </small> </p>
+; <p> uidi etiam senem Liuium qui cum sex <b>annis</b> ante quam ego natus sum fabulam docuisset Centone Tuditanoque consulibus usque ad adulescentiam meam processit aetate <br> <small> Cic.Sen.50 <br> Vi ainda o velho Lívio; ele, tendo apresentado uma peça seis anos antes de eu ter nascido, sendo cônsules Centão e Tuditano, avançou na existência até a minha juventude. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-110-110-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 11.03 and an absolute frequency of 1. The Caesar subcorpus follows, with a normalized frequency of 10.57 and an absolute frequency of 28. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 3.04 and an absolute freqeuncy of 2. here are all the values: subcorpus: Caesar ; normalized frequency: 28 ; absolute frequency: 10.5748168290656. subcorpus: Cicero ; normalized frequency: 113 ; absolute frequency: 7.03944581495602. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 6 ; absolute frequency: 5.56534644281607. subcorpus: Seneca ; normalized frequency: 22 ; absolute frequency: 4.10593307329091. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-110-110-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 9.65 and an absolute frequency of 5. The Prosa.histórica subcorpus follows, with a normalized frequency of 9.25 and an absolute frequency of 38. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 3.39 and an absolute freqeuncy of 4. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 38 ; absolute frequency: 9.25046860926508. subcorpus: Prosa.filosófica ; normalized frequency: 50 ; absolute frequency: 8.23709658819459. subcorpus: Prosa.oratória ; normalized frequency: 65 ; absolute frequency: 6.24081879542596. subcorpus: Prosa.epistolográfica ; normalized frequency: 15 ; absolute frequency: 3.97466811521238. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-110-110-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 10.47 and an absolute frequency of 4. The I.a.C. subcorpus follows, with a normalized frequency of 7.35 and an absolute frequency of 158. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 3.98 and an absolute freqeuncy of 26. here are all the values: subcorpus: I.a.C. ; normalized frequency: 158 ; absolute frequency: 7.35396788457063. subcorpus: I.d.C. ; normalized frequency: 26 ; absolute frequency: 3.97735964509714. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

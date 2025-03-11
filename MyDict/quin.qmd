@@ -1,0 +1,198 @@
+---
+title: "quin"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx113-117-105-110xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+no data
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+no data
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Quin</b> <br> <small>cum indicatiuo.</small>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/121181 ' target="_blank"> http://lila-erc.eu/data/id/lemma/121181 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> quein <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+quīn
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx113-117-105-110xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword quin here are all the values plotted: collocate: dubito; scoreSUBST: 0. collocate: dubius; scoreSUBST: 0. collocate: etiam; scoreSUBST: 0. collocate: existimo; scoreSUBST: 0. collocate: arma; scoreSUBST: 2. collocate: hic; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx113-117-105-110xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword quin here are all the values plotted: collocate: dubito; scoreADJ: 0. collocate: dubius; scoreADJ: 2. collocate: etiam; scoreADJ: 0. collocate: existimo; scoreADJ: 0. collocate: arma; scoreADJ: 0. collocate: hic; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx113-117-105-110xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword quin here are all the values plotted: collocate: dubito; scoreVERBO: 5. collocate: dubius; scoreVERBO: 0. collocate: etiam; scoreVERBO: 0. collocate: existimo; scoreVERBO: 2. collocate: arma; scoreVERBO: 0. collocate: hic; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx113-117-105-110xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword quin here are all the values plotted: collocate: dubito; scoreADV: 0. collocate: dubius; scoreADV: 0. collocate: etiam; scoreADV: 3. collocate: existimo; scoreADV: 0. collocate: arma; scoreADV: 0. collocate: hic; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx113-117-105-110xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword quin here are all the values plotted: collocate: dubito; scoreFUNC: 0. collocate: dubius; scoreFUNC: 0. collocate: etiam; scoreFUNC: 0. collocate: existimo; scoreFUNC: 0. collocate: arma; scoreFUNC: 0. collocate: hic; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> tum uero dubitandum non existimauit <b>quin</b> ad eos proficisceretur <br> <small> Caes.Gal.2.2.5 <br> Achou, então, que não devia hesitar em partir na direção deles. <small> [JDD] </small> </small> </p>
+; <p> dies fere nullus est <b>quin</b> hic Satyrus domum meam ventitet <br> <small> Cic.Att.1.1.3 <br> Quase não passa um dia sem que este Sátiro apareça em minha casa. <small> [JDD] </small> </small> </p>
+; <p> sed id quidem non dubium est <b>quin</b> si quid erit eius modi sis advolaturus <br> <small> Cic.Att.2.15.2 <br> Mas, na verdade, não há dúvida de que, se houver algo desse tipo, virás voando. <small> [JDD] </small> </small> </p>
+; <p> <b>quin</b> etiam cum candidatum deduceremus quaerit ex me num consuessem Siculis locum gladiatoribus dare <br> <small> Cic.Att.2.1.5 <br> Ainda mais, quando acompanhávamos um candidato, me perguntou se costumava conceder aos sicilianos um local para gladiadores. <small> [JDD] </small> </small> </p>
+; <p> neminem esse dico ex his omnibus qui illo die Romae fuerit quem tu diem in iudicium uocas pubesque tum fuerit <b>quin</b> arma ceperit <b>quin</b> consules secutus sit <br> <small> Cic.Rab.Perd.31 <br> Digo que, dentre todos os que estiveram em Roma naquele dia (o dia que tu levas a julgamento), não há ninguém que fosse então maior de idade, que não tenha pegado em armas, que não tenha seguido os cônsules. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx113-117-105-110xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 5.67 and an absolute frequency of 15. The Caesar subcorpus follows, with a normalized frequency of 5.67 and an absolute frequency of 15. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 15 ; absolute frequency: 5.66508044414231. subcorpus: Cicero ; normalized frequency: 74 ; absolute frequency: 4.60990256908624. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 9 ; absolute frequency: 1.67969989361901. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx113-117-105-110xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 5.03 and an absolute frequency of 19. The Prosa.histórica subcorpus follows, with a normalized frequency of 4.63 and an absolute frequency of 19. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 19 ; absolute frequency: 4.62523430463254. subcorpus: Prosa.filosófica ; normalized frequency: 14 ; absolute frequency: 2.30638704469449. subcorpus: Prosa.oratória ; normalized frequency: 45 ; absolute frequency: 4.32056685837182. subcorpus: Prosa.epistolográfica ; normalized frequency: 19 ; absolute frequency: 5.03457961260235. subcorpus: Poesia.lírica ; normalized frequency: 5 ; absolute frequency: 4.20627576343905. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx113-117-105-110xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 4.61 and an absolute frequency of 99. The I.a.C. subcorpus follows, with a normalized frequency of 4.61 and an absolute frequency of 99. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 99 ; absolute frequency: 4.60786595299046. subcorpus: I.d.C. ; normalized frequency: 9 ; absolute frequency: 1.37677833868747. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

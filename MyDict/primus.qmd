@@ -1,0 +1,209 @@
+---
+title: "primus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-114-105-109-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>prīmus</b> <b>-a</b> <b>-um</b> <br> <small>num. or.</small> <br> <small>Obs.: E um superlativo que serve de ordinal a unus.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Que está na frente de tudo, o primeiro &ensp; <small>no tempo, no lugar Cíc. At. 9, 6, 5.</small> <br> <b>2</b> &ensp; <small>II-Daí, em sent. moral</small> &ensp; O mais importante, o principal, o primeiro, o melhor &ensp; <small>pela sua categoria:</small> <br> <b>3</b> &ensp; <small>II-Por extensão:</small> &ensp; Que está no começo, que começa, próximo: &ensp; <small></small> <br> <b>4</b> &ensp; <small>II-Em locuções:</small> &ensp; <small></small> <br> <b>5</b> &ensp; <small>II-Em locuções:</small> &ensp; <small></small> <br> <b>6</b> &ensp; <small>II-Em locuções:</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>primos civitatis Cíc. Verr. 4, 15 ‘o principal homem da cidade’. <br> <br><b>3</b><br>prima nocte Cés. B. Gal. 1, 27, 7 ‘ao cair da noite’; primo vere Cés. B. Gal. 6, 3, 4 ‘no começo da primavera’. <br> <br><b>4</b><br>a primo, ‘desde o princípio’ Cíc. Or. 26. <br> <br><b>5</b><br>in primo «no começo» Cíc. Or. 215. <br> <br><b>6</b><br>in primo língua militar ‘na primeira linha’ T. Lív. 25, 21, 6. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Primus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; primeiro, principal. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>a primo &ensp; <small><small>Cic</small></small> &ensp; <small>Desde o principio</small> </p>
+
+
+
+
+#### Velez
+
+<b>Primus</b> -<b>a</b> -<b>um</b> <br> <small>quod Comparativo caret, & Superl.</small>   <p> <b>1</b> &ensp; cousa primeira, ou principal </p>
+
+
+
+
+#### Cardoso
+
+<b>Primus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa primeyra & principal </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/119498 ' target="_blank"> http://lila-erc.eu/data/id/lemma/119498 </a> <br>
+<small> classe: </small> adjetivo   superlativo <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> preimus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+prīmus 
+ prīma 
+ prīmum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-114-105-109-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-114-105-109-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword primus here are all the values plotted: collocate: lux; scoreSUBST: 3. collocate: quisque; scoreSUBST: 0. collocate: acies; scoreSUBST: 2. collocate: aetas; scoreSUBST: 2. collocate: sententia; scoreSUBST: 2. collocate: in; scoreSUBST: 0. collocate: ciuitas; scoreSUBST: 2. collocate: pars; scoreSUBST: 2. collocate: quidem; scoreSUBST: 0. collocate: ille; scoreSUBST: 0. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-114-105-109-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword primus here are all the values plotted: collocate: lux; scoreADJ: 0. collocate: quisque; scoreADJ: 0. collocate: acies; scoreADJ: 0. collocate: aetas; scoreADJ: 0. collocate: sententia; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: ciuitas; scoreADJ: 0. collocate: pars; scoreADJ: 0. collocate: quidem; scoreADJ: 0. collocate: ille; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-114-105-109-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword primus here are all the values plotted: collocate: lux; scoreVERBO: 0. collocate: quisque; scoreVERBO: 0. collocate: acies; scoreVERBO: 0. collocate: aetas; scoreVERBO: 0. collocate: sententia; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: ciuitas; scoreVERBO: 0. collocate: pars; scoreVERBO: 0. collocate: quidem; scoreVERBO: 0. collocate: ille; scoreVERBO: 0. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-114-105-109-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword primus here are all the values plotted: collocate: lux; scoreADV: 0. collocate: quisque; scoreADV: 0. collocate: acies; scoreADV: 0. collocate: aetas; scoreADV: 0. collocate: sententia; scoreADV: 0. collocate: in; scoreADV: 0. collocate: ciuitas; scoreADV: 0. collocate: pars; scoreADV: 0. collocate: quidem; scoreADV: 2. collocate: ille; scoreADV: 0. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-114-105-109-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword primus here are all the values plotted: collocate: lux; scoreFUNC: 0. collocate: quisque; scoreFUNC: 0. collocate: acies; scoreFUNC: 0. collocate: aetas; scoreFUNC: 0. collocate: sententia; scoreFUNC: 0. collocate: in; scoreFUNC: 30. collocate: ciuitas; scoreFUNC: 0. collocate: pars; scoreFUNC: 0. collocate: quidem; scoreFUNC: 0. collocate: ille; scoreFUNC: 0. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>prima</b> autem pars est aequitatis aequalitas <br> <small> Sen.Ep.30.11 <br> A primeira parte da equidade é a igualdade. <small> [JDD] </small> </small> </p>
+; <p> quo in genere est in <b>primis</b> senectus <br> <small> Cic.Sen.4 <br> E nessa classe a velhice está em primeiro plano. <small> [JDD] </small> </small> </p>
+; <p> <b>prima</b> enim quaeque placuisset si omnem tuam crederes <br> <small> Sen.Ep.28.5 <br> pois a primeira teria te agradado, se acreditasses toda tua. <small> [JDD] </small> </small> </p>
+; <p> <b>primo</b> ne in aeuo uiridis an fracto occidit <br> <small> Sen.Oed.775 <br> Morreu no verdor da juventude ou já alquebrado? <small> [JDD] </small> </small> </p>
+; <p> itaque illo tempore ac <b>primo</b> istius aduentu pernegatur <br> <small> Cic.Ver.2.4.76.3 <br> E assim, na ocasião e na primeira vinda desse, lhe é terminantemente negado. <small> [JDD] </small> </small> </p>
+; <p> atque is <b>primus</b> instituit in forum uersus agere cum populo <br> <small> Cic.Amici.96 <br> e ele foi o primeiro que instituiu tratar com o povo voltado para o forum. <small> [JDD] </small> </small> </p>
+; <p> <b>primam</b> et secundam aciem in armis esse tertiam castra munire iussit <br> <small> Caes.Gal.1.49.2 <br> Ordenou que a primeira e a segunda linha estivessem em armas, que a terceira fortificasse o acampamento. <small> [JDD] </small> </small> </p>
+; <p> Metellus cum <b>prima</b> luce furtim in campum itineribus prope deviis currebat <br> <small> Cic.Att.4.3.4 <br> Com as primeiras luzes, Metelo corria furtivamente para o Campo de Marte por caminhos pouco habituais. <small> [JDD] </small> </small> </p>
+; <p> quae quidem res mihi in <b>primis</b> uidetur causa fuisse facinus maturandi <br> <small> Sal.Cat.15.3 <br> Esse fato, na verdade, me parece ter sido principalmente a causa de apressar seu crime. <small> [JDD] </small> </small> </p>
+; <p> Pompeio nuntiatur in hortos arcessor in <b>primis</b> de amicorum sententia rem defert ad senatum <br> <small> Cic.Mil.65 <br> É dada a notícia a Pompeu nos jardins; sou chamado entre os primeiros; por conselho dos amigos leva o caso ao senado. <small> [JDD] </small> </small> </p>
+; <p> mos antiquis fuit usque ad meam seruatus aetatem <b>primis</b> epistulae uerbis adicere si uales bene est ego ualeo <br> <small> Sen.Ep.15.1 <br> Foi um costume dos antigos, conservado até a minha época, acrescentar à carta estas primeiras palavras: “Se vais bem de saúde, está tudo bem, eu vou bem”. <small> [JDD] </small> </small> </p>
+; <p> Caesar obsidibus acceptis <b>primis</b> ciuitatis atque ipsius Galbae regis duobus filiis armisque omnibus ex oppido traditis in deditionem Suessiones accepit exercitumque in Bellouacos ducit <br> <small> Caes.Gal.2.13.1 <br> César, aceitos como reféns os principais da cidade e dois filhos do próprio rei Galba e entregues todas as armas da cidadela, aceita em rendição os Suessiões e conduz o exército contra os belovacos. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-114-105-109-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 22.05 and an absolute frequency of 2. The Tacitus subcorpus follows, with a normalized frequency of 10.3 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: Caesar ; normalized frequency: 36 ; absolute frequency: 13.5961930659415. subcorpus: Cicero ; normalized frequency: 92 ; absolute frequency: 5.73123022102614. subcorpus: Horatius ; normalized frequency: 6 ; absolute frequency: 5.32812361246781. subcorpus: Ovidius ; normalized frequency: 5 ; absolute frequency: 8.57927247769389. subcorpus: Phaedrus ; normalized frequency: 6 ; absolute frequency: 9.10885076666161. subcorpus: Sallustius ; normalized frequency: 10 ; absolute frequency: 9.27557740469344. subcorpus: Seneca ; normalized frequency: 45 ; absolute frequency: 8.39849946809503. subcorpus: Suetonius ; normalized frequency: 2 ; absolute frequency: 22.0507166482911. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 11 ; absolute frequency: 21.2355212355212. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-114-105-109-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 21.24 and an absolute frequency of 11. The Poesia.trágica subcorpus follows, with a normalized frequency of 15.64 and an absolute frequency of 18. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 51 ; absolute frequency: 12.4151026071715. subcorpus: Prosa.filosófica ; normalized frequency: 40 ; absolute frequency: 6.58967727055567. subcorpus: Prosa.oratória ; normalized frequency: 51 ; absolute frequency: 4.89664243948806. subcorpus: Prosa.epistolográfica ; normalized frequency: 28 ; absolute frequency: 7.41938048172978. subcorpus: Poesia.lírica ; normalized frequency: 8 ; absolute frequency: 6.73004122150248. subcorpus: Poesia.didática ; normalized frequency: 9 ; absolute frequency: 7.63423530409704. subcorpus: Poesia.trágica ; normalized frequency: 18 ; absolute frequency: 15.6358582348853. subcorpus: Poesia.épica ; normalized frequency: 11 ; absolute frequency: 21.2355212355212. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-114-105-109-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 13.09 and an absolute frequency of 5. The I.d.C. subcorpus follows, with a normalized frequency of 8.26 and an absolute frequency of 54. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 157 ; absolute frequency: 7.30742378403537. subcorpus: I.d.C. ; normalized frequency: 54 ; absolute frequency: 8.26067003212483. subcorpus: II.d.C. ; normalized frequency: 5 ; absolute frequency: 13.0890052356021. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

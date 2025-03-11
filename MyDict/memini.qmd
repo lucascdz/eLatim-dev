@@ -1,0 +1,207 @@
+---
+title: "memini"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-101-109-105-110-105xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>memĭnī</b> <b>-ístí</b> <b>-ísse</b> <br> <small>v. defectivo intr. e tr.</small> <br> <small>Obs.: Constrói-se com gen.; com acus.; com interrog. ind.: com abl. com de; com inf. ou or. inf.; e com ut ou cum.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Ter presente no espírito, lembrar-se &ensp; <small>Piaut. Rod. 159; Cíc. Lae. 2; Cíc. Fin. 5, 3.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Fazer menção de, mencionar &ensp; <small>Cés. B. Civ. 3. 108. 2.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Memini</b> -<b>isti</b> -<b>it</b> -<b>isse</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; lembrar-se. <br> <b>2</b> &ensp; fazer menção. </p>
+
+
+
+
+#### Velez
+
+<b>Memini</b> -<b>isti</b>   <p> <b>1</b> &ensp; lembrar-se, fazer mençaõ </p>
+
+
+
+
+#### Cardoso
+
+<b>mementote</b> <br> <small>â memini</small>   <p> <b>1</b> &ensp; alembre-uos </p> 
+ <b>Memini</b> <b>meministi</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/111991 ' target="_blank"> http://lila-erc.eu/data/id/lemma/111991 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> defectivo <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> memini </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+
+
+
+
+
+#### Lexicala
+
+mĕmento 
+ mĕmĭnī 
+ mĕmĭnistī 
+ mĕmĭnisse
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx109-101-109-105-110-105xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-101-109-105-110-105xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword memini here are all the values plotted: collocate: multus; scoreSUBST: 0. collocate: tu; scoreSUBST: 0. collocate: ut; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-101-109-105-110-105xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword memini here are all the values plotted: collocate: multus; scoreADJ: 0. collocate: tu; scoreADJ: 0. collocate: ut; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-101-109-105-110-105xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword memini here are all the values plotted: collocate: multus; scoreVERBO: 0. collocate: tu; scoreVERBO: 0. collocate: ut; scoreVERBO: 0. collocate: sum; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-101-109-105-110-105xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword memini here are all the values plotted: collocate: multus; scoreADV: 0. collocate: tu; scoreADV: 0. collocate: ut; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-101-109-105-110-105xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword memini here are all the values plotted: collocate: multus; scoreFUNC: 0. collocate: tu; scoreFUNC: 0. collocate: ut; scoreFUNC: 20. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> tu pridie Compitalia <b>memento</b> <br> <small> Cic.Att.2.3.4 <br> Tu, lembra-te da véspera das Compitais. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> aliud autem est <b>meminisse</b> aliud scire <br> <small> Sen.Ep.33.8 <br> Porém uma coisa é lembrar, outra é saber. <small> [JDD] </small> </small> </p>
+; <p> <b>meminisse</b> est rem commissam memoriae custodire <br> <small> Sen.Ep.33.8 <br> Lembrar é guardar uma coisa confiada à memória. <small> [JDD] </small> </small> </p>
+; <p> fac cogites in quanta calamitate sis et <b>memineris</b> te uirum esse <br> <small> Sal.Cat.44.5 <br> Procura pensar em que enorme calamidade estás e te lembrar de que és homem <small> [JDD] </small> </small> </p>
+; <p> quid iurisconsulti quid pontifices quid augures quid philosophi senes quam multa <b>meminerunt</b> <br> <small> Cic.Sen.22 <br> E os jurisconsulto, e os pontífices, e os áugures, e os filósofos, sendo velhos, de quão numerosas coisas se lembram! <small> [JDD, de outra edição] </small> </small> </p>
+; <p> denique ita me in re publica tractabo ut <b>meminerim</b> semper quae gesserim curemque ut ea uirtute non casu gesta esse uideantur <br> <small> Cic.Catil.3.29.4 <br> Finalmente, vou me portar na república de tal modo que me lembre sempre as coisas que fiz, e cuide para que elas pareçam ter sido feitas por valor, não por acaso. <small> [JDD] </small> </small> </p>
+; <p> hoc uestro iudicio tanto tamque praeclaro excitatus ita kalendis Ianuariis ueni in senatum ut <b>meminissem</b> quam personam impositam a uobis sustinerem <br> <small> Cic.Phil.6.2.7 <br> Animado por este vosso julgamento tão valioso e tão notável, vim nas calendas de janeiro [1º. de janeiro] ao senado para lembrar que papel imposto por vós eu desempenharia. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-101-109-105-110-105xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 5.79 and an absolute frequency of 3. The Phaedrus subcorpus follows, with a normalized frequency of 4.55 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 46 ; absolute frequency: 2.86561511051307. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 12 ; absolute frequency: 2.23959985815868. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-101-109-105-110-105xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 5.79 and an absolute frequency of 3. The Prosa.filosófica subcorpus follows, with a normalized frequency of 3.62 and an absolute frequency of 22. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 5 ; absolute frequency: 1.21716692227172. subcorpus: Prosa.filosófica ; normalized frequency: 22 ; absolute frequency: 3.62432249880562. subcorpus: Prosa.oratória ; normalized frequency: 30 ; absolute frequency: 2.88037790558121. subcorpus: Prosa.epistolográfica ; normalized frequency: 4 ; absolute frequency: 1.05991149738997. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-101-109-105-110-105xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 2.61 and an absolute frequency of 56. The I.a.C. subcorpus follows, with a normalized frequency of 2.61 and an absolute frequency of 56. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 56 ; absolute frequency: 2.6064696299744. subcorpus: I.d.C. ; normalized frequency: 15 ; absolute frequency: 2.29463056447912. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

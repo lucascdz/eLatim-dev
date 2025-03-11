@@ -1,0 +1,200 @@
+---
+title: "puer"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-117-101-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>puer</b> <b>-èrí</b> <br> <small>subs. m. e f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Menino, criança menino ou menina, rapazinho, rapaz novo &ensp; <small>Cíc. Phil. 4, 3.</small> <br> <b>2</b> &ensp; <small>II-Daí, em sent. particular</small> &ensp; Escravo novo &ensp; <small>Cíc. Amer. 77.</small> <br> <b>3</b> &ensp; <small>II-Daí, em sent. particular</small> &ensp; Pajem &ensp; <small>T. Lív. 45, 6, 7.</small> <br> <b>4</b> &ensp; <small>II-Daí, em sent. particular</small> &ensp; Filho &ensp; <small>menino ou menina Verg. En. 4, 94.</small> <br> <b>5</b> &ensp; <small>II-Daí, em sent. particular</small> &ensp; Rapaz &ensp; <small>= celibatário Ov. F. 4, 226.</small> <br> <b>6</b> &ensp; <small>III-Na loc.:</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>6</b><br>a puero, a pueris ‘desde a infância’ Cíc. De Or. 1, 2. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Puer</b> -<b>eri</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; menino, rapaz aos 14 annos. <br> <b>2</b> &ensp; servo, criado, moço, pagem. <br> <b>3</b> &ensp; filho. </p> 
+ <b>Puerus</b> -<b>i</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Plaut.</small> &ensp; menino, & c. </p>
+
+
+
+
+#### Velez
+
+<b>Puer</b> <b>pueri</b>   <p> <b>1</b> &ensp; o moço, ou criado </p>
+
+
+
+
+#### Cardoso
+
+<b>Puer</b> <b>i</b>   <p> <b>1</b> &ensp; ho moço </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/118042 ' target="_blank"> http://lila-erc.eu/data/id/lemma/118042 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> por, pouer, puerus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+pŭĕr 
+ pŭĕri
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-117-101-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-117-101-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword puer here are all the values plotted: collocate: mulier; scoreSUBST: 2. collocate: tuus; scoreSUBST: 0. collocate: ab; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-117-101-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword puer here are all the values plotted: collocate: mulier; scoreADJ: 0. collocate: tuus; scoreADJ: 0. collocate: ab; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-117-101-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword puer here are all the values plotted: collocate: mulier; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0. collocate: ab; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-117-101-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword puer here are all the values plotted: collocate: mulier; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: ab; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-117-101-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword puer here are all the values plotted: collocate: mulier; scoreFUNC: 0. collocate: tuus; scoreFUNC: 0. collocate: ab; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ibidem ilico <b>puer</b> abs te cum epistulis <br> <small> Cic.Att.2.12.2 <br> E ali mesmo, um escravo com cartas tuas. <small> [JDD] </small> </small> </p>
+; <p> nihil εὐκαιρότερον epistula tua quae me sollicitum de Quinto nostro <b>puero</b> optimo valde levavit <br> <small> Cic.Att.4.7.1 <br> Nada mais a propósito do que tua carta, que me aliviou muito a mim, preocupado com o nosso querido Quinto, excelente menino. <small> [JDD] </small> </small> </p>
+; <p> at reliqua multitudo <b>puerorum</b> mulierumque nam cum omnibus suis domo excesserant Rhenumque transierant passim fugere coepit <br> <small> Caes.Gal.4.14.5 <br> mas a restante multidão de meninos e mulheres (pois com todos os seus tinham saído de casa e atravessado o Reno) pôs-se a fugir por todos os lados. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-117-101-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 26.64 and an absolute frequency of 30. The Tacitus subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 5 ; absolute frequency: 1.88836014804744. subcorpus: Cicero ; normalized frequency: 45 ; absolute frequency: 2.80331912984974. subcorpus: Horatius ; normalized frequency: 30 ; absolute frequency: 26.640618062339. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 23 ; absolute frequency: 4.29256639480413. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-117-101-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 25.24 and an absolute frequency of 30. The Poesia.trágica subcorpus follows, with a normalized frequency of 5.21 and an absolute frequency of 6. the subcorpus with the least normalized frequency is Prosa.oratória with the normalized value of 1.34 and an absolute freqeuncy of 14. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 6 ; absolute frequency: 1.46060030672606. subcorpus: Prosa.filosófica ; normalized frequency: 25 ; absolute frequency: 4.1185482940973. subcorpus: Prosa.oratória ; normalized frequency: 14 ; absolute frequency: 1.3441763559379. subcorpus: Prosa.epistolográfica ; normalized frequency: 23 ; absolute frequency: 6.09449110999232. subcorpus: Poesia.lírica ; normalized frequency: 30 ; absolute frequency: 25.2376545806343. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 6 ; absolute frequency: 5.21195274496178. subcorpus: Poesia.épica ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-117-101-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 4.13 and an absolute frequency of 27. The I.a.C. subcorpus follows, with a normalized frequency of 4.05 and an absolute frequency of 87. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 87 ; absolute frequency: 4.04933674656737. subcorpus: I.d.C. ; normalized frequency: 27 ; absolute frequency: 4.13033501606241. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

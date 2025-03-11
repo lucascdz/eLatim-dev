@@ -1,0 +1,202 @@
+---
+title: "fortis"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx102-111-114-116-105-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>fortis</b> <b>-e</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Forte, vigoroso, sólido &ensp; <small>sent. físico e moral Verg. G. 1,65; Cíc. Tusc. 2, II.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Corajoso, enérgico, valoroso &ensp; <small>Ck Tusc. 2. II; Ck. Lae. 47; Amer. 85.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado</small> &ensp; Rico. poderoso. opulento &ensp; <small>Plaut. Trin. 1.123.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado</small> &ensp; Bem feita. bela. formosa &ensp; <small>tratando-se de mulher Plaut. Mil. 1.106.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado</small> &ensp; Resoluto, eficiente: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>5</b><br>fortis ac strenuus Cíc. Phil. 8, II “resoluto e ativo”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<small>m. f</small> <b>Fortis</b> <small>n</small> -<b>te</b> -<b>is</b> -<b>ior</b> -<b>issimus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; forte, robusto, esforçado. <br> <b>2</b> &ensp; valeroso, constante. <br> <b>3</b> &ensp; <small>Plaut.</small> &ensp; poderoso, rico. </p>
+
+
+
+
+#### Velez
+
+<b>Fortis</b> -<b>te</b> <small>et</small>   <p> <b>1</b> &ensp; cousa valente, galharda, animosa </p>
+
+
+
+
+#### Cardoso
+
+<b>Fortis</b> -<b>e</b>   <p> <b>1</b> &ensp; cousa forte </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/103690 ' target="_blank"> http://lila-erc.eu/data/id/lemma/103690 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 2ª classe (tema em -i-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx102-111-114-116-105-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx102-111-114-116-105-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword fortis here are all the values plotted: collocate: uir; scoreSUBST: 5. collocate: ciuis; scoreSUBST: 2. collocate: atque; scoreSUBST: 0. collocate: miles; scoreSUBST: 2. collocate: quisque; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx102-111-114-116-105-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword fortis here are all the values plotted: collocate: uir; scoreADJ: 0. collocate: ciuis; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: miles; scoreADJ: 0. collocate: quisque; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx102-111-114-116-105-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword fortis here are all the values plotted: collocate: uir; scoreVERBO: 0. collocate: ciuis; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: miles; scoreVERBO: 0. collocate: quisque; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx102-111-114-116-105-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword fortis here are all the values plotted: collocate: uir; scoreADV: 0. collocate: ciuis; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: miles; scoreADV: 0. collocate: quisque; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx102-111-114-116-105-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword fortis here are all the values plotted: collocate: uir; scoreFUNC: 0. collocate: ciuis; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: miles; scoreFUNC: 0. collocate: quisque; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ignaua <b>fortes</b> fata consument uiros <br> <small> Sen.Ag.518 <br> Fados covardes vão acabar com valorosos varões? <small> [JDD] </small> </small> </p>
+; <p> ecce uir <b>fortis</b> ac strenuus <br> <small> Sen.Ep.9.19 <br> Eis aí um homem forte e valoroso! <small> [JDD] </small> </small> </p>
+; <p> ignis aurum probat miseria <b>fortes</b> uiros <br> <small> Sen.Prov.5.10 <br> O fogo põe à prova o ouro, a desgraça, os homens fortes. <small> [JDD] </small> </small> </p>
+; <p> equi <b>fortis</b> et uictoris senectuti comparat suam <br> <small> Cic.Sen.14 <br> Ele compara a sua com a velhice de um cavalo forte e vitorioso. <small> [JDD] </small> </small> </p>
+; <p> etenim Mars ipse ex acie <b>fortissimum</b> quemque pignerari solet <br> <small> Cic.Phil.14.32.5 <br> Pois o próprio Marte costuma tomar da batalha como prenda os mais corajosos. <small> [JDD] </small> </small> </p>
+; <p> quis M. Scaurum hominem grauissimum ciuem egregium <b>fortissimum</b> senatorem a Q. Maximo <br> <small> Cic.Mur.36 <br> Quem [pensou] que Marco Escauro, homem seriíssimo, notável cidadão, valorosíssimo senador, [pudesse ser vencido] por Quinto Máximo? <small> [JDD] </small> </small> </p>
+; <p> est autem fidei pietatisque nostrae declarare <b>fortissimis</b> militibus quam memores simus quamque grati <br> <small> Cic.Phil.14.29.4 <br> É, por outro lado, próprio de nossa lealdade e afeto declarar aos valorosíssimos soldados quão lembrados e quão gratos estamos. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx102-111-114-116-105-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 19.31 and an absolute frequency of 10. The Cicero subcorpus follows, with a normalized frequency of 8.97 and an absolute frequency of 144. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 8 ; absolute frequency: 3.0213762368759. subcorpus: Cicero ; normalized frequency: 144 ; absolute frequency: 8.97062121551918. subcorpus: Horatius ; normalized frequency: 9 ; absolute frequency: 7.99218541870171. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 8 ; absolute frequency: 7.42046192375475. subcorpus: Seneca ; normalized frequency: 41 ; absolute frequency: 7.65196618204214. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 10 ; absolute frequency: 19.3050193050193. subcorpus: Hieronymus ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx102-111-114-116-105-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 19.31 and an absolute frequency of 10. The Prosa.oratória subcorpus follows, with a normalized frequency of 12.58 and an absolute frequency of 131. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 1.85 and an absolute freqeuncy of 7. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 16 ; absolute frequency: 3.89493415126951. subcorpus: Prosa.filosófica ; normalized frequency: 42 ; absolute frequency: 6.91916113408346. subcorpus: Prosa.oratória ; normalized frequency: 131 ; absolute frequency: 12.5776501877046. subcorpus: Prosa.epistolográfica ; normalized frequency: 7 ; absolute frequency: 1.85484512043244. subcorpus: Poesia.lírica ; normalized frequency: 10 ; absolute frequency: 8.4125515268781. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 10 ; absolute frequency: 19.3050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx102-111-114-116-105-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 8.38 and an absolute frequency of 180. The I.a.C. subcorpus follows, with a normalized frequency of 8.38 and an absolute frequency of 180. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 180 ; absolute frequency: 8.37793809634629. subcorpus: I.d.C. ; normalized frequency: 45 ; absolute frequency: 6.88389169343736. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+:::
+

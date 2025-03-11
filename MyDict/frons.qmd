@@ -1,0 +1,196 @@
+---
+title: "frons"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx102-114-111-110-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>2.</small> <b>frons</b> <b>frontis</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Fronte, rosto, semblante, testa &ensp; <small>Cíc. Clu. 72.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Ar, fisionomia &ensp; <small>Cíc. Tusc. 3, 31.</small> <br> <b>3</b> &ensp; <small>I-Daí:</small> &ensp; Ar grave, gravidade &ensp; <small>Cíc. Fam. 9, 10, 2.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Parte anterior, face de uma coisa, fachada, frontispício, frente &ensp; <small>Cíc. Phil. 3, 32.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Capa &ensp; <small>de um livro Ov. Tris!. I, I, 8</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Aparência, aspecto &ensp; <small>Quint. 4, I, 42.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Frons</b> -<b>ontis</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; testa. <br> <b>2</b> &ensp; fisonomia, apparencia exterior, dianteira, ou frente de qualquer cousa. <br> <b>3</b> &ensp; <small>Vitr.</small> &ensp; frontespicio, fachada do edificio. <br> <b>4</b> &ensp; <small>Petr.</small> &ensp; pejo, vergonha. <br> <b>5</b> &ensp; <small>Sall.</small> &ensp; frente do exercito. </p>
+
+
+
+
+#### Velez
+
+<b>Frons</b> -<b>tis</b> <br> <small>foem.</small> <br> <small>Vide Contraho.</small>   <p> <b>1</b> &ensp; a testa, vanguarda do exercito, principio, ou frontespicio de alguma cousa <br> <b>2</b> &ensp; rosto, e affecto do animo </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>adducta frons &ensp; <small>rosto irado</small> <br> explicare, uel exporrigere frontem &ensp; <small>alegrar-se</small> <br> explicata, uel explicita frons &ensp; <small>rosto alegre</small> <br> obducta frons &ensp; <small>rosto triste</small> &ensp; <small><small>i, corrugata, contracta, vel caperata</small></small> <br> perfricare frontem, faciem, uel os &ensp; <small>lançar fora a vergonha, naõ ter pejo</small> <br> <br><b>X</b><br>ferire frontem &ensp; <small><small>dicuntur, qui nimis indignantur</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Frons</b> <b>ontis</b>   <p> <b>1</b> &ensp; a testa </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/103845 ' target="_blank"> http://lila-erc.eu/data/id/lemma/103845 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> fruns <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx102-114-111-110-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> a tergo <b>fronte</b> lateribus tenebitur si in Galliam uenerit <br> <small> Cic.Phil.3.32.6 <br> Ele será detido pelas costas, por frente, pelos lados, se vier para a Gália. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx102-114-111-110-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 6.22 and an absolute frequency of 7. The Sallustius subcorpus follows, with a normalized frequency of 1.86 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 4 ; absolute frequency: 1.51068811843795. subcorpus: Cicero ; normalized frequency: 6 ; absolute frequency: 0.373775883979966. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 11 ; absolute frequency: 2.05296653664545. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx102-114-111-110-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 5.89 and an absolute frequency of 7. The Poesia.didática subcorpus follows, with a normalized frequency of 1.7 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 6 ; absolute frequency: 1.46060030672606. subcorpus: Prosa.filosófica ; normalized frequency: 7 ; absolute frequency: 1.15319352234724. subcorpus: Prosa.oratória ; normalized frequency: 2 ; absolute frequency: 0.192025193705414. subcorpus: Prosa.epistolográfica ; normalized frequency: 3 ; absolute frequency: 0.794933623042476. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx102-114-111-110-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 1.99 and an absolute frequency of 13. The I.a.C. subcorpus follows, with a normalized frequency of 0.93 and an absolute frequency of 20. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 20 ; absolute frequency: 0.930882010705143. subcorpus: I.d.C. ; normalized frequency: 13 ; absolute frequency: 1.98867982254857. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

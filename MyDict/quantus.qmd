@@ -1,0 +1,217 @@
+---
+title: "quantus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx113-117-97-110-116-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>quantus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Interr. exclam.:</small> &ensp; Quão grande, que: &ensp; <small></small> <br> <b>2</b> &ensp; <small>I-Interr. exclam.:</small> &ensp; Quão pequeno &ensp; <small>= quantulus Cíc. Or. 130.</small> <br> <b>3</b> &ensp; <small>II-Relativo em correlação com tantus:</small> &ensp; Quão grande, quanto, tão grande como, tal como &ensp; <small>Cíc. Verr. pr. 23.</small> <br> <b>4</b> &ensp; <small>III</small> &ensp; Quantus quantus = quantuscumque: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>quantum adiit periculum C c. F in. 2. 56 ‘que grande perigo ele afrontou!’. <br> <br><b>4</b><br>tu, quantus quantu's Ter. Ad. 394 ‘tu, tão grande quanto és, i. e.. tu da cabeça aos pés’: quanta quanta haec mea paupertas est Ter. Phorm. 904 ‘por grande que seja a minha pobreza’. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Quantus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; quanto, quaõ grande. <br> <b>2</b> &ensp; qual? <br> <b>3</b> &ensp; taõ grande que. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>quanti est? &ensp; <small><small>Ter</small></small> &ensp; <small>Quanto val? que preço tem?</small> </p>
+
+
+
+
+#### Velez
+
+<b>Quantus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; quanto, ou quam grande </p>
+
+
+
+
+#### Cardoso
+
+<b>Quantus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; quam grande cousa </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/121092 ' target="_blank"> http://lila-erc.eu/data/id/lemma/121092 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> quamtus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx113-117-97-110-116-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword quantus here are all the values plotted: collocate: quisque; scoreSUBST: 0. collocate: intellego; scoreSUBST: 0. collocate: afficio; scoreSUBST: 0. collocate: appareo; scoreSUBST: 0. collocate: calamitas; scoreSUBST: 2. collocate: emo; scoreSUBST: 0. collocate: satis2; scoreSUBST: 0. collocate: opus; scoreSUBST: 2. collocate: affero; scoreSUBST: 0. collocate: puto; scoreSUBST: 0. collocate: tantus; scoreSUBST: 0. collocate: possum; scoreSUBST: 0. collocate: nomen; scoreSUBST: 2. collocate: uideo; scoreSUBST: 0. collocate: habeo; scoreSUBST: 0. collocate: scio; scoreSUBST: 0. collocate: uos; scoreSUBST: 0. collocate: ille; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx113-117-97-110-116-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword quantus here are all the values plotted: collocate: quisque; scoreADJ: 0. collocate: intellego; scoreADJ: 0. collocate: afficio; scoreADJ: 0. collocate: appareo; scoreADJ: 0. collocate: calamitas; scoreADJ: 0. collocate: emo; scoreADJ: 0. collocate: satis2; scoreADJ: 2. collocate: opus; scoreADJ: 0. collocate: affero; scoreADJ: 0. collocate: puto; scoreADJ: 0. collocate: tantus; scoreADJ: 0. collocate: possum; scoreADJ: 0. collocate: nomen; scoreADJ: 0. collocate: uideo; scoreADJ: 0. collocate: habeo; scoreADJ: 0. collocate: scio; scoreADJ: 0. collocate: uos; scoreADJ: 0. collocate: ille; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx113-117-97-110-116-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword quantus here are all the values plotted: collocate: quisque; scoreVERBO: 0. collocate: intellego; scoreVERBO: 2. collocate: afficio; scoreVERBO: 2. collocate: appareo; scoreVERBO: 2. collocate: calamitas; scoreVERBO: 0. collocate: emo; scoreVERBO: 2. collocate: satis2; scoreVERBO: 0. collocate: opus; scoreVERBO: 0. collocate: affero; scoreVERBO: 2. collocate: puto; scoreVERBO: 2. collocate: tantus; scoreVERBO: 0. collocate: possum; scoreVERBO: 2. collocate: nomen; scoreVERBO: 0. collocate: uideo; scoreVERBO: 2. collocate: habeo; scoreVERBO: 2. collocate: scio; scoreVERBO: 2. collocate: uos; scoreVERBO: 0. collocate: ille; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx113-117-97-110-116-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword quantus here are all the values plotted: collocate: quisque; scoreADV: 0. collocate: intellego; scoreADV: 0. collocate: afficio; scoreADV: 0. collocate: appareo; scoreADV: 0. collocate: calamitas; scoreADV: 0. collocate: emo; scoreADV: 0. collocate: satis2; scoreADV: 0. collocate: opus; scoreADV: 0. collocate: affero; scoreADV: 0. collocate: puto; scoreADV: 0. collocate: tantus; scoreADV: 0. collocate: possum; scoreADV: 0. collocate: nomen; scoreADV: 0. collocate: uideo; scoreADV: 0. collocate: habeo; scoreADV: 0. collocate: scio; scoreADV: 0. collocate: uos; scoreADV: 0. collocate: ille; scoreADV: 0. collocate: in; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx113-117-97-110-116-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword quantus here are all the values plotted: collocate: quisque; scoreFUNC: 0. collocate: intellego; scoreFUNC: 0. collocate: afficio; scoreFUNC: 0. collocate: appareo; scoreFUNC: 0. collocate: calamitas; scoreFUNC: 0. collocate: emo; scoreFUNC: 0. collocate: satis2; scoreFUNC: 0. collocate: opus; scoreFUNC: 0. collocate: affero; scoreFUNC: 0. collocate: puto; scoreFUNC: 0. collocate: tantus; scoreFUNC: 0. collocate: possum; scoreFUNC: 0. collocate: nomen; scoreFUNC: 0. collocate: uideo; scoreFUNC: 0. collocate: habeo; scoreFUNC: 0. collocate: scio; scoreFUNC: 0. collocate: uos; scoreFUNC: 0. collocate: ille; scoreFUNC: 0. collocate: in; scoreFUNC: 10. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> vos <b>quantum</b> inquam debetis <br> <small> Cic.Att.5.21.12 <br> “E vós?” digo eu “Quanto deveis?” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>quanto</b> in odio noster amicus Magnus <br> <small> Cic.Att.2.13.2 <br> Em que grande ódio se acha o nosso Magno! <small> [JDD, de outra edição] </small> </small> </p>
+; <p> at in rebus tristissimis <b>quantos</b> excitat risus <br> <small> Cic.Phil.3.21.10 <br> Mas quantos risos provoca nas situações mais tristes! <small> [JDD] </small> </small> </p>
+; <p> ex eo colligere poteris <b>quanta</b> occupatione distinear <br> <small> Cic.Att.2.23.1 <br> Disso poderás deduzir em quanta ocupação estou envolvido. <small> [JDD] </small> </small> </p>
+; <p> <b>quantum</b> facinus ad uos delatum sit uidetis <br> <small> Cic.Catil.4.6.9 <br> Estais vendo que grande crime foi denunciado a vós. <small> [JDD] </small> </small> </p>
+; <p> uidete iudices <b>quantae</b> res his testimoniis sint confectae <br> <small> Cic.Mil.47 <br> Vede, juízes, que importantes fatos foram estabelecidos com esses testemunhos. <small> [JDD] </small> </small> </p>
+; <p> hoc <b>quanti</b> putas esse ad famam hominum ac uoluntatem <br> <small> Cic.Mur.38 <br> Quanto achas que isso vale para a fama e disposição favorável dos homens? <small> [JDD] </small> </small> </p>
+; <p> ex quo <b>quantum</b> boni sit in amicitia iudicari potest <br> <small> Cic.Amici.23 <br> Disso pode-se julgar quanto bem há na amizade. <small> [JDD] </small> </small> </p>
+; <p> ita <b>quantum</b> operibus tuis diuturnitas detrahet tantum adferet laudibus <br> <small> Cic.Marc.12 <br> Assim o passar dos anos vai tirar de tuas obras o tanto quanto acrescentará aos teus louvores. <small> [JDD] </small> </small> </p>
+; <p> unius autem diei quot et <b>quantae</b> uirtutes di immortales fuerunt <br> <small> Cic.Phil.14.25.8 <br> Por outro lado, quantos e quão grandes virtudes, deuses imortais, houve em um só dia! <small> [JDD] </small> </small> </p>
+; <p> O <b>quanta</b> species , inquit , cerebrum non habet ! <br> <small> Phaed.1.7 <br> “Oh, que grande beleza” diz “não tem cérebro!” <small> [JDD] </small> </small> </p>
+; <p> me tuae litterae numquam in tantam spem adduxerunt <b>quantam</b> aliorum <br> <small> Cic.Att.3.19.2 <br> Tuas cartas nunca me levaram a tanta esperança como a dos outros. <small> [JDD] </small> </small> </p>
+; <p> iam intellegitis <b>quantum</b> iudicium sustineatis <b>quanta</b> res sit commissa uobis <br> <small> Cic.Cael.70 <br> Já compreendeis de quão grave julgamento estais encarregados, quão grave matéria vos foi confiada. <small> [JDD] </small> </small> </p>
+; <p> <b>quantum</b> odium illius et in homine iniusto quam etiam iustum fuisse <br> <small> Cic.Mil.35 <br> Quão grande ódio acreditais que havia nele e até mesmo quão justo num homem tão injusto? <small> [JDD] </small> </small> </p>
+; <p> itaque tantum uictus efficere potuit <b>quantum</b> incolumis numquam est ausus optare <br> <small> Cic.Man.25 <br> E assim, vencido, ele pôde realizar tudo o que, estando são e salvo, nunca ousou desejar. <small> [JDD] </small> </small> </p>
+; <p> fac cogites in <b>quanta</b> calamitate sis et memineris te uirum esse <br> <small> Sal.Cat.44.5 <br> Procura pensar em que enorme calamidade estás e te lembrar de que és homem <small> [JDD] </small> </small> </p>
+; <p> itaque cum legere non possis <b>quantum</b> habueris satis est habere <b>quantum</b> legas <br> <small> Sen.Ep.2.3 <br> e assim, como não podes ler o quanto tiveres, basta que tenhas o quanto possas ler. <small> [JDD] </small> </small> </p>
+; <p> fata nos ducunt et <b>quantum</b> cuique temporis restat prima nascentium hora disposuit <br> <small> Sen.Prov.5.7 <br> Os fados nos guiam e a primeira hora dos que nascem determinou quanto tempo resta para cada um. <small> [JDD] </small> </small> </p>
+; <p> unde possum scire <b>quantum</b> aduersus paupertatem tibi animi sit si diuitiis diffluis <br> <small> Sen.Prov.4.5 <br> Como posso saber quão grande é teu espírito diante da pobreza, se nadas na riqueza? <small> [JDD] </small> </small> </p>
+; <p> <b>quanta</b> cuiusque animo audacia natura aut moribus inest tanta in bello patere solet <br> <small> Sal.Cat.58.2 <br> Tão grande intrepidez existe no espírito de cada um ou por natureza ou por seus hábito, quão grande ela costuma mostrar-se na guerra. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ede mihi scriptum quid argenti in prouincia Sicilia pararis unde quidque aut <b>quanti</b> emeris <br> <small> Cic.Ver.2.4.35.11 <br> Apresenta-me por escrito que objetos de prata adquiriste na  província da Sicília, de onde ou por quanto compraste cada um. <small> [JDD] </small> </small> </p>
+; <p> marcet sine aduersario uirtus tunc apparet <b>quanta</b> sit quantumque polleat cum quid possit patientia ostendit <br> <small> Sen.Prov.2.4 <br> A virtude murcha sem oponente; então se vê quão grande é e o quanto é poderosa, quando mostra de que é capaz com sua resistência. <small> [JDD] </small> </small> </p>
+; <p> uiri <b>quantas</b> pecunias ab uxoribus dotis nomine acceperunt tantas ex suis bonis aestimatione facta cum dotibus communicant <br> <small> Caes.Gal.6.19.1 <br> Os homens, depois de feito o cálculo, põem juntamente com os dotes tanto dinheiro tirado de seus bens quanto receberam das esposas a título de dote. <small> [JDD] </small> </small> </p>
+; <p> ego in vita mea nulla umquam voluptate tanta sum adfectus <b>quanta</b> adficior hac integritate ne c me tam fama quae summa est quam res ipsa delectat <br> <small> Cic.Att.5.20.6 <br> eu em minha vida nunca fui afetado por tão grande prazer quanto sou afetado por esta minha integridade, nem a minha reputação, que é imensa, me deleita tanto quanto a própria coisa. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx113-117-97-110-116-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 12.15 and an absolute frequency of 195. The Ovidius subcorpus follows, with a normalized frequency of 3.43 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 20 ; absolute frequency: 7.55344059218974. subcorpus: Cicero ; normalized frequency: 195 ; absolute frequency: 12.1477162293489. subcorpus: Horatius ; normalized frequency: 10 ; absolute frequency: 8.88020602077968. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 8 ; absolute frequency: 12.1451343555488. subcorpus: Sallustius ; normalized frequency: 9 ; absolute frequency: 8.3480196642241. subcorpus: Seneca ; normalized frequency: 56 ; absolute frequency: 10.4514660047405. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx113-117-97-110-116-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 13.63 and an absolute frequency of 142. The Prosa.filosófica subcorpus follows, with a normalized frequency of 13.01 and an absolute frequency of 79. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 2.61 and an absolute freqeuncy of 3. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 29 ; absolute frequency: 7.05956814917598. subcorpus: Prosa.filosófica ; normalized frequency: 79 ; absolute frequency: 13.0146126093475. subcorpus: Prosa.oratória ; normalized frequency: 142 ; absolute frequency: 13.6337887530844. subcorpus: Prosa.epistolográfica ; normalized frequency: 27 ; absolute frequency: 7.15440260738228. subcorpus: Poesia.lírica ; normalized frequency: 11 ; absolute frequency: 9.25380667956591. subcorpus: Poesia.didática ; normalized frequency: 9 ; absolute frequency: 7.63423530409704. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx113-117-97-110-116-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 11.08 and an absolute frequency of 238. The I.a.C. subcorpus follows, with a normalized frequency of 11.08 and an absolute frequency of 238. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 238 ; absolute frequency: 11.0774959273912. subcorpus: I.d.C. ; normalized frequency: 65 ; absolute frequency: 9.94339911274285. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+:::
+

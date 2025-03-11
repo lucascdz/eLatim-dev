@@ -1,0 +1,209 @@
+---
+title: "prodo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-114-111-100-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>prōdĭdī</b> <br> <small>perf. de pródo.</small> <br> <small></small> 
+ <b>prōdō</b> <b>-is</b> <b>-ère</b> <b>-dìdí, -dìtum</b> <br> <small>v. tr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Entregar, revelar &ensp; <small>Ov. Met. 2, 447; Cíc. Verr. 1, 84; Cíc. Verr: 5, 10.61</small> <br> <b>2</b> &ensp; <small>I-Sent. próprio</small> &ensp; Fazer sair, dar à luz, dar a lume, produzir, tirar &ensp; <small>Lucr. 3, 603; Cíe. Flac. 25; Ov. F. 5, 518.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Transmitir, propagar &ensp; <small>Verg. En. 4, 231.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Transmitir por escrito, legar &ensp; <small>Cíc. Tusc. 1, 29.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Entregar por traição, trair. &ensp; <small>Cíc. Verr. 5, 106: Cíc. Flac. 81.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Prodo</b> -<b>is</b> -<b>didi</b> -<b>ditum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; descubrir, revelar, manifestar, declarar, dar a conhecer. <br> <b>2</b> &ensp; entregar com traição. <br> <b>3</b> &ensp; <small>Ter.</small> &ensp; differir, dilatar, demorar. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Prodo</b> <b>is</b>   <p> <b>1</b> &ensp; manifestar. ou descobrir </p> 
+ <b>Prodo</b> <b>is</b> <b>prodidi</b>   <p> <b>1</b> &ensp; fazer treyção </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/119676 ' target="_blank"> http://lila-erc.eu/data/id/lemma/119676 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> prodo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> prodere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> prodet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> prodidi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> proditum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> proditurum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+prōdĭdī 
+ prōdō 
+ prōdis 
+ prōdĕre 
+ prōdĭtum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-114-111-100-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-114-111-100-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword prodo here are all the values plotted: collocate: memoria; scoreSUBST: 3. collocate: atque; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-114-111-100-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword prodo here are all the values plotted: collocate: memoria; scoreADJ: 0. collocate: atque; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-114-111-100-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword prodo here are all the values plotted: collocate: memoria; scoreVERBO: 0. collocate: atque; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-114-111-100-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword prodo here are all the values plotted: collocate: memoria; scoreADV: 0. collocate: atque; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-114-111-100-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword prodo here are all the values plotted: collocate: memoria; scoreFUNC: 0. collocate: atque; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> cuius enim scelere impulsi ac <b>proditi</b> simus iam profecto vides <br> <small> Cic.Att.3.8.4 <br> Pois seguramente já vês pelo crime de quem fui impelido e traído. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quare ne committeret ut is locus ubi constitissent ex calamitate populi Romani et internecione exercitus nomen caperet aut memoriam <b>proderet</b> <br> <small> Caes.Gal.1.13.7 <br> Por isso, que ele não corresse o risco de que esse lugar, onde eles tinham parado, tomasse o nome da calamidade do povo romano e do extermínio de seu exército ou perpetuasse a memória disso. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-114-111-100-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 6.87 and an absolute frequency of 2. The Tacitus subcorpus follows, with a normalized frequency of 6.87 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 5 ; absolute frequency: 1.88836014804744. subcorpus: Cicero ; normalized frequency: 25 ; absolute frequency: 1.55739951658319. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 4 ; absolute frequency: 0.746533286052892. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-114-111-100-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 3.86 and an absolute frequency of 2. The Prosa.histórica subcorpus follows, with a normalized frequency of 2.19 and an absolute frequency of 9. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 9 ; absolute frequency: 2.1909004600891. subcorpus: Prosa.filosófica ; normalized frequency: 6 ; absolute frequency: 0.988451590583351. subcorpus: Prosa.oratória ; normalized frequency: 18 ; absolute frequency: 1.72822674334873. subcorpus: Prosa.epistolográfica ; normalized frequency: 4 ; absolute frequency: 1.05991149738997. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-114-111-100-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The I.a.C. subcorpus follows, with a normalized frequency of 1.63 and an absolute frequency of 35. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 35 ; absolute frequency: 1.629043518734. subcorpus: I.d.C. ; normalized frequency: 5 ; absolute frequency: 0.764876854826373. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

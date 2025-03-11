@@ -1,0 +1,205 @@
+---
+title: "pecunia"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-101-99-117-110-105-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>pecūnĭa</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. primitivo</small> &ensp; Riqueza em gado &ensp; <small>Varr. L. Lat. 5, 95.</small> <br> <b>2</b> &ensp; <small>II-Daí, em sent. geral</small> &ensp; Riqueza, fortuna &ensp; <small>Cíc. Div. 1. 111.</small> <br> <b>3</b> &ensp; <small>II-Daí, em sent. geral</small> &ensp; Dinheiro &ensp; <small>Cíc. Verr. 1, 101.</small> <br> <b>4</b> &ensp; <small>III-Sent. especial:</small> &ensp; Pagamento &ensp; <small>Cíc. At. 10, 5, 3.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Pecunia</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; dinheiro, moeda. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Pecunia</b> -<b>ae</b>   <p> <b>1</b> &ensp; ho dinheyro </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/116369 ' target="_blank"> http://lila-erc.eu/data/id/lemma/116369 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a-) <br>
+<small> outras grafias: </small> pequnia <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+pĕcūnĭa 
+ pĕcūnĭae
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-101-99-117-110-105-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-101-99-117-110-105-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword pecunia here are all the values plotted: collocate: repeto; scoreSUBST: 0. collocate: grandis; scoreSUBST: 0. collocate: magnitudo; scoreSUBST: 2. collocate: soluo; scoreSUBST: 0. collocate: polliceor; scoreSUBST: 0. collocate: de; scoreSUBST: 0. collocate: modus; scoreSUBST: 2. collocate: do; scoreSUBST: 0. collocate: publicus; scoreSUBST: 0. collocate: magnus; scoreSUBST: 0. collocate: suus; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-101-99-117-110-105-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword pecunia here are all the values plotted: collocate: repeto; scoreADJ: 0. collocate: grandis; scoreADJ: 3. collocate: magnitudo; scoreADJ: 0. collocate: soluo; scoreADJ: 0. collocate: polliceor; scoreADJ: 0. collocate: de; scoreADJ: 0. collocate: modus; scoreADJ: 0. collocate: do; scoreADJ: 0. collocate: publicus; scoreADJ: 2. collocate: magnus; scoreADJ: 2. collocate: suus; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-101-99-117-110-105-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword pecunia here are all the values plotted: collocate: repeto; scoreVERBO: 4. collocate: grandis; scoreVERBO: 0. collocate: magnitudo; scoreVERBO: 0. collocate: soluo; scoreVERBO: 2. collocate: polliceor; scoreVERBO: 2. collocate: de; scoreVERBO: 0. collocate: modus; scoreVERBO: 0. collocate: do; scoreVERBO: 2. collocate: publicus; scoreVERBO: 0. collocate: magnus; scoreVERBO: 0. collocate: suus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-101-99-117-110-105-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword pecunia here are all the values plotted: collocate: repeto; scoreADV: 0. collocate: grandis; scoreADV: 0. collocate: magnitudo; scoreADV: 0. collocate: soluo; scoreADV: 0. collocate: polliceor; scoreADV: 0. collocate: de; scoreADV: 0. collocate: modus; scoreADV: 0. collocate: do; scoreADV: 0. collocate: publicus; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: suus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-101-99-117-110-105-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword pecunia here are all the values plotted: collocate: repeto; scoreFUNC: 0. collocate: grandis; scoreFUNC: 0. collocate: magnitudo; scoreFUNC: 0. collocate: soluo; scoreFUNC: 0. collocate: polliceor; scoreFUNC: 0. collocate: de; scoreFUNC: 20. collocate: modus; scoreFUNC: 0. collocate: do; scoreFUNC: 0. collocate: publicus; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0. collocate: suus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> emi <b>pecuniam</b> solui <br> <small> Cic.Ver.2.4.43.3 <br> “Comprei; paguei com meu dinheiro.” <small> [JDD] </small> </small> </p>
+; <p> quid si magnitudine <b>pecuniae</b> persuasum est <br> <small> Cic.Ver.2.4.11.11 <br> “E se isso lhe foi persuadido por uma grande soma de dinheiro?” <small> [JDD] </small> </small> </p>
+; <p> illi finitimos Germanos sollicitare et <b>pecuniam</b> polliceri non desistunt <br> <small> Caes.Gal.6.2.1 <br> Eles não desistem de incitar os vizinhos germanos e de prometer-lhes dinheiro. <small> [JDD] </small> </small> </p>
+; <p> civitates locupletes ne in hiberna milites reciperent magnas <b>pecunias</b> dabant <br> <small> Cic.Att.5.21.7 <br> As cidades ricas, para não receberem os soldados nos quartéis de inverno, davam grandes somas de dinheiro. <small> [JDD] </small> </small> </p>
+; <p> secutus est tum annus causam de <b>pecuniis</b> repetundis Catilina dixit <br> <small> Cic.Cael.10 <br> Passou-se então um ano, Catilina apresentou sua defesa a respeito da corrupção. <small> [JDD] </small> </small> </p>
+; <p> i nunc et puta <b>pecuniae</b> modum ad rem pertinere non animi <br> <small> Sen.Helv.10.10 <br> Vai agora e considera que é a moderação do dinheiro que importa para o caso, não a do espírito. <small> [JDD] </small> </small> </p>
+; <p> ut primum e prouincia rediit redemptio est huius iudici facta grandi <b>pecunia</b> <br> <small> Cic.Ver.1.16 <br> Logo que voltou da província, fez-se a compra desse julgamento por uma grande quantidade de dinheiro. <small> [JDD] </small> </small> </p>
+; <p> sestertium septiens miliens auertisse Antonium <b>pecuniae</b> publicae iudicauistis num fraude poterit carere peculatus <br> <small> Cic.Phil.12.12.4 <br> Declarastes que Antônio roubou setecentos milhões de sestércios do dinheiro público; acaso poderá ele estar livre do delito de peculato? <small> [JDD] </small> </small> </p>
+; <p> sunt ista uerum tamen abducuntur homines non numquam etiam ab institutis suis magnitudine <b>pecuniae</b> <br> <small> Cic.Ver.2.4.12.1 <br> 12 “Isso é, mas, no entanto, os homens algumas vezes são também desviados de seus princípios por uma grande soma de dinheiro.” <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-101-99-117-110-105-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 11.13 and an absolute frequency of 12. The Cicero subcorpus follows, with a normalized frequency of 6.42 and an absolute frequency of 103. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 6 ; absolute frequency: 2.26603217765692. subcorpus: Cicero ; normalized frequency: 103 ; absolute frequency: 6.41648600832274. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 12 ; absolute frequency: 11.1306928856321. subcorpus: Seneca ; normalized frequency: 14 ; absolute frequency: 2.61286650118512. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-101-99-117-110-105-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 7.97 and an absolute frequency of 83. The Prosa.histórica subcorpus follows, with a normalized frequency of 4.63 and an absolute frequency of 19. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 19 ; absolute frequency: 4.62523430463254. subcorpus: Prosa.filosófica ; normalized frequency: 18 ; absolute frequency: 2.96535477175005. subcorpus: Prosa.oratória ; normalized frequency: 83 ; absolute frequency: 7.96904553877469. subcorpus: Prosa.epistolográfica ; normalized frequency: 16 ; absolute frequency: 4.23964598955987. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-101-99-117-110-105-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 5.63 and an absolute frequency of 121. The I.d.C. subcorpus follows, with a normalized frequency of 2.29 and an absolute frequency of 15. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 121 ; absolute frequency: 5.63183616476612. subcorpus: I.d.C. ; normalized frequency: 15 ; absolute frequency: 2.29463056447912. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,215 @@
+---
+title: "amicus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-109-105-99-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>2.</small> <b>amīcus</b> <b>-í</b> <br> <small>subs. m.</small> <br> <small>Obs.: Gen. pl. amicum Ter. Heaut. 24.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Amigo &ensp; <small>Cíc. Of. 1, 63.</small> <br> <b>2</b> &ensp; <small>II-Daí, em sentido figurado</small> &ensp; Confidente, favorito &ensp; <small>Cíc. Div. 2, 135.</small> <br> <b>3</b> &ensp; <small>II-Daí, em sentido figurado</small> &ensp; Aliado &ensp; <small>Cíc. Verr. 4, 67.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Amicus</b> -<b>i</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; amigo. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Amicus</b> <b>i</b>   <p> <b>1</b> &ensp; o amigo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/88684 ' target="_blank"> http://lila-erc.eu/data/id/lemma/88684 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> ameicus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ămīcus 
+ ămīcī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-109-105-99-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-109-105-99-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword amicus here are all the values plotted: collocate: noster; scoreSUBST: 0. collocate: tuus; scoreSUBST: 0. collocate: sine; scoreSUBST: 0. collocate: ab; scoreSUBST: 0. collocate: paro; scoreSUBST: 0. collocate: meus; scoreSUBST: 0. collocate: quisquam; scoreSUBST: 0. collocate: uel; scoreSUBST: 0. collocate: talis; scoreSUBST: 0. collocate: atque; scoreSUBST: 0. collocate: pro; scoreSUBST: 0. collocate: habeo; scoreSUBST: 0. collocate: per; scoreSUBST: 0. collocate: periculum; scoreSUBST: 2. collocate: fero; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-109-105-99-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword amicus here are all the values plotted: collocate: noster; scoreADJ: 0. collocate: tuus; scoreADJ: 0. collocate: sine; scoreADJ: 0. collocate: ab; scoreADJ: 0. collocate: paro; scoreADJ: 0. collocate: meus; scoreADJ: 0. collocate: quisquam; scoreADJ: 0. collocate: uel; scoreADJ: 0. collocate: talis; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: pro; scoreADJ: 0. collocate: habeo; scoreADJ: 0. collocate: per; scoreADJ: 0. collocate: periculum; scoreADJ: 0. collocate: fero; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-109-105-99-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword amicus here are all the values plotted: collocate: noster; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0. collocate: sine; scoreVERBO: 0. collocate: ab; scoreVERBO: 0. collocate: paro; scoreVERBO: 2. collocate: meus; scoreVERBO: 0. collocate: quisquam; scoreVERBO: 0. collocate: uel; scoreVERBO: 0. collocate: talis; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: pro; scoreVERBO: 0. collocate: habeo; scoreVERBO: 2. collocate: per; scoreVERBO: 0. collocate: periculum; scoreVERBO: 0. collocate: fero; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-109-105-99-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword amicus here are all the values plotted: collocate: noster; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: sine; scoreADV: 0. collocate: ab; scoreADV: 0. collocate: paro; scoreADV: 0. collocate: meus; scoreADV: 0. collocate: quisquam; scoreADV: 0. collocate: uel; scoreADV: 0. collocate: talis; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: pro; scoreADV: 0. collocate: habeo; scoreADV: 0. collocate: per; scoreADV: 0. collocate: periculum; scoreADV: 0. collocate: fero; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-109-105-99-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword amicus here are all the values plotted: collocate: noster; scoreFUNC: 0. collocate: tuus; scoreFUNC: 0. collocate: sine; scoreFUNC: 20. collocate: ab; scoreFUNC: 20. collocate: paro; scoreFUNC: 0. collocate: meus; scoreFUNC: 0. collocate: quisquam; scoreFUNC: 0. collocate: uel; scoreFUNC: 0. collocate: talis; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: pro; scoreFUNC: 20. collocate: habeo; scoreFUNC: 0. collocate: per; scoreFUNC: 20. collocate: periculum; scoreFUNC: 0. collocate: fero; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> in quid <b>amicum</b> paro <br> <small> Sen.Ep.9.10 <br> “Para que buscas um amigo”[*] <small>  </small> </small> </p>
+; <p> sine <b>amico</b> quidem numquam erit <br> <small> Sen.Ep.9.5 <br> Sem amigo na verdade ele nunca estará. <small> [JDD] </small> </small> </p>
+; <p> ab <b>amico</b> timor denuntiari solet <br> <small> Cic.Phil.3.22.6 <br> O temor costuma ser infundido por um amigo? <small> [JDD] </small> </small> </p>
+; <p> quanto in odio noster <b>amicus</b> Magnus <br> <small> Cic.Att.2.13.2 <br> Em que grande ódio se acha o nosso Magno! <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>amicum</b> enim nostrum in iudicium uocabas <br> <small> Cic.Ver.2.4.25.19 <br> “Pois chamavas a julgamento um amigo nosso.” <small> [JDD] </small> </small> </p>
+; <p> bonos inimicos habet improbos ipsos non <b>amicos</b> <br> <small> Cic.Att.2.21.3 <br> Tem os homens de bem como inimigos, os próprios ímprobos não tem como amigos. <small> [JDD] </small> </small> </p>
+; <p> uirgis iste caederet sine causa socium populi Romani atque <b>amicum</b> <br> <small> Cic.Ver.2.4.86.10 <br> Cortaria de varas esse sujeito, sem motivo, a um aliado e amigo do povo romano? <small> [JDD] </small> </small> </p>
+; <p> quid est quare ego ulla uerba coram <b>amico</b> meo retraham <br> <small> Sen.Ep.3.3 <br> Que motivo há para que eu retenha algumas palavras na presença de meu amigo? <small> [JDD] </small> </small> </p>
+; <p> quamquam miror illa superbia et importunitate si quemquam <b>amicum</b> habere potuit <br> <small> Cic.Amici.54 <br> No entanto fico admirado se, com aquela soberba e má índole, pôde ter algum amigo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quis te ex hac tanta frequentia tot ex tuis <b>amicis</b> ac necessariis salutauit <br> <small> Cic.Catil.1.16.7 <br> Quem desta tão grande freqüência, de tantos amigos e íntimos teus te cumprimentou? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quid enim habeo melius quod <b>amicum</b> rogem quam quod pro ipso rogaturus sum <br> <small> Sen.Ep.19.1 <br> pois que coisa melhor eu tenho para pedir a um amigo do que o que eu pediria por ele próprio? <small> [JDD] </small> </small> </p>
+; <p> corrupti in dominos serui in patronos liberti et quibus deerat inimicus per <b>amicos</b> oppressi <br> <small> Tac.Hist.1.2.19 <br> Os escravos corrompidos contra seus senhores, os libertos, contra seus patonos; e aqueles para os quais faltava inimigo, eram oprimidos pelos amigos. <small> [JDD] </small> </small> </p>
+; <p> cupio ut ait tuus <b>amicus</b> Sophocles κἂν ὑπὸ στέγῃ πυκνῆς ἀκούειν ψακάδος εὑδούσῃ φρενί <br> <small> Cic.Att.2.7.4 <br> desejo, como diz o teu amigo Sófocles, e sob o teto / com a alma tranquila ouvir a chuva <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quemadmodum coepit sic desinet parauit <b>amicum</b> aduersum uincla laturum opem cum primum crepuerit catena discedet <br> <small> Sen.Ep.9.8 <br> Do mesmo modo como começou, terminará: buscou um amigo que lhe traria ajuda para sair da prisão; ao primeiro estalo que corrente fizer, ele irá embora. <small> [JDD] </small> </small> </p>
+; <p> Quinti fratris tamen liberalitati pro facultatibus nostris ne omnino exhaustus essem illo recusante subsidiis <b>amicorum</b> respondemus <br> <small> Cic.Att.4.3.6 <br> Contudo, correspondo à generosidade de meu irmão Quinto, na medida das minhas possibilidades, mesmo com ele se opondo, com ajuda dos amigos, para que eu não fique absolutamente sem nada. <small> [JDD] </small> </small> </p>
+; <p> post ubi pericula uirtute propulerant sociis atque <b>amicis</b> auxilia portabant magisque dandis quam accipiundis beneficiis amicitias parabant <br> <small> Sal.Cat.6.5 <br> Depois, quando já tinham rechaçado com coragem os perigos, levavam ajuda aos aliados e amigos, e adquiriam amizades mais concedendo favores do que recebendo. <small> [JDD] </small> </small> </p>
+; <p> moueor enim tali <b>amico</b> orbatus qualis ut arbitror nemo umquam erit ut confirmare possum nemo certe fuit <br> <small> Cic.Amici.10 <br> Pois me comovo privado de um amigo tal qual, conforme penso, ninguém jamais será e, como posso afirmar, certamente ninguém foi. <small> [JDD] </small> </small> </p>
+; <p> igitur reges populique finitumi bello temptare pauci ex <b>amicis</b> auxilio esse nam ceteri metu perculsi a periculis aberant <br> <small> Sal.Cat.6.4 <br> Então reis e povos vizinhos a punham à prova com a guerra, poucos de seus amigos prestavam socorro: pois os outros, tocados pelo medo, se afastavam dos perigos. <small> [JDD] </small> </small> </p>
+; <p> quod si rectum statuerimus uel concedere <b>amicis</b> quidquid uelint uel impetrare ab iis quidquid uelimus perfecta quidem sapientia simus si nihil habeat res uiti <br> <small> Cic.Amici.38 <br> E se estabelecermos como correto ou conceder aos amigos tudo o que eles querem ou obter deles tudo o que queremos, de fato somos de perfeita sabedoria, se isto não tem nada de vício. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-109-105-99-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 25.75 and an absolute frequency of 29. The Cicero subcorpus follows, with a normalized frequency of 13.08 and an absolute frequency of 210. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 10 ; absolute frequency: 3.77672029609487. subcorpus: Cicero ; normalized frequency: 210 ; absolute frequency: 13.0821559392988. subcorpus: Horatius ; normalized frequency: 29 ; absolute frequency: 25.7525974602611. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 4 ; absolute frequency: 6.0725671777744. subcorpus: Sallustius ; normalized frequency: 9 ; absolute frequency: 8.3480196642241. subcorpus: Seneca ; normalized frequency: 44 ; absolute frequency: 8.21186614658181. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-109-105-99-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 24.4 and an absolute frequency of 29. The Prosa.filosófica subcorpus follows, with a normalized frequency of 21.91 and an absolute frequency of 133. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 22 ; absolute frequency: 5.35553445799557. subcorpus: Prosa.filosófica ; normalized frequency: 133 ; absolute frequency: 21.9106769245976. subcorpus: Prosa.oratória ; normalized frequency: 84 ; absolute frequency: 8.06505813562739. subcorpus: Prosa.epistolográfica ; normalized frequency: 35 ; absolute frequency: 9.27422560216222. subcorpus: Poesia.lírica ; normalized frequency: 29 ; absolute frequency: 24.3963994279465. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-109-105-99-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 12.05 and an absolute frequency of 259. The I.d.C. subcorpus follows, with a normalized frequency of 7.34 and an absolute frequency of 48. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 259 ; absolute frequency: 12.0549220386316. subcorpus: I.d.C. ; normalized frequency: 48 ; absolute frequency: 7.34281780633318. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

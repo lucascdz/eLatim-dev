@@ -1,0 +1,200 @@
+---
+title: "testis"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx116-101-115-116-105-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>testis</b> <b>-is</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sents. próprio e figurado:</small> &ensp; Testemunha &ensp; <small>Cíc. Br. 323.</small> <br> <b>2</b> &ensp; <small>II-Sent. particular</small> &ensp; Espectador &ensp; <small>Ov. A. Am. 3, 398.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Testis</b> -<b>is</b> <br> <small>m. Cic. f. Suet.</small>   <p> <b>1</b> &ensp; testimunha. </p>
+
+
+
+
+#### Velez
+
+<b>Testis</b> -<b>is</b>   <p> <b>1</b> &ensp; a testemunha </p>
+
+
+
+
+#### Cardoso
+
+<b>Testis</b> <b>is</b>   <p> <b>1</b> &ensp; homẽ. ou molher testimunha </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/127994 ' target="_blank"> http://lila-erc.eu/data/id/lemma/127994 </a> <br>
+<small> classe: </small> substantivo comum de dois gêneros   <br>
+<small> paradigma: </small> 3ª declinação (tema em -i-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx116-101-115-116-105-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx116-101-115-116-105-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword testis here are all the values plotted: collocate: nemo; scoreSUBST: 0. collocate: sine; scoreSUBST: 0. collocate: suus; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx116-101-115-116-105-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword testis here are all the values plotted: collocate: nemo; scoreADJ: 0. collocate: sine; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx116-101-115-116-105-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword testis here are all the values plotted: collocate: nemo; scoreVERBO: 0. collocate: sine; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx116-101-115-116-105-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword testis here are all the values plotted: collocate: nemo; scoreADV: 0. collocate: sine; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx116-101-115-116-105-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword testis here are all the values plotted: collocate: nemo; scoreFUNC: 0. collocate: sine; scoreFUNC: 20. collocate: suus; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> praesto est <b>testis</b> est <br> <small> Cic.Ver.2.4.92.4 <br> Está aqui à disposição: é testemunha. <small> [JDD] </small> </small> </p>
+; <p> ne tanta eius opera sine <b>teste</b> sit <br> <small> Sen.Ot.4.2 <br> Para que sua tão grande obra não fique sem testemunha. <small> [JDD] </small> </small> </p>
+; <p> atque huius quidem rei M. Marcello sum <b>testis</b> <br> <small> Cic.Marc.16 <br> E, na verdade, deste fato eu sou testemunha para Marco Marcelo. <small> [JDD] </small> </small> </p>
+; <p> iacent suis <b>testibus</b> qui Clodium negant eo die Romam nisi de Cyro audisset fuisse rediturum <br> <small> Cic.Mil.47 <br> Caem por terra, por seus próprios testemunhos, os que dizem que Clódio não teria regressado a Roma nesse dia, se não tivesse ouvido acerca de Ciro. <small> [JDD] </small> </small> </p>
+; <p> eos enim deduxi <b>testis</b> et eas litteras deportaui ut de istius facto dubium esse nemini possit <br> <small> Cic.Ver.2.4.91.9 <br> Pois eu fiz vir essas testemunhas e trouxe esses documentos de modo que para ninguém possa ser duvidoso acerca da ação desse sujeito. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx116-101-115-116-105-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 4.55 and an absolute frequency of 3. The Cicero subcorpus follows, with a normalized frequency of 3.92 and an absolute frequency of 63. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 63 ; absolute frequency: 3.92464678178964. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 7 ; absolute frequency: 1.30643325059256. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx116-101-115-116-105-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 5.76 and an absolute frequency of 60. The Poesia.lírica subcorpus follows, with a normalized frequency of 1.68 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 3 ; absolute frequency: 0.730300153363032. subcorpus: Prosa.filosófica ; normalized frequency: 4 ; absolute frequency: 0.658967727055567. subcorpus: Prosa.oratória ; normalized frequency: 60 ; absolute frequency: 5.76075581116242. subcorpus: Prosa.epistolográfica ; normalized frequency: 3 ; absolute frequency: 0.794933623042476. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx116-101-115-116-105-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 3.16 and an absolute frequency of 68. The I.a.C. subcorpus follows, with a normalized frequency of 3.16 and an absolute frequency of 68. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 68 ; absolute frequency: 3.16499883639749. subcorpus: I.d.C. ; normalized frequency: 11 ; absolute frequency: 1.68272908061802. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

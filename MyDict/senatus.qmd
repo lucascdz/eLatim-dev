@@ -1,0 +1,226 @@
+---
+title: "senatus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-101-110-97-116-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>senātus</b> <b>-ús</b> <br> <small>ou</small> <b>senātus</b> <b>-í</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Assembléia dos velhos, senado: &ensp; <small></small> <br> <b>2</b> &ensp; <small>I-Por extensão:</small> &ensp; Sala do senado, lugares dos senadores &ensp; <small>no teatro Suet. Ner. 12.</small> <br> <b>3</b> &ensp; <small>I-Por extensão:</small> &ensp; Reunião do senado: &ensp; <small></small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Conselho deliberativo &ensp; <small>Plaut. Most. 688.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>senatus populusque Romanus Cíc. Planc. 90 ‘o senado e o povo romano’. <br> <br><b>3</b><br>senatum habere Cíc. Phil. 3, 9 ‘realizar uma reunião do senado’. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Senatus</b> -<b>us</b> -<b>i</b> <small>l</small> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; senado, ordem dos Senadores. <br> <b>2</b> &ensp; lugar em que se ajuntavaõ os Senadores. </p>
+
+
+
+
+#### Velez
+
+<b>Senatus</b> -<b>ûs</b>   <p> <b>1</b> &ensp; senado <br> <b>2</b> &ensp; senadores <br> <b>3</b> &ensp; lugar onde se ajuntaõ </p>
+
+
+
+
+#### Cardoso
+
+<b>Senatus</b> <b>us</b>   <p> <b>1</b> &ensp; ho senado. ou rolação </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/124309 ' target="_blank"> http://lila-erc.eu/data/id/lemma/124309 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 4ª declinação (tema em -u-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+sĕnātŭs 
+ sĕnātūs
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx115-101-110-97-116-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-101-110-97-116-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword senatus here are all the values plotted: collocate: consultum; scoreSUBST: 5. collocate: auctoritas; scoreSUBST: 4. collocate: frequens; scoreSUBST: 0. collocate: decerno; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: ab; scoreSUBST: 0. collocate: ad; scoreSUBST: 0. collocate: ex; scoreSUBST: 0. collocate: refero; scoreSUBST: 0. collocate: populus; scoreSUBST: 2. collocate: per; scoreSUBST: 0. collocate: uenio; scoreSUBST: 0. collocate: appello; scoreSUBST: 0. collocate: decretum; scoreSUBST: 2. collocate: iudicium; scoreSUBST: 2. collocate: ago; scoreSUBST: 0. collocate: contra; scoreSUBST: 0. collocate: recito; scoreSUBST: 0. collocate: pareo; scoreSUBST: 0. collocate: cunctus; scoreSUBST: 0. collocate: careo; scoreSUBST: 0. collocate: quantus; scoreSUBST: 0. collocate: kalendae; scoreSUBST: 2. collocate: cogo; scoreSUBST: 0. collocate: se; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-101-110-97-116-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword senatus here are all the values plotted: collocate: consultum; scoreADJ: 0. collocate: auctoritas; scoreADJ: 0. collocate: frequens; scoreADJ: 4. collocate: decerno; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: ab; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: ex; scoreADJ: 0. collocate: refero; scoreADJ: 0. collocate: populus; scoreADJ: 0. collocate: per; scoreADJ: 0. collocate: uenio; scoreADJ: 0. collocate: appello; scoreADJ: 0. collocate: decretum; scoreADJ: 0. collocate: iudicium; scoreADJ: 0. collocate: ago; scoreADJ: 0. collocate: contra; scoreADJ: 0. collocate: recito; scoreADJ: 0. collocate: pareo; scoreADJ: 0. collocate: cunctus; scoreADJ: 0. collocate: careo; scoreADJ: 0. collocate: quantus; scoreADJ: 0. collocate: kalendae; scoreADJ: 0. collocate: cogo; scoreADJ: 0. collocate: se; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-101-110-97-116-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword senatus here are all the values plotted: collocate: consultum; scoreVERBO: 0. collocate: auctoritas; scoreVERBO: 0. collocate: frequens; scoreVERBO: 0. collocate: decerno; scoreVERBO: 3. collocate: in; scoreVERBO: 0. collocate: ab; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: ex; scoreVERBO: 0. collocate: refero; scoreVERBO: 2. collocate: populus; scoreVERBO: 0. collocate: per; scoreVERBO: 0. collocate: uenio; scoreVERBO: 2. collocate: appello; scoreVERBO: 2. collocate: decretum; scoreVERBO: 0. collocate: iudicium; scoreVERBO: 0. collocate: ago; scoreVERBO: 2. collocate: contra; scoreVERBO: 0. collocate: recito; scoreVERBO: 2. collocate: pareo; scoreVERBO: 2. collocate: cunctus; scoreVERBO: 0. collocate: careo; scoreVERBO: 2. collocate: quantus; scoreVERBO: 0. collocate: kalendae; scoreVERBO: 0. collocate: cogo; scoreVERBO: 2. collocate: se; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-101-110-97-116-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword senatus here are all the values plotted: collocate: consultum; scoreADV: 0. collocate: auctoritas; scoreADV: 0. collocate: frequens; scoreADV: 0. collocate: decerno; scoreADV: 0. collocate: in; scoreADV: 0. collocate: ab; scoreADV: 0. collocate: ad; scoreADV: 0. collocate: ex; scoreADV: 0. collocate: refero; scoreADV: 0. collocate: populus; scoreADV: 0. collocate: per; scoreADV: 0. collocate: uenio; scoreADV: 0. collocate: appello; scoreADV: 0. collocate: decretum; scoreADV: 0. collocate: iudicium; scoreADV: 0. collocate: ago; scoreADV: 0. collocate: contra; scoreADV: 0. collocate: recito; scoreADV: 0. collocate: pareo; scoreADV: 0. collocate: cunctus; scoreADV: 0. collocate: careo; scoreADV: 0. collocate: quantus; scoreADV: 0. collocate: kalendae; scoreADV: 0. collocate: cogo; scoreADV: 0. collocate: se; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-101-110-97-116-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword senatus here are all the values plotted: collocate: consultum; scoreFUNC: 0. collocate: auctoritas; scoreFUNC: 0. collocate: frequens; scoreFUNC: 0. collocate: decerno; scoreFUNC: 0. collocate: in; scoreFUNC: 40. collocate: ab; scoreFUNC: 30. collocate: ad; scoreFUNC: 30. collocate: ex; scoreFUNC: 20. collocate: refero; scoreFUNC: 0. collocate: populus; scoreFUNC: 0. collocate: per; scoreFUNC: 20. collocate: uenio; scoreFUNC: 0. collocate: appello; scoreFUNC: 0. collocate: decretum; scoreFUNC: 0. collocate: iudicium; scoreFUNC: 0. collocate: ago; scoreFUNC: 0. collocate: contra; scoreFUNC: 20. collocate: recito; scoreFUNC: 0. collocate: pareo; scoreFUNC: 0. collocate: cunctus; scoreFUNC: 0. collocate: careo; scoreFUNC: 0. collocate: quantus; scoreFUNC: 0. collocate: kalendae; scoreFUNC: 0. collocate: cogo; scoreFUNC: 0. collocate: se; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> paret <b>senatui</b> <br> <small> Cic.Phil.12.4.5 <br> Obedece ao senado? <small> [JDD] </small> </small> </p>
+; <p> per <b>senatum</b> ne <br> <small> Cic.Att.3.15.6 <br> Por meio do senado? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> defertur res ad <b>senatum</b> <br> <small> Cic.Att.1.16.5 <br> O assunto é levado ao senado. <small> [JDD] </small> </small> </p>
+; <p> Kal Octobr habetur <b>senatus</b> frequens <br> <small> Cic.Att.4.2.3 <br> nas calendas de outubro [1º. de outubro] o senado se reúne numa sessão bastante concorrida. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> decima in <b>senatu</b> Nonis Decembribus <br> <small> Cic.Att.2.1.3 <br> o décimo, no senado, em cinco de dezembro. <small> [JDD] </small> </small> </p>
+; <p> uenisti paulo ante in <b>senatum</b> <br> <small> Cic.Catil.1.16.7 <br> Chegaste um pouco antes ao senado. <small> [JDD] </small> </small> </p>
+; <p> superficiem consules ex <b>senatus</b> consulto aestimabunt <br> <small> Cic.Att.4.1.7 <br> os cônsules, de acordo com um decreto do senado, vão fazer a avaliação do edifício. <small> [JDD] </small> </small> </p>
+; <p> <b>senatum</b> frequentem celeriter ut uidistis coegi <br> <small> Cic.Catil.3.7.11 <br> Reuni rapidamente um senado numeroso, como vistes. <small> [JDD] </small> </small> </p>
+; <p> in <b>senatu</b> rem probe scribis actam <br> <small> Cic.Att.3.15.3 <br> Escreves que no senado o assunto foi tratado seriamente. <small> [JDD] </small> </small> </p>
+; <p> rem cunctus <b>senatus</b> Catinensium legibus iudicabat <br> <small> Cic.Ver.2.4.100.8 <br> O senado inteiro julgava o caso de acordo com as leis dos catinenses. <small> [JDD] </small> </small> </p>
+; <p> tum <b>senatus</b> consultum in contione recitatum est <br> <small> Cic.Att.2.24.3 <br> Então foi lido o decreto do senado na assembleia do povo. <small> [JDD] </small> </small> </p>
+; <p> tum frequens <b>senatus</b> ad istum uenit pollicetur signum <br> <small> Cic.Ver.2.4.87.8 <br> Então o senado em grande número veio até esse sujeito, promete-lhe a estátua. <small> [JDD] </small> </small> </p>
+; <p> de quo legando consules spero ad <b>senatum</b> relaturos <br> <small> Cic.Man.58 <br> Espero que os cônsules apresentem uma proposta ao senado a respeito de ele ser nomeado como legado. <small> [JDD] </small> </small> </p>
+; <p> eo autem die credo aliquid actum in <b>senatu</b> <br> <small> Cic.Att.5.5.1 <br> Nesse dia, porém, creio que algo foi feito no senado. <small> [JDD] </small> </small> </p>
+; <p> leguntur eadem ratione ad <b>senatum</b> Allobrogum populumque litterae <br> <small> Cic.Catil.3.11.1 <br> Do mesmo modo é lida a carta ao senado e ao povo dos alóbroges. <small> [JDD] </small> </small> </p>
+; <p> refert rem ille ad <b>senatum</b> uehementer undique reclamatur <br> <small> Cic.Ver.2.4.85.5 <br> Aquele submete o assunto ao senado; protesta-se veementemente de todos os lados. <small> [JDD] </small> </small> </p>
+; <p> at enim liberum <b>senatus</b> iudicium propter metum non fuit <br> <small> Cic.Dom.10 <br> 10 Mas, de fato, o julgamento do senado não foi livre, por causa do medo. <small> [JDD] </small> </small> </p>
+; <p> <b>senatum</b> ad pristinam suam severitatem revocavi atque abiectum excitavi <br> <small> Cic.Att.1.16.8 <br> fiz o senado voltar à sua antiga severidade e, estando ele humilhado, levantei-o. <small> [JDD] </small> </small> </p>
+; <p> ait se de consili sententia rem ad <b>senatum</b> reiecisse <br> <small> Cic.Att.2.16.4 <br> ele diz que por decisão do conselho ele devolveu o assunto ao senado. <small> [JDD] </small> </small> </p>
+; <p> id autem erat de Clodiana religione ab <b>senatu</b> constitutum <br> <small> Cic.Att.1.14.1 <br> Isso tinha sido estabelecido pelo senado por ocasião do sacrilégio de Clódio. <small> [JDD] </small> </small> </p>
+; <p> facto <b>senatus</b> consulto de ambitu de iudiciis nulla lex perlata <br> <small> Cic.Att.1.18.3 <br> Promulgado um decreto do senado sobre o suborno, outro sobre os juízes, nenhuma lei os sancionou. <small> [JDD] </small> </small> </p>
+; <p> itaque <b>senatum</b> bene sua sponte firmum firmiorem uestra auctoritate fecistis <br> <small> Cic.Phil.6.18.12 <br> E assim fizestes, com vossa autoridade, ainda mais firme o senado bem firme por si mesmo. <small> [JDD] </small> </small> </p>
+; <p> <b>senatus</b> decreverat ne prius comitia haberentur quam lex lata esset <br> <small> Cic.Att.4.17.3 <br> O senado tinha decretado que as eleições não se realizassem antes que a lei fosse promulgada. <small> [JDD] </small> </small> </p>
+; <p> si igitur Caesar hostis cur consul nihil refert ad <b>senatum</b> <br> <small> Cic.Phil.3.21.5 <br> Se, portanto, César é o inimigo, por que o cônsul não submete nada à deliberação do senado? <small> [JDD] </small> </small> </p>
+; <p> sed eos paulo ante frequens <b>senatus</b> iudicauerat contra rem publicam fecisse <br> <small> Sal.Cat.50.3 <br> Mas um pouco antes o senado lotado tinha julgado que eles tinham agido contra a república. <small> [JDD] </small> </small> </p>
+; <p> Cato clarus atque magnus habetur <b>senati</b> decretum fit sicuti ille censuerat <br> <small> Sal.Cat.53.1 <br> Catão é tido por ilustre e grande; faz-se um decreto do senado, como ele tinha opinado. <small> [JDD] </small> </small> </p>
+; <p> quae nisi essent in senibus non summum consilium maiores nostri appellassent <b>senatum</b> <br> <small> Cic.Sen.19 <br> Se não existissem nos velhos essas qualidades, os nosso antepassados não teriam chamado o supremo conselho de senado. <small> [JDD] </small> </small> </p>
+; <p> nam est hostis a <b>senatu</b> nondum uerbo appellatus sed re iam iudicatus Antonius <br> <small> Cic.Phil.4.1.10 <br> Pois Antônio ainda não foi explicitamente declarado inimigo pelo senado, mas já foi de fato julgado como tal. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> caruit foro postea Pompeius caruit <b>senatu</b> caruit publico ianua se ac parietibus non iure legum iudiciorumque texit <br> <small> Cic.Mil.18 <br> Depois disso, Pompeu se absteve do foro, se absteve do senado, se absteve de local público; ele se protegeu com sua porta e suas paredes, não com o direito das leis e dos julgamentos. <small> [JDD] </small> </small> </p>
+; <p> quantum nomen illius fuerit quantae opes quanta in omni genere bellorum gloria quanti honores populi Romani quanti <b>senatus</b> quanti tui quis ignorat <br> <small> Cic.Deiot.12 <br> Quem ignora quão grande foi o nome dele, quão grande o seu poder, quão grande sua glória em todo tipo de guerras, quão grandes as honras recebidas do povo romano, quão grandes recebidas do senado, quão grandes recebidas de ti? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-101-110-97-116-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 35.25 and an absolute frequency of 38. The Seneca subcorpus follows, with a normalized frequency of 2.05 and an absolute frequency of 11. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 18 ; absolute frequency: 6.79809653297077. subcorpus: Cicero ; normalized frequency: 440 ; absolute frequency: 27.4102314918641. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 38 ; absolute frequency: 35.2471941378351. subcorpus: Seneca ; normalized frequency: 11 ; absolute frequency: 2.05296653664545. subcorpus: Suetonius ; normalized frequency: 3 ; absolute frequency: 33.0760749724366. subcorpus: Tacitus ; normalized frequency: 5 ; absolute frequency: 17.164435290079. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-101-110-97-116-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 32.33 and an absolute frequency of 122. The Prosa.oratória subcorpus follows, with a normalized frequency of 29.57 and an absolute frequency of 308. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 64 ; absolute frequency: 15.579736605078. subcorpus: Prosa.filosófica ; normalized frequency: 21 ; absolute frequency: 3.45958056704173. subcorpus: Prosa.oratória ; normalized frequency: 308 ; absolute frequency: 29.5718798306338. subcorpus: Prosa.epistolográfica ; normalized frequency: 122 ; absolute frequency: 32.327300670394. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-101-110-97-116-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 23.13 and an absolute frequency of 497. The I.d.C. subcorpus follows, with a normalized frequency of 1.68 and an absolute frequency of 11. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 497 ; absolute frequency: 23.1324179660228. subcorpus: I.d.C. ; normalized frequency: 11 ; absolute frequency: 1.68272908061802. subcorpus: II.d.C. ; normalized frequency: 8 ; absolute frequency: 20.9424083769633. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

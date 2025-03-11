@@ -1,0 +1,213 @@
+---
+title: "redeo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx114-101-100-101-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>redĕō</b> <b>-ís</b> <b>-íre</b> <b>redìí, redìtum</b> <br> <small>v. intr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Voltar &ensp; <small>sents. físico e moral Cíc. Verr. pr. 16: Cés. B. Gal. 7. 54. 4: Cíc. Fam. 12, 10, 1: Cíc. Lae. 1.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Voltar em benefício, restituir &ensp; <small>Plaut. Trin. 530: C. Nep. Them. 2.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Vir a, passar a, tender a &ensp; <small>Cés. B. Civ. 3, 93, 2: T. Lív. 1, 22, 1.</small> </p> 
+ <b>redī</b> <br> <small>imperativo de redèo.</small> <br> <small></small> 
+ <b>redĭēs</b> <b>redìet</b> <br> <small>= redíbis, redíbit. Fut. imperfeito de redèo Sên. Ben. 1, 2, 3.</small> <br> <small></small> 
+ <b>redĭī</b> <br> <small>perf. de redèo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Redeo</b> -<b>is</b> -<b>ivi</b> -<b>itum</b> -<b>ire</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; voltar, tornar. <br> <b>2</b> &ensp; <small>Nep.</small> &ensp; render, dar lucro. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>redire in gratiam cum libris &ensp; <small><small>Cic</small></small> &ensp; <small>Tornar a applicar-se aos livros</small> </p> 
+ <small>pret. de Redeo</small> <b>Redii</b>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Redeo</b> <b>is</b> <b>iui</b> <b>itum</b>   <p> <b>1</b> &ensp; tornar de lugar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/122463 ' target="_blank"> http://lila-erc.eu/data/id/lemma/122463 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> irregular <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> redeo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> redire </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> redibit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> rediui, redii </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> reditum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> rediturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+rĕdĕō 
+ rĕdīs 
+ rĕdīre 
+ rĕdĭī 
+ rĕdĭtum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx114-101-100-101-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx114-101-100-101-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword redeo here are all the values plotted: collocate: nunc; scoreSUBST: 0. collocate: ad; scoreSUBST: 0. collocate: sed; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx114-101-100-101-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword redeo here are all the values plotted: collocate: nunc; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: sed; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx114-101-100-101-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword redeo here are all the values plotted: collocate: nunc; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: sed; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx114-101-100-101-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword redeo here are all the values plotted: collocate: nunc; scoreADV: 2. collocate: ad; scoreADV: 0. collocate: sed; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx114-101-100-101-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword redeo here are all the values plotted: collocate: nunc; scoreFUNC: 0. collocate: ad; scoreFUNC: 20. collocate: sed; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>redeo</b> ad urbana <br> <small> Cic.Att.5.13.3 <br> Volto às coisas da cidade. <small> [JDD] </small> </small> </p>
+; <p> sed <b>redeo</b> ad illud <br> <small> Cic.Att.5.2.3 <br> Mas volto àquilo. <small> [JDD] </small> </small> </p>
+; <p> sed ad rem <b>redeo</b> <br> <small> Cic.Att.5.21.13 <br> Mas volto ao assunto. <small> [JDD] </small> </small> </p>
+; <p> sed de hoc alias nunc <b>redeo</b> ad augurem <br> <small> Cic.Amici.1 <br> Mas sobre ele, em outra ocasião; agora volto ao áugure. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx114-101-100-101-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 22.05 and an absolute frequency of 2. The Phaedrus subcorpus follows, with a normalized frequency of 9.11 and an absolute frequency of 6. the subcorpus with the least normalized frequency is Sallustius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 6 ; absolute frequency: 2.26603217765692. subcorpus: Cicero ; normalized frequency: 66 ; absolute frequency: 4.11153472377962. subcorpus: Horatius ; normalized frequency: 8 ; absolute frequency: 7.10416481662375. subcorpus: Ovidius ; normalized frequency: 5 ; absolute frequency: 8.57927247769389. subcorpus: Phaedrus ; normalized frequency: 6 ; absolute frequency: 9.10885076666161. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 25 ; absolute frequency: 4.66583303783057. subcorpus: Suetonius ; normalized frequency: 2 ; absolute frequency: 22.0507166482911. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx114-101-100-101-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.didática subcorpus registers the highest normalized frequency, with the value of 8.48 and an absolute frequency of 10. The Poesia.didática subcorpus follows, with a normalized frequency of 8.48 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 8 ; absolute frequency: 1.94746707563475. subcorpus: Prosa.filosófica ; normalized frequency: 27 ; absolute frequency: 4.44803215762508. subcorpus: Prosa.oratória ; normalized frequency: 35 ; absolute frequency: 3.36044088984475. subcorpus: Prosa.epistolográfica ; normalized frequency: 20 ; absolute frequency: 5.29955748694984. subcorpus: Poesia.lírica ; normalized frequency: 9 ; absolute frequency: 7.57129637419029. subcorpus: Poesia.didática ; normalized frequency: 10 ; absolute frequency: 8.48248367121893. subcorpus: Poesia.trágica ; normalized frequency: 9 ; absolute frequency: 7.81792911744267. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx114-101-100-101-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 5.35 and an absolute frequency of 35. The I.d.C. subcorpus follows, with a normalized frequency of 5.35 and an absolute frequency of 35. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 81 ; absolute frequency: 3.77007214335583. subcorpus: I.d.C. ; normalized frequency: 35 ; absolute frequency: 5.35413798378461. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

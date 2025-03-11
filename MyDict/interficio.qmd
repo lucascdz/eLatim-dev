@@ -1,0 +1,211 @@
+---
+title: "interficio"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-110-116-101-114-102-105-99-105-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>interfēcī</b> <br> <small>perf. de interficìo.</small> <br> <small></small> 
+ <b>interficĭō</b> <b>-is</b> <b>-ère</b> <b>-fécí, -féctum</b> <br> <small>v. tr.</small> <br> <small>Obs.: É sinônimo de occido, mas eate é usado na língua falada, ao passo que interficio é proferido na língua escrita. Intereo serve de passivo a interficio .. Constrói-se com acus.: ou acus. e abl.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Privar de &ensp; <small>Plaul. Truc. 518.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Privar da vida, matar, destruir &ensp; <small>Verg. G. 4.330; Cíc. Piso 15.</small> <br> <b>3</b> &ensp; <small>II-Loc.</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>3</b><br>interficere se Cés. B. Gal. 5. 37. 6 “suicidar-se”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Interfacio</b> -<b>is</b> -<b>feci</b> -<b>factum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>* Liv.</small> &ensp; fazer entretanto. </p> 
+ <b>Interficio</b> -<b>is</b> -<b>feci</b> -<b>fectum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; matar. <br> <b>2</b> &ensp; <small>Virg.</small> &ensp; destruir. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Interficio</b> <b>is</b> <b>feci</b> <b>fectum</b>   <p> <b>1</b> &ensp; matar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/108471 ' target="_blank"> http://lila-erc.eu/data/id/lemma/108471 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 5ª conjugação (tema em -ĭ- breve) <br>
+<small> outras grafias: </small> interfacio <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> interfacio, interficio </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> interficere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> interficiet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> interfeci </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> interfectum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> interfecturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+interfĭcĭō 
+ interfĭcis 
+ interfĭcĕre 
+ interfēcī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx105-110-116-101-114-102-105-99-105-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-110-116-101-114-102-105-99-105-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword interficio here are all the values plotted: collocate: clodius; scoreSUBST: 0. collocate: iubeo; scoreSUBST: 0. collocate: consul; scoreSUBST: 2. collocate: ciuis; scoreSUBST: 2. collocate: uolo; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-110-116-101-114-102-105-99-105-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword interficio here are all the values plotted: collocate: clodius; scoreADJ: 2. collocate: iubeo; scoreADJ: 0. collocate: consul; scoreADJ: 0. collocate: ciuis; scoreADJ: 0. collocate: uolo; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-110-116-101-114-102-105-99-105-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword interficio here are all the values plotted: collocate: clodius; scoreVERBO: 0. collocate: iubeo; scoreVERBO: 2. collocate: consul; scoreVERBO: 0. collocate: ciuis; scoreVERBO: 0. collocate: uolo; scoreVERBO: 2. collocate: sum; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-110-116-101-114-102-105-99-105-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword interficio here are all the values plotted: collocate: clodius; scoreADV: 0. collocate: iubeo; scoreADV: 0. collocate: consul; scoreADV: 0. collocate: ciuis; scoreADV: 0. collocate: uolo; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-110-116-101-114-102-105-99-105-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword interficio here are all the values plotted: collocate: clodius; scoreFUNC: 0. collocate: iubeo; scoreFUNC: 0. collocate: consul; scoreFUNC: 0. collocate: ciuis; scoreFUNC: 0. collocate: uolo; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quid Milonis intererat <b>interfici</b> Clodium <br> <small> Cic.Mil.34 <br> Que interesse tinha Milão em que Clódio fosse assassinado? <small> [JDD] </small> </small> </p>
+; <p> quem si <b>interficere</b> uoluisset quantae quotiens occasiones quam praeclarae fuerunt <br> <small> Cic.Mil.38 <br> Se tivesse querido matá-lo, que grandes e quantas ocasiões quão excelentes houve! <small> [JDD] </small> </small> </p>
+; <p> quae mulier <b>interficere</b> sceleratum ac perniciosum ciuem non auderet si periculum non timeret <br> <small> Cic.Mil.82 <br> Que mulher não ousaria matar um cidadão celerado e pernicioso, se não temesse o perigo? <small> [JDD] </small> </small> </p>
+; <p> interfectores <b>interfecturis</b> iubent obici et uictorem in aliam detinent caedem exitus pugnantium mors est <br> <small> Sen.Ep.7.4 <br> Estes ordenam que os que mataram enfrentem os que vão matá-los e reservam o vencedor para outra matança; o fim dos que lutam é a morte. <small> [JDD] </small> </small> </p>
+; <p> hic pagus unus cum domo exisset patrum nostrorum memoria L. Cassium consulem <b>interfecerat</b> et eius exercitum sub iugum miserat <br> <small> Caes.Gal.1.12.5 <br> Este mesmo cantão, quando saía de sua pátria, no tempo de nossos pais, matara o cônsul L. Cassio e fizera seu exército passar sob o jugo. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-110-116-101-114-102-105-99-105-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 11.33 and an absolute frequency of 30. The Suetonius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 30 ; absolute frequency: 11.3301608882846. subcorpus: Cicero ; normalized frequency: 56 ; absolute frequency: 3.48857491714635. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 5 ; absolute frequency: 4.63778870234672. subcorpus: Seneca ; normalized frequency: 1 ; absolute frequency: 0.186633321513223. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-110-116-101-114-102-105-99-105-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 9.25 and an absolute frequency of 38. The Prosa.filosófica subcorpus follows, with a normalized frequency of 0.33 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 38 ; absolute frequency: 9.25046860926508. subcorpus: Prosa.filosófica ; normalized frequency: 2 ; absolute frequency: 0.329483863527784. subcorpus: Prosa.oratória ; normalized frequency: 55 ; absolute frequency: 5.28069282689889. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-110-116-101-114-102-105-99-105-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 7.85 and an absolute frequency of 3. The I.a.C. subcorpus follows, with a normalized frequency of 4.24 and an absolute frequency of 91. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 91 ; absolute frequency: 4.2355131487084. subcorpus: I.d.C. ; normalized frequency: 2 ; absolute frequency: 0.305950741930549. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

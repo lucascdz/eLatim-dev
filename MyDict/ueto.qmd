@@ -1,0 +1,210 @@
+---
+title: "ueto"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-101-116-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>vetō</b> <b>-ás</b> <b>-áre</b> <b>vetùí, vetìtum</b> <br> <b>votō</b> <b>-ás</b> <b>-áre</b> <b>vetùí, vetìtum</b> <br> <small>v. tr. e intr.</small> <br> <small>Obs.: Constrói-se com acus. e inf.; com inf.; com acus.; com ut ou ne; com simples subjuntivo; ou como intr. absoluto. O perf. vetavi ocorre em Pérsio 5, 90. As formas voto, votui, etc. são arcaicas Plaut. Trin. 457.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Não permitir, proibir, vedar, vetar &ensp; <small>Quint. 7, 5, S; T. Lív. 3, 13, 6.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Impedir, opor-se, privar de &ensp; <small>Hor. Sát. 1, 10, 32. Verg. En. 2, 84.</small> </p> 
+ <b>vetŭī</b> <br> <small>perf. de veto.</small> <br> <small></small> 
+ <b>vetŭō</b> <br> <small>= vetó Petr. 47, 5.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Veto</b> -<b>as</b> -<b>avi</b> -<b>ui</b> <small>l</small> -<b>itum</b> -<b>are</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; vedar, prohibir. </p>
+
+
+
+
+#### Velez
+
+<b>Veto</b> -<b>as</b>   <p> <b>1</b> &ensp; prohibir, vedar, tolher &ensp; <small>Act.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Veto</b> -<b>as</b>   <p> <b>1</b> &ensp; vedar. ou tolher </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/130065 ' target="_blank"> http://lila-erc.eu/data/id/lemma/130065 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small> beto, uetho, uetuo, uoto <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> beto, uetho, ueto, uetuo, uoto </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> betare, uetuare, uetare, uotare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> betabit, uetuabit, uetabit, uotabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> uetui, uetaui, uotui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> uetatum, uetitum, uotitum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> uetaturum, uetiturum, uotiturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+vetō 
+ vetās 
+ vetāre 
+ vetuī 
+ vetĭtum 
+ vetŭī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx117-101-116-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-101-116-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ueto here are all the values plotted: collocate: tu; scoreSUBST: 0. collocate: que; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-101-116-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ueto here are all the values plotted: collocate: tu; scoreADJ: 0. collocate: que; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-101-116-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ueto here are all the values plotted: collocate: tu; scoreVERBO: 0. collocate: que; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-101-116-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ueto here are all the values plotted: collocate: tu; scoreADV: 0. collocate: que; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-101-116-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ueto here are all the values plotted: collocate: tu; scoreFUNC: 0. collocate: que; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> summitti te ac deprimi <b>ueto</b> <br> <small> Sen.Ep.31.6 <br> Proíbo-te de humilhar-te ou deprimir-te. <small> [JDD] </small> </small> </p>
+; <p> <b>uetat</b>que Pythagoras iniussu imperatoris id est dei de praesidio et statione uitae decedere <br> <small> Cic.Sen.73 <br> E Pitágoras proíbe, sem ordem do comandante, isto é, do deus, retirar-se da guarda e do posto da vida. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-101-116-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 7.99 and an absolute frequency of 9. The Tacitus subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 9 ; absolute frequency: 0.560663825969948. subcorpus: Horatius ; normalized frequency: 9 ; absolute frequency: 7.99218541870171. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 14 ; absolute frequency: 2.61286650118512. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-101-116-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 7.57 and an absolute frequency of 9. The Poesia.didática subcorpus follows, with a normalized frequency of 1.7 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 2 ; absolute frequency: 0.486866768908688. subcorpus: Prosa.filosófica ; normalized frequency: 11 ; absolute frequency: 1.81216124940281. subcorpus: Prosa.oratória ; normalized frequency: 3 ; absolute frequency: 0.288037790558121. subcorpus: Prosa.epistolográfica ; normalized frequency: 4 ; absolute frequency: 1.05991149738997. subcorpus: Poesia.lírica ; normalized frequency: 9 ; absolute frequency: 7.57129637419029. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-101-116-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 2.45 and an absolute frequency of 16. The I.a.C. subcorpus follows, with a normalized frequency of 1.02 and an absolute frequency of 22. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 22 ; absolute frequency: 1.02397021177566. subcorpus: I.d.C. ; normalized frequency: 16 ; absolute frequency: 2.44760593544439. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

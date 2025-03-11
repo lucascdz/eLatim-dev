@@ -1,0 +1,213 @@
+---
+title: "tollo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx116-111-108-108-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>sustŭlī</b> <br> <small>perf. de tollo.</small> <br> <small></small> 
+ <b>tollō</b> <b>-is</b> <b>-ère</b> <b>sustùlí, sublátum</b> <br> <small>v. tr.</small> <br> <small>Obs.: O perf. tuli aparece em Suetônio Aug. 63; Cal. 7.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Levantar, elevar, erguer &ensp; <small>Cíc. Verr. 4, 65; Cíc. Ac. 2, 63; Cíc. Fam. 16, 10, 2; Cés. B. Gal. 4, 23, 6.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Levar, transportar, embarcar &ensp; <small>Cés. B. Gal. 4, 28, 1; Verg. Div. 2, 3, 601.</small> <br> <b>3</b> &ensp; <small>I-Donde:</small> &ensp; Levar, tirar, tomar &ensp; <small>Cíc. Verr. 4, 103; Cic. Verr. 3, 36.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Destruir, dar cabo de, suprimir, fazer desaparecer, abolir &ensp; <small>Cíc. Of. 1, 35; Cíc. Nat. 3, 81; Cic. Phil. 1, 3; Cíc. De Or. 1, 247.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Lançar, impedir, soltar &ensp; <small>Verg. En. 11, 745; Hor. A. Poet. 381.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Exaltar, celebrar &ensp; <small>Cíc. At. 4, 16, 8; T. Lív. 3, 67, 6.</small> <br> <b>7</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Suportar, sofrer &ensp; <small>Cic. Nat. 3, 82.</small> <br> <b>8</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Gerar, criar, ter filhos &ensp; <small>Cíc. Phil. 13, 23.</small> <br> <b>9</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Divulgar, espalhar &ensp; <small>Plaut. Mil. 293.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Tollo</b> -<b>is</b> -<b>sustuli</b> -<b>sublatum</b> <b>tollere</b> 
+ <b>Tollo</b> -<b>onis</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Plaut.</small> &ensp; cegonha, maquina para tirar agoa dos poços. </p>
+
+
+
+
+#### Velez
+
+<b>Tollo</b> -<b>is</b>   <p> <b>1</b> &ensp; levantar, tomar, tirar </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>tollere aliquem de medio, uel e medio &ensp; <small>matar</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Tollo</b> <b>is</b>   <p> <b>1</b> &ensp; alçar. ou tirar </p> 
+ <b>Tollo</b> <b>is</b> 
+ <b>Tollo</b> <b>onis</b>   <p> <b>1</b> &ensp; hum engenho pera tirar agoa </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/128357 ' target="_blank"> http://lila-erc.eu/data/id/lemma/128357 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> tollo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> tollere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> tollet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> tolli, sustuli </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> sublatum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> sublaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+tollō 
+ tollĕre 
+ sustŭlī 
+ sublātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx116-111-108-108-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx116-111-108-108-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword tollo here are all the values plotted: collocate: audeo; scoreSUBST: 0. collocate: amicitia; scoreSUBST: 2. collocate: magnus; scoreSUBST: 0. collocate: uideo; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx116-111-108-108-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword tollo here are all the values plotted: collocate: audeo; scoreADJ: 0. collocate: amicitia; scoreADJ: 0. collocate: magnus; scoreADJ: 2. collocate: uideo; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx116-111-108-108-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword tollo here are all the values plotted: collocate: audeo; scoreVERBO: 2. collocate: amicitia; scoreVERBO: 0. collocate: magnus; scoreVERBO: 0. collocate: uideo; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx116-111-108-108-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword tollo here are all the values plotted: collocate: audeo; scoreADV: 0. collocate: amicitia; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: uideo; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx116-111-108-108-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword tollo here are all the values plotted: collocate: audeo; scoreFUNC: 0. collocate: amicitia; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0. collocate: uideo; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> at suaue est ex magno <b>tollere</b> aceruo <br> <small> Hor.S.1.1.51 <br> “Mas é gostoso tirar de um grande depósito”. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> cum satis iam perspexisse uideretur <b>tollere</b> incipiunt ut referrent <br> <small> Cic.Ver.2.4.65.16 <br> Quando parecia que ja tinha examinado suficientemente, começam a erguê-lo para levá-lo de volta. <small> [JDD] </small> </small> </p>
+; <p> quare hoc quidem praeceptum cuiuscumque est ad <b>tollendam</b> amicitiam ualet <br> <small> Cic.Amici.60 <br> Por isso esse preceito, na verdade, seja ele de quem for, vale para eliminar a amizade. <small> [JDD] </small> </small> </p>
+; <p> nam maximum ornamentum amicitiae <b>tollit</b> qui ex ea <b>tollit</b> uerecundiam <br> <small> Cic.Amici.82 <br> Pois elimina o maior ornamento da amizade que elimina dela o respeito. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> iam caelum terramque meo sine numine uenti miscere et tantas audetis <b>tollere</b> moles <br> <small> Verg.A.1.133 <br> Já ousais, ó ventos, misturar o céu e a terra e levantar tão grandes massas, sem meu consentimento? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx116-111-108-108-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 13.66 and an absolute frequency of 9. The Vergilius subcorpus follows, with a normalized frequency of 7.72 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 13 ; absolute frequency: 4.90973638492333. subcorpus: Cicero ; normalized frequency: 118 ; absolute frequency: 7.35092571827266. subcorpus: Horatius ; normalized frequency: 14 ; absolute frequency: 12.4322884290916. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 9 ; absolute frequency: 13.6632761499924. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 12 ; absolute frequency: 2.23959985815868. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx116-111-108-108-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 13.48 and an absolute frequency of 6. The Poesia.lírica subcorpus follows, with a normalized frequency of 11.78 and an absolute frequency of 14. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 2.61 and an absolute freqeuncy of 3. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 15 ; absolute frequency: 3.65150076681516. subcorpus: Prosa.filosófica ; normalized frequency: 27 ; absolute frequency: 4.44803215762508. subcorpus: Prosa.oratória ; normalized frequency: 86 ; absolute frequency: 8.25708332933281. subcorpus: Prosa.epistolográfica ; normalized frequency: 14 ; absolute frequency: 3.70969024086489. subcorpus: Poesia.lírica ; normalized frequency: 14 ; absolute frequency: 11.7775721376293. subcorpus: Poesia.didática ; normalized frequency: 10 ; absolute frequency: 8.48248367121893. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx116-111-108-108-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 13.48 and an absolute frequency of 6. The I.a.C. subcorpus follows, with a normalized frequency of 7.03 and an absolute frequency of 151. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 151 ; absolute frequency: 7.02815918082383. subcorpus: I.d.C. ; normalized frequency: 22 ; absolute frequency: 3.36545816123604. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+:::
+

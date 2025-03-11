@@ -1,0 +1,200 @@
+---
+title: "felix"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx102-101-108-105-120xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>fēlīx</b> <b>-ícis</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Que produz frutos, fecundo, fértil &ensp; <small>Ov. P. 2, 10, 51.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Fecundante &ensp; <small>Verg. G. 2, 188.</small> <br> <b>3</b> &ensp; <small>II-Sent. especial:</small> &ensp; Favorecido dos deuses, feliz &ensp; <small>Plín. H. Nat. 34, 69.</small> <br> <b>4</b> &ensp; <small>II-Sent. especial:</small> &ensp; Favorável. propício &ensp; <small>Verg. G. I, 284.</small> <br> <b>5</b> &ensp; <small>II-Sent. especial:</small> &ensp; Salutar &ensp; <small>Verg. G. 2, 127.</small> <br> <b>6</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Hábil, que tem talento &ensp; <small>Verg. En. 9, 772.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Felix</b> -<b>icis</b> -<b>cior</b> -<b>cissimus</b> <br> <small>omn. gen.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; feliz, ditoso. <br> <b>2</b> &ensp; <small>Virg.</small> &ensp; fecundo, fertil. <br> <b>3</b> &ensp; propicio, que faz feliz. </p> 
+ <b>Foelix</b> <br> <small>v. Felix.</small>
+
+
+
+
+#### Velez
+
+<b>Felix</b> -<b>icis</b>   <p> <b>1</b> &ensp; cousa ditosa, ou prospera &ensp; <small>dat.</small> <br> <b>2</b> &ensp; <small>aliquandó pro Fertili, ut Infelix pro</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Felix</b> <b>icis</b>   <p> <b>1</b> &ensp; cousa ditosa </p> 
+ <b>Foelix</b> <b>icis</b>   <p> <b>1</b> &ensp; cousa ditosa </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/103068 ' target="_blank"> http://lila-erc.eu/data/id/lemma/103068 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 2ª classe (sem vogal temática) <br>
+<small> outras grafias: </small> felixs, foelix <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+fēlix 
+ fēlīcis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx102-101-108-105-120xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx102-101-108-105-120xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword felix here are all the values plotted: collocate: o; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx102-101-108-105-120xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword felix here are all the values plotted: collocate: o; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx102-101-108-105-120xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword felix here are all the values plotted: collocate: o; scoreVERBO: 0. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx102-101-108-105-120xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword felix here are all the values plotted: collocate: o; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx102-101-108-105-120xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword felix here are all the values plotted: collocate: o; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> o <b>felicem</b> utrumque <br> <small> Cic.Phil.3.26.6 <br> Oh, felizes ambos! <small> [JDD] </small> </small> </p>
+; <p> <b>felicior</b> esset si in sinu amicae foueret manum <br> <small> Sen.Prov.3.5 <br> Seria mais feliz, se aquecesse a mão no seio da amante? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx102-101-108-105-120xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 4.44 and an absolute frequency of 5. The Sallustius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 6 ; absolute frequency: 0.373775883979966. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 22 ; absolute frequency: 4.10593307329091. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx102-101-108-105-120xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 5.21 and an absolute frequency of 6. The Poesia.lírica subcorpus follows, with a normalized frequency of 4.21 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.filosófica ; normalized frequency: 17 ; absolute frequency: 2.80061283998616. subcorpus: Prosa.oratória ; normalized frequency: 5 ; absolute frequency: 0.480062984263535. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 5 ; absolute frequency: 4.20627576343905. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 6 ; absolute frequency: 5.21195274496178. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx102-101-108-105-120xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 3.37 and an absolute frequency of 22. The I.a.C. subcorpus follows, with a normalized frequency of 0.56 and an absolute frequency of 12. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 12 ; absolute frequency: 0.558529206423086. subcorpus: I.d.C. ; normalized frequency: 22 ; absolute frequency: 3.36545816123604. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,202 @@
+---
+title: "hinc"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx104-105-110-99xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>hinc</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>Sent. próprio</small> &ensp; Daqui. deste lugar &ensp; <small>Cíc. Agr. 2, 94.</small> <br> <b>2</b> &ensp; <small>Donde:</small> &ensp; A partir daqui. deste ponto &ensp; <small>T. Lív. 2. I. 1.</small> <br> <b>3</b> &ensp; <small>Donde:</small> &ensp; De onde. desta fonte &ensp; <small>Cíc. Of. 3. 36</small> <br> <b>4</b> &ensp; <small>Donde:</small> &ensp; Dele &ensp; <small>= ex hoc homine Ter. Ad. 361;</small> <br> <b>5</b> &ensp; <small>Donde:</small> &ensp; daí &ensp; <small>= ex hac re Cíc. De 01'. I. 65.</small> <br> <b>6</b> &ensp; <small>Donde:</small> &ensp; Daí. a partir deste momento &ensp; <small>= abhinc Plín. H. Nat: 23. 43.</small> <br> <b>7</b> &ensp; <small>Donde:</small> &ensp; hinc... illinc ou hinc ... hinc, de um lado ... de outro &ensp; <small>Cíc. Cat. 2. 25.</small> </p> 
+ <b>hūc</b> <br> <small>adv. indicando movimento para um lugar:</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-No sent. próprio:</small> &ensp; Para aqui, para este lugar &ensp; <small>Cés. B. Gal. 3, 19, 1.</small> <br> <b>2</b> &ensp; <small>I-No sent. próprio:</small> &ensp; A este lugar, a este ponto, a tal ponto &ensp; <small>Cíc. Cal. 2, 4.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Hinc</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; daqui, deste lugar. </p> 
+ <b>Huc</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; para aqui. <br> <b>2</b> &ensp; <small>Virg.</small> &ensp; aqui. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>huc pertinet &ensp; <small><small>Cic</small></small> &ensp; <small>A isto pertence</small> <br> huc redeunt haec uerba &ensp; <small><small>Ter</small></small> &ensp; <small>A este proposito he que se diz isto</small> </p>
+
+
+
+
+#### Velez
+
+<b>Hinc</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; daqui </p> 
+ <b>Huc</b>   <p> <b>1</b> &ensp; para aqui </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>huc malorum &ensp; <small>a estes males</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Hinc</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; d´aqui </p> 
+ <b>Huc</b> <br> <small>aduerb. loci.</small>   <p> <b>1</b> &ensp; pera qua </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/105454 ' target="_blank"> http://lila-erc.eu/data/id/lemma/105454 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> hin, hince, huc, huci <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+hūc
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx104-105-110-99xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx104-105-110-99xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword hinc here are all the values plotted: collocate: accedo; scoreSUBST: 0. collocate: uenio; scoreSUBST: 0. collocate: atque; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx104-105-110-99xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword hinc here are all the values plotted: collocate: accedo; scoreADJ: 0. collocate: uenio; scoreADJ: 0. collocate: atque; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx104-105-110-99xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword hinc here are all the values plotted: collocate: accedo; scoreVERBO: 2. collocate: uenio; scoreVERBO: 2. collocate: atque; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx104-105-110-99xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword hinc here are all the values plotted: collocate: accedo; scoreADV: 0. collocate: uenio; scoreADV: 0. collocate: atque; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx104-105-110-99xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword hinc here are all the values plotted: collocate: accedo; scoreFUNC: 0. collocate: uenio; scoreFUNC: 0. collocate: atque; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> perge modo atque <b>hinc</b> te reginae ad limina perfer <br> <small> Verg.A.1.389 <br> Avança somente e vai-te daqui até os umbrais da rainha. <small> [JDD] </small> </small> </p>
+; <p> numquam <b>huc</b> venissent nisi ad alias res pestiferas aditus sibi compararent <br> <small> Cic.Att.2.17.1 <br> Nunca teriam chegado aqui se não tivessem preparado a passagem para outras coisas funestas. <small> [JDD] </small> </small> </p>
+; <p> accedat <b>huc</b> suauitas quaedam oportet sermonum atque morum haudquaquam mediocre condimentum amicitiae <br> <small> Cic.Amici.66 <br> Convém que se acrescente aqui uma certa delicadeza de conversa e de costumes, condimento da amizade de modo algum medíocre. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx104-105-110-99xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 27.03 and an absolute frequency of 14. The Horatius subcorpus follows, with a normalized frequency of 14.21 and an absolute frequency of 16. the subcorpus with the least normalized frequency is Tacitus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 11 ; absolute frequency: 4.15439232570436. subcorpus: Cicero ; normalized frequency: 42 ; absolute frequency: 2.61643118785976. subcorpus: Horatius ; normalized frequency: 16 ; absolute frequency: 14.2083296332475. subcorpus: Ovidius ; normalized frequency: 5 ; absolute frequency: 8.57927247769389. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 33 ; absolute frequency: 6.15889960993636. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 14 ; absolute frequency: 27.027027027027. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx104-105-110-99xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 27.03 and an absolute frequency of 14. The Poesia.trágica subcorpus follows, with a normalized frequency of 21.72 and an absolute frequency of 25. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 13 ; absolute frequency: 3.16463399790647. subcorpus: Prosa.filosófica ; normalized frequency: 12 ; absolute frequency: 1.9769031811667. subcorpus: Prosa.oratória ; normalized frequency: 32 ; absolute frequency: 3.07240309928663. subcorpus: Prosa.epistolográfica ; normalized frequency: 6 ; absolute frequency: 1.58986724608495. subcorpus: Poesia.lírica ; normalized frequency: 18 ; absolute frequency: 15.1425927483806. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 25 ; absolute frequency: 21.7164697706741. subcorpus: Poesia.épica ; normalized frequency: 14 ; absolute frequency: 27.027027027027. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx104-105-110-99xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 5.66 and an absolute frequency of 37. The I.a.C. subcorpus follows, with a normalized frequency of 4 and an absolute frequency of 86. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 86 ; absolute frequency: 4.00279264603212. subcorpus: I.d.C. ; normalized frequency: 37 ; absolute frequency: 5.66008872571516. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

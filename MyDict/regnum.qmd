@@ -1,0 +1,207 @@
+---
+title: "regnum"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx114-101-103-110-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>rēgnum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Realeza, autoridade real, monarquia, trono: &ensp; <small></small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Poder absoluto, tirania, despotismo &ensp; <small>Cíc. Verr. pr. 35.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado</small> &ensp; Reino, império, domínio &ensp; <small>Cíc: e. M. 41.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado</small> &ensp; Reino, estados de um rei &ensp; <small>Cés. B. Gal. 5, 26. 2.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado</small> &ensp; Domínio, império &ensp; <small>Verg. Buc. 1,70.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>regnum obtinere Cés. B. Gal. 5, 54, 2 “ocupar o trono”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Regnum</b> -<b>i</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; reino. <br> <b>2</b> &ensp; dignidade Real. <br> <b>3</b> &ensp; lugar em que alguem tem grandissima authoridade como de Rei. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>regna uini sortiri &ensp; <small><small>Hor</small></small> &ensp; <small>Ser rei do banquete, ou dar leis no festim, dizendo quando se ha de beber, & c</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Regnum</b> <b>i</b>   <p> <b>1</b> &ensp; ho reyno </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/121683 ' target="_blank"> http://lila-erc.eu/data/id/lemma/121683 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> regnom <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+regnī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx114-101-103-110-117-109xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx114-101-103-110-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword regnum here are all the values plotted: collocate: Syria; scoreSUBST: 0. collocate: appeto; scoreSUBST: 0. collocate: patrius; scoreSUBST: 0. collocate: expello; scoreSUBST: 0. collocate: obtineo; scoreSUBST: 0. collocate: occupo; scoreSUBST: 0. collocate: deus; scoreSUBST: 2. collocate: suus; scoreSUBST: 0. collocate: nec; scoreSUBST: 0. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx114-101-103-110-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword regnum here are all the values plotted: collocate: Syria; scoreADJ: 0. collocate: appeto; scoreADJ: 0. collocate: patrius; scoreADJ: 2. collocate: expello; scoreADJ: 0. collocate: obtineo; scoreADJ: 0. collocate: occupo; scoreADJ: 0. collocate: deus; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: nec; scoreADJ: 0. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx114-101-103-110-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword regnum here are all the values plotted: collocate: Syria; scoreVERBO: 0. collocate: appeto; scoreVERBO: 2. collocate: patrius; scoreVERBO: 0. collocate: expello; scoreVERBO: 2. collocate: obtineo; scoreVERBO: 2. collocate: occupo; scoreVERBO: 2. collocate: deus; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: nec; scoreVERBO: 0. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx114-101-103-110-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword regnum here are all the values plotted: collocate: Syria; scoreADV: 0. collocate: appeto; scoreADV: 0. collocate: patrius; scoreADV: 0. collocate: expello; scoreADV: 0. collocate: obtineo; scoreADV: 0. collocate: occupo; scoreADV: 0. collocate: deus; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: nec; scoreADV: 0. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx114-101-103-110-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword regnum here are all the values plotted: collocate: Syria; scoreFUNC: 0. collocate: appeto; scoreFUNC: 0. collocate: patrius; scoreFUNC: 0. collocate: expello; scoreFUNC: 0. collocate: obtineo; scoreFUNC: 0. collocate: occupo; scoreFUNC: 0. collocate: deus; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: nec; scoreFUNC: 0. collocate: in; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> impletum est tempus et adpropinquavit <b>regnum</b> Dei <br> <small> Vulg.Marc.1.15 <br> o tempo está cumprido e se aproxima o reino de Deus. <small> [JDD] </small> </small> </p>
+; <p> necessariis rebus et exilia sufficiunt superuacuis nec <b>regna</b> <br> <small> Sen.Helv.11.4 <br> Para as coisas necessárias até os exílios bastam, para as supérfluas nem mesmo reinos. <small> [JDD] </small> </small> </p>
+; <p> Puteolis magnus est rumor Ptolomaeum esse in <b>regno</b> <br> <small> Cic.Att.4.10.1 <br> Em Putéolos há um grande rumor que Ptolomeu está em seu reino. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> num Uecellinum amici <b>regnum</b> appetentem num Maelium debuerunt iuuare <br> <small> Cic.Amici.36 <br> Acaso a Vecelino, acaso a Mélio, que aspiravam ao reino, os amigos deveriam ajudar? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>regnum</b> optinente Laio famulus greges agitasti opimos sub Cithaeronis plaga <br> <small> Sen.Oed.843 <br> Quando Laio ocupava o trono, tu, como criado, tangeste seus ricos rebanhos na região do Citerão? <small> [JDD] </small> </small> </p>
+; <p> et si <b>regnum</b> in se dividatur non potest stare <b>regnum</b> illud <br> <small> Vulg.Marc.3.24 <br> E se um reino se divide contra si mesmo, não pode esse reino manter-se de pé. <small> [JDD] </small> </small> </p>
+; <p> Corinthius te populus in <b>regnum</b> uocat patrium quietem Polybus aeternam obtinet <br> <small> Sen.Oed.784 <br> O povo de Corinto te chama para o trono de teu pai: Pólibo obteve o descanso eterno. <small> [JDD] </small> </small> </p>
+; <p> Ti. Gracchus <b>regnum</b> occupare conatus est uel regnauit is quidem paucos menses <br> <small> Cic.Amici.41 <br> Tibério Graco tentou ocupar o reino, ou, na verdade, reinou uns poucos meses. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Aquilium non arbitrabamur qui denegavit et iuravit morbum et illud suum <b>regnum</b> iudiciale opposuit <br> <small> Cic.Att.1.1.1 <br> Aquílio, eu acho que não, pois ele tanto rechaçou a idéia, como jurou estar doente e pôs como obstáculo aquele seu reinado nos tribunais. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Expulsus <b>regno</b> nemoris qui profugerit , Paludis in secreta veniet latibula Et proculcatas obteret duro pede . <br> <small> Phaed.1.30 <br> aquele que, expulso, fugir do reino dos bosques, virá para os esconderijos secretos do brejo e pisará em nós e nos esmagará com sua dura pata. <small> [JDD] </small> </small> </p>
+; <p> quo posteaquam attulerunt inuolucrisque reiectis constituerunt clamare iste coepit dignam rem esse <b>regno</b> Syriae dignam regio munere dignam Capitolio <br> <small> Cic.Ver.2.4.65.9 <br> Depois que o levaram para lá e, retirado o invólucro, o puseram de pé, esse sujeito começou a exclamar que era uma coisa digna do reino da Síria, digna de presente de rei, digna do Capitólio. <small> [JDD] </small> </small> </p>
+; <p> ii posteaquam temporibus rei publicae exclusi per senatum agere quae uoluerant non potuerunt in Syriam in <b>regnum</b> patrium profecti sunt <br> <small> Cic.Ver.2.4.61.6 <br> Esses, depois que, impedidos pela situação da república, não puderam tratar por intermédio do senado o que queriam, partiram para a Síria, para o reino paterno. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx114-101-103-110-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 25.1 and an absolute frequency of 13. The Vergilius subcorpus follows, with a normalized frequency of 25.1 and an absolute frequency of 13. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 10 ; absolute frequency: 3.77672029609487. subcorpus: Cicero ; normalized frequency: 49 ; absolute frequency: 3.05250305250305. subcorpus: Horatius ; normalized frequency: 6 ; absolute frequency: 5.32812361246781. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 39 ; absolute frequency: 7.2786995390157. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 13 ; absolute frequency: 25.0965250965251. subcorpus: Hieronymus ; normalized frequency: 8 ; absolute frequency: 17.9734891035722'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx114-101-103-110-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 28.67 and an absolute frequency of 33. The Poesia.trágica subcorpus follows, with a normalized frequency of 28.67 and an absolute frequency of 33. the subcorpus with the least normalized frequency is Prosa.filosófica with the normalized value of 1.65 and an absolute freqeuncy of 10. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 12 ; absolute frequency: 2.92120061345213. subcorpus: Prosa.filosófica ; normalized frequency: 10 ; absolute frequency: 1.64741931763892. subcorpus: Prosa.oratória ; normalized frequency: 38 ; absolute frequency: 3.64847868040287. subcorpus: Prosa.epistolográfica ; normalized frequency: 7 ; absolute frequency: 1.85484512043244. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 33 ; absolute frequency: 28.6657400972898. subcorpus: Poesia.épica ; normalized frequency: 13 ; absolute frequency: 25.0965250965251. subcorpus: Prosa.ficcional ; normalized frequency: 8 ; absolute frequency: 17.9734891035722'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx114-101-103-110-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 17.97 and an absolute frequency of 8. The I.d.C. subcorpus follows, with a normalized frequency of 6.42 and an absolute frequency of 42. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 80 ; absolute frequency: 3.72352804282057. subcorpus: I.d.C. ; normalized frequency: 42 ; absolute frequency: 6.42496558054153. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 8 ; absolute frequency: 17.9734891035722'}
+
+
+:::
+

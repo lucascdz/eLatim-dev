@@ -1,0 +1,208 @@
+---
+title: "propono"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-114-111-112-111-110-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>prōpōnō</b> <b>-is</b> <b>-ère</b> <b>-posùí, -posìtum</b> <br> <small>v. tr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Colocar diante, expor à vista &ensp; <small>Cés. B. Gal. 2, 20, 1.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Pôr na mesa, servir à mesa, expor para vender, pôr à venda &ensp; <small>Cíc. Verr. 2, 78.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Propor, apresentar, oferecer &ensp; <small>Cíc. De Or. 2, 93: Cíc. Tusc. 5, 20.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Expor, narrar, declarar, anunciar, fazer ver &ensp; <small>Cés. B. Gal. 6, 11, 1: Cés. B. Gal. 5, 12, 5.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Estabelecer antecipadamente, fixar, determinar, prescrever &ensp; <small>Cíc. Inv. 1, 70.</small> </p> 
+ <b>prōposŭī</b> <br> <small>perf. de propóno.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Propono</b> -<b>is</b> -<b>osui</b> -<b>itum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; expôr á vista, pôr diante dos olhos. <br> <b>2</b> &ensp; propôr, expôr, dizer, declarar, dar a saber. <br> <b>3</b> &ensp; <small>Plin.</small> &ensp; offerecer, apresentar, pôr diante na meza. <br> <b>4</b> &ensp; <small>Cic.</small> &ensp; deliberar, fazer proposito. <br> <b>5</b> &ensp; promulgar, publicar. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Propono</b> <b>is</b> <b>proposui</b>   <p> <b>1</b> &ensp; por diante </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/119973 ' target="_blank"> http://lila-erc.eu/data/id/lemma/119973 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> propono </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> proponere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> proponet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> proposui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> propositum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> propositurum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+prōpōnō 
+ prōpōnis 
+ prōpōnĕre 
+ prōpŏsŭī 
+ prōpŏsĭtum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-114-111-112-111-110-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-114-111-112-111-110-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword propono here are all the values plotted: collocate: ego; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-114-111-112-111-110-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword propono here are all the values plotted: collocate: ego; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-114-111-112-111-110-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword propono here are all the values plotted: collocate: ego; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-114-111-112-111-110-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword propono here are all the values plotted: collocate: ego; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-114-111-112-111-110-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword propono here are all the values plotted: collocate: ego; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> minae Clodi contentionesque quae mihi <b>proponuntur</b> modice me tangunt <br> <small> Cic.Att.2.19.1 <br> As ameaças de Clódio e as lutas que me são propostas pouco me afetam. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nam ne absens censeare curabo edicendum et <b>proponendum</b> locis omnibus <br> <small> Cic.Att.1.18.8 <br> E, para que não sejas censeado como ausente, cuidarei de dar a notícia e divulgá-la por todos os lugares. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-114-111-112-111-110-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 7.59 and an absolute frequency of 5. The Cicero subcorpus follows, with a normalized frequency of 2.87 and an absolute frequency of 46. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 7 ; absolute frequency: 2.64370420726641. subcorpus: Cicero ; normalized frequency: 46 ; absolute frequency: 2.86561511051307. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 5 ; absolute frequency: 7.59070897221801. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 12 ; absolute frequency: 2.23959985815868. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-114-111-112-111-110-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.didática subcorpus registers the highest normalized frequency, with the value of 4.24 and an absolute frequency of 5. The Prosa.oratória subcorpus follows, with a normalized frequency of 3.17 and an absolute frequency of 33. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 9 ; absolute frequency: 2.1909004600891. subcorpus: Prosa.filosófica ; normalized frequency: 14 ; absolute frequency: 2.30638704469449. subcorpus: Prosa.oratória ; normalized frequency: 33 ; absolute frequency: 3.16841569613933. subcorpus: Prosa.epistolográfica ; normalized frequency: 10 ; absolute frequency: 2.64977874347492. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-114-111-112-111-110-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 2.61 and an absolute frequency of 56. The I.a.C. subcorpus follows, with a normalized frequency of 2.61 and an absolute frequency of 56. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 56 ; absolute frequency: 2.6064696299744. subcorpus: I.d.C. ; normalized frequency: 17 ; absolute frequency: 2.60058130640967. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

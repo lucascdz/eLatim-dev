@@ -1,0 +1,226 @@
+---
+title: "nullus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-117-108-108-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>nūllae</b> <br> <small>gen. e dat. f. de núllus.</small> <br> <small></small> 
+ <b>nūllī</b> <br> <small>gen., v. núllus.</small> <br> <small></small> 
+ <b>nūllus</b> <b>-a</b> <b>-um</b> <br> <small>pron. indef.</small> <br> <small>Obs.: Gen. nulli Ter. And. 608: Cíc. Com. 48: dat., nullae Prop. 1. 20. 35.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Nenhum, nenhuma, ninguém, coisa nenhuma &ensp; <small>Cíc. Mur. 28.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Nulo, de nenhum valor, sem importância &ensp; <small>Cíc. Tusc. 2. 13.</small> <br> <b>3</b> &ensp; <small>II-Daí</small> &ensp; Que já não existe, morto, aniquilado &ensp; <small>Cíc. Tusc. 1, 87:</small> <br> <b>4</b> &ensp; <small>III-Empregos especiais:-= nemo Cíc. Lae. 30 “ninguém”.</small> &ensp; <small></small> <br> <b>5</b> &ensp; <small>III-Empregos especiais:-= non Plaut. Caso 795.</small> &ensp; <small></small> <br> <b>6</b> &ensp; <small>III-Empregos especiais:-= nihil Sên. Ep. 4, 3.</small> &ensp; <small></small> <br> <b>7</b> &ensp; <small>III-Empregos especiais:-Nullo = nuna re Tác. An. 3. 15.</small> &ensp; <small></small> <br> <b>8</b> &ensp; <small>III-Empregos especiais:-Nullius = nullius rei Hor. A. Poét. 324.</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>3</b><br>nullus sum T. Lív. 6, 18. 8 «estou aniquilado». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Nullus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; nenhum. <br> <b>2</b> &ensp; vão, de nenhuma consequencia. <br> <b>3</b> &ensp; <small>Hor.</small> &ensp; abjecto, desconhecido. <br> <b>4</b> &ensp; <small>Ter.</small> &ensp; em lugar de Non. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>nonnullus &ensp; <small><small>Cic</small></small> &ensp; <small>Algum</small> <br> nullum habere aliquem &ensp; <small><small>Cic</small></small> &ensp; <small>Não fazer caso de alguem</small> <br> nullus non &ensp; <small><small>Cic</small></small> &ensp; <small>Todos</small> <br> nullus sum &ensp; <small><small>Ter</small></small> &ensp; <small>Estou perdido</small> </p>
+
+
+
+
+#### Velez
+
+<b>Nullus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; nenhum <br> <b>2</b> &ensp; <small>pro Non</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Nullus</b> 
+ <b>Nullus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; nenhum </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/114081 ' target="_blank"> http://lila-erc.eu/data/id/lemma/114081 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> 1ª classe, pronominal (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-117-108-108-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword nullus here are all the values plotted: collocate: modus; scoreSUBST: 4. collocate: umquam; scoreSUBST: 0. collocate: habeo; scoreSUBST: 0. collocate: pactum; scoreSUBST: 3. collocate: enim; scoreSUBST: 0. collocate: res; scoreSUBST: 2. collocate: sum; scoreSUBST: 0. collocate: inuenio; scoreSUBST: 0. collocate: uis; scoreSUBST: 2. collocate: egeo; scoreSUBST: 0. collocate: sui; scoreSUBST: 0. collocate: mora; scoreSUBST: 2. collocate: lex; scoreSUBST: 2. collocate: mentio; scoreSUBST: 2. collocate: discrimen; scoreSUBST: 2. collocate: animal; scoreSUBST: 2. collocate: officium; scoreSUBST: 2. collocate: certe; scoreSUBST: 0. collocate: pax; scoreSUBST: 2. collocate: honor; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-117-108-108-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword nullus here are all the values plotted: collocate: modus; scoreADJ: 0. collocate: umquam; scoreADJ: 0. collocate: habeo; scoreADJ: 0. collocate: pactum; scoreADJ: 0. collocate: enim; scoreADJ: 0. collocate: res; scoreADJ: 0. collocate: sum; scoreADJ: 0. collocate: inuenio; scoreADJ: 0. collocate: uis; scoreADJ: 0. collocate: egeo; scoreADJ: 0. collocate: sui; scoreADJ: 0. collocate: mora; scoreADJ: 0. collocate: lex; scoreADJ: 0. collocate: mentio; scoreADJ: 0. collocate: discrimen; scoreADJ: 0. collocate: animal; scoreADJ: 0. collocate: officium; scoreADJ: 0. collocate: certe; scoreADJ: 0. collocate: pax; scoreADJ: 0. collocate: honor; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-117-108-108-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword nullus here are all the values plotted: collocate: modus; scoreVERBO: 0. collocate: umquam; scoreVERBO: 0. collocate: habeo; scoreVERBO: 2. collocate: pactum; scoreVERBO: 0. collocate: enim; scoreVERBO: 0. collocate: res; scoreVERBO: 0. collocate: sum; scoreVERBO: 2. collocate: inuenio; scoreVERBO: 2. collocate: uis; scoreVERBO: 0. collocate: egeo; scoreVERBO: 2. collocate: sui; scoreVERBO: 0. collocate: mora; scoreVERBO: 0. collocate: lex; scoreVERBO: 0. collocate: mentio; scoreVERBO: 0. collocate: discrimen; scoreVERBO: 0. collocate: animal; scoreVERBO: 0. collocate: officium; scoreVERBO: 0. collocate: certe; scoreVERBO: 0. collocate: pax; scoreVERBO: 0. collocate: honor; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-117-108-108-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword nullus here are all the values plotted: collocate: modus; scoreADV: 0. collocate: umquam; scoreADV: 3. collocate: habeo; scoreADV: 0. collocate: pactum; scoreADV: 0. collocate: enim; scoreADV: 2. collocate: res; scoreADV: 0. collocate: sum; scoreADV: 0. collocate: inuenio; scoreADV: 0. collocate: uis; scoreADV: 0. collocate: egeo; scoreADV: 0. collocate: sui; scoreADV: 0. collocate: mora; scoreADV: 0. collocate: lex; scoreADV: 0. collocate: mentio; scoreADV: 0. collocate: discrimen; scoreADV: 0. collocate: animal; scoreADV: 0. collocate: officium; scoreADV: 0. collocate: certe; scoreADV: 2. collocate: pax; scoreADV: 0. collocate: honor; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-117-108-108-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword nullus here are all the values plotted: collocate: modus; scoreFUNC: 0. collocate: umquam; scoreFUNC: 0. collocate: habeo; scoreFUNC: 0. collocate: pactum; scoreFUNC: 0. collocate: enim; scoreFUNC: 0. collocate: res; scoreFUNC: 0. collocate: sum; scoreFUNC: 0. collocate: inuenio; scoreFUNC: 0. collocate: uis; scoreFUNC: 0. collocate: egeo; scoreFUNC: 0. collocate: sui; scoreFUNC: 0. collocate: mora; scoreFUNC: 0. collocate: lex; scoreFUNC: 0. collocate: mentio; scoreFUNC: 0. collocate: discrimen; scoreFUNC: 0. collocate: animal; scoreFUNC: 0. collocate: officium; scoreFUNC: 0. collocate: certe; scoreFUNC: 0. collocate: pax; scoreFUNC: 0. collocate: honor; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> certe <b>nulla</b> <br> <small> Cic.Mil.16 <br> Com certeza, nenhum. <small> [JDD] </small> </small> </p>
+; <p> <b>nulla</b> ne habes uitia <br> <small> Hor.S.1.3.20 <br> Não tens nenhum defeito?” <small> [JDD] </small> </small> </p>
+; <p> <b>Nulla</b> mora est : <br> <small> Ov.Met.1.369 <br> Não há nenhuma demora. <small> [JDD] </small> </small> </p>
+; <p> tenuit mora <b>nulla</b> vocatos . <br> <small> Ov.Met.1.167 <br> obteve sem nenhuma demora os convocados. <small> [JDD] </small> </small> </p>
+; <p> <b>nulla</b> hoc ciuitas umquam alia commisit <br> <small> Cic.Ver.2.4.25.18 <br> Nenhuma outra cidade jamais cometeu isto. <small> [JDD] </small> </small> </p>
+; <p> rem publicam <b>nulla</b> ex parte attingimus <br> <small> Cic.Att.2.22.3 <br> Não tomamos nenhum partido em relação à república. <small> [JDD] </small> </small> </p>
+; <p> <b>nullum</b> animal ad uitam prodit sine metu mortis <br> <small> Sen.Ep.121.18 <br> Nenhum animal vem para a vida sem medo da morte. <small> [JDD] </small> </small> </p>
+; <p> Iamque mare et tellus <b>nullum</b> discrimen habebant : <br> <small> Ov.Met.1.291 <br> E o mar e a terra já não tinham nenhuma distinção. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> in <b>nullo</b> deprendes uilitatem sui ne neglegentiam quidem <br> <small> Sen.Ep.121.24 <br> Mas em nenhum surpreenderás o menosprezo de si próprio, nem mesmo negligência;[*] <small>  </small> </small> </p>
+; <p> hoc vero regnum est et ferri <b>nullo</b> pacto potest <br> <small> Cic.Att.2.12.1 <br> Isso na verdade é tirania e não pode ser tolerado de modo algum. <small> [JDD] </small> </small> </p>
+; <p> <b>nulla</b> est igitur excusatio peccati si amici causa peccaueris <br> <small> Cic.Amici.37 <br> Não há, portanto, nenhuma escusa do erro, se errares por causa de um amigo. <small> [JDD] </small> </small> </p>
+; <p> Pisonem consulem <b>nulla</b> in re consistere umquam sum passus <br> <small> Cic.Att.1.16.8 <br> não mais permiti que o cônsul Pisão se firmasse em coisa alguma. <small> [JDD] </small> </small> </p>
+; <p> aut hoc ipsum succedit in locum uoluptatium <b>nullis</b> egere <br> <small> Sen.Ep.12.5 <br> ou isso mesmo substitui o lugar dos prazeres, não ter necessidade de nenhum. <small> [JDD] </small> </small> </p>
+; <p> si enim illim emerserit <b>nullius</b> supplici crudelitas erit recusanda <br> <small> Cic.Phil.4.12.4 <br> Pois se sair dali, a crueldade de nenhum suplício deverá ser descartada. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> utrumque enim uitium est et omnibus credere et <b>nulli</b> <br> <small> Sen.Ep.3.4 <br> pois ambas são vícios, tanto confiar em todos como em ninguém. <small> [JDD] </small> </small> </p>
+; <p> magis autem necessarium patres conscripti <b>nullum</b> tempus umquam fuit <br> <small> Cic.Phil.7.7.5 <br> E nunca, pais conscritos, houve um tempo mais crítico. <small> [JDD] </small> </small> </p>
+; <p> in discordia autem pax ciuilis esse <b>nullo</b> pacto potest <br> <small> Cic.Phil.7.23.10 <br> E na discórdia, por sua vez, não pode de modo algum haver paz entre os cidadãos. <small> [JDD] </small> </small> </p>
+; <p> Regem appellas inquam cum Rex tui mentionem <b>nullam</b> fecerit <br> <small> Cic.Att.1.16.10 <br> “Me chamas rei”, eu digo, “quando Rei [cunhado de Clódio] não fez nenhuma menção a ti” [no testamento]. <small> [JDD] </small> </small> </p>
+; <p> nam concordiam ciuium qui habere potest <b>nullam</b> cum habeat ciuitatem <br> <small> Cic.Phil.4.14.8 <br> ora, como ele pode ter a concórdia dos cidadãos, se não tem nenhuma cidade? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> facto senatus consulto de ambitu de iudiciis <b>nulla</b> lex perlata <br> <small> Cic.Att.1.18.3 <br> Promulgado um decreto do senado sobre o suborno, outro sobre os juízes, nenhuma lei os sancionou. <small> [JDD] </small> </small> </p>
+; <p> pater enim fuit equestri loco auus <b>nulla</b> inlustri laude celebratus <br> <small> Cic.Mur.16 <br> Pois teu pai foi da ordem equestre, teu avô não se tornou célebre por nenhuma ilustre distinção. <small> [JDD] </small> </small> </p>
+; <p> ita fato placuit <b>nullius</b> rei eodem semper loco stare fortunam <br> <small> Sen.Helv.7.10 <br> Assim agradou ao destino que a sorte de coisa alguma ficasse sempre no mesmo lugar. <small> [JDD] </small> </small> </p>
+; <p> num quis denique fecisset mentionem si hic <b>nullius</b> nomen detulisset <br> <small> Cic.Cael.56 <br> Enfim, acaso alguém teria feito menção a ele, se ele não tivesse delatado o nome de ninguém? <small> [JDD] </small> </small> </p>
+; <p> <b>nullum</b> autem est nisi quod animus ex se sibi inuenit <br> <small> Sen.Ep.27.3 <br> não existe, porém, nenhum a não ser o que o espírito descobre para si a partir de si mesmo. <small> [JDD] </small> </small> </p>
+; <p> tamen in lege <b>nulla</b> esse eius modi caput te non fallit <br> <small> Cic.Att.3.23.4 <br> No entanto, não te escapa que não existe em nenhuma lei uma cláusula desse tipo. <small> [JDD] </small> </small> </p>
+; <p> quis est enim qui <b>nullis</b> officii praeceptis tradendis philosophum se audeat dicere <br> <small> Cic.Off.1.5 <br> Pois quem é que, não transmitindo nenhuns preceitos do dever, ousa se dizer filósofo? <small> [JDD] </small> </small> </p>
+; <p> <b>nulla</b> est enim tanta uis quae non ferro et uiribus debilitari frangique possit <br> <small> Cic.Marc.8 <br> Pois nenhuma força é tão grande que não possa ser enfraquecida e quebrada pelo ferro e pelas forças. <small> [JDD] </small> </small> </p>
+; <p> ob haec beneficia quibus illi obstupescunt <b>nullos</b> honores mihi nisi verborum decerni sino <br> <small> Cic.Att.5.21.7 <br> Por esses benefícios, com os quais eles ficam assombrados, não permito que me sejam concedidas nenhumas honras, a não ser de palavras. <small> [JDD] </small> </small> </p>
+; <p> at multi ita sunt imbecilli senes ut <b>nullum</b> offici aut omnino uitae munus exsequi possint <br> <small> Cic.Sen.35 <br> Mas muitos velhos são tão fracos que não podem realizar nenhuma função do dever ou geralmente da vida. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quia <b>nulla</b> uis umquam est in libera ciuitate suscepta inter ciuis non contra rem publicam <br> <small> Cic.Mil.13 <br> Porque, numa cidade livre, toda violência entre os cidadãos sempre foi empreendida contra a república. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-117-108-108-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 25.23 and an absolute frequency of 405. The Sallustius subcorpus follows, with a normalized frequency of 6.49 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 29 ; absolute frequency: 10.9524888586751. subcorpus: Cicero ; normalized frequency: 405 ; absolute frequency: 25.2298721686477. subcorpus: Horatius ; normalized frequency: 16 ; absolute frequency: 14.2083296332475. subcorpus: Ovidius ; normalized frequency: 7 ; absolute frequency: 12.0109814687714. subcorpus: Phaedrus ; normalized frequency: 5 ; absolute frequency: 7.59070897221801. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 123 ; absolute frequency: 22.9558985461264. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-117-108-108-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 27.46 and an absolute frequency of 286. The Prosa.filosófica subcorpus follows, with a normalized frequency of 26.03 and an absolute frequency of 158. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 38 ; absolute frequency: 9.25046860926508. subcorpus: Prosa.filosófica ; normalized frequency: 158 ; absolute frequency: 26.0292252186949. subcorpus: Prosa.oratória ; normalized frequency: 286 ; absolute frequency: 27.4596026998742. subcorpus: Prosa.epistolográfica ; normalized frequency: 72 ; absolute frequency: 19.0784069530194. subcorpus: Poesia.lírica ; normalized frequency: 18 ; absolute frequency: 15.1425927483806. subcorpus: Poesia.didática ; normalized frequency: 10 ; absolute frequency: 8.48248367121893. subcorpus: Poesia.trágica ; normalized frequency: 12 ; absolute frequency: 10.4239054899236. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-117-108-108-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 21.5 and an absolute frequency of 462. The I.a.C. subcorpus follows, with a normalized frequency of 21.5 and an absolute frequency of 462. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 462 ; absolute frequency: 21.5033744472888. subcorpus: I.d.C. ; normalized frequency: 133 ; absolute frequency: 20.3457243383815. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

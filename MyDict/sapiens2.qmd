@@ -1,0 +1,200 @@
+---
+title: "sapiens2"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-97-112-105-101-110-115-50xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>sapĭēns</b> <b>-éntis</b> <br> <small>part. pres. adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. figurado</small> &ensp; Sensato, prudente &ensp; <small>Cíc. At. 8. 12. 2.</small> <br> <b>2</b> &ensp; <small>I-Sent. figurado</small> &ensp; Inteligente, que conhece, que tem experiência &ensp; <small>A. Gél. 13. 8. 2.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Sapiens</b> -<b>entis</b> -<b>tior</b> -<b>tissimus</b> <br> <small>omn. gen.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; sabio, prudente, intelligente. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Sapiens</b> <b>tis</b>   <p> <b>1</b> &ensp; cousa sabia. ou prudente </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/hypolemma/39393 ' target="_blank"> http://lila-erc.eu/data/id/hypolemma/39393 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 2ª classe (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+săpĭens 
+ săpĭentis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx115-97-112-105-101-110-115-50xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-97-112-105-101-110-115-50xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword sapiens2 here are all the values plotted: collocate: uir; scoreSUBST: 2. collocate: homo; scoreSUBST: 2. collocate: atque; scoreSUBST: 0. collocate: et; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-97-112-105-101-110-115-50xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword sapiens2 here are all the values plotted: collocate: uir; scoreADJ: 0. collocate: homo; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: et; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-97-112-105-101-110-115-50xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword sapiens2 here are all the values plotted: collocate: uir; scoreVERBO: 0. collocate: homo; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: et; scoreVERBO: 0. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-97-112-105-101-110-115-50xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword sapiens2 here are all the values plotted: collocate: uir; scoreADV: 0. collocate: homo; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: et; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-97-112-105-101-110-115-50xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword sapiens2 here are all the values plotted: collocate: uir; scoreFUNC: 0. collocate: homo; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: et; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> posteriores enim cogitationes ut aiunt <b>sapientiores</b> solent esse <br> <small> Cic.Phil.12.5.4 <br> Pois os últimos pensamentos costumam ser, como dizem, os mais sábios. <small> [JDD] </small> </small> </p>
+; <p> uir fortis ac <b>sapiens</b> non fugere debet e uita sed exire <br> <small> Sen.Ep.24.25 <br> O homem forte e sábio não deve fugir da vida, mas sair dela. <small> [JDD] </small> </small> </p>
+; <p> itaque illam tuam praeclarissimam et <b>sapientissimam</b> uocem inuitus audiui satis diu uel naturae uixi uel gloriae <br> <small> Cic.Marc.25 <br> Por isso ouvi contra a vontade aquela tua preclaríssima e sapientíssima palavra: “Por tempo suficiente vivi ou para a natureza ou para a glória.” <small> [JDD] </small> </small> </p>
+; <p> qua re omitte quaeso istam doctorum hominum in contemnenda morte prudentiam noli nostro periculo esse <b>sapiens</b> <br> <small> Cic.Marc.25 <br> Por isso deixa de lado, peço-te, essa prudência de homens prudentes em desprezar a morte: não sejas sábio à custa de nosso perigo. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-97-112-105-101-110-115-50xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 3.11 and an absolute frequency of 50. The Cicero subcorpus follows, with a normalized frequency of 3.11 and an absolute frequency of 50. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 50 ; absolute frequency: 3.11479903316638. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 6 ; absolute frequency: 1.11979992907934. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-97-112-105-101-110-115-50xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 4.28 and an absolute frequency of 26. The Prosa.filosófica subcorpus follows, with a normalized frequency of 4.28 and an absolute frequency of 26. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 1 ; absolute frequency: 0.243433384454344. subcorpus: Prosa.filosófica ; normalized frequency: 26 ; absolute frequency: 4.28329022586119. subcorpus: Prosa.oratória ; normalized frequency: 29 ; absolute frequency: 2.78436530872851. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-97-112-105-101-110-115-50xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 2.51 and an absolute frequency of 54. The I.a.C. subcorpus follows, with a normalized frequency of 2.51 and an absolute frequency of 54. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 54 ; absolute frequency: 2.51338142890389. subcorpus: I.d.C. ; normalized frequency: 6 ; absolute frequency: 0.917852225791647. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

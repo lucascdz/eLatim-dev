@@ -1,0 +1,212 @@
+---
+title: "fugio"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx102-117-103-105-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>fūgī</b> <br> <small>perf. de fugìo.</small> <br> <small></small> 
+ <b>fugīō</b> <b>-is</b> <b>-ère</b> <b>fúgí, fugìtum fugitúrus</b> <br> <small>v. intr. e tr.</small> <br> <small>Obs.: Constrói-se como intr. ou tr. com acus. ou com inf.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Fugir, escapar-se, pôr-se em fuga &ensp; <small>Cíc. Verr. 4, 72; Cíc. Nat. 3, 33.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Ser exilado, ser banido, estar desterrado &ensp; <small>Cíc. Tusc. 5, 109.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado</small> &ensp; Correr, ir depressa, passar, desaparecer &ensp; <small>Hor. O. I, 12, 30; Verg. G. 3, 284.</small> <br> <b>4</b> &ensp; <small>III-Tr.:</small> &ensp; Fugir de, evitar &ensp; <small>Cés. B. Civ. I, 1~, :!; Cíc. Rep. 5, 6.</small> <br> <b>5</b> &ensp; <small>III-Tr.:</small> &ensp; Deixar, afastar-se de, abandonar, recusar &ensp; <small>Verg. Buc. I, 4.</small> <br> <b>6</b> &ensp; <small>III-Tr.:</small> &ensp; Escapar a &ensp; <small>Cíc. Pomp. 28.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Fugio</b> -<b>is</b> -<b>ugi</b> -<b>ugitum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; fugir, retirar-se. <br> <b>2</b> &ensp; evitar, acautelar. <br> <b>3</b> &ensp; escapar, esquecer. </p>
+
+
+
+
+#### Velez
+
+<b>Fugio</b> -<b>is</b>   <p> <b>1</b> &ensp; fugir &ensp; <small>Act.</small> <br> <b>2</b> &ensp; <small>ponitur in tertiis personis pro Latêre</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>hoc me fugit &ensp; <small>naõ sei isto</small> <br> <br><b>X</b><br>fuge suspicari &ensp; <small>naõ suspeiteis</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Fugio</b> <b>is</b> <b>gi</b> <b>itum</b>   <p> <b>1</b> &ensp; fugir </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/103923 ' target="_blank"> http://lila-erc.eu/data/id/lemma/103923 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 5ª conjugação (tema em -ĭ- breve) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small> fugo <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> fugio </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> fugere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> fugiet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> fugiui, fugii, fugi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> fugitum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> fugiturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+fūgī 
+ fŭgĭo 
+ fŭgĭō 
+ fŭgis 
+ fŭgĕre 
+ fŭgĭtum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx102-117-103-105-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx102-117-103-105-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword fugio here are all the values plotted: collocate: uideo; scoreSUBST: 0. collocate: cum; scoreSUBST: 0. collocate: non; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx102-117-103-105-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword fugio here are all the values plotted: collocate: uideo; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: non; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx102-117-103-105-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword fugio here are all the values plotted: collocate: uideo; scoreVERBO: 2. collocate: cum; scoreVERBO: 0. collocate: non; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx102-117-103-105-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword fugio here are all the values plotted: collocate: uideo; scoreADV: 0. collocate: cum; scoreADV: 0. collocate: non; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx102-117-103-105-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword fugio here are all the values plotted: collocate: uideo; scoreFUNC: 0. collocate: cum; scoreFUNC: 20. collocate: non; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> non lubet <b>fugere</b> <br> <small> Cic.Att.2.18.3 <br> Não tenho vontade de fugir. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> campus Martius restabat nisi prius cum fratre <b>fugisset</b> <br> <small> Cic.Phil.6.14.4 <br> Restava o Campo de Marte, só não porque tinha fugido antes com seu irmão. <small> [JDD] </small> </small> </p>
+; <p> tenebras habere non potes sequetur quocumque <b>fugeris</b> multum pristinae lucis <br> <small> Sen.Ep.19.4 <br> Não podes ter trevas; para onde quer que fujas, muito de tua antiga luz te seguirá. <small> [JDD] </small> </small> </p>
+; <p> in eam spem adducimur ut nobis ea contentio quae impendet interdum non <b>fugienda</b> videatur <br> <small> Cic.Att.2.22.3 <br> Somos levados a uma tal esperança que às vezes temos a impressão de que não devemos fugir dessa luta que nos ameaça. <small> [JDD] </small> </small> </p>
+; <p> quod si immortalitas consequeretur praesentis periculi fugam tamen eo magis ea <b>fugienda</b> uideretur quo diuturnior seruitus esset <br> <small> Cic.Phil.10.20.12 <br> E se a imortalidade se alcançasse com a fuga do perigo atual, mesmo assim pareceria que ela devia ser evitada tanto mais porque a escravidão seria por muito tempo. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx102-117-103-105-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 21.31 and an absolute frequency of 24. The Horatius subcorpus follows, with a normalized frequency of 21.31 and an absolute frequency of 24. the subcorpus with the least normalized frequency is Sallustius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 7 ; absolute frequency: 2.64370420726641. subcorpus: Cicero ; normalized frequency: 47 ; absolute frequency: 2.9279110911764. subcorpus: Horatius ; normalized frequency: 24 ; absolute frequency: 21.3124944498712. subcorpus: Ovidius ; normalized frequency: 11 ; absolute frequency: 18.8743994509266. subcorpus: Phaedrus ; normalized frequency: 7 ; absolute frequency: 10.6269925611052. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 48 ; absolute frequency: 8.9583994326347. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx102-117-103-105-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 20.19 and an absolute frequency of 24. The Poesia.didática subcorpus follows, with a normalized frequency of 15.27 and an absolute frequency of 18. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 1.7 and an absolute freqeuncy of 7. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 7 ; absolute frequency: 1.70403369118041. subcorpus: Prosa.filosófica ; normalized frequency: 35 ; absolute frequency: 5.76596761173622. subcorpus: Prosa.oratória ; normalized frequency: 34 ; absolute frequency: 3.26442829299204. subcorpus: Prosa.epistolográfica ; normalized frequency: 8 ; absolute frequency: 2.11982299477994. subcorpus: Poesia.lírica ; normalized frequency: 24 ; absolute frequency: 20.1901236645074. subcorpus: Poesia.didática ; normalized frequency: 18 ; absolute frequency: 15.2684706081941. subcorpus: Poesia.trágica ; normalized frequency: 18 ; absolute frequency: 15.6358582348853. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx102-117-103-105-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 10.1 and an absolute frequency of 66. The I.a.C. subcorpus follows, with a normalized frequency of 3.82 and an absolute frequency of 82. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 82 ; absolute frequency: 3.81661624389109. subcorpus: I.d.C. ; normalized frequency: 66 ; absolute frequency: 10.0963744837081. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

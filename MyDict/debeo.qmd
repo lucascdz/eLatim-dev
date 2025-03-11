@@ -1,0 +1,221 @@
+---
+title: "debeo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-101-98-101-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>dēbĕō</b> <b>-és</b> <b>-ére</b> <b>débùí, débìtum</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói-se com acus. e dat.; com dat. ou infinitivo.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Dever dinheiro ou qualquer outro objeto, ser devedor &ensp; <small>Cíc. Fam. 13, 14, 1.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Ter obrigação de acepção em que aparece como verdadeiro auxiliar de verbos no infinitivo, estar obrigado a: &ensp; <small></small> <br> <b>3</b> &ensp; <small>I-Daí-Neste sentido de «ter obrigação de» pode ser impessoal como oportet, necésse est Luer. 2, 1.146.</small> &ensp; <small></small> <br> <b>4</b> &ensp; <small>I-Daí</small> &ensp; Ser forçado pelo destino ou natureza a fazer alguma coisa &ensp; <small>Ov. Met. 15, 44.</small> <br> <b>5</b> &ensp; <small>I-Daí</small> &ensp; Dever obrigações a, estar obrigado por &ensp; <small>Cíc. Fam. 2, 6, 5.</small> <br> <b>6</b> &ensp; <small>I-Passivo</small> &ensp; ser devido, ser reservado, destinado &ensp; <small>Cés. B. Civ. 3, 31, 2</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>quid facere debeas Cat. Agr. 119 «o que tinhas obrigação de fazef» Cíc. Lae. 36. </p> 
+ <b>dēbŭī</b> <br> <small>perf. de débèo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+<b>Dēbĕo</b> -<b>ēs</b> -<b>ŭī</b> -<b>ĭtŭm</b> -<b>ērĕ</b> <br> <small>v. trans. de de e habeo.</small>   <p> <b>1</b> &ensp; dever, ser devedor; <br> <b>2</b> &ensp; <small>Fig.</small> &ensp; dever, estar obrigado a; <br> <b>2</b> &ensp; <small>pass.</small> &ensp; ser devido; <br> <b>3</b> &ensp; dever, ser constrangido a; <br> <b>3</b> &ensp; <small>pass.</small> &ensp; ser destinado, estar reservado para; <br> <b>4</b> &ensp; dever obrigações. <br> <b>4</b> &ensp; ser devedor de, estar obrigado por; </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>debere alicui &ensp; <small><small>Quint</small></small> &ensp; <small>Dever dinheiro a alguém</small> <br> debere pecuniam alicui &ensp; <small><small>Cic</small></small> &ensp; <small>Dever dinheiro a alguém</small> <br> debere reipublicae &ensp; <small><small>Cic</small></small> &ensp; <small>Ser devedor ao estado</small> <br> quum frumentum deberetur &ensp; <small><small>Cic</small></small> &ensp; <small>Como fosse devido trigo</small> <br> <br><b>2</b><br>debentia dici &ensp; <small><small>Hor</small></small> &ensp; <small>O que é mister dizer</small> <br> debere fidem &ensp; <small><small>Quint</small></small> &ensp; <small>Dever fidelidade</small> <br> debere gratiam alicui &ensp; <small><small>Cic</small></small> &ensp; <small>Dever reconhecimento a alguém</small> <br> debere nil iam caelestibus &ensp; <small><small>Virg</small></small> &ensp; <small>Não dever mais nada aos deuses, i. é, estar morto</small> <br> debere poenas &ensp; <small><small>Virg</small></small> &ensp; <small>Merecer punição</small> <br> debere sibi spem &ensp; <small><small>Ov</small></small> &ensp; <small>Não esperar</small> <br> debere uotum &ensp; <small><small>Plin</small></small> &ensp; <small>Estar obrigado por um voto</small> <br> debes hoc rescribere &ensp; <small><small>Hor</small></small> &ensp; <small>Deves responder-me a isto</small> <br> generum mihi debes &ensp; <small><small>Ov</small></small> &ensp; <small>Deves-me dar um genro</small> <br> maxima debetur reuerentia &ensp; <small><small>Juv</small></small> &ensp; <small>É devida a maior reverência</small> <br> num debuerunt ferre arma? &ensp; <small><small>Cic</small></small> &ensp; <small>Deviam eles pegar em armas?</small> <br> oratio deberi non potest iuuentuti &ensp; <small><small>Cic</small></small> &ensp; <small>É mister publicar este discurso para a mocidade</small> <br> <br><b>3</b><br>cui regnum Italiae debetur &ensp; <small><small>Virg</small></small> &ensp; <small>A quem o reino da Itália é devido pelos destinos</small> <br> debemur morti &ensp; <small><small>Hor</small></small> &ensp; <small>Estamos sujeitos á morte</small> <br> debere fatis scelus putauit &ensp; <small><small>Luc</small></small> &ensp; <small>Julgou que o seu crime era resolvido pelos destinos</small> <br> debere multas mortes &ensp; <small><small>Luc</small></small> &ensp; <small>Deves causar muitas mortes</small> <br> debere urbem &ensp; <small><small>Ov</small></small> &ensp; <small>Ser obrigado pelo destino a fundar uma cidade</small> <br> debes ludibrium uentis &ensp; <small><small>Hor</small></small> &ensp; <small>Deves ser o ludibrio dos ventos</small> <br> herculeis deberi telis &ensp; <small><small>V. Fl</small></small> &ensp; <small>Dever ser morto pelas flechas de Hercules</small> <br> <br><b>4</b><br>debere beneficium alicui &ensp; <small><small>Cic</small></small> &ensp; <small>Ser devedor d'um beneficio a alguem</small> <br> debere se alicui &ensp; <small><small>Ov</small></small> &ensp; <small>Dever a vida a alguem</small> <br> debere uitam alicui &ensp; <small><small>Ov</small></small> &ensp; <small>Dever a vida a alguem</small> <br> me debere bonis omnibus fateor &ensp; <small><small>Cic</small></small> &ensp; <small>Confesso que devo obrigações a todas as pessoas de bem</small> </p>
+
+
+
+
+#### Fonseca
+
+<b>Debeo</b> -<b>es</b> -<b>ui</b> -<b>itum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; dever, ser devedor, estar obrigado. </p> 
+ <small>pret. de Debeo</small> <b>Debui</b>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/97963 ' target="_blank"> http://lila-erc.eu/data/id/lemma/97963 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> debeo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> debere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> debebit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> debui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> debitum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> debiturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+dēbĕō 
+ dēbēs 
+ dēbēre 
+ dēbŭī 
+ dēbĭtum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-101-98-101-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-101-98-101-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword debeo here are all the values plotted: collocate: praesto; scoreSUBST: 0. collocate: honor; scoreSUBST: 2. collocate: existimo; scoreSUBST: 0. collocate: non; scoreSUBST: 0. collocate: fero; scoreSUBST: 0. collocate: natura; scoreSUBST: 2. collocate: facio; scoreSUBST: 0. collocate: pater; scoreSUBST: 2. collocate: qua; scoreSUBST: 0. collocate: sum; scoreSUBST: 0. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-101-98-101-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword debeo here are all the values plotted: collocate: praesto; scoreADJ: 0. collocate: honor; scoreADJ: 0. collocate: existimo; scoreADJ: 0. collocate: non; scoreADJ: 0. collocate: fero; scoreADJ: 0. collocate: natura; scoreADJ: 0. collocate: facio; scoreADJ: 0. collocate: pater; scoreADJ: 0. collocate: qua; scoreADJ: 0. collocate: sum; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-101-98-101-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword debeo here are all the values plotted: collocate: praesto; scoreVERBO: 2. collocate: honor; scoreVERBO: 0. collocate: existimo; scoreVERBO: 2. collocate: non; scoreVERBO: 0. collocate: fero; scoreVERBO: 2. collocate: natura; scoreVERBO: 0. collocate: facio; scoreVERBO: 2. collocate: pater; scoreVERBO: 0. collocate: qua; scoreVERBO: 0. collocate: sum; scoreVERBO: 2. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-101-98-101-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword debeo here are all the values plotted: collocate: praesto; scoreADV: 0. collocate: honor; scoreADV: 0. collocate: existimo; scoreADV: 0. collocate: non; scoreADV: 2. collocate: fero; scoreADV: 0. collocate: natura; scoreADV: 0. collocate: facio; scoreADV: 0. collocate: pater; scoreADV: 0. collocate: qua; scoreADV: 2. collocate: sum; scoreADV: 0. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-101-98-101-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword debeo here are all the values plotted: collocate: praesto; scoreFUNC: 0. collocate: honor; scoreFUNC: 0. collocate: existimo; scoreFUNC: 0. collocate: non; scoreFUNC: 0. collocate: fero; scoreFUNC: 0. collocate: natura; scoreFUNC: 0. collocate: facio; scoreFUNC: 0. collocate: pater; scoreFUNC: 0. collocate: qua; scoreFUNC: 0. collocate: sum; scoreFUNC: 0. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> animum <b>debes</b> mutare non caelum <br> <small> Sen.Ep.28.1 <br> Deves mudar o espírito, não o clima. <small> [JDD] </small> </small> </p>
+; <p> itaque oratio iuventuti nostrae <b>deberi</b> non potest <br> <small> Cic.Att.4.2.2 <br> E assim o discurso não pode deixar a dever à nossa juventude. <small> [JDD] </small> </small> </p>
+; <p> de Lentulo scilicet sic fero ut <b>debeo</b> <br> <small> Cic.Att.4.6.1 <br> Quanto a Lêtulo, indubitavelmente sofro como devo. <small> [JDD] </small> </small> </p>
+; <p> omnia uitia contra naturam pugnant omnia <b>debitum</b> ordinem deserunt <br> <small> Sen.Ep.122.5 <br> Todos os vícios lutam contra a natureza, todos abandonam a ordem devida. <small> [JDD] </small> </small> </p>
+; <p> utebamur enim illis non quia <b>debebamus</b> sed quia habebamus <br> <small> Sen.Ep.123.6 <br> pois as usávamos não porque devíamos, mas porque as tínhamos. <small> [JDD] </small> </small> </p>
+; <p> Ovis damnata falso testimonio Quod non <b>debebat</b> solvit . <br> <small> Phaed.1.17 <br> A ovelha, condenada pelo falso testemunho, pagou o que não devia. <small> [JDD] </small> </small> </p>
+; <p> cur eos quos omnes paene uenerari <b>debemus</b> solus oppugnas <br> <small> Cic.Phil.10.4.3 <br> Por que tu somente te opões àqueles aos quais todos nós devemos quase venerar? <small> [JDD] </small> </small> </p>
+; <p> primum ista tam seni ante oculos <b>debet</b> esse quam iuueni <br> <small> Sen.Ep.12.6 <br> Primeiramente, ela deve estar tanto diante dos olhos do velho como do jovem <small> [JDD] </small> </small> </p>
+; <p> quod cuique temporis ad uiuundum datur eo <b>debet</b> esse contentus <br> <small> Cic.Sen.69 <br> Cada um deve estar contente com o tempo que lhe foi dado para viver. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quod si de Antonio non laboratis mihi certe patres conscripti consulere <b>debetis</b> <br> <small> Cic.Phil.12.19.3 <br> E se não estais preocupados a respeito de Antônio, certamente, pais conscritos, deveis zelar por mim. <small> [JDD] </small> </small> </p>
+; <p> nam adhuc haec ἐσοφίζετο se leges Caesaris probare actiones ipsum praestare <b>debere</b> <br> <small> Cic.Att.2.16.2 <br> Pois até agora estes eram seus sofismas: aprovava as leis de César, mas o próprio César devia ser o responsável pelas ações. <small> [JDD] </small> </small> </p>
+; <p> nam multi saepe honores dis immortalibus iusti habiti sunt ac <b>debiti</b> sed profecto iustiores numquam <br> <small> Cic.Catil.3.23.3 <br> Com efeito, muitas vezes têm sido dedicadas aos deuses imortais muitas honras justas e devidas, mas sem dúvida nunca foram mais justas. <small> [JDD] </small> </small> </p>
+; <p> tunc demum intelleges quid faciendum tibi quid uitandum sit cum didiceris quid naturae tuae <b>debeas</b> <br> <small> Sen.Ep.121.3 <br> Então entenderás enfim o que deves fazer, o que deves evitar, quando tiveres aprendido o que deves à tua natureza. <small> [JDD] </small> </small> </p>
+; <p> sed existimare <b>debes</b> omnium oculos in te esse coniectos unum te sapientem et appellant et existimant <br> <small> Cic.Amici.6 <br> Mas deves considerar que os olhos de todos estão voltados para ti somente; não só te chamam, mas te consideram sábio. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-101-98-101-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 18.22 and an absolute frequency of 12. The Cicero subcorpus follows, with a normalized frequency of 12.77 and an absolute frequency of 205. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 9 ; absolute frequency: 3.39904826648538. subcorpus: Cicero ; normalized frequency: 205 ; absolute frequency: 12.7706760359822. subcorpus: Horatius ; normalized frequency: 8 ; absolute frequency: 7.10416481662375. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 12 ; absolute frequency: 18.2177015333232. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 59 ; absolute frequency: 11.0113659692802. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-101-98-101-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 14.31 and an absolute frequency of 149. The Prosa.filosófica subcorpus follows, with a normalized frequency of 13.01 and an absolute frequency of 79. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 10 ; absolute frequency: 2.43433384454344. subcorpus: Prosa.filosófica ; normalized frequency: 79 ; absolute frequency: 13.0146126093475. subcorpus: Prosa.oratória ; normalized frequency: 149 ; absolute frequency: 14.3058769310534. subcorpus: Prosa.epistolográfica ; normalized frequency: 31 ; absolute frequency: 8.21431410477225. subcorpus: Poesia.lírica ; normalized frequency: 8 ; absolute frequency: 6.73004122150248. subcorpus: Poesia.didática ; normalized frequency: 14 ; absolute frequency: 11.8754771397065. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-101-98-101-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 11.17 and an absolute frequency of 73. The I.a.C. subcorpus follows, with a normalized frequency of 10.38 and an absolute frequency of 223. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 223 ; absolute frequency: 10.3793344193623. subcorpus: I.d.C. ; normalized frequency: 73 ; absolute frequency: 11.167202080465. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

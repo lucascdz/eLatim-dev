@@ -1,0 +1,213 @@
+---
+title: "genus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx103-101-110-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>2.</small> <b>genus</b> <b>-èris</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Nascimento, raça, origem, tronco &ensp; <small>T. Lív. 6, 34, II.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Conjunto de seres que têm origem comum e semelhanças naturais, gênero, raça, espécie &ensp; <small>Cíc. Lae. 20.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Nação, raça &ensp; <small>Cíc. Phil. 4. 13.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Família, casa &ensp; <small>Cíc. Verr. 5, 180.</small> <br> <b>5</b> &ensp; <small>III-Sent. poético:</small> &ensp; Filho. descendente &ensp; <small>Verg. En. 4, 12.</small> <br> <b>6</b> &ensp; <small>IV-Sents. diversos:</small> &ensp; Gênero, sorte, espécie &ensp; <small>Cíc. Dom. 75.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Genus</b> -<b>eris</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; geração, raça, familia, parentesco. <br> <b>2</b> &ensp; genero, que abrange muitas especies. <br> <b>3</b> &ensp; multidão de muitas cousas da mesma qualidade. <br> <b>4</b> &ensp; descendencia, filhos. <br> <b>5</b> &ensp; <small>Sall.</small> &ensp; gente, nação. <br> <b>6</b> &ensp; <small>Quinct.</small> &ensp; genero, termo Grammatico. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>eius generis homines &ensp; <small><small>Cic</small></small> &ensp; <small>A gente desta qualidade, deste caracter</small> <br> genus hoc hominum &ensp; <small><small>Cic</small></small> &ensp; <small>A gente desta qualidade, deste caracter</small> <br> id genus hominis &ensp; <small><small>Cic</small></small> &ensp; <small>A gente desta qualidade, deste caracter</small> </p>
+
+
+
+
+#### Velez
+
+<b>Genus</b> -<b>eris</b>   <p> <b>1</b> &ensp; geraçaõ, genero, naçaõ </p>
+
+
+
+
+#### Cardoso
+
+<b>Genus</b> -<b>eris</b>   <p> <b>1</b> &ensp; ho genero. ou geração </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/104504 ' target="_blank"> http://lila-erc.eu/data/id/lemma/104504 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+gĕnŭs 
+ gĕnĕris
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx103-101-110-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx103-101-110-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword genus here are all the values plotted: collocate: humanus; scoreSUBST: 0. collocate: homo; scoreSUBST: 3. collocate: mortalis; scoreSUBST: 2. collocate: oratio; scoreSUBST: 2. collocate: bellum; scoreSUBST: 2. collocate: nascor; scoreSUBST: 0. collocate: hic; scoreSUBST: 0. collocate: alter; scoreSUBST: 0. collocate: honor; scoreSUBST: 2. collocate: copia; scoreSUBST: 2. collocate: idem; scoreSUBST: 0. collocate: quisque; scoreSUBST: 0. collocate: uita; scoreSUBST: 2. collocate: unus; scoreSUBST: 0. collocate: mors; scoreSUBST: 2. collocate: omnis; scoreSUBST: 0. collocate: dico; scoreSUBST: 0. collocate: quis; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx103-101-110-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword genus here are all the values plotted: collocate: humanus; scoreADJ: 4. collocate: homo; scoreADJ: 0. collocate: mortalis; scoreADJ: 0. collocate: oratio; scoreADJ: 0. collocate: bellum; scoreADJ: 0. collocate: nascor; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: alter; scoreADJ: 0. collocate: honor; scoreADJ: 0. collocate: copia; scoreADJ: 0. collocate: idem; scoreADJ: 0. collocate: quisque; scoreADJ: 0. collocate: uita; scoreADJ: 0. collocate: unus; scoreADJ: 0. collocate: mors; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: dico; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx103-101-110-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword genus here are all the values plotted: collocate: humanus; scoreVERBO: 0. collocate: homo; scoreVERBO: 0. collocate: mortalis; scoreVERBO: 0. collocate: oratio; scoreVERBO: 0. collocate: bellum; scoreVERBO: 0. collocate: nascor; scoreVERBO: 2. collocate: hic; scoreVERBO: 0. collocate: alter; scoreVERBO: 0. collocate: honor; scoreVERBO: 0. collocate: copia; scoreVERBO: 0. collocate: idem; scoreVERBO: 0. collocate: quisque; scoreVERBO: 0. collocate: uita; scoreVERBO: 0. collocate: unus; scoreVERBO: 0. collocate: mors; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0. collocate: dico; scoreVERBO: 1. collocate: quis; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx103-101-110-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword genus here are all the values plotted: collocate: humanus; scoreADV: 0. collocate: homo; scoreADV: 0. collocate: mortalis; scoreADV: 0. collocate: oratio; scoreADV: 0. collocate: bellum; scoreADV: 0. collocate: nascor; scoreADV: 0. collocate: hic; scoreADV: 0. collocate: alter; scoreADV: 0. collocate: honor; scoreADV: 0. collocate: copia; scoreADV: 0. collocate: idem; scoreADV: 0. collocate: quisque; scoreADV: 0. collocate: uita; scoreADV: 0. collocate: unus; scoreADV: 0. collocate: mors; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: dico; scoreADV: 0. collocate: quis; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx103-101-110-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword genus here are all the values plotted: collocate: humanus; scoreFUNC: 0. collocate: homo; scoreFUNC: 0. collocate: mortalis; scoreFUNC: 0. collocate: oratio; scoreFUNC: 0. collocate: bellum; scoreFUNC: 0. collocate: nascor; scoreFUNC: 0. collocate: hic; scoreFUNC: 0. collocate: alter; scoreFUNC: 0. collocate: honor; scoreFUNC: 0. collocate: copia; scoreFUNC: 0. collocate: idem; scoreFUNC: 0. collocate: quisque; scoreFUNC: 0. collocate: uita; scoreFUNC: 0. collocate: unus; scoreFUNC: 0. collocate: mors; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0. collocate: dico; scoreFUNC: 0. collocate: quis; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> alterum <b>genus</b> est equitum <br> <small> Caes.Gal.6.15.1 <br> A outra classe é a dos cavaleiros. <small> [JDD] </small> </small> </p>
+; <p> <b>genus</b> hoc est voluptatis meae <br> <small> Cic.Att.1.9.2 <br> Este é meu gênero de prazer. <small> [JDD] </small> </small> </p>
+; <p> sola ius aecum <b>generis</b> humani <br> <small> Sen.Ep.123.16 <br> O único direito igual do gênero humano. <small> [JDD] </small> </small> </p>
+; <p> Italiam quaero patriam et <b>genus</b> ab Ioue summo <br> <small> Verg.A.1.380 <br> Busco a Itália, minha pátria, e minha raça provém do supremo Júpiter. <small> [JDD] </small> </small> </p>
+; <p> nullo <b>genere</b> homines mollius moriuntur sed nec diutius <br> <small> Sen.Ep.30.4 <br> De nenhum outro modo os homens morrem mais docemente, mas nem com mais lentidão. <small> [JDD] </small> </small> </p>
+; <p> quintum <b>genus</b> est parricidarum sicariorum denique omnium facinerosorum <br> <small> Cic.Catil.2.22.1 <br> O quinto tipo é o dos parricidas, dos assassinos, enfim, de todos os facínoras. <small> [JDD] </small> </small> </p>
+; <p> quoniam de <b>genere</b> belli dixi nunc de magnitudine pauca dicam <br> <small> Cic.Man.20 <br> Visto que disse sobre o gênero dessa guerra, agora vou dizer umas poucas palavras sobre sua magnitude. <small> [JDD] </small> </small> </p>
+; <p> sumptus unius <b>generis</b> obiectus est habitationis triginta milibus dixistis habitare <br> <small> Cic.Cael.17 <br> Gasto de um único tipo lhe foi imputado, o da moradia; dissestes que ele mora por trinta mil. <small> [JDD] </small> </small> </p>
+; <p> sed cum eius <b>generis</b> copia deficit etiam ad innocentium supplicia descendunt <br> <small> Caes.Gal.6.16.5 <br> mas quando falta abundâcia desse tipo, descem até mesmo para os suplícios dos inocentes. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quo de <b>genere</b> mortis difficile dictu est quid homines suspicentur uidetis <br> <small> Cic.Amici.12 <br> e desse tipo de morte é difícil falar; vedes o que os homens suspeitam. <small> [JDD] </small> </small> </p>
+; <p> quo in <b>genere</b> maxime delectarunt duae fere eodem tempore abs te Buthroto datae <br> <small> Cic.Att.4.16.1 <br> Nesse tipo, me deleitaram principalmente duas entregues por ti quase ao mesmo tempo em Butroto. <small> [JDD] </small> </small> </p>
+; <p> si <b>genus</b> humanum et mortalia temnitis arma at sperate deos memores fandi atque nefandi <br> <small> Verg.A.1.542 <br> Se desprezais a raça humana e as armas mortais, esperai ao menos que os deuses têm lembrança do bem e do mal. <small> [JDD] </small> </small> </p>
+; <p> Mutandum tibi propositum est ut vitae <b>genus</b> , Intrare si Musarum limen cogitas . <br> <small> Phaed.3.pr <br> Deves mudar o propósito e o tipo de vida, se cogitas transpor o umbral das Musas. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> hominem petulantem modestum reddo non solum perpetua gravitate orationis sed etiam hoc <b>genere</b> dictorum <br> <small> Cic.Att.2.1.5 <br> Transformo o homem petulante em modesto não só com a perene gravidade de meu discurso, mas também com este tipo de palavras. <small> [JDD] </small> </small> </p>
+; <p> in omni Gallia eorum hominum qui aliquo sunt numero atque honore <b>genera</b> sunt duo <br> <small> Caes.Gal.6.13.1 <br> Em toda Gália há duas classes desses homens que são de alguma importância e honra. <small> [JDD] </small> </small> </p>
+; <p> Lucius Catilina nobili <b>genere</b> natus fuit magna ui et animi et corporis sed ingenio malo prauo que <br> <small> Sal.Cat.5.1 <br> Lúcio Catilina, nascido de nobre linhagem, foi de grande vigor tanto de espírito como de corpo, mas de caráter mau e depravado. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> neque ego nunc istius facta omnia enumerare conor neque opus est nec fieri ullo modo potest tantum unius cuiusque de uaria improbitate <b>generis</b> indicia apud uos et exempla profero <br> <small> Cic.Ver.2.4.49.9 <br> Eu nem tento enumerar agora todos os feitos desse sujeito, nem é necessário, nem pode de modo algum ser feito; somente apresento diante de vós as provas e os exemplos de cada um dos tipos de sua variada improbidade. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx103-101-110-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 22.05 and an absolute frequency of 2. The Tacitus subcorpus follows, with a normalized frequency of 3.43 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: Caesar ; normalized frequency: 19 ; absolute frequency: 7.17576856258025. subcorpus: Cicero ; normalized frequency: 141 ; absolute frequency: 8.78373327352919. subcorpus: Horatius ; normalized frequency: 11 ; absolute frequency: 9.76822662285765. subcorpus: Ovidius ; normalized frequency: 10 ; absolute frequency: 17.1585449553878. subcorpus: Phaedrus ; normalized frequency: 10 ; absolute frequency: 15.181417944436. subcorpus: Sallustius ; normalized frequency: 11 ; absolute frequency: 10.2031351451628. subcorpus: Seneca ; normalized frequency: 42 ; absolute frequency: 7.83859950355536. subcorpus: Suetonius ; normalized frequency: 2 ; absolute frequency: 22.0507166482911. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 10 ; absolute frequency: 19.3050193050193. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx103-101-110-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 19.31 and an absolute frequency of 10. The Poesia.didática subcorpus follows, with a normalized frequency of 16.96 and an absolute frequency of 20. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 33 ; absolute frequency: 8.03330168699335. subcorpus: Prosa.filosófica ; normalized frequency: 53 ; absolute frequency: 8.73132238348627. subcorpus: Prosa.oratória ; normalized frequency: 93 ; absolute frequency: 8.92917150730176. subcorpus: Prosa.epistolográfica ; normalized frequency: 24 ; absolute frequency: 6.35946898433981. subcorpus: Poesia.lírica ; normalized frequency: 11 ; absolute frequency: 9.25380667956591. subcorpus: Poesia.didática ; normalized frequency: 20 ; absolute frequency: 16.9649673424379. subcorpus: Poesia.trágica ; normalized frequency: 13 ; absolute frequency: 11.2925642807505. subcorpus: Poesia.épica ; normalized frequency: 10 ; absolute frequency: 19.3050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx103-101-110-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 9.48 and an absolute frequency of 62. The I.a.C. subcorpus follows, with a normalized frequency of 8.94 and an absolute frequency of 192. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 192 ; absolute frequency: 8.93646730276937. subcorpus: I.d.C. ; normalized frequency: 62 ; absolute frequency: 9.48447299984702. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

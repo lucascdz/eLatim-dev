@@ -1,0 +1,213 @@
+---
+title: "aetas"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-101-116-97-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>aetās</b> <b>-tátis</b> <br> <small>subs. f.</small> <br> <small>Obs.: o gen. pl. mais usado no período clássico é: aetatum.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Idade: &ensp; <small></small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Tempo que a vida dura, vida &ensp; <small>Cíc. Br. 39.</small> <br> <b>3</b> &ensp; <small>I-Daí</small> &ensp; Período da vida, época, tempo &ensp; <small>Verg. Buc. 9, 51.</small> <br> <b>4</b> &ensp; <small>I-Daí</small> &ensp; Geração, século &ensp; <small>Cíc. Or. 186.</small> <br> <b>5</b> &ensp; <small>I-Daí</small> &ensp; Juventude, velhice &ensp; <small>particularmente falando:</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>aetates vestrae nihil differunt Cíc. Br. 150 «vossas idades em nada diferem». <br> <br><b>5</b><br>aetas ejus dare potuit suspicioni locum Cíc. Cael. 9 «Sua juventude pôde dar lugar à suspeita» aetatis excusatio Cés. B. Civ. 1, 85, 9 «a desculpa da idade avançada». </p> 
+ <b>aevĭtās</b> <b>-tátis</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Idade, duração da vida &ensp; <small>Cíc. Leg. 3. 7.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Longa duração, velhice. eternidade. imortalidade &ensp; <small>Apul. Plat. 1. 120.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Aevitas</b> -<b>atis</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; idade avançada, velhice, ancianidade. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Aetas</b> -<b>atis</b>   <p> <b>1</b> &ensp; a idade </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/87955 ' target="_blank"> http://lila-erc.eu/data/id/lemma/87955 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> aeuitas, etas <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+aetās 
+ aetātis 
+ aevĭtās 
+ aevĭtātis
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-101-116-97-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword aetas here are all the values plotted: collocate: ineo; scoreSUBST: 0. collocate: ludus; scoreSUBST: 2. collocate: uel; scoreSUBST: 0. collocate: ago; scoreSUBST: 0. collocate: iam; scoreSUBST: 0. collocate: tempus; scoreSUBST: 2. collocate: primus; scoreSUBST: 0. collocate: per; scoreSUBST: 0. collocate: neque; scoreSUBST: 0. collocate: omnis; scoreSUBST: 0. collocate: animus; scoreSUBST: 2. collocate: ille; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-101-116-97-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword aetas here are all the values plotted: collocate: ineo; scoreADJ: 0. collocate: ludus; scoreADJ: 0. collocate: uel; scoreADJ: 0. collocate: ago; scoreADJ: 0. collocate: iam; scoreADJ: 0. collocate: tempus; scoreADJ: 0. collocate: primus; scoreADJ: 2. collocate: per; scoreADJ: 0. collocate: neque; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: animus; scoreADJ: 0. collocate: ille; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-101-116-97-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword aetas here are all the values plotted: collocate: ineo; scoreVERBO: 3. collocate: ludus; scoreVERBO: 0. collocate: uel; scoreVERBO: 0. collocate: ago; scoreVERBO: 2. collocate: iam; scoreVERBO: 0. collocate: tempus; scoreVERBO: 0. collocate: primus; scoreVERBO: 0. collocate: per; scoreVERBO: 0. collocate: neque; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0. collocate: animus; scoreVERBO: 0. collocate: ille; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-101-116-97-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword aetas here are all the values plotted: collocate: ineo; scoreADV: 0. collocate: ludus; scoreADV: 0. collocate: uel; scoreADV: 0. collocate: ago; scoreADV: 0. collocate: iam; scoreADV: 2. collocate: tempus; scoreADV: 0. collocate: primus; scoreADV: 0. collocate: per; scoreADV: 0. collocate: neque; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: animus; scoreADV: 0. collocate: ille; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-101-116-97-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword aetas here are all the values plotted: collocate: ineo; scoreFUNC: 0. collocate: ludus; scoreFUNC: 0. collocate: uel; scoreFUNC: 0. collocate: ago; scoreFUNC: 0. collocate: iam; scoreFUNC: 0. collocate: tempus; scoreFUNC: 0. collocate: primus; scoreFUNC: 0. collocate: per; scoreFUNC: 20. collocate: neque; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0. collocate: animus; scoreFUNC: 0. collocate: ille; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> respice <b>aetatem</b> eius iam duram et intractabilem <br> <small> Sen.Ep.25.1 <br> Repara em sua idade já dura e intratável. <small> [JDD] </small> </small> </p>
+; <p> iucundissima est <b>aetas</b> deuexa iam non tamen praeceps <br> <small> Sen.Ep.12.5 <br> Agradabilíssima é a idade que já declina, mas que ainda não desmorona. <small> [JDD] </small> </small> </p>
+; <p> quem ergo ad finem putas custodiendam illam <b>aetatem</b> fuisse <br> <small> Cic.Cael.11 <br> Logo, até que ponto julgas que aquela idade devia ter sido protegida? <small> [JDD] </small> </small> </p>
+; <p> nec diu exempla quibus confirmeris colligenda sunt omnis illa <b>aetas</b> tulit <br> <small> Sen.Ep.24.3 <br> E não é preciso muito tempo para coletar os exemplos com que te persuadas: todas as épocas os produziu. <small> [JDD] </small> </small> </p>
+; <p> uiget <b>aetas</b> animus ualet contra illis annis atque diuitiis omnia consenuerunt <br> <small> Sal.Cat.20.10 <br> nossa idade tem vigor, nosso espírito tem valor; neles, ao contrário, pelos anos e pelas riquezas, tudo envelheceu. <small> [JDD] </small> </small> </p>
+; <p> et multi hoc idem ex omni ordine atque ex omni <b>aetate</b> fecerunt <br> <small> Cic.Cael.12 <br> E muitos de toda classe  e de toda idade fizeram o mesmo. <small> [JDD] </small> </small> </p>
+; <p> sunt ineuntis adulescentiae num ea constans iam requirit <b>aetas</b> quae media dicitur <br> <small> Cic.Sen.76 <br> Há as do início da juventude; será que a idade já madura, que é chamada de meia idade, tem necessidade delas? <small> [JDD] </small> </small> </p>
+; <p> qui magno imperio praediti in excelso <b>aetatem</b> agunt eorum facta cuncti mortales nouere <br> <small> Sal.Cat.51.12 <br> os que passam a vida nas alturas, providos de grande poder, todos os mortais conhecem os seus feitos. <small> [JDD] </small> </small> </p>
+; <p> datur enim concessu omnium huic aliqui ludus <b>aetati</b> et ipsa natura profundit adulescentiae cupiditates <br> <small> Cic.Cael.28 <br> Pois, com aceitação de todos, é concedido a esta idade algum entretenimento, e a própria natureza infunde na juventude os desejos. <small> [JDD] </small> </small> </p>
+; <p> numquam igitur digne satis laudari philosophia poterit cui qui pareat omne tempus <b>aetatis</b> sine molestia possit degere <br> <small> Cic.Sen.2 <br> A filosofia, portanto, nunca poderá ser  suficientemente louvada com dignidade por aquele a quem está claro que pode passar todas as épocas da vida sem aborrecimento. <small> [JDD] </small> </small> </p>
+; <p> mos antiquis fuit usque ad meam seruatus <b>aetatem</b> primis epistulae uerbis adicere si uales bene est ego ualeo <br> <small> Sen.Ep.15.1 <br> Foi um costume dos antigos, conservado até a minha época, acrescentar à carta estas primeiras palavras: “Se vais bem de saúde, está tudo bem, eu vou bem”. <small> [JDD] </small> </small> </p>
+; <p> serpit enim nescio quo modo per omnium uitas amicitia nec ullam <b>aetatis</b> degendae rationem patitur esse expertem sui <br> <small> Cic.Amici.87 <br> Pois a amizade insinua-se não sei como pelas vidas de todos e não permite que nenhuma maneira de passar a existência esteja desprovida dela. <small> [JDD] </small> </small> </p>
+; <p> sed ego Atratino humanissimo atque optimo adulescenti meo necessario ignosco qui habet excusationem uel pietatis uel necessitatis uel <b>aetatis</b> <br> <small> Cic.Cael.2 <br> Mas eu perdoo a Atratino, jovem cultíssimo e excelente, meu amigo, que tem a desculpa ou do amor filial ou da obrigação ou da idade. <small> [JDD] </small> </small> </p>
+; <p> delecti quibus corpus annis infirmum ingenium sapientia ualidum erat rei publicae consultabant ei uel <b>aetate</b> uel curae similitudine patres appellabantur <br> <small> Sal.Cat.6.6 <br> Uns homens escolhidos, que tinham o corpo debilitado pelos anos e inteligência vigorosa pela sabedoria formavam o conselho da república: estes ou pela idade ou pela semelhança função eram chamados pais. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> laudo laudo uos Quirites quod gratissimis animis prosequimini nomen clarissimi adulescentis uel pueri potius sunt enim facta eius immortalitatis nomen <b>aetatis</b> <br> <small> Cic.Phil.4.3.1 <br> Eu vos louvo, quirites, vos louvo, porque acolheis com gratíssimos ânimos o nome deste ilustríssimo jovem, ou melhor, deste garoto, pois seus feitos são próprios da imortalidade, seu nome, da idade. <small> [JDD] </small> </small> </p>
+; <p> neque enim decebat neque <b>aetas</b> illa postulabat neque id quod animum aduertere poteratis pudor patiebatur optimi adulescentis in tali illum oratione uersari <br> <small> Cic.Cael.7 <br> Pois nem era conveniente, nem aquela sua idade admitia, nem, o que podíeis constatar, o recato do excelente jovem consentia que ele se ocupasse de tal discurso. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-101-116-97-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 33.08 and an absolute frequency of 3. The Sallustius subcorpus follows, with a normalized frequency of 14.84 and an absolute frequency of 16. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 4 ; absolute frequency: 1.51068811843795. subcorpus: Cicero ; normalized frequency: 137 ; absolute frequency: 8.53454935087588. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 16 ; absolute frequency: 14.8409238475095. subcorpus: Seneca ; normalized frequency: 30 ; absolute frequency: 5.59899964539669. subcorpus: Suetonius ; normalized frequency: 3 ; absolute frequency: 33.0760749724366. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-101-116-97-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 15.16 and an absolute frequency of 92. The Prosa.filosófica subcorpus follows, with a normalized frequency of 15.16 and an absolute frequency of 92. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 26 ; absolute frequency: 6.32926799581295. subcorpus: Prosa.filosófica ; normalized frequency: 92 ; absolute frequency: 15.1562577222781. subcorpus: Prosa.oratória ; normalized frequency: 69 ; absolute frequency: 6.62486918283679. subcorpus: Prosa.epistolográfica ; normalized frequency: 4 ; absolute frequency: 1.05991149738997. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-101-116-97-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 15.71 and an absolute frequency of 6. The I.a.C. subcorpus follows, with a normalized frequency of 7.68 and an absolute frequency of 165. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 165 ; absolute frequency: 7.67977658831743. subcorpus: I.d.C. ; normalized frequency: 32 ; absolute frequency: 4.89521187088879. subcorpus: II.d.C. ; normalized frequency: 6 ; absolute frequency: 15.7068062827225. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

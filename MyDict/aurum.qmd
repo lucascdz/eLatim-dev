@@ -1,0 +1,198 @@
+---
+title: "aurum"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-117-114-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>aurum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Ouro &ensp; <small>Cíc. Nat. 2, 151.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Objeto de ouro, jóia de ouro &ensp; <small>Verg. G. 2, 195.</small> <br> <b>3</b> &ensp; <small>I-Daí:</small> &ensp; Moeda de ouro &ensp; <small>Cíc. Cael. 30.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Dinheiro. riqueza &ensp; <small>Verg. En. 3, 56.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Cor do ouro, brilho do ouro &ensp; <small>Verg. G. 4, 91.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Idade de ouro &ensp; <small>Hor. O. 4,2,39.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Aurum</b> -<b>i</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; ouro. <br> <b>2</b> &ensp; moeda, dinheiro, riquezas, tudo o que he feito de ouro. </p>
+
+
+
+
+#### Velez
+
+<b>Aurum</b> -<b>i</b>   <p> <b>1</b> &ensp; o ouro </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>aurum factum &ensp; <small><small>dicitur, quod artificis manu est laboratum: hinc opponitur aurum infectum</small></small> <br> signatum aurum est pecunia ex auro cusa </p>
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/90802 ' target="_blank"> http://lila-erc.eu/data/id/lemma/90802 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> aurom, orom, orum <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+aurī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-117-114-117-109xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-117-114-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword aurum here are all the values plotted: collocate: argentum; scoreSUBST: 3. collocate: sumo; scoreSUBST: 0. collocate: ex; scoreSUBST: 0. collocate: que; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-117-114-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword aurum here are all the values plotted: collocate: argentum; scoreADJ: 0. collocate: sumo; scoreADJ: 0. collocate: ex; scoreADJ: 0. collocate: que; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-117-114-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword aurum here are all the values plotted: collocate: argentum; scoreVERBO: 0. collocate: sumo; scoreVERBO: 2. collocate: ex; scoreVERBO: 0. collocate: que; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-117-114-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword aurum here are all the values plotted: collocate: argentum; scoreADV: 0. collocate: sumo; scoreADV: 0. collocate: ex; scoreADV: 0. collocate: que; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-117-114-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword aurum here are all the values plotted: collocate: argentum; scoreFUNC: 0. collocate: sumo; scoreFUNC: 0. collocate: ex; scoreFUNC: 20. collocate: que; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Uerres ne habebit domi suae candelabrum Iouis e gemmis <b>auro</b>que perfectum <br> <small> Cic.Ver.2.4.71.2 <br> Terá Verres em sua casa o candelabro de Júpiter, todo composto de pedras preciosas e ouro? <small> [JDD] </small> </small> </p>
+; <p> <b>auro</b> opus fuit sumpsit a Clodia sumpsit sine teste habuit quamdiu uoluit <br> <small> Cic.Cael.31 <br> Ele precisou de ouro; tomou emprestado de Clódia, tomou emprestado sem testemunha, teve pelo tempo que quis. <small> [JDD] </small> </small> </p>
+; <p> quid iuuat inmensum te argenti pondus et <b>auri</b> furtim defossa timidum deponere terra <br> <small> Hor.S.1.1.41 <br> Por que te compraz guardar às ocultas, temeroso, na terra cavada um imenso peso de prata e ouro? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-117-114-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 19.31 and an absolute frequency of 10. The Seneca subcorpus follows, with a normalized frequency of 3.36 and an absolute frequency of 18. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 30 ; absolute frequency: 1.86887941989983. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 18 ; absolute frequency: 3.35939978723801. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 10 ; absolute frequency: 19.3050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-117-114-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 19.31 and an absolute frequency of 10. The Prosa.filosófica subcorpus follows, with a normalized frequency of 3.46 and an absolute frequency of 21. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.filosófica ; normalized frequency: 21 ; absolute frequency: 3.45958056704173. subcorpus: Prosa.oratória ; normalized frequency: 25 ; absolute frequency: 2.40031492131768. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 10 ; absolute frequency: 19.3050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-117-114-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 2.91 and an absolute frequency of 19. The I.a.C. subcorpus follows, with a normalized frequency of 2 and an absolute frequency of 43. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 43 ; absolute frequency: 2.00139632301606. subcorpus: I.d.C. ; normalized frequency: 19 ; absolute frequency: 2.90653204834022. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

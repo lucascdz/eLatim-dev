@@ -1,0 +1,201 @@
+---
+title: "ops"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx111-112-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>opis</b> <br> <small>gen. sing. de ops.</small> <br> <small></small> 
+ <small>1.</small> <b>Ops</b> <b>Opis</b> <br> <small>subs. pr. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Ops, deusa da abundância, a Terra, identificada com Cibele &ensp; <small>Ov. Mel. 9, 498.</small> </p> 
+ <small>2.</small> <b>ops</b> <b>opis</b> <br> <small>subs. f. geralmente no pl.</small> <br> <small>Obs.: No sing. ops quase só é encontrado no gen., acus. e abl.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Abundância; daí: recursos, riqueza &ensp; <small>raro En. apud Cíc. Tusc. 3, 44.</small> <br> <b>2</b> &ensp; <small>I-Sent. próprio</small> &ensp; Poder, força &ensp; <small>sent. usual Verg. En. 1, 601.</small> <br> <b>3</b> &ensp; <small>I-Sent. próprio</small> &ensp; Auxílio, ajuda, apoio &ensp; <small>Cíc. Tusc. 5, 5.</small> <br> <b>4</b> &ensp; <small>I-Sent. próprio</small> &ensp; Forças militares &ensp; <small>Verg. En. 8, 685.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Ops</b> -<b>is</b> <br> <small>f.</small> <br> <small>No sing. só se acha no genit. accus. e ablat.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; ajuda, soccorro, força, poder para ajudar. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/115146 ' target="_blank"> http://lila-erc.eu/data/id/lemma/115146 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ŏpis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx111-112-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx111-112-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ops here are all the values plotted: collocate: fero; scoreSUBST: 0. collocate: an; scoreSUBST: 0. collocate: tantus; scoreSUBST: 0. collocate: possum; scoreSUBST: 0. collocate: atque; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx111-112-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ops here are all the values plotted: collocate: fero; scoreADJ: 0. collocate: an; scoreADJ: 0. collocate: tantus; scoreADJ: 0. collocate: possum; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx111-112-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ops here are all the values plotted: collocate: fero; scoreVERBO: 2. collocate: an; scoreVERBO: 0. collocate: tantus; scoreVERBO: 0. collocate: possum; scoreVERBO: 2. collocate: atque; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx111-112-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ops here are all the values plotted: collocate: fero; scoreADV: 0. collocate: an; scoreADV: 0. collocate: tantus; scoreADV: 0. collocate: possum; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx111-112-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ops here are all the values plotted: collocate: fero; scoreFUNC: 0. collocate: an; scoreFUNC: 0. collocate: tantus; scoreFUNC: 0. collocate: possum; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ite ferte depositis <b>opem</b> mortifera me cum uitia terrarum extraho <br> <small> Sen.Oed.1057 <br> Ide, levai ajuda para os desesperados: eu arrato comigo os mortíferos vícios desta terra. <small> [JDD] </small> </small> </p>
+; <p> non enim poterimus ulla esse invidia spoliati <b>opibus</b> et illa senatoria potentia <br> <small> Cic.Att.2.9.1 <br> Pois, despojados de recursos e daquele poder senatorial, não poderemos causar nenhuma inveja. <small> [JDD] </small> </small> </p>
+; <p> utrum ea res ad <b>opem</b> an ad calamitatem clientium atque hospitum ualere debebat <br> <small> Cic.Ver.2.4.89.4 <br> Por ventura essa condição devia valer para o socorro ou para a ruína de seus clientes e hóspedes? <small> [JDD] </small> </small> </p>
+; <p> profecto uirtus atque sapientia maior in illis fuit qui ex paruis <b>opibus</b> tantum imperium fecere quam in nobis qui ea bene parta uix retinemus <br> <small> Sal.Cat.51.42 <br> Sem dúvida, houve uma maior virtude e sabedoria naqueles que, com pequenos recursos, fizeram um tão grande império do que em nós, que a duras penas conservamos essas coisas bem engendradas. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx111-112-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 16.7 and an absolute frequency of 18. The Seneca subcorpus follows, with a normalized frequency of 2.99 and an absolute frequency of 16. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 6 ; absolute frequency: 2.26603217765692. subcorpus: Cicero ; normalized frequency: 43 ; absolute frequency: 2.67872716852309. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 18 ; absolute frequency: 16.6960393284482. subcorpus: Seneca ; normalized frequency: 16 ; absolute frequency: 2.98613314421157. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx111-112-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 7.72 and an absolute frequency of 4. The Prosa.histórica subcorpus follows, with a normalized frequency of 6.57 and an absolute frequency of 27. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 27 ; absolute frequency: 6.57270138026729. subcorpus: Prosa.filosófica ; normalized frequency: 20 ; absolute frequency: 3.29483863527784. subcorpus: Prosa.oratória ; normalized frequency: 29 ; absolute frequency: 2.78436530872851. subcorpus: Prosa.epistolográfica ; normalized frequency: 6 ; absolute frequency: 1.58986724608495. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 6 ; absolute frequency: 5.08949020273136. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx111-112-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 7.85 and an absolute frequency of 3. The I.a.C. subcorpus follows, with a normalized frequency of 3.44 and an absolute frequency of 74. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 74 ; absolute frequency: 3.44426343960903. subcorpus: I.d.C. ; normalized frequency: 22 ; absolute frequency: 3.36545816123604. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

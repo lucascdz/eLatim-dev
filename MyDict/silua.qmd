@@ -1,0 +1,202 @@
+---
+title: "silua"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-105-108-117-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>silva</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Floresta, mata &ensp; <small>Cés. B. Gal. 1, 19, 5.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Bosque, arvoredo, vegetação, plantas &ensp; <small>Cíc. Verr. 1, 51.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Abundância, multidão &ensp; <small>Cíc. Or. 12, 139.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Silva</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; selva, bosque, brenha. <br> <b>2</b> &ensp; multidaõ, abundancia, grande numero. </p> 
+ <small>& c.</small> <b>Sylva</b> <br> <small>v. Silva.</small>
+
+
+
+
+#### Velez
+
+<b>Silva</b>   <p> <b>1</b> &ensp; a brenha, bosque, mato </p> 
+ <b>Sylva</b> -<b>ae</b>   <p> <b>1</b> &ensp; a brenha, bosque, mato </p>
+
+
+
+
+#### Cardoso
+
+<b>Sylua</b> -<b>ae</b>   <p> <b>1</b> &ensp; ho bosque. ou montanha </p> 
+ <b>Sylua</b> -<b>ae</b>   <p> <b>1</b> &ensp; os versos feytos de supito. como as syluas de Estacio </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/124801 ' target="_blank"> http://lila-erc.eu/data/id/lemma/124801 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a-) <br>
+<small> outras grafias: </small> sylua <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx115-105-108-117-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-105-108-117-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword silua here are all the values plotted: collocate: abdo; scoreSUBST: 0. collocate: peto; scoreSUBST: 0. collocate: aut; scoreSUBST: 0. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-105-108-117-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword silua here are all the values plotted: collocate: abdo; scoreADJ: 0. collocate: peto; scoreADJ: 0. collocate: aut; scoreADJ: 0. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-105-108-117-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword silua here are all the values plotted: collocate: abdo; scoreVERBO: 3. collocate: peto; scoreVERBO: 2. collocate: aut; scoreVERBO: 0. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-105-108-117-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword silua here are all the values plotted: collocate: abdo; scoreADV: 0. collocate: peto; scoreADV: 0. collocate: aut; scoreADV: 0. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-105-108-117-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword silua here are all the values plotted: collocate: abdo; scoreFUNC: 0. collocate: peto; scoreFUNC: 0. collocate: aut; scoreFUNC: 0. collocate: in; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> nunc patior nives Imbresque in <b>silvis</b> asperam vitam trahens : <br> <small> Phaed.3.7 <br> agora suporto as neves e as chuvas nas florestas, levando uma vida dura. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Tunc diviso tergore <b>Silvas</b> petivit , homini ut accessum daret . <br> <small> Phaed.2.1 <br> Então, repartida a presa, dirigiu-se à floresta, para deixar o caminho livre ao homem. <small> [JDD] </small> </small> </p>
+; <p> equidem per litora certos dimittam et Libyae lustrare extrema iubebo si quibus eiectus <b>siluis</b> aut urbibus errat <br> <small> Verg.A.1.576 <br> Quanto a mim, enviarei pelas praias homens de confiança e ordenarei que vasculhem os confins da Líbia, caso ele, tendo sido arremessado, erra em algumas florestas ou cidades.” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> eos impeditos et inopinantes adgressus magnam partem eorum concidit reliqui sese fugae mandarunt atque in proximas <b>siluas</b> abdiderunt <br> <small> Caes.Gal.1.12.3 <br> Atacando-os quando carregados de bagagem e desprevenidos, fez em pedaços uma grande parte deles; os restantes se deram à fuga e se esconderam nas matas vizinhas. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-105-108-117-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 14.35 and an absolute frequency of 38. The Horatius subcorpus follows, with a normalized frequency of 7.1 and an absolute frequency of 8. the subcorpus with the least normalized frequency is Sallustius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 38 ; absolute frequency: 14.3515371251605. subcorpus: Cicero ; normalized frequency: 1 ; absolute frequency: 0.0622959806633276. subcorpus: Horatius ; normalized frequency: 8 ; absolute frequency: 7.10416481662375. subcorpus: Ovidius ; normalized frequency: 6 ; absolute frequency: 10.2951269732327. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 14 ; absolute frequency: 2.61286650118512. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-105-108-117-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 9.65 and an absolute frequency of 5. The Poesia.trágica subcorpus follows, with a normalized frequency of 9.56 and an absolute frequency of 11. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 38 ; absolute frequency: 9.25046860926508. subcorpus: Prosa.filosófica ; normalized frequency: 3 ; absolute frequency: 0.494225795291676. subcorpus: Prosa.oratória ; normalized frequency: 1 ; absolute frequency: 0.0960125968527071. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 8 ; absolute frequency: 6.73004122150248. subcorpus: Poesia.didática ; normalized frequency: 9 ; absolute frequency: 7.63423530409704. subcorpus: Poesia.trágica ; normalized frequency: 11 ; absolute frequency: 9.55524669909659. subcorpus: Poesia.épica ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-105-108-117-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 3.52 and an absolute frequency of 23. The I.a.C. subcorpus follows, with a normalized frequency of 2.42 and an absolute frequency of 52. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 52 ; absolute frequency: 2.42029322783337. subcorpus: I.d.C. ; normalized frequency: 23 ; absolute frequency: 3.51843353220132. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

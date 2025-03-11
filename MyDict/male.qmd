@@ -1,0 +1,200 @@
+---
+title: "male"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-97-108-101xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>malē</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Mal, de modo contrário &ensp; <small>Ter. Phorm. 372;</small> <br> <b>2</b> &ensp; <small></small> &ensp; Injustamente, com prejuízo, de modo que não convém: &ensp; <small></small> <br> <b>3</b> &ensp; <small>quase sinônimo de “não”:</small> &ensp; <small></small> <br> <b>4</b> &ensp; <small></small> &ensp; Infelizmente, tristemente &ensp; <small>Cíc. Verr. 4. 95.</small> <br> <b>5</b> &ensp; <small></small> &ensp; Fortemente, violentamente: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>male, pessime latine Cíc. Tusc. 3. 20. “falar mal, em péssimo latim”. <br> <br><b>2</b><br>male reprehendunt Cíc. Tusc . 3. 24 “criticam injustamente”. <br> <br><b>3</b><br>male pinguis harena Verg. G. l. 105. “terra que não é fértil”. <br> <br><b>5</b><br>male odisse aliquem Cés. apud Cíc. At. 14. 1. 2 “detestar violentamente alguém”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Male</b> -<b>pejus</b> -<b>pessime</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; mal, difficultosamente, malignamente, iniquamente. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>male audire &ensp; <small><small>Cic</small></small> &ensp; <small>Ter má fama</small> </p>
+
+
+
+
+#### Velez
+
+<b>Malè</b> <br> <small>Vide Audio.</small>   <p> <b>1</b> &ensp; mal </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>male credere &ensp; <small><small>i, non tutò</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Male</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; mal. ou não </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>male sanus </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/hypolemma/26555 ' target="_blank"> http://lila-erc.eu/data/id/hypolemma/26555 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+mălĕ
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-97-108-101xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword male here are all the values plotted: collocate: existimo; scoreSUBST: 0. collocate: utor; scoreSUBST: 0. collocate: dico; scoreSUBST: 0. collocate: audio; scoreSUBST: 0. collocate: habeo; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-97-108-101xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword male here are all the values plotted: collocate: existimo; scoreADJ: 0. collocate: utor; scoreADJ: 0. collocate: dico; scoreADJ: 0. collocate: audio; scoreADJ: 0. collocate: habeo; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-97-108-101xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword male here are all the values plotted: collocate: existimo; scoreVERBO: 2. collocate: utor; scoreVERBO: 2. collocate: dico; scoreVERBO: 3. collocate: audio; scoreVERBO: 2. collocate: habeo; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-97-108-101xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword male here are all the values plotted: collocate: existimo; scoreADV: 0. collocate: utor; scoreADV: 0. collocate: dico; scoreADV: 0. collocate: audio; scoreADV: 0. collocate: habeo; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-97-108-101xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword male here are all the values plotted: collocate: existimo; scoreFUNC: 0. collocate: utor; scoreFUNC: 0. collocate: dico; scoreFUNC: 0. collocate: audio; scoreFUNC: 0. collocate: habeo; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> omnes autem <b>male</b> habet ignorantia ueri <br> <small> Sen.Ep.118.7 <br> A todos, porém, a ignorância da verdade trata mal. <small> [JDD] </small> </small> </p>
+; <p> sed aliud est <b>male</b> dicere aliud accusare <br> <small> Cic.Cael.6 <br> Mas uma coisa é maldizer, outra, acusar. <small> [JDD] </small> </small> </p>
+; <p> lugentem timentemque custodire solemus ne solitudine <b>male</b> utatur <br> <small> Sen.Ep.10.2 <br> Costumamos tomar conta do agoniado e do medroso, para que não faça mal uso da solidão. <small> [JDD] </small> </small> </p>
+; <p> uides autem diuitiis nobilitate uiribus quam multi <b>male</b> utantur <br> <small> Sen.Ep.120.3 <br> ora, vês quão mal uso muitos fazem de suas riquezas, sua nobreza, suas forças. <small> [JDD] </small> </small> </p>
+; <p> quam dignus qui Palicano sicut facit os ad <b>male</b> audiendum cotidie praebeat <br> <small> Cic.Att.1.18.5 <br> Como ele merece que Palicano, lhe lance diariamente injúrias na cara, como faz. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> fama non faciet nec ostentatio tui et in populos nominis dimissa notitia nemo nouit deum multi de illo <b>male</b> existimant et inpune <br> <small> Sen.Ep.31.10 <br> A fama não fará, nem a ostentação de ti, nem a notoriedade de teu nome espalhado entre os povos; ninguém conhece deus, muitos pensam mal dele e impunemente. <small> [JDD] </small> </small> </p>
+; <p> sed idem illud existimo leni eundum uia ut quod <b>male</b> inplicuisti soluas potius quam abrumpas dummodo si alia soluendi ratio non erit uel abrumpas <br> <small> Sen.Ep.22.3 <br> Mas estimo também que é preciso ir por um caminho suave para que desfaças esse embrulho em que torpemente te implicaste, antes que o rompas, contanto que, se não houver outro meio de desfazê-lo, o rompas. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-97-108-101xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 13.73 and an absolute frequency of 4. The Vergilius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 27 ; absolute frequency: 1.68199147790985. subcorpus: Horatius ; normalized frequency: 9 ; absolute frequency: 7.99218541870171. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 29 ; absolute frequency: 5.41236632388347. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 4 ; absolute frequency: 13.7315482320632. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-97-108-101xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 8.99 and an absolute frequency of 4. The Poesia.lírica subcorpus follows, with a normalized frequency of 7.57 and an absolute frequency of 9. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 6 ; absolute frequency: 1.46060030672606. subcorpus: Prosa.filosófica ; normalized frequency: 24 ; absolute frequency: 3.9538063623334. subcorpus: Prosa.oratória ; normalized frequency: 19 ; absolute frequency: 1.82423934020143. subcorpus: Prosa.epistolográfica ; normalized frequency: 6 ; absolute frequency: 1.58986724608495. subcorpus: Poesia.lírica ; normalized frequency: 9 ; absolute frequency: 7.57129637419029. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 7 ; absolute frequency: 6.08061153578874. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-97-108-101xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 10.47 and an absolute frequency of 4. The II.d.C. subcorpus follows, with a normalized frequency of 10.47 and an absolute frequency of 4. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 1.77 and an absolute freqeuncy of 38. here are all the values: subcorpus: I.a.C. ; normalized frequency: 38 ; absolute frequency: 1.76867582033977. subcorpus: I.d.C. ; normalized frequency: 32 ; absolute frequency: 4.89521187088879. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+:::
+

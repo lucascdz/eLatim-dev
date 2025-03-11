@@ -1,0 +1,198 @@
+---
+title: "qualis"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx113-117-97-108-105-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>quālis</b> <b>-e</b> <br> <small>adj. e pron. relat. e interrog.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>A-Relativo com “talis” expresso ou subentendido-Sent. próprio:</small> &ensp; Tal como, da natureza que: &ensp; <small></small> <br> <b>2</b> &ensp; <small>A-Relativo com “talis” expresso ou subentendido-Sent. poético:</small> &ensp; Assim, igualmente &ensp; <small>com sent. adverbial Verg. G. 4, 511.</small> <br> <b>3</b> &ensp; <small>B-Interrogativo:</small> &ensp; Qual, de que espécie, de que natureza &ensp; <small>em interr. dir. e indir.:</small> <br> <b>4</b> &ensp; <small>B-Sent. filosófico:</small> &ensp; Com tal ou tal qualidade &ensp; <small>Sên, Ep. 117, 28.</small> <br> <b>5</b> &ensp; <small>B-No neutro plural:</small> &ensp; As qualidades dos seres &ensp; <small>termo de lógica:</small> <br> <b>6</b> &ensp; <small>B-No neutro plural:</small> &ensp; Com sentido adverbial: assim, deste modo, paralelamente &ensp; <small>Verg. G. 4, 511.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>oratorem talem informabo, qualis ... Cíc. Or. 7 “representarei um ideal de orador tal que ...”. <br> <br><b>3</b><br>qualis ista philosophia est? Cíc. Fin. 2, 27 “que espécie de filosofia é esta?”. <br> <br><b>5</b><br>qualia C íc. Ac. 1, 28 “as qualidades dos seres”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<small>m. f</small> <b>Qualis</b> <small>n</small> -<b>le</b> -<b>is</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; qual. </p>
+
+
+
+
+#### Velez
+
+<b>Qualis</b> -<b>le</b> <small>et</small>   <p> <b>1</b> &ensp; qual; </p>
+
+
+
+
+#### Cardoso
+
+<b>Qualis</b> -<b>e</b>   <p> <b>1</b> &ensp; qual </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/121068 ' target="_blank"> http://lila-erc.eu/data/id/lemma/121068 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> 2ª classe (tema em -i-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+quālis 
+ quāle
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx113-117-97-108-105-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword qualis here are all the values plotted: collocate: talis; scoreSUBST: 0. collocate: uir; scoreSUBST: 2. collocate: sum; scoreSUBST: 0. collocate: tu; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx113-117-97-108-105-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword qualis here are all the values plotted: collocate: talis; scoreADJ: 0. collocate: uir; scoreADJ: 0. collocate: sum; scoreADJ: 0. collocate: tu; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx113-117-97-108-105-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword qualis here are all the values plotted: collocate: talis; scoreVERBO: 0. collocate: uir; scoreVERBO: 0. collocate: sum; scoreVERBO: 3. collocate: tu; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx113-117-97-108-105-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword qualis here are all the values plotted: collocate: talis; scoreADV: 0. collocate: uir; scoreADV: 0. collocate: sum; scoreADV: 0. collocate: tu; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx113-117-97-108-105-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword qualis here are all the values plotted: collocate: talis; scoreFUNC: 0. collocate: uir; scoreFUNC: 0. collocate: sum; scoreFUNC: 0. collocate: tu; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>Qualis</b> videtur opera tibi vocis meae ? <br> <small> Phaed.1.11 <br> “Que tal te parece o efeito de minha voz?” <small> [JDD] </small> </small> </p>
+; <p> <b>Quale</b> inquit caput est , talis praestatur sapor . <br> <small> Phaed.3.4 <br> “Garante-se que seu sabor é tal qual sua cabeça”. <small> [JDD] </small> </small> </p>
+; <p> prima contio Pompei <b>qualis</b> fuisset scripsi ad te antea <br> <small> Cic.Att.1.14.1 <br> Já te escrevi como tinha sido o primeiro discurso de Pompeu diante do povo. <small> [JDD] </small> </small> </p>
+; <p> est omnino fortium uirorum <b>quales</b> uos esse debetis uirtutem praestare tantum enim possunt fortunae culpam non extimescere <br> <small> Cic.Phil.13.5.11 <br> É inteiramente próprio de homens corajosos, como vós deveis ser, demonstrar seu valor (pois é só o que podem) e não temer a negligência da fortuna. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx113-117-97-108-105-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 9.65 and an absolute frequency of 5. The Horatius subcorpus follows, with a normalized frequency of 6.22 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 46 ; absolute frequency: 2.86561511051307. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 30 ; absolute frequency: 5.59899964539669. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx113-117-97-108-105-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 9.65 and an absolute frequency of 5. The Poesia.trágica subcorpus follows, with a normalized frequency of 8.69 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 3 ; absolute frequency: 0.730300153363032. subcorpus: Prosa.filosófica ; normalized frequency: 38 ; absolute frequency: 6.26019340702789. subcorpus: Prosa.oratória ; normalized frequency: 21 ; absolute frequency: 2.01626453390685. subcorpus: Prosa.epistolográfica ; normalized frequency: 7 ; absolute frequency: 1.85484512043244. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 10 ; absolute frequency: 8.68658790826963. subcorpus: Poesia.épica ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx113-117-97-108-105-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 5.05 and an absolute frequency of 33. The I.a.C. subcorpus follows, with a normalized frequency of 2.79 and an absolute frequency of 60. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 60 ; absolute frequency: 2.79264603211543. subcorpus: I.d.C. ; normalized frequency: 33 ; absolute frequency: 5.04818724185406. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

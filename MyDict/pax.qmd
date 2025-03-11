@@ -1,0 +1,209 @@
+---
+title: "pax"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-97-120xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>pācis</b> <br> <small>gen. de pax.</small> <br> <small></small> 
+ <small>1.</small> <b>pāx</b> <b>pácis</b> <br> <small>subs. f.</small> <br> <small>Obs.: Etimologicamente, significa acordo ou fixação de uma convenção entre duas partes beligerantes, tratado de paz T. Lív. 9, 11, 7.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Paz ausência de guerra, tratado de paz &ensp; <small>T. Lív. 2, 1, 1.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Aprovação de uma convenção, paz &ensp; <small>com alguém Cíc. Phil. 1, 11.</small> <br> <b>3</b> &ensp; <small>I-Daí:</small> &ensp; Consolidação de relações &ensp; <small>entre dois países, cidades, etc. Cíc. Fam. 10, 27, 1.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Permissão, indulgência &ensp; <small>Ter. Eun. 467.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Graça, favor, benevolência, boa disposição &ensp; <small>tratando-se dos deuses Cíc. Font. 30.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Tranquilidade, calma &ensp; <small>do mar, ventos Hor. O. 3, 29, 35.</small> <br> <b>7</b> &ensp; <small>II-Donde:</small> &ensp; Tranquilidade de espírito, serenidade &ensp; <small>Cíc. Tusc. 5, 48.</small> <br> <b>8</b> &ensp; <small>II-Donde:</small> &ensp; Domínio, império &ensp; <small>Sên. Prov. 4, 14.</small> <br> <b>9</b> &ensp; <small>II-Donde:</small> &ensp; Interjeição: pax! Está bom!, basta! &ensp; <small>Plaut. Mil. 808.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Pax</b> -<b>acis</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; paz. <br> <b>2</b> &ensp; repouso, socego, tranquilidade. <br> <b>3</b> &ensp; <small>Virg.</small> &ensp; perdão. <br> <b>4</b> &ensp; <small>Cic.</small> &ensp; liberdade, permissão, licença. </p>
+
+
+
+
+#### Velez
+
+<b>Pax</b> -<b>cis</b>   <p> <b>1</b> &ensp; a pax </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>pace tua &ensp; <small>com vossa licença</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Pax</b> -<b>acis</b>   <p> <b>1</b> &ensp; a paz. ou licença. ou perdão </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/116322 ' target="_blank"> http://lila-erc.eu/data/id/lemma/116322 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+pācis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-97-120xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-97-120xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword pax here are all the values plotted: collocate: auctor; scoreSUBST: 2. collocate: mitto; scoreSUBST: 0. collocate: uictor; scoreSUBST: 2. collocate: condicio; scoreSUBST: 2. collocate: peto; scoreSUBST: 0. collocate: Antonius; scoreSUBST: 0. collocate: de; scoreSUBST: 0. collocate: spes; scoreSUBST: 2. collocate: semper; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: facio; scoreSUBST: 0. collocate: cum; scoreSUBST: 0. collocate: ad; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-97-120xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword pax here are all the values plotted: collocate: auctor; scoreADJ: 0. collocate: mitto; scoreADJ: 0. collocate: uictor; scoreADJ: 0. collocate: condicio; scoreADJ: 0. collocate: peto; scoreADJ: 0. collocate: Antonius; scoreADJ: 0. collocate: de; scoreADJ: 0. collocate: spes; scoreADJ: 0. collocate: semper; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: facio; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: ad; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-97-120xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword pax here are all the values plotted: collocate: auctor; scoreVERBO: 0. collocate: mitto; scoreVERBO: 2. collocate: uictor; scoreVERBO: 0. collocate: condicio; scoreVERBO: 0. collocate: peto; scoreVERBO: 2. collocate: Antonius; scoreVERBO: 0. collocate: de; scoreVERBO: 0. collocate: spes; scoreVERBO: 0. collocate: semper; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: facio; scoreVERBO: 1. collocate: cum; scoreVERBO: 0. collocate: ad; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-97-120xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword pax here are all the values plotted: collocate: auctor; scoreADV: 0. collocate: mitto; scoreADV: 0. collocate: uictor; scoreADV: 0. collocate: condicio; scoreADV: 0. collocate: peto; scoreADV: 0. collocate: Antonius; scoreADV: 0. collocate: de; scoreADV: 0. collocate: spes; scoreADV: 0. collocate: semper; scoreADV: 2. collocate: in; scoreADV: 0. collocate: facio; scoreADV: 0. collocate: cum; scoreADV: 0. collocate: ad; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-97-120xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword pax here are all the values plotted: collocate: auctor; scoreFUNC: 0. collocate: mitto; scoreFUNC: 0. collocate: uictor; scoreFUNC: 0. collocate: condicio; scoreFUNC: 0. collocate: peto; scoreFUNC: 0. collocate: Antonius; scoreFUNC: 0. collocate: de; scoreFUNC: 20. collocate: spes; scoreFUNC: 0. collocate: semper; scoreFUNC: 0. collocate: in; scoreFUNC: 20. collocate: facio; scoreFUNC: 0. collocate: cum; scoreFUNC: 20. collocate: ad; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quia in <b>pace</b> otiosae <br> <small> Sen.Ep.119.6 <br> Por que na paz estão ociosas? <small> [JDD] </small> </small> </p>
+; <p> cum Antoniis <b>pax</b> potest esse <br> <small> Cic.Phil.13.2.14 <br> Com os Antônios, pode haver paz? <small> [JDD] </small> </small> </p>
+; <p> magna <b>pax</b> Antonio cum eis his item cum illo <br> <small> Cic.Phil.7.23.9 <br> Grande paz de Antônio com eles e igualmente deles com ele. <small> [JDD] </small> </small> </p>
+; <p> in discordia autem <b>pax</b> ciuilis esse nullo pacto potest <br> <small> Cic.Phil.7.23.10 <br> E na discórdia, por sua vez, não pode de modo algum haver paz entre os cidadãos. <small> [JDD] </small> </small> </p>
+; <p> nudum latro transmittit etiam in obsessa uia pauperi <b>pax</b> est <br> <small> Sen.Ep.14.9 <br> Alguém sem nada, o ladrão deixa passar; mesmo num caminho sitiado, há paz para o pobre. <small> [JDD] </small> </small> </p>
+; <p> admirabantur boni uiri accusabant amici quod spe <b>pacis</b> legationem suscepissem <br> <small> Cic.Phil.12.5.9 <br> Os bons cidadãos estavam surpresos, os amigos me acusavam por eu ter empreendido uma legação na esperança da paz.” <small> [JDD] </small> </small> </p>
+; <p> cum eis facta <b>pax</b> non erit <b>pax</b> sed pactio seruitutis <br> <small> Cic.Phil.12.14.5 <br> A paz feita com esses não será paz, mas um pacto de escravidão. <small> [JDD] </small> </small> </p>
+; <p> eodem die legati ab hostibus missi ad Caesarem de <b>pace</b> uenerunt <br> <small> Caes.Gal.4.36.1 <br> No mesmo dia legados enviados pelos inimigos vieram a César acerca da paz. <small> [JDD] </small> </small> </p>
+; <p> quibus rebus coacti Menapii legatos ad eum <b>pacis</b> petendae causa mittunt <br> <small> Caes.Gal.6.6.2 <br> Forçados por essas ações, os menápios enviam legados a ele para pedir paz. <small> [JDD] </small> </small> </p>
+; <p> nostri enim sensus ut in <b>pace</b> semper sic tum etiam in bello congruebant <br> <small> Cic.Marc.16 <br> Pois nossos pareceres assim como sempre coincidiam na paz, assim também na guerra. <small> [JDD] </small> </small> </p>
+; <p> si haec relinquere uoltis audacia opus est nemo nisi uictor <b>pace</b> bellum mutauit <br> <small> Sal.Cat.58.15 <br> Se quereis deixar isto, é preciso audácia: ninguém, a não ser o vencedor, trocou a guerra pela paz. <small> [JDD] </small> </small> </p>
+; <p> non est uobis Quirites cum eo hoste certamen cum quo aliqua <b>pacis</b> condicio esse possit <br> <small> Cic.Phil.4.11.6 <br> Vós não tendes, quirites, uma disputa com um inimigo com quem seja possível haver alguma condição de paz. <small> [JDD] </small> </small> </p>
+; <p> <b>pacis</b> equidem semper auctor fui sed tum sero erat enim amentis cum aciem uideres <b>pacem</b> cogitare <br> <small> Cic.Lig.28 <br> Na verdade, sempre fui o promotor da paz, mas então era tarde; pois era próprio de loucos pensar na paz, quando vias as linhas de batalha. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-97-120xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 17.16 and an absolute frequency of 5. The Caesar subcorpus follows, with a normalized frequency of 9.06 and an absolute frequency of 24. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 24 ; absolute frequency: 9.06412871062769. subcorpus: Cicero ; normalized frequency: 121 ; absolute frequency: 7.53781366026264. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 8 ; absolute frequency: 7.42046192375475. subcorpus: Seneca ; normalized frequency: 10 ; absolute frequency: 1.86633321513223. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 5 ; absolute frequency: 17.164435290079. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-97-120xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 11.43 and an absolute frequency of 119. The Prosa.histórica subcorpus follows, with a normalized frequency of 9.01 and an absolute frequency of 37. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 37 ; absolute frequency: 9.00703522481073. subcorpus: Prosa.filosófica ; normalized frequency: 7 ; absolute frequency: 1.15319352234724. subcorpus: Prosa.oratória ; normalized frequency: 119 ; absolute frequency: 11.4254990254721. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-97-120xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 13.09 and an absolute frequency of 5. The I.a.C. subcorpus follows, with a normalized frequency of 7.17 and an absolute frequency of 154. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 1.53 and an absolute freqeuncy of 10. here are all the values: subcorpus: I.a.C. ; normalized frequency: 154 ; absolute frequency: 7.1677914824296. subcorpus: I.d.C. ; normalized frequency: 10 ; absolute frequency: 1.52975370965275. subcorpus: II.d.C. ; normalized frequency: 5 ; absolute frequency: 13.0890052356021. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

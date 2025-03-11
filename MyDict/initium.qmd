@@ -1,0 +1,199 @@
+---
+title: "initium"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-110-105-116-105-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>initĭum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Começo, princípio, início, origem &ensp; <small>Cés. B. Gal. I. 43. 4.</small> <br> <b>2</b> &ensp; <small>I-No pl.</small> &ensp; Princípios &ensp; <small>de uma ciência Cíc. Ac. 2. 116.</small> <br> <b>3</b> &ensp; <small>I-No pl.</small> &ensp; Princípio, origem &ensp; <small>Cíc. AI.:. 2. 29.</small> <br> <b>4</b> &ensp; <small>I-No pl.</small> &ensp; Auspícios &ensp; <small>Q. Cúrc. 5. 9. 4.</small> <br> <b>5</b> &ensp; <small>I-No pl.</small> &ensp; Mistérios &ensp; <small>de Ceres, Baco, etc. Cíc. Leg. 2, 36.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Initium</b> -<b>ii</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; principio. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Initium</b> <b>ij</b>   <p> <b>1</b> &ensp; ho principio </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/107903 ' target="_blank"> http://lila-erc.eu/data/id/lemma/107903 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> endoitiom, endoitium, initiom <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ĭnĭtĭum 
+ ĭnĭtĭī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx105-110-105-116-105-117-109xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-110-105-116-105-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword initium here are all the values plotted: collocate: bellum; scoreSUBST: 2. collocate: Caesar; scoreSUBST: 0. collocate: ab; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-110-105-116-105-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword initium here are all the values plotted: collocate: bellum; scoreADJ: 0. collocate: Caesar; scoreADJ: 0. collocate: ab; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-110-105-116-105-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword initium here are all the values plotted: collocate: bellum; scoreVERBO: 0. collocate: Caesar; scoreVERBO: 0. collocate: ab; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-110-105-116-105-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword initium here are all the values plotted: collocate: bellum; scoreADV: 0. collocate: Caesar; scoreADV: 0. collocate: ab; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-110-105-116-105-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword initium here are all the values plotted: collocate: bellum; scoreFUNC: 0. collocate: Caesar; scoreFUNC: 0. collocate: ab; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> vellem ab <b>initio</b> <br> <small> Cic.Att.2.5.2 <br> eu queria que fosse desde o princípio. <small> [JDD] </small> </small> </p>
+; <p> ubi neutri transeundi <b>initium</b> faciunt secundiore equitum proelio nostris Caesar suos in castra reduxit <br> <small> Caes.Gal.2.9.2 <br> Como nem um nem outro tomam a iniciativa de atravessar, sendo mais favorável para os nossos a batalha dos cavaleiros, César reconduziu os seus para o acampamento. <small> [JDD] </small> </small> </p>
+; <p> non is est Antonius nam si esset non commisisset ut ei senatus tamquam Hannibali <b>initio</b> belli Punici denuntiaret ne oppugnaret Saguntum <br> <small> Cic.Phil.6.6.1 <br> Antônio não é esse; pois, se fosse, não teria merecido que o senado lhe ordenasse como, no início da guerra púnica, ordenou a Aníbal que não atacasse Sagunto. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-110-105-116-105-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 12.06 and an absolute frequency of 13. The Suetonius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 15 ; absolute frequency: 5.66508044414231. subcorpus: Cicero ; normalized frequency: 27 ; absolute frequency: 1.68199147790985. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 13 ; absolute frequency: 12.0582506261015. subcorpus: Seneca ; normalized frequency: 15 ; absolute frequency: 2.79949982269834. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-110-105-116-105-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 7.3 and an absolute frequency of 30. The Prosa.histórica subcorpus follows, with a normalized frequency of 7.3 and an absolute frequency of 30. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 30 ; absolute frequency: 7.30300153363032. subcorpus: Prosa.filosófica ; normalized frequency: 17 ; absolute frequency: 2.80061283998616. subcorpus: Prosa.oratória ; normalized frequency: 16 ; absolute frequency: 1.53620154964331. subcorpus: Prosa.epistolográfica ; normalized frequency: 9 ; absolute frequency: 2.38480086912743. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-110-105-116-105-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The I.a.C. subcorpus follows, with a normalized frequency of 2.56 and an absolute frequency of 55. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 55 ; absolute frequency: 2.55992552943914. subcorpus: I.d.C. ; normalized frequency: 16 ; absolute frequency: 2.44760593544439. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

@@ -1,0 +1,218 @@
+---
+title: "cognosco"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-111-103-110-111-115-99-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>cognōram</b> <br> <small>= cognovèram.</small> <br> <small></small> 
+ <b>cognōscō</b> <b>-is</b> <b>-ère</b> <b>-gnóví, -gnìtum</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói -se com acus., com acus. e inf., com acus. e per; com abl., com prep. ex, de, ab, ou sem prep. Em Cícero e nos demais escritores são frequentes as formas contratas como: cognosti, cognoram, cognoras, cognoro, cognorim, cognossem, cognosse.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Conhecer pelos sentidos, ver, ser informado, saber, tomar conhecimento &ensp; <small>Cíc. Fam. 1, 5b, 1; Cés. B. Gal. 1, 22, 4.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Conhecer por experiência, aprender, saber, tomar conhecimento &ensp; <small>Cés. B. Gal. 7, 1, I; Cés. B. Gal. 2, 26, 5.</small> <br> <b>3</b> &ensp; <small>I-Daí</small> &ensp; Reconhecer &ensp; <small>Cíc. Clu. 106.</small> <br> <b>4</b> &ensp; <small>II-Empregos especiais: na língua jurídica:</small> &ensp; Tomar conhecimento de uma causa, fazer uma investigação, investigar judicialmente, julgar &ensp; <small>Cíc. Scaur. 24.</small> <br> <b>5</b> &ensp; <small>III-Intransitivamente: Cíc. Verr. 2, 26.</small> &ensp; Ter relações com, ter ligação ilícita com &ensp; <small>Ov. Her. 6, 133.</small> </p> 
+ <b>cognōsse</b> <br> <small>= cognovísse.</small> <br> <small></small> 
+ <b>cognōsti</b> <br> <small>= cognovísti.</small> <br> <small></small> 
+ <b>cognōvī</b> <br> <small>perf. de cognósco.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Cognosco</b> -<b>is</b> -<b>gnovi</b> -<b>gnitum</b> -<b>cere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; conhecer, entender, saber. <br> <b>2</b> &ensp; conhecer, devaçar, inquirir de huma causa. <br> <b>3</b> &ensp; asseverar em juizo, que conhece alguem. </p>
+
+
+
+
+#### Velez
+
+<b>Cognosco</b> -<b>is</b>   <p> <b>1</b> &ensp; conhecer de novo, o que nunca temos visto; <br> <b>2</b> &ensp; entender, certificar-se, ou inquirir </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>quas res gesserit, cognoscite &ensp; <small><small>i, attentè audire</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Cognosco</b> <b>is</b> <b>ui</b> <b>itum</b>   <p> <b>1</b> &ensp; conhecer de nouo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/94738 ' target="_blank"> http://lila-erc.eu/data/id/lemma/94738 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> cognosco </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> cognoscere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> cognoscet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> cognoui, cognoi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> cognitum, cognotum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> cogniturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+cognoscō 
+ cognoscĕre 
+ cognōvī 
+ cognĭtum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-111-103-110-111-115-99-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-111-103-110-111-115-99-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword cognosco here are all the values plotted: collocate: Caesar; scoreSUBST: 0. collocate: consilium; scoreSUBST: 2. collocate: mitto; scoreSUBST: 0. collocate: causa; scoreSUBST: 2. collocate: res; scoreSUBST: 2. collocate: suus; scoreSUBST: 0. collocate: multus; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-111-103-110-111-115-99-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword cognosco here are all the values plotted: collocate: Caesar; scoreADJ: 0. collocate: consilium; scoreADJ: 0. collocate: mitto; scoreADJ: 0. collocate: causa; scoreADJ: 0. collocate: res; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: multus; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-111-103-110-111-115-99-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword cognosco here are all the values plotted: collocate: Caesar; scoreVERBO: 0. collocate: consilium; scoreVERBO: 0. collocate: mitto; scoreVERBO: 2. collocate: causa; scoreVERBO: 0. collocate: res; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: multus; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-111-103-110-111-115-99-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword cognosco here are all the values plotted: collocate: Caesar; scoreADV: 0. collocate: consilium; scoreADV: 0. collocate: mitto; scoreADV: 0. collocate: causa; scoreADV: 0. collocate: res; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: multus; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-111-103-110-111-115-99-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword cognosco here are all the values plotted: collocate: Caesar; scoreFUNC: 0. collocate: consilium; scoreFUNC: 0. collocate: mitto; scoreFUNC: 0. collocate: causa; scoreFUNC: 0. collocate: res; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: multus; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> nunc <b>cognosce</b> rem <br> <small> Cic.Att.1.1.3 <br> Agora inteira-te da situação. <small> [JDD] </small> </small> </p>
+; <p> et viderunt eos abeuntes et <b>cognoverunt</b> multi <br> <small> Vulg.Marc.6.33 <br> E muitos os viram indo e os reconheceram. <small> [JDD] </small> </small> </p>
+; <p> sermonem tuum et Pompei <b>cognovi</b> ex tuis litteris <br> <small> Cic.Att.3.8.3 <br> Soube por tua carta de tua conversa com Pompeu. <small> [JDD] </small> </small> </p>
+; <p> introductus Statilius <b>cognouit</b> et signum et manum suam <br> <small> Cic.Catil.3.10.15 <br> Mandado entrar, Estatílio reconheceu tanto o sinete como sua letra. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> tum ostendi tabellas Lentulo et quaesiui <b>cognosceret</b> ne signum <br> <small> Cic.Catil.3.10.17 <br> Mostrei então as tabuinhas a Lêntulo e perguntei se ele reconhecia o sinete. <small> [JDD] </small> </small> </p>
+; <p> <b>cognoscite</b> Quirites non enim hoc sine causa quaeri uidetur <br> <small> Cic.Man.22 <br> Ficai sabendo, Quirites; pois isso não parece ser perguntado sem motivo. <small> [JDD] </small> </small> </p>
+; <p> ea re <b>cognita</b> rursus in nonas Februarias consilium caedis transtulerant <br> <small> Sal.Cat.18.6 <br> Descoberto isso, tranferiram de novo o projeto de assassinato para as nonas de fevereiro [5 de fevereiro] <small>  </small> </small> </p>
+; <p> qua consuetudine <b>cognita</b> Caesar ne grauiori bello occurreret maturius quam consuerat ad exercitum proficiscitur <br> <small> Caes.Gal.4.6.1 <br> Conhecido esse costume, César, para não ir ao encontro de uma guerra mais séria, parte para o seu exército mais cedo do que costumava. <small> [JDD] </small> </small> </p>
+; <p> <b>cognita</b> Caesar causa reperit ab Suebis auxilia missa esse Ubiorum satisfactionem accipit aditus uiasque in Suebos perquirit <br> <small> Caes.Gal.6.9.8 <br> Conhecida a causa, César descobre que foram enviadas tropas auxiliares pelos suevos; aceita a satisfação dos úbios e busca saber as entradas e os caminhos para os suevos. <small> [JDD] </small> </small> </p>
+; <p> postea Piso in Citeriorem Hispaniam quaestor pro praetore missus est adnitente Crasso quod eum infestum inimicum Cn. Pompeio <b>cognouerat</b> <br> <small> Sal.Cat.19.1 <br> Depois disso, Pisão, questor, foi enviado como propretor para a Hispânia citerior, com Cássio apoiando, porque sabia que esse era um encarniçado inimigo de Cneu Pompeu. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-111-103-110-111-115-99-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 23.42 and an absolute frequency of 62. The Phaedrus subcorpus follows, with a normalized frequency of 4.55 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 62 ; absolute frequency: 23.4156658357882. subcorpus: Cicero ; normalized frequency: 83 ; absolute frequency: 5.17056639505619. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 20 ; absolute frequency: 18.5511548093869. subcorpus: Seneca ; normalized frequency: 5 ; absolute frequency: 0.933166607566115. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-111-103-110-111-115-99-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 20.2 and an absolute frequency of 83. The Poesia.épica subcorpus follows, with a normalized frequency of 1.93 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 83 ; absolute frequency: 20.2049709097106. subcorpus: Prosa.filosófica ; normalized frequency: 14 ; absolute frequency: 2.30638704469449. subcorpus: Prosa.oratória ; normalized frequency: 51 ; absolute frequency: 4.89664243948806. subcorpus: Prosa.epistolográfica ; normalized frequency: 23 ; absolute frequency: 6.09449110999232. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-111-103-110-111-115-99-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 13.48 and an absolute frequency of 6. The I.a.C. subcorpus follows, with a normalized frequency of 7.73 and an absolute frequency of 166. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 1.22 and an absolute freqeuncy of 8. here are all the values: subcorpus: I.a.C. ; normalized frequency: 166 ; absolute frequency: 7.72632068885269. subcorpus: I.d.C. ; normalized frequency: 8 ; absolute frequency: 1.2238029677222. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+:::
+

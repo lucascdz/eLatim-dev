@@ -1,0 +1,238 @@
+---
+title: "ipse"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-112-115-101xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>eapse</b> <b>eampse</b> <br> <small>formas antigas de abla. e de acus. de pron. ipse Plaut. Aul. 815.</small> <br> <small></small> 
+ <b>eōpse</b> <br> <small>= ipso Plaut. Curc. 538.</small> <br> <small></small> 
+ <b>eūmpse</b> <br> <small>= ipsum, v. is.</small> <br> <small></small> 
+ <b>ipse</b> <b>-a</b> <b>-um</b> <br> <small>pron. demonstr.</small> <br> <small>Obs.: Tem um valor intensivo e serve para pôr em evidência uma pessoa ou coisa, ou para a contrapor a outras.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; O próprio, a própria, ele próprio, ela própria, eu próprio, tu próprio: &ensp; <small></small> <br> <b>2</b> &ensp; <small></small> &ensp; Exatamente, precisamente &ensp; <small>junto a um numeral, geralmente:</small> <br> <b>3</b> &ensp; <small></small> &ensp; Por si mesmo, espontaneamente &ensp; <small>Cíc. Div. J. 74.</small> <br> <b>4</b> &ensp; <small></small> &ensp; Por si só &ensp; <small>Cíc. Br. 289.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>ipse Caesar Cíc. Fam. 6. 10, 2 «o próprio César». <br> <br><b>2</b><br>triennio ipso minor Cíc. Br. 161 «justamente três anos mais moço»: Cíc. Verr. 5. 160. </p> 
+ <b>ipsĕmet</b> <br> <small>pron. demonstr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; O próprio: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>ipsimet Cíc. Verr. 3, 3 «nós mesmos». </p> 
+ <b>ipsi</b> <br> <small>gen. arc. de ipse.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Eampse</b> <br> <small>Plaut. por Eam ipsam.</small> 
+ <b>Eapse</b> <br> <small>Plaut. por Ea ipsa.</small> 
+ <b>Ipse</b> <b>ipsa</b> <b>ipsum</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; mesmo, mesma. </p>
+
+
+
+
+#### Velez
+
+<b>Ipse</b> -<b>a</b> -<b>um</b> <br> <small>Ipsissimus superl. apud Plaut.</small>   <p> <b>1</b> &ensp; o mesmo <br> <b>2</b> &ensp; <small>ipsi in plur. pro integri, vel toti</small> &ensp; <small>apud Cic.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>ego ipse, tu ipse, ille ipse <br> ipsemet &ensp; <small><small>id est, ipse per se, & non per alios</small></small> <br> <br><b>2</b><br>triginta dies erant ipsi, quum, & c </p>
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/108945 ' target="_blank"> http://lila-erc.eu/data/id/lemma/108945 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> 1ª classe, pronominal (tema em -a/o-) <br>
+<small> outras grafias: </small> eapse, ipsemet, ipsepte, isse <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ipsĕ
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-112-115-101xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ipse here are all the values plotted: collocate: sui; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: tu; scoreSUBST: 0. collocate: hic; scoreSUBST: 0. collocate: locus; scoreSUBST: 2. collocate: is; scoreSUBST: 0. collocate: cum; scoreSUBST: 0. collocate: per; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: ille; scoreSUBST: 0. collocate: quidem; scoreSUBST: 0. collocate: ab; scoreSUBST: 0. collocate: natura; scoreSUBST: 2. collocate: enim; scoreSUBST: 0. collocate: tamen; scoreSUBST: 0. collocate: res; scoreSUBST: 1. collocate: ex; scoreSUBST: 0. collocate: dies; scoreSUBST: 2. collocate: denique; scoreSUBST: 0. collocate: uero; scoreSUBST: 0. collocate: loquor; scoreSUBST: 0. collocate: iubeo; scoreSUBST: 0. collocate: propter; scoreSUBST: 0. collocate: Iuppiter; scoreSUBST: 0. collocate: uictoria; scoreSUBST: 2. collocate: consolor; scoreSUBST: 0. collocate: sicut; scoreSUBST: 0. collocate: cupio; scoreSUBST: 0. collocate: delecto; scoreSUBST: 0. collocate: secedo; scoreSUBST: 0. collocate: uiscus; scoreSUBST: 2. collocate: mundus; scoreSUBST: 2. collocate: fruor; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-112-115-101xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ipse here are all the values plotted: collocate: sui; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: tu; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: locus; scoreADJ: 0. collocate: is; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: per; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: ille; scoreADJ: 0. collocate: quidem; scoreADJ: 0. collocate: ab; scoreADJ: 0. collocate: natura; scoreADJ: 0. collocate: enim; scoreADJ: 0. collocate: tamen; scoreADJ: 0. collocate: res; scoreADJ: 0. collocate: ex; scoreADJ: 0. collocate: dies; scoreADJ: 0. collocate: denique; scoreADJ: 0. collocate: uero; scoreADJ: 0. collocate: loquor; scoreADJ: 0. collocate: iubeo; scoreADJ: 0. collocate: propter; scoreADJ: 0. collocate: Iuppiter; scoreADJ: 0. collocate: uictoria; scoreADJ: 0. collocate: consolor; scoreADJ: 0. collocate: sicut; scoreADJ: 0. collocate: cupio; scoreADJ: 0. collocate: delecto; scoreADJ: 0. collocate: secedo; scoreADJ: 0. collocate: uiscus; scoreADJ: 0. collocate: mundus; scoreADJ: 0. collocate: fruor; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-112-115-101xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ipse here are all the values plotted: collocate: sui; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: tu; scoreVERBO: 0. collocate: hic; scoreVERBO: 0. collocate: locus; scoreVERBO: 0. collocate: is; scoreVERBO: 0. collocate: cum; scoreVERBO: 0. collocate: per; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: ille; scoreVERBO: 0. collocate: quidem; scoreVERBO: 0. collocate: ab; scoreVERBO: 0. collocate: natura; scoreVERBO: 0. collocate: enim; scoreVERBO: 0. collocate: tamen; scoreVERBO: 0. collocate: res; scoreVERBO: 0. collocate: ex; scoreVERBO: 0. collocate: dies; scoreVERBO: 0. collocate: denique; scoreVERBO: 0. collocate: uero; scoreVERBO: 0. collocate: loquor; scoreVERBO: 2. collocate: iubeo; scoreVERBO: 2. collocate: propter; scoreVERBO: 0. collocate: Iuppiter; scoreVERBO: 0. collocate: uictoria; scoreVERBO: 0. collocate: consolor; scoreVERBO: 2. collocate: sicut; scoreVERBO: 0. collocate: cupio; scoreVERBO: 2. collocate: delecto; scoreVERBO: 2. collocate: secedo; scoreVERBO: 2. collocate: uiscus; scoreVERBO: 0. collocate: mundus; scoreVERBO: 0. collocate: fruor; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-112-115-101xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ipse here are all the values plotted: collocate: sui; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: tu; scoreADV: 0. collocate: hic; scoreADV: 0. collocate: locus; scoreADV: 0. collocate: is; scoreADV: 0. collocate: cum; scoreADV: 0. collocate: per; scoreADV: 0. collocate: in; scoreADV: 0. collocate: ille; scoreADV: 0. collocate: quidem; scoreADV: 2. collocate: ab; scoreADV: 0. collocate: natura; scoreADV: 0. collocate: enim; scoreADV: 2. collocate: tamen; scoreADV: 2. collocate: res; scoreADV: 0. collocate: ex; scoreADV: 0. collocate: dies; scoreADV: 0. collocate: denique; scoreADV: 2. collocate: uero; scoreADV: 1. collocate: loquor; scoreADV: 0. collocate: iubeo; scoreADV: 0. collocate: propter; scoreADV: 0. collocate: Iuppiter; scoreADV: 0. collocate: uictoria; scoreADV: 0. collocate: consolor; scoreADV: 0. collocate: sicut; scoreADV: 0. collocate: cupio; scoreADV: 0. collocate: delecto; scoreADV: 0. collocate: secedo; scoreADV: 0. collocate: uiscus; scoreADV: 0. collocate: mundus; scoreADV: 0. collocate: fruor; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-112-115-101xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ipse here are all the values plotted: collocate: sui; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: tu; scoreFUNC: 0. collocate: hic; scoreFUNC: 0. collocate: locus; scoreFUNC: 0. collocate: is; scoreFUNC: 0. collocate: cum; scoreFUNC: 20. collocate: per; scoreFUNC: 20. collocate: in; scoreFUNC: 20. collocate: ille; scoreFUNC: 0. collocate: quidem; scoreFUNC: 0. collocate: ab; scoreFUNC: 20. collocate: natura; scoreFUNC: 0. collocate: enim; scoreFUNC: 0. collocate: tamen; scoreFUNC: 0. collocate: res; scoreFUNC: 0. collocate: ex; scoreFUNC: 10. collocate: dies; scoreFUNC: 0. collocate: denique; scoreFUNC: 0. collocate: uero; scoreFUNC: 0. collocate: loquor; scoreFUNC: 0. collocate: iubeo; scoreFUNC: 0. collocate: propter; scoreFUNC: 20. collocate: Iuppiter; scoreFUNC: 0. collocate: uictoria; scoreFUNC: 0. collocate: consolor; scoreFUNC: 0. collocate: sicut; scoreFUNC: 20. collocate: cupio; scoreFUNC: 0. collocate: delecto; scoreFUNC: 0. collocate: secedo; scoreFUNC: 0. collocate: uiscus; scoreFUNC: 0. collocate: mundus; scoreFUNC: 0. collocate: fruor; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> id <b>ipsum</b> <br> <small> Cic.Att.4.18.2 <br> Mesmo isso. <small> [JDD] </small> </small> </p>
+; <p> te <b>ipse</b> antecessisti <br> <small> Sen.Ep.15.10 <br> A ti próprio ultrapassaste? <small> [JDD] </small> </small> </p>
+; <p> sed hoc <b>ipse</b> viderit <br> <small> Cic.Att.5.11.2 <br> Mas isso ele próprio verá. <small> [JDD] </small> </small> </p>
+; <p> immo uero <b>ipse</b> praesens <br> <small> Cic.Ver.2.4.92.8 <br> Na verdade não, ele próprio, aqui presente. <small> [JDD] </small> </small> </p>
+; <p> ab <b>ipsa</b> messe discedam <br> <small> Sen.Ep.22.9 <br> Vou me retirar da própria colheita? <small> [JDD] </small> </small> </p>
+; <p> <b>ipsam</b> hostis sui uictoriam uicit <br> <small> Sen.Ep.9.19 <br> Venceu a própria vitória de seu inimigo. <small> [JDD] </small> </small> </p>
+; <p> se enim <b>ipso</b> contentus est <br> <small> Sen.Ep.9.19 <br> pois ele se contenta consigo mesmo;[*] <small>  </small> </small> </p>
+; <p> cum <b>ipso</b> nihil eram locutus <br> <small> Cic.Att.2.1.12 <br> Com ele eu não tinha falado nada. <small> [JDD] </small> </small> </p>
+; <p> et <b>ipsos</b> benedixit et iussit adponi <br> <small> Vulg.Marc.8.7 <br> também os abençoou e ordenou que fossem distribuídos. <small> [JDD] </small> </small> </p>
+; <p> in me enim <b>ipsum</b> peccavi vehementius <br> <small> Cic.Att.3.15.4 <br> pois contra mim próprio cometi faltas mais graves. <small> [JDD] </small> </small> </p>
+; <p> me enim <b>ipsum</b> multo magis accuso <br> <small> Cic.Att.3.15.4 <br> Pois eu me acuso muito mais a mim mesmo. <small> [JDD] </small> </small> </p>
+; <p> recede in te <b>ipsum</b> quantum potes <br> <small> Sen.Ep.7.8 <br> Recolhe-te em ti mesmo o quanto podes;[*] <small>  </small> </small> </p>
+; <p> atque utinam <b>ipse</b> Varro incumbat in causam <br> <small> Cic.Att.3.15.3 <br> E oxalá o próprio Varrão se encarregue da causa! <small> [JDD] </small> </small> </p>
+; <p> hoc enim <b>ipsum</b> philosophiae seruire libertas est <br> <small> Sen.Ep.8.7 <br> pois ser escravo da filosofia é precisamente a liberdade. <small> [JDD] </small> </small> </p>
+; <p> nam etiam malo multi digni sicut <b>ipse</b> <br> <small> Cic.Phil.3.22.2 <br> Pois há também muitos dignos de castigo, como ele próprio. <small> [JDD] </small> </small> </p>
+; <p> spectarem curiam intuerer forum caelum denique testarer <b>ipsum</b> <br> <small> Cic.Deiot.6 <br> Eu contemplaria a cúria, dirigiria meu olhar ao foro e, finalmente, tomaria o próprio céu por testemunha. <small> [JDD] </small> </small> </p>
+; <p> nam de <b>ipso</b> casu nescio an illud melius <br> <small> Cic.Att.4.8A.2 <br> Pois a respeito do caso em si, não sei se aquilo foi melhor. <small> [JDD] </small> </small> </p>
+; <p> licet <b>ipsa</b> sileas totus in uultu est dolor <br> <small> Sen.Ag.128 <br> Ainda que tu própria te cales, toda a tua dor está em teu rosto. <small> [JDD] </small> </small> </p>
+; <p> res loquitur <b>ipsa</b> iudices quae semper ualet plurimum <br> <small> Cic.Mil.53 <br> O fato, que sempre tem mais valor, fala por si mesmo, juízes. <small> [JDD] </small> </small> </p>
+; <p> Contempsit illa , tuta quippe <b>ipso</b> loco . erat <br> <small> Phaed.1.28 <br> Aquela desdenhou, segura certamente em seu próprio local. <small> [JDD] </small> </small> </p>
+; <p> aut hoc <b>ipsum</b> succedit in locum uoluptatium nullis egere <br> <small> Sen.Ep.12.5 <br> ou isso mesmo substitui o lugar dos prazeres, não ter necessidade de nenhum. <small> [JDD] </small> </small> </p>
+; <p> sed tamen ista <b>ipsa</b> me varietas sermonum opinionumque delectat <br> <small> Cic.Att.2.15.1 <br> mas, mesmo assim, essa mesma variedade de conversas e de opiniões me deleita. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> etenim Mars <b>ipse</b> ex acie fortissimum quemque pignerari solet <br> <small> Cic.Phil.14.32.5 <br> Pois o próprio Marte costuma tomar da batalha como prenda os mais corajosos. <small> [JDD] </small> </small> </p>
+; <p> <b>ipsum</b> cupivit sed ille se in interiora aedium Sullae <br> <small> Cic.Att.4.3.3 <br> quis a ele também, mas ele † se refugiou no interior da casa de Sula †. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> sciunt enim <b>ipsos</b> omnia habere communia et quidem magis aduersa <br> <small> Sen.Ep.6.3 <br> Porque sabem que eles têm todas as coisas em comum, e mais ainda as adversas. <small> [JDD] </small> </small> </p>
+; <p> iam fructu artis suae fruitur <b>ipsa</b> fruebatur arte cum pingeret <br> <small> Sen.Ep.9.7 <br> Nesse momento ele usufrui o fruto de sua arte: enquanto pintava usufruia a própria arte. <small> [JDD] </small> </small> </p>
+; <p> <b>ipse</b> cum primum pabuli copia esse inciperet ad exercitum uenit <br> <small> Caes.Gal.2.2.2 <br> Ele próprio, assim que começava a haver abundância de pastagem, vem até o exército. <small> [JDD] </small> </small> </p>
+; <p> neque uero illum similiter atque <b>ipse</b> eram commotum esse uidi <br> <small> Cic.Phil.1.9.8 <br> E, na verdade, não o vi abalado como eu próprio estava. <small> [JDD] </small> </small> </p>
+; <p> non est enim in rebus uitium sed in <b>ipso</b> animo <br> <small> Sen.Ep.17.12 <br> pois o vício não está nas coisas, mas no próprio espírito. <small> [JDD] </small> </small> </p>
+; <p> ergo quamuis se <b>ipso</b> contentus sit amicis illi opus est <br> <small> Sen.Ep.9.15 <br> Portanto, ainda que se contente consigo mesmo, ele precisa de amigos. <small> [JDD] </small> </small> </p>
+; <p> tu uero omnia cum amico delibera sed de <b>ipso</b> prius <br> <small> Sen.Ep.3.2 <br> Na verdade, examina todas as coisas com o amigo, mas, antes de tudo, a ele próprio. <small> [JDD] </small> </small> </p>
+; <p> nemo ad humanum sanguinem propter <b>ipsum</b> uenit aut admodum pauci <br> <small> Sen.Ep.14.9 <br> Ninguém chega ao sangue humano por ele mesmo, ou muito poucos. <small> [JDD] </small> </small> </p>
+; <p> haec dum nostri conligunt omnia diligentius rex <b>ipse</b> e manibus effugit <br> <small> Cic.Man.22 <br> Enquanto os nossos recolhiam com muito zelo todas essas coisas, o próprio rei escapou de suas mãos. <small> [JDD] </small> </small> </p>
+; <p> quem ita adfectum mea aerumna esse arbitror ut te <b>ipsum</b> consolari nemo possit <br> <small> Cic.Att.3.11.2 <br> Penso que és tão afetado por meu sofrimento que ninguém pode consolar-te a ti próprio. <small> [JDD] </small> </small> </p>
+; <p> saepe <b>ipsa</b> plebs aut dominandi studio permota aut superbia magistratuum armata a patribus secessit <br> <small> Sal.Cat.33.3 <br> Muitas vezes, a própria plebe, ou movida pelo desejo de exercer o poder ou por causa da arrogância dos magistrados, separou-se armada dos senadores. <small> [JDD] </small> </small> </p>
+; <p> mundum reuelli sedibus totum suis <b>ipsos</b>que rupto crederes caelo deos decidere et atrum rebus induci chaos <br> <small> Sen.Ag.485 <br> Crerias que o mundo todo é arrancado de suas bases, que os próprios deuses, arrebentado o céu, caem e que o tenebroso caos se introduz nas coisas. <small> [JDD] </small> </small> </p>
+; <p> nil mortalibus ardui est caelum <b>ipsum</b> petimus stultitia neque per nostrum patimur scelus iracunda Iouem ponere fulmina <br> <small> Hor.Carm.1.3.37 <br> Nada de árduo existe para os mortais: em nossa insensatez, buscamos o próprio ceu e não permitimos, pelo nosso crime, que Júpiter deponha seus coléricos raios. <small> [JDD] </small> </small> </p>
+; <p> illae pestes non minus graues sunt famem dico et sitim et praecordiorum subpurationes et febrem uiscera <b>ipsa</b> torrentem <br> <small> Sen.Ep.14.6 <br> Aquelas outras calamidades nao são menos graves - refiro-me à fome e à sede e às supurações das vísceras e à febre que abrasa as próprias entranhas - <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-112-115-101xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 51.14 and an absolute frequency of 274. The Cicero subcorpus follows, with a normalized frequency of 49.09 and an absolute frequency of 788. the subcorpus with the least normalized frequency is Horatius with the normalized value of 15.98 and an absolute freqeuncy of 18. here are all the values: subcorpus: Caesar ; normalized frequency: 103 ; absolute frequency: 38.9002190497772. subcorpus: Cicero ; normalized frequency: 788 ; absolute frequency: 49.0892327627022. subcorpus: Horatius ; normalized frequency: 18 ; absolute frequency: 15.9843708374034. subcorpus: Ovidius ; normalized frequency: 18 ; absolute frequency: 30.885380919698. subcorpus: Phaedrus ; normalized frequency: 12 ; absolute frequency: 18.2177015333232. subcorpus: Sallustius ; normalized frequency: 41 ; absolute frequency: 38.0298673592431. subcorpus: Seneca ; normalized frequency: 274 ; absolute frequency: 51.1375300946231. subcorpus: Suetonius ; normalized frequency: 3 ; absolute frequency: 33.0760749724366. subcorpus: Tacitus ; normalized frequency: 10 ; absolute frequency: 34.3288705801579. subcorpus: Vergilius ; normalized frequency: 16 ; absolute frequency: 30.8880308880309. subcorpus: Hieronymus ; normalized frequency: 14 ; absolute frequency: 31.4536059312514'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-112-115-101xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 54.04 and an absolute frequency of 328. The Prosa.filosófica subcorpus follows, with a normalized frequency of 54.04 and an absolute frequency of 328. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 16.83 and an absolute freqeuncy of 20. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 157 ; absolute frequency: 38.219041359332. subcorpus: Prosa.filosófica ; normalized frequency: 328 ; absolute frequency: 54.0353536185565. subcorpus: Prosa.oratória ; normalized frequency: 522 ; absolute frequency: 50.1185755571131. subcorpus: Prosa.epistolográfica ; normalized frequency: 160 ; absolute frequency: 42.3964598955987. subcorpus: Poesia.lírica ; normalized frequency: 20 ; absolute frequency: 16.8251030537562. subcorpus: Poesia.didática ; normalized frequency: 28 ; absolute frequency: 23.750954279413. subcorpus: Poesia.trágica ; normalized frequency: 52 ; absolute frequency: 45.1702571230021. subcorpus: Poesia.épica ; normalized frequency: 16 ; absolute frequency: 30.8880308880309. subcorpus: Prosa.ficcional ; normalized frequency: 14 ; absolute frequency: 31.4536059312514'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-112-115-101xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 46.2 and an absolute frequency of 302. The I.a.C. subcorpus follows, with a normalized frequency of 45.05 and an absolute frequency of 968. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 31.45 and an absolute freqeuncy of 14. here are all the values: subcorpus: I.a.C. ; normalized frequency: 968 ; absolute frequency: 45.0546893181289. subcorpus: I.d.C. ; normalized frequency: 302 ; absolute frequency: 46.1985620315129. subcorpus: II.d.C. ; normalized frequency: 13 ; absolute frequency: 34.0314136125654. subcorpus: IV.d.C. ; normalized frequency: 14 ; absolute frequency: 31.4536059312514'}
+
+
+:::
+

@@ -1,0 +1,213 @@
+---
+title: "bene"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx98-101-110-101xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>bene</b> <br> <small>adv.</small> <br> <small>Obs.: comp. melìus, superl.: optìme.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio e geral:</small> &ensp; bem. Junto a verbos e advérbios, reforçando-lhes o sentido &ensp; <small>Cíc. C. M. 57; Cic. Sest. 23; Verr. 2, 169.</small> <br> <b>2</b> &ensp; <small>II-Em expressões idiomáticas</small> &ensp; <small></small> <br> <b>3</b> &ensp; <small>II-Em expressões idiomáticas</small> &ensp; <small></small> <br> <b>4</b> &ensp; <small>II-Em expressões idiomáticas-Nas cartas:</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>bene agis Cíc. Verr. 3, 135 “ages bem”. <br> <br><b>3</b><br>bene dicere Cíc. Sest. 110 “falar bem” de alguém . <br> <br><b>4</b><br>si vales bene est ego valeo, ou em abreviatura s.v.b. e.e.v “se estás passando bem, está bem, eu também estou”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Bene</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; bem, excellentemente. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>bene mane &ensp; <small><small>Cic</small></small> &ensp; <small>Muito de madrugada</small> <br> bene nummatus &ensp; <small><small>Cic</small></small> &ensp; <small>Muito rico</small> </p>
+
+
+
+
+#### Velez
+
+<b>Bene</b>   <p> <b>1</b> &ensp; bem, ou muito </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>bene nummatus &ensp; <small>muito rico</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Bene</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; bem </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/91473 ' target="_blank"> http://lila-erc.eu/data/id/lemma/91473 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+bĕnĕ 
+ mĕlĭus 
+ optĭmē
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx98-101-110-101xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx98-101-110-101xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword bene here are all the values plotted: collocate: gero; scoreSUBST: 0. collocate: mereor; scoreSUBST: 0. collocate: uiuo; scoreSUBST: 0. collocate: spero; scoreSUBST: 0. collocate: nosco; scoreSUBST: 0. collocate: ualeo; scoreSUBST: 0. collocate: de; scoreSUBST: 0. collocate: ago; scoreSUBST: 0. collocate: facio; scoreSUBST: 0. collocate: tam; scoreSUBST: 0. collocate: publicus; scoreSUBST: 0. collocate: habeo; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx98-101-110-101xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword bene here are all the values plotted: collocate: gero; scoreADJ: 0. collocate: mereor; scoreADJ: 0. collocate: uiuo; scoreADJ: 0. collocate: spero; scoreADJ: 0. collocate: nosco; scoreADJ: 0. collocate: ualeo; scoreADJ: 0. collocate: de; scoreADJ: 0. collocate: ago; scoreADJ: 0. collocate: facio; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: publicus; scoreADJ: 2. collocate: habeo; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx98-101-110-101xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword bene here are all the values plotted: collocate: gero; scoreVERBO: 3. collocate: mereor; scoreVERBO: 2. collocate: uiuo; scoreVERBO: 2. collocate: spero; scoreVERBO: 2. collocate: nosco; scoreVERBO: 2. collocate: ualeo; scoreVERBO: 2. collocate: de; scoreVERBO: 0. collocate: ago; scoreVERBO: 2. collocate: facio; scoreVERBO: 2. collocate: tam; scoreVERBO: 0. collocate: publicus; scoreVERBO: 0. collocate: habeo; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx98-101-110-101xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword bene here are all the values plotted: collocate: gero; scoreADV: 0. collocate: mereor; scoreADV: 0. collocate: uiuo; scoreADV: 0. collocate: spero; scoreADV: 0. collocate: nosco; scoreADV: 0. collocate: ualeo; scoreADV: 0. collocate: de; scoreADV: 0. collocate: ago; scoreADV: 0. collocate: facio; scoreADV: 0. collocate: tam; scoreADV: 2. collocate: publicus; scoreADV: 0. collocate: habeo; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx98-101-110-101xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword bene here are all the values plotted: collocate: gero; scoreFUNC: 0. collocate: mereor; scoreFUNC: 0. collocate: uiuo; scoreFUNC: 0. collocate: spero; scoreFUNC: 0. collocate: nosco; scoreFUNC: 0. collocate: ualeo; scoreFUNC: 0. collocate: de; scoreFUNC: 20. collocate: ago; scoreFUNC: 0. collocate: facio; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: publicus; scoreFUNC: 0. collocate: habeo; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> nosti <b>optime</b> homines <br> <small> Cic.Lig.32 <br> conheces muito bem esses homens -. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> rem <b>optime</b> ductu suo gerere <br> <small> Cic.Man.61 <br> E conduzir otimamente a tarefa sob seu comando? <small> [JDD] </small> </small> </p>
+; <p> licet sabbatis <b>bene</b> facere an male <br> <small> Vulg.Marc.3.4 <br> É lícito no sábado fazer o bem ou o mal? <small> [JDD] </small> </small> </p>
+; <p> una felicitas est <b>bene</b> uitae facere <br> <small> Sen.Ep.123.10 <br> a única felicidade é fazer bem à vida. <small> [JDD] </small> </small> </p>
+; <p> si iam <b>melius</b> vales vehementer gaudeo <br> <small> Cic.Att.4.14.1 <br> Se já te sentes melhor, fico muitíssimo contente. <small> [JDD] </small> </small> </p>
+; <p> <b>bene</b> habet iacta sunt fundamenta defensionis <br> <small> Cic.Mur.14 <br> Está bem; estão postos os fundamentos da defesa. <small> [JDD] </small> </small> </p>
+; <p> tamen magno timore sum sed <b>bene</b> speramus <br> <small> Cic.Att.5.14.2 <br> contudo, estou em grande temor, mas esperamos o melhor. <small> [JDD] </small> </small> </p>
+; <p> <b>bene</b> prophetavit Esaias de vobis hypocritis sicut scriptum est <br> <small> Vulg.Marc.7.6 <br> Bem profetizou Esaias sobre vós, hipócritas, conforme está escrito. <small> [JDD] </small> </small> </p>
+; <p> itaque eos cedentis ab oppido Cassius insecutus rem <b>bene</b> gessit <br> <small> Cic.Att.5.20.3 <br> e assim, enquanto esses saíam da cidadela, Cássio, perseguindo-os, realizou um boa gesta. <small> [JDD] </small> </small> </p>
+; <p> itaque senatum <b>bene</b> sua sponte firmum firmiorem uestra auctoritate fecistis <br> <small> Cic.Phil.6.18.12 <br> E assim fizestes, com vossa autoridade, ainda mais firme o senado bem firme por si mesmo. <small> [JDD] </small> </small> </p>
+; <p> sibi enim <b>bene</b> gestae mihi conservatae rei publicae dat testimonium <br> <small> Cic.Att.2.1.6 <br> pois dá o testemunho de que por ele a república é bem gerida, por mim ela é conservada. <small> [JDD] </small> </small> </p>
+; <p> male vehi malo alio gubernante quam tam ingratis vectoribus <b>bene</b> gubernare <br> <small> Cic.Att.2.9.3 <br> Prefiro viajar mal com outro piloto do que pilotar bem com tão ingratos passageiros. <small> [JDD] </small> </small> </p>
+; <p> et scribas ad me velim de gladiatoribus sed ita <b>bene</b> si rem gerunt <br> <small> Cic.Att.4.8.2 <br> E eu gostaria que me escrevesses sobre os gladiadores, mas só se estão se saindo bem. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> simul et parare disce si quid te uetat <b>bene</b> uiuere <b>bene</b> mori non uetat <br> <small> Sen.Ep.17.5 <br> Aprende ao mesmo tempo preparar-te a ti mesmo: se algo te impede de viver bem, não te impede de morrer bem.[*] <small>  </small> </small> </p>
+; <p> non uotis neque suppliciis muliebribus auxilia deorum parantur uigilando agendo <b>bene</b> consulendo prospera omnia cedunt <br> <small> Sal.Cat.52.29 <br> Não é com votos nem com as preces das mulheres que os auxílios dos deuses são alcançados; é estando alerta, atuando, tomando bem as resoluções que tudo caminha de modo próspero. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quo modo autem tu de re publica <b>bene</b> meritus esses cum tot sceleratos incolumi dignitate esse uoluisses <br> <small> Cic.Lig.19 <br> Ora, como serias tu um benemérito da república, se tivesses querido que tantos criminosos ficassem com sua dignidade incólume? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx98-101-110-101xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 10.66 and an absolute frequency of 12. The Sallustius subcorpus follows, with a normalized frequency of 6.49 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 100 ; absolute frequency: 6.22959806633276. subcorpus: Horatius ; normalized frequency: 12 ; absolute frequency: 10.6562472249356. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 52 ; absolute frequency: 9.70493271868759. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx98-101-110-101xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 11.78 and an absolute frequency of 14. The Prosa.filosófica subcorpus follows, with a normalized frequency of 11.7 and an absolute frequency of 71. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0.85 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 11 ; absolute frequency: 2.67776722899778. subcorpus: Prosa.filosófica ; normalized frequency: 71 ; absolute frequency: 11.6966771552363. subcorpus: Prosa.oratória ; normalized frequency: 56 ; absolute frequency: 5.3767054237516. subcorpus: Prosa.epistolográfica ; normalized frequency: 20 ; absolute frequency: 5.29955748694984. subcorpus: Poesia.lírica ; normalized frequency: 14 ; absolute frequency: 11.7775721376293. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx98-101-110-101xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 8.99 and an absolute frequency of 4. The I.d.C. subcorpus follows, with a normalized frequency of 8.11 and an absolute frequency of 53. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 5.24 and an absolute freqeuncy of 2. here are all the values: subcorpus: I.a.C. ; normalized frequency: 124 ; absolute frequency: 5.77146846637189. subcorpus: I.d.C. ; normalized frequency: 53 ; absolute frequency: 8.10769466115955. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+:::
+

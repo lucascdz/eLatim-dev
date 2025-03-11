@@ -1,0 +1,221 @@
+---
+title: "uir"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-105-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>vir</b> <b>virí</b> <br> <small>subs. m.</small> <br> <small>Obs.: O gen. pl. virum é frequente em poesia Catul. 68, 90; Verg. G. 2, 142.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Homem &ensp; <small>em oposição a mulier ou femina Ter. Phorm. 791.</small> <br> <b>2</b> &ensp; <small>I-Sent. próprio</small> &ensp; Homem indicando as qualidades másculas do homem, virilidade &ensp; <small>Cíc. Br. 293.</small> <br> <b>3</b> &ensp; <small>II-Daí:</small> &ensp; Marido, esposo &ensp; <small>Cic. Tusc. 3, 31.</small> <br> <b>4</b> &ensp; <small>II-Daí:</small> &ensp; O macho &ensp; <small>falando dos animais Verg. Bue. 7, 7.</small> <br> <b>5</b> &ensp; <small>II-Daí:</small> &ensp; Homem feito &ensp; <small>em oposição a puer Cíc. Tusc. 2, 34.</small> <br> <b>6</b> &ensp; <small>II-Daí:</small> &ensp; Soldado, soldado de infantaria &ensp; <small>T. Lív. 38, 17, 8.</small> <br> <b>7</b> &ensp; <small>II-Daí:</small> &ensp; Indivíduo, pessoa, cabeça &ensp; <small>Plaut. Aul. 108.</small> <br> <b>8</b> &ensp; <small>II-Daí:</small> &ensp; Personagem, varão, homem ilustre &ensp; <small>Cíc. C. M. 77.</small> <br> <b>9</b> &ensp; <small>II-Daí:</small> &ensp; Os homens, a humanidade &ensp; <small>no plural Ov. Met. 1, 286.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Vir</b> <b>viri</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; homem. <br> <b>2</b> &ensp; homem casado. <br> <b>3</b> &ensp; macho entre os animaes. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>uir gregis &ensp; <small><small>Virg</small></small> &ensp; <small>Bode</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Vir</b> <b>uiri</b>   <p> <b>1</b> &ensp; ho varão </p> 
+ <b>Vir</b> <b>viri</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/130300 ' target="_blank"> http://lila-erc.eu/data/id/lemma/130300 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> uyr <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+vĭr 
+ virī
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-105-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword uir here are all the values plotted: collocate: fortis; scoreSUBST: 0. collocate: bonus; scoreSUBST: 0. collocate: clarus; scoreSUBST: 0. collocate: talis; scoreSUBST: 0. collocate: amplus; scoreSUBST: 0. collocate: superus; scoreSUBST: 0. collocate: sapiens2; scoreSUBST: 0. collocate: magnus; scoreSUBST: 0. collocate: praestans; scoreSUBST: 0. collocate: iustus; scoreSUBST: 0. collocate: honestus; scoreSUBST: 0. collocate: tot; scoreSUBST: 0. collocate: arma; scoreSUBST: 2. collocate: unus; scoreSUBST: 0. collocate: egregius; scoreSUBST: 0. collocate: acer; scoreSUBST: 0. collocate: mulier; scoreSUBST: 2. collocate: praeclarus; scoreSUBST: 0. collocate: qualis; scoreSUBST: 0. collocate: patria; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-105-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword uir here are all the values plotted: collocate: fortis; scoreADJ: 5. collocate: bonus; scoreADJ: 5. collocate: clarus; scoreADJ: 4. collocate: talis; scoreADJ: 0. collocate: amplus; scoreADJ: 3. collocate: superus; scoreADJ: 0. collocate: sapiens2; scoreADJ: 2. collocate: magnus; scoreADJ: 2. collocate: praestans; scoreADJ: 2. collocate: iustus; scoreADJ: 2. collocate: honestus; scoreADJ: 2. collocate: tot; scoreADJ: 0. collocate: arma; scoreADJ: 0. collocate: unus; scoreADJ: 0. collocate: egregius; scoreADJ: 2. collocate: acer; scoreADJ: 2. collocate: mulier; scoreADJ: 0. collocate: praeclarus; scoreADJ: 2. collocate: qualis; scoreADJ: 0. collocate: patria; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-105-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword uir here are all the values plotted: collocate: fortis; scoreVERBO: 0. collocate: bonus; scoreVERBO: 0. collocate: clarus; scoreVERBO: 0. collocate: talis; scoreVERBO: 0. collocate: amplus; scoreVERBO: 0. collocate: superus; scoreVERBO: 0. collocate: sapiens2; scoreVERBO: 0. collocate: magnus; scoreVERBO: 0. collocate: praestans; scoreVERBO: 0. collocate: iustus; scoreVERBO: 0. collocate: honestus; scoreVERBO: 0. collocate: tot; scoreVERBO: 0. collocate: arma; scoreVERBO: 0. collocate: unus; scoreVERBO: 0. collocate: egregius; scoreVERBO: 0. collocate: acer; scoreVERBO: 0. collocate: mulier; scoreVERBO: 0. collocate: praeclarus; scoreVERBO: 0. collocate: qualis; scoreVERBO: 0. collocate: patria; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-105-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword uir here are all the values plotted: collocate: fortis; scoreADV: 0. collocate: bonus; scoreADV: 0. collocate: clarus; scoreADV: 0. collocate: talis; scoreADV: 0. collocate: amplus; scoreADV: 0. collocate: superus; scoreADV: 0. collocate: sapiens2; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: praestans; scoreADV: 0. collocate: iustus; scoreADV: 0. collocate: honestus; scoreADV: 0. collocate: tot; scoreADV: 0. collocate: arma; scoreADV: 0. collocate: unus; scoreADV: 0. collocate: egregius; scoreADV: 0. collocate: acer; scoreADV: 0. collocate: mulier; scoreADV: 0. collocate: praeclarus; scoreADV: 0. collocate: qualis; scoreADV: 0. collocate: patria; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-105-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword uir here are all the values plotted: collocate: fortis; scoreFUNC: 0. collocate: bonus; scoreFUNC: 0. collocate: clarus; scoreFUNC: 0. collocate: talis; scoreFUNC: 0. collocate: amplus; scoreFUNC: 0. collocate: superus; scoreFUNC: 0. collocate: sapiens2; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0. collocate: praestans; scoreFUNC: 0. collocate: iustus; scoreFUNC: 0. collocate: honestus; scoreFUNC: 0. collocate: tot; scoreFUNC: 0. collocate: arma; scoreFUNC: 0. collocate: unus; scoreFUNC: 0. collocate: egregius; scoreFUNC: 0. collocate: acer; scoreFUNC: 0. collocate: mulier; scoreFUNC: 0. collocate: praeclarus; scoreFUNC: 0. collocate: qualis; scoreFUNC: 0. collocate: patria; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> dolor accessit bonis <b>viris</b> <br> <small> Cic.Att.1.16.9 <br> a dor se apoderou dos homens bons. <small> [JDD] </small> </small> </p>
+; <p> ignaua fortes fata consument <b>uiros</b> <br> <small> Sen.Ag.518 <br> Fados covardes vão acabar com valorosos varões? <small> [JDD] </small> </small> </p>
+; <p> ecce <b>uir</b> fortis ac strenuus <br> <small> Sen.Ep.9.19 <br> Eis aí um homem forte e valoroso! <small> [JDD] </small> </small> </p>
+; <p> ignis aurum probat miseria fortes <b>uiros</b> <br> <small> Sen.Prov.5.10 <br> O fogo põe à prova o ouro, a desgraça, os homens fortes. <small> [JDD] </small> </small> </p>
+; <p> boni <b>viri</b> precibus Clodi removentur a causa <br> <small> Cic.Att.1.13.3 <br> Os homens de bem são afastados da causa por súplicas de Clódio. <small> [JDD] </small> </small> </p>
+; <p> de supplicatione credo M. Lepidi clarissimi <b>uiri</b> <br> <small> Cic.Phil.3.23.10 <br> Ao da ação de graças, eu creio, em honra de Marco Lépido, ilustríssimo varão. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> facile id quidem fuit iustitiam iustissimo <b>uiro</b> defendere <br> <small> Cic.Amici.25 <br> Isso, na verdade, foi fácil para um homem justíssimo: defender a justiça. <small> [JDD] </small> </small> </p>
+; <p> ea plaga nonne ad multos bonos <b>viros</b> pertinet <br> <small> Cic.Att.2.1.10 <br> Por acaso essa chaga não atinge a muitos homens bons? <small> [JDD] </small> </small> </p>
+; <p> attendistis paulo ante praestantissimi <b>uiri</b> quae esset oratio <br> <small> Cic.Phil.12.5.7 <br> Ouvistes com atenção um pouco antes o que era o discurso de um homem muito notável. <small> [JDD] </small> </small> </p>
+; <p> atque hunc ille summus <b>uir</b> scelere solutum periculo liberauit <br> <small> Cic.Mil.9 <br> E aquele grande homem liberou do perigo esse absolvido do crime. <small> [JDD] </small> </small> </p>
+; <p> Quaeso , tam angustam talis <b>vir</b> ponis domum ? <br> <small> Phaed.3.9 <br> “Pergunto-te, tu, um tal homem, fazes uma casa tão estreita?” <small> [JDD] </small> </small> </p>
+; <p> uides quanto facilius sit totam gentem quam unum <b>uirum</b> uincere <br> <small> Sen.Ep.9.19 <br> Vês quão mais fácil é vencer uma nação inteira do que um único homem? <small> [JDD] </small> </small> </p>
+; <p> Herodes enim metuebat Iohannem sciens eum <b>virum</b> iustum et sanctum <br> <small> Vulg.Marc.6.20 <br> Pois Herodes temia João, sabendo ser ele um homem justo e santo. <small> [JDD] </small> </small> </p>
+; <p> tum ex Anniana Milonis domo Quintus Flaccus eduxit <b>viros</b> acris <br> <small> Cic.Att.4.3.3 <br> Então Quinto Flaco conduziu para fora da casa aniana de Milão homens aguerridos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>uir</b> fortis ac sapiens non fugere debet e uita sed exire <br> <small> Sen.Ep.24.25 <br> O homem forte e sábio não deve fugir da vida, mas sair dela. <small> [JDD] </small> </small> </p>
+; <p> audisti igitur ex muliere quoniam id <b>uiri</b> nec uidisse neque nosse poterant <br> <small> Cic.Ver.2.4.102.3 <br> Ouviste, portanto, de uma mulher, visto que os homens não podiam tê-la visto ou conhecido. <small> [JDD] </small> </small> </p>
+; <p> ita te disciplinis inbuisti ut scires omnem locum sapienti <b>uiro</b> patriam esse <br> <small> Sen.Helv.9.7 <br> Te impregnaste tanto de ensinamentos que sabias que todo lugar é uma pátria para um homem sábio. <small> [JDD] </small> </small> </p>
+; <p> num etiam de L. Papinio <b>uiro</b> primario locupleti honestoque equite Romano turibulum emisti <br> <small> Cic.Ver.2.4.46.2 <br> Acaso também compraste o turíbulo de Lúcio Papínio, homem de primeira categoria, rico e honrado cavaleiro romano? <small> [JDD] </small> </small> </p>
+; <p> magnus <b>uir</b> es sed unde scio si tibi fortuna non dat facultatem exhibendae uirtutis <br> <small> Sen.Prov.4.2 <br> És um grande homem? Mas como sei, se a fortuna não te dá oportunidade de exibir o teu valor? <small> [JDD] </small> </small> </p>
+; <p> apparent rari nantes in gurgite uasto arma <b>uirum</b> tabulaeque et Troia gaza per undas <br> <small> Verg.A.1.118 <br> No vasto abismo raros aparecem nadando e as armas dos homens e tábuas e os tesouros troianos pelas ondas. <small> [JDD] </small> </small> </p>
+; <p> cessit auctoritati amplissimi <b>uiri</b> uel potius paruit una est profectus cum eis quorum erat una causa <br> <small> Cic.Lig.22 <br> Cedeu, ou melhor, obedeceu à autoridade de um destacadíssimo varão. Partiu ao mesmo tempo que aqueles cuja causa era a mesma. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> de timore superuacaneum est disserere cum praesertim diligentia clarissumi <b>uiri</b> consulis tanta praesidia sint in armis <br> <small> Sal.Cat.51.19 <br> Sobre o temor é supérfluo dissertar, principalmente quando, por diligência do cônsul, um homem ilustríssimo, tão reforçadas guarnições estão em armas. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> est omnino fortium <b>uirorum</b> quales uos esse debetis uirtutem praestare tantum enim possunt fortunae culpam non extimescere <br> <small> Cic.Phil.13.5.11 <br> É inteiramente próprio de homens corajosos, como vós deveis ser, demonstrar seu valor (pois é só o que podem) e não temer a negligência da fortuna. <small> [JDD] </small> </small> </p>
+; <p> hoc equidem occasum Troiae tristisque ruinas solabar fatis contraria fata rependens nunc eadem fortuna <b>uiros</b> tot casibus actos insequitur <br> <small> Verg.A.1.238 <br> Com isto, na verdade, eu, compensando com estes fados os fados contrários, me consolava da queda de Tróia e das tristes ruínas; agora a mesma fortuna persegue esses homens, sacudidos por tantas desgraças. <small> [JDD] </small> </small> </p>
+; <p> L. Pisonis amplissimi <b>uiri</b> praeclara uox a te non solum in hoc ordine Pansa sed etiam in contione iure laudata est <br> <small> Cic.Phil.12.14.6 <br> Por ti, Pansa, foi elogiada com razão, não só neste congresso, mas também numa assembléia do povo, a ilustre fala do magnífico homem Lúcio Pisão. <small> [JDD] </small> </small> </p>
+; <p> de eodem cum consuleretur Iulius Graecinus <b>uir</b> egregius quid sentiret non possum inquit tibi dicere nescio enim quid de gradu faciat tamquam de essedario interrogaretur <br> <small> Sen.Ep.29.6 <br> Como Júlio Grecino, homem notável, fosse consultado o que pensava sobre o mesmo sujeito, disse: “Não posso te dizer; pois não sei o que ele faz a pé”, como se fosse indagado sobre um essedário [gladiador que combatia em um carro em movimento]. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-105-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 34.75 and an absolute frequency of 18. The Seneca subcorpus follows, with a normalized frequency of 22.4 and an absolute frequency of 120. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 7 ; absolute frequency: 2.64370420726641. subcorpus: Cicero ; normalized frequency: 314 ; absolute frequency: 19.5609379282849. subcorpus: Horatius ; normalized frequency: 12 ; absolute frequency: 10.6562472249356. subcorpus: Ovidius ; normalized frequency: 8 ; absolute frequency: 13.7268359643102. subcorpus: Phaedrus ; normalized frequency: 5 ; absolute frequency: 7.59070897221801. subcorpus: Sallustius ; normalized frequency: 16 ; absolute frequency: 14.8409238475095. subcorpus: Seneca ; normalized frequency: 120 ; absolute frequency: 22.3959985815868. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 6 ; absolute frequency: 20.5973223480947. subcorpus: Vergilius ; normalized frequency: 18 ; absolute frequency: 34.7490347490347. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-105-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 34.75 and an absolute frequency of 18. The Prosa.oratória subcorpus follows, with a normalized frequency of 24.1 and an absolute frequency of 251. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 4.49 and an absolute freqeuncy of 2. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 29 ; absolute frequency: 7.05956814917598. subcorpus: Prosa.filosófica ; normalized frequency: 138 ; absolute frequency: 22.7343865834171. subcorpus: Prosa.oratória ; normalized frequency: 251 ; absolute frequency: 24.0991618100295. subcorpus: Prosa.epistolográfica ; normalized frequency: 25 ; absolute frequency: 6.6244468586873. subcorpus: Poesia.lírica ; normalized frequency: 13 ; absolute frequency: 10.9363169849415. subcorpus: Poesia.didática ; normalized frequency: 12 ; absolute frequency: 10.1789804054627. subcorpus: Poesia.trágica ; normalized frequency: 20 ; absolute frequency: 17.3731758165393. subcorpus: Poesia.épica ; normalized frequency: 18 ; absolute frequency: 34.7490347490347. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-105-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 20.19 and an absolute frequency of 132. The I.a.C. subcorpus follows, with a normalized frequency of 17.13 and an absolute frequency of 368. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 4.49 and an absolute freqeuncy of 2. here are all the values: subcorpus: I.a.C. ; normalized frequency: 368 ; absolute frequency: 17.1282289969746. subcorpus: I.d.C. ; normalized frequency: 132 ; absolute frequency: 20.1927489674162. subcorpus: II.d.C. ; normalized frequency: 6 ; absolute frequency: 15.7068062827225. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

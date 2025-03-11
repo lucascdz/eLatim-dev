@@ -1,0 +1,198 @@
+---
+title: "comes"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-111-109-101-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>2.</small> <b>comes</b> <b>-ìtis</b> <br> <small>subs. m. e f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; O que vai com alguém, companheiro ou companheira de viagem, companheiro, camarada &ensp; <small>Cíc. Fam. 13, 71.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Associado &ensp; <small>Cíc. Fam. 1, 9, 22.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado</small> &ensp; Preceptor &ensp; <small>de uma criança Suet. Cl. 35, 2.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado</small> &ensp; Pessoa da comitiva de alguém &ensp; <small>Hor. Ep. 1, 8, 2.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Comes</b> -<b>itis</b> <br> <small>m. Virg. f. Hor.</small>   <p> <b>1</b> &ensp; companheiro, companheira. <br> <b>2</b> &ensp; <small>Ter.</small> &ensp; aio, pedadogo. </p>
+
+
+
+
+#### Velez
+
+<b>Comes</b> -<b>itis</b> <br> <small>Vide Socius, & Sodalis.</small>   <p> <b>1</b> &ensp; o companheiro, ou companheira <br> <b>2</b> &ensp; <small>comes pro dignitate etiam generis communis est</small> &ensp; o Conde, ou Condessa &ensp; <small>dicitur Comes, vel quòd Rege comitatur, vel quòd multi eum comitentur: aut a comitate, quòd comis esse debeat.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Comes</b> <b>itis</b>   <p> <b>1</b> &ensp; ho conde. ou condessa </p> 
+ <b>Comes</b> <b>itis</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/95024 ' target="_blank"> http://lila-erc.eu/data/id/lemma/95024 </a> <br>
+<small> classe: </small> substantivo comum de dois gêneros   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+cŏmĕs 
+ cŏmĭtis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-111-109-101-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> circumcisae sunt peregrinantium sarcinae et quotiens festinationem necessitas itineris exegit <b>comitum</b> turba dimittitur <br> <small> Sen.Helv.12.2 <br> As bagagens dos que viajam são reduzidas e todas as vezes que a urgência da viagem exige pressa a turba de acompanhantes é dispensada. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-111-109-101-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 6.22 and an absolute frequency of 7. The Ovidius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 23 ; absolute frequency: 1.43280755525653. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 13 ; absolute frequency: 2.4262331796719. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-111-109-101-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 6.95 and an absolute frequency of 8. The Poesia.lírica subcorpus follows, with a normalized frequency of 5.89 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 1 ; absolute frequency: 0.243433384454344. subcorpus: Prosa.filosófica ; normalized frequency: 8 ; absolute frequency: 1.31793545411113. subcorpus: Prosa.oratória ; normalized frequency: 19 ; absolute frequency: 1.82423934020143. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 8 ; absolute frequency: 6.94927032661571. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-111-109-101-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 2.29 and an absolute frequency of 15. The I.a.C. subcorpus follows, with a normalized frequency of 1.44 and an absolute frequency of 31. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 31 ; absolute frequency: 1.44286711659297. subcorpus: I.d.C. ; normalized frequency: 15 ; absolute frequency: 2.29463056447912. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,217 @@
+---
+title: "littera"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx108-105-116-116-101-114-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>lītĕra</b> <br> <small></small> <br> <small>v. littèra</small> 
+ <b>littĕra</b> <b>-ae</b> <br> <b>litĕra</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Letra do alfabeto, caráter de escrita Cíc. Mil. 15, letra salutar referindo-se ao A, abreviatura deabsolvo = eu absolvo, letra sombria referindo-se ao C. abreviatura de condemno = eu condeno. &ensp; <small></small> <br> <b>2</b> &ensp; <small>I-Sent. próprio</small> &ensp; Letra, maneira de escrever &ensp; <small>Cíc. AI. 7. 2. 3.</small> <br> <b>3</b> &ensp; <small>II-Sent. poético:</small> &ensp; Carta &ensp; <small>em lugar do plural Ov. Met. 9, 515.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Littera</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; letras. <br> <b>2</b> &ensp; <small>Ovid.</small> &ensp; carta. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>littera tristis &ensp; <small><small>Cic</small></small> &ensp; <small>Letra C, pela qual se condemnava</small> <br> litteram longam facere &ensp; <small><small>Plaut</small></small> &ensp; <small>Estar enforcado, porque assim parecião formar a letra T, ou I</small> <br> salutaris littera &ensp; <small><small>Cic</small></small> &ensp; <small>Letra A, pela qual os Juizes Romanos votando por escrutinio davão por absoluto o accusado</small> </p>
+
+
+
+
+#### Velez
+
+<b>Littera</b> -<b>ae</b> <br> <small>integrum est;</small>   <p> <b>1</b> &ensp; a letra </p>
+
+
+
+
+#### Cardoso
+
+<b>Litera</b> -<b>ae</b>   <p> <b>1</b> &ensp; a letra </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/110668 ' target="_blank"> http://lila-erc.eu/data/id/lemma/110668 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a-) <br>
+<small> outras grafias: </small> leitera, litera <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+littĕra 
+ littĕrae
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx108-105-116-116-101-114-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx108-105-116-116-101-114-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword littera here are all the values plotted: collocate: tuus; scoreSUBST: 0. collocate: do; scoreSUBST: 0. collocate: graecus; scoreSUBST: 0. collocate: proximus; scoreSUBST: 0. collocate: scribo; scoreSUBST: 0. collocate: reddo; scoreSUBST: 0. collocate: monumentum; scoreSUBST: 2. collocate: affero; scoreSUBST: 0. collocate: exspecto; scoreSUBST: 0. collocate: per; scoreSUBST: 0. collocate: recito; scoreSUBST: 0. collocate: mitto; scoreSUBST: 0. collocate: accipio; scoreSUBST: 0. collocate: frater; scoreSUBST: 2. collocate: quintus; scoreSUBST: 2. collocate: numquam; scoreSUBST: 0. collocate: ex; scoreSUBST: 0. collocate: meus; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx108-105-116-116-101-114-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword littera here are all the values plotted: collocate: tuus; scoreADJ: 0. collocate: do; scoreADJ: 0. collocate: graecus; scoreADJ: 3. collocate: proximus; scoreADJ: 3. collocate: scribo; scoreADJ: 0. collocate: reddo; scoreADJ: 0. collocate: monumentum; scoreADJ: 0. collocate: affero; scoreADJ: 0. collocate: exspecto; scoreADJ: 0. collocate: per; scoreADJ: 0. collocate: recito; scoreADJ: 0. collocate: mitto; scoreADJ: 0. collocate: accipio; scoreADJ: 0. collocate: frater; scoreADJ: 0. collocate: quintus; scoreADJ: 0. collocate: numquam; scoreADJ: 0. collocate: ex; scoreADJ: 0. collocate: meus; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx108-105-116-116-101-114-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword littera here are all the values plotted: collocate: tuus; scoreVERBO: 0. collocate: do; scoreVERBO: 3. collocate: graecus; scoreVERBO: 0. collocate: proximus; scoreVERBO: 0. collocate: scribo; scoreVERBO: 2. collocate: reddo; scoreVERBO: 2. collocate: monumentum; scoreVERBO: 0. collocate: affero; scoreVERBO: 2. collocate: exspecto; scoreVERBO: 2. collocate: per; scoreVERBO: 0. collocate: recito; scoreVERBO: 2. collocate: mitto; scoreVERBO: 2. collocate: accipio; scoreVERBO: 2. collocate: frater; scoreVERBO: 0. collocate: quintus; scoreVERBO: 0. collocate: numquam; scoreVERBO: 0. collocate: ex; scoreVERBO: 0. collocate: meus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx108-105-116-116-101-114-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword littera here are all the values plotted: collocate: tuus; scoreADV: 0. collocate: do; scoreADV: 0. collocate: graecus; scoreADV: 0. collocate: proximus; scoreADV: 0. collocate: scribo; scoreADV: 0. collocate: reddo; scoreADV: 0. collocate: monumentum; scoreADV: 0. collocate: affero; scoreADV: 0. collocate: exspecto; scoreADV: 0. collocate: per; scoreADV: 0. collocate: recito; scoreADV: 0. collocate: mitto; scoreADV: 0. collocate: accipio; scoreADV: 0. collocate: frater; scoreADV: 0. collocate: quintus; scoreADV: 0. collocate: numquam; scoreADV: 2. collocate: ex; scoreADV: 0. collocate: meus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx108-105-116-116-101-114-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword littera here are all the values plotted: collocate: tuus; scoreFUNC: 0. collocate: do; scoreFUNC: 0. collocate: graecus; scoreFUNC: 0. collocate: proximus; scoreFUNC: 0. collocate: scribo; scoreFUNC: 0. collocate: reddo; scoreFUNC: 0. collocate: monumentum; scoreFUNC: 0. collocate: affero; scoreFUNC: 0. collocate: exspecto; scoreFUNC: 0. collocate: per; scoreFUNC: 20. collocate: recito; scoreFUNC: 0. collocate: mitto; scoreFUNC: 0. collocate: accipio; scoreFUNC: 0. collocate: frater; scoreFUNC: 0. collocate: quintus; scoreFUNC: 0. collocate: numquam; scoreFUNC: 0. collocate: ex; scoreFUNC: 20. collocate: meus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ad Octavium dedi <b>litteras</b> <br> <small> Cic.Att.2.1.12 <br> Mandei uma carta para Otávio. <small> [JDD] </small> </small> </p>
+; <p> tuas <b>litteras</b> semper maxime exspecto <br> <small> Cic.Att.3.17.3 <br> Sempre espero com a maior ansiedade as tuas cartas. <small> [JDD] </small> </small> </p>
+; <p> valde enim exspecto tuas <b>litteras</b> <br> <small> Cic.Att.2.5.3 <br> Pois espero muito as tuas cartas. <small> [JDD] </small> </small> </p>
+; <p> nunc publice <b>litteras</b> Romam mittere parabam <br> <small> Cic.Att.5.20.7 <br> Agora estou preparando para enviar uma carta oficial a Roma. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> sic enim concedis mihi proximis <b>litteris</b> <br> <small> Cic.Att.5.20.1 <br> pois assim me permites em tua última carta. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> simul et vides quas acceperim <b>litteras</b> <br> <small> Cic.Att.5.21.4 <br> ao mesmo tempo vês a carta que recebi. <small> [JDD] </small> </small> </p>
+; <p> accepi Roma sine epistula tua fasciculum <b>litterarum</b> <br> <small> Cic.Att.5.17.1 <br> Recebi de Roma um pacote de cartas sem nenhuma carta tua. <small> [JDD] </small> </small> </p>
+; <p> sermonem tuum et Pompei cognovi ex tuis <b>litteris</b> <br> <small> Cic.Att.3.8.3 <br> Soube por tua carta de tua conversa com Pompeu. <small> [JDD] </small> </small> </p>
+; <p> valde eius sermo de Publio cum tuis <b>litteris</b> congruebat <br> <small> Cic.Att.2.8.1 <br> A conversa dele a respeito de Públio está perfeitamente de acordo com tuas cartas. <small> [JDD] </small> </small> </p>
+; <p> Numestium ex <b>litteris</b> tuis studiose scriptis libenter in amicitiam recepi <br> <small> Cic.Att.2.20.1 <br> A Numéstio, de acordo com tua carta zelosamente escrita, eu, com prazer, o recebi em amizade. <small> [JDD] </small> </small> </p>
+; <p> post illas datas <b>litteras</b> secuta est summa contentio de domo <br> <small> Cic.Att.4.2.2 <br> Depois de dada aquela carta seguiu-se uma enorme discussão sobre a minha casa. <small> [JDD] </small> </small> </p>
+; <p> ex Quinti fratris <b>litteris</b> suspicor iam eum esse in Britannia <br> <small> Cic.Att.4.15.10 <br> Por uma carta de meu irmão Quinto, suspeito que ele já esteja na Britânia. <small> [JDD] </small> </small> </p>
+; <p> reliquum est ut et accipiantur et remittantur postulata per <b>litteras</b> <br> <small> Cic.Phil.12.28.4 <br> Resta que as exigências sejam recebidas e enviadas por meio de cartas. <small> [JDD] </small> </small> </p>
+; <p> me tuae <b>litterae</b> numquam in tantam spem adduxerunt quantam aliorum <br> <small> Cic.Att.3.19.2 <br> Tuas cartas nunca me levaram a tanta esperança como a dos outros. <small> [JDD] </small> </small> </p>
+; <p> o clementiam admirabilem atque omnium laude praedicatione <b>litteris</b> monumentisque decorandam <br> <small> Cic.Lig.6 <br> Ó clemência admirável e que deve ser consagrada pelo louvor de todos, pela publicidade, pelas letras e pelos monumentos! <small> [JDD] </small> </small> </p>
+; <p> ac tamen mea spes etiam tenuior semper fuit quam tuae <b>litterae</b> <br> <small> Cic.Att.3.19.2 <br> e, no entanto, a minha esperança sempre foi até mesmo mais fraca do que tuas cartas. <small> [JDD] </small> </small> </p>
+; <p> ibi mihi tuae <b>litterae</b> binae redditae sunt tertio abs te die <br> <small> Cic.Att.5.3.1 <br> ali me foram entregues duas cartas tuas, enviadas por ti dois dias antes. <small> [JDD] </small> </small> </p>
+; <p> cum factum tuum gratum omnibus debet esse tum uero oratio qua recitatis <b>litteris</b> usus es <br> <small> Cic.Phil.10.1.6 <br> Se o teu procedimento deve ser grato a todos, mais ainda o discurso de que, depois de lida a carta, te valeste. <small> [JDD] </small> </small> </p>
+; <p> iste <b>litteras</b> ad quos solebat misit ut is anulus ad se primo quoque tempore adferretur <br> <small> Cic.Ver.2.4.58.4 <br> Esse sujeito enviou cartas aos que costumava para que lhe fosse trazido também o quanto antes aquele anel. <small> [JDD] </small> </small> </p>
+; <p> neque fas esse existimant ea <b>litteris</b> mandare cum in reliquis fere rebus publicis priuatisque rationibus Graecis utantur <b>litteris</b> <br> <small> Caes.Gal.6.14.3 <br> E avaliam que não é permitido passar essas coisas para a escrita, embora usem de letras gregas em quase todos os demais negócios, nas contas públicas e privadas. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx108-105-116-116-101-114-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 15.2 and an absolute frequency of 244. The Seneca subcorpus follows, with a normalized frequency of 0.93 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 10 ; absolute frequency: 3.77672029609487. subcorpus: Cicero ; normalized frequency: 244 ; absolute frequency: 15.2002192818519. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 9 ; absolute frequency: 8.3480196642241. subcorpus: Seneca ; normalized frequency: 5 ; absolute frequency: 0.933166607566115. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx108-105-116-116-101-114-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 42.13 and an absolute frequency of 159. The Prosa.oratória subcorpus follows, with a normalized frequency of 7.58 and an absolute frequency of 79. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 21 ; absolute frequency: 5.11210107354123. subcorpus: Prosa.filosófica ; normalized frequency: 11 ; absolute frequency: 1.81216124940281. subcorpus: Prosa.oratória ; normalized frequency: 79 ; absolute frequency: 7.58499515136386. subcorpus: Prosa.epistolográfica ; normalized frequency: 159 ; absolute frequency: 42.1314820212512. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx108-105-116-116-101-114-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 12.24 and an absolute frequency of 263. The I.d.C. subcorpus follows, with a normalized frequency of 0.92 and an absolute frequency of 6. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 263 ; absolute frequency: 12.2410984407726. subcorpus: I.d.C. ; normalized frequency: 6 ; absolute frequency: 0.917852225791647. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

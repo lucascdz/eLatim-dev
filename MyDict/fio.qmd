@@ -1,0 +1,215 @@
+---
+title: "fio"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx102-105-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>fi</b> <br> <small>imperat. de fio arc. Plaut. Cure. 87; Hor. Sát. 2, 5, 38.</small> <br> <small></small> 
+ <b>fĭo</b> <b>-ís</b> <b>-fièri</b> <b>factus sum</b> <br> <small>pass. de facìo</small> <br> <small>Obs.: Constrói-se com subj. com ut ou com gen. de preço. Imperat. fi Plaut. Pers. 38; Hor. Sát.. 2, 5, 38; fite Plaut. Cure. 89.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Ser feito, ser criado, fazer-se, tomar-se &ensp; <small>Cíc. Rep. 2, 18.</small> <br> <b>2</b> &ensp; <small>Daí</small> &ensp; Produzir-se, nascer, acontecer, existir &ensp; <small>Cíc. Div. I, 101; Lucr. I, 98\; Cíc. Q. Fr. I, 1,38.</small> <br> <b>3</b> &ensp; <small>Loc.:</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>3</b><br>ut fit Cíc. Mil. 28 ‘como acontece, conforme o costume’; ita fiat ut, inde fit, ex quo fit, i. e., «do que resulta que», «donde se segue que»: fieri potest ‘é possível’: fieri non potest C le. Verr. 2, 190 ‘não é possível é impossivel’. </p> 
+ <b>fite</b> <br> <small>2ª pess. pI. imperat. de fio Plaut. Curc. 89.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Fio</b> -<b>is</b> <b>factus sum</b> -<b>ieri</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; ser feito, ser estimado. <br> <b>2</b> &ensp; <small>nas terceiras pessoas</small> &ensp; acontecer. <br> <b>3</b> &ensp; <small>Varr.</small> &ensp; nascer. </p> 
+ <small>Plaut. imperat. de Fio</small> <b>Fi</b>
+
+
+
+
+#### Velez
+
+<b>Fio</b> -<b>is</b>   <p> <b>1</b> &ensp; ser feito, estimado <br> <b>2</b> &ensp; <small>aliquando in tertia persona pro Evenire</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Fio</b> <b>is</b> <b>factus sum</b>   <p> <b>1</b> &ensp; ser feyto </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/103328 ' target="_blank"> http://lila-erc.eu/data/id/lemma/103328 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> irregular <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small> facio <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> fio </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> fieri </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> fiet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> fitum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+fīō 
+ fīs 
+ fĭĕrī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx102-105-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx102-105-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword fio here are all the values plotted: collocate: soleo; scoreSUBST: 0. collocate: possum; scoreSUBST: 0. collocate: concursus; scoreSUBST: 2. collocate: ita; scoreSUBST: 0. collocate: obuiam; scoreSUBST: 0. collocate: placeo; scoreSUBST: 0. collocate: senex2; scoreSUBST: 0. collocate: ut; scoreSUBST: 0. collocate: reus; scoreSUBST: 2. collocate: plebs; scoreSUBST: 2. collocate: uolo; scoreSUBST: 0. collocate: idem; scoreSUBST: 0. collocate: quis; scoreSUBST: 0. collocate: non; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx102-105-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword fio here are all the values plotted: collocate: soleo; scoreADJ: 0. collocate: possum; scoreADJ: 0. collocate: concursus; scoreADJ: 0. collocate: ita; scoreADJ: 0. collocate: obuiam; scoreADJ: 0. collocate: placeo; scoreADJ: 0. collocate: senex2; scoreADJ: 2. collocate: ut; scoreADJ: 0. collocate: reus; scoreADJ: 0. collocate: plebs; scoreADJ: 0. collocate: uolo; scoreADJ: 0. collocate: idem; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: non; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx102-105-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword fio here are all the values plotted: collocate: soleo; scoreVERBO: 2. collocate: possum; scoreVERBO: 3. collocate: concursus; scoreVERBO: 0. collocate: ita; scoreVERBO: 0. collocate: obuiam; scoreVERBO: 0. collocate: placeo; scoreVERBO: 2. collocate: senex2; scoreVERBO: 0. collocate: ut; scoreVERBO: 0. collocate: reus; scoreVERBO: 0. collocate: plebs; scoreVERBO: 0. collocate: uolo; scoreVERBO: 2. collocate: idem; scoreVERBO: 0. collocate: quis; scoreVERBO: 0. collocate: non; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx102-105-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword fio here are all the values plotted: collocate: soleo; scoreADV: 0. collocate: possum; scoreADV: 0. collocate: concursus; scoreADV: 0. collocate: ita; scoreADV: 2. collocate: obuiam; scoreADV: 2. collocate: placeo; scoreADV: 0. collocate: senex2; scoreADV: 0. collocate: ut; scoreADV: 0. collocate: reus; scoreADV: 0. collocate: plebs; scoreADV: 0. collocate: uolo; scoreADV: 0. collocate: idem; scoreADV: 0. collocate: quis; scoreADV: 0. collocate: non; scoreADV: 1'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx102-105-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword fio here are all the values plotted: collocate: soleo; scoreFUNC: 0. collocate: possum; scoreFUNC: 0. collocate: concursus; scoreFUNC: 0. collocate: ita; scoreFUNC: 0. collocate: obuiam; scoreFUNC: 0. collocate: placeo; scoreFUNC: 0. collocate: senex2; scoreFUNC: 0. collocate: ut; scoreFUNC: 20. collocate: reus; scoreFUNC: 0. collocate: plebs; scoreFUNC: 0. collocate: uolo; scoreFUNC: 0. collocate: idem; scoreFUNC: 0. collocate: quis; scoreFUNC: 0. collocate: non; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quid <b>fit</b> <br> <small> Cic.Ver.2.4.36.1 <br> 36 O que há? <small> [JDD] </small> </small> </p>
+; <p> docebo quomodo <b>fieri</b> diues celerrime possis <br> <small> Sen.Ep.119.1 <br> Vou ensinar como podes tornar-te rapidamente rico. <small> [JDD] </small> </small> </p>
+; <p> ubi dominus odit <b>fit</b> nocens non quaeritur <br> <small> Sen.Ag.280 <br> Quando o amo odeia alguém, este se torna culpado; não se investiga. <small> [JDD] </small> </small> </p>
+; <p> prorsus potest <b>fieri</b> dentes illi cum maxime cadunt <br> <small> Sen.Ep.12.3 <br> Pode perfeitamente tornar-se: principalmente quando lhe caem os dentes.” <small> [JDD] </small> </small> </p>
+; <p> non potest <b>fieri</b> ut non aliquando succedat multa temptanti <br> <small> Sen.Ep.29.2 <br> não pode ocorrer que não tenha êxito algumas vezes quem tenta muitas coisas.” <small> [JDD] </small> </small> </p>
+; <p> ille autem non simulat sed plane tribunus plebis <b>fieri</b> cupit <br> <small> Cic.Att.2.1.5 <br> Já aquele não disfarça, mas revela abertamente o desejo de se tornar tribuno da plebe. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ita <b>fiet</b> ut tua ista ratio existimetur astuta meum hoc consilium necessarium <br> <small> Cic.Ver.1.34 <br> Assim vai ocorrer que esse teu método seja considerado astuto e esta minha decisão, necessária. <small> [JDD] </small> </small> </p>
+; <p> <b>fit</b> obuiam Clodio ante fundum eius hora fere undecima aut non multo secus <br> <small> Cic.Mil.29 <br> Encontrou-se com Clódio diante da propriedade deste quase na undécima hora ou não muito diferente disso. <small> [JDD] </small> </small> </p>
+; <p> itaque incredibilem in modum concursus <b>fiunt</b> ex agris ex vicis ex domibus omnibus <br> <small> Cic.Att.5.16.3 <br> E assim, de um modo incrível, ocorrem as afluências dos campos, das aldeias, de todas as casas. <small> [JDD] </small> </small> </p>
+; <p> si metu cesserimus eadem illa aduorsa <b>fient</b> neque locus neque amicus quisquam teget quem arma non texerint <br> <small> Sal.Cat.58.10 <br> se cedermos por medo, essas mesmas coisas se tornarão contrárias e nenhum lugar nem amigo algum vai proteger aquele que as armas não protegeram. <small> [JDD] </small> </small> </p>
+; <p> res clara Sicilia tota propter caelati argenti cupiditatem reos <b>fieri</b> rerum capitalium neque solum reos <b>fieri</b> sed etiam absentis <br> <small> Cic.Ver.2.4.41.1 <br> 41 Há, por toda a Sicília, um fato evidente: [os cidadãos] se tornam réus de processos capitais por causa da cupidez [de Verres] por prataria cinzelada e não só se tornam réus, mas também estando ausentes. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx102-105-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 17.62 and an absolute frequency of 19. The Sallustius subcorpus follows, with a normalized frequency of 17.62 and an absolute frequency of 19. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 27 ; absolute frequency: 10.1971447994562. subcorpus: Cicero ; normalized frequency: 189 ; absolute frequency: 11.7739403453689. subcorpus: Horatius ; normalized frequency: 10 ; absolute frequency: 8.88020602077968. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 19 ; absolute frequency: 17.6235970689175. subcorpus: Seneca ; normalized frequency: 85 ; absolute frequency: 15.863832328624. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx102-105-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 18.45 and an absolute frequency of 112. The Prosa.oratória subcorpus follows, with a normalized frequency of 9.22 and an absolute frequency of 96. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 1.93 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 47 ; absolute frequency: 11.4413690693542. subcorpus: Prosa.filosófica ; normalized frequency: 112 ; absolute frequency: 18.4510963575559. subcorpus: Prosa.oratória ; normalized frequency: 96 ; absolute frequency: 9.21720929785988. subcorpus: Prosa.epistolográfica ; normalized frequency: 57 ; absolute frequency: 15.103738837807. subcorpus: Poesia.lírica ; normalized frequency: 10 ; absolute frequency: 8.4125515268781. subcorpus: Poesia.didática ; normalized frequency: 6 ; absolute frequency: 5.08949020273136. subcorpus: Poesia.trágica ; normalized frequency: 9 ; absolute frequency: 7.81792911744267. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx102-105-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 13.92 and an absolute frequency of 91. The II.d.C. subcorpus follows, with a normalized frequency of 2.62 and an absolute frequency of 1. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 2.62 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 246 ; absolute frequency: 11.4498487316733. subcorpus: I.d.C. ; normalized frequency: 91 ; absolute frequency: 13.92075875784. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+:::
+

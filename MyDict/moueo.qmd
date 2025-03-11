@@ -1,0 +1,212 @@
+---
+title: "moueo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-111-117-101-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>mŏvĕō</b> <b>-és</b> <b>-ére</b> <b>móví, mótum</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói-se com acus.; com acus. e abl.; com abl.; e, raramente, como intransitivo.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Por em movimento, mover, pôr-se em movimento, mover-se, agitar, agitar-se &ensp; <small>sent. físico e moral Cíc. Tusc. 1, 53; T. Lív. 35, 40, 7; Cíc. Dej. 5.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Afastar, tirar de, deslocar, despojar &ensp; <small>Cíc. Verr. 1, 116; Cíc. Of. 3, 76.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Excitar, provocar, causar &ensp; <small>Cíc. At. 6, 3, 7; Cíc. De Or. 1, 228.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Impressionar, causar impressão, comover, abalar &ensp; <small>T. Lív. 3, 20, 1; Cíc. At. 7, 3, 6.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Perturbar, irritar, encolerizar &ensp; <small>T. Lív. 25, 26, 7.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Impelir, lançar a &ensp; <small>T. Lív. 35, 12, 5.</small> <br> <b>7</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Produzir, manifestar &ensp; <small>T. Uv. 1,55,3; Ov. F. 1,268.</small> <br> <b>8</b> &ensp; <small>III-Empregos especiais passivo:</small> &ensp; Dançar &ensp; <small>Hor. Ep. 2, 2, 125.</small> <br> <b>9</b> &ensp; <small>III-Empregos especiais passivo:</small> &ensp; Tocar, cantar &ensp; <small>Ov. Met. 5, 112.</small> </p> 
+ <b>mōvī</b> <br> <small>perf. de movèo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Moveo</b> -<b>es</b> -<b>ovi</b> -<b>otum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; mover, agitar. <br> <b>2</b> &ensp; perturbar. <br> <b>3</b> &ensp; apartar-se, ir-se. <br> <b>4</b> &ensp; partir, sahir de hum lugar. <br> <b>5</b> &ensp; esbulhar da posse. <br> <b>6</b> &ensp; incitar. </p>
+
+
+
+
+#### Velez
+
+<b>Moveo</b> -<b>es</b>   <p> <b>1</b> &ensp; mover, abalar, apartar &ensp; <small>Activ.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Moueo</b> -<b>es</b> <b>moui</b> <b>motum</b>   <p> <b>1</b> &ensp; mouer </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/112848 ' target="_blank"> http://lila-erc.eu/data/id/lemma/112848 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> moueo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> mouere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> mouebit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> moui, moi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> motum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> moturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+mŏvĕō 
+ mŏvēs 
+ mŏvēre 
+ mōvī 
+ mōtum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx109-111-117-101-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-111-117-101-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword moueo here are all the values plotted: collocate: castra; scoreSUBST: 3. collocate: manus; scoreSUBST: 2. collocate: magis; scoreSUBST: 0. collocate: locus; scoreSUBST: 2. collocate: animus; scoreSUBST: 2. collocate: non; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-111-117-101-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword moueo here are all the values plotted: collocate: castra; scoreADJ: 0. collocate: manus; scoreADJ: 0. collocate: magis; scoreADJ: 0. collocate: locus; scoreADJ: 0. collocate: animus; scoreADJ: 0. collocate: non; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-111-117-101-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword moueo here are all the values plotted: collocate: castra; scoreVERBO: 0. collocate: manus; scoreVERBO: 0. collocate: magis; scoreVERBO: 0. collocate: locus; scoreVERBO: 0. collocate: animus; scoreVERBO: 0. collocate: non; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-111-117-101-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword moueo here are all the values plotted: collocate: castra; scoreADV: 0. collocate: manus; scoreADV: 0. collocate: magis; scoreADV: 2. collocate: locus; scoreADV: 0. collocate: animus; scoreADV: 0. collocate: non; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-111-117-101-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword moueo here are all the values plotted: collocate: castra; scoreFUNC: 0. collocate: manus; scoreFUNC: 0. collocate: magis; scoreFUNC: 0. collocate: locus; scoreFUNC: 0. collocate: animus; scoreFUNC: 0. collocate: non; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Verbis non <b>moveor</b> tuis ; <br> <small> Phaed.3.6 <br> “Não sou movida por tuas palavras. <small> [JDD] </small> </small> </p>
+; <p> postero die castra ex eo loco <b>mouent</b> <br> <small> Caes.Gal.1.15.1 <br> No dia seguinte, levantam acampamento daquele posto. <small> [JDD] </small> </small> </p>
+; <p> loco ille <b>motus</b> est cum est ex urbe depulsus <br> <small> Cic.Catil.2.1.11 <br> Ele foi desalojado de sua posição, quando foi expulso da cidade. <small> [JDD] </small> </small> </p>
+; <p> sed haec omitto ad illa quae me magis <b>mouerunt</b> respondeo <br> <small> Cic.Cael.27 <br> Mas omito essas coisas; respondo àquelas que mais me abalaram. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> et huic idem opponitur multa enim impetum animi <b>mouent</b> quae petantur petentium malo <br> <small> Sen.Ep.118.9 <br> E a esta se opõe o mesmo; pois movem o ímpeto do espírito muitas coisas que são buscadas para o mal dos que as buscam. <small> [JDD] </small> </small> </p>
+; <p> properat iuuentus omnis adductos simul lentare remos adiuuat uentos manu et ualida nisu bracchia alterno <b>mouet</b> <br> <small> Sen.Ag.437 <br> Toda a juventude se apressa em curvar ao mesmo tempo os conduzidos remos, ajuda os ventos com sua mão e move seus vigorosos braços com esforço alternado. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-111-117-101-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 9.89 and an absolute frequency of 53. The Ovidius subcorpus follows, with a normalized frequency of 8.58 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 10 ; absolute frequency: 3.77672029609487. subcorpus: Cicero ; normalized frequency: 45 ; absolute frequency: 2.80331912984974. subcorpus: Horatius ; normalized frequency: 8 ; absolute frequency: 7.10416481662375. subcorpus: Ovidius ; normalized frequency: 5 ; absolute frequency: 8.57927247769389. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 53 ; absolute frequency: 9.89156604020082. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-111-117-101-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 17.37 and an absolute frequency of 20. The Poesia.didática subcorpus follows, with a normalized frequency of 6.79 and an absolute frequency of 8. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 18 ; absolute frequency: 4.38180092017819. subcorpus: Prosa.filosófica ; normalized frequency: 41 ; absolute frequency: 6.75441920231957. subcorpus: Prosa.oratória ; normalized frequency: 30 ; absolute frequency: 2.88037790558121. subcorpus: Prosa.epistolográfica ; normalized frequency: 7 ; absolute frequency: 1.85484512043244. subcorpus: Poesia.lírica ; normalized frequency: 8 ; absolute frequency: 6.73004122150248. subcorpus: Poesia.didática ; normalized frequency: 8 ; absolute frequency: 6.78598693697515. subcorpus: Poesia.trágica ; normalized frequency: 20 ; absolute frequency: 17.3731758165393. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-111-117-101-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 9.33 and an absolute frequency of 61. The I.a.C. subcorpus follows, with a normalized frequency of 3.4 and an absolute frequency of 73. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 73 ; absolute frequency: 3.39771933907377. subcorpus: I.d.C. ; normalized frequency: 61 ; absolute frequency: 9.33149762888175. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,216 @@
+---
+title: "nemo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-101-109-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>nēmō</b> <b>-ìnis</b> <br> <small>pron. subs. m. e f. não tem pl.</small> <br> <small>Obs.: No período clássico ocorrem as formas nemo, nemini, neminem.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Ninguém, nenhuma pessoa &ensp; <small>Cíc. AI. 8, 2, 4:</small> <br> <b>2</b> &ensp; <small></small> &ensp; Homem desprezível, sem valor &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>nemo non Cíc. Lae. 99, “todos, sem exceção”; non nemo Cíc. Cal. 4, 10 “alguns, algumas pessoas”. <br> <br><b>2</b><br>is quem tu neminem putas Cíc. At. 7, 3, 8 “esse que tu julgas um joão-ninguém”. </p> 
+ <small>2.</small> <b>nēmō</b> <b>-ìnis</b> <br> <small>pron. adj. = nullus</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Nenhum: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>nemo homo Cíc. Nat. 2, 96 “nenhum homem”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Nemo</b> -<b>inis</b> <br> <small>m. Cic. f. Plaut.</small>   <p> <b>1</b> &ensp; ninguem, nenhum. <br> <b>2</b> &ensp; homem de nenhuma conta. </p>
+
+
+
+
+#### Velez
+
+<b>Nemo</b> -<b>inis</b>   <p> <b>1</b> &ensp; nimguem, ou nenhum </p>
+
+
+
+
+#### Cardoso
+
+<b>Nemo</b> <b>inis</b>   <p> <b>1</b> &ensp; nenhũ. ou nenhũa </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/113605 ' target="_blank"> http://lila-erc.eu/data/id/lemma/113605 </a> <br>
+<small> classe: </small> pronome    <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-101-109-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword nemo here are all the values plotted: collocate: umquam; scoreSUBST: 0. collocate: adhuc; scoreSUBST: 0. collocate: praeter; scoreSUBST: 0. collocate: possum; scoreSUBST: 0. collocate: nisi; scoreSUBST: 0. collocate: arbitror; scoreSUBST: 0. collocate: praeterea; scoreSUBST: 0. collocate: tam; scoreSUBST: 0. collocate: enim; scoreSUBST: 0. collocate: scio; scoreSUBST: 0. collocate: itaque; scoreSUBST: 0. collocate: ubi; scoreSUBST: 0. collocate: habeo; scoreSUBST: 0. collocate: sum; scoreSUBST: 0. collocate: ut; scoreSUBST: 0. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-101-109-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword nemo here are all the values plotted: collocate: umquam; scoreADJ: 0. collocate: adhuc; scoreADJ: 0. collocate: praeter; scoreADJ: 0. collocate: possum; scoreADJ: 0. collocate: nisi; scoreADJ: 0. collocate: arbitror; scoreADJ: 0. collocate: praeterea; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: enim; scoreADJ: 0. collocate: scio; scoreADJ: 0. collocate: itaque; scoreADJ: 0. collocate: ubi; scoreADJ: 0. collocate: habeo; scoreADJ: 0. collocate: sum; scoreADJ: 0. collocate: ut; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-101-109-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword nemo here are all the values plotted: collocate: umquam; scoreVERBO: 0. collocate: adhuc; scoreVERBO: 0. collocate: praeter; scoreVERBO: 0. collocate: possum; scoreVERBO: 3. collocate: nisi; scoreVERBO: 0. collocate: arbitror; scoreVERBO: 2. collocate: praeterea; scoreVERBO: 0. collocate: tam; scoreVERBO: 0. collocate: enim; scoreVERBO: 0. collocate: scio; scoreVERBO: 2. collocate: itaque; scoreVERBO: 0. collocate: ubi; scoreVERBO: 0. collocate: habeo; scoreVERBO: 2. collocate: sum; scoreVERBO: 2. collocate: ut; scoreVERBO: 0. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-101-109-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword nemo here are all the values plotted: collocate: umquam; scoreADV: 4. collocate: adhuc; scoreADV: 2. collocate: praeter; scoreADV: 0. collocate: possum; scoreADV: 0. collocate: nisi; scoreADV: 0. collocate: arbitror; scoreADV: 0. collocate: praeterea; scoreADV: 2. collocate: tam; scoreADV: 2. collocate: enim; scoreADV: 2. collocate: scio; scoreADV: 0. collocate: itaque; scoreADV: 2. collocate: ubi; scoreADV: 2. collocate: habeo; scoreADV: 0. collocate: sum; scoreADV: 0. collocate: ut; scoreADV: 0. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-101-109-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword nemo here are all the values plotted: collocate: umquam; scoreFUNC: 0. collocate: adhuc; scoreFUNC: 0. collocate: praeter; scoreFUNC: 20. collocate: possum; scoreFUNC: 0. collocate: nisi; scoreFUNC: 20. collocate: arbitror; scoreFUNC: 0. collocate: praeterea; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: enim; scoreFUNC: 0. collocate: scio; scoreFUNC: 0. collocate: itaque; scoreFUNC: 0. collocate: ubi; scoreFUNC: 0. collocate: habeo; scoreFUNC: 0. collocate: sum; scoreFUNC: 0. collocate: ut; scoreFUNC: 20. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> praeter eum accepit <b>nemo</b> <br> <small> Cic.Att.5.21.5 <br> fora ele, ninguém recebeu. <small> [JDD] </small> </small> </p>
+; <p> responsurum hominem <b>nemo</b> arbitrabatur <br> <small> Cic.Att.1.16.5 <br> Ninguém pensava que o homem responderia. <small> [JDD] </small> </small> </p>
+; <p> unum aiebat praeterea <b>neminem</b> <br> <small> Cic.Phil.1.3.1 <br> Só um, dizia, mais ninguém. <small> [JDD] </small> </small> </p>
+; <p> in ceteris parem habuit <b>neminem</b> <br> <small> Cic.Att.4.15.6 <br> não teve ninguém igual entre os demais. <small> [JDD] </small> </small> </p>
+; <p> delicta nouit <b>nemo</b> nisi fidus mea <br> <small> Sen.Ag.284 <br> Meus delitos ninguém conhece a não ser alguém fiel. <small> [JDD] </small> </small> </p>
+; <p> obstabat eius cogitationibus <b>nemo</b> praeter Milonem <br> <small> Cic.Mil.88 <br> Ninguém fazia obstáculo às suas cogitações, exceto Milão. <small> [JDD] </small> </small> </p>
+; <p> <b>nemo</b> est enim idem qui queratur <br> <small> Cic.Att.1.20.4 <br> já não há ninguém que apresente uma queixa. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> si enim <b>nemo</b> impediet sic est firmius <br> <small> Cic.Att.3.15.5 <br> Pois se ninguém se opuser, o que há de mais seguro? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Contra potentes <b>nemo</b> est munitus satis ; <br> <small> Phaed.2.6 <br> Contra os poderosos ninguém está suficientemente protegido. <small> [JDD] </small> </small> </p>
+; <p> idcirco <b>nemo</b> superiorum attigit ut hic tolleret <br> <small> Cic.Ver.2.4.7.17 <br> Foi por isso que ninguém dos anteriores tocou em nada, para que ele tirasse? <small> [JDD] </small> </small> </p>
+; <p> tempus habes tale quale <b>nemo</b> habuit umquam <br> <small> Cic.Phil.7.27.11 <br> Tens uma oportunidade tal qual nunca ninguém teve. <small> [JDD] </small> </small> </p>
+; <p> <b>Nemo</b> libenter recolit qui laesit locum . <br> <small> Phaed.1.18 <br> Ninguém retorna de bom grado ao local que o prejudicou. <small> [JDD] </small> </small> </p>
+; <p> nam uitiis <b>nemo</b> sine nascitur optimus ille est <br> <small> Hor.S.1.3.68 <br> Pois ninguém nasce sem defeitos, o melhor é aquele <small> [JDD] </small> </small> </p>
+; <p> adventus noster <b>nemini</b> ne minimo quidem fuit sumptui <br> <small> Cic.Att.5.14.2 <br> Nossa chegada não foi de absolutamente nenhum gasto para ninguém. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> et praecepit illis vehementer ut <b>nemo</b> id sciret <br> <small> Vulg.Marc.5.43 <br> E ordenou-lhes com veemência que ninguém o soubesse. <small> [JDD] </small> </small> </p>
+; <p> <b>nemo</b> enim in terris est mihi tam consentientibus sensibus <br> <small> Cic.Att.4.18.2 <br> Pois não há na terra ninguém com sentimentos que estão tão de acordo comigo. <small> [JDD] </small> </small> </p>
+; <p> <b>nemo</b> alius est deo dignus quam qui opes contempsit <br> <small> Sen.Ep.18.13 <br> Ninguém é mais digno de um deus do que quem desprezou as riquezas. <small> [JDD] </small> </small> </p>
+; <p> itaque <b>nemo</b> adhuc conuenire me uoluit cui fuerim occupatus <br> <small> Cic.Sen.32 <br> E assim até agora não houve ninguém que tenha querido encontrar-se comigo para quem eu estive ocupado. <small> [JDD] </small> </small> </p>
+; <p> et ingressus domum <b>neminem</b> voluit scire et non potuit latere <br> <small> Vulg.Marc.7.24 <br> e tendo entrado numa casa, quis que ninguém soubesse e não pôde ficar oculto. <small> [JDD] </small> </small> </p>
+; <p> deinde <b>nemo</b> tam senex est ut inprobe unum diem speret <br> <small> Sen.Ep.12.6 <br> depois, ninguém é tão velho a ponto de aguardar de modo desonesto mais um dia. <small> [JDD] </small> </small> </p>
+; <p> <b>nemo</b> tam timidus est ut malit semper pendere quam semel cadere <br> <small> Sen.Ep.22.3 <br> Ninguém é tão temeroso que prefira sempre estar pendurado do que cair de uma vez. <small> [JDD] </small> </small> </p>
+; <p> tunc potest optineri quod semel placuit ubi <b>nemo</b> interuenit qui iudicium adhuc inbecillum populo adiutore detorqueat tunc potest uita aequali et uno tenore procedere quam propositis diuersissimis scindimus <br> <small> Sen.Ot.1.1 <br> aí então pode ser obtido o que uma vez nos agradou, quando não intervém ninguém que distorça, com a ajuda do povo, a nossa decisão ainda fraca; aí então pode seguir um curso igual e ininterrupto a vida que despedaçamos em propósitos muito diversos. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-101-109-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 15.73 and an absolute frequency of 7. The Seneca subcorpus follows, with a normalized frequency of 13.62 and an absolute frequency of 73. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 9 ; absolute frequency: 3.39904826648538. subcorpus: Cicero ; normalized frequency: 180 ; absolute frequency: 11.213276519399. subcorpus: Horatius ; normalized frequency: 9 ; absolute frequency: 7.99218541870171. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 5 ; absolute frequency: 7.59070897221801. subcorpus: Sallustius ; normalized frequency: 6 ; absolute frequency: 5.56534644281607. subcorpus: Seneca ; normalized frequency: 73 ; absolute frequency: 13.6242324704653. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 7 ; absolute frequency: 15.7268029656257'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-101-109-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 15.73 and an absolute frequency of 7. The Prosa.filosófica subcorpus follows, with a normalized frequency of 15.32 and an absolute frequency of 93. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 15 ; absolute frequency: 3.65150076681516. subcorpus: Prosa.filosófica ; normalized frequency: 93 ; absolute frequency: 15.3209996540419. subcorpus: Prosa.oratória ; normalized frequency: 121 ; absolute frequency: 11.6175242191776. subcorpus: Prosa.epistolográfica ; normalized frequency: 35 ; absolute frequency: 9.27422560216222. subcorpus: Poesia.lírica ; normalized frequency: 9 ; absolute frequency: 7.57129637419029. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 7 ; absolute frequency: 15.7268029656257'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-101-109-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 15.73 and an absolute frequency of 7. The I.d.C. subcorpus follows, with a normalized frequency of 11.93 and an absolute frequency of 78. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 204 ; absolute frequency: 9.49499650919246. subcorpus: I.d.C. ; normalized frequency: 78 ; absolute frequency: 11.9320789352914. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 7 ; absolute frequency: 15.7268029656257'}
+
+
+:::
+

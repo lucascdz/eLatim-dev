@@ -1,0 +1,203 @@
+---
+title: "moror"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-111-114-111-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>moror</b> <b>-áris, -árí, -átus sum</b> <br> <small>v. dep. intr. e tr.</small> <br> <small>Obs.: Constrói-se como intransitivo ou transitivamente com acuso ou com or. ,inf., ou com quomìnus.</small>   <p> <b>1</b> &ensp; <small>A-Intr.-Sent. próprio:</small> &ensp; Tardar, demorar-se, parar, ficar &ensp; <small>Cíc. Verr. 4, 104; Cíc. Fam. 15, 17, 2.</small> <br> <b>2</b> &ensp; <small>B-Tr.:</small> &ensp; Retardar, deter &ensp; <small>Cés. B. Gal. 6, 35, 7.</small> <br> <b>3</b> &ensp; <small>B-Tr.:</small> &ensp; Por extensão: morar, habitar, residir, viver &ensp; <small>com Sên. Ep. 32, 1.</small> <br> <b>4</b> &ensp; <small>B-Tr.:</small> &ensp; Hesitar . &ensp; <small>Cíc. Phil. 5, 33.</small> <br> <b>5</b> &ensp; <small>B-Tr.:</small> &ensp; Não se opor a, não se importar com &ensp; <small>Hor. Ep. I, 15. J61.</small> </p> 
+ <small>2.</small> <b>mōror</b> <b>-áris, -árí</b> <br> <small>v. dep. intr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Estar louco, delirar &ensp; <small>Suet. Ner 33.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Moror</b> -<b>aris</b> -<b>atus sum</b> -<b>ari</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; deter, demorar. <br> <b>2</b> &ensp; demorar-se, dilatar-se. <br> <b>3</b> &ensp; esperar. <br> <b>4</b> &ensp; habitar, morar. </p> 
+ <b>Moror</b> -<b>aris</b> -<b>atus sum</b> -<b>ari</b>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Moror</b> -<b>aris</b>   <p> <b>1</b> &ensp; fazer paruoices. Pen. Lon </p> 
+ <b>Moror</b> -<b>aris</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/112802 ' target="_blank"> http://lila-erc.eu/data/id/lemma/112802 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação depoente (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+mŏror 
+ mŏrārī 
+ mŏrāris 
+ mŏrātus sum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx109-111-114-111-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-111-114-111-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword moror here are all the values plotted: collocate: causa; scoreSUBST: 2. collocate: nihil; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-111-114-111-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword moror here are all the values plotted: collocate: causa; scoreADJ: 0. collocate: nihil; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-111-114-111-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword moror here are all the values plotted: collocate: causa; scoreVERBO: 0. collocate: nihil; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-111-114-111-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword moror here are all the values plotted: collocate: causa; scoreADV: 0. collocate: nihil; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-111-114-111-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword moror here are all the values plotted: collocate: causa; scoreFUNC: 0. collocate: nihil; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> nihil <b>moramur</b> rapite quin grates ago <br> <small> Sen.Ag.1010 <br> Não vamos nos demorar, arrebatai-me; eu até agradeço. <small> [JDD] </small> </small> </p>
+; <p> haec iste omnia ne multis <b>morer</b> uno impetu atque uno nuntio per seruos Uenerios quos eius rei causa miserat tollenda atque asportanda curauit <br> <small> Cic.Ver.2.4.104.1 <br> 104 Para não demorar com muitos detalhes, esse sujeito cuidou que todas essas coisas, num só ataque e num único anúncio, fossem tiradas e transportadas por intermédio dos escravos do templo de Vênus, que ele tinha enviado para esse objetivo. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-111-114-111-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 3.55 and an absolute frequency of 4. The Caesar subcorpus follows, with a normalized frequency of 3.4 and an absolute frequency of 9. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 9 ; absolute frequency: 3.39904826648538. subcorpus: Cicero ; normalized frequency: 6 ; absolute frequency: 0.373775883979966. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 14 ; absolute frequency: 2.61286650118512. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-111-114-111-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 6.08 and an absolute frequency of 7. The Poesia.lírica subcorpus follows, with a normalized frequency of 3.37 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 9 ; absolute frequency: 2.1909004600891. subcorpus: Prosa.filosófica ; normalized frequency: 7 ; absolute frequency: 1.15319352234724. subcorpus: Prosa.oratória ; normalized frequency: 1 ; absolute frequency: 0.0960125968527071. subcorpus: Prosa.epistolográfica ; normalized frequency: 5 ; absolute frequency: 1.32488937173746. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 7 ; absolute frequency: 6.08061153578874. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-111-114-111-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 2.29 and an absolute frequency of 15. The I.a.C. subcorpus follows, with a normalized frequency of 0.93 and an absolute frequency of 20. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 20 ; absolute frequency: 0.930882010705143. subcorpus: I.d.C. ; normalized frequency: 15 ; absolute frequency: 2.29463056447912. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

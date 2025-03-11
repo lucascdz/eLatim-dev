@@ -1,0 +1,212 @@
+---
+title: "amicitia"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-109-105-99-105-116-105-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>amīcitĭa</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small>Obs.: Gen. arc. amicitiai Lucr. 3, 83.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Amizade. simpatia &ensp; <small>Cíc. Lae. 48.</small> <br> <b>2</b> &ensp; <small>II-Donde</small> &ensp; Aliança, boas relalções &ensp; <small>entre povos Cés. B. Gal. 4, 16, 5.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Amicitia</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; amizade. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Amicitia</b> -<b>ae</b>   <p> <b>1</b> &ensp; amizade </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/89461 ' target="_blank"> http://lila-erc.eu/data/id/lemma/89461 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a-) <br>
+<small> outras grafias: </small> ameicitia <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ămīcĭtĭa 
+ ămīcĭtĭae
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-109-105-99-105-116-105-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-109-105-99-105-116-105-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword amicitia here are all the values plotted: collocate: uerus; scoreSUBST: 0. collocate: uetus; scoreSUBST: 0. collocate: sic; scoreSUBST: 0. collocate: confirmo; scoreSUBST: 0. collocate: propter; scoreSUBST: 0. collocate: noster; scoreSUBST: 0. collocate: de; scoreSUBST: 0. collocate: uis; scoreSUBST: 2. collocate: in; scoreSUBST: 0. collocate: pro; scoreSUBST: 0. collocate: populus; scoreSUBST: 2. collocate: nec; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-109-105-99-105-116-105-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword amicitia here are all the values plotted: collocate: uerus; scoreADJ: 2. collocate: uetus; scoreADJ: 2. collocate: sic; scoreADJ: 0. collocate: confirmo; scoreADJ: 0. collocate: propter; scoreADJ: 0. collocate: noster; scoreADJ: 0. collocate: de; scoreADJ: 0. collocate: uis; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: pro; scoreADJ: 0. collocate: populus; scoreADJ: 0. collocate: nec; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-109-105-99-105-116-105-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword amicitia here are all the values plotted: collocate: uerus; scoreVERBO: 0. collocate: uetus; scoreVERBO: 0. collocate: sic; scoreVERBO: 0. collocate: confirmo; scoreVERBO: 2. collocate: propter; scoreVERBO: 0. collocate: noster; scoreVERBO: 0. collocate: de; scoreVERBO: 0. collocate: uis; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: pro; scoreVERBO: 0. collocate: populus; scoreVERBO: 0. collocate: nec; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-109-105-99-105-116-105-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword amicitia here are all the values plotted: collocate: uerus; scoreADV: 0. collocate: uetus; scoreADV: 0. collocate: sic; scoreADV: 2. collocate: confirmo; scoreADV: 0. collocate: propter; scoreADV: 0. collocate: noster; scoreADV: 0. collocate: de; scoreADV: 0. collocate: uis; scoreADV: 0. collocate: in; scoreADV: 0. collocate: pro; scoreADV: 0. collocate: populus; scoreADV: 0. collocate: nec; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-109-105-99-105-116-105-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword amicitia here are all the values plotted: collocate: uerus; scoreFUNC: 0. collocate: uetus; scoreFUNC: 0. collocate: sic; scoreFUNC: 0. collocate: confirmo; scoreFUNC: 0. collocate: propter; scoreFUNC: 20. collocate: noster; scoreFUNC: 0. collocate: de; scoreFUNC: 20. collocate: uis; scoreFUNC: 0. collocate: in; scoreFUNC: 30. collocate: pro; scoreFUNC: 20. collocate: populus; scoreFUNC: 0. collocate: nec; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> haec habui de <b>amicitia</b> quae dicerem <br> <small> Cic.Amici.104 <br> Tinha estas coisas para dizer acerca da amizade. <small> [JDD] </small> </small> </p>
+; <p> sed maximum est in <b>amicitia</b> parem esse inferiori <br> <small> Cic.Amici.69 <br> Mas, na amizade, é muito importante ser igual ao inferior. <small> [JDD] </small> </small> </p>
+; <p> est etiam quaedam calamitas in <b>amicitiis</b> dimittendis nonnunquam necessaria <br> <small> Cic.Amici.76 <br> Há também uma certa calamidade algumas vezes inevitável ao desfazer as amizades. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Numestium ex litteris tuis studiose scriptis libenter in <b>amicitiam</b> recepi <br> <small> Cic.Att.2.20.1 <br> A Numéstio, de acordo com tua carta zelosamente escrita, eu, com prazer, o recebi em amizade. <small> [JDD] </small> </small> </p>
+; <p> quod nisi idem in <b>amicitiam</b> transferetur uerus amicus numquam reperietur <br> <small> Cic.Amici.80 <br> Se isso mesmo não for transferido para a amizade, o verdadeiro amigo nunca será encontrado. <small> [JDD] </small> </small> </p>
+; <p> nam ut aliarum nobis rerum innata dulcedo est sic <b>amicitiae</b> <br> <small> Sen.Ep.9.17 <br> pois assim como a doçura das outras coisas nos é inata, assim também a da amizade. <small> [JDD] </small> </small> </p>
+; <p> sed quia natura mutari non potest idcirco uerae <b>amicitiae</b> sempiternae sunt <br> <small> Cic.Amici.32 <br> mas visto que a natureza não pode ser mudada, por isso as verdadeiras amizades são sempiternas. <small> [JDD] </small> </small> </p>
+; <p> iam enim a sapientium familiaritatibus ad uulgares <b>amicitias</b> oratio nostra delabitur <br> <small> Cic.Amici.76 <br> pois nosso discurso agora desce das relações dos sábios para as amizades vulgares. <small> [JDD] </small> </small> </p>
+; <p> qui se spectat et propter hoc ad <b>amicitiam</b> uenit male cogitat <br> <small> Sen.Ep.9.8 <br> Quem olha só para si mesmo e chega à amizade por causa disso, pensa mal. <small> [JDD] </small> </small> </p>
+; <p> uellem in <b>amicitia</b> sic erraremus et isti errori nomen uirtus posuisset honestum <br> <small> Hor.S.1.3.41 <br> Eu queria que na amizade nos iludíssemos assim e que a virtude tivesse dado a essa ilusão um nome honroso. <small> [JDD] </small> </small> </p>
+; <p> haec igitur lex in <b>amicitia</b> sanciatur ut neque rogemus res turpes nec faciamus rogati <br> <small> Cic.Amici.40 <br> Que seja, portanto, sancionada na amizade esta lei: que nem solicitemos coisas vergonhosas, nem façamos quando solicitados. <small> [JDD] </small> </small> </p>
+; <p> id si minus intellegitur quanta uis <b>amicitiae</b> concordiaeque sit ex dissensionibus atque discordiis percipi potest <br> <small> Cic.Amici.23 <br> Se se compreende menos isso, pode-se perceber claramente quão grande é a força da amizade e da concórdia pelas dissensões e discórdias. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>amicitiam</b> populi Romani sibi ornamento et praesidio non detrimento esse oportere idque se hac spe petisse <br> <small> Caes.Gal.1.44.5 <br> que convinha que a amizade do povo romano fosse para sua honra e apoio, não para seu prejuízo; e foi com essa esperança que a solicitou. <small> [JDD] </small> </small> </p>
+; <p> habet autem non tantum usus <b>amicitiae</b> ueteris et certae magnam uoluptatem sed etiam initium et comparatio nouae <br> <small> Sen.Ep.9.6 <br> Por outro lado, tem um grande prazer não só o cultivo de uma velha e sólida amizade, mas também o início e a consecução de uma nova. <small> [JDD] </small> </small> </p>
+; <p> qui cum mihi mos notus esset cumque e uia languerem et mihimet displicerem misi pro <b>amicitia</b> qui hoc ei diceret <br> <small> Cic.Phil.1.12.5 <br> E visto que esse costume era conhecido por mim e visto que eu estava cansado da viagem e estava entediado, enviei pela nossa amizade alguém que lhe dissesse isto. <small> [JDD] </small> </small> </p>
+; <p> exspectationem nobis non parvam attuleras cum scripseras Varronem tibi pro <b>amicitia</b> confirmasse causam nostram Pompeium certe suscepturum et simul a Caesare ei litterae quas exspectaret remissae essent actorem etiam daturum <br> <small> Cic.Att.3.18.1 <br> Provocaste em mim uma não pequena expectativa quando escreveste que Varrão, por amizade, te confimou que Pompeu iria com certeza assumir a minha causa e que, ao mesmo tempo em que lhe fosse enviada por César a carta que estava esperando, daria ainda o autor [da proposta] <small>  </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-109-105-99-105-116-105-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 17.16 and an absolute frequency of 5. The Cicero subcorpus follows, with a normalized frequency of 12.46 and an absolute frequency of 200. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 22 ; absolute frequency: 8.30878465140872. subcorpus: Cicero ; normalized frequency: 200 ; absolute frequency: 12.4591961326655. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 5 ; absolute frequency: 4.63778870234672. subcorpus: Seneca ; normalized frequency: 28 ; absolute frequency: 5.22573300237024. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 5 ; absolute frequency: 17.164435290079. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-109-105-99-105-116-105-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 32.29 and an absolute frequency of 196. The Prosa.histórica subcorpus follows, with a normalized frequency of 7.79 and an absolute frequency of 32. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 32 ; absolute frequency: 7.78986830253901. subcorpus: Prosa.filosófica ; normalized frequency: 196 ; absolute frequency: 32.2894186257228. subcorpus: Prosa.oratória ; normalized frequency: 24 ; absolute frequency: 2.30430232446497. subcorpus: Prosa.epistolográfica ; normalized frequency: 8 ; absolute frequency: 2.11982299477994. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-109-105-99-105-116-105-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 13.09 and an absolute frequency of 5. The I.a.C. subcorpus follows, with a normalized frequency of 10.66 and an absolute frequency of 229. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 229 ; absolute frequency: 10.6585990225739. subcorpus: I.d.C. ; normalized frequency: 28 ; absolute frequency: 4.28331038702769. subcorpus: II.d.C. ; normalized frequency: 5 ; absolute frequency: 13.0890052356021. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

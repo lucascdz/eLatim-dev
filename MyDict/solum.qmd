@@ -1,0 +1,200 @@
+---
+title: "solum"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-111-108-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>solum</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Somente, unicamente &ensp; <small>Cíc. Leg. 1, 53.</small> <br> <b>2</b> &ensp; <small></small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>non solum... sed verum etiam Cíc. Rep. 2, 4 Não somente... mas também </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Solum</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; sómente. </p>
+
+
+
+
+#### Velez
+
+<b>Solùm</b> <br> <small>Adverb.</small> <br> <small>pr. long.</small>   <p> <b>1</b> &ensp; somente </p>
+
+
+
+
+#### Cardoso
+
+<b>Solum</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; soomente </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/hypolemma/111490 ' target="_blank"> http://lila-erc.eu/data/id/hypolemma/111490 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+sōlum
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-111-108-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword solum here are all the values plotted: collocate: non; scoreSUBST: 0. collocate: neque; scoreSUBST: 0. collocate: uerum; scoreSUBST: 0. collocate: ingenium; scoreSUBST: 2. collocate: nec; scoreSUBST: 0. collocate: sed; scoreSUBST: 0. collocate: consilium; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-111-108-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword solum here are all the values plotted: collocate: non; scoreADJ: 0. collocate: neque; scoreADJ: 0. collocate: uerum; scoreADJ: 0. collocate: ingenium; scoreADJ: 0. collocate: nec; scoreADJ: 0. collocate: sed; scoreADJ: 0. collocate: consilium; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-111-108-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword solum here are all the values plotted: collocate: non; scoreVERBO: 0. collocate: neque; scoreVERBO: 0. collocate: uerum; scoreVERBO: 0. collocate: ingenium; scoreVERBO: 0. collocate: nec; scoreVERBO: 0. collocate: sed; scoreVERBO: 0. collocate: consilium; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-111-108-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword solum here are all the values plotted: collocate: non; scoreADV: 5. collocate: neque; scoreADV: 0. collocate: uerum; scoreADV: 2. collocate: ingenium; scoreADV: 0. collocate: nec; scoreADV: 0. collocate: sed; scoreADV: 0. collocate: consilium; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-111-108-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword solum here are all the values plotted: collocate: non; scoreFUNC: 0. collocate: neque; scoreFUNC: 0. collocate: uerum; scoreFUNC: 0. collocate: ingenium; scoreFUNC: 0. collocate: nec; scoreFUNC: 0. collocate: sed; scoreFUNC: 0. collocate: consilium; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> nec ille armis <b>solum</b> sed etiam decretis nostris urgendus est <br> <small> Cic.Phil.3.32.7 <br> Ele deve ser perseguido não só com as armas, mas também com nossos decretos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> illam uero senatus non sententiis suis <b>solum</b> sed etiam studiis comprobauit <br> <small> Cic.Mil.12 <br> Mas, na realidade, o senado a aprovou não só com seus pareceres mas também com seus gostos. <small> [JDD] </small> </small> </p>
+; <p> non enim consiliis <b>solum</b> et studiis sed armis etiam et castris dissidebamus <br> <small> Cic.Marc.30 <br> Pois estávamos desunidos não só nas intenções e inclinações mas também nas armas e nos acampamentos. <small> [JDD] </small> </small> </p>
+; <p> nec <b>solum</b> Siculi uerum etiam ceterae gentes nationesque Hennensem Cererem maxime colunt <br> <small> Cic.Ver.2.4.108.1 <br> 108 E não só os Sicilianos, mas também os demais povos e nações cultuam muitíssimo Ceres Henense. <small> [JDD] </small> </small> </p>
+; <p> una domus erat idem uictus isque communis neque <b>solum</b> militia sed etiam peregrinationes rusticationesque communes <br> <small> Cic.Amici.103 <br> a casa era uma só, o alimento, o mesmo e esse, comum, e não só o serviço militar, mas também as viagens e as temporadas no campo, comuns. <small> [JDD] </small> </small> </p>
+; <p> orator metuo ne languescat senectute est enim munus eius non ingeni <b>solum</b> sed laterum etiam et uirium <br> <small> Cic.Sen.28 <br> Tenho medo de que o orador se enfraqueça com a velhice; pois seu ofício não depende apenas do talento, mas também dos pulmões e do vigor. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> non possum disposite istum accusare si cupiam opus est non <b>solum</b> ingenio uerum etiam artificio quodam singulari <br> <small> Cic.Ver.2.4.87.12 <br> Não posso acusar esse sujeito de modo ordenado, como eu queria; é necessário não só talento, mas também uma certa habilidade singular. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-111-108-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 10.59 and an absolute frequency of 170. The Caesar subcorpus follows, with a normalized frequency of 3.78 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 10 ; absolute frequency: 3.77672029609487. subcorpus: Cicero ; normalized frequency: 170 ; absolute frequency: 10.5903167127657. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-111-108-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 12.77 and an absolute frequency of 133. The Prosa.filosófica subcorpus follows, with a normalized frequency of 3.95 and an absolute frequency of 24. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 12 ; absolute frequency: 2.92120061345213. subcorpus: Prosa.filosófica ; normalized frequency: 24 ; absolute frequency: 3.9538063623334. subcorpus: Prosa.oratória ; normalized frequency: 133 ; absolute frequency: 12.76967538141. subcorpus: Prosa.epistolográfica ; normalized frequency: 13 ; absolute frequency: 3.4447123665174. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-111-108-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 8.52 and an absolute frequency of 183. The I.a.C. subcorpus follows, with a normalized frequency of 8.52 and an absolute frequency of 183. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 183 ; absolute frequency: 8.51757039795206. subcorpus: I.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,208 @@
+---
+title: "legatus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx108-101-103-97-116-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>2.</small> <b>lēgātus</b> <b>-í</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Enviado, embaixador, legado, emissário &ensp; <small>Cíc. Vat. 35.</small> <br> <b>2</b> &ensp; <small>II-Daí, em sent. particular</small> &ensp; Lugar-tenente, comandante subalterno &ensp; <small>Cíc. Fam. 1, 9, 21.</small> <br> <b>3</b> &ensp; <small>II-Daí, em sent. particular</small> &ensp; Assessor &ensp; <small>do pretor, de um general, do governador de província Cíc. Verr. 4. 9.</small> <br> <b>4</b> &ensp; <small>II-Daí, em sent. particular</small> &ensp; Legado, governador de província &ensp; <small>Tác. An. 12. 40.</small> <br> <b>5</b> &ensp; <small>II-Daí, em sent. particular</small> &ensp; Comandante de legião &ensp; <small>Suet. Tib. 19.</small> <br> <b>6</b> &ensp; <small>II-Daí, em sent. particular</small> &ensp; Comissário &ensp; <small>que, acompanhado de mais nove romanos, ficava incumbido de regular os negócios de um povo vencido T. Lív. 29. 20, 4.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Legatus</b> -<b>i</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; embaixador, qualquer Ministro enviado fóra a tratar negocios públicos. <br> <b>2</b> &ensp; <small>Caes.</small> &ensp; lugar-tenente do Imperador no exercito. <br> <b>3</b> &ensp; <small>Cic.</small> &ensp; lugar-tenente do Proconsul, e Pretor, e depois do Imperador nas Provincias. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>legati legionum &ensp; <small><small>Tac</small></small> &ensp; <small>Coroneis das legiões</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Legatus</b> <b>i</b>   <p> <b>1</b> &ensp; ho nuncio. ou embaixador </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/110178 ' target="_blank"> http://lila-erc.eu/data/id/lemma/110178 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+lēgātus 
+ lēgātī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx108-101-103-97-116-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx108-101-103-97-116-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword legatus here are all the values plotted: collocate: mitto; scoreSUBST: 0. collocate: Allobroges; scoreSUBST: 0. collocate: labienus; scoreSUBST: 0. collocate: singulus; scoreSUBST: 0. collocate: Caesar; scoreSUBST: 0. collocate: exercitus; scoreSUBST: 2. collocate: ad; scoreSUBST: 0. collocate: Pompeius; scoreSUBST: 0. collocate: intellego; scoreSUBST: 0. collocate: numquam; scoreSUBST: 0. collocate: uenio; scoreSUBST: 0. collocate: cum; scoreSUBST: 0. collocate: ab; scoreSUBST: 0. collocate: de; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx108-101-103-97-116-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword legatus here are all the values plotted: collocate: mitto; scoreADJ: 0. collocate: Allobroges; scoreADJ: 0. collocate: labienus; scoreADJ: 2. collocate: singulus; scoreADJ: 2. collocate: Caesar; scoreADJ: 0. collocate: exercitus; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: Pompeius; scoreADJ: 0. collocate: intellego; scoreADJ: 0. collocate: numquam; scoreADJ: 0. collocate: uenio; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: ab; scoreADJ: 0. collocate: de; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx108-101-103-97-116-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword legatus here are all the values plotted: collocate: mitto; scoreVERBO: 3. collocate: Allobroges; scoreVERBO: 0. collocate: labienus; scoreVERBO: 0. collocate: singulus; scoreVERBO: 0. collocate: Caesar; scoreVERBO: 0. collocate: exercitus; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: Pompeius; scoreVERBO: 0. collocate: intellego; scoreVERBO: 2. collocate: numquam; scoreVERBO: 0. collocate: uenio; scoreVERBO: 2. collocate: cum; scoreVERBO: 0. collocate: ab; scoreVERBO: 0. collocate: de; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx108-101-103-97-116-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword legatus here are all the values plotted: collocate: mitto; scoreADV: 0. collocate: Allobroges; scoreADV: 0. collocate: labienus; scoreADV: 0. collocate: singulus; scoreADV: 0. collocate: Caesar; scoreADV: 0. collocate: exercitus; scoreADV: 0. collocate: ad; scoreADV: 0. collocate: Pompeius; scoreADV: 0. collocate: intellego; scoreADV: 0. collocate: numquam; scoreADV: 2. collocate: uenio; scoreADV: 0. collocate: cum; scoreADV: 0. collocate: ab; scoreADV: 0. collocate: de; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx108-101-103-97-116-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword legatus here are all the values plotted: collocate: mitto; scoreFUNC: 0. collocate: Allobroges; scoreFUNC: 0. collocate: labienus; scoreFUNC: 0. collocate: singulus; scoreFUNC: 0. collocate: Caesar; scoreFUNC: 0. collocate: exercitus; scoreFUNC: 0. collocate: ad; scoreFUNC: 30. collocate: Pompeius; scoreFUNC: 0. collocate: intellego; scoreFUNC: 0. collocate: numquam; scoreFUNC: 0. collocate: uenio; scoreFUNC: 0. collocate: cum; scoreFUNC: 20. collocate: ab; scoreFUNC: 20. collocate: de; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> at <b>legatos</b> misimus <br> <small> Cic.Phil.7.14.1 <br> Mas enviamos legados. <small> [JDD] </small> </small> </p>
+; <p> ad hunc utrum <b>legatos</b> an legiones ire oportebat <br> <small> Cic.Phil.6.9.4 <br> O que convinha irem até ele legados ou legiões? <small> [JDD] </small> </small> </p>
+; <p> interim a compluribus ciuitatibus ad eum <b>legati</b> ueniunt <br> <small> Caes.Gal.4.18.3 <br> Entrementes, chegam até ele legados de muitas cidades. <small> [JDD] </small> </small> </p>
+; <p> eodem die <b>legati</b> ab hostibus missi ad Caesarem de pace uenerunt <br> <small> Caes.Gal.4.36.1 <br> No mesmo dia legados enviados pelos inimigos vieram a César acerca da paz. <small> [JDD] </small> </small> </p>
+; <p> a quibus cum paucorum dierum iter abesset <b>legati</b> ab his uenerunt <br> <small> Caes.Gal.4.7.2 <br> Quando distava deles uma marcha de poucos dias, vieram legados desses. <small> [JDD] </small> </small> </p>
+; <p> idem iste Mithridates ne ne ad eundem Cn. Pompeium <b>legatum</b> usque in Hispaniam misit <br> <small> Cic.Man.46 <br> E esse mesmo Mitridates, acaso não enviou até à Hispânia um legado ao mesmo Cneu Pompeu? <small> [JDD] </small> </small> </p>
+; <p> itaque T. Labienum <b>legatum</b> in Treueros qui proximi flumini Rheno sunt cum equitatu mittit <br> <small> Caes.Gal.3.11.1 <br> E assim envia para os Tréveros, que estão proximos aos rio Reno, o legado Tito Labieno com uma cavalaria. <small> [JDD] </small> </small> </p>
+; <p> at ex altera parte C. Antonius pedibus aeger quod proelio adesse nequibat M. Petreio <b>legato</b> exercitum permittit <br> <small> Sal.Cat.59.4 <br> Já do outro lado, Caio Antônio, porque não podia, por estar doente dos pés, participar do combate, entrega o exército a seu lugar-tenente Marco Petreio. <small> [JDD] </small> </small> </p>
+; <p> erant Menapii propinqui Eburonum finibus perpetuis paludibus siluisque muniti qui uni ex Gallia de pace ad Caesarem <b>legatos</b> numquam miserant <br> <small> Caes.Gal.6.5.4 <br> Havia os menápios, próximos aos limites dos eburões, defendidos por perpétuos pântanos e florestas, que eram os únicos da Gália que nunca tinham enviado legados a César acerca da paz. <small> [JDD] </small> </small> </p>
+; <p> Heluetii repentino eius aduentu commoti cum id quod ipsi diebus XX aegerrime confecerant ut flumen transirent illum uno die fecisse intellegerent <b>legatos</b> ad eum mittunt <br> <small> Caes.Gal.1.13.2 <br> Os helvécios, abalados com sua repentina chegada, ao perceberem que o que eles próprios tinham concluído, com dificuldade, em 20 dias, ou seja, atravessar o rio, ele tinha feito em um único dia, enviam embaixadores até ele. <small> [JDD] </small> </small> </p>
+; <p> erat scriptum ipsius manu Allobrogum senatui et populo sese quae eorum <b>legatis</b> confirmasset facturum esse orare ut item illi facerent quae sibi eorum <b>legati</b> recepissent <br> <small> Cic.Catil.3.10.7 <br> Estava escrito, por sua própria mão, para o senado e povo dos alóbroges que ele faria as coisas que tinha afirmado aos legados deles; que rogava que eles também fizessem os compromissos que seus legados tinham contraído. <small> [JDD] </small> </small> </p>
+; <p> Caesar singulis legionibus singulos <b>legatos</b> et quaestorem praefecit uti eos testes suae quisque uirtutis haberet ipse a dextro cornu quod eam partem minime firmam hostium esse animaduerterat proelium commisit <br> <small> Caes.Gal.1.52.1 <br> César pôs à frente de cada legião um embaixador e um questor, para que cada um os tivesse como testemunhas de seu valor; ele próprio travou o combate com sua ala direita, porque tinha observado que essa era a parte menos firme dos inimigos. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx108-101-103-97-116-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 30.21 and an absolute frequency of 80. The Suetonius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 80 ; absolute frequency: 30.213762368759. subcorpus: Cicero ; normalized frequency: 97 ; absolute frequency: 6.04271012434278. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 17 ; absolute frequency: 15.7684815879789. subcorpus: Seneca ; normalized frequency: 1 ; absolute frequency: 0.186633321513223. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 5 ; absolute frequency: 17.164435290079. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx108-101-103-97-116-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 24.83 and an absolute frequency of 102. The Prosa.filosófica subcorpus follows, with a normalized frequency of 0.66 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 102 ; absolute frequency: 24.8302052143431. subcorpus: Prosa.filosófica ; normalized frequency: 4 ; absolute frequency: 0.658967727055567. subcorpus: Prosa.oratória ; normalized frequency: 83 ; absolute frequency: 7.96904553877469. subcorpus: Prosa.epistolográfica ; normalized frequency: 11 ; absolute frequency: 2.91475661782241. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx108-101-103-97-116-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 13.09 and an absolute frequency of 5. The I.a.C. subcorpus follows, with a normalized frequency of 9.08 and an absolute frequency of 195. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 195 ; absolute frequency: 9.07609960437514. subcorpus: I.d.C. ; normalized frequency: 1 ; absolute frequency: 0.152975370965275. subcorpus: II.d.C. ; normalized frequency: 5 ; absolute frequency: 13.0890052356021. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

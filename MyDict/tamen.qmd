@@ -1,0 +1,218 @@
+---
+title: "tamen"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx116-97-109-101-110xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>tamen</b> <br> <small>conj.</small> <br> <small>Obs.: Pode ser empregado introduzindo uma restrição a uma afirmação Cíc. Tusc. 4, 52, ou uma restrição depois de uma pontuação forte Cíc. Or. 6, ou ainda depois de uma subordinada de sentido concessivo Cíc. Br. 143.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Todavia, contudo, entretanto, ainda que &ensp; <small>Cíc:. Verr. 4, 123.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Tamen</b> <br> <small>conj.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; com tudo, mas, porém, todavia. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>tamenetsi &ensp; <small><small>Cic</small></small> &ensp; <small>Bemque, aindaque, postoque</small> </p>
+
+
+
+
+#### Velez
+
+<b>Tamen</b> <br> <small>Conj.</small>   <p> <b>1</b> &ensp; contudo, todavia </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>ueruntamen &ensp; <small><small></small></small> &ensp; <small>contudo, todavia</small> &ensp; <small><small></small></small> <br> ueruntamen &ensp; <small><small></small></small> &ensp; <small>contudo, todavia</small> &ensp; <small><small></small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Tamen</b> <br> <small>dictio aduersatiua.</small>   <p> <b>1</b> &ensp; com tudo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/127607 ' target="_blank"> http://lila-erc.eu/data/id/lemma/127607 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+tămen
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx116-97-109-101-110xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword tamen here are all the values plotted: collocate: sed; scoreSUBST: 0. collocate: uerum; scoreSUBST: 0. collocate: ipse; scoreSUBST: 0. collocate: aliquis; scoreSUBST: 0. collocate: quoniam; scoreSUBST: 0. collocate: ille; scoreSUBST: 0. collocate: neque; scoreSUBST: 0. collocate: ita; scoreSUBST: 0. collocate: nec; scoreSUBST: 0. collocate: hic; scoreSUBST: 0. collocate: is; scoreSUBST: 0. collocate: numquam; scoreSUBST: 0. collocate: idem; scoreSUBST: 0. collocate: sum; scoreSUBST: 0. collocate: quare; scoreSUBST: 0. collocate: retineo; scoreSUBST: 0. collocate: desidero; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx116-97-109-101-110xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword tamen here are all the values plotted: collocate: sed; scoreADJ: 0. collocate: uerum; scoreADJ: 0. collocate: ipse; scoreADJ: 0. collocate: aliquis; scoreADJ: 0. collocate: quoniam; scoreADJ: 0. collocate: ille; scoreADJ: 0. collocate: neque; scoreADJ: 0. collocate: ita; scoreADJ: 0. collocate: nec; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: is; scoreADJ: 0. collocate: numquam; scoreADJ: 0. collocate: idem; scoreADJ: 0. collocate: sum; scoreADJ: 0. collocate: quare; scoreADJ: 0. collocate: retineo; scoreADJ: 0. collocate: desidero; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx116-97-109-101-110xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword tamen here are all the values plotted: collocate: sed; scoreVERBO: 0. collocate: uerum; scoreVERBO: 0. collocate: ipse; scoreVERBO: 0. collocate: aliquis; scoreVERBO: 0. collocate: quoniam; scoreVERBO: 0. collocate: ille; scoreVERBO: 0. collocate: neque; scoreVERBO: 0. collocate: ita; scoreVERBO: 0. collocate: nec; scoreVERBO: 0. collocate: hic; scoreVERBO: 0. collocate: is; scoreVERBO: 0. collocate: numquam; scoreVERBO: 0. collocate: idem; scoreVERBO: 0. collocate: sum; scoreVERBO: 2. collocate: quare; scoreVERBO: 0. collocate: retineo; scoreVERBO: 2. collocate: desidero; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx116-97-109-101-110xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword tamen here are all the values plotted: collocate: sed; scoreADV: 0. collocate: uerum; scoreADV: 4. collocate: ipse; scoreADV: 0. collocate: aliquis; scoreADV: 0. collocate: quoniam; scoreADV: 0. collocate: ille; scoreADV: 0. collocate: neque; scoreADV: 0. collocate: ita; scoreADV: 2. collocate: nec; scoreADV: 0. collocate: hic; scoreADV: 0. collocate: is; scoreADV: 0. collocate: numquam; scoreADV: 2. collocate: idem; scoreADV: 0. collocate: sum; scoreADV: 0. collocate: quare; scoreADV: 2. collocate: retineo; scoreADV: 0. collocate: desidero; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx116-97-109-101-110xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword tamen here are all the values plotted: collocate: sed; scoreFUNC: 0. collocate: uerum; scoreFUNC: 0. collocate: ipse; scoreFUNC: 0. collocate: aliquis; scoreFUNC: 0. collocate: quoniam; scoreFUNC: 20. collocate: ille; scoreFUNC: 0. collocate: neque; scoreFUNC: 0. collocate: ita; scoreFUNC: 0. collocate: nec; scoreFUNC: 0. collocate: hic; scoreFUNC: 0. collocate: is; scoreFUNC: 0. collocate: numquam; scoreFUNC: 0. collocate: idem; scoreFUNC: 0. collocate: sum; scoreFUNC: 0. collocate: quare; scoreFUNC: 0. collocate: retineo; scoreFUNC: 0. collocate: desidero; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> verum <b>tamen</b> invehatur <br> <small> Cic.Att.2.9.1 <br> Mas, mesmo assim, que venha. <small> [JDD] </small> </small> </p>
+; <p> pauci aliqui <b>tamen</b> <br> <small> Sen.Ep.20.2 <br> Poucos, alguns, contudo. <small> [JDD] </small> </small> </p>
+; <p> et <b>tamen</b> illud probem <br> <small> Cic.Att.2.14.2 <br> E, no entanto, muito bom aquele <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>tamen</b> id factum non oportuit <br> <small> Cic.Ver.2.4.37.18 <br> Contudo, não foi conveniente que isso ocorresse. <small> [JDD] </small> </small> </p>
+; <p> sed <b>tamen</b> si erit necesse arcessemus <br> <small> Cic.Att.2.19.5 <br> Mas, mesmo assim, se for necessário, te chamaremos. <small> [JDD] </small> </small> </p>
+; <p> ac <b>tamen</b> eo contentus non fuit <br> <small> Cic.Ver.2.4.109.12 <br> E, no entanto, não ficou satisfeito com isso. <small> [JDD] </small> </small> </p>
+; <p> sed <b>tamen</b> modici fuimus ὑποθέσει ut scripsi <br> <small> Cic.Att.4.5.2 <br> Mas, mesmo assim, fui moderado no tratamento do assunto, como tinha escrito. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>tamen</b> magno timore sum sed bene speramus <br> <small> Cic.Att.5.14.2 <br> contudo, estou em grande temor, mas esperamos o melhor. <small> [JDD] </small> </small> </p>
+; <p> fuit <b>tamen</b> retinendi ordinis causa facienda iactura <br> <small> Cic.Att.2.1.8 <br> No entanto, foi preciso fazer a concessão para reter a classe. <small> [JDD] </small> </small> </p>
+; <p> proximos illi <b>tamen</b> occupauit Pallas honores proeliis audax <br> <small> Hor.Carm.1.12.19 <br> Contudo, teve as honras mais próximas a ele Palas, audaz nos combates. <small> [JDD] </small> </small> </p>
+; <p> senatus haec intellegit consul uidet hic <b>tamen</b> uiuit <br> <small> Cic.Catil.1.2.1 <br> O senado sabe essas coisas. O cônsul as vê; este, no entanto, vive. <small> [JDD] </small> </small> </p>
+; <p> tu <b>tamen</b> mortem ut numquam timeas semper cogita <br> <small> Sen.Ep.30.18 <br> Tu, contudo, pensa sempre na morte para que nunca a temas. <small> [JDD] </small> </small> </p>
+; <p> quae quamquam exigua sunt <b>tamen</b> quoniam placet exspectemus <br> <small> Cic.Att.3.7.3 <br> embora sejam escassas, uma vez que isso te agrada, esperemos. <small> [JDD] </small> </small> </p>
+; <p> nec <b>tamen</b> illud genus alterum nocturnorum testium perhorresco <br> <small> Cic.Cael.20 <br> Não me apavoro, contudo, com aquele outro tipo de testemunhas noturnas. <small> [JDD] </small> </small> </p>
+; <p> cum illis <b>tamen</b> cum salvi venerint Romae vivere licebit <br> <small> Cic.Att.4.15.2 <br> Te será permitido, contudo, viver com eles em Roma, quando chegarem sãos e salvos. <small> [JDD] </small> </small> </p>
+; <p> in re publica vero quamquam animus est praesens <b>tamen</b> <br> <small> Cic.Att.1.18.2 <br> na república, embora não me falte coragem, a própria medicina me causa ferimento uma ou outra vez. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> sed <b>tamen</b> ista ipsa me varietas sermonum opinionumque delectat <br> <small> Cic.Att.2.15.1 <br> mas, mesmo assim, essa mesma variedade de conversas e de opiniões me deleita. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> neque illi <b>tamen</b> ad cauendum dolus aut astutiae deerant <br> <small> Sal.Cat.26.2 <br> E àquele, contudo, não faltavam ardil ou astúcia para se prevenir. <small> [JDD] </small> </small> </p>
+; <p> quare <b>tamen</b> bonis uiris patitur aliquid mali deus fieri <br> <small> Sen.Prov.6.1 <br> “Por que motivo, contudo, o deus consente que algum mal ocorra para os homens bons?” <small> [JDD] </small> </small> </p>
+; <p> Nil spernat auris , nec <b>tamen</b> credat statim . <br> <small> Phaed.3.10 <br> Que o ouvido nada despreze, mas que não creia de imediato. <small> [JDD] </small> </small> </p>
+; <p> quam tibi etiam si non desideras <b>tamen</b> mittam cito <br> <small> Cic.Att.4.2.2 <br> a ti, mesmo que não desejes, mesmo assim vou enviá-lo logo. <small> [JDD] </small> </small> </p>
+; <p> nimium multa de re minime dubia loquor hoc <b>tamen</b> dico <br> <small> Cic.Cael.15 <br> Falo demasiadamente muitas coisas sobre um assunto nem um pouco duvidoso; contudo, isto eu digo. <small> [JDD] </small> </small> </p>
+; <p> licet itaque augeatis census promoueatis fines numquam <b>tamen</b> corpora uestra laxabitis <br> <small> Sen.Helv.10.6 <br> E assim, ainda que aumenteis vossas posses, estendais vossos limites, nunca, contudo, alargareis vossos corpos. <small> [JDD] </small> </small> </p>
+; <p> si me consulis nullo modo sed <b>tamen</b> Ligarium senatus idem legauerat <br> <small> Cic.Lig.20 <br> Se me consultas, de modo algum; mas, em todo caso, o senado mesmo tinha nomeado Ligário como embaixador. <small> [JDD] </small> </small> </p>
+; <p> agatur eius diligentissime cura ita <b>tamen</b> ut cum exiget ratio cum dignitas cum fides mittendum in ignes sit <br> <small> Sen.Ep.14.2 <br> Tenha-se com ele um cuidado com muita solicitude, porém, de tal modo que quando a razão, quando a dignidade, quando a lealdade exigirem, devemos lançá-lo ao fogo. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx116-97-109-101-110xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 30.15 and an absolute frequency of 484. The Horatius subcorpus follows, with a normalized frequency of 11.54 and an absolute frequency of 13. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 32 ; absolute frequency: 12.0855049475036. subcorpus: Cicero ; normalized frequency: 484 ; absolute frequency: 30.1512546410506. subcorpus: Horatius ; normalized frequency: 13 ; absolute frequency: 11.5442678270136. subcorpus: Ovidius ; normalized frequency: 13 ; absolute frequency: 22.3061084420041. subcorpus: Phaedrus ; normalized frequency: 6 ; absolute frequency: 9.10885076666161. subcorpus: Sallustius ; normalized frequency: 17 ; absolute frequency: 15.7684815879789. subcorpus: Seneca ; normalized frequency: 82 ; absolute frequency: 15.3039323640843. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 6 ; absolute frequency: 20.5973223480947. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx116-97-109-101-110xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 41.07 and an absolute frequency of 155. The Prosa.oratória subcorpus follows, with a normalized frequency of 26.21 and an absolute frequency of 273. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 55 ; absolute frequency: 13.3888361449889. subcorpus: Prosa.filosófica ; normalized frequency: 130 ; absolute frequency: 21.4164511293059. subcorpus: Prosa.oratória ; normalized frequency: 273 ; absolute frequency: 26.211438940789. subcorpus: Prosa.epistolográfica ; normalized frequency: 155 ; absolute frequency: 41.0715705238613. subcorpus: Poesia.lírica ; normalized frequency: 15 ; absolute frequency: 12.6188272903172. subcorpus: Poesia.didática ; normalized frequency: 17 ; absolute frequency: 14.4202222410722. subcorpus: Poesia.trágica ; normalized frequency: 8 ; absolute frequency: 6.94927032661571. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx116-97-109-101-110xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 25.6 and an absolute frequency of 550. The I.d.C. subcorpus follows, with a normalized frequency of 15.14 and an absolute frequency of 99. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 550 ; absolute frequency: 25.5992552943914. subcorpus: I.d.C. ; normalized frequency: 99 ; absolute frequency: 15.1445617255622. subcorpus: II.d.C. ; normalized frequency: 6 ; absolute frequency: 15.7068062827225. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

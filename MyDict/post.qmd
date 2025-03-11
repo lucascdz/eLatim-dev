@@ -1,0 +1,203 @@
+---
+title: "post"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-111-115-116xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>2.</small> <b>post</b> <br> <small>prep. acus.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>A-Sent. local.-Sent. próprio:</small> &ensp; Atrás de, por trás de: &ensp; <small></small> <br> <b>2</b> &ensp; <small>A-Sent. local.-Sent. figurado:</small> &ensp; Depois de: &ensp; <small></small> <br> <b>3</b> &ensp; <small>B-Sent. temporal:</small> &ensp; Depois de, a partir de: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>post urbem Cíc. Verr. 5. 169 ‘atrás da cidade’. <br> <br><b>2</b><br>post hunc Cés. B. Gal.6. 17. 1 ‘depois deste’. <br> <br><b>3</b><br>post Hirtium conventum Cíc. AI. 10, 4, 6 ‘depois de uma visita a Hírcio’: post urbem conditam Cíc. Cat. 4, 14 ‘a partir da fundação da cidade’. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Post</b> <br> <small>prep. de accus.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; depois. </p>
+
+
+
+
+#### Velez
+
+<b>Post</b> <br> <small>Praepos.</small>   <p> <b>1</b> &ensp; depois, ou detraz &ensp; <small>accus.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>post hominum memoriam, uel post natos homines &ensp; <small>depois que o mundo he mundo</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Post</b> <br> <small>praepositio.</small>   <p> <b>1</b> &ensp; depois. ou detras </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/118572 ' target="_blank"> http://lila-erc.eu/data/id/lemma/118572 </a> <br>
+<small> classe: </small> preposição    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> pos, poste, pus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-111-115-116xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword post here are all the values plotted: collocate: tergum; scoreSUBST: 3. collocate: discessus; scoreSUBST: 3. collocate: mors; scoreSUBST: 3. collocate: paucus; scoreSUBST: 0. collocate: dies; scoreSUBST: 3. collocate: annus; scoreSUBST: 2. collocate: homo; scoreSUBST: 2. collocate: unus; scoreSUBST: 0. collocate: hic; scoreSUBST: 0. collocate: etiam; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: is; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-111-115-116xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword post here are all the values plotted: collocate: tergum; scoreADJ: 0. collocate: discessus; scoreADJ: 0. collocate: mors; scoreADJ: 0. collocate: paucus; scoreADJ: 0. collocate: dies; scoreADJ: 0. collocate: annus; scoreADJ: 0. collocate: homo; scoreADJ: 0. collocate: unus; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: etiam; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: is; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-111-115-116xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword post here are all the values plotted: collocate: tergum; scoreVERBO: 0. collocate: discessus; scoreVERBO: 0. collocate: mors; scoreVERBO: 0. collocate: paucus; scoreVERBO: 0. collocate: dies; scoreVERBO: 0. collocate: annus; scoreVERBO: 0. collocate: homo; scoreVERBO: 0. collocate: unus; scoreVERBO: 0. collocate: hic; scoreVERBO: 0. collocate: etiam; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: is; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-111-115-116xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword post here are all the values plotted: collocate: tergum; scoreADV: 0. collocate: discessus; scoreADV: 0. collocate: mors; scoreADV: 0. collocate: paucus; scoreADV: 0. collocate: dies; scoreADV: 0. collocate: annus; scoreADV: 0. collocate: homo; scoreADV: 0. collocate: unus; scoreADV: 0. collocate: hic; scoreADV: 0. collocate: etiam; scoreADV: 1. collocate: ego; scoreADV: 0. collocate: is; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-111-115-116xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword post here are all the values plotted: collocate: tergum; scoreFUNC: 0. collocate: discessus; scoreFUNC: 0. collocate: mors; scoreFUNC: 0. collocate: paucus; scoreFUNC: 0. collocate: dies; scoreFUNC: 0. collocate: annus; scoreFUNC: 0. collocate: homo; scoreFUNC: 0. collocate: unus; scoreFUNC: 0. collocate: hic; scoreFUNC: 0. collocate: etiam; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: is; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>post</b> haec ait iunge datos currus <br> <small> Sen.Prov.5.11 <br> Após isso, diz: “Atrela os carros oferecidos! <small> [JDD] </small> </small> </p>
+; <p> iacere hos <b>post</b> terga iubemur . ' <br> <small> Ov.Met.1.394 <br> estas somos ordenados a atirar atrás das costas.” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>post</b> diem tertium gesta res est quam dixerat <br> <small> Cic.Mil.44 <br> Três dias depois que ele tinha dito, a coisa se deu. <small> [JDD] </small> </small> </p>
+; <p> id adeo malum multos <b>post</b> annos in ciuitatem reuorterat <br> <small> Sal.Cat.37.11 <br> De tal modo esse mal, depois de muitos anos, tinha retornado à cidade. <small> [JDD] </small> </small> </p>
+; <p> <b>post</b> hunc Apollinem et Martem et Iouem et Mineruam <br> <small> Caes.Gal.6.17.1 <br> Depois deste, Apolo e Marte e Júpiter e Minerva. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> venite <b>post</b> me et faciam vos fieri piscatores hominum <br> <small> Vulg.Marc.1.17 <br> Vinde atrás de mim e eu farei que vós vos torneis pescadores de homens. <small> [JDD] </small> </small> </p>
+; <p> <b>Post</b> paucos dies Bidens iacentem in fovea conspexit lupum : <br> <small> Phaed.1.17 <br> Poucos dias depois a ovelha viu o lobo jazendo numa armadilha. <small> [JDD] </small> </small> </p>
+; <p> quid igitur timeam si aut non miser <b>post</b> mortem aut beatus etiam futurus sum <br> <small> Cic.Sen.67 <br> Que medo eu teria, portanto, se, após a morte, ou não serei infeliz ou serei até mesmo feliz? <small> [JDD] </small> </small> </p>
+; <p> at Nouius collega gradu <b>post</b> me sedet uno namque est ille pater quod erat meus <br> <small> Hor.S.1.6.40 <br> --- Mas meu colega Nóvio se senta um grau atrás de mim; pois ele é o que era meu pai. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nam ut ea breviter quae <b>post</b> tuum discessum acta sunt conligam iam exclames necesse est res Romanas diutius stare non posse <br> <small> Cic.Att.1.18.2 <br> Pois para resumir brevemente o que aconteceu após tua partida, já é inevitável que exclames que a situação de Roma não pode permanecer de pé por mais tempo. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-111-115-116xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 20.6 and an absolute frequency of 6. The Suetonius subcorpus follows, with a normalized frequency of 11.03 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 1.52 and an absolute freqeuncy of 1. here are all the values: subcorpus: Caesar ; normalized frequency: 18 ; absolute frequency: 6.79809653297077. subcorpus: Cicero ; normalized frequency: 61 ; absolute frequency: 3.80005482046298. subcorpus: Horatius ; normalized frequency: 10 ; absolute frequency: 8.88020602077968. subcorpus: Ovidius ; normalized frequency: 5 ; absolute frequency: 8.57927247769389. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 8 ; absolute frequency: 7.42046192375475. subcorpus: Seneca ; normalized frequency: 27 ; absolute frequency: 5.03909968085702. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 6 ; absolute frequency: 20.5973223480947. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-111-115-116xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 8.41 and an absolute frequency of 10. The Prosa.histórica subcorpus follows, with a normalized frequency of 8.03 and an absolute frequency of 33. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 1.93 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 33 ; absolute frequency: 8.03330168699335. subcorpus: Prosa.filosófica ; normalized frequency: 29 ; absolute frequency: 4.77751602115286. subcorpus: Prosa.oratória ; normalized frequency: 33 ; absolute frequency: 3.16841569613933. subcorpus: Prosa.epistolográfica ; normalized frequency: 17 ; absolute frequency: 4.50462386390736. subcorpus: Poesia.lírica ; normalized frequency: 10 ; absolute frequency: 8.4125515268781. subcorpus: Poesia.didática ; normalized frequency: 6 ; absolute frequency: 5.08949020273136. subcorpus: Poesia.trágica ; normalized frequency: 9 ; absolute frequency: 7.81792911744267. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-111-115-116xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 18.32 and an absolute frequency of 7. The II.d.C. subcorpus follows, with a normalized frequency of 18.32 and an absolute frequency of 7. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 4.56 and an absolute freqeuncy of 98. here are all the values: subcorpus: I.a.C. ; normalized frequency: 98 ; absolute frequency: 4.5613218524552. subcorpus: I.d.C. ; normalized frequency: 33 ; absolute frequency: 5.04818724185406. subcorpus: II.d.C. ; normalized frequency: 7 ; absolute frequency: 18.3246073298429. subcorpus: IV.d.C. ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+:::
+

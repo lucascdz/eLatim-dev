@@ -1,0 +1,202 @@
+---
+title: "unde"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-110-100-101xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>undĕ</b> <br> <small>adv. relativo e interrogativo</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Donde, de que lugar, daí &ensp; <small>Cés. B. Gal, 3, 14, 9.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Unde</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; donde? de que lugar? <br> <b>2</b> &ensp; donde, que qual lugar, do qual. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>unde domo? &ensp; <small><small>Virg</small></small> &ensp; <small>De que familia?</small> <br> unde gentium? &ensp; <small><small>Plaut</small></small> &ensp; <small>De que parte do mundo? de que paiz?</small> <br> unde id scis? &ensp; <small><small>Ad Her</small></small> &ensp; <small>Donde sabes isto</small> </p>
+
+
+
+
+#### Velez
+
+<b>Unde</b> <br> <small>Adverb.</small>   <p> <b>1</b> &ensp; donde? </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>unde gentium? &ensp; <small>De que parte?</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Vnde</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; donde </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/130603 ' target="_blank"> http://lila-erc.eu/data/id/lemma/130603 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+undĕ
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-110-100-101xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword unde here are all the values plotted: collocate: illa; scoreSUBST: 0. collocate: igitur; scoreSUBST: 0. collocate: peto; scoreSUBST: 0. collocate: uenio; scoreSUBST: 0. collocate: iste; scoreSUBST: 0. collocate: possum; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-110-100-101xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword unde here are all the values plotted: collocate: illa; scoreADJ: 0. collocate: igitur; scoreADJ: 0. collocate: peto; scoreADJ: 0. collocate: uenio; scoreADJ: 0. collocate: iste; scoreADJ: 0. collocate: possum; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-110-100-101xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword unde here are all the values plotted: collocate: illa; scoreVERBO: 0. collocate: igitur; scoreVERBO: 0. collocate: peto; scoreVERBO: 2. collocate: uenio; scoreVERBO: 2. collocate: iste; scoreVERBO: 0. collocate: possum; scoreVERBO: 1. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-110-100-101xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword unde here are all the values plotted: collocate: illa; scoreADV: 2. collocate: igitur; scoreADV: 2. collocate: peto; scoreADV: 0. collocate: uenio; scoreADV: 0. collocate: iste; scoreADV: 0. collocate: possum; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-110-100-101xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword unde here are all the values plotted: collocate: illa; scoreFUNC: 0. collocate: igitur; scoreFUNC: 0. collocate: peto; scoreFUNC: 0. collocate: uenio; scoreFUNC: 0. collocate: iste; scoreFUNC: 0. collocate: possum; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>unde</b> istunc nactus es <br> <small> Sen.Ep.12.3 <br> Onde encontraste esse sujeito? <small> [JDD] </small> </small> </p>
+; <p> <b>unde</b> uenis et quo tendis <br> <small> Hor.S.1.9.62 <br> “De onde vens?” e “Para onde vais?” <small> [JDD] </small> </small> </p>
+; <p> <b>unde</b> autem ista suspicio est <br> <small> Cic.Phil.12.6.7 <br> De onde é, porém, essa suspeita? <small> [JDD] </small> </small> </p>
+; <p> <b>unde</b> igitur subito tanta ista mutatio <br> <small> Cic.Phil.1.33.3 <br> De onde, portanto, assim de repente essa tão grande mudança? <small> [JDD] </small> </small> </p>
+; <p> <b>Unde</b> hoc , amice ? venit <br> <small> Phaed.3.7 <br> “De onde é isso, amigo?” <small> [JDD] </small> </small> </p>
+; <p> <b>unde</b> petitum hoc in me iacis <br> <small> Hor.S.1.4.79 <br> De onde é esse ataque que lanças contra mim? <small> [JDD] </small> </small> </p>
+; <p> <b>unde</b> igitur ista suspicio uel potius <b>unde</b> iste sermo <br> <small> Cic.Phil.14.14.10 <br> De onde, portanto, essa suspeita, ou melhor, de onde essa conversa? <small> [JDD] </small> </small> </p>
+; <p> <b>unde</b> istos poterit quis hic saturare panibus in solitudine <br> <small> Vulg.Marc.8.4 <br> como poderá alguém saciá-los de pães no deserto? <small> [JDD] </small> </small> </p>
+; <p> cotidie enim propius ab ultimo stamus et illo <b>unde</b> nobis cadendum est hora nos omnis inpellit <br> <small> Sen.Ep.120.17 <br> pois a cada dia estamo mais próximo do último, e toda hora nos impele para aquele lugar onde nós devemos cair. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-110-100-101xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 9.77 and an absolute frequency of 11. The Tacitus subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 5 ; absolute frequency: 1.88836014804744. subcorpus: Cicero ; normalized frequency: 34 ; absolute frequency: 2.11806334255314. subcorpus: Horatius ; normalized frequency: 11 ; absolute frequency: 9.76822662285765. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 4 ; absolute frequency: 6.0725671777744. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 28 ; absolute frequency: 5.22573300237024. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-110-100-101xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 9.65 and an absolute frequency of 5. The Poesia.lírica subcorpus follows, with a normalized frequency of 9.25 and an absolute frequency of 11. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 1.46 and an absolute freqeuncy of 6. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 6 ; absolute frequency: 1.46060030672606. subcorpus: Prosa.filosófica ; normalized frequency: 28 ; absolute frequency: 4.61277408938897. subcorpus: Prosa.oratória ; normalized frequency: 24 ; absolute frequency: 2.30430232446497. subcorpus: Prosa.epistolográfica ; normalized frequency: 7 ; absolute frequency: 1.85484512043244. subcorpus: Poesia.lírica ; normalized frequency: 11 ; absolute frequency: 9.25380667956591. subcorpus: Poesia.didática ; normalized frequency: 7 ; absolute frequency: 5.93773856985325. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-110-100-101xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 5.35 and an absolute frequency of 35. The II.d.C. subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 56 ; absolute frequency: 2.6064696299744. subcorpus: I.d.C. ; normalized frequency: 35 ; absolute frequency: 5.35413798378461. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

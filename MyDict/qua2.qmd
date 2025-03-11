@@ -1,0 +1,208 @@
+---
+title: "qua2"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx113-117-97-50xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>2.</small> <b>quī</b> <br> <small>antigo abl. sing. de quis</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Adv. interr.:</small> &ensp; Em quê, com quê? Como? &ensp; <small>Cíc. Nat. 3. 76: Cíc. Verr. 5, 7.</small> <br> <b>2</b> &ensp; <small>I-Adv. interr.:</small> &ensp; Pelo quê? por quê? graças a quê? &ensp; <small>Cíc. Ac. 2. 48.</small> <br> <b>3</b> &ensp; <small>II-Indef.:</small> &ensp; De algum modo, de qualquer modo &ensp; <small>Plaut. As. 930.</small> <br> <b>4</b> &ensp; <small>II-Indef.:</small> &ensp; Nas expressões que exprimem desejo, súplica &ensp; <small>substituído por utinam na língua clássica:</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>4</b><br>qui illi di irati Cíc. At. 4, 7,1 “que os deuses se encolerizem com ele!”. </p> 
+ <small>3.</small> <b>quoque</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Também, igualmente, do mesmo modo &ensp; <small>Cés. B. Gal. 1, 1, 4: Cíc. Verr. 3. 206.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Quoque</b> <br> <small>conj.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; tambem. </p>
+
+
+
+
+#### Velez
+
+<b>Quoque</b> <br> <small>Conj.</small>   <p> <b>1</b> &ensp; tambem, ou da mesma maneira </p>
+
+
+
+
+#### Cardoso
+
+<b>Quoque</b> <br> <small>coniunctio.</small>   <p> <b>1</b> &ensp; tambem. ou semelhantemente </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/hypolemma/110467 ' target="_blank"> http://lila-erc.eu/data/id/hypolemma/110467 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> quaque, qui, quique, quo, quoque <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+quōquĕ 
+ quŏquĕ
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx113-117-97-50xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword qua2 here are all the values plotted: collocate: progredior; scoreSUBST: 0. collocate: dignus; scoreSUBST: 0. collocate: hic; scoreSUBST: 0. collocate: hic2; scoreSUBST: 0. collocate: is; scoreSUBST: 0. collocate: alius; scoreSUBST: 0. collocate: uos; scoreSUBST: 0. collocate: tu; scoreSUBST: 0. collocate: possum; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: ille; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx113-117-97-50xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword qua2 here are all the values plotted: collocate: progredior; scoreADJ: 0. collocate: dignus; scoreADJ: 2. collocate: hic; scoreADJ: 0. collocate: hic2; scoreADJ: 0. collocate: is; scoreADJ: 0. collocate: alius; scoreADJ: 0. collocate: uos; scoreADJ: 0. collocate: tu; scoreADJ: 0. collocate: possum; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: ille; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx113-117-97-50xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword qua2 here are all the values plotted: collocate: progredior; scoreVERBO: 2. collocate: dignus; scoreVERBO: 0. collocate: hic; scoreVERBO: 0. collocate: hic2; scoreVERBO: 0. collocate: is; scoreVERBO: 0. collocate: alius; scoreVERBO: 0. collocate: uos; scoreVERBO: 0. collocate: tu; scoreVERBO: 0. collocate: possum; scoreVERBO: 2. collocate: ego; scoreVERBO: 0. collocate: ille; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx113-117-97-50xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword qua2 here are all the values plotted: collocate: progredior; scoreADV: 0. collocate: dignus; scoreADV: 0. collocate: hic; scoreADV: 0. collocate: hic2; scoreADV: 2. collocate: is; scoreADV: 0. collocate: alius; scoreADV: 0. collocate: uos; scoreADV: 0. collocate: tu; scoreADV: 0. collocate: possum; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: ille; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx113-117-97-50xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword qua2 here are all the values plotted: collocate: progredior; scoreFUNC: 0. collocate: dignus; scoreFUNC: 0. collocate: hic; scoreFUNC: 0. collocate: hic2; scoreFUNC: 0. collocate: is; scoreFUNC: 0. collocate: alius; scoreFUNC: 0. collocate: uos; scoreFUNC: 0. collocate: tu; scoreFUNC: 0. collocate: possum; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: ille; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> hunc <b>quoque</b> felicem <br> <small> Cic.Phil.3.26.8 <br> Feliz este também! <small> [JDD] </small> </small> </p>
+; <p> furcifer <b>quo</b> progreditur <br> <small> Cic.Deiot.26 <br> Para onde avança o patife? <small> [JDD] </small> </small> </p>
+; <p> sed id <b>quoque</b> videbimus <br> <small> Cic.Att.2.7.1 <br> Mas isso também veremos. <small> [JDD] </small> </small> </p>
+; <p> nam eorum <b>quoque</b> vehementer interest <br> <small> Cic.Att.2.16.4 <br> pois também a eles lhes interessa veementemente. <small> [JDD] </small> </small> </p>
+; <p> itaque <b>quo</b> me uertam nescio <br> <small> Cic.Lig.1 <br> Assim, não sei para onde eu me volto. <small> [JDD] </small> </small> </p>
+; <p> tarde <b>qui</b> conuenit praesertim id temporis <br> <small> Cic.Mil.54 <br> Lentamente: como isso é conveniente, principalmente nessa época? <small> [JDD] </small> </small> </p>
+; <p> ne te morer audi <b>quo</b> rem deducam <br> <small> Hor.S.1.1.14 <br> Para não te tomar tempo, escuta aonde eu quero chegar. <small> [JDD] </small> </small> </p>
+; <p> sed per deos inmortalis <b>quo</b> illa oratio pertinuit <br> <small> Sal.Cat.51.10 <br> Mas, pelos deuses imortais, a que visa aquela oratória? <small> [JDD] </small> </small> </p>
+; <p> exurge modo et te <b>quoque</b> dignum finge deo <br> <small> Sen.Ep.31.11 <br> Ergue-te apenas “e modela-te também digno de um deus”. <small> [JDD] </small> </small> </p>
+; <p> nam concordiam ciuium <b>qui</b> habere potest nullam cum habeat ciuitatem <br> <small> Cic.Phil.4.14.8 <br> ora, como ele pode ter a concórdia dos cidadãos, se não tem nenhuma cidade? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> de illo quod Chaerippus quoniam hic <b>quoque</b> πρόσνευσιν sustulisti o provincia <br> <small> Cic.Att.5.4.2 <br> Quanto àquilo que Queripo me pede (visto que também aqui me tomaste a tua preferência) oh, a província! <small> [JDD, de outra edição] </small> </small> </p>
+; <p> sin factum uobis non probaretur quamquam <b>qui</b> poterat salus sua cuiquam non probari <br> <small> Cic.Mil.81 <br> Mas se o ato não fosse aprovado por vós (mas como a própria salvação não poderia ser aprovada por alguém?). <small> [JDD] </small> </small> </p>
+; <p> honestum est perfectum bonum quo beata uita completur cuius contactu alia <b>quoque</b> bona fiunt <br> <small> Sen.Ep.118.10 <br> O honesto é o bem perfeito, com o qual a vida feliz se completa e com cujo contato as outras coisas se tornam também boas. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx113-117-97-50xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 44.1 and an absolute frequency of 4. The Tacitus subcorpus follows, with a normalized frequency of 3.43 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 9 ; absolute frequency: 3.39904826648538. subcorpus: Cicero ; normalized frequency: 87 ; absolute frequency: 5.4197503177095. subcorpus: Horatius ; normalized frequency: 18 ; absolute frequency: 15.9843708374034. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 6 ; absolute frequency: 9.10885076666161. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 90 ; absolute frequency: 16.7969989361901. subcorpus: Suetonius ; normalized frequency: 4 ; absolute frequency: 44.1014332965821. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 9 ; absolute frequency: 17.3745173745174. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx113-117-97-50xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 17.37 and an absolute frequency of 9. The Prosa.filosófica subcorpus follows, with a normalized frequency of 15.82 and an absolute frequency of 96. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 16 ; absolute frequency: 3.89493415126951. subcorpus: Prosa.filosófica ; normalized frequency: 96 ; absolute frequency: 15.8152254493336. subcorpus: Prosa.oratória ; normalized frequency: 58 ; absolute frequency: 5.56873061745701. subcorpus: Prosa.epistolográfica ; normalized frequency: 18 ; absolute frequency: 4.76960173825486. subcorpus: Poesia.lírica ; normalized frequency: 18 ; absolute frequency: 15.1425927483806. subcorpus: Poesia.didática ; normalized frequency: 6 ; absolute frequency: 5.08949020273136. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 9 ; absolute frequency: 17.3745173745174. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx113-117-97-50xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 14.69 and an absolute frequency of 96. The I.d.C. subcorpus follows, with a normalized frequency of 14.69 and an absolute frequency of 96. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 125 ; absolute frequency: 5.81801256690714. subcorpus: I.d.C. ; normalized frequency: 96 ; absolute frequency: 14.6856356126664. subcorpus: II.d.C. ; normalized frequency: 5 ; absolute frequency: 13.0890052356021. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

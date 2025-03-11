@@ -1,0 +1,210 @@
+---
+title: "parum"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-97-114-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>parum</b> <br> <small>adv.</small> <br> <small>Obs.: Frequentemente aparece em oposição a nimis, nimium Cíc. Or. 73.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Pouco &ensp; <small></small> <br> <b>2</b> &ensp; <small>e daí</small> &ensp; muito pouco &ensp; <small>Cíc. Verr. 4. 29.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Parum</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; pouco, hum pouco. </p>
+
+
+
+
+#### Velez
+
+<b>Parum</b> <br> <small>Adv.</small> <br> <small>1. b.</small>   <p> <b>1</b> &ensp; pouco </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>parum splendoris </p>
+
+
+
+
+#### Cardoso
+
+<b>Parum</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; pouco em cãtidade </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/116130 ' target="_blank"> http://lila-erc.eu/data/id/lemma/116130 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+părŭm
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-97-114-117-109xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-97-114-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword parum here are all the values plotted: collocate: commode; scoreSUBST: 0. collocate: ualeo; scoreSUBST: 0. collocate: moleste; scoreSUBST: 0. collocate: obscurus; scoreSUBST: 0. collocate: mirus; scoreSUBST: 0. collocate: qua; scoreSUBST: 0. collocate: doleo; scoreSUBST: 0. collocate: timeo; scoreSUBST: 0. collocate: nec; scoreSUBST: 0. collocate: uitium; scoreSUBST: 2. collocate: si; scoreSUBST: 0. collocate: non; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-97-114-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword parum here are all the values plotted: collocate: commode; scoreADJ: 0. collocate: ualeo; scoreADJ: 0. collocate: moleste; scoreADJ: 0. collocate: obscurus; scoreADJ: 2. collocate: mirus; scoreADJ: 2. collocate: qua; scoreADJ: 0. collocate: doleo; scoreADJ: 0. collocate: timeo; scoreADJ: 0. collocate: nec; scoreADJ: 0. collocate: uitium; scoreADJ: 0. collocate: si; scoreADJ: 0. collocate: non; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-97-114-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword parum here are all the values plotted: collocate: commode; scoreVERBO: 0. collocate: ualeo; scoreVERBO: 2. collocate: moleste; scoreVERBO: 0. collocate: obscurus; scoreVERBO: 0. collocate: mirus; scoreVERBO: 0. collocate: qua; scoreVERBO: 0. collocate: doleo; scoreVERBO: 2. collocate: timeo; scoreVERBO: 2. collocate: nec; scoreVERBO: 0. collocate: uitium; scoreVERBO: 0. collocate: si; scoreVERBO: 0. collocate: non; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-97-114-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword parum here are all the values plotted: collocate: commode; scoreADV: 2. collocate: ualeo; scoreADV: 0. collocate: moleste; scoreADV: 2. collocate: obscurus; scoreADV: 0. collocate: mirus; scoreADV: 0. collocate: qua; scoreADV: 2. collocate: doleo; scoreADV: 0. collocate: timeo; scoreADV: 0. collocate: nec; scoreADV: 0. collocate: uitium; scoreADV: 0. collocate: si; scoreADV: 0. collocate: non; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-97-114-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword parum here are all the values plotted: collocate: commode; scoreFUNC: 0. collocate: ualeo; scoreFUNC: 0. collocate: moleste; scoreFUNC: 0. collocate: obscurus; scoreFUNC: 0. collocate: mirus; scoreFUNC: 0. collocate: qua; scoreFUNC: 0. collocate: doleo; scoreFUNC: 0. collocate: timeo; scoreFUNC: 0. collocate: nec; scoreFUNC: 0. collocate: uitium; scoreFUNC: 0. collocate: si; scoreFUNC: 20. collocate: non; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> res erat <b>minime</b> obscura <br> <small> Cic.Mil.26 <br> A coisa não era nem um pouco obscura. <small> [JDD] </small> </small> </p>
+; <p> sin plane perii <b>minus</b> laboro <br> <small> Cic.Att.3.12.2 <br> mas se estou completamente liquidado, não me preocupo nenhum pouco. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> si <b>minus</b> rem tamen conficies <br> <small> Cic.Att.5.4.2 <br> se não, levarás, mesmo assim, até o fim o assunto. <small> [JDD] </small> </small> </p>
+; <p> si <b>parum</b> est adde et nepos <br> <small> Sen.Ag.293 <br> Se é pouco, acrescenta também neto. <small> [JDD] </small> </small> </p>
+; <p> si <b>minus</b> uitio uitium repelle spe metum tempera <br> <small> Sen.Ep.13.12 <br> se não, repele um defeito com outro defeito, modera o medo com a esperança. <small> [JDD] </small> </small> </p>
+; <p> ego inquis uolo discere quomodo <b>minus</b> cupiam <b>minus</b> timeam <br> <small> Sen.Ep.121.4 <br> “Eu”, dizes, “quero aprender como desejar menos, temer menos. <small> [JDD] </small> </small> </p>
+; <p> incendio Plaetoriano quod Seius ambustus est <b>minus</b> moleste fero <br> <small> Cic.Att.5.20.8 <br> Não fico nada aborrecido com o fato de que Seio se queimou no incêndio de Pletório. <small> [JDD] </small> </small> </p>
+; <p> non <b>minus</b> incerta in re publica quam in epistula tua <br> <small> Cic.Att.2.15.1 <br> que a situação não é menos incerta na república do em tua carta. <small> [JDD] </small> </small> </p>
+; <p> profice modo intelleges quaedam ideo <b>minus</b> timenda quia multum metus adferunt <br> <small> Sen.Ep.4.3 <br> Vai em frente apenas: compreenderás que certas coisas devem ser menos temidas exatamente porque nos infundem muito medo. <small> [JDD] </small> </small> </p>
+; <p> <b>minus</b> dolendum fuit re non perfecta sed puniendum certe nihilo minus <br> <small> Cic.Mil.19 <br> Não consumada a ação, era para se lamentar menos, mas certamente não para se punir menos. <small> [JDD] </small> </small> </p>
+; <p> ad hoc quicumque aliarum atque senatus partium erant conturbari rem publicam quam <b>minus</b> ualere ipsi malebant <br> <small> Sal.Cat.37.10 <br> Além do mais, todos aqueles que eram de outros partidos que não o do senado, preferiam ser a república conturbada do que terem eles próprios menos poder. <small> [JDD] </small> </small> </p>
+; <p> si miraris haec pro aliquo esse miraberis quosdam ferro et igne curari nec <b>minus</b> fame ac siti <br> <small> Sen.Prov.3.2 <br> Se achas estranho que essas coisas são para o bem de alguém, acharás estranho que alguns são curados pelo ferro e pelo fogo, e não menos pela fome e pela sede. <small> [JDD] </small> </small> </p>
+; <p> ac <b>minime</b> mirum quae sacra per summam castimoniam uirorum ac mulierum fiant eadem per istius stuprum ac flagitium esse uiolata <br> <small> Cic.Ver.2.4.102.7 <br> Mas de modo algum é surpreendente que esse mesmo culto sagrado que ocorre por intermédio da suprema castidade de homens e mulheres seja violado pela luxúria e infâmia desse sujeito. <small> [JDD] </small> </small> </p>
+; <p> quod ad me scribis te in Asiam statuisse non ire equidem mallem ut ires ac vereor ne quid in ista re <b>minus</b> commode fiat <br> <small> Cic.Att.1.16.14 <br> Quanto ao que me escreves que decidiste não  ir para a Ásia, na verdade eu preferia que fosses, e temo que alguma coisa neste assunto saia menos a contento. <small> [JDD] </small> </small> </p>
+; <p> neque enim his nostrae rostro nocere poterant tanta in iis erat firmitudo neque propter altitudinem facile telum adigebatur et eadem de causa <b>minus</b> commode copulis continebantur <br> <small> Caes.Gal.3.13.8 <br> Pois nem as nossas podiam danificá-las com o esporão (tamanha era nelas a solidez), nem o dardo era lançado com êxito por causa da altura, e pelo mesmo motivo elas eram menos facilmente detidas pelos ganchos. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-97-114-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 12.99 and an absolute frequency of 14. The Seneca subcorpus follows, with a normalized frequency of 9.7 and an absolute frequency of 52. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 25 ; absolute frequency: 9.44180074023718. subcorpus: Cicero ; normalized frequency: 158 ; absolute frequency: 9.84276494480576. subcorpus: Horatius ; normalized frequency: 12 ; absolute frequency: 10.6562472249356. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 14 ; absolute frequency: 12.9858083665708. subcorpus: Seneca ; normalized frequency: 52 ; absolute frequency: 9.70493271868759. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-97-114-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 11.37 and an absolute frequency of 69. The Prosa.oratória subcorpus follows, with a normalized frequency of 9.31 and an absolute frequency of 97. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 42 ; absolute frequency: 10.2242021470825. subcorpus: Prosa.filosófica ; normalized frequency: 69 ; absolute frequency: 11.3671932917085. subcorpus: Prosa.oratória ; normalized frequency: 97 ; absolute frequency: 9.31322189471259. subcorpus: Prosa.epistolográfica ; normalized frequency: 40 ; absolute frequency: 10.5991149738997. subcorpus: Poesia.lírica ; normalized frequency: 12 ; absolute frequency: 10.0950618322537. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-97-114-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 9.77 and an absolute frequency of 210. The I.a.C. subcorpus follows, with a normalized frequency of 9.77 and an absolute frequency of 210. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 210 ; absolute frequency: 9.774261112404. subcorpus: I.d.C. ; normalized frequency: 52 ; absolute frequency: 7.95471929019428. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,201 @@
+---
+title: "uerbum"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-101-114-98-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>verbum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Palavra, termo &ensp; <small>Cíc. De Oro 2, 150.</small> <br> <b>2</b> &ensp; <small>I-No pl.</small> &ensp; Palavras, linguagem, conversa &ensp; <small>Cíc. Rep. 6, 9.</small> <br> <b>3</b> &ensp; <small>II-Sent. particular:</small> &ensp; Forma &ensp; <small>Cíc. Oro 77.</small> <br> <b>4</b> &ensp; <small>II-Sent. particular:</small> &ensp; Palavra em oposição a res, aparência &ensp; <small>Cíc. Verr. 3, 1.33.</small> <br> <b>5</b> &ensp; <small>III-Locuções:</small> &ensp; <small></small> <br> <b>6</b> &ensp; <small>III-Locuções:</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>5</b><br>Ad verbum Cíc. Fin. 1, 4 ‘palavra por palavra’. <br> <br><b>6</b><br>Verbum pro verbo reddere Cíc. Opt. 14 «traduzir literalmente, isto é, palavra por palavra». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Verbum</b> -<b>i</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; palavra, dito, termo. <br> <b>2</b> &ensp; <small>Ter.</small> &ensp; proverbio, sentença. <br> <b>3</b> &ensp; <small>Quinct.</small> &ensp; verbo. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>bona uerba quaeso &ensp; <small><small>Ter</small></small> &ensp; <small>Peço-vos que naõ vos agasteis, fallai com brandura por vida vossa, & c</small> <br> dare plura mandata uerbo, quam scripto &ensp; <small><small>Cic</small></small> &ensp; <small>Recommendar mais cousas de viva voz, do que por escrito</small> <br> meis uerbis &ensp; <small><small>Cic</small></small> &ensp; <small>Da minha parte, em meu nome</small> <br> uerba dare &ensp; <small><small>Cic</small></small> &ensp; <small>Enganar</small> <br> uerba facere &ensp; <small><small>Cic</small></small> &ensp; <small>Fallar</small> <br> uerba ultro citroque habere &ensp; <small><small>Cic</small></small> &ensp; <small>Conversar, fallar alternadamente</small> <br> uerbum pro uerbo reddere &ensp; <small><small>Cic</small></small> &ensp; <small>Traduzir palavra por palavra</small> <br> uerbum uerbo reddere &ensp; <small><small>Hor</small></small> &ensp; <small>Traduzir palavra por palavra</small> <br> uno uerbo &ensp; <small><small>Cat</small></small> &ensp; <small>N' uma palavra, por conclusaõ</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Verbum</b> <b>i</b>   <p> <b>1</b> &ensp; a palaura </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/131057 ' target="_blank"> http://lila-erc.eu/data/id/lemma/131057 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> uerbom <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+verbī
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-101-114-98-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword uerbum here are all the values plotted: collocate: semino; scoreSUBST: 0. collocate: audio; scoreSUBST: 0. collocate: iacto; scoreSUBST: 0. collocate: amplus; scoreSUBST: 0. collocate: multus; scoreSUBST: 0. collocate: quidam; scoreSUBST: 0. collocate: quidem; scoreSUBST: 0. collocate: facio; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-101-114-98-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword uerbum here are all the values plotted: collocate: semino; scoreADJ: 0. collocate: audio; scoreADJ: 0. collocate: iacto; scoreADJ: 0. collocate: amplus; scoreADJ: 2. collocate: multus; scoreADJ: 0. collocate: quidam; scoreADJ: 0. collocate: quidem; scoreADJ: 0. collocate: facio; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-101-114-98-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword uerbum here are all the values plotted: collocate: semino; scoreVERBO: 2. collocate: audio; scoreVERBO: 2. collocate: iacto; scoreVERBO: 2. collocate: amplus; scoreVERBO: 0. collocate: multus; scoreVERBO: 0. collocate: quidam; scoreVERBO: 0. collocate: quidem; scoreVERBO: 0. collocate: facio; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-101-114-98-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword uerbum here are all the values plotted: collocate: semino; scoreADV: 0. collocate: audio; scoreADV: 0. collocate: iacto; scoreADV: 0. collocate: amplus; scoreADV: 0. collocate: multus; scoreADV: 0. collocate: quidam; scoreADV: 0. collocate: quidem; scoreADV: 2. collocate: facio; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-101-114-98-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword uerbum here are all the values plotted: collocate: semino; scoreFUNC: 0. collocate: audio; scoreFUNC: 0. collocate: iacto; scoreFUNC: 0. collocate: amplus; scoreFUNC: 0. collocate: multus; scoreFUNC: 0. collocate: quidam; scoreFUNC: 0. collocate: quidem; scoreFUNC: 0. collocate: facio; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> qui seminat <b>verbum</b> seminat <br> <small> Vulg.Marc.4.14 <br> Aquele que semeia, semeia a palavra. <small> [JDD] </small> </small> </p>
+; <p> uidistis hominem et <b>uerba</b> eius audistis <br> <small> Cic.Ver.2.4.92.6 <br> Vistes o homem e ouvistes as palavras dele. <small> [JDD] </small> </small> </p>
+; <p> at magnum fecit quod <b>uerbis</b> Graeca Latinis miscuit <br> <small> Hor.S.1.10.20 <br> “Mas fez algo grande, porque mesclou palavras gregas com latinas”. <small> [JDD] </small> </small> </p>
+; <p> et talibus multis parabolis loquebatur eis <b>verbum</b> prout poterant audire <br> <small> Vulg.Marc.4.33 <br> E com essas muitas parábolas, falava-lhes a palavra até o ponto em que podiam ouvir. <small> [JDD] </small> </small> </p>
+; <p> repeto memoria quam magno animo quaedam <b>uerba</b> proieceris quanti roboris plena <br> <small> Sen.Ep.10.3 <br> Trago na memória com que grande entusiasmo pronunciaste certas frases, cheias de imenso vigor. <small> [JDD] </small> </small> </p>
+; <p> non quidem haec quae alienis <b>uerbis</b> commodatur et actuari uice fungitur <br> <small> Sen.Ep.33.9 <br> Por certo não a que é ajustada com palavras alheias e faz as vezes de um notário. <small> [JDD] </small> </small> </p>
+; <p> deinceps laudatur prouincia Gallia meritoque ornatur <b>uerbis</b> amplissimis ab senatu quod resistat Antonio <br> <small> Cic.Phil.4.9.1 <br> Em seguida a província da Gália é elogiada e é merecidamente honrada pelo senado com as mais enfáticas palavras, por resistir a Antônio. <small> [JDD] </small> </small> </p>
+; <p> Virtutis expers , <b>verbis</b> iactans gloriam , Ignotos fallit , notis est derisui . <br> <small> Phaed.1.11 <br> O desprovido de valor, quando alardeia com palavras sua glória, engana os desconhecidos; para os conhecidos, é motivo de zombaria. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-101-114-98-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 26.96 and an absolute frequency of 12. The Ovidius subcorpus follows, with a normalized frequency of 17.16 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 3 ; absolute frequency: 1.13301608882846. subcorpus: Cicero ; normalized frequency: 92 ; absolute frequency: 5.73123022102614. subcorpus: Horatius ; normalized frequency: 10 ; absolute frequency: 8.88020602077968. subcorpus: Ovidius ; normalized frequency: 10 ; absolute frequency: 17.1585449553878. subcorpus: Phaedrus ; normalized frequency: 6 ; absolute frequency: 9.10885076666161. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 48 ; absolute frequency: 8.9583994326347. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 12 ; absolute frequency: 26.9602336553583'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-101-114-98-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 26.96 and an absolute frequency of 12. The Poesia.didática subcorpus follows, with a normalized frequency of 13.57 and an absolute frequency of 16. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 1.93 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 11 ; absolute frequency: 2.67776722899778. subcorpus: Prosa.filosófica ; normalized frequency: 43 ; absolute frequency: 7.08390306584735. subcorpus: Prosa.oratória ; normalized frequency: 69 ; absolute frequency: 6.62486918283679. subcorpus: Prosa.epistolográfica ; normalized frequency: 19 ; absolute frequency: 5.03457961260235. subcorpus: Poesia.lírica ; normalized frequency: 10 ; absolute frequency: 8.4125515268781. subcorpus: Poesia.didática ; normalized frequency: 16 ; absolute frequency: 13.5719738739503. subcorpus: Poesia.trágica ; normalized frequency: 9 ; absolute frequency: 7.81792911744267. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 12 ; absolute frequency: 26.9602336553583'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-101-114-98-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 26.96 and an absolute frequency of 12. The I.d.C. subcorpus follows, with a normalized frequency of 9.79 and an absolute frequency of 64. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 2.62 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 113 ; absolute frequency: 5.25948336048406. subcorpus: I.d.C. ; normalized frequency: 64 ; absolute frequency: 9.79042374177757. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 12 ; absolute frequency: 26.9602336553583'}
+
+
+:::
+

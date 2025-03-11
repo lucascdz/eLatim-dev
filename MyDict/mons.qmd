@@ -1,0 +1,199 @@
+---
+title: "mons"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-111-110-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>mons</b> <b>-tis</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Monte, montanha &ensp; <small>Cés. B. Gal. 3, 1, 5.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Montanha = massa enorme &ensp; <small>Verg. En. 1, 105.</small> <br> <b>3</b> &ensp; <small>II-Sent. poético:</small> &ensp; Penedo, rochedo &ensp; <small>Verg. En. 6, 390.</small> </p> 
+ <b>montis</b> <br> <small>gen. Sing. de mons.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Mons</b> <b>montis</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; monte. <br> <b>2</b> &ensp; <small>Plaut.</small> &ensp; montão, multidão. </p>
+
+
+
+
+#### Velez
+
+<b>Mons</b> -<b>tis</b> <br> <small>Vide Aureus.</small>   <p> <b>1</b> &ensp; o monte </p>
+
+
+
+
+#### Cardoso
+
+<b>Mons</b> <b>ontis</b>   <p> <b>1</b> &ensp; ho monte </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/112727 ' target="_blank"> http://lila-erc.eu/data/id/lemma/112727 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx109-111-110-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-111-110-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword mons here are all the values plotted: collocate: consido; scoreSUBST: 0. collocate: mare; scoreSUBST: 2. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-111-110-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword mons here are all the values plotted: collocate: consido; scoreADJ: 0. collocate: mare; scoreADJ: 0. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-111-110-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword mons here are all the values plotted: collocate: consido; scoreVERBO: 2. collocate: mare; scoreVERBO: 0. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-111-110-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword mons here are all the values plotted: collocate: consido; scoreADV: 0. collocate: mare; scoreADV: 0. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-111-110-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword mons here are all the values plotted: collocate: consido; scoreFUNC: 0. collocate: mare; scoreFUNC: 0. collocate: in; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> et cum dimisisset eos abiit in <b>montem</b> orare <br> <small> Vulg.Marc.6.46 <br> E depois de tê-los dispensado, foi ao monte orar. <small> [JDD] </small> </small> </p>
+; <p> maria <b>montes</b> regionum magnitudines interessent odisses eum quem non uideres <br> <small> Cic.Phil.13.5.7 <br> Os mares, as montanhas, as grandes extensões de terras estariam no meio: odiarias aquele que não visses. <small> [JDD] </small> </small> </p>
+; <p> eodem die castra promouit et milibus passuum sex a Caesaris castris sub <b>monte</b> consedit <br> <small> Caes.Gal.1.48.1 <br> Nesse mesmo dia levantou acampamento e o assentou ao pé de uma montanha a seis mil passos do acampamento de César. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-111-110-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 11.58 and an absolute frequency of 6. The Ovidius subcorpus follows, with a normalized frequency of 10.3 and an absolute frequency of 6. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 25 ; absolute frequency: 9.44180074023718. subcorpus: Cicero ; normalized frequency: 6 ; absolute frequency: 0.373775883979966. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 6 ; absolute frequency: 10.2951269732327. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 8 ; absolute frequency: 7.42046192375475. subcorpus: Seneca ; normalized frequency: 8 ; absolute frequency: 1.49306657210578. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Hieronymus ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-111-110-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 11.58 and an absolute frequency of 6. The Poesia.épica subcorpus follows, with a normalized frequency of 11.58 and an absolute frequency of 6. the subcorpus with the least normalized frequency is Prosa.filosófica with the normalized value of 0.16 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 33 ; absolute frequency: 8.03330168699335. subcorpus: Prosa.filosófica ; normalized frequency: 1 ; absolute frequency: 0.164741931763892. subcorpus: Prosa.oratória ; normalized frequency: 2 ; absolute frequency: 0.192025193705414. subcorpus: Prosa.epistolográfica ; normalized frequency: 4 ; absolute frequency: 1.05991149738997. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 7 ; absolute frequency: 5.93773856985325. subcorpus: Poesia.trágica ; normalized frequency: 7 ; absolute frequency: 6.08061153578874. subcorpus: Poesia.épica ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Prosa.ficcional ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-111-110-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 8.99 and an absolute frequency of 4. The I.d.C. subcorpus follows, with a normalized frequency of 2.29 and an absolute frequency of 15. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 49 ; absolute frequency: 2.2806609262276. subcorpus: I.d.C. ; normalized frequency: 15 ; absolute frequency: 2.29463056447912. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+:::
+

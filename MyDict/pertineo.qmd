@@ -1,0 +1,213 @@
+---
+title: "pertineo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-101-114-116-105-110-101-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>pertinĕō</b> <b>-és</b> <b>-ére</b> <b>-tinùí</b> <br> <small>v. intr.</small> <br> <small>Obs.: Constrói-se geralmente com acus. com ad ou com adv.; às vezes com acus. com in ou per.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Estender-se até, ir até, tender a, visar a &ensp; <small>sents. concreto e abstrato Cés. B. Gal. 1, 6, 3: Cíc. Lae. 50.</small> <br> <b>2</b> &ensp; <small>II-Daí, em sent. moral</small> &ensp; Tocar a, referir-se a, dizer respeito a, concernir, pertencer a, ser de &ensp; <small>Cíc. Verr. 4, 61; Cíc. Amer. 36: Cíc. Plane. 7.</small> <br> <b>3</b> &ensp; <small>II-Impess.:</small> &ensp; Ser conveniente, importar, ser útil &ensp; <small>Cíc. Div. 2, 46; Cíc. Phil. 9, 12.</small> </p> 
+ <b>pertinŭī</b> <br> <small>perf. de pertinèó.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Pertineo</b> -<b>es</b> -<b>ui</b> -<b>entum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; chegar, extender-se até hum certo termo. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Pertineo</b> -<b>es</b> 
+ <b>Pertineo</b> -<b>es</b> <b>ui</b>   <p> <b>1</b> &ensp; pertencer </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/117404 ' target="_blank"> http://lila-erc.eu/data/id/lemma/117404 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> pertineo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> pertinere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> pertinebit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> pertinui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+
+
+
+
+
+#### Lexicala
+
+pertĭnĕō 
+ pertĭnēs 
+ pertĭnēre 
+ pertĭnŭī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-101-114-116-105-110-101-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-101-114-116-105-110-101-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword pertineo here are all the values plotted: collocate: arbitror; scoreSUBST: 0. collocate: magis; scoreSUBST: 0. collocate: nunc; scoreSUBST: 0. collocate: nihil; scoreSUBST: 0. collocate: ad; scoreSUBST: 0. collocate: hic; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-101-114-116-105-110-101-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword pertineo here are all the values plotted: collocate: arbitror; scoreADJ: 0. collocate: magis; scoreADJ: 0. collocate: nunc; scoreADJ: 0. collocate: nihil; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: hic; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-101-114-116-105-110-101-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword pertineo here are all the values plotted: collocate: arbitror; scoreVERBO: 3. collocate: magis; scoreVERBO: 0. collocate: nunc; scoreVERBO: 0. collocate: nihil; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: hic; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-101-114-116-105-110-101-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword pertineo here are all the values plotted: collocate: arbitror; scoreADV: 0. collocate: magis; scoreADV: 2. collocate: nunc; scoreADV: 2. collocate: nihil; scoreADV: 0. collocate: ad; scoreADV: 0. collocate: hic; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-101-114-116-105-110-101-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword pertineo here are all the values plotted: collocate: arbitror; scoreFUNC: 0. collocate: magis; scoreFUNC: 0. collocate: nunc; scoreFUNC: 0. collocate: nihil; scoreFUNC: 0. collocate: ad; scoreFUNC: 20. collocate: hic; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quo <b>pertinet</b> haec dicere <br> <small> Sen.Ot.7.4 <br> A que concerne dizer essas coisas? <small> [JDD] </small> </small> </p>
+; <p> sed eadem bonitas etiam ad multitudinem <b>pertinet</b> <br> <small> Cic.Amici.50 <br> Mas essa mesma ternura diz respeito também à multidão. <small> [JDD] </small> </small> </p>
+; <p> Ita caput ad nostrum furor illorum <b>pertinet</b> . <br> <small> Phaed.1.30 <br> Assim o furor deles tem a ver com a nossa cabeça.” <small> [JDD] </small> </small> </p>
+; <p> ea plaga nonne ad multos bonos viros <b>pertinet</b> <br> <small> Cic.Att.2.1.10 <br> Por acaso essa chaga não atinge a muitos homens bons? <small> [JDD] </small> </small> </p>
+; <p> si quis nunc quaerat quo res haec <b>pertinet</b> <br> <small> Hor.S.1.2.23 <br> Se alguém agora pergunta: “A que propósito vem esta coisa?” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> i nunc et puta pecuniae modum ad rem <b>pertinere</b> non animi <br> <small> Sen.Helv.10.10 <br> Vai agora e considera que é a moderação do dinheiro que importa para o caso, não a do espírito. <small> [JDD] </small> </small> </p>
+; <p> utrum hic panis sit plebeius an siligineus ad naturam nihil <b>pertinet</b> <br> <small> Sen.Ep.119.3 <br> Se este pão é comum ou é de farinha especial não tem nenhuma importância para a natureza. <small> [JDD] </small> </small> </p>
+; <p> multo autem ad rem magis <b>pertinet</b> qualis tibi uidearis quam qualis aliis <br> <small> Sen.Ep.29.11 <br> Porém, importa muito mais como te pareces para ti do que para os outros;[*] <small>  </small> </small> </p>
+; <p> ex quibus ille cum optimos uiros legeret idque maxime ad fidem suam <b>pertinere</b> arbitraretur non potuit legere non studiosos mei <br> <small> Cic.Mil.21 <br> Como ele escolhesse dentre esses os melhores homens e julgasse que isso estava principalmente de acordo com sua lealdade, não pôde deixar de escolher partidários meus. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-101-114-116-105-110-101-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 6.07 and an absolute frequency of 4. The Caesar subcorpus follows, with a normalized frequency of 5.67 and an absolute frequency of 15. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 15 ; absolute frequency: 5.66508044414231. subcorpus: Cicero ; normalized frequency: 41 ; absolute frequency: 2.55413520719643. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 4 ; absolute frequency: 6.0725671777744. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 28 ; absolute frequency: 5.22573300237024. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-101-114-116-105-110-101-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 6.1 and an absolute frequency of 37. The Prosa.histórica subcorpus follows, with a normalized frequency of 3.89 and an absolute frequency of 16. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 16 ; absolute frequency: 3.89493415126951. subcorpus: Prosa.filosófica ; normalized frequency: 37 ; absolute frequency: 6.095451475264. subcorpus: Prosa.oratória ; normalized frequency: 22 ; absolute frequency: 2.11227713075956. subcorpus: Prosa.epistolográfica ; normalized frequency: 10 ; absolute frequency: 2.64977874347492. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-101-114-116-105-110-101-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 4.9 and an absolute frequency of 32. The I.a.C. subcorpus follows, with a normalized frequency of 2.7 and an absolute frequency of 58. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 58 ; absolute frequency: 2.69955783104492. subcorpus: I.d.C. ; normalized frequency: 32 ; absolute frequency: 4.89521187088879. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

@@ -1,0 +1,258 @@
+---
+title: "uideo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-105-100-101-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>viden</b> <br> <small>= vidésne, pres. do ind. de vidèo.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Vês? Vês por acaso? &ensp; <small>Cíc. Fam. 9, 22, 3; Ter. Eun. 241.</small> </p> 
+ <b>vidĕō</b> <b>-és</b> <b>-ére</b> <b>vídí, vísum</b> <br> <small>v. tr. e intr.</small> <br> <small>Obs.: Constrói-se com acus.; como intr. absoluto; com ut ou ne com subj.; com ut e ind ou subj.; com acus. e inf.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Ver &ensp; <small>Cíc. Of. 1, 105; Cíc. Phil. 2, 63; Cíc. Verr. 4, 146; Cíc. Planc. 29; Cíc. Mil. 77.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Olhar, ir ver &ensp; <small>Cíc. Phil. 1, 9.</small> <br> <b>3</b> &ensp; <small>II-Por extensão:</small> &ensp; Perceber &ensp; <small>Cíc. At. 2, 2, 2; Cíc. Br. 1; Cíc. De Or. 1, 116.</small> <br> <b>4</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Compreender, examinar, observar &ensp; <small>Cíc. Ac. 2, 40.</small> <br> <b>5</b> &ensp; <small>III-Daí:</small> &ensp; Verificar, encontrar &ensp; <small>Cíc. Tuse. 3, 59.</small> <br> <b>6</b> &ensp; <small>III-Daí:</small> &ensp; Ocupar-se de &ensp; <small>Cíc. At. 5, 1, 3.</small> <br> <b>7</b> &ensp; <small>III-Daí:</small> &ensp; Ver, presenciar, ter testemunha &ensp; <small>Cíc. At. 16, 11, 1.</small> <br> <b>8</b> &ensp; <small>III-Daí:</small> &ensp; Evitar &ensp; <small>Cíc. Of. 1, 42.</small> </p> 
+ <b>vidĕsīs</b> <br> <small>imperat.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Vê lá, toma cuidado &ensp; <small>Plaut. PS. 153.</small> </p> 
+ <b>vīdī</b> <br> <small>perf. de vidèo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+<b>Vĭdĕo</b> -<b>ēs</b> <b>vīdī</b> <b>vīsŭm</b> -<b>ērĕ</b> <br> <small>v. trans. e intrans. da raiz VID, d’onde ἰδεῖν, εἶδον.</small>   <p> <b>1</b> &ensp; empregar a vista, servir-se dos olhos; <br> <b>1</b> &ensp; ver, avistar, descobrir; <br> <b>2</b> &ensp; olhar com respeito a um logar, estar voltado para; <br> <b>3</b> &ensp; ouvir; <br> <b>3</b> &ensp; perceber por um sentido qualquer, reconhecer, certificar-se; <br> <b>4</b> &ensp; ir vêr, visitar; <br> <b>4</b> &ensp; olhar; <br> <b>5</b> &ensp; prever; <br> <b>5</b> &ensp; ser intelligente, perspicaz, compreender; <br> <b>5</b> &ensp; <small>Fig.</small> &ensp; ter em vista, pôr a mira, o fito em, desejar; <br> <b>5</b> &ensp; ter um sonho; <br> <b>5</b> &ensp; ver claramente; <br> <b>5</b> &ensp; ver em sonho; <br> <b>5</b> &ensp; ver pelo pensamento, notar, reparar; <br> <b>6</b> &ensp; attender, observar; <br> <b>6</b> &ensp; decidir, consultar, deliberar; <br> <b>6</b> &ensp; fazer caso de; <br> <b>6</b> &ensp; fazer por; <br> <b>6</b> &ensp; occupar-se com, prover a, cuidar de; <br> <b>6</b> &ensp; ver, examinar, perscrutar; <br> <b>7</b> &ensp; experimentar; <br> <b>7</b> &ensp; soffrer; <br> <b>7</b> &ensp; ver, presenciar, ser testemunha de; <br> <b>8</b> &ensp; parece bem, apraz. <br> <b>8</b> &ensp; <small>unip.</small> &ensp; parece que; <br> <b>8</b> &ensp; <small>Pass.</small> &ensp; parecer; </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>pueri qui uisum processerant &ensp; <small><small>Sall</small></small> &ensp; <small>As creanças que tinham vindo ver</small> <br> sol non uidetur &ensp; <small><small>Varr</small></small> &ensp; <small>Não se vê o sol</small> <br> uidere acriter &ensp; <small><small>Cic</small></small> &ensp; <small>Ter vista aguda, penetrante</small> <br> uidere clare oculis &ensp; <small><small>Plaut</small></small> &ensp; <small>Ver bem, ter boa vista</small> <br> uideres… &ensp; <small><small>Virg. Hor</small></small> &ensp; <small>Verias, ver-se-hia…</small> <br> uides illam urbem…? &ensp; <small><small>Cic</small></small> &ensp; <small>Ves aquella cidade…?</small> <br> uidesis etiam &ensp; <small><small>Plaut</small></small> &ensp; <small>Mas vê pois</small> <br> uisum est &ensp; <small><small>Plaut</small></small> &ensp; <small>Está visto já vi, tenho visto</small> <br> uisus sum &ensp; <small><small>Ter</small></small> &ensp; <small>Fui visto, viram-me</small> <br> <br><b>2</b><br>gallica rura uidet &ensp; <small><small>Luc</small></small> &ensp; <small>Está voltado para os campos da Gallia o Apenino</small> <br> <br><b>3</b><br>mugire uidebis sub pedibus terram &ensp; <small><small>Virg</small></small> &ensp; <small>Ouvirás a terra mugir debaixo dos pés</small> <br> uide quam durum sit &ensp; <small><small>Aug</small></small> &ensp; <small>Vê como é duro</small> <br> uide quod oleat, quod sapiat &ensp; <small><small>Aug</small></small> &ensp; <small>Vê que cheiro, que gosto tem</small> <br> <br><b>4</b><br>certon’ scis? Scio; me uide &ensp; <small><small>Plaut</small></small> &ensp; <small>Estás bem certo?… Estou; confia em mim</small> <br> illud uide, os ut sibi distorsit! &ensp; <small><small>Ter</small></small> &ensp; <small>Repara, que carranca ele faz!</small> <br> nec mihi iam patriam spes ulla uidendi &ensp; <small><small>Virg</small></small> &ensp; <small>Eu não tinha esperança de tornar a ver a minha patria</small> <br> nihil pericli est: me uide &ensp; <small><small>Ter</small></small> &ensp; <small>Não há perigo; eu fico por isso</small> <br> quin tu me uides? &ensp; <small><small>Cic</small></small> &ensp; <small>Por que não te acostas a mim?</small> <br> rogo uideas Plinium domi &ensp; <small><small>Plin. J</small></small> &ensp; <small>Peço-te que vás ter com Plinio</small> <br> septimium uide et Lænatem &ensp; <small><small>Cic</small></small> &ensp; <small>Vae ver Septimio e Lenate</small> <br> uide, tali ubi sint &ensp; <small><small>Plaut</small></small> &ensp; <small>Vê onde estão os dados</small> <br> <br><b>5</b><br>id ubi uidit &ensp; <small><small>Liv</small></small> &ensp; <small>Logo que elle deu fé d’isto</small> <br> insano nemo in amore uidet &ensp; <small><small>Prop</small></small> &ensp; <small>Ninguem vê possuido de louco amor</small> <br> uates in futurum uidet &ensp; <small><small>Liv</small></small> &ensp; <small>Os adivinhos conhecem o futuro</small> <br> uidere aliquid in somnis &ensp; <small><small>Cic</small></small> &ensp; <small>Ver alguma coisa em sonho</small> <br> uidere exitum animo &ensp; <small><small>Cic</small></small> &ensp; <small>Prever um resultado</small> <br> uidere imperia immodica &ensp; <small><small>Liv</small></small> &ensp; <small>Cobiçar um poder absoluto</small> <br> uidere magnam gloriam &ensp; <small><small>Liv</small></small> &ensp; <small>Aspirar a grande gloria</small> <br> uidere plurimum &ensp; <small><small>Phaed</small></small> &ensp; <small>Ser muito perspicaz</small> <br> uidere plus &ensp; <small><small>Cic</small></small> &ensp; <small>Ter mais previdencia</small> <br> uidere somnia &ensp; <small><small>Cic</small></small> &ensp; <small>Ter sonhos</small> <br> uidere uentura &ensp; <small><small>Virg</small></small> &ensp; <small>Prever o futuro</small> <br> uidere uitia in dicente &ensp; <small><small>Cic</small></small> &ensp; <small>Perceber os defeitos d’um orador</small> <br> uidit se magno fore periculo &ensp; <small><small>Nep</small></small> &ensp; <small>Viu que corria grande perigo</small> <br> <br><b>6</b><br>aliud lenius uide &ensp; <small><small>Ter</small></small> &ensp; <small>Manda vir outro vinho melhor</small> <br> antecesserat, ut nobis prandium uideret &ensp; <small><small>Cic</small></small> &ensp; <small>Elle tinha passado adiante, afim de cuidar do nosso jantar</small> <br> ipse uiderit &ensp; <small><small>Cic</small></small> &ensp; <small>Isto é com elle, elle lá se intende</small> <br> mea negotia uidebis &ensp; <small><small>Cic</small></small> &ensp; <small>Cuidarás dos meus interesses</small> <br> nauem ut habeas, uidebis &ensp; <small><small>Cic</small></small> &ensp; <small>Tracta de procurar um navio</small> <br> nunc ea uideamus quæ… &ensp; <small><small>Cic</small></small> &ensp; <small>Vejamos, examinemos agora o que…</small> <br> quam recte id faciam uiderint sapientes &ensp; <small><small>Cic</small></small> &ensp; <small>Cumpre aos sábios decidir se eu tenho rasão n’isto</small> <br> recte ego mihi uidissem &ensp; <small><small>Ter</small></small> &ensp; <small>Eu me teria precavido</small> <br> uidere aliud consilium &ensp; <small><small>Cic</small></small> &ensp; <small>Tomar outras medidas</small> <br> uidere ne… &ensp; <small><small>Cic</small></small> &ensp; <small>Fazer por evitar que…</small> <br> uidere ut… &ensp; <small><small>Cic</small></small> &ensp; <small>Cuidar em, fazer por…</small> <br> uiderint ista officia uiri boni &ensp; <small><small>Cic</small></small> &ensp; <small>Occupem-se d’estes deveres os homens de bem</small> <br> uideris, inquit; non ero tuî similis &ensp; <small><small>Petr</small></small> &ensp; <small>Lá verás, diz elle; eu não me parecerei comtigo</small> <br> uiderit Atrides; ego… &ensp; <small><small>Ov</small></small> &ensp; <small>Diga o que quizer Atrides; eu…</small> <br> uidete numquid hoc placeat &ensp; <small><small>Petr</small></small> &ensp; <small>Vede se isto é do vosso parecer</small> <br> <br><b>7</b><br>abies casus uisura marinos &ensp; <small><small>Virg</small></small> &ensp; <small>O abeto arrostará as aventuras do mar</small> <br> multas uictorias ætas nostra uidit &ensp; <small><small>Cic</small></small> &ensp; <small>Tem visto muitas victorias a nossa epocha</small> <br> non uidit cuiusquam e suis funus &ensp; <small><small>Nep</small></small> &ensp; <small>Não perdeu algum dos seus</small> <br> quam ibi miseriam uidi! &ensp; <small><small>Ter</small></small> &ensp; <small>Que miséria eu passei alli!</small> <br> spero uos bona multa esse uisuros &ensp; <small><small>Cic</small></small> &ensp; <small>Espero que vós vereis muitos acontecimentos felizes</small> <br> uiderunt nondum diem &ensp; <small><small>Sen. tr</small></small> &ensp; <small>Eu não tinha ainda vindo á luz, eu não tinha ainda nascido</small> <br> utinam eum uideam diem, quum…! &ensp; <small><small>Cic</small></small> &ensp; <small>Oxalá que eu veja o dia em que…!</small> <br> <br><b>8</b><br>audire uocem uisa sum… &ensp; <small><small>Ter</small></small> &ensp; <small>Pareceu-me ouvir uma voz…</small> <br> dis aliter uisum &ensp; <small><small>Virg</small></small> &ensp; <small>Os deuses tiveram por bem outra coisa, resolveram d’outro modo</small> <br> fecisse uideri pronuntiat &ensp; <small><small>Cic</small></small> &ensp; <small>Elle declara que lhe parece ter commettido a acção</small> &ensp; <small><small>formula das sentenças dos juizes, dos decretos, dos acordãos do senado</small></small> <br> illorum beata mors uidetur… &ensp; <small><small>Cic</small></small> &ensp; <small>A morte d’aquelles parece feliz…</small> <br> mihi uisum est &ensp; <small><small>com infin.… Cic</small></small> &ensp; <small>Resolvi que…</small> <br> mihi uisum est ut &ensp; <small><small>Ter</small></small> &ensp; <small>Resolvi que…</small> <br> nisi quid aliud tibi uidebitur &ensp; <small><small>Cic</small></small> &ensp; <small>A não ser que penses de modo differente</small> <br> non mihi uidetur satis posse uirtutem ad… &ensp; <small><small>Cic</small></small> &ensp; <small>Não me parece que a virtude seja sufficiente para…</small> <br> obiurgaui senatum, ut mihi uisus sum… &ensp; <small><small>Cic</small></small> &ensp; <small>Increpei o senado, segundo me pareceu…</small> <br> qui imitamur, quos cuique uisum est… &ensp; <small><small>Cic</small></small> &ensp; <small>Nós que imitamos aquelles que nos apraz…</small> <br> quid tibi uidetur? &ensp; <small><small>Phaed</small></small> &ensp; <small>Que te parece? Que achas?</small> <br> si uidetur &ensp; <small><small>Cic</small></small> &ensp; <small>Se parece bem</small> <br> tibi si uidebitur… &ensp; <small><small>Cic</small></small> &ensp; <small>Se achares que é bem, se quizeres, se te aprouver</small> <br> ubi uisum est, discedunt &ensp; <small><small>Caes</small></small> &ensp; <small>Retiram-se quando lhes aprouve</small> <br> uidebatur Limnæam oppugnari posse &ensp; <small><small>Liv</small></small> &ensp; <small>Parecia que Limnea podia ser levada á escala</small> <br> uidere mihi uideor populum… &ensp; <small><small>Cic</small></small> &ensp; <small>Parece-me ver o povo…</small> </p>
+
+
+
+
+#### Fonseca
+
+<b>Video</b> -<b>es</b> -<b>idi</b> -<b>isum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; ver. <br> <b>2</b> &ensp; examinar, considerar, ponderar, reflectir. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>uide me &ensp; <small><small>Ter</small></small> &ensp; <small>Confia-te em mim</small> <br> uide quid agas &ensp; <small><small>Ter</small></small> &ensp; <small>Vê o que fazes, repara em que te mettes</small> <br> uidebis sub pedibus mugire solum &ensp; <small><small>Virg</small></small> &ensp; <small>Sentirás soar o chaõ debaixo dos pés</small> <br> uidere diem &ensp; <small><small>Ovid</small></small> &ensp; <small>Viver</small> </p> 
+ <b>Videor</b> -<b>eris</b> -<b>isus sum</b> -<b>eri</b>
+
+
+
+
+#### Velez
+
+<b>Video</b> -<b>es</b>   <p> <b>1</b> &ensp; ver, entender, considerar, advertir, prover &ensp; <small>Activ.</small> <br> <b>2</b> &ensp; <small>pass. Videor, eris</small> &ensp; ser visto <br> <b>3</b> &ensp; <small>pass. Videor, eris saepissimè significat</small> &ensp; parecer </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>uiden &ensp; <small>Vedes por ventura?</small> &ensp; <small><small>pro Videsne?</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Video</b> -<b>es</b> -<b>di</b> <b>sum</b>   <p> <b>1</b> &ensp; ver </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/130163 ' target="_blank"> http://lila-erc.eu/data/id/lemma/130163 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> uideo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> uidere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> uidebit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> uidi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> uisum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> uisurum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+vĭdĕō 
+ vidēs 
+ vidēre 
+ vīdi 
+ vīsum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx117-105-100-101-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-105-100-101-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword uideo here are all the values plotted: collocate: sum; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: non; scoreSUBST: 0. collocate: ne; scoreSUBST: 0. collocate: qua; scoreSUBST: 0. collocate: cum; scoreSUBST: 0. collocate: ut; scoreSUBST: 0. collocate: qui; scoreSUBST: 0. collocate: homo; scoreSUBST: 2. collocate: enim; scoreSUBST: 0. collocate: numquam; scoreSUBST: 0. collocate: nisi; scoreSUBST: 0. collocate: ubi; scoreSUBST: 0. collocate: quantus; scoreSUBST: 0. collocate: sic; scoreSUBST: 0. collocate: primum; scoreSUBST: 0. collocate: quia; scoreSUBST: 0. collocate: fugio; scoreSUBST: 0. collocate: tollo; scoreSUBST: 0. collocate: indignus; scoreSUBST: 0. collocate: mirus; scoreSUBST: 0. collocate: quanto; scoreSUBST: 0. collocate: postea; scoreSUBST: 0. collocate: contemno; scoreSUBST: 0. collocate: plerique; scoreSUBST: 0. collocate: quaeso; scoreSUBST: 0. collocate: senex2; scoreSUBST: 0. collocate: tristis; scoreSUBST: 0. collocate: dominus; scoreSUBST: 1. collocate: incredibilis; scoreSUBST: 0. collocate: commoueo; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-105-100-101-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword uideo here are all the values plotted: collocate: sum; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: non; scoreADJ: 0. collocate: ne; scoreADJ: 0. collocate: qua; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: ut; scoreADJ: 0. collocate: qui; scoreADJ: 0. collocate: homo; scoreADJ: 0. collocate: enim; scoreADJ: 0. collocate: numquam; scoreADJ: 0. collocate: nisi; scoreADJ: 0. collocate: ubi; scoreADJ: 0. collocate: quantus; scoreADJ: 0. collocate: sic; scoreADJ: 0. collocate: primum; scoreADJ: 0. collocate: quia; scoreADJ: 0. collocate: fugio; scoreADJ: 0. collocate: tollo; scoreADJ: 0. collocate: indignus; scoreADJ: 2. collocate: mirus; scoreADJ: 2. collocate: quanto; scoreADJ: 0. collocate: postea; scoreADJ: 0. collocate: contemno; scoreADJ: 0. collocate: plerique; scoreADJ: 0. collocate: quaeso; scoreADJ: 0. collocate: senex2; scoreADJ: 2. collocate: tristis; scoreADJ: 2. collocate: dominus; scoreADJ: 0. collocate: incredibilis; scoreADJ: 1. collocate: commoueo; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-105-100-101-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword uideo here are all the values plotted: collocate: sum; scoreVERBO: 3. collocate: ego; scoreVERBO: 0. collocate: non; scoreVERBO: 0. collocate: ne; scoreVERBO: 0. collocate: qua; scoreVERBO: 0. collocate: cum; scoreVERBO: 0. collocate: ut; scoreVERBO: 0. collocate: qui; scoreVERBO: 0. collocate: homo; scoreVERBO: 0. collocate: enim; scoreVERBO: 0. collocate: numquam; scoreVERBO: 0. collocate: nisi; scoreVERBO: 0. collocate: ubi; scoreVERBO: 0. collocate: quantus; scoreVERBO: 0. collocate: sic; scoreVERBO: 0. collocate: primum; scoreVERBO: 0. collocate: quia; scoreVERBO: 0. collocate: fugio; scoreVERBO: 2. collocate: tollo; scoreVERBO: 1. collocate: indignus; scoreVERBO: 0. collocate: mirus; scoreVERBO: 0. collocate: quanto; scoreVERBO: 0. collocate: postea; scoreVERBO: 0. collocate: contemno; scoreVERBO: 2. collocate: plerique; scoreVERBO: 0. collocate: quaeso; scoreVERBO: 2. collocate: senex2; scoreVERBO: 0. collocate: tristis; scoreVERBO: 0. collocate: dominus; scoreVERBO: 0. collocate: incredibilis; scoreVERBO: 0. collocate: commoueo; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-105-100-101-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword uideo here are all the values plotted: collocate: sum; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: non; scoreADV: 3. collocate: ne; scoreADV: 0. collocate: qua; scoreADV: 2. collocate: cum; scoreADV: 0. collocate: ut; scoreADV: 0. collocate: qui; scoreADV: 0. collocate: homo; scoreADV: 0. collocate: enim; scoreADV: 2. collocate: numquam; scoreADV: 2. collocate: nisi; scoreADV: 0. collocate: ubi; scoreADV: 2. collocate: quantus; scoreADV: 0. collocate: sic; scoreADV: 1. collocate: primum; scoreADV: 2. collocate: quia; scoreADV: 0. collocate: fugio; scoreADV: 0. collocate: tollo; scoreADV: 0. collocate: indignus; scoreADV: 0. collocate: mirus; scoreADV: 0. collocate: quanto; scoreADV: 2. collocate: postea; scoreADV: 2. collocate: contemno; scoreADV: 0. collocate: plerique; scoreADV: 0. collocate: quaeso; scoreADV: 0. collocate: senex2; scoreADV: 0. collocate: tristis; scoreADV: 0. collocate: dominus; scoreADV: 0. collocate: incredibilis; scoreADV: 0. collocate: commoueo; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-105-100-101-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword uideo here are all the values plotted: collocate: sum; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: non; scoreFUNC: 0. collocate: ne; scoreFUNC: 20. collocate: qua; scoreFUNC: 0. collocate: cum; scoreFUNC: 20. collocate: ut; scoreFUNC: 20. collocate: qui; scoreFUNC: 0. collocate: homo; scoreFUNC: 0. collocate: enim; scoreFUNC: 0. collocate: numquam; scoreFUNC: 0. collocate: nisi; scoreFUNC: 20. collocate: ubi; scoreFUNC: 0. collocate: quantus; scoreFUNC: 0. collocate: sic; scoreFUNC: 0. collocate: primum; scoreFUNC: 0. collocate: quia; scoreFUNC: 20. collocate: fugio; scoreFUNC: 0. collocate: tollo; scoreFUNC: 0. collocate: indignus; scoreFUNC: 0. collocate: mirus; scoreFUNC: 0. collocate: quanto; scoreFUNC: 0. collocate: postea; scoreFUNC: 0. collocate: contemno; scoreFUNC: 0. collocate: plerique; scoreFUNC: 0. collocate: quaeso; scoreFUNC: 0. collocate: senex2; scoreFUNC: 0. collocate: tristis; scoreFUNC: 0. collocate: dominus; scoreFUNC: 0. collocate: incredibilis; scoreFUNC: 0. collocate: commoueo; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> miram securitatem <b>videbis</b> <br> <small> Cic.Att.4.18.2 <br> verás uma tranquilidade admirável. <small> [JDD] </small> </small> </p>
+; <p> <b>vides</b> enim cetera <br> <small> Cic.Att.2.3.2 <br> tu vês o restante. <small> [JDD] </small> </small> </p>
+; <p> numquam sic <b>vidimus</b> <br> <small> Vulg.Marc.2.12 <br> Nunca vimos nada assim. <small> [JDD] </small> </small> </p>
+; <p> ut scribis ita <b>video</b> <br> <small> Cic.Att.2.15.1 <br> Vejo, como tu me escreves. <small> [JDD] </small> </small> </p>
+; <p> <b>uidetis</b> quam nefaria uox <br> <small> Cic.Amici.37 <br> Vedes que palavras abomináveis! <small> [JDD] </small> </small> </p>
+; <p> non <b>vidisti</b> igitur hominem <br> <small> Cic.Att.5.2.2 <br> “Não viste então o homem?” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>video</b> hominem valde petiturire <br> <small> Cic.Att.1.14.7 <br> Vejo que o homem vai se lançar com força como candidado. <small> [JDD] </small> </small> </p>
+; <p> <b>videbis</b> ergo hominem si voles <br> <small> Cic.Att.4.12.1 <br> Portanto, verás o homem, se quiseres. <small> [JDD] </small> </small> </p>
+; <p> Drusus Scaurus non fecisse <b>videntur</b> <br> <small> Cic.Att.4.17.5 <br> Druso e Escauro parecem não ter cometido nada. <small> [JDD] </small> </small> </p>
+; <p> nimis urgeo commoueri <b>uidetur</b> adulescens <br> <small> Cic.Lig.9 <br> Estou apertando demais; o jovem parece estar se emocionando. <small> [JDD] </small> </small> </p>
+; <p> vix enim mihi exaudisse <b>videor</b> <br> <small> Cic.Att.4.8A.1 <br> pois tenho a impressão de mal ter ouvido. <small> [JDD] </small> </small> </p>
+; <p> <b>vide</b> quae sint postea consecuta <br> <small> Cic.Att.1.18.3 <br> Vê quais são as consequências depois disso. <small> [JDD] </small> </small> </p>
+; <p> nam Phaetho libertus eum non <b>vidit</b> <br> <small> Cic.Att.3.8.2 <br> De fato, o liberto Fetão não o viu. <small> [JDD] </small> </small> </p>
+; <p> eum quia non <b>videbam</b> abesse putabam <br> <small> Cic.Att.4.8A.3 <br> Eu, porque não o via, achava que ele estava ausente. <small> [JDD] </small> </small> </p>
+; <p> senatum frequentem celeriter ut <b>uidistis</b> coegi <br> <small> Cic.Catil.3.7.11 <br> Reuni rapidamente um senado numeroso, como vistes. <small> [JDD] </small> </small> </p>
+; <p> Honorem fructu ne <b>videamur</b> vendere . <br> <small> Phaed.3.17 <br> “Para que não pareçamos vender nossa honra pelo fruto”. <small> [JDD] </small> </small> </p>
+; <p> hoc mihi eius modi non <b>videbatur</b> <br> <small> Cic.Att.2.16.1 <br> Isto não me parecia deste modo. <small> [JDD] </small> </small> </p>
+; <p> omnibus acerbum indignum luctuosum denique <b>uidebatur</b> <br> <small> Cic.Ver.2.4.99.13 <br> A todos parecia penoso, indigno, lastimável enfim. <small> [JDD] </small> </small> </p>
+; <p> cuperem vultum <b>videre</b> tuum cum haec legeres <br> <small> Cic.Att.4.17.4 <br> Eu desejaria ver tua cara quando lesses estas coisas. <small> [JDD] </small> </small> </p>
+; <p> mirum illi <b>uideri</b> mittit iterum non redditur <br> <small> Cic.Ver.2.4.66.3 <br> A ele lhe parecia estranho; envia novamente; não é devolvido. <small> [JDD] </small> </small> </p>
+; <p> quam dissimilis hic dies illi tempori <b>uidebatur</b> <br> <small> Cic.Ver.2.4.77.11 <br> Quão diferente lhes parecia este dia daquele momento! <small> [JDD] </small> </small> </p>
+; <p> non <b>uides</b> quam ex friuolis causis contemnatur <br> <small> Sen.Ep.4.4 <br> Não vês o quanto ela desprezada por motivos fúteis? <small> [JDD] </small> </small> </p>
+; <p> <b>uidete</b> iudices quantae res his testimoniis sint confectae <br> <small> Cic.Mil.47 <br> Vede, juízes, que importantes fatos foram estabelecidos com esses testemunhos. <small> [JDD] </small> </small> </p>
+; <p> non <b>uides</b> quanto aliter patres aliter matres indulgeant <br> <small> Sen.Prov.2.5 <br> Não vês o quão os pais são complacentes de um modo e as mães de outro? <small> [JDD] </small> </small> </p>
+; <p> statues ut ex fide fama reque mea <b>videbitur</b> <br> <small> Cic.Att.5.8.3 <br> resolverás o que te parecer bom conforme minha lealdade, reputação e interesse. <small> [JDD] </small> </small> </p>
+; <p> <b>vides</b> enim quibus hominibus aures sint deditae meae <br> <small> Cic.Att.2.14.2 <br> Pois vê a que homens meus ouvidos foram entregues. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> sed nisi fallor citius te quam scribis <b>videbo</b> <br> <small> Cic.Att.4.19.1 <br> Mas, se não me engano, te verei mais logo do que escreves. <small> [JDD] </small> </small> </p>
+; <p> <b>video</b> iam quo invidia transeat et ubi sit habitatura <br> <small> Cic.Att.2.9.2 <br> Já vejo para onde vai a inveja e onde vai se estabelecer. <small> [JDD] </small> </small> </p>
+; <p> <b>uidete</b> nunc illum primum egredientem e uilla subito cur <br> <small> Cic.Mil.54 <br> Vede agora aquele, primeiramente saindo repentinamente da chácara: por quê? <small> [JDD] </small> </small> </p>
+; <p> in oppidis enim summum <b>video</b> timorem sed multa inania <br> <small> Cic.Att.5.3.1 <br> pois vejo nas cidades um enorme temor, mas muitas coisas vagas. <small> [JDD] </small> </small> </p>
+; <p> cum satis iam perspexisse <b>uideretur</b> tollere incipiunt ut referrent <br> <small> Cic.Ver.2.4.65.16 <br> Quando parecia que ja tinha examinado suficientemente, começam a erguê-lo para levá-lo de volta. <small> [JDD] </small> </small> </p>
+; <p> cognoscite Quirites non enim hoc sine causa quaeri <b>uidetur</b> <br> <small> Cic.Man.22 <br> Ficai sabendo, Quirites; pois isso não parece ser perguntado sem motivo. <small> [JDD] </small> </small> </p>
+; <p> ex quo illorum beata mors <b>uidetur</b> horum uita laudabilis <br> <small> Cic.Amici.23 <br> Em vista disso, a morte daqueles parece feliz, a vida destes, louvável. <small> [JDD] </small> </small> </p>
+; <p> sanguinem extremae dapes domini <b>uidebunt</b> et cruor Baccho incidet <br> <small> Sen.Ag.885 <br> O último banquete vai ver o sangue do senhor e o sangue vai cair sobre Baco. <small> [JDD] </small> </small> </p>
+; <p> verum tamen <b>videbare</b> mihi tempora peregrinationis commodius posse discribere <br> <small> Cic.Att.2.1.4 <br> mas me parece que podias organizar mais adequadamente os teus períodos de viagens. <small> [JDD] </small> </small> </p>
+; <p> neque uero illum similiter atque ipse eram commotum esse <b>uidi</b> <br> <small> Cic.Phil.1.9.8 <br> E, na verdade, não o vi abalado como eu próprio estava. <small> [JDD] </small> </small> </p>
+; <p> <b>uides</b> quanto facilius sit totam gentem quam unum uirum uincere <br> <small> Sen.Ep.9.19 <br> Vês quão mais fácil é vencer uma nação inteira do que um único homem? <small> [JDD] </small> </small> </p>
+; <p> quia profecto <b>uidetis</b> nefas esse dictu miseram fuisse talem senectutem <br> <small> Cic.Sen.13 <br> Para que, sem dúvida, vejais que é um sacrilégio dizer que tal velhice foi infeliz. <small> [JDD] </small> </small> </p>
+; <p> ortum quidem amicitiae <b>uidetis</b> nisi quid ad haec forte uultis <br> <small> Cic.Amici.32 <br> Vedes, na verdade, o nascimento da amizade, a não ser que por acaso queirais acrescentar algo a essas coisas. <small> [JDD] </small> </small> </p>
+; <p> Haec significat fabula Dominum <b>videre</b> plurimum in rebus suis . <br> <small> Phaed.2.8 <br> Esta fábula quer dizer que o dono vê muito mais em seus negócios. <small> [JDD] </small> </small> </p>
+; <p> postea <b>uidebimus</b> utrum ista suis uiribus ualeant an inbecillitate nostra <br> <small> Sen.Ep.13.5 <br> Depois veremos se essas coisas têm valor por suas próprias forças ou por nossa fraqueza. <small> [JDD] </small> </small> </p>
+; <p> liberati regio dominatu <b>uidebamur</b> multo postea grauius urgebamur armis domesticis <br> <small> Cic.Phil.7.14.17 <br> Parecíamos livres de uma dominação monárquica, e depois éramos oprimidos muito mais gravemente pelas armas domésticas. <small> [JDD] </small> </small> </p>
+; <p> atque eos omnis quos commemoraui his studiis flagrantis senes <b>uidimus</b> <br> <small> Cic.Sen.50 <br> E todos esses que mencionei vimos, já velhos, inflamados por esses estudos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> haec ut omittam quam graues quam difficiles plerisque <b>uidentur</b> calamitatum societates <br> <small> Cic.Amici.64 <br> E isso para não dizer quão pesada, quão difícil parece à maioria a parceria nas desgraças! <small> [JDD] </small> </small> </p>
+; <p> hic etiam fautores Antoni quorum in uoltu habitant oculi mei tristiores <b>uidebam</b> <br> <small> Cic.Phil.12.2.12 <br> Ali eu via também mais deprimidos os partidários de Antônio, em cujo rosto os meus olhos estão sempre fixos. <small> [JDD] </small> </small> </p>
+; <p> in eam spem adducimur ut nobis ea contentio quae impendet interdum non fugienda <b>videatur</b> <br> <small> Cic.Att.2.22.3 <br> Somos levados a uma tal esperança que às vezes temos a impressão de que não devemos fugir dessa luta que nos ameaça. <small> [JDD] </small> </small> </p>
+; <p> <b>uide</b> quaeso Tubero ut qui de meo facto non dubitem de Ligari audeam dicere <br> <small> Cic.Lig.8 <br> Vê, por favor, Tuberão, como eu, que não hesito falar a respeito de minha conduta, ouso falar a respeito da de Ligário. <small> [JDD] </small> </small> </p>
+; <p> sociis multo fidelioribus utimur quam quisquam usus est quibus incredibilis <b>videtur</b> nostra et mansuetudo et abstinentia <br> <small> Cic.Att.5.18.2 <br> Nos valemos de aliados muito mais fiéis do que alguém já se valeu; a ele parece incrível a nossa mansidão e austeridade. <small> [JDD] </small> </small> </p>
+; <p> quod si immortalitas consequeretur praesentis periculi fugam tamen eo magis ea fugienda <b>uideretur</b> quo diuturnior seruitus esset <br> <small> Cic.Phil.10.20.12 <br> E se a imortalidade se alcançasse com a fuga do perigo atual, mesmo assim pareceria que ela devia ser evitada tanto mais porque a escravidão seria por muito tempo. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-105-100-101-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 63.6 and an absolute frequency of 1021. The Vergilius subcorpus follows, with a normalized frequency of 28.96 and an absolute frequency of 15. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 70 ; absolute frequency: 26.4370420726641. subcorpus: Cicero ; normalized frequency: 1021 ; absolute frequency: 63.6041962572575. subcorpus: Horatius ; normalized frequency: 25 ; absolute frequency: 22.2005150519492. subcorpus: Ovidius ; normalized frequency: 26 ; absolute frequency: 44.6122168840082. subcorpus: Phaedrus ; normalized frequency: 29 ; absolute frequency: 44.0261120388644. subcorpus: Sallustius ; normalized frequency: 33 ; absolute frequency: 30.6094054354884. subcorpus: Seneca ; normalized frequency: 206 ; absolute frequency: 38.4464642317239. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 5 ; absolute frequency: 17.164435290079. subcorpus: Vergilius ; normalized frequency: 15 ; absolute frequency: 28.957528957529. subcorpus: Hieronymus ; normalized frequency: 28 ; absolute frequency: 62.9072118625028'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-105-100-101-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 71.54 and an absolute frequency of 270. The Poesia.épica subcorpus follows, with a normalized frequency of 28.96 and an absolute frequency of 15. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 22.71 and an absolute freqeuncy of 27. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 108 ; absolute frequency: 26.2908055210692. subcorpus: Prosa.filosófica ; normalized frequency: 300 ; absolute frequency: 49.4225795291676. subcorpus: Prosa.oratória ; normalized frequency: 622 ; absolute frequency: 59.7198352423838. subcorpus: Prosa.epistolográfica ; normalized frequency: 270 ; absolute frequency: 71.5440260738228. subcorpus: Poesia.lírica ; normalized frequency: 27 ; absolute frequency: 22.7138891225709. subcorpus: Poesia.didática ; normalized frequency: 53 ; absolute frequency: 44.9571634574603. subcorpus: Poesia.trágica ; normalized frequency: 35 ; absolute frequency: 30.4030576789437. subcorpus: Poesia.épica ; normalized frequency: 15 ; absolute frequency: 28.957528957529. subcorpus: Prosa.ficcional ; normalized frequency: 28 ; absolute frequency: 62.9072118625028'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-105-100-101-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 62.91 and an absolute frequency of 28. The I.a.C. subcorpus follows, with a normalized frequency of 54.27 and an absolute frequency of 1166. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 13.09 and an absolute freqeuncy of 5. here are all the values: subcorpus: I.a.C. ; normalized frequency: 1166 ; absolute frequency: 54.2704212241098. subcorpus: I.d.C. ; normalized frequency: 259 ; absolute frequency: 39.6206210800061. subcorpus: II.d.C. ; normalized frequency: 5 ; absolute frequency: 13.0890052356021. subcorpus: IV.d.C. ; normalized frequency: 28 ; absolute frequency: 62.9072118625028'}
+
+
+:::
+

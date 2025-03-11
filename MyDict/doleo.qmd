@@ -1,0 +1,211 @@
+---
+title: "doleo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-111-108-101-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>dolĕō</b> <b>-és</b> <b>-ére</b> <b>-lùí,-lìtum</b> <br> <small>v. intr. e tr.</small> <br> <small>Obs.: Constrói-se intransitivamente; com abl.; com abl. com as preps. ab, de ou ex; com acus.: com acus. e inf. às vezes só com inf.; e com dat.</small>   <p> <b>1</b> &ensp; <small>Intr.:-Sent. próprio:</small> &ensp; Experimentar uma dor, ter um mal, sofrer física e moralmente, doer &ensp; <small>Plaut. Cist. 60; Cíc. Tusc. 2, 44.</small> <br> <b>2</b> &ensp; <small>Intr.:-Sent. figurado:</small> &ensp; Afligir-se &ensp; <small>Cíc. Lae. 17.</small> <br> <b>3</b> &ensp; <small>Intr.:-Sent. figurado: Impess.:</small> &ensp; sofrer &ensp; <small>Ter. Phorm. 162; Cíc. Mur. 42.</small> <br> <b>4</b> &ensp; <small>Tr.:</small> &ensp; Deplorar, lamentar &ensp; <small>Cíc. Sest. 145.</small> <br> <b>5</b> &ensp; <small>Tr.:-Sent. poético com acus. de pess.:</small> &ensp; Chorar, lamentar &ensp; <small>Prop. I, 16, 24.</small> </p> 
+ <b>dolŭī</b> <br> <small>perf. de dolèo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Doleo</b> -<b>es</b> -<b>ui</b> -<b>itum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; doer-se, entristecer-se. </p>
+
+
+
+
+#### Velez
+
+<b>Doleo</b> -<b>es</b>   <p> <b>1</b> &ensp; doer-se &ensp; <small>accus.</small> <br> <b>2</b> &ensp; <small>Doleo Neutr. vel Dolet, ebat, dat. vel abl. partis, | vel cum ab</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>uicem, & casum tuum, uel de casu tuo doleo &ensp; <small>doo-me da vossa desgraça</small> <br> <br><b>2</b><br>caput mihi dolet; uel doleo capite <br> doleo ab oculis <br> <br><b>X</b><br>ex me, uel de me ne doleas &ensp; <small>naõ tomeis pena por amor de mim</small> <br> faciam, quod tibi doleant oculi &ensp; <small>farei com que vos quebre os olhos</small> <br> hac re illi dolent oculi &ensp; <small>naõ vê esta cousa com bons olhos</small> <br> laude aliena dolet &ensp; <small>custa-lhe ver louvar a outros</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Doleo</b> -<b>es</b> <b>ui</b> <b>itum</b>   <p> <b>1</b> &ensp; doer-se </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/100021 ' target="_blank"> http://lila-erc.eu/data/id/lemma/100021 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> doleo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> dolere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> dolebit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> dolui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> dolitum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> doliturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+dŏlĕō 
+ dŏlēs 
+ dŏlēre 
+ dŏlŭī 
+ dŏlītum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-111-108-101-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-111-108-101-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword doleo here are all the values plotted: collocate: parum; scoreSUBST: 0. collocate: magis; scoreSUBST: 0. collocate: sui; scoreSUBST: 0. collocate: non; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-111-108-101-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword doleo here are all the values plotted: collocate: parum; scoreADJ: 0. collocate: magis; scoreADJ: 0. collocate: sui; scoreADJ: 0. collocate: non; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-111-108-101-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword doleo here are all the values plotted: collocate: parum; scoreVERBO: 0. collocate: magis; scoreVERBO: 0. collocate: sui; scoreVERBO: 0. collocate: non; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-111-108-101-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword doleo here are all the values plotted: collocate: parum; scoreADV: 2. collocate: magis; scoreADV: 2. collocate: sui; scoreADV: 0. collocate: non; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-111-108-101-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword doleo here are all the values plotted: collocate: parum; scoreFUNC: 0. collocate: magis; scoreFUNC: 0. collocate: sui; scoreFUNC: 0. collocate: non; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quis non <b>dolet</b> interitum talis et ciuis et uiri <br> <small> Cic.Phil.12.25.6 <br> Quem não lamenta a perda de um tal cidadão e homem? <small> [JDD] </small> </small> </p>
+; <p> minus <b>dolendum</b> fuit re non perfecta sed puniendum certe nihilo minus <br> <small> Cic.Mil.19 <br> Não consumada a ação, era para se lamentar menos, mas certamente não para se punir menos. <small> [JDD] </small> </small> </p>
+; <p> panis ematur holus uini sextarius adde quis humana sibi <b>doleat</b> natura negatis <br> <small> Hor.S.1.1.74 <br> Compra-se pão, legumes, um sextário de vinho, acrescenta outras que, negadas, a natureza humana sofre. <small> [JDD] </small> </small> </p>
+; <p> contigit enim illi testimonium utriusque Brutus sine Marcello reuerti se <b>doluit</b> Caesar erubuit <br> <small> Sen.Helv.9.6 <br> Pois o testemunho de ambos o favoreceu: tendo voltado sem Marcelo, Bruto afligiu-se, César enrubesceu. <small> [JDD] </small> </small> </p>
+; <p> ' quo ' 'que magis <b>doleas</b> genetrix , ' ait ' ille ego liber , ille ferox tacui . <br> <small> Ov.Met.1.756-7 <br> e: “Para que sofras mais, minha genitora”, diz, “eu, o livre, o feroz, me calei! <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-111-108-101-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 3.86 and an absolute frequency of 2. The Horatius subcorpus follows, with a normalized frequency of 3.55 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 33 ; absolute frequency: 2.05576736188981. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 14 ; absolute frequency: 2.61286650118512. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-111-108-101-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 3.86 and an absolute frequency of 2. The Poesia.lírica subcorpus follows, with a normalized frequency of 3.37 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 3 ; absolute frequency: 0.730300153363032. subcorpus: Prosa.filosófica ; normalized frequency: 18 ; absolute frequency: 2.96535477175005. subcorpus: Prosa.oratória ; normalized frequency: 16 ; absolute frequency: 1.53620154964331. subcorpus: Prosa.epistolográfica ; normalized frequency: 10 ; absolute frequency: 2.64977874347492. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-111-108-101-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 2.6 and an absolute frequency of 17. The I.a.C. subcorpus follows, with a normalized frequency of 1.95 and an absolute frequency of 42. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 42 ; absolute frequency: 1.9548522224808. subcorpus: I.d.C. ; normalized frequency: 17 ; absolute frequency: 2.60058130640967. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

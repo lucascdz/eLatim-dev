@@ -1,0 +1,201 @@
+---
+title: "plebs"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-108-101-98-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>plebis</b> <br> <small>gen. de plebs.</small> <br> <small></small> 
+ <b>plebs</b> <b>plebis</b> <br> <b>pleps</b> <b>plebis</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Plebe &ensp; <small>conjunto de cidadãos romanos que não eram nobres, em oposição aos patrícios Cíc. Leg. 3, 10.</small> <br> <b>2</b> &ensp; <small>II-Sent. raro</small> &ensp; O populacho, o vulgo, as classes inferiores &ensp; <small>Cíc. Mil. 95.</small> <br> <b>3</b> &ensp; <small>III-Na expressão plebs superum:</small> &ensp; Os semideuses &ensp; <small>Ov. lb. 81.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Plebs</b> -<b>is</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; plebe, vulgo. </p>
+
+
+
+
+#### Velez
+
+<b>Plebs</b> -<b>bis</b>   <p> <b>1</b> &ensp; o povo inferior </p>
+
+
+
+
+#### Cardoso
+
+<b>Plebs</b> <b>ebis</b>   <p> <b>1</b> &ensp; ho pouo bayxo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/118610 ' target="_blank"> http://lila-erc.eu/data/id/lemma/118610 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> plebis, pleps <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+plēbs 
+ plēbis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-108-101-98-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-108-101-98-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword plebs here are all the values plotted: collocate: tribunus; scoreSUBST: 5. collocate: tribunatus; scoreSUBST: 3. collocate: peto; scoreSUBST: 0. collocate: fio; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-108-101-98-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword plebs here are all the values plotted: collocate: tribunus; scoreADJ: 0. collocate: tribunatus; scoreADJ: 0. collocate: peto; scoreADJ: 0. collocate: fio; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-108-101-98-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword plebs here are all the values plotted: collocate: tribunus; scoreVERBO: 0. collocate: tribunatus; scoreVERBO: 0. collocate: peto; scoreVERBO: 2. collocate: fio; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-108-101-98-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword plebs here are all the values plotted: collocate: tribunus; scoreADV: 0. collocate: tribunatus; scoreADV: 0. collocate: peto; scoreADV: 0. collocate: fio; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-108-101-98-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword plebs here are all the values plotted: collocate: tribunus; scoreFUNC: 0. collocate: tribunatus; scoreFUNC: 0. collocate: peto; scoreFUNC: 0. collocate: fio; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Publius inquit tribunatum <b>plebis</b> petit <br> <small> Cic.Att.2.12.2 <br> “Públio”, diz ele, “se candidatou ao tribunado da plebe.” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> in tribunis <b>plebis</b> designatis reliqua spes est <br> <small> Cic.Att.3.13.1 <br> Nos tribunos da plebe designados está a esperança que resta. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> atque hoc in illis tribunis <b>plebis</b> non laedebat <br> <small> Cic.Att.3.23.4 <br> E este perigo não atingia aqueles tribunos da plebe. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ille autem non simulat sed plane tribunus <b>plebis</b> fieri cupit <br> <small> Cic.Att.2.1.5 <br> Já aquele não disfarça, mas revela abertamente o desejo de se tornar tribuno da plebe. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-108-101-98-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 22.05 and an absolute frequency of 2. The Sallustius subcorpus follows, with a normalized frequency of 10.2 and an absolute frequency of 11. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 6 ; absolute frequency: 2.26603217765692. subcorpus: Cicero ; normalized frequency: 79 ; absolute frequency: 4.92138247240288. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 11 ; absolute frequency: 10.2031351451628. subcorpus: Seneca ; normalized frequency: 2 ; absolute frequency: 0.373266643026446. subcorpus: Suetonius ; normalized frequency: 2 ; absolute frequency: 22.0507166482911. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-108-101-98-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 10.86 and an absolute frequency of 41. The Prosa.histórica subcorpus follows, with a normalized frequency of 4.87 and an absolute frequency of 20. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 20 ; absolute frequency: 4.86866768908688. subcorpus: Prosa.filosófica ; normalized frequency: 5 ; absolute frequency: 0.823709658819459. subcorpus: Prosa.oratória ; normalized frequency: 35 ; absolute frequency: 3.36044088984475. subcorpus: Prosa.epistolográfica ; normalized frequency: 41 ; absolute frequency: 10.8640928482472. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-108-101-98-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 7.85 and an absolute frequency of 3. The I.a.C. subcorpus follows, with a normalized frequency of 4.51 and an absolute frequency of 97. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 97 ; absolute frequency: 4.51477775191994. subcorpus: I.d.C. ; normalized frequency: 4 ; absolute frequency: 0.611901483861098. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

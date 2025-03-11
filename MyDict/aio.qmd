@@ -1,0 +1,212 @@
+---
+title: "aio"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-105-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>aībant</b> <br> <small>3ª pess. pI. imperf. sincop. de áio.</small> <br> <small></small> 
+ <b>āin</b> <br> <small>forma sincop. de aisne usada na poesia: 2a pess. sing. do pres. do indic.:</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Dizes tu? &ensp; <small>Cíc. Or. 154.</small> </p> 
+ <b>āiō</b> <b>-àìs</b> <br> <small>v. defect.</small> <br> <small>Obs.: Ait aparece, muitas vezes, ora intercalado, ora posto depois de uma citação, ora acompanhando urn provérbio. Formas usadas: indic. pres. aio, ais, ait, aiunt; imperf. indic.: aiebam ou aibam, aiebas ou aibas, etc.; imperat.: ai raro: subj. pres.: aiam, aias, aiat, aiant; part. pres.: aiens raro. Quanto à quantidade: áís, àís au ais ditongo; àìt e ait ditongo; àí.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Dizer sim, afirmar &ensp; <small>Cíc. Of. 3, 91.</small> <br> <b>2</b> &ensp; <small>II-Daí, por enfraquecimento de sentido</small> &ensp; Dizer &ensp; <small>Cíc. Verr. 1, 117; Cíc. Or. 155.</small> </p> 
+ <b>āisti</b> <br> <small>2ª pess. perf. do aio Ov. Her. 11, 61.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Aio</b> <b>ais</b> <b>ait</b> <b>aiunt</b> <b>aisti</b> <b>aiens</b> -<b>tis</b> <br> <small>defect.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; dizer, affirmar, assegurar, certificar. </p>
+
+
+
+
+#### Velez
+
+<b>Aio</b> -<b>is</b>   <p> <b>1</b> &ensp; dizer, affirmar, ou confessar </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>gubernator Scipioni ait, & c <br> quasi ego id curem, quod ille ait, aut neget </p>
+
+
+
+
+#### Cardoso
+
+<b>Aio</b> <b>is</b> <b>dixi</b>   <p> <b>1</b> &ensp; dizer </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/88191 ' target="_blank"> http://lila-erc.eu/data/id/lemma/88191 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> irregular <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> aio </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> aiere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> ai </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+
+
+
+
+
+#### Lexicala
+
+āĭō 
+ ăĭs
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-105-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-105-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword aio here are all the values plotted: collocate: se; scoreSUBST: 0. collocate: ille; scoreSUBST: 0. collocate: ut; scoreSUBST: 0. collocate: sui; scoreSUBST: 0. collocate: tu; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-105-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword aio here are all the values plotted: collocate: se; scoreADJ: 0. collocate: ille; scoreADJ: 0. collocate: ut; scoreADJ: 0. collocate: sui; scoreADJ: 0. collocate: tu; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-105-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword aio here are all the values plotted: collocate: se; scoreVERBO: 0. collocate: ille; scoreVERBO: 0. collocate: ut; scoreVERBO: 0. collocate: sui; scoreVERBO: 0. collocate: tu; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-105-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword aio here are all the values plotted: collocate: se; scoreADV: 0. collocate: ille; scoreADV: 0. collocate: ut; scoreADV: 0. collocate: sui; scoreADV: 0. collocate: tu; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-105-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword aio here are all the values plotted: collocate: se; scoreFUNC: 0. collocate: ille; scoreFUNC: 0. collocate: ut; scoreFUNC: 30. collocate: sui; scoreFUNC: 0. collocate: tu; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> et <b>ait</b> illis <br> <small> Vulg.Marc.1.38 <br> E ele lhes disse. <small> [JDD] </small> </small> </p>
+; <p> <b>ai</b> n tu <br> <small> Cic.Att.4.5.1 <br> Tu dizes isso? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>ait</b> ille idem sibi uideri <br> <small> Cic.Ver.2.4.32.23 <br> Ele diz que lhe parecia o mesmo.” <small> [JDD] </small> </small> </p>
+; <p> Repulsus ille veritatis viribus : <b>ait</b> <br> <small> Phaed.1.1 <br> Repelido pela força da verdade, diz aquele. <small> [JDD] </small> </small> </p>
+; <p> Aeneas <b>ait</b> et fastigia suspicit urbis <br> <small> Verg.A.1.438 <br> Diz Enéias e contempla as cumeeiras da cidade. <small> [JDD] </small> </small> </p>
+; <p> agamus igitur pingui ut <b>aiunt</b> Minerua <br> <small> Cic.Amici.19 <br> Procedamos, portanto, como dizem, com uma pingue Minerva. <small> [JDD] </small> </small> </p>
+; <p> sed ut tu <b>ais</b> ἅλις σπουδῆς <br> <small> Cic.Att.2.1.8 <br> Mas, como tu dizes, chega de coisas sérias. <small> [JDD] </small> </small> </p>
+; <p> o praeclarum custodem ouium ut <b>aiunt</b> lupum <br> <small> Cic.Phil.3.27.6 <br> Oh! ilustre guardador de ovelhas, como dizem, o lobo! <small> [JDD] </small> </small> </p>
+; <p> posteriores enim cogitationes ut <b>aiunt</b> sapientiores solent esse <br> <small> Cic.Phil.12.5.4 <br> Pois os últimos pensamentos costumam ser, como dizem, os mais sábios. <small> [JDD] </small> </small> </p>
+; <p> <b>ait</b> se de consili sententia rem ad senatum reiecisse <br> <small> Cic.Att.2.16.4 <br> ele diz que por decisão do conselho ele devolveu o assunto ao senado. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-105-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 62.91 and an absolute frequency of 28. The Ovidius subcorpus follows, with a normalized frequency of 15.44 and an absolute frequency of 9. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 64 ; absolute frequency: 3.98694276245297. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 9 ; absolute frequency: 15.442690459849. subcorpus: Phaedrus ; normalized frequency: 10 ; absolute frequency: 15.181417944436. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 30 ; absolute frequency: 5.59899964539669. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Hieronymus ; normalized frequency: 28 ; absolute frequency: 62.9072118625028'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-105-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 62.91 and an absolute frequency of 28. The Poesia.didática subcorpus follows, with a normalized frequency of 16.12 and an absolute frequency of 19. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 0.73 and an absolute freqeuncy of 3. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 3 ; absolute frequency: 0.730300153363032. subcorpus: Prosa.filosófica ; normalized frequency: 43 ; absolute frequency: 7.08390306584735. subcorpus: Prosa.oratória ; normalized frequency: 26 ; absolute frequency: 2.49632751817038. subcorpus: Prosa.epistolográfica ; normalized frequency: 23 ; absolute frequency: 6.09449110999232. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 19 ; absolute frequency: 16.116718975316. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Prosa.ficcional ; normalized frequency: 28 ; absolute frequency: 62.9072118625028'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-105-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 62.91 and an absolute frequency of 28. The I.d.C. subcorpus follows, with a normalized frequency of 7.5 and an absolute frequency of 49. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 79 ; absolute frequency: 3.67698394228532. subcorpus: I.d.C. ; normalized frequency: 49 ; absolute frequency: 7.49579317729845. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 28 ; absolute frequency: 62.9072118625028'}
+
+
+:::
+

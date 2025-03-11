@@ -1,0 +1,199 @@
+---
+title: "praeda"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-114-97-101-100-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>praeda</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Presa, despojos &ensp; <small>conjunto de coisas tomadas ao inimigo Cés. B. Gal. 4, 34, 5.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Proveito, ganho, lucro &ensp; <small>Fedr. 5, 6, 4.</small> <br> <b>3</b> &ensp; <small>II-Sent. particular:</small> &ensp; Pilhagem, roubo &ensp; <small>Cíc. Verr. 3, 119.</small> <br> <b>4</b> &ensp; <small>II-Sent. particular:</small> &ensp; Caçada animais apanhados em caça, pesca &ensp; <small>Verg. En. 3, 223.</small> <br> <b>5</b> &ensp; <small>II-Sent. particular:</small> &ensp; Presa, pasto dos animais &ensp; <small>Hor. O. 4, 4, 50.</small> <br> <b>6</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Presa &ensp; <small>Ov. Her. 15, 51.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Praeda</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; roubo, preza. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Praeda</b> -<b>ae</b>   <p> <b>1</b> &ensp; a presa. ou roubo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/118801 ' target="_blank"> http://lila-erc.eu/data/id/lemma/118801 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a-) <br>
+<small> outras grafias: </small> preda <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-114-97-101-100-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-114-97-101-100-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword praeda here are all the values plotted: collocate: spes; scoreSUBST: 2. collocate: ad; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-114-97-101-100-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword praeda here are all the values plotted: collocate: spes; scoreADJ: 0. collocate: ad; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-114-97-101-100-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword praeda here are all the values plotted: collocate: spes; scoreVERBO: 0. collocate: ad; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-114-97-101-100-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword praeda here are all the values plotted: collocate: spes; scoreADV: 0. collocate: ad; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-114-97-101-100-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword praeda here are all the values plotted: collocate: spes; scoreFUNC: 0. collocate: ad; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> amicitia olim petebatur nunc <b>praeda</b> mutabunt testamenta destituti senes migrabit ad aliud limen salutator <br> <small> Sen.Ep.19.4 <br> outrora se buscava a amizade, agora o proveito; os velhos abandonados mudarão seus testamentos, o que vem saudá-lo se dirigirá para uma outra porta. <small> [JDD] </small> </small> </p>
+; <p> trans Rhenum ad Germanos peruenit fama diripi Eburones atque ultro omnes ad <b>praedam</b> euocari <br> <small> Caes.Gal.6.35.4 <br> Além do Reno chegou aos germanos a fama de que os eburões eram saqueados e, além disso, todos eram convidados para o butim. <small> [JDD] </small> </small> </p>
+; <p> oblata spe Germani quam nacti erant <b>praedam</b> in occulto relinquunt ipsi Atuatucam contendunt usi eodem duce cuius haec indicio cognouerant <br> <small> Caes.Gal.6.35.10 <br> Oferecida essa esperança, os germanos deixam em lugar oculto a presa que tinham achado; eles marcham para Aduátuca, usando do mesmo guia por cuja indicação ficaram sabendo disso. <small> [JDD] </small> </small> </p>
+; <p> etiam illud iam cognitum est neque argenti scripulum esse ullum in illa insula neque ullam spem <b>praedae</b> nisi ex mancipiis <br> <small> Cic.Att.4.17.6 <br> Já se soube também isso: que não há nenhuma peça de prata naquela ilha nem esperança de butim, a não ser de escravos. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-114-97-101-100-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 6.07 and an absolute frequency of 4. The Caesar subcorpus follows, with a normalized frequency of 4.53 and an absolute frequency of 12. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 12 ; absolute frequency: 4.53206435531385. subcorpus: Cicero ; normalized frequency: 15 ; absolute frequency: 0.934439709949914. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 4 ; absolute frequency: 6.0725671777744. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 3 ; absolute frequency: 0.559899964539669. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-114-97-101-100-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.didática subcorpus registers the highest normalized frequency, with the value of 4.24 and an absolute frequency of 5. The Poesia.trágica subcorpus follows, with a normalized frequency of 1.74 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 14 ; absolute frequency: 3.40806738236082. subcorpus: Prosa.filosófica ; normalized frequency: 1 ; absolute frequency: 0.164741931763892. subcorpus: Prosa.oratória ; normalized frequency: 12 ; absolute frequency: 1.15215116223248. subcorpus: Prosa.epistolográfica ; normalized frequency: 3 ; absolute frequency: 0.794933623042476. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-114-97-101-100-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 1.44 and an absolute frequency of 31. The I.a.C. subcorpus follows, with a normalized frequency of 1.44 and an absolute frequency of 31. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 31 ; absolute frequency: 1.44286711659297. subcorpus: I.d.C. ; normalized frequency: 8 ; absolute frequency: 1.2238029677222. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,207 @@
+---
+title: "clarus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-108-97-114-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>clārus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Claro, sonoro &ensp; <small>falando dos sons ou da voz:</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Claro, brilhante &ensp; <small>falando das sensações visuais Cíc. Of. 2, 44.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Claro, manifesto, evidente &ensp; <small>Cíc. Cat. 1, 6.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Ilustre, glorioso, famoso &ensp; <small>Cíc. Verr. 2, 86.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>clara voce Cíc. Clu. 134 «com voz sonora». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Clarus</b> -<b>a</b> -<b>um</b> -<b>rior</b> -<b>rissimus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; claro, brilhante, resplandecente. <br> <b>2</b> &ensp; manifesto. <br> <b>3</b> &ensp; illustre, preclaro, esclarecido. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Clarus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa clara & excellẽte </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/94439 ' target="_blank"> http://lila-erc.eu/data/id/lemma/94439 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+clārus 
+ clāra 
+ clārum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-108-97-114-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-108-97-114-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword clarus here are all the values plotted: collocate: uir; scoreSUBST: 4. collocate: imperator; scoreSUBST: 2. collocate: adolescens; scoreSUBST: 0. collocate: tam; scoreSUBST: 0. collocate: ciuis; scoreSUBST: 2. collocate: et; scoreSUBST: 0. collocate: atque; scoreSUBST: 0. collocate: que; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-108-97-114-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword clarus here are all the values plotted: collocate: uir; scoreADJ: 0. collocate: imperator; scoreADJ: 0. collocate: adolescens; scoreADJ: 2. collocate: tam; scoreADJ: 0. collocate: ciuis; scoreADJ: 0. collocate: et; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: que; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-108-97-114-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword clarus here are all the values plotted: collocate: uir; scoreVERBO: 0. collocate: imperator; scoreVERBO: 0. collocate: adolescens; scoreVERBO: 0. collocate: tam; scoreVERBO: 0. collocate: ciuis; scoreVERBO: 0. collocate: et; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: que; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-108-97-114-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword clarus here are all the values plotted: collocate: uir; scoreADV: 0. collocate: imperator; scoreADV: 0. collocate: adolescens; scoreADV: 0. collocate: tam; scoreADV: 2. collocate: ciuis; scoreADV: 0. collocate: et; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: que; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-108-97-114-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword clarus here are all the values plotted: collocate: uir; scoreFUNC: 0. collocate: imperator; scoreFUNC: 0. collocate: adolescens; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: ciuis; scoreFUNC: 0. collocate: et; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: que; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> de supplicatione credo M. Lepidi <b>clarissimi</b> uiri <br> <small> Cic.Phil.3.23.10 <br> Ao da ação de graças, eu creio, em honra de Marco Lépido, ilustríssimo varão. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> dedignatur aliquis paupertatem cuius tam <b>clarae</b> imagines sunt <br> <small> Sen.Helv.12.7 <br> Pode alguém desdenhar a pobreza da qual há tão claros exemplos? <small> [JDD] </small> </small> </p>
+; <p> hac parte potentes caelicolae <b>clari</b>que suos posuere penates . <br> <small> Ov.Met.1.173-4 <br> nesta parte os habitantes do céu mais poderosos e ilustres colocaram seus penates. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ille mansuetudine et misericordia <b>clarus</b> factus huic seueritas dignitatem addiderat <br> <small> Sal.Cat.54.2 <br> Aquele se fez ilustre por sua brandura e misericórdia, a este sua severidade lhe tinha conferido dignidade. <small> [JDD] </small> </small> </p>
+; <p> <b>clarissimi</b> ac potentissimi qui tamen cum consul fuisset condemnatus est <br> <small> Cic.Ver.2.4.22.4 <br> De um homem muito ilustre e poderoso, que, no entanto, mesmo tendo sido cônsul, foi condenado. <small> [JDD] </small> </small> </p>
+; <p> Cato <b>clarus</b> atque magnus habetur senati decretum fit sicuti ille censuerat <br> <small> Sal.Cat.53.1 <br> Catão é tido por ilustre e grande; faz-se um decreto do senado, como ele tinha opinado. <small> [JDD] </small> </small> </p>
+; <p> nunc de Saturnini crimine ac de <b>clarissimi</b> patrui tui morte dicemus <br> <small> Cic.Rab.Perd.18 <br> Agora falaremos da acusação concernente a Saturnino e da morte de teu ilustríssimo tio. <small> [JDD] </small> </small> </p>
+; <p> laudo laudo uos Quirites quod gratissimis animis prosequimini nomen <b>clarissimi</b> adulescentis uel pueri potius sunt enim facta eius immortalitatis nomen aetatis <br> <small> Cic.Phil.4.3.1 <br> Eu vos louvo, quirites, vos louvo, porque acolheis com gratíssimos ânimos o nome deste ilustríssimo jovem, ou melhor, deste garoto, pois seus feitos são próprios da imortalidade, seu nome, da idade. <small> [JDD] </small> </small> </p>
+; <p> at hunc eis ipsis ludorum diebus uidebam in insula <b>clarissimi</b> adulescentis Cn. Luculli propinqui sui nihil nisi de pace et concordia ciuium cogitantem <br> <small> Cic.Phil.10.8.5 <br> Mas nesses mesmos dias dos jogos eu o via na ilha de Cneu Luculo, um ilustríssimo rapaz, parente seu, não pensando em nada, a não ser na paz e concórdia dos cidadãos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> non queo uetera illa populi Romani gaudia quanta fuerint iudicare multas tamen iam summorum imperatorum <b>clarissimas</b> uictorias aetas nostra uidit quarum nulla neque tam diuturnam laetitiam attulit nec tantam <br> <small> Cic.Mil.77 <br> Eu não posso julgar quão grandes foram aquelas antigas alegrias do povo romano: contudo, a nossa geração já viu muitas vitórias brilhantíssimas dos maiores generais, dentre as quais nenhuma trouxe uma alegria nem tão duradoura nem tão grande. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-108-97-114-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 6.49 and an absolute frequency of 7. The Cicero subcorpus follows, with a normalized frequency of 5.92 and an absolute frequency of 95. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 95 ; absolute frequency: 5.91811816301612. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 14 ; absolute frequency: 2.61286650118512. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-108-97-114-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 8.26 and an absolute frequency of 86. The Poesia.trágica subcorpus follows, with a normalized frequency of 5.21 and an absolute frequency of 6. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 8 ; absolute frequency: 1.94746707563475. subcorpus: Prosa.filosófica ; normalized frequency: 17 ; absolute frequency: 2.80061283998616. subcorpus: Prosa.oratória ; normalized frequency: 86 ; absolute frequency: 8.25708332933281. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 6 ; absolute frequency: 5.21195274496178. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-108-97-114-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 5.07 and an absolute frequency of 109. The I.d.C. subcorpus follows, with a normalized frequency of 2.45 and an absolute frequency of 16. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 109 ; absolute frequency: 5.07330695834303. subcorpus: I.d.C. ; normalized frequency: 16 ; absolute frequency: 2.44760593544439. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

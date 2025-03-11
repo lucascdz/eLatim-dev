@@ -1,0 +1,230 @@
+---
+title: "bellum"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx98-101-108-108-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>bellum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Guerra &ensp; <small>Cíc. Verr. 5, 124.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Combate, batalha &ensp; <small>T. Liv. 8, 10, 7.</small> <br> <b>3</b> &ensp; <small>II-No plural</small> &ensp; exércitos &ensp; <small>Ov. Met. 12, 24.</small> <br> <b>4</b> &ensp; <small>II-Subs. pr.</small> &ensp; Guerra &ensp; <small>divindade Verg. En. 1, 294.</small> </p> 
+ <b>duellum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>= bellum.</small> &ensp; Guerra, combate &ensp; <small>Hor. O. 3, 5, 38.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Bellum</b> -<b>i</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; guerra, estado ou tempo de guerra. <br> <b>2</b> &ensp; <small>Sall.</small> &ensp; combate, peleja. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>gerere bellum cum aliquo &ensp; <small><small>Cic</small></small> &ensp; <small>Andar em guerra com alguem, ou pelejar na companhia de alguem com as forças unidas</small> <br> indicere bellum uentri &ensp; <small><small>Hor</small></small> &ensp; <small>Declarar guerra ao ventre, isto he, não comer, nem beber</small> </p> 
+ <b>Duellum</b> -<b>i</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; guerra, combate. <br> <b>2</b> &ensp; <small>Eutrop.</small> &ensp; duéllo, peleja só por só. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Bellum</b> <b>i</b>   <p> <b>1</b> &ensp; a guerra </p> 
+ <b>Duellum</b> <b>i</b>   <p> <b>1</b> &ensp; a guerra de dous. ou desafio </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/91461 ' target="_blank"> http://lila-erc.eu/data/id/lemma/91461 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> bellom, duellom, duellum <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+duellī 
+ bellī
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx98-101-108-108-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword bellum here are all the values plotted: collocate: gero; scoreSUBST: 0. collocate: ciuilis; scoreSUBST: 0. collocate: infero; scoreSUBST: 0. collocate: punicus; scoreSUBST: 0. collocate: indico2; scoreSUBST: 0. collocate: conficio; scoreSUBST: 0. collocate: tantus; scoreSUBST: 0. collocate: nefarius; scoreSUBST: 0. collocate: genus; scoreSUBST: 2. collocate: initium; scoreSUBST: 2. collocate: usus; scoreSUBST: 2. collocate: grauis; scoreSUBST: 0. collocate: ad; scoreSUBST: 0. collocate: maritimus; scoreSUBST: 0. collocate: uinco; scoreSUBST: 0. collocate: romanus; scoreSUBST: 0. collocate: magnus; scoreSUBST: 0. collocate: fortuna; scoreSUBST: 2. collocate: suscipio; scoreSUBST: 0. collocate: populus; scoreSUBST: 2. collocate: patria; scoreSUBST: 2. collocate: paro; scoreSUBST: 0. collocate: euentus; scoreSUBST: 2. collocate: gallicus; scoreSUBST: 0. collocate: administro; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: incido; scoreSUBST: 0. collocate: totus; scoreSUBST: 0. collocate: dux; scoreSUBST: 2. collocate: socius; scoreSUBST: 2. collocate: gloria; scoreSUBST: 2. collocate: proficiscor; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx98-101-108-108-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword bellum here are all the values plotted: collocate: gero; scoreADJ: 0. collocate: ciuilis; scoreADJ: 5. collocate: infero; scoreADJ: 0. collocate: punicus; scoreADJ: 3. collocate: indico2; scoreADJ: 0. collocate: conficio; scoreADJ: 0. collocate: tantus; scoreADJ: 0. collocate: nefarius; scoreADJ: 2. collocate: genus; scoreADJ: 0. collocate: initium; scoreADJ: 0. collocate: usus; scoreADJ: 0. collocate: grauis; scoreADJ: 2. collocate: ad; scoreADJ: 0. collocate: maritimus; scoreADJ: 2. collocate: uinco; scoreADJ: 0. collocate: romanus; scoreADJ: 2. collocate: magnus; scoreADJ: 2. collocate: fortuna; scoreADJ: 0. collocate: suscipio; scoreADJ: 0. collocate: populus; scoreADJ: 0. collocate: patria; scoreADJ: 0. collocate: paro; scoreADJ: 0. collocate: euentus; scoreADJ: 0. collocate: gallicus; scoreADJ: 2. collocate: administro; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: incido; scoreADJ: 0. collocate: totus; scoreADJ: 0. collocate: dux; scoreADJ: 0. collocate: socius; scoreADJ: 0. collocate: gloria; scoreADJ: 0. collocate: proficiscor; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx98-101-108-108-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword bellum here are all the values plotted: collocate: gero; scoreVERBO: 5. collocate: ciuilis; scoreVERBO: 0. collocate: infero; scoreVERBO: 4. collocate: punicus; scoreVERBO: 0. collocate: indico2; scoreVERBO: 3. collocate: conficio; scoreVERBO: 2. collocate: tantus; scoreVERBO: 0. collocate: nefarius; scoreVERBO: 0. collocate: genus; scoreVERBO: 0. collocate: initium; scoreVERBO: 0. collocate: usus; scoreVERBO: 0. collocate: grauis; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: maritimus; scoreVERBO: 0. collocate: uinco; scoreVERBO: 2. collocate: romanus; scoreVERBO: 0. collocate: magnus; scoreVERBO: 0. collocate: fortuna; scoreVERBO: 0. collocate: suscipio; scoreVERBO: 2. collocate: populus; scoreVERBO: 0. collocate: patria; scoreVERBO: 0. collocate: paro; scoreVERBO: 2. collocate: euentus; scoreVERBO: 0. collocate: gallicus; scoreVERBO: 0. collocate: administro; scoreVERBO: 2. collocate: in; scoreVERBO: 0. collocate: incido; scoreVERBO: 2. collocate: totus; scoreVERBO: 0. collocate: dux; scoreVERBO: 0. collocate: socius; scoreVERBO: 0. collocate: gloria; scoreVERBO: 0. collocate: proficiscor; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx98-101-108-108-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword bellum here are all the values plotted: collocate: gero; scoreADV: 0. collocate: ciuilis; scoreADV: 0. collocate: infero; scoreADV: 0. collocate: punicus; scoreADV: 0. collocate: indico2; scoreADV: 0. collocate: conficio; scoreADV: 0. collocate: tantus; scoreADV: 0. collocate: nefarius; scoreADV: 0. collocate: genus; scoreADV: 0. collocate: initium; scoreADV: 0. collocate: usus; scoreADV: 0. collocate: grauis; scoreADV: 0. collocate: ad; scoreADV: 0. collocate: maritimus; scoreADV: 0. collocate: uinco; scoreADV: 0. collocate: romanus; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: fortuna; scoreADV: 0. collocate: suscipio; scoreADV: 0. collocate: populus; scoreADV: 0. collocate: patria; scoreADV: 0. collocate: paro; scoreADV: 0. collocate: euentus; scoreADV: 0. collocate: gallicus; scoreADV: 0. collocate: administro; scoreADV: 0. collocate: in; scoreADV: 0. collocate: incido; scoreADV: 0. collocate: totus; scoreADV: 0. collocate: dux; scoreADV: 0. collocate: socius; scoreADV: 0. collocate: gloria; scoreADV: 0. collocate: proficiscor; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx98-101-108-108-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword bellum here are all the values plotted: collocate: gero; scoreFUNC: 0. collocate: ciuilis; scoreFUNC: 0. collocate: infero; scoreFUNC: 0. collocate: punicus; scoreFUNC: 0. collocate: indico2; scoreFUNC: 0. collocate: conficio; scoreFUNC: 0. collocate: tantus; scoreFUNC: 0. collocate: nefarius; scoreFUNC: 0. collocate: genus; scoreFUNC: 0. collocate: initium; scoreFUNC: 0. collocate: usus; scoreFUNC: 0. collocate: grauis; scoreFUNC: 0. collocate: ad; scoreFUNC: 20. collocate: maritimus; scoreFUNC: 0. collocate: uinco; scoreFUNC: 0. collocate: romanus; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0. collocate: fortuna; scoreFUNC: 0. collocate: suscipio; scoreFUNC: 0. collocate: populus; scoreFUNC: 0. collocate: patria; scoreFUNC: 0. collocate: paro; scoreFUNC: 0. collocate: euentus; scoreFUNC: 0. collocate: gallicus; scoreFUNC: 0. collocate: administro; scoreFUNC: 0. collocate: in; scoreFUNC: 20. collocate: incido; scoreFUNC: 0. collocate: totus; scoreFUNC: 0. collocate: dux; scoreFUNC: 0. collocate: socius; scoreFUNC: 0. collocate: gloria; scoreFUNC: 0. collocate: proficiscor; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quia in <b>bello</b> tutae sunt <br> <small> Sen.Ep.119.6 <br> Por que na guerra estão seguras? <small> [JDD] </small> </small> </p>
+; <p> quam gaudebat <b>bello</b> suo Punico Naeuius <br> <small> Cic.Sen.50 <br> Como se alegrava Névio com sua guerra púnica! <small> [JDD] </small> </small> </p>
+; <p> quod idem contigerat superioribus <b>bellis</b> ciuilibus <br> <small> Cic.Phil.14.24.1 <br> E o mesmo tinha acontecido nas guerras civis anteriores. <small> [JDD] </small> </small> </p>
+; <p> immo etiam in <b>bellum</b> et in castra <br> <small> Cic.Att.4.6.2 <br> ao contrário, ainda para a guerra e para o acampamento. <small> [JDD] </small> </small> </p>
+; <p> sed haec tota res interpellata <b>bello</b> refrixerat <br> <small> Cic.Att.1.19.4 <br> Mas todo esse assunto esfriou, interrompido pela guerra. <small> [JDD] </small> </small> </p>
+; <p> hodie vero hiemant in Cyrrhestica maximumque <b>bellum</b> impendet <br> <small> Cic.Att.5.21.2 <br> de fato, hoje eles passam o inverno em Cirréstica e uma grande guerra está iminente. <small> [JDD] </small> </small> </p>
+; <p> palam iam cum hoste nullo impediente <b>bellum</b> iustum geremus <br> <small> Cic.Catil.2.1.12 <br> Agora faremos abertamente uma guerra justa contra o inimigo, sem ninguém impedindo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quod <b>bellum</b> tam cum Pyrrho quam cum diuitiis gerit <br> <small> Sen.Prov.3.6 <br> porque fez guerra tanto contra Pirro quanto contra as riquezas? <small> [JDD] </small> </small> </p>
+; <p> illa enim huius <b>belli</b> propulsandi administrandi sustinendi principatum tenet <br> <small> Cic.Phil.12.9.10 <br> Pois ela tem a primazia de repelir, de administrar e de sustentar essa guerra. <small> [JDD] </small> </small> </p>
+; <p> graue <b>bellum</b> Octauianum insecutum est supplicatio Cinnae nulla uictori <br> <small> Cic.Phil.14.23.4 <br> Seguiu-se a penosa guerra de Otaviano: nenhuma ação de graças em honra do vencedor Cina. <small> [JDD] </small> </small> </p>
+; <p> quo proelio <b>bellum</b> Uenetorum totiusque orae maritimae confectum est <br> <small> Caes.Gal.3.16.1 <br> Com esse combate, a guerra dos vênetos e de toda a costa marítima foi concluída. <small> [JDD] </small> </small> </p>
+; <p> quoniam de genere <b>belli</b> dixi nunc de magnitudine pauca dicam <br> <small> Cic.Man.20 <br> Visto que disse sobre o gênero dessa guerra, agora vou dizer umas poucas palavras sobre sua magnitude. <small> [JDD] </small> </small> </p>
+; <p> sic neque agri cultura nec ratio atque usus <b>belli</b> intermittitur <br> <small> Caes.Gal.4.1.6 <br> Assim nem a agricultura nem a arte e prática da guerra são interrompidos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nempe ad eum cuius auctoritatem secuti in societatem <b>belli</b> ueneratis <br> <small> Cic.Lig.25 <br> Evidentemente àquele cuja autoridade seguistes e tínheis chegado a uma aliança de guerra. <small> [JDD] </small> </small> </p>
+; <p> atque hunc quidem unum huius <b>belli</b> domestici ducem sine controuersia uicimus <br> <small> Cic.Catil.2.1.7 <br> E, na verdade, vencemos, sem controvérsia, esse único comandante desta guerra civil. <small> [JDD] </small> </small> </p>
+; <p> atque in re publica nunc quidem maxime Gallici <b>belli</b> versatur metus <br> <small> Cic.Att.1.19.2 <br> E, na república, o que agora realmente mais preocupa é o medo de uma guerra com os gauleses. <small> [JDD] </small> </small> </p>
+; <p> o scelera semper sceleribus uincens domus cruore uentos emimus <b>bellum</b> nece <br> <small> Sen.Ag.169 <br> Oh, casa que sempre vence os crimes com crimes, com sangue compramos os ventos, com morticínio, a guerra. <small> [JDD] </small> </small> </p>
+; <p> quod si furore atque amentia impulsus <b>bellum</b> intulisset quid tandem uererentur <br> <small> Caes.Gal.1.40.4 <br> Mas se, impelido pelo furor e pela insensatez, trouxesse a guerra, o que afinal receavam? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> qua re mihi cum perditis ciuibus aeternum <b>bellum</b> susceptum esse uideo <br> <small> Cic.Catil.4.22.7 <br> Por isso vejo que uma guerra eterna foi por mim empreendida contra depravados cidadãos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> numquam tu non modo otium sed ne <b>bellum</b> quidem nisi nefarium concupisti <br> <small> Cic.Catil.1.25.5 <br> Tu nunca desejaste não apenas a paz, mas nem sequer a guerra, que não seja criminosa. <small> [JDD] </small> </small> </p>
+; <p> quo enim usque tantum <b>bellum</b> tam crudele tam nefarium priuatis consiliis propulsabitur <br> <small> Cic.Phil.3.3.1 <br> Pois até quando uma tamanha guerra, tão cruel, tão ímpia será combatida com decisões privadas? <small> [JDD] </small> </small> </p>
+; <p> quanta cuiusque animo audacia natura aut moribus inest tanta in <b>bello</b> patere solet <br> <small> Sal.Cat.58.2 <br> Tão grande intrepidez existe no espírito de cada um ou por natureza ou por seus hábito, quão grande ela costuma mostrar-se na guerra. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>bellum</b> subito exarsit quod qui erant in Africa ante audierunt geri quam parari <br> <small> Cic.Lig.3 <br> Estourou subitamente uma guerra, que os que estavam na África ouviram que estava sendo travada antes de ouvirem que se estava sendo preparada. <small> [JDD] </small> </small> </p>
+; <p> qua consuetudine cognita Caesar ne grauiori <b>bello</b> occurreret maturius quam consuerat ad exercitum proficiscitur <br> <small> Caes.Gal.4.6.1 <br> Conhecido esse costume, César, para não ir ao encontro de uma guerra mais séria, parte para o seu exército mais cedo do que costumava. <small> [JDD] </small> </small> </p>
+; <p> nulla enim est natio quam pertimescamus nullus rex qui <b>bellum</b> populo Romano facere possit <br> <small> Cic.Catil.2.11.6 <br> Pois não há nenhuma nação que devamos temer, nenhum rei que possa fazer a guerra ao povo romano. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> multi etiam Catilinam atque illa portenta loquebantur erumpet occupabit aliquem locum <b>bellum</b> patriae faciet <br> <small> Cic.Mil.63 <br> Muitos também falavam de Catilina e daqueles feitos monstruosos: “Vai se manifestar violentamente, ocupará algum local, fará guerra à pátria.” <small> [JDD] </small> </small> </p>
+; <p> quod denique genus esse <b>belli</b> potest in quo illum non exercuerit fortuna rei publicae <br> <small> Cic.Man.28 <br> Enfim, que gênero de guerra pode haver, em que a fortuna da república não o tenha posto à prova? <small> [JDD] </small> </small> </p>
+; <p> hic ego propter aquam quod erat deterrima uentri indico <b>bellum</b> cenantis haud animo aequo exspectans comites <br> <small> Hor.S.1.5.7 <br> Aqui eu, por causa da água, que era péssima, declaro guerra ao meu estômago, esperando sem paciência os companheiros que jantavam. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> praeterea quorum uictoria Sullae parentes proscripti bona erepta ius libertatis inminutum erat haud sane alio animo <b>belli</b> euentum exspectabant <br> <small> Sal.Cat.37.9 <br> Além disso, aqueles cujos pais tinham sido proscritos pela vitória de Sila, cujos bens tinham sido arebatados, cujo direito de liberdade tinha sido diminuído, esperavam com ânimo certamente não diferente o resultado da guerra. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quod si fecerit Haeduorum auctoritatem apud omnes Belgas amplificaturum quorum auxiliis atque opibus si qua <b>bella</b> inciderint sustentare consuerint <br> <small> Caes.Gal.2.14.6 <br> E que se fizer isso, ampliará a autoridade dos éduos entre todos os belgas, com cujos auxílios e recursos costumaram sustentar-se, se algumas guerras lhes ocorressem. <small> [JDD] </small> </small> </p>
+; <p> non is est Antonius nam si esset non commisisset ut ei senatus tamquam Hannibali initio <b>belli</b> Punici denuntiaret ne oppugnaret Saguntum <br> <small> Cic.Phil.6.6.1 <br> Antônio não é esse; pois, se fosse, não teria merecido que o senado lhe ordenasse como, no início da guerra púnica, ordenou a Aníbal que não atacasse Sagunto. <small> [JDD] </small> </small> </p>
+; <p> quantum nomen illius fuerit quantae opes quanta in omni genere <b>bellorum</b> gloria quanti honores populi Romani quanti senatus quanti tui quis ignorat <br> <small> Cic.Deiot.12 <br> Quem ignora quão grande foi o nome dele, quão grande o seu poder, quão grande sua glória em todo tipo de guerras, quão grandes as honras recebidas do povo romano, quão grandes recebidas do senado, quão grandes recebidas de ti? <small> [JDD] </small> </small> </p>
+; <p> Haeduis se obsides redditurum non esse neque his neque eorum sociis iniuria <b>bellum</b> inlaturum si in eo manerent quod conuenisset stipendiumque quotannis penderent <br> <small> Caes.Gal.1.36.5 <br> que não devolveria ao Éduos os reféns, nem faria a eles nem aos seus aliados uma guerra sem razão, se permanecessem no que tinha sido ajustado e eles pagassem o tributo todos os anos. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx98-101-108-108-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 48.23 and an absolute frequency of 52. The Suetonius subcorpus follows, with a normalized frequency of 33.08 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 109 ; absolute frequency: 41.1662512274341. subcorpus: Cicero ; normalized frequency: 292 ; absolute frequency: 18.1904263536917. subcorpus: Horatius ; normalized frequency: 10 ; absolute frequency: 8.88020602077968. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 52 ; absolute frequency: 48.2330025044059. subcorpus: Seneca ; normalized frequency: 29 ; absolute frequency: 5.41236632388347. subcorpus: Suetonius ; normalized frequency: 3 ; absolute frequency: 33.0760749724366. subcorpus: Tacitus ; normalized frequency: 13 ; absolute frequency: 44.6275317542053. subcorpus: Vergilius ; normalized frequency: 13 ; absolute frequency: 25.0965250965251. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx98-101-108-108-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 43.09 and an absolute frequency of 177. The Prosa.filosófica subcorpus follows, with a normalized frequency of 4.94 and an absolute frequency of 30. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 177 ; absolute frequency: 43.0877090484189. subcorpus: Prosa.filosófica ; normalized frequency: 30 ; absolute frequency: 4.94225795291676. subcorpus: Prosa.oratória ; normalized frequency: 269 ; absolute frequency: 25.8273885533782. subcorpus: Prosa.epistolográfica ; normalized frequency: 9 ; absolute frequency: 2.38480086912743. subcorpus: Poesia.lírica ; normalized frequency: 10 ; absolute frequency: 8.4125515268781. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 13 ; absolute frequency: 11.2925642807505. subcorpus: Poesia.épica ; normalized frequency: 13 ; absolute frequency: 25.0965250965251. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx98-101-108-108-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 41.88 and an absolute frequency of 16. The I.a.C. subcorpus follows, with a normalized frequency of 22.15 and an absolute frequency of 476. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 476 ; absolute frequency: 22.1549918547824. subcorpus: I.d.C. ; normalized frequency: 30 ; absolute frequency: 4.58926112895824. subcorpus: II.d.C. ; normalized frequency: 16 ; absolute frequency: 41.8848167539267. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

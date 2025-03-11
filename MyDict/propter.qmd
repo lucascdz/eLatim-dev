@@ -1,0 +1,201 @@
+---
+title: "propter"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-114-111-112-116-101-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>propter</b> <br> <small>prep. acus.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Perto de, ao lado de, ao longo de: &ensp; <small></small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Por causa de, por amor de, por, em vista de: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>propter Platonis statuam Cíc. Br. 23 ‘ao lado da estátua de Piamo’. <br> <br><b>2</b><br>propter metum Cíc. Par. 34 ‘por medo’: Cíc. Mil. 93. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Propter</b> <br> <small>prep. de accus.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; por, por causa. <br> <b>2</b> &ensp; junto, perto. </p>
+
+
+
+
+#### Velez
+
+<b>Propter</b> <br> <small>Praep.</small>   <p> <b>1</b> &ensp; por causa, por amor, ou perto </p>
+
+
+
+
+#### Cardoso
+
+<b>Propter</b> <br> <small>praepositio accusatiui.</small>   <p> <b>1</b> &ensp; por causa. ou junto </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/119992 ' target="_blank"> http://lila-erc.eu/data/id/lemma/119992 </a> <br>
+<small> classe: </small> preposição    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+proptĕr
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-114-111-112-116-101-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword propter here are all the values plotted: collocate: magnitudo; scoreSUBST: 2. collocate: metus; scoreSUBST: 2. collocate: multitudo; scoreSUBST: 2. collocate: amicitia; scoreSUBST: 2. collocate: uirtus; scoreSUBST: 2. collocate: ipse; scoreSUBST: 0. collocate: hic; scoreSUBST: 0. collocate: is; scoreSUBST: 0. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-114-111-112-116-101-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword propter here are all the values plotted: collocate: magnitudo; scoreADJ: 0. collocate: metus; scoreADJ: 0. collocate: multitudo; scoreADJ: 0. collocate: amicitia; scoreADJ: 0. collocate: uirtus; scoreADJ: 0. collocate: ipse; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: is; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-114-111-112-116-101-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword propter here are all the values plotted: collocate: magnitudo; scoreVERBO: 0. collocate: metus; scoreVERBO: 0. collocate: multitudo; scoreVERBO: 0. collocate: amicitia; scoreVERBO: 0. collocate: uirtus; scoreVERBO: 0. collocate: ipse; scoreVERBO: 0. collocate: hic; scoreVERBO: 0. collocate: is; scoreVERBO: 0. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-114-111-112-116-101-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword propter here are all the values plotted: collocate: magnitudo; scoreADV: 0. collocate: metus; scoreADV: 0. collocate: multitudo; scoreADV: 0. collocate: amicitia; scoreADV: 0. collocate: uirtus; scoreADV: 0. collocate: ipse; scoreADV: 0. collocate: hic; scoreADV: 0. collocate: is; scoreADV: 0. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-114-111-112-116-101-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword propter here are all the values plotted: collocate: magnitudo; scoreFUNC: 0. collocate: metus; scoreFUNC: 0. collocate: multitudo; scoreFUNC: 0. collocate: amicitia; scoreFUNC: 0. collocate: uirtus; scoreFUNC: 0. collocate: ipse; scoreFUNC: 0. collocate: hic; scoreFUNC: 0. collocate: is; scoreFUNC: 0. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>propter</b> hunc sermonem vade <br> <small> Vulg.Marc.7.29 <br> Por causa dessa fala, vai. <small> [JDD] </small> </small> </p>
+; <p> at enim liberum senatus iudicium <b>propter</b> metum non fuit <br> <small> Cic.Dom.10 <br> 10 Mas, de fato, o julgamento do senado não foi livre, por causa do medo. <small> [JDD] </small> </small> </p>
+; <p> huic Caesar legioni indulserat praecipue et <b>propter</b> uirtutem confidebat maxime <br> <small> Caes.Gal.1.40.15 <br> A esta legião César se dedicara especialmente e nela confiava muito mais em razão de sua bravura. <small> [JDD] </small> </small> </p>
+; <p> nemo ad humanum sanguinem <b>propter</b> ipsum uenit aut admodum pauci <br> <small> Sen.Ep.14.9 <br> Ninguém chega ao sangue humano por ele mesmo, ou muito poucos. <small> [JDD] </small> </small> </p>
+; <p> atque haec ei loquuntur qui quondam <b>propter</b> leuitatem populares habebantur <br> <small> Cic.Phil.7.4.1 <br> E falam essas coisas os que outrora, por causa de sua leviandade, eram tidos como populares. <small> [JDD] </small> </small> </p>
+; <p> qui se spectat et <b>propter</b> hoc ad amicitiam uenit male cogitat <br> <small> Sen.Ep.9.8 <br> Quem olha só para si mesmo e chega à amizade por causa disso, pensa mal. <small> [JDD] </small> </small> </p>
+; <p> dicat se licet emisse etenim hic <b>propter</b> magnitudinem furti sunt ut opinor litterae factae <br> <small> Cic.Ver.2.4.35.4 <br> É permitido que diga ter comprado, pois aqui, por causa da grandeza do furto, foi feita, segundo eu penso, uma escritura. <small> [JDD] </small> </small> </p>
+; <p> Caesar primo et <b>propter</b> multitudinem hostium et <b>propter</b> eximiam opinionem uirtutis proelio supersedere statuit <br> <small> Caes.Gal.2.8.1 <br> César, no princípio, não só por causa da grande quantidade de inimigos, como também por causa de seu excelente conceito de bravura, decidiu suspender o combate. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-114-111-112-116-101-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 20.22 and an absolute frequency of 9. The Caesar subcorpus follows, with a normalized frequency of 16.62 and an absolute frequency of 44. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 44 ; absolute frequency: 16.6175693028174. subcorpus: Cicero ; normalized frequency: 134 ; absolute frequency: 8.3476614088859. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 16 ; absolute frequency: 2.98613314421157. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 9 ; absolute frequency: 20.2201752415188'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-114-111-112-116-101-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 20.22 and an absolute frequency of 9. The Prosa.histórica subcorpus follows, with a normalized frequency of 11.93 and an absolute frequency of 49. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 49 ; absolute frequency: 11.9282358382629. subcorpus: Prosa.filosófica ; normalized frequency: 32 ; absolute frequency: 5.27174181644454. subcorpus: Prosa.oratória ; normalized frequency: 104 ; absolute frequency: 9.98531007268154. subcorpus: Prosa.epistolográfica ; normalized frequency: 14 ; absolute frequency: 3.70969024086489. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 9 ; absolute frequency: 20.2201752415188'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-114-111-112-116-101-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 20.22 and an absolute frequency of 9. The I.a.C. subcorpus follows, with a normalized frequency of 8.56 and an absolute frequency of 184. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 2.62 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 184 ; absolute frequency: 8.56411449848732. subcorpus: I.d.C. ; normalized frequency: 18 ; absolute frequency: 2.75355667737494. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 9 ; absolute frequency: 20.2201752415188'}
+
+
+:::
+

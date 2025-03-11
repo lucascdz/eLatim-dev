@@ -1,0 +1,214 @@
+---
+title: "lex"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx108-101-120xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>lēgis</b> <br> <small>gen. sg. de lex.</small> <br> <small></small> 
+ <b>lex</b> <b>légis</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Lei &ensp; <small>direito escrito e promulgado.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Convenção entre particulares, contrato: &ensp; <small></small> <br> <b>3</b> &ensp; <small>II-Daí</small> &ensp; Cláusula, condição &ensp; <small>C. Nep. Timot. 2.</small> <br> <b>4</b> &ensp; <small>II-Daí</small> &ensp; Conjunto de preceitos jurídicos aceitos pela assembléia dos cidadãos romanos, depois de terem sido ouvidos sobre o assunto &ensp; <small>Cíc. Br. 305:</small> <br> <b>5</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Regra, preceito, obrigação &ensp; <small>Cíc. Ac. 2. 23.</small> <br> <b>6</b> &ensp; <small>IV-Sent. poético:</small> &ensp; Ordem: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>lex mancipi Cíc. De Or. 1, 178 “contrato de venda”. <br> <br><b>4</b><br>suis legibus uti Cés. B. Gal. 1. 45, 3 “conservar sua independência falando de um povo”. <br> <br><b>6</b><br>sparsi sine lege capilli Ov. Her. 15. 73. “cabelos espalhados em desordem”. </p> 
+ <small>2.</small> <b>lēge</b> <br> <small>abl. de lex.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Lex</b> -<b>egis</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; lei, Direito escrito, regra, modelo. <br> <b>2</b> &ensp; <small>Ter.</small> &ensp; condição, pacto, ajuste, concerto. </p> 
+ <small>genit. de Lex</small> <b>Legis</b>
+
+
+
+
+#### Velez
+
+<b>Lex</b> -<b>gis</b>   <p> <b>1</b> &ensp; ley, regra, condiçaõ </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>abrogare, uel retigere leges &ensp; <small>abrogar, destruir, desfazer as leys</small> <br> ferre legem &ensp; <small><small>est populo aliquid proponere, rogareque, velitne id pro lege habere</small></small> <br> hac lege tibi meam astringo fidem &ensp; <small>com esta condiçaõ, & c</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Lex</b> -<b>egis</b>   <p> <b>1</b> &ensp; a ley </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/110351 ' target="_blank"> http://lila-erc.eu/data/id/lemma/110351 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> lexs <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+lēgis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx108-101-120xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx108-101-120xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword lex here are all the values plotted: collocate: fero; scoreSUBST: 0. collocate: sancio; scoreSUBST: 0. collocate: promulgo; scoreSUBST: 0. collocate: sine; scoreSUBST: 0. collocate: perfero; scoreSUBST: 0. collocate: nullus; scoreSUBST: 0. collocate: de; scoreSUBST: 0. collocate: natura; scoreSUBST: 2. collocate: contra; scoreSUBST: 0. collocate: utor; scoreSUBST: 0. collocate: inter; scoreSUBST: 0. collocate: Caesar; scoreSUBST: 0. collocate: ago; scoreSUBST: 0. collocate: suus; scoreSUBST: 0. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx108-101-120xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword lex here are all the values plotted: collocate: fero; scoreADJ: 0. collocate: sancio; scoreADJ: 0. collocate: promulgo; scoreADJ: 0. collocate: sine; scoreADJ: 0. collocate: perfero; scoreADJ: 0. collocate: nullus; scoreADJ: 0. collocate: de; scoreADJ: 0. collocate: natura; scoreADJ: 0. collocate: contra; scoreADJ: 0. collocate: utor; scoreADJ: 0. collocate: inter; scoreADJ: 0. collocate: Caesar; scoreADJ: 0. collocate: ago; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx108-101-120xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword lex here are all the values plotted: collocate: fero; scoreVERBO: 2. collocate: sancio; scoreVERBO: 2. collocate: promulgo; scoreVERBO: 2. collocate: sine; scoreVERBO: 0. collocate: perfero; scoreVERBO: 2. collocate: nullus; scoreVERBO: 0. collocate: de; scoreVERBO: 0. collocate: natura; scoreVERBO: 0. collocate: contra; scoreVERBO: 0. collocate: utor; scoreVERBO: 2. collocate: inter; scoreVERBO: 0. collocate: Caesar; scoreVERBO: 0. collocate: ago; scoreVERBO: 2. collocate: suus; scoreVERBO: 0. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx108-101-120xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword lex here are all the values plotted: collocate: fero; scoreADV: 0. collocate: sancio; scoreADV: 0. collocate: promulgo; scoreADV: 0. collocate: sine; scoreADV: 0. collocate: perfero; scoreADV: 0. collocate: nullus; scoreADV: 0. collocate: de; scoreADV: 0. collocate: natura; scoreADV: 0. collocate: contra; scoreADV: 0. collocate: utor; scoreADV: 0. collocate: inter; scoreADV: 0. collocate: Caesar; scoreADV: 0. collocate: ago; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx108-101-120xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword lex here are all the values plotted: collocate: fero; scoreFUNC: 0. collocate: sancio; scoreFUNC: 0. collocate: promulgo; scoreFUNC: 0. collocate: sine; scoreFUNC: 20. collocate: perfero; scoreFUNC: 0. collocate: nullus; scoreFUNC: 0. collocate: de; scoreFUNC: 20. collocate: natura; scoreFUNC: 0. collocate: contra; scoreFUNC: 20. collocate: utor; scoreFUNC: 0. collocate: inter; scoreFUNC: 20. collocate: Caesar; scoreFUNC: 0. collocate: ago; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>lege</b> enim collegi sui non tenebantur <br> <small> Cic.Att.3.23.4 <br> pois eles não estavam submetidos a uma lei de seu colégio. <small> [JDD] </small> </small> </p>
+; <p> ad <b>legem</b> naturae reuertamur diuitiae paratae sunt <br> <small> Sen.Ep.25.4 <br> Voltemos à lei da natureza; suas riquezas estão à disposição. <small> [JDD] </small> </small> </p>
+; <p> putas ne fore ut <b>legem</b> non ferat <br> <small> Cic.Att.4.8A.1 <br> Achas que ele não vai propor sua lei? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Pompeius vero ad voluntatem perferendae <b>legis</b> incubuerat <br> <small> Cic.Att.1.19.4 <br> Pompeu, de fato, tende para a disposição de aprovar a lei. <small> [JDD] </small> </small> </p>
+; <p> quod ita erit gestum id <b>lex</b> erit <br> <small> Cic.Phil.1.26.1 <br> O que for feito desse modo, será lei? <small> [JDD] </small> </small> </p>
+; <p> Appius sine <b>lege</b> suo sumptu in Ciliciam cogitat <br> <small> Cic.Att.4.18.4 <br> Ápio pensa em ira à Cilícia sem lei autorizando, às suas próprias expensas. <small> [JDD] </small> </small> </p>
+; <p> hi omnes lingua institutis <b>legibus</b> inter se differunt <br> <small> Caes.Gal.1.1.2 <br> Todos estes diferem entre si pela língua, pelos costumes e pelas leis. <small> [JDD] </small> </small> </p>
+; <p> eheu quam temere in nosmet <b>legem</b> sancimus iniquam <br> <small> Hor.S.1.3.66 <br> Ah, quão temerariamente sancionamos uma lei rigorosa contra nós mesmos! <small> [JDD] </small> </small> </p>
+; <p> an <b>leges</b> quae de ciuium Romanorum supplicio rogatae sunt <br> <small> Cic.Catil.1.28.3 <br> Ou as leis, que foram promulgadas acerca da punição dos cidadãos romanos? <small> [JDD] </small> </small> </p>
+; <p> facto senatus consulto de ambitu de iudiciis nulla <b>lex</b> perlata <br> <small> Cic.Att.1.18.3 <br> Promulgado um decreto do senado sobre o suborno, outro sobre os juízes, nenhuma lei os sancionou. <small> [JDD] </small> </small> </p>
+; <p> aguntur iniuriae sociorum agitur uis <b>legum</b> agitur existimatio ueritasque iudiciorum <br> <small> Cic.Ver.2.4.113.12 <br> Trata-se de injúrias contra aliados, trata-se da força da lei, trata-se da reputação e a veracidade dos julgamentos. <small> [JDD] </small> </small> </p>
+; <p> et haec omnia facit ille ille qui <b>legem</b> Corneliam tulit <br> <small> Sen.Prov.3.8 <br> E ele faz tudo isso, ele que promulgou a lei Cornélia. <small> [JDD] </small> </small> </p>
+; <p> hac <b>lege</b> sublata uidentur ne uobis posse Caesaris acta seruari <br> <small> Cic.Phil.1.19.4 <br> Tirada essa lei, as resoluções de César vos parecem poder ser mantidas? <small> [JDD] </small> </small> </p>
+; <p> loquor de <b>legibus</b> promulgatis de quibus est integrum uobis demonstro uitia tollite <br> <small> Cic.Phil.1.26.8 <br> Falo das leis promulgadas, sobre as quais tendes o poder de decisão; eu mostro os defeitos: eliminai-os! <small> [JDD] </small> </small> </p>
+; <p> idem ad uos priuatim iudices confugit utitur hac <b>lege</b> qua iudicium est communi arce sociorum <br> <small> Cic.Ver.2.4.17.13 <br> Esse homem busca, de modo privado, refúgio junto a vós, juízes, utiliza-se desta lei pela qual se realiza este julgamento, salvaguarda comum dos aliados. <small> [JDD] </small> </small> </p>
+; <p> alterum caput est tralaticium de impunitate si quid contra alias <b>leges</b> eius <b>legis</b> ergo factum sit <br> <small> Cic.Att.3.23.2 <br> A outra cláusula é a tradicional sobre a impunidade: “Se por causa dessa lei foi feito algo contra outras leis.” <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx108-101-120xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 14.89 and an absolute frequency of 239. The Phaedrus subcorpus follows, with a normalized frequency of 4.55 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 5 ; absolute frequency: 1.88836014804744. subcorpus: Cicero ; normalized frequency: 239 ; absolute frequency: 14.8887393785353. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 13 ; absolute frequency: 12.0582506261015. subcorpus: Seneca ; normalized frequency: 24 ; absolute frequency: 4.47919971631735. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx108-101-120xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 17.22 and an absolute frequency of 65. The Prosa.oratória subcorpus follows, with a normalized frequency of 15.84 and an absolute frequency of 165. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 21 ; absolute frequency: 5.11210107354123. subcorpus: Prosa.filosófica ; normalized frequency: 26 ; absolute frequency: 4.28329022586119. subcorpus: Prosa.oratória ; normalized frequency: 165 ; absolute frequency: 15.8420784806967. subcorpus: Prosa.epistolográfica ; normalized frequency: 65 ; absolute frequency: 17.223561832587. subcorpus: Poesia.lírica ; normalized frequency: 5 ; absolute frequency: 4.20627576343905. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 7 ; absolute frequency: 6.08061153578874. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx108-101-120xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 12.24 and an absolute frequency of 263. The I.d.C. subcorpus follows, with a normalized frequency of 4.28 and an absolute frequency of 28. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 263 ; absolute frequency: 12.2410984407726. subcorpus: I.d.C. ; normalized frequency: 28 ; absolute frequency: 4.28331038702769. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

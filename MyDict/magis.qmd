@@ -1,0 +1,229 @@
+---
+title: "magis"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-97-103-105-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>mage</b> <br> <small>= magis.</small> <br> <small></small> 
+ <b>magis</b> <br> <small>adv.</small> <br> <small>Obs.: Magis é o adv. empregado normalmente, para formar o comp. analítico no período clássico. Mage, forma arcaica de magis, ocorre em poesia ainda no período clássico Lucr: 4,79; Verg. En. 10, 481.</small>   <p> <b>1</b> &ensp; <small>I-Sent. geral</small> &ensp; Mais &ensp; <small>Cés. B. Gal. 3, 16.6; Cíc. fin. 3. 76.</small> <br> <b>2</b> &ensp; <small>I-Nas comparações:</small> &ensp; <small></small> <br> <b>3</b> &ensp; <small>I-Nas comparações:</small> &ensp; Antes, de preferência &ensp; <small>Cíc. Lae. 25: Cíc. At. 10. 8. 2.</small> <br> <b>4</b> &ensp; <small>II-Em construções especiais. reforçado por outro advérbio:</small> &ensp; <small></small> <br> <b>5</b> &ensp; <small>II-Em construções especiais. reforçado por outro advérbio:</small> &ensp; <small></small> <br> <b>6</b> &ensp; <small>II-Em construções especiais. reforçado por outro advérbio:</small> &ensp; <small></small> <br> <b>7</b> &ensp; <small>II-Em construções especiais. reforçado por outro advérbio:</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>Magis ... quam: “mais ... do que”, disertus magis quam sapiens Cíc. A I. 10. I. 4 “mais loquaz do que prudente” Cíc. Tusc. 3. 10: Cés.B. Gal. 1. 40. <br> <br><b>4</b><br>Multo magis Cíc. Fam. 16. 19 “muito mais”: <br> <br><b>5</b><br>magis etiam Cíc. Br. 325 “mais ainda, muito mais”: <br> <br><b>6</b><br>eo magis Cíc. Verr. 3. 1 “tanto mais”: <br> <br><b>7</b><br>hoc magis Cés. B. Civ. 2, 20 “tanto mais”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Mage</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Virg.</small> &ensp; mais. </p> 
+ <b>Magis</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; mais. </p>
+
+
+
+
+#### Velez
+
+<b>Magis</b> <br> <small>Magè pro Magis apud Poetas. 1. b.</small>   <p> <b>1</b> &ensp; mais </p>
+
+
+
+
+#### Cardoso
+
+<b>Mage</b> <br> <small>aduerb. pro magis.</small>   <p> <b>1</b> &ensp; mais </p> 
+ <b>Magis</b>   <p> <b>1</b> &ensp; mais </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/111271 ' target="_blank"> http://lila-erc.eu/data/id/lemma/111271 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> mage, magi <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+măgĭs
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx109-97-103-105-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-97-103-105-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword magis here are all the values plotted: collocate: ea; scoreSUBST: 0. collocate: multo; scoreSUBST: 0. collocate: qua; scoreSUBST: 0. collocate: quod; scoreSUBST: 0. collocate: cum3; scoreSUBST: 0. collocate: que; scoreSUBST: 0. collocate: quanto; scoreSUBST: 0. collocate: quidem; scoreSUBST: 0. collocate: doleo; scoreSUBST: 0. collocate: opto; scoreSUBST: 0. collocate: quisque; scoreSUBST: 0. collocate: ligneolus; scoreSUBST: 0. collocate: timeo; scoreSUBST: 0. collocate: ratio; scoreSUBST: 2. collocate: cottidie; scoreSUBST: 0. collocate: diligo; scoreSUBST: 0. collocate: delecto; scoreSUBST: 0. collocate: probo; scoreSUBST: 0. collocate: placeo; scoreSUBST: 0. collocate: moueo; scoreSUBST: 0. collocate: exspecto; scoreSUBST: 0. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-97-103-105-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword magis here are all the values plotted: collocate: ea; scoreADJ: 0. collocate: multo; scoreADJ: 0. collocate: qua; scoreADJ: 0. collocate: quod; scoreADJ: 0. collocate: cum3; scoreADJ: 0. collocate: que; scoreADJ: 0. collocate: quanto; scoreADJ: 0. collocate: quidem; scoreADJ: 0. collocate: doleo; scoreADJ: 0. collocate: opto; scoreADJ: 0. collocate: quisque; scoreADJ: 0. collocate: ligneolus; scoreADJ: 2. collocate: timeo; scoreADJ: 0. collocate: ratio; scoreADJ: 0. collocate: cottidie; scoreADJ: 0. collocate: diligo; scoreADJ: 0. collocate: delecto; scoreADJ: 0. collocate: probo; scoreADJ: 0. collocate: placeo; scoreADJ: 0. collocate: moueo; scoreADJ: 0. collocate: exspecto; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-97-103-105-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword magis here are all the values plotted: collocate: ea; scoreVERBO: 0. collocate: multo; scoreVERBO: 0. collocate: qua; scoreVERBO: 0. collocate: quod; scoreVERBO: 0. collocate: cum3; scoreVERBO: 0. collocate: que; scoreVERBO: 0. collocate: quanto; scoreVERBO: 0. collocate: quidem; scoreVERBO: 0. collocate: doleo; scoreVERBO: 2. collocate: opto; scoreVERBO: 2. collocate: quisque; scoreVERBO: 0. collocate: ligneolus; scoreVERBO: 0. collocate: timeo; scoreVERBO: 2. collocate: ratio; scoreVERBO: 0. collocate: cottidie; scoreVERBO: 0. collocate: diligo; scoreVERBO: 2. collocate: delecto; scoreVERBO: 2. collocate: probo; scoreVERBO: 2. collocate: placeo; scoreVERBO: 2. collocate: moueo; scoreVERBO: 2. collocate: exspecto; scoreVERBO: 2. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-97-103-105-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword magis here are all the values plotted: collocate: ea; scoreADV: 3. collocate: multo; scoreADV: 3. collocate: qua; scoreADV: 4. collocate: quod; scoreADV: 0. collocate: cum3; scoreADV: 3. collocate: que; scoreADV: 0. collocate: quanto; scoreADV: 2. collocate: quidem; scoreADV: 2. collocate: doleo; scoreADV: 0. collocate: opto; scoreADV: 0. collocate: quisque; scoreADV: 0. collocate: ligneolus; scoreADV: 0. collocate: timeo; scoreADV: 0. collocate: ratio; scoreADV: 0. collocate: cottidie; scoreADV: 2. collocate: diligo; scoreADV: 0. collocate: delecto; scoreADV: 0. collocate: probo; scoreADV: 0. collocate: placeo; scoreADV: 0. collocate: moueo; scoreADV: 0. collocate: exspecto; scoreADV: 0. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-97-103-105-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword magis here are all the values plotted: collocate: ea; scoreFUNC: 0. collocate: multo; scoreFUNC: 0. collocate: qua; scoreFUNC: 0. collocate: quod; scoreFUNC: 30. collocate: cum3; scoreFUNC: 0. collocate: que; scoreFUNC: 0. collocate: quanto; scoreFUNC: 0. collocate: quidem; scoreFUNC: 0. collocate: doleo; scoreFUNC: 0. collocate: opto; scoreFUNC: 0. collocate: quisque; scoreFUNC: 0. collocate: ligneolus; scoreFUNC: 0. collocate: timeo; scoreFUNC: 0. collocate: ratio; scoreFUNC: 0. collocate: cottidie; scoreFUNC: 0. collocate: diligo; scoreFUNC: 0. collocate: delecto; scoreFUNC: 0. collocate: probo; scoreFUNC: 0. collocate: placeo; scoreFUNC: 0. collocate: moueo; scoreFUNC: 0. collocate: exspecto; scoreFUNC: 0. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> vestra <b>magis</b> exspecto <br> <small> Cic.Att.3.12.3 <br> espero mais notícias vossas. <small> [JDD] </small> </small> </p>
+; <p> tuas litteras semper <b>maxime</b> exspecto <br> <small> Cic.Att.3.17.3 <br> Sempre espero com a maior ansiedade as tuas cartas. <small> [JDD] </small> </small> </p>
+; <p> non <b>magis</b> quam in semine <br> <small> Sen.Ep.124.10 <br> Não mais do que em semente. <small> [JDD] </small> </small> </p>
+; <p> eo <b>magis</b> vis nobis est timenda <br> <small> Cic.Att.2.21.5 <br> Por isso nós devemos ter mais medo da violência. <small> [JDD] </small> </small> </p>
+; <p> quae γυμνασιώδη <b>maxime</b> sunt ea quaero <br> <small> Cic.Att.1.9.2 <br> As coisas que são especialmente ‘dignas de ginásio’ eu busco. <small> [JDD] </small> </small> </p>
+; <p> me enim ipsum multo <b>magis</b> accuso <br> <small> Cic.Att.3.15.4 <br> Pois eu me acuso muito mais a mim mesmo. <small> [JDD] </small> </small> </p>
+; <p> immo uero nihil <b>magis</b> probandum est <br> <small> Sen.Ep.9.12 <br> Mas, pelo contrário, não há nada mais plausível. <small> [JDD] </small> </small> </p>
+; <p> ne tum quidem quom iri <b>maxime</b> debuit <br> <small> Cic.Att.2.1.5 <br> nem mesmo então, quando mais se devia ir.” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quod ut ne accidat <b>magis</b> cauendum est <br> <small> Cic.Amici.99 <br> Para que isso não ocorra, deve-se precaver ainda mais. <small> [JDD] </small> </small> </p>
+; <p> ergo postque <b>magis</b>que uiri nunc gloria claret <br> <small> Cic.Sen.10 <br> Portanto agora a glória do homem brilha sempre mais.” <small> [JDD] </small> </small> </p>
+; <p> eo <b>magis</b> bonum tuum auge et exorna <br> <small> Sen.Ep.13.15 <br> por isso incrementa e enfeita mais esse teu bem. <small> [JDD] </small> </small> </p>
+; <p> prorsus potest fieri dentes illi cum <b>maxime</b> cadunt <br> <small> Sen.Ep.12.3 <br> Pode perfeitamente tornar-se: principalmente quando lhe caem os dentes.” <small> [JDD] </small> </small> </p>
+; <p> quanto autem eis praecipiebat tanto <b>magis</b> plus praedicabant <br> <small> Vulg.Marc.7.36 <br> Porém, quanto mais ele ordenava, tanto mais eles divulgavam. <small> [JDD] </small> </small> </p>
+; <p> sed quia rationem habendam <b>maxime</b> arbitror pacis atque oti <br> <small> Cic.Phil.1.16.2 <br> - mas porque julgo que é preciso sobretudo levar em conta a paz e a tranquilidade. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> cotidie enim <b>magis</b> suspicor te in Epirum iam profectum <br> <small> Cic.Att.5.7.1 <br> pois cotidianamente eu tenho mais suspeita de que tu já partiste para o Epiro. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> triginta unus fuerunt quos fames <b>magis</b> quam fama commoverit <br> <small> Cic.Att.1.16.5 <br> houve 31 aos quais mais a fome do que a fama influenciou. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quanto ille plura miscebat tanto hic <b>magis</b> in dies conualescebat <br> <small> Cic.Mil.25 <br> Quanto mais coisas ele [Clódio] agitava, mais este [Milão] se fortalecia a cada dia. <small> [JDD] </small> </small> </p>
+; <p> sciunt enim ipsos omnia habere communia et quidem <b>magis</b> aduersa <br> <small> Sen.Ep.6.3 <br> Porque sabem que eles têm todas as coisas em comum, e mais ainda as adversas. <small> [JDD] </small> </small> </p>
+; <p> sed haec est pridie data quam illa quo conturber <b>magis</b> <br> <small> Cic.Att.3.8.2 <br> Mas esta foi remetida um dia antes daquela, o que aumenta minha preocupação. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> num est num potest <b>magis</b> carere his omnibus quam caret <br> <small> Cic.Lig.11 <br> Por acaso está, por acaso pode ele carecer de todas estas coisas mais do que carece? <small> [JDD] </small> </small> </p>
+; <p> ius bonumque apud eos non legibus <b>magis</b> quam natura ualebat <br> <small> Sal.Cat.9.1 <br> o direito e o bem tinham valor entre eles menos por efeito das leis do que pela natureza. <small> [JDD] </small> </small> </p>
+; <p> sed haec omitto ad illa quae me <b>magis</b> mouerunt respondeo <br> <small> Cic.Cael.27 <br> Mas omito essas coisas; respondo àquelas que mais me abalaram. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> uides quosdam optantes mortem et quidem <b>magis</b> quam rogari solet uita <br> <small> Sen.Ep.30.12 <br> Vês alguns que desejam a morte e bem mais do que se costuma implorar a vida. <small> [JDD] </small> </small> </p>
+; <p> de Oppio factum est ut volui et <b>maxime</b> quod octogenti aperuisti <br> <small> Cic.Att.5.1.2 <br> Quanto a Ópio, foi feito conforme eu quis, principalmente porque abriste um crédito de 800 mil sestécios. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quaeris quid me <b>maxime</b> ex iis quae de te audio delectet <br> <small> Sen.Ep.32.1 <br> Queres saber o que me apraz muitíssimo das coisas que ouço sobre ti? <small> [JDD] </small> </small> </p>
+; <p> multa me in epistula tua delectarunt sed nihil <b>magis</b> quam patina tyrotarichi <br> <small> Cic.Att.4.8.1 <br> Muitas coisas me deleitaram em tua carta, mas nenhuma mais do que o prato de peixe salgado ao queijo. <small> [JDD] </small> </small> </p>
+; <p> sed ea tempestate coepere se quisque extollere <b>magis</b>que ingenium in promptu habere <br> <small> Sal.Cat.7.1 <br> Mas nessa época cada um começou a elevar-se mais e a ter mais em evidência o seu talento. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quod si immortalitas consequeretur praesentis periculi fugam tamen eo <b>magis</b> ea fugienda uideretur quo diuturnior seruitus esset <br> <small> Cic.Phil.10.20.12 <br> E se a imortalidade se alcançasse com a fuga do perigo atual, mesmo assim pareceria que ela devia ser evitada tanto mais porque a escravidão seria por muito tempo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> humanitate iam tanta est ut difficile dictu sit utrum hostes <b>magis</b> uirtutem eius pugnantes timuerint an mansuetudinem uicti dilexerint <br> <small> Cic.Man.42 <br> Ele é  de uma humanidade tão grande que é difícil dizer se os inimigos temeram mais o seu valor, quando combatiam, ou amaram sua mansidão, quando vencidos. <small> [JDD] </small> </small> </p>
+; <p> ' quo ' 'que <b>magis</b> doleas genetrix , ' ait ' ille ego liber , ille ferox tacui . <br> <small> Ov.Met.1.756-7 <br> e: “Para que sofras mais, minha genitora”, diz, “eu, o livre, o feroz, me calei! <small> [JDD, de outra edição] </small> </small> </p>
+; <p> si in eo quod ostenderat non stat mihi <b>maxime</b> placet ea quae male empta sunt reddi si voluntate Pomponiae fieri poterit <br> <small> Cic.Att.2.4.1 <br> Se não se mantém naquilo que tinha proposto, me agrada muitíssimo que sejam devolvidas essas coisas que foram mal compradas, se isso puder ser pela vontade de Pompônia. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-97-103-105-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 41.74 and an absolute frequency of 45. The Suetonius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 26 ; absolute frequency: 9.81947276984667. subcorpus: Cicero ; normalized frequency: 266 ; absolute frequency: 16.5707308564451. subcorpus: Horatius ; normalized frequency: 9 ; absolute frequency: 7.99218541870171. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 45 ; absolute frequency: 41.7400983211205. subcorpus: Seneca ; normalized frequency: 78 ; absolute frequency: 14.5573990780314. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 5 ; absolute frequency: 17.164435290079. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-97-103-105-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 23.32 and an absolute frequency of 88. The Prosa.filosófica subcorpus follows, with a normalized frequency of 20.76 and an absolute frequency of 126. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 1.93 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 76 ; absolute frequency: 18.5009372185302. subcorpus: Prosa.filosófica ; normalized frequency: 126 ; absolute frequency: 20.7574834022504. subcorpus: Prosa.oratória ; normalized frequency: 121 ; absolute frequency: 11.6175242191776. subcorpus: Prosa.epistolográfica ; normalized frequency: 88 ; absolute frequency: 23.3180529425793. subcorpus: Poesia.lírica ; normalized frequency: 9 ; absolute frequency: 7.57129637419029. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 9 ; absolute frequency: 7.81792911744267. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-97-103-105-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 16.15 and an absolute frequency of 347. The I.d.C. subcorpus follows, with a normalized frequency of 12.7 and an absolute frequency of 83. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 6.74 and an absolute freqeuncy of 3. here are all the values: subcorpus: I.a.C. ; normalized frequency: 347 ; absolute frequency: 16.1508028857342. subcorpus: I.d.C. ; normalized frequency: 83 ; absolute frequency: 12.6969557901178. subcorpus: II.d.C. ; normalized frequency: 5 ; absolute frequency: 13.0890052356021. subcorpus: IV.d.C. ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+:::
+

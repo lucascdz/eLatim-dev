@@ -1,0 +1,219 @@
+---
+title: "ciuis"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-105-117-105-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>cīvis</b> <b>-is</b> <br> <small>subs. m.</small> <br> <small>Obs.: Ao lado do abl. sg. cive, e usada também a forma civi Cíc. Sest. 29.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Cidadão ou cidadã membros livres de uma cidade a que pertencem por origem ou adoção, concidadão &ensp; <small>Cíc. Cat. 1, 17.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Súditos &ensp; <small>Cíc. Rep. 3, 37.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Civis</b> -<b>is</b> <br> <small>m. f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; cidadão, Cidadoa. </p>
+
+
+
+
+#### Velez
+
+<b>Civis</b> -<b>is</b>   <p> <b>1</b> &ensp; o cidadaõ, ou cidadôa </p>
+
+
+
+
+#### Cardoso
+
+<b>Ciuis</b> <b>is</b>   <p> <b>1</b> &ensp; ho cidadão. ou cidadoa </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/94399 ' target="_blank"> http://lila-erc.eu/data/id/lemma/94399 </a> <br>
+<small> classe: </small> substantivo comum de dois gêneros   <br>
+<small> paradigma: </small> 3ª declinação (tema em -i-) <br>
+<small> outras grafias: </small> ceiueis, ceiuis <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+cīvis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-105-117-105-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-105-117-105-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ciuis here are all the values plotted: collocate: romanus; scoreSUBST: 0. collocate: perditus; scoreSUBST: 0. collocate: improbus; scoreSUBST: 0. collocate: impius; scoreSUBST: 0. collocate: egregius; scoreSUBST: 0. collocate: bonus; scoreSUBST: 0. collocate: perniciosus; scoreSUBST: 0. collocate: salus; scoreSUBST: 2. collocate: fortis; scoreSUBST: 0. collocate: caedes; scoreSUBST: 2. collocate: clarus; scoreSUBST: 0. collocate: concordia; scoreSUBST: 2. collocate: sceleratus; scoreSUBST: 0. collocate: nefarius; scoreSUBST: 0. collocate: sanguis; scoreSUBST: 2. collocate: Italia; scoreSUBST: 0. collocate: multitudo; scoreSUBST: 2. collocate: o; scoreSUBST: 0. collocate: omnis; scoreSUBST: 0. collocate: suus; scoreSUBST: 0. collocate: uirtus; scoreSUBST: 2. collocate: periculum; scoreSUBST: 2. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-105-117-105-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ciuis here are all the values plotted: collocate: romanus; scoreADJ: 4. collocate: perditus; scoreADJ: 3. collocate: improbus; scoreADJ: 3. collocate: impius; scoreADJ: 3. collocate: egregius; scoreADJ: 2. collocate: bonus; scoreADJ: 2. collocate: perniciosus; scoreADJ: 2. collocate: salus; scoreADJ: 0. collocate: fortis; scoreADJ: 2. collocate: caedes; scoreADJ: 0. collocate: clarus; scoreADJ: 2. collocate: concordia; scoreADJ: 0. collocate: sceleratus; scoreADJ: 2. collocate: nefarius; scoreADJ: 2. collocate: sanguis; scoreADJ: 0. collocate: Italia; scoreADJ: 0. collocate: multitudo; scoreADJ: 0. collocate: o; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: uirtus; scoreADJ: 0. collocate: periculum; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-105-117-105-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ciuis here are all the values plotted: collocate: romanus; scoreVERBO: 0. collocate: perditus; scoreVERBO: 0. collocate: improbus; scoreVERBO: 0. collocate: impius; scoreVERBO: 0. collocate: egregius; scoreVERBO: 0. collocate: bonus; scoreVERBO: 0. collocate: perniciosus; scoreVERBO: 0. collocate: salus; scoreVERBO: 0. collocate: fortis; scoreVERBO: 0. collocate: caedes; scoreVERBO: 0. collocate: clarus; scoreVERBO: 0. collocate: concordia; scoreVERBO: 0. collocate: sceleratus; scoreVERBO: 0. collocate: nefarius; scoreVERBO: 0. collocate: sanguis; scoreVERBO: 0. collocate: Italia; scoreVERBO: 0. collocate: multitudo; scoreVERBO: 0. collocate: o; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: uirtus; scoreVERBO: 0. collocate: periculum; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-105-117-105-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ciuis here are all the values plotted: collocate: romanus; scoreADV: 0. collocate: perditus; scoreADV: 0. collocate: improbus; scoreADV: 0. collocate: impius; scoreADV: 0. collocate: egregius; scoreADV: 0. collocate: bonus; scoreADV: 0. collocate: perniciosus; scoreADV: 0. collocate: salus; scoreADV: 0. collocate: fortis; scoreADV: 0. collocate: caedes; scoreADV: 0. collocate: clarus; scoreADV: 0. collocate: concordia; scoreADV: 0. collocate: sceleratus; scoreADV: 0. collocate: nefarius; scoreADV: 0. collocate: sanguis; scoreADV: 0. collocate: Italia; scoreADV: 0. collocate: multitudo; scoreADV: 0. collocate: o; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: uirtus; scoreADV: 0. collocate: periculum; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-105-117-105-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ciuis here are all the values plotted: collocate: romanus; scoreFUNC: 0. collocate: perditus; scoreFUNC: 0. collocate: improbus; scoreFUNC: 0. collocate: impius; scoreFUNC: 0. collocate: egregius; scoreFUNC: 0. collocate: bonus; scoreFUNC: 0. collocate: perniciosus; scoreFUNC: 0. collocate: salus; scoreFUNC: 0. collocate: fortis; scoreFUNC: 0. collocate: caedes; scoreFUNC: 0. collocate: clarus; scoreFUNC: 0. collocate: concordia; scoreFUNC: 0. collocate: sceleratus; scoreFUNC: 0. collocate: nefarius; scoreFUNC: 0. collocate: sanguis; scoreFUNC: 0. collocate: Italia; scoreFUNC: 0. collocate: multitudo; scoreFUNC: 0. collocate: o; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: uirtus; scoreFUNC: 0. collocate: periculum; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> o <b>civem</b> <br> <small> Cic.Att.4.15.7 <br> O cidadão! <small> [JDD] </small> </small> </p>
+; <p> dilectus habetur <b>civium</b> Romanorum <br> <small> Cic.Att.5.18.2 <br> Tem-se um recrutamento de cidadãos romanos. <small> [JDD] </small> </small> </p>
+; <p> illa impios <b>ciuis</b> iudicauit eiecit exclusit <br> <small> Cic.Phil.12.7.16 <br> Ela julgou, expulsou, desterrou os ímpio cidadãos. <small> [JDD] </small> </small> </p>
+; <p> quis non dolet interitum talis et <b>ciuis</b> et uiri <br> <small> Cic.Phil.12.25.6 <br> Quem não lamenta a perda de um tal cidadão e homem? <small> [JDD] </small> </small> </p>
+; <p> nam concordiam <b>ciuium</b> qui habere potest nullam cum habeat ciuitatem <br> <small> Cic.Phil.4.14.8 <br> ora, como ele pode ter a concórdia dos cidadãos, se não tem nenhuma cidade? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> atque utinam patres conscripti <b>ciuibus</b> omnibus soluere nobis praemia liceret <br> <small> Cic.Phil.14.30.1 <br> E quem dera, pais conscritos, nos fosse permitido recompensar todos os cidadãos! <small> [JDD] </small> </small> </p>
+; <p> conuocabat tribus se interponebat Collinam nouam dilectu perditissimorum <b>ciuium</b> conscribebat <br> <small> Cic.Mil.25 <br> Convocava as tribos, se intrometia, recrutava uma nova tribo Colina com a escolha dos mais degenerados cidadãos. <small> [JDD] </small> </small> </p>
+; <p> quis <b>ciuis</b> meliorum partium aliquando quis taetrior hostis huic ciuitati <br> <small> Cic.Cael.13 <br> Que cidadão foi algum dia dos melhores partidos, que cidadão foi o mais abominável inimigo desta cidade? <small> [JDD] </small> </small> </p>
+; <p> quanti is a <b>ciuibus</b> suis fieret quanti auctoritas eius haberetur ignorabas <br> <small> Cic.Ver.2.4.19.2 <br> Ignoravas o quanto ele era estimado por seus concidadãos, o quanto era considerada a sua autoridade? <small> [JDD] </small> </small> </p>
+; <p> <b>civem</b> illum egregium relinquebam et ad haec quae timentur propulsanda paratissimum <br> <small> Cic.Att.5.7.1 <br> Eu deixava aquele egrégio cidadão e preparadíssimo para repelir as coisas que se temem. <small> [JDD] </small> </small> </p>
+; <p> si hostium fuit ille sanguis summa militum pietas nefarium scelus si <b>ciuium</b> <br> <small> Cic.Phil.14.6.6 <br> Se aquele foi sangue dos inimigos, supremo foi o amor da pátria dos soldados: se foi de cidadãos, crime abominável. <small> [JDD] </small> </small> </p>
+; <p> conseruate igitur rei publicae iudices <b>ciuem</b> bonarum artium bonarum partium bonorum uirorum <br> <small> Cic.Cael.77 <br> Preservai, portanto, para a república, juízes, um cidadão das boas artes, do bom partido, dos homens de bem. <small> [JDD] </small> </small> </p>
+; <p> at persaepe etiam priuati in hac re publica perniciosos <b>ciuis</b> morte multarunt <br> <small> Cic.Catil.1.28.2 <br> Mas muitíssimas vezes nesta república, mesmo pessoas não públicas, castigaram com morte cidadãos perniciosos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quis M. Scaurum hominem grauissimum <b>ciuem</b> egregium fortissimum senatorem a Q. Maximo <br> <small> Cic.Mur.36 <br> Quem [pensou] que Marco Escauro, homem seriíssimo, notável cidadão, valorosíssimo senador, [pudesse ser vencido] por Quinto Máximo? <small> [JDD] </small> </small> </p>
+; <p> iurgia discordias simultates cum hostibus exercebant <b>ciues</b> cum <b>ciuibus</b> de uirtute certabant <br> <small> Sal.Cat.9.2 <br> Com os inimigos os cidadãos exerciam contendas, discórdias, rivalidades, com cidadãos disputavam acerca da virtude. <small> [JDD] </small> </small> </p>
+; <p> quae mulier interficere sceleratum ac perniciosum <b>ciuem</b> non auderet si periculum non timeret <br> <small> Cic.Mil.82 <br> Que mulher não ousaria matar um cidadão celerado e pernicioso, se não temesse o perigo? <small> [JDD] </small> </small> </p>
+; <p> omnes enim iam <b>ciues</b> de rei publicae salute una et mente et uoce consentiunt <br> <small> Cic.Phil.1.21.8 <br> Pois todos os cidadãos, com um único pensamente e uma só voz, já estão de acordo em relação à salvação da república. <small> [JDD] </small> </small> </p>
+; <p> gratae uero nostrae dis immortalibus gratulationes erunt gratae uictimae cum interfecta sit <b>ciuium</b> multitudo <br> <small> Cic.Phil.14.7.1 <br> Gratos, na verdade, serão as nossas congratulações aos deuses imortais, gratas as vítimas, quando foi morta uma multidão de cidadãos! <small> [JDD] </small> </small> </p>
+; <p> postquam res publica adoleuit et multitudine <b>ciuium</b> factiones ualuere circumueniri innocentes alia huiuscemodi fieri coepere <br> <small> Sal.Cat.51.40 <br> Depois que a república cresceu e os partidos se fortaleceram em razão do grande número de cidadãos, começaram a ser perseguidos os inocentes e a ocorrer outras coisas desse tipo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nullus ei ludus uidetur esse iucundior quam cruor quam caedes quam ante oculos trucidatio <b>ciuium</b> <br> <small> Cic.Phil.4.11.9 <br> Nenhum espetáculo lhe parece mais prazeroso do que o sangue derramado, do que as matanças, do que o massacre de cidadãos diante de seus olhos. <small> [JDD] </small> </small> </p>
+; <p> hosce ego homines excipio et secerno libenter neque in improborum <b>ciuium</b> sed in acerbissimorum hostium numero habendos puto <br> <small> Cic.Catil.4.15.1 <br> Esses homens eu os excluo e ponho à parte de bom grado e acho que não devem ser tidos no número dos maus cidadãos, mas no número dos mais encarniçados inimigos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> negat hoc D. Brutus imperator consul designatus natus rei publicae <b>ciuis</b> negat Gallia negat cuncta Italia negat senatus negatis uos <br> <small> Cic.Phil.4.9.6 <br> Nega que ele seja cônsul Décimo Bruto, general, cônsul eleito, cidadão nascido para a república, a Gália nega, a Itália toda nega, o senado nega, vós negais. <small> [JDD] </small> </small> </p>
+; <p> nunc iam aperte rem publicam uniuersam petis templa deorum immortalium tecta urbis uitam omnium <b>ciuium</b> Italiam totam ad exitium et uastitatem uocas <br> <small> Cic.Catil.1.12.1 <br> Agora já atacas abertamente a república toda; os templos dos deuses imortais, os tetos da cidade, a vida de todos os cidadãos, a Itália inteira arrastas para a ruína e destruição. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> at hunc eis ipsis ludorum diebus uidebam in insula clarissimi adulescentis Cn. Luculli propinqui sui nihil nisi de pace et concordia <b>ciuium</b> cogitantem <br> <small> Cic.Phil.10.8.5 <br> Mas nesses mesmos dias dos jogos eu o via na ilha de Cneu Luculo, um ilustríssimo rapaz, parente seu, não pensando em nada, a não ser na paz e concórdia dos cidadãos. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-105-117-105-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 21.33 and an absolute frequency of 23. The Cicero subcorpus follows, with a normalized frequency of 17.94 and an absolute frequency of 288. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 288 ; absolute frequency: 17.9412424310384. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 23 ; absolute frequency: 21.3338280307949. subcorpus: Seneca ; normalized frequency: 8 ; absolute frequency: 1.49306657210578. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-105-117-105-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 25.64 and an absolute frequency of 267. The Prosa.histórica subcorpus follows, with a normalized frequency of 5.84 and an absolute frequency of 24. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 24 ; absolute frequency: 5.84240122690426. subcorpus: Prosa.filosófica ; normalized frequency: 12 ; absolute frequency: 1.9769031811667. subcorpus: Prosa.oratória ; normalized frequency: 267 ; absolute frequency: 25.6353633596728. subcorpus: Prosa.epistolográfica ; normalized frequency: 13 ; absolute frequency: 3.4447123665174. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-105-117-105-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 14.66 and an absolute frequency of 315. The I.d.C. subcorpus follows, with a normalized frequency of 1.38 and an absolute frequency of 9. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 315 ; absolute frequency: 14.661391668606. subcorpus: I.d.C. ; normalized frequency: 9 ; absolute frequency: 1.37677833868747. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

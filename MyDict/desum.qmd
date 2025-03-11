@@ -1,0 +1,213 @@
+---
+title: "desum"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-101-115-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>deĕrat</b> <b>deèrit</b> <br> <small>imperf. e futuro simples do v. desum.</small> <br> <small></small> 
+ <b>deest</b> <br> <small>pres. do ind. de desum.</small> <br> <small></small> 
+ <b>dēfŏre</b> <br> <small>inf. fut. de desum.</small> <br> <small></small> 
+ <b>dēfŭī</b> <br> <small>perf. de desum.</small> <br> <small></small> 
+ <b>dēsum</b> <b>dees, -ésse, défùí</b> <br> <small>v. intr.</small> <br> <small>Obs.: Constrói-se geralmente com abl. e dat., e às .vezes, com abl. com in, ou inf. Os poetas apresentam comumente a contração dos dois ee: dés, dést, désse, déro, etc. O inf. fut. defore é comum em Cícero e César.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Faltar &ensp; <small>Cíc. Rep. 1, 28.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Deixar de cumprir os deveres, não atender, abandonar &ensp; <small>Cíc. Mur. 10; Cíc. At. 7, 17, 4.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Desum</b> <b>dees</b> <b>defui</b> <b>deesse</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; faltar, estar ausente. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>deesse alicui consilio &ensp; <small><small>Cic</small></small> &ensp; <small>Deixar de aconselhar alguem</small> <br> officio, & muneri suo deesse &ensp; <small><small>Cic</small></small> &ensp; <small>Não cumprir com a sua obrigação</small> </p> 
+ <small>Plaut. por Desit</small> <b>Defuat</b> 
+ <small>pret. de Desum</small> <b>Defui</b>
+
+
+
+
+#### Velez
+
+<b>Desum</b> <b>dees</b> <br> <small>Deerit, & c. Contract.</small>   <p> <b>1</b> &ensp; faltar </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>occasioni defuit &ensp; <small>naõ lançou maõ da occasiaõ</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Desum</b> -<b>es</b> <b>defui</b>   <p> <b>1</b> &ensp; desfalecer &ensp; <small>neutro.</small> </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/98996 ' target="_blank"> http://lila-erc.eu/data/id/lemma/98996 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> irregular <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> desum </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> deesse, desse </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> deerit, derit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> defui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> defuturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+dēfŭī 
+ dēsum 
+ dĕes
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-101-115-117-109xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-101-115-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword desum here are all the values plotted: collocate: non; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: tu; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-101-115-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword desum here are all the values plotted: collocate: non; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: tu; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-101-115-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword desum here are all the values plotted: collocate: non; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: tu; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-101-115-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword desum here are all the values plotted: collocate: non; scoreADV: 2. collocate: ego; scoreADV: 0. collocate: tu; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-101-115-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword desum here are all the values plotted: collocate: non; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: tu; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> etsi paene praeterii chartam tibi <b>deesse</b> <br> <small> Cic.Att.5.4.4 <br> Ainda que eu quase deixei passar que te falta papel. <small> [JDD] </small> </small> </p>
+; <p> immo contra nolo tibi umquam <b>deesse</b> laetitiam <br> <small> Sen.Ep.23.3 <br> Mas não, ao contrário, não quero que te falte nunca a alegria. <small> [JDD] </small> </small> </p>
+; <p> Anicato ut te velle intellexeram nullo loco <b>defui</b> <br> <small> Cic.Att.2.20.1 <br> A Anicato, como tinha entendido que tu querias, não tenho faltado em momento algum. <small> [JDD] </small> </small> </p>
+; <p> multa quam superuacua essent non intelleximus nisi <b>deesse</b> coeperunt <br> <small> Sen.Ep.123.6 <br> Não entendemos quão supérfluas eram muitas coisas, a não ser quando começaram a faltar. <small> [JDD] </small> </small> </p>
+; <p> hic mihi primum meum consilium <b>defuit</b> sed etiam obfuit <br> <small> Cic.Att.3.15.5 <br> Aqui me faltou pela primeira vez o meu discernimento, mas ainda me danou. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-101-115-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 10.3 and an absolute frequency of 3. The Phaedrus subcorpus follows, with a normalized frequency of 7.59 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 8 ; absolute frequency: 3.0213762368759. subcorpus: Cicero ; normalized frequency: 53 ; absolute frequency: 3.30168697515636. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 5 ; absolute frequency: 7.59070897221801. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 35 ; absolute frequency: 6.5321662529628. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-101-115-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 5.56 and an absolute frequency of 21. The Prosa.filosófica subcorpus follows, with a normalized frequency of 5.27 and an absolute frequency of 32. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 14 ; absolute frequency: 3.40806738236082. subcorpus: Prosa.filosófica ; normalized frequency: 32 ; absolute frequency: 5.27174181644454. subcorpus: Prosa.oratória ; normalized frequency: 31 ; absolute frequency: 2.97639050243392. subcorpus: Prosa.epistolográfica ; normalized frequency: 21 ; absolute frequency: 5.56453536129733. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 6 ; absolute frequency: 5.08949020273136. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-101-115-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 7.85 and an absolute frequency of 3. The I.d.C. subcorpus follows, with a normalized frequency of 6.27 and an absolute frequency of 41. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 68 ; absolute frequency: 3.16499883639749. subcorpus: I.d.C. ; normalized frequency: 41 ; absolute frequency: 6.27199020957626. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

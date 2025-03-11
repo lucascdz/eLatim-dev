@@ -1,0 +1,209 @@
+---
+title: "neque"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-101-113-117-101xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>neque</b> <br> <small>conj. v. nec</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; E não, nem &ensp; <small>Cíc. Leg. 2, 26; T. Lív. 7, 9, 1.</small> <br> <b>1</b> &ensp; <small></small> &ensp; E não, nem &ensp; <small>Cíc. Leg. 2, 26; T. Lív. 7, 9, 1.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+no data
+
+
+
+
+#### Velez
+
+<b>Neque</b> <br> <small>Conjunct.</small>   <p> <b>1</b> &ensp; nem </p>
+
+
+
+
+#### Cardoso
+
+<b>Neque</b> <br> <small>coniunctio.</small>   <p> <b>1</b> &ensp; nem </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/114120 ' target="_blank"> http://lila-erc.eu/data/id/lemma/114120 </a> <br>
+<small> classe: </small> conjunção coordenativa    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+nĕquĕ
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-101-113-117-101xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword neque here are all the values plotted: collocate: enim; scoreSUBST: 0. collocate: solum; scoreSUBST: 0. collocate: ullus; scoreSUBST: 0. collocate: quisquam; scoreSUBST: 0. collocate: uersus; scoreSUBST: 2. collocate: tamen; scoreSUBST: 0. collocate: sui; scoreSUBST: 0. collocate: hic; scoreSUBST: 0. collocate: tam; scoreSUBST: 0. collocate: longe; scoreSUBST: 0. collocate: umquam; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: uideo; scoreSUBST: 0. collocate: quod; scoreSUBST: 0. collocate: transeo; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-101-113-117-101xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword neque here are all the values plotted: collocate: enim; scoreADJ: 0. collocate: solum; scoreADJ: 0. collocate: ullus; scoreADJ: 0. collocate: quisquam; scoreADJ: 0. collocate: uersus; scoreADJ: 0. collocate: tamen; scoreADJ: 0. collocate: sui; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: longe; scoreADJ: 0. collocate: umquam; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: uideo; scoreADJ: 0. collocate: quod; scoreADJ: 0. collocate: transeo; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-101-113-117-101xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword neque here are all the values plotted: collocate: enim; scoreVERBO: 0. collocate: solum; scoreVERBO: 0. collocate: ullus; scoreVERBO: 0. collocate: quisquam; scoreVERBO: 0. collocate: uersus; scoreVERBO: 0. collocate: tamen; scoreVERBO: 0. collocate: sui; scoreVERBO: 0. collocate: hic; scoreVERBO: 0. collocate: tam; scoreVERBO: 0. collocate: longe; scoreVERBO: 0. collocate: umquam; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: uideo; scoreVERBO: 1. collocate: quod; scoreVERBO: 0. collocate: transeo; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-101-113-117-101xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword neque here are all the values plotted: collocate: enim; scoreADV: 5. collocate: solum; scoreADV: 3. collocate: ullus; scoreADV: 0. collocate: quisquam; scoreADV: 0. collocate: uersus; scoreADV: 0. collocate: tamen; scoreADV: 2. collocate: sui; scoreADV: 0. collocate: hic; scoreADV: 0. collocate: tam; scoreADV: 2. collocate: longe; scoreADV: 2. collocate: umquam; scoreADV: 2. collocate: ego; scoreADV: 0. collocate: uideo; scoreADV: 0. collocate: quod; scoreADV: 0. collocate: transeo; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-101-113-117-101xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword neque here are all the values plotted: collocate: enim; scoreFUNC: 0. collocate: solum; scoreFUNC: 0. collocate: ullus; scoreFUNC: 0. collocate: quisquam; scoreFUNC: 0. collocate: uersus; scoreFUNC: 0. collocate: tamen; scoreFUNC: 0. collocate: sui; scoreFUNC: 0. collocate: hic; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: longe; scoreFUNC: 0. collocate: umquam; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: uideo; scoreFUNC: 0. collocate: quod; scoreFUNC: 10. collocate: transeo; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> haec <b>neque</b> hoc tempore <b>neque</b> in me ualent <br> <small> Cic.Phil.12.25.14 <br> Essas circunstâncias não valem nem neste momento nem no meu caso. <small> [JDD] </small> </small> </p>
+; <p> <b>neque</b> enim licuit aliter uestro generi nomini familiae disciplinae <br> <small> Cic.Lig.20 <br> pois não foi permitida outra coisa à vossa linhagem, nome, família, princípios. <small> [JDD] </small> </small> </p>
+; <p> <b>nec</b> quicquam ultra de paternis Augusti maioribus repperi . <br> <small> Suet.Aug.2.2.3 <br> Nada além disso encontrei acerca dos antepassados paternos de Augusto. <small> [JDD] </small> </small> </p>
+; <p> <b>neque</b> illi tamen ad cauendum dolus aut astutiae deerant <br> <small> Sal.Cat.26.2 <br> E àquele, contudo, não faltavam ardil ou astúcia para se prevenir. <small> [JDD] </small> </small> </p>
+; <p> Nil spernat auris , <b>nec</b> tamen credat statim . <br> <small> Phaed.3.10 <br> Que o ouvido nada despreze, mas que não creia de imediato. <small> [JDD] </small> </small> </p>
+; <p> intellego Quirites a uobis hanc sententiam repudiari <b>neque</b> iniuria <br> <small> Cic.Phil.6.3.9 <br> Entendo, Quirites, que essa decisão é rechaçada por vós, e não sem razão. <small> [JDD] </small> </small> </p>
+; <p> <b>neque</b> uero illum similiter atque ipse eram commotum esse uidi <br> <small> Cic.Phil.1.9.8 <br> E, na verdade, não o vi abalado como eu próprio estava. <small> [JDD] </small> </small> </p>
+; <p> Ille se torquet diu <b>Nec</b> quaestionis positae causam intellegit . <br> <small> Phaed.3.14 <br> Aquele se esforça durante muito tempo e não entende a causa da questão posta. <small> [JDD] </small> </small> </p>
+; <p> hoc <b>neque</b> ipse transire habebat in animo <b>neque</b> hostes transituros existimabat <br> <small> Caes.Gal.6.7.5 <br> Nem ele próprio tinha a intenção de atravessá-lo nem achava que os inimigos o atravessariam. <small> [JDD] </small> </small> </p>
+; <p> <b>neque</b> enim ex te umquam es nobilitatus sed ex lateribus et lacertis tuis <br> <small> Cic.Sen.27 <br> Pois não foste celebrizado nunca por ti mesmo, mas por meio de teus pulmões e de teus músculos. <small> [JDD] </small> </small> </p>
+; <p> <b>neque</b> uero illud me commouet quod sibi in Lupercis sodalem esse Caelium dixit <br> <small> Cic.Cael.26 <br> E realmente não me impressiona o fato de ele ter dito que Célio era seu companheiro entre os Lupercos. <small> [JDD] </small> </small> </p>
+; <p> infert se saeptus nebula mirabile dictu per medios miscetque uiris <b>neque</b> cernitur ulli <br> <small> Verg.A.1.439 <br> Envolvido pela névoa (coisa admirável de dizer) ele se transporta pelo meio das pessoas e se mistura aos homens e não é visto por ninguém. <small> [JDD] </small> </small> </p>
+; <p> una domus erat idem uictus isque communis <b>neque</b> solum militia sed etiam peregrinationes rusticationesque communes <br> <small> Cic.Amici.103 <br> a casa era uma só, o alimento, o mesmo e esse, comum, e não só o serviço militar, mas também as viagens e as temporadas no campo, comuns. <small> [JDD] </small> </small> </p>
+; <p> <b>neque</b> enim Tarquinio expulso maioribus nostris tam fuit optata libertas quam est depulso Antonio retinenda nobis <br> <small> Cic.Phil.3.8.12 <br> Pois nem, após expulsar Tarquínio, a liberdade foi tão desejada pelo nossos antepassados quanto deve ser mantida por nós após rechaçar Antônio. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quod ego longe secus existimo iudices deque eo pauca disseram <b>neque</b> enim causa in hoc continetur <br> <small> Cic.Mur.31 <br> Quanto a isso, juízes, eu tenho uma opinião muito diferente e acerca disso falarei poucas coisas, pois a causa não está contida nisso. <small> [JDD] </small> </small> </p>
+; <p> erat omnibus molestum <b>neque</b> eos tam istius hominis perditi subita laetitia quam hominis amplissimi noua gratulatio commouebat <br> <small> Cic.Ver.1.21 <br> 21 Era penoso para todos e não os abalava tanto a súbita alegria desse homem perdido como a inusitada felicitação de um homem tão importante. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-101-113-117-101xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 84.41 and an absolute frequency of 91. The Caesar subcorpus follows, with a normalized frequency of 62.69 and an absolute frequency of 166. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 166 ; absolute frequency: 62.6935569151749. subcorpus: Cicero ; normalized frequency: 328 ; absolute frequency: 20.4330816575715. subcorpus: Horatius ; normalized frequency: 42 ; absolute frequency: 37.2968652872747. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 17 ; absolute frequency: 25.8084105055412. subcorpus: Sallustius ; normalized frequency: 91 ; absolute frequency: 84.4077543827103. subcorpus: Seneca ; normalized frequency: 17 ; absolute frequency: 3.17276646572479. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 8 ; absolute frequency: 27.4630964641263. subcorpus: Vergilius ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-101-113-117-101xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 64.75 and an absolute frequency of 266. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 266 ; absolute frequency: 64.7532802648555. subcorpus: Prosa.filosófica ; normalized frequency: 50 ; absolute frequency: 8.23709658819459. subcorpus: Prosa.oratória ; normalized frequency: 294 ; absolute frequency: 28.2277034746959. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 42 ; absolute frequency: 35.332716412888. subcorpus: Poesia.didática ; normalized frequency: 17 ; absolute frequency: 14.4202222410722. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-101-113-117-101xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 29.46 and an absolute frequency of 633. The I.d.C. subcorpus follows, with a normalized frequency of 5.2 and an absolute frequency of 34. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 633 ; absolute frequency: 29.4624156388178. subcorpus: I.d.C. ; normalized frequency: 34 ; absolute frequency: 5.20116261281934. subcorpus: II.d.C. ; normalized frequency: 9 ; absolute frequency: 23.5602094240838. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

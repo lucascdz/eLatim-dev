@@ -1,0 +1,214 @@
+---
+title: "placeo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-108-97-99-101-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>placĕō</b> <b>-és</b> <b>-ére</b> <b>-cùí, -cìtum</b> <br> <small>v. intr.</small> <br> <small>Obs.: Constrói-se com dat.: com or. inf.: com ut: ou com absoluto. O perf. placìtum est ocorre em Cícero Verr. 4. 4.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Agradar a, ser agradável &ensp; <small>Cíc. Q. Fr. 3. 1. 13: Cíc. De Or. 2. 15: Cic. Of. 2, 57.</small> <br> <b>2</b> &ensp; <small>Impess.</small> &ensp; Aprazer, agradar &ensp; <small>Cés.B. Gal. 3, 3, 4: Plaut. Capt. 454.</small> </p> 
+ <b>placŭī</b> <br> <small>perf. de placèo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Placeo</b> -<b>es</b> -<b>ui</b> -<b>itum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; agradar, contentar, parecer bem. </p>
+
+
+
+
+#### Velez
+
+<b>Placeo</b> -<b>es</b> <br> <small>1. b.</small>   <p> <b>1</b> &ensp; agradar &ensp; <small>alicui:</small> <br> <b>2</b> &ensp; <small>ponitur etiam Placet, ebat, in tertiis personis sing. pro Videtur</small> &ensp; parece <br> <b>3</b> &ensp; <small>in praet. placuit, vel placitum est</small> &ensp; pareceo </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>placere sibi &ensp; <small>jactar-se, gloriar-se, sentir de si altamente</small> <br> tu tibi places, ille sibi </p>
+
+
+
+
+#### Cardoso
+
+<b>Placeo</b> -<b>es</b> -<b>cui</b>   <p> <b>1</b> &ensp; contentar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/118010 ' target="_blank"> http://lila-erc.eu/data/id/lemma/118010 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> placeo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> placere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> placebit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> placui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> placitum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> placiturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+plăcĕō 
+ plăcēs 
+ plăcēre 
+ plăcŭī 
+ plăcitum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-108-97-99-101-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-108-97-99-101-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword placeo here are all the values plotted: collocate: fio; scoreSUBST: 0. collocate: igitur; scoreSUBST: 0. collocate: magis; scoreSUBST: 0. collocate: tu; scoreSUBST: 0. collocate: senatus; scoreSUBST: 2. collocate: ita; scoreSUBST: 0. collocate: si; scoreSUBST: 0. collocate: non; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-108-97-99-101-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword placeo here are all the values plotted: collocate: fio; scoreADJ: 0. collocate: igitur; scoreADJ: 0. collocate: magis; scoreADJ: 0. collocate: tu; scoreADJ: 0. collocate: senatus; scoreADJ: 0. collocate: ita; scoreADJ: 0. collocate: si; scoreADJ: 0. collocate: non; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-108-97-99-101-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword placeo here are all the values plotted: collocate: fio; scoreVERBO: 2. collocate: igitur; scoreVERBO: 0. collocate: magis; scoreVERBO: 0. collocate: tu; scoreVERBO: 0. collocate: senatus; scoreVERBO: 0. collocate: ita; scoreVERBO: 0. collocate: si; scoreVERBO: 0. collocate: non; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-108-97-99-101-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword placeo here are all the values plotted: collocate: fio; scoreADV: 0. collocate: igitur; scoreADV: 2. collocate: magis; scoreADV: 2. collocate: tu; scoreADV: 0. collocate: senatus; scoreADV: 0. collocate: ita; scoreADV: 2. collocate: si; scoreADV: 0. collocate: non; scoreADV: 1'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-108-97-99-101-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword placeo here are all the values plotted: collocate: fio; scoreFUNC: 0. collocate: igitur; scoreFUNC: 0. collocate: magis; scoreFUNC: 0. collocate: tu; scoreFUNC: 0. collocate: senatus; scoreFUNC: 0. collocate: ita; scoreFUNC: 0. collocate: si; scoreFUNC: 20. collocate: non; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> decernatur tamen si <b>placet</b> <br> <small> Cic.Catil.4.7.19 <br> Decrete-se, contudo, se parece bem. <small> [JDD] </small> </small> </p>
+; <p> sed si ita <b>placuit</b> laudemus <br> <small> Cic.Att.2.1.10 <br> Mas se assim agradou, louvemos. <small> [JDD] </small> </small> </p>
+; <p> <b>placet</b> igitur eos dimitti et augeri exercitum Catilinae <br> <small> Sal.Cat.51.43 <br> Me agrada então que eles sejam mandados embora e aumentem o exército de Catilina? <small> [JDD] </small> </small> </p>
+; <p> nunc si iam res <b>placeat</b> agendi tamen viam non video <br> <small> Cic.Att.5.4.1 <br> Agora, se a coisa já me parece bem, não vejo, contudo, um meio de atuar. <small> [JDD] </small> </small> </p>
+; <p> ita fato <b>placuit</b> nullius rei eodem semper loco stare fortunam <br> <small> Sen.Helv.7.10 <br> Assim agradou ao destino que a sorte de coisa alguma ficasse sempre no mesmo lugar. <small> [JDD] </small> </small> </p>
+; <p> onus animi deponendum est non ante tibi ullus <b>placebit</b> locus <br> <small> Sen.Ep.28.2 <br> O peso do espírito precisa ser descarregado: antes disso nenhum lugar te agradará. <small> [JDD] </small> </small> </p>
+; <p> indiciis expositis atque editis Quirites senatum consului de summa re publica quid fieri <b>placeret</b> <br> <small> Cic.Catil.3.13.7 <br> Uma vez expostos e tornados públicos os indícios, Quirites, consultei o senado o que era de seu agrado ser feito a respeito de toda a república. <small> [JDD] </small> </small> </p>
+; <p> si in eo quod ostenderat non stat mihi maxime <b>placet</b> ea quae male empta sunt reddi si voluntate Pomponiae fieri poterit <br> <small> Cic.Att.2.4.1 <br> Se não se mantém naquilo que tinha proposto, me agrada muitíssimo que sejam devolvidas essas coisas que foram mal compradas, se isso puder ser pela vontade de Pompônia. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-108-97-99-101-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Ovidius subcorpus registers the highest normalized frequency, with the value of 17.16 and an absolute frequency of 10. The Suetonius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 61 ; absolute frequency: 3.80005482046298. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 10 ; absolute frequency: 17.1585449553878. subcorpus: Phaedrus ; normalized frequency: 6 ; absolute frequency: 9.10885076666161. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 41 ; absolute frequency: 7.65196618204214. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-108-97-99-101-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.didática subcorpus registers the highest normalized frequency, with the value of 9.33 and an absolute frequency of 11. The Poesia.lírica subcorpus follows, with a normalized frequency of 8.41 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 1.93 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 9 ; absolute frequency: 2.1909004600891. subcorpus: Prosa.filosófica ; normalized frequency: 42 ; absolute frequency: 6.91916113408346. subcorpus: Prosa.oratória ; normalized frequency: 25 ; absolute frequency: 2.40031492131768. subcorpus: Prosa.epistolográfica ; normalized frequency: 30 ; absolute frequency: 7.94933623042476. subcorpus: Poesia.lírica ; normalized frequency: 10 ; absolute frequency: 8.4125515268781. subcorpus: Poesia.didática ; normalized frequency: 11 ; absolute frequency: 9.33073203834083. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-108-97-99-101-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 7.95 and an absolute frequency of 52. The I.d.C. subcorpus follows, with a normalized frequency of 7.95 and an absolute frequency of 52. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 78 ; absolute frequency: 3.63043984175006. subcorpus: I.d.C. ; normalized frequency: 52 ; absolute frequency: 7.95471929019428. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

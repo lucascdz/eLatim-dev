@@ -1,0 +1,203 @@
+---
+title: "amplus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-109-112-108-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>amplus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Amplo, largo, espaçoso, vasto, importante &ensp; <small>Cíc. Of. 1, 139; Cíc. Of, 1, 139; Cíc. Verr. 4, 96.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Magnífico, suntuoso &ensp; <small>referindo-se a coisas Cíc. Mur. 37.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado</small> &ensp; Ilustre, importante, nobre &ensp; <small>referindo-se a pessoas Cíc. Amer. 102.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado</small> &ensp; Fecundo, sublime &ensp; <small>referindo-se ao estilo Cíc. Or. 97.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Amplus</b> -<b>a</b> -<b>um</b> -<b>plior</b> -<b>plissimus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; amplo, vasto, espaçoso. <br> <b>2</b> &ensp; illustre, consideravel. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Amplus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa larga </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/88785 ' target="_blank"> http://lila-erc.eu/data/id/lemma/88785 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-109-112-108-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-109-112-108-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword amplus here are all the values plotted: collocate: honor; scoreSUBST: 3. collocate: uir; scoreSUBST: 3. collocate: ordo; scoreSUBST: 2. collocate: uerbum; scoreSUBST: 2. collocate: nihil; scoreSUBST: 0. collocate: qua; scoreSUBST: 0. collocate: homo; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-109-112-108-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword amplus here are all the values plotted: collocate: honor; scoreADJ: 0. collocate: uir; scoreADJ: 0. collocate: ordo; scoreADJ: 0. collocate: uerbum; scoreADJ: 0. collocate: nihil; scoreADJ: 0. collocate: qua; scoreADJ: 0. collocate: homo; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-109-112-108-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword amplus here are all the values plotted: collocate: honor; scoreVERBO: 0. collocate: uir; scoreVERBO: 0. collocate: ordo; scoreVERBO: 0. collocate: uerbum; scoreVERBO: 0. collocate: nihil; scoreVERBO: 0. collocate: qua; scoreVERBO: 0. collocate: homo; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-109-112-108-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword amplus here are all the values plotted: collocate: honor; scoreADV: 0. collocate: uir; scoreADV: 0. collocate: ordo; scoreADV: 0. collocate: uerbum; scoreADV: 0. collocate: nihil; scoreADV: 0. collocate: qua; scoreADV: 2. collocate: homo; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-109-112-108-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword amplus here are all the values plotted: collocate: honor; scoreFUNC: 0. collocate: uir; scoreFUNC: 0. collocate: ordo; scoreFUNC: 0. collocate: uerbum; scoreFUNC: 0. collocate: nihil; scoreFUNC: 0. collocate: qua; scoreFUNC: 0. collocate: homo; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> conuenerunt conrogati et quidem <b>ampli</b> quidam homines sed immemores dignitatis suae <br> <small> Cic.Phil.3.20.7 <br> Reuniram-se os convidados, homens alguns certamente notáveis, mas esquecidos de sua dignidade. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> esse autem illis intellectum ex eo apparet quod nihil <b>amplius</b> si intellexerint facient <br> <small> Sen.Ep.121.19 <br> Mas que existe neles o entendimento se vê pelo fato de que, se entenderem, não farão nada mais. <small> [JDD] </small> </small> </p>
+; <p> deinceps laudatur prouincia Gallia meritoque ornatur uerbis <b>amplissimis</b> ab senatu quod resistat Antonio <br> <small> Cic.Phil.4.9.1 <br> Em seguida a província da Gália é elogiada e é merecidamente honrada pelo senado com as mais enfáticas palavras, por resistir a Antônio. <small> [JDD] </small> </small> </p>
+; <p> <b>amplis</b> enim innutritus opibus honores et adeptus est facile et egregie administrauit . <br> <small> Suet.Aug.2.3.1 <br> com efeito, criado em meio a amplas riquezas, obteve facilmente cargos público e os administrou admiravelmente. <small> [JDD] </small> </small> </p>
+; <p> cessit auctoritati <b>amplissimi</b> uiri uel potius paruit una est profectus cum eis quorum erat una causa <br> <small> Cic.Lig.22 <br> Cedeu, ou melhor, obedeceu à autoridade de um destacadíssimo varão. Partiu ao mesmo tempo que aqueles cuja causa era a mesma. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> erat omnibus molestum neque eos tam istius hominis perditi subita laetitia quam hominis <b>amplissimi</b> noua gratulatio commouebat <br> <small> Cic.Ver.1.21 <br> 21 Era penoso para todos e não os abalava tanto a súbita alegria desse homem perdido como a inusitada felicitação de um homem tão importante. <small> [JDD] </small> </small> </p>
+; <p> manu uero cur miserit si id potius quaeris quam cur parum <b>amplis</b> adfecerit praemiis nescis inimici factum reprehendere <br> <small> Cic.Mil.57 <br> Mas se queres saber por que lhes concedeu a liberdade em vez de por que os gratificou com recompensas pouco consideráveis, não sabes criticar a atuação de um inimigo. <small> [JDD] </small> </small> </p>
+; <p> L. Pisonis <b>amplissimi</b> uiri praeclara uox a te non solum in hoc ordine Pansa sed etiam in contione iure laudata est <br> <small> Cic.Phil.12.14.6 <br> Por ti, Pansa, foi elogiada com razão, não só neste congresso, mas também numa assembléia do povo, a ilustre fala do magnífico homem Lúcio Pisão. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-109-112-108-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 44.1 and an absolute frequency of 4. The Cicero subcorpus follows, with a normalized frequency of 4.8 and an absolute frequency of 77. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 5 ; absolute frequency: 1.88836014804744. subcorpus: Cicero ; normalized frequency: 77 ; absolute frequency: 4.79679051107623. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 7 ; absolute frequency: 1.30643325059256. subcorpus: Suetonius ; normalized frequency: 4 ; absolute frequency: 44.1014332965821. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-109-112-108-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 6.53 and an absolute frequency of 68. The Prosa.histórica subcorpus follows, with a normalized frequency of 2.92 and an absolute frequency of 12. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 12 ; absolute frequency: 2.92120061345213. subcorpus: Prosa.filosófica ; normalized frequency: 11 ; absolute frequency: 1.81216124940281. subcorpus: Prosa.oratória ; normalized frequency: 68 ; absolute frequency: 6.52885658598408. subcorpus: Prosa.epistolográfica ; normalized frequency: 5 ; absolute frequency: 1.32488937173746. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-109-112-108-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 10.47 and an absolute frequency of 4. The I.a.C. subcorpus follows, with a normalized frequency of 4.05 and an absolute frequency of 87. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 87 ; absolute frequency: 4.04933674656737. subcorpus: I.d.C. ; normalized frequency: 7 ; absolute frequency: 1.07082759675692. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

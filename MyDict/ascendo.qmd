@@ -1,0 +1,207 @@
+---
+title: "ascendo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-115-99-101-110-100-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>ascēndi</b> <br> <b>adscēndī</b> <br> <small>perf. de ascéndó.</small> <br> <small></small> 
+ <b>ascēndō</b> <b>-is</b> <b>-ère</b> <b>ascéndí, ascénsum</b> <br> <b>adscēndō</b> <b>-is</b> <b>-ère</b> <b>ascéndí, ascénsum</b> <br> <small>v. tr. e intr.</small> <br> <small>Obs.: Constrói-se como tr. e intr. com as preps. in ou ad.</small>   <p> <b>1</b> &ensp; <small>A-Intr.-Sent. próprio:</small> &ensp; Subir, fazer subir, trepar, montar: &ensp; <small></small> <br> <b>2</b> &ensp; <small>A-Intr.-Daí. em sent. figurado:</small> &ensp; Elevar-se, crescer: &ensp; <small></small> <br> <b>3</b> &ensp; <small>B-Tr.-Sent. próprio:</small> &ensp; Escalar, montar, chegar a. &ensp; <small>Cés. B. Gal. 7, 27, 2.</small> <br> <b>4</b> &ensp; <small>B-Tr.-Sent. figurado:</small> &ensp; Fazer subir. subir: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>in Capitolium ascendere Cíc. De Or. 2, 195 «subir ao Capitólio». <br> <br><b>2</b><br>ad regium nomen ascendere Cíc. Dej. 27 «elevar-se ao título de rei» <br> <br><b>4</b><br>summum locum civitatis ascendere Cíc. Mur. 55 «fazer subir ao posto mais alto da nação» . </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Ascendo</b> -<b>is</b> -<b>di</b> -<b>sum</b> -<b>dere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; subir. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>ascendere equum &ensp; <small><small>Liv</small></small> &ensp; <small>Montar a cavallo</small> <br> ascendere in equum &ensp; <small><small>Liv</small></small> &ensp; <small>Montar a cavallo</small> </p>
+
+
+
+
+#### Velez
+
+<b>Ascendo</b> -<b>is</b>   <p> <b>1</b> &ensp; subir </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>ascendere equum, uel in equum <br> <br><b>X</b><br>ascendere in concionem, uel in Rostra &ensp; <small>subir ao pulpito, ou á cadeia para orar</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Ascendo</b> <b>is</b> -<b>di</b> <b>sum</b>   <p> <b>1</b> &ensp; subir arriba </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/90185 ' target="_blank"> http://lila-erc.eu/data/id/lemma/90185 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small> adscendo <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> adscendo, ascendo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> adscendere, ascendere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> adscendet, ascendet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> adscendidi, adscendi, ascendidi, ascendi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> adscensum, ascensum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> adscensurum, ascensurum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+ascendō 
+ ascendĕre 
+ ascendī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-115-99-101-110-100-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-115-99-101-110-100-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ascendo here are all the values plotted: collocate: nauis; scoreSUBST: 3. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-115-99-101-110-100-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ascendo here are all the values plotted: collocate: nauis; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-115-99-101-110-100-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ascendo here are all the values plotted: collocate: nauis; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-115-99-101-110-100-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ascendo here are all the values plotted: collocate: nauis; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-115-99-101-110-100-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ascendo here are all the values plotted: collocate: nauis; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> non uides quam diuersus sit descendentium habitus et <b>ascendentium</b> <br> <small> Sen.Ep.123.14 <br> Não vês quão diferente é a postura dos que descem e dos que sobem?[*] <small>  </small> </small> </p>
+; <p> et <b>ascendentes</b> in navi abierunt in desertum locum seorsum <br> <small> Vulg.Marc.6.32 <br> E, subindo na barca, foram sozinhos para um lugar deserto. <small> [JDD] </small> </small> </p>
+; <p> et <b>ascendit</b> ad illos in navem et cessavit ventus <br> <small> Vulg.Marc.6.51 <br> E subiu até eles na barca e o vento cessou. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-115-99-101-110-100-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 24.71 and an absolute frequency of 11. The Vergilius subcorpus follows, with a normalized frequency of 1.93 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 7 ; absolute frequency: 0.436071864643293. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 3 ; absolute frequency: 0.559899964539669. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 11 ; absolute frequency: 24.7135475174118'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-115-99-101-110-100-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 24.71 and an absolute frequency of 11. The Poesia.épica subcorpus follows, with a normalized frequency of 1.93 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 4 ; absolute frequency: 0.973733537817376. subcorpus: Prosa.filosófica ; normalized frequency: 5 ; absolute frequency: 0.823709658819459. subcorpus: Prosa.oratória ; normalized frequency: 4 ; absolute frequency: 0.384050387410828. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 11 ; absolute frequency: 24.7135475174118'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-115-99-101-110-100-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 24.71 and an absolute frequency of 11. The I.a.C. subcorpus follows, with a normalized frequency of 0.56 and an absolute frequency of 12. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 12 ; absolute frequency: 0.558529206423086. subcorpus: I.d.C. ; normalized frequency: 3 ; absolute frequency: 0.458926112895824. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 11 ; absolute frequency: 24.7135475174118'}
+
+
+:::
+

@@ -1,0 +1,198 @@
+---
+title: "templum"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx116-101-109-112-108-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>templum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. primitivo língua augural:</small> &ensp; Quadrado delimitado pelo áugure no céu e na terra no interior do qual toma e interpreta os presságios; &ensp; <small></small> <br> <b>2</b> &ensp; <small>I-daí:</small> &ensp; Terreno consagrado pelos áugures  &ensp; <small>T. Lív. 1, 6, 4.</small> <br> <b>3</b> &ensp; <small>I-Por extensão:</small> &ensp; O céu, vasto espaço, a superfície do mar, as regiões infernais, espaço que a vista abarca, recinto &ensp; <small>Cíc. Rep. 6, 15.</small> <br> <b>4</b> &ensp; <small>II-Sent. particular:</small> &ensp; Espaço consagrado aos deuses, templo, santuário &ensp; <small>Cíc. Verr. 4, 94.</small> <br> <b>5</b> &ensp; <small>II-Sent. particular:</small> &ensp; Cúria, senado, tribuna dos oradores &ensp; <small>T. Lív. 1, 30, 2.</small> <br> <b>6</b> &ensp; <small>II-Sent. particular:</small> &ensp; Tribunal &ensp; <small>T. Lív. 23, 10, 5.</small> <br> <b>7</b> &ensp; <small>II-Sent. particular:</small> &ensp; Asilo &ensp; <small>de uma divindade T. Lív. 2, 1, 4.</small> <br> <b>8</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Recesso, santuário &ensp; <small>Cíc. Mil. 90.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Templum</b> -<b>i</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; templo, Igreja, lugar consagrado. <br> <b>2</b> &ensp; <small>Varr.</small> &ensp; espaço de terra descoberta, onde os agoureiros contemplavaõ o voo das aves depois de o haver consagrado com certas palavras. <br> <b>3</b> &ensp; <small>Cic.</small> &ensp; lugar consagrado pelos agoureiros para se ajuntar o Senado. <br> <b>4</b> &ensp; <small>Vitr. no plur.</small> &ensp; traves menores que se atravessaõ sobre as asnas no madeiramento do telhado. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>templa linguae &ensp; <small><small>Lucr</small></small> &ensp; <small>Lugar da lingua</small> <br> templa mentis &ensp; <small><small>Lucr</small></small> &ensp; <small>Segredos do interior</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Templum</b> <b>i</b>   <p> <b>1</b> &ensp; ho ceo. ou ygreja </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/127783 ' target="_blank"> http://lila-erc.eu/data/id/lemma/127783 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> templom, tempulom, tempulum <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+templī
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx116-101-109-112-108-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword templum here are all the values plotted: collocate: deus; scoreSUBST: 3. collocate: urbs; scoreSUBST: 2. collocate: atque; scoreSUBST: 0. collocate: suus; scoreSUBST: 0. collocate: hic; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx116-101-109-112-108-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword templum here are all the values plotted: collocate: deus; scoreADJ: 0. collocate: urbs; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: hic; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx116-101-109-112-108-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword templum here are all the values plotted: collocate: deus; scoreVERBO: 0. collocate: urbs; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: hic; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx116-101-109-112-108-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword templum here are all the values plotted: collocate: deus; scoreADV: 0. collocate: urbs; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: hic; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx116-101-109-112-108-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword templum here are all the values plotted: collocate: deus; scoreFUNC: 0. collocate: urbs; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: hic; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> an <b>templa</b> deos super usta suos <br> <small> Sen.Ag.653 <br> ou os templos queimados sobre seus deuses? <small> [JDD] </small> </small> </p>
+; <p> Decimus quidem Brutus summus uir et imperator Acci amicissimi sui carminibus <b>templorum</b> ac monumentorum aditus exornauit suorum <br> <small> Cic.Arch.27 <br> Décimo Bruto, grande homem e general, adornou as entradas dos templos e de seus monumentos com versos de Ácio, amicíssimo seu. <small> [JDD] </small> </small> </p>
+; <p> ad hoc <b>templum</b> cum esset iste Agrigenti duce Timarchide repente nocte intempesta seruorum armatorum fit concursus atque impetus <br> <small> Cic.Ver.2.4.94.8 <br> A esse templo, quando esse sujeito estava em Agrigento, ocorre de repente, na calada da noite, uma corrida em massa e um ataque de escravos armados sob o comando de Trimárquides. <small> [JDD] </small> </small> </p>
+; <p> operae pretium est cum domos atque uillas cognoueris in urbium modum exaedificatas uisere <b>templa</b> deorum quae nostri maiores religiosissumi mortales fecere <br> <small> Sal.Cat.12.3 <br> Vale a pena, quando tiveres conhecido as mansões e as casas de campo, construídas à maneira das cidades, ver os templos dos deuses, que os nossos antepassados, mortais muito religiosos, fizeram. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nunc iam aperte rem publicam uniuersam petis <b>templa</b> deorum immortalium tecta urbis uitam omnium ciuium Italiam totam ad exitium et uastitatem uocas <br> <small> Cic.Catil.1.12.1 <br> Agora já atacas abertamente a república toda; os templos dos deuses imortais, os tetos da cidade, a vida de todos os cidadãos, a Itália inteira arrastas para a ruína e destruição. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx116-101-109-112-108-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 15.44 and an absolute frequency of 8. The Ovidius subcorpus follows, with a normalized frequency of 5.15 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 55 ; absolute frequency: 3.42627893648302. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 7 ; absolute frequency: 1.30643325059256. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 8 ; absolute frequency: 15.4440154440154. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx116-101-109-112-108-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 15.44 and an absolute frequency of 8. The Prosa.oratória subcorpus follows, with a normalized frequency of 5.18 and an absolute frequency of 54. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 1 ; absolute frequency: 0.243433384454344. subcorpus: Prosa.filosófica ; normalized frequency: 4 ; absolute frequency: 0.658967727055567. subcorpus: Prosa.oratória ; normalized frequency: 54 ; absolute frequency: 5.18468023004618. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 8 ; absolute frequency: 15.4440154440154. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx116-101-109-112-108-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 3.03 and an absolute frequency of 65. The I.a.C. subcorpus follows, with a normalized frequency of 3.03 and an absolute frequency of 65. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 65 ; absolute frequency: 3.02536653479172. subcorpus: I.d.C. ; normalized frequency: 10 ; absolute frequency: 1.52975370965275. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

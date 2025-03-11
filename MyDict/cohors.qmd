@@ -1,0 +1,201 @@
+---
+title: "cohors"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-111-104-111-114-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>cohors</b> <b>-tis</b> <br> <small>subs. f.</small> <br> <small>Obs.: O nom. chors aparece em Marcial 7, 54, 7; e o gen. pl. cohortium, em César B. Gal. 2, 25, 1; Salústio . B. Jug. 46, 7; e T. Lívio 10, 19, 20.</small>   <p> <b>1</b> &ensp; <small>I-Sent. rural</small> &ensp; Cerrado, pátio para gado ou instrumentos agrícolas, curral &ensp; <small>Ov. F. 4, 704.</small> <br> <b>2</b> &ensp; <small>II-Sent. militar</small> &ensp; Coorte, divisão ou parte do acampamento, tropas acantonadas nessa divisão, coorte &ensp; <small>décima parte da legião romana Cés. B. Gal. 3, 1, 4.</small> <br> <b>3</b> &ensp; <small>II-Daí:</small> &ensp; Tropa auxiliar &ensp; <small>Sal. B. Jug. 46, 7.</small> <br> <b>4</b> &ensp; <small>III-Na língua comum:</small> &ensp; Grupo, multidão, cortejo &ensp; <small>Suet. Cal. 19, 2; A. Gél. 2, 18, 1.</small> <br> <b>5</b> &ensp; <small>III-Na língua comum:</small> &ensp; Comitiva de um magistrado enviado para uma província &ensp; <small>Cíc. Cat. 10, 10.</small> <br> <b>6</b> &ensp; <small>III-Na língua comum:</small> &ensp; Exército &ensp; <small>Estác. Thep. 5, 672.</small> <br> <b>7</b> &ensp; <small>III-Na língua comum:</small> &ensp; Com nomes de animais para formar coletivos: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>7</b><br>cohors canum Plín. H. Nat. 8, 143 “matilha”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Cohors</b> -<b>ortis</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Col.</small> &ensp; gallinheiro, capoeira. <br> <b>2</b> &ensp; <small>Varr.</small> &ensp; curral de gado. <br> <b>3</b> &ensp; <small>Cic.</small> &ensp; esquadrão de soldados de pé. <br> <b>4</b> &ensp; <small>Hor.</small> &ensp; congregação, assemblea de quaesquer homens. </p> 
+ <b>Cors</b> <br> <small>v. Cohors.</small>
+
+
+
+
+#### Velez
+
+<b>Cohors</b> -<b>tis</b>   <p> <b>1</b> &ensp; o esquadraõ de guerra &ensp; <small>Et propriè est peditum</small> <br> <b>2</b> &ensp; qualquer ajuntamento, ou acompanhamento de gente <br> <b>3</b> &ensp; <small>dicitur & Cohors, seu Cors pro avium septo</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>turma equitum <br> <br><b>2</b><br>amicorum, & c </p>
+
+
+
+
+#### Cardoso
+
+<b>Cohors</b> <b>ortis</b>   <p> <b>1</b> &ensp; o esquadrão de guerra </p> 
+ <b>Cohors</b> <b>ortis</b> 
+ <b>cors</b> <b>ortis</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/94751 ' target="_blank"> http://lila-erc.eu/data/id/lemma/94751 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> chors, cors <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+cŏhors 
+ cŏhortis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-111-104-111-114-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-111-104-111-114-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword cohors here are all the values plotted: collocate: praetorius; scoreSUBST: 0. collocate: duo; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-111-104-111-114-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword cohors here are all the values plotted: collocate: praetorius; scoreADJ: 3. collocate: duo; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-111-104-111-114-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword cohors here are all the values plotted: collocate: praetorius; scoreVERBO: 0. collocate: duo; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-111-104-111-114-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword cohors here are all the values plotted: collocate: praetorius; scoreADV: 0. collocate: duo; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-111-104-111-114-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword cohors here are all the values plotted: collocate: praetorius; scoreFUNC: 0. collocate: duo; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> o bellum magno opere pertimescendum cum hanc sit habiturus Catilina scortorum <b>cohortem</b> praetoriam <br> <small> Cic.Catil.2.24.1 <br> Ó guerra que deve ser muitíssimo temida, visto que Catilina terá esta coorte pretoriana de prostituras! <small> [JDD] </small> </small> </p>
+; <p> cum hic in duas partes flumine diuideretur alteram partem eius uici Gallis ad hiemandum concessit alteram uacuam ab his relictam <b>cohortibus</b> attribuit <br> <small> Caes.Gal.3.1.6 <br> Como ele fosse dividido em duas partes por um rio, uma parte desse vilarejo concedeu aos gauleses para passarem o inverno, a outra, deixada vazia por estes, destinou às suas coortes. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-111-104-111-114-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 7.93 and an absolute frequency of 21. The Phaedrus subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 21 ; absolute frequency: 7.93111262179923. subcorpus: Cicero ; normalized frequency: 11 ; absolute frequency: 0.685255787296604. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 6 ; absolute frequency: 5.56534644281607. subcorpus: Seneca ; normalized frequency: 3 ; absolute frequency: 0.559899964539669. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-111-104-111-114-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 6.82 and an absolute frequency of 28. The Poesia.didática subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 28 ; absolute frequency: 6.81613476472163. subcorpus: Prosa.filosófica ; normalized frequency: 1 ; absolute frequency: 0.164741931763892. subcorpus: Prosa.oratória ; normalized frequency: 9 ; absolute frequency: 0.864113371674364. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-111-104-111-114-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 2.62 and an absolute frequency of 1. The I.a.C. subcorpus follows, with a normalized frequency of 1.86 and an absolute frequency of 40. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 40 ; absolute frequency: 1.86176402141029. subcorpus: I.d.C. ; normalized frequency: 3 ; absolute frequency: 0.458926112895824. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

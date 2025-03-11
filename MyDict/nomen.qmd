@@ -1,0 +1,217 @@
+---
+title: "nomen"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-111-109-101-110xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>nōmen</b> <b>-ìnis</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Nome dado a uma pessoa ou a uma coisa, palavra, termo, expressão &ensp; <small>Cíc. Verr. 4, 59.</small> <br> <b>2</b> &ensp; <small>II-Sent. particular</small> &ensp; Nome de família, nome próprio, prenome, sobrenome, título &ensp; <small>Cíc. Caec. 27; Cés. B. Civ. 2, 32, 14.</small> <br> <b>3</b> &ensp; <small>II-Sent. particular</small> &ensp; Nome de um povo, raça ou nação &ensp; <small>Cíc. Phil. 3, 29.</small> <br> <b>4</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Renome, celebridade, reputação, glória &ensp; <small>Cíc. Verr. 4, 68.</small> <br> <b>5</b> &ensp; <small>III-Na língua jurídica:</small> &ensp; Nome de um réu, nome de um devedor, nome de um credor &ensp; <small>Cíc. Amer. 64.</small> <br> <b>6</b> &ensp; <small>III-Na língua jurídica:</small> &ensp; Título de crédito, título de dívida, dinheiro empregado, crédito, dívida, devedor &ensp; <small>C íc. Verr. 1, 28.</small> <br> <b>7</b> &ensp; <small>III-No abl.:</small> &ensp; Por causa de, em nome de: &ensp; <small></small> <br> <b>8</b> &ensp; <small>III-No abl.:</small> &ensp; Sob pretexto de, sob a aparência de, a título de &ensp; <small>Sal. C. Cal. 38, 3.</small> <br> <b>9</b> &ensp; <small>III-No abl.:</small> &ensp; Em nome de &ensp; <small>Cíc. At. 1, 16, 16.</small> <br> <b>10</b> &ensp; <small>III-No abl.:</small> &ensp; Nome, crédito &ensp; <small>Cíc. Fam. 5, 6, 2.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>7</b><br>amicitiae nostrae nomine Cíc. Fam. 12, 12,3 “em nome de nossa amizade”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Nomen</b> -<b>inis</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; nome. <br> <b>2</b> &ensp; reputação, fama, credito. <br> <b>3</b> &ensp; pretexto, causa, razão, motivo. <br> <b>4</b> &ensp; devedor. <br> <b>5</b> &ensp; divida. <br> <b>6</b> &ensp; articulo de huma conta, ou de huma memoria. <br> <b>7</b> &ensp; <small>Quinct.</small> &ensp; nome substantivo, ou adjectivo. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>bonum nomen existimari &ensp; <small><small>Cic</small></small> &ensp; <small>Ser reputado por bom pagador</small> <br> multis nominibus &ensp; <small><small>Ovid</small></small> &ensp; <small>Por muitas razões</small> <br> nomina facere &ensp; <small><small>Cic</small></small> &ensp; <small>Endividar-se</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Nomen</b> <b>inis</b>   <p> <b>1</b> &ensp; ho nome. ou a diuida </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/113797 ' target="_blank"> http://lila-erc.eu/data/id/lemma/113797 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+nōmĕn 
+ nōmĭnis 
+ nōmĭne
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx110-111-109-101-110xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-111-109-101-110xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword nomen here are all the values plotted: collocate: defero; scoreSUBST: 0. collocate: meus; scoreSUBST: 0. collocate: artifex; scoreSUBST: 2. collocate: romanus; scoreSUBST: 0. collocate: exstinguo; scoreSUBST: 0. collocate: regius; scoreSUBST: 0. collocate: suus; scoreSUBST: 0. collocate: noster; scoreSUBST: 0. collocate: gens; scoreSUBST: 2. collocate: appello; scoreSUBST: 0. collocate: populus; scoreSUBST: 2. collocate: pax; scoreSUBST: 2. collocate: honor; scoreSUBST: 2. collocate: tollo; scoreSUBST: 0. collocate: audio; scoreSUBST: 0. collocate: imperium; scoreSUBST: 2. collocate: Caesar; scoreSUBST: 0. collocate: tuus; scoreSUBST: 0. collocate: quantus; scoreSUBST: 0. collocate: do; scoreSUBST: 0. collocate: atque; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-111-109-101-110xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword nomen here are all the values plotted: collocate: defero; scoreADJ: 0. collocate: meus; scoreADJ: 0. collocate: artifex; scoreADJ: 0. collocate: romanus; scoreADJ: 2. collocate: exstinguo; scoreADJ: 0. collocate: regius; scoreADJ: 2. collocate: suus; scoreADJ: 0. collocate: noster; scoreADJ: 0. collocate: gens; scoreADJ: 0. collocate: appello; scoreADJ: 0. collocate: populus; scoreADJ: 0. collocate: pax; scoreADJ: 0. collocate: honor; scoreADJ: 0. collocate: tollo; scoreADJ: 0. collocate: audio; scoreADJ: 0. collocate: imperium; scoreADJ: 0. collocate: Caesar; scoreADJ: 0. collocate: tuus; scoreADJ: 0. collocate: quantus; scoreADJ: 0. collocate: do; scoreADJ: 0. collocate: atque; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-111-109-101-110xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword nomen here are all the values plotted: collocate: defero; scoreVERBO: 2. collocate: meus; scoreVERBO: 0. collocate: artifex; scoreVERBO: 0. collocate: romanus; scoreVERBO: 0. collocate: exstinguo; scoreVERBO: 2. collocate: regius; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: noster; scoreVERBO: 0. collocate: gens; scoreVERBO: 0. collocate: appello; scoreVERBO: 2. collocate: populus; scoreVERBO: 0. collocate: pax; scoreVERBO: 0. collocate: honor; scoreVERBO: 0. collocate: tollo; scoreVERBO: 2. collocate: audio; scoreVERBO: 2. collocate: imperium; scoreVERBO: 0. collocate: Caesar; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0. collocate: quantus; scoreVERBO: 0. collocate: do; scoreVERBO: 2. collocate: atque; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-111-109-101-110xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword nomen here are all the values plotted: collocate: defero; scoreADV: 0. collocate: meus; scoreADV: 0. collocate: artifex; scoreADV: 0. collocate: romanus; scoreADV: 0. collocate: exstinguo; scoreADV: 0. collocate: regius; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: noster; scoreADV: 0. collocate: gens; scoreADV: 0. collocate: appello; scoreADV: 0. collocate: populus; scoreADV: 0. collocate: pax; scoreADV: 0. collocate: honor; scoreADV: 0. collocate: tollo; scoreADV: 0. collocate: audio; scoreADV: 0. collocate: imperium; scoreADV: 0. collocate: Caesar; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: quantus; scoreADV: 0. collocate: do; scoreADV: 0. collocate: atque; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-111-109-101-110xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword nomen here are all the values plotted: collocate: defero; scoreFUNC: 0. collocate: meus; scoreFUNC: 0. collocate: artifex; scoreFUNC: 0. collocate: romanus; scoreFUNC: 0. collocate: exstinguo; scoreFUNC: 0. collocate: regius; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: noster; scoreFUNC: 0. collocate: gens; scoreFUNC: 0. collocate: appello; scoreFUNC: 0. collocate: populus; scoreFUNC: 0. collocate: pax; scoreFUNC: 0. collocate: honor; scoreFUNC: 0. collocate: tollo; scoreFUNC: 0. collocate: audio; scoreFUNC: 0. collocate: imperium; scoreFUNC: 0. collocate: Caesar; scoreFUNC: 0. collocate: tuus; scoreFUNC: 0. collocate: quantus; scoreFUNC: 0. collocate: do; scoreFUNC: 0. collocate: atque; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>nomen</b> audivi numquam <br> <small> Cic.Att.5.20.1 <br> “Nunca ouvi esse nome.” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> imperium legitumum <b>nomen</b> imperi regium habebant <br> <small> Sal.Cat.6.6 <br> Tinham um poder legítimo, régio era o nome desse poder. <small> [JDD] </small> </small> </p>
+; <p> erat in Syria nostrum <b>nomen</b> in gratia <br> <small> Cic.Att.5.20.3 <br> Meu nome estava em prestígio na Síria. <small> [JDD] </small> </small> </p>
+; <p> nimirum ut hic <b>nomen</b> suum comprobauit sic ille cognomen <br> <small> Cic.Ver.2.4.57.7 <br> Sem dúvida, assim como este comprovou o seu nome, assim também aquele comprovou seu cognome. <small> [JDD] </small> </small> </p>
+; <p> ubi denique est in ista suspicione Caeli <b>nomen</b> auditum <br> <small> Cic.Cael.15 <br> Onde, afinal, o nome de Célio foi ouvido nessa suspeita? <small> [JDD] </small> </small> </p>
+; <p> Antonio tuo <b>nomine</b> gratias egi eamque epistulam Mallio dedi <br> <small> Cic.Att.1.16.16 <br> Agradeci a Antônio em teu nome e entreguei a carta a Málio <small> [JDD, de outra edição] </small> </small> </p>
+; <p> de Atiliano <b>nomine</b> scripsi ad Philotimum ne appellaret Messallam <br> <small> Cic.Att.5.19.1 <br> Quanto à dívida de Atílio, escrevi a Filótimo que não recorresse a Messala. <small> [JDD] </small> </small> </p>
+; <p> forata ferro gesseras uestigia tumore nactus <b>nomen</b> ac uitio pedum <br> <small> Sen.Oed.812 <br> Levavas as solas dos pés furadas por um ferro, adquiriste teu nomo devido a esse inchaço e defeito nos pés. <small> [JDD] </small> </small> </p>
+; <p> num quis denique fecisset mentionem si hic nullius <b>nomen</b> detulisset <br> <small> Cic.Cael.56 <br> Enfim, acaso alguém teria feito menção a ele, se ele não tivesse delatado o nome de ninguém? <small> [JDD] </small> </small> </p>
+; <p> nec ego pacem nolo sed pacis <b>nomine</b> bellum inuolutum reformido <br> <small> Cic.Phil.7.19.1 <br> Não é que eu não quero a paz, mas tenho muito medo da guerra velada sob o nome da paz. <small> [JDD] </small> </small> </p>
+; <p> si id non fecissent longe his fraternum <b>nomen</b> populi Romani afuturum <br> <small> Caes.Gal.1.36.5 <br> que, se nãofizessem isso, o título de irmãos do povo romano iria ser inútil para eles. <small> [JDD] </small> </small> </p>
+; <p> his igitur omnibus uictoriam sperantibus pacis <b>nomen</b> adferemus id est desperationem uictoriae <br> <small> Cic.Phil.12.10.9 <br> Portanto, a todos esses que esperam a vitória, vamos oferecer o nome da paz, isto é, renúncia à esperança da vitória? <small> [JDD] </small> </small> </p>
+; <p> hoc <b>nomine</b> satis honestas pro meo casu spes relicuae dignitatis conseruandae sum secutus <br> <small> Sal.Cat.35.4 <br> Por esse motivo, segui as esperanças, bastante honrosas em minha desgraça, de conservar o que resta de minha dignidade. <small> [JDD] </small> </small> </p>
+; <p> omnia tu Deiotaro Caesar tribuisti cum et ipsi et filio <b>nomen</b> regium concessisti <br> <small> Cic.Deiot.36 <br> Tu, César, atribuíste tudo a Dejótaro, quando concedeste a ele próprio e a seu filho o título de rei. <small> [JDD] </small> </small> </p>
+; <p> ingenium cui sit cui mens diuinior atque os magna sonaturum des <b>nominis</b> huius honorem <br> <small> Hor.S.1.4.43 <br> Que dês a honra desse nome àquele que tem talento, que tem uma mente mais divina e uma boca capaz de entoar grandes cantos. <small> [JDD] </small> </small> </p>
+; <p> nisi forte eos qui diadema imposuerint conseruandos eos qui regni <b>nomen</b> sustulerint deserendos putatis <br> <small> Cic.Phil.10.7.3 <br> A não ser que acaso julgais que aqueles que colocaram o diadema devem ser conservados e aqueles que aboliram o nome de rei devem ser abandonados. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> iuuat me haec praeclara <b>nomina</b> artificum quae isti ad caelum ferunt Uerris aestimatione sic concidisse <br> <small> Cic.Ver.2.4.12.9 <br> Agrada-me que estes ilustres nomes de artistas, que esses elevam até o céu, tenham caído desse modo na avaliação de Verres. <small> [JDD] </small> </small> </p>
+; <p> uiri quantas pecunias ab uxoribus dotis <b>nomine</b> acceperunt tantas ex suis bonis aestimatione facta cum dotibus communicant <br> <small> Caes.Gal.6.19.1 <br> Os homens, depois de feito o cálculo, põem juntamente com os dotes tanto dinheiro tirado de seus bens quanto receberam das esposas a título de dote. <small> [JDD] </small> </small> </p>
+; <p> inde lupae fuluo nutricis tegmine laetus Romulus excipiet gentem et Mauortia condet moenia Romanosque suo de <b>nomine</b> dicet <br> <small> Verg.A.1.275 <br> Daí, Rômulo, contente com a ruiva pele da loba nutriz, acolherá a nação e fundará os muros de Marte e de seu nome dirá os romanos. <small> [JDD] </small> </small> </p>
+; <p> Sic , cum manus inpia saevit sanguine Caesareo Romanum exstinguere <b>nomen</b> , attonitum tanto subitae terrore ruinae humanum genus est totusque perhorruit orbis : <br> <small> Ov.Met.1.200-4 <br> assim, quando um punhado de homens ímpios tramou extinguir o nome romano com o sangue de César, o gênero humano fica atônito com o subito terror de uma tão grande catástrofe e todo o orbe se horrorizou. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-111-109-101-110xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 22.05 and an absolute frequency of 2. The Tacitus subcorpus follows, with a normalized frequency of 6.87 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 4.55 and an absolute freqeuncy of 3. here are all the values: subcorpus: Caesar ; normalized frequency: 13 ; absolute frequency: 4.90973638492333. subcorpus: Cicero ; normalized frequency: 180 ; absolute frequency: 11.213276519399. subcorpus: Horatius ; normalized frequency: 10 ; absolute frequency: 8.88020602077968. subcorpus: Ovidius ; normalized frequency: 8 ; absolute frequency: 13.7268359643102. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 8 ; absolute frequency: 7.42046192375475. subcorpus: Seneca ; normalized frequency: 40 ; absolute frequency: 7.46533286052892. subcorpus: Suetonius ; normalized frequency: 2 ; absolute frequency: 22.0507166482911. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 8 ; absolute frequency: 15.4440154440154. subcorpus: Hieronymus ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-111-109-101-110xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 15.44 and an absolute frequency of 8. The Prosa.oratória subcorpus follows, with a normalized frequency of 14.69 and an absolute frequency of 153. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 5.56 and an absolute freqeuncy of 21. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 25 ; absolute frequency: 6.0858346113586. subcorpus: Prosa.filosófica ; normalized frequency: 35 ; absolute frequency: 5.76596761173622. subcorpus: Prosa.oratória ; normalized frequency: 153 ; absolute frequency: 14.6899273184642. subcorpus: Prosa.epistolográfica ; normalized frequency: 21 ; absolute frequency: 5.56453536129733. subcorpus: Poesia.lírica ; normalized frequency: 10 ; absolute frequency: 8.4125515268781. subcorpus: Poesia.didática ; normalized frequency: 11 ; absolute frequency: 9.33073203834083. subcorpus: Poesia.trágica ; normalized frequency: 11 ; absolute frequency: 9.55524669909659. subcorpus: Poesia.épica ; normalized frequency: 8 ; absolute frequency: 15.4440154440154. subcorpus: Prosa.ficcional ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-111-109-101-110xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 13.48 and an absolute frequency of 6. The II.d.C. subcorpus follows, with a normalized frequency of 10.47 and an absolute frequency of 4. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 7.8 and an absolute freqeuncy of 51. here are all the values: subcorpus: I.a.C. ; normalized frequency: 219 ; absolute frequency: 10.1931580172213. subcorpus: I.d.C. ; normalized frequency: 51 ; absolute frequency: 7.801743919229. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+:::
+

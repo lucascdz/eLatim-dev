@@ -1,0 +1,216 @@
+---
+title: "uita"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-105-116-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>vīta</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Vida &ensp; <small>em oposição a mors Tác. An. 2, 88.</small> <br> <b>2</b> &ensp; <small>II-Sent figurado</small> &ensp; Maneira de viver, subsistência, recursos &ensp; <small>Plaut. Trin. 477.</small> <br> <b>3</b> &ensp; <small>II-Sent figurado</small> &ensp; A vida, realidade &ensp; <small>Cíc. Tusc. 4, 45.</small> <br> <b>4</b> &ensp; <small>II-Sent figurado</small> &ensp; Pessoa querida, objeto querido &ensp; <small>Cíc. Fam. 14, 2, 3.</small> <br> <b>5</b> &ensp; <small>II-Sent figurado</small> &ensp; A vida, a humanidade &ensp; <small>Tib. 2, 1, 37.</small> <br> <b>6</b> &ensp; <small>II-Sent figurado</small> &ensp; Modo de vida, condição, estado, vida &ensp; <small>Cíc. Amer. 48.</small> <br> <b>7</b> &ensp; <small>II-Sent figurado</small> &ensp; Vida, biografia, história &ensp; <small>C. Nep. pref. 8.</small> <br> <b>8</b> &ensp; <small>II-Sent figurado</small> &ensp; Almas, sombras &ensp; <small>dos mortos Verg. En. 6, 292.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Vita</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; vida. <br> <b>2</b> &ensp; <small>Virg.</small> &ensp; alma. <br> <b>3</b> &ensp; <small>Plaut.</small> &ensp; alimento, sustento. <br> <b>4</b> &ensp; <small>Cic.</small> &ensp; modo de vida. <br> <b>5</b> &ensp; <small>Ter.</small> &ensp; procedimento, costumes. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Vita</b> -<b>ae</b>   <p> <b>1</b> &ensp; a vida </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/130393 ' target="_blank"> http://lila-erc.eu/data/id/lemma/130393 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a-) <br>
+<small> outras grafias: </small> bita, ueita <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+vīta
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx117-105-116-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-105-116-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword uita here are all the values plotted: collocate: beatus; scoreSUBST: 0. collocate: nex; scoreSUBST: 2. collocate: ago; scoreSUBST: 0. collocate: communis; scoreSUBST: 0. collocate: periculum; scoreSUBST: 2. collocate: suus; scoreSUBST: 0. collocate: tuus; scoreSUBST: 0. collocate: ex; scoreSUBST: 0. collocate: amitto; scoreSUBST: 0. collocate: inter; scoreSUBST: 0. collocate: tum; scoreSUBST: 0. collocate: libertas; scoreSUBST: 2. collocate: iste; scoreSUBST: 0. collocate: pro; scoreSUBST: 0. collocate: reliquus; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-105-116-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword uita here are all the values plotted: collocate: beatus; scoreADJ: 3. collocate: nex; scoreADJ: 0. collocate: ago; scoreADJ: 0. collocate: communis; scoreADJ: 2. collocate: periculum; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: tuus; scoreADJ: 0. collocate: ex; scoreADJ: 0. collocate: amitto; scoreADJ: 0. collocate: inter; scoreADJ: 0. collocate: tum; scoreADJ: 0. collocate: libertas; scoreADJ: 0. collocate: iste; scoreADJ: 0. collocate: pro; scoreADJ: 0. collocate: reliquus; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-105-116-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword uita here are all the values plotted: collocate: beatus; scoreVERBO: 0. collocate: nex; scoreVERBO: 0. collocate: ago; scoreVERBO: 2. collocate: communis; scoreVERBO: 0. collocate: periculum; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0. collocate: ex; scoreVERBO: 0. collocate: amitto; scoreVERBO: 2. collocate: inter; scoreVERBO: 0. collocate: tum; scoreVERBO: 0. collocate: libertas; scoreVERBO: 0. collocate: iste; scoreVERBO: 0. collocate: pro; scoreVERBO: 0. collocate: reliquus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-105-116-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword uita here are all the values plotted: collocate: beatus; scoreADV: 0. collocate: nex; scoreADV: 0. collocate: ago; scoreADV: 0. collocate: communis; scoreADV: 0. collocate: periculum; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: ex; scoreADV: 0. collocate: amitto; scoreADV: 0. collocate: inter; scoreADV: 0. collocate: tum; scoreADV: 2. collocate: libertas; scoreADV: 0. collocate: iste; scoreADV: 0. collocate: pro; scoreADV: 0. collocate: reliquus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-105-116-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword uita here are all the values plotted: collocate: beatus; scoreFUNC: 0. collocate: nex; scoreFUNC: 0. collocate: ago; scoreFUNC: 0. collocate: communis; scoreFUNC: 0. collocate: periculum; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: tuus; scoreFUNC: 0. collocate: ex; scoreFUNC: 20. collocate: amitto; scoreFUNC: 0. collocate: inter; scoreFUNC: 20. collocate: tum; scoreFUNC: 0. collocate: libertas; scoreFUNC: 0. collocate: iste; scoreFUNC: 0. collocate: pro; scoreFUNC: 20. collocate: reliquus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ut uidua loquere uir caret <b>uita</b> tuus <br> <small> Sen.Ag.963 <br> Fala como uma viúva: teu marido está sem vida. <small> [JDD] </small> </small> </p>
+; <p> nunc uero quae tua est ista <b>uita</b> <br> <small> Cic.Catil.1.16.4 <br> Mas agora, que vida é essa tua? <small> [JDD] </small> </small> </p>
+; <p> ita pro mortali condicione <b>uitae</b> immortalitatem estis consecuti <br> <small> Cic.Phil.14.33.14 <br> Assim em troca da condição mortal da vida alcançastes a imortalidade. <small> [JDD] </small> </small> </p>
+; <p> erras Lucili ex hac <b>uita</b> ad illam ascenditur <br> <small> Sen.Ep.21.2 <br> Estás equivocado, Lucílio: desta vida se ascende àquela. <small> [JDD] </small> </small> </p>
+; <p> ex quo illorum beata mors uidetur horum <b>uita</b> laudabilis <br> <small> Cic.Amici.23 <br> Em vista disso, a morte daqueles parece feliz, a vida destes, louvável. <small> [JDD] </small> </small> </p>
+; <p> suam innocentiam perpetua <b>uita</b> felicitatem Heluetiorum bello esse perspectam <br> <small> Caes.Gal.1.40.13 <br> Que sua integridade foi demonstrada por sua vida inteira, e sua felicidade, pela guerra dos helvécios. <small> [JDD] </small> </small> </p>
+; <p> ita dico quisquis <b>uitam</b> suam contempsit tuae dominus est <br> <small> Sen.Ep.4.8 <br> É o que digo: qualquer um que desprezou a própria vida é dono da tua. <small> [JDD] </small> </small> </p>
+; <p> nihil fortunatius est Catulo cum splendore <b>vitae</b> tum tempore <br> <small> Cic.Att.2.24.4 <br> Para mim, não há nada mais afortunado que Cátulo, tanto no esplendor de sua vida, quato neste momento. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> praeterea luxuriosi <b>uitam</b> suam esse in sermonibus dum uiuunt uolunt <br> <small> Sen.Ep.122.14 <br> Além disso, os lascivos querem que sua vida esteja nas conversas, enquanto estão vivendo. <small> [JDD] </small> </small> </p>
+; <p> causa tamen praecipua mihi uidetur huius morbi <b>uitae</b> communis fastidium <br> <small> Sen.Ep.122.18 <br> Contudo a causa principal dessa doença me parece ser o fastio da vida ordinária. <small> [JDD] </small> </small> </p>
+; <p> censeo aut ex ista <b>uita</b> tibi aut e <b>uita</b> exeundum <br> <small> Sen.Ep.22.3 <br> penso que deves sair dessa vida ou da vida. <small> [JDD] </small> </small> </p>
+; <p> illi libertatem imminutam ciuium Romanorum non tulerunt uos ereptam <b>uitam</b> neglegetis <br> <small> Cic.Man.11 <br> Aqueles não toleraram que a liberdade dos cidadãos romanos fosse destruída; vós não fazeis caso de que a vida desses seja tirada? <small> [JDD] </small> </small> </p>
+; <p> illa erat <b>uita</b> illa secunda fortuna libertate esse parem ceteris principem dignitate <br> <small> Cic.Phil.1.34.6 <br> Esta era a sua vida, esta, a sua próspera fortuna: ser igual aos demais em liberdade, o primeiro em dignidade. <small> [JDD] </small> </small> </p>
+; <p> agamus deo gratias quod nemo in <b>uita</b> teneri potest calcare ipsas necessitates licet <br> <small> Sen.Ep.12.10 <br> Agradeçamos ao deus por ninguém poder ser retido na vida: é permitido pisar as próprias necessidades. <small> [JDD] </small> </small> </p>
+; <p> uariatur cotidie iudicium et in contrarium uertitur ac plerisque agitur <b>uita</b> per lusum <br> <small> Sen.Ep.20.6 <br> muda-se diariamente o julgamento e passa-se para o contrário e a maioria leva a vida por jogo. <small> [JDD] </small> </small> </p>
+; <p> ut potestas maior absit nemo non seruus habet in te <b>uitae</b> necisque arbitrium <br> <small> Sen.Ep.4.8 <br> mesmo que não exista um poder maior, qualquer escravo tem sobre ti o arbítrio de vida e de morte. <small> [JDD] </small> </small> </p>
+; <p> plerique inter mortis metum et <b>uitae</b> tormenta miseri fluctuantur et uiuere nolunt mori nesciunt <br> <small> Sen.Ep.4.5 <br> A maioria flutua infeliz entre o medo da morte e as tormentas da vida e não querem viver, não sabem morrer. <small> [JDD] </small> </small> </p>
+; <p> Sed ille , qui oculos centum habet , si venerit , Magno in periclo <b>vita</b> vertetur tua . <br> <small> Phaed.2.8 <br> mas se vier aquele que tem cem olhos, tua vida estará em grande perigo”. <small> [JDD] </small> </small> </p>
+; <p> at qui tantuli eget quanto est opus is neque limo turbatam haurit aquam neque <b>uitam</b> amittit in undis <br> <small> Hor.S.1.1.59 <br> Mas aquele que deseja só o tanto que é necessário, não bebe água suja de barro nem perde a vida nas ondas. <small> [JDD] </small> </small> </p>
+; <p> ne ne emori per uirtutem praestat quam <b>uitam</b> miseram atque inhonestam ubi alienae superbiae ludibrio fueris per dedecus amittere <br> <small> Sal.Cat.20.9 <br> Não vale mais morrer pela virtude do que perder pela desonra uma vida infeliz e desonrada, depois de terres sido objeto de escárnio da soberba alheia? <small> [JDD] </small> </small> </p>
+; <p> itaque cum meus me maeror cotidianus lacerat et conficit tum vero haec addita cura vix mihi <b>vitam</b> reliquam facit <br> <small> Cic.Att.3.8.2 <br> Assim tanto o meu sofrimento diário me lacera e me consome, quanto esta nova preocupação quase não me deixa viver. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-105-116-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 27.06 and an absolute frequency of 145. The Phaedrus subcorpus follows, with a normalized frequency of 15.18 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 13 ; absolute frequency: 4.90973638492333. subcorpus: Cicero ; normalized frequency: 218 ; absolute frequency: 13.5805237846054. subcorpus: Horatius ; normalized frequency: 11 ; absolute frequency: 9.76822662285765. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 10 ; absolute frequency: 15.181417944436. subcorpus: Sallustius ; normalized frequency: 16 ; absolute frequency: 14.8409238475095. subcorpus: Seneca ; normalized frequency: 145 ; absolute frequency: 27.0618316194173. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-105-116-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 31.3 and an absolute frequency of 190. The Prosa.filosófica subcorpus follows, with a normalized frequency of 31.3 and an absolute frequency of 190. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 31 ; absolute frequency: 7.54643491808467. subcorpus: Prosa.filosófica ; normalized frequency: 190 ; absolute frequency: 31.3009670351395. subcorpus: Prosa.oratória ; normalized frequency: 146 ; absolute frequency: 14.0178391404952. subcorpus: Prosa.epistolográfica ; normalized frequency: 19 ; absolute frequency: 5.03457961260235. subcorpus: Poesia.lírica ; normalized frequency: 11 ; absolute frequency: 9.25380667956591. subcorpus: Poesia.didática ; normalized frequency: 12 ; absolute frequency: 10.1789804054627. subcorpus: Poesia.trágica ; normalized frequency: 8 ; absolute frequency: 6.94927032661571. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-105-116-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 24.02 and an absolute frequency of 157. The I.a.C. subcorpus follows, with a normalized frequency of 12.01 and an absolute frequency of 258. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 258 ; absolute frequency: 12.0083779380963. subcorpus: I.d.C. ; normalized frequency: 157 ; absolute frequency: 24.0171332415481. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

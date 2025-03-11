@@ -1,0 +1,207 @@
+---
+title: "numquam"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-117-109-113-117-97-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>numquam</b> <br> <small>adv.</small> <br> <small>Obs.: Nunquam non: «sempre» Cíc. De Or. 1, 112.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Jamais, nunca &ensp; <small>Cíc. Sest. 132.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Absolutamente &ensp; <small>Verg. Buc. 3, 49.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Nunquam</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; nunca. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>non nunquam &ensp; <small><small>Cic</small></small> &ensp; <small>Algumas vezes</small> <br> nunquam non &ensp; <small><small>Cic</small></small> &ensp; <small>Sempre</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Nunquam</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; em nenhũ tempo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/114084 ' target="_blank"> http://lila-erc.eu/data/id/lemma/114084 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> nunquam <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-117-109-113-117-97-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword numquam here are all the values plotted: collocate: profecto; scoreSUBST: 0. collocate: enim; scoreSUBST: 0. collocate: uideo; scoreSUBST: 0. collocate: tamen; scoreSUBST: 0. collocate: legatus; scoreSUBST: 2. collocate: quia; scoreSUBST: 0. collocate: littera; scoreSUBST: 2. collocate: quidem; scoreSUBST: 0. collocate: non; scoreSUBST: 0. collocate: sui; scoreSUBST: 0. collocate: qui; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-117-109-113-117-97-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword numquam here are all the values plotted: collocate: profecto; scoreADJ: 0. collocate: enim; scoreADJ: 0. collocate: uideo; scoreADJ: 0. collocate: tamen; scoreADJ: 0. collocate: legatus; scoreADJ: 0. collocate: quia; scoreADJ: 0. collocate: littera; scoreADJ: 0. collocate: quidem; scoreADJ: 0. collocate: non; scoreADJ: 0. collocate: sui; scoreADJ: 0. collocate: qui; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-117-109-113-117-97-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword numquam here are all the values plotted: collocate: profecto; scoreVERBO: 0. collocate: enim; scoreVERBO: 0. collocate: uideo; scoreVERBO: 2. collocate: tamen; scoreVERBO: 0. collocate: legatus; scoreVERBO: 0. collocate: quia; scoreVERBO: 0. collocate: littera; scoreVERBO: 0. collocate: quidem; scoreVERBO: 0. collocate: non; scoreVERBO: 0. collocate: sui; scoreVERBO: 0. collocate: qui; scoreVERBO: 0. collocate: sum; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-117-109-113-117-97-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword numquam here are all the values plotted: collocate: profecto; scoreADV: 2. collocate: enim; scoreADV: 2. collocate: uideo; scoreADV: 0. collocate: tamen; scoreADV: 2. collocate: legatus; scoreADV: 0. collocate: quia; scoreADV: 0. collocate: littera; scoreADV: 0. collocate: quidem; scoreADV: 2. collocate: non; scoreADV: 2. collocate: sui; scoreADV: 0. collocate: qui; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-117-109-113-117-97-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword numquam here are all the values plotted: collocate: profecto; scoreFUNC: 0. collocate: enim; scoreFUNC: 0. collocate: uideo; scoreFUNC: 0. collocate: tamen; scoreFUNC: 0. collocate: legatus; scoreFUNC: 0. collocate: quia; scoreFUNC: 20. collocate: littera; scoreFUNC: 0. collocate: quidem; scoreFUNC: 0. collocate: non; scoreFUNC: 0. collocate: sui; scoreFUNC: 0. collocate: qui; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>numquam</b> sic vidimus <br> <small> Vulg.Marc.2.12 <br> Nunca vimos nada assim. <small> [JDD] </small> </small> </p>
+; <p> multum profecit <b>numquam</b> erit solus <br> <small> Sen.Ep.6.7 <br> Melhorou muito: nunca estará sozinho. <small> [JDD] </small> </small> </p>
+; <p> sine amico quidem <b>numquam</b> erit <br> <small> Sen.Ep.9.5 <br> Sem amigo na verdade ele nunca estará. <small> [JDD] </small> </small> </p>
+; <p> <b>Numquam</b> est fidelis cum potente societas : <br> <small> Phaed.1.5 <br> Nunca é de confiança a sociedade com um poderoso. <small> [JDD] </small> </small> </p>
+; <p> armis enim gesta <b>numquam</b> profecto in iudicium uocabuntur <br> <small> Cic.Phil.1.21.6 <br> Pois as coisas feitas pelas armas nunca, sem dúvida, serão chamadas em juízo. <small> [JDD] </small> </small> </p>
+; <p> tu tamen mortem ut <b>numquam</b> timeas semper cogita <br> <small> Sen.Ep.30.18 <br> Tu, contudo, pensa sempre na morte para que nunca a temas. <small> [JDD] </small> </small> </p>
+; <p> <b>numquam</b> inquit uoluisset id quidem sed si uoluisset paruissem <br> <small> Cic.Amici.37 <br> “Nunca”, diz, “por certo ele teria querido isso; mas se tivesse querido, eu teria obedecido.” <small> [JDD] </small> </small> </p>
+; <p> me tuae litterae <b>numquam</b> in tantam spem adduxerunt quantam aliorum <br> <small> Cic.Att.3.19.2 <br> Tuas cartas nunca me levaram a tanta esperança como a dos outros. <small> [JDD] </small> </small> </p>
+; <p> quod nisi idem in amicitiam transferetur uerus amicus <b>numquam</b> reperietur <br> <small> Cic.Amici.80 <br> Se isso mesmo não for transferido para a amizade, o verdadeiro amigo nunca será encontrado. <small> [JDD] </small> </small> </p>
+; <p> quamquam solent domestici deprauare non <b>numquam</b> sed noui firmitatem tuam <br> <small> Cic.Phil.1.33.6 <br> Embora algumas vezes os de casa costumam perverter; mas eu conheço a tua firmeza. <small> [JDD] </small> </small> </p>
+; <p> licet itaque augeatis census promoueatis fines <b>numquam</b> tamen corpora uestra laxabitis <br> <small> Sen.Helv.10.6 <br> E assim, ainda que aumenteis vossas posses, estendais vossos limites, nunca, contudo, alargareis vossos corpos. <small> [JDD] </small> </small> </p>
+; <p> tum se Milo continuit et P. Clodium in iudicium bis ad uim <b>numquam</b> uocauit <br> <small> Cic.Mil.40 <br> Então Milão se conteve e chamou duas veze Públio Clódio a julgamento, nunca à violência. <small> [JDD] </small> </small> </p>
+; <p> erant Menapii propinqui Eburonum finibus perpetuis paludibus siluisque muniti qui uni ex Gallia de pace ad Caesarem legatos <b>numquam</b> miserant <br> <small> Caes.Gal.6.5.4 <br> Havia os menápios, próximos aos limites dos eburões, defendidos por perpétuos pântanos e florestas, que eram os únicos da Gália que nunca tinham enviado legados a César acerca da paz. <small> [JDD] </small> </small> </p>
+; <p> sed quia <b>numquam</b> accidit ut cum eo verbo uno concertarem et quia scripta mihi videtur neglegentius quam ceterae puto posse probari non esse meam <br> <small> Cic.Att.3.12.2 <br> Mas como nunca me aconteceu de trocar uma única palavra agressiva com ele e como o discurso me parece mais descuidado do que os demais, acho que pode ser provado não ser meu. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-117-109-113-117-97-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 13.44 and an absolute frequency of 72. The Cicero subcorpus follows, with a normalized frequency of 10.34 and an absolute frequency of 166. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 166 ; absolute frequency: 10.3411327901124. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 72 ; absolute frequency: 13.4375991489521. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-117-109-113-117-97-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 15.98 and an absolute frequency of 97. The Prosa.filosófica subcorpus follows, with a normalized frequency of 15.98 and an absolute frequency of 97. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 5 ; absolute frequency: 1.21716692227172. subcorpus: Prosa.filosófica ; normalized frequency: 97 ; absolute frequency: 15.9799673810975. subcorpus: Prosa.oratória ; normalized frequency: 116 ; absolute frequency: 11.137461234914. subcorpus: Prosa.epistolográfica ; normalized frequency: 20 ; absolute frequency: 5.29955748694984. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-117-109-113-117-97-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 11.63 and an absolute frequency of 76. The I.a.C. subcorpus follows, with a normalized frequency of 8.24 and an absolute frequency of 177. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 177 ; absolute frequency: 8.23830579474052. subcorpus: I.d.C. ; normalized frequency: 76 ; absolute frequency: 11.6261281933609. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

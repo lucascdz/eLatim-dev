@@ -1,0 +1,263 @@
+---
+title: "dico"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-105-99-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>dīc</b> <br> <small>imperativo de díco 2.</small> <br> <small></small> 
+ <b>dixe</b> <br> <small>= dixísse, forma sincopada do inf. perf. de díco.</small> <br> <small></small> 
+ <b>dīxī</b> <br> <small>perf. de díco.</small> <br> <small></small> 
+ <b>dixis</b> <b>dixti</b> <br> <small>= dixeris, dixisti.</small> <br> <small></small> 
+ <small>2.</small> <b>dīcō</b> <b>-is</b> <b>-ère</b> <b>díxí, díctum</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói-se com acus.; com acus. e inf.; com dat. Na passiva impess. constrói-se com nom. e inf. Formas arcaicas: imper. dice Plaut. Capt. 359; subj. dixis Plaut. Aul. 744; info dicier Plaut. Cist. 83.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Dizer com um caráter solene e técnico, pois que se trata de um vocábulo da língua religiosa e jurídica, afirmar, expor,pronunciar, falar em tom solene e ameaçador &ensp; <small>Cíc. Fin. 2, 85; Cíc. De Or. 3, 213; Cíc. Fam. 3, 8, 5; Cíc. Dom. 70.</small> <br> <b>2</b> &ensp; <small>II-Outros sentidos</small> &ensp; Criar, eleger, nomear: &ensp; <small></small> <br> <b>3</b> &ensp; <small>II-Outros sentidos</small> &ensp; Chamar, denominar, designar &ensp; <small>Cíc Ac. 1, 17.</small> <br> <b>4</b> &ensp; <small>II-Outros sentidos</small> &ensp; Cantar, celebrar &ensp; <small>Hor. O. 1, 21, 1.</small> <br> <b>5</b> &ensp; <small>II-Outros sentidos</small> &ensp; Fixar, determinar, regular &ensp; <small>Cés. B. Gal. 1, 41, 4; Cés. B. Gal. 1, 42, 3.</small> <br> <b>6</b> &ensp; <small>II-Outros sentidos</small> &ensp; Advertir, notificar, avisar &ensp; <small>Cíc. Arch. 8.</small> <br> <b>7</b> &ensp; <small>II-Outros sentidos</small> &ensp; Por enfraquecimento de sentido: falar, dizer &ensp; <small>Cíc. Or. 153; Cíc. Cael. 28.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>consules dicere T. Lív. 26, 22, 9 nomear os cônsules. </p>
+
+
+
+
+#### Saraiva
+
+<b>Dĭco</b> -<b>ĭs</b> -<b>xī</b> -<b>ctŭm</b> -<b>cĕrĕ</b> <br> <small>v. trans.</small>   <p> <b>1</b> &ensp; dizer; <br> <b>2</b> &ensp; affirmar; <br> <b>3</b> &ensp; dizer, exprimir, recitar; <br> <b>3</b> &ensp; fallar em publico; <br> <b>3</b> &ensp; manejar a palavra; <br> <b>4</b> &ensp; descrever, expôr, contar, referir, compôr, annunciar, predizer; <br> <b>5</b> &ensp; pronunciar; <br> <b>6</b> &ensp; chamar, appellidar; <br> <b>7</b> &ensp; nomear, eleger, elevar a uma dignidade; <br> <b>8</b> &ensp; assignar, determinar, fixar, regular; <br> <b>9</b> &ensp; advertir, avisar ameaçando, dar a saber, notificar; <br> <b>10</b> &ensp; entender, querer dizer, ter intenção de; <br> <b>11</b> &ensp; alistar-se, assentar praça. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>dicere mendacium &ensp; <small><small>Plaut</small></small> &ensp; <small>Mentir</small> <br> dicere sacramentum &ensp; <small><small>Hor</small></small> &ensp; <small>Dar um juramento</small> <br> dices &ensp; <small><small>Cic</small></small> &ensp; <small>dir-me-hás</small> <br> dicet aliquis &ensp; <small><small>Cic. Sall</small></small> &ensp; <small>Dirá alguém, dir-me-hão, objectar-me-hão</small> <br> dicito aduenisse &ensp; <small><small>Plaut</small></small> &ensp; <small>Vae dizer que elle chegou</small> <br> dicitur uenturus &ensp; <small><small>Plaut</small></small> &ensp; <small>Diz-se que ele pediu</small> <br> dictum est habitasse… &ensp; <small><small>Ter</small></small> &ensp; <small>Disse-se que elle habitára…</small> <br> ille quem dixi &ensp; <small><small>Cic</small></small> &ensp; <small>Aquelle de quem fallei</small> <br> mirum dictu &ensp; <small><small>Plin</small></small> &ensp; <small>Coisa admirável, espantosa</small> <br> ut ita dicam &ensp; <small><small>Petr</small></small> &ensp; <small>Sen</small> <br> ut sic dicam &ensp; <small><small>Cic</small></small> &ensp; <small>Por assim dizer, digamo-lo assim</small> <br> <br><b>2</b><br>dicebant, ego negabam &ensp; <small><small>Cic</small></small> &ensp; <small>Elles afirmavam, eu negava</small> <br> eumdem esse dicis &ensp; <small><small>Cic</small></small> &ensp; <small>Dizes, affirmas que é o mesmo</small> <br> <br><b>3</b><br>causam haud dico &ensp; <small><small>Ter</small></small> &ensp; <small>Não tenho coisa alguma a dizer, a responder</small> <br> causam nullam dico &ensp; <small><small>Plaut</small></small> &ensp; <small>Não tenho coisa alguma a dizer, a responder</small> <br> dicere &ensp; <small><small>Plin. J</small></small> &ensp; <small>Apresentar, expôr a sua opinião</small> <br> dicere &ensp; <small><small>Cic</small></small> &ensp; <small>Advogar uma causa</small> <br> dicere ad populum &ensp; <small><small>Cic</small></small> &ensp; <small>Discursar diante do povo</small> <br> dicere apud centumuiros &ensp; <small><small>Cic</small></small> &ensp; <small>Pleitear perante os centumviros</small> <br> dicere causam &ensp; <small><small>Cic</small></small> &ensp; <small>Advogar uma causa</small> <br> dicere causas &ensp; <small><small>Cic</small></small> &ensp; <small>Exercer a advocacia</small> <br> dicere ius &ensp; <small><small>Cic</small></small> &ensp; <small>Administrar a justiça</small> <br> dicere orationem &ensp; <small><small>Cic</small></small> &ensp; <small>Lêr um discurso</small> <br> dicere proœmium &ensp; <small><small>Quint</small></small> &ensp; <small>Recitar um exórdio</small> <br> dicere sententiam &ensp; <small><small>Cic</small></small> &ensp; <small>Apresentar, expôr a sua opinião</small> <br> non idem loqui quod dicere &ensp; <small><small>Cic</small></small> &ensp; <small>Não é o mesmo fallar e manejar a palavra</small> <br> uelere dicendo &ensp; <small><small>Cic</small></small> &ensp; <small>Sêr eloquente</small> <br> <br><b>4</b><br>dicere fata &ensp; <small><small>Hor</small></small> &ensp; <small>Annunciar o futuro</small> <br> dicere laudes Phœbi &ensp; <small><small>Hor</small></small> &ensp; <small>Celebrar os louvores de Apollo</small> <br> dicere Pelidæ stomachum &ensp; <small><small>Hor</small></small> &ensp; <small>Cantar a ira de Achilles</small> <br> dicere siluestrium naturas &ensp; <small><small>Plin</small></small> &ensp; <small>Descrever os animaes bravios</small> <br> neque silendus, neque dicendus sine cura &ensp; <small><small>Vell</small></small> &ensp; <small>O que Mithridates não deve sêr passado em silêncio, nem de quem se há de falar de leve</small> <br> <br><b>5</b><br>dicere litteram &ensp; <small><small>Cic. Quint</small></small> &ensp; <small>Pronunciar uma lettra</small> <br> <br><b>6</b><br>ames dici pater &ensp; <small><small>Hor</small></small> &ensp; <small>Deves gostar que te deem o nome de pae</small> <br> latine dicimus elocutionem quam… &ensp; <small><small>Quint</small></small> &ensp; <small>Chamamos em latim elocução o que…</small> <br> <br><b>7</b><br>dicere ædilem &ensp; <small><small>Liv</small></small> &ensp; <small>Nomear um edil</small> <br> dicere arbitrum bibendi &ensp; <small><small>Hor</small></small> &ensp; <small>Eleger para rei do banquete</small> <br> dicere deum Palæmona &ensp; <small><small>Ov</small></small> &ensp; <small>Elevar Palemão á dignidade de deus</small> <br> dicere dictatorem &ensp; <small><small>Liv</small></small> &ensp; <small>Nomear um ditador</small> <br> <br><b>8</b><br>dicere diem nuptiis &ensp; <small><small>Ter</small></small> &ensp; <small>Marcar o dia para o casamento</small> <br> dicere leges pacis &ensp; <small><small>Liv</small></small> &ensp; <small>Fixar as condições de paz</small> <br> dicere leges uictis &ensp; <small><small>Liv</small></small> &ensp; <small>Impôr leis aos vencidos</small> <br> dicere pecuniam doti &ensp; <small><small>Cic</small></small> &ensp; <small>Estabelecer em dote uma quantia de dinheiro</small> <br> dicere pretium muneri &ensp; <small><small>Hor</small></small> &ensp; <small>Dar valor a um presente</small> <br> ut dictum erat &ensp; <small><small>Sall</small></small> &ensp; <small>Segundo tinha sido convencionado</small> <br> <br><b>9</b><br>dicebam tibi ne… &ensp; <small><small>Plaut</small></small> &ensp; <small>Eu avisava-te que não…</small> <br> est fuga dicta mihi &ensp; <small><small>Ov</small></small> &ensp; <small>Foi-me ordenado que me exilasse</small> <br> illam eiiciam; dixi, Phormio &ensp; <small><small>Ter</small></small> &ensp; <small>Eu hei de expulsal-a; ouviste, Phormião?</small> <br> misit qui diceret ne discederet &ensp; <small><small>Nep</small></small> &ensp; <small>Mandou-lhe dizer por uma pessôa que não se ausentasse</small> <br> tibi dico &ensp; <small><small>Ter. Phaed</small></small> &ensp; <small>Olha, eu aviso-te</small> <br> tibi diximus &ensp; <small><small>Ov</small></small> &ensp; <small>Olha, eu aviso-te</small> <br> <br><b>10</b><br>mortem dico et deos &ensp; <small><small>Cic</small></small> &ensp; <small>Quero dizer, a morte e os deuses</small> <br> platonem uidelicet dicis &ensp; <small><small>Cic</small></small> &ensp; <small>Platão é de quem tu queres fallar</small> <br> uxoris dico, non tuam &ensp; <small><small>Plaut</small></small> &ensp; <small>Fallo da morte de tua mulher, e não da tua</small> <br> <br><b>11</b><br>dicere sacramento &ensp; <small><small>Liv. Plin. J</small></small> &ensp; <small>Prestar juramento militar, jurar bandeiras</small> </p>
+
+
+
+
+#### Fonseca
+
+<b>Dico</b> -<b>is</b> -<b>ixi</b> -<b>ictum</b> -<b>cere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; dizer, fallar. <br> <b>2</b> &ensp; <small>Liv.</small> &ensp; eleger. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>dicere diem alicui &ensp; <small><small>Cic</small></small> &ensp; <small>Assinar dia para apparecer em juizo</small> <br> dicere salutem &ensp; <small><small>Cic</small></small> &ensp; <small>Saudar, enviar saude</small> </p> 
+ <small>Cic. por Dixisti</small> <b>Dixti</b> 
+ <small>Plaut. por Dic</small> <b>Dice</b> 
+ <small>Plaut. por Dicas</small> <b>Dicassis</b> 
+ <small>pret. de Dico</small> <b>Dixi</b>
+
+
+
+
+#### Velez
+
+<b>Dico</b> -<b>is</b> <br> <small>Vide Dos.</small>   <p> <b>1</b> &ensp; dizer, orar, fallar <br> <b>2</b> &ensp; <small>Pro promittere</small> &ensp; <small>aliquid alicui.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>dicere alicui diem &ensp; <small>citar</small> <br> dicere diem &ensp; <small>determinar, e assignar dia certo</small> <br> nomen dicere &ensp; <small>pôr nome</small> <br> sacramentum, uel sacramento dicere &ensp; <small>jurarem os soldados de defenderem a Republica</small> <br> sententiam, uel pro sententia dicere &ensp; <small>dizer seu parecer</small> <br> testimonium uel pro testimonio dicere &ensp; <small>testificar, depor com testemunho</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Dico</b> <b>is</b> <b>xi</b> -<b>ctum</b>   <p> <b>1</b> &ensp; dizer &ensp; <small>actiuo.</small> </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/99302 ' target="_blank"> http://lila-erc.eu/data/id/lemma/99302 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small> deico <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> deico, dico </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> deicere, dicere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> deicet, dicet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> deixi, dixi, deixsi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> dictum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> dicturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+dīc 
+ dīcō 
+ dīcis 
+ dīcĕre 
+ dixī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-105-99-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-105-99-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword dico here are all the values plotted: collocate: ita; scoreSUBST: 0. collocate: sententia; scoreSUBST: 3. collocate: qui; scoreSUBST: 0. collocate: sum; scoreSUBST: 0. collocate: ut; scoreSUBST: 0. collocate: sui; scoreSUBST: 0. collocate: et; scoreSUBST: 0. collocate: audio; scoreSUBST: 0. collocate: possum; scoreSUBST: 0. collocate: quis; scoreSUBST: 0. collocate: non; scoreSUBST: 0. collocate: ante2; scoreSUBST: 0. collocate: enim; scoreSUBST: 0. collocate: is; scoreSUBST: 0. collocate: ille; scoreSUBST: 0. collocate: nihil; scoreSUBST: 0. collocate: saepe; scoreSUBST: 0. collocate: se; scoreSUBST: 0. collocate: audeo; scoreSUBST: 0. collocate: uolo; scoreSUBST: 0. collocate: male; scoreSUBST: 0. collocate: aliquis; scoreSUBST: 0. collocate: supra; scoreSUBST: 0. collocate: soleo; scoreSUBST: 0. collocate: genus; scoreSUBST: 2. collocate: queo; scoreSUBST: 0. collocate: fors; scoreSUBST: 0. collocate: quia; scoreSUBST: 0. collocate: licet; scoreSUBST: 0. collocate: uiuo; scoreSUBST: 0. collocate: testimonium; scoreSUBST: 2. collocate: exercitatio; scoreSUBST: 2. collocate: aperte; scoreSUBST: 0. collocate: Fannius; scoreSUBST: 0. collocate: Epicurus; scoreSUBST: 0. collocate: quomodo; scoreSUBST: 0. collocate: leibere; scoreSUBST: 0. collocate: Murena; scoreSUBST: 0. collocate: facultas; scoreSUBST: 2. collocate: contra2; scoreSUBST: 0. collocate: Uerres; scoreSUBST: 0. collocate: Caelius; scoreSUBST: 0. collocate: sapiens; scoreSUBST: 2. collocate: libenter; scoreSUBST: 0. collocate: incipio; scoreSUBST: 0. collocate: exeo; scoreSUBST: 0. collocate: nescio; scoreSUBST: 0. collocate: difficilis; scoreSUBST: 0. collocate: initium; scoreSUBST: 1'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-105-99-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword dico here are all the values plotted: collocate: ita; scoreADJ: 0. collocate: sententia; scoreADJ: 0. collocate: qui; scoreADJ: 0. collocate: sum; scoreADJ: 0. collocate: ut; scoreADJ: 0. collocate: sui; scoreADJ: 0. collocate: et; scoreADJ: 0. collocate: audio; scoreADJ: 0. collocate: possum; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: non; scoreADJ: 0. collocate: ante2; scoreADJ: 0. collocate: enim; scoreADJ: 0. collocate: is; scoreADJ: 0. collocate: ille; scoreADJ: 0. collocate: nihil; scoreADJ: 0. collocate: saepe; scoreADJ: 0. collocate: se; scoreADJ: 0. collocate: audeo; scoreADJ: 0. collocate: uolo; scoreADJ: 0. collocate: male; scoreADJ: 0. collocate: aliquis; scoreADJ: 0. collocate: supra; scoreADJ: 0. collocate: soleo; scoreADJ: 0. collocate: genus; scoreADJ: 0. collocate: queo; scoreADJ: 0. collocate: fors; scoreADJ: 0. collocate: quia; scoreADJ: 0. collocate: licet; scoreADJ: 0. collocate: uiuo; scoreADJ: 0. collocate: testimonium; scoreADJ: 0. collocate: exercitatio; scoreADJ: 0. collocate: aperte; scoreADJ: 0. collocate: Fannius; scoreADJ: 0. collocate: Epicurus; scoreADJ: 0. collocate: quomodo; scoreADJ: 0. collocate: leibere; scoreADJ: 0. collocate: Murena; scoreADJ: 0. collocate: facultas; scoreADJ: 0. collocate: contra2; scoreADJ: 0. collocate: Uerres; scoreADJ: 0. collocate: Caelius; scoreADJ: 0. collocate: sapiens; scoreADJ: 0. collocate: libenter; scoreADJ: 0. collocate: incipio; scoreADJ: 0. collocate: exeo; scoreADJ: 0. collocate: nescio; scoreADJ: 0. collocate: difficilis; scoreADJ: 1. collocate: initium; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-105-99-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword dico here are all the values plotted: collocate: ita; scoreVERBO: 0. collocate: sententia; scoreVERBO: 0. collocate: qui; scoreVERBO: 0. collocate: sum; scoreVERBO: 2. collocate: ut; scoreVERBO: 0. collocate: sui; scoreVERBO: 0. collocate: et; scoreVERBO: 0. collocate: audio; scoreVERBO: 2. collocate: possum; scoreVERBO: 2. collocate: quis; scoreVERBO: 0. collocate: non; scoreVERBO: 0. collocate: ante2; scoreVERBO: 0. collocate: enim; scoreVERBO: 0. collocate: is; scoreVERBO: 0. collocate: ille; scoreVERBO: 0. collocate: nihil; scoreVERBO: 0. collocate: saepe; scoreVERBO: 0. collocate: se; scoreVERBO: 0. collocate: audeo; scoreVERBO: 2. collocate: uolo; scoreVERBO: 2. collocate: male; scoreVERBO: 0. collocate: aliquis; scoreVERBO: 0. collocate: supra; scoreVERBO: 0. collocate: soleo; scoreVERBO: 2. collocate: genus; scoreVERBO: 0. collocate: queo; scoreVERBO: 2. collocate: fors; scoreVERBO: 0. collocate: quia; scoreVERBO: 0. collocate: licet; scoreVERBO: 1. collocate: uiuo; scoreVERBO: 1. collocate: testimonium; scoreVERBO: 0. collocate: exercitatio; scoreVERBO: 0. collocate: aperte; scoreVERBO: 0. collocate: Fannius; scoreVERBO: 0. collocate: Epicurus; scoreVERBO: 0. collocate: quomodo; scoreVERBO: 0. collocate: leibere; scoreVERBO: 0. collocate: Murena; scoreVERBO: 0. collocate: facultas; scoreVERBO: 0. collocate: contra2; scoreVERBO: 0. collocate: Uerres; scoreVERBO: 0. collocate: Caelius; scoreVERBO: 0. collocate: sapiens; scoreVERBO: 0. collocate: libenter; scoreVERBO: 0. collocate: incipio; scoreVERBO: 2. collocate: exeo; scoreVERBO: 2. collocate: nescio; scoreVERBO: 2. collocate: difficilis; scoreVERBO: 0. collocate: initium; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-105-99-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword dico here are all the values plotted: collocate: ita; scoreADV: 3. collocate: sententia; scoreADV: 0. collocate: qui; scoreADV: 0. collocate: sum; scoreADV: 0. collocate: ut; scoreADV: 0. collocate: sui; scoreADV: 0. collocate: et; scoreADV: 0. collocate: audio; scoreADV: 0. collocate: possum; scoreADV: 0. collocate: quis; scoreADV: 0. collocate: non; scoreADV: 2. collocate: ante2; scoreADV: 3. collocate: enim; scoreADV: 2. collocate: is; scoreADV: 0. collocate: ille; scoreADV: 0. collocate: nihil; scoreADV: 0. collocate: saepe; scoreADV: 2. collocate: se; scoreADV: 0. collocate: audeo; scoreADV: 0. collocate: uolo; scoreADV: 0. collocate: male; scoreADV: 2. collocate: aliquis; scoreADV: 0. collocate: supra; scoreADV: 0. collocate: soleo; scoreADV: 0. collocate: genus; scoreADV: 0. collocate: queo; scoreADV: 0. collocate: fors; scoreADV: 2. collocate: quia; scoreADV: 0. collocate: licet; scoreADV: 0. collocate: uiuo; scoreADV: 0. collocate: testimonium; scoreADV: 0. collocate: exercitatio; scoreADV: 0. collocate: aperte; scoreADV: 2. collocate: Fannius; scoreADV: 0. collocate: Epicurus; scoreADV: 0. collocate: quomodo; scoreADV: 2. collocate: leibere; scoreADV: 0. collocate: Murena; scoreADV: 0. collocate: facultas; scoreADV: 0. collocate: contra2; scoreADV: 2. collocate: Uerres; scoreADV: 0. collocate: Caelius; scoreADV: 0. collocate: sapiens; scoreADV: 0. collocate: libenter; scoreADV: 2. collocate: incipio; scoreADV: 0. collocate: exeo; scoreADV: 0. collocate: nescio; scoreADV: 0. collocate: difficilis; scoreADV: 0. collocate: initium; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-105-99-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword dico here are all the values plotted: collocate: ita; scoreFUNC: 0. collocate: sententia; scoreFUNC: 0. collocate: qui; scoreFUNC: 0. collocate: sum; scoreFUNC: 0. collocate: ut; scoreFUNC: 20. collocate: sui; scoreFUNC: 0. collocate: et; scoreFUNC: 0. collocate: audio; scoreFUNC: 0. collocate: possum; scoreFUNC: 0. collocate: quis; scoreFUNC: 0. collocate: non; scoreFUNC: 0. collocate: ante2; scoreFUNC: 0. collocate: enim; scoreFUNC: 0. collocate: is; scoreFUNC: 0. collocate: ille; scoreFUNC: 0. collocate: nihil; scoreFUNC: 0. collocate: saepe; scoreFUNC: 0. collocate: se; scoreFUNC: 0. collocate: audeo; scoreFUNC: 0. collocate: uolo; scoreFUNC: 0. collocate: male; scoreFUNC: 0. collocate: aliquis; scoreFUNC: 0. collocate: supra; scoreFUNC: 30. collocate: soleo; scoreFUNC: 0. collocate: genus; scoreFUNC: 0. collocate: queo; scoreFUNC: 0. collocate: fors; scoreFUNC: 0. collocate: quia; scoreFUNC: 20. collocate: licet; scoreFUNC: 0. collocate: uiuo; scoreFUNC: 0. collocate: testimonium; scoreFUNC: 0. collocate: exercitatio; scoreFUNC: 0. collocate: aperte; scoreFUNC: 0. collocate: Fannius; scoreFUNC: 0. collocate: Epicurus; scoreFUNC: 0. collocate: quomodo; scoreFUNC: 0. collocate: leibere; scoreFUNC: 0. collocate: Murena; scoreFUNC: 0. collocate: facultas; scoreFUNC: 0. collocate: contra2; scoreFUNC: 0. collocate: Uerres; scoreFUNC: 0. collocate: Caelius; scoreFUNC: 0. collocate: sapiens; scoreFUNC: 0. collocate: libenter; scoreFUNC: 0. collocate: incipio; scoreFUNC: 0. collocate: exeo; scoreFUNC: 0. collocate: nescio; scoreFUNC: 0. collocate: difficilis; scoreFUNC: 0. collocate: initium; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>dicam</b> aperte <br> <small> Cic.Ver.1.33 <br> Vou dizer abertamente. <small> [JDD] </small> </small> </p>
+; <p> <b>dices</b> fortasse <br> <small> Cic.Att.2.19.1 <br> Dirás talvez. <small> [JDD] </small> </small> </p>
+; <p> quid <b>dicam</b> <br> <small> Cic.Att.1.17.6 <br> O que dizer <small> [JDD] </small> </small> </p>
+; <p> uidisse se <b>dicerent</b> <br> <small> Cic.Cael.65 <br> Diriam que tinham visto? <small> [JDD] </small> </small> </p>
+; <p> quare aliquid <b>dixi</b> <br> <small> Sen.Ep.12.10 <br> Por que disse algo? <small> [JDD] </small> </small> </p>
+; <p> Epicurus inquis <b>dixit</b> <br> <small> Sen.Ep.12.11 <br> “Foi Epicuro”, dizes, “ que disse. <small> [JDD] </small> </small> </p>
+; <p> <b>dicit</b> liberius atque audacius <br> <small> Caes.Gal.1.18.2 <br> [Este] fala com mais liberdade e ousadia. <small> [JDD] </small> </small> </p>
+; <p> <b>Dixerat</b> , et flebant . <br> <small> Ov.Met.1.367 <br> Tinha dito e eles choravam. <small> [JDD] </small> </small> </p>
+; <p> Illi <b>dixerunt</b> bovem . esse <br> <small> Phaed.1.24 <br> Eles disseram o boi. <small> [JDD] </small> </small> </p>
+; <p> si non <b>dixit</b> cur dedit <br> <small> Cic.Cael.52 <br> Se não disse, por que ela deu? <small> [JDD] </small> </small> </p>
+; <p> duo enim soli <b>dicuntur</b> petituri <br> <small> Cic.Att.1.17.11 <br> Com efeito, dizem que só dois vão se candidatar. <small> [JDD] </small> </small> </p>
+; <p> est iudices ita ut <b>dicitur</b> <br> <small> Cic.Ver.2.4.117.2 <br> É assim como se diz, juízes. <small> [JDD] </small> </small> </p>
+; <p> deinde alia legatio <b>dicta</b> erat <br> <small> Cic.Att.2.7.3 <br> em segundo lugar tinha sido proposta uma legação. <small> [JDD] </small> </small> </p>
+; <p> <b>dicam</b> plane Caesar quod sentio <br> <small> Cic.Lig.14 <br> Vou dizer claramente o que penso, César. <small> [JDD] </small> </small> </p>
+; <p> nulli enim nisi audituro <b>dicendum</b> est <br> <small> Sen.Ep.29.1 <br> pois a ninguém se deve ensinar, a não ser que esteja disposto a ouvir. <small> [JDD] </small> </small> </p>
+; <p> et statim <b>dicunt</b> ei de illa <br> <small> Vulg.Marc.1.30 <br> e logo lhe falam dela. <small> [JDD] </small> </small> </p>
+; <p> de exercitu <b>dicam</b> breuiter ut cetera <br> <small> Cic.Deiot.22 <br> Sobre o exército vou falar sucintamente, assim como das demais coisas. <small> [JDD] </small> </small> </p>
+; <p> haec habui de amicitia quae <b>dicerem</b> <br> <small> Cic.Amici.104 <br> Tinha estas coisas para dizer acerca da amizade. <small> [JDD] </small> </small> </p>
+; <p> <b>dices</b> quomodo ista tam diuersa pariter eunt <br> <small> Sen.Ep.5.7 <br> Dirás: “Como esses sentimentos tão díspares estão par a par?”[*] <small>  </small> </small> </p>
+; <p> e contrario <b>dicere</b> solemus febris illum tenet <br> <small> Sen.Ep.119.12 <br> Do contrário, costumamos dizer “a febre se apoderou dele”. <small> [JDD] </small> </small> </p>
+; <p> sed aliud est male <b>dicere</b> aliud accusare <br> <small> Cic.Cael.6 <br> Mas uma coisa é maldizer, outra, acusar. <small> [JDD] </small> </small> </p>
+; <p> eo ut erat <b>dictum</b> ad conloquium uenerunt <br> <small> Caes.Gal.1.43.2 <br> Lá, como havia sido combinado, chegaram para a conversação. <small> [JDD] </small> </small> </p>
+; <p> conantes <b>dicere</b> prohibuit et in catenas coniecit <br> <small> Caes.Gal.1.47.6 <br> Impediu-os de tentar falar e colocou-os em correntes. <small> [JDD] </small> </small> </p>
+; <p> <b>dixit</b> enim parem esse horis nec mentitur <br> <small> Sen.Ep.12.7 <br> Pois disse que era igual em horas e não está mentindo. <small> [JDD] </small> </small> </p>
+; <p> et cum invenissent eum <b>dixerunt</b> ei quia <br> <small> Vulg.Marc.1.37 <br> E, assim que o encontraram, disseram-lhe. <small> [JDD] </small> </small> </p>
+; <p> non enim <b>dicentur</b> tantum illa sed probabuntur <br> <small> Sen.Ep.20.9 <br> pois aquelas coisas não só serão ditas, mas serão provadas.” <small> [JDD] </small> </small> </p>
+; <p> quo modo igitur Domitius se <b>dixit</b> relaturum <br> <small> Cic.Att.3.15.6 <br> Como então Domício disse que faria uma proposição? <small> [JDD] </small> </small> </p>
+; <p> Pompeius illam velle se <b>dicit</b> familiares hanc <br> <small> Cic.Att.4.1.7 <br> Pompeu diz que quer aquela, seus amigos, esta. <small> [JDD] </small> </small> </p>
+; <p> <b>dicet</b> aliquis haec igitur est tua disciplina <br> <small> Cic.Cael.39 <br> Alguém dirá: “Esse é então o teu ensino? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quisquis <b>dixit</b> uixi cotidie ad lucrum surgit <br> <small> Sen.Ep.12.9 <br> todo aquele que diz “vivi”, cada dia levanta com um lucro. <small> [JDD] </small> </small> </p>
+; <p> habes crimina insidiarum nihil enim <b>dixit</b> amplius <br> <small> Cic.Deiot.21 <br> Aí tens a acusação da emboscada, pois não disse mais nada. <small> [JDD] </small> </small> </p>
+; <p> constantiam <b>dico</b> nescio an melius patientiam possim <b>dicere</b> <br> <small> Cic.Lig.26 <br> Digo constância? Não sei se poderia melhor dizer paciência. <small> [JDD] </small> </small> </p>
+; <p> dies conloquio <b>dictus</b> est ex eo die quintus <br> <small> Caes.Gal.1.42.3 <br> Foi marcado para a conversação o quinto dia a partir desse dia. <small> [JDD] </small> </small> </p>
+; <p> et multi audientes admirabantur in doctrina eius <b>dicentes</b> <br> <small> Vulg.Marc.6.2 <br> e muitos, ao ouvir, ficavam admirados com o seu ensino, dizendo. <small> [JDD] </small> </small> </p>
+; <p> Nam et medium quoddam officium <b>dicitur</b> et perfectum <br> <small> Cic.Off.1.8 <br> Pois um dever é dito médio e outro, perfeito. <small> [JDD] </small> </small> </p>
+; <p> <b>dixi</b> hanc legem Publium Clodium iam ante servasse <br> <small> Cic.Att.1.16.13 <br> Eu disse que Públio Clódio já observava esta lei antes. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> de reliquis rei publicae malis licet ne <b>dicere</b> <br> <small> Cic.Phil.1.14.1 <br> Por acaso é permitido falar sobre os demais males da república? <small> [JDD] </small> </small> </p>
+; <p> uellem <b>dictum</b> esset ab eodem etiam de Dione <br> <small> Cic.Cael.23 <br> Eu queria que também tivesse sido dito pelo mesmo algo a respeito de Díon. <small> [JDD] </small> </small> </p>
+; <p> quaerit ex solo ea quae in conuentu <b>dixerat</b> <br> <small> Caes.Gal.1.18.2 <br> Quer saber dele em particular as coisas que ele tinha dito na reunião. <small> [JDD] </small> </small> </p>
+; <p> sed an uere audieris an uere <b>dixeris</b> effectu proba <br> <small> Sen.Ep.24.15 <br> mas se ouviste com verdade, ou disseste com verdade, comprova com as obras. <small> [JDD] </small> </small> </p>
+; <p> refice illum et mitte in senatum eandem sententiam <b>dicet</b> <br> <small> Sen.Prov.3.9 <br> Reanima-o e manda-o ao senado: dirá a mesma opinião. <small> [JDD] </small> </small> </p>
+; <p> ne id quidem Caesar ab se impetrari posse <b>dixit</b> <br> <small> Caes.Gal.4.9.2 <br> César disse que nem mesmo isso podia ser obtido dele. <small> [JDD] </small> </small> </p>
+; <p> diu illud continuit et ut uerius <b>dicam</b> continuauit subito defecit <br> <small> Sen.Ep.30.1 <br> por muito tempo o conservou e, para dizer com mais verdade, o fez durar: de repente desmilinguiu-se. <small> [JDD] </small> </small> </p>
+; <p> si tamen exigis <b>dicam</b> quomodo omne animal perniciosa intellegere conatur <br> <small> Sen.Ep.121.21 <br> Se, contudo, exiges, vou dizer como todo animal é levado a entender as coisas perniciosas.[*] <small>  </small> </small> </p>
+; <p> <b>dicebat</b> enim quia si vel vestimentum eius tetigero salva ero <br> <small> Vulg.Marc.5.28 <br> pois dizia: Porque se eu tocar somente a vestimenta dele, estarei curada. <small> [JDD] </small> </small> </p>
+; <p> incredibile <b>dicam</b> sed ita clarum ut ipsum negaturum non arbitrer <br> <small> Cic.Ver.2.4.57.14 <br> Vou dizer algo incrível, mas tão evidente que eu creio que nem ele próprio vai negar. <small> [JDD] </small> </small> </p>
+; <p> quoniam de genere belli <b>dixi</b> nunc de magnitudine pauca <b>dicam</b> <br> <small> Cic.Man.20 <br> Visto que disse sobre o gênero dessa guerra, agora vou dizer umas poucas palavras sobre sua magnitude. <small> [JDD] </small> </small> </p>
+; <p> quia profecto uidetis nefas esse <b>dictu</b> miseram fuisse talem senectutem <br> <small> Cic.Sen.13 <br> Para que, sem dúvida, vejais que é um sacrilégio dizer que tal velhice foi infeliz. <small> [JDD] </small> </small> </p>
+; <p> timere se <b>dicunt</b> quo modo ferant ueterani exercitum Brutum habere <br> <small> Cic.Phil.10.15.2 <br> Dizem que temem como suportam os veteranos que Bruto tenha um exército. <small> [JDD] </small> </small> </p>
+; <p> id autem facere ob eam causam <b>dicebant</b> quod tardius vellet decedere <br> <small> Cic.Att.5.16.4 <br> e dizem que ele faz isso por esse motivo, porque quer sair mais tarde. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-105-99-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 186.47 and an absolute frequency of 83. The Cicero subcorpus follows, with a normalized frequency of 57.19 and an absolute frequency of 918. the subcorpus with the least normalized frequency is Tacitus with the normalized value of 10.3 and an absolute freqeuncy of 3. here are all the values: subcorpus: Caesar ; normalized frequency: 71 ; absolute frequency: 26.8147141022736. subcorpus: Cicero ; normalized frequency: 918 ; absolute frequency: 57.1877102489347. subcorpus: Horatius ; normalized frequency: 39 ; absolute frequency: 34.6328034810408. subcorpus: Ovidius ; normalized frequency: 20 ; absolute frequency: 34.3170899107756. subcorpus: Phaedrus ; normalized frequency: 29 ; absolute frequency: 44.0261120388644. subcorpus: Sallustius ; normalized frequency: 31 ; absolute frequency: 28.7542899545497. subcorpus: Seneca ; normalized frequency: 227 ; absolute frequency: 42.3657639835016. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 9 ; absolute frequency: 17.3745173745174. subcorpus: Hieronymus ; normalized frequency: 83 ; absolute frequency: 186.474949449562'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-105-99-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 186.47 and an absolute frequency of 83. The Prosa.oratória subcorpus follows, with a normalized frequency of 60.2 and an absolute frequency of 627. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 4.34 and an absolute freqeuncy of 5. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 106 ; absolute frequency: 25.8039387521605. subcorpus: Prosa.filosófica ; normalized frequency: 349 ; absolute frequency: 57.4949341855983. subcorpus: Prosa.oratória ; normalized frequency: 627 ; absolute frequency: 60.1998982266473. subcorpus: Prosa.epistolográfica ; normalized frequency: 164 ; absolute frequency: 43.4563713929887. subcorpus: Poesia.lírica ; normalized frequency: 40 ; absolute frequency: 33.6502061075124. subcorpus: Poesia.didática ; normalized frequency: 48 ; absolute frequency: 40.7159216218509. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 9 ; absolute frequency: 17.3745173745174. subcorpus: Prosa.ficcional ; normalized frequency: 83 ; absolute frequency: 186.474949449562'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-105-99-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 186.47 and an absolute frequency of 83. The I.a.C. subcorpus follows, with a normalized frequency of 49.76 and an absolute frequency of 1069. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 10.47 and an absolute freqeuncy of 4. here are all the values: subcorpus: I.a.C. ; normalized frequency: 1069 ; absolute frequency: 49.7556434721899. subcorpus: I.d.C. ; normalized frequency: 275 ; absolute frequency: 42.0682270154505. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 83 ; absolute frequency: 186.474949449562'}
+
+
+:::
+

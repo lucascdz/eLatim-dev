@@ -1,0 +1,214 @@
+---
+title: "iudicium"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-117-100-105-99-105-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>jūdicĭum</b> <b>-í</b> <br> <b>iūdicĭum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio termo técnico:</small> &ensp; Ação de julgar, ofício de juiz &ensp; <small>C. N ep. A I. 6, 3.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Ação judicial, investigação judicial, processo &ensp; <small>Cíc. Br. 197.</small> <br> <b>3</b> &ensp; <small>I-Daí:</small> &ensp; Julgamento de uma questão, sentença, decisão &ensp; <small>Cíc. Dom. 45.</small> <br> <b>4</b> &ensp; <small>I-Daí:</small> &ensp; Tribunal: &ensp; <small></small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Juízo, opinião, parecer &ensp; <small>Cíc. Br. 188.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Faculdade de julgar, discemimento, razão, inteligência &ensp; <small>Cíc. Fin. 2, 33.</small> <br> <b>7</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Reflexão &ensp; <small>Cíc. Of. 1. 49.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>4</b><br>causa in judicium deducta Cíc. Opt. 19 «causa levada ao tribunal». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Judicium</b> -<b>ii</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; juizo, contenda, acção da causa em juizo. <br> <b>2</b> &ensp; potencia judicativa. <br> <b>3</b> &ensp; juizo, parecer, opinião. <br> <b>4</b> &ensp; <small>Quinct.</small> &ensp; tribunal, lugar, em que se julga alguma cousa. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Iudicium</b> <b>ij</b>   <p> <b>1</b> &ensp; ho juyzo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/109170 ' target="_blank"> http://lila-erc.eu/data/id/lemma/109170 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> ioudiciom, ioudicium, iudiciom <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+jūdĭcĭum 
+ jūdĭcĭī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx105-117-100-105-99-105-117-109xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-117-100-105-99-105-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword iudicium here are all the values plotted: collocate: uoco; scoreSUBST: 0. collocate: corrumpo; scoreSUBST: 0. collocate: uester; scoreSUBST: 0. collocate: uenio; scoreSUBST: 0. collocate: constituo; scoreSUBST: 0. collocate: exspecto; scoreSUBST: 0. collocate: senatus; scoreSUBST: 2. collocate: de; scoreSUBST: 0. collocate: grauis; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: teneo; scoreSUBST: 0. collocate: nullus; scoreSUBST: 0. collocate: tuus; scoreSUBST: 0. collocate: ad; scoreSUBST: 0. collocate: que; scoreSUBST: 0. collocate: hic; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-117-100-105-99-105-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword iudicium here are all the values plotted: collocate: uoco; scoreADJ: 0. collocate: corrumpo; scoreADJ: 0. collocate: uester; scoreADJ: 0. collocate: uenio; scoreADJ: 0. collocate: constituo; scoreADJ: 0. collocate: exspecto; scoreADJ: 0. collocate: senatus; scoreADJ: 0. collocate: de; scoreADJ: 0. collocate: grauis; scoreADJ: 2. collocate: in; scoreADJ: 0. collocate: teneo; scoreADJ: 0. collocate: nullus; scoreADJ: 0. collocate: tuus; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: que; scoreADJ: 0. collocate: hic; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-117-100-105-99-105-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword iudicium here are all the values plotted: collocate: uoco; scoreVERBO: 3. collocate: corrumpo; scoreVERBO: 3. collocate: uester; scoreVERBO: 0. collocate: uenio; scoreVERBO: 2. collocate: constituo; scoreVERBO: 2. collocate: exspecto; scoreVERBO: 2. collocate: senatus; scoreVERBO: 0. collocate: de; scoreVERBO: 0. collocate: grauis; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: teneo; scoreVERBO: 2. collocate: nullus; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: que; scoreVERBO: 0. collocate: hic; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-117-100-105-99-105-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword iudicium here are all the values plotted: collocate: uoco; scoreADV: 0. collocate: corrumpo; scoreADV: 0. collocate: uester; scoreADV: 0. collocate: uenio; scoreADV: 0. collocate: constituo; scoreADV: 0. collocate: exspecto; scoreADV: 0. collocate: senatus; scoreADV: 0. collocate: de; scoreADV: 0. collocate: grauis; scoreADV: 0. collocate: in; scoreADV: 0. collocate: teneo; scoreADV: 0. collocate: nullus; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: ad; scoreADV: 0. collocate: que; scoreADV: 0. collocate: hic; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-117-100-105-99-105-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword iudicium here are all the values plotted: collocate: uoco; scoreFUNC: 0. collocate: corrumpo; scoreFUNC: 0. collocate: uester; scoreFUNC: 0. collocate: uenio; scoreFUNC: 0. collocate: constituo; scoreFUNC: 0. collocate: exspecto; scoreFUNC: 0. collocate: senatus; scoreFUNC: 0. collocate: de; scoreFUNC: 20. collocate: grauis; scoreFUNC: 0. collocate: in; scoreFUNC: 20. collocate: teneo; scoreFUNC: 0. collocate: nullus; scoreFUNC: 0. collocate: tuus; scoreFUNC: 0. collocate: ad; scoreFUNC: 20. collocate: que; scoreFUNC: 0. collocate: hic; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> amicum enim nostrum in <b>iudicium</b> uocabas <br> <small> Cic.Ver.2.4.25.19 <br> “Pois chamavas a julgamento um amigo nosso.” <small> [JDD] </small> </small> </p>
+; <p> quae exspectas M. Antoni <b>iudicia</b> grauiora <br> <small> Cic.Phil.4.6.7 <br> Que decisões mais severas estás esperando, Marco Antônio? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> armis enim gesta numquam profecto in <b>iudicium</b> uocabuntur <br> <small> Cic.Phil.1.21.6 <br> Pois as coisas feitas pelas armas nunca, sem dúvida, serão chamadas em juízo. <small> [JDD] </small> </small> </p>
+; <p> M. uero Caelius cur in hoc <b>iudicium</b> uocatur <br> <small> Cic.Cael.72 <br> Por que, porém, Marco Célio é citado para este julgamento? <small> [JDD] </small> </small> </p>
+; <p> occulta enim fuit eorum uoluntas <b>iudicium</b>que de Antonio <br> <small> Cic.Phil.7.21.9 <br> Pois a disposição e julgamento desses acerca de Antônio ficaram velados. <small> [JDD] </small> </small> </p>
+; <p> at enim liberum senatus <b>iudicium</b> propter metum non fuit <br> <small> Cic.Dom.10 <br> 10 Mas, de fato, o julgamento do senado não foi livre, por causa do medo. <small> [JDD] </small> </small> </p>
+; <p> in unius hominis perditi <b>iudicio</b> plures similes reperti sunt <br> <small> Cic.Att.1.16.9 <br> No julgamento de um único homem devasso, foram encontrados muitos iguais a ele.” <small> [JDD] </small> </small> </p>
+; <p> omnia perspicere poteris de Caesare de Pompeio de ipsis <b>iudiciis</b> <br> <small> Cic.Att.5.12.2 <br> poderás examinar bem tudo, sobre César, sobre Pompeu, sobre os próprios julgamentos. <small> [JDD] </small> </small> </p>
+; <p> facto senatus consulto de ambitu de <b>iudiciis</b> nulla lex perlata <br> <small> Cic.Att.1.18.3 <br> Promulgado um decreto do senado sobre o suborno, outro sobre os juízes, nenhuma lei os sancionou. <small> [JDD] </small> </small> </p>
+; <p> num quid igitur aliud in <b>iudicium</b> uenit nisi uter utri insidias fecerit <br> <small> Cic.Mil.31 <br> Por acaso, portanto, alguma outra coisa veio a julgamento, a não ser qual dos dois tinha preparado uma emboscada para o outro? <small> [JDD] </small> </small> </p>
+; <p> nihil ad tortorem facti enim in eculeo quaestio est iuris in <b>iudicio</b> <br> <small> Cic.Mil.57 <br> Isso em nada diz respeito ao torturador: pois o interrogatório do fato é no cavalete, o do direito é no julgamento. <small> [JDD] </small> </small> </p>
+; <p> nam cum ipsius uictoriae iure omnes uicti occidissemus clementiae tuae <b>iudicio</b> conseruati sumus <br> <small> Cic.Marc.12 <br> Pois quando, pelo direito da própria vitoria, nós todos, vencidos, teríamos morrido, fomos salvaguardados pelo juízo de tua clemência. <small> [JDD] </small> </small> </p>
+; <p> quem ab hoc necatum esse dixisti cum ad <b>iudici</b> moram familiaris funeris excusatio quaereretur <br> <small> Cic.Rab.Perd.8 <br> O qual disseste que foi assassinado por este homem, porque se buscava uma justificativa para o adiamento do julgamento por causa do funeral familiar. <small> [JDD] </small> </small> </p>
+; <p> tum se Milo continuit et P. Clodium in <b>iudicium</b> bis ad uim numquam uocauit <br> <small> Cic.Mil.40 <br> Então Milão se conteve e chamou duas veze Públio Clódio a julgamento, nunca à violência. <small> [JDD] </small> </small> </p>
+; <p> is est enim ille qui semper senatus <b>iudicium</b> et auctoritatem semper uoluntatem uestram potestatemque contempserit <br> <small> Cic.Phil.6.5.5 <br> Pois esse é aquele que sempre desprezou o julgamento e a autoridade do senado, sempre desprezou a vossa vontade e poder. <small> [JDD] </small> </small> </p>
+; <p> constat inter omnis post haec constituta <b>iudicia</b> quibus nunc utimur nullum hoc splendore atque hac dignitate consilium fuisse <br> <small> Cic.Ver.1.49 <br> Consta entre todos que, depois de estabelecido essa ação judicial da qual agora nos servimos, não houve nenhum tribunal com esta relevância e com esta dignidade. <small> [JDD] </small> </small> </p>
+; <p> cuius uis omnis haec semper fuit ne P. Clodius cum in <b>iudicium</b> detrahi non posset ui oppressam ciuitatem teneret <br> <small> Cic.Mil.38 <br> Toda violência dele sempre foi esta: que Públio Clódio, visto que não podia ser levado a julgamento, não mantivesse a cidade oprimida pela violência. <small> [JDD] </small> </small> </p>
+; <p> quid est quaeso Metelle <b>iudicium</b> conrumpere si hoc non est testis praesertim Siculos timidos homines et adflictos non solum auctoritate deterrere sed etiam consulari metu et duorum praetorum potestate <br> <small> Cic.Ver.1.28 <br> 28 O que é, eu pergunto, Metelo, corromper um julgamento, se isto não é: amedrontar as testemunhas, principalmente os sicilianos, homens temerosos e aflitos, não só com tua autoridade, mas também com o medo de um cônsul e com o poder dos dois pretores? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-117-100-105-99-105-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 14.7 and an absolute frequency of 236. The Suetonius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 9 ; absolute frequency: 3.39904826648538. subcorpus: Cicero ; normalized frequency: 236 ; absolute frequency: 14.7018514365453. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 13 ; absolute frequency: 2.4262331796719. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-117-100-105-99-105-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 18.43 and an absolute frequency of 192. The Prosa.oratória subcorpus follows, with a normalized frequency of 18.43 and an absolute frequency of 192. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 19 ; absolute frequency: 4.62523430463254. subcorpus: Prosa.filosófica ; normalized frequency: 19 ; absolute frequency: 3.13009670351395. subcorpus: Prosa.oratória ; normalized frequency: 192 ; absolute frequency: 18.4344185957198. subcorpus: Prosa.epistolográfica ; normalized frequency: 38 ; absolute frequency: 10.0691592252047. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-117-100-105-99-105-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 11.87 and an absolute frequency of 255. The I.d.C. subcorpus follows, with a normalized frequency of 2.29 and an absolute frequency of 15. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 255 ; absolute frequency: 11.8687456364906. subcorpus: I.d.C. ; normalized frequency: 15 ; absolute frequency: 2.29463056447912. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

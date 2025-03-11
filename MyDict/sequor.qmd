@@ -1,0 +1,210 @@
+---
+title: "sequor"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-101-113-117-111-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>sequor</b> <b>-èris</b> <b>sequí, secútus sum</b> <br> <small>v. dep. tr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Seguir, acompanhar, ir atrás &ensp; <small>sents. físico e moral Cés. B. Gal. 7, 50, 4; Cés. B. Gal. 1, 24, 4; Cíc. Lae. 19:' Cíc. Dej. 25.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Dirigir-se para &ensp; <small>Cíc. At. 10, 18, 2.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Perseguir, ir no encalço de, ir buscar &ensp; <small>Cés. B. Gal. 1. 22. 5.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Ceder sem resistência. conformar-se, obedecer &ensp; <small>Verg. En. 6. 146.</small> <br> <b>5</b> &ensp; <small>III-Sents. especiais:</small> &ensp; Segue-se, conclui-se &ensp; <small>indicando uma sequência ou consequência Cíc. Div. 2. 105: Cíc. Of. 2, 54.</small> <br> <b>6</b> &ensp; <small>III-Sents. especiais:</small> &ensp; Cair por sorte a, caber a &ensp; <small>T. Lív. 33, 13, 10.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Sequor</b> -<b>eris</b> -<b>cutus</b> -<b>quutus sum</b> <small>l</small> -<b>equi</b>   <p> <b>1</b> &ensp; <small>Ter.</small> &ensp; seguir, ir atraz de outro. <br> <b>2</b> &ensp; <small>Cic.</small> &ensp; seguir-se, ser consequencia. <br> <b>3</b> &ensp; imitar, tomar por modélo. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>sequi aliquem uestigiis &ensp; <small><small>Liv</small></small> &ensp; <small>Seguir alguem passo a passo</small> <br> sequi digitos &ensp; <small><small>Plin</small></small> &ensp; <small>Ser pegajoso, pegar-se aos dedos</small> <br> sequi gratiam alicuius &ensp; <small><small>Caes</small></small> &ensp; <small>Procurar entrar na boa graça de alguem</small> <br> sequi uerbum &ensp; <small><small>Cic</small></small> &ensp; <small>Interpretar litteralmente, tomar huma palavra ao pé da letra</small> </p>
+
+
+
+
+#### Velez
+
+<b>Sequor</b> -<b>eris</b>   <p> <b>1</b> &ensp; seguir &ensp; <small>Depon. cum accus.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Sequor</b> -<b>eris</b>   <p> <b>1</b> &ensp; seguir </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/124461 ' target="_blank"> http://lila-erc.eu/data/id/lemma/124461 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação depoente (sem vogal temática) <br>
+<small> outras grafias: </small> secor <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> secor, sequor </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz passiva </small><br>
+; <b> seci, sequi </b>&emsp;<small> presente | infinitivo | passivo </small><br>
+; <b> secetur, sequetur </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz passiva </small><br>
+; <b> secutum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> secuturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+sĕquor 
+ sĕquĕris 
+ sĕquī 
+ sĕcūtus sum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx115-101-113-117-111-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-101-113-117-111-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword sequor here are all the values plotted: collocate: auctoritas; scoreSUBST: 2. collocate: sententia; scoreSUBST: 2. collocate: deus; scoreSUBST: 2. collocate: Caesar; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-101-113-117-111-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword sequor here are all the values plotted: collocate: auctoritas; scoreADJ: 0. collocate: sententia; scoreADJ: 0. collocate: deus; scoreADJ: 0. collocate: Caesar; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-101-113-117-111-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword sequor here are all the values plotted: collocate: auctoritas; scoreVERBO: 0. collocate: sententia; scoreVERBO: 0. collocate: deus; scoreVERBO: 0. collocate: Caesar; scoreVERBO: 0. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-101-113-117-111-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword sequor here are all the values plotted: collocate: auctoritas; scoreADV: 0. collocate: sententia; scoreADV: 0. collocate: deus; scoreADV: 0. collocate: Caesar; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-101-113-117-111-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword sequor here are all the values plotted: collocate: auctoritas; scoreFUNC: 0. collocate: sententia; scoreFUNC: 0. collocate: deus; scoreFUNC: 0. collocate: Caesar; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> non igitur utilitatem amicitia sed utilitas amicitiam <b>secuta</b> est <br> <small> Cic.Amici.51 <br> Portanto, a amizade não foi consequência da utilidade, mas a utilidade foi consequência da amizade. <small> [JDD] </small> </small> </p>
+; <p> sedibus pulsi suis lacrimas <b>sequantur</b> di maritales sati ne <br> <small> Sen.Oed.955 <br> Que sigam as lágrimas, expulsos de suas órbitas: deuses maritais, é o bastante? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> post illas datas litteras <b>secuta</b> est summa contentio de domo <br> <small> Cic.Att.4.2.2 <br> Depois de dada aquela carta seguiu-se uma enorme discussão sobre a minha casa. <small> [JDD] </small> </small> </p>
+; <p> <b>secutus</b> est tum annus causam de pecuniis repetundis Catilina dixit <br> <small> Cic.Cael.10 <br> Passou-se então um ano, Catilina apresentou sua defesa a respeito da corrupção. <small> [JDD] </small> </small> </p>
+; <p> nempe ad eum cuius auctoritatem <b>secuti</b> in societatem belli ueneratis <br> <small> Cic.Lig.25 <br> Evidentemente àquele cuja autoridade seguistes e tínheis chegado a uma aliança de guerra. <small> [JDD] </small> </small> </p>
+; <p> dictae sunt a principibus acerrimae ac fortissimae sententiae quas senatus sine ulla uarietate est <b>secutus</b> <br> <small> Cic.Catil.3.13.9 <br> Foram ditas pelos principais senadores opiniões duríssimas e fortíssimas, as quais o senado, sem nenhuma mudança, seguiu. <small> [JDD] </small> </small> </p>
+; <p> concurritur undique ad commune incendium restinguendum ueterani quidem primi Caesaris auctoritatem <b>secuti</b> conatum Antoni reppulerunt post eiusdem furorem Martia legio fregit quarta adflixit <br> <small> Cic.Phil.10.21.1 <br> Corre-se de todas as partes para apagar o incêndio comum. Os veteranos, que foram os primeiros a seguir a autoridade de César, rechaçaram a tentativa de Antônio; depois a legião Márcia refreou a sua loucura, a quarta a aniquilou. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-101-113-117-111-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 20.22 and an absolute frequency of 9. The Seneca subcorpus follows, with a normalized frequency of 13.81 and an absolute frequency of 74. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 18 ; absolute frequency: 6.79809653297077. subcorpus: Cicero ; normalized frequency: 72 ; absolute frequency: 4.48531060775959. subcorpus: Horatius ; normalized frequency: 13 ; absolute frequency: 11.5442678270136. subcorpus: Ovidius ; normalized frequency: 7 ; absolute frequency: 12.0109814687714. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 6 ; absolute frequency: 5.56534644281607. subcorpus: Seneca ; normalized frequency: 74 ; absolute frequency: 13.8108657919785. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Hieronymus ; normalized frequency: 9 ; absolute frequency: 20.2201752415188'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-101-113-117-111-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 20.22 and an absolute frequency of 9. The Poesia.trágica subcorpus follows, with a normalized frequency of 18.24 and an absolute frequency of 21. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 1.59 and an absolute freqeuncy of 6. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 25 ; absolute frequency: 6.0858346113586. subcorpus: Prosa.filosófica ; normalized frequency: 71 ; absolute frequency: 11.6966771552363. subcorpus: Prosa.oratória ; normalized frequency: 48 ; absolute frequency: 4.60860464892994. subcorpus: Prosa.epistolográfica ; normalized frequency: 6 ; absolute frequency: 1.58986724608495. subcorpus: Poesia.lírica ; normalized frequency: 13 ; absolute frequency: 10.9363169849415. subcorpus: Poesia.didática ; normalized frequency: 9 ; absolute frequency: 7.63423530409704. subcorpus: Poesia.trágica ; normalized frequency: 21 ; absolute frequency: 18.2418346073662. subcorpus: Poesia.épica ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Prosa.ficcional ; normalized frequency: 9 ; absolute frequency: 20.2201752415188'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-101-113-117-111-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 20.22 and an absolute frequency of 9. The I.d.C. subcorpus follows, with a normalized frequency of 12.7 and an absolute frequency of 83. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 2.62 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 115 ; absolute frequency: 5.35257156155457. subcorpus: I.d.C. ; normalized frequency: 83 ; absolute frequency: 12.6969557901178. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 9 ; absolute frequency: 20.2201752415188'}
+
+
+:::
+

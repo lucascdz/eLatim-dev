@@ -1,0 +1,202 @@
+---
+title: "alienus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-108-105-101-110-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>alienus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Que pertence a outro, alheio, estranho &ensp; <small>T. Lív. 3, 62, 9.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Estrangeiro &ensp; <small>Cíc. Verr. 4, 114.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Afastado de, contrário, hostil &ensp; <small>Cés. B. Civ. 1, 6, 2.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Inoportuno, deslocado, impróprio, incompatível &ensp; <small>Cíc. Verr. 4, 109.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Prejudicial, desvantajoso &ensp; <small>Cés. B. Gal. 4, 34, 2; Ciíc. De Or. 3, 155.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Alienus</b> -<b>a</b> -<b>um</b> -<b>nior</b> -<b>nissimus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; alheio, pertencente a outro. <br> <b>2</b> &ensp; contrario, opposto. <br> <b>3</b> &ensp; estranho. </p>
+
+
+
+
+#### Velez
+
+<b>Alienus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa alhea; ou diversa &ensp; <small>Cum dativo</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>alieno in aliquem esse animo &ensp; <small><small>i, ex amico inimicus factus</small></small> <br> dicacitas scurrilis huic personae alienissima est <br> homo litteris alienus &ensp; <small><small>i, abhorrens</small></small> <br> <br><b>X</b><br>in febri aliena loqui &ensp; <small>dizer desvarios</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Alienus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa alhea. ou estranha </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/88330 ' target="_blank"> http://lila-erc.eu/data/id/lemma/88330 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ălĭēnus 
+ ălĭēna 
+ ălĭēnum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-108-105-101-110-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-108-105-101-110-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword alienus here are all the values plotted: collocate: aes; scoreSUBST: 5. collocate: bonum; scoreSUBST: 2. collocate: locus; scoreSUBST: 2. collocate: tempus; scoreSUBST: 2. collocate: in; scoreSUBST: 0. collocate: non; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-108-105-101-110-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword alienus here are all the values plotted: collocate: aes; scoreADJ: 0. collocate: bonum; scoreADJ: 0. collocate: locus; scoreADJ: 0. collocate: tempus; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: non; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-108-105-101-110-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword alienus here are all the values plotted: collocate: aes; scoreVERBO: 0. collocate: bonum; scoreVERBO: 0. collocate: locus; scoreVERBO: 0. collocate: tempus; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: non; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-108-105-101-110-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword alienus here are all the values plotted: collocate: aes; scoreADV: 0. collocate: bonum; scoreADV: 0. collocate: locus; scoreADV: 0. collocate: tempus; scoreADV: 0. collocate: in; scoreADV: 0. collocate: non; scoreADV: 1'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-108-105-101-110-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword alienus here are all the values plotted: collocate: aes; scoreFUNC: 0. collocate: bonum; scoreFUNC: 0. collocate: locus; scoreFUNC: 0. collocate: tempus; scoreFUNC: 0. collocate: in; scoreFUNC: 20. collocate: non; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> hic est locus soluendi aeris <b>alieni</b> <br> <small> Sen.Ep.23.9 <br> Este é o lugar de te pagar com dinheiro alheio. <small> [JDD] </small> </small> </p>
+; <p> omnia Lucili <b>aliena</b> sunt tempus tantum nostrum est <br> <small> Sen.Ep.1.3 <br> Todas as coisas, Lucílio, são dos outros, somente o tempo é nosso. <small> [JDD] </small> </small> </p>
+; <p> et erat primi libri sermo non <b>alienus</b> a Scaevolae studiis <br> <small> Cic.Att.4.16.3 <br> E a conversa do primeiro livro não era alheia aos estudos de Cévola. <small> [JDD] </small> </small> </p>
+; <p> licuit uobis cum summa turpitudine in exilio aetatem agere potuistis nonnulli Romae amissis bonis <b>alienas</b> opes expectare <br> <small> Sal.Cat.58.13 <br> Vos foi permitido passar vossa vida no exílio com suprema infâmia, alguns pudestes em Roma, depois de perdidos os bens, ficar na expectativa das riquezas alheias. <small> [JDD] </small> </small> </p>
+; <p> plerique cum aut aere <b>alieno</b> aut magnitudine tributorum aut iniuria potentiorum premuntur sese in seruitutem dicant nobilibus <br> <small> Caes.Gal.6.13.2 <br> Muitos, quando são oprimidos ou por dívida ou pelo grande peso dos tributos ou pela injúria dos mais poderoso, se entregam aos nobres em servidão. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-108-105-101-110-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 17.62 and an absolute frequency of 19. The Sallustius subcorpus follows, with a normalized frequency of 17.62 and an absolute frequency of 19. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 7 ; absolute frequency: 2.64370420726641. subcorpus: Cicero ; normalized frequency: 60 ; absolute frequency: 3.73775883979966. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 19 ; absolute frequency: 17.6235970689175. subcorpus: Seneca ; normalized frequency: 49 ; absolute frequency: 9.14503275414793. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-108-105-101-110-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 7.58 and an absolute frequency of 46. The Prosa.histórica subcorpus follows, with a normalized frequency of 6.82 and an absolute frequency of 28. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 28 ; absolute frequency: 6.81613476472163. subcorpus: Prosa.filosófica ; normalized frequency: 46 ; absolute frequency: 7.57812886113903. subcorpus: Prosa.oratória ; normalized frequency: 48 ; absolute frequency: 4.60860464892994. subcorpus: Prosa.epistolográfica ; normalized frequency: 11 ; absolute frequency: 2.91475661782241. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-108-105-101-110-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 7.8 and an absolute frequency of 51. The I.d.C. subcorpus follows, with a normalized frequency of 7.8 and an absolute frequency of 51. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 93 ; absolute frequency: 4.32860134977892. subcorpus: I.d.C. ; normalized frequency: 51 ; absolute frequency: 7.801743919229. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

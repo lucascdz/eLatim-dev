@@ -1,0 +1,199 @@
+---
+title: "paene"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-97-101-110-101xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>paenĕ</b> <br> <small>ou</small> <b>pēnĕ</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Quase, por um fio, a ponto de &ensp; <small>Cíc. At. 5, 20, 6.</small> </p> 
+ <b>pēnĕ</b> <br> <small>adv.</small> <br> <small>v. paene.</small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Paene</b> <br> <small>v. Pene, Penula.</small> 
+ <b>Pene</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; quasi. </p>
+
+
+
+
+#### Velez
+
+<b>Pene</b> <br> <small>Adverb.</small>   <p> <b>1</b> &ensp; quasi </p>
+
+
+
+
+#### Cardoso
+
+<b>Pene</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; quasi </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/115620 ' target="_blank"> http://lila-erc.eu/data/id/lemma/115620 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> paenissime, paenissume, pene, penissime, penissume <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+paenĕ
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-97-101-110-101xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword paene here are all the values plotted: collocate: iam; scoreSUBST: 0. collocate: publicus; scoreSUBST: 0. collocate: sed; scoreSUBST: 0. collocate: ut; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-97-101-110-101xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword paene here are all the values plotted: collocate: iam; scoreADJ: 0. collocate: publicus; scoreADJ: 2. collocate: sed; scoreADJ: 0. collocate: ut; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-97-101-110-101xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword paene here are all the values plotted: collocate: iam; scoreVERBO: 0. collocate: publicus; scoreVERBO: 0. collocate: sed; scoreVERBO: 0. collocate: ut; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-97-101-110-101xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword paene here are all the values plotted: collocate: iam; scoreADV: 2. collocate: publicus; scoreADV: 0. collocate: sed; scoreADV: 0. collocate: ut; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-97-101-110-101xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword paene here are all the values plotted: collocate: iam; scoreFUNC: 0. collocate: publicus; scoreFUNC: 0. collocate: sed; scoreFUNC: 0. collocate: ut; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Paulus in medio foro basilicam iam <b>paene</b> texerat isdem antiquis columnis <br> <small> Cic.Att.4.17.7 <br> Paulo já quase cobriu a basílica no meio do foro nas mesmas antigas colunas. <small> [JDD] </small> </small> </p>
+; <p> ita sine cura consules sunt ut <b>paene</b> liberum sit senatori non adesse <br> <small> Cic.Phil.1.12.4 <br> De tal modo são os cônsules sem preocupação com isso, que é quase livre para o senador não estar presente. <small> [JDD] </small> </small> </p>
+; <p> sed annos septuaginta natus tot enim uixit Ennius ita ferebat duo quae maxuma putantur onera paupertatem et senectutem ut iis <b>paene</b> delectari uideretur <br> <small> Cic.Sen.14 <br> Aos setenta anos (pois Ênio viveu tanto tempo) ele suportava de tal maneira as duas cargas que são consideradas as mais pesadas, a pobreza e a velhice, que parecia que quase se deleitava com elas. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> negat esse eiusdem seueritatis Catilinam exitium rei publicae intra moenia molientem uerbis et <b>paene</b> imperio ex urbe expulisse et nunc pro L. Murena dicere <br> <small> Cic.Mur.6 <br> Nega que seja do mesmo rigor ter expulsado da cidade com minhas palavras e quase com minha autoridade Catilina, que maquinava, dentro dos muros, a ruína da república e agora discursar em defesa de Lúcio Murena. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-97-101-110-101xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 22.05 and an absolute frequency of 2. The Caesar subcorpus follows, with a normalized frequency of 4.53 and an absolute frequency of 12. the subcorpus with the least normalized frequency is Sallustius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 12 ; absolute frequency: 4.53206435531385. subcorpus: Cicero ; normalized frequency: 51 ; absolute frequency: 3.17709501382971. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 3 ; absolute frequency: 0.559899964539669. subcorpus: Suetonius ; normalized frequency: 2 ; absolute frequency: 22.0507166482911. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-97-101-110-101xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 3.65 and an absolute frequency of 38. The Prosa.histórica subcorpus follows, with a normalized frequency of 3.41 and an absolute frequency of 14. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 14 ; absolute frequency: 3.40806738236082. subcorpus: Prosa.filosófica ; normalized frequency: 8 ; absolute frequency: 1.31793545411113. subcorpus: Prosa.oratória ; normalized frequency: 38 ; absolute frequency: 3.64847868040287. subcorpus: Prosa.epistolográfica ; normalized frequency: 7 ; absolute frequency: 1.85484512043244. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-97-101-110-101xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The I.a.C. subcorpus follows, with a normalized frequency of 3.03 and an absolute frequency of 65. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 65 ; absolute frequency: 3.02536653479172. subcorpus: I.d.C. ; normalized frequency: 5 ; absolute frequency: 0.764876854826373. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

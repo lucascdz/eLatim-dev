@@ -1,0 +1,221 @@
+---
+title: "urbs"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-114-98-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>urbs</b> <b>urbis</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Cidade &ensp; <small>em oposição a rus “campo”, e arx ‘a cidadela’ T. Lív. 9, 41, 16.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Roma, a cidade por excelência &ensp; <small>Cés. B. Gal. 1, 7, 1.</small> <br> <b>3</b> &ensp; <small>II-Por extensão:</small> &ensp; Cidade, população de uma cidade, cidadãos &ensp; <small>Verg. En. 2, 265.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Urbs</b> -<b>bis</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; cidade. <br> <b>2</b> &ensp; <small>Hor.</small> &ensp; cidade de Roma. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Vrbs</b> <b>is</b>   <p> <b>1</b> &ensp; a cidade </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/130822 ' target="_blank"> http://lila-erc.eu/data/id/lemma/130822 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> urps <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx117-114-98-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-114-98-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword urbs here are all the values plotted: collocate: condo; scoreSUBST: 0. collocate: ex; scoreSUBST: 0. collocate: tectum; scoreSUBST: 3. collocate: ornamentum; scoreSUBST: 2. collocate: totus; scoreSUBST: 0. collocate: hic; scoreSUBST: 0. collocate: incendo; scoreSUBST: 0. collocate: templum; scoreSUBST: 2. collocate: uigilia; scoreSUBST: 2. collocate: Roma; scoreSUBST: 0. collocate: incendium; scoreSUBST: 2. collocate: expello; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: pulcher; scoreSUBST: 0. collocate: capio; scoreSUBST: 0. collocate: hostis; scoreSUBST: 2. collocate: atque; scoreSUBST: 0. collocate: proficiscor; scoreSUBST: 0. collocate: duo; scoreSUBST: 0. collocate: ad; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-114-98-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword urbs here are all the values plotted: collocate: condo; scoreADJ: 0. collocate: ex; scoreADJ: 0. collocate: tectum; scoreADJ: 0. collocate: ornamentum; scoreADJ: 0. collocate: totus; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: incendo; scoreADJ: 0. collocate: templum; scoreADJ: 0. collocate: uigilia; scoreADJ: 0. collocate: Roma; scoreADJ: 0. collocate: incendium; scoreADJ: 0. collocate: expello; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: pulcher; scoreADJ: 2. collocate: capio; scoreADJ: 0. collocate: hostis; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: proficiscor; scoreADJ: 0. collocate: duo; scoreADJ: 0. collocate: ad; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-114-98-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword urbs here are all the values plotted: collocate: condo; scoreVERBO: 3. collocate: ex; scoreVERBO: 0. collocate: tectum; scoreVERBO: 0. collocate: ornamentum; scoreVERBO: 0. collocate: totus; scoreVERBO: 0. collocate: hic; scoreVERBO: 0. collocate: incendo; scoreVERBO: 2. collocate: templum; scoreVERBO: 0. collocate: uigilia; scoreVERBO: 0. collocate: Roma; scoreVERBO: 0. collocate: incendium; scoreVERBO: 0. collocate: expello; scoreVERBO: 2. collocate: in; scoreVERBO: 0. collocate: pulcher; scoreVERBO: 0. collocate: capio; scoreVERBO: 2. collocate: hostis; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: proficiscor; scoreVERBO: 2. collocate: duo; scoreVERBO: 0. collocate: ad; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-114-98-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword urbs here are all the values plotted: collocate: condo; scoreADV: 0. collocate: ex; scoreADV: 0. collocate: tectum; scoreADV: 0. collocate: ornamentum; scoreADV: 0. collocate: totus; scoreADV: 0. collocate: hic; scoreADV: 0. collocate: incendo; scoreADV: 0. collocate: templum; scoreADV: 0. collocate: uigilia; scoreADV: 0. collocate: Roma; scoreADV: 0. collocate: incendium; scoreADV: 0. collocate: expello; scoreADV: 0. collocate: in; scoreADV: 0. collocate: pulcher; scoreADV: 0. collocate: capio; scoreADV: 0. collocate: hostis; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: proficiscor; scoreADV: 0. collocate: duo; scoreADV: 0. collocate: ad; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-114-98-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword urbs here are all the values plotted: collocate: condo; scoreFUNC: 0. collocate: ex; scoreFUNC: 30. collocate: tectum; scoreFUNC: 0. collocate: ornamentum; scoreFUNC: 0. collocate: totus; scoreFUNC: 0. collocate: hic; scoreFUNC: 0. collocate: incendo; scoreFUNC: 0. collocate: templum; scoreFUNC: 0. collocate: uigilia; scoreFUNC: 0. collocate: Roma; scoreFUNC: 0. collocate: incendium; scoreFUNC: 0. collocate: expello; scoreFUNC: 0. collocate: in; scoreFUNC: 30. collocate: pulcher; scoreFUNC: 0. collocate: capio; scoreFUNC: 0. collocate: hostis; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: proficiscor; scoreFUNC: 0. collocate: duo; scoreFUNC: 0. collocate: ad; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> exire ex <b>urbe</b> iubet consul hostem <br> <small> Cic.Catil.1.13.2 <br> O cônsul ordena que o inimigo saia da cidade. <small> [JDD] </small> </small> </p>
+; <p> itaque in <b>urbe</b> maneo si licebit manebo <br> <small> Cic.Phil.12.24.4 <br> E assim permaneço na cidade; se me for permitido, permanecerei. <small> [JDD] </small> </small> </p>
+; <p> in qua tandem <b>urbe</b> hoc homines stultissimi disputant <br> <small> Cic.Mil.7 <br> Em que cidade afinal homens estultíssimos sustentam isso? <small> [JDD] </small> </small> </p>
+; <p> qui uideret equum Troianum introductum <b>urbem</b> captam diceret <br> <small> Cic.Ver.2.4.52.2 <br> Quem visse diria que o cavalo de Tróia tinha sido introduzido na cidade tomada. <small> [JDD] </small> </small> </p>
+; <p> imperium Dido Tyria regit <b>urbe</b> profecta germanum fugiens <br> <small> Verg.A.1.340 <br> Governa este império Dido, que partiu da cidade de Tiro, fugindo de seu irmão. <small> [JDD] </small> </small> </p>
+; <p> loco ille motus est cum est ex <b>urbe</b> depulsus <br> <small> Cic.Catil.2.1.11 <br> Ele foi desalojado de sua posição, quando foi expulso da cidade. <small> [JDD] </small> </small> </p>
+; <p> itaque breui tempore ad fanum ex <b>urbe</b> tota concurritur <br> <small> Cic.Ver.2.4.95.4 <br> E assim, em pouco tempo, corre-se da cidade inteira em direção ao templo. <small> [JDD] </small> </small> </p>
+; <p> <b>urbem</b> Syracusas maximam esse Graecarum pulcherrimam omnium saepe audistis <br> <small> Cic.Ver.2.4.117.1 <br> 117 Ouvistes com frequência que a cidade de Siracusa é a maior das cidades gregas e a mais bela de todas. <small> [JDD] </small> </small> </p>
+; <p> aeque et hic intacta bona per concrematas <b>urbes</b> fert <br> <small> Sen.Ep.9.19 <br> também este leva igualmente seus bens intactos através das cidades incendiadas. <small> [JDD] </small> </small> </p>
+; <p> iam uero <b>urbes</b> coloniarum ac municipiorum respondebunt Catilinae tumulis siluestribus <br> <small> Cic.Catil.2.24.8 <br> Agora as cidades das colônias e dos municípios responderão aos montes silvestres de Catilina. <small> [JDD] </small> </small> </p>
+; <p> exercitus hostium duo unus ab <b>urbe</b> alter a Gallia obstant <br> <small> Sal.Cat.58.6 <br> Dois exércitos dos inimigos, um do lado da cidade, o outro do lado da Gália, nos barram a passagem. <small> [JDD] </small> </small> </p>
+; <p> illi inquam <b>urbi</b> fortissime conanti e manibus est ereptus Antonius <br> <small> Cic.Phil.12.7.16 <br> Das mãos daquela, eu digo, daquela cidade que com muita valentia tentava, Antônio foi resgatado. <small> [JDD] </small> </small> </p>
+; <p> di immortales nobis haec praesidia dederunt <b>urbi</b> Caesarem Brutum Galliae <br> <small> Cic.Phil.3.34.1 <br> Os deuses imortais nos deram estas salvaguardas, César para a cidade, Bruto para a Gália. <small> [JDD] </small> </small> </p>
+; <p> quis genus Aeneadum quis Troiae nesciat <b>urbem</b> uirtutesque uirosque aut tanti incendia belli <br> <small> Verg.A.1.565 <br> Quem ignora a linhagem dos Enéades, quem ignora a cidade de Tróia e suas façanhas e seus homens ou os incêndios de sua tão grande guerra? <small> [JDD] </small> </small> </p>
+; <p> illi regibus parere iam a condita <b>urbe</b> didicerant nos post reges exactos seruitutis obliuio ceperat <br> <small> Cic.Phil.3.9.1 <br> Aquele tinham aprendido a obedecer aos reis já desde a fundação da cidade; o esquecimento da escravidão tinha se apoderado de nós após a expulsão dos reis. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> uno enim tempore Agrigentini beneficium Africani religionem domesticam ornamentum <b>urbis</b> indicium uictoriae testimonium societatis requirebant <br> <small> Cic.Ver.2.4.93.8 <br> Pois a um só tempo os agrigentinos reclamavam o benefício do Africano, o objeto do culto religioso doméstico, o ornamento da cidade, a marca de uma vitória, o testemunho de nossa aliança. <small> [JDD] </small> </small> </p>
+; <p> aspice agedum hanc frequentiam cui uix <b>urbis</b> immensae tecta sufficiunt maxima pars istius turbae patria caret <br> <small> Sen.Helv.6.2 <br> Ora, contempla essa aglomeração para a qual mal bastam os tetos da imensa cidade; a maior parte dessa turba está privada da pátria. <small> [JDD] </small> </small> </p>
+; <p> an cum bello uastabitur Italia uexabuntur <b>urbes</b> tecta ardebunt tum te non existimas inuidiae incendio conflagraturum <br> <small> Cic.Catil.1.29.3 <br> Acaso, quando a Itália for devastada pela guerra, as cidades forem arruinadas, as casas arderem nas chamas, não achas que tu então te queimarás no incêndio do ódio?” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Cn. Octauius consul armis expulit ex <b>urbe</b> conlegam omnis hic locus aceruis corporum et ciuium sanguine redundauit <br> <small> Cic.Catil.3.24.5 <br> O cônsul Cneu Otávio expulsou da cidade seu colega com a força das armas; todo este local se encheu de montões de corpos e de sangue de cidadãos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> uideor enim mihi uidere hanc <b>urbem</b> lucem orbis terrarum atque arcem omnium gentium subito uno incendio concidentem <br> <small> Cic.Catil.4.11.11 <br> Pois pareço que estou vendo esta cidade, luz do orbe da terra e cidadela de todas as nações, subitamente caindo num incêndio único. <small> [JDD] </small> </small> </p>
+; <p> haustae aut obrutae <b>urbes</b> fecundissima Campaniae ora et <b>urbs</b> incendiis uastata consumptis antiquissimis delubris ipso Capitolio ciuium manibus incenso <br> <small> Tac.Hist.1.2.10 <br> As cidades, as fertilíssimas costas da Campânia engolidas ou submergidas; e Roma devastada por incêndios, com seus antiquíssimos santuários consumidos, com o próprio Capitólio incendiado pelas mãos dos cidadãos. <small> [JDD] </small> </small> </p>
+; <p> quod ni Catilina maturasset pro curia signum sociis dare eo die post conditam <b>urbem</b> Romam pessumum facinus patratum foret <br> <small> Sal.Cat.18.8 <br> E se Catilina não tivesse se apressado em dar o sinal aos aliados diante da cúria, naquele dia teria sido realizada a pior ação desde fundação da cidade de Roma. <small> [JDD] </small> </small> </p>
+; <p> operae pretium est cum domos atque uillas cognoueris in <b>urbium</b> modum exaedificatas uisere templa deorum quae nostri maiores religiosissumi mortales fecere <br> <small> Sal.Cat.12.3 <br> Vale a pena, quando tiveres conhecido as mansões e as casas de campo, construídas à maneira das cidades, ver os templos dos deuses, que os nossos antepassados, mortais muito religiosos, fizeram. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nunc iam aperte rem publicam uniuersam petis templa deorum immortalium tecta <b>urbis</b> uitam omnium ciuium Italiam totam ad exitium et uastitatem uocas <br> <small> Cic.Catil.1.12.1 <br> Agora já atacas abertamente a república toda; os templos dos deuses imortais, os tetos da cidade, a vida de todos os cidadãos, a Itália inteira arrastas para a ruína e destruição. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nihil ne te nocturnum praesidium Palati nihil <b>urbis</b> uigiliae nihil timor populi nihil concursus bonorum omnium nihil hic munitissimus habendi senatus locus nihil horum ora uoltusque mouerunt <br> <small> Cic.Catil.1.1.3 <br> Em nada a guarda noturna do Palatino, em nada as rondas da cidade, em nada o temor do povo, em nada a afluência de todos os bons, em nada este fortificadíssimo local de o senado se reunir, em nada as fisionomias e os rostos destes te abalaram? <small> [JDD] </small> </small> </p>
+; <p> uos Quirites quoniam iam est nox uenerati Iouem illum custodem huius <b>urbis</b> ac uestrum in uestra tecta discedite et ea quamquam iam est periculum depulsum tamen aeque ac priore nocte custodiis uigiliisque defendite <br> <small> Cic.Catil.3.29.6 <br> Vós, Quirites, uma vez que já é noite, venerai a Júpiter, o guardião desta cidade e de vós, e ide para vossas casas e, embora o perigo já tenha sido afastado, mesmo assim defendei-as com guardas e vigias igual à noite passada. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-114-98-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 38.61 and an absolute frequency of 20. The Tacitus subcorpus follows, with a normalized frequency of 34.33 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 258 ; absolute frequency: 16.0723630111385. subcorpus: Horatius ; normalized frequency: 12 ; absolute frequency: 10.6562472249356. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 27 ; absolute frequency: 25.0440589926723. subcorpus: Seneca ; normalized frequency: 25 ; absolute frequency: 4.66583303783057. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 10 ; absolute frequency: 34.3288705801579. subcorpus: Vergilius ; normalized frequency: 20 ; absolute frequency: 38.6100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-114-98-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 38.61 and an absolute frequency of 20. The Prosa.oratória subcorpus follows, with a normalized frequency of 23.33 and an absolute frequency of 243. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 40 ; absolute frequency: 9.73733537817376. subcorpus: Prosa.filosófica ; normalized frequency: 23 ; absolute frequency: 3.78906443056951. subcorpus: Prosa.oratória ; normalized frequency: 243 ; absolute frequency: 23.3310610352078. subcorpus: Prosa.epistolográfica ; normalized frequency: 11 ; absolute frequency: 2.91475661782241. subcorpus: Poesia.lírica ; normalized frequency: 12 ; absolute frequency: 10.0950618322537. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 6 ; absolute frequency: 5.21195274496178. subcorpus: Poesia.épica ; normalized frequency: 20 ; absolute frequency: 38.6100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-114-98-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 28.8 and an absolute frequency of 11. The I.a.C. subcorpus follows, with a normalized frequency of 14.85 and an absolute frequency of 319. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 319 ; absolute frequency: 14.847568070747. subcorpus: I.d.C. ; normalized frequency: 28 ; absolute frequency: 4.28331038702769. subcorpus: II.d.C. ; normalized frequency: 11 ; absolute frequency: 28.7958115183246. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

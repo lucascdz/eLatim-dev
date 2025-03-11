@@ -1,0 +1,209 @@
+---
+title: "nolo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-111-108-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>nevis</b> <b>nevult ou nevolt, nevelles</b> <br> <small>= non vis, non vult ou volt, nolles, formas arcaicas do pres. do ind. e imperf. do subj. do v. nolo Plaul. Mosl. 762; Plaut. Trin. 1.156, etc.</small> <br> <small></small> 
+ <b>nōlo</b> <b>nón vís, nólle, nólùi</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói-se com inf.: ou acus. com inf.; ou com acus. Farmas arcaicas: nevis plaut. Most. 762 non vis; nevolt Plaul. Most. 110 = non volt; nevellis plaut. Trin. 1.156 = nolles.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Não querer &ensp; <small>Cíc. Fin. 4, 71; Cíc. Mur. 59.</small> <br> <b>2</b> &ensp; <small>I-Sent. próprio-O imperativo seguido de inf. serve para exprimir uma interdição delicada:</small> &ensp; <small></small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Não querer bem a alguém, não ser favorável a &ensp; <small>Cíc. Fam. 1, 1, 3.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>noli existimare Cíc. Br. 148 “não queiras acreditar não acredites”. </p> 
+ <b>nōlŭī</b> <br> <small>perf. de nólo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Nevolo</b> <br> <small>Plaut. por Nolo.</small> 
+ <b>Nolo</b> <b>nonvis</b> <b>nolui</b> <b>nolle</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; não querer. </p>
+
+
+
+
+#### Velez
+
+<b>Nolo</b> <b>nonvis</b>   <p> <b>1</b> &ensp; naõ querer </p>
+
+
+
+
+#### Cardoso
+
+<b>Nolo</b> <b>nonuis</b> <b>nolui</b> <b>nolitum</b>   <p> <b>1</b> &ensp; não querer </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/113794 ' target="_blank"> http://lila-erc.eu/data/id/lemma/113794 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> irregular <br>
+<small> outras grafias: </small> neuolo <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> neuolo, nolo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> nolle </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> nolet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> nolui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+
+
+
+
+
+#### Lexicala
+
+nōlō 
+ non vīs 
+ nōlŭī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx110-111-108-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-111-108-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword nolo here are all the values plotted: collocate: obsecro; scoreSUBST: 0. collocate: eo; scoreSUBST: 0. collocate: timeo; scoreSUBST: 0. collocate: uiuo; scoreSUBST: 0. collocate: ita; scoreSUBST: 0. collocate: idem; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-111-108-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword nolo here are all the values plotted: collocate: obsecro; scoreADJ: 0. collocate: eo; scoreADJ: 0. collocate: timeo; scoreADJ: 0. collocate: uiuo; scoreADJ: 0. collocate: ita; scoreADJ: 0. collocate: idem; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-111-108-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword nolo here are all the values plotted: collocate: obsecro; scoreVERBO: 3. collocate: eo; scoreVERBO: 2. collocate: timeo; scoreVERBO: 2. collocate: uiuo; scoreVERBO: 2. collocate: ita; scoreVERBO: 0. collocate: idem; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-111-108-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword nolo here are all the values plotted: collocate: obsecro; scoreADV: 0. collocate: eo; scoreADV: 0. collocate: timeo; scoreADV: 0. collocate: uiuo; scoreADV: 0. collocate: ita; scoreADV: 2. collocate: idem; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-111-108-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword nolo here are all the values plotted: collocate: obsecro; scoreFUNC: 0. collocate: eo; scoreFUNC: 0. collocate: timeo; scoreFUNC: 0. collocate: uiuo; scoreFUNC: 0. collocate: ita; scoreFUNC: 0. collocate: idem; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> semper idem uelle atque idem <b>nolle</b> <br> <small> Sen.Ep.20.5 <br> Querer sempre o mesmo e não querer sempre o mesmo. <small> [JDD] </small> </small> </p>
+; <p> uiuere <b>noluit</b> qui mori non uult <br> <small> Sen.Ep.30.10 <br> Não quis viver quem não quer morrer. <small> [JDD] </small> </small> </p>
+; <p> <b>nolite</b> obsecro uos acerbiorem mihi pati reditum esse quam fuerit ille ipse discessus <br> <small> Cic.Mil.103 <br> Não permitais, eu vos imploro, que o meu regresso seja mais doloroso para mim do que foi a própria partida. <small> [JDD] </small> </small> </p>
+; <p> at misit ad nescio quem Caecilium sed eos quos misit quod ire <b>noluerunt</b> in uincla coniecit <br> <small> Cic.Deiot.23 <br> 23 Mas é que enviou a um não sei que Cecílio, mas os que ele enviou, porque não quiseram ir, meteu-os na prisão. <small> [JDD] </small> </small> </p>
+; <p> quibus ex nauibus cum essent expositi milites circiter trecenti atque in castra contenderent Morini quos Caesar in Britanniam proficiscens pacatos reliquerat spe praedae adducti primo non ita magno suorum numero circumsteterunt ac si sese interfici <b>nollent</b> arma ponere iusserunt <br> <small> Caes.Gal.4.37.1 <br> Como desses navios tinham desembarcado cerca de trezentos soldados e se dirigiam ao acampamento, os morinos, que César, ao partir para a Britânia, tinha deixado pacificados, levados pela esperança de presa, os circundaram com um número não tão grande dos seus e ordenaram que depusessem as armas, se não queriam ser mortos. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-111-108-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 10.63 and an absolute frequency of 7. The Suetonius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 7 ; absolute frequency: 2.64370420726641. subcorpus: Cicero ; normalized frequency: 84 ; absolute frequency: 5.23286237571952. subcorpus: Horatius ; normalized frequency: 10 ; absolute frequency: 8.88020602077968. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 7 ; absolute frequency: 10.6269925611052. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 31 ; absolute frequency: 5.78563296690991. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-111-108-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 8.41 and an absolute frequency of 10. The Poesia.lírica subcorpus follows, with a normalized frequency of 8.41 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 12 ; absolute frequency: 2.92120061345213. subcorpus: Prosa.filosófica ; normalized frequency: 33 ; absolute frequency: 5.43648374820843. subcorpus: Prosa.oratória ; normalized frequency: 55 ; absolute frequency: 5.28069282689889. subcorpus: Prosa.epistolográfica ; normalized frequency: 25 ; absolute frequency: 6.6244468586873. subcorpus: Poesia.lírica ; normalized frequency: 10 ; absolute frequency: 8.4125515268781. subcorpus: Poesia.didática ; normalized frequency: 8 ; absolute frequency: 6.78598693697515. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-111-108-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 7.85 and an absolute frequency of 3. The II.d.C. subcorpus follows, with a normalized frequency of 7.85 and an absolute frequency of 3. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 4.79 and an absolute freqeuncy of 103. here are all the values: subcorpus: I.a.C. ; normalized frequency: 103 ; absolute frequency: 4.79404235513149. subcorpus: I.d.C. ; normalized frequency: 39 ; absolute frequency: 5.96603946764571. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+:::
+

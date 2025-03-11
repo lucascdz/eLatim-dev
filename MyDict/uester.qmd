@@ -1,0 +1,221 @@
+---
+title: "uester"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-101-115-116-101-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>vester</b> <b>-tra</b> <b>-trum</b> <br> <b>voster</b> <b>-tra</b> <b>-trum</b> <br> <small>pron. poss.</small> <br> <small>Obs.: Gen. pl.: vestrum = vestrorum Plaut. Mil. 174.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Vosso, vossa &ensp; <small>subjetivo e objetivo Cíc. Rep. 6, 14; T. Lív. 30, 44, 7.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; O vosso senhor &ensp; <small>Plaut. St. 664.</small> <br> <b>3</b> &ensp; <small>II-Como neutro:</small> &ensp; Vossa maneira de ser &ensp; <small>Ter. Eun. 1.066.</small> <br> <b>4</b> &ensp; <small>II-Como neutro:</small> &ensp; Vossos bens, vossos haveres &ensp; <small>T. Lív. 6, 15, 10.</small> <br> <b>5</b> &ensp; <small>II-Como masc. pl.:</small> &ensp; Os vossos, vossos amigos, vosso século &ensp; <small>Cíc. Nat. 3, 35.</small> <br> <b>6</b> &ensp; <small>II-Como neutro pl.:</small> &ensp; Vossas obras, vossas teorias &ensp; <small>Cíc. Nat. 2, 73.</small> </p> 
+ <b>voster</b> <br> <small></small> <br> <small>v. vester.</small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Vester</b> -<b>tra</b> -<b>trum</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; vosso. </p> 
+ <b>Voster</b> -<b>tra</b> -<b>trum</b>   <p> <b>1</b> &ensp; <small>Plaut.</small> &ensp; vosso. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Vester</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa vosa </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/130009 ' target="_blank"> http://lila-erc.eu/data/id/lemma/130009 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> bester, bestermet, besterpte, uestermet, uesterpte, uoster, uostermet, uosterpte <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-101-115-116-101-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword uester here are all the values plotted: collocate: auctoritas; scoreSUBST: 3. collocate: sapientia; scoreSUBST: 3. collocate: salus; scoreSUBST: 2. collocate: libertas; scoreSUBST: 2. collocate: dignitas; scoreSUBST: 2. collocate: beneficium; scoreSUBST: 2. collocate: familia; scoreSUBST: 2. collocate: maiores; scoreSUBST: 2. collocate: fretus; scoreSUBST: 0. collocate: uoluntas; scoreSUBST: 2. collocate: decretum; scoreSUBST: 2. collocate: auris; scoreSUBST: 2. collocate: liberi; scoreSUBST: 2. collocate: consilium; scoreSUBST: 2. collocate: que; scoreSUBST: 0. collocate: potestas; scoreSUBST: 2. collocate: iudicium; scoreSUBST: 2. collocate: socius; scoreSUBST: 2. collocate: praesidium; scoreSUBST: 2. collocate: mens; scoreSUBST: 2. collocate: de; scoreSUBST: 0. collocate: uirtus; scoreSUBST: 2. collocate: imperium; scoreSUBST: 2. collocate: relinquo; scoreSUBST: 0. collocate: studium; scoreSUBST: 2. collocate: fortuna; scoreSUBST: 2. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-101-115-116-101-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword uester here are all the values plotted: collocate: auctoritas; scoreADJ: 0. collocate: sapientia; scoreADJ: 0. collocate: salus; scoreADJ: 0. collocate: libertas; scoreADJ: 0. collocate: dignitas; scoreADJ: 0. collocate: beneficium; scoreADJ: 0. collocate: familia; scoreADJ: 0. collocate: maiores; scoreADJ: 0. collocate: fretus; scoreADJ: 2. collocate: uoluntas; scoreADJ: 0. collocate: decretum; scoreADJ: 0. collocate: auris; scoreADJ: 0. collocate: liberi; scoreADJ: 0. collocate: consilium; scoreADJ: 0. collocate: que; scoreADJ: 0. collocate: potestas; scoreADJ: 0. collocate: iudicium; scoreADJ: 0. collocate: socius; scoreADJ: 0. collocate: praesidium; scoreADJ: 0. collocate: mens; scoreADJ: 0. collocate: de; scoreADJ: 0. collocate: uirtus; scoreADJ: 0. collocate: imperium; scoreADJ: 0. collocate: relinquo; scoreADJ: 0. collocate: studium; scoreADJ: 0. collocate: fortuna; scoreADJ: 0. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-101-115-116-101-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword uester here are all the values plotted: collocate: auctoritas; scoreVERBO: 0. collocate: sapientia; scoreVERBO: 0. collocate: salus; scoreVERBO: 0. collocate: libertas; scoreVERBO: 0. collocate: dignitas; scoreVERBO: 0. collocate: beneficium; scoreVERBO: 0. collocate: familia; scoreVERBO: 0. collocate: maiores; scoreVERBO: 0. collocate: fretus; scoreVERBO: 0. collocate: uoluntas; scoreVERBO: 0. collocate: decretum; scoreVERBO: 0. collocate: auris; scoreVERBO: 0. collocate: liberi; scoreVERBO: 0. collocate: consilium; scoreVERBO: 0. collocate: que; scoreVERBO: 0. collocate: potestas; scoreVERBO: 0. collocate: iudicium; scoreVERBO: 0. collocate: socius; scoreVERBO: 0. collocate: praesidium; scoreVERBO: 0. collocate: mens; scoreVERBO: 0. collocate: de; scoreVERBO: 0. collocate: uirtus; scoreVERBO: 0. collocate: imperium; scoreVERBO: 0. collocate: relinquo; scoreVERBO: 2. collocate: studium; scoreVERBO: 0. collocate: fortuna; scoreVERBO: 0. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-101-115-116-101-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword uester here are all the values plotted: collocate: auctoritas; scoreADV: 0. collocate: sapientia; scoreADV: 0. collocate: salus; scoreADV: 0. collocate: libertas; scoreADV: 0. collocate: dignitas; scoreADV: 0. collocate: beneficium; scoreADV: 0. collocate: familia; scoreADV: 0. collocate: maiores; scoreADV: 0. collocate: fretus; scoreADV: 0. collocate: uoluntas; scoreADV: 0. collocate: decretum; scoreADV: 0. collocate: auris; scoreADV: 0. collocate: liberi; scoreADV: 0. collocate: consilium; scoreADV: 0. collocate: que; scoreADV: 0. collocate: potestas; scoreADV: 0. collocate: iudicium; scoreADV: 0. collocate: socius; scoreADV: 0. collocate: praesidium; scoreADV: 0. collocate: mens; scoreADV: 0. collocate: de; scoreADV: 0. collocate: uirtus; scoreADV: 0. collocate: imperium; scoreADV: 0. collocate: relinquo; scoreADV: 0. collocate: studium; scoreADV: 0. collocate: fortuna; scoreADV: 0. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-101-115-116-101-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword uester here are all the values plotted: collocate: auctoritas; scoreFUNC: 0. collocate: sapientia; scoreFUNC: 0. collocate: salus; scoreFUNC: 0. collocate: libertas; scoreFUNC: 0. collocate: dignitas; scoreFUNC: 0. collocate: beneficium; scoreFUNC: 0. collocate: familia; scoreFUNC: 0. collocate: maiores; scoreFUNC: 0. collocate: fretus; scoreFUNC: 0. collocate: uoluntas; scoreFUNC: 0. collocate: decretum; scoreFUNC: 0. collocate: auris; scoreFUNC: 0. collocate: liberi; scoreFUNC: 0. collocate: consilium; scoreFUNC: 0. collocate: que; scoreFUNC: 0. collocate: potestas; scoreFUNC: 0. collocate: iudicium; scoreFUNC: 0. collocate: socius; scoreFUNC: 0. collocate: praesidium; scoreFUNC: 0. collocate: mens; scoreFUNC: 0. collocate: de; scoreFUNC: 20. collocate: uirtus; scoreFUNC: 0. collocate: imperium; scoreFUNC: 0. collocate: relinquo; scoreFUNC: 0. collocate: studium; scoreFUNC: 0. collocate: fortuna; scoreFUNC: 0. collocate: in; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> retinete <b>vestram</b> dignitatem <br> <small> Cic.Att.1.16.9 <br> mantende a vossa dignidade. <small> [JDD] </small> </small> </p>
+; <p> cui praesidio classibus <b>uestris</b> fuistis <br> <small> Cic.Man.32 <br> Para quem vós fostes proteção com vossas frotas? <small> [JDD] </small> </small> </p>
+; <p> quid ista cogitatis in cordibus <b>vestris</b> <br> <small> Vulg.Marc.2.8 <br> Por que cogitais essas coisas em vossos corações? <small> [JDD] </small> </small> </p>
+; <p> neque enim licuit aliter <b>uestro</b> generi nomini familiae disciplinae <br> <small> Cic.Lig.20 <br> pois não foi permitida outra coisa à vossa linhagem, nome, família, princípios. <small> [JDD] </small> </small> </p>
+; <p> ubi illa praecepta <b>uestra</b> quae imperant in actu mori <br> <small> Sen.Ep.8.1 <br> Onde estão aqueles preceitos vossos que ordenam morrer no meio da ação?” <small> [JDD] </small> </small> </p>
+; <p> itaque senatum bene sua sponte firmum firmiorem <b>uestra</b> auctoritate fecistis <br> <small> Cic.Phil.6.18.12 <br> E assim fizestes, com vossa autoridade, ainda mais firme o senado bem firme por si mesmo. <small> [JDD] </small> </small> </p>
+; <p> est autem <b>uestri</b> consili patres conscripti in posterum quam longissime prouidere <br> <small> Cic.Phil.7.19.4 <br> Por outro lado, é próprio de vossa sensatez, pais conscritos, olhar antecipadamente para o futuro o mais longe possível. <small> [JDD] </small> </small> </p>
+; <p> si rei publicae quid de <b>uestra</b> in illa causa perseuerantia respondebitis <br> <small> Cic.Lig.29 <br> Se da república, o que vais responder acerca de vossa perseverança naquela facção? <small> [JDD] </small> </small> </p>
+; <p> hanc retinete quaeso Quirites quam uobis tamquam hereditatem maiores <b>uestri</b> reliquerunt <br> <small> Cic.Phil.4.13.3 <br> Preservai, eu suplico, quirites, essa virtude que os vossos antepassados vos legaram com herança. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> uos <b>uestra</b> secunda fortuna Castor non potestis sine propinquorum calamitate esse contenti <br> <small> Cic.Deiot.29 <br> Vós, Castor, não és capaz de ficar contente com vossa favorável fortuna sem a desgraça dos vossos parentes? <small> [JDD] </small> </small> </p>
+; <p> instruite nunc Quirites contra has tam praeclaras Catilinae copias <b>uestra</b> praesidia <b>uestros</b>que exercitus <br> <small> Cic.Catil.2.24.3 <br> Preparai agora, Quirites, contra estas tão ilustres tropas de Catilina, as vossas guarnições e os vossos exércitos. <small> [JDD] </small> </small> </p>
+; <p> animus aetas uirtus <b>uostra</b> me hortantur praeterea necessitudo quae etiam timidos fortis facit <br> <small> Sal.Cat.58.19 <br> Vosso ânimo, idade, valor me exortam, além disso a necessidade, que faz corajosos até mesmo os medrosos. <small> [JDD] </small> </small> </p>
+; <p> nunc quicquid est quocumque <b>uestrae</b> mentes inclinant atque sententiae statuendum uobis ante noctem est <br> <small> Cic.Catil.4.6.7 <br> Agora, seja como for, para onde quer que se inclinem vossos pensamentos e opiniões, vós deveis decidir antes da noite. <small> [JDD] </small> </small> </p>
+; <p> genus est eius belli quod maxime <b>uestros</b> animos excitare atque inflammare ad persequendi studium debeat <br> <small> Cic.Man.6 <br> O gênero dessa guerra é aquele que deve excitar e inflamar vivamente os vossos espíritos para a intenção de continuá-la. <small> [JDD] </small> </small> </p>
+; <p> a liberis me dius Fidius et a coniugibus <b>uestris</b> numquam ille effrenatas suas libidines cohibuisset <br> <small> Cic.Mil.76 <br> Pelo deus da boa-fé, aquele nunca teria coibido seus desenfreado desejos perante vossos filhos e vossas esposas. <small> [JDD] </small> </small> </p>
+; <p> is est enim ille qui semper senatus iudicium et auctoritatem semper uoluntatem <b>uestram</b> potestatemque contempserit <br> <small> Cic.Phil.6.5.5 <br> Pois esse é aquele que sempre desprezou o julgamento e a autoridade do senado, sempre desprezou a vossa vontade e poder. <small> [JDD] </small> </small> </p>
+; <p> haec ego non dicerem Tubero si aut uos constantiae <b>uestrae</b> aut Caesarem benefici sui paeniteret <br> <small> Cic.Lig.29 <br> Eu não diria essas coisas, Tuberão, se vós vos arrependeis de vossa constância ou César de sua generosidade. <small> [JDD] </small> </small> </p>
+; <p> utrum pluris arbitramini per hosce annos militum <b>uestrorum</b> armis hostium urbis an hibernis sociorum ciuitates esse deletas <br> <small> Cic.Man.38 <br> Por acaso julgais que foram destruídas, durante estes anos, pelas armas de vossos soldados mais cidades dos inimigos ou comunidades dos aliados pelos quartéis de inverno? <small> [JDD] </small> </small> </p>
+; <p> deinde <b>uestra</b> responsa atque decreta et euertuntur saepe dicendo et sine defensione orationis firma esse non possunt <br> <small> Cic.Mur.29 <br> Depois, vossas respostas e decretos não só são frequentemente anulados, mas também não podem ser consistentes sem a defesa do discurso. <small> [JDD] </small> </small> </p>
+; <p> sed huius benefici gratiam iudices Fortuna populi Romani et <b>uestra</b> felicitas et di immortales sibi deberi putant <br> <small> Cic.Mil.83 <br> Mas, juízes, a Fortuna do povo romano e a vossa felicidade e os deuses imortais consideram que o agradecimento desse benefício lhes é devido. <small> [JDD] </small> </small> </p>
+; <p> quod autem praesidium erat salutis libertatisque <b>uestrae</b> si C. Caesaris fortissimorum sui patris militum exercitus non fuisset <br> <small> Cic.Phil.4.4.7 <br> Por outro lado, que proteção havia para a vossa salvação e para a vossa liberdade, se não tivesse existido o exército de Caio César, de valorosíssimos soldados de seu pai? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> an ego non prouideam meis ciuibus non dies noctesque de <b>uestra</b> libertate de rei publicae salute cogitem <br> <small> Cic.Phil.6.17.4 <br> Por acaso eu não iria velar pelos meus concidadãos, não iria pensar dias e noites em vossa liberdade, na salvação da república? <small> [JDD] </small> </small> </p>
+; <p> nimium mihi diu uideor in uno genere uersari criminum sentio iudices occurrendum esse satietati aurium animorumque <b>uestrorum</b> <br> <small> Cic.Ver.2.4.105.1 <br> 105 Pareço estar versando há bastante tempo num único tipo de acusações; sinto, juízes, que é preciso prevenir a saturação de vossos ouvidos e ânimos. <small> [JDD] </small> </small> </p>
+; <p> de <b>uestri</b> imperi dignitate atque gloria quoniam is est exorsus orationis meae uidete quem uobis animum suscipiendum putetis <br> <small> Cic.Man.11 <br> Vede que disposição de espírito vós achais que deve ser assumida por vós em relação à dignidade e gloria de vosso império, visto que esse é o exórdio de meu discurso. <small> [JDD] </small> </small> </p>
+; <p> quam ob rem illa quae ex accusatorum oratione praemuniri iam et fingi intellegebam fretus <b>uestra</b> prudentia iudices non pertimesco <br> <small> Cic.Cael.19 <br> Por esse motivo, juízes, fiado em vossa prudência, não temo aquelas coisas que, pelo discurso dos acusadores, eu entendia que já estavam sendo preparadas e forjadas. <small> [JDD] </small> </small> </p>
+; <p> est igitur humanitatis <b>uestrae</b> magnum numerum ciuium calamitate prohibere sapientiae uidere multorum ciuium calamitatem a re publica seiunctam esse non posse <br> <small> Cic.Man.18 <br> Será, portanto, próprio de vossa humanidade preservar do desastre um grande número de cidadãos, de vossa sabedoria ver que o desastre de muitos cidadãos não pode ser separada da república. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-101-115-116-101-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 18.25 and an absolute frequency of 293. The Tacitus subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 293 ; absolute frequency: 18.252722334355. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 5 ; absolute frequency: 8.57927247769389. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 9 ; absolute frequency: 8.3480196642241. subcorpus: Seneca ; normalized frequency: 11 ; absolute frequency: 2.05296653664545. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Hieronymus ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-101-115-116-101-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 26.12 and an absolute frequency of 272. The Poesia.trágica subcorpus follows, with a normalized frequency of 1.74 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 1.74 and an absolute freqeuncy of 2. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 9 ; absolute frequency: 2.1909004600891. subcorpus: Prosa.filosófica ; normalized frequency: 17 ; absolute frequency: 2.80061283998616. subcorpus: Prosa.oratória ; normalized frequency: 272 ; absolute frequency: 26.1154263439363. subcorpus: Prosa.epistolográfica ; normalized frequency: 13 ; absolute frequency: 3.4447123665174. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Prosa.ficcional ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-101-115-116-101-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 14.52 and an absolute frequency of 312. The II.d.C. subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 312 ; absolute frequency: 14.5217593670002. subcorpus: I.d.C. ; normalized frequency: 15 ; absolute frequency: 2.29463056447912. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+:::
+

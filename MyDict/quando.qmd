@@ -1,0 +1,202 @@
+---
+title: "quando"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx113-117-97-110-100-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>quandōquĕ</b> <br> <small>adv. e conj. II. Conj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Temporal = quandocumque &ensp; <small>Cíc. Rep. 6. 24.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Causal: do momento em que, pois que, considerando que &ensp; <small>Cíc. Caec. 54; Cíc. Verr. 3, 187.</small> </p> 
+ <small>1.</small> <b>quandō</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Interr.:</small> &ensp; Quando, em que época? em que ocasião? &ensp; <small>Cíc. De Or. 1, 102; Cíc. Pis. 49.</small> <br> <b>2</b> &ensp; <small>II-Indef.:-= aliquando</small> &ensp; às vezes &ensp; <small>depois de num, ne, si Cíc. Lae. 60.</small> </p> 
+ <small>2.</small> <b>quandō</b> <br> <small>conj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. temporal</small> &ensp; Quando, na época em que &ensp; <small>Cíc. Agr. 2, 41.</small> <br> <b>2</b> &ensp; <small>II-Sent. causal</small> &ensp; Pois que, já que, visto que &ensp; <small>Cíc. Nat. 3, 43; Cíc. Tusc. 4, 34; Sal. B. Jug. 102. 9.</small> </p> 
+ <small>2.</small> <b>quandōquĕ</b> <br> <small>= et quando Hor. Sát. 2, 6, 60.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Quando</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; quando, em que tempo. <br> <b>2</b> &ensp; já que, por quanto. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>quando gentium? &ensp; <small><small>Plaut</small></small> &ensp; <small>Em que tempo? quando?</small> </p> 
+ <b>Quandoque</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; em qualquer tempo que. </p>
+
+
+
+
+#### Velez
+
+<b>Quando</b> <br> <small>Adv.</small>   <p> <b>1</b> &ensp; quando </p> 
+ <b>Quando</b> <br> <small>Conjunct.</small>
+
+
+
+
+#### Cardoso
+
+<b>Quando</b> <br> <small>aduer.</small>   <p> <b>1</b> &ensp; quando </p> 
+ <b>Quando</b> <br> <small>coniunctio.</small>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/121084 ' target="_blank"> http://lila-erc.eu/data/id/lemma/121084 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> cuando, cuandoque, quandoc, quandocque, quandoque <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+quandō
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx113-117-97-110-100-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword quando here are all the values plotted: collocate: enim; scoreSUBST: 0. collocate: si; scoreSUBST: 0. collocate: ad; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx113-117-97-110-100-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword quando here are all the values plotted: collocate: enim; scoreADJ: 0. collocate: si; scoreADJ: 0. collocate: ad; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx113-117-97-110-100-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword quando here are all the values plotted: collocate: enim; scoreVERBO: 0. collocate: si; scoreVERBO: 0. collocate: ad; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx113-117-97-110-100-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword quando here are all the values plotted: collocate: enim; scoreADV: 2. collocate: si; scoreADV: 0. collocate: ad; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx113-117-97-110-100-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword quando here are all the values plotted: collocate: enim; scoreFUNC: 0. collocate: si; scoreFUNC: 20. collocate: ad; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>quando</b> ad hoc gaudium peruenire continget <br> <small> Sen.Ep.27.4 <br> Quando acontecerá de chegares a este gozo? <small> [JDD] </small> </small> </p>
+; <p> Caietam si <b>quando</b> abundare coepero ornabo <br> <small> Cic.Att.1.4.3 <br> Se um dia eu começar a ter de sobra, vou ornamentar Caieta. <small> [JDD] </small> </small> </p>
+; <p> <b>quando</b> enim obliuiscetur ulla posteritas cuius scelere in hac uestitus foeditate fuerimus <br> <small> Cic.Phil.12.12.10 <br> Pois, quando alguma geração futura vai esquecer aquele por cujo crime estivemos nesta hediondez de vestimenta? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx113-117-97-110-100-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 4.49 and an absolute frequency of 2. The Vergilius subcorpus follows, with a normalized frequency of 1.93 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 25 ; absolute frequency: 1.55739951658319. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 8 ; absolute frequency: 1.49306657210578. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx113-117-97-110-100-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 4.49 and an absolute frequency of 2. The Prosa.filosófica subcorpus follows, with a normalized frequency of 2.14 and an absolute frequency of 13. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 1 ; absolute frequency: 0.243433384454344. subcorpus: Prosa.filosófica ; normalized frequency: 13 ; absolute frequency: 2.14164511293059. subcorpus: Prosa.oratória ; normalized frequency: 12 ; absolute frequency: 1.15215116223248. subcorpus: Prosa.epistolográfica ; normalized frequency: 8 ; absolute frequency: 2.11982299477994. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx113-117-97-110-100-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 4.49 and an absolute frequency of 2. The I.d.C. subcorpus follows, with a normalized frequency of 1.38 and an absolute frequency of 9. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 28 ; absolute frequency: 1.3032348149872. subcorpus: I.d.C. ; normalized frequency: 9 ; absolute frequency: 1.37677833868747. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

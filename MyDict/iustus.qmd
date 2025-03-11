@@ -1,0 +1,199 @@
+---
+title: "iustus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-117-115-116-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>justus</b> <b>-a</b> <b>-um</b> <br> <b>iustus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>Sent. próprio</small> &ensp; Conforme o direito, justo. legítimo &ensp; <small>Cíc. Dej. 13; Cíc. Of. 2, 42.</small> <br> <b>2</b> &ensp; <small>Daí:</small> &ensp; Que tem a justa medida, conveniente, suficiente &ensp; <small>Cés. B. Gal. 7. 23.4.</small> <br> <b>3</b> &ensp; <small>Daí:</small> &ensp; Razoável &ensp; <small>CíC. Fin. I. 2: T. Lív. 23. 37. 8:</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>3</b><br>justum iter Cés. B. Civ. 1. 23. 5 “etapa normal, isto é: dia de marcha 20 a 25 km por dia”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Justus</b> -<b>a</b> -<b>um</b> <small>Cic</small> -<b>tior</b> <small>Caes</small> -<b>tissimus</b>   <p> <b>1</b> &ensp; justo, que obra conforme a justiça. <br> <b>2</b> &ensp; licito, devido, merecido. <br> <b>3</b> &ensp; perfeito, inteiro. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>iusto liberius uiuere &ensp; <small><small>Nep</small></small> &ensp; <small>Viver com mais soltura do que deve ser</small> <br> operam iustam reddere &ensp; <small><small>Col</small></small> &ensp; <small>Acabar a tarefa, dar conta da obra devida, e ordinaria</small> </p>
+
+
+
+
+#### Velez
+
+<b>Justus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa justa, boa, legitima, e verdadeira <br> <b>2</b> &ensp; <small>interdum pro satis magno, & mediocri</small> &ensp; cousa bastante, no que de si pede </p>
+
+
+
+
+#### Cardoso
+
+<b>Iustus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa justa. ou igual </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/109268 ' target="_blank"> http://lila-erc.eu/data/id/lemma/109268 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx105-117-115-116-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-117-115-116-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword iustus here are all the values plotted: collocate: causa; scoreSUBST: 2. collocate: uir; scoreSUBST: 2. collocate: sed; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-117-115-116-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword iustus here are all the values plotted: collocate: causa; scoreADJ: 0. collocate: uir; scoreADJ: 0. collocate: sed; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-117-115-116-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword iustus here are all the values plotted: collocate: causa; scoreVERBO: 0. collocate: uir; scoreVERBO: 0. collocate: sed; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-117-115-116-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword iustus here are all the values plotted: collocate: causa; scoreADV: 0. collocate: uir; scoreADV: 0. collocate: sed; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-117-115-116-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword iustus here are all the values plotted: collocate: causa; scoreFUNC: 0. collocate: uir; scoreFUNC: 0. collocate: sed; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> non enim veni vocare <b>iustos</b> sed peccatores <br> <small> Vulg.Marc.2.17 <br> pois eu não vim chamar os justos, mas os pecadores. <small> [JDD] </small> </small> </p>
+; <p> facile id quidem fuit iustitiam <b>iustissimo</b> uiro defendere <br> <small> Cic.Amici.25 <br> Isso, na verdade, foi fácil para um homem justíssimo: defender a justiça. <small> [JDD] </small> </small> </p>
+; <p> Herodes enim metuebat Iohannem sciens eum virum <b>iustum</b> et sanctum <br> <small> Vulg.Marc.6.20 <br> Pois Herodes temia João, sabendo ser ele um homem justo e santo. <small> [JDD] </small> </small> </p>
+; <p> earum si placet causarum quanta quamque sit <b>iusta</b> unaquaeque uideamus <br> <small> Cic.Sen.15 <br> Se vos agrada, vejamos em que medida e quão é justo cada um desses motivos. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-117-115-116-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 6.87 and an absolute frequency of 2. The Ovidius subcorpus follows, with a normalized frequency of 5.15 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 5 ; absolute frequency: 1.88836014804744. subcorpus: Cicero ; normalized frequency: 44 ; absolute frequency: 2.74102314918641. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 4 ; absolute frequency: 0.746533286052892. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-117-115-116-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 4.49 and an absolute frequency of 2. The Poesia.épica subcorpus follows, with a normalized frequency of 3.86 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0.79 and an absolute freqeuncy of 3. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 9 ; absolute frequency: 2.1909004600891. subcorpus: Prosa.filosófica ; normalized frequency: 12 ; absolute frequency: 1.9769031811667. subcorpus: Prosa.oratória ; normalized frequency: 32 ; absolute frequency: 3.07240309928663. subcorpus: Prosa.epistolográfica ; normalized frequency: 3 ; absolute frequency: 0.794933623042476. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-117-115-116-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The II.d.C. subcorpus follows, with a normalized frequency of 5.24 and an absolute frequency of 2. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 0.76 and an absolute freqeuncy of 5. here are all the values: subcorpus: I.a.C. ; normalized frequency: 57 ; absolute frequency: 2.65301373050966. subcorpus: I.d.C. ; normalized frequency: 5 ; absolute frequency: 0.764876854826373. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

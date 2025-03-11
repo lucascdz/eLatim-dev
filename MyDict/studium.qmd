@@ -1,0 +1,211 @@
+---
+title: "studium"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-116-117-100-105-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>studĭum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small>Obs.: Constrói-se absolutamente; com gen.; com acus. accmpanhado de ad.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Aplicação, zelo, gosto, dedicação &ensp; <small>Cíc. Fin. 1, 1.</small> <br> <b>2</b> &ensp; <small>II-Sent. particular</small> &ensp; Gesto pelo estudo, estudo, os frutos do estudo, escritos, obras &ensp; <small>Cíc. De Or. 2, 232.</small> <br> <b>3</b> &ensp; <small>II-Sent. particular</small> &ensp; Gosto, amor por alguma coisa, inclinação, vontade, intenção, paixão &ensp; <small>Cíc. Agr. 2, 95.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Studium</b> -<b>ii</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; estudo, applicação, exercicio do corpo, ou do espirito. <br> <b>2</b> &ensp; affeiçaõ, paixaõ, desejo, amizade, benevolencia. <br> <b>3</b> &ensp; cuidado, diligencia. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>in studia contraria scinditur uulgus &ensp; <small><small>Virg</small></small> &ensp; <small>O povo está dividido em diversos pareceres</small> <br> studio &ensp; <small><small>abl. abs. Cic</small></small> &ensp; <small>De proposito</small> <br> studium puellare &ensp; <small><small>Ovid</small></small> &ensp; <small>Divertimento, ou applicação de meninas</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Studium</b> <b>ij</b>   <p> <b>1</b> &ensp; ho estudo. ou fauor. ou diligencia </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/125889 ' target="_blank"> http://lila-erc.eu/data/id/lemma/125889 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> studiom <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+stŭdĭum 
+ stŭdĭī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx115-116-117-100-105-117-109xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-116-117-100-105-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword studium here are all the values plotted: collocate: superus; scoreSUBST: 0. collocate: significo; scoreSUBST: 0. collocate: officium; scoreSUBST: 2. collocate: suus; scoreSUBST: 0. collocate: etiam; scoreSUBST: 0. collocate: atque; scoreSUBST: 0. collocate: uester; scoreSUBST: 0. collocate: tantus; scoreSUBST: 0. collocate: de; scoreSUBST: 0. collocate: hic; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-116-117-100-105-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword studium here are all the values plotted: collocate: superus; scoreADJ: 0. collocate: significo; scoreADJ: 0. collocate: officium; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: etiam; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: uester; scoreADJ: 0. collocate: tantus; scoreADJ: 0. collocate: de; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-116-117-100-105-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword studium here are all the values plotted: collocate: superus; scoreVERBO: 0. collocate: significo; scoreVERBO: 2. collocate: officium; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: etiam; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: uester; scoreVERBO: 0. collocate: tantus; scoreVERBO: 0. collocate: de; scoreVERBO: 0. collocate: hic; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-116-117-100-105-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword studium here are all the values plotted: collocate: superus; scoreADV: 0. collocate: significo; scoreADV: 0. collocate: officium; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: etiam; scoreADV: 2. collocate: atque; scoreADV: 0. collocate: uester; scoreADV: 0. collocate: tantus; scoreADV: 0. collocate: de; scoreADV: 0. collocate: hic; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-116-117-100-105-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword studium here are all the values plotted: collocate: superus; scoreFUNC: 0. collocate: significo; scoreFUNC: 0. collocate: officium; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: etiam; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: uester; scoreFUNC: 0. collocate: tantus; scoreFUNC: 0. collocate: de; scoreFUNC: 20. collocate: hic; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>studia</b> significantur <br> <small> Cic.Att.2.22.3 <br> os afetos são expressos. <small> [JDD] </small> </small> </p>
+; <p> laedere gaudes inquit et hoc <b>studio</b> prauus facis <br> <small> Hor.S.1.4.78 <br> “Gostas de ofender”, diz, “e, maldoso, fazes isso intencionalmente. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> atqui huius animum erga M. Brutum <b>studium</b>que uidistis <br> <small> Cic.Phil.10.17.7 <br> E no entanto vistes seu ânimo e dedicação para com Marco Bruto. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ita illum in persequendi <b>studio</b> maeror hos laetitia tardauit <br> <small> Cic.Man.22 <br> Desse modo, a tristeza retardou aquele no afã de perseguir, a alegria retardou estes. <small> [JDD] </small> </small> </p>
+; <p> flagrabant uitia libidinis apud illum uigebant etiam <b>studia</b> rei militaris <br> <small> Cic.Cael.12 <br> Ardiam nele os vícios do prazer libidinoso; florescia também o gosto pelos assuntos militares. <small> [JDD] </small> </small> </p>
+; <p> remoue <b>studia</b> tota uita tractata mors de te pronuntiatura est <br> <small> Sen.Ep.26.6 <br> Deixa de lado os estudos tratados a vida inteira: a morte vai se pronunciar sobre ti. <small> [JDD] </small> </small> </p>
+; <p> nihil est enim remuneratione beneuolentiae nihil uicissitudine <b>studiorum</b> officiorumque iucundius <br> <small> Cic.Amici.49 <br> Pois nada é mais prazeroso do que a recompensa da benevolência, nada do que a reciprocidade dos cuidados e dos serviços. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> atque huiusce rei coniecturam de tuo ipsius <b>studio</b> Serui facillime ceperis <br> <small> Cic.Mur.9 <br> E muito facilmente, Sérvio, farás uma conjectura disso por tua própria ocupação. <small> [JDD] </small> </small> </p>
+; <p> illam uero senatus non sententiis suis solum sed etiam <b>studiis</b> comprobauit <br> <small> Cic.Mil.12 <br> Mas, na realidade, o senado a aprovou não só com seus pareceres mas também com seus gostos. <small> [JDD] </small> </small> </p>
+; <p> nota atque instituta ratione magno militum <b>studio</b> paucis diebus opus efficitur <br> <small> Caes.Gal.6.9.4 <br> Conhecido e definido o seu método, em poucos dias, com o empenho dos soldados, a obra é concluída. <small> [JDD] </small> </small> </p>
+; <p> sed ea non muto non moueo summo <b>studio</b> illius praeclara acta defendo <br> <small> Cic.Phil.1.17.6 <br> Mas não as mudo, não as removo: com imenso interesse defendo suas ilustres resoluções. <small> [JDD] </small> </small> </p>
+; <p> genus est eius belli quod maxime uestros animos excitare atque inflammare ad persequendi <b>studium</b> debeat <br> <small> Cic.Man.6 <br> O gênero dessa guerra é aquele que deve excitar e inflamar vivamente os vossos espíritos para a intenção de continuá-la. <small> [JDD] </small> </small> </p>
+; <p> neque enim ullam aliam ob causam populus Romanus tribuniciam potestatem tanto <b>studio</b> requisiuit quam cum poscebat uerbo illam poscere uidebatur re uera iudicia poscebat <br> <small> Cic.Ver.1.44 <br> 44 Pois por nenhuma outra causa o povo romano requisitou com tanto empenho o poder tribunício e quando o exigia parecia exigi-lo com a palavra; na realidade, exigia julgamentos verdadeiros. <small> [JDD] </small> </small> </p>
+; <p> in eius modi certamine ac proelio ne ne si hominum <b>studia</b> deficiant di ipsi immortales cogant ab his praeclarissimis uirtutibus tot et tanta uitia superari <br> <small> Cic.Catil.2.25.15 <br> Num certame e combate desse tipo, por acaso, se faltam os cuidados dos homens, os próprios deuses imortais não obrigam que tantos e tão grandes vícios sejam superados por estas tão preclaras virtudes? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quod si non hic tantus fructus ostenderetur et si ex his <b>studiis</b> delectatio sola peteretur tamen ut opinor hanc animi remissionem humanissimam ac liberalissimam iudicaretis <br> <small> Cic.Arch.16 <br> E ainda que não fosse mostrado esse tão grande fruto, e fosse buscado nesses estudos apenas deleite, mesmo assim (segundo penso) julgaríeis esta recreação do espírito como humaníssima e liberalíssima. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-116-117-100-105-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 12.99 and an absolute frequency of 14. The Cicero subcorpus follows, with a normalized frequency of 11.9 and an absolute frequency of 191. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 12 ; absolute frequency: 4.53206435531385. subcorpus: Cicero ; normalized frequency: 191 ; absolute frequency: 11.8985323066956. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 14 ; absolute frequency: 12.9858083665708. subcorpus: Seneca ; normalized frequency: 19 ; absolute frequency: 3.54603310875124. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-116-117-100-105-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 11.81 and an absolute frequency of 123. The Prosa.filosófica subcorpus follows, with a normalized frequency of 9.72 and an absolute frequency of 59. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 26 ; absolute frequency: 6.32926799581295. subcorpus: Prosa.filosófica ; normalized frequency: 59 ; absolute frequency: 9.71977397406962. subcorpus: Prosa.oratória ; normalized frequency: 123 ; absolute frequency: 11.809549412883. subcorpus: Prosa.epistolográfica ; normalized frequency: 28 ; absolute frequency: 7.41938048172978. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-116-117-100-105-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 10.24 and an absolute frequency of 220. The I.a.C. subcorpus follows, with a normalized frequency of 10.24 and an absolute frequency of 220. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 220 ; absolute frequency: 10.2397021177566. subcorpus: I.d.C. ; normalized frequency: 23 ; absolute frequency: 3.51843353220132. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

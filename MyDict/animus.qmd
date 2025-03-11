@@ -1,0 +1,230 @@
+---
+title: "animus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-110-105-109-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>anĭmus</b> <b>-í</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Princípio pensante em oposição a corpus e anima, espírito, alma &ensp; <small>Cíc. Tusc. 1, 80.</small> <br> <b>2</b> &ensp; <small>Daí</small> &ensp; Coração como sede da coragem, do desejo, das inclinações e das paixões, vontade, desejo, ânimo &ensp; <small>Cíc. Marc. 8.</small> <br> <b>3</b> &ensp; <small></small> &ensp; Sede do pensamento, pensamento, inteligência &ensp; <small>Cíc. De Or. 3, 67.</small> <br> <b>4</b> &ensp; <small>Donde, na língua poética:</small> &ensp; Carater, condição, natureza &ensp; <small>Verg. G. 2. 51.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Animus</b> -<b>i</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; animo, alma. <br> <b>2</b> &ensp; vontade, designio, tenção. <br> <b>3</b> &ensp; affecto, paixão. <br> <b>4</b> &ensp; valor. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>animi causa &ensp; <small><small>Cic</small></small> &ensp; <small>Por divertimento</small> <br> animis cadere &ensp; <small><small>Cic</small></small> &ensp; <small>Desanimar-se</small> <br> mi anime &ensp; <small><small>Plaut</small></small> &ensp; <small>Meu caro amigo, meu coração</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Animus</b> <b>i</b>   <p> <b>1</b> &ensp; ho animo. ou alma </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/89094 ' target="_blank"> http://lila-erc.eu/data/id/lemma/89094 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ănĭmus 
+ ănĭmī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-110-105-109-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-110-105-109-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword animus here are all the values plotted: collocate: aequus; scoreSUBST: 0. collocate: magnitudo; scoreSUBST: 4. collocate: impetus; scoreSUBST: 2. collocate: tuus; scoreSUBST: 0. collocate: magnus; scoreSUBST: 0. collocate: robur; scoreSUBST: 3. collocate: tandem; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: atque; scoreSUBST: 0. collocate: fero; scoreSUBST: 0. collocate: uirtus; scoreSUBST: 2. collocate: uis; scoreSUBST: 2. collocate: et; scoreSUBST: 0. collocate: motus; scoreSUBST: 2. collocate: sum; scoreSUBST: 0. collocate: bonus; scoreSUBST: 0. collocate: miles; scoreSUBST: 2. collocate: aeger; scoreSUBST: 0. collocate: induco; scoreSUBST: 0. collocate: corpus; scoreSUBST: 2. collocate: fingo; scoreSUBST: 0. collocate: humanus; scoreSUBST: 0. collocate: aetas; scoreSUBST: 2. collocate: puerilis; scoreSUBST: 0. collocate: alacer; scoreSUBST: 0. collocate: offensio; scoreSUBST: 2. collocate: erigo; scoreSUBST: 0. collocate: infirmus; scoreSUBST: 0. collocate: offendo; scoreSUBST: 0. collocate: acer; scoreSUBST: 0. collocate: exilium; scoreSUBST: 2. collocate: liber; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-110-105-109-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword animus here are all the values plotted: collocate: aequus; scoreADJ: 4. collocate: magnitudo; scoreADJ: 0. collocate: impetus; scoreADJ: 0. collocate: tuus; scoreADJ: 0. collocate: magnus; scoreADJ: 2. collocate: robur; scoreADJ: 0. collocate: tandem; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: fero; scoreADJ: 0. collocate: uirtus; scoreADJ: 0. collocate: uis; scoreADJ: 0. collocate: et; scoreADJ: 0. collocate: motus; scoreADJ: 0. collocate: sum; scoreADJ: 0. collocate: bonus; scoreADJ: 2. collocate: miles; scoreADJ: 0. collocate: aeger; scoreADJ: 2. collocate: induco; scoreADJ: 0. collocate: corpus; scoreADJ: 0. collocate: fingo; scoreADJ: 0. collocate: humanus; scoreADJ: 2. collocate: aetas; scoreADJ: 0. collocate: puerilis; scoreADJ: 2. collocate: alacer; scoreADJ: 2. collocate: offensio; scoreADJ: 0. collocate: erigo; scoreADJ: 0. collocate: infirmus; scoreADJ: 2. collocate: offendo; scoreADJ: 0. collocate: acer; scoreADJ: 2. collocate: exilium; scoreADJ: 0. collocate: liber; scoreADJ: 2'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-110-105-109-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword animus here are all the values plotted: collocate: aequus; scoreVERBO: 0. collocate: magnitudo; scoreVERBO: 0. collocate: impetus; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0. collocate: magnus; scoreVERBO: 0. collocate: robur; scoreVERBO: 0. collocate: tandem; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: fero; scoreVERBO: 2. collocate: uirtus; scoreVERBO: 0. collocate: uis; scoreVERBO: 0. collocate: et; scoreVERBO: 0. collocate: motus; scoreVERBO: 0. collocate: sum; scoreVERBO: 2. collocate: bonus; scoreVERBO: 0. collocate: miles; scoreVERBO: 0. collocate: aeger; scoreVERBO: 0. collocate: induco; scoreVERBO: 2. collocate: corpus; scoreVERBO: 0. collocate: fingo; scoreVERBO: 2. collocate: humanus; scoreVERBO: 0. collocate: aetas; scoreVERBO: 0. collocate: puerilis; scoreVERBO: 0. collocate: alacer; scoreVERBO: 0. collocate: offensio; scoreVERBO: 0. collocate: erigo; scoreVERBO: 2. collocate: infirmus; scoreVERBO: 0. collocate: offendo; scoreVERBO: 2. collocate: acer; scoreVERBO: 0. collocate: exilium; scoreVERBO: 0. collocate: liber; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-110-105-109-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword animus here are all the values plotted: collocate: aequus; scoreADV: 0. collocate: magnitudo; scoreADV: 0. collocate: impetus; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: robur; scoreADV: 0. collocate: tandem; scoreADV: 2. collocate: in; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: fero; scoreADV: 0. collocate: uirtus; scoreADV: 0. collocate: uis; scoreADV: 0. collocate: et; scoreADV: 0. collocate: motus; scoreADV: 0. collocate: sum; scoreADV: 0. collocate: bonus; scoreADV: 0. collocate: miles; scoreADV: 0. collocate: aeger; scoreADV: 0. collocate: induco; scoreADV: 0. collocate: corpus; scoreADV: 0. collocate: fingo; scoreADV: 0. collocate: humanus; scoreADV: 0. collocate: aetas; scoreADV: 0. collocate: puerilis; scoreADV: 0. collocate: alacer; scoreADV: 0. collocate: offensio; scoreADV: 0. collocate: erigo; scoreADV: 0. collocate: infirmus; scoreADV: 0. collocate: offendo; scoreADV: 0. collocate: acer; scoreADV: 0. collocate: exilium; scoreADV: 0. collocate: liber; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-110-105-109-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword animus here are all the values plotted: collocate: aequus; scoreFUNC: 0. collocate: magnitudo; scoreFUNC: 0. collocate: impetus; scoreFUNC: 0. collocate: tuus; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0. collocate: robur; scoreFUNC: 0. collocate: tandem; scoreFUNC: 0. collocate: in; scoreFUNC: 20. collocate: atque; scoreFUNC: 0. collocate: fero; scoreFUNC: 0. collocate: uirtus; scoreFUNC: 0. collocate: uis; scoreFUNC: 0. collocate: et; scoreFUNC: 0. collocate: motus; scoreFUNC: 0. collocate: sum; scoreFUNC: 0. collocate: bonus; scoreFUNC: 0. collocate: miles; scoreFUNC: 0. collocate: aeger; scoreFUNC: 0. collocate: induco; scoreFUNC: 0. collocate: corpus; scoreFUNC: 0. collocate: fingo; scoreFUNC: 0. collocate: humanus; scoreFUNC: 0. collocate: aetas; scoreFUNC: 0. collocate: puerilis; scoreFUNC: 0. collocate: alacer; scoreFUNC: 0. collocate: offensio; scoreFUNC: 0. collocate: erigo; scoreFUNC: 0. collocate: infirmus; scoreFUNC: 0. collocate: offendo; scoreFUNC: 0. collocate: acer; scoreFUNC: 0. collocate: exilium; scoreFUNC: 0. collocate: liber; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> qua re bono <b>animo</b> es <br> <small> Cic.Att.5.18.3 <br> Por isso fica tranquilo. <small> [JDD] </small> </small> </p>
+; <p> sine hoc aeger est <b>animus</b> <br> <small> Sen.Ep.15.1 <br> Sem isto o espírito está doente. <small> [JDD] </small> </small> </p>
+; <p> sic inquam in <b>animo</b> est <br> <small> Cic.Att.2.5.2 <br> Assim, eu digo, está em meu ânimo. <small> [JDD] </small> </small> </p>
+; <p> Bassus tamen noster alacer <b>animo</b> est <br> <small> Sen.Ep.30.3 <br> 3 O nosso amigo Basso, contudo, é alegre de espírito. <small> [JDD] </small> </small> </p>
+; <p> <b>animus</b> sed hic rectus bonus magnus <br> <small> Sen.Ep.31.11 <br> O espírito, mas sendo este reto, bom, grande. <small> [JDD] </small> </small> </p>
+; <p> ita sum <b>animo</b> perculso et abiecto <br> <small> Cic.Att.3.2 <br> de tal modo estou com o espírito prostrado e abatido. <small> [JDD] </small> </small> </p>
+; <p> infirmi <b>animi</b> est pati non posse diuitias <br> <small> Sen.Ep.5.6 <br> é próprio de um espírito fraco não poder suportar a riqueza. <small> [JDD] </small> </small> </p>
+; <p> coniunctio vero nostrorum <b>animorum</b> brevitate contenta est <br> <small> Cic.Att.2.23.3 <br> mas a união de nossos espíritos se contenta com a brevidade. <small> [JDD] </small> </small> </p>
+; <p> quae tua mens oculi manus ardor <b>animi</b> <br> <small> Cic.Lig.9 <br> Qual tua mente, teus olhos, tuas mãos,o ardor de teu espírito? <small> [JDD] </small> </small> </p>
+; <p> quam ob rem patres conscripti erigite <b>animos</b> <br> <small> Cic.Att.1.16.9 <br> Por isso, senadores, erguei o vosso ânimo. <small> [JDD] </small> </small> </p>
+; <p> esse putat nusquam atque <b>animo</b> peiora veretur . <br> <small> Ov.Met.1.586 <br> imagina que não está em nenhum lugar e, em seu espírito, teme coisas piores. <small> [JDD] </small> </small> </p>
+; <p> quo tandem <b>animo</b> hoc tyrannum illum tulisse creditis <br> <small> Cic.Mil.35 <br> Com que espírito, enfim, acreditais que aquele tirano suportou isto? <small> [JDD] </small> </small> </p>
+; <p> Sua quisque exempla debet aequo <b>animo</b> pati . <br> <small> Phaed.1.26 <br> “Cada um deve suportar com igual ânimo os seus próprios exemplos.” <small> [JDD] </small> </small> </p>
+; <p> Galliam quo tandem <b>animo</b> hanc rem audituram putatis <br> <small> Cic.Phil.12.9.9 <br> Com que ânimo afinal achais que a Gália vai ouvir isso? <small> [JDD] </small> </small> </p>
+; <p> In nova fert <b>animus</b> mutatas dicere formas corpora ; <br> <small> Ov.Met.1.1-2 <br> O espírito me leva a relatar as formas mudadas em novos corpos. <small> [JDD] </small> </small> </p>
+; <p> in re publica vero quamquam <b>animus</b> est praesens tamen <br> <small> Cic.Att.1.18.2 <br> na república, embora não me falte coragem, a própria medicina me causa ferimento uma ou outra vez. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> aggredere <b>anime</b> diu meditatum opus eripe te rebus humanis <br> <small> Sen.Prov.2.10 <br> Empreende, ó espírito, a obra por longo tempo meditada, liberta-te das coisas humanas! <small> [JDD] </small> </small> </p>
+; <p> dicam liber <b>animus</b> erectus alia subiciens sibi se nulli <br> <small> Sen.Ep.124.12 <br> Vou dizer: espírito livre, elevado, que submete a si as outras coisas, e ele não se submete a nenhuma. <small> [JDD] </small> </small> </p>
+; <p> noueramus uires corporis ex his collegimus esse et <b>animi</b> robur <br> <small> Sen.Ep.120.5 <br> Conhecíamos as forças do corpo: a partir delas, concluímos que havia também o vigor do espírito. <small> [JDD] </small> </small> </p>
+; <p> quid de uirtute eius dicam de magnitudine <b>animi</b> grauitate constantia <br> <small> Cic.Deiot.37 <br> O que vou dizer de seu valor, de sua grandeza de espírito, de sua seriedade, de sua contância? <small> [JDD] </small> </small> </p>
+; <p> redde nunc <b>animos</b> acres nunc aliquid aude sceleribus dignum tuis <br> <small> Sen.Oed.878 <br> Mostra agora os teus ânimos vigorosos; ousa agora algo digno de teus crimes. <small> [JDD] </small> </small> </p>
+; <p> itaque quantum potes circumscribe corpus tuum et <b>animo</b> locum laxa <br> <small> Sen.Ep.15.2 <br> Por isso limita o quanto podes o teu corpo e amplia o espaço de teu espírito. <small> [JDD] </small> </small> </p>
+; <p> huius magnitudini <b>animi</b> grauitati sapientiae tempestas est oblata formidolosissimi temporis <br> <small> Cic.Phil.7.7.1 <br> À grandeza de seu espírito, à sua seriedade, à sua sabedoria foi apresentada a calamidade desse tempo taõ terrível. <small> [JDD] </small> </small> </p>
+; <p> profectio certe <b>animum</b> tuum non debet offendere num igitur remansio <br> <small> Cic.Lig.4 <br> Sua partida certamente não deve ofender teu espírito: por acaso então a sua estada? <small> [JDD] </small> </small> </p>
+; <p> loca amoena uoluptaria facile in otio ferocis militum <b>animos</b> molliuerant <br> <small> Sal.Cat.11.5 <br> Os lugares amenos, voluptuosos, tinham, no ócio, fácilmente amolecido os ânimos ferozes dos soldados. <small> [JDD] </small> </small> </p>
+; <p> uiget aetas <b>animus</b> ualet contra illis annis atque diuitiis omnia consenuerunt <br> <small> Sal.Cat.20.10 <br> nossa idade tem vigor, nosso espírito tem valor; neles, ao contrário, pelos anos e pelas riquezas, tudo envelheceu. <small> [JDD] </small> </small> </p>
+; <p> contine illum et constitue ut habitus <b>animi</b> fiat quod est inpetus <br> <small> Sen.Ep.16.6 <br> Conserva-o e estabelece para que se torne hábito o que é ímpeto do espírito. <small> [JDD] </small> </small> </p>
+; <p> quod aequiore <b>animo</b> passus est se patriae eripi quam sibi exilium <br> <small> Sen.Prov.3.7 <br> porque suportou ser arrebatado de sua pátria com o ânimo mais sereno do que ficar privado do exílio? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quibus rebus ad illum primum motum <b>animi</b> et amoris adhibitis admirabilis quaedam exardescit beneuolentiae magnitudo <br> <small> Cic.Amici.29 <br> anexadas essas coisas a aquele primeiro movimento do espírito e do amor, inflama-se uma certa admirável grandeza de benevolência. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> omnibus hoc uitium est cantoribus inter amicos ut numquam inducant <b>animum</b> cantare rogati iniussi numquam desistant <br> <small> Hor.S.1.3.1 <br> Todos os cantores têm este defeito: entre amigos, nunca se dispõem a cantar quando solicitados, quando ninguém pede nunca param. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> petit atque hortatur ut sine eius offensione <b>animi</b> uel ipse de eo causa cognita statuat uel ciuitatem statuere iubeat <br> <small> Caes.Gal.1.19.5 <br> pede e exorta que, sem mágoa de seu coração, ou ele próprio, conhecida a causa, tome uma medida acerca daquele, ou ordene que a cidade a tome. <small> [JDD] </small> </small> </p>
+; <p> Si nostrum studium ad aures pervenit tuas Et arte fictas <b>animus</b> sentit fabulas , Omnem querelam submovet felicitas . <br> <small> Phaed.2.ep <br> Se o nosso zelo chega a uns ouvidos cultos e o espírito aprecia as fábulas inventadas com arte, a minha felicidade afasta todo queixume. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ideo pueris et sententias ediscendas damus et has quas Graeci chrias uocant quia conplecti illas puerilis <b>animus</b> potest qui plus adhuc non capit <br> <small> Sen.Ep.33.7 <br> 7 Por isso damos aos meninos sentenças para serem decoradas, essas que os gregos chamam de chrias, porque o espírito pueril que ainda não retém mais é capaz de compreendê-las. <small> [JDD] </small> </small> </p>
+; <p> Antiochus qui <b>animo</b> et puerili esset et regio nihil de istius improbitate suspicatus est imperat suis ut id in praetorium inuolutum quam occultissime deferrent <br> <small> Cic.Ver.2.4.65.6 <br> Antíoco, que era de um caráter de menino e de rei, nada suspeitou da improbidade desse aí; ordena aos seus que o levassem embrulhado o mais ocultamente possível à residência do pretor. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-110-105-109-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 52.87 and an absolute frequency of 57. The Sallustius subcorpus follows, with a normalized frequency of 52.87 and an absolute frequency of 57. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 27 ; absolute frequency: 10.1971447994562. subcorpus: Cicero ; normalized frequency: 348 ; absolute frequency: 21.679001270838. subcorpus: Horatius ; normalized frequency: 13 ; absolute frequency: 11.5442678270136. subcorpus: Ovidius ; normalized frequency: 7 ; absolute frequency: 12.0109814687714. subcorpus: Phaedrus ; normalized frequency: 12 ; absolute frequency: 18.2177015333232. subcorpus: Sallustius ; normalized frequency: 57 ; absolute frequency: 52.8707912067526. subcorpus: Seneca ; normalized frequency: 225 ; absolute frequency: 41.9924973404752. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 7 ; absolute frequency: 24.0302094061105. subcorpus: Vergilius ; normalized frequency: 13 ; absolute frequency: 25.0965250965251. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-110-105-109-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 44.15 and an absolute frequency of 268. The Poesia.didática subcorpus follows, with a normalized frequency of 16.12 and an absolute frequency of 19. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 91 ; absolute frequency: 22.1524379853453. subcorpus: Prosa.filosófica ; normalized frequency: 268 ; absolute frequency: 44.150837712723. subcorpus: Prosa.oratória ; normalized frequency: 198 ; absolute frequency: 19.010494176836. subcorpus: Prosa.epistolográfica ; normalized frequency: 77 ; absolute frequency: 20.4032963247569. subcorpus: Poesia.lírica ; normalized frequency: 13 ; absolute frequency: 10.9363169849415. subcorpus: Poesia.didática ; normalized frequency: 19 ; absolute frequency: 16.116718975316. subcorpus: Poesia.trágica ; normalized frequency: 30 ; absolute frequency: 26.0597637248089. subcorpus: Poesia.épica ; normalized frequency: 13 ; absolute frequency: 25.0965250965251. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-110-105-109-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 37.33 and an absolute frequency of 244. The I.a.C. subcorpus follows, with a normalized frequency of 21.32 and an absolute frequency of 458. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 458 ; absolute frequency: 21.3171980451478. subcorpus: I.d.C. ; normalized frequency: 244 ; absolute frequency: 37.325990515527. subcorpus: II.d.C. ; normalized frequency: 7 ; absolute frequency: 18.3246073298429. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

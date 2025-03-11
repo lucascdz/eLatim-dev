@@ -1,0 +1,214 @@
+---
+title: "ciuitas"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-105-117-105-116-97-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>cīvĭtas</b> <b>-tátis</b> <br> <small>subs. f.</small> <br> <small>Obs.: No gen. pl. aparecem as duas formas: civitatium e civitatum.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Condição de cidadão, direito de cidadão &ensp; <small>Cíc. Balb. 20.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Conjunto de cidadãos, sede de um governo, Estado, cidade &ensp; <small>Cés. B. Gal. 4, 3. 3; Cíc. Verr. 2, 145.</small> <br> <b>3</b> &ensp; <small>III-Sent. raro:-= urbs Tác. Hist. 4, 65.</small> &ensp; <small></small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Civitas</b> -<b>atis</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; cidade. <br> <b>2</b> &ensp; povo, gente de huma Cidade. <br> <b>3</b> &ensp; fóro, privilegios de Cidadão. <br> <b>4</b> &ensp; <small>Caes.</small> &ensp; paiz, Estado, que se governa com as mesmas Leis. </p>
+
+
+
+
+#### Velez
+
+<b>Civitas</b> -<b>tis</b>   <p> <b>1</b> &ensp; a Cidade &ensp; <small>Urbs, & Civitas in hoc differunt, quód incolae dicuntur propriè Civitas; Urbs verò complectitur aedificia.</small> <br> <b>2</b> &ensp; <small>interdum Civitas dicitur jus civium</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>ciuitate aliquem donare &ensp; <small>fazer a alguem cidadaõ</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Ciuitas</b> -<b>atis</b>   <p> <b>1</b> &ensp; a cidade </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/94400 ' target="_blank"> http://lila-erc.eu/data/id/lemma/94400 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> ceiuitas <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+cīvĭtās 
+ cīvĭtātis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-105-117-105-116-97-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-105-117-105-116-97-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ciuitas here are all the values plotted: collocate: princeps; scoreSUBST: 3. collocate: liber; scoreSUBST: 0. collocate: finitimus; scoreSUBST: 0. collocate: dono; scoreSUBST: 0. collocate: status; scoreSUBST: 2. collocate: totus; scoreSUBST: 0. collocate: corrumpo; scoreSUBST: 0. collocate: Gallia; scoreSUBST: 0. collocate: uniuersus; scoreSUBST: 0. collocate: nobilis; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: do; scoreSUBST: 0. collocate: noster; scoreSUBST: 0. collocate: multus; scoreSUBST: 0. collocate: hic; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-105-117-105-116-97-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ciuitas here are all the values plotted: collocate: princeps; scoreADJ: 0. collocate: liber; scoreADJ: 2. collocate: finitimus; scoreADJ: 2. collocate: dono; scoreADJ: 0. collocate: status; scoreADJ: 0. collocate: totus; scoreADJ: 0. collocate: corrumpo; scoreADJ: 0. collocate: Gallia; scoreADJ: 0. collocate: uniuersus; scoreADJ: 0. collocate: nobilis; scoreADJ: 2. collocate: in; scoreADJ: 0. collocate: do; scoreADJ: 0. collocate: noster; scoreADJ: 0. collocate: multus; scoreADJ: 0. collocate: hic; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-105-117-105-116-97-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ciuitas here are all the values plotted: collocate: princeps; scoreVERBO: 0. collocate: liber; scoreVERBO: 0. collocate: finitimus; scoreVERBO: 0. collocate: dono; scoreVERBO: 2. collocate: status; scoreVERBO: 0. collocate: totus; scoreVERBO: 0. collocate: corrumpo; scoreVERBO: 2. collocate: Gallia; scoreVERBO: 0. collocate: uniuersus; scoreVERBO: 0. collocate: nobilis; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: do; scoreVERBO: 2. collocate: noster; scoreVERBO: 0. collocate: multus; scoreVERBO: 0. collocate: hic; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-105-117-105-116-97-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ciuitas here are all the values plotted: collocate: princeps; scoreADV: 0. collocate: liber; scoreADV: 0. collocate: finitimus; scoreADV: 0. collocate: dono; scoreADV: 0. collocate: status; scoreADV: 0. collocate: totus; scoreADV: 0. collocate: corrumpo; scoreADV: 0. collocate: Gallia; scoreADV: 0. collocate: uniuersus; scoreADV: 0. collocate: nobilis; scoreADV: 0. collocate: in; scoreADV: 0. collocate: do; scoreADV: 0. collocate: noster; scoreADV: 0. collocate: multus; scoreADV: 0. collocate: hic; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-105-117-105-116-97-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ciuitas here are all the values plotted: collocate: princeps; scoreFUNC: 0. collocate: liber; scoreFUNC: 0. collocate: finitimus; scoreFUNC: 0. collocate: dono; scoreFUNC: 0. collocate: status; scoreFUNC: 0. collocate: totus; scoreFUNC: 0. collocate: corrumpo; scoreFUNC: 0. collocate: Gallia; scoreFUNC: 0. collocate: uniuersus; scoreFUNC: 0. collocate: nobilis; scoreFUNC: 0. collocate: in; scoreFUNC: 20. collocate: do; scoreFUNC: 0. collocate: noster; scoreFUNC: 0. collocate: multus; scoreFUNC: 0. collocate: hic; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> nulla hoc <b>ciuitas</b> umquam alia commisit <br> <small> Cic.Ver.2.4.25.18 <br> Nenhuma outra cidade jamais cometeu isto. <small> [JDD] </small> </small> </p>
+; <p> id adeo malum multos post annos in <b>ciuitatem</b> reuorterat <br> <small> Sal.Cat.37.11 <br> De tal modo esse mal, depois de muitos anos, tinha retornado à cidade. <small> [JDD] </small> </small> </p>
+; <p> ita <b>ciuitas</b> seruitute oppressa stultae laetitiae grauis poenas dedit <br> <small> Sal.Cat.51.31 <br> assim a cidade, oprimida pela escravidão, sofreu o grave castigo de sua tola alegria. <small> [JDD] </small> </small> </p>
+; <p> <b>civitates</b> locupletes ne in hiberna milites reciperent magnas pecunias dabant <br> <small> Cic.Att.5.21.7 <br> As cidades ricas, para não receberem os soldados nos quartéis de inverno, davam grandes somas de dinheiro. <small> [JDD] </small> </small> </p>
+; <p> petivi etiam pro meis in <b>civitatem</b> beneficiis ut negotium conficerent <br> <small> Cic.Att.5.21.11 <br> pedi até mesmo pelos meus benefícios na cidade que concluíssem o negócio. <small> [JDD] </small> </small> </p>
+; <p> qui eius consilii principes fuissent quod intellegerent quantam calamitatem <b>ciuitati</b> intulissent in Britanniam profugisse <br> <small> Caes.Gal.2.14.4 <br> Que os que foram autores desse plano, por entenderem que grande calamidade tinham acarretado para a cidade, se refugiaram na Britânia. <small> [JDD] </small> </small> </p>
+; <p> Umbrenus quod in Gallia negotiatus erat plerisque principibus <b>ciuitatium</b> notus erat atque eos nouerat <br> <small> Sal.Cat.40.2 <br> Umbreno, porque tinha feito negócios na Gália, era conhecido da maioria da principais figuras das cidades e os conhecia. <small> [JDD] </small> </small> </p>
+; <p> Galliae super memoriam Uindicis obligatae recenti dono Romanae <b>ciuitatis</b> et in posterum tributi leuamento <br> <small> Tac.Hist.1.8.4 <br> As Gálias, além da lembrança de Víndice, estavam obrigadas pela recente dádiva de cidadania e pela redução do tributo para o futuro. <small> [JDD] </small> </small> </p>
+; <p> quia nulla uis umquam est in libera <b>ciuitate</b> suscepta inter ciuis non contra rem publicam <br> <small> Cic.Mil.13 <br> Porque, numa cidade livre, toda violência entre os cidadãos sempre foi empreendida contra a república. <small> [JDD] </small> </small> </p>
+; <p> haec eadem ratio est in summa totius Galliae namque omnes <b>ciuitates</b> diuisae sunt in duas partes <br> <small> Caes.Gal.6.11.5 <br> Essa mesma razão existe no conjunto da Gália inteira; pois todas as cidades estão divididas em dois partidos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> hoc uerbum cum Latini grammatici <b>ciuitate</b> donauerint ego damnandum non puto puto in <b>ciuitatem</b> suam redigendum <br> <small> Sen.Ep.120.4 <br> Como os gramáticos latinos deram cidadania a essa palavra, eu não acho que ela deva ser condenada, mas que deva ser reenviada à sua própria cidade.[*] <small>  </small> </small> </p>
+; <p> incitabant praeterea corrupti <b>ciuitatis</b> mores quos pessuma ac diuorsa inter se mala luxuria atque auaritia uexabant <br> <small> Sal.Cat.5.8 <br> Além disso, o estimulavam os costumes corruptos da cidade, os quais os péssimos e diversos entre si, a luxúria e a avareza, atormentavam. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ex quo intellegi potest animo illos abhorruisse semper ab optimo <b>ciuitatis</b> statu non uoluntate fuisse popularis <br> <small> Cic.Phil.7.4.3 <br> Disso se pode entender que eles em seu espírito sempre tiveram aversão pela melhor situação do estado, que não foram populares por sua própria vontade. <small> [JDD] </small> </small> </p>
+; <p> Caesar rursus ad uexandos hostes profectus magno coacto equitum numero ex finitimis <b>ciuitatibus</b> in omnes partes dimittit <br> <small> Caes.Gal.6.43.1 <br> César, tendo partido novamente para acossar os inimigos, reunindo das cidades vizinhas um grande número de cavaleiros, envia-os em todas as direções. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quam hic immunitatem quam <b>ciuitatem</b> quod praemium non uel singulis hominibus uel <b>ciuitatibus</b> uel uniuersis prouinciis uendidit <br> <small> Cic.Phil.3.10.3 <br> Que isenção, que cidadania, que recompensa este sujeito não vendeu a pessoas em particular ou a cidades ou a províncias inteiras? <small> [JDD] </small> </small> </p>
+; <p> idcirco in hanc urbem uenisti ut huius urbis iura et exempla corrumperes domesticaque immanitate nostrae <b>ciuitatis</b> humanitatem inquinares <br> <small> Cic.Deiot.32 <br> Vieste por esse motivo a esta cidade, para corromperes os direitos e os exemplo desta cidade e sujares com tua brutalidade doméstica a humanidade de nossa comunidade? <small> [JDD] </small> </small> </p>
+; <p> quo mortuo me ad pontificem Scaeuolam contuli quem unum nostrae <b>ciuitatis</b> et ingenio et iustitia praestantissimum audeo dicere <br> <small> Cic.Amici.1 <br> Morto este, me dirigi até o pontífice Cévola, o único de nossa cidade que ouso chamar de eminentíssimo por seu talento e justiça. <small> [JDD] </small> </small> </p>
+; <p> hanc uirtutem Agrigentinorum imitati sunt Assorini postea uiri fortes et fideles sed nequaquam ex tam ampla neque tam ex nobili <b>ciuitate</b> <br> <small> Cic.Ver.2.4.96.1 <br> 96 Essa coragem dos agrigentinos, a imitaram posteriormente os assorinos, homens valorosos e leais, mas de uma cidade de modo algum tão importante nem tão conhecida. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-105-117-105-116-97-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 30.97 and an absolute frequency of 82. The Phaedrus subcorpus follows, with a normalized frequency of 1.52 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 82 ; absolute frequency: 30.9691064279779. subcorpus: Cicero ; normalized frequency: 169 ; absolute frequency: 10.5280207321024. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 18 ; absolute frequency: 16.6960393284482. subcorpus: Seneca ; normalized frequency: 12 ; absolute frequency: 2.23959985815868. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 4 ; absolute frequency: 13.7315482320632. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-105-117-105-116-97-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 25.32 and an absolute frequency of 104. The Prosa.filosófica subcorpus follows, with a normalized frequency of 3.29 and an absolute frequency of 20. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 104 ; absolute frequency: 25.3170719832518. subcorpus: Prosa.filosófica ; normalized frequency: 20 ; absolute frequency: 3.29483863527784. subcorpus: Prosa.oratória ; normalized frequency: 144 ; absolute frequency: 13.8258139467898. subcorpus: Prosa.epistolográfica ; normalized frequency: 17 ; absolute frequency: 4.50462386390736. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-105-117-105-116-97-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 13.48 and an absolute frequency of 6. The I.a.C. subcorpus follows, with a normalized frequency of 12.52 and an absolute frequency of 269. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 1.99 and an absolute freqeuncy of 13. here are all the values: subcorpus: I.a.C. ; normalized frequency: 269 ; absolute frequency: 12.5203630439842. subcorpus: I.d.C. ; normalized frequency: 13 ; absolute frequency: 1.98867982254857. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+:::
+

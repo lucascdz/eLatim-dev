@@ -1,0 +1,205 @@
+---
+title: "quisquis"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx113-117-105-115-113-117-105-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>quicquid</b> <br> <small></small> <br> <small>v. quisquis.</small> 
+ <b>quidquid</b> <br> <b>quicquid</b> <br> <small>pron. n. de quisquis</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Relativo:</small> &ensp; Tudo o que, tudo aquilo que &ensp; <small>Cíc. Verr. 2, 135.</small> <br> <b>2</b> &ensp; <small>II-Indefinido:</small> &ensp; Seja o que for, qualquer coisa, tudo &ensp; <small>Cíc. Tusc. 5, 98.</small> </p> 
+ <b>quisquis</b> <b>quidquid ou quicquid</b> <br> <small>pron. indef.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Quem quer que seja, seja quem for, seja o que for: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>quoquo modo res se habet Cíc. Q. Fr. 2. 2. 1 “qualquer que seja a situação em que o caso esteja”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Quisquis</b> <br> <small>m. Cic. f. Plaut. quidquid, n. Cic.</small>   <p> <b>1</b> &ensp; qualquer que, todo aquelle que. </p>
+
+
+
+
+#### Velez
+
+<small>et c.</small> <b>Quisquis</b>   <p> <b>1</b> &ensp; qualquer que </p>
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/121322 ' target="_blank"> http://lila-erc.eu/data/id/lemma/121322 </a> <br>
+<small> classe: </small> pronome    <br>
+<small> paradigma: </small> pronominal <br>
+<small> outras grafias: </small> quiqui <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+quīquī
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx113-117-105-115-113-117-105-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword quisquis here are all the values plotted: collocate: modus; scoreSUBST: 3. collocate: natura; scoreSUBST: 2. collocate: alius; scoreSUBST: 0. collocate: ille; scoreSUBST: 0. collocate: sum; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx113-117-105-115-113-117-105-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword quisquis here are all the values plotted: collocate: modus; scoreADJ: 0. collocate: natura; scoreADJ: 0. collocate: alius; scoreADJ: 0. collocate: ille; scoreADJ: 0. collocate: sum; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx113-117-105-115-113-117-105-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword quisquis here are all the values plotted: collocate: modus; scoreVERBO: 0. collocate: natura; scoreVERBO: 0. collocate: alius; scoreVERBO: 0. collocate: ille; scoreVERBO: 0. collocate: sum; scoreVERBO: 2. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx113-117-105-115-113-117-105-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword quisquis here are all the values plotted: collocate: modus; scoreADV: 0. collocate: natura; scoreADV: 0. collocate: alius; scoreADV: 0. collocate: ille; scoreADV: 0. collocate: sum; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx113-117-105-115-113-117-105-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword quisquis here are all the values plotted: collocate: modus; scoreFUNC: 0. collocate: natura; scoreFUNC: 0. collocate: alius; scoreFUNC: 0. collocate: ille; scoreFUNC: 0. collocate: sum; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ut melius <b>quidquid</b> erit pati <br> <small> Hor.Carm.1.11.3 <br> Como é melhor suportar o que quer que seja. <small> [JDD] </small> </small> </p>
+; <p> <b>quicquid</b> aetatis retro est mors tenet <br> <small> Sen.Ep.1.2 <br> tudo quanto de nossa vida fica para trás, a morte possui. <small> [JDD] </small> </small> </p>
+; <p> <b>quicquid</b> excessit modum pendet instabili loco <br> <small> Sen.Oed.909 <br> Tudo o que passa da medida fica suspenso em lugar instável. <small> [JDD] </small> </small> </p>
+; <p> durum sed leuius fit patientia <b>quidquid</b> corrigere est nefas <br> <small> Hor.Carm.1.24.19 <br> É duro: mas com resignação torna-se mais leve tudo o que é vedado pelos deuses corrigir. <small> [JDD] </small> </small> </p>
+; <p> <b>quicquid</b> ex incerto uenit coniecturae et pauentis animi licentiae traditur <br> <small> Sen.Ep.13.9 <br> tudo o que vem do incerto é entregue à conjectura e à fantasia do espírito apavorado. <small> [JDD] </small> </small> </p>
+; <p> quod est eo decet uti et <b>quidquid</b> agas agere pro uiribus <br> <small> Cic.Sen.27 <br> Covém usar o que se tem e fazer qualquer coisa que faças confome as forças. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> cum maxima malorum optauerimus et ex gratulatione natum sit <b>quidquid</b> adloquimur <br> <small> Sen.Ep.121.4 <br> Quando desejamos as maiores desgraças e tudo o que falamos para consolar nasceu da congratulação. <small> [JDD] </small> </small> </p>
+; <p> eo mortem praecurre et <b>quidquid</b> illa ablatura est iam sibi interere <br> <small> Sen.Ep.123.10 <br> Antecipar com isso a morte e já morrer dentro de si mesmo tudo o que ela vai levar.[*] <small>  </small> </small> </p>
+; <p> incertum est et inaequabile <b>quidquid</b> ars tradit ex aequo uenit quod natura distribuit <br> <small> Sen.Ep.121.23 <br> Incerto e desigual é tudo o que a arte transmite: vem por igual o que a natureza distribui. <small> [JDD] </small> </small> </p>
+; <p> illis merito accidet <b>quicquid</b> euenerit ceterum uos patres conscripti quid in alios statuatis considerate <br> <small> Sal.Cat.51.25 <br> Qualquer coisa que ocorrer a eles, acontecerá merecidamente; porém vós, pais conscritos, tendes em mente o que devais decidir com relação aos outros. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx113-117-105-115-113-117-105-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 18.48 and an absolute frequency of 99. The Horatius subcorpus follows, with a normalized frequency of 6.22 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 38 ; absolute frequency: 2.36724726520645. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 99 ; absolute frequency: 18.4766988298091. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx113-117-105-115-113-117-105-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 18.24 and an absolute frequency of 21. The Prosa.filosófica subcorpus follows, with a normalized frequency of 14 and an absolute frequency of 85. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 0.97 and an absolute freqeuncy of 4. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 4 ; absolute frequency: 0.973733537817376. subcorpus: Prosa.filosófica ; normalized frequency: 85 ; absolute frequency: 14.0030641999308. subcorpus: Prosa.oratória ; normalized frequency: 24 ; absolute frequency: 2.30430232446497. subcorpus: Prosa.epistolográfica ; normalized frequency: 7 ; absolute frequency: 1.85484512043244. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 21 ; absolute frequency: 18.2418346073662. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx113-117-105-115-113-117-105-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 15.45 and an absolute frequency of 101. The I.d.C. subcorpus follows, with a normalized frequency of 15.45 and an absolute frequency of 101. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 50 ; absolute frequency: 2.32720502676286. subcorpus: I.d.C. ; normalized frequency: 101 ; absolute frequency: 15.4505124674927. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

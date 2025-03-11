@@ -1,0 +1,209 @@
+---
+title: "respondeo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx114-101-115-112-111-110-100-101-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>respondĕō</b> <b>-és</b> <b>-ére</b> <b>-spóndí, -spónsum</b> <br> <small>v. tr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Comprometer-se por seu lado, corresponder a um compromisso solenemente feito &ensp; <small>Plaut. Capt. 899.</small> <br> <b>2</b> &ensp; <small>I-Daí, na língua comum</small> &ensp; Responder &ensp; <small>Cíc. Mur. 3; Cíc. Cael. 67.</small> <br> <b>3</b> &ensp; <small>II-Empregos especiais: Na língua jurídica:</small> &ensp; Dar consultas &ensp; <small>responder a consultas Cíc. De Or. 1, 198.</small> <br> <b>4</b> &ensp; <small>II-Empregos especiais: Na língua jurídica:</small> &ensp; Responder a uma citação &ensp; <small>em Justiça Cíc, Verr. 1, 1.</small> <br> <b>5</b> &ensp; <small>II-Empregos especiais: Na língua jurídica:</small> &ensp; Corresponder a, estar à altura de: &ensp; <small></small> <br> <b>6</b> &ensp; <small>II-Na língua religiosa:</small> &ensp; Responder a um oráculo &ensp; <small>Cíc. Div, 1, 79</small> <br> <b>7</b> &ensp; <small>II-Na língua da agricultura:</small> &ensp; Produzir, prosperar &ensp; <small>Sên, Ep, 23, 5.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>5</b><br>honoribus majorum Cíc. Br: 117 ‘corresponder às honras dos antepassados’ estar à altura dos ancestrais dos magistrados. </p> 
+ <b>respōndī</b> <br> <small>perf. de respondèo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Respondeo</b> -<b>es</b> -<b>di</b> -<b>sum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; responder. <br> <b>2</b> &ensp; corresponder. <br> <b>3</b> &ensp; assimilhar. <br> <b>4</b> &ensp; convir, proporcionar-se, quadrar. <br> <b>5</b> &ensp; satisfazer, pagar. <br> <b>6</b> &ensp; estar fronteiro. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>respondere ad nomen &ensp; <small><small>Liv</small></small> &ensp; <small>Comparecer em juizo havendo sido citado</small> <br> respondere ad tempus &ensp; <small><small>Cic</small></small> &ensp; <small>Pagar a divida no tempo prefixo</small> <br> respondere de iure &ensp; <small><small>Cic</small></small> &ensp; <small>Ser advogado, ter officio de advogado</small> <br> respondere ius &ensp; <small><small>Cic</small></small> &ensp; <small>Ser advogado, ter officio de advogado</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Respondeo</b> -<b>es</b>   <p> <b>1</b> &ensp; responder. ou cõcordar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/122740 ' target="_blank"> http://lila-erc.eu/data/id/lemma/122740 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> respondeo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> respondere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> respondebit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> respondi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> responsum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> responsurum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+respondēō 
+ respondēs 
+ respondēre 
+ respondī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx114-101-115-112-111-110-100-101-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx114-101-115-112-111-110-100-101-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword respondeo here are all the values plotted: collocate: primum; scoreSUBST: 0. collocate: ita; scoreSUBST: 0. collocate: ille; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx114-101-115-112-111-110-100-101-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword respondeo here are all the values plotted: collocate: primum; scoreADJ: 0. collocate: ita; scoreADJ: 0. collocate: ille; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx114-101-115-112-111-110-100-101-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword respondeo here are all the values plotted: collocate: primum; scoreVERBO: 0. collocate: ita; scoreVERBO: 0. collocate: ille; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx114-101-115-112-111-110-100-101-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword respondeo here are all the values plotted: collocate: primum; scoreADV: 2. collocate: ita; scoreADV: 2. collocate: ille; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx114-101-115-112-111-110-100-101-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword respondeo here are all the values plotted: collocate: primum; scoreFUNC: 0. collocate: ita; scoreFUNC: 0. collocate: ille; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>Respondit</b> ille : <br> <small> Phaed.1.22 <br> Respondeu aquele. <small> [JDD] </small> </small> </p>
+; <p> <b>respondent</b> illae praetoris in eo loco seruos esse uisos <br> <small> Cic.Ver.2.4.100.11 <br> Elas respondem que tinham sido vistos escravos do pretor nesse local. <small> [JDD] </small> </small> </p>
+; <p> nondum de mea sententia dico impudentiae primum <b>respondebo</b> tuae <br> <small> Cic.Dom.4 <br> Não falo ainda acerca de minha opinião; reponderei primeiro ao teu descaramento. <small> [JDD] </small> </small> </p>
+; <p> itaque ego seueritati tuae ita ut oportet <b>respondere</b> non audeo <br> <small> Cic.Cael.30 <br> E assim eu não ouso responder à tua severidade como convinha. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx114-101-115-112-111-110-100-101-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 12.15 and an absolute frequency of 8. The Vergilius subcorpus follows, with a normalized frequency of 1.93 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 13 ; absolute frequency: 4.90973638492333. subcorpus: Cicero ; normalized frequency: 95 ; absolute frequency: 5.91811816301612. subcorpus: Horatius ; normalized frequency: 6 ; absolute frequency: 5.32812361246781. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 8 ; absolute frequency: 12.1451343555488. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 9 ; absolute frequency: 1.67969989361901. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx114-101-115-112-111-110-100-101-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 11.23 and an absolute frequency of 5. The Poesia.didática subcorpus follows, with a normalized frequency of 6.79 and an absolute frequency of 8. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0.87 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 16 ; absolute frequency: 3.89493415126951. subcorpus: Prosa.filosófica ; normalized frequency: 22 ; absolute frequency: 3.62432249880562. subcorpus: Prosa.oratória ; normalized frequency: 62 ; absolute frequency: 5.95278100486784. subcorpus: Prosa.epistolográfica ; normalized frequency: 19 ; absolute frequency: 5.03457961260235. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 8 ; absolute frequency: 6.78598693697515. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx114-101-115-112-111-110-100-101-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 11.23 and an absolute frequency of 5. The I.a.C. subcorpus follows, with a normalized frequency of 5.45 and an absolute frequency of 117. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 2.6 and an absolute freqeuncy of 17. here are all the values: subcorpus: I.a.C. ; normalized frequency: 117 ; absolute frequency: 5.44565976262509. subcorpus: I.d.C. ; normalized frequency: 17 ; absolute frequency: 2.60058130640967. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+:::
+

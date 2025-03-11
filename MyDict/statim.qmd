@@ -1,0 +1,201 @@
+---
+title: "statim"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-116-97-116-105-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>statim</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; De pé firme, sem recuar, no mesmo lugar &ensp; <small>Plaut. Amph. 276.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; De modo estável, constantemente &ensp; <small>Ter. Phorm. 790.</small> <br> <b>3</b> &ensp; <small>II-Donde:</small> &ensp; Incontinenti, imediatamente, logo &ensp; <small>Cíc. Tusc. 1, 18.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Statim</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; logo, sem demora, em continente. </p> 
+ <b>Statim</b> <br> <small>adv.</small>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Statim</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; logo â ora </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/125596 ' target="_blank"> http://lila-erc.eu/data/id/lemma/125596 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+stătim
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-116-97-116-105-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword statim here are all the values plotted: collocate: mitto; scoreSUBST: 0. collocate: uenio; scoreSUBST: 0. collocate: facio; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-116-97-116-105-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword statim here are all the values plotted: collocate: mitto; scoreADJ: 0. collocate: uenio; scoreADJ: 0. collocate: facio; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-116-97-116-105-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword statim here are all the values plotted: collocate: mitto; scoreVERBO: 2. collocate: uenio; scoreVERBO: 2. collocate: facio; scoreVERBO: 2. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-116-97-116-105-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword statim here are all the values plotted: collocate: mitto; scoreADV: 0. collocate: uenio; scoreADV: 0. collocate: facio; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-116-97-116-105-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword statim here are all the values plotted: collocate: mitto; scoreFUNC: 0. collocate: uenio; scoreFUNC: 0. collocate: facio; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> et <b>statim</b> vocavit illos <br> <small> Vulg.Marc.1.20 <br> E de imediato chamou-os <small> [JDD] </small> </small> </p>
+; <p> et <b>statim</b> ille surrexit <br> <small> Vulg.Marc.2.12 <br> E imediatamente ele se levantou <small> [JDD] </small> </small> </p>
+; <p> et <b>statim</b> dicunt ei de illa <br> <small> Vulg.Marc.1.30 <br> e logo lhe falam dela. <small> [JDD] </small> </small> </p>
+; <p> misit ad me <b>statim</b> qui salutem nuntiaret <br> <small> Cic.Att.4.10.2 <br> Imediatamente enviou alguém até mim para me anunciar saúde. <small> [JDD] </small> </small> </p>
+; <p> verum <b>statim</b> fac ut sciam si modo tibi est commodum <br> <small> Cic.Att.4.8A.1 <br> Faz com que eu saiba imediatamente a verdade, se acaso te é conveniente. <small> [JDD] </small> </small> </p>
+; <p> et <b>statim</b> ascendens navem cum discipulis suis venit in partes Dalmanutha <br> <small> Vulg.Marc.8.10 <br> E de imediato, subindo no barco com seus discípulos, veio para os lados de Dalmanuta. <small> [JDD] </small> </small> </p>
+; <p> et cum se produxerit fructus <b>statim</b> mittit falcem quoniam adest messis <br> <small> Vulg.Marc.4.29 <br> E quando o fruto se revelar, mete-se imediatamente a foice porque é hora da colheita. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-116-97-116-105-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 51.67 and an absolute frequency of 23. The Tacitus subcorpus follows, with a normalized frequency of 17.16 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 6 ; absolute frequency: 2.26603217765692. subcorpus: Cicero ; normalized frequency: 46 ; absolute frequency: 2.86561511051307. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 17 ; absolute frequency: 3.17276646572479. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 5 ; absolute frequency: 17.164435290079. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 23 ; absolute frequency: 51.6737811727702'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-116-97-116-105-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 51.67 and an absolute frequency of 23. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 6.09 and an absolute frequency of 23. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 11 ; absolute frequency: 2.67776722899778. subcorpus: Prosa.filosófica ; normalized frequency: 17 ; absolute frequency: 2.80061283998616. subcorpus: Prosa.oratória ; normalized frequency: 22 ; absolute frequency: 2.11227713075956. subcorpus: Prosa.epistolográfica ; normalized frequency: 23 ; absolute frequency: 6.09449110999232. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 23 ; absolute frequency: 51.6737811727702'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-116-97-116-105-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 51.67 and an absolute frequency of 23. The II.d.C. subcorpus follows, with a normalized frequency of 13.09 and an absolute frequency of 5. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 2.42 and an absolute freqeuncy of 52. here are all the values: subcorpus: I.a.C. ; normalized frequency: 52 ; absolute frequency: 2.42029322783337. subcorpus: I.d.C. ; normalized frequency: 18 ; absolute frequency: 2.75355667737494. subcorpus: II.d.C. ; normalized frequency: 5 ; absolute frequency: 13.0890052356021. subcorpus: IV.d.C. ; normalized frequency: 23 ; absolute frequency: 51.6737811727702'}
+
+
+:::
+

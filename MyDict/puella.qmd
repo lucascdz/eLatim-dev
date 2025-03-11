@@ -1,0 +1,199 @@
+---
+title: "puella"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-117-101-108-108-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>puēlla</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Menina &ensp; <small>Verg. En. 6, 307.</small> <br> <b>2</b> &ensp; <small>I-Daí, por extensão</small> &ensp; Moça, mulher nova &ensp; <small>Ov. F. 2, 557.</small> <br> <b>3</b> &ensp; <small>II-Sent. particular:</small> &ensp; Querida, amada &ensp; <small>língua amorosa Catul. 2, 1.</small> <br> <b>4</b> &ensp; <small>II-Sent. particular:</small> &ensp; Cadelinha &ensp; <small>Marc. 1. 109. 16.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Puella</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; rapariga, mulher moça de qualquer estado. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Puella</b> -<b>ae</b>   <p> <b>1</b> &ensp; a moça </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/118823 ' target="_blank"> http://lila-erc.eu/data/id/lemma/118823 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a/e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+pŭella 
+ pŭellae
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-117-101-108-108-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> et tenens manum <b>puellae</b> ait illi <br> <small> Vulg.Marc.5.41 <br> E segurando a mão da menina, diz-lhe. <small> [JDD] </small> </small> </p>
+; <p> et confestim surrexit <b>puella</b> et ambulabat <br> <small> Vulg.Marc.5.42 <br> E imediatamente a menina levantou e andava. <small> [JDD] </small> </small> </p>
+; <p> et dedit illud <b>puellae</b> et <b>puella</b> dedit matri suae <br> <small> Vulg.Marc.6.28 <br> e deu-a à garota e a garota a deu à sua mãe. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-117-101-108-108-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 22.47 and an absolute frequency of 10. The Ovidius subcorpus follows, with a normalized frequency of 6.86 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 1 ; absolute frequency: 0.0622959806633276. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 4 ; absolute frequency: 0.746533286052892. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 10 ; absolute frequency: 22.4668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-117-101-108-108-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 22.47 and an absolute frequency of 10. The Poesia.lírica subcorpus follows, with a normalized frequency of 6.73 and an absolute frequency of 8. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.filosófica ; normalized frequency: 2 ; absolute frequency: 0.329483863527784. subcorpus: Prosa.oratória ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 8 ; absolute frequency: 6.73004122150248. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 10 ; absolute frequency: 22.4668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-117-101-108-108-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 22.47 and an absolute frequency of 10. The I.d.C. subcorpus follows, with a normalized frequency of 0.92 and an absolute frequency of 6. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 9 ; absolute frequency: 0.418896904817314. subcorpus: I.d.C. ; normalized frequency: 6 ; absolute frequency: 0.917852225791647. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 10 ; absolute frequency: 22.4668613794653'}
+
+
+:::
+

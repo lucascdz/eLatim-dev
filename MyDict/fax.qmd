@@ -1,0 +1,201 @@
+---
+title: "fax"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx102-97-120xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>fax</b> <b>facis</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Tocha. archote. facho &ensp; <small>Cíc. Cat. I. 32.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Tocha atributo de certas divindades: Deméter. Apolo. Diana, Cupido, as Fúrias, etc. &ensp; <small>Cíc. Verr. 4. 74.</small> <br> <b>3</b> &ensp; <small>II-Daí</small> &ensp; Facho nupcial. himencu &ensp; <small>Hor. O. 3. II. 33.</small> <br> <b>4</b> &ensp; <small>II-Daí</small> &ensp; Tocha fúnebre &ensp; <small>Prop. 4. II. 40.</small> <br> <b>5</b> &ensp; <small>II-Daí</small> &ensp; Luz. astro: &ensp; <small></small> <br> <b>6</b> &ensp; <small>II-Daí</small> &ensp; Meteoro luminoso. estrela cadente &ensp; <small>Cíc. N at. 2. 14.</small> <br> <b>7</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Estímulo. incitamento. instigação &ensp; <small>Cíc. Tu sc. I. 44.</small> <br> <b>8</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Violência. furor. ardor. fúria &ensp; <small>C Ie. De Or. 2. 205.</small> <br> <b>9</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Flagelo. praga &ensp; <small>Plín. H. Nat. 7. 45.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>5</b><br>Phoebi Cíc. poet. Div. I. 1l1, ‘a luz de Febo’. </p> 
+ <small>1.</small> <b>face</b> <br> <small>abl. sing. de fax.</small> <br> <small></small> 
+ <small>1.</small> <b>facis</b> <br> <small>gen. de fax.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Fax</b> -<b>acis</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Varr.</small> &ensp; facha de fogo, archote. </p>
+
+
+
+
+#### Velez
+
+<b>Fax</b> -<b>cis</b>   <p> <b>1</b> &ensp; tocha, luminaria, ou fogaréo <br> <b>2</b> &ensp; incitador, ou author de algum mal </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>alicui faces addere &ensp; <small>incitar</small> <br> seditionis, uel accusationis fax </p>
+
+
+
+
+#### Cardoso
+
+<b>Fax</b> -<b>acis</b>   <p> <b>1</b> &ensp; ho murrão </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/103040 ' target="_blank"> http://lila-erc.eu/data/id/lemma/103040 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> faxs <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+făcĭs 
+ făcis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx102-97-120xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx102-97-120xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword fax here are all the values plotted: collocate: ad; scoreSUBST: 0. collocate: cum; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx102-97-120xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword fax here are all the values plotted: collocate: ad; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx102-97-120xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword fax here are all the values plotted: collocate: ad; scoreVERBO: 0. collocate: cum; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx102-97-120xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword fax here are all the values plotted: collocate: ad; scoreADV: 0. collocate: cum; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx102-97-120xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword fax here are all the values plotted: collocate: ad; scoreFUNC: 20. collocate: cum; scoreFUNC: 10. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> equidem et iugales filiae memini <b>faces</b> et generum Achillem praestitit matri fidem <br> <small> Sen.Ag.158 <br> Na verdade, lembro também as tochas nupciais de minha filha e o meu genro Aquiles: ele demonstrou lealdade a uma mãe. <small> [JDD] </small> </small> </p>
+; <p> quantulum enim a funere absunt et quidem acerbo qui ad <b>faces</b> et cereos uiuunt <br> <small> Sen.Ep.122.10 <br> pois quão pouco distam da morte e, por certo, cruel esses que vivem junto de tochas e velas? <small> [JDD] </small> </small> </p>
+; <p> nisi uero sustinuistis eos qui cum <b>facibus</b> ad curiam concurrerunt cum fascibus ad Castoris cum gladiis toto foro uolitauerunt <br> <small> Cic.Mil.91 <br> A menos que realmente tendes resistido àqueles que correram com tochas à cúria, com tochas ao templo de Castor, que voejaram com espadas por todo o foro. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx102-97-120xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Ovidius subcorpus registers the highest normalized frequency, with the value of 3.43 and an absolute frequency of 2. The Sallustius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 13 ; absolute frequency: 0.809847748623259. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 11 ; absolute frequency: 2.05296653664545. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx102-97-120xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 8.69 and an absolute frequency of 10. The Poesia.didática subcorpus follows, with a normalized frequency of 2.54 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.filosófica ; normalized frequency: 2 ; absolute frequency: 0.329483863527784. subcorpus: Prosa.oratória ; normalized frequency: 11 ; absolute frequency: 1.05613856537978. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 10 ; absolute frequency: 8.68658790826963. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx102-97-120xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 2.14 and an absolute frequency of 14. The I.a.C. subcorpus follows, with a normalized frequency of 0.7 and an absolute frequency of 15. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 15 ; absolute frequency: 0.698161508028857. subcorpus: I.d.C. ; normalized frequency: 14 ; absolute frequency: 2.14165519351384. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

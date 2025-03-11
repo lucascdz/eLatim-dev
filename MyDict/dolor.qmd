@@ -1,0 +1,210 @@
+---
+title: "dolor"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-111-108-111-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>dolor</b> <b>-óris</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Dor física, sofrimento &ensp; <small>Cíc. Fam. 5, 12, 5.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Dor moral, aflição, tormento &ensp; <small>Cíc. Sull. 3</small> <br> <b>3</b> &ensp; <small>I-Daí:</small> &ensp; Ressentimento, cólera &ensp; <small>Cíc. Prov. 2, 14.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Objeto de dor &ensp; <small>Ov. P. 3, 3, 73.</small> <br> <b>5</b> &ensp; <small>II-Na língua retóriea:</small> &ensp; Emoção, sensibilidade &ensp; <small>Cíc. Br. 93.</small> <br> <b>6</b> &ensp; <small>II-Na língua retóriea:</small> &ensp; Expressão patétiea: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>6</b><br>oratio, quae dolores babeat Cíc. De Or. 3, 96 “eloquência patética”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Dolor</b> -<b>oris</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; dor, afflicção, sentimento. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Dolor</b> <b>oris</b>   <p> <b>1</b> &ensp; a dôr </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/100034 ' target="_blank"> http://lila-erc.eu/data/id/lemma/100034 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+dŏlŏr 
+ dŏlōris
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-111-108-111-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-111-108-111-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword dolor here are all the values plotted: collocate: afficio; scoreSUBST: 0. collocate: timor; scoreSUBST: 2. collocate: iniuria; scoreSUBST: 2. collocate: uel; scoreSUBST: 0. collocate: accipio; scoreSUBST: 0. collocate: meus; scoreSUBST: 0. collocate: mors; scoreSUBST: 2. collocate: tuus; scoreSUBST: 0. collocate: suus; scoreSUBST: 0. collocate: magnus; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-111-108-111-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword dolor here are all the values plotted: collocate: afficio; scoreADJ: 0. collocate: timor; scoreADJ: 0. collocate: iniuria; scoreADJ: 0. collocate: uel; scoreADJ: 0. collocate: accipio; scoreADJ: 0. collocate: meus; scoreADJ: 0. collocate: mors; scoreADJ: 0. collocate: tuus; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: magnus; scoreADJ: 2'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-111-108-111-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword dolor here are all the values plotted: collocate: afficio; scoreVERBO: 2. collocate: timor; scoreVERBO: 0. collocate: iniuria; scoreVERBO: 0. collocate: uel; scoreVERBO: 0. collocate: accipio; scoreVERBO: 2. collocate: meus; scoreVERBO: 0. collocate: mors; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: magnus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-111-108-111-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword dolor here are all the values plotted: collocate: afficio; scoreADV: 0. collocate: timor; scoreADV: 0. collocate: iniuria; scoreADV: 0. collocate: uel; scoreADV: 0. collocate: accipio; scoreADV: 0. collocate: meus; scoreADV: 0. collocate: mors; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: magnus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-111-108-111-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword dolor here are all the values plotted: collocate: afficio; scoreFUNC: 0. collocate: timor; scoreFUNC: 0. collocate: iniuria; scoreFUNC: 0. collocate: uel; scoreFUNC: 0. collocate: accipio; scoreFUNC: 0. collocate: meus; scoreFUNC: 0. collocate: mors; scoreFUNC: 0. collocate: tuus; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Terentia magnos articulorum <b>dolores</b> habet <br> <small> Cic.Att.1.5.8 <br> Terência está com fortes dores nas articulações. <small> [JDD] </small> </small> </p>
+; <p> quae res etiam auxit <b>dolorem</b> meum <br> <small> Cic.Att.4.6.2 <br> Esse fato inclusive aumentou  a minha dor. <small> [JDD] </small> </small> </p>
+; <p> ego vivo miserrimus et maximo <b>dolore</b> conficior <br> <small> Cic.Att.3.5 <br> Eu vivo na maior desgraça e sou consumido por profunda dor. <small> [JDD] </small> </small> </p>
+; <p> nullum enim <b>dolorem</b> longum esse qui magnus est <br> <small> Sen.Ep.30.14 <br> Pois não é longa nenhum dor que é intensa. <small> [JDD] </small> </small> </p>
+; <p> etiam si futurum est quid iuuat <b>dolori</b> suo occurrere <br> <small> Sen.Ep.13.10 <br> Se ainda vai ocorrer, de que adianta ir ao seu encontro já com dor? <small> [JDD] </small> </small> </p>
+; <p> parcite oculis saltem meis et aliquam ueniam iusto <b>dolori</b> date <br> <small> Cic.Phil.12.19.4 <br> Poupai, ao menos, os meus olhos e dai alguma vênia para a minha justa dor. <small> [JDD] </small> </small> </p>
+; <p> equidem inuitus sed iniuriae <b>dolor</b> facit me praeter consuetudinem gloriosum <br> <small> Cic.Phil.14.13.7 <br> Realmente contra a minha vontade, mas a dor da ofensa me faz vanglorioso além do costume. <small> [JDD] </small> </small> </p>
+; <p> quod cum facis ut ego tuum amorem et <b>dolorem</b> desidero <br> <small> Cic.Att.3.11.2 <br> quando fazes isso, como sinto falta de teu afeto e condolência! <small> [JDD] </small> </small> </p>
+; <p> vincere incipit timorem <b>dolor</b> sed ita ut omnia sint plenissima desperationis <br> <small> Cic.Att.2.18.2 <br> A dor começa a vencer o medo, mas de um modo tal que tudo está pleníssimo de desesperança. <small> [JDD] </small> </small> </p>
+; <p> magno id animo feci constitui enim uincere <b>dolorem</b> tuum non circumscribere <br> <small> Sen.Helv.4.1 <br> Fiz isso com um grande propósito, pois decidi derrotar a tua dor, não delimitá-la. <small> [JDD] </small> </small> </p>
+; <p> quid tu nunc primum tibi mortem inminere scisti nunc exilium nunc <b>dolorem</b> <br> <small> Sen.Ep.24.15 <br> O quê? Tu soubeste agora pela primeira vez que te ameaça a morte, o exílio, a dor? <small> [JDD] </small> </small> </p>
+; <p> nam quod scribis te audire me etiam mentis errore ex <b>dolore</b> adfici mihi vero mens integra est <br> <small> Cic.Att.3.13.2 <br> E quanto ao que escreves que ouviste que sou afetado também por um desequilíbrio mental por causa da dor, na verdade, a minha mente está intacta. <small> [JDD] </small> </small> </p>
+; <p> qua quidem ex re magnum accipio <b>dolorem</b> homines amplissimis populi Romani beneficiis usos L. Pisonem ducem optimae sententiae non secutos <br> <small> Cic.Phil.1.14.8 <br> E por essa causa, sinto realmente uma grande dor, homens que se serviram dos maiores benefícios do povo romano não seguiram Lúcio Pisão, mentor da melhor proposta. <small> [JDD] </small> </small> </p>
+; <p> solent maerentes ea quae maxime diligunt fugere et libertatem <b>dolori</b> suo quaerere tu ad illam te quidquid cogitaueris confer siue seruare istum habitum uoles siue deponere aput illam inuenies uel finem <b>doloris</b> tui uel comitem <br> <small> Sen.Helv.19.3 <br> Os aflitos costumam fugir daquilo que mais amam e buscar liberdade para sua dor; tu, comunica a ela tudo o pensares: quer queiras conservar ou abandonar esse hábito, encontrarás nela ou o fim ou a companheira de tua dor. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-111-108-111-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 9.33 and an absolute frequency of 50. The Ovidius subcorpus follows, with a normalized frequency of 8.58 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 3 ; absolute frequency: 1.13301608882846. subcorpus: Cicero ; normalized frequency: 86 ; absolute frequency: 5.35745433704617. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 5 ; absolute frequency: 8.57927247769389. subcorpus: Phaedrus ; normalized frequency: 4 ; absolute frequency: 6.0725671777744. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 50 ; absolute frequency: 9.33166607566115. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-111-108-111-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 8.07 and an absolute frequency of 49. The Prosa.oratória subcorpus follows, with a normalized frequency of 4.9 and an absolute frequency of 51. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 5 ; absolute frequency: 1.21716692227172. subcorpus: Prosa.filosófica ; normalized frequency: 49 ; absolute frequency: 8.0723546564307. subcorpus: Prosa.oratória ; normalized frequency: 51 ; absolute frequency: 4.89664243948806. subcorpus: Prosa.epistolográfica ; normalized frequency: 30 ; absolute frequency: 7.94933623042476. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 8 ; absolute frequency: 6.78598693697515. subcorpus: Poesia.trágica ; normalized frequency: 6 ; absolute frequency: 5.21195274496178. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-111-108-111-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 8.87 and an absolute frequency of 58. The I.a.C. subcorpus follows, with a normalized frequency of 4.56 and an absolute frequency of 98. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 98 ; absolute frequency: 4.5613218524552. subcorpus: I.d.C. ; normalized frequency: 58 ; absolute frequency: 8.87257151598593. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

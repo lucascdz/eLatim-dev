@@ -1,0 +1,209 @@
+---
+title: "specto"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-112-101-99-116-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>spectō</b> <b>-ás</b> <b>-áre</b> <b>-áví –átum</b> <br> <small>v. tr. e intr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Olhar habitualmente, estar voltado para, ter os olhos fixos em, observar, considerar &ensp; <small>sents. físico e moral Cíc. Of. 1, 58; Cíc. Rep. 6, 25; Cíc. Tusc. 5, 32.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Olhar um espetáculo, assistir a &ensp; <small>Cíc. Har. 22.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Ver, notar, apreciar &ensp; <small>Cíc. Com. 28; Cíc. Tusc. 5, 31.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Ter em vista, visar, aspirar &ensp; <small>Cíc. At. 8, 7, 1; Cíc. Vat. 24; Cíc. Tusc. 1, 82; Cíc. Verr. 5, 188.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Experimentar, ensaiar, pôr à prova, reconhecer &ensp; <small>Ov. Trist. 1, 5, 25.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Olhar, estar voltado para &ensp; <small>Cés. B. Gal. 1, 1, 6.</small> <br> <b>7</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Ter relação com, referir-se a &ensp; <small>Cíc. Dej. 5.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Specito</b> -<b>as</b> -<b>avi</b> -<b>atum</b> -<b>are</b>   <p> <b>1</b> &ensp; <small>* Plaut.</small> &ensp; ver frequentemente. </p> 
+ <b>Specto</b> -<b>as</b> -<b>avi</b> -<b>atum</b> -<b>are</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; ver, olhar, considerar, contemplar. <br> <b>2</b> &ensp; examinar, julgar. <br> <b>3</b> &ensp; estar situado, estar fronteiriço. <br> <b>4</b> &ensp; acautelar. <br> <b>5</b> &ensp; olhar com estimaçaõ, fazer caso, estimar. <br> <b>6</b> &ensp; dirigir-se, ter por fim. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>quorsum spectat haec oratio? &ensp; <small><small>Cic</small></small> &ensp; <small>Aonde se encaminha este discurso?</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Specto</b> -<b>as</b>   <p> <b>1</b> &ensp; olhar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/125299 ' target="_blank"> http://lila-erc.eu/data/id/lemma/125299 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small> specito <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> specito, specto </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> spectare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> spectabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> spectaui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> spectatum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> spectaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+spectō 
+ spectās 
+ spectāre 
+ spectāvī 
+ spectātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx115-112-101-99-116-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-112-101-99-116-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword specto here are all the values plotted: collocate: oportet; scoreSUBST: 0. collocate: suus; scoreSUBST: 0. collocate: ut; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-112-101-99-116-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword specto here are all the values plotted: collocate: oportet; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: ut; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-112-101-99-116-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword specto here are all the values plotted: collocate: oportet; scoreVERBO: 2. collocate: suus; scoreVERBO: 0. collocate: ut; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-112-101-99-116-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword specto here are all the values plotted: collocate: oportet; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: ut; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-112-101-99-116-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword specto here are all the values plotted: collocate: oportet; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: ut; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> non uiuunt contra naturam qui <b>spectant</b> ut pueritia splendeat tempore alieno <br> <small> Sen.Ep.122.7 <br> Não vivem contra a natureza os que aspiram a que a mocidade resplandeça numa idade que não é própria? <small> [JDD] </small> </small> </p>
+; <p> ni ni libenter <b>spectarent</b> alumnum suum tam claro ac memorabili exitu euadentem <br> <small> Sen.Prov.2.12 <br> Como não iriam contemplar com gosto seu discípulo evadindo-se num final tão ilustre e memorável? <small> [JDD] </small> </small> </p>
+; <p> mihi uero Cn. Pompeius non modo nihil grauius contra Milonem iudicasse sed etiam statuisse uidetur quid uos in iudicando <b>spectare</b> oporteret <br> <small> Cic.Mil.15 <br> Na realidade, me parece que Cneu Pompeu não só não emitiu nenhum juízo muito grave contra Milão, mas também determinou o que convinha a vós observar ao julgar. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-112-101-99-116-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Ovidius subcorpus registers the highest normalized frequency, with the value of 8.58 and an absolute frequency of 5. The Sallustius subcorpus follows, with a normalized frequency of 0.93 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 3 ; absolute frequency: 1.13301608882846. subcorpus: Cicero ; normalized frequency: 25 ; absolute frequency: 1.55739951658319. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 5 ; absolute frequency: 8.57927247769389. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 37 ; absolute frequency: 6.90543289598925. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-112-101-99-116-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 6.26 and an absolute frequency of 38. The Poesia.lírica subcorpus follows, with a normalized frequency of 2.52 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 4 ; absolute frequency: 0.973733537817376. subcorpus: Prosa.filosófica ; normalized frequency: 38 ; absolute frequency: 6.26019340702789. subcorpus: Prosa.oratória ; normalized frequency: 17 ; absolute frequency: 1.63221414649602. subcorpus: Prosa.epistolográfica ; normalized frequency: 4 ; absolute frequency: 1.05991149738997. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-112-101-99-116-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 6.42 and an absolute frequency of 42. The I.a.C. subcorpus follows, with a normalized frequency of 1.49 and an absolute frequency of 32. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 32 ; absolute frequency: 1.48941121712823. subcorpus: I.d.C. ; normalized frequency: 42 ; absolute frequency: 6.42496558054153. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

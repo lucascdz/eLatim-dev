@@ -1,0 +1,215 @@
+---
+title: "decerno"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-101-99-101-114-110-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>dēcērnō</b> <b>-is</b> <b>-ère</b> <b>-créví, -crétum</b> <br> <small>v. tr. e intr.</small> <br> <small>Obs.: Constrói-se com acus; com acus. e inf., com or. interrog. indireta; ut com subj.; abl. com prep. de ou pro. São frequentes no período clássico as formas sincopadas do perfectum: decreram, decrerim, decrero, decresset, decresse, etc.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Decidir, resolver &ensp; <small>Cíc. De Or. 2, 317.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Decretar, votar, julgar &ensp; <small>Cíc. Cat. 4, 5; Cíc. Verr. 2, 161.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Combater, lutar &ensp; <small>Cés. B. Civ. 3, 41, 1.</small> </p> 
+ <b>dēcrēvī</b> <br> <small>perf. de décérno e de décrésco.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Decerno</b> -<b>is</b> -<b>crevi</b> -<b>cretum</b> -<b>nere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; decretar, julgar. <br> <b>2</b> &ensp; contender, peleijar. </p> 
+ <small>pret. de Decerno</small> <b>Decrevi</b>
+
+
+
+
+#### Velez
+
+<b>Decerno</b> -<b>is</b>   <p> <b>1</b> &ensp; decretar, concluir, determinar </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>ferro &ensp; <small><small>i, acie decernere, pelejar</small></small> <br> honores alicui decernere </p>
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/98047 ' target="_blank"> http://lila-erc.eu/data/id/lemma/98047 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> decerno </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> decernere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> decernet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> decreui, decrei </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> decretum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> decreturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+dēcernō 
+ dēcernis 
+ dēcernĕre 
+ dēcrēvī 
+ dēcrētum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-101-99-101-114-110-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-101-99-101-114-110-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword decerno here are all the values plotted: collocate: supplicatio; scoreSUBST: 3. collocate: senatus; scoreSUBST: 3. collocate: praemium; scoreSUBST: 2. collocate: nouus; scoreSUBST: 0. collocate: ita; scoreSUBST: 0. collocate: ut; scoreSUBST: 0. collocate: nihil; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-101-99-101-114-110-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword decerno here are all the values plotted: collocate: supplicatio; scoreADJ: 0. collocate: senatus; scoreADJ: 0. collocate: praemium; scoreADJ: 0. collocate: nouus; scoreADJ: 2. collocate: ita; scoreADJ: 0. collocate: ut; scoreADJ: 0. collocate: nihil; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-101-99-101-114-110-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword decerno here are all the values plotted: collocate: supplicatio; scoreVERBO: 0. collocate: senatus; scoreVERBO: 0. collocate: praemium; scoreVERBO: 0. collocate: nouus; scoreVERBO: 0. collocate: ita; scoreVERBO: 0. collocate: ut; scoreVERBO: 0. collocate: nihil; scoreVERBO: 0. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-101-99-101-114-110-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword decerno here are all the values plotted: collocate: supplicatio; scoreADV: 0. collocate: senatus; scoreADV: 0. collocate: praemium; scoreADV: 0. collocate: nouus; scoreADV: 0. collocate: ita; scoreADV: 2. collocate: ut; scoreADV: 0. collocate: nihil; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-101-99-101-114-110-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword decerno here are all the values plotted: collocate: supplicatio; scoreFUNC: 0. collocate: senatus; scoreFUNC: 0. collocate: praemium; scoreFUNC: 0. collocate: nouus; scoreFUNC: 0. collocate: ita; scoreFUNC: 0. collocate: ut; scoreFUNC: 20. collocate: nihil; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> supplicationem <b>decernitis</b> hostem non appellatis <br> <small> Cic.Phil.14.6.11 <br> Decretais uma ação de graça, não o chamais inimigo. <small> [JDD] </small> </small> </p>
+; <p> res in extremum est adducta discrimen de libertate <b>decernitur</b> <br> <small> Cic.Phil.6.19.7 <br> A situação foi levada ao último limite; luta-se pela liberdade. <small> [JDD] </small> </small> </p>
+; <p> <b>decernebat</b> enim ut ueteribus legibus tantum modo extra ordinem quaereretur <br> <small> Cic.Mil.14 <br> Pois decretava que se julgasse, por antigas leis, tão somente fora da ordem <small> [JDD] </small> </small> </p>
+; <p> senatus <b>decreverat</b> ne prius comitia haberentur quam lex lata esset <br> <small> Cic.Att.4.17.3 <br> O senado tinha decretado que as eleições não se realizassem antes que a lei fosse promulgada. <small> [JDD] </small> </small> </p>
+; <p> num quae rogatio lata num quae noua quaestio <b>decreta</b> est <br> <small> Cic.Mil.19 <br> Por acaso algum projeto de lei foi apresentado, por acaso um novo inquérito foi decretado? <small> [JDD] </small> </small> </p>
+; <p> nihil de eius morte populus consultus est nulla quaestio <b>decreta</b> a senatu est <br> <small> Cic.Mil.16 <br> O povo não foi consultado a respeito de sua morte, nenhum inquérito foi decretado pelo senado. <small> [JDD] </small> </small> </p>
+; <p> est enim ita <b>decretum</b> ut si ille auctoritati senatus non paruisset ad saga iretur <br> <small> Cic.Phil.6.9.6 <br> Pois assim foi decretado: que, se ele não se submetesse à autoridade do senado, ia-se aos trajes de guerra. <small> [JDD] </small> </small> </p>
+; <p> is et nudius tertius in custodiam ciuis Romanos dedit et supplicationem mihi <b>decreuit</b> et indices hesterno die maximis praemiis adfecit <br> <small> Cic.Catil.4.10.3 <br> Esse, há três dias, tanto mandou cidadãos romanos para a cadeia, como também decretou uma ação de graças para mim e, no dia de ontem, premiou os delatores com as maiores recompensas. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-101-99-101-114-110-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 12.06 and an absolute frequency of 13. The Seneca subcorpus follows, with a normalized frequency of 0.75 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 4 ; absolute frequency: 1.51068811843795. subcorpus: Cicero ; normalized frequency: 87 ; absolute frequency: 5.4197503177095. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 13 ; absolute frequency: 12.0582506261015. subcorpus: Seneca ; normalized frequency: 4 ; absolute frequency: 0.746533286052892. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-101-99-101-114-110-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 6.43 and an absolute frequency of 67. The Prosa.oratória subcorpus follows, with a normalized frequency of 6.43 and an absolute frequency of 67. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 18 ; absolute frequency: 4.38180092017819. subcorpus: Prosa.filosófica ; normalized frequency: 3 ; absolute frequency: 0.494225795291676. subcorpus: Prosa.oratória ; normalized frequency: 67 ; absolute frequency: 6.43284398913137. subcorpus: Prosa.epistolográfica ; normalized frequency: 20 ; absolute frequency: 5.29955748694984. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-101-99-101-114-110-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 4.84 and an absolute frequency of 104. The I.d.C. subcorpus follows, with a normalized frequency of 0.76 and an absolute frequency of 5. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 104 ; absolute frequency: 4.84058645566674. subcorpus: I.d.C. ; normalized frequency: 5 ; absolute frequency: 0.764876854826373. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

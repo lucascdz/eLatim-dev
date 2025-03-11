@@ -1,0 +1,199 @@
+---
+title: "durus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-117-114-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>dūrus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Duro ao tato, tosco, áspero &ensp; <small>Cíc. De Or. 1, 28.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Áspero ao paladar, ao ouvido, picante ao paladar &ensp; <small>Verg. G. 4, 102.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Duro de coração, cruel, insensível, severo &ensp; <small>Cíc. Arch. 17.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Impudente, descarado &ensp; <small>Cíc. Quinct. 77.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Grosseiro, sem arte &ensp; <small>Quint. 8, 6, 62.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Duro para o trabalho, robusto, bélico &ensp; <small>Cíc. Tusc. 1, 102.</small> <br> <b>7</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Difícil, custoso, trabalhoso &ensp; <small>tratando-se das coisas Cíc. Rep. 1, 68.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Durus</b> -<b>a</b> -<b>um</b> -<b>rior</b> -<b>rissimus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; duro, rijo. <br> <b>2</b> &ensp; solido. <br> <b>3</b> &ensp; severo, aspero, austero, rigoroso, cruel. <br> <b>4</b> &ensp; grosseiro, desalinhado. <br> <b>5</b> &ensp; robusto. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>dura annona &ensp; <small><small>Cic</small></small> &ensp; <small>Carestia de viveres</small> <br> dura quies &ensp; <small><small>Virg</small></small> &ensp; <small>Morte</small> <br> dura seruitus &ensp; <small><small>Plaut</small></small> &ensp; <small>Cativeiro cruel</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Durus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa dura. ou cruel </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/100319 ' target="_blank"> http://lila-erc.eu/data/id/lemma/100319 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+dūrus 
+ dūra 
+ dūrum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-117-114-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-117-114-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword durus here are all the values plotted: collocate: atque; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-117-114-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword durus here are all the values plotted: collocate: atque; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-117-114-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword durus here are all the values plotted: collocate: atque; scoreVERBO: 0. collocate: sum; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-117-114-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword durus here are all the values plotted: collocate: atque; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-117-114-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword durus here are all the values plotted: collocate: atque; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>durum</b> uidebatur itaque fracti sumus cessimus <br> <small> Cic.Phil.12.4.3 <br> Parecia difícil e assim fomos enfraquecidos, cedemos. <small> [JDD] </small> </small> </p>
+; <p> animalia quaedam tergi <b>durioris</b> inuersa tam diu se torquent ac pedes exerunt et obliquant donec ad locum reponantur <br> <small> Sen.Ep.121.8 <br> Certos animais de dorso mais duro, caídos de costas, se retorcem e estiram e recolhem as patas até que voltem à posição normal. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-117-114-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 11.54 and an absolute frequency of 13. The Horatius subcorpus follows, with a normalized frequency of 11.54 and an absolute frequency of 13. the subcorpus with the least normalized frequency is Sallustius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 11 ; absolute frequency: 0.685255787296604. subcorpus: Horatius ; normalized frequency: 13 ; absolute frequency: 11.5442678270136. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 16 ; absolute frequency: 2.98613314421157. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-117-114-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 11.78 and an absolute frequency of 14. The Poesia.didática subcorpus follows, with a normalized frequency of 2.54 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 1 ; absolute frequency: 0.243433384454344. subcorpus: Prosa.filosófica ; normalized frequency: 14 ; absolute frequency: 2.30638704469449. subcorpus: Prosa.oratória ; normalized frequency: 9 ; absolute frequency: 0.864113371674364. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 14 ; absolute frequency: 11.7775721376293. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-117-114-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 2.91 and an absolute frequency of 19. The I.a.C. subcorpus follows, with a normalized frequency of 1.26 and an absolute frequency of 27. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 27 ; absolute frequency: 1.25669071445194. subcorpus: I.d.C. ; normalized frequency: 19 ; absolute frequency: 2.90653204834022. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

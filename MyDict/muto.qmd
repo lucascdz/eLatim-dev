@@ -1,0 +1,209 @@
+---
+title: "muto"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-117-116-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>mūtō</b> <b>-ás</b> <b>-áre</b> <b>-áví, -átum</b> <br> <small>v. tr. e intr.</small> <br> <small>Obs.: Constrói-se com acus.; com acusativo com ad; intransitivamente.</small>   <p> <b>1</b> &ensp; <small>A-Tr.-Sent. próprio:</small> &ensp; Mudar, modificar, transformar, trocar &ensp; <small>Cíc. Mur. 61; Cíc. Prov. 25; Hor. A. Poét. 60.</small> <br> <b>2</b> &ensp; <small>A-Tr.-Sent. próprio:</small> &ensp; Trocar, negociar &ensp; <small>Cés. B. Civ. 3, 11, 1.</small> <br> <b>3</b> &ensp; <small>A-Tr.-Sent. próprio:</small> &ensp; Remover, tirar do seu lugar, deslocar &ensp; <small>Plaut. Amph. 274; Cíc. Phil. 1, 17.</small> <br> <b>4</b> &ensp; <small>B-Intr.</small> &ensp; Mudar-se, modificar-se &ensp; <small>T. Lív. 39, 51, 10.</small> <br> <b>5</b> &ensp; <small>B-Intr.-Sent. figurado:</small> &ensp; Diferir, adiar, dilatar &ensp; <small>Varr. R. Rust. 2, 2, 12.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Muto</b> -<b>as</b> -<b>avi</b> -<b>atum</b> -<b>are</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; mudar. <br> <b>2</b> &ensp; trocar, alborcar. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Muto</b> -<b>as</b>   <p> <b>1</b> &ensp; mudar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/113167 ' target="_blank"> http://lila-erc.eu/data/id/lemma/113167 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> muto </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> mutare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> mutabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> mutaui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> mutatum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> mutaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+mūtō 
+ mūtās 
+ mūtāre 
+ mūtāvī 
+ mūtātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx109-117-116-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-117-116-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword muto here are all the values plotted: collocate: locus; scoreSUBST: 2. collocate: consilium; scoreSUBST: 2. collocate: non; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-117-116-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword muto here are all the values plotted: collocate: locus; scoreADJ: 0. collocate: consilium; scoreADJ: 0. collocate: non; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-117-116-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword muto here are all the values plotted: collocate: locus; scoreVERBO: 0. collocate: consilium; scoreVERBO: 0. collocate: non; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-117-116-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword muto here are all the values plotted: collocate: locus; scoreADV: 0. collocate: consilium; scoreADV: 0. collocate: non; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-117-116-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword muto here are all the values plotted: collocate: locus; scoreFUNC: 0. collocate: consilium; scoreFUNC: 0. collocate: non; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> animum debes <b>mutare</b> non caelum <br> <small> Sen.Ep.28.1 <br> Deves mudar o espírito, não o clima. <small> [JDD] </small> </small> </p>
+; <p> non potest artifex <b>mutare</b> materiam hoc passa est <br> <small> Sen.Prov.5.9 <br> O artesão não pode mudar a matéria. Esta é a condição. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nemo non cotidie et consilium <b>mutat</b> et uotum <br> <small> Sen.Ep.120.21 <br> Não há ninguém que não muda diariamente seu propósito e seu desejo. <small> [JDD] </small> </small> </p>
+; <p> non uideo causam loci <b>mutandi</b> sed tamen acta res criminose est <br> <small> Cic.Deiot.21 <br> Não vejo motivo para mudar de lugar, mas, mesmo assim, a coisa foi realizada criminosamente. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-117-116-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Ovidius subcorpus registers the highest normalized frequency, with the value of 12.01 and an absolute frequency of 7. The Horatius subcorpus follows, with a normalized frequency of 11.54 and an absolute frequency of 13. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 26 ; absolute frequency: 1.61969549724652. subcorpus: Horatius ; normalized frequency: 13 ; absolute frequency: 11.5442678270136. subcorpus: Ovidius ; normalized frequency: 7 ; absolute frequency: 12.0109814687714. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 33 ; absolute frequency: 6.15889960993636. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-117-116-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 10.94 and an absolute frequency of 13. The Poesia.lírica subcorpus follows, with a normalized frequency of 10.94 and an absolute frequency of 13. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 6 ; absolute frequency: 1.46060030672606. subcorpus: Prosa.filosófica ; normalized frequency: 29 ; absolute frequency: 4.77751602115286. subcorpus: Prosa.oratória ; normalized frequency: 18 ; absolute frequency: 1.72822674334873. subcorpus: Prosa.epistolográfica ; normalized frequency: 5 ; absolute frequency: 1.32488937173746. subcorpus: Poesia.lírica ; normalized frequency: 13 ; absolute frequency: 10.9363169849415. subcorpus: Poesia.didática ; normalized frequency: 9 ; absolute frequency: 7.63423530409704. subcorpus: Poesia.trágica ; normalized frequency: 7 ; absolute frequency: 6.08061153578874. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-117-116-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 6.42 and an absolute frequency of 42. The I.d.C. subcorpus follows, with a normalized frequency of 6.42 and an absolute frequency of 42. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 45 ; absolute frequency: 2.09448452408657. subcorpus: I.d.C. ; normalized frequency: 42 ; absolute frequency: 6.42496558054153. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

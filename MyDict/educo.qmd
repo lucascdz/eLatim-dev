@@ -1,0 +1,212 @@
+---
+title: "educo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx101-100-117-99-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>ēdūc</b> <br> <small>imperativo de edúco 2.</small> <br> <small></small> 
+ <b>ēdūce</b> <br> <small>= educ. imperativo pres. arc. de edúco 2 Plaut. St. 762.</small> <br> <small></small> 
+ <b>ēdūxī</b> <br> <small>perf. de edúco 2.</small> <br> <small></small> 
+ <small>2.</small> <b>ēdūcō</b> <b>-is</b> <b>-ère</b> <b>-dúxí, -dúctum</b> <br> <small>v. tr.</small> <br> <small>Obs.: lmper. arc. educe Plaut. Pers. 459.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Levar para fora, fazer sair, tirar de &ensp; <small>Cíc. Inv. 2. 14: Cés. B. Gal. 1, 50, 1.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Criar, educar &ensp; <small>Cíc. De Or. 2, 124.</small> <br> <b>3</b> &ensp; <small>I-Donde:</small> &ensp; Dar à luz, produzir &ensp; <small>Verg. En. 6, 778.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Elevar, exaltar &ensp; <small>Verg. En. 6, 178.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Esgotar, esvaziar, absorver &ensp; <small>Plaut. St. 759.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Passar o tempo &ensp; <small>Prop. 2, 9, 47.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Educo</b> -<b>is</b> -<b>uxi</b> -<b>uctum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; tirar parar fóra. <br> <b>2</b> &ensp; <small>Virg.</small> &ensp; levantar. <br> <b>3</b> &ensp; <small>Ter.</small> &ensp; crer, educar. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>educere copias in aciem &ensp; <small><small>Liv</small></small> &ensp; <small>Formar o exercito em batalha</small> <br> educere gladium e uagina &ensp; <small><small>Cic</small></small> &ensp; <small>Desembainhar a espada</small> <br> educere hirneam meri &ensp; <small><small>Plaut</small></small> &ensp; <small>Beber de hum golpe huma garrafa de vinho</small> <br> educere in ius &ensp; <small><small>Cic</small></small> &ensp; <small>Chamar a juizo</small> </p>
+
+
+
+
+#### Velez
+
+<b>Educo</b> -<b>is</b> <br> <small>pen. br.</small>   <p> <b>1</b> &ensp; tirar fóra, levantar, ou crear; &ensp; <small>in quo sensu est etiam Educo, as, Act.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Educo</b> <b>is</b> <b>xi</b> -<b>ctum</b>   <p> <b>1</b> &ensp; tirar fora. ou alçar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/100589 ' target="_blank"> http://lila-erc.eu/data/id/lemma/100589 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small> exduco <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> educo, exduco </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> exducere, educere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> exducet, educet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> eduxi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> eductum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> educturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+ēdūc 
+ ēdūcō 
+ ēdūcis 
+ ēdūcĕre 
+ ēduxī 
+ ēductum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx101-100-117-99-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx101-100-117-99-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword educo here are all the values plotted: collocate: gladius; scoreSUBST: 2. collocate: castra; scoreSUBST: 2. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx101-100-117-99-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword educo here are all the values plotted: collocate: gladius; scoreADJ: 0. collocate: castra; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx101-100-117-99-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword educo here are all the values plotted: collocate: gladius; scoreVERBO: 0. collocate: castra; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx101-100-117-99-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword educo here are all the values plotted: collocate: gladius; scoreADV: 0. collocate: castra; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx101-100-117-99-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword educo here are all the values plotted: collocate: gladius; scoreFUNC: 0. collocate: castra; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> hostes item suas copias ex castris <b>eductas</b> instruxerant <br> <small> Caes.Gal.2.8.5 <br> Os inimigos também ordenaram suas tropas, depois de tirá-las do acampamento. <small> [JDD] </small> </small> </p>
+; <p> iam intellegis <b>educendum</b> esse te ex istis occupationibus speciosis et malis <br> <small> Sen.Ep.22.1 <br> Já entendes que tu deves fugir dessas ocupações especiosas e nocivas. <small> [JDD] </small> </small> </p>
+; <p> ubi hoc exemplo per senatus decretum consul gladium <b>eduxerit</b> quis illi finem statuet aut quis moderabitur <br> <small> Sal.Cat.51.36 <br> Quando, por esse exemplo, o cônsul, por meio de um decreto do senado, sacar da espada, quem lhe estabelecerá um limite ou quem o conterá? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx101-100-117-99-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 3.02 and an absolute frequency of 8. The Tacitus subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 8 ; absolute frequency: 3.0213762368759. subcorpus: Cicero ; normalized frequency: 18 ; absolute frequency: 1.1213276519399. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 6 ; absolute frequency: 1.11979992907934. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx101-100-117-99-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 2.19 and an absolute frequency of 9. The Poesia.trágica subcorpus follows, with a normalized frequency of 0.87 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 9 ; absolute frequency: 2.1909004600891. subcorpus: Prosa.filosófica ; normalized frequency: 5 ; absolute frequency: 0.823709658819459. subcorpus: Prosa.oratória ; normalized frequency: 14 ; absolute frequency: 1.3441763559379. subcorpus: Prosa.epistolográfica ; normalized frequency: 4 ; absolute frequency: 1.05991149738997. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx101-100-117-99-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 1.3 and an absolute frequency of 28. The I.a.C. subcorpus follows, with a normalized frequency of 1.3 and an absolute frequency of 28. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 28 ; absolute frequency: 1.3032348149872. subcorpus: I.d.C. ; normalized frequency: 6 ; absolute frequency: 0.917852225791647. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,207 @@
+---
+title: "occido"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx111-99-99-105-100-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>2.</small> <b>occīdī</b> <br> <small>perf. de occído 2.</small> <br> <small></small> 
+ <small>2.</small> <b>occīdō</b> <b>-is</b> <b>-ère</b> <b>occídí, occísum</b> <br> <small>v. tr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Cortar, fazer em pedaços &ensp; <small>Ter. Ad. 559; Varr. R. Rust. 1, 31, 1.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Matar, fazer perecer, causar a morte &ensp; <small>C ie. Mil. 8; C ie. De Or. 2, 302.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Importunar, causticar, maçar &ensp; <small>Hor. Epo. 14, 5.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Occido</b> -<b>is</b> -<b>idi</b> -<b>isum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; matar. <br> <b>2</b> &ensp; <small>Ter.</small> &ensp; mortificar, molestar gravemente. </p>
+
+
+
+
+#### Velez
+
+<b>Occido</b> -<b>is</b> <br> <small>2. l.</small>   <p> <b>1</b> &ensp; matar, atormentar, ou molestar &ensp; <small>Act.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>res occisa &ensp; <small>cousa, de que naõ ha, que esperar</small> &ensp; <small><small>apud Plaut</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Occido</b> <b>is</b> <b>occidi</b> <b>occisum</b>   <p> <b>1</b> &ensp; ferir. ou matar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/114585 ' target="_blank"> http://lila-erc.eu/data/id/lemma/114585 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> occido </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> occidere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> occidet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> occidi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> occisum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> occisurum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+occīdō 
+ occīdis 
+ occīdĕre 
+ occīdī 
+ occīsum
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx111-99-99-105-100-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword occido here are all the values plotted: collocate: Milo; scoreSUBST: 0. collocate: homo; scoreSUBST: 2. collocate: suus; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx111-99-99-105-100-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword occido here are all the values plotted: collocate: Milo; scoreADJ: 0. collocate: homo; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx111-99-99-105-100-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword occido here are all the values plotted: collocate: Milo; scoreVERBO: 0. collocate: homo; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx111-99-99-105-100-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword occido here are all the values plotted: collocate: Milo; scoreADV: 0. collocate: homo; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx111-99-99-105-100-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword occido here are all the values plotted: collocate: Milo; scoreFUNC: 0. collocate: homo; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> reum Publium nisi ante <b>occisus</b> erit fore a Milone puto <br> <small> Cic.Att.4.3.5 <br> acho que Públio, se não for morto antes, será tornado réu por Milão. <small> [JDD] </small> </small> </p>
+; <p> <b>occisis</b> ad hominum milibus quattuor reliqui in oppidum reiecti sunt <br> <small> Caes.Gal.2.33.5 <br> Mortos uns quatro mil homens, os restantes foram rechaçados para a cidadela. <small> [JDD] </small> </small> </p>
+; <p> debemus patrem familias domi suae <b>occidi</b> nolle neque tamen id ipsum abunde <br> <small> Cic.Att.4.15.4 <br> que eles não querem que um pai de família seja morto em sua própria casa, e mesmo isso, contudo, não por grande maioria. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx111-99-99-105-100-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 10.3 and an absolute frequency of 3. The Caesar subcorpus follows, with a normalized frequency of 4.53 and an absolute frequency of 12. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 12 ; absolute frequency: 4.53206435531385. subcorpus: Cicero ; normalized frequency: 61 ; absolute frequency: 3.80005482046298. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 11 ; absolute frequency: 2.05296653664545. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx111-99-99-105-100-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 4.9 and an absolute frequency of 51. The Prosa.histórica subcorpus follows, with a normalized frequency of 4.14 and an absolute frequency of 17. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 17 ; absolute frequency: 4.13836753572385. subcorpus: Prosa.filosófica ; normalized frequency: 11 ; absolute frequency: 1.81216124940281. subcorpus: Prosa.oratória ; normalized frequency: 51 ; absolute frequency: 4.89664243948806. subcorpus: Prosa.epistolográfica ; normalized frequency: 10 ; absolute frequency: 2.64977874347492. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx111-99-99-105-100-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 7.85 and an absolute frequency of 3. The I.a.C. subcorpus follows, with a normalized frequency of 3.49 and an absolute frequency of 75. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 1.84 and an absolute freqeuncy of 12. here are all the values: subcorpus: I.a.C. ; normalized frequency: 75 ; absolute frequency: 3.49080754014429. subcorpus: I.d.C. ; normalized frequency: 12 ; absolute frequency: 1.83570445158329. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

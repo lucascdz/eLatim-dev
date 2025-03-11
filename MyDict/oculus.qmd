@@ -1,0 +1,204 @@
+---
+title: "oculus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx111-99-117-108-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>ocŭlus</b> <b>-í</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Olho, vista &ensp; <small>Cíc. Cal. 1, 17.</small> <br> <b>2</b> &ensp; <small>I-Daí, objeto em forma de olho sent. figurado:</small> &ensp; Olho da cauda de um pavão, da pele das panteras &ensp; <small>Plín. H. Nat. 8, 62.</small> <br> <b>3</b> &ensp; <small>I-Daí, objeto em forma de olho sent. figurado:</small> &ensp; Olho ou botão da videira, rebento &ensp; <small>Verg. G. 2, 73.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Objeto de afeto, o que é querido: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>4</b><br>in oculis aliquem ferre Cíc. Phil. 6, 11, “querer bem a alguém”; ocule mi Plaut. Curc. 203 “luz dos meus olhos”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Oculus</b> -<b>i</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; olho. <br> <b>2</b> &ensp; <small>Caes.</small> &ensp; vista. <br> <b>3</b> &ensp; <small>Col.</small> &ensp; gomo, olho das vidas, das plantas, & c. <br> <b>4</b> &ensp; <small>Cic.</small> &ensp; termo de caricia, que se dá a alguma cousa formosa, e muito amada. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>in oculis alicui esse &ensp; <small><small>Cic</small></small> &ensp; <small>Ser amado de alguem</small> <br> in oculis omnium &ensp; <small><small>Cic</small></small> &ensp; <small>Á vista de todos, em publico</small> <br> oculi eminentes &ensp; <small><small>Cic</small></small> &ensp; <small>Olhos á flor do rosto</small> <br> oculi eruditi &ensp; <small><small>Cic</small></small> &ensp; <small>Olhos intelligentes, capazes de julgar o merecimento</small> <br> oculos alicuius in oculis habere &ensp; <small><small>Cic</small></small> &ensp; <small>Estar observando para onde alguem olha</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Oculus</b> <b>i</b>   <p> <b>1</b> &ensp; ho olho </p> 
+ <b>Oculus</b> <b>i</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/114716 ' target="_blank"> http://lila-erc.eu/data/id/lemma/114716 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> oclus, oquulus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ŏcŭlus 
+ ŏcŭlī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx111-99-117-108-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx111-99-117-108-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword oculus here are all the values plotted: collocate: ante; scoreSUBST: 0. collocate: mens; scoreSUBST: 2. collocate: nec; scoreSUBST: 0. collocate: omnis; scoreSUBST: 0. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx111-99-117-108-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword oculus here are all the values plotted: collocate: ante; scoreADJ: 0. collocate: mens; scoreADJ: 0. collocate: nec; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx111-99-117-108-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword oculus here are all the values plotted: collocate: ante; scoreVERBO: 0. collocate: mens; scoreVERBO: 0. collocate: nec; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx111-99-117-108-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword oculus here are all the values plotted: collocate: ante; scoreADV: 0. collocate: mens; scoreADV: 0. collocate: nec; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx111-99-117-108-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword oculus here are all the values plotted: collocate: ante; scoreFUNC: 40. collocate: mens; scoreFUNC: 0. collocate: nec; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0. collocate: in; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> molestum est inquis mortem ante <b>oculos</b> habere <br> <small> Sen.Ep.12.6 <br> “É desagradável”, dizes, “ter a morte diante dos olhos.” <small> [JDD] </small> </small> </p>
+; <p> quae tua mens <b>oculi</b> manus ardor animi <br> <small> Cic.Lig.9 <br> Qual tua mente, teus olhos, tuas mãos,o ardor de teu espírito? <small> [JDD] </small> </small> </p>
+; <p> primum ista tam seni ante <b>oculos</b> debet esse quam iuueni <br> <small> Sen.Ep.12.6 <br> Primeiramente, ela deve estar tanto diante dos olhos do velho como do jovem <small> [JDD] </small> </small> </p>
+; <p> Talia dicturus vidit Cyllenius omnes succubuisse <b>oculos</b> adopertaque lumina somno . <br> <small> Ov.Met.1.712-3 <br> Estando para dizer tais coisas, o Cilênio viu que todos os olhos tinham sucumbido e as pupilas estavam fechadas pelo sono. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> hic etiam fautores Antoni quorum in uoltu habitant <b>oculi</b> mei tristiores uidebam <br> <small> Cic.Phil.12.2.12 <br> Ali eu via também mais deprimidos os partidários de Antônio, em cujo rosto os meus olhos estão sempre fixos. <small> [JDD] </small> </small> </p>
+; <p> et aspexit me illis quidem <b>oculis</b> quibus tum solebat cum omnibus omnia minabatur <br> <small> Cic.Mil.33 <br> E ele, na verdade, me olhou com aqueles olhos com os quais então costumava quando ameaçava tudo a todos. <small> [JDD] </small> </small> </p>
+; <p> impedit enim consilium uoluptas rationi inimica est mentis ut ita dicam praestringit <b>oculos</b> nec habet ullum cum uirtute commercium <br> <small> Cic.Sen.42 <br> Pois o prazer impede a reflexão, é inimigo da razão, ofusca, por assim dizer, os olhos da mente e não tem nenhuma relação com a virtude. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx111-99-117-108-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Ovidius subcorpus registers the highest normalized frequency, with the value of 13.73 and an absolute frequency of 8. The Tacitus subcorpus follows, with a normalized frequency of 6.87 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 4 ; absolute frequency: 1.51068811843795. subcorpus: Cicero ; normalized frequency: 70 ; absolute frequency: 4.36071864643293. subcorpus: Horatius ; normalized frequency: 8 ; absolute frequency: 7.10416481662375. subcorpus: Ovidius ; normalized frequency: 8 ; absolute frequency: 13.7268359643102. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 38 ; absolute frequency: 7.09206621750247. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx111-99-117-108-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 13.03 and an absolute frequency of 15. The Poesia.trágica subcorpus follows, with a normalized frequency of 13.03 and an absolute frequency of 15. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0.79 and an absolute freqeuncy of 3. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 8 ; absolute frequency: 1.94746707563475. subcorpus: Prosa.filosófica ; normalized frequency: 29 ; absolute frequency: 4.77751602115286. subcorpus: Prosa.oratória ; normalized frequency: 61 ; absolute frequency: 5.85676840801513. subcorpus: Prosa.epistolográfica ; normalized frequency: 3 ; absolute frequency: 0.794933623042476. subcorpus: Poesia.lírica ; normalized frequency: 8 ; absolute frequency: 6.73004122150248. subcorpus: Poesia.didática ; normalized frequency: 9 ; absolute frequency: 7.63423530409704. subcorpus: Poesia.trágica ; normalized frequency: 15 ; absolute frequency: 13.0298818624044. subcorpus: Poesia.épica ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx111-99-117-108-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 7.19 and an absolute frequency of 47. The I.d.C. subcorpus follows, with a normalized frequency of 7.19 and an absolute frequency of 47. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 90 ; absolute frequency: 4.18896904817314. subcorpus: I.d.C. ; normalized frequency: 47 ; absolute frequency: 7.18984243536791. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

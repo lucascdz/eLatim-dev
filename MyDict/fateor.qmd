@@ -1,0 +1,202 @@
+---
+title: "fateor"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx102-97-116-101-111-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>fatĕor</b> <b>-éris</b> <b>-érí</b> <b>fássus sum</b> <br> <small>v. dep. tr.</small> <br> <small>Obs.: Constrói-se geralmente com acus. e inf.: com acus.: com abl. acompanhado da prep. de, ou intransitivamente. Obs.: Inf. pass. faterier Hor. Ep. 2. 2. 148. Ocorre com sentido passivo em Cícero Agr. 2. 57.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Confessar geralmente em sent. pejorativo, reconhecer o seu erro ou a sua culpa &ensp; <small>Cíc. Mur. 62; Cíc. Fin. 4. 33.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Proclamar. mostrar. indicar &ensp; <small>Quint. I. 6. 23; PHn. H. Nat. 9. 177.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Fateor</b> -<b>eris</b> <b>fassus sum</b> -<b>eri</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; confessar. <br> <b>2</b> &ensp; <small>Ovid.</small> &ensp; indicar, mostrar, manifestar. </p>
+
+
+
+
+#### Velez
+
+<b>Fateor</b> -<b>eris</b>   <p> <b>1</b> &ensp; confessar, conceder, affirmar, mostrar; &ensp; <small>cum dat. & accus. invenitur.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Fateor</b> -<b>eris</b> <b>fassus sum</b>   <p> <b>1</b> &ensp; confessar por vontade </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/102985 ' target="_blank"> http://lila-erc.eu/data/id/lemma/102985 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação depoente (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> fateor </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz passiva </small><br>
+; <b> fateri </b>&emsp;<small> presente | infinitivo | passivo </small><br>
+; <b> fatebitur </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz passiva </small><br>
+
+
+
+
+
+#### Lexicala
+
+fătĕor 
+ fătēris 
+ fătērī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx102-97-116-101-111-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>fateris</b> inquis quod bonum est secundum naturam esse <br> <small> Sen.Ep.118.13 <br> “Admites”, dizes, “que o bem é o que está em conformidade com a natureza. <small> [JDD] </small> </small> </p>
+; <p> <b>fateris</b> et alia secundum naturam quidem esse sed bona non esse <br> <small> Sen.Ep.118.13 <br> Admites também que, na verdade, outras coisas estão em conformidade com a natureza, mas que não são boas. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx102-97-116-101-111-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 1.87 and an absolute frequency of 10. The Cicero subcorpus follows, with a normalized frequency of 1.81 and an absolute frequency of 29. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 29 ; absolute frequency: 1.8065834392365. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 10 ; absolute frequency: 1.86633321513223. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx102-97-116-101-111-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 2.4 and an absolute frequency of 25. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 0.79 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 1 ; absolute frequency: 0.243433384454344. subcorpus: Prosa.filosófica ; normalized frequency: 10 ; absolute frequency: 1.64741931763892. subcorpus: Prosa.oratória ; normalized frequency: 25 ; absolute frequency: 2.40031492131768. subcorpus: Prosa.epistolográfica ; normalized frequency: 3 ; absolute frequency: 0.794933623042476. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx102-97-116-101-111-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 1.68 and an absolute frequency of 11. The I.a.C. subcorpus follows, with a normalized frequency of 1.49 and an absolute frequency of 32. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 32 ; absolute frequency: 1.48941121712823. subcorpus: I.d.C. ; normalized frequency: 11 ; absolute frequency: 1.68272908061802. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,225 @@
+---
+title: "autem"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-117-116-101-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>autem</b> <br> <small>conj.</small> <br> <small>Obs.: Autem, formado de aut mais a enclítica -em, coloca-se geralmente depois da primeira pa1avra da frase, e serve para indicar uma oposição atenuada, constituindo como que uma conjunção adversativa fraca.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Por outro lado, ora, no entanto &ensp; <small>Ces. B. Gal. 1, 37, 3; Cíc. Phil. 1, 29.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Autem</b> <br> <small>conj.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; mas, porém, pois. </p>
+
+
+
+
+#### Velez
+
+<b>Autem</b> <br> <small>Conjunct. substantiva</small>   <p> <b>1</b> &ensp; mas, ou porem </p>
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/90828 ' target="_blank"> http://lila-erc.eu/data/id/lemma/90828 </a> <br>
+<small> classe: </small> conjunção coordenativa    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> audem <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-117-116-101-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword autem here are all the values plotted: collocate: si; scoreSUBST: 0. collocate: ille; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: dies; scoreSUBST: 2. collocate: quis; scoreSUBST: 0. collocate: hic; scoreSUBST: 0. collocate: alius; scoreSUBST: 0. collocate: Iesus; scoreSUBST: 0. collocate: is; scoreSUBST: 0. collocate: uos; scoreSUBST: 0. collocate: senectus; scoreSUBST: 2. collocate: omnis; scoreSUBST: 0. collocate: sum; scoreSUBST: 0. collocate: quare; scoreSUBST: 0. collocate: negotium; scoreSUBST: 2. collocate: turpis; scoreSUBST: 0. collocate: uterque; scoreSUBST: 0. collocate: oratio; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-117-116-101-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword autem here are all the values plotted: collocate: si; scoreADJ: 0. collocate: ille; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: dies; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: alius; scoreADJ: 0. collocate: Iesus; scoreADJ: 0. collocate: is; scoreADJ: 0. collocate: uos; scoreADJ: 0. collocate: senectus; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: sum; scoreADJ: 0. collocate: quare; scoreADJ: 0. collocate: negotium; scoreADJ: 0. collocate: turpis; scoreADJ: 2. collocate: uterque; scoreADJ: 0. collocate: oratio; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-117-116-101-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword autem here are all the values plotted: collocate: si; scoreVERBO: 0. collocate: ille; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: dies; scoreVERBO: 0. collocate: quis; scoreVERBO: 0. collocate: hic; scoreVERBO: 0. collocate: alius; scoreVERBO: 0. collocate: Iesus; scoreVERBO: 0. collocate: is; scoreVERBO: 0. collocate: uos; scoreVERBO: 0. collocate: senectus; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0. collocate: sum; scoreVERBO: 2. collocate: quare; scoreVERBO: 0. collocate: negotium; scoreVERBO: 0. collocate: turpis; scoreVERBO: 0. collocate: uterque; scoreVERBO: 0. collocate: oratio; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-117-116-101-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword autem here are all the values plotted: collocate: si; scoreADV: 0. collocate: ille; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: dies; scoreADV: 0. collocate: quis; scoreADV: 0. collocate: hic; scoreADV: 0. collocate: alius; scoreADV: 0. collocate: Iesus; scoreADV: 0. collocate: is; scoreADV: 0. collocate: uos; scoreADV: 0. collocate: senectus; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: sum; scoreADV: 0. collocate: quare; scoreADV: 2. collocate: negotium; scoreADV: 0. collocate: turpis; scoreADV: 0. collocate: uterque; scoreADV: 0. collocate: oratio; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-117-116-101-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword autem here are all the values plotted: collocate: si; scoreFUNC: 20. collocate: ille; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: dies; scoreFUNC: 0. collocate: quis; scoreFUNC: 0. collocate: hic; scoreFUNC: 0. collocate: alius; scoreFUNC: 0. collocate: Iesus; scoreFUNC: 0. collocate: is; scoreFUNC: 0. collocate: uos; scoreFUNC: 0. collocate: senectus; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0. collocate: sum; scoreFUNC: 0. collocate: quare; scoreFUNC: 0. collocate: negotium; scoreFUNC: 0. collocate: turpis; scoreFUNC: 0. collocate: uterque; scoreFUNC: 0. collocate: oratio; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quare <b>autem</b> petam <br> <small> Sen.Ep.15.11 <br> Por outro lado, por que vou pedir? <small> [JDD] </small> </small> </p>
+; <p> vos <b>autem</b> dicitis <br> <small> Vulg.Marc.7.11 <br> Vós, porém, dizeis. <small> [JDD] </small> </small> </p>
+; <p> alii <b>autem</b> dicebant quia <br> <small> Vulg.Marc.6.15 <br> Outros, por sua vez, diziam. <small> [JDD] </small> </small> </p>
+; <p> cogitanti <b>autem</b> haec fere succurrebant <br> <small> Cic.Att.2.16.1 <br> Enquanto eu refletia, me vinha mais ou menos isto. <small> [JDD] </small> </small> </p>
+; <p> tuae <b>autem</b> litterae sunt variae <br> <small> Cic.Att.3.18.2 <br> Tuas cartas, porém, são variadas. <small> [JDD] </small> </small> </p>
+; <p> apex est <b>autem</b> senectutis auctoritas <br> <small> Cic.Sen.60 <br> a autoridade é, por sua vez, a coroa da velhice. <small> [JDD] </small> </small> </p>
+; <p> noster <b>autem</b> status est hic <br> <small> Cic.Att.1.16.11 <br> A minha situação é, então, esta. <small> [JDD] </small> </small> </p>
+; <p> quid <b>autem</b> turpius quam illudi <br> <small> Cic.Amici.99 <br> Ora, o que é mais vergonhoso do que ser iludido? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> aliud <b>autem</b> est meminisse aliud scire <br> <small> Sen.Ep.33.8 <br> Porém uma coisa é lembrar, outra é saber. <small> [JDD] </small> </small> </p>
+; <p> omnes <b>autem</b> male habet ignorantia ueri <br> <small> Sen.Ep.118.7 <br> A todos, porém, a ignorância da verdade trata mal. <small> [JDD] </small> </small> </p>
+; <p> seorsum <b>autem</b> discipulis suis disserebat omnia <br> <small> Vulg.Marc.4.34 <br> por outro, explicava tudo, em particular, aos seus discípulos. <small> [JDD] </small> </small> </p>
+; <p> cum <b>autem</b> erit spatium utrumque praestabo <br> <small> Cic.Att.5.14.1 <br> porém, quando houver espaço, garantirei as duas coisas. <small> [JDD] </small> </small> </p>
+; <p> hoc <b>autem</b> commune officium καθῆκον vocant <br> <small> Cic.Off.1.8 <br> ao passo que chamam o dever comum καθήκον. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> unus <b>autem</b> dies gradus uitae est <br> <small> Sen.Ep.12.6 <br> E um dia é um degrau da vida. <small> [JDD] </small> </small> </p>
+; <p> ille <b>autem</b> Regis hereditatem spe devorarat <br> <small> Cic.Att.1.16.10 <br> (Ele tinha consumido a herança de Rei, na esperança [de recebê-la]. <small> [JDD] </small> </small> </p>
+; <p> ipsius <b>autem</b> ueneni quae ratio fingitur <br> <small> Cic.Cael.58 <br> Já do veneno em si, que razão é inventada? <small> [JDD] </small> </small> </p>
+; <p> orationes <b>autem</b> a me duas postulas <br> <small> Cic.Att.2.7.1 <br> Por outro lado, me pedes dois discursos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> valet <b>autem</b> auctoritas eius apud illum plurimum <br> <small> Cic.Att.5.11.3 <br> a autoridade deste vale muitíssimo junto a ele. <small> [JDD] </small> </small> </p>
+; <p> Iesus <b>autem</b> misertus eius extendit manum suam <br> <small> Vulg.Marc.1.41 <br> Jesus, então, compadecido dele, estendeu sua mão <small> [JDD] </small> </small> </p>
+; <p> percussisti <b>autem</b> me etiam de oratione prolata <br> <small> Cic.Att.3.12.1 <br> Por outro lado, me acertaste também um golpe com relação à publicação do meu discurso. <small> [JDD] </small> </small> </p>
+; <p> quis <b>autem</b> umquam tanto damno senatorem coegit <br> <small> Cic.Phil.1.12.12 <br> Por outro lado, quem algum dia obrigou um senador com tanto dano? <small> [JDD] </small> </small> </p>
+; <p> venient <b>autem</b> dies cum auferetur ab eis sponsus <br> <small> Vulg.Marc.2.20 <br> Dias virão, porém, em que o noivo será arrancado deles <small> [JDD] </small> </small> </p>
+; <p> fortasse <b>autem</b> et desinent si intermittendi consuetudinem fecerint <br> <small> Sen.Ep.29.8 <br> por outro lado, talvez até cessem, se criarem o hábito de interromper-se. <small> [JDD] </small> </small> </p>
+; <p> orationem <b>autem</b> Latinam efficies profecto legendis nostris pleniorem <br> <small> Cic.Off.1.2 <br> porém, lendo as nossas coisas, realizarás sem dúvida um discurso latino mais pleno. <small> [JDD] </small> </small> </p>
+; <p> quid est <b>autem</b> turpius quam senex uiuere incipiens <br> <small> Sen.Ep.13.17 <br> O que há, porém, de mais indecente do que um velho começando a viver? <small> [JDD] </small> </small> </p>
+; <p> de tuo <b>autem</b> negotio saepe ad me scribis <br> <small> Cic.Att.1.19.9 <br> Me escreves com frequência sobre o teu assunto. <small> [JDD] </small> </small> </p>
+; <p> quare <b>autem</b> bonum in arbore animalique muto non est <br> <small> Sen.Ep.124.8 <br> Porém por que o bem não está na árvore ou no animal mudo? <small> [JDD] </small> </small> </p>
+; <p> videns <b>autem</b> Iesum a longe cucurrit et adoravit eum <br> <small> Vulg.Marc.5.6 <br> Vendo, porém, de longe, Jesus, correu e pôs-se de joelhos diante dele. <small> [JDD] </small> </small> </p>
+; <p> quam <b>autem</b> ciuitati carus fuerit maerore funeris iudicatum est <br> <small> Cic.Amici.11 <br> E o quão querido foi para a cidade se revelou na tristeza de seu funeral. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nostra <b>autem</b> negotia quoniam Romae commoraris amabo te explica <br> <small> Cic.Att.5.12.3 <br> Por outro lado, põe, por favor, em ordem os meus assuntos, visto que te demoras em Roma. <small> [JDD] </small> </small> </p>
+; <p> unius <b>autem</b> diei quot et quantae uirtutes di immortales fuerunt <br> <small> Cic.Phil.14.25.8 <br> Por outro lado, quantos e quão grandes virtudes, deuses imortais, houve em um só dia! <small> [JDD] </small> </small> </p>
+; <p> ille <b>autem</b> non simulat sed plane tribunus plebis fieri cupit <br> <small> Cic.Att.2.1.5 <br> Já aquele não disfarça, mas revela abertamente o desejo de se tornar tribuno da plebe. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-117-116-101-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 74.14 and an absolute frequency of 33. The Cicero subcorpus follows, with a normalized frequency of 22.74 and an absolute frequency of 365. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 19 ; absolute frequency: 7.17576856258025. subcorpus: Cicero ; normalized frequency: 365 ; absolute frequency: 22.7380329421146. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 4 ; absolute frequency: 6.0725671777744. subcorpus: Sallustius ; normalized frequency: 9 ; absolute frequency: 8.3480196642241. subcorpus: Seneca ; normalized frequency: 87 ; absolute frequency: 16.2370989716504. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 33 ; absolute frequency: 74.1406425522354'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-117-116-101-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 74.14 and an absolute frequency of 33. The Prosa.filosófica subcorpus follows, with a normalized frequency of 28.99 and an absolute frequency of 176. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 28 ; absolute frequency: 6.81613476472163. subcorpus: Prosa.filosófica ; normalized frequency: 176 ; absolute frequency: 28.994579990445. subcorpus: Prosa.oratória ; normalized frequency: 174 ; absolute frequency: 16.706191852371. subcorpus: Prosa.epistolográfica ; normalized frequency: 102 ; absolute frequency: 27.0277431834442. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 33 ; absolute frequency: 74.1406425522354'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-117-116-101-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 74.14 and an absolute frequency of 33. The I.a.C. subcorpus follows, with a normalized frequency of 18.29 and an absolute frequency of 393. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 393 ; absolute frequency: 18.2918315103561. subcorpus: I.d.C. ; normalized frequency: 91 ; absolute frequency: 13.92075875784. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 33 ; absolute frequency: 74.1406425522354'}
+
+
+:::
+

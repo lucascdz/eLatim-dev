@@ -1,0 +1,200 @@
+---
+title: "mater"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-97-116-101-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>māter</b> <b>-tris</b> <br> <small>subs. f.</small> <br> <small>Obs.: Mater é um termo geral que se aplica às pessoas, aos animais e até as plantas, para designar o tronco principal. Como pater, comporta uma ideia de respeito ou veneração, juntando-se ao nome das deusas como simples honorífico, sem que a noção de maternidade esteja necessariamente implicada.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Mãe &ensp; <small>tratando-se de pessoas, animais ou plantas Cíc. Lae. 11; Verg. G. 3, 398.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Tronco &ensp; <small>das árvores Verg. G. 2, 23.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Pátria &ensp; <small>Verg. En. 10, 172.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Causa, fonte, origem &ensp; <small>Cíc. Leg. 1, 47.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Maternidade &ensp; <small>Sên. Here. Oe. 389.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Afeição maternal &ensp; <small>Ov. Mel. 7, 629.</small> <br> <b>7</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Venerável, respeitável &ensp; <small>epíteto das deusas Verg. G. 1, 498.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Mater</b> -<b>tris</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; mãi. <br> <b>2</b> &ensp; <small>Plaut.</small> &ensp; ama. <br> <b>3</b> &ensp; <small>Virg.</small> &ensp; tronco da arvore a respeito dos ramos novos. <br> <b>4</b> &ensp; <small>Cic.</small> &ensp; origem, principio, causa. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Mater</b> <b>ris</b>   <p> <b>1</b> &ensp; a mãy </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/111688 ' target="_blank"> http://lila-erc.eu/data/id/lemma/111688 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+mātĕr 
+ mātris
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx109-97-116-101-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-97-116-101-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword mater here are all the values plotted: collocate: familia; scoreSUBST: 3. collocate: tuus; scoreSUBST: 0. collocate: meus; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-97-116-101-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword mater here are all the values plotted: collocate: familia; scoreADJ: 0. collocate: tuus; scoreADJ: 0. collocate: meus; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-97-116-101-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword mater here are all the values plotted: collocate: familia; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0. collocate: meus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-97-116-101-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword mater here are all the values plotted: collocate: familia; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: meus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-97-116-101-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword mater here are all the values plotted: collocate: familia; scoreFUNC: 0. collocate: tuus; scoreFUNC: 0. collocate: meus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ecce <b>mater</b> mea et fratres mei <br> <small> Vulg.Marc.3.34 <br> Eis minha mãe e meus irmãos. <small> [JDD] </small> </small> </p>
+; <p> honora patrem tuum et <b>matrem</b> tuam <br> <small> Vulg.Marc.7.10 <br> Honra teu pai e tua mãe. <small> [JDD] </small> </small> </p>
+; <p> non est hic <b>mater</b> tua ; <br> <small> Phaed.3.15 <br> tua mãe não está aqui”. <small> [JDD] </small> </small> </p>
+; <p> quae si se aurum Caelio commodasse non dicit si uenenum ab hoc sibi paratum esse non arguit petulanter facimus si <b>matrem</b> familias secus quam matronarum sanctitas postulat nominamus <br> <small> Cic.Cael.32 <br> E se ela não diz que tinha emprestado o ouro a Célio, se ela não acusa que o veneno lhe foi preparado por este, agimos descaradamente se nomeamos uma mãe de família de modo diferente do que exige a honestidade das matronas. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-97-116-101-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 26.96 and an absolute frequency of 12. The Vergilius subcorpus follows, with a normalized frequency of 13.51 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Sallustius with the normalized value of 0.93 and an absolute freqeuncy of 1. here are all the values: subcorpus: Caesar ; normalized frequency: 3 ; absolute frequency: 1.13301608882846. subcorpus: Cicero ; normalized frequency: 15 ; absolute frequency: 0.934439709949914. subcorpus: Horatius ; normalized frequency: 10 ; absolute frequency: 8.88020602077968. subcorpus: Ovidius ; normalized frequency: 5 ; absolute frequency: 8.57927247769389. subcorpus: Phaedrus ; normalized frequency: 5 ; absolute frequency: 7.59070897221801. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 41 ; absolute frequency: 7.65196618204214. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 7 ; absolute frequency: 13.5135135135135. subcorpus: Hieronymus ; normalized frequency: 12 ; absolute frequency: 26.9602336553583'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-97-116-101-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 26.96 and an absolute frequency of 12. The Poesia.trágica subcorpus follows, with a normalized frequency of 20.85 and an absolute frequency of 24. the subcorpus with the least normalized frequency is Prosa.oratória with the normalized value of 0.86 and an absolute freqeuncy of 9. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 6 ; absolute frequency: 1.46060030672606. subcorpus: Prosa.filosófica ; normalized frequency: 19 ; absolute frequency: 3.13009670351395. subcorpus: Prosa.oratória ; normalized frequency: 9 ; absolute frequency: 0.864113371674364. subcorpus: Prosa.epistolográfica ; normalized frequency: 4 ; absolute frequency: 1.05991149738997. subcorpus: Poesia.lírica ; normalized frequency: 11 ; absolute frequency: 9.25380667956591. subcorpus: Poesia.didática ; normalized frequency: 9 ; absolute frequency: 7.63423530409704. subcorpus: Poesia.trágica ; normalized frequency: 24 ; absolute frequency: 20.8478109798471. subcorpus: Poesia.épica ; normalized frequency: 7 ; absolute frequency: 13.5135135135135. subcorpus: Prosa.ficcional ; normalized frequency: 12 ; absolute frequency: 26.9602336553583'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-97-116-101-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 26.96 and an absolute frequency of 12. The I.d.C. subcorpus follows, with a normalized frequency of 7.65 and an absolute frequency of 50. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 1.72 and an absolute freqeuncy of 37. here are all the values: subcorpus: I.a.C. ; normalized frequency: 37 ; absolute frequency: 1.72213171980451. subcorpus: I.d.C. ; normalized frequency: 50 ; absolute frequency: 7.64876854826373. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 12 ; absolute frequency: 26.9602336553583'}
+
+
+:::
+

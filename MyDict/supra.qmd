@@ -1,0 +1,197 @@
+---
+title: "supra"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-117-112-114-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>suprā</b> <br> <small>adv. e prep. de acus. II. Prep.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Acima de: &ensp; <small></small> <br> <b>2</b> &ensp; <small></small> &ensp; Antes de &ensp; <small>sent. temporal:</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>versus supra tribunal seribebantur Cíc. Verr. 1. 77 “escreviam-se versos por cima do tribunal”. <br> <br><b>2</b><br>supra hanc memoriam Cés. B. Gal. 6, 19, 4 “antes de nosso tempo”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Supera</b> <br> <small>prep. Lucr. por Supra.</small> 
+ <b>Supra</b> <br> <small>prep. de accus.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; sobre, em sima, além, mais do que. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>supra caput esse &ensp; <small><small>Cic</small></small> &ensp; <small>Estar imminente, estar mui proximo</small> </p>
+
+
+
+
+#### Velez
+
+<b>Supra</b> <br> <small>Praep.</small>   <p> <b>1</b> &ensp; sobre, em cima, alem </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>supra caput sunt hostes &ensp; <small>apertaõ muito os inimigos</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Supra</b> <br> <small>praepositio.</small>   <p> <b>1</b> &ensp; encima </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/127065 ' target="_blank"> http://lila-erc.eu/data/id/lemma/127065 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> sopera, supera, suprad <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+sŭprā
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-117-112-114-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword supra here are all the values plotted: collocate: demonstro; scoreSUBST: 0. collocate: dico; scoreSUBST: 0. collocate: ut; scoreSUBST: 0. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-117-112-114-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword supra here are all the values plotted: collocate: demonstro; scoreADJ: 0. collocate: dico; scoreADJ: 0. collocate: ut; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-117-112-114-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword supra here are all the values plotted: collocate: demonstro; scoreVERBO: 3. collocate: dico; scoreVERBO: 2. collocate: ut; scoreVERBO: 0. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-117-112-114-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword supra here are all the values plotted: collocate: demonstro; scoreADV: 0. collocate: dico; scoreADV: 0. collocate: ut; scoreADV: 0. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-117-112-114-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword supra here are all the values plotted: collocate: demonstro; scoreFUNC: 0. collocate: dico; scoreFUNC: 0. collocate: ut; scoreFUNC: 20. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> idem qui <b>supra</b> <br> <small> Sen.Ep.15.9 <br> O mesmo que antes. <small> [JDD] </small> </small> </p>
+; <p> sed iuuentutem quam ut <b>supra</b> diximus inlexerat multis modis mala facinora edocebat <br> <small> Sal.Cat.16.1 <br> Mas ele ensinava de muitas maneiras as más ações à juventude, que, como dissemos acima, tinha aliciado. <small> [JDD] </small> </small> </p>
+; <p> una cum his legatis Commius Atrebas uenit quem <b>supra</b> demonstraueram a Caesare in Britanniam praemissum <br> <small> Caes.Gal.4.27.2 <br> Veio junto com esses legados o atrebate Cômio, que acima eu mostrara ter sido enviado previamente por César par a Britânia. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-117-112-114-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 5.57 and an absolute frequency of 6. The Caesar subcorpus follows, with a normalized frequency of 4.53 and an absolute frequency of 12. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 12 ; absolute frequency: 4.53206435531385. subcorpus: Cicero ; normalized frequency: 4 ; absolute frequency: 0.24918392265331. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 6 ; absolute frequency: 5.56534644281607. subcorpus: Seneca ; normalized frequency: 1 ; absolute frequency: 0.186633321513223. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-117-112-114-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 4.38 and an absolute frequency of 18. The Prosa.histórica subcorpus follows, with a normalized frequency of 4.38 and an absolute frequency of 18. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 18 ; absolute frequency: 4.38180092017819. subcorpus: Prosa.filosófica ; normalized frequency: 3 ; absolute frequency: 0.494225795291676. subcorpus: Prosa.oratória ; normalized frequency: 1 ; absolute frequency: 0.0960125968527071. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-117-112-114-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 1.02 and an absolute frequency of 22. The I.a.C. subcorpus follows, with a normalized frequency of 1.02 and an absolute frequency of 22. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 22 ; absolute frequency: 1.02397021177566. subcorpus: I.d.C. ; normalized frequency: 1 ; absolute frequency: 0.152975370965275. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

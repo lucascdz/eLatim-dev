@@ -1,0 +1,213 @@
+---
+title: "censeo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-101-110-115-101-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>censen</b> <br> <small>= censesne.</small> <br> <small></small> 
+ <b>censĕō</b> <b>-és</b> <b>-ére</b> <b>censùí, censum</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói-se com acus., com inf. e acus., com gen. Usa-se também subj. com ut, e, se a oração for negativa, com ne ou  ut ne.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Declarar alto e bom som, declarar de forma solene e categórica, dar a sua opinião segundo as fórmulas prescritas &ensp; <small>T. Lív. 1, 32, 11.</small> <br> <b>2</b> &ensp; <small>II-Na língua jurídica</small> &ensp; Declarar a fortuna e a categoria de cada pessoa, fazer o recenseamento, recensear &ensp; <small>Cíc. Ven. 2, 139.</small> <br> <b>3</b> &ensp; <small>III-Na língua comum:</small> &ensp; Julgar, pensar, ser de parecer &ensp; <small>Cíc. Verr. 5, 10.</small> <br> <b>4</b> &ensp; <small>III-Daí:</small> &ensp; Aconselhar, aprovar &ensp; <small>Cíc. At. 11, 22, 2.</small> <br> <b>5</b> &ensp; <small>III-Daí:</small> &ensp; Avaliar, estimar, ter em conta &ensp; <small>Cíc. Par. 48.</small> <br> <b>6</b> &ensp; <small>III-Daí:</small> &ensp; Ordenar, determinar, decretar &ensp; <small>Cíc.Planc. 42.</small> </p> 
+ <b>censŭī</b> <br> <small>perf. de censèo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Censeo</b> -<b>es</b> -<b>sui</b> -<b>sum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; julgar. <br> <b>2</b> &ensp; avaliar, tomar a rol as pessoas, fazendas, & c. <br> <b>3</b> &ensp; dar a rol. <br> <b>4</b> &ensp; <small>Varr. apud Non.</small> &ensp; irar-se. </p>
+
+
+
+
+#### Velez
+
+<b>Censeo</b> -<b>es</b>   <p> <b>1</b> &ensp; cuidar, julgar, determinar, avaliar </p>
+
+
+
+
+#### Cardoso
+
+<b>Censeo</b> -<b>es</b>   <p> <b>1</b> &ensp; iulgar </p> 
+ <b>Censeo</b> -<b>es</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/93395 ' target="_blank"> http://lila-erc.eu/data/id/lemma/93395 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> censeo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> censere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> censebit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> censui, censii </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> censitum, censum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> censurum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+censĕō 
+ censēs 
+ censēre 
+ censŭī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-101-110-115-101-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-101-110-115-101-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword censeo here are all the values plotted: collocate: ita; scoreSUBST: 0. collocate: pater; scoreSUBST: 2. collocate: senatus; scoreSUBST: 2. collocate: ne; scoreSUBST: 0. collocate: cum; scoreSUBST: 0. collocate: quis; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-101-110-115-101-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword censeo here are all the values plotted: collocate: ita; scoreADJ: 0. collocate: pater; scoreADJ: 0. collocate: senatus; scoreADJ: 0. collocate: ne; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: quis; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-101-110-115-101-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword censeo here are all the values plotted: collocate: ita; scoreVERBO: 0. collocate: pater; scoreVERBO: 0. collocate: senatus; scoreVERBO: 0. collocate: ne; scoreVERBO: 0. collocate: cum; scoreVERBO: 0. collocate: quis; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-101-110-115-101-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword censeo here are all the values plotted: collocate: ita; scoreADV: 3. collocate: pater; scoreADV: 0. collocate: senatus; scoreADV: 0. collocate: ne; scoreADV: 0. collocate: cum; scoreADV: 0. collocate: quis; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-101-110-115-101-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword censeo here are all the values plotted: collocate: ita; scoreFUNC: 0. collocate: pater; scoreFUNC: 0. collocate: senatus; scoreFUNC: 0. collocate: ne; scoreFUNC: 20. collocate: cum; scoreFUNC: 20. collocate: quis; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quid igitur <b>censet</b> <br> <small> Cic.Phil.13.6.7 <br> O que então ela pensa? <small> [JDD] </small> </small> </p>
+; <p> quid municipia <b>censetis</b> <br> <small> Cic.Phil.12.7.8 <br> O que pensais dos municípios? <small> [JDD] </small> </small> </p>
+; <p> poteramus ne inquies cum senatus <b>censuisset</b> <br> <small> Cic.Lig.20 <br> “Acaso podíamos”, dirás, “se o senado tinha decidido?” <small> [JDD] </small> </small> </p>
+; <p> nam ne absens <b>censeare</b> curabo edicendum et proponendum locis omnibus <br> <small> Cic.Att.1.18.8 <br> E, para que não sejas censeado como ausente, cuidarei de dar a notícia e divulgá-la por todos os lugares. <small> [JDD] </small> </small> </p>
+; <p> uitae <b>censetis</b> ne patres conscripti habendam mihi aliquam esse rationem <br> <small> Cic.Phil.12.21.3 <br> Por acaso pensais, pais conscritos, que eu deva ter algum valor de minha vida? <small> [JDD] </small> </small> </p>
+; <p> de ea re ita <b>censuerunt</b> comitia primo quoque tempore haberi esse e re publica <br> <small> Cic.Att.4.17.3 <br> Foram de parecer sobre esse assunto que as eleições fossem realizadas o quanto antes. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-101-110-115-101-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 11.03 and an absolute frequency of 1. The Sallustius subcorpus follows, with a normalized frequency of 6.49 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 59 ; absolute frequency: 3.67546285913633. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 2 ; absolute frequency: 0.373266643026446. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-101-110-115-101-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 3.94 and an absolute frequency of 41. The Prosa.histórica subcorpus follows, with a normalized frequency of 2.68 and an absolute frequency of 11. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 11 ; absolute frequency: 2.67776722899778. subcorpus: Prosa.filosófica ; normalized frequency: 10 ; absolute frequency: 1.64741931763892. subcorpus: Prosa.oratória ; normalized frequency: 41 ; absolute frequency: 3.93651647096099. subcorpus: Prosa.epistolográfica ; normalized frequency: 10 ; absolute frequency: 2.64977874347492. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-101-110-115-101-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The I.a.C. subcorpus follows, with a normalized frequency of 3.16 and an absolute frequency of 68. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 68 ; absolute frequency: 3.16499883639749. subcorpus: I.d.C. ; normalized frequency: 2 ; absolute frequency: 0.305950741930549. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

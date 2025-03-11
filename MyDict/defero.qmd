@@ -1,0 +1,210 @@
+---
+title: "defero"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-101-102-101-114-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>dēfĕrō</b> <b>-fers</b> <b>-férre</b> <b>détùlí, delátum</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói-se com acus. e dat.: com duplo acus., sendo o segundo com ad; com acus. e inf.: com acus. simples: com gen. de crime, como em Tác. An. 6, 47, ou 6, 53.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Levar, trazer &ensp; <small>muitas vezes com a ideia acessória de cima para baixo;</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Depositar alguma coisa nas mãos de alguém, conceder, conferir, oferecer, confiar &ensp; <small>Cés. B. Gal. 7, 4, 6.</small> <br> <b>3</b> &ensp; <small>II-Por especialização de sentido:</small> &ensp; Delatar, denunciar, revelar, acusar &ensp; <small>Cíc. Clu. 143; Cíc. Amer. 64.</small> <br> <b>4</b> &ensp; <small>III-Empregos especiais:</small> &ensp; Submeter &ensp; <small>Cés. B. Gal. 5, 28, 2.</small> <br> <b>5</b> &ensp; <small>III-Empregos especiais:</small> &ensp; Apresentar a venda, vender &ensp; <small>petr. 12, 2.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>ex Helicone coronam Lucr. 1, 119 «trazer do Hélicon uma coroa»; Cíc. Verr. 4, 65. </p> 
+ <b>dētŭlī</b> <br> <small>perf. de defèro.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Defero</b> -<b>fers</b> -<b>tuli</b> -<b>latum</b> -<b>ferre</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; levar. <br> <b>2</b> &ensp; dar, offerecer. <br> <b>3</b> &ensp; noticiar, contar. <br> <b>4</b> &ensp; delatar, accusar. <br> <b>5</b> &ensp; <small>Sen.</small> &ensp; pôr á venda. <br> <b>6</b> &ensp; <small>Plin.</small> &ensp; produzir, gerar. </p> 
+ <small>pret. de Defero</small> <b>Detuli</b>
+
+
+
+
+#### Velez
+
+<b>Defero</b> <b>defers</b>   <p> <b>1</b> &ensp; trazer, levar, offerecer, dar, entregar &ensp; <small>accus. & dat.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>aliquem impietatis, uel de impietate in Principem deferre, uel in superiorem &ensp; <small>delatar</small> <br> nomen alicuius ad iudicium deferre &ensp; <small>malsinar, sindicar</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Defero</b> -<b>ers</b> <b>tuli</b> <b>latum</b>   <p> <b>1</b> &ensp; leuar. ou accusar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/98252 ' target="_blank"> http://lila-erc.eu/data/id/lemma/98252 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> irregular <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> defero </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> deferre </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> deferet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> detuli, detetuli, detoli, dituli </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> delatum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> delaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+dēfĕrō 
+ dēfers 
+ dēferre 
+ dētŭlī 
+ dēlātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-101-102-101-114-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-101-102-101-114-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword defero here are all the values plotted: collocate: nomen; scoreSUBST: 2. collocate: Pompeius; scoreSUBST: 0. collocate: res; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-101-102-101-114-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword defero here are all the values plotted: collocate: nomen; scoreADJ: 0. collocate: Pompeius; scoreADJ: 0. collocate: res; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-101-102-101-114-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword defero here are all the values plotted: collocate: nomen; scoreVERBO: 0. collocate: Pompeius; scoreVERBO: 0. collocate: res; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-101-102-101-114-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword defero here are all the values plotted: collocate: nomen; scoreADV: 0. collocate: Pompeius; scoreADV: 0. collocate: res; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-101-102-101-114-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword defero here are all the values plotted: collocate: nomen; scoreFUNC: 0. collocate: Pompeius; scoreFUNC: 0. collocate: res; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>defertur</b> res ad senatum <br> <small> Cic.Att.1.16.5 <br> O assunto é levado ao senado. <small> [JDD] </small> </small> </p>
+; <p> hoc Curio ad patrem <b>detulit</b> ille ad Pompeium <br> <small> Cic.Att.2.24.2 <br> Curião denunciou isto ao pai, este a Pompeu. <small> [JDD] </small> </small> </p>
+; <p> num quis denique fecisset mentionem si hic nullius nomen <b>detulisset</b> <br> <small> Cic.Cael.56 <br> Enfim, acaso alguém teria feito menção a ele, se ele não tivesse delatado o nome de ninguém? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-101-102-101-114-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 4.24 and an absolute frequency of 68. The Caesar subcorpus follows, with a normalized frequency of 4.15 and an absolute frequency of 11. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 11 ; absolute frequency: 4.15439232570436. subcorpus: Cicero ; normalized frequency: 68 ; absolute frequency: 4.23612668510628. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 5 ; absolute frequency: 0.933166607566115. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-101-102-101-114-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 5.28 and an absolute frequency of 55. The Prosa.oratória subcorpus follows, with a normalized frequency of 5.28 and an absolute frequency of 55. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 12 ; absolute frequency: 2.92120061345213. subcorpus: Prosa.filosófica ; normalized frequency: 6 ; absolute frequency: 0.988451590583351. subcorpus: Prosa.oratória ; normalized frequency: 55 ; absolute frequency: 5.28069282689889. subcorpus: Prosa.epistolográfica ; normalized frequency: 12 ; absolute frequency: 3.1797344921699. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-101-102-101-114-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 3.72 and an absolute frequency of 80. The I.d.C. subcorpus follows, with a normalized frequency of 0.92 and an absolute frequency of 6. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 80 ; absolute frequency: 3.72352804282057. subcorpus: I.d.C. ; normalized frequency: 6 ; absolute frequency: 0.917852225791647. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

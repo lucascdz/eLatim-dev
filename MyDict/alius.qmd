@@ -1,0 +1,230 @@
+---
+title: "alius"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-108-105-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>alĭae</b> <br> <small>gen. e dat.; v. alìus.</small> <br> <small></small> 
+ <b>alĭus</b> <b>-a</b> <b>-ud</b> <br> <small>pron.</small> <br> <small>Obs.: Formas raras: gen. f. aliae Cíc. Div. 2, 30; dat. m. alio Sên. Ben. 4, 32, 3.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Outro &ensp; <small>falando de mais de dois Cíc. Flac. 39.</small> <br> <b>2</b> &ensp; <small>O pl. n. alia significa:</small> &ensp; outra coisa, outros fatos &ensp; <small>T. Lív. 29, 18, 7.</small> <br> <b>3</b> &ensp; <small></small> &ensp; Diferente, outro, diverso &ensp; <small>Cíc. Fam. 11, 12, 2.</small> <br> <b>4</b> &ensp; <small></small> &ensp; Os outros &ensp; <small>alii = ceteri Cic. Verr. 4, 44.</small> <br> <b>5</b> &ensp; <small></small> &ensp; Outro &ensp; <small>em lugar de alter Cés. B. Civ. 3, 21, 2.</small> <br> <b>6</b> &ensp; <small>Em locuções:</small> &ensp; alius ac, atque, et, praeter, quam, diferente de: unicamente &ensp; <small>Cíc. Verr. 2, 128.</small> <br> <b>7</b> &ensp; <small></small> &ensp; <small></small> <br> <b>8</b> &ensp; <small></small> &ensp; Alius alium marcando reciprocidade ou alternativa: um a outro &ensp; <small>Cíc. Rep. 3, 23.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>7</b><br>Alius ...alius repetido duas ou mais vezes: um outro; alii alii mais comum: uns outros: alius alius ... plerique Cés. B. Gal. 6. 37. 7: um ... outro ... a maior parte. </p> 
+ <small>2.</small> <b>aliī</b> <br> <small>gen., v. alìus.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Alius</b> -<b>a</b> -<b>ud</b> <b>Alius</b> <small>genit</small> <b>Alii</b> <small>l</small> -<b>ae</b> -<b>ii</b> <small>para todos os gen</small> <b>Alii</b> <small>dat</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; outro. <br> <b>2</b> &ensp; diverso, differente. </p> 
+ <small>Catul. por Alius</small> <b>Alis</b> 
+ <small>Lucr. por Aliud</small> <b>Alid</b>
+
+
+
+
+#### Velez
+
+<b>Alius</b> -<b>a</b> -<b>ud</b>   <p> <b>1</b> &ensp; cousa diversa, ou contraria </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>alius Lysippo &ensp; <small><small>i, à Lysippo, uel nisi Lysippus</small></small> <br> non sum alius ab eo, qui fueram </p>
+
+
+
+
+#### Cardoso
+
+<b>Alius</b> -<b>a</b> <b>ud</b>   <p> <b>1</b> &ensp; outro. ou outra </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/88481 ' target="_blank"> http://lila-erc.eu/data/id/lemma/88481 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ălĭus 
+ ălĭa 
+ ălĭud
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-108-105-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-108-105-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword alius here are all the values plotted: collocate: nihil; scoreSUBST: 0. collocate: nisi; scoreSUBST: 0. collocate: item; scoreSUBST: 0. collocate: quidam; scoreSUBST: 0. collocate: ullus; scoreSUBST: 0. collocate: quisquam; scoreSUBST: 0. collocate: autem; scoreSUBST: 0. collocate: ab; scoreSUBST: 0. collocate: ago; scoreSUBST: 0. collocate: apud; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: tempus; scoreSUBST: 2. collocate: ex; scoreSUBST: 0. collocate: multus; scoreSUBST: 0. collocate: qua2; scoreSUBST: 0. collocate: ob; scoreSUBST: 0. collocate: quisquis; scoreSUBST: 0. collocate: ratio; scoreSUBST: 2. collocate: alia; scoreSUBST: 0. collocate: sicut; scoreSUBST: 0. collocate: cado; scoreSUBST: 0. collocate: sub; scoreSUBST: 0. collocate: praeter; scoreSUBST: 0. collocate: longe; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-108-105-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword alius here are all the values plotted: collocate: nihil; scoreADJ: 0. collocate: nisi; scoreADJ: 0. collocate: item; scoreADJ: 0. collocate: quidam; scoreADJ: 0. collocate: ullus; scoreADJ: 0. collocate: quisquam; scoreADJ: 0. collocate: autem; scoreADJ: 0. collocate: ab; scoreADJ: 0. collocate: ago; scoreADJ: 0. collocate: apud; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: tempus; scoreADJ: 0. collocate: ex; scoreADJ: 0. collocate: multus; scoreADJ: 0. collocate: qua2; scoreADJ: 0. collocate: ob; scoreADJ: 0. collocate: quisquis; scoreADJ: 0. collocate: ratio; scoreADJ: 0. collocate: alia; scoreADJ: 0. collocate: sicut; scoreADJ: 0. collocate: cado; scoreADJ: 0. collocate: sub; scoreADJ: 0. collocate: praeter; scoreADJ: 0. collocate: longe; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-108-105-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword alius here are all the values plotted: collocate: nihil; scoreVERBO: 0. collocate: nisi; scoreVERBO: 0. collocate: item; scoreVERBO: 0. collocate: quidam; scoreVERBO: 0. collocate: ullus; scoreVERBO: 0. collocate: quisquam; scoreVERBO: 0. collocate: autem; scoreVERBO: 0. collocate: ab; scoreVERBO: 0. collocate: ago; scoreVERBO: 2. collocate: apud; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: tempus; scoreVERBO: 0. collocate: ex; scoreVERBO: 0. collocate: multus; scoreVERBO: 0. collocate: qua2; scoreVERBO: 0. collocate: ob; scoreVERBO: 0. collocate: quisquis; scoreVERBO: 0. collocate: ratio; scoreVERBO: 0. collocate: alia; scoreVERBO: 0. collocate: sicut; scoreVERBO: 0. collocate: cado; scoreVERBO: 2. collocate: sub; scoreVERBO: 0. collocate: praeter; scoreVERBO: 0. collocate: longe; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-108-105-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword alius here are all the values plotted: collocate: nihil; scoreADV: 0. collocate: nisi; scoreADV: 0. collocate: item; scoreADV: 2. collocate: quidam; scoreADV: 0. collocate: ullus; scoreADV: 0. collocate: quisquam; scoreADV: 0. collocate: autem; scoreADV: 0. collocate: ab; scoreADV: 0. collocate: ago; scoreADV: 0. collocate: apud; scoreADV: 0. collocate: in; scoreADV: 0. collocate: tempus; scoreADV: 0. collocate: ex; scoreADV: 0. collocate: multus; scoreADV: 0. collocate: qua2; scoreADV: 2. collocate: ob; scoreADV: 0. collocate: quisquis; scoreADV: 0. collocate: ratio; scoreADV: 0. collocate: alia; scoreADV: 2. collocate: sicut; scoreADV: 0. collocate: cado; scoreADV: 0. collocate: sub; scoreADV: 0. collocate: praeter; scoreADV: 0. collocate: longe; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-108-105-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword alius here are all the values plotted: collocate: nihil; scoreFUNC: 0. collocate: nisi; scoreFUNC: 20. collocate: item; scoreFUNC: 0. collocate: quidam; scoreFUNC: 0. collocate: ullus; scoreFUNC: 0. collocate: quisquam; scoreFUNC: 0. collocate: autem; scoreFUNC: 0. collocate: ab; scoreFUNC: 20. collocate: ago; scoreFUNC: 0. collocate: apud; scoreFUNC: 20. collocate: in; scoreFUNC: 20. collocate: tempus; scoreFUNC: 0. collocate: ex; scoreFUNC: 20. collocate: multus; scoreFUNC: 0. collocate: qua2; scoreFUNC: 0. collocate: ob; scoreFUNC: 20. collocate: quisquis; scoreFUNC: 0. collocate: ratio; scoreFUNC: 0. collocate: alia; scoreFUNC: 0. collocate: sicut; scoreFUNC: 20. collocate: cado; scoreFUNC: 0. collocate: sub; scoreFUNC: 20. collocate: praeter; scoreFUNC: 20. collocate: longe; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> opinor <b>aliud</b> agamus <br> <small> Cic.Att.2.8.1 <br> façamos outra coisa, penso eu. <small> [JDD] </small> </small> </p>
+; <p> <b>alii</b> nihil stultius <br> <small> Cic.Att.5.21.12 <br> outros que não havia nada mais estulto. <small> [JDD] </small> </small> </p>
+; <p> quousque sub <b>alio</b> moueris <br> <small> Sen.Ep.33.7 <br> Até quando te moverás sob outro? <small> [JDD] </small> </small> </p>
+; <p> poterat in <b>alios</b> derivare <br> <small> Cic.Att.4.3.2 <br> podia desviá-la para os outros. <small> [JDD] </small> </small> </p>
+; <p> in <b>aliis</b> eris cautior <br> <small> Cic.Att.4.7.2 <br> serás mais cauteloso com os outros. <small> [JDD] </small> </small> </p>
+; <p> <b>alii</b> autem dicebant quia <br> <small> Vulg.Marc.6.15 <br> Outros, por sua vez, diziam. <small> [JDD] </small> </small> </p>
+; <p> et <b>aliud</b> cecidit in spinas <br> <small> Vulg.Marc.4.7 <br> E uma outra parte caiu entre espinhos. <small> [JDD] </small> </small> </p>
+; <p> <b>aliud</b> autem est meminisse <b>aliud</b> scire <br> <small> Sen.Ep.33.8 <br> Porém uma coisa é lembrar, outra é saber. <small> [JDD] </small> </small> </p>
+; <p> et <b>aliud</b> cecidit in terram bonam <br> <small> Vulg.Marc.4.8 <br> E outra caiu em terra boa. <small> [JDD] </small> </small> </p>
+; <p> et <b>alia</b> similia his facitis multa <br> <small> Vulg.Marc.7.8 <br> e fazeis muitas outras coisas semelhantes a estas. <small> [JDD] </small> </small> </p>
+; <p> multa sunt sed in <b>aliud</b> tempus <br> <small> Cic.Att.1.17.11 <br> São muitas coisas, mas ficam para uma outra ocasião. <small> [JDD] </small> </small> </p>
+; <p> quae est igitur <b>alia</b> praeter mortem <br> <small> Cic.Lig.13 <br> Que outro há, portanto, além da morte? <small> [JDD] </small> </small> </p>
+; <p> dederam <b>aliam</b> paulo ante a Tribus Tabernis <br> <small> Cic.Att.2.10.1 <br> Eu tinha entregue outra um pouco antes de Três Tavernas. <small> [JDD] </small> </small> </p>
+; <p> arma ab <b>aliis</b> posita ab <b>aliis</b> erepta sunt <br> <small> Cic.Marc.31 <br> As armas foram por uns depostas, de outros foram arrancadas. <small> [JDD] </small> </small> </p>
+; <p> ne c quicquam <b>aliud</b> opus est quam abrogari <br> <small> Cic.Att.3.15.5 <br> E não é necessário que nenhuma outra seja revogada. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quaedam incremento non tantum in maius exeunt sed in <b>aliud</b> <br> <small> Sen.Ep.118.14 <br> Certas coisas, com o crescimento, não só se tornam maiores, mas também outras. <small> [JDD] </small> </small> </p>
+; <p> <b>aliud</b> vero cecidit super petrosa ubi non habuit terram multam <br> <small> Vulg.Marc.4.5 <br> Outra parte, porém, caiu sobre o solo rochoso, onde não tinha muita terra. <small> [JDD] </small> </small> </p>
+; <p> haec duo apud <b>alios</b> diuersa sunt aput nos tantum diuisa <br> <small> Sen.Ep.120.1 <br> Para outros, estes dois conceitos são diferentes, para nós, apenas separados. <small> [JDD] </small> </small> </p>
+; <p> hoc me ita velle multi non credunt ex consuetudine <b>aliorum</b> <br> <small> Cic.Att.5.2.3 <br> Muitos não creem que eu queira isso desse modo com base no costume dos outros. <small> [JDD] </small> </small> </p>
+; <p> qui longe <b>alia</b> ratione ac reliqui Galli bellum gerere instituerunt <br> <small> Caes.Gal.3.28.1 <br> e estes, de modo muito diferente dos demais gauleses, começaram a travar a guerra. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nemo ab <b>alio</b> contemnitur nisi a se ante contemptus est <br> <small> Sen.Helv.13.6 <br> Ninguém é menosprezado por outro a não ser que tenha sido menosprezado antes por si mesmo. <small> [JDD] </small> </small> </p>
+; <p> quam multa autem paramus quia <b>alii</b> parauerunt quia aput plerosque sunt <br> <small> Sen.Ep.123.6 <br> Por outro lado, quão numerosas coisas nós adquirimos porque outros adquiriram, porque há na casa da maioria! <small> [JDD] </small> </small> </p>
+; <p> seueritatem in senectute probo sed eam sicut <b>alia</b> modicam acerbitatem nullo modo <br> <small> Cic.Sen.65 <br> Na velhice eu aprovo a severidade, mas, como as outras coisas, moderada, a aspereza de modo algum. <small> [JDD] </small> </small> </p>
+; <p> statuas fana τέθριππα prohibeo ne c sum in ulla re <b>alia</b> molestus civitatibus <br> <small> Cic.Att.5.21.7 <br> estátuas, templos, quadrigas eu proíbo, e em nenhuma outra coisa sou molesto para as cidades - <small> [JDD, de outra edição] </small> </small> </p>
+; <p> at <b>aliae</b> leges item condemnatis ciuibus non animam eripi sed exilium permitti iubent <br> <small> Sal.Cat.51.22 <br> Mas outras leis também prescrevem que não se tire a vida aos cidadãos condenados, mas que se lhes conceda o exílio. <small> [JDD] </small> </small> </p>
+; <p> et in alternas mundi uices plura facit ista non <b>alia</b> alias contractior alias productior <br> <small> Sen.Ep.12.7 <br> e eternamente o dia faz essas alternâncias, não outras, ainda que umas vezes mais curto, outras mais longo.[*] <small>  </small> </small> </p>
+; <p> honestum est perfectum bonum quo beata uita completur cuius contactu <b>alia</b> quoque bona fiunt <br> <small> Sen.Ep.118.10 <br> O honesto é o bem perfeito, com o qual a vida feliz se completa e com cujo contato as outras coisas se tornam também boas. <small> [JDD] </small> </small> </p>
+; <p> illis merito accidet quicquid euenerit ceterum uos patres conscripti quid in <b>alios</b> statuatis considerate <br> <small> Sal.Cat.51.25 <br> Qualquer coisa que ocorrer a eles, acontecerá merecidamente; porém vós, pais conscritos, tendes em mente o que devais decidir com relação aos outros. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> neque enim ullam <b>aliam</b> ob causam populus Romanus tribuniciam potestatem tanto studio requisiuit quam cum poscebat uerbo illam poscere uidebatur re uera iudicia poscebat <br> <small> Cic.Ver.1.44 <br> 44 Pois por nenhuma outra causa o povo romano requisitou com tanto empenho o poder tribunício e quando o exigia parecia exigi-lo com a palavra; na realidade, exigia julgamentos verdadeiros. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-108-105-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 78.84 and an absolute frequency of 85. The Sallustius subcorpus follows, with a normalized frequency of 78.84 and an absolute frequency of 85. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 3.43 and an absolute freqeuncy of 2. here are all the values: subcorpus: Caesar ; normalized frequency: 50 ; absolute frequency: 18.8836014804744. subcorpus: Cicero ; normalized frequency: 307 ; absolute frequency: 19.1248660636416. subcorpus: Horatius ; normalized frequency: 18 ; absolute frequency: 15.9843708374034. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 15 ; absolute frequency: 22.772126916654. subcorpus: Sallustius ; normalized frequency: 85 ; absolute frequency: 78.8424079398943. subcorpus: Seneca ; normalized frequency: 201 ; absolute frequency: 37.5132976241578. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 10 ; absolute frequency: 34.3288705801579. subcorpus: Vergilius ; normalized frequency: 10 ; absolute frequency: 19.3050193050193. subcorpus: Hieronymus ; normalized frequency: 10 ; absolute frequency: 22.4668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-108-105-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 37.23 and an absolute frequency of 226. The Prosa.histórica subcorpus follows, with a normalized frequency of 35.54 and an absolute frequency of 146. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 13.03 and an absolute freqeuncy of 15. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 146 ; absolute frequency: 35.5412741303342. subcorpus: Prosa.filosófica ; normalized frequency: 226 ; absolute frequency: 37.2316765786396. subcorpus: Prosa.oratória ; normalized frequency: 200 ; absolute frequency: 19.2025193705414. subcorpus: Prosa.epistolográfica ; normalized frequency: 67 ; absolute frequency: 17.753517581282. subcorpus: Poesia.lírica ; normalized frequency: 18 ; absolute frequency: 15.1425927483806. subcorpus: Poesia.didática ; normalized frequency: 17 ; absolute frequency: 14.4202222410722. subcorpus: Poesia.trágica ; normalized frequency: 15 ; absolute frequency: 13.0298818624044. subcorpus: Poesia.épica ; normalized frequency: 10 ; absolute frequency: 19.3050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 10 ; absolute frequency: 22.4668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-108-105-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 33.35 and an absolute frequency of 218. The I.d.C. subcorpus follows, with a normalized frequency of 33.35 and an absolute frequency of 218. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 21.88 and an absolute freqeuncy of 470. here are all the values: subcorpus: I.a.C. ; normalized frequency: 470 ; absolute frequency: 21.8757272515709. subcorpus: I.d.C. ; normalized frequency: 218 ; absolute frequency: 33.3486308704299. subcorpus: II.d.C. ; normalized frequency: 11 ; absolute frequency: 28.7958115183246. subcorpus: IV.d.C. ; normalized frequency: 10 ; absolute frequency: 22.4668613794653'}
+
+
+:::
+

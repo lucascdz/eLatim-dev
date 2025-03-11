@@ -1,0 +1,205 @@
+---
+title: "quidam"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx113-117-105-100-97-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>quādam</b> <br> <small>adv.</small> <br> <small>v. quádámtènus.</small> 
+ <b>quīdam</b> <b>quaedam</b> <b>quoddam</b> <br> <small>pron. indef. adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>Forma adj.:</small> &ensp; Um certo, algum, um, alguma &ensp; <small>Cíc. Verr. 5, 153.</small> <br> <b>2</b> &ensp; <small>Forma subs.:</small> &ensp; Um certo, algum, alguma coisa &ensp; <small>Cíc. Or. 75; Cíc. Nat. 3, 88.</small> <br> <b>3</b> &ensp; <small>Forma subs.: No plural:</small> &ensp; Alguns, vários &ensp; <small>T. Lív. 23, 30, 7.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Quidam</b> <b>quaedam</b> <b>quoddam</b> <b>quiddam</b> <small>l</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; hum certo. </p>
+
+
+
+
+#### Velez
+
+<small>et c.</small> <b>Quidam</b>   <p> <b>1</b> &ensp; hum certo; </p>
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/121313 ' target="_blank"> http://lila-erc.eu/data/id/lemma/121313 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> pronominal <br>
+<small> outras grafias: </small> queidam, quoidam <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+quīdam
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx113-117-105-100-97-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword quidam here are all the values plotted: collocate: modus; scoreSUBST: 3. collocate: diuinus; scoreSUBST: 0. collocate: nouus; scoreSUBST: 0. collocate: naturalis; scoreSUBST: 0. collocate: alius; scoreSUBST: 0. collocate: incredibilis; scoreSUBST: 0. collocate: mens; scoreSUBST: 2. collocate: uerbum; scoreSUBST: 2. collocate: habeo; scoreSUBST: 0. collocate: ex; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx113-117-105-100-97-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword quidam here are all the values plotted: collocate: modus; scoreADJ: 0. collocate: diuinus; scoreADJ: 3. collocate: nouus; scoreADJ: 2. collocate: naturalis; scoreADJ: 2. collocate: alius; scoreADJ: 0. collocate: incredibilis; scoreADJ: 2. collocate: mens; scoreADJ: 0. collocate: uerbum; scoreADJ: 0. collocate: habeo; scoreADJ: 0. collocate: ex; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx113-117-105-100-97-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword quidam here are all the values plotted: collocate: modus; scoreVERBO: 0. collocate: diuinus; scoreVERBO: 0. collocate: nouus; scoreVERBO: 0. collocate: naturalis; scoreVERBO: 0. collocate: alius; scoreVERBO: 0. collocate: incredibilis; scoreVERBO: 0. collocate: mens; scoreVERBO: 0. collocate: uerbum; scoreVERBO: 0. collocate: habeo; scoreVERBO: 1. collocate: ex; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx113-117-105-100-97-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword quidam here are all the values plotted: collocate: modus; scoreADV: 0. collocate: diuinus; scoreADV: 0. collocate: nouus; scoreADV: 0. collocate: naturalis; scoreADV: 0. collocate: alius; scoreADV: 0. collocate: incredibilis; scoreADV: 0. collocate: mens; scoreADV: 0. collocate: uerbum; scoreADV: 0. collocate: habeo; scoreADV: 0. collocate: ex; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx113-117-105-100-97-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword quidam here are all the values plotted: collocate: modus; scoreFUNC: 0. collocate: diuinus; scoreFUNC: 0. collocate: nouus; scoreFUNC: 0. collocate: naturalis; scoreFUNC: 0. collocate: alius; scoreFUNC: 0. collocate: incredibilis; scoreFUNC: 0. collocate: mens; scoreFUNC: 0. collocate: uerbum; scoreFUNC: 0. collocate: habeo; scoreFUNC: 0. collocate: ex; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> novo <b>quodam</b> genere in summam gloriam venit <br> <small> Cic.Att.2.20.4 <br> Chega à suprema glória por certo método novo. <small> [JDD] </small> </small> </p>
+; <p> nec hoc nouum est <b>quaedam</b> crescendo mutari <br> <small> Sen.Ep.118.14 <br> E não é novo que certas coisas mudem com o crescimento. <small> [JDD] </small> </small> </p>
+; <p> <b>quidam</b> enim ex eis de longe venerunt <br> <small> Vulg.Marc.8.3 <br> pois alguns deles vieram de longe. <small> [JDD] </small> </small> </p>
+; <p> nova <b>quaedam</b> divina mitto sed haec summa est <br> <small> Cic.Att.4.3.5 <br> Omito certas predições, mas o resumo é este. <small> [JDD] </small> </small> </p>
+; <p> Habenti <b>cuidam</b> pecora pepererunt oves Agnos humano capite . <br> <small> Phaed.3.3 <br> Para um sujeito que tinha rebanhos as ovelhas pariram cordeiros com cabeça humana. <small> [JDD] </small> </small> </p>
+; <p> <b>quaedam</b> incremento non tantum in maius exeunt sed in aliud <br> <small> Sen.Ep.118.14 <br> Certas coisas, com o crescimento, não só se tornam maiores, mas também outras. <small> [JDD] </small> </small> </p>
+; <p> repeto memoria quam magno animo <b>quaedam</b> uerba proieceris quanti roboris plena <br> <small> Sen.Ep.10.3 <br> Trago na memória com que grande entusiasmo pronunciaste certas frases, cheias de imenso vigor. <small> [JDD] </small> </small> </p>
+; <p> constitutio inquit est ut uos dicitis principale animi <b>quodam</b> modo se habens erga corpus <br> <small> Sen.Ep.121.10 <br> “A constituição”, diz-se, “é, conforme vós dizeis, de certo modo, o essencial do espírito se relacionando com o corpo. <small> [JDD] </small> </small> </p>
+; <p> <b>quidam</b> aiunt nos in notitiam incidisse quod est incredibile uirtutis alicui speciem casu occucurrisse <br> <small> Sen.Ep.120.4 <br> Alguns afirmam que nós caímos nessa noção por acaso, o que é incrível que a idéia da virtude tenha ocorrido casualmente a alguém. <small> [JDD] </small> </small> </p>
+; <p> nunc ut a me patres conscripti <b>quandam</b> prope iustam patriae querimoniam detester ac deprecer percipite quaeso diligenter quae dicam et ea penitus animis uestris mentibusque mandate <br> <small> Cic.Catil.1.27.5 <br> Agora, pais conscritos, para que eu afaste e desvie de mim uma certa queixa, quase justa, da pátria, observai, por favor, diligentemente as coisas que vou dizer, e confiai-as profundamente aos vossos espíritos e mentes. <small> [JDD] </small> </small> </p>
+; <p> quod si quem etiam ista delectant ne omnino bellum indixisse uidear uoluptati cuius est fortasse <b>quidam</b> naturalis modus non intellego ne in istis quidem ipsis uoluptatibus carere sensu senectutem <br> <small> Cic.Sen.46 <br> E se também essas coisas deleitam alguém (para que eu não pareça ter declarado totalmente guerra ao prazer, do qual talvez haja um certo limite natural), não entendo que a velhice, nem mesmo nesses prazeres, seja desprovida de sensação. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx113-117-105-100-97-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 33.08 and an absolute frequency of 3. The Phaedrus subcorpus follows, with a normalized frequency of 24.29 and an absolute frequency of 16. the subcorpus with the least normalized frequency is Vergilius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 8 ; absolute frequency: 3.0213762368759. subcorpus: Cicero ; normalized frequency: 216 ; absolute frequency: 13.4559318232788. subcorpus: Horatius ; normalized frequency: 12 ; absolute frequency: 10.6562472249356. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 16 ; absolute frequency: 24.2902687110976. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 95 ; absolute frequency: 17.7301655437562. subcorpus: Suetonius ; normalized frequency: 3 ; absolute frequency: 33.0760749724366. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx113-117-105-100-97-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 24.22 and an absolute frequency of 147. The Poesia.lírica subcorpus follows, with a normalized frequency of 10.1 and an absolute frequency of 12. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 20 ; absolute frequency: 4.86866768908688. subcorpus: Prosa.filosófica ; normalized frequency: 147 ; absolute frequency: 24.2170639692921. subcorpus: Prosa.oratória ; normalized frequency: 123 ; absolute frequency: 11.809549412883. subcorpus: Prosa.epistolográfica ; normalized frequency: 41 ; absolute frequency: 10.8640928482472. subcorpus: Poesia.lírica ; normalized frequency: 12 ; absolute frequency: 10.0950618322537. subcorpus: Poesia.didática ; normalized frequency: 19 ; absolute frequency: 16.116718975316. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx113-117-105-100-97-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 17.44 and an absolute frequency of 114. The I.d.C. subcorpus follows, with a normalized frequency of 17.44 and an absolute frequency of 114. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 11.23 and an absolute freqeuncy of 5. here are all the values: subcorpus: I.a.C. ; normalized frequency: 243 ; absolute frequency: 11.3102164300675. subcorpus: I.d.C. ; normalized frequency: 114 ; absolute frequency: 17.4391922900413. subcorpus: II.d.C. ; normalized frequency: 5 ; absolute frequency: 13.0890052356021. subcorpus: IV.d.C. ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+:::
+

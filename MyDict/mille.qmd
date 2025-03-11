@@ -1,0 +1,210 @@
+---
+title: "mille"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-105-108-108-101xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>milĭa</b> <br> <small>pl. de mille.</small> <br> <small></small> 
+ <b>mille</b> <br> <small>n. indecl. no sing. pl.: millìa milìa, -ìum</small> <br> <small>Obs.: Foi, primeiro, subs. n.; posteriormente, por influência de decem, centum, etc., mille passou a figurar como adj. indecl., independente do caso do subs. que o acompanha.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Mil, um milhar, milhares: &ensp; <small></small> <br> <b>2</b> &ensp; <small>I-Sent. próprio</small> &ensp; Milha &ensp; <small>medida de comprimento correspondente a mil passos Cíc. At. 3, 4.</small> <br> <b>3</b> &ensp; <small>II-Por extensão:</small> &ensp; Um grande número &ensp; <small>indefinido Verg. En. 4, 701.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>mille passus Cés. B. Gal. 1, 22, 1 “mil passos”; mille passum Cés. B. Gal. 1, 25, 5 “um milhar de passos, mil passos”. </p> 
+ <b>millĭa</b> <b>-ìum</b> <br> <small>pl. de mille.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Mille</b> <br> <small>adj. indecl.</small> <br> <small>Só se usa no plural.</small>   <p> <b>1</b> &ensp; <small>Hor.</small> &ensp; mil. </p>
+
+
+
+
+#### Velez
+
+<b>Mille</b> <br> <small>Adj.</small>   <p> <b>1</b> &ensp; mil <br> <b>2</b> &ensp; <small>Subst. cum gen.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>mille anni <br> <br><b>2</b><br>mille annorum </p>
+
+
+
+
+#### Cardoso
+
+<b>Mille</b> <br> <small>in plurali. adiectiuum.</small>   <p> <b>1</b> &ensp; mil </p> 
+ <b>Mille</b> <br> <small>in singulari substantiuum.</small>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/112335 ' target="_blank"> http://lila-erc.eu/data/id/lemma/112335 </a> <br>
+<small> classe: </small> numeral    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> meile, milli <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+millĕ
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-105-108-108-101xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword mille here are all the values plotted: collocate: passus; scoreSUBST: 5. collocate: circiter; scoreSUBST: 0. collocate: sex; scoreSUBST: 0. collocate: ample; scoreSUBST: 0. collocate: ducenti; scoreSUBST: 0. collocate: triginta; scoreSUBST: 0. collocate: sestertius; scoreSUBST: 0. collocate: quinque; scoreSUBST: 0. collocate: quattuor; scoreSUBST: 0. collocate: duo; scoreSUBST: 0. collocate: tot; scoreSUBST: 0. collocate: numerus; scoreSUBST: 2. collocate: homo; scoreSUBST: 3'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-105-108-108-101xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword mille here are all the values plotted: collocate: passus; scoreADJ: 0. collocate: circiter; scoreADJ: 0. collocate: sex; scoreADJ: 0. collocate: ample; scoreADJ: 0. collocate: ducenti; scoreADJ: 0. collocate: triginta; scoreADJ: 0. collocate: sestertius; scoreADJ: 2. collocate: quinque; scoreADJ: 0. collocate: quattuor; scoreADJ: 0. collocate: duo; scoreADJ: 0. collocate: tot; scoreADJ: 0. collocate: numerus; scoreADJ: 0. collocate: homo; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-105-108-108-101xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword mille here are all the values plotted: collocate: passus; scoreVERBO: 0. collocate: circiter; scoreVERBO: 0. collocate: sex; scoreVERBO: 0. collocate: ample; scoreVERBO: 0. collocate: ducenti; scoreVERBO: 0. collocate: triginta; scoreVERBO: 0. collocate: sestertius; scoreVERBO: 0. collocate: quinque; scoreVERBO: 0. collocate: quattuor; scoreVERBO: 0. collocate: duo; scoreVERBO: 0. collocate: tot; scoreVERBO: 0. collocate: numerus; scoreVERBO: 0. collocate: homo; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-105-108-108-101xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword mille here are all the values plotted: collocate: passus; scoreADV: 0. collocate: circiter; scoreADV: 3. collocate: sex; scoreADV: 0. collocate: ample; scoreADV: 2. collocate: ducenti; scoreADV: 0. collocate: triginta; scoreADV: 0. collocate: sestertius; scoreADV: 0. collocate: quinque; scoreADV: 0. collocate: quattuor; scoreADV: 0. collocate: duo; scoreADV: 0. collocate: tot; scoreADV: 0. collocate: numerus; scoreADV: 0. collocate: homo; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-105-108-108-101xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword mille here are all the values plotted: collocate: passus; scoreFUNC: 0. collocate: circiter; scoreFUNC: 0. collocate: sex; scoreFUNC: 0. collocate: ample; scoreFUNC: 0. collocate: ducenti; scoreFUNC: 0. collocate: triginta; scoreFUNC: 0. collocate: sestertius; scoreFUNC: 0. collocate: quinque; scoreFUNC: 0. collocate: quattuor; scoreFUNC: 0. collocate: duo; scoreFUNC: 0. collocate: tot; scoreFUNC: 0. collocate: numerus; scoreFUNC: 0. collocate: homo; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> scio hs <b>mille</b> <br> <small> Cic.Ver.2.4.37.17 <br> Sei: por mil sestércios. <small> [JDD] </small> </small> </p>
+; <p> erant autem qui manducaverunt quinque <b>milia</b> virorum <br> <small> Vulg.Marc.6.44 <br> Eram, porém, os que comeram cinco mil homens. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> occisis ad hominum <b>milibus</b> quattuor reliqui in oppidum reiecti sunt <br> <small> Caes.Gal.2.33.5 <br> Mortos uns quatro mil homens, os restantes foram rechaçados para a cidadela. <small> [JDD] </small> </small> </p>
+; <p> positis castris a <b>milibus</b> passuum quindecim auxilia Germanorum exspectare constituunt <br> <small> Caes.Gal.6.7.3 <br> Montados seus acampamentos a quinze mil passos, decidem esperar  as tropas auxiliares dos germanos. <small> [JDD] </small> </small> </p>
+; <p> sumptus unius generis obiectus est habitationis triginta <b>milibus</b> dixistis habitare <br> <small> Cic.Cael.17 <br> Gasto de um único tipo lhe foi imputado, o da moradia; dissestes que ele mora por trinta mil. <small> [JDD] </small> </small> </p>
+; <p> locus erat castrorum editus et paulatim ab imo accliuis circiter passus <b>mille</b> <br> <small> Caes.Gal.3.19.1 <br> O local do acampamento era elevado e paulatinamente desde baixo em declive de cerca de mil passos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ab iis qui emerant capitum numerus ad eum relatus est <b>milium</b> quinquaginta trium <br> <small> Caes.Gal.2.33.7 <br> A ele foi relatado por aqueles que compraram o número de cinquenta e três mil cabeças. <small> [JDD] </small> </small> </p>
+; <p> ex eo proelio circiter <b>milia</b> hominum CXXX superfuerunt eaque tota nocte continenter ierunt <br> <small> Caes.Gal.1.26.5 <br> Dessa batalha restaram cerca de 130 mil homens e por toda essa noite eles marcharam sem parar. <small> [JDD] </small> </small> </p>
+; <p> itaque una ex parte ab Suebis circiter <b>milia</b> passuum sescenta agri uacare dicuntur <br> <small> Caes.Gal.4.3.2 <br> E assim se diz que, desde uma parte dos suevos, estão vazios cerca de seiscentos mil passos de campo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> qui ager ut dena iugera sint non amplius homines quinque <b>milia</b> potest sustinere <br> <small> Cic.Att.2.16.1 <br> e este território, se os lotes são de dez jeiras, não pode suportar mais do que cinco mil homens. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> eodem die castra promouit et <b>milibus</b> passuum sex a Caesaris castris sub monte consedit <br> <small> Caes.Gal.1.48.1 <br> Nesse mesmo dia levantou acampamento e o assentou ao pé de uma montanha a seis mil passos do acampamento de César. <small> [JDD] </small> </small> </p>
+; <p> huic denuntiationi ille pareat ille se fluuio Rubicone et CC <b>milibus</b> circumscriptum esse patiatur <br> <small> Cic.Phil.6.5.10 <br> A esta indicação ele obedecerá, ele suportará ficar circunscrito entre o rio Rubicão e as duzentas milhas? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> et magno impetu grex praecipitatus est in mare ad duo <b>milia</b> et suffocati sunt in mare <br> <small> Vulg.Marc.5.13 <br> e com grande ímpeto a manada precipitou-se no mar e, eram cerca de dois mil, afogaram-se no mar. <small> [JDD] </small> </small> </p>
+; <p> introitus in urbem trucidatis tot <b>milibus</b> inermium militum infaustus omine atque ipsis etiam qui occiderant formidolosus <br> <small> Tac.Hist.1.6.7 <br> A entrada na cidade foi de mau agouro por terem sido trucidados muitos milhares de soldados desarmados e que encheu de medo até mesmo nos próprios homens que os tinham matado. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-105-108-108-101xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 26.81 and an absolute frequency of 71. The Vergilius subcorpus follows, with a normalized frequency of 3.86 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 71 ; absolute frequency: 26.8147141022736. subcorpus: Cicero ; normalized frequency: 28 ; absolute frequency: 1.74428745857317. subcorpus: Horatius ; normalized frequency: 6 ; absolute frequency: 5.32812361246781. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 11 ; absolute frequency: 2.05296653664545. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-105-108-108-101xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 17.77 and an absolute frequency of 73. The Poesia.épica subcorpus follows, with a normalized frequency of 3.86 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Prosa.filosófica with the normalized value of 1.15 and an absolute freqeuncy of 7. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 73 ; absolute frequency: 17.7706370651671. subcorpus: Prosa.filosófica ; normalized frequency: 7 ; absolute frequency: 1.15319352234724. subcorpus: Prosa.oratória ; normalized frequency: 23 ; absolute frequency: 2.20828972761226. subcorpus: Prosa.epistolográfica ; normalized frequency: 5 ; absolute frequency: 1.32488937173746. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-105-108-108-101xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 6.74 and an absolute frequency of 3. The I.a.C. subcorpus follows, with a normalized frequency of 5.03 and an absolute frequency of 108. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 2.14 and an absolute freqeuncy of 14. here are all the values: subcorpus: I.a.C. ; normalized frequency: 108 ; absolute frequency: 5.02676285780777. subcorpus: I.d.C. ; normalized frequency: 14 ; absolute frequency: 2.14165519351384. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+:::
+

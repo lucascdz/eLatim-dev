@@ -1,0 +1,213 @@
+---
+title: "lego"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx108-101-103-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>lēgī</b> <br> <small>perf. de legó 2.</small> <br> <small></small> 
+ <small>1.</small> <b>lege</b> <br> <small>imperativo de legó 2.</small> <br> <small></small> 
+ <small>2.</small> <b>legō</b> <b>-is</b> <b>-ère</b> <b>légí, lectum</b> <br> <small>v. tr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Ajuntar, colher &ensp; <small>Cíc. De Or. 2, 265.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Recolher &ensp; <small>sent. físico e moral. Cíc. Leg. 2, 60; Plaut. PS. 414.</small> <br> <b>3</b> &ensp; <small>II-Nas línguas técnicas:</small> &ensp; <small></small> <br> <b>4</b> &ensp; <small>II-Nas línguas técnicas:</small> &ensp; Reunir: &ensp; <small></small> <br> <b>5</b> &ensp; <small>II-Nas línguas técnicas:</small> &ensp; Por litotes: tomar, apoderar-se de, roubar &ensp; <small>Hor. Sát. I 3, 117.</small> <br> <b>6</b> &ensp; <small>II-Nas línguas técnicas:</small> &ensp; Escolher, eleger &ensp; <small>CíC. Phil. 5, 16; T. Lív. 29. 20.' 4.</small> <br> <b>7</b> &ensp; <small>II-Nas línguas técnicas:</small> &ensp; Ler: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>3</b><br>Legere vestigia: «seguir as pegadas» ; saltus, iter, etc.: «percorrer as florestas, o caminho, etc., costear, deslizar» Verg. En. 9. 393; Prop. 3, 22. 12; T. Lív. 21. 51. 7. <br> <br><b>4</b><br>legere vela Verg. G. 1.' 373 «reunir as velas». <br> <br><b>7</b><br>poetas Cíc. Tusc. 3. 3 «ler os poetas». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Lego</b> -<b>is</b> <b>legi</b> -<b>ectum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; ler. <br> <b>2</b> &ensp; colher, recolher. <br> <b>3</b> &ensp; eleger, escolher. <br> <b>4</b> &ensp; <small>Liv.</small> &ensp; passar por junto, costear na navegação. </p>
+
+
+
+
+#### Velez
+
+<b>Lego</b> -<b>is</b>   <p> <b>1</b> &ensp; colher, escolher <br> <b>2</b> &ensp; <small>aliquando pro Praeterire, praeternavigare, vel surripere</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>poma ab, uel ex arbore </p>
+
+
+
+
+#### Cardoso
+
+<b>Lego</b> <b>is</b> <b>gi</b> <b>lectum</b>   <p> <b>1</b> &ensp; lér. colher. nauegar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/110177 ' target="_blank"> http://lila-erc.eu/data/id/lemma/110177 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> lego </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> legere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> leget </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> legi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> lectum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> lecturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+lĕgō 
+ lĕgis 
+ lĕgĕre 
+ lēgī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx108-101-103-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx108-101-103-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword lego here are all the values plotted: collocate: iudex; scoreSUBST: 2. collocate: uir; scoreSUBST: 2. collocate: multus; scoreSUBST: 0. collocate: meus; scoreSUBST: 0. collocate: aut; scoreSUBST: 0. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx108-101-103-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword lego here are all the values plotted: collocate: iudex; scoreADJ: 0. collocate: uir; scoreADJ: 0. collocate: multus; scoreADJ: 0. collocate: meus; scoreADJ: 0. collocate: aut; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx108-101-103-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword lego here are all the values plotted: collocate: iudex; scoreVERBO: 0. collocate: uir; scoreVERBO: 0. collocate: multus; scoreVERBO: 0. collocate: meus; scoreVERBO: 0. collocate: aut; scoreVERBO: 0. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx108-101-103-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword lego here are all the values plotted: collocate: iudex; scoreADV: 0. collocate: uir; scoreADV: 0. collocate: multus; scoreADV: 0. collocate: meus; scoreADV: 0. collocate: aut; scoreADV: 0. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx108-101-103-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword lego here are all the values plotted: collocate: iudex; scoreFUNC: 0. collocate: uir; scoreFUNC: 0. collocate: multus; scoreFUNC: 0. collocate: meus; scoreFUNC: 0. collocate: aut; scoreFUNC: 0. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> malo te <b>legas</b> quam epistulam meam <br> <small> Sen.Ep.24.21 <br> Prefiro que leias a ti do que a minha carta. <small> [JDD] </small> </small> </p>
+; <p> Quem si <b>leges</b> , laetabor ; <br> <small> Phaed.3.pr <br> Se o leres, me alegrarei. <small> [JDD] </small> </small> </p>
+; <p> quid est quare et audiam quod <b>legere</b> possum <br> <small> Sen.Ep.33.9 <br> Por que motivo também ouvirei o que eu posso ler? <small> [JDD] </small> </small> </p>
+; <p> hoc ipse quoque facio ex pluribus quae <b>legi</b> aliquid adprehendo <br> <small> Sen.Ep.2.5 <br> Eu próprio também faço isso; das muitas coisas que tenho lido, apreendo alguma. <small> [JDD] </small> </small> </p>
+; <p> itaque ἀνέκδοτα quae tibi uni <b>legamus</b> Theopompio genere aut etiam asperiore multo pangentur <br> <small> Cic.Att.2.6.2 <br> E assim serão compostas por mim história inéditas para ler somente para ti, no estilo de Teopômpio ou ainda muito mais áspero. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quaesivit ex eo placeret ne ei iudices a praetore <b>legi</b> quo consilio idem praetor uteretur <br> <small> Cic.Att.1.14.1 <br> Quis saber dele se lhe agradava que fossem eleitos pelo pretor os juízes de cujo conselho o mesmo pretor se utilizaria. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> neque enim hoc cogitauit uir iustissimus neque in bonis uiris <b>legendis</b> id adsequi potuisset etiam si cupisset <br> <small> Cic.Mil.21 <br> Pois esse homem extremamente justo não pensou nisso, nem teria podido conseguir isso ao escolher homens de bem, mesmo se tivesse desejado. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx108-101-103-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 12.15 and an absolute frequency of 8. The Horatius subcorpus follows, with a normalized frequency of 7.99 and an absolute frequency of 9. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 57 ; absolute frequency: 3.55087089780967. subcorpus: Horatius ; normalized frequency: 9 ; absolute frequency: 7.99218541870171. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 8 ; absolute frequency: 12.1451343555488. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 18 ; absolute frequency: 3.35939978723801. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx108-101-103-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 7.57 and an absolute frequency of 9. The Poesia.lírica subcorpus follows, with a normalized frequency of 7.57 and an absolute frequency of 9. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 0.73 and an absolute freqeuncy of 3. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 3 ; absolute frequency: 0.730300153363032. subcorpus: Prosa.filosófica ; normalized frequency: 27 ; absolute frequency: 4.44803215762508. subcorpus: Prosa.oratória ; normalized frequency: 23 ; absolute frequency: 2.20828972761226. subcorpus: Prosa.epistolográfica ; normalized frequency: 23 ; absolute frequency: 6.09449110999232. subcorpus: Poesia.lírica ; normalized frequency: 9 ; absolute frequency: 7.57129637419029. subcorpus: Poesia.didática ; normalized frequency: 8 ; absolute frequency: 6.78598693697515. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx108-101-103-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The I.d.C. subcorpus follows, with a normalized frequency of 3.98 and an absolute frequency of 26. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 69 ; absolute frequency: 3.21154293693274. subcorpus: I.d.C. ; normalized frequency: 26 ; absolute frequency: 3.97735964509714. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

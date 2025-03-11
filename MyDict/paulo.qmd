@@ -1,0 +1,199 @@
+---
+title: "paulo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-97-117-108-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+no data
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+no data
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/hypolemma/113561 ' target="_blank"> http://lila-erc.eu/data/id/hypolemma/113561 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-97-117-108-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword paulo here are all the values plotted: collocate: ante2; scoreSUBST: 0. collocate: post2; scoreSUBST: 0. collocate: ante; scoreSUBST: 0. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-97-117-108-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword paulo here are all the values plotted: collocate: ante2; scoreADJ: 0. collocate: post2; scoreADJ: 0. collocate: ante; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-97-117-108-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword paulo here are all the values plotted: collocate: ante2; scoreVERBO: 0. collocate: post2; scoreVERBO: 0. collocate: ante; scoreVERBO: 0. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-97-117-108-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword paulo here are all the values plotted: collocate: ante2; scoreADV: 5. collocate: post2; scoreADV: 3. collocate: ante; scoreADV: 0. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-97-117-108-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword paulo here are all the values plotted: collocate: ante2; scoreFUNC: 0. collocate: post2; scoreFUNC: 0. collocate: ante; scoreFUNC: 20. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> uenisti <b>paulo</b> ante in senatum <br> <small> Cic.Catil.1.16.7 <br> Chegaste um pouco antes ao senado. <small> [JDD] </small> </small> </p>
+; <p> dederam aliam <b>paulo</b> ante a Tribus Tabernis <br> <small> Cic.Att.2.10.1 <br> Eu tinha entregue outra um pouco antes de Três Tavernas. <small> [JDD] </small> </small> </p>
+; <p> itaque quod <b>paulo</b> ante feci in senatu faciam apud uos <br> <small> Cic.Phil.6.5.1 <br> E assim o que eu fiz um pouco antes no senado, farei diante de vós. <small> [JDD] </small> </small> </p>
+; <p> ceterae quas <b>paulo</b> ante commemorare coeperam quantae atque quam multae sunt <br> <small> Cic.Man.36 <br> E as outras qualidades que eu tinha começado a relembrar um pouco antes, quão grandes e quão numerosas são! <small> [JDD] </small> </small> </p>
+; <p> post <b>paulo</b> Catilina pecuniarum repetundarum reus prohibitus erat consulatum petere quod intra legitimos dies profiteri nequiuerat <br> <small> Sal.Cat.18.3 <br> Pouco depois, Catilina, réu de concussão, tinha sido proibido de pleitear o consulado, porque não conseguiu fazer a declaração dentro do prazo legal. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ceteri nihil suspicantes dant Cassius semet eo breui uenturum pollicetur ac <b>paulo</b> ante legatos ex urbe proficiscitur <br> <small> Sal.Cat.44.2 <br> Os outros, não suspeitando de nada, dão, Cássio promete ir logo ele próprio lá e pouco antes dos legados vai embora da cidade. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-97-117-108-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 12.06 and an absolute frequency of 13. The Seneca subcorpus follows, with a normalized frequency of 0.37 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 13 ; absolute frequency: 4.90973638492333. subcorpus: Cicero ; normalized frequency: 46 ; absolute frequency: 2.86561511051307. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 13 ; absolute frequency: 12.0582506261015. subcorpus: Seneca ; normalized frequency: 2 ; absolute frequency: 0.373266643026446. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-97-117-108-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 6.57 and an absolute frequency of 27. The Prosa.filosófica subcorpus follows, with a normalized frequency of 0.66 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 27 ; absolute frequency: 6.57270138026729. subcorpus: Prosa.filosófica ; normalized frequency: 4 ; absolute frequency: 0.658967727055567. subcorpus: Prosa.oratória ; normalized frequency: 36 ; absolute frequency: 3.45645348669745. subcorpus: Prosa.epistolográfica ; normalized frequency: 8 ; absolute frequency: 2.11982299477994. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-97-117-108-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 3.54 and an absolute frequency of 76. The I.d.C. subcorpus follows, with a normalized frequency of 0.31 and an absolute frequency of 2. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 76 ; absolute frequency: 3.53735164067954. subcorpus: I.d.C. ; normalized frequency: 2 ; absolute frequency: 0.305950741930549. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,208 @@
+---
+title: "copia"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-111-112-105-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>cōpĭa</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Abundância &ensp; <small>Cíc. Pomp. 27.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Abundância de bens, recursos, meios de viver, riqueza &ensp; <small>Cíc. Cat. 2, 25.</small> <br> <b>3</b> &ensp; <small>I-Daí</small> &ensp; Abundância oratória, riqueza &ensp; <small>de estilo Cíc. Br. 216.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Recursos &ensp; <small>intelectuais e morais Cíc. At. 7, 21, 1.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Faculdade, poder, ocasião, possibilidade &ensp; <small>de obter, de fazer alguma coisa T. Lív. 22, 13, 4.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Situação &ensp; <small>Sal. B, .Jug. 76.</small> <br> <b>7</b> &ensp; <small>III-geralmente no plural: copìae, -árum, língua militar;</small> &ensp; Recursos em homens, tropas, forças militares &ensp; <small>Cés. B. Gal. 5, 47, 5.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Copia</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; cópia, abundancia de qualquer cousa. <br> <b>2</b> &ensp; viveres, provisão de mantimento. <br> <b>3</b> &ensp; exercito, multidão. <br> <b>4</b> &ensp; <small>Virg.</small> &ensp; licença, liberdade, poder. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>ex copia rerum consilium trahere &ensp; <small><small>Cic</small></small> &ensp; <small>Resolver sobre o que se ha de fazer, segundo as circumstancias</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Copia</b> -<b>ae</b>   <p> <b>1</b> &ensp; a licença. ou abastança </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/96517 ' target="_blank"> http://lila-erc.eu/data/id/lemma/96517 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+cōpĭa 
+ cōpĭae
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-111-112-105-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-111-112-105-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword copia here are all the values plotted: collocate: hostis; scoreSUBST: 3. collocate: suus; scoreSUBST: 0. collocate: fundo; scoreSUBST: 0. collocate: traduco; scoreSUBST: 0. collocate: Ariouistus; scoreSUBST: 0. collocate: omnis; scoreSUBST: 0. collocate: magnus; scoreSUBST: 0. collocate: cogo; scoreSUBST: 0. collocate: reliquus; scoreSUBST: 0. collocate: genus; scoreSUBST: 2. collocate: que; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-111-112-105-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword copia here are all the values plotted: collocate: hostis; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: fundo; scoreADJ: 0. collocate: traduco; scoreADJ: 0. collocate: Ariouistus; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: magnus; scoreADJ: 3. collocate: cogo; scoreADJ: 0. collocate: reliquus; scoreADJ: 0. collocate: genus; scoreADJ: 0. collocate: que; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-111-112-105-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword copia here are all the values plotted: collocate: hostis; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: fundo; scoreVERBO: 2. collocate: traduco; scoreVERBO: 2. collocate: Ariouistus; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0. collocate: magnus; scoreVERBO: 0. collocate: cogo; scoreVERBO: 2. collocate: reliquus; scoreVERBO: 0. collocate: genus; scoreVERBO: 0. collocate: que; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-111-112-105-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword copia here are all the values plotted: collocate: hostis; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: fundo; scoreADV: 0. collocate: traduco; scoreADV: 0. collocate: Ariouistus; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: cogo; scoreADV: 0. collocate: reliquus; scoreADV: 0. collocate: genus; scoreADV: 0. collocate: que; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-111-112-105-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword copia here are all the values plotted: collocate: hostis; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: fundo; scoreFUNC: 0. collocate: traduco; scoreFUNC: 0. collocate: Ariouistus; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0. collocate: cogo; scoreFUNC: 0. collocate: reliquus; scoreFUNC: 0. collocate: genus; scoreFUNC: 0. collocate: que; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Caesar equitatu praemisso subsequebatur omnibus <b>copiis</b> <br> <small> Caes.Gal.2.19.1 <br> César, enviada na frente a cavalaria, a seguia com todas as tropas. <small> [JDD] </small> </small> </p>
+; <p> hostes item suas <b>copias</b> ex castris eductas instruxerant <br> <small> Caes.Gal.2.8.5 <br> Os inimigos também ordenaram suas tropas, depois de tirá-las do acampamento. <small> [JDD] </small> </small> </p>
+; <p> Caesar suas <b>copias</b> in proximum collem subducit aciem instruit <br> <small> Caes.Gal.1.22.3 <br> César recolhe suas tropas na colina mais próxima, forma uma linha. <small> [JDD] </small> </small> </p>
+; <p> ipse triduo intermisso cum omnibus <b>copiis</b> eos sequi coepit <br> <small> Caes.Gal.1.26.6 <br> Ele, passados os três dias, pôs-se a segui-los com todas as suas tropas. <small> [JDD] </small> </small> </p>
+; <p> sed in magna <b>copia</b> rerum aliud alii natura iter ostendit <br> <small> Sal.Cat.3.1 <br> Mas em meio a uma grande abundância de coisas a natureza mostra um caminho para um e outro para outro. <small> [JDD] </small> </small> </p>
+; <p> sed cum eius generis <b>copia</b> deficit etiam ad innocentium supplicia descendunt <br> <small> Caes.Gal.6.16.5 <br> mas quando falta abundâcia desse tipo, descem até mesmo para os suplícios dos inocentes. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> tum demum Ariouistus partem suarum <b>copiarum</b> quae castra minora oppugnaret misit <br> <small> Caes.Gal.1.50.2 <br> Então finalmente Ariovisto enviou uma parte de suas tropas, para que atacasse o acampamento menor. <small> [JDD] </small> </small> </p>
+; <p> sic omnibus hostium <b>copiis</b> fusis armisque exutis se intra munitiones suas recipiunt <br> <small> Caes.Gal.3.6.3 <br> Assim, dispersas todas as tropas dos inimigos e abandonadas suas armas, [os nossos] se recolhem ao acampamento e suas fortificações. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> fructus autem senectutis est ut saepe dixi ante partorum bonorum memoria et <b>copia</b> <br> <small> Cic.Sen.71 <br> O fruto da velhice, porém, como eu disse muitas vezes, é a lembrança e a abundância dos bens adquiridos antes. <small> [JDD] </small> </small> </p>
+; <p> instruite nunc Quirites contra has tam praeclaras Catilinae <b>copias</b> uestra praesidia uestrosque exercitus <br> <small> Cic.Catil.2.24.3 <br> Preparai agora, Quirites, contra estas tão ilustres tropas de Catilina, as vossas guarnições e os vossos exércitos. <small> [JDD] </small> </small> </p>
+; <p> hoc proelio facto reliquas <b>copias</b> Heluetiorum ut consequi posset pontem in Arari faciendum curat atque ita exercitum traducit <br> <small> Caes.Gal.1.13.1 <br> Terminado este combate, para que pudesse alcançar as tropas restantes dos helvécios, manda fazer uma ponte no Arar e assim conduz o exército para o outro lado. <small> [JDD] </small> </small> </p>
+; <p> dum haec a Caesare geruntur Treueri magnis coactis peditatus equitatusque <b>copiis</b> Labienum cum una legione quae in eorum finibus hiemarat adoriri parabant <br> <small> Caes.Gal.6.7.1 <br> Enquanto essas operações são efetuadas por César, os tréveros, depois de reunidas grandes tropas de infantaria e de cavalaria, se preparavam para atacar Labieno, com uma única legião, que passavam o inverno em suas fronteiras. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-111-112-105-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 28.7 and an absolute frequency of 76. The Phaedrus subcorpus follows, with a normalized frequency of 1.52 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 76 ; absolute frequency: 28.703074250321. subcorpus: Cicero ; normalized frequency: 78 ; absolute frequency: 4.85908649173955. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 20 ; absolute frequency: 18.5511548093869. subcorpus: Seneca ; normalized frequency: 5 ; absolute frequency: 0.933166607566115. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-111-112-105-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 23.61 and an absolute frequency of 97. The Prosa.filosófica subcorpus follows, with a normalized frequency of 2.14 and an absolute frequency of 13. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 97 ; absolute frequency: 23.6130382920714. subcorpus: Prosa.filosófica ; normalized frequency: 13 ; absolute frequency: 2.14164511293059. subcorpus: Prosa.oratória ; normalized frequency: 61 ; absolute frequency: 5.85676840801513. subcorpus: Prosa.epistolográfica ; normalized frequency: 9 ; absolute frequency: 2.38480086912743. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-111-112-105-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 8.24 and an absolute frequency of 177. The I.d.C. subcorpus follows, with a normalized frequency of 0.92 and an absolute frequency of 6. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 177 ; absolute frequency: 8.23830579474052. subcorpus: I.d.C. ; normalized frequency: 6 ; absolute frequency: 0.917852225791647. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

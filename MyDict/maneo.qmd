@@ -1,0 +1,211 @@
+---
+title: "maneo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-97-110-101-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>manĕō</b> <b>-és</b> <b>-ére</b> <b>mansí, mansum.</b> <br> <small>v. intr. e tr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>A-Intr.-Sent. próprio:</small> &ensp; Ficar, permanecer &ensp; <small>Cés. B. Gal. 4. 1, 1.</small> <br> <b>2</b> &ensp; <small>A-Intr.-Daí:</small> &ensp; Morar, residir &ensp; <small>Cíc. AI. 4, 18, 3.</small> <br> <b>3</b> &ensp; <small>A-Intr.-Sent. figurado:</small> &ensp; Persistir, perseverar, durar &ensp; <small>Cíc. At. 9. 2, 1.</small> <br> <b>4</b> &ensp; <small>A-Intr.-Sent. figurado:</small> &ensp; Ficar demonstrado &ensp; <small>Cíc. Mil. 11.</small> <br> <b>5</b> &ensp; <small>B-Tr.</small> &ensp; Esperar &ensp; <small>T. Lív. 42, 66, 3.</small> <br> <b>6</b> &ensp; <small>B-Tr.</small> &ensp; Estar reservado a &ensp; <small>Verg. En. 7. 596.</small> </p> 
+ <b>mansī</b> <br> <small>perf. de manèo.</small> <br> <small></small> 
+ <small>3.</small> <b>mānē</b> <br> <small>imperat. de manèo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Maneo</b> -<b>es</b> -<b>ansi</b> -<b>ansum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; permanecer, ficar, persistir. <br> <b>2</b> &ensp; pernoitar, passar a noite fóra. <br> <b>3</b> &ensp; <small>Plaut.</small> &ensp; esperar. <br> <b>4</b> &ensp; <small>Virg.</small> &ensp; ameaçar, estar para succeder. </p>
+
+
+
+
+#### Velez
+
+<b>Maneo</b> -<b>es</b> <br> <small>1. b.</small>   <p> <b>1</b> &ensp; ficar, persistir, durar <br> <b>2</b> &ensp; esperar, ou estar para vir &ensp; <small>accus. rarò dativ.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>donec mihi uita manebit <br> <br><b>2</b><br>poena, uel periculum te manet <br> <br><b>X</b><br>manere promissis &ensp; <small>estar pelo promettido</small> </p> 
+ <b>verum</b>
+
+
+
+
+#### Cardoso
+
+<b>Maneo</b> -<b>es</b> <b>mansi</b> <b>mansum</b>   <p> <b>1</b> &ensp; ficar. ou esperar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/111485 ' target="_blank"> http://lila-erc.eu/data/id/lemma/111485 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> maneo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> manere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> manebit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> mansi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> mansum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> mansurum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+mănĕō 
+ mănēs 
+ mănēre 
+ mansī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx109-97-110-101-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-97-110-101-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword maneo here are all the values plotted: collocate: domus2; scoreSUBST: 2. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-97-110-101-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword maneo here are all the values plotted: collocate: domus2; scoreADJ: 0. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-97-110-101-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword maneo here are all the values plotted: collocate: domus2; scoreVERBO: 0. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-97-110-101-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword maneo here are all the values plotted: collocate: domus2; scoreADV: 0. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-97-110-101-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword maneo here are all the values plotted: collocate: domus2; scoreFUNC: 0. collocate: in; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> itaque in urbe <b>maneo</b> si licebit <b>manebo</b> <br> <small> Cic.Phil.12.24.4 <br> E assim permaneço na cidade; se me for permitido, permanecerei. <small> [JDD] </small> </small> </p>
+; <p> ut in Arcano Quintus <b>maneret</b> dies fecit <br> <small> Cic.Att.5.1.3 <br> A data fez que Quinto permanecesse em sua chácara em Arcas. <small> [JDD] </small> </small> </p>
+; <p> reliqui qui domi <b>manserunt</b> se atque illos alunt <br> <small> Caes.Gal.4.1.4 <br> Os demais, os que ficaram em casa, sustentam a si e àqueles. <small> [JDD] </small> </small> </p>
+; <p> quocumque introieritis in domum illic <b>manete</b> donec exeatis inde <br> <small> Vulg.Marc.6.10 <br> Em qualquer casa que tiverdes entrado, permanecei ali até partirdes dali. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-97-110-101-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 13.73 and an absolute frequency of 4. The Ovidius subcorpus follows, with a normalized frequency of 12.01 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 3 ; absolute frequency: 1.13301608882846. subcorpus: Cicero ; normalized frequency: 44 ; absolute frequency: 2.74102314918641. subcorpus: Horatius ; normalized frequency: 6 ; absolute frequency: 5.32812361246781. subcorpus: Ovidius ; normalized frequency: 7 ; absolute frequency: 12.0109814687714. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 19 ; absolute frequency: 3.54603310875124. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 4 ; absolute frequency: 13.7315482320632. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-97-110-101-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.didática subcorpus registers the highest normalized frequency, with the value of 5.94 and an absolute frequency of 7. The Poesia.trágica subcorpus follows, with a normalized frequency of 4.34 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 1.7 and an absolute freqeuncy of 7. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 7 ; absolute frequency: 1.70403369118041. subcorpus: Prosa.filosófica ; normalized frequency: 19 ; absolute frequency: 3.13009670351395. subcorpus: Prosa.oratória ; normalized frequency: 26 ; absolute frequency: 2.49632751817038. subcorpus: Prosa.epistolográfica ; normalized frequency: 13 ; absolute frequency: 3.4447123665174. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 7 ; absolute frequency: 5.93773856985325. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-97-110-101-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 10.47 and an absolute frequency of 4. The II.d.C. subcorpus follows, with a normalized frequency of 10.47 and an absolute frequency of 4. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 2.61 and an absolute freqeuncy of 56. here are all the values: subcorpus: I.a.C. ; normalized frequency: 56 ; absolute frequency: 2.6064696299744. subcorpus: I.d.C. ; normalized frequency: 26 ; absolute frequency: 3.97735964509714. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

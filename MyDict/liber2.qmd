@@ -1,0 +1,203 @@
+---
+title: "liber2"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx108-105-98-101-114-50xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>2.</small> <b>līber</b> <b>-brí</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. primitivo</small> &ensp; Líber entrecasca sobre a qual se escrevia, antes da descoberta do papiro, casca &ensp; <small>Cíc. Nal. 2, 120.</small> <br> <b>2</b> &ensp; <small>I-Daí em geral</small> &ensp; Livro, escrito, tratado, obra &ensp; <small>Cíc. Fat. 1:</small> <br> <b>3</b> &ensp; <small>II-Em sent. particular:</small> &ensp; Livro divisão de uma obra, peça teatral, comédia &ensp; <small>Cíc. Div. 2, 3.</small> <br> <b>4</b> &ensp; <small>II-No pl.:</small> &ensp; Os livros sibilinos, livros dos augúrios: &ensp; <small></small> <br> <b>5</b> &ensp; <small>II-No pl.:</small> &ensp; Coleção, compilação: &ensp; <small></small> <br> <b>6</b> &ensp; <small>III-Toda espécie de documento escrito:</small> &ensp; Carta &ensp; <small>C. Nep. Lis. 4. 2.</small> <br> <b>7</b> &ensp; <small>III-Toda espécie de documento escrito:</small> &ensp; Decreto &ensp; <small>Plín. Ep. 5. 14. 8.</small> <br> <b>8</b> &ensp; <small>III-Toda espécie de documento escrito:</small> &ensp; Manuscrito &ensp; <small>Plín. Ep. 2. 1. 5.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>4</b><br>libros adire T. Lív. 21. 62, 6 “consultar os livros sibilinos”. <br> <br><b>5</b><br>litterarum Cíc. Verr. 3. 167 “coleção de cartas”. </p> 
+ <small>4.</small> <b>līber</b> <b>-èrí</b> <br> <small>subs. m.</small> <br> <small>v. libèri.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Filho &ensp; <small></small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Liber</b> -<b>bri</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Virg.</small> &ensp; entrecasca das arvores. <br> <b>2</b> &ensp; <small>Cic.</small> &ensp; livro, volume. <br> <b>3</b> &ensp; livro, parte da Obra, que se divide em livros. </p> 
+ <b>Liber</b> -<b>eri</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Hor.</small> &ensp; vinho. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Liber</b> -<b>eri</b>   <p> <b>1</b> &ensp; ho deos Bacco </p> 
+ <b>Liber</b> <b>i</b>   <p> <b>1</b> &ensp; ho liuro. ou a cortiça </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/110382 ' target="_blank"> http://lila-erc.eu/data/id/lemma/110382 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+lĭbĕr 
+ lĭbrī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx108-105-98-101-114-50xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx108-105-98-101-114-50xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword liber2 here are all the values plotted: collocate: is; scoreSUBST: 0. collocate: ad; scoreSUBST: 0. collocate: hic; scoreSUBST: 0. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx108-105-98-101-114-50xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword liber2 here are all the values plotted: collocate: is; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx108-105-98-101-114-50xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword liber2 here are all the values plotted: collocate: is; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: hic; scoreVERBO: 0. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx108-105-98-101-114-50xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword liber2 here are all the values plotted: collocate: is; scoreADV: 0. collocate: ad; scoreADV: 0. collocate: hic; scoreADV: 0. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx108-105-98-101-114-50xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword liber2 here are all the values plotted: collocate: is; scoreFUNC: 0. collocate: ad; scoreFUNC: 20. collocate: hic; scoreFUNC: 0. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> eum <b>librum</b> Lucio Cossinio dedi <br> <small> Cic.Att.1.20.6 <br> Esse livro eu entreguei a Lúcio Cossínio. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> de quibus est nobis his <b>libris</b> explicandum <br> <small> Cic.Off.1.7 <br> é sobre esses que nós devemos desenvolver nestes livros. <small> [JDD] </small> </small> </p>
+; <p> sed modo inquis hunc <b>librum</b> euoluere uolo modo illum <br> <small> Sen.Ep.2.4 <br> “Mas”, dizes, “eu quero folhear ora este livro, ora aquele.” <small> [JDD] </small> </small> </p>
+; <p> multas ad res perutiles Xenophontis <b>libri</b> sunt quos legite quaeso studiose ut facitis <br> <small> Cic.Sen.59 <br> Para muitas coisas são muito úteis os livros de Xenofontes; lede-os, peço-vos, com empenho, como fazeis. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx108-105-98-101-114-50xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 11.03 and an absolute frequency of 1. The Phaedrus subcorpus follows, with a normalized frequency of 4.55 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 48 ; absolute frequency: 2.99020707183973. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 9 ; absolute frequency: 1.67969989361901. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx108-105-98-101-114-50xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 7.95 and an absolute frequency of 30. The Prosa.filosófica subcorpus follows, with a normalized frequency of 3.62 and an absolute frequency of 22. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 2 ; absolute frequency: 0.486866768908688. subcorpus: Prosa.filosófica ; normalized frequency: 22 ; absolute frequency: 3.62432249880562. subcorpus: Prosa.oratória ; normalized frequency: 5 ; absolute frequency: 0.480062984263535. subcorpus: Prosa.epistolográfica ; normalized frequency: 30 ; absolute frequency: 7.94933623042476. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx108-105-98-101-114-50xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 2.62 and an absolute frequency of 1. The I.a.C. subcorpus follows, with a normalized frequency of 2.37 and an absolute frequency of 51. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 51 ; absolute frequency: 2.37374912729811. subcorpus: I.d.C. ; normalized frequency: 13 ; absolute frequency: 1.98867982254857. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

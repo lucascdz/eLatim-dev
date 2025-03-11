@@ -1,0 +1,207 @@
+---
+title: "queror"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx113-117-101-114-111-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>queror</b> <b>-èris</b> <b>querí, questus sum</b> <br> <small>v. dep. tr.</small> <br> <small>Obs.: Constrói-se com acus. acompanhado ou não da preposição apud; com abl. acompanhado das preps. de ou cum: com or. inf. ou quod: e com dativo.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Soltar gritos de lamentação &ensp; <small>tratando-se de pessoas ou de animais Ov. Am. 3, 1, 4.</small> <br> <b>2</b> &ensp; <small>I-Daí, por generalização</small> &ensp; Lastimar-se. queixar-se, deplorar, gemer, suspirar &ensp; <small>Cés. B. Gal. 1, 39, 4; Cíc. At. 9, 14, 2.</small> <br> <b>3</b> &ensp; <small>II-Na língua jurídica:</small> &ensp; Queixar-se judicialmente, perante a Justiça &ensp; <small>Plín. Ep.3, 4, 2.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Queror</b> -<b>eris</b> <b>questus sum</b> <b>queri</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; queixar-se. </p>
+
+
+
+
+#### Velez
+
+<b>Queror</b> -<b>eris</b>   <p> <b>1</b> &ensp; chorar, queixar-se &ensp; <small>accus. vel abl. cum de, | interdum utrumque, | a pessoa, a quem nos queixamos, em dat. ou abl. com cum ou accus. com apud.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>multa de me questus est <br> queror iniuriam, uel de iniuria </p>
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/121157 ' target="_blank"> http://lila-erc.eu/data/id/lemma/121157 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação depoente (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> queror </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz passiva </small><br>
+; <b> queri </b>&emsp;<small> presente | infinitivo | passivo </small><br>
+; <b> queretur </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz passiva </small><br>
+; <b> questum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> questurum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+quĕror 
+ quĕrĕris 
+ quĕrī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx113-117-101-114-111-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx113-117-101-114-111-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword queror here are all the values plotted: collocate: de; scoreSUBST: 0. collocate: quod; scoreSUBST: 0. collocate: qua; scoreSUBST: 0. collocate: aut; scoreSUBST: 0. collocate: possum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx113-117-101-114-111-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword queror here are all the values plotted: collocate: de; scoreADJ: 0. collocate: quod; scoreADJ: 0. collocate: qua; scoreADJ: 0. collocate: aut; scoreADJ: 0. collocate: possum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx113-117-101-114-111-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword queror here are all the values plotted: collocate: de; scoreVERBO: 0. collocate: quod; scoreVERBO: 0. collocate: qua; scoreVERBO: 0. collocate: aut; scoreVERBO: 0. collocate: possum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx113-117-101-114-111-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword queror here are all the values plotted: collocate: de; scoreADV: 0. collocate: quod; scoreADV: 0. collocate: qua; scoreADV: 2. collocate: aut; scoreADV: 0. collocate: possum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx113-117-101-114-111-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword queror here are all the values plotted: collocate: de; scoreFUNC: 20. collocate: quod; scoreFUNC: 20. collocate: qua; scoreFUNC: 0. collocate: aut; scoreFUNC: 0. collocate: possum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> noli inquam de uno pede sororis <b>queri</b> <br> <small> Cic.Att.2.1.5 <br> “Não te queixes desse único pé de tua irmã”, digo eu. <small> [JDD] </small> </small> </p>
+; <p> multo etiam grauius quod sit destitutus <b>queritur</b> <br> <small> Caes.Gal.1.16.6 <br> Queixa-se ainda com mais amargor de ter sido abandonado. <small> [JDD] </small> </small> </p>
+; <p> quid iam de isto plura dicam aut <b>querar</b> <br> <small> Cic.Ver.2.4.97.8 <br> Por que eu vou dizer ou me queixar mais acerca disto? <small> [JDD] </small> </small> </p>
+; <p> Fonteium Capitonem occisum etiam qui <b>queri</b> non poterant tamen indignabantur <br> <small> Tac.Hist.1.8.13 <br> Mesmo aqueles que não podiam se queixar de ter sido executado Fonteio Capitão estavam, contudo, indignados. <small> [JDD] </small> </small> </p>
+; <p> Qui possum , quaeso , facere , quod <b>quereris</b> , lupe ? <br> <small> Phaed.1.1 <br> “Como posso, pergunto, fazer isso de que te queixas, lobo? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx113-117-101-114-111-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Ovidius subcorpus registers the highest normalized frequency, with the value of 5.15 and an absolute frequency of 3. The Phaedrus subcorpus follows, with a normalized frequency of 3.04 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 8 ; absolute frequency: 3.0213762368759. subcorpus: Cicero ; normalized frequency: 40 ; absolute frequency: 2.4918392265331. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 5 ; absolute frequency: 4.63778870234672. subcorpus: Seneca ; normalized frequency: 16 ; absolute frequency: 2.98613314421157. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx113-117-101-114-111-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.didática subcorpus registers the highest normalized frequency, with the value of 4.24 and an absolute frequency of 5. The Prosa.histórica subcorpus follows, with a normalized frequency of 3.41 and an absolute frequency of 14. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 14 ; absolute frequency: 3.40806738236082. subcorpus: Prosa.filosófica ; normalized frequency: 18 ; absolute frequency: 2.96535477175005. subcorpus: Prosa.oratória ; normalized frequency: 27 ; absolute frequency: 2.59234011502309. subcorpus: Prosa.epistolográfica ; normalized frequency: 11 ; absolute frequency: 2.91475661782241. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx113-117-101-114-111-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 3.21 and an absolute frequency of 21. The I.a.C. subcorpus follows, with a normalized frequency of 2.65 and an absolute frequency of 57. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 57 ; absolute frequency: 2.65301373050966. subcorpus: I.d.C. ; normalized frequency: 21 ; absolute frequency: 3.21248279027077. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

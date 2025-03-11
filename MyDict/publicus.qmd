@@ -1,0 +1,226 @@
+---
+title: "publicus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-117-98-108-105-99-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>pūblĭcus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Relativo ao povo, ao Estado, público em oposição a privatus, oficial, à custa do Estado &ensp; <small>Cíc. Agr. 1, 2.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; De todos, que é propriedade pública ou de uso público, geral, comum a todos &ensp; <small>Cíc. Verr. 2, 66; Hor. Ep. 2. 1. 92.</small> <br> <b>3</b> &ensp; <small>III-Sent. poético:</small> &ensp; Ordinário, banal, trivial &ensp; <small>Ov. P. 4, 13, 4.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Poplicus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; <small>* Plaut.</small> &ensp; publico. </p> 
+ <b>Publicus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; publico, vulgar, do publico, commum, do povo. <br> <b>2</b> &ensp; <small>Ovid.</small> &ensp; ordinario, de pouco valor, ou artificio. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>publica fides &ensp; <small><small>Sall</small></small> &ensp; <small>Passaporte, salvoconduto</small> <br> publica uerba &ensp; <small><small>Ovid</small></small> &ensp; <small>Cumprimentos, palavras de ceremonia</small> <br> publicum omnium est &ensp; <small><small>Plin</small></small> &ensp; <small>He commum a todos</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Publicus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa pubrica comum a todos </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/120358 ' target="_blank"> http://lila-erc.eu/data/id/lemma/120358 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> poblicus, poplicus, puplicus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+pūblĭcus 
+ pūblĭca 
+ pūblĭcum
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-117-98-108-105-99-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword publicus here are all the values plotted: collocate: res; scoreSUBST: 5. collocate: salus; scoreSUBST: 2. collocate: priuatus; scoreSUBST: 0. collocate: consilium; scoreSUBST: 2. collocate: praesidium; scoreSUBST: 2. collocate: libero; scoreSUBST: 0. collocate: meritum; scoreSUBST: 2. collocate: defendo; scoreSUBST: 0. collocate: pestis; scoreSUBST: 2. collocate: sapiens; scoreSUBST: 2. collocate: periculum; scoreSUBST: 2. collocate: conseruo; scoreSUBST: 0. collocate: tempus; scoreSUBST: 1. collocate: pecunia; scoreSUBST: 2. collocate: dignitas; scoreSUBST: 2. collocate: fides; scoreSUBST: 2. collocate: iudico; scoreSUBST: 0. collocate: recipero; scoreSUBST: 0. collocate: consulo; scoreSUBST: 0. collocate: opprimo; scoreSUBST: 0. collocate: cogito; scoreSUBST: 0. collocate: sentio; scoreSUBST: 0. collocate: detrimentum; scoreSUBST: 2. collocate: mereor; scoreSUBST: 0. collocate: firmus; scoreSUBST: 0. collocate: saluus; scoreSUBST: 0. collocate: paene; scoreSUBST: 0. collocate: uersor; scoreSUBST: 0. collocate: postulo; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-117-98-108-105-99-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword publicus here are all the values plotted: collocate: res; scoreADJ: 0. collocate: salus; scoreADJ: 0. collocate: priuatus; scoreADJ: 2. collocate: consilium; scoreADJ: 0. collocate: praesidium; scoreADJ: 0. collocate: libero; scoreADJ: 0. collocate: meritum; scoreADJ: 0. collocate: defendo; scoreADJ: 0. collocate: pestis; scoreADJ: 0. collocate: sapiens; scoreADJ: 0. collocate: periculum; scoreADJ: 0. collocate: conseruo; scoreADJ: 0. collocate: tempus; scoreADJ: 0. collocate: pecunia; scoreADJ: 0. collocate: dignitas; scoreADJ: 0. collocate: fides; scoreADJ: 0. collocate: iudico; scoreADJ: 0. collocate: recipero; scoreADJ: 0. collocate: consulo; scoreADJ: 0. collocate: opprimo; scoreADJ: 0. collocate: cogito; scoreADJ: 0. collocate: sentio; scoreADJ: 0. collocate: detrimentum; scoreADJ: 0. collocate: mereor; scoreADJ: 0. collocate: firmus; scoreADJ: 2. collocate: saluus; scoreADJ: 2. collocate: paene; scoreADJ: 0. collocate: uersor; scoreADJ: 0. collocate: postulo; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-117-98-108-105-99-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword publicus here are all the values plotted: collocate: res; scoreVERBO: 0. collocate: salus; scoreVERBO: 0. collocate: priuatus; scoreVERBO: 0. collocate: consilium; scoreVERBO: 0. collocate: praesidium; scoreVERBO: 0. collocate: libero; scoreVERBO: 2. collocate: meritum; scoreVERBO: 0. collocate: defendo; scoreVERBO: 2. collocate: pestis; scoreVERBO: 0. collocate: sapiens; scoreVERBO: 0. collocate: periculum; scoreVERBO: 0. collocate: conseruo; scoreVERBO: 2. collocate: tempus; scoreVERBO: 0. collocate: pecunia; scoreVERBO: 0. collocate: dignitas; scoreVERBO: 0. collocate: fides; scoreVERBO: 0. collocate: iudico; scoreVERBO: 2. collocate: recipero; scoreVERBO: 2. collocate: consulo; scoreVERBO: 2. collocate: opprimo; scoreVERBO: 2. collocate: cogito; scoreVERBO: 2. collocate: sentio; scoreVERBO: 1. collocate: detrimentum; scoreVERBO: 0. collocate: mereor; scoreVERBO: 2. collocate: firmus; scoreVERBO: 0. collocate: saluus; scoreVERBO: 0. collocate: paene; scoreVERBO: 0. collocate: uersor; scoreVERBO: 2. collocate: postulo; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-117-98-108-105-99-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword publicus here are all the values plotted: collocate: res; scoreADV: 0. collocate: salus; scoreADV: 0. collocate: priuatus; scoreADV: 0. collocate: consilium; scoreADV: 0. collocate: praesidium; scoreADV: 0. collocate: libero; scoreADV: 0. collocate: meritum; scoreADV: 0. collocate: defendo; scoreADV: 0. collocate: pestis; scoreADV: 0. collocate: sapiens; scoreADV: 0. collocate: periculum; scoreADV: 0. collocate: conseruo; scoreADV: 0. collocate: tempus; scoreADV: 0. collocate: pecunia; scoreADV: 0. collocate: dignitas; scoreADV: 0. collocate: fides; scoreADV: 0. collocate: iudico; scoreADV: 0. collocate: recipero; scoreADV: 0. collocate: consulo; scoreADV: 0. collocate: opprimo; scoreADV: 0. collocate: cogito; scoreADV: 0. collocate: sentio; scoreADV: 0. collocate: detrimentum; scoreADV: 0. collocate: mereor; scoreADV: 0. collocate: firmus; scoreADV: 0. collocate: saluus; scoreADV: 0. collocate: paene; scoreADV: 2. collocate: uersor; scoreADV: 0. collocate: postulo; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-117-98-108-105-99-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword publicus here are all the values plotted: collocate: res; scoreFUNC: 0. collocate: salus; scoreFUNC: 0. collocate: priuatus; scoreFUNC: 0. collocate: consilium; scoreFUNC: 0. collocate: praesidium; scoreFUNC: 0. collocate: libero; scoreFUNC: 0. collocate: meritum; scoreFUNC: 0. collocate: defendo; scoreFUNC: 0. collocate: pestis; scoreFUNC: 0. collocate: sapiens; scoreFUNC: 0. collocate: periculum; scoreFUNC: 0. collocate: conseruo; scoreFUNC: 0. collocate: tempus; scoreFUNC: 0. collocate: pecunia; scoreFUNC: 0. collocate: dignitas; scoreFUNC: 0. collocate: fides; scoreFUNC: 0. collocate: iudico; scoreFUNC: 0. collocate: recipero; scoreFUNC: 0. collocate: consulo; scoreFUNC: 0. collocate: opprimo; scoreFUNC: 0. collocate: cogito; scoreFUNC: 0. collocate: sentio; scoreFUNC: 0. collocate: detrimentum; scoreFUNC: 0. collocate: mereor; scoreFUNC: 0. collocate: firmus; scoreFUNC: 0. collocate: saluus; scoreFUNC: 0. collocate: paene; scoreFUNC: 0. collocate: uersor; scoreFUNC: 0. collocate: postulo; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> nam statim fidem <b>publicam</b> postulavit <br> <small> Cic.Att.2.24.2 <br> pois logo em seguida postulou a imunidade. <small> [JDD] </small> </small> </p>
+; <p> abduc illum a priuata causa ad <b>publicam</b> <br> <small> Sen.Ep.24.16 <br> Leva-o de tua causa privada para uma causa pública. <small> [JDD] </small> </small> </p>
+; <p> ita ne et salutis <b>publicae</b> indicium obrues <br> <small> Sen.Oed.516 <br> Por acaso, vais assim me ocultar o caminho da salvação do estado? <small> [JDD] </small> </small> </p>
+; <p> haec sunt ut opinor in re <b>publica</b> <br> <small> Cic.Att.1.19.5 <br> Isto é, a meu ver, o que há na república. <small> [JDD] </small> </small> </p>
+; <p> interrogo ad quam rem <b>publicam</b> sapiens sit accessurus <br> <small> Sen.Ot.8.1 <br> Pergunto a que república o sábio intervirá. <small> [JDD] </small> </small> </p>
+; <p> negabis mihi accessurum ad hanc rem <b>publicam</b> sapientem <br> <small> Sen.Ot.8.1 <br> Me dirás que o sábio não irá intervir nessa república <small> [JDD] </small> </small> </p>
+; <p> statui enim nihil iam de re <b>publica</b> cogitare <br> <small> Cic.Att.2.4.4 <br> pois decidi não pensar mais nada acerca da república. <small> [JDD] </small> </small> </p>
+; <p> non sine magno quidem rei <b>publicae</b> prouinciaeque Siciliae detrimento <br> <small> Cic.Ver.2.4.20.7 <br> Na verdade, não sem um grande dano à república e à província da Sicília. <small> [JDD] </small> </small> </p>
+; <p> nollem primum rei <b>publicae</b> causa deinde etiam dignitatis tuae <br> <small> Cic.Phil.14.18.7 <br> Eu não queria, primeiro por causa da república, depois por causa também de tua dignidade. <small> [JDD] </small> </small> </p>
+; <p> sed tamen meorum periculorum rationes utilitas rei <b>publicae</b> uincat <br> <small> Cic.Catil.4.9.6 <br> Mas, mesmo assim, que o bem da república esteja acima dos motivos de meus perigos. <small> [JDD] </small> </small> </p>
+; <p> in re <b>publica</b> vero quamquam animus est praesens tamen <br> <small> Cic.Att.1.18.2 <br> na república, embora não me falte coragem, a própria medicina me causa ferimento uma ou outra vez. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> de re <b>publica</b> nisi per concilium loqui non conceditur <br> <small> Caes.Gal.6.20.3 <br> Sobre a república, a não ser através de uma assembléia, não é concedido falar. <small> [JDD] </small> </small> </p>
+; <p> magna atque incredibilia sunt in rem <b>publicam</b> huius merita legionis <br> <small> Cic.Phil.14.31.8 <br> Grandes e incríveis são os serviços desta legião para com a república. <small> [JDD] </small> </small> </p>
+; <p> omnes ordines ad conseruandam rem <b>publicam</b> mente uoluntate uoce consentiunt <br> <small> Cic.Catil.4.18.6 <br> Todas as classes concordam com a mente, com a vontade, com a voz para salvar a república. <small> [JDD] </small> </small> </p>
+; <p> quorum quod simile factum quod initum delendae rei <b>publicae</b> consilium <br> <small> Cic.Catil.4.13.7 <br> Que ato destes foi semelhante? Que plano de destruir a república foi elaborado? <small> [JDD] </small> </small> </p>
+; <p> sed eos paulo ante frequens senatus iudicauerat contra rem <b>publicam</b> fecisse <br> <small> Sal.Cat.50.3 <br> Mas um pouco antes o senado lotado tinha julgado que eles tinham agido contra a república. <small> [JDD] </small> </small> </p>
+; <p> denique alter ad euertendam rem <b>publicam</b> praesidia quaerebat alter ad conseruandam <br> <small> Cic.Phil.10.12.14 <br> Enfim, um buscava ajuda para arruinar a república, o outro para salvá-la. <small> [JDD] </small> </small> </p>
+; <p> potest aliquis disputare an illo tempore capessenda fuerit sapienti res <b>publica</b> <br> <small> Sen.Ep.14.13 <br> Alguém pode discutir se naquele momento o sábio deveria intervir na república. <small> [JDD] </small> </small> </p>
+; <p> nescit omnino te communem causam defendere eorum qui agros <b>publicos</b> possideant <br> <small> Cic.Att.2.15.4 <br> Ela absolutamente não sabe que tu defendes a causa comum dos que possuem terras públicas. <small> [JDD] </small> </small> </p>
+; <p> huic ita plausum est ut salva re <b>publica</b> Pompeio plaudi solebat <br> <small> Cic.Att.2.19.3 <br> A este aplaudiu-se tal como costumava aplaudir-se a Pompeu, com a república ainda salva. <small> [JDD] </small> </small> </p>
+; <p> liberabam agrum eum qui Publio Mucio Lucio Calpurnio consulibus <b>publicus</b> fuisset <br> <small> Cic.Att.1.19.4 <br> eximo as terras que tinham sido públicas no consulado de Públio Múcio e Lúcio Calpúrnio. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> largitionis uoluntas tum in re <b>publica</b> uersata est et partium quaedam contentio <br> <small> Cic.Catil.4.13.8 <br> Um desejo de mostrar-se generoso e uma certa luta de partidos propagaram-se então na república. <small> [JDD] </small> </small> </p>
+; <p> simul enim et rei <b>publicae</b> consules et propones illi exempla ad imitandum <br> <small> Cic.Phil.10.5.5 <br> Pois ao mesmo tempo atendes à república e propões a ele exemplos para imitar. <small> [JDD] </small> </small> </p>
+; <p> sestertium septiens miliens auertisse Antonium pecuniae <b>publicae</b> iudicauistis num fraude poterit carere peculatus <br> <small> Cic.Phil.12.12.4 <br> Declarastes que Antônio roubou setecentos milhões de sestércios do dinheiro público; acaso poderá ele estar livre do delito de peculato? <small> [JDD] </small> </small> </p>
+; <p> aliter perire pestis illa non potuit numquam illum res <b>publica</b> suo iure esset ulta <br> <small> Cic.Mil.88 <br> Aquela peste não pôde perecer de outro modo; nunca a república estaria vingada dele com seu próprio direito. <small> [JDD] </small> </small> </p>
+; <p> qui ab illo abducit exercitum et respectum pulcherrimum et praesidium firmissimum adimit rei <b>publicae</b> <br> <small> Cic.Phil.10.9.11 <br> quem tira o exército dele, arranca não só o seu mais belo ornamento, mas também a sua defesa mais firme. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> unum sentitis omnes unum studetis M. Antoni conatus auertere a re <b>publica</b> furorem exstinguere opprimere audaciam <br> <small> Cic.Phil.6.18.8 <br> Todos pensais uma única coisa, desejais uma única coisa, repelir da república a tentativa de Marco Antônio, extinguir a sua loucura, esmagar a sua audácia. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quo modo autem tu de re <b>publica</b> bene meritus esses cum tot sceleratos incolumi dignitate esse uoluisses <br> <small> Cic.Lig.19 <br> Ora, como serias tu um benemérito da república, se tivesses querido que tantos criminosos ficassem com sua dignidade incólume? <small> [JDD] </small> </small> </p>
+; <p> frequentia uestrum incredibilis Quirites contioque tanta quantam meminisse non uideor et alacritatem mihi summam defendendae rei <b>publicae</b> adfert et spem recuperandae <br> <small> Cic.Phil.4.1.1 <br> A vossa incrível frequência, cidadãos, e esta assembléia tão grande como não pareço recordar despertam em mim não só o maior entusiasmo de defender a república, mas também a esperança de recuperá-la. <small> [JDD] </small> </small> </p>
+; <p> negat esse eiusdem seueritatis Catilinam exitium rei <b>publicae</b> intra moenia molientem uerbis et paene imperio ex urbe expulisse et nunc pro L. Murena dicere <br> <small> Cic.Mur.6 <br> Nega que seja do mesmo rigor ter expulsado da cidade com minhas palavras e quase com minha autoridade Catilina, que maquinava, dentro dos muros, a ruína da república e agora discursar em defesa de Lúcio Murena. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-117-98-108-105-99-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 56.58 and an absolute frequency of 61. The Cicero subcorpus follows, with a normalized frequency of 41.05 and an absolute frequency of 659. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 17 ; absolute frequency: 6.42042450336128. subcorpus: Cicero ; normalized frequency: 659 ; absolute frequency: 41.0530512571329. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 61 ; absolute frequency: 56.58102216863. subcorpus: Seneca ; normalized frequency: 55 ; absolute frequency: 10.2648326832273. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 10 ; absolute frequency: 34.3288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-117-98-108-105-99-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 52.42 and an absolute frequency of 546. The Prosa.oratória subcorpus follows, with a normalized frequency of 52.42 and an absolute frequency of 546. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 89 ; absolute frequency: 21.6655712164366. subcorpus: Prosa.filosófica ; normalized frequency: 74 ; absolute frequency: 12.190902950528. subcorpus: Prosa.oratória ; normalized frequency: 546 ; absolute frequency: 52.4228778815781. subcorpus: Prosa.epistolográfica ; normalized frequency: 91 ; absolute frequency: 24.1129865656218. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-117-98-108-105-99-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 34.3 and an absolute frequency of 737. The I.d.C. subcorpus follows, with a normalized frequency of 8.41 and an absolute frequency of 55. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 737 ; absolute frequency: 34.3030020944845. subcorpus: I.d.C. ; normalized frequency: 55 ; absolute frequency: 8.4136454030901. subcorpus: II.d.C. ; normalized frequency: 11 ; absolute frequency: 28.7958115183246. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

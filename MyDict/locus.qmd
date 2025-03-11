@@ -1,0 +1,230 @@
+---
+title: "locus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx108-111-99-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>locus</b> <b>-í</b> <br> <small>subs. m. No plural: loci e loca</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Lugar, local, posição, situação &ensp; <small>Cés. B. Gal. 2. 4. 2.</small> <br> <b>2</b> &ensp; <small>II-Sents. técnicos</small> &ensp; Passo &ensp; <small>de um livro ou discurso Cíc. Verr. 4. 68.</small> <br> <b>3</b> &ensp; <small>II-Na língua retórica:</small> &ensp; Fundamento de um raciocínio, assunto de um discurso, pontos principais &ensp; <small>Cíc: Of. 1. 152.</small> <br> <b>4</b> &ensp; <small>II-Sents. diversos:</small> &ensp; Categoria, posição, situação, condição, estado, emprego &ensp; <small>Cíc. Clu. 150.</small> <br> <b>5</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Ocasião, ensejo, oportunidade, época, tempo &ensp; <small>Cíc. Cael. 9.</small> <br> <b>6</b> &ensp; <small>III-Em expressões:</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>6</b><br>ad id locorum Sal. B. Jug. 63,6 «até este momento, até então»: postea loci Sal. B. Jug. 102. 1 «depois disso. i.e. em seguida». </p> 
+ <b>stlocus</b> <br> <small>= locus Quint. 1, 4, 16.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Locus</b> -<b>i</b> <small>m. plur</small> <b>Loci</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; lugar. <br> <b>2</b> &ensp; ordem, estado, disposição das cousas. <br> <b>3</b> &ensp; opportunidade, commodidade. <br> <b>4</b> &ensp; lugar, ou passo de hum autor. <br> <b>5</b> &ensp; occasião, tempo. <br> <b>6</b> &ensp; autoridade, gráo. <br> <b>7</b> &ensp; <small>Loci. Varr. Loca. Col.</small> &ensp; madre das mulheres, e tambem dos animaes, ovario das aves. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>interea loci &ensp; <small><small>Liv</small></small> &ensp; <small>Todavia</small> <br> summo Loco natus &ensp; <small><small>Liv</small></small> &ensp; <small>Homem de hum illustrissimo nascimento</small> </p>
+
+
+
+
+#### Velez
+
+<b>Locus</b> -<b>i</b> <br> <small>sempre he masculino</small>   <p> <b>1</b> &ensp; o lugar <br> <b>2</b> &ensp; <small>in pl. loca, & interdum loci, orum:</small> &ensp; pelos lugares, donde se tiraõ os argumentos </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>facere aliquid in loco &ensp; <small><small>i, opportune</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Locus</b> <b>i</b>   <p> <b>1</b> &ensp; ho lugar. ou passo de liuro </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/110019 ' target="_blank"> http://lila-erc.eu/data/id/lemma/110019 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> stlocus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+lŏcus 
+ lŏcī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx108-111-99-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx108-111-99-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword locus here are all the values plotted: collocate: superus; scoreSUBST: 0. collocate: is; scoreSUBST: 0. collocate: hic; scoreSUBST: 0. collocate: commutatio; scoreSUBST: 3. collocate: iniquus; scoreSUBST: 0. collocate: ipse; scoreSUBST: 0. collocate: unus; scoreSUBST: 0. collocate: natura; scoreSUBST: 2. collocate: desertus; scoreSUBST: 0. collocate: opportunus; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: multus; scoreSUBST: 0. collocate: ex; scoreSUBST: 0. collocate: pono; scoreSUBST: 0. collocate: aequus; scoreSUBST: 0. collocate: muto; scoreSUBST: 0. collocate: confero; scoreSUBST: 0. collocate: ubi; scoreSUBST: 0. collocate: opportunitas; scoreSUBST: 2. collocate: mutatio; scoreSUBST: 2. collocate: apertus; scoreSUBST: 0. collocate: obtineo; scoreSUBST: 0. collocate: colloco; scoreSUBST: 0. collocate: consularis; scoreSUBST: 0. collocate: moueo; scoreSUBST: 0. collocate: paro; scoreSUBST: 0. collocate: nascor; scoreSUBST: 0. collocate: praesidium; scoreSUBST: 2. collocate: constituo; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx108-111-99-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword locus here are all the values plotted: collocate: superus; scoreADJ: 0. collocate: is; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: commutatio; scoreADJ: 0. collocate: iniquus; scoreADJ: 3. collocate: ipse; scoreADJ: 0. collocate: unus; scoreADJ: 0. collocate: natura; scoreADJ: 0. collocate: desertus; scoreADJ: 3. collocate: opportunus; scoreADJ: 2. collocate: in; scoreADJ: 0. collocate: multus; scoreADJ: 0. collocate: ex; scoreADJ: 0. collocate: pono; scoreADJ: 0. collocate: aequus; scoreADJ: 2. collocate: muto; scoreADJ: 0. collocate: confero; scoreADJ: 0. collocate: ubi; scoreADJ: 0. collocate: opportunitas; scoreADJ: 0. collocate: mutatio; scoreADJ: 0. collocate: apertus; scoreADJ: 2. collocate: obtineo; scoreADJ: 0. collocate: colloco; scoreADJ: 0. collocate: consularis; scoreADJ: 2. collocate: moueo; scoreADJ: 0. collocate: paro; scoreADJ: 0. collocate: nascor; scoreADJ: 0. collocate: praesidium; scoreADJ: 0. collocate: constituo; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx108-111-99-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword locus here are all the values plotted: collocate: superus; scoreVERBO: 0. collocate: is; scoreVERBO: 0. collocate: hic; scoreVERBO: 0. collocate: commutatio; scoreVERBO: 0. collocate: iniquus; scoreVERBO: 0. collocate: ipse; scoreVERBO: 0. collocate: unus; scoreVERBO: 0. collocate: natura; scoreVERBO: 0. collocate: desertus; scoreVERBO: 0. collocate: opportunus; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: multus; scoreVERBO: 0. collocate: ex; scoreVERBO: 0. collocate: pono; scoreVERBO: 2. collocate: aequus; scoreVERBO: 0. collocate: muto; scoreVERBO: 2. collocate: confero; scoreVERBO: 2. collocate: ubi; scoreVERBO: 0. collocate: opportunitas; scoreVERBO: 0. collocate: mutatio; scoreVERBO: 0. collocate: apertus; scoreVERBO: 0. collocate: obtineo; scoreVERBO: 2. collocate: colloco; scoreVERBO: 2. collocate: consularis; scoreVERBO: 0. collocate: moueo; scoreVERBO: 2. collocate: paro; scoreVERBO: 2. collocate: nascor; scoreVERBO: 2. collocate: praesidium; scoreVERBO: 0. collocate: constituo; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx108-111-99-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword locus here are all the values plotted: collocate: superus; scoreADV: 0. collocate: is; scoreADV: 0. collocate: hic; scoreADV: 0. collocate: commutatio; scoreADV: 0. collocate: iniquus; scoreADV: 0. collocate: ipse; scoreADV: 0. collocate: unus; scoreADV: 0. collocate: natura; scoreADV: 0. collocate: desertus; scoreADV: 0. collocate: opportunus; scoreADV: 0. collocate: in; scoreADV: 0. collocate: multus; scoreADV: 0. collocate: ex; scoreADV: 0. collocate: pono; scoreADV: 0. collocate: aequus; scoreADV: 0. collocate: muto; scoreADV: 0. collocate: confero; scoreADV: 0. collocate: ubi; scoreADV: 2. collocate: opportunitas; scoreADV: 0. collocate: mutatio; scoreADV: 0. collocate: apertus; scoreADV: 0. collocate: obtineo; scoreADV: 0. collocate: colloco; scoreADV: 0. collocate: consularis; scoreADV: 0. collocate: moueo; scoreADV: 0. collocate: paro; scoreADV: 0. collocate: nascor; scoreADV: 0. collocate: praesidium; scoreADV: 0. collocate: constituo; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx108-111-99-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword locus here are all the values plotted: collocate: superus; scoreFUNC: 0. collocate: is; scoreFUNC: 0. collocate: hic; scoreFUNC: 0. collocate: commutatio; scoreFUNC: 0. collocate: iniquus; scoreFUNC: 0. collocate: ipse; scoreFUNC: 0. collocate: unus; scoreFUNC: 0. collocate: natura; scoreFUNC: 0. collocate: desertus; scoreFUNC: 0. collocate: opportunus; scoreFUNC: 0. collocate: in; scoreFUNC: 20. collocate: multus; scoreFUNC: 0. collocate: ex; scoreFUNC: 20. collocate: pono; scoreFUNC: 0. collocate: aequus; scoreFUNC: 0. collocate: muto; scoreFUNC: 0. collocate: confero; scoreFUNC: 0. collocate: ubi; scoreFUNC: 0. collocate: opportunitas; scoreFUNC: 0. collocate: mutatio; scoreFUNC: 0. collocate: apertus; scoreFUNC: 0. collocate: obtineo; scoreFUNC: 0. collocate: colloco; scoreFUNC: 0. collocate: consularis; scoreFUNC: 0. collocate: moueo; scoreFUNC: 0. collocate: paro; scoreFUNC: 0. collocate: nascor; scoreFUNC: 0. collocate: praesidium; scoreFUNC: 0. collocate: constituo; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> nempe <b>loci</b> commutatio <br> <small> Sen.Helv.6.1 <br> Sem dúvida, uma mudança de lugar. <small> [JDD] </small> </small> </p>
+; <p> cacumen radicis <b>loco</b> ponis <br> <small> Sen.Ep.124.7 <br> colocas o cume em lugar da raiz. <small> [JDD] </small> </small> </p>
+; <p> eum <b>locum</b> uallo fossaque muniuit <br> <small> Caes.Gal.3.1.6 <br> Fortificou esse local com paliçada e fossos. <small> [JDD] </small> </small> </p>
+; <p> hic est <b>locus</b> soluendi aeris alieni <br> <small> Sen.Ep.23.9 <br> Este é o lugar de te pagar com dinheiro alheio. <small> [JDD] </small> </small> </p>
+; <p> acriter in eo <b>loco</b> pugnatum est <br> <small> Caes.Gal.2.10.1 <br> Lutou-se encarniçadamente nesse local. <small> [JDD] </small> </small> </p>
+; <p> postero die castra ex eo <b>loco</b> mouent <br> <small> Caes.Gal.1.15.1 <br> No dia seguinte, levantam acampamento daquele posto. <small> [JDD] </small> </small> </p>
+; <p> nisi ubi rationi <b>locus</b> est bonum non est <br> <small> Sen.Ep.124.13 <br> O bem não está a não ser onde há lugar para a razão. <small> [JDD] </small> </small> </p>
+; <p> desertus est <b>locus</b> hic et iam hora praeterivit <br> <small> Vulg.Marc.6.35 <br> Este local é deserto e já passou a hora. <small> [JDD] </small> </small> </p>
+; <p> ei <b>loco</b> praesidioque C. Uolcacium Tullum adulescentem praeficit <br> <small> Caes.Gal.6.29.3 <br> Põe no comando desse lugar e guarnição o jovem Caio Volcácio Tulo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>loco</b> ille motus est cum est ex urbe depulsus <br> <small> Cic.Catil.2.1.11 <br> Ele foi desalojado de sua posição, quando foi expulso da cidade. <small> [JDD] </small> </small> </p>
+; <p> Contempsit illa , tuta quippe ipso <b>loco</b> . erat <br> <small> Phaed.1.28 <br> Aquela desdenhou, segura certamente em seu próprio local. <small> [JDD] </small> </small> </p>
+; <p> et ascendentes in navi abierunt in desertum <b>locum</b> seorsum <br> <small> Vulg.Marc.6.32 <br> E, subindo na barca, foram sozinhos para um lugar deserto. <small> [JDD] </small> </small> </p>
+; <p> in aperto <b>loco</b> secundum flumen paucae stationes equitum uidebantur <br> <small> Caes.Gal.2.18.3 <br> no local aberto, seguindo o rio, viam-se poucos postos de cavalaria. <small> [JDD] </small> </small> </p>
+; <p> aut hoc ipsum succedit in <b>locum</b> uoluptatium nullis egere <br> <small> Sen.Ep.12.5 <br> ou isso mesmo substitui o lugar dos prazeres, não ter necessidade de nenhum. <small> [JDD] </small> </small> </p>
+; <p> nimis abes diu praesertim cum sis in propinquis <b>locis</b> <br> <small> Cic.Att.2.1.4 <br> Ficas por demasiado tempo ausente, principalmente estando em lugares próximos. <small> [JDD] </small> </small> </p>
+; <p> milites e <b>loco</b> superiore pilis missis facile hostium phalangem perfregerunt <br> <small> Caes.Gal.1.25.2 <br> Os soldados, com seus dardos lançados de um ponto mais alto, facilmente romperam a falange dos inimigos. <small> [JDD] </small> </small> </p>
+; <p> hi constanter omnes nuntiauerunt manus cogi exercitum in unum <b>locum</b> conduci <br> <small> Caes.Gal.2.2.4 <br> Todos estes anunciaram com firmeza que tropas eram reunidas, que o exército era levado para um único lugar. <small> [JDD] </small> </small> </p>
+; <p> erant enim armati ut te interficerent in eo ipso <b>loco</b> conlocati <br> <small> Cic.Deiot.17 <br> pois havia homens armados para te matar colocados precisamente naquele lugar.” <small> [JDD] </small> </small> </p>
+; <p> non uideo causam <b>loci</b> mutandi sed tamen acta res criminose est <br> <small> Cic.Deiot.21 <br> Não vejo motivo para mudar de lugar, mas, mesmo assim, a coisa foi realizada criminosamente. <small> [JDD] </small> </small> </p>
+; <p> itaque sub quisque horum <b>loco</b> sententiam rogatus multa secundum causam nostram disputavit <br> <small> Cic.Att.4.2.4 <br> E assim, cada um deles, solicitados em sua vez a dar o parecer, fez muitas alegações favoráveis à minha causa. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> itaque non aqua non igni ut aiunt <b>locis</b> pluribus utimur quam amicitia <br> <small> Cic.Amici.22 <br> e assim nem da água, nem do fogo, como dizem, nós nos servimos em mais lugares do que da amizade. <small> [JDD] </small> </small> </p>
+; <p> hic <b>locus</b> aequum fere spatium a castris utriusque Ariouisti et Caesaris aberat <br> <small> Caes.Gal.1.43.1 <br> Este local estava afastado um espaço quase igual dos acampamentos de ambos, de Ariovisto e de César. <small> [JDD] </small> </small> </p>
+; <p> necare eandem uoluit quaesiuit uenenum sollicitauit seruos potionem parauit <b>locum</b> constituit clam attulit <br> <small> Cic.Cael.31 <br> Quis matá-la; procurou veneno, manipulou os que pôde, preparou, estebeleceu o local e levou. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> illi nulla coacta manu <b>loci</b> praesidio freti in siluas paludesque confugiunt suaque eodem conferunt <br> <small> Caes.Gal.6.5.7 <br> Aqueles, sem nenhuma tropa reunida, confiados na defesa do lugar, fogem para as florestas e pântanos e lá mesmo juntaram suas coisas. <small> [JDD] </small> </small> </p>
+; <p> fuerit quaedam necessaria neque ego hoc ab omnibus eis desidero qui sententiam consulari <b>loco</b> dicunt <br> <small> Cic.Phil.1.15.2 <br> Alguma teria sido necessária; Nem eu desejo isto de todos os que proferem seu parecer de um local consular. <small> [JDD] </small> </small> </p>
+; <p> ipsi transire flumen non dubitauerunt et in <b>locum</b> iniquum progressi rursus resistentes hostes redintegrato proelio in fugam dederunt <br> <small> Caes.Gal.2.23.2 <br> Eles próprios não hesitaram em atravessar o rio e, tendo avançado para um local desvantajoso, puseram em fuga os inimigos que de novo resistiam, tendo sido retomado o combate. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> itaque in Epirum ad te statui me conferre non quo mea interesset <b>loci</b> natura qui lucem omnino fugerem <br> <small> Cic.Att.3.19.1 <br> E assim decidi me dirigir à tua casa em Epiro, não porque me interessasse a natureza do lugar, pois eu fugia totalmente da luz. <small> [JDD] </small> </small> </p>
+; <p> cuius <b>loci</b> haec erat natura atque ita montibus angustis mare continebatur uti ex <b>locis</b> superioribus in litus telum adigi posset <br> <small> Caes.Gal.4.23.3 <br> Esta era a natureza daquele lugar e o mar era de tal modo contido pela estreitezas dos montes que dos lugares mais altos podia ser lançado um dardo até a praia. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> sed in ea coniuratione fuit Q. Curius natus haud obscuro <b>loco</b> flagitiis atque facinoribus coopertus quem censores senatu probri gratia mouerant <br> <small> Sal.Cat.23.1 <br> Mas nessa conjuração esteve Quinto Cúrcio, nascido de família não obscura, coberto de infâmias e de crimes, que os censores tinham removido do senado por causa de conduta desonrosa. <small> [JDD] </small> </small> </p>
+; <p> ex iis quae mihi scribis et ex iis quae audio bonam spem de te concipio non discurris nec <b>locorum</b> mutationibus inquietaris <br> <small> Sen.Ep.2.1 <br> Pelas coisas que me escreves e pelas que ouço, concebo uma boa esperança sobre ti: não andas de cá para lá, nem te inquietas com mudanças de lugares. <small> [JDD] </small> </small> </p>
+; <p> factum est opportunitate <b>loci</b> hostium inscientia ac defatigatione uirtute militum et superiorum pugnarum exercitatione ut ne primum quidem nostrorum impetum ferrent ac statim terga uerterent <br> <small> Caes.Gal.3.19.3 <br> Ocorreu, graças à situação favorável do lugar, ao desconhecimento e cansaço dos inimigos, ao valor dos soldados e à prática de lutas anteriores, que não suportaram nem mesmo um único ataque dos nossos e voltaram imediatamente as costas. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> hos illi diligenter tuebantur ita nouam et repente collectam auctoritatem tenebant et eo tum statu res erat ut longe principes haberentur Haedui secundum <b>locum</b> dignitatis Remi obtinerent <br> <small> Caes.Gal.6.12.8 <br> Aqueles os protegiam diligentemente: assim mantinha uma autoridade nova e de repente formada, e a situação estava então em tal estado que os éduos eram tidos por muito como os mais importantes e os remos tinham o segundo lugar da dignidade. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> neque tamen Catilinae furor minuebatur sed in dies plura agitare arma per Italiam <b>locis</b> opportunis parare pecuniam sua aut amicorum fide sumptam mutuam Faesulas ad Manlium quemdam portare qui postea princeps fuit belli faciundi <br> <small> Sal.Cat.24.2 <br> No entanto, não diminuia a loucura de Catilina, mas a cada dia ele fazia mais coisas: dispunha as armas pela Itália em locais favoráveis, levava o dinheiro tomado de empréstimo com seu crédito e de seus amigos a Fésulas, para um tal Mânlio, que posteriormente foi o principal a fazer a guerra. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx108-111-99-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 57.78 and an absolute frequency of 153. The Phaedrus subcorpus follows, with a normalized frequency of 15.18 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 6.86 and an absolute freqeuncy of 4. here are all the values: subcorpus: Caesar ; normalized frequency: 153 ; absolute frequency: 57.7838205302515. subcorpus: Cicero ; normalized frequency: 245 ; absolute frequency: 15.2625152625153. subcorpus: Horatius ; normalized frequency: 8 ; absolute frequency: 7.10416481662375. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 10 ; absolute frequency: 15.181417944436. subcorpus: Sallustius ; normalized frequency: 25 ; absolute frequency: 23.1889435117336. subcorpus: Seneca ; normalized frequency: 100 ; absolute frequency: 18.6633321513223. subcorpus: Suetonius ; normalized frequency: 2 ; absolute frequency: 22.0507166482911. subcorpus: Tacitus ; normalized frequency: 4 ; absolute frequency: 13.7315482320632. subcorpus: Vergilius ; normalized frequency: 9 ; absolute frequency: 17.3745173745174. subcorpus: Hieronymus ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx108-111-99-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 44.79 and an absolute frequency of 184. The Poesia.trágica subcorpus follows, with a normalized frequency of 17.37 and an absolute frequency of 20. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 6.73 and an absolute freqeuncy of 8. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 184 ; absolute frequency: 44.7917427395993. subcorpus: Prosa.filosófica ; normalized frequency: 100 ; absolute frequency: 16.4741931763892. subcorpus: Prosa.oratória ; normalized frequency: 166 ; absolute frequency: 15.9380910775494. subcorpus: Prosa.epistolográfica ; normalized frequency: 59 ; absolute frequency: 15.633694586502. subcorpus: Poesia.lírica ; normalized frequency: 8 ; absolute frequency: 6.73004122150248. subcorpus: Poesia.didática ; normalized frequency: 14 ; absolute frequency: 11.8754771397065. subcorpus: Poesia.trágica ; normalized frequency: 20 ; absolute frequency: 17.3731758165393. subcorpus: Poesia.épica ; normalized frequency: 9 ; absolute frequency: 17.3745173745174. subcorpus: Prosa.ficcional ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx108-111-99-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 20.48 and an absolute frequency of 440. The I.a.C. subcorpus follows, with a normalized frequency of 20.48 and an absolute frequency of 440. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 11.23 and an absolute freqeuncy of 5. here are all the values: subcorpus: I.a.C. ; normalized frequency: 440 ; absolute frequency: 20.4794042355131. subcorpus: I.d.C. ; normalized frequency: 114 ; absolute frequency: 17.4391922900413. subcorpus: II.d.C. ; normalized frequency: 6 ; absolute frequency: 15.7068062827225. subcorpus: IV.d.C. ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+:::
+

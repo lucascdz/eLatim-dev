@@ -1,0 +1,199 @@
+---
+title: "princeps"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-114-105-110-99-101-112-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>princeps</b> <b>-cìpis</b> <br> <small>adj. e subs.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Que ocupa o primeiro lugar, que ocupa a primeira categoria, que toma a primeira parte, o primeiro &ensp; <small>Cíc. Verr. 2, 2.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; O principal, o chefe: &ensp; <small></small> <br> <b>3</b> &ensp; <small>II-Daí</small> &ensp; Que dirige, guia, conselheiro &ensp; <small>Cíc. De Or. 1, 216.</small> <br> <b>4</b> &ensp; <small>III-Sent. particular:</small> &ensp; Príncipe do senado, i. e.: o que primeiro votava, que era o primeiro inscrito na lista do senado pelos censores &ensp; <small>T. Lív. 27, 11, 9.</small> <br> <b>5</b> &ensp; <small>III-Sent. particular:</small> &ensp; Imperador &ensp; <small>título a partir de Augusto que, como princeps, concentrou, nas mãos, todo o poder Tác. An. 1, 1.</small> <br> <b>6</b> &ensp; <small>III-Sent. particular:</small> &ensp; A flor da nobreza &ensp; <small>na época republicana T. Lív. 2, 12, 15.</small> <br> <b>7</b> &ensp; <small>IV-Na língua militar:</small> &ensp; Soldados da primeira linha, a princípio, e, depois, os da segunda linha &ensp; <small>T. Lív. 8, 8, 6.</small> <br> <b>8</b> &ensp; <small>IV-Na língua militar:</small> &ensp; Um manípulo formado de soldados da primeira linha, de principes &ensp; <small>T. Lív. 26, 6, 1.</small> <br> <b>9</b> &ensp; <small>IV-Na língua militar:</small> &ensp; Um centurião dos principes &ensp; <small>Cés. B. Civ. 3, 64, 4.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>princeps legationis Cíc. Verr. 4, 15 ‘o chefe da embaixada’. </p> 
+ <small>2.</small> <b>Princeps</b> <b>-ìpis</b> <br> <small>subs. pr. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Príncipe, nome de homem &ensp; <small>Fedr. 5. 7. 4.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Princeps</b> -<b>ipis</b> <br> <small>m. Cic. f. Ovid.</small>   <p> <b>1</b> &ensp; principe, Princeza, pessoa da primeira qualidade. <br> <b>2</b> &ensp; autor, autora. </p>
+
+
+
+
+#### Velez
+
+<b>Princeps</b> -<b>ipis</b>   <p> <b>1</b> &ensp; o primeiro, ou principal; <br> <b>2</b> &ensp; principe, ou Princeza </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>facile princeps &ensp; <small>sem duvida o principal</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Princeps</b> <b>is</b>   <p> <b>1</b> &ensp; ho Rey. ou principal </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/73416 ' target="_blank"> http://lila-erc.eu/data/id/lemma/73416 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-114-105-110-99-101-112-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-114-105-110-99-101-112-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword princeps here are all the values plotted: collocate: coniuratio; scoreSUBST: 2. collocate: ciuitas; scoreSUBST: 3. collocate: ab; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-114-105-110-99-101-112-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword princeps here are all the values plotted: collocate: coniuratio; scoreADJ: 0. collocate: ciuitas; scoreADJ: 0. collocate: ab; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-114-105-110-99-101-112-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword princeps here are all the values plotted: collocate: coniuratio; scoreVERBO: 0. collocate: ciuitas; scoreVERBO: 0. collocate: ab; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-114-105-110-99-101-112-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword princeps here are all the values plotted: collocate: coniuratio; scoreADV: 0. collocate: ciuitas; scoreADV: 0. collocate: ab; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-114-105-110-99-101-112-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword princeps here are all the values plotted: collocate: coniuratio; scoreFUNC: 0. collocate: ciuitas; scoreFUNC: 0. collocate: ab; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> qui eius consilii <b>principes</b> fuissent quod intellegerent quantam calamitatem ciuitati intulissent in Britanniam profugisse <br> <small> Caes.Gal.2.14.4 <br> Que os que foram autores desse plano, por entenderem que grande calamidade tinham acarretado para a cidade, se refugiaram na Britânia. <small> [JDD] </small> </small> </p>
+; <p> dictae sunt a <b>principibus</b> acerrimae ac fortissimae sententiae quas senatus sine ulla uarietate est secutus <br> <small> Cic.Catil.3.13.9 <br> Foram ditas pelos principais senadores opiniões duríssimas e fortíssimas, as quais o senado, sem nenhuma mudança, seguiu. <small> [JDD] </small> </small> </p>
+; <p> fuere item ea tempestate qui crederent M. Licinium Crassum non ignarum eius consili fuisse quia Cn. Pompeius inuisus ipsi magnum exercitum ductabat cuiusuis opes uoluisse contra illius potentiam crescere simul confisum si coniuratio ualuisset facile apud illos <b>principem</b> se fore <br> <small> Sal.Cat.17.7 <br> Houve também, nessa época, os que acreditavam que Marco Licínio Crasso não era ignaro desse projeto: [achavam que], porque Cneu Pompeu, odiado por ele, comandava um grande exército, ele quis que brotassem forças fosse de quem fosse contra o poder daquele, confiando ao mesmo tempo que, se a conjuração tivesse êxito, ele seria facilmente o principal entre eles. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-114-105-110-99-101-112-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 58.36 and an absolute frequency of 17. The Suetonius subcorpus follows, with a normalized frequency of 11.03 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 23 ; absolute frequency: 8.6864566810182. subcorpus: Cicero ; normalized frequency: 36 ; absolute frequency: 2.24265530387979. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 3 ; absolute frequency: 0.559899964539669. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 17 ; absolute frequency: 58.3590799862685. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-114-105-110-99-101-112-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 10.95 and an absolute frequency of 45. The Poesia.épica subcorpus follows, with a normalized frequency of 1.93 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 45 ; absolute frequency: 10.9545023004455. subcorpus: Prosa.filosófica ; normalized frequency: 5 ; absolute frequency: 0.823709658819459. subcorpus: Prosa.oratória ; normalized frequency: 27 ; absolute frequency: 2.59234011502309. subcorpus: Prosa.epistolográfica ; normalized frequency: 7 ; absolute frequency: 1.85484512043244. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-114-105-110-99-101-112-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 47.12 and an absolute frequency of 18. The II.d.C. subcorpus follows, with a normalized frequency of 47.12 and an absolute frequency of 18. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 0.46 and an absolute freqeuncy of 3. here are all the values: subcorpus: I.a.C. ; normalized frequency: 66 ; absolute frequency: 3.07191063532697. subcorpus: I.d.C. ; normalized frequency: 3 ; absolute frequency: 0.458926112895824. subcorpus: II.d.C. ; normalized frequency: 18 ; absolute frequency: 47.1204188481675. subcorpus: IV.d.C. ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+:::
+

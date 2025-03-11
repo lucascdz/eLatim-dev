@@ -1,0 +1,198 @@
+---
+title: "praeterea"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-114-97-101-116-101-114-101-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>praeterĕā</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Além disso, demais, depois disso &ensp; <small>Cés. B. Gal. 3, 20, 2.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Praeterea</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; além disto. <br> <b>2</b> &ensp; <small>Virg.</small> &ensp; daqui em diante. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/120700 ' target="_blank"> http://lila-erc.eu/data/id/lemma/120700 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+praetĕrĕā
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-114-97-101-116-101-114-101-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword praeterea here are all the values plotted: collocate: multitudo; scoreSUBST: 2. collocate: duo; scoreSUBST: 0. collocate: nemo; scoreSUBST: 0. collocate: multus; scoreSUBST: 0. collocate: magnus; scoreSUBST: 0. collocate: de; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-114-97-101-116-101-114-101-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword praeterea here are all the values plotted: collocate: multitudo; scoreADJ: 0. collocate: duo; scoreADJ: 0. collocate: nemo; scoreADJ: 0. collocate: multus; scoreADJ: 0. collocate: magnus; scoreADJ: 2. collocate: de; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-114-97-101-116-101-114-101-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword praeterea here are all the values plotted: collocate: multitudo; scoreVERBO: 0. collocate: duo; scoreVERBO: 0. collocate: nemo; scoreVERBO: 0. collocate: multus; scoreVERBO: 0. collocate: magnus; scoreVERBO: 0. collocate: de; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-114-97-101-116-101-114-101-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword praeterea here are all the values plotted: collocate: multitudo; scoreADV: 0. collocate: duo; scoreADV: 0. collocate: nemo; scoreADV: 0. collocate: multus; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: de; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-114-97-101-116-101-114-101-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword praeterea here are all the values plotted: collocate: multitudo; scoreFUNC: 0. collocate: duo; scoreFUNC: 0. collocate: nemo; scoreFUNC: 0. collocate: multus; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0. collocate: de; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> unum aiebat <b>praeterea</b> neminem <br> <small> Cic.Phil.1.3.1 <br> Só um, dizia, mais ninguém. <small> [JDD] </small> </small> </p>
+; <p> <b>praeterea</b> de muro statue quid faciendum sit <br> <small> Cic.Att.2.6.2 <br> Além disso, decide o que deve ser feito com relação ao muro. <small> [JDD] </small> </small> </p>
+; <p> accedit eodem etiam noster Hortensius multi <b>praeterea</b> boni <br> <small> Cic.Att.1.14.5 <br> a esse mesmo local aproximou-se também o nosso querido Hortêncio, além de muitos homens de bem. <small> [JDD] </small> </small> </p>
+; <p> sunt <b>praeterea</b> duae breves quasi ἀποσπασμάτια legis agrariae <br> <small> Cic.Att.2.1.3 <br> Além desses, há dois curtos, como que fragmentos da lei agrária. <small> [JDD] </small> </small> </p>
+; <p> cum Hortensius veniret et infirmus et tam longe et Hortensius cum maxima <b>praeterea</b> multitudo ille non venit <br> <small> Cic.Att.5.2.2 <br> Depois de Hortênsio ter vindo e enfermo e de tão longe, e Hortênsio! além disso depois de ter vindo a maior multidão, ele não veio?” <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-114-97-101-116-101-114-101-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 25.04 and an absolute frequency of 27. The Tacitus subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 7 ; absolute frequency: 2.64370420726641. subcorpus: Cicero ; normalized frequency: 38 ; absolute frequency: 2.36724726520645. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 27 ; absolute frequency: 25.0440589926723. subcorpus: Seneca ; normalized frequency: 10 ; absolute frequency: 1.86633321513223. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-114-97-101-116-101-114-101-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 8.28 and an absolute frequency of 34. The Poesia.trágica subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 34 ; absolute frequency: 8.2767350714477. subcorpus: Prosa.filosófica ; normalized frequency: 13 ; absolute frequency: 2.14164511293059. subcorpus: Prosa.oratória ; normalized frequency: 21 ; absolute frequency: 2.01626453390685. subcorpus: Prosa.epistolográfica ; normalized frequency: 14 ; absolute frequency: 3.70969024086489. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-114-97-101-116-101-114-101-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 3.54 and an absolute frequency of 76. The I.a.C. subcorpus follows, with a normalized frequency of 3.54 and an absolute frequency of 76. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 76 ; absolute frequency: 3.53735164067954. subcorpus: I.d.C. ; normalized frequency: 10 ; absolute frequency: 1.52975370965275. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

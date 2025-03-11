@@ -1,0 +1,200 @@
+---
+title: "num"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>num</b> <br> <small>adv.</small> <br> <small>Obs.: Notem-se as expressões: a num quis Cíc. Dej. 20 “por acaso alguém”: b num quando Cíc. Phil. 5. 29 “acaso alguma vez?”; c num nam? Plaut. Aul. 389 “acaso pois?”; d numne Cíc. Nat. 1, 88. “por acaso?”.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Por acaso, porventura? &ensp; <small>serve para interrogar, equivalendo a uma negação:</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>num tot ducum naufragium sustulit artem gubernandi? aut num...? Cíc: Div. 1, 24 «por acaso os naufrágios de tantos chefes suprimiram a arte da navegação? ou ainda por acaso ...?. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Num</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; por ventura? acaso? </p>
+
+
+
+
+#### Velez
+
+<b>num</b>
+
+
+
+
+#### Cardoso
+
+<b>Num</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; polla ventura </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/113791 ' target="_blank"> http://lila-erc.eu/data/id/lemma/113791 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword num here are all the values plotted: collocate: igitur; scoreSUBST: 0. collocate: dubito; scoreSUBST: 0. collocate: quaero; scoreSUBST: 0. collocate: quis; scoreSUBST: 0. collocate: etiam; scoreSUBST: 0. collocate: uolo; scoreSUBST: 0. collocate: tu; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword num here are all the values plotted: collocate: igitur; scoreADJ: 0. collocate: dubito; scoreADJ: 0. collocate: quaero; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: etiam; scoreADJ: 0. collocate: uolo; scoreADJ: 0. collocate: tu; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword num here are all the values plotted: collocate: igitur; scoreVERBO: 0. collocate: dubito; scoreVERBO: 2. collocate: quaero; scoreVERBO: 2. collocate: quis; scoreVERBO: 0. collocate: etiam; scoreVERBO: 0. collocate: uolo; scoreVERBO: 2. collocate: tu; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword num here are all the values plotted: collocate: igitur; scoreADV: 3. collocate: dubito; scoreADV: 0. collocate: quaero; scoreADV: 0. collocate: quis; scoreADV: 0. collocate: etiam; scoreADV: 2. collocate: uolo; scoreADV: 0. collocate: tu; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword num here are all the values plotted: collocate: igitur; scoreFUNC: 0. collocate: dubito; scoreFUNC: 0. collocate: quaero; scoreFUNC: 0. collocate: quis; scoreFUNC: 0. collocate: etiam; scoreFUNC: 0. collocate: uolo; scoreFUNC: 0. collocate: tu; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>num</b> quis obiecit <br> <small> Cic.Cael.56 <br> Acaso alguém lhe imputou algo? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>num</b> te de supplicatione uoluit referre <br> <small> Cic.Phil.14.23.8 <br> Por acaso quis que tu propusesses uma ação de graças? <small> [JDD] </small> </small> </p>
+; <p> <b>num</b> igitur utrum horum sit dubitare possumus <br> <small> Cic.Phil.4.8.6 <br> Por acaso, podemos então ter dúvida de qual dessas opções é? <small> [JDD] </small> </small> </p>
+; <p> <b>num</b> quid simile populus Romanus audierat aut uiderat <br> <small> Cic.Amici.41 <br> Por acaso o povo romano tinha ouvido ou tinha visto algo semelhante? <small> [JDD] </small> </small> </p>
+; <p> ipse si uelit <b>num</b> etiam Lucium fratrem passurum arbitramur <br> <small> Cic.Phil.6.10.1 <br> Se ele próprio quisesse, por acaso julgamos que seu irmão Lúcio permitiria? <small> [JDD] </small> </small> </p>
+; <p> <b>num</b> igitur ulla quaestio de Africani morte lata est <br> <small> Cic.Mil.16 <br> Por ventura algum inquérito sobre a morte do Africano foi então proposto? <small> [JDD] </small> </small> </p>
+; <p> <b>num</b> quis denique fecisset mentionem si hic nullius nomen detulisset <br> <small> Cic.Cael.56 <br> Enfim, acaso alguém teria feito menção a ele, se ele não tivesse delatado o nome de ninguém? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 7.99 and an absolute frequency of 9. The Cicero subcorpus follows, with a normalized frequency of 5.3 and an absolute frequency of 85. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 85 ; absolute frequency: 5.29515835638285. subcorpus: Horatius ; normalized frequency: 9 ; absolute frequency: 7.99218541870171. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 10 ; absolute frequency: 1.86633321513223. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 7.57 and an absolute frequency of 9. The Prosa.oratória subcorpus follows, with a normalized frequency of 5.66 and an absolute frequency of 59. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 2 ; absolute frequency: 0.486866768908688. subcorpus: Prosa.filosófica ; normalized frequency: 25 ; absolute frequency: 4.1185482940973. subcorpus: Prosa.oratória ; normalized frequency: 59 ; absolute frequency: 5.66474321430972. subcorpus: Prosa.epistolográfica ; normalized frequency: 8 ; absolute frequency: 2.11982299477994. subcorpus: Poesia.lírica ; normalized frequency: 9 ; absolute frequency: 7.57129637419029. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 4.42 and an absolute frequency of 95. The I.d.C. subcorpus follows, with a normalized frequency of 1.68 and an absolute frequency of 11. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 95 ; absolute frequency: 4.42168955084943. subcorpus: I.d.C. ; normalized frequency: 11 ; absolute frequency: 1.68272908061802. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

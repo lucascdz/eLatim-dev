@@ -1,0 +1,197 @@
+---
+title: "custos"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-117-115-116-111-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>custōs</b> <b>-ódis</b> <br> <small>subs. m. e f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Guarda, guardião, guardiã, defensor, protetor &ensp; <small>Cíc. Cat. 2, 27.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Pedagogo, diretor &ensp; <small>Ter. Phorm. 287.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado</small> &ensp; Verificador, superintendente &ensp; <small>dos comícios a fim de impedir a fraude nas eleições Cíc. Agr. 2, 22.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado</small> &ensp; Cão de guarda &ensp; <small>Verg. G. 3, 406.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Custos</b> -<b>odis</b> <br> <small>m. Cic.</small>   <p> <b>1</b> &ensp; carcereiro ou carcereira, o que ou a que guarda. <br> <b>2</b> &ensp; <small>Hor.</small> &ensp; aio, pedagogo. <br> <b>3</b> &ensp; <small>Suet.</small> &ensp; espia. <br> <b>4</b> &ensp; <small>Col.</small> &ensp; pollegar da vide, o pé mais forte, e curto da vide podada. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>cingere custode abitum &ensp; <small><small>Virg</small></small> &ensp; <small>Pôr guardas, para que não se saia por parte alguma, tomar todas as sahidas</small> <br> custos ad limina &ensp; <small><small>Virg</small></small> &ensp; <small>Porteiro</small> <br> custos portae &ensp; <small><small>Cic</small></small> &ensp; <small>Porteiro</small> </p>
+
+
+
+
+#### Velez
+
+<b>Custos</b> -<b>odis</b>   <p> <b>1</b> &ensp; o que, ou a que guarda, ou defende </p>
+
+
+
+
+#### Cardoso
+
+<b>Custos</b> <b>odis</b>   <p> <b>1</b> &ensp; ho guardador. ou guardadora </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/97396 ' target="_blank"> http://lila-erc.eu/data/id/lemma/97396 </a> <br>
+<small> classe: </small> substantivo comum de dois gêneros   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+custōs 
+ custōdis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-117-115-116-111-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> etenim qui multorum <b>custodem</b> se profiteatur eum sapientes sui primum capitis aiunt <b>custodem</b> esse oportere <br> <small> Cic.Phil.12.25.9 <br> Com efeito, os sábios dizem que convém que aquele que se declara guarda de muitos seja antes de tudo guarda de sua própria vida. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-117-115-116-111-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 6.22 and an absolute frequency of 7. The Horatius subcorpus follows, with a normalized frequency of 6.22 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 3 ; absolute frequency: 1.13301608882846. subcorpus: Cicero ; normalized frequency: 17 ; absolute frequency: 1.05903167127657. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 8 ; absolute frequency: 1.49306657210578. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-117-115-116-111-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 5.89 and an absolute frequency of 7. The Poesia.didática subcorpus follows, with a normalized frequency of 2.54 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 4 ; absolute frequency: 0.973733537817376. subcorpus: Prosa.filosófica ; normalized frequency: 5 ; absolute frequency: 0.823709658819459. subcorpus: Prosa.oratória ; normalized frequency: 16 ; absolute frequency: 1.53620154964331. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-117-115-116-111-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 1.68 and an absolute frequency of 11. The I.a.C. subcorpus follows, with a normalized frequency of 1.35 and an absolute frequency of 29. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 29 ; absolute frequency: 1.34977891552246. subcorpus: I.d.C. ; normalized frequency: 11 ; absolute frequency: 1.68272908061802. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

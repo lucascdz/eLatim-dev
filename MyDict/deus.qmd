@@ -1,0 +1,220 @@
+---
+title: "deus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-101-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>deus</b> <b>-í</b> <br> <small>subs. m.</small> <br> <small>Obs.: 1 Voc. sing. desusado. 2 No pl.: nom.: di, dii, dei; gen.: deorum e deum; dat. e abl.: dis, diis, deis.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Deus, divindade &ensp; <small>Cíc. Balb. 23.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; O que é venerado como um deus &ensp; <small>Cíc. De Or. 1, 106.</small> </p> 
+ <b>dibus</b> <br> <small>por diis, v. deus.</small> <br> <small></small> 
+ <small>1.</small> <b>Diī</b> <b>deórum</b> <br> <small>pl. de deus.</small> <br> <small></small> 
+ <small>2.</small> <b>di</b> <br> <small>= dii, v. deus.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Deus</b> -<b>ei</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; deos. &ensp; <small>Os Poetas Latinos á imitação dos Gregos denominão Dei tanto os machos, como as femeas. Toma-se tambem por tudo que he excellente, v. gr. Plato Philosophorum Deus. Cic. Platão o mais admiravel entre os Filosofos.</small> </p>
+
+
+
+
+#### Velez
+
+<b>DEUS</b> -<b>ei</b> <br> <small>Voc ô Deus.</small>   <p> <b>1</b> &ensp; deos &ensp; <small>à dando paecipué dictus</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Deus</b> -<b>ei</b>   <p> <b>1</b> &ensp; deos. ou deosa </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/99132 ' target="_blank"> http://lila-erc.eu/data/id/lemma/99132 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+dĕus 
+ dĕī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-101-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-101-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword deus here are all the values plotted: collocate: immortalis; scoreSUBST: 0. collocate: per; scoreSUBST: 0. collocate: templum; scoreSUBST: 3. collocate: Penates; scoreSUBST: 0. collocate: regnum; scoreSUBST: 2. collocate: patrius; scoreSUBST: 0. collocate: o; scoreSUBST: 0. collocate: bonus; scoreSUBST: 0. collocate: ira; scoreSUBST: 2. collocate: homo; scoreSUBST: 2. collocate: delubrum; scoreSUBST: 2. collocate: iuuo; scoreSUBST: 0. collocate: oro; scoreSUBST: 0. collocate: beneficium; scoreSUBST: 2. collocate: religio; scoreSUBST: 2. collocate: cura; scoreSUBST: 2. collocate: etiam; scoreSUBST: 0. collocate: filius; scoreSUBST: 2. collocate: gratia; scoreSUBST: 2. collocate: ab; scoreSUBST: 0. collocate: honor; scoreSUBST: 2. collocate: sequor; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-101-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword deus here are all the values plotted: collocate: immortalis; scoreADJ: 5. collocate: per; scoreADJ: 0. collocate: templum; scoreADJ: 0. collocate: Penates; scoreADJ: 0. collocate: regnum; scoreADJ: 0. collocate: patrius; scoreADJ: 2. collocate: o; scoreADJ: 0. collocate: bonus; scoreADJ: 2. collocate: ira; scoreADJ: 0. collocate: homo; scoreADJ: 0. collocate: delubrum; scoreADJ: 0. collocate: iuuo; scoreADJ: 0. collocate: oro; scoreADJ: 0. collocate: beneficium; scoreADJ: 0. collocate: religio; scoreADJ: 0. collocate: cura; scoreADJ: 0. collocate: etiam; scoreADJ: 0. collocate: filius; scoreADJ: 0. collocate: gratia; scoreADJ: 0. collocate: ab; scoreADJ: 0. collocate: honor; scoreADJ: 0. collocate: sequor; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-101-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword deus here are all the values plotted: collocate: immortalis; scoreVERBO: 0. collocate: per; scoreVERBO: 0. collocate: templum; scoreVERBO: 0. collocate: Penates; scoreVERBO: 0. collocate: regnum; scoreVERBO: 0. collocate: patrius; scoreVERBO: 0. collocate: o; scoreVERBO: 0. collocate: bonus; scoreVERBO: 0. collocate: ira; scoreVERBO: 0. collocate: homo; scoreVERBO: 0. collocate: delubrum; scoreVERBO: 0. collocate: iuuo; scoreVERBO: 2. collocate: oro; scoreVERBO: 2. collocate: beneficium; scoreVERBO: 0. collocate: religio; scoreVERBO: 0. collocate: cura; scoreVERBO: 0. collocate: etiam; scoreVERBO: 0. collocate: filius; scoreVERBO: 0. collocate: gratia; scoreVERBO: 0. collocate: ab; scoreVERBO: 0. collocate: honor; scoreVERBO: 0. collocate: sequor; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-101-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword deus here are all the values plotted: collocate: immortalis; scoreADV: 0. collocate: per; scoreADV: 0. collocate: templum; scoreADV: 0. collocate: Penates; scoreADV: 0. collocate: regnum; scoreADV: 0. collocate: patrius; scoreADV: 0. collocate: o; scoreADV: 0. collocate: bonus; scoreADV: 0. collocate: ira; scoreADV: 0. collocate: homo; scoreADV: 0. collocate: delubrum; scoreADV: 0. collocate: iuuo; scoreADV: 0. collocate: oro; scoreADV: 0. collocate: beneficium; scoreADV: 0. collocate: religio; scoreADV: 0. collocate: cura; scoreADV: 0. collocate: etiam; scoreADV: 1. collocate: filius; scoreADV: 0. collocate: gratia; scoreADV: 0. collocate: ab; scoreADV: 0. collocate: honor; scoreADV: 0. collocate: sequor; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-101-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword deus here are all the values plotted: collocate: immortalis; scoreFUNC: 0. collocate: per; scoreFUNC: 30. collocate: templum; scoreFUNC: 0. collocate: Penates; scoreFUNC: 0. collocate: regnum; scoreFUNC: 0. collocate: patrius; scoreFUNC: 0. collocate: o; scoreFUNC: 0. collocate: bonus; scoreFUNC: 0. collocate: ira; scoreFUNC: 0. collocate: homo; scoreFUNC: 0. collocate: delubrum; scoreFUNC: 0. collocate: iuuo; scoreFUNC: 0. collocate: oro; scoreFUNC: 0. collocate: beneficium; scoreFUNC: 0. collocate: religio; scoreFUNC: 0. collocate: cura; scoreFUNC: 0. collocate: etiam; scoreFUNC: 0. collocate: filius; scoreFUNC: 0. collocate: gratia; scoreFUNC: 0. collocate: ab; scoreFUNC: 10. collocate: honor; scoreFUNC: 0. collocate: sequor; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>di</b> boni <br> <small> Cic.Mil.59 <br> Bons deuses! <small> [JDD] </small> </small> </p>
+; <p> tum per <b>deos</b> immortalis <br> <small> Cic.Man.53 <br> Então, pelos deuses imortais. <small> [JDD] </small> </small> </p>
+; <p> pro <b>deum</b> hominumque fidem <br> <small> Cic.Ver.2.4.7.6 <br> Pela fé dos deuses e dos homens! <small> [JDD] </small> </small> </p>
+; <p> quod superest <b>di</b> iuvent <br> <small> Cic.Att.5.11.4 <br> Quanto ao que resta, que os deuses nos ajudem! <small> [JDD] </small> </small> </p>
+; <p> saepe ita me <b>di</b> iuvent <br> <small> Cic.Att.1.16.1 <br> Muitas vezes, assim me ajudem os deuses. <small> [JDD] </small> </small> </p>
+; <p> initium evangelii Iesu Christi Filii <b>Dei</b> <br> <small> Vulg.Marc.1.1 <br> Início do evangelho de Jesus Cristo, filho de Deus. <small> [JDD] </small> </small> </p>
+; <p> an templa <b>deos</b> super usta suos <br> <small> Sen.Ag.653 <br> ou os templos queimados sobre seus deuses? <small> [JDD] </small> </small> </p>
+; <p> impletum est tempus et adpropinquavit regnum <b>Dei</b> <br> <small> Vulg.Marc.1.15 <br> o tempo está cumprido e se aproxima o reino de Deus. <small> [JDD] </small> </small> </p>
+; <p> remittunt ipsi hanc <b>deo</b> curam externa contemnunt <br> <small> Sen.Prov.6.1 <br> Eles próprios afastam do deus essa preocupação: menosprezam as coisas exteriores. <small> [JDD] </small> </small> </p>
+; <p> <b>deos</b> oro contingat hunc habere nobis superstitem <br> <small> Sen.Helv.18.6 <br> Peço aos deuses que ele tenha a sorte de sobreviver a nós. <small> [JDD] </small> </small> </p>
+; <p> sed per <b>deos</b> inmortalis quo illa oratio pertinuit <br> <small> Sal.Cat.51.10 <br> Mas, pelos deuses imortais, a que visa aquela oratória? <small> [JDD] </small> </small> </p>
+; <p> sedibus pulsi suis lacrimas sequantur <b>di</b> maritales sati ne <br> <small> Sen.Oed.955 <br> Que sigam as lágrimas, expulsos de suas órbitas: deuses maritais, é o bastante? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Caesarem <b>deorum</b> beneficio rei publicae procreatum dubitem ne appellare imperatorem <br> <small> Cic.Phil.14.25.4 <br> Eu duvidaria em chamar de general vitorioso, nascido para a república pelo favor dos deuses? <small> [JDD] </small> </small> </p>
+; <p> tamen illius uendibilem orationem religio <b>deorum</b> immortalium nobis defendentibus facile uincebat <br> <small> Cic.Amici.96 <br> Contudo, o respeito aos deuses imortais, que eu defendia, venceu facilmente o discurso vendível daquele. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nam multi saepe honores <b>dis</b> immortalibus iusti habiti sunt ac debiti sed profecto iustiores numquam <br> <small> Cic.Catil.3.23.3 <br> Com efeito, muitas vezes têm sido dedicadas aos deuses imortais muitas honras justas e devidas, mas sem dúvida nunca foram mais justas. <small> [JDD] </small> </small> </p>
+; <p> iam enim non solum homines sed etiam <b>deos</b> immortalis ad rem publicam conseruandam arbitror consensisse <br> <small> Cic.Phil.4.10.4 <br> Pois acho que agora não só os homens, mas também os deuses imortais se puseram de acordo para salvar a república. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quoduis exsilium his est optatius quam patria quam domus quam <b>di</b> Penates illo uno exsulante <br> <small> Cic.Lig.33 <br> Qualquer exílio é para estes mais desejado do que sua pátria, do que sua casa, do que seus deuses penates, estando só ele exilado. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> a liberis me <b>dius</b> Fidius et a coniugibus uestris numquam ille effrenatas suas libidines cohibuisset <br> <small> Cic.Mil.76 <br> Pelo deus da boa-fé, aquele nunca teria coibido seus desenfreado desejos perante vossos filhos e vossas esposas. <small> [JDD] </small> </small> </p>
+; <p> recordamini per <b>deos</b> immortalis patres conscripti quid hoc biduo timuerimus a domesticis hostibus rumoribus improbissimis dissipatis <br> <small> Cic.Phil.14.10.5 <br> Recordai, pelos deuses imortais! pais conscritos, que medo sentimos neste dois dias da parte dos inimigos daqui de dentro, depois que se divulgaram os mais infames rumores. <small> [JDD] </small> </small> </p>
+; <p> uerum illi delubra <b>deorum</b> pietate domos suas gloria decorabant neque uictis quicquam praeter iniuriae licentiam eripiebant <br> <small> Sal.Cat.12.4 <br> Eles, na verdade, decoravam os santuários dos deuses com sua piedade, suas casas com a glória, e não arrebatavam nada aos vencidos, exceto a liberdade de injúria. <small> [JDD] </small> </small> </p>
+; <p> nec uero non eadem ira <b>deorum</b> hanc eius satellitibus iniecit amentiam ut sine imaginibus sine cantu atque ludis sine exsequiis sine lamentis sine laudationibus sine funere oblitus cruore et luto spoliatus illius supremi diei celebritate cui cedere inimici etiam solent ambureretur abiectus <br> <small> Cic.Mil.86 <br> E, na verdade, essa mesma ira dos deuses inspirou essa loucura aos seus asseclas, de modo que, sem imagens, sem canto e jogos, sem exéquias, sem lamentos, sem louvações, sem funeral, coberto de sangue e de barro, privado da solenidade daquele dia supremo, a qual até mesmo os inimigos costumam conceder, ele foi queimado jogado no chão. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-101-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Ovidius subcorpus registers the highest normalized frequency, with the value of 39.46 and an absolute frequency of 23. The Vergilius subcorpus follows, with a normalized frequency of 21.24 and an absolute frequency of 11. the subcorpus with the least normalized frequency is Caesar with the normalized value of 3.4 and an absolute freqeuncy of 9. here are all the values: subcorpus: Caesar ; normalized frequency: 9 ; absolute frequency: 3.39904826648538. subcorpus: Cicero ; normalized frequency: 204 ; absolute frequency: 12.7083800553188. subcorpus: Horatius ; normalized frequency: 32 ; absolute frequency: 28.416659266495. subcorpus: Ovidius ; normalized frequency: 23 ; absolute frequency: 39.4646533973919. subcorpus: Phaedrus ; normalized frequency: 4 ; absolute frequency: 6.0725671777744. subcorpus: Sallustius ; normalized frequency: 16 ; absolute frequency: 14.8409238475095. subcorpus: Seneca ; normalized frequency: 133 ; absolute frequency: 24.8222317612587. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 11 ; absolute frequency: 21.2355212355212. subcorpus: Hieronymus ; normalized frequency: 17 ; absolute frequency: 38.193664345091'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-101-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 38.19 and an absolute frequency of 17. The Poesia.trágica subcorpus follows, with a normalized frequency of 35.62 and an absolute frequency of 41. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 3.18 and an absolute freqeuncy of 12. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 28 ; absolute frequency: 6.81613476472163. subcorpus: Prosa.filosófica ; normalized frequency: 114 ; absolute frequency: 18.7805802210837. subcorpus: Prosa.oratória ; normalized frequency: 170 ; absolute frequency: 16.3221414649602. subcorpus: Prosa.epistolográfica ; normalized frequency: 12 ; absolute frequency: 3.1797344921699. subcorpus: Poesia.lírica ; normalized frequency: 33 ; absolute frequency: 27.7614200386977. subcorpus: Poesia.didática ; normalized frequency: 26 ; absolute frequency: 22.0544575451692. subcorpus: Poesia.trágica ; normalized frequency: 41 ; absolute frequency: 35.6150104239055. subcorpus: Poesia.épica ; normalized frequency: 11 ; absolute frequency: 21.2355212355212. subcorpus: Prosa.ficcional ; normalized frequency: 17 ; absolute frequency: 38.193664345091'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-101-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 38.19 and an absolute frequency of 17. The I.d.C. subcorpus follows, with a normalized frequency of 24.32 and an absolute frequency of 159. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 7.85 and an absolute freqeuncy of 3. here are all the values: subcorpus: I.a.C. ; normalized frequency: 273 ; absolute frequency: 12.7065394461252. subcorpus: I.d.C. ; normalized frequency: 159 ; absolute frequency: 24.3230839834787. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 17 ; absolute frequency: 38.193664345091'}
+
+
+:::
+

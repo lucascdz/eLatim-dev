@@ -1,0 +1,207 @@
+---
+title: "ordo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx111-114-100-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>ordō</b> <b>-ìnis</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. primitivo</small> &ensp; Ordem &ensp; <small>dos fios na teia.</small> <br> <b>2</b> &ensp; <small>II-Sent. próprio concreto</small> &ensp; Linha, fileira, disposição &ensp; <small>Cíc. Caec. 22.</small> <br> <b>3</b> &ensp; <small>III-Sents. especiais linguagem técnica:</small> &ensp; Fila de soldados, linha, ordem de batalha &ensp; <small>língua militar:</small> <br> <b>4</b> &ensp; <small>III-Sents. especiais linguagem técnica:</small> &ensp; Corpo de tropas, centúria &ensp; <small>Cés. B. Gal. 1, 40, 1.</small> <br> <b>5</b> &ensp; <small>III-Sents. especiais linguagem técnica:</small> &ensp; Centurião, o que comanda: &ensp; <small></small> <br> <b>6</b> &ensp; <small>III-Sents. especiais linguagem técnica:</small> &ensp; Ordem, classe social &ensp; <small>na língua juridical:</small> <br> <b>7</b> &ensp; <small>III-Sents. especiais linguagem técnica:</small> &ensp; Senado &ensp; <small>por extensão:</small> <br> <b>8</b> &ensp; <small>IV-Sent. figurado:</small> &ensp; Ordem, boa ordem, disposição regular &ensp; <small>Cíc. Ac. 1, 17.</small> <br> <b>9</b> &ensp; <small>IV-Sent. figurado:</small> &ensp; Ordem, sucessão, série, encadeamento, alinhamento &ensp; <small>Cíc. Br. 244.</small> <br> <b>10</b> &ensp; <small>IV-Em expressões:-ordine T. Liv. 3, 50,4</small> &ensp; “bem, segundo o rito, prudentemente”. &ensp; <small></small> <br> <b>11</b> &ensp; <small>IV-Em expressões:</small> &ensp; <small></small> <br> <b>12</b> &ensp; <small>IV-Em expressões:</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>3</b><br>ordine egredi Sal. B. Jug. 45, 2 “sair da fila”. <br> <br><b>5</b><br>primi ordines Cés. B. Gal. 5, 30, 1 “os centuriões mais graduados” os da 1ª coorte. <br> <br><b>6</b><br>ordo senatorius Cíc. Clu. 104 “ordem senatorial”. <br> <br><b>7</b><br>in hoc ordine C le. Phil. 2, 31 “neste senado”. <br> <br><b>11</b><br>Ex ordine Cíc. Verr. 4, 143 “seguindo a ordem”, “por ordem” , «sucessivamente». <br> <br><b>12</b><br>in ordine Verg. En 8, 629 «pela ordem, sucessivamente». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Ordo</b> -<b>inis</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; ordem, disposição. <br> <b>2</b> &ensp; renque, fileira. <br> <b>3</b> &ensp; condição, estado, qualidade. <br> <b>4</b> &ensp; serie, encadeamento de cousas. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>ducere ordines &ensp; <small><small>Cic</small></small> &ensp; <small>Ser centurião, ser capitão, commandar tropas, & c</small> <br> uno ordine omnes habere &ensp; <small><small>Virg</small></small> &ensp; <small>Ter todos na mesma conta, fazer o mesmo conceito de todos</small> </p>
+
+
+
+
+#### Velez
+
+<b>Ordo</b> <b>ordinis</b>   <p> <b>1</b> &ensp; ordem, disposiçaõ estado, gráo </p>
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/115236 ' target="_blank"> http://lila-erc.eu/data/id/lemma/115236 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ordō 
+ ordĭnis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx111-114-100-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx111-114-100-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ordo here are all the values plotted: collocate: equester; scoreSUBST: 0. collocate: amplus; scoreSUBST: 0. collocate: longus; scoreSUBST: 0. collocate: dignitas; scoreSUBST: 2. collocate: hic; scoreSUBST: 0. collocate: totus; scoreSUBST: 0. collocate: omnis; scoreSUBST: 0. collocate: populus; scoreSUBST: 2. collocate: homo; scoreSUBST: 2. collocate: atque; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx111-114-100-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ordo here are all the values plotted: collocate: equester; scoreADJ: 3. collocate: amplus; scoreADJ: 2. collocate: longus; scoreADJ: 2. collocate: dignitas; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: totus; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: populus; scoreADJ: 0. collocate: homo; scoreADJ: 0. collocate: atque; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx111-114-100-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ordo here are all the values plotted: collocate: equester; scoreVERBO: 0. collocate: amplus; scoreVERBO: 0. collocate: longus; scoreVERBO: 0. collocate: dignitas; scoreVERBO: 0. collocate: hic; scoreVERBO: 0. collocate: totus; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0. collocate: populus; scoreVERBO: 0. collocate: homo; scoreVERBO: 0. collocate: atque; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx111-114-100-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ordo here are all the values plotted: collocate: equester; scoreADV: 0. collocate: amplus; scoreADV: 0. collocate: longus; scoreADV: 0. collocate: dignitas; scoreADV: 0. collocate: hic; scoreADV: 0. collocate: totus; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: populus; scoreADV: 0. collocate: homo; scoreADV: 0. collocate: atque; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx111-114-100-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ordo here are all the values plotted: collocate: equester; scoreFUNC: 0. collocate: amplus; scoreFUNC: 0. collocate: longus; scoreFUNC: 0. collocate: dignitas; scoreFUNC: 0. collocate: hic; scoreFUNC: 0. collocate: totus; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0. collocate: populus; scoreFUNC: 0. collocate: homo; scoreFUNC: 0. collocate: atque; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> omnia uitia contra naturam pugnant omnia debitum <b>ordinem</b> deserunt <br> <small> Sen.Ep.122.5 <br> Todos os vícios lutam contra a natureza, todos abandonam a ordem devida. <small> [JDD] </small> </small> </p>
+; <p> omnes <b>ordines</b> ad conseruandam rem publicam mente uoluntate uoce consentiunt <br> <small> Cic.Catil.4.18.6 <br> Todas as classes concordam com a mente, com a vontade, com a voz para salvar a república. <small> [JDD] </small> </small> </p>
+; <p> idem uolunt omnes <b>ordines</b> eodem incumbunt municipia coloniae cuncta Italia <br> <small> Cic.Phil.6.18.10 <br> O mesmo querem todas as ordens, no mesmo estão empenhados os municípios, as colônias, toda a Itália. <small> [JDD] </small> </small> </p>
+; <p> et cum uniuerso populo Romano tum uero equestri <b>ordini</b> longe carissimus <br> <small> Cic.Rab.Perd.39 <br> E ele é de longe o mais caro não só a todo o povo romano, mas também à ordem equestre. <small> [JDD] </small> </small> </p>
+; <p> et multi hoc idem ex omni <b>ordine</b> atque ex omni aetate fecerunt <br> <small> Cic.Cael.12 <br> E muitos de toda classe  e de toda idade fizeram o mesmo. <small> [JDD] </small> </small> </p>
+; <p> quid de tribunis aerariis ceterorumque <b>ordinum</b> omnium hominibus qui tum arma pro communi libertate ceperunt <br> <small> Cic.Rab.Perd.27 <br> E dos tribunos do erário e de todas as pessoas das demais ordens que na época pegaram em armas em defesa da liberdade comum? <small> [JDD] </small> </small> </p>
+; <p> me cum dico leue est senatorem populi Romani si non inuitarunt honorem debitum detraxerunt non homini sed <b>ordini</b> <br> <small> Cic.Ver.2.4.25.10 <br> Quando eu digo “a mim”, é sem importância: se não convidaram a um senador do povo romano, eles denegaram a honra devida não ao homem, mas ao cargo. <small> [JDD] </small> </small> </p>
+; <p> moneo praedicosque id quod intellego tempus hoc uobis diuinitus datum esse ut odio inuidia infamia turpitudine totum <b>ordinem</b> liberetis <br> <small> Cic.Ver.1.43 <br> Eu vos aconselho e vos previno o que eu percebo: vos foi concedida essa ocasião da parte dos deuses para que livreis a vossa classe inteira do ódio, infâmia e torpeza. <small> [JDD] </small> </small> </p>
+; <p> L. Pisonis amplissimi uiri praeclara uox a te non solum in hoc <b>ordine</b> Pansa sed etiam in contione iure laudata est <br> <small> Cic.Phil.12.14.6 <br> Por ti, Pansa, foi elogiada com razão, não só neste congresso, mas também numa assembléia do povo, a ilustre fala do magnífico homem Lúcio Pisão. <small> [JDD] </small> </small> </p>
+; <p> causa pendet ex causa priuata ac publica longus <b>ordo</b> rerum trahit ideo fortiter omne patiendum est quia non ut putamus incidunt cuncta sed ueniunt <br> <small> Sen.Prov.5.7 <br> A causa depende da causa; uma longa ordem das coisas arrasta consigo assuntos privados e públicos. Por isso é preciso suportar corajosamente qualquer coisa, porque não sobrevêm todas, como pensamos, mas vão chegando. <small> [JDD] </small> </small> </p>
+; <p> retinenda est igitur nobis constantia grauitas perseuerantia repetenda uetus illa seueritas si quidem auctoritas senatus decus honestatem laudem dignitatemque desiderat quibus rebus hic <b>ordo</b> caruit nimium diu <br> <small> Cic.Phil.7.14.12 <br> Nós devemos, portanto, manter a constância, a gravidade, a perseverância; devemos retomar aquela antiga seriedade, visto que a autoridade do senado sente falta do decoro, da honra, do louvor e da dignidade, e dessas coisas este congresso tem carecido faz demasiado tempo. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx111-114-100-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 22.05 and an absolute frequency of 2. The Cicero subcorpus follows, with a normalized frequency of 7.04 and an absolute frequency of 113. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 13 ; absolute frequency: 4.90973638492333. subcorpus: Cicero ; normalized frequency: 113 ; absolute frequency: 7.03944581495602. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 11 ; absolute frequency: 2.05296653664545. subcorpus: Suetonius ; normalized frequency: 2 ; absolute frequency: 22.0507166482911. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx111-114-100-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 8.93 and an absolute frequency of 93. The Poesia.trágica subcorpus follows, with a normalized frequency of 2.61 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 22 ; absolute frequency: 5.35553445799557. subcorpus: Prosa.filosófica ; normalized frequency: 15 ; absolute frequency: 2.47112897645838. subcorpus: Prosa.oratória ; normalized frequency: 93 ; absolute frequency: 8.92917150730176. subcorpus: Prosa.epistolográfica ; normalized frequency: 13 ; absolute frequency: 3.4447123665174. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx111-114-100-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 6.38 and an absolute frequency of 137. The I.d.C. subcorpus follows, with a normalized frequency of 1.68 and an absolute frequency of 11. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 137 ; absolute frequency: 6.37654177333023. subcorpus: I.d.C. ; normalized frequency: 11 ; absolute frequency: 1.68272908061802. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

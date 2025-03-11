@@ -1,0 +1,212 @@
+---
+title: "ullus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-108-108-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>ūllae</b> <br> <small>dat. f. de úllus Tib. 4, 6, 9.</small> <br> <small></small> 
+ <b>ūllī</b> <br> <small>dat., v. úllus.</small> <br> <small></small> 
+ <b>ūllīus</b> <br> <small>gen., v. úllus.</small> <br> <small></small> 
+ <b>ūllus</b> <b>-a</b> <b>-um</b> <br> <small>pron.</small> <br> <small>Obs.: Geralmente é empregado em frases negativas, interrogativas ou condicionais. Gen. normalmente ullíus, mas em Catulo 4, 3: ullìus. Gen. ulli Plaut. Truc. 293. Dat. normalmente ullí, mas f. ullae Tib. 4, 6, 9.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Algum, alguma, alguém, alguma coisa, coisa alguma, ninguém, nada &ensp; <small>com uma negação Cíc. Br. 312; Cíc. Clu. 39; Cíc. Planc. 6.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Ullus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; algum. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Vllus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; algum </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/130494 ' target="_blank"> http://lila-erc.eu/data/id/lemma/130494 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> 1ª classe, pronominal (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ullīus
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-108-108-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ullus here are all the values plotted: collocate: sine; scoreSUBST: 0. collocate: nec; scoreSUBST: 0. collocate: neque; scoreSUBST: 0. collocate: ars; scoreSUBST: 2. collocate: modus; scoreSUBST: 2. collocate: umquam; scoreSUBST: 0. collocate: alius; scoreSUBST: 0. collocate: ratio; scoreSUBST: 2. collocate: pars; scoreSUBST: 2. collocate: spes; scoreSUBST: 2. collocate: periculum; scoreSUBST: 2. collocate: tempus; scoreSUBST: 2. collocate: res; scoreSUBST: 2. collocate: si; scoreSUBST: 0. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-108-108-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ullus here are all the values plotted: collocate: sine; scoreADJ: 0. collocate: nec; scoreADJ: 0. collocate: neque; scoreADJ: 0. collocate: ars; scoreADJ: 0. collocate: modus; scoreADJ: 0. collocate: umquam; scoreADJ: 0. collocate: alius; scoreADJ: 0. collocate: ratio; scoreADJ: 0. collocate: pars; scoreADJ: 0. collocate: spes; scoreADJ: 0. collocate: periculum; scoreADJ: 0. collocate: tempus; scoreADJ: 0. collocate: res; scoreADJ: 0. collocate: si; scoreADJ: 0. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-108-108-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ullus here are all the values plotted: collocate: sine; scoreVERBO: 0. collocate: nec; scoreVERBO: 0. collocate: neque; scoreVERBO: 0. collocate: ars; scoreVERBO: 0. collocate: modus; scoreVERBO: 0. collocate: umquam; scoreVERBO: 0. collocate: alius; scoreVERBO: 0. collocate: ratio; scoreVERBO: 0. collocate: pars; scoreVERBO: 0. collocate: spes; scoreVERBO: 0. collocate: periculum; scoreVERBO: 0. collocate: tempus; scoreVERBO: 0. collocate: res; scoreVERBO: 0. collocate: si; scoreVERBO: 0. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-108-108-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ullus here are all the values plotted: collocate: sine; scoreADV: 0. collocate: nec; scoreADV: 0. collocate: neque; scoreADV: 0. collocate: ars; scoreADV: 0. collocate: modus; scoreADV: 0. collocate: umquam; scoreADV: 2. collocate: alius; scoreADV: 0. collocate: ratio; scoreADV: 0. collocate: pars; scoreADV: 0. collocate: spes; scoreADV: 0. collocate: periculum; scoreADV: 0. collocate: tempus; scoreADV: 0. collocate: res; scoreADV: 0. collocate: si; scoreADV: 0. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-108-108-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ullus here are all the values plotted: collocate: sine; scoreFUNC: 50. collocate: nec; scoreFUNC: 0. collocate: neque; scoreFUNC: 0. collocate: ars; scoreFUNC: 0. collocate: modus; scoreFUNC: 0. collocate: umquam; scoreFUNC: 0. collocate: alius; scoreFUNC: 0. collocate: ratio; scoreFUNC: 0. collocate: pars; scoreFUNC: 0. collocate: spes; scoreFUNC: 0. collocate: periculum; scoreFUNC: 0. collocate: tempus; scoreFUNC: 0. collocate: res; scoreFUNC: 0. collocate: si; scoreFUNC: 10. collocate: in; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> genitor sine <b>ulla</b> caede defunctus iacet <br> <small> Sen.Oed.789 <br> Meu pai jaz morto sem nenhum assassinato. <small> [JDD] </small> </small> </p>
+; <p> sentiunt se nullam <b>ullius</b> partis voluntatem tenere <br> <small> Cic.Att.2.21.5 <br> Eles percebem que não contam com nenhuma boa vontade de nenhum partido. <small> [JDD] </small> </small> </p>
+; <p> deinde cogitabam sine <b>ulla</b> mora iusta itinera facere <br> <small> Cic.Att.5.2.1 <br> em seguida pensava em fazer sem nenhuma demora as viagens normais. <small> [JDD] </small> </small> </p>
+; <p> nec <b>ullum</b> orationi aut lenocinium addit aut pretium <br> <small> Tac.Hist.1.18.11 <br> E não acrescenta ao seu discurso nenhum afago ou recompensa. <small> [JDD] </small> </small> </p>
+; <p> quid si ne potest quidem <b>ulla</b> esse pax <br> <small> Cic.Phil.12.11.1 <br> E se, na verdade, não pode haver nenhuma paz? <small> [JDD] </small> </small> </p>
+; <p> quae fuit igitur umquam in <b>ullo</b> homine tanta constantia <br> <small> Cic.Lig.26 <br> Portanto, que constância tão grande houve alguma vez em algum homem? <small> [JDD] </small> </small> </p>
+; <p> sic loquere sic uiue uide ne te <b>ulla</b> res deprimat <br> <small> Sen.Ep.10.4 <br> Fala assim, vive assim; cuida para que nenhum acontecimento te deprima. <small> [JDD] </small> </small> </p>
+; <p> ille praetoris arcessitus nuntio rem demonstrat negat <b>ullo</b> modo fieri posse <br> <small> Cic.Ver.2.4.85.16 <br> Aquele, chamado por um mensageiro do pretor, lhe mostra a situação; diz que não pode se fazer de modo algum. <small> [JDD] </small> </small> </p>
+; <p> non uota non ars <b>ulla</b> correptos leuant cadunt medentes morbus auxilium trahit <br> <small> Sen.Oed.69 <br> Não há votos, nem arte alguma que aliviam os contagiados: caem os médicos, a doença arrasta seu próprio auxílio. <small> [JDD] </small> </small> </p>
+; <p> statuas fana τέθριππα prohibeo ne c sum in <b>ulla</b> re alia molestus civitatibus <br> <small> Cic.Att.5.21.7 <br> estátuas, templos, quadrigas eu proíbo, e em nenhuma outra coisa sou molesto para as cidades - <small> [JDD, de outra edição] </small> </small> </p>
+; <p> infert se saeptus nebula mirabile dictu per medios miscetque uiris neque cernitur <b>ulli</b> <br> <small> Verg.A.1.439 <br> Envolvido pela névoa (coisa admirável de dizer) ele se transporta pelo meio das pessoas e se mistura aos homens e não é visto por ninguém. <small> [JDD] </small> </small> </p>
+; <p> nec <b>ullum</b> tempus adgrediendi fuit melius quam hoc dum interquiescit dum emendato similis est <br> <small> Sen.Ep.25.3 <br> e não houve nenhuma ocasião melhor de abordá-lo do que esta, enquanto ele descansa, enquanto está semelhante a um corrigido. <small> [JDD] </small> </small> </p>
+; <p> quos quidem ego iudices testis non modo sine <b>ullo</b> timore sed etiam cum aliqua spe delectationis exspecto <br> <small> Cic.Cael.66 <br> E eu, por certo, juízes, estou aguardando essas testemunhas não só sem temor algum, mas até com alguma esperança de divertimento. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> haec cum scirem et cogitarem commisi tamen iudices Heio produxi prima actione neque id tamen <b>ullo</b> periculo feci <br> <small> Cic.Ver.2.4.16.1 <br> 16 Embora eu soubesse essas coisas e refletisse sobre elas, mesmo assim me confiei a Heio; apresentei-o como testemunha na primeira ação, e, no entanto, fiz isso sem perigo algum. <small> [JDD] </small> </small> </p>
+; <p> serpit enim nescio quo modo per omnium uitas amicitia nec <b>ullam</b> aetatis degendae rationem patitur esse expertem sui <br> <small> Cic.Amici.87 <br> Pois a amizade insinua-se não sei como pelas vidas de todos e não permite que nenhuma maneira de passar a existência esteja desprovida dela. <small> [JDD] </small> </small> </p>
+; <p> impedit enim consilium uoluptas rationi inimica est mentis ut ita dicam praestringit oculos nec habet <b>ullum</b> cum uirtute commercium <br> <small> Cic.Sen.42 <br> Pois o prazer impede a reflexão, é inimigo da razão, ofusca, por assim dizer, os olhos da mente e não tem nenhuma relação com a virtude. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-108-108-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 9.52 and an absolute frequency of 51. The Cicero subcorpus follows, with a normalized frequency of 8.29 and an absolute frequency of 133. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 19 ; absolute frequency: 7.17576856258025. subcorpus: Cicero ; normalized frequency: 133 ; absolute frequency: 8.28536542822257. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 5 ; absolute frequency: 4.63778870234672. subcorpus: Seneca ; normalized frequency: 51 ; absolute frequency: 9.51829939717437. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-108-108-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 11.29 and an absolute frequency of 13. The Prosa.filosófica subcorpus follows, with a normalized frequency of 9.56 and an absolute frequency of 58. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 1.68 and an absolute freqeuncy of 2. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 25 ; absolute frequency: 6.0858346113586. subcorpus: Prosa.filosófica ; normalized frequency: 58 ; absolute frequency: 9.55503204230573. subcorpus: Prosa.oratória ; normalized frequency: 90 ; absolute frequency: 8.64113371674364. subcorpus: Prosa.epistolográfica ; normalized frequency: 23 ; absolute frequency: 6.09449110999232. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 13 ; absolute frequency: 11.2925642807505. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-108-108-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 8.41 and an absolute frequency of 55. The I.a.C. subcorpus follows, with a normalized frequency of 7.49 and an absolute frequency of 161. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 161 ; absolute frequency: 7.4936001861764. subcorpus: I.d.C. ; normalized frequency: 55 ; absolute frequency: 8.4136454030901. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

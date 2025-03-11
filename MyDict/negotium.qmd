@@ -1,0 +1,206 @@
+---
+title: "negotium"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-101-103-111-116-105-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>negōtĭum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Ocupação, trabalho, negócio &ensp; <small>Cíc. Of. 3. 102.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Dificuldade, embaraço causado pelo trabalho &ensp; <small>Cíc. Amer. 20.</small> <br> <b>3</b> &ensp; <small>III-Na língua falada:</small> &ensp; Coisa; negócio, assunto, negócios particulares: &ensp; <small></small> <br> <b>4</b> &ensp; <small>IV-Sent. particular:</small> &ensp; Negócio forense, processo, causa: &ensp; <small></small> <br> <b>5</b> &ensp; <small>IV-Sent. particular:</small> &ensp; Atividade política, negócios públicos &ensp; <small>Cíc. De Or. 1, 1.</small> <br> <b>6</b> &ensp; <small>IV-Sent. particular:</small> &ensp; Negócios comerciais, comércio, negócios: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>3</b><br>transigere Cíc. Phil. 2, 21 “concluir um negócio”. <br> <br><b>4</b><br>forensia negotia Cíc. De Or. 2, 23 “os processos de um advogado”. <br> <br><b>6</b><br>negotium gerere Cíc. Sull. 78 “tratar de negócios”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Negotium</b> -<b>ii</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; negocio, occupação. <br> <b>2</b> &ensp; cuidado, molestia, afflicção. <br> <b>3</b> &ensp; contracto, trafico, commercio. <br> <b>4</b> &ensp; difficuldade, trabalho, fadiga. <br> <b>5</b> &ensp; cargo, ordem, commissão. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Negocium</b> <b>ij</b>   <p> <b>1</b> &ensp; ho negocio </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/113566 ' target="_blank"> http://lila-erc.eu/data/id/lemma/113566 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> negocium, negotiom <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+nĕgōtĭum 
+ nĕgōtĭī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx110-101-103-111-116-105-117-109xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-101-103-111-116-105-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword negotium here are all the values plotted: collocate: conficio; scoreSUBST: 0. collocate: suscipio; scoreSUBST: 0. collocate: gero; scoreSUBST: 0. collocate: do; scoreSUBST: 0. collocate: totus; scoreSUBST: 0. collocate: ago; scoreSUBST: 0. collocate: autem; scoreSUBST: 0. collocate: tantus; scoreSUBST: 0. collocate: tuus; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-101-103-111-116-105-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword negotium here are all the values plotted: collocate: conficio; scoreADJ: 0. collocate: suscipio; scoreADJ: 0. collocate: gero; scoreADJ: 0. collocate: do; scoreADJ: 0. collocate: totus; scoreADJ: 0. collocate: ago; scoreADJ: 0. collocate: autem; scoreADJ: 0. collocate: tantus; scoreADJ: 0. collocate: tuus; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-101-103-111-116-105-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword negotium here are all the values plotted: collocate: conficio; scoreVERBO: 2. collocate: suscipio; scoreVERBO: 2. collocate: gero; scoreVERBO: 2. collocate: do; scoreVERBO: 2. collocate: totus; scoreVERBO: 0. collocate: ago; scoreVERBO: 2. collocate: autem; scoreVERBO: 0. collocate: tantus; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-101-103-111-116-105-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword negotium here are all the values plotted: collocate: conficio; scoreADV: 0. collocate: suscipio; scoreADV: 0. collocate: gero; scoreADV: 0. collocate: do; scoreADV: 0. collocate: totus; scoreADV: 0. collocate: ago; scoreADV: 0. collocate: autem; scoreADV: 0. collocate: tantus; scoreADV: 0. collocate: tuus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-101-103-111-116-105-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword negotium here are all the values plotted: collocate: conficio; scoreFUNC: 0. collocate: suscipio; scoreFUNC: 0. collocate: gero; scoreFUNC: 0. collocate: do; scoreFUNC: 0. collocate: totus; scoreFUNC: 0. collocate: ago; scoreFUNC: 0. collocate: autem; scoreFUNC: 0. collocate: tantus; scoreFUNC: 0. collocate: tuus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> datur <b>negotium</b> magistratibus <br> <small> Cic.Att.1.16.5 <br> encomenda-se o assunto aos magistrados. <small> [JDD] </small> </small> </p>
+; <p> de tuo autem <b>negotio</b> saepe ad me scribis <br> <small> Cic.Att.1.19.9 <br> Me escreves com frequência sobre o teu assunto. <small> [JDD] </small> </small> </p>
+; <p> eo celeriter confecto <b>negotio</b> rursus in hiberna legiones reduxit <br> <small> Caes.Gal.6.3.3 <br> Acabado esse negócio com rapidez, reconduziu as legiões aos quartéis de inverno. <small> [JDD] </small> </small> </p>
+; <p> nam cum se utilem ceteris efficit commune agit <b>negotium</b> <br> <small> Sen.Ot.3.5 <br> Com efeito, quando se faz útil aos demais, se ocupa de um negócio público. <small> [JDD] </small> </small> </p>
+; <p> nostra autem <b>negotia</b> quoniam Romae commoraris amabo te explica <br> <small> Cic.Att.5.12.3 <br> Por outro lado, põe, por favor, em ordem os meus assuntos, visto que te demoras em Roma. <small> [JDD] </small> </small> </p>
+; <p> Cincius si quid ad me tui <b>negoti</b> detulerit suscipiam <br> <small> Cic.Att.1.16.17 <br> Se Cíncio me trouxer algum negócio teu, me encarregarei. <small> [JDD] </small> </small> </p>
+; <p> petivi etiam pro meis in civitatem beneficiis ut <b>negotium</b> conficerent <br> <small> Cic.Att.5.21.11 <br> pedi até mesmo pelos meus benefícios na cidade que concluíssem o negócio. <small> [JDD] </small> </small> </p>
+; <p> tu quid ego priuatim <b>negoti</b> geram interpretabere imminuendo honore senatorio <br> <small> Cic.Ver.2.4.25.20 <br> Vais tu interpretar o assunto que levo de modo privado reduzindo a honra devida a um senador? <small> [JDD] </small> </small> </p>
+; <p> biduo per unum servum et eum ex ludo gladiatorio confecit totum <b>negotium</b> <br> <small> Cic.Att.1.16.5 <br> Em dois dias, com a ajuda de um único escravo, e esse proveniente de uma escola de gladiadores, resolveu todo o negócio. <small> [JDD] </small> </small> </p>
+; <p> hoc iam sic habeto ne c hoc exercitu ne c hic tanta <b>negotia</b> geri potuisse <br> <small> Cic.Att.5.20.1 <br> Considera já isso assim: que não é possível com este exército e aqui levar a cabo tamanhas ações. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-101-103-111-116-105-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 11.03 and an absolute frequency of 1. The Sallustius subcorpus follows, with a normalized frequency of 9.28 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 8 ; absolute frequency: 3.0213762368759. subcorpus: Cicero ; normalized frequency: 64 ; absolute frequency: 3.98694276245297. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 10 ; absolute frequency: 9.27557740469344. subcorpus: Seneca ; normalized frequency: 12 ; absolute frequency: 2.23959985815868. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-101-103-111-116-105-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 9.01 and an absolute frequency of 34. The Prosa.histórica subcorpus follows, with a normalized frequency of 4.63 and an absolute frequency of 19. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 19 ; absolute frequency: 4.62523430463254. subcorpus: Prosa.filosófica ; normalized frequency: 13 ; absolute frequency: 2.14164511293059. subcorpus: Prosa.oratória ; normalized frequency: 29 ; absolute frequency: 2.78436530872851. subcorpus: Prosa.epistolográfica ; normalized frequency: 34 ; absolute frequency: 9.00924772781473. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-101-103-111-116-105-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 3.86 and an absolute frequency of 83. The I.d.C. subcorpus follows, with a normalized frequency of 1.99 and an absolute frequency of 13. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 83 ; absolute frequency: 3.86316034442634. subcorpus: I.d.C. ; normalized frequency: 13 ; absolute frequency: 1.98867982254857. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

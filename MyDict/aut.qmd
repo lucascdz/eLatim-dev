@@ -1,0 +1,221 @@
+---
+title: "aut"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-117-116xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>aut</b> <br> <small>conj.</small> <br> <small>Obs.: Aut é uma conj. disjuntiva que serve para distinguir dois objetos ou duas idéias das quais uma deve excluir a outra. Vem frequentemente reforçada por um advérbio: aut omnino, ou ao menos Cíc. Br. 65; aut potius, ou antes Cíc. Verr. 3, 113; aut fortasse, ou talvez Cíc. Agr. 2, 51; aut denique, ou enfim Cíc. Arch. 12, etc.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Ou, ou então: &ensp; <small></small> <br> <b>2</b> &ensp; <small></small> &ensp; Ou senão, ou do contrário &ensp; <small>C. Nep. Epam.4, 3.</small> <br> <b>3</b> &ensp; <small></small> &ensp; aut .. aut; ou ... ou; ou ... ou então; ou ... pelo menos &ensp; <small>Cíc. Caec. 57; Cíc. Tusc. 3, 38.</small> <br> <b>4</b> &ensp; <small>Depois de negação</small> &ensp; Nem &ensp; <small>Ces. B. Civ. 3, 61, 2.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>nolebas aut non audebas Cíc. Quinct. 39 «tu não querias. ou então não ousavas» </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Aut</b> <br> <small>conj.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; ou. </p>
+
+
+
+
+#### Velez
+
+<b>Aut</b> <br> <small>Conjunct.</small>   <p> <b>1</b> &ensp; ou </p>
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/90827 ' target="_blank"> http://lila-erc.eu/data/id/lemma/90827 </a> <br>
+<small> classe: </small> conjunção coordenativa    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-117-116xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword aut here are all the values plotted: collocate: si; scoreSUBST: 0. collocate: quis; scoreSUBST: 0. collocate: aliquis; scoreSUBST: 0. collocate: audio; scoreSUBST: 0. collocate: uolo; scoreSUBST: 0. collocate: mors; scoreSUBST: 2. collocate: cur; scoreSUBST: 0. collocate: fortuna; scoreSUBST: 2. collocate: ubi; scoreSUBST: 0. collocate: fingo; scoreSUBST: 0. collocate: ingenium; scoreSUBST: 2. collocate: gratia; scoreSUBST: 2. collocate: mos; scoreSUBST: 1. collocate: quisque; scoreSUBST: 0. collocate: gladiator; scoreSUBST: 2. collocate: ira; scoreSUBST: 2. collocate: reus; scoreSUBST: 2. collocate: tres; scoreSUBST: 0. collocate: facinus; scoreSUBST: 2. collocate: metuo; scoreSUBST: 0. collocate: quomodo; scoreSUBST: 0. collocate: unde; scoreSUBST: 0. collocate: lego; scoreSUBST: 0. collocate: retineo; scoreSUBST: 0. collocate: Cato; scoreSUBST: 0. collocate: potestas; scoreSUBST: 1'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-117-116xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword aut here are all the values plotted: collocate: si; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: aliquis; scoreADJ: 0. collocate: audio; scoreADJ: 0. collocate: uolo; scoreADJ: 0. collocate: mors; scoreADJ: 0. collocate: cur; scoreADJ: 0. collocate: fortuna; scoreADJ: 0. collocate: ubi; scoreADJ: 0. collocate: fingo; scoreADJ: 0. collocate: ingenium; scoreADJ: 0. collocate: gratia; scoreADJ: 0. collocate: mos; scoreADJ: 0. collocate: quisque; scoreADJ: 0. collocate: gladiator; scoreADJ: 0. collocate: ira; scoreADJ: 0. collocate: reus; scoreADJ: 0. collocate: tres; scoreADJ: 0. collocate: facinus; scoreADJ: 0. collocate: metuo; scoreADJ: 0. collocate: quomodo; scoreADJ: 0. collocate: unde; scoreADJ: 0. collocate: lego; scoreADJ: 0. collocate: retineo; scoreADJ: 0. collocate: Cato; scoreADJ: 0. collocate: potestas; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-117-116xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword aut here are all the values plotted: collocate: si; scoreVERBO: 0. collocate: quis; scoreVERBO: 0. collocate: aliquis; scoreVERBO: 0. collocate: audio; scoreVERBO: 2. collocate: uolo; scoreVERBO: 1. collocate: mors; scoreVERBO: 0. collocate: cur; scoreVERBO: 0. collocate: fortuna; scoreVERBO: 0. collocate: ubi; scoreVERBO: 0. collocate: fingo; scoreVERBO: 2. collocate: ingenium; scoreVERBO: 0. collocate: gratia; scoreVERBO: 0. collocate: mos; scoreVERBO: 0. collocate: quisque; scoreVERBO: 0. collocate: gladiator; scoreVERBO: 0. collocate: ira; scoreVERBO: 0. collocate: reus; scoreVERBO: 0. collocate: tres; scoreVERBO: 0. collocate: facinus; scoreVERBO: 0. collocate: metuo; scoreVERBO: 2. collocate: quomodo; scoreVERBO: 0. collocate: unde; scoreVERBO: 0. collocate: lego; scoreVERBO: 2. collocate: retineo; scoreVERBO: 2. collocate: Cato; scoreVERBO: 0. collocate: potestas; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-117-116xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword aut here are all the values plotted: collocate: si; scoreADV: 0. collocate: quis; scoreADV: 0. collocate: aliquis; scoreADV: 0. collocate: audio; scoreADV: 0. collocate: uolo; scoreADV: 0. collocate: mors; scoreADV: 0. collocate: cur; scoreADV: 2. collocate: fortuna; scoreADV: 0. collocate: ubi; scoreADV: 1. collocate: fingo; scoreADV: 0. collocate: ingenium; scoreADV: 0. collocate: gratia; scoreADV: 0. collocate: mos; scoreADV: 0. collocate: quisque; scoreADV: 0. collocate: gladiator; scoreADV: 0. collocate: ira; scoreADV: 0. collocate: reus; scoreADV: 0. collocate: tres; scoreADV: 0. collocate: facinus; scoreADV: 0. collocate: metuo; scoreADV: 0. collocate: quomodo; scoreADV: 2. collocate: unde; scoreADV: 2. collocate: lego; scoreADV: 0. collocate: retineo; scoreADV: 0. collocate: Cato; scoreADV: 0. collocate: potestas; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-117-116xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword aut here are all the values plotted: collocate: si; scoreFUNC: 20. collocate: quis; scoreFUNC: 0. collocate: aliquis; scoreFUNC: 0. collocate: audio; scoreFUNC: 0. collocate: uolo; scoreFUNC: 0. collocate: mors; scoreFUNC: 0. collocate: cur; scoreFUNC: 0. collocate: fortuna; scoreFUNC: 0. collocate: ubi; scoreFUNC: 0. collocate: fingo; scoreFUNC: 0. collocate: ingenium; scoreFUNC: 0. collocate: gratia; scoreFUNC: 0. collocate: mos; scoreFUNC: 0. collocate: quisque; scoreFUNC: 0. collocate: gladiator; scoreFUNC: 0. collocate: ira; scoreFUNC: 0. collocate: reus; scoreFUNC: 0. collocate: tres; scoreFUNC: 0. collocate: facinus; scoreFUNC: 0. collocate: metuo; scoreFUNC: 0. collocate: quomodo; scoreFUNC: 0. collocate: unde; scoreFUNC: 0. collocate: lego; scoreFUNC: 0. collocate: retineo; scoreFUNC: 0. collocate: Cato; scoreFUNC: 0. collocate: potestas; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>aut</b> quae maris fortuna dispulerit duces <br> <small> Sen.Ag.415 <br> Ou que fortuna do mar dispersou os chefes? <small> [JDD] </small> </small> </p>
+; <p> <b>aut</b> augemus dolorem <b>aut</b> fingimus <b>aut</b> praecipimus <br> <small> Sen.Ep.13.5 <br> ou aumentamos a dor ou a antecipamos ou a imaginamos.[*] <small>  </small> </small> </p>
+; <p> quid sit istud interrogas <b>aut</b> unde subeat <br> <small> Sen.Ep.23.7 <br> O que é esse, perguntas, ou de onde emana? <small> [JDD] </small> </small> </p>
+; <p> age uero quae erat <b>aut</b> qualis quaestio <br> <small> Cic.Mil.60 <br> Mas, vejamos, qual era ou de que tipo era o interrogatório? <small> [JDD] </small> </small> </p>
+; <p> <b>aut</b> foedissimam mortem omnes <b>aut</b> miserabilem fugam cogitabant <br> <small> Cic.Phil.14.10.9 <br> Todos imaginavam ou uma morte extremamente vergonhosa ou uma infeliz fuga. <small> [JDD] </small> </small> </p>
+; <p> quid enim vides agi posse <b>aut</b> quo modo <br> <small> Cic.Att.3.15.6 <br> Pois o que vês que se possa fazer ou de que maneira? <small> [JDD] </small> </small> </p>
+; <p> num quid simile populus Romanus audierat <b>aut</b> uiderat <br> <small> Cic.Amici.41 <br> Por acaso o povo romano tinha ouvido ou tinha visto algo semelhante? <small> [JDD] </small> </small> </p>
+; <p> ille prudens atque artifex pro tempore quaeque repellet <b>aut</b> eliget <br> <small> Sen.Ep.31.6 <br> O sábio prudente e hábil, conforme o tempo, vai repelir ou eleger cada uma dessas coisas. <small> [JDD] </small> </small> </p>
+; <p> <b>aut</b> cur de sua uirtute <b>aut</b> de ipsius diligentia desperarent <br> <small> Caes.Gal.1.40.4 <br> Ou por que deixavam de confiar em sua coragem ou na perícia dele? <small> [JDD] </small> </small> </p>
+; <p> credo nisi eam exerceas <b>aut</b> etiam si sis natura tardior <br> <small> Cic.Sen.21 <br> Acredito, se não a exercitas, ou também se é um tanto lento por natureza. <small> [JDD] </small> </small> </p>
+; <p> numquam dubitauit quotienscumque alicuius <b>aut</b> gemma <b>aut</b> anulo delectatus est <br> <small> Cic.Ver.2.4.57.12 <br> Nunca hesitou todas as vezes que foi seduzido pela pedra preciosa ou pelo anel de alguém. <small> [JDD] </small> </small> </p>
+; <p> hanc uero taeterrimam beluam quis ferre potest <b>aut</b> quo modo <br> <small> Cic.Phil.3.28.6 <br> Na verdade, quem pode suportar esse abominável monstro ou de que modo? <small> [JDD] </small> </small> </p>
+; <p> si uis uacare animo <b>aut</b> pauper sis oportet <b>aut</b> pauperi similis <br> <small> Sen.Ep.17.5 <br> Se queres ter tempo para o teu espírito, convém ou que sejas pobre ou semelhante ao pobre. <small> [JDD] </small> </small> </p>
+; <p> Ambitio namque dissidens mortalium <b>Aut</b> gratiae subscribit <b>aut</b> odio suo . <br> <small> Phaed.3.10 <br> Pois a ambição dos mortais, que é divergente, se associa ou ao favor ou ao seu ódio. <small> [JDD] </small> </small> </p>
+; <p> hic nunc iste reus <b>aut</b> ego accusator <b>aut</b> hoc iudicium appellabitur <br> <small> Cic.Ver.2.4.104.12 <br> Aqui agora esse sujeito será chamado de réu ou eu de acusador ou isto de julgamento? <small> [JDD] </small> </small> </p>
+; <p> neque eorum moribus turpius quicquam <b>aut</b> inertius habetur quam ephippiis uti <br> <small> Caes.Gal.4.2.4 <br> e, pelos seus costumes, nada é tido como mais torpe ou mais inábil do que usar selas. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quid autem acerbum <b>aut</b> nimis graue est in homines tanti facinoris conuictos <br> <small> Sal.Cat.51.23 <br> Mas o que é terrível ou demasiadamente grave contra homens convictos de tão enorme crime? <small> [JDD] </small> </small> </p>
+; <p> quanta cuiusque animo audacia natura <b>aut</b> moribus inest tanta in bello patere solet <br> <small> Sal.Cat.58.2 <br> Tão grande intrepidez existe no espírito de cada um ou por natureza ou por seus hábito, quão grande ela costuma mostrar-se na guerra. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> horam unam <b>aut</b> duas eodem loco armatos ut conlocati fuerant retineri magnum fuit <br> <small> Cic.Deiot.19 <br> Foi complicado manter durante uma ou duas horas no mesmo local homens armados como tinham sido colocados? <small> [JDD] </small> </small> </p>
+; <p> itaque ἀνέκδοτα quae tibi uni legamus Theopompio genere <b>aut</b> etiam asperiore multo pangentur <br> <small> Cic.Att.2.6.2 <br> E assim serão compostas por mim história inéditas para ler somente para ti, no estilo de Teopômpio ou ainda muito mais áspero. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quis enim <b>aut</b> eum diligat quem metuat <b>aut</b> eum a quo se metui putet <br> <small> Cic.Amici.53 <br> Pois quem estimaria ou aquele a quem teme ou aquele por quem julga ser temido? <small> [JDD] </small> </small> </p>
+; <p> ubi hoc exemplo per senatus decretum consul gladium eduxerit quis illi finem statuet <b>aut</b> quis moderabitur <br> <small> Sal.Cat.51.36 <br> Quando, por esse exemplo, o cônsul, por meio de um decreto do senado, sacar da espada, quem lhe estabelecerá um limite ou quem o conterá? <small> [JDD] </small> </small> </p>
+; <p> unus est qui curet constantia magis et integritate quam ut mihi videtur consilio <b>aut</b> ingenio Cato <br> <small> Cic.Att.1.18.7 <br> Só há um que se preocupa com mais constância e integridade do que, pelo que me parece, com conselho e inteligência, Catão. <small> [JDD] </small> </small> </p>
+; <p> non uident id se cupere quod si adepti sint fugitiuo alicui <b>aut</b> gladiatori concedi sit necesse <br> <small> Cic.Catil.2.19.17 <br> Não vêem que cobiçam aquilo que, se tiverem conseguido, seria necessário que fosse concedido a algum fugitivo ou gladiador? <small> [JDD] </small> </small> </p>
+; <p> Non illo melior quisquam ne c amantior aequi vir fuit <b>aut</b> illa metuentior ulla deorum . [0] <br> <small> Ov.Met.1.322-3 <br> não houve nenhum homem melhor do que ele, nem mais amante da justiça ou alguma mulher mais temente dos deuses do que ela. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> atqui uidemus haec in rerum natura tria fuisse ut <b>aut</b> cum Saturnino esset <b>aut</b> cum bonis <b>aut</b> lateret <br> <small> Cic.Rab.Perd.24 <br> Mas vemos que nesse estado de coisas havia estas três opções: ou estar com Saturnino ou estar com os bons ou se esconder. <small> [JDD] </small> </small> </p>
+; <p> cum bellum ciuitas <b>aut</b> inlatum defendit <b>aut</b> infert magistratus qui ei bello praesint et uitae necisque habeant potestatem deliguntur <br> <small> Caes.Gal.6.23.4 <br> Quando uma cidade ou repele uma guerra de invasão ou a faz, são eleitos os magistrados que comandem essa guerra para que tenham poder de vida e de morte. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> recognosce exempla eorum qui domesticis insidiis perierunt <b>aut</b> aperta ui <b>aut</b> dolo intelleges non pauciores seruorum ira cecidisse quam regum <br> <small> Sen.Ep.4.8 <br> Recorda os exemplos daqueles que pereceram por insídias domésticas, ou por violência manifesta ou por dolo: saberás que a ira dos escravos não abateu menos gente do que a dos reis. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-117-116xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 58.36 and an absolute frequency of 17. The Sallustius subcorpus follows, with a normalized frequency of 52.87 and an absolute frequency of 57. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 100 ; absolute frequency: 37.7672029609487. subcorpus: Cicero ; normalized frequency: 678 ; absolute frequency: 42.2366748897361. subcorpus: Horatius ; normalized frequency: 57 ; absolute frequency: 50.6171743184442. subcorpus: Ovidius ; normalized frequency: 7 ; absolute frequency: 12.0109814687714. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 57 ; absolute frequency: 52.8707912067526. subcorpus: Seneca ; normalized frequency: 208 ; absolute frequency: 38.8197308747504. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 17 ; absolute frequency: 58.3590799862685. subcorpus: Vergilius ; normalized frequency: 24 ; absolute frequency: 46.3320463320463. subcorpus: Hieronymus ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-117-116xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 47.95 and an absolute frequency of 57. The Prosa.filosófica subcorpus follows, with a normalized frequency of 47.78 and an absolute frequency of 290. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 8.48 and an absolute freqeuncy of 10. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 174 ; absolute frequency: 42.3574088950559. subcorpus: Prosa.filosófica ; normalized frequency: 290 ; absolute frequency: 47.7751602115286. subcorpus: Prosa.oratória ; normalized frequency: 424 ; absolute frequency: 40.7093410655478. subcorpus: Prosa.epistolográfica ; normalized frequency: 151 ; absolute frequency: 40.0116590264713. subcorpus: Poesia.lírica ; normalized frequency: 57 ; absolute frequency: 47.9515437032052. subcorpus: Poesia.didática ; normalized frequency: 10 ; absolute frequency: 8.48248367121893. subcorpus: Poesia.trágica ; normalized frequency: 21 ; absolute frequency: 18.2418346073662. subcorpus: Poesia.épica ; normalized frequency: 24 ; absolute frequency: 46.3320463320463. subcorpus: Prosa.ficcional ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-117-116xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 44.5 and an absolute frequency of 17. The I.a.C. subcorpus follows, with a normalized frequency of 42.63 and an absolute frequency of 916. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 13.48 and an absolute freqeuncy of 6. here are all the values: subcorpus: I.a.C. ; normalized frequency: 916 ; absolute frequency: 42.6343960902956. subcorpus: I.d.C. ; normalized frequency: 218 ; absolute frequency: 33.3486308704299. subcorpus: II.d.C. ; normalized frequency: 17 ; absolute frequency: 44.5026178010471. subcorpus: IV.d.C. ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+:::
+

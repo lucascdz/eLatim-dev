@@ -1,0 +1,205 @@
+---
+title: "sustineo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-117-115-116-105-110-101-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>sustinĕō</b> <b>-és</b> <b>-ére</b> <b>-tinùí, -téntum</b> <br> <small>v. tr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Suster, não deixar cair &ensp; <small>Cíc. Nat. 2, 101; Cés. B. Gal. 2, 25, I.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Ter a seu cargo, estar encarregado de &ensp; <small>Ov. Met. 13, 584.</small> <br> <b>3</b> &ensp; <small>II-Donde:</small> &ensp; Desempenhar um cargo, um papel, administrar &ensp; <small>Cíc. De Or. 2, 102; Cíc. Caecil. 27.</small> <br> <b>4</b> &ensp; <small>II-Donde:</small> &ensp; Manter, sustentar, proteger &ensp; <small>Cíc. Of. 1, 124; Cés. B. Gal. 5, 37, 6; Cíc. Verr. 3, 11.</small> <br> <b>5</b> &ensp; <small>II-Donde:</small> &ensp; Fazer frente a, resistir, suportar, sofrer &ensp; <small>Cíc. Br. 6; Cíc. Dom. 77; T. lív. 5, 45, 7; Cíc. At. 12, 51, 3.</small> </p> 
+ <b>sustinŭī</b> <br> <small>perf. de sustinèo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Sustineo</b> -<b>es</b> -<b>ui</b> -<b>entum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; suster, sustentar, conservar. <br> <b>2</b> &ensp; ser igual, convir. <br> <b>3</b> &ensp; proteger, defender, servir de arrimo. <br> <b>4</b> &ensp; <small>Liv.</small> &ensp; sustentar, alimentar, alliviar a necessidade. <br> <b>5</b> &ensp; <small>Cic.</small> &ensp; reprimir, refrear, cohibir. <br> <b>6</b> &ensp; <small>Liv.</small> &ensp; dilatar, demorar. <br> <b>7</b> &ensp; <small>Ovid.</small> &ensp; poder, atrever-se. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>sustinere expectationem sui &ensp; <small><small>Cic</small></small> &ensp; <small>Corresponder á expectaçaõ, que de nós se tem</small> <br> sustinere gradum &ensp; <small><small>Ovid</small></small> &ensp; <small>Parar</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Sustineo</b> -<b>es</b>   <p> <b>1</b> &ensp; soster. ou soportar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/127147 ' target="_blank"> http://lila-erc.eu/data/id/lemma/127147 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> sustineo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> sustinere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> sustinebit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> sustinui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+
+
+
+
+
+#### Lexicala
+
+sustĭnĕō 
+ sustĭnēs 
+ sustĭnēre 
+ sustĭnŭī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx115-117-115-116-105-110-101-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-117-115-116-105-110-101-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword sustineo here are all the values plotted: collocate: uis; scoreSUBST: 2. collocate: possum; scoreSUBST: 0. collocate: non; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-117-115-116-105-110-101-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword sustineo here are all the values plotted: collocate: uis; scoreADJ: 0. collocate: possum; scoreADJ: 0. collocate: non; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-117-115-116-105-110-101-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword sustineo here are all the values plotted: collocate: uis; scoreVERBO: 0. collocate: possum; scoreVERBO: 2. collocate: non; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-117-115-116-105-110-101-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword sustineo here are all the values plotted: collocate: uis; scoreADV: 0. collocate: possum; scoreADV: 0. collocate: non; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-117-115-116-105-110-101-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword sustineo here are all the values plotted: collocate: uis; scoreFUNC: 0. collocate: possum; scoreFUNC: 0. collocate: non; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quis huius potentiam poterit <b>sustinere</b> <br> <small> Cic.Phil.7.17.1 <br> Quem poderá resistir o poder desse homem? <small> [JDD] </small> </small> </p>
+; <p> hac re significari magnum numerum ciuitatum suam uim <b>sustinere</b> non potuisse <br> <small> Caes.Gal.4.3.1 <br> por essa situação é indicado que um grande número de cidades não podem resistir à sua força. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-117-115-116-105-110-101-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 7.59 and an absolute frequency of 5. The Caesar subcorpus follows, with a normalized frequency of 7.55 and an absolute frequency of 20. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 20 ; absolute frequency: 7.55344059218974. subcorpus: Cicero ; normalized frequency: 36 ; absolute frequency: 2.24265530387979. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 5 ; absolute frequency: 7.59070897221801. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 12 ; absolute frequency: 2.23959985815868. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-117-115-116-105-110-101-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 5.11 and an absolute frequency of 21. The Poesia.lírica subcorpus follows, with a normalized frequency of 1.68 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 21 ; absolute frequency: 5.11210107354123. subcorpus: Prosa.filosófica ; normalized frequency: 17 ; absolute frequency: 2.80061283998616. subcorpus: Prosa.oratória ; normalized frequency: 22 ; absolute frequency: 2.11227713075956. subcorpus: Prosa.epistolográfica ; normalized frequency: 7 ; absolute frequency: 1.85484512043244. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 6 ; absolute frequency: 5.08949020273136. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-117-115-116-105-110-101-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 2.75 and an absolute frequency of 18. The I.a.C. subcorpus follows, with a normalized frequency of 2.75 and an absolute frequency of 59. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 59 ; absolute frequency: 2.74610193158017. subcorpus: I.d.C. ; normalized frequency: 18 ; absolute frequency: 2.75355667737494. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

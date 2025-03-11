@@ -1,0 +1,202 @@
+---
+title: "denique"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-101-110-105-113-117-101xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>dēnĭque</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>Sent. próprio</small> &ensp; Enfim, por fim, finalmente &ensp; <small>Cíc, Agr.2. 62.</small> <br> <b>2</b> &ensp; <small>Daí:</small> &ensp; Em suma, numa palavra, em conclusão &ensp; <small>Cíc. De Or. 2, 317.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Denique</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; finalmente. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Denique</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; finalmente </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/98611 ' target="_blank"> http://lila-erc.eu/data/id/lemma/98611 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+dēnĭquĕ
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-101-110-105-113-117-101xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-101-110-105-113-117-101xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword denique here are all the values plotted: collocate: tum; scoreSUBST: 0. collocate: totus; scoreSUBST: 0. collocate: ipse; scoreSUBST: 0. collocate: omnis; scoreSUBST: 0. collocate: ita; scoreSUBST: 0. collocate: nullus; scoreSUBST: 0. collocate: si; scoreSUBST: 0. collocate: quis; scoreSUBST: 0. collocate: hic; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-101-110-105-113-117-101xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword denique here are all the values plotted: collocate: tum; scoreADJ: 0. collocate: totus; scoreADJ: 0. collocate: ipse; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: ita; scoreADJ: 0. collocate: nullus; scoreADJ: 0. collocate: si; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: hic; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-101-110-105-113-117-101xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword denique here are all the values plotted: collocate: tum; scoreVERBO: 0. collocate: totus; scoreVERBO: 0. collocate: ipse; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0. collocate: ita; scoreVERBO: 0. collocate: nullus; scoreVERBO: 0. collocate: si; scoreVERBO: 0. collocate: quis; scoreVERBO: 0. collocate: hic; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-101-110-105-113-117-101xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword denique here are all the values plotted: collocate: tum; scoreADV: 2. collocate: totus; scoreADV: 0. collocate: ipse; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: ita; scoreADV: 2. collocate: nullus; scoreADV: 0. collocate: si; scoreADV: 0. collocate: quis; scoreADV: 0. collocate: hic; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-101-110-105-113-117-101xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword denique here are all the values plotted: collocate: tum; scoreFUNC: 0. collocate: totus; scoreFUNC: 0. collocate: ipse; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0. collocate: ita; scoreFUNC: 0. collocate: nullus; scoreFUNC: 0. collocate: si; scoreFUNC: 10. collocate: quis; scoreFUNC: 0. collocate: hic; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>denique</b> haec non desidero <br> <small> Cic.Att.5.15.1 <br> Enfim, não é disso que eu sinto falta. <small> [JDD] </small> </small> </p>
+; <p> spectarem curiam intuerer forum caelum <b>denique</b> testarer ipsum <br> <small> Cic.Deiot.6 <br> Eu contemplaria a cúria, dirigiria meu olhar ao foro e, finalmente, tomaria o próprio céu por testemunha. <small> [JDD] </small> </small> </p>
+; <p> <b>denique</b> consilium rerum omnium sapiens non exitum spectat <br> <small> Sen.Ep.14.16 <br> Enfim, de todas as coisas o sábio olha a intenção, não o resultado. <small> [JDD] </small> </small> </p>
+; <p> num quis <b>denique</b> fecisset mentionem si hic nullius nomen detulisset <br> <small> Cic.Cael.56 <br> Enfim, acaso alguém teria feito menção a ele, se ele não tivesse delatado o nome de ninguém? <small> [JDD] </small> </small> </p>
+; <p> tum <b>denique</b> liberati per uiros fortissimos uidebamur quia ut illi uoluerant libertatem pax consequebatur <br> <small> Cic.Phil.1.32.3 <br> Então finalmente parecíamos ter sido libertados graças a homens muito valorosos, porque, como eles tinham querido, a paz seguia a libedade. <small> [JDD] </small> </small> </p>
+; <p> nos Tusculano ita delectamur ut nobis met ipsis tum <b>denique</b> cum illo venimus placeamus <br> <small> Cic.Att.1.6.2 <br> Eu me deleito tanto com a chácara de Túsculo que só me comprazo comigo mesmo quando vou lá. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ex quo intellectum est τρισαρειοπαγίτας ambitum comitia interregnum maiestatem totam <b>denique</b> rem publicam flocci non facere <br> <small> Cic.Att.4.15.4 <br> Disso se entende que os três areopagitas não fazem o menor caso dos subornos, das eleições, do interregno, da majestade, enfim de toda a república. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-101-110-105-113-117-101xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 7.72 and an absolute frequency of 124. The Cicero subcorpus follows, with a normalized frequency of 7.72 and an absolute frequency of 124. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 3 ; absolute frequency: 1.13301608882846. subcorpus: Cicero ; normalized frequency: 124 ; absolute frequency: 7.72470160225262. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 7 ; absolute frequency: 1.30643325059256. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-101-110-105-113-117-101xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 9.99 and an absolute frequency of 104. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 3.97 and an absolute frequency of 15. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 4 ; absolute frequency: 0.973733537817376. subcorpus: Prosa.filosófica ; normalized frequency: 11 ; absolute frequency: 1.81216124940281. subcorpus: Prosa.oratória ; normalized frequency: 104 ; absolute frequency: 9.98531007268154. subcorpus: Prosa.epistolográfica ; normalized frequency: 15 ; absolute frequency: 3.97466811521238. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-101-110-105-113-117-101xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 6.28 and an absolute frequency of 135. The I.a.C. subcorpus follows, with a normalized frequency of 6.28 and an absolute frequency of 135. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 135 ; absolute frequency: 6.28345357225972. subcorpus: I.d.C. ; normalized frequency: 8 ; absolute frequency: 1.2238029677222. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

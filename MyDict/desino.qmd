@@ -1,0 +1,209 @@
+---
+title: "desino"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-101-115-105-110-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>dēsĭī</b> <br> <small>perf. de desìno.</small> <br> <small></small> 
+ <b>dēsĭnō</b> <b>-is</b> <b>-ère</b> <b>desìí, desìtum</b> <br> <small>v. tr. e intr.</small> <br> <small>Obs.: Constrói-se com inf., com acus. Intransitivamente se constrói com abl.; com abl. ou acus. com in; na poesia pode aparecer com gen., como em Hor. O. 2, 9, 17.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Cessar, deixar de, abandonar &ensp; <small>Cíc. Fam. 7, 1, 4. Cíc. De Or. 2, 59.</small> <br> <b>2</b> &ensp; <small>I-Intr.</small> &ensp; cessar, acabar, terminar &ensp; <small>Cíc. Ac. 2, 80; Sal B. Jug. 83, 1.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Desino</b> -<b>is</b> -<b>ivi</b> -<b>ii</b> <small>l</small> -<b>situm</b> -<b>nere</b>   <p> <b>1</b> &ensp; <small>Ter.</small> &ensp; cessar, deixar. <br> <b>2</b> &ensp; <small>Plin.</small> &ensp; morrer. </p> 
+ <small>pret. de Desino</small> <b>Desii</b>
+
+
+
+
+#### Velez
+
+<b>Desino</b> -<b>is</b> <br> <small>desivi, desitum pen. b.</small>   <p> <b>1</b> &ensp; deixar, cessar, acabar, terminar &ensp; <small>Activ.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>uerba desita &ensp; <small><small>i, inusitata. 2. b</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Desino</b> <b>is</b> <b>iui</b> <b>itum</b>   <p> <b>1</b> &ensp; deyxar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/98910 ' target="_blank"> http://lila-erc.eu/data/id/lemma/98910 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> desino </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> desinere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> desinet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> desinui, desiui, desii, desi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> desitum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> desiturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+dēsĭī 
+ dēsĭnō 
+ dēsĭnis 
+ dēsĭnĕre 
+ dēsĭtum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-101-115-105-110-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-101-115-105-110-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword desino here are all the values plotted: collocate: iam; scoreSUBST: 0. collocate: non; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-101-115-105-110-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword desino here are all the values plotted: collocate: iam; scoreADJ: 0. collocate: non; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-101-115-105-110-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword desino here are all the values plotted: collocate: iam; scoreVERBO: 0. collocate: non; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-101-115-105-110-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword desino here are all the values plotted: collocate: iam; scoreADV: 2. collocate: non; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-101-115-105-110-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword desino here are all the values plotted: collocate: iam; scoreFUNC: 0. collocate: non; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> consolari iam <b>desine</b> <br> <small> Cic.Att.3.11.2 <br> Deixa já de me consolar. <small> [JDD] </small> </small> </p>
+; <p> non <b>desinent</b> sed intermittent <br> <small> Sen.Ep.29.8 <br> não cessarão, mas se interromperão. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-101-115-105-110-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 6.53 and an absolute frequency of 35. The Suetonius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 17 ; absolute frequency: 1.05903167127657. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 35 ; absolute frequency: 6.5321662529628. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-101-115-105-110-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 5.77 and an absolute frequency of 35. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 1.32 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 1 ; absolute frequency: 0.243433384454344. subcorpus: Prosa.filosófica ; normalized frequency: 35 ; absolute frequency: 5.76596761173622. subcorpus: Prosa.oratória ; normalized frequency: 11 ; absolute frequency: 1.05613856537978. subcorpus: Prosa.epistolográfica ; normalized frequency: 5 ; absolute frequency: 1.32488937173746. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-101-115-105-110-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 5.51 and an absolute frequency of 36. The I.d.C. subcorpus follows, with a normalized frequency of 5.51 and an absolute frequency of 36. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 19 ; absolute frequency: 0.884337910169886. subcorpus: I.d.C. ; normalized frequency: 36 ; absolute frequency: 5.50711335474988. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,210 @@
+---
+title: "intersum"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-110-116-101-114-115-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>intĕrest</b> <br> <small>impess. de intérsum.</small> <br> <small></small> 
+ <b>interfŭī</b> <br> <small>perf. de intérsum.</small> <br> <small></small> 
+ <b>intērsum</b> <b>-es</b> <b>interésse, interfùí</b> <br> <small>v. intr.</small> <br> <small>Obs.: Constrói-se como intr.; com acus. com inter; com dat. com ab; com abl. com in. ou ab. Como impess. aparece com gen. de pess. ou com mea, tua, sua, nostra, vestra, como: vestra qui... vixistis Cie. Sull. 79 “importa a vós que vivestes”: ou com acus. com ad ou com as expressões formadas com multum, magni, máxime, permagni, tanti, etc.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Estar entre &ensp; <small>Cíc. Cat. 3. 5.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Estar separado por um intervalo &ensp; <small>Cié. Agr. 4.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Assistir a, estar presente &ensp; <small>C íc. At. 14, 22. 2.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Diferir, estar distante, separado &ensp; <small>Cíc. Ac. 2. 47.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Impessoal: há diferença entre &ensp; <small>Cíc. Of. 1, 11.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Importa a, é do interesse de &ensp; <small>C íc. Nat. I. 7; C íc. F in. 2; 72; Cíc. Fam. 4, 10,2.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Intersum</b> <b>interes</b> -<b>fui</b> -<b>esse</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; estar presente, assistir. <br> <b>2</b> &ensp; estar entre, ou no meio. <br> <b>3</b> &ensp; ser differente. </p>
+
+
+
+
+#### Velez
+
+<b>Intersum</b> -<b>es</b>   <p> <b>1</b> &ensp; estar presente &ensp; <small>dat. | cum In</small> <br> <b>2</b> &ensp; <small>in tertiis tantùm personis pro Differre</small> &ensp; differir, ou haver differença &ensp; <small>idque variis casibus</small> <br> <b>3</b> &ensp; <small>aliquando sine casu</small> &ensp; estar, ou meter-se de permeio &ensp; <small>vel accus. cum Inter</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>in conuiuio interfuit <br> rei Diuinae interesse &ensp; <small><small>vel abl</small></small> <br> <br><b>2</b><br>hoc homo, ac bellua interest &ensp; <small>esta differença ha, ou nisto differem, etc</small> <br> hoc inter hominem, & belluam interest, quod, & c <br> insipienti sapiens quid interest? &ensp; <small>Que differença tem o sabio do ignorante</small> <br> <br><b>3</b><br>hoc morabatur uictoriam, quia flumen intererat &ensp; <small>isto detinha a victoria, etc</small> <br> inter primum, & sextum Consulatum sex, & quadraginta anni interfuerant </p>
+
+
+
+
+#### Cardoso
+
+<b>Intersum</b> -<b>es</b> <b>interfui</b>   <p> <b>1</b> &ensp; entreuir ou estar presente </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/108661 ' target="_blank"> http://lila-erc.eu/data/id/lemma/108661 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> irregular <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> intersum </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> interesse </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> intererit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> interfui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> interfuturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+interfŭī 
+ intersŭm
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx105-110-116-101-114-115-117-109xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-110-116-101-114-115-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword intersum here are all the values plotted: collocate: utrum; scoreSUBST: 0. collocate: inter; scoreSUBST: 0. collocate: totus; scoreSUBST: 0. collocate: quis; scoreSUBST: 0. collocate: noster; scoreSUBST: 0. collocate: meus; scoreSUBST: 0. collocate: enim; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-110-116-101-114-115-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword intersum here are all the values plotted: collocate: utrum; scoreADJ: 0. collocate: inter; scoreADJ: 0. collocate: totus; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: noster; scoreADJ: 0. collocate: meus; scoreADJ: 0. collocate: enim; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-110-116-101-114-115-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword intersum here are all the values plotted: collocate: utrum; scoreVERBO: 0. collocate: inter; scoreVERBO: 0. collocate: totus; scoreVERBO: 0. collocate: quis; scoreVERBO: 0. collocate: noster; scoreVERBO: 0. collocate: meus; scoreVERBO: 0. collocate: enim; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-110-116-101-114-115-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword intersum here are all the values plotted: collocate: utrum; scoreADV: 2. collocate: inter; scoreADV: 0. collocate: totus; scoreADV: 0. collocate: quis; scoreADV: 0. collocate: noster; scoreADV: 0. collocate: meus; scoreADV: 0. collocate: enim; scoreADV: 1'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-110-116-101-114-115-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword intersum here are all the values plotted: collocate: utrum; scoreFUNC: 0. collocate: inter; scoreFUNC: 30. collocate: totus; scoreFUNC: 0. collocate: quis; scoreFUNC: 0. collocate: noster; scoreFUNC: 0. collocate: meus; scoreFUNC: 0. collocate: enim; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quid <b>interest</b> quot domini sint <br> <small> Sen.Ep.28.8 <br> Que importa quantos são os donos? <small> [JDD] </small> </small> </p>
+; <p> quid Milonis <b>intererat</b> interfici Clodium <br> <small> Cic.Mil.34 <br> Que interesse tinha Milão em que Clódio fosse assassinado? <small> [JDD] </small> </small> </p>
+; <p> quid ergo inter duo <b>interest</b> <br> <small> Sen.Ep.118.10 <br> Que diferença há, então, entre os dois? <small> [JDD] </small> </small> </p>
+; <p> nihil enim mi Lucili <b>interest</b> utrum non desideres an habeas <br> <small> Sen.Ep.119.2 <br> Pois não há, meu querido Lucílio, nenhuma diferença se não desejas ou se tens. <small> [JDD] </small> </small> </p>
+; <p> hoc quid <b>intersit</b> si tuos digitos novi certe habes subductum <br> <small> Cic.Att.5.21.13 <br> Com certeza, se conheço os teu dedos, tens já calculado a diferença que isso faz. <small> [JDD] </small> </small> </p>
+; <p> permagni nostra <b>interest</b> te si comitiis non potueris at declarato illo esse Romae <br> <small> Cic.Att.2.23.3 <br> É de nosso grande interesse que, se não puderes estar em Roma para as eleições, que estejas ao menos quando designado aquele. <small> [JDD] </small> </small> </p>
+; <p> nos autem nam id te scire cupere certo scio publicis consiliis nullis <b>intersumus</b> totosque nos ad forensem operam laboremque contulimus <br> <small> Cic.Att.2.23.3 <br> Nós, porém, (pois isso eu sei com certeza que desejas saber) não participamos de nenhuns conselhos públicos e nos entregamos por inteiro ao trabalho e atividade forense. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-110-116-101-114-115-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 5.41 and an absolute frequency of 29. The Suetonius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 6 ; absolute frequency: 2.26603217765692. subcorpus: Cicero ; normalized frequency: 47 ; absolute frequency: 2.9279110911764. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 29 ; absolute frequency: 5.41236632388347. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-110-116-101-114-115-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 5.6 and an absolute frequency of 34. The Prosa.oratória subcorpus follows, with a normalized frequency of 2.78 and an absolute frequency of 29. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 7 ; absolute frequency: 1.70403369118041. subcorpus: Prosa.filosófica ; normalized frequency: 34 ; absolute frequency: 5.60122567997232. subcorpus: Prosa.oratória ; normalized frequency: 29 ; absolute frequency: 2.78436530872851. subcorpus: Prosa.epistolográfica ; normalized frequency: 12 ; absolute frequency: 3.1797344921699. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-110-116-101-114-115-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 4.44 and an absolute frequency of 29. The I.d.C. subcorpus follows, with a normalized frequency of 4.44 and an absolute frequency of 29. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 55 ; absolute frequency: 2.55992552943914. subcorpus: I.d.C. ; normalized frequency: 29 ; absolute frequency: 4.43628575799296. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

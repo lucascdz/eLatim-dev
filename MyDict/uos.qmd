@@ -1,0 +1,236 @@
+---
+title: "uos"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-111-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>vestrī</b> <br> <small>gen. de vós.</small> <br> <small></small> 
+ <b>vestrum</b> <br> <b>vostrum</b> <br> <small>gen. de vós.</small> <br> <small></small> 
+ <b>vōbis</b> <br> <small>dat. abl. de vós.</small> <br> <small></small> 
+ <b>vōbīscum</b> <br> <small></small> <br> <small>v. vós.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Convosco. &ensp; <small></small> </p> 
+ <b>vōs</b> <b>véstrí e véstrúm, vóbís</b> <br> <small>pron. pess.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Vós &ensp; <small>Cíc. Phil. 4. 4.</small> <br> <b>2</b> &ensp; <small>Vobiscum Cíc. Rep., 1, 70</small> &ensp; “convosco”. &ensp; <small></small> </p> 
+ <b>vōsmet</b> <br> <small>pron. pess. forma reforçada de vos</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Vós mesmos &ensp; <small>Cíc. Cael. 43.</small> </p> 
+ <b>vōspte</b> <br> <small>= vósmet.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Vos</b> <b>Vestrum</b> <small>gen</small> <b>Vestri</b> <small>l. gen</small> <b>Vobis</b> <small>dat</small> <br> <small>plur.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; vós. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Vobiscum</b> <br> <small>aduer.</small>   <p> <b>1</b> &ensp; cõ vosoutros </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/hypolemma/110488 ' target="_blank"> http://lila-erc.eu/data/id/hypolemma/110488 </a> <br>
+<small> classe: </small> pronome    <br>
+<small> paradigma: </small> pronominal <br>
+<small> outras grafias: </small> uopte, uosmet, uospte <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+vōs 
+ vestrī vestrum 
+ vōbīs 
+ vosmĕt
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-111-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword uos here are all the values plotted: collocate: Quirites; scoreSUBST: 0. collocate: ab; scoreSUBST: 0. collocate: iudex; scoreSUBST: 3. collocate: apud; scoreSUBST: 0. collocate: pater; scoreSUBST: 2. collocate: autem; scoreSUBST: 0. collocate: os; scoreSUBST: 2. collocate: uterque; scoreSUBST: 0. collocate: quantus; scoreSUBST: 0. collocate: ne; scoreSUBST: 0. collocate: spero; scoreSUBST: 0. collocate: inquam; scoreSUBST: 0. collocate: omnis; scoreSUBST: 0. collocate: audio; scoreSUBST: 0. collocate: paruus; scoreSUBST: 0. collocate: ita; scoreSUBST: 0. collocate: obsecro; scoreSUBST: 0. collocate: qua2; scoreSUBST: 0. collocate: iudico; scoreSUBST: 0. collocate: hortor; scoreSUBST: 0. collocate: moneo; scoreSUBST: 0. collocate: an; scoreSUBST: 0. collocate: socius; scoreSUBST: 2. collocate: absum; scoreSUBST: 0. collocate: potius; scoreSUBST: 0. collocate: fors; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-111-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword uos here are all the values plotted: collocate: Quirites; scoreADJ: 0. collocate: ab; scoreADJ: 0. collocate: iudex; scoreADJ: 0. collocate: apud; scoreADJ: 0. collocate: pater; scoreADJ: 0. collocate: autem; scoreADJ: 0. collocate: os; scoreADJ: 0. collocate: uterque; scoreADJ: 0. collocate: quantus; scoreADJ: 0. collocate: ne; scoreADJ: 0. collocate: spero; scoreADJ: 0. collocate: inquam; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: audio; scoreADJ: 0. collocate: paruus; scoreADJ: 2. collocate: ita; scoreADJ: 0. collocate: obsecro; scoreADJ: 0. collocate: qua2; scoreADJ: 0. collocate: iudico; scoreADJ: 0. collocate: hortor; scoreADJ: 0. collocate: moneo; scoreADJ: 0. collocate: an; scoreADJ: 0. collocate: socius; scoreADJ: 0. collocate: absum; scoreADJ: 0. collocate: potius; scoreADJ: 0. collocate: fors; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-111-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword uos here are all the values plotted: collocate: Quirites; scoreVERBO: 0. collocate: ab; scoreVERBO: 0. collocate: iudex; scoreVERBO: 0. collocate: apud; scoreVERBO: 0. collocate: pater; scoreVERBO: 0. collocate: autem; scoreVERBO: 0. collocate: os; scoreVERBO: 0. collocate: uterque; scoreVERBO: 0. collocate: quantus; scoreVERBO: 0. collocate: ne; scoreVERBO: 0. collocate: spero; scoreVERBO: 2. collocate: inquam; scoreVERBO: 2. collocate: omnis; scoreVERBO: 0. collocate: audio; scoreVERBO: 2. collocate: paruus; scoreVERBO: 0. collocate: ita; scoreVERBO: 0. collocate: obsecro; scoreVERBO: 2. collocate: qua2; scoreVERBO: 0. collocate: iudico; scoreVERBO: 2. collocate: hortor; scoreVERBO: 2. collocate: moneo; scoreVERBO: 2. collocate: an; scoreVERBO: 0. collocate: socius; scoreVERBO: 0. collocate: absum; scoreVERBO: 2. collocate: potius; scoreVERBO: 0. collocate: fors; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-111-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword uos here are all the values plotted: collocate: Quirites; scoreADV: 0. collocate: ab; scoreADV: 0. collocate: iudex; scoreADV: 0. collocate: apud; scoreADV: 0. collocate: pater; scoreADV: 0. collocate: autem; scoreADV: 0. collocate: os; scoreADV: 0. collocate: uterque; scoreADV: 0. collocate: quantus; scoreADV: 0. collocate: ne; scoreADV: 0. collocate: spero; scoreADV: 0. collocate: inquam; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: audio; scoreADV: 0. collocate: paruus; scoreADV: 0. collocate: ita; scoreADV: 1. collocate: obsecro; scoreADV: 0. collocate: qua2; scoreADV: 2. collocate: iudico; scoreADV: 0. collocate: hortor; scoreADV: 0. collocate: moneo; scoreADV: 0. collocate: an; scoreADV: 0. collocate: socius; scoreADV: 0. collocate: absum; scoreADV: 0. collocate: potius; scoreADV: 2. collocate: fors; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-111-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword uos here are all the values plotted: collocate: Quirites; scoreFUNC: 0. collocate: ab; scoreFUNC: 40. collocate: iudex; scoreFUNC: 0. collocate: apud; scoreFUNC: 20. collocate: pater; scoreFUNC: 0. collocate: autem; scoreFUNC: 0. collocate: os; scoreFUNC: 0. collocate: uterque; scoreFUNC: 0. collocate: quantus; scoreFUNC: 0. collocate: ne; scoreFUNC: 20. collocate: spero; scoreFUNC: 0. collocate: inquam; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0. collocate: audio; scoreFUNC: 0. collocate: paruus; scoreFUNC: 0. collocate: ita; scoreFUNC: 0. collocate: obsecro; scoreFUNC: 0. collocate: qua2; scoreFUNC: 0. collocate: iudico; scoreFUNC: 0. collocate: hortor; scoreFUNC: 0. collocate: moneo; scoreFUNC: 0. collocate: an; scoreFUNC: 0. collocate: socius; scoreFUNC: 0. collocate: absum; scoreFUNC: 0. collocate: potius; scoreFUNC: 0. collocate: fors; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>vos</b> autem dicitis <br> <small> Vulg.Marc.7.11 <br> Vós, porém, dizeis. <small> [JDD] </small> </small> </p>
+; <p> <b>vos</b> quantum inquam debetis <br> <small> Cic.Att.5.21.12 <br> “E vós?” digo eu “Quanto deveis?” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nihil est quod moneam <b>uos</b> <br> <small> Cic.Phil.3.34.10 <br> Não há nada que eu vos aconselhe. <small> [JDD] </small> </small> </p>
+; <p> oppressos <b>vos</b> inquit tenebo exercitu Caesaris <br> <small> Cic.Att.2.16.2 <br> “Eu vos manterei oprimidos”, diz ele, “por meio do exército de César.” <small> [JDD] </small> </small> </p>
+; <p> sed cur diutius <b>uos</b> iudices teneo <br> <small> Cic.Cael.55 <br> Mas por que vos detenho por mais tempo, juízes? <small> [JDD] </small> </small> </p>
+; <p> an uti <b>uos</b> infestos coniurationi faceret <br> <small> Sal.Cat.51.10 <br> Acaso para fazer-vos irritados com a conjuração? <small> [JDD] </small> </small> </p>
+; <p> an ne nummi <b>vobis</b> eriperentur timebatis <br> <small> Cic.Att.1.16.5 <br> Acaso temíeis que vos fossem roubadas as moedas?” <small> [JDD] </small> </small> </p>
+; <p> at semel iste est corruptus a <b>uobis</b> <br> <small> Cic.Deiot.31 <br> Mas só uma vez esse foi corrompido por vós. <small> [JDD] </small> </small> </p>
+; <p> quantum facinus ad <b>uos</b> delatum sit uidetis <br> <small> Cic.Catil.4.6.9 <br> Estais vendo que grande crime foi denunciado a vós. <small> [JDD] </small> </small> </p>
+; <p> sic arbitrabar Quirites <b>uos</b> iudicare ut ostenditis <br> <small> Cic.Phil.4.7.1 <br> Eu já imaginava, Quirites, que vós o consideráveis assim como mostrais. <small> [JDD] </small> </small> </p>
+; <p> fortem et a <b>uobis</b> iudices conseruandum uirum <br> <small> Cic.Mil.104 <br> Um homem valoroso e que deve ser salvo por vós, juízes! <small> [JDD] </small> </small> </p>
+; <p> non uoltis cogitare quam parua <b>uobis</b> corpora sint <br> <small> Sen.Helv.10.6 <br> Não quereis pensar quão pequenos são os vossos corpos? <small> [JDD] </small> </small> </p>
+; <p> risus populi atque admiratio omnium <b>uestrum</b> facta est <br> <small> Cic.Ver.2.4.27.14 <br> Houve um riso do povo e um espanto de todos vós. <small> [JDD] </small> </small> </p>
+; <p> dici non potest quam invitus a <b>vobis</b> absim <br> <small> Cic.Att.5.17.5 <br> Não pode ser dito o quão a contragosto estou longe de vós. <small> [JDD] </small> </small> </p>
+; <p> intellego Quirites a <b>uobis</b> hanc sententiam repudiari neque iniuria <br> <small> Cic.Phil.6.3.9 <br> Entendo, Quirites, que essa decisão é rechaçada por vós, e não sem razão. <small> [JDD] </small> </small> </p>
+; <p> itaque nunc <b>uos</b> omnis oro atque obtestor hortor que <br> <small> Cic.Rab.Perd.35 <br> E assim agora vos peço e suplico e exorto a todos. <small> [JDD] </small> </small> </p>
+; <p> in populi Romani quidem conspectum quo ore <b>uos</b> commisistis <br> <small> Cic.Ver.2.4.26.3 <br> Com que cara, na verdade, vos apresentastes perante o olhar do povo romano? <small> [JDD] </small> </small> </p>
+; <p> iam intellegitis quantum iudicium sustineatis quanta res sit commissa <b>uobis</b> <br> <small> Cic.Cael.70 <br> Já compreendeis de quão grave julgamento estais encarregados, quão grave matéria vos foi confiada. <small> [JDD] </small> </small> </p>
+; <p> hac lege sublata uidentur ne <b>uobis</b> posse Caesaris acta seruari <br> <small> Cic.Phil.1.19.4 <br> Tirada essa lei, as resoluções de César vos parecem poder ser mantidas? <small> [JDD] </small> </small> </p>
+; <p> non possum dicere planius quam ipse apud <b>uos</b> dixit Heius <br> <small> Cic.Ver.2.4.27.7 <br> Não posso dizer de modo mais claro do que o próprio Heio disse diante de vós. <small> [JDD] </small> </small> </p>
+; <p> itaque quod paulo ante feci in senatu faciam apud <b>uos</b> <br> <small> Cic.Phil.6.5.1 <br> E assim o que eu fiz um pouco antes no senado, farei diante de vós. <small> [JDD] </small> </small> </p>
+; <p> <b>uos</b> censetis patres conscripti legatorum missionem populo Romano <b>uos</b> probauisse <br> <small> Cic.Phil.7.14.3 <br> Vos julgais, pais conscritos, que o envio dos legados vos recomendou perante o povo romano? <small> [JDD] </small> </small> </p>
+; <p> de me autem ut iam cum utroque <b>uestrum</b> loquar sic habetote <br> <small> Cic.Amici.10 <br> Já a meu respeito, conforme eu fale agora com cada um de vós, considerai assim. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> animaduerti enim iudices audiri a <b>uobis</b> meum familiarem L. Herennium perattente <br> <small> Cic.Cael.25 <br> Pois eu notei, juízes, que meu amigo Lúcio Herênio era ouvido por vós muito atentamente. <small> [JDD] </small> </small> </p>
+; <p> tribulis enim tuus est et Sextus pater eius nummos <b>vobis</b> dividere solebat <br> <small> Cic.Att.1.18.4 <br> pois é da tua tribo, e Sexto, o pai dele, costumava distribuir dinheiro para vós. <small> [JDD] </small> </small> </p>
+; <p> ita ut <b>uos</b> dicitis coguntur metusque illa in rectum non uoluntas mouet <br> <small> Sen.Ep.121.7 <br> Assim, como vós dizeis, são obrigados, e é o medo, não a vontade, que os move de modo correto.” <small> [JDD] </small> </small> </p>
+; <p> at ille <b>uobis</b> audientibus cum fabris se domum meam uenturum esse dixit <br> <small> Cic.Phil.1.12.7 <br> Mas ele, ouvindo-o vós, disse que viria à minha casa com pedreiros. <small> [JDD] </small> </small> </p>
+; <p> sin factum <b>uobis</b> non probaretur quamquam qui poterat salus sua cuiquam non probari <br> <small> Cic.Mil.81 <br> Mas se o ato não fosse aprovado por vós (mas como a própria salvação não poderia ser aprovada por alguém?). <small> [JDD] </small> </small> </p>
+; <p> nolite obsecro <b>uos</b> acerbiorem mihi pati reditum esse quam fuerit ille ipse discessus <br> <small> Cic.Mil.103 <br> Não permitais, eu vos imploro, que o meu regresso seja mais doloroso para mim do que foi a própria partida. <small> [JDD] </small> </small> </p>
+; <p> Apollinarium ludorum plausus uel testimonia potius et iudicia populi Romani parum magna <b>uobis</b> uidebantur <br> <small> Cic.Phil.1.36.7 <br> Os aplausos dos jogos Apolinares, ou antes, os testemunhos e juízos do povo romano pareciam pouco importantes para vós? <small> [JDD] </small> </small> </p>
+; <p> pro sociis <b>uos</b> contra hostis exercitus mittere putatis an hostium simulatione contra socios atque amicos <br> <small> Cic.Man.66 <br> Vós julgais que enviais os exércitos em defesa dos aliados contra os inimigos ou contra os aliados e amigos com a desculpa dos inimigos? <small> [JDD] </small> </small> </p>
+; <p> idem ad <b>uos</b> priuatim iudices confugit utitur hac lege qua iudicium est communi arce sociorum <br> <small> Cic.Ver.2.4.17.13 <br> Esse homem busca, de modo privado, refúgio junto a vós, juízes, utiliza-se desta lei pela qual se realiza este julgamento, salvaguarda comum dos aliados. <small> [JDD] </small> </small> </p>
+; <p> itaque quid ea mihi prosit nescio sed tamen quoad me <b>vos</b> sperare vultis <b>vobis</b> obtemperabo <br> <small> Cic.Att.3.10.1 <br> E assim não sei em que ela me é útil. Mas, mesmo assim, até onde vós quereis que eu tenha esperança, obedecer-vos-ei. <small> [JDD] </small> </small> </p>
+; <p> in quo maxime laborandum est ne forte ea <b>uobis</b> quae diligentissime prouidenda sunt contemnenda esse uideantur <br> <small> Cic.Man.20 <br> Nisso é preciso tomar cuidado sobretudo para que não pareça que devam ser desprezadas por vós essas medidas que devem ser providenciadas com a maior diligência. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-111-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 30.71 and an absolute frequency of 493. The Vergilius subcorpus follows, with a normalized frequency of 13.51 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 493 ; absolute frequency: 30.7119184670205. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 6 ; absolute frequency: 10.2951269732327. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 29 ; absolute frequency: 26.899174473611. subcorpus: Seneca ; normalized frequency: 28 ; absolute frequency: 5.22573300237024. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 7 ; absolute frequency: 13.5135135135135. subcorpus: Hieronymus ; normalized frequency: 13 ; absolute frequency: 29.2069197933049'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-111-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 43.4 and an absolute frequency of 452. The Poesia.épica subcorpus follows, with a normalized frequency of 13.51 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 30 ; absolute frequency: 7.30300153363032. subcorpus: Prosa.filosófica ; normalized frequency: 43 ; absolute frequency: 7.08390306584735. subcorpus: Prosa.oratória ; normalized frequency: 452 ; absolute frequency: 43.3976937774236. subcorpus: Prosa.epistolográfica ; normalized frequency: 21 ; absolute frequency: 5.56453536129733. subcorpus: Poesia.lírica ; normalized frequency: 11 ; absolute frequency: 9.25380667956591. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 7 ; absolute frequency: 13.5135135135135. subcorpus: Prosa.ficcional ; normalized frequency: 13 ; absolute frequency: 29.2069197933049'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-111-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 29.21 and an absolute frequency of 13. The I.a.C. subcorpus follows, with a normalized frequency of 25.18 and an absolute frequency of 541. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 541 ; absolute frequency: 25.1803583895741. subcorpus: I.d.C. ; normalized frequency: 28 ; absolute frequency: 4.28331038702769. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 13 ; absolute frequency: 29.2069197933049'}
+
+
+:::
+

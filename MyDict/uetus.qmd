@@ -1,0 +1,203 @@
+---
+title: "uetus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-101-116-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>veter</b> <br> <small></small> <br> <small>v. vetus.</small> 
+ <b>vetĕris</b> <br> <small>gen. de vetus.</small> <br> <small></small> 
+ <b>vetus</b> <b>-èris</b> <br> <small>adj.</small> <br> <small>Obs.: Comp.: comumente vetustìor; superl. veterrìmus.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Velho, antigo, idoso, que não é recente &ensp; <small>T. Lív. 42, 27, 4.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; De outrora, anterior, do passado, antigo. &ensp; <small>Cíc. Of. 2, 5.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Veter</b> -<b>era</b> -<b>erum</b> <small>Plaut</small> -<b>terior</b> <small>Cic</small> -<b>terrimus</b>   <p> <b>1</b> &ensp; <small>Enn. apud Priscian.</small> &ensp; velho, antigo. </p> 
+ <b>Vetus</b> -<b>eris</b> <br> <small>omn. gen.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; velho, antigo. <br> <b>2</b> &ensp; <small>Nep.</small> &ensp; antepassado, succedido pouco antes. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>sub ueteribus sc. tabernis &ensp; <small><small>Plaut</small></small> &ensp; <small>Junto de humas logeas antigas, que havia na praça de Roma</small> </p>
+
+
+
+
+#### Velez
+
+<b>Vetus</b> -<b>eris</b> <br> <small>comparat. Veterior, & superl. Veterrimus, à prisco, Veter, oriuntur.</small>   <p> <b>1</b> &ensp; cousa velha </p>
+
+
+
+
+#### Cardoso
+
+<b>Vetus</b> -<b>eris</b>   <p> <b>1</b> &ensp; cousa velha </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/130070 ' target="_blank"> http://lila-erc.eu/data/id/lemma/130070 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 2ª classe (sem vogal temática) <br>
+<small> outras grafias: </small> ueter <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+vĕtus 
+ vetĕris
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-101-116-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword uetus here are all the values plotted: collocate: exemplum; scoreSUBST: 2. collocate: amicitia; scoreSUBST: 2. collocate: tam; scoreSUBST: 0. collocate: homo; scoreSUBST: 2. collocate: ille; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-101-116-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword uetus here are all the values plotted: collocate: exemplum; scoreADJ: 0. collocate: amicitia; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: homo; scoreADJ: 0. collocate: ille; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-101-116-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword uetus here are all the values plotted: collocate: exemplum; scoreVERBO: 0. collocate: amicitia; scoreVERBO: 0. collocate: tam; scoreVERBO: 0. collocate: homo; scoreVERBO: 0. collocate: ille; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-101-116-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword uetus here are all the values plotted: collocate: exemplum; scoreADV: 0. collocate: amicitia; scoreADV: 0. collocate: tam; scoreADV: 2. collocate: homo; scoreADV: 0. collocate: ille; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-101-116-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword uetus here are all the values plotted: collocate: exemplum; scoreFUNC: 0. collocate: amicitia; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: homo; scoreFUNC: 0. collocate: ille; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quis enim hoc adulescente castior quis modestior quod in iuuentute habemus inlustrius exemplum <b>ueteris</b> sanctitatis <br> <small> Cic.Phil.3.15.4 <br> Pois quem é mais casto, quem mais modesto que este jovem? Que exemplo mais ilustre da antiga virtude temos em nossa juventude? <small> [JDD] </small> </small> </p>
+; <p> habet autem non tantum usus amicitiae <b>ueteris</b> et certae magnam uoluptatem sed etiam initium et comparatio nouae <br> <small> Sen.Ep.9.6 <br> Por outro lado, tem um grande prazer não só o cultivo de uma velha e sólida amizade, mas também o início e a consecução de uma nova. <small> [JDD] </small> </small> </p>
+; <p> genus autem hoc sermonum positum in hominum <b>ueterum</b> auctoritate et eorum illustrium plus nescio quo pacto uidetur habere grauitatis <br> <small> Cic.Amici.4 <br> Por outro lado, este gênero de conversas, posto sob a autoridade de homens velhos e dos ilustres, não sei por que razão parece ter mais peso. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ergo ut audiretur Uetti nomen in causa ut illa <b>uetus</b> aeraria fabula referretur idcirco Camurti et Caeserni est causa renouata <br> <small> Cic.Cael.71 <br> Logo, para que o nome de Vétio fosse ouvido na causa e para que fosse trazida de volta aquela velha história do dinheiro, a causa de Camúrcio e Cesérnio foi evocada? <small> [JDD] </small> </small> </p>
+; <p> non queo <b>uetera</b> illa populi Romani gaudia quanta fuerint iudicare multas tamen iam summorum imperatorum clarissimas uictorias aetas nostra uidit quarum nulla neque tam diuturnam laetitiam attulit nec tantam <br> <small> Cic.Mil.77 <br> Eu não posso julgar quão grandes foram aquelas antigas alegrias do povo romano: contudo, a nossa geração já viu muitas vitórias brilhantíssimas dos maiores generais, dentre as quais nenhuma trouxe uma alegria nem tão duradoura nem tão grande. <small> [JDD] </small> </small> </p>
+; <p> hoc tantum bellum tam turpe tam <b>uetus</b> tam late diuisum atque dispersum quis umquam arbitraretur aut ab omnibus imperatoribus uno anno aut omnibus annis ab uno imperatore confici posse <br> <small> Cic.Man.31 <br> Quem algum dia julgaria que esta guerra tão grande, tão torpe, tão antiga, tão amplamente dividida e espalhada podia ser acabada ou por todos os generais em um único ano ou por um único general em todos os anos? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-101-116-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 33.08 and an absolute frequency of 3. The Vergilius subcorpus follows, with a normalized frequency of 5.79 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 1.52 and an absolute freqeuncy of 1. here are all the values: subcorpus: Caesar ; normalized frequency: 9 ; absolute frequency: 3.39904826648538. subcorpus: Cicero ; normalized frequency: 47 ; absolute frequency: 2.9279110911764. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 10 ; absolute frequency: 1.86633321513223. subcorpus: Suetonius ; normalized frequency: 3 ; absolute frequency: 33.0760749724366. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-101-116-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 6.74 and an absolute frequency of 3. The Poesia.épica subcorpus follows, with a normalized frequency of 5.79 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 1.59 and an absolute freqeuncy of 6. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 17 ; absolute frequency: 4.13836753572385. subcorpus: Prosa.filosófica ; normalized frequency: 17 ; absolute frequency: 2.80061283998616. subcorpus: Prosa.oratória ; normalized frequency: 32 ; absolute frequency: 3.07240309928663. subcorpus: Prosa.epistolográfica ; normalized frequency: 6 ; absolute frequency: 1.58986724608495. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-101-116-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 10.47 and an absolute frequency of 4. The II.d.C. subcorpus follows, with a normalized frequency of 10.47 and an absolute frequency of 4. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 1.99 and an absolute freqeuncy of 13. here are all the values: subcorpus: I.a.C. ; normalized frequency: 67 ; absolute frequency: 3.11845473586223. subcorpus: I.d.C. ; normalized frequency: 13 ; absolute frequency: 1.98867982254857. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+:::
+

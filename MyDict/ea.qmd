@@ -1,0 +1,208 @@
+---
+title: "ea"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx101-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>eō</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>Sent. próprio e figurado</small> &ensp; Para lá com ideia de movimento, para aquele lugar, para aquele ponto &ensp; <small>Cíc. At. 2, 16, 3.</small> <br> <b>2</b> &ensp; <small>Donde:</small> &ensp; A este ponto, a este estado, a tal ponto, a tal estado &ensp; <small>Cíc. Verr. 2, 42; Cíc. Amer. 96.</small> </p> 
+ <small>2.</small> <b>ĕā</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Por este lugar &ensp; <small>Cíc. Caec. 21.</small> </p> 
+ <small>2.</small> <b>eō</b> <br> <small>abl. n. de is, usado adverbialmente:</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Por isto, por causa disto, a fim de que, para que: &ensp; <small></small> <br> <b>2</b> &ensp; <small></small> &ensp; Tanto que, tanto mais que, tanto menos que &ensp; <small>com comp.:</small> <br> <b>3</b> &ensp; <small></small> &ensp; De tal modo, assim, a tal ponto &ensp; <small>Cíc. Sest. 68.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>eo scripsi, quo plus auctoritalis haberem Cíc. At. 8, 9, 1 ‘escrevi para que tivesse mais influência’. <br> <br><b>2</b><br>eo minus quod Cés. B. Gal. 5, 9, 1 “tanto menos que ...”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Eo</b> <br> <small>adv. ou propriamente dat. ou ablat. do pron. Is, ea, id.</small>   <p> <b>1</b> &ensp; <small>Nep.</small> &ensp; para isso, para aquillo, a tal lugar, a tal estado. <br> <b>2</b> &ensp; <small>Ter.</small> &ensp; por isso. <br> <b>3</b> &ensp; <small>Com os comparat.</small> &ensp; mais, tanto mais. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>eo loci res est &ensp; <small><small>Cic</small></small> &ensp; <small>Começou-me a baem taes termos</small> </p>
+
+
+
+
+#### Velez
+
+<b>Eà</b> <br> <small>Adverb.</small>   <p> <b>1</b> &ensp; por essa parte </p> 
+ <b>Eò</b> <br> <small>Adverb.</small>   <p> <b>1</b> &ensp; tanto, ou a tanto, por isso, ou por tanto, ou para aquelle lugar </p>
+
+
+
+
+#### Cardoso
+
+<b>Eo</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; pera aquelle lugar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/hypolemma/110466 ' target="_blank"> http://lila-erc.eu/data/id/hypolemma/110466 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> eo <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ĕō 
+ ĕā
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx101-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ea here are all the values plotted: collocate: usque; scoreSUBST: 0. collocate: magis; scoreSUBST: 0. collocate: conuenio; scoreSUBST: 0. collocate: peruenio; scoreSUBST: 0. collocate: uenio; scoreSUBST: 0. collocate: facile; scoreSUBST: 0. collocate: quidem; scoreSUBST: 0. collocate: sui; scoreSUBST: 0. collocate: ut; scoreSUBST: 0. collocate: que; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx101-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ea here are all the values plotted: collocate: usque; scoreADJ: 0. collocate: magis; scoreADJ: 0. collocate: conuenio; scoreADJ: 0. collocate: peruenio; scoreADJ: 0. collocate: uenio; scoreADJ: 0. collocate: facile; scoreADJ: 0. collocate: quidem; scoreADJ: 0. collocate: sui; scoreADJ: 0. collocate: ut; scoreADJ: 0. collocate: que; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx101-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ea here are all the values plotted: collocate: usque; scoreVERBO: 0. collocate: magis; scoreVERBO: 0. collocate: conuenio; scoreVERBO: 2. collocate: peruenio; scoreVERBO: 2. collocate: uenio; scoreVERBO: 2. collocate: facile; scoreVERBO: 0. collocate: quidem; scoreVERBO: 0. collocate: sui; scoreVERBO: 0. collocate: ut; scoreVERBO: 0. collocate: que; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx101-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ea here are all the values plotted: collocate: usque; scoreADV: 4. collocate: magis; scoreADV: 3. collocate: conuenio; scoreADV: 0. collocate: peruenio; scoreADV: 0. collocate: uenio; scoreADV: 0. collocate: facile; scoreADV: 2. collocate: quidem; scoreADV: 2. collocate: sui; scoreADV: 0. collocate: ut; scoreADV: 0. collocate: que; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx101-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ea here are all the values plotted: collocate: usque; scoreFUNC: 0. collocate: magis; scoreFUNC: 0. collocate: conuenio; scoreFUNC: 0. collocate: peruenio; scoreFUNC: 0. collocate: uenio; scoreFUNC: 0. collocate: facile; scoreFUNC: 0. collocate: quidem; scoreFUNC: 0. collocate: sui; scoreFUNC: 0. collocate: ut; scoreFUNC: 20. collocate: que; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>eo</b> magis vis nobis est timenda <br> <small> Cic.Att.2.21.5 <br> Por isso nós devemos ter mais medo da violência. <small> [JDD] </small> </small> </p>
+; <p> <b>eo</b> ut erat dictum ad conloquium uenerunt <br> <small> Caes.Gal.1.43.2 <br> Lá, como havia sido combinado, chegaram para a conversação. <small> [JDD] </small> </small> </p>
+; <p> <b>eo</b> magis bonum tuum auge et exorna <br> <small> Sen.Ep.13.15 <br> por isso incrementa e enfeita mais esse teu bem. <small> [JDD] </small> </small> </p>
+; <p> quod <b>eo</b> facilius potes quoniam de provincia Macedonia perlata lex est <br> <small> Cic.Att.3.1 <br> o que poderás mais facilmente, uma vez que foi promulgada a lei sobre a província de Macedônia. <small> [JDD] </small> </small> </p>
+; <p> <b>eo</b> postquam Caesar peruenit obsides arma seruos qui ad eos perfugissent poposcit <br> <small> Caes.Gal.1.27.3 <br> Quando César lá chegou, exigiu reféns, armas, os escravos que tinham fugido até eles. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quae quidem tamen aliquid habebant solaci ante quam <b>eo</b> venisti a Pompeio <br> <small> Cic.Att.3.9.2 <br> na verdade, porém, ela tinha algum consolo até que de Pompeu chegaste a isto. <small> [JDD] </small> </small> </p>
+; <p> non usque <b>eo</b> est improbus non omnia sunt in uno uitia numquam fuit crudelis <br> <small> Cic.Ver.2.4.86.11 <br> Ele não é malvado até esse ponto; não estão todos os vícios em uma pessoa só; ele nunca foi cruel. <small> [JDD] </small> </small> </p>
+; <p> hac re pro suggestu pronuntiata eodem die cum legionibus in Senones proficiscitur magnisque itineribus <b>eo</b> peruenit <br> <small> Caes.Gal.6.3.6 <br> Pronunciada essa decisão do alto da tribuna, parte no mesmo dia com as legiões para os senones e chega lá por grandes jornadas. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> tandem uulneribus defessi et pedem referre et quod mons suberat circiter mille passuum <b>eo</b> se recipere coeperunt <br> <small> Caes.Gal.1.25.5 <br> Por fim, esgotados pelos ferimentos, começaram a recuar e, visto que havia um monte a cerca de mil passos, a retirar-se para lá. <small> [JDD] </small> </small> </p>
+; <p> <b>eo</b> mulieres imposuerunt quae ad proelium proficiscentes passis manibus flentes implorabant ne se in seruitutem Romanis traderent <br> <small> Caes.Gal.1.51.2 <br> Puseram lá as mulheres, que, com as mãos estendidas, chorando, imploravam aos que partiam para o combate que não se entregassem em escravidão para os romanos. <small> [JDD] </small> </small> </p>
+; <p> hunc ad egrediendum nequaquam idoneum locum arbitratus dum reliquae naues <b>eo</b> conuenirent ad horam nonam in ancoris exspectauit <br> <small> Caes.Gal.4.23.4 <br> Julgando esse lugar nem um pouco apropriado para desembarcar, enquando estavam se reunindo ali os navios restantes, esperou em âncoras até a nona hora [às três da tarde]. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx101-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 13.91 and an absolute frequency of 15. The Caesar subcorpus follows, with a normalized frequency of 12.84 and an absolute frequency of 34. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 34 ; absolute frequency: 12.8408490067226. subcorpus: Cicero ; normalized frequency: 56 ; absolute frequency: 3.48857491714635. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 15 ; absolute frequency: 13.9133661070402. subcorpus: Seneca ; normalized frequency: 23 ; absolute frequency: 4.29256639480413. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx101-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 12.42 and an absolute frequency of 51. The Prosa.oratória subcorpus follows, with a normalized frequency of 1.63 and an absolute frequency of 17. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 51 ; absolute frequency: 12.4151026071715. subcorpus: Prosa.filosófica ; normalized frequency: 27 ; absolute frequency: 4.44803215762508. subcorpus: Prosa.oratória ; normalized frequency: 17 ; absolute frequency: 1.63221414649602. subcorpus: Prosa.epistolográfica ; normalized frequency: 35 ; absolute frequency: 9.27422560216222. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx101-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The I.a.C. subcorpus follows, with a normalized frequency of 5.03 and an absolute frequency of 108. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 3.52 and an absolute freqeuncy of 23. here are all the values: subcorpus: I.a.C. ; normalized frequency: 108 ; absolute frequency: 5.02676285780777. subcorpus: I.d.C. ; normalized frequency: 23 ; absolute frequency: 3.51843353220132. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

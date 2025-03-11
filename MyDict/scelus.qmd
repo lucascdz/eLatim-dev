@@ -1,0 +1,209 @@
+---
+title: "scelus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-99-101-108-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>scelus</b> <b>-éris</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Ação má, crime, ato criminoso &ensp; <small>Cíc. De Or. 1, 220.</small> <br> <b>2</b> &ensp; <small>I-Daí, entre os cômicos ter valor injurioso, usado com pron. masc.</small> &ensp; Celerado, malvado, desgraçado &ensp; <small>Plaut. Bac. 1.095.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Infelicidade, calamidade, desgraça, infortúnio &ensp; <small>Plaut. Capt. 756.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Scelus</b> -<b>eris</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; maldade, grande crime. <br> <b>2</b> &ensp; ter Homem malvado. <br> <b>3</b> &ensp; <small>Virg.</small> &ensp; castigo, pena da maldade. </p>
+
+
+
+
+#### Velez
+
+<b>Scelus</b> -<b>eris</b>   <p> <b>1</b> &ensp; peccado grave, maldade atroz </p>
+
+
+
+
+#### Cardoso
+
+<b>Scelus</b> -<b>eris</b>   <p> <b>1</b> &ensp; a maldade. ou graue pecado </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/123667 ' target="_blank"> http://lila-erc.eu/data/id/lemma/123667 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+scĕlus 
+ scĕlĕris
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-99-101-108-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword scelus here are all the values plotted: collocate: nefarius; scoreSUBST: 0. collocate: tantus; scoreSUBST: 0. collocate: manifestus; scoreSUBST: 0. collocate: conscientia; scoreSUBST: 2. collocate: poena; scoreSUBST: 2. collocate: soluo; scoreSUBST: 0. collocate: libido; scoreSUBST: 2. collocate: dignus; scoreSUBST: 0. collocate: Antonius; scoreSUBST: 0. collocate: suus; scoreSUBST: 0. collocate: uis; scoreSUBST: 2. collocate: tuus; scoreSUBST: 0. collocate: sine; scoreSUBST: 0. collocate: iste; scoreSUBST: 0. collocate: omnis; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-99-101-108-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword scelus here are all the values plotted: collocate: nefarius; scoreADJ: 3. collocate: tantus; scoreADJ: 0. collocate: manifestus; scoreADJ: 2. collocate: conscientia; scoreADJ: 0. collocate: poena; scoreADJ: 0. collocate: soluo; scoreADJ: 0. collocate: libido; scoreADJ: 0. collocate: dignus; scoreADJ: 2. collocate: Antonius; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: uis; scoreADJ: 0. collocate: tuus; scoreADJ: 0. collocate: sine; scoreADJ: 0. collocate: iste; scoreADJ: 0. collocate: omnis; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-99-101-108-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword scelus here are all the values plotted: collocate: nefarius; scoreVERBO: 0. collocate: tantus; scoreVERBO: 0. collocate: manifestus; scoreVERBO: 0. collocate: conscientia; scoreVERBO: 0. collocate: poena; scoreVERBO: 0. collocate: soluo; scoreVERBO: 2. collocate: libido; scoreVERBO: 0. collocate: dignus; scoreVERBO: 0. collocate: Antonius; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: uis; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0. collocate: sine; scoreVERBO: 0. collocate: iste; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-99-101-108-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword scelus here are all the values plotted: collocate: nefarius; scoreADV: 0. collocate: tantus; scoreADV: 0. collocate: manifestus; scoreADV: 0. collocate: conscientia; scoreADV: 0. collocate: poena; scoreADV: 0. collocate: soluo; scoreADV: 0. collocate: libido; scoreADV: 0. collocate: dignus; scoreADV: 0. collocate: Antonius; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: uis; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: sine; scoreADV: 0. collocate: iste; scoreADV: 0. collocate: omnis; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-99-101-108-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword scelus here are all the values plotted: collocate: nefarius; scoreFUNC: 0. collocate: tantus; scoreFUNC: 0. collocate: manifestus; scoreFUNC: 0. collocate: conscientia; scoreFUNC: 0. collocate: poena; scoreFUNC: 0. collocate: soluo; scoreFUNC: 0. collocate: libido; scoreFUNC: 0. collocate: dignus; scoreFUNC: 0. collocate: Antonius; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: uis; scoreFUNC: 0. collocate: tuus; scoreFUNC: 0. collocate: sine; scoreFUNC: 20. collocate: iste; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> socia cur <b>scelerum</b> dare poenas recusas <br> <small> Sen.Oed.1024 <br> Como cúmplice dos crimes, por que recusas pagar o castigo? <small> [JDD] </small> </small> </p>
+; <p> sperare poteras <b>sceleribus</b> tantis dari regnum salubre <br> <small> Sen.Oed.35 <br> Evidentemente, como condenado de Febo, podias esperar que, com tão grandes crimes, te fosse dado um reino salutar? <small> [JDD] </small> </small> </p>
+; <p> si dixit eodem se conscientiae <b>scelere</b> deuinxit <br> <small> Cic.Cael.52 <br> Se disse, ela se tornou cúmplice do mesmo crime. <small> [JDD] </small> </small> </p>
+; <p> atque hunc ille summus uir <b>scelere</b> solutum periculo liberauit <br> <small> Cic.Mil.9 <br> E aquele grande homem liberou do perigo esse absolvido do crime. <small> [JDD] </small> </small> </p>
+; <p> redde nunc animos acres nunc aliquid aude <b>sceleribus</b> dignum tuis <br> <small> Sen.Oed.878 <br> Mostra agora os teus ânimos vigorosos; ousa agora algo digno de teus crimes. <small> [JDD] </small> </small> </p>
+; <p> tam magnis breues poenas <b>sceleribus</b> soluis atque uno omnia pensabis ictu <br> <small> Sen.Oed.936 <br> Pagas tão grandes crimes com curto castigo e compensarás tudo com um só golpe? <small> [JDD] </small> </small> </p>
+; <p> si hostium fuit ille sanguis summa militum pietas nefarium <b>scelus</b> si ciuium <br> <small> Cic.Phil.14.6.6 <br> Se aquele foi sangue dos inimigos, supremo foi o amor da pátria dos soldados: se foi de cidadãos, crime abominável. <small> [JDD] </small> </small> </p>
+; <p> quae res patefecit patres conscripti sed suo tempore totius huius <b>sceleris</b> fons aperietur <br> <small> Cic.Phil.14.15.12 <br> E esse assunto se descobriu, pais conscritos, mas a seu tempo será revelada a fonte de todo esse crime. <small> [JDD] </small> </small> </p>
+; <p> nempe eas quas ille a C. Antoni <b>scelere</b> auertit et ad rem publicam sua auctoritate traduxit <br> <small> Cic.Phil.10.6.17 <br> Sem dúvida aquelas que ele arrebatou da atuação criminosa de Caio Antônio e que, com sua autoridade, trouxe de volta para a república. <small> [JDD] </small> </small> </p>
+; <p> non modo si socius coniurationis sed nisi inimicissimus istius <b>sceleris</b> fuisset numquam coniurationis accusatione adulescentiam suam potissimum commendare uoluisset <br> <small> Cic.Cael.15 <br> Se ele não simplesmente tivesse sido um cúmplice da conjuração, mas, sim, se ele não tivesse sido inimicíssimo desse crime, nunca teria querido de preferência recomendar a sua juventude, com a acusação de uma conjuração. <small> [JDD] </small> </small> </p>
+; <p> succurrendum est D. Bruto omnes undique copiae conligendae moram exhibere ullam in tali ciue liberando sine <b>scelere</b> non possumus <br> <small> Cic.Phil.6.7.7 <br> É preciso socorrer Décimo Bruto, todas as tropas precisam ser reunidas de todas as partes; não podemos perder nenhuma hora em libertar sem um crime a tal cidadão. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quibus ego confido impendere fatum aliquod et poenam iam diu improbitati nequitiae <b>sceleri</b> libidini debitam aut instare iam plane aut certe appropinquare <br> <small> Cic.Catil.2.11.1 <br> Eu confio que algo fatal está pendente sobre eles, e que o castigo, já há muito merecido por sua improbidade, por sua perversidade, por seu crime, por sua luxúria, ou já os ameaça claramente ou certamente está próximo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> acta M. Antoni rescidistis leges refixistis per uim et contra auspicia latas decreuistis totius Italiae dilectus excitauistis conlegam et <b>scelerum</b> socium omnium hostem iudicauistis <br> <small> Cic.Phil.13.5.2 <br> Rescindistes as disposições de Marco Antônio, revogastes suas leis, decretastes que elas tinham sido promulgadas pela força e contra os auspícios, restabelecestes as tropas de toda a Itália, julgastes como inimigo de todos um colega dele e cúmplice de seus crimes. <small> [JDD] </small> </small> </p>
+; <p> in altero pudor grauitas moderatio integritas in illis et cum hos compello praetereo animo ex grege latrocini neminem libidines <b>scelera</b> ad omne facinus immanis audacia <br> <small> Cic.Phil.13.10.3 <br> Em um, a discrição, a seriedade, a moderação, a integridade; naqueles (e quando os ataco, não excluo em meu espírito ninguém dessa corja de bandidos), a luxúria, os crimes, a terrível ousadia para toda e qualquer má ação. <small> [JDD] </small> </small> </p>
+; <p> non ille nobis Saturnalia constituisset neque tanto ante exiti ac fati diem rei publicae denuntiauisset neque commisisset ut signum ut litterae suae testes manifesti <b>sceleris</b> deprehenderentur <br> <small> Cic.Catil.3.17.7 <br> Ele não teria fixado contra nós as Saturnais, nem teria anunciado com tanta antecedência o dia da destruição e morte da república, nem teria se exposto a que fossem apreendidos o seu sinete, as suas cartas, testemunhas de seu flagrante crime. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-99-101-108-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 11.13 and an absolute frequency of 12. The Cicero subcorpus follows, with a normalized frequency of 8.97 and an absolute frequency of 144. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 144 ; absolute frequency: 8.97062121551918. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 12 ; absolute frequency: 11.1306928856321. subcorpus: Seneca ; normalized frequency: 37 ; absolute frequency: 6.90543289598925. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-99-101-108-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 29.53 and an absolute frequency of 34. The Prosa.oratória subcorpus follows, with a normalized frequency of 12.96 and an absolute frequency of 135. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 15 ; absolute frequency: 3.65150076681516. subcorpus: Prosa.filosófica ; normalized frequency: 5 ; absolute frequency: 0.823709658819459. subcorpus: Prosa.oratória ; normalized frequency: 135 ; absolute frequency: 12.9617005751155. subcorpus: Prosa.epistolográfica ; normalized frequency: 7 ; absolute frequency: 1.85484512043244. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 34 ; absolute frequency: 29.5343988881167. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-99-101-108-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 7.59 and an absolute frequency of 163. The I.a.C. subcorpus follows, with a normalized frequency of 7.59 and an absolute frequency of 163. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 163 ; absolute frequency: 7.58668838724692. subcorpus: I.d.C. ; normalized frequency: 38 ; absolute frequency: 5.81306409668043. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

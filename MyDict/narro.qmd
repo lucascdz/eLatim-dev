@@ -1,0 +1,206 @@
+---
+title: "narro"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-97-114-114-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>narrō</b> <b>-ás</b> <b>-áre</b> <b>-áví, -átum</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói-se com acus.; com acus. e inf.; com abl. acompanhado da prep. de.</small>   <p> <b>1</b> &ensp; <small>Sent. próprio</small> &ensp; Fazer conhecer, narrar, contar, expor &ensp; <small>Cíc. Fam. 1, 8, 4; Cíc. Fam. 3, 1, 1.</small> <br> <b>2</b> &ensp; <small>Daí, por enfraquecimento de sentido:</small> &ensp; Dizer, falar &ensp; <small>sent. próprio e figurado Cíc. Verr. 4. 85.</small> <br> <b>3</b> &ensp; <small>Daí, por enfraquecimento de sentido:</small> &ensp; Impess.: narrant ou narratur, conta-se, diz-se &ensp; <small>Hor. Ep. 1, 2, 6.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Narro</b> -<b>as</b> -<b>avi</b> -<b>atum</b> -<b>are</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; narrar, contar, referir, dizer. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>male de aliquo narrare &ensp; <small><small>Cic</small></small> &ensp; <small>Dizer o máo procedimento de alguem</small> <br> narrare aliquid suspiciose &ensp; <small><small>Quinct</small></small> &ensp; <small>Dizer alguma cousa de sorte, que se faça suspeitosa</small> <br> quem narras? &ensp; <small><small>Plaut</small></small> &ensp; <small>De quem fallas tu?</small> <br> rumor narrat &ensp; <small><small>Mart</small></small> &ensp; <small>Corre voz, diz-se</small> </p>
+
+
+
+
+#### Velez
+
+<b>Narro</b> -<b>as</b>   <p> <b>1</b> &ensp; contar, ou dizer </p>
+
+
+
+
+#### Cardoso
+
+<b>Narro</b> -<b>as</b> -<b>aui</b>   <p> <b>1</b> &ensp; contar istorias </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/113381 ' target="_blank"> http://lila-erc.eu/data/id/lemma/113381 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small> naro <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> naro, narro </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> narrare, narare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> narrabit, narabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> narraui, naraui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> narratum, naratum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> narraturum, naraturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+narrō 
+ narrās 
+ narrāre 
+ narrāvī 
+ narrātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx110-97-114-114-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>narra</b> mihi <br> <small> Cic.Att.2.7.2 <br> Conta-me. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-97-114-114-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 7.59 and an absolute frequency of 5. The Phaedrus subcorpus follows, with a normalized frequency of 7.59 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 19 ; absolute frequency: 1.18362363260322. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 5 ; absolute frequency: 7.59070897221801. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 9 ; absolute frequency: 1.67969989361901. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-97-114-114-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.didática subcorpus registers the highest normalized frequency, with the value of 4.24 and an absolute frequency of 5. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 3.18 and an absolute frequency of 12. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 3 ; absolute frequency: 0.730300153363032. subcorpus: Prosa.filosófica ; normalized frequency: 9 ; absolute frequency: 1.48267738587503. subcorpus: Prosa.oratória ; normalized frequency: 5 ; absolute frequency: 0.480062984263535. subcorpus: Prosa.epistolográfica ; normalized frequency: 12 ; absolute frequency: 3.1797344921699. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-97-114-114-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 2.25 and an absolute frequency of 1. The I.d.C. subcorpus follows, with a normalized frequency of 2.14 and an absolute frequency of 14. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 25 ; absolute frequency: 1.16360251338143. subcorpus: I.d.C. ; normalized frequency: 14 ; absolute frequency: 2.14165519351384. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

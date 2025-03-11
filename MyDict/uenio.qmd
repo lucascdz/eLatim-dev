@@ -1,0 +1,245 @@
+---
+title: "uenio"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-101-110-105-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>vēnī</b> <br> <small>perf. de venìo.</small> <br> <small></small> 
+ <b>venĭō</b> <b>-ís</b> <b>-íre</b> <b>véní. ventum</b> <br> <small>v. intr.</small> <br> <small>Obs.: Imperf.: venibat Ter. Phorm. 652; gen. pl. do part. pres.: venientum Verg. En. 1, 434.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Vir, chegar &ensp; <small>Cíc. At. 5, 12, 1; Cic. Clu. 93; Plaut. Bae. 631; Cés. B. Gal. 7, 66, 2; Cíc. Mare. 25.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Vir sobre, avançar, chegar a, cair sobre &ensp; <small>Cíc. Of. 1, 113; Cés. B. Civ. 1, 17, 2.</small> <br> <b>3</b> &ensp; <small>I-Donde:</small> &ensp; Apresentar-se, mostrar-se &ensp; <small>Cíc. Fin. 1, 24.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Provir, nascer, crescer &ensp; <small>Quint. 2, 4, 4; Verg. G. 1, 54.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Incorrer em, cair em, suportar, sofrer &ensp; <small>Cés. B. Civ. 2, 32, 4; Cés. B. Gal. 3, 17, 5.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Impess.: Vir ao espírito, chegar-se a &ensp; <small>Cíc. Br. 139.</small> </p> 
+ <b>ventum est</b> <br> <small>impess. de venìo:</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; «chegou-se». &ensp; <small></small> </p>
+
+
+
+
+#### Saraiva
+
+<b>Vĕnĭo</b> -<b>īs</b> <b>vēnī</b> <b>vēntŭm</b> -<b>īrĕ</b> <br> <small>v. intrans.</small>   <p> <b>1</b> &ensp; ir; <br> <b>1</b> &ensp; vir por agua, abordar, abicar, aportar; <br> <b>1</b> &ensp; vir voando; <br> <b>1</b> &ensp; vir, chegar; <br> <b>1</b> &ensp; voltar, tornar; <br> <b>2</b> &ensp; <small>Venire contra.</small> &ensp; atacar, aggredir &ensp; <small>fig.;</small> <br> <b>2</b> &ensp; avançar, accommetter, atacar, aggredir, vir, cair sobre, dar sobre; <br> <b>3</b> &ensp; cair, tombar; <br> <b>3</b> &ensp; correr um liquido; <br> <b>3</b> &ensp; romper com respeito á luz; <br> <b>4</b> &ensp; nascer um astro, o dia, levantar-se o vento; <br> <b>4</b> &ensp; vir; <br> <b>5</b> &ensp; abrolhar; <br> <b>5</b> &ensp; crescer, brotar; <br> <b>6</b> &ensp; apresentar-se aos olhos, dar na vista; <br> <b>6</b> &ensp; chegar um arremessão; <br> <b>6</b> &ensp; chegar um som, um ruído; <br> <b>6</b> &ensp; ser trazido com respeito ás coisas; <br> <b>6</b> &ensp; vir o mar, o ar; <br> <b>7</b> &ensp; <small>Fig.</small> &ensp; vir, chegar com respeito ás pessoas e ás coisas; <br> <b>7</b> &ensp; vir, nascer um sentimento; <br> <b>8</b> &ensp; succeder, acontecer, dar-se, sobrevir; <br> <b>8</b> &ensp; vir o tempo; <br> <b>9</b> &ensp; provir; <br> <b>9</b> &ensp; ser o producto d’uma operação arithmetica; <br> <b>10</b> &ensp; ser designado pela sorte, cair em sorte, caber por sorte; <br> <b>10</b> &ensp; sêr devolvido; <br> <b>11</b> &ensp; convir a; <br> <b>11</b> &ensp; ser admittido a; <br> <b>12</b> &ensp; cair em; <br> <b>12</b> &ensp; estar exposto, correr risco, perigo, supportar, aturar, soffrer; <br> <b>12</b> &ensp; ser objecto de; <br> <b>13</b> &ensp; passar a formula de transição; <br> <b>13</b> &ensp; tornar-se usado, passar em proverbio; <br> <b>13</b> &ensp; vir, chegar a ter este ou aquelle sentimento; <br> <b>13</b> &ensp; vir, chegar a; <br> <b>13</b> &ensp; voltar ao assumpto; <br> <b>14</b> &ensp; sêr; <br> <b>15</b> &ensp; vir ao espirito. <br> <b>15</b> &ensp; <small>Unip.</small> &ensp; vir-se a; </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>cælo uenere uolantes &ensp; <small><small>Virg</small></small> &ensp; <small>Ellas as pombas desceram dos ares</small> <br> huc uenit cornix &ensp; <small><small>Ov</small></small> &ensp; <small>A gralha veiu pousar aqui</small> <br> iamque uentum haud procul mari &ensp; <small><small>Tac</small></small> &ensp; <small>Estava-se já proximo ao mar</small> <br> nostra nauis huc uenit &ensp; <small><small>Plaut</small></small> &ensp; <small>O nosso navio chegou aqui</small> <br> si illo ueneris &ensp; <small><small>Cic</small></small> &ensp; <small>Se fores alli</small> <br> ubi eo uentum est &ensp; <small><small>Caes</small></small> &ensp; <small>Apenas se chegou alli</small> <br> uenire ad urbem &ensp; <small><small>Cic</small></small> &ensp; <small>Chegar a Roma;</small> <br> uenire auxilio Atticis &ensp; <small><small>Nep</small></small> &ensp; <small>Vir em soccorro dos Athenienses</small> <br> uenire cœnam ad aliquem &ensp; <small><small>Plaut</small></small> &ensp; <small>Vir jantar com alguem</small> <br> uenire Delum &ensp; <small><small>Cic</small></small> &ensp; <small>Aportar a Delos</small> <br> uenire gressu languido &ensp; <small><small>Phaed</small></small> &ensp; <small>Caminhar com passo vagaroso, andar preguiçosamente</small> <br> uenire in Cariam &ensp; <small><small>Cic</small></small> &ensp; <small>Chegar á Caria</small> <br> uenire in conspectu &ensp; <small><small>Phaed</small></small> &ensp; <small>Apresentar-se diante de alguem</small> <br> uenire in conspectum &ensp; <small><small>Nep</small></small> &ensp; <small>Apresentar-se diante de alguem</small> <br> uenire in patriam uoluit &ensp; <small><small>Phaed</small></small> &ensp; <small>Quiz tornar á patria por mar</small> <br> uenire in portum &ensp; <small><small>Ov</small></small> &ensp; <small>Entrar no porto</small> <br> uenire in uitam &ensp; <small><small>Cic</small></small> &ensp; <small>Vir ao mundo, sêr dado á luz, nascer</small> <br> uenire Oaxem &ensp; <small><small>Virg</small></small> &ensp; <small>Ir para as margens do Oaxes</small> <br> uenire oratum &ensp; <small><small>Liv</small></small> &ensp; <small>Vir rogar;</small> <br> uenire populare &ensp; <small><small>Virg</small></small> &ensp; <small>vir assolar</small> <br> uenire speculari &ensp; <small><small>Caes</small></small> &ensp; <small>vir observar;</small> <br> uenire uiam tot dierum &ensp; <small><small>Cic</small></small> &ensp; <small>Fazer uma viagem tão longa</small> <br> uenitur Lilybæum &ensp; <small><small>Cic</small></small> &ensp; <small>Chegou-se a Lilybeu</small> <br> uir mihi rure uenit &ensp; <small><small>Prop</small></small> &ensp; <small>Meu marido volta do campo</small> <br> <br><b>2</b><br>aquila ueniente &ensp; <small><small>Virg</small></small> &ensp; <small>Quando a aguia cae sobre as pombas</small> <br> se satis ambobus uenire &ensp; <small><small>Virg</small></small> &ensp; <small>Que elle só basta para ambos</small> <br> uenire ad confligendum &ensp; <small><small>Lucr</small></small> &ensp; <small>Avançar para combater</small> <br> uenire contra alienum &ensp; <small><small>Cic</small></small> &ensp; <small>Pleitear contra um estrangeiro</small> <br> uenire contra amici existimationem &ensp; <small><small>Cic</small></small> &ensp; <small>Fazer mal á reputação d’um amigo</small> <br> uenire contra iniuriam &ensp; <small><small>Cic</small></small> &ensp; <small>Oppor-se a uma injustiça</small> <br> uenire contra rem alicuius &ensp; <small><small>Cic</small></small> &ensp; <small>Prejudicar os interesses de alguem</small> <br> <br><b>3</b><br>aqua quæ a cælo uenit &ensp; <small><small>Varr</small></small> &ensp; <small>Agua que cae do ceu, chuva</small> <br> uenire ad terram &ensp; <small><small>Virg</small></small> &ensp; <small>Cair ao chão de cima d’uma torre</small> <br> uenit fulmen &ensp; <small><small>Ov</small></small> &ensp; <small>Cae o raio</small> <br> uenit lumen ab… &ensp; <small><small>Ov</small></small> &ensp; <small>A luz rompe de…</small> <br> ueniunt lacrimæ &ensp; <small><small>Ov</small></small> &ensp; <small>Correm as lagrimas</small> <br> <br><b>4</b><br>ueniens aurora &ensp; <small><small>Virg</small></small> &ensp; <small>A aurora que nasce</small> <br> ueniente die &ensp; <small><small>Virg</small></small> &ensp; <small>Ao romper do dia</small> <br> uenientis sibilus Austri &ensp; <small><small>Virg</small></small> &ensp; <small>O primeiro sibilar do vento Austro</small> <br> uenit Hesperus &ensp; <small><small>Virg</small></small> &ensp; <small>Nasce a estrella da tarde</small> <br> <br><b>5</b><br>aliæ sponte sua ueniunt &ensp; <small><small>Virg</small></small> &ensp; <small>Umas arvores dão-se espontaneamente</small> <br> hic segetes illic ueniunt uuæ &ensp; <small><small>Virg</small></small> &ensp; <small>Aqui crescem as searas, alli as uvas</small> <br> <br><b>6</b><br>aer per patefacta uenit foramina &ensp; <small><small>Lucr</small></small> &ensp; <small>O ar introduz-se pelas aberturas</small> <br> clamor in astra uenit &ensp; <small><small>Ov</small></small> &ensp; <small>O grito eleva-se aos ares</small> <br> dum tibi meæ litteræ ueniant &ensp; <small><small>Cic</small></small> &ensp; <small>Até que te chegue á mão a minha carta</small> <br> frumentum Tiberi uenit &ensp; <small><small>Liv</small></small> &ensp; <small>O trigo veiu pelo Tibre</small> <br> per ilia uenit arundo &ensp; <small><small>Virg</small></small> &ensp; <small>A flecha varou-lhe as ilhargas</small> <br> quæ sub aspectum ueniunt &ensp; <small><small>Cic</small></small> &ensp; <small>Os objectos que ferem a vista, os objectos visiveis</small> <br> sinopis quæ ex Africa uenit &ensp; <small><small>Plin</small></small> &ensp; <small>A terra de Sinope que vem da Africa</small> <br> ueniet mihi fama &ensp; <small><small>Virg</small></small> &ensp; <small>Chegar-me-há a nova</small> <br> uenire ad nostras acies &ensp; <small><small>Lucr</small></small> &ensp; <small>Vir dar em nossa vista uma imagem reflectida</small> <br> uenit medio ui pontus &ensp; <small><small>Virg</small></small> &ensp; <small>O mar furioso atravessou este espaço</small> <br> uox mihi uenit ad aures &ensp; <small><small>Plaut</small></small> &ensp; <small>Uma voz bateu-me nos ouvidos</small> <br> ut noua uenit epistola &ensp; <small><small>Ov</small></small> &ensp; <small>Logo que chegou nova carta</small> <br> <br><b>7</b><br>ad quem dolor ueniat &ensp; <small><small>Cic</small></small> &ensp; <small>O que está sujeito á dor</small> <br> caco debita pœna uenit &ensp; <small><small>Ov</small></small> &ensp; <small>Caco padece o castigo que merece</small> <br> canibus rabies uenit &ensp; <small><small>Virg</small></small> &ensp; <small>A raiva vem aos cães</small> <br> maius ne ueniat malum &ensp; <small><small>Phaed</small></small> &ensp; <small>Para que não venha mal maior</small> <br> quando extrema conclusio uenit &ensp; <small><small>Quint</small></small> &ensp; <small>Quando a phrase está inteiramente acabada</small> <br> tarda uenit dictis fides &ensp; <small><small>Ov</small></small> &ensp; <small>Levou muito tempo que se desse credito ás suas palavras</small> <br> uenire ad extremum &ensp; <small><small>Cic</small></small> &ensp; <small>Chegar ao fim d’um discurso</small> <br> uenire ad summum &ensp; <small><small>Cic</small></small> &ensp; <small>Tocar o mais alto grau</small> <br> uenire in buccam &ensp; <small><small>Ved. Bucca</small></small> <br> uenire in mentem &ensp; <small><small>Ved. mens</small></small> <br> uenire in ora &ensp; <small><small>Ved. os</small></small> <br> uenit amor carminum ei &ensp; <small><small>Tac</small></small> &ensp; <small>Veiu-lhe o gosto aos versos</small> <br> uenitur ad usque decem &ensp; <small><small>Cic</small></small> &ensp; <small>Chega-se até dez contando</small> <br> uides quo uenturum me puto &ensp; <small><small>Cic</small></small> &ensp; <small>Vês a que eu penso chegar</small> <br> <br><b>8</b><br>anni uenientes &ensp; <small><small>Hor</small></small> &ensp; <small>Os tenros annos os annos que vão em crescimento</small> <br> priori Remo augurium uenisse fertur &ensp; <small><small>Liv</small></small> &ensp; <small>Diz-se que o primeiro agouro fôra favoravel a Remo</small> <br> quæ deinde uenerunt &ensp; <small><small>Liv</small></small> &ensp; <small>Os acontecimentos que se succederam</small> <br> quod uenit ex facili &ensp; <small><small>Ov</small></small> &ensp; <small>O que se faz sem trabalho</small> <br> si quando similis fortuna ueniret &ensp; <small><small>Liv</small></small> &ensp; <small>Se se desse o mesmo acontecimento</small> <br> tempus ueniet quum… &ensp; <small><small>Virg</small></small> &ensp; <small>Tempo virá, em que…</small> <br> ubi ea dies uenit &ensp; <small><small>Caes</small></small> &ensp; <small>Logo que chegou este dia</small> <br> ueniens æuum &ensp; <small><small>Hor</small></small> &ensp; <small>Os seculos vindouros, os tempos que hão de vir, o futuro</small> <br> ueniens annus &ensp; <small><small>Cic. Virg</small></small> &ensp; <small>O anno que vem</small> <br> ueniens fama &ensp; <small><small>Virg</small></small> &ensp; <small>A futura gloria</small> <br> uenit arboribusque satisque lues &ensp; <small><small>Virg</small></small> &ensp; <small>Deu a peste nos pomares e nos campos</small> <br> uenit in artus liuor &ensp; <small><small>Ov</small></small> &ensp; <small>Tornou-se livido o corpo</small> <br> <br><b>9</b><br>hinc uaria uenere artes &ensp; <small><small>Virg</small></small> &ensp; <small>D’aqui nasceram varias artes</small> <br> non omne argumentum undique uenit &ensp; <small><small>Quint</small></small> &ensp; <small>Não é de toda a parte que veem os argumentos</small> <br> uenit a gestu decor &ensp; <small><small>Quint</small></small> &ensp; <small>A bellesa da acção oratoria vem do gesto</small> <br> uenit inde celeritas percipiendi &ensp; <small><small>Quint</small></small> &ensp; <small>D’aqui vem a promptidão da concepção</small> <br> ueniunt mille passus &ensp; <small><small>Colum</small></small> &ensp; <small>Há mil passos</small> <br> uitium quod ex inopia uenit &ensp; <small><small>Quint</small></small> &ensp; <small>De feito que provem de esterilidade do espirito</small> <br> <br><b>10</b><br>cui prætori classis uenisset &ensp; <small><small>Liv</small></small> &ensp; <small>A que pretor teria caido por sorte o commando da armada</small> <br> equus non tibi hereditate uenit &ensp; <small><small>Cic</small></small> &ensp; <small>Este cavallo não te coube por herança</small> <br> maior hereditas uenit unicuique uestrum &ensp; <small><small>Cic</small></small> &ensp; <small>Cada um de vós tem maior herança</small> <br> ptolemæo Ægyptus sorte uenit &ensp; <small><small>Just</small></small> &ensp; <small>O Egypto coube por sorte a Ptolemeu</small> <br> <br><b>11</b><br>nullus non in orationem uenit &ensp; <small><small>Quint</small></small> &ensp; <small>Muitos d’estes pés rhythmicos conveem á prosa</small> <br> uenire in amicitiam Germanis &ensp; <small><small>Caes</small></small> &ensp; <small>Entrar na amisade dos Germanos</small> <br> uenire in partem doloris &ensp; <small><small>Ov</small></small> &ensp; <small>Partilhar a dôr</small> <br> uenire in partem impensæ &ensp; <small><small>Cic</small></small> &ensp; <small>Concorrer para a despesa</small> <br> uenire in possessionem &ensp; <small><small>Cic</small></small> &ensp; <small>Entrar, metter-se de posse</small> <br> uenire in sacerdotium &ensp; <small><small>Cic</small></small> &ensp; <small>Entrar em um collegio de sacerdotes, ser feito sacerdote</small> <br> uenire in societatem laudum tuarum &ensp; <small><small>Cic</small></small> &ensp; <small>Associar-me á tua gloria</small> <br> <br><b>12</b><br>uenerat in eam opinionem Cassius, ut… &ensp; <small><small>Cic</small></small> &ensp; <small>Cassio tinha dado a crer que…</small> <br> uenire in æstimationem &ensp; <small><small>Liv</small></small> &ensp; <small>Sêr apreçado, ser posto a preço</small> <br> uenire in calamitatem &ensp; <small><small>Cic</small></small> &ensp; <small>Cair em uma desgraça</small> <br> uenire in cognitionem senatûs &ensp; <small><small>Quint</small></small> &ensp; <small>Ser da alçada do senado, ser julgado pelo senado</small> <br> uenire in contemptionem alicui &ensp; <small><small>Caes</small></small> &ensp; <small>Tornar-se objecto de odio para alguem, grangear o despreso de alguem</small> <br> uenire in controuersiam &ensp; <small><small>Quint</small></small> &ensp; <small>Entrar em questão; ser discutido</small> <br> uenire in crimen &ensp; <small><small>Ter</small></small> &ensp; <small>Ser accusado</small> <br> uenire in dubium &ensp; <small><small>Cic</small></small> &ensp; <small>Ser posto em duvida</small> <br> uenire in eam turpitudinem ut… &ensp; <small><small>Cic</small></small> &ensp; <small>Passar pela vergonha de…</small> <br> uenire in fidem &ensp; <small><small>Liv</small></small> &ensp; <small>Render-se, entregar-se</small> <br> uenire in odium alicui &ensp; <small><small>Cic</small></small> &ensp; <small>Tornar-se objecto de odio para alguem, grangear o despreso de alguem</small> <br> uenire in periculum &ensp; <small><small>Caes</small></small> &ensp; <small>Correr perigo</small> <br> uenire in potestatem alicuius &ensp; <small><small>Caes. Liv</small></small> &ensp; <small>Cair no poder de alguem</small> <br> uenire in quæstionem &ensp; <small><small>Quint</small></small> &ensp; <small>Entrar em questão; ser discutido</small> <br> uenire in religionem populo &ensp; <small><small>Cic</small></small> &ensp; <small>Incutir no povo um escrupulo religioso</small> <br> uenire in summum cruciatum &ensp; <small><small>Caes</small></small> &ensp; <small>Passar pelos mais crueis tormentos</small> <br> uenire in suspicionem alicui… &ensp; <small><small>Lentul. ad Cic</small></small> &ensp; <small>Ser suspeitado por alguem…</small> <br> <br><b>13</b><br>ad tormenta seruorum ueniri oportet &ensp; <small><small>Ulp</small></small> &ensp; <small>É mister que os escravos sejam postos a tractos</small> <br> nonnunquam res ad manus ueniebat &ensp; <small><small>Cic</small></small> &ensp; <small>Algumas vezes chegavam ás unhas em um festim</small> <br> pugna ad gladios uenit &ensp; <small><small>Liv</small></small> &ensp; <small>A peleja tornou-se de espada;</small> <br> pugna ad pedites uenit &ensp; <small><small>Liv</small></small> &ensp; <small>a acção tornou-se um combate de infanteria</small> <br> respub. uenit in religionem, ut senatus… &ensp; <small><small>Liv</small></small> &ensp; <small>A republica concebeu o escrupulo religioso, que o senado…</small> <br> ueni in eum sermonem ut dicerem… &ensp; <small><small>Cic</small></small> &ensp; <small>Cheguei a dizer…</small> <br> uenio ad uerum ordinem &ensp; <small><small>Tac</small></small> &ensp; <small>Volto á ordem dos factos</small> <br> uenio nunc ad… &ensp; <small><small>Cic</small></small> &ensp; <small>Agora passo a…</small> <br> uenire ad nihilum &ensp; <small><small>Cic</small></small> &ensp; <small>Ser anniquilado</small> <br> uenire in certamen &ensp; <small><small>Cic</small></small> &ensp; <small>Ter uma contenda, uma disputa</small> <br> uenire in consuetudinem &ensp; <small><small>Cic</small></small> &ensp; <small>Tornar-se habitual</small> <br> uenire in consuetudinem uitæ… &ensp; <small><small>Caes</small></small> &ensp; <small>Habituar-se ao modo de viver…</small> <br> uenire in laudem &ensp; <small><small>Quint</small></small> &ensp; <small>Ser elogiado</small> <br> uenire in morem &ensp; <small><small>Liv</small></small> &ensp; <small>Passar a ser usado</small> <br> uenire in prouerbium &ensp; <small><small>Cic</small></small> &ensp; <small>Tornar-se proverbio</small> <br> uenire in spem… &ensp; <small><small>Caes</small></small> &ensp; <small>Ter esperança que…</small> <br> uenire in usum &ensp; <small><small>Plin</small></small> &ensp; <small>Passar a ser usado</small> <br> uenire summam in spem obtinendi regni &ensp; <small><small>Caes</small></small> &ensp; <small>Ter summa esperança de chegar ao supremo poder</small> <br> ut ad fabulas ueniamus &ensp; <small><small>Cic</small></small> &ensp; <small>Para chegar ás peças theatraes</small> <br> <br><b>14</b><br>an deus immensi uenias maris &ensp; <small><small>Virg</small></small> &ensp; <small>Se por ventura virás a ser o deus do vasto mar</small> <br> gratior ueniens uirtus… &ensp; <small><small>Virg</small></small> &ensp; <small>O merecimento que é mais apreciado…</small> <br> quæ conscia uenis &ensp; <small><small>Ov</small></small> &ensp; <small>Tu que es cumplice</small> <br> <br><b>15</b><br>mihi in suspicionem uenit &ensp; <small><small>Nep</small></small> &ensp; <small>Tive suspeita…</small> <br> nec uenit in mentem… &ensp; <small><small>Virg</small></small> &ensp; <small>Nem te vem ao pensamento…</small> <br> quum uenit in mentem solis lunæque uiarum &ensp; <small><small>Lucr</small></small> &ensp; <small>Quando se pensa no curso do sol e da lua</small> <br> si ueniat in dubium… &ensp; <small><small>Quint</small></small> &ensp; <small>Se houver duvida…</small> <br> uenit in contentionem, utrum… &ensp; <small><small>Cic</small></small> &ensp; <small>Foi discutido, se…</small> <br> uenit in religionem… &ensp; <small><small>Liv</small></small> &ensp; <small>Houve um escrúpulo que…</small> <br> utrisque uenit in opinionem… &ensp; <small><small>Nep</small></small> &ensp; <small>Uns e outros se persuadiram…</small> </p>
+
+
+
+
+#### Fonseca
+
+<b>Venio</b> -<b>is</b> -<b>eni</b> -<b>entum</b> -<b>ire</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; vir, chegar. <br> <b>2</b> &ensp; ser trazido, ser levado. <br> <b>3</b> &ensp; acontecer, succeder. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>haereditas mihi uenit a patre &ensp; <small><small>Cic</small></small> &ensp; <small>Tive huma herança de meu pai</small> <br> uenire ad manus &ensp; <small><small>Cic</small></small> &ensp; <small>Brigar, vir ás mãos</small> <br> uenire in confessum &ensp; <small><small>Plin. Jun</small></small> &ensp; <small>Ser evidente</small> <br> uenire in crimen &ensp; <small><small>Ter</small></small> &ensp; <small>Ser culpado</small> <br> uenire in discrimen existimationis &ensp; <small><small>Cic</small></small> &ensp; <small>Arriscar a reputaçaõ</small> <br> uenire in sermonem &ensp; <small><small>Cic</small></small> &ensp; <small>Dar que fallar de si. Póde-se explicar de outros modos segundo os subst. á que se ajunta</small> <br> uenire in uitam &ensp; <small><small>Cic</small></small> &ensp; <small>Nascer</small> </p>
+
+
+
+
+#### Velez
+
+<b>venio</b> 
+ <b>Venio</b> -<b>is</b>   <p> <b>1</b> &ensp; vir, ou chegar &ensp; <small>Neutr.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>alicui uenire auxilio &ensp; <small>favorecer a alguem</small> <br> arbores, & similia uenire &ensp; <small>crescer</small> &ensp; <small><small>pro Crescere</small></small> <br> uenit mihi in mentem huius rei &ensp; <small><small>dicimus eleganter</small></small> &ensp; <small>occorre-me, ou lembro-me desta cousa</small> &ensp; <small><small>pro haec res</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Venio</b> <b>is</b> <b>ueni</b> <b>uentum</b>   <p> <b>1</b> &ensp; vir. ou ir </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/129790 ' target="_blank"> http://lila-erc.eu/data/id/lemma/129790 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 4ª conjugação (tema em -ī- longo) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> uenio </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> uenire </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> ueniet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> ueni </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> uentum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> uenturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+vĕnĭō 
+ venīs 
+ venīre 
+ vēnī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx117-101-110-105-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-101-110-105-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword uenio here are all the values plotted: collocate: Roma; scoreSUBST: 0. collocate: castra; scoreSUBST: 2. collocate: ea; scoreSUBST: 0. collocate: ad; scoreSUBST: 0. collocate: cum; scoreSUBST: 0. collocate: senatus; scoreSUBST: 2. collocate: iudicium; scoreSUBST: 2. collocate: Gallia; scoreSUBST: 0. collocate: licinius; scoreSUBST: 0. collocate: nos; scoreSUBST: 0. collocate: exercitus; scoreSUBST: 2. collocate: praetor; scoreSUBST: 2. collocate: nunc; scoreSUBST: 0. collocate: et; scoreSUBST: 0. collocate: nox; scoreSUBST: 2. collocate: non; scoreSUBST: 0. collocate: locus; scoreSUBST: 1. collocate: dies; scoreSUBST: 1. collocate: ante2; scoreSUBST: 0. collocate: legatus; scoreSUBST: 2. collocate: Laodicea; scoreSUBST: 0. collocate: domus; scoreSUBST: 2. collocate: Treuiri; scoreSUBST: 0. collocate: Iesus; scoreSUBST: 0. collocate: Athenae; scoreSUBST: 0. collocate: quacumque; scoreSUBST: 0. collocate: nuntius; scoreSUBST: 2. collocate: unde; scoreSUBST: 0. collocate: hinc; scoreSUBST: 0. collocate: et2; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-101-110-105-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword uenio here are all the values plotted: collocate: Roma; scoreADJ: 0. collocate: castra; scoreADJ: 0. collocate: ea; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: senatus; scoreADJ: 0. collocate: iudicium; scoreADJ: 0. collocate: Gallia; scoreADJ: 0. collocate: licinius; scoreADJ: 2. collocate: nos; scoreADJ: 0. collocate: exercitus; scoreADJ: 0. collocate: praetor; scoreADJ: 0. collocate: nunc; scoreADJ: 0. collocate: et; scoreADJ: 0. collocate: nox; scoreADJ: 0. collocate: non; scoreADJ: 0. collocate: locus; scoreADJ: 0. collocate: dies; scoreADJ: 0. collocate: ante2; scoreADJ: 0. collocate: legatus; scoreADJ: 0. collocate: Laodicea; scoreADJ: 0. collocate: domus; scoreADJ: 0. collocate: Treuiri; scoreADJ: 0. collocate: Iesus; scoreADJ: 0. collocate: Athenae; scoreADJ: 0. collocate: quacumque; scoreADJ: 0. collocate: nuntius; scoreADJ: 0. collocate: unde; scoreADJ: 0. collocate: hinc; scoreADJ: 0. collocate: et2; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-101-110-105-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword uenio here are all the values plotted: collocate: Roma; scoreVERBO: 0. collocate: castra; scoreVERBO: 0. collocate: ea; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: cum; scoreVERBO: 0. collocate: senatus; scoreVERBO: 0. collocate: iudicium; scoreVERBO: 0. collocate: Gallia; scoreVERBO: 0. collocate: licinius; scoreVERBO: 0. collocate: nos; scoreVERBO: 0. collocate: exercitus; scoreVERBO: 0. collocate: praetor; scoreVERBO: 0. collocate: nunc; scoreVERBO: 0. collocate: et; scoreVERBO: 0. collocate: nox; scoreVERBO: 0. collocate: non; scoreVERBO: 0. collocate: locus; scoreVERBO: 0. collocate: dies; scoreVERBO: 0. collocate: ante2; scoreVERBO: 0. collocate: legatus; scoreVERBO: 0. collocate: Laodicea; scoreVERBO: 0. collocate: domus; scoreVERBO: 0. collocate: Treuiri; scoreVERBO: 0. collocate: Iesus; scoreVERBO: 0. collocate: Athenae; scoreVERBO: 0. collocate: quacumque; scoreVERBO: 0. collocate: nuntius; scoreVERBO: 0. collocate: unde; scoreVERBO: 0. collocate: hinc; scoreVERBO: 0. collocate: et2; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-101-110-105-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword uenio here are all the values plotted: collocate: Roma; scoreADV: 0. collocate: castra; scoreADV: 0. collocate: ea; scoreADV: 2. collocate: ad; scoreADV: 0. collocate: cum; scoreADV: 0. collocate: senatus; scoreADV: 0. collocate: iudicium; scoreADV: 0. collocate: Gallia; scoreADV: 0. collocate: licinius; scoreADV: 0. collocate: nos; scoreADV: 0. collocate: exercitus; scoreADV: 0. collocate: praetor; scoreADV: 0. collocate: nunc; scoreADV: 2. collocate: et; scoreADV: 0. collocate: nox; scoreADV: 0. collocate: non; scoreADV: 1. collocate: locus; scoreADV: 0. collocate: dies; scoreADV: 0. collocate: ante2; scoreADV: 2. collocate: legatus; scoreADV: 0. collocate: Laodicea; scoreADV: 0. collocate: domus; scoreADV: 0. collocate: Treuiri; scoreADV: 0. collocate: Iesus; scoreADV: 0. collocate: Athenae; scoreADV: 0. collocate: quacumque; scoreADV: 2. collocate: nuntius; scoreADV: 0. collocate: unde; scoreADV: 2. collocate: hinc; scoreADV: 2. collocate: et2; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-101-110-105-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword uenio here are all the values plotted: collocate: Roma; scoreFUNC: 0. collocate: castra; scoreFUNC: 0. collocate: ea; scoreFUNC: 0. collocate: ad; scoreFUNC: 20. collocate: cum; scoreFUNC: 20. collocate: senatus; scoreFUNC: 0. collocate: iudicium; scoreFUNC: 0. collocate: Gallia; scoreFUNC: 0. collocate: licinius; scoreFUNC: 0. collocate: nos; scoreFUNC: 0. collocate: exercitus; scoreFUNC: 0. collocate: praetor; scoreFUNC: 0. collocate: nunc; scoreFUNC: 0. collocate: et; scoreFUNC: 0. collocate: nox; scoreFUNC: 0. collocate: non; scoreFUNC: 0. collocate: locus; scoreFUNC: 0. collocate: dies; scoreFUNC: 0. collocate: ante2; scoreFUNC: 0. collocate: legatus; scoreFUNC: 0. collocate: Laodicea; scoreFUNC: 0. collocate: domus; scoreFUNC: 0. collocate: Treuiri; scoreFUNC: 0. collocate: Iesus; scoreFUNC: 0. collocate: Athenae; scoreFUNC: 0. collocate: quacumque; scoreFUNC: 0. collocate: nuntius; scoreFUNC: 0. collocate: unde; scoreFUNC: 0. collocate: hinc; scoreFUNC: 0. collocate: et2; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>venit</b> legi dies <br> <small> Cic.Att.4.17.3 <br> Chega o dia da lei. <small> [JDD] </small> </small> </p>
+; <p> <b>venisti</b> perdere nos <br> <small> Vulg.Marc.1.24 <br> Vieste nos desgraçar? <small> [JDD] </small> </small> </p>
+; <p> et <b>veniunt</b> ad domum <br> <small> Vulg.Marc.3.20 <br> E ele vêm para casa <small> [JDD] </small> </small> </p>
+; <p> et <b>veniunt</b> ad Iesum <br> <small> Vulg.Marc.5.15 <br> e vêm até Jesus <small> [JDD] </small> </small> </p>
+; <p> <b>ueniet</b> et uobis furor <br> <small> Sen.Ag.1012 <br> O furor também virá para vós. <small> [JDD] </small> </small> </p>
+; <p> unde <b>uenis</b> et quo tendis <br> <small> Hor.S.1.9.62 <br> “De onde vens?” e “Para onde vais?” <small> [JDD] </small> </small> </p>
+; <p> quam multa non expectata <b>uenerunt</b> <br> <small> Sen.Ep.13.10 <br> Quantos não esperados vieram! <small> [JDD] </small> </small> </p>
+; <p> alius dicat fortasse non <b>ueniet</b> <br> <small> Sen.Ep.13.14 <br> Que outro diga: “Talvez não virá”. <small> [JDD] </small> </small> </p>
+; <p> <b>uenisti</b> paulo ante in senatum <br> <small> Cic.Catil.1.16.7 <br> Chegaste um pouco antes ao senado. <small> [JDD] </small> </small> </p>
+; <p> sexto die Delum Athenis <b>venimus</b> <br> <small> Cic.Att.5.12.1 <br> Em seis dias chegamos de Atenas a Delos. <small> [JDD] </small> </small> </p>
+; <p> Laodiceam <b>veni</b> pridie Kal Sextilis <br> <small> Cic.Att.5.15.1 <br> Cheguei em Laodicéia na véspera das calendas de sextil [31 de julho]. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> felix ad aures nuntius <b>uenit</b> meas <br> <small> Sen.Ag.397a <br> Feliz notícia chega aos meus ouvidos. <small> [JDD] </small> </small> </p>
+; <p> <b>Venit</b> ecce dives et potens : <br> <small> Phaed.3.5 <br> Aí vem vindo um homem rico e poderoso. <small> [JDD] </small> </small> </p>
+; <p> Unde hoc , amice ? <b>venit</b> <br> <small> Phaed.3.7 <br> “De onde é isso, amigo?” <small> [JDD] </small> </small> </p>
+; <p> perbelle feceris si ad nos <b>veneris</b> <br> <small> Cic.Att.4.4A.1 <br> Farás muitíssimo bem, se vieres para junto de nós. <small> [JDD] </small> </small> </p>
+; <p> non enim <b>veni</b> vocare iustos sed peccatores <br> <small> Vulg.Marc.2.17 <br> pois eu não vim chamar os justos, mas os pecadores. <small> [JDD] </small> </small> </p>
+; <p> eo ut erat dictum ad conloquium <b>uenerunt</b> <br> <small> Caes.Gal.1.43.2 <br> Lá, como havia sido combinado, chegaram para a conversação. <small> [JDD] </small> </small> </p>
+; <p> inde in castra <b>veni</b> a.d.VII Kalendas Septembris <br> <small> Cic.Att.5.20.2 <br> Dali cheguei no acampamento no sétimo dia antes das calendas de setembro [26 de agosto]. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nihil esse quod in campum nocte <b>veniretur</b> <br> <small> Cic.Att.4.3.4 <br> não havia nenhum motivo para que se viesse ao Campo à noite. <small> [JDD] </small> </small> </p>
+; <p> <b>venient</b> autem dies cum auferetur ab eis sponsus <br> <small> Vulg.Marc.2.20 <br> Dias virão, porém, em que o noivo será arrancado deles <small> [JDD] </small> </small> </p>
+; <p> tum frequens senatus ad istum <b>uenit</b> pollicetur signum <br> <small> Cic.Ver.2.4.87.8 <br> Então o senado em grande número veio até esse sujeito, promete-lhe a estátua. <small> [JDD] </small> </small> </p>
+; <p> interim a compluribus ciuitatibus ad eum legati <b>ueniunt</b> <br> <small> Caes.Gal.4.18.3 <br> Entrementes, chegam até ele legados de muitas cidades. <small> [JDD] </small> </small> </p>
+; <p> <b>venite</b> seorsum in desertum locum et requiescite pusillum <br> <small> Vulg.Marc.6.31 <br> Vinde somente vós a um lugar deserto e descansai um pouco. <small> [JDD] </small> </small> </p>
+; <p> cum illis tamen cum salvi <b>venerint</b> Romae vivere licebit <br> <small> Cic.Att.4.15.2 <br> Te será permitido, contudo, viver com eles em Roma, quando chegarem sãos e salvos. <small> [JDD] </small> </small> </p>
+; <p> a tergo fronte lateribus tenebitur si in Galliam <b>uenerit</b> <br> <small> Cic.Phil.3.32.6 <br> Ele será detido pelas costas, por frente, pelos lados, se vier para a Gália. <small> [JDD] </small> </small> </p>
+; <p> itaque illi obviam misimus Athenas ut inde Thessalonicam <b>veniret</b> <br> <small> Cic.Att.3.8.1 <br> Assim mandei buscá-lo em Atenas para que viesse dali para Tessalônica. <small> [JDD] </small> </small> </p>
+; <p> mora et tergiuersatio dum hic <b>ueniret</b> locum relinquere noluit <br> <small> Cic.Mil.54 <br> Demora e subterfúgio: até que este chegasse, não quis abandonar o local. <small> [JDD] </small> </small> </p>
+; <p> nunc <b>venio</b> ad eam epistulam quam accepi a Tullio <br> <small> Cic.Att.5.4.2 <br> Agora venho a essa carta que recebi de Túlio. <small> [JDD] </small> </small> </p>
+; <p> eo cum <b>uenio</b> praetor quiescebat fratres illi Cibyratae inambulabant <br> <small> Cic.Ver.2.4.32.13 <br> Quando chego lá, o pretor estava descansando; aqueles irmãos cibiratas passeavam. <small> [JDD] </small> </small> </p>
+; <p> ipse cum primum pabuli copia esse inciperet ad exercitum <b>uenit</b> <br> <small> Caes.Gal.2.2.2 <br> Ele próprio, assim que começava a haver abundância de pastagem, vem até o exército. <small> [JDD] </small> </small> </p>
+; <p> Ad rivum eundem lupus et agnus <b>venerant</b> Siti compulsi ; <br> <small> Phaed.1.1 <br> A um mesmo rio tinham vindo um lobo e um cordeiro, compelidos pela sede. <small> [JDD] </small> </small> </p>
+; <p> in nostra ille numquam <b>ueniet</b> multo minus nos in illius <br> <small> Cic.Phil.12.28.3 <br> No nosso ele nunca virá, muito menos nós no dele. <small> [JDD] </small> </small> </p>
+; <p> potestas modo <b>ueniendi</b> in hunc locum sit dicendi periculum non recuso <br> <small> Cic.Phil.1.14.3 <br> Desde que haja a faculdade de vir a este local, não me furto ao perigo de falar. <small> [JDD] </small> </small> </p>
+; <p> numquam huc <b>venissent</b> nisi ad alias res pestiferas aditus sibi compararent <br> <small> Cic.Att.2.17.1 <br> Nunca teriam chegado aqui se não tivessem preparado a passagem para outras coisas funestas. <small> [JDD] </small> </small> </p>
+; <p> nam Germani qui auxilio <b>ueniebant</b> percepta Treuerorum fuga sese domum contulerunt <br> <small> Caes.Gal.6.8.7 <br> Pois os germanos, que vinham em auxílio, sabida a fuga dos tréveros, se recolheram para sua pátria. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> num quid igitur aliud in iudicium <b>uenit</b> nisi uter utri insidias fecerit <br> <small> Cic.Mil.31 <br> Por acaso, portanto, alguma outra coisa veio a julgamento, a não ser qual dos dois tinha preparado uma emboscada para o outro? <small> [JDD] </small> </small> </p>
+; <p> tempore igitur ipso se ostenderunt cum Licinius <b>uenisset</b> pyxidem expediret manum porrigeret uenenum traderet <br> <small> Cic.Cael.65 <br> Portanto, eles se mostraram no momento exato em que Licínio tinha chegado, pegava a caixinha, estendia a mão, entregava o veneno. <small> [JDD] </small> </small> </p>
+; <p> itaque propter hanc auaritiam imperatorum quantas calamitates quocumque <b>uentum</b> sit nostri exercitus adferant quis ignorat <br> <small> Cic.Man.37 <br> E assim quem ignora que grandes infortúnios os nossos exércitos ocasionam onde quer que se chega, por causa dessa cobiça dos generais? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-101-110-105-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 83.13 and an absolute frequency of 37. The Caesar subcorpus follows, with a normalized frequency of 31.35 and an absolute frequency of 83. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 83 ; absolute frequency: 31.3467784575874. subcorpus: Cicero ; normalized frequency: 322 ; absolute frequency: 20.0593057735915. subcorpus: Horatius ; normalized frequency: 15 ; absolute frequency: 13.3203090311695. subcorpus: Ovidius ; normalized frequency: 6 ; absolute frequency: 10.2951269732327. subcorpus: Phaedrus ; normalized frequency: 16 ; absolute frequency: 24.2902687110976. subcorpus: Sallustius ; normalized frequency: 11 ; absolute frequency: 10.2031351451628. subcorpus: Seneca ; normalized frequency: 93 ; absolute frequency: 17.3568989007297. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 15 ; absolute frequency: 28.957528957529. subcorpus: Hieronymus ; normalized frequency: 37 ; absolute frequency: 83.1273871040216'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-101-110-105-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 83.13 and an absolute frequency of 37. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 37.36 and an absolute frequency of 141. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 14.3 and an absolute freqeuncy of 17. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 95 ; absolute frequency: 23.1261715231627. subcorpus: Prosa.filosófica ; normalized frequency: 90 ; absolute frequency: 14.8267738587503. subcorpus: Prosa.oratória ; normalized frequency: 166 ; absolute frequency: 15.9380910775494. subcorpus: Prosa.epistolográfica ; normalized frequency: 141 ; absolute frequency: 37.3618802829964. subcorpus: Poesia.lírica ; normalized frequency: 17 ; absolute frequency: 14.3013375956928. subcorpus: Poesia.didática ; normalized frequency: 20 ; absolute frequency: 16.9649673424379. subcorpus: Poesia.trágica ; normalized frequency: 18 ; absolute frequency: 15.6358582348853. subcorpus: Poesia.épica ; normalized frequency: 15 ; absolute frequency: 28.957528957529. subcorpus: Prosa.ficcional ; normalized frequency: 37 ; absolute frequency: 83.1273871040216'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-101-110-105-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 83.13 and an absolute frequency of 37. The I.a.C. subcorpus follows, with a normalized frequency of 20.85 and an absolute frequency of 448. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 2.62 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 448 ; absolute frequency: 20.8517570397952. subcorpus: I.d.C. ; normalized frequency: 113 ; absolute frequency: 17.286216919076. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 37 ; absolute frequency: 83.1273871040216'}
+
+
+:::
+

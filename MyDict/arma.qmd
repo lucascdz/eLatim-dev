@@ -1,0 +1,208 @@
+---
+title: "arma"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-114-109-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>arma</b> <b>-órum</b> <br> <small>subs. n. pl.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Armas em geral, armas defensivas &ensp; <small>em oposição a «tela» Cés. B. Gal. 3. 14. 2.</small> <br> <b>2</b> &ensp; <small>I-Sent. próprio</small> &ensp; Utensílios, instrumentos &ensp; <small>Verg. En. 1, 177.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Exército, homens armados &ensp; <small>Cíc. Mil. 3.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; O combate, as guerras &ensp; <small>Cíc. At. 7, 3, 5.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Arma</b> -<b>orum</b> <br> <small>n. plur.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; armas defensivas, e offensivas. <br> <b>2</b> &ensp; <small>Virg.</small> &ensp; guerra, combate. <br> <b>3</b> &ensp; instrumentos da mechanica de todas as artes, e officios. </p>
+
+
+
+
+#### Velez
+
+<b>Arma</b> -<b>orum</b>   <p> <b>1</b> &ensp; armas, ou instrumentos de quasi todas as artes, e officios <br> <b>2</b> &ensp; <small>Fraudes quoque, & consilia arma dicuntur</small> &ensp; <small>à Virg.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>quaerere conscius arma <br> <br><b>X</b><br>bis interimitur, qui suis armis perit &ensp; <small><small>i, magis dolent incommoda, quibus ipsi dedimus occasionem</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Arma</b> <b>orum</b>   <p> <b>1</b> &ensp; as armas. ou aparelhos pera fazer qualquer cousa </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/89998 ' target="_blank"> http://lila-erc.eu/data/id/lemma/89998 </a> <br>
+<small> classe: </small> substantivo neutro plural  <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+armōrum
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-114-109-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword arma here are all the values plotted: collocate: capio; scoreSUBST: 0. collocate: sumo; scoreSUBST: 0. collocate: trado; scoreSUBST: 0. collocate: abicio; scoreSUBST: 0. collocate: obses; scoreSUBST: 2. collocate: contra; scoreSUBST: 0. collocate: contendo; scoreSUBST: 0. collocate: quin; scoreSUBST: 0. collocate: fero; scoreSUBST: 0. collocate: uis; scoreSUBST: 2. collocate: uir; scoreSUBST: 2. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-114-109-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword arma here are all the values plotted: collocate: capio; scoreADJ: 0. collocate: sumo; scoreADJ: 0. collocate: trado; scoreADJ: 0. collocate: abicio; scoreADJ: 0. collocate: obses; scoreADJ: 0. collocate: contra; scoreADJ: 0. collocate: contendo; scoreADJ: 0. collocate: quin; scoreADJ: 0. collocate: fero; scoreADJ: 0. collocate: uis; scoreADJ: 0. collocate: uir; scoreADJ: 0. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-114-109-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword arma here are all the values plotted: collocate: capio; scoreVERBO: 3. collocate: sumo; scoreVERBO: 2. collocate: trado; scoreVERBO: 2. collocate: abicio; scoreVERBO: 2. collocate: obses; scoreVERBO: 0. collocate: contra; scoreVERBO: 0. collocate: contendo; scoreVERBO: 2. collocate: quin; scoreVERBO: 0. collocate: fero; scoreVERBO: 2. collocate: uis; scoreVERBO: 0. collocate: uir; scoreVERBO: 0. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-114-109-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword arma here are all the values plotted: collocate: capio; scoreADV: 0. collocate: sumo; scoreADV: 0. collocate: trado; scoreADV: 0. collocate: abicio; scoreADV: 0. collocate: obses; scoreADV: 0. collocate: contra; scoreADV: 0. collocate: contendo; scoreADV: 0. collocate: quin; scoreADV: 0. collocate: fero; scoreADV: 0. collocate: uis; scoreADV: 0. collocate: uir; scoreADV: 0. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-114-109-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword arma here are all the values plotted: collocate: capio; scoreFUNC: 0. collocate: sumo; scoreFUNC: 0. collocate: trado; scoreFUNC: 0. collocate: abicio; scoreFUNC: 0. collocate: obses; scoreFUNC: 0. collocate: contra; scoreFUNC: 20. collocate: contendo; scoreFUNC: 0. collocate: quin; scoreFUNC: 20. collocate: fero; scoreFUNC: 0. collocate: uis; scoreFUNC: 0. collocate: uir; scoreFUNC: 0. collocate: in; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> denuntio uim <b>arma</b> remouete <br> <small> Cic.Phil.1.26.9 <br> eu denuncio a violência: removei as armas! <small> [JDD] </small> </small> </p>
+; <p> isdem in <b>armis</b> fui <br> <small> Cic.Lig.9 <br> estive nas mesmas armas. <small> [JDD] </small> </small> </p>
+; <p> qua re impetrata <b>arma</b> tradere iussi faciunt <br> <small> Caes.Gal.3.21.3 <br> Conseguida essa coisa, ordenados a entregar as armas, eles fazem. <small> [JDD] </small> </small> </p>
+; <p> <b>armis</b> enim gesta numquam profecto in iudicium uocabuntur <br> <small> Cic.Phil.1.21.6 <br> Pois as coisas feitas pelas armas nunca, sem dúvida, serão chamadas em juízo. <small> [JDD] </small> </small> </p>
+; <p> confiteor interficiendi Saturnini causa C. Rabirium <b>arma</b> cepisse <br> <small> Cic.Rab.Perd.19 <br> Admito que Caio Rabírio pegou em armas a fim de matar Saturnino. <small> [JDD] </small> </small> </p>
+; <p> <b>armis</b> obsidibusque acceptis Crassus in fines Uocatium et Tarusatium profectus est <br> <small> Caes.Gal.3.23.1 <br> Recebidas as armas e os reféns, Crasso partiu para as fronteiras dos vocates e tarusates. <small> [JDD] </small> </small> </p>
+; <p> tum diceres Caesar caue credas fuit in Africa tulit <b>arma</b> contra te <br> <small> Cic.Lig.16 <br> Então dirias: “César, não creias; ele esteve na África, tomou armas contra ti!” <small> [JDD] </small> </small> </p>
+; <p> eo postquam Caesar peruenit obsides <b>arma</b> seruos qui ad eos perfugissent poposcit <br> <small> Caes.Gal.1.27.3 <br> Quando César lá chegou, exigiu reféns, armas, os escravos que tinham fugido até eles. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> apparent rari nantes in gurgite uasto <b>arma</b> uirum tabulaeque et Troia gaza per undas <br> <small> Verg.A.1.118 <br> No vasto abismo raros aparecem nadando e as armas dos homens e tábuas e os tesouros troianos pelas ondas. <small> [JDD] </small> </small> </p>
+; <p> de timore superuacaneum est disserere cum praesertim diligentia clarissumi uiri consulis tanta praesidia sint in <b>armis</b> <br> <small> Sal.Cat.51.19 <br> Sobre o temor é supérfluo dissertar, principalmente quando, por diligência do cônsul, um homem ilustríssimo, tão reforçadas guarnições estão em armas. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> postea uero quam equitatus noster in conspectum uenit hostes abiectis <b>armis</b> terga uerterunt magnusque eorum numerus est occisus <br> <small> Caes.Gal.4.37.4 <br> Mas depois que nossa cavalaria apareceu, os inimigos, lançadas ao chão suas armas, voltaram as costas e um grande número deles foi morto. <small> [JDD] </small> </small> </p>
+; <p> cum his Haeduos eorumque clientes semel atque iterum <b>armis</b> contendisse magnam calamitatem pulsos accepisse omnem nobilitatem omnem senatum omnem equitatum amisisse <br> <small> Caes.Gal.1.31.6 <br> Com estes, os éduos e seus protegidos guerrearam mais de uma vez; vencidos, sofreram grande calamidade, perderam toda a nobreza, todo o senado, toda a cavalaria. <small> [JDD] </small> </small> </p>
+; <p> idcirco ne saga sumpsimus <b>arma</b> cepimus iuuentutem omnem ex tota Italia excussimus ut exercitu florentissimo et maximo legati ad pacem mitterentur <br> <small> Cic.Phil.12.16.1 <br> Foi por isso que vestimos o traje de campanha, pegamos em armas, sacudimos toda a juventude da Itália inteira para que, com um exército esplêndido e enorme, enviássemos legados para a paz? <small> [JDD] </small> </small> </p>
+; <p> si interfici Saturninum nefas fuit <b>arma</b> esse contra Saturninum sine scelere non possunt si <b>arma</b> iure sumpta concedis interfectum iure concedas necesse est <br> <small> Cic.Rab.Perd.19 <br> Se Saturnino ser morto foi uma ação ímpia, as armas não podem ser contra Saturnino sem crime; se aceitas que as armas foram tomadas dentro da lei, é forçoso que aceites que ele foi morto dentro da lei. <small> [JDD] </small> </small> </p>
+; <p> neminem esse dico ex his omnibus qui illo die Romae fuerit quem tu diem in iudicium uocas pubesque tum fuerit quin <b>arma</b> ceperit quin consules secutus sit <br> <small> Cic.Rab.Perd.31 <br> Digo que, dentre todos os que estiveram em Roma naquele dia (o dia que tu levas a julgamento), não há ninguém que fosse então maior de idade, que não tenha pegado em armas, que não tenha seguido os cônsules. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-114-109-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 32.82 and an absolute frequency of 17. The Sallustius subcorpus follows, with a normalized frequency of 22.26 and an absolute frequency of 24. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 49 ; absolute frequency: 18.5059294508649. subcorpus: Cicero ; normalized frequency: 108 ; absolute frequency: 6.72796591163938. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 24 ; absolute frequency: 22.2613857712643. subcorpus: Seneca ; normalized frequency: 17 ; absolute frequency: 3.17276646572479. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 17 ; absolute frequency: 32.8185328185328. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-114-109-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 32.82 and an absolute frequency of 17. The Prosa.histórica subcorpus follows, with a normalized frequency of 18.26 and an absolute frequency of 75. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 75 ; absolute frequency: 18.2575038340758. subcorpus: Prosa.filosófica ; normalized frequency: 10 ; absolute frequency: 1.64741931763892. subcorpus: Prosa.oratória ; normalized frequency: 102 ; absolute frequency: 9.79328487897612. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 5 ; absolute frequency: 4.20627576343905. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 11 ; absolute frequency: 9.55524669909659. subcorpus: Poesia.épica ; normalized frequency: 17 ; absolute frequency: 32.8185328185328. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-114-109-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 9.45 and an absolute frequency of 203. The I.d.C. subcorpus follows, with a normalized frequency of 2.75 and an absolute frequency of 18. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 203 ; absolute frequency: 9.4484524086572. subcorpus: I.d.C. ; normalized frequency: 18 ; absolute frequency: 2.75355667737494. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

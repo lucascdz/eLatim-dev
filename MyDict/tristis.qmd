@@ -1,0 +1,195 @@
+---
+title: "tristis"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx116-114-105-115-116-105-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>trīstis</b> <b>-e</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; De aspecto sombrio, triste &ensp; <small>Cés. B. Gal, 1, 32, 2;</small> <br> <b>2</b> &ensp; <small>II-Sent. particular</small> &ensp; De aspecto sinistro tratando-se das entranhas das vítimas, funesto, de mau agouro, infeliz, desventurado &ensp; <small>Cíc. Div. 2, 36.</small> <br> <b>3</b> &ensp; <small>II-Sent. particular</small> &ensp; Amargo tratando-se do sabor, desagradável &ensp; <small>Verg. G. 2, 126.</small> <br> <b>4</b> &ensp; <small>II-Sent. particular</small> &ensp; Austero, grave, severo, íntegro, terrível, medonho, impiedoso &ensp; <small>Cíc. Verr. pr. 30.</small> <br> <b>5</b> &ensp; <small>II-Sent. particular</small> &ensp; Carrancudo, agastado, irado &ensp; <small>Plaut. Cas. 230.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>tristibus temporibus Cíc. Fam. 15,7 “na adversidade” </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<small>m. f</small> <b>Tristis</b> <small>n</small> -<b>te</b> -<b>is</b> <small>Cic</small> -<b>tior</b> <small>Liv</small> -<b>tissimus</b>   <p> <b>1</b> &ensp; triste, melancolico. <br> <b>2</b> &ensp; grave, severo. <br> <b>3</b> &ensp; <small>Ovid.</small> &ensp; difficultoso. <br> <b>4</b> &ensp; <small>Plaut.</small> &ensp; irado. <br> <b>5</b> &ensp; <small>Virg.</small> &ensp; cruel, funesto. <br> <b>6</b> &ensp; amargoso. <br> <b>7</b> &ensp; <small>Cic.</small> &ensp; infeliz, que causa tristeza. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Tristis</b> -<b>e</b>   <p> <b>1</b> &ensp; cousa triste. ou graue. ou carrancuda </p> 
+ <b>Tristis</b> -<b>e</b>   <p> <b>1</b> &ensp; cousa triste. ou que dà tristeza </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/129020 ' target="_blank"> http://lila-erc.eu/data/id/lemma/129020 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 2ª classe (tema em -i-) <br>
+<small> outras grafias: </small> triss <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+trīstis
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Sphinx et nefandi carminis <b>tristes</b> minae <br> <small> Sen.Oed.246 <br> A esfinge e as funestas ameaças de seu nefando enigma. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx116-114-105-115-116-105-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 10.3 and an absolute frequency of 3. The Horatius subcorpus follows, with a normalized frequency of 8.88 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 15 ; absolute frequency: 0.934439709949914. subcorpus: Horatius ; normalized frequency: 10 ; absolute frequency: 8.88020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 29 ; absolute frequency: 5.41236632388347. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx116-114-105-115-116-105-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 13.9 and an absolute frequency of 16. The Poesia.lírica subcorpus follows, with a normalized frequency of 8.41 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 4 ; absolute frequency: 0.973733537817376. subcorpus: Prosa.filosófica ; normalized frequency: 13 ; absolute frequency: 2.14164511293059. subcorpus: Prosa.oratória ; normalized frequency: 14 ; absolute frequency: 1.3441763559379. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 10 ; absolute frequency: 8.4125515268781. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 16 ; absolute frequency: 13.8985406532314. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx116-114-105-115-116-105-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 7.85 and an absolute frequency of 3. The I.d.C. subcorpus follows, with a normalized frequency of 4.9 and an absolute frequency of 32. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 29 ; absolute frequency: 1.34977891552246. subcorpus: I.d.C. ; normalized frequency: 32 ; absolute frequency: 4.89521187088879. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

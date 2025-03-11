@@ -1,0 +1,208 @@
+---
+title: "uox"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-111-120xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>vōcis</b> <br> <small>gen. de vóx.</small> <br> <small></small> 
+ <b>vōx</b> <b>vócis</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Voz &ensp; <small>Cíc. C. M. 14.</small> <br> <b>2</b> &ensp; <small>I-No pl.</small> &ensp; Sons emitidos pela voz, notas, tons, sons articulados, palavras, ditos, opiniões &ensp; <small>Cés. B. Gal. 1, 39, 1.</small> <br> <b>3</b> &ensp; <small>I-Daí, no sing.:</small> &ensp; Palavra, linguagem, palavra, termo, vocábulo &ensp; <small>Cíc. Lae. 37.</small> <br> <b>4</b> &ensp; <small>II-Sents. diversos:</small> &ensp; Voz modificada pelo canto, canto, voz dos animais, som dos instrumentos, ruído, murmúrio &ensp; <small>Cíc. De Or. 3, 1, 97.</small> <br> <b>5</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Voz &ensp; <small>Cíc. Scaur. 16.</small> <br> <b>6</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Palavra = língua, linguagem &ensp; <small>Hor. O. 1, 10, 3.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Vox</b> -<b>ocis</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; voz. <br> <b>2</b> &ensp; <small>Virg.</small> &ensp; som de qualquer cousa. <br> <b>3</b> &ensp; <small>Cic.</small> &ensp; palavra, dito. <br> <b>4</b> &ensp; <small>Hor.</small> &ensp; oraçaõ, discurso. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>haec una uox omnium est &ensp; <small><small>Cic</small></small> &ensp; <small>He fama publica, todos assim o dizem a huma voz</small> <br> uocem aduersus pericula poscere &ensp; <small><small>Tac</small></small> &ensp; <small>Requerer defensa contra os perigos</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Vox</b> <b>ocis</b>   <p> <b>1</b> &ensp; a voz </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/130806 ' target="_blank"> http://lila-erc.eu/data/id/lemma/130806 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+vōx 
+ vōcis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx117-111-120xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-111-120xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword uox here are all the values plotted: collocate: exprimo; scoreSUBST: 0. collocate: talis; scoreSUBST: 0. collocate: unus; scoreSUBST: 0. collocate: audio; scoreSUBST: 0. collocate: meus; scoreSUBST: 0. collocate: hic; scoreSUBST: 0. collocate: magnus; scoreSUBST: 0. collocate: iste; scoreSUBST: 0. collocate: et; scoreSUBST: 0. collocate: quis; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-111-120xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword uox here are all the values plotted: collocate: exprimo; scoreADJ: 0. collocate: talis; scoreADJ: 0. collocate: unus; scoreADJ: 0. collocate: audio; scoreADJ: 0. collocate: meus; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: magnus; scoreADJ: 2. collocate: iste; scoreADJ: 0. collocate: et; scoreADJ: 0. collocate: quis; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-111-120xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword uox here are all the values plotted: collocate: exprimo; scoreVERBO: 2. collocate: talis; scoreVERBO: 0. collocate: unus; scoreVERBO: 0. collocate: audio; scoreVERBO: 2. collocate: meus; scoreVERBO: 0. collocate: hic; scoreVERBO: 0. collocate: magnus; scoreVERBO: 0. collocate: iste; scoreVERBO: 0. collocate: et; scoreVERBO: 0. collocate: quis; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-111-120xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword uox here are all the values plotted: collocate: exprimo; scoreADV: 0. collocate: talis; scoreADV: 0. collocate: unus; scoreADV: 0. collocate: audio; scoreADV: 0. collocate: meus; scoreADV: 0. collocate: hic; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: iste; scoreADV: 0. collocate: et; scoreADV: 0. collocate: quis; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-111-120xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword uox here are all the values plotted: collocate: exprimo; scoreFUNC: 0. collocate: talis; scoreFUNC: 0. collocate: unus; scoreFUNC: 0. collocate: audio; scoreFUNC: 0. collocate: meus; scoreFUNC: 0. collocate: hic; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0. collocate: iste; scoreFUNC: 0. collocate: et; scoreFUNC: 0. collocate: quis; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> et clamans <b>voce</b> magna dicit <br> <small> Vulg.Marc.5.7 <br> e clamando em alta voz, diz. <small> [JDD] </small> </small> </p>
+; <p> et <b>vox</b> facta est de caelis <br> <small> Vulg.Marc.1.11 <br> E aconteceu uma voz vinda dos ceus. <small> [JDD] </small> </small> </p>
+; <p> ulli ne poena <b>uocis</b> expressae fuit <br> <small> Sen.Oed.529 <br> Por acaso houve punição para alguém por palavras ditas à força? <small> [JDD] </small> </small> </p>
+; <p> quid <b>uoce</b> blandiloqua mala consilia dictas <br> <small> Sen.Ag.289 <br> Por que com voz melíflua ditas maus conselhos? <small> [JDD] </small> </small> </p>
+; <p> Tunc moriens edidisse <b>vocem</b> hanc dicitur : <br> <small> Phaed.1.12 <br> Diz-se que então, enquanto morria, emitiu esta voz. <small> [JDD] </small> </small> </p>
+; <p> longe mea discrepat istis et <b>uox</b> et ratio <br> <small> Hor.S.1.6.92 <br> Minha voz e minha razão discrepam muito desses. <small> [JDD] </small> </small> </p>
+; <p> haec nec hominis nec ad hominem <b>uox</b> est <br> <small> Cic.Lig.16 <br> Esta fala não é nem de um homem nem para um homem. <small> [JDD] </small> </small> </p>
+; <p> a clamore protinus et a summa contentione <b>uox</b> tua incipiet <br> <small> Sen.Ep.15.7 <br> Tua voz começará em seguida pelo clamor e pelo supremo esforço? <small> [JDD] </small> </small> </p>
+; <p> cur dextrae iungere dextram non datur ac ueras audire et reddere <b>uoces</b> <br> <small> Verg.A.1.408 <br> Por que não é dado juntar minha destra à tua destra e ouvir e devolver vozes de verdade?” <small> [JDD] </small> </small> </p>
+; <p> haec est innocentiae defensio haec ipsius causae oratio haec una <b>uox</b> ueritatis <br> <small> Cic.Cael.55 <br> Esta é a defesa da inocência, este é o discurso da própria causa, esta é a única voz da verdade. <small> [JDD] </small> </small> </p>
+; <p> talia <b>uoce</b> refert curisque ingentibus aeger spem uoltu simulat premit altum corde dolorem <br> <small> Verg.A.1.208 <br> Diz tais coisas com sua voz e, atormentado por enormes preocupações, finge esperança em seu rosto, reprime no coração profunda dor. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-111-120xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 17.37 and an absolute frequency of 9. The Phaedrus subcorpus follows, with a normalized frequency of 16.7 and an absolute frequency of 11. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 9 ; absolute frequency: 3.39904826648538. subcorpus: Cicero ; normalized frequency: 78 ; absolute frequency: 4.85908649173955. subcorpus: Horatius ; normalized frequency: 12 ; absolute frequency: 10.6562472249356. subcorpus: Ovidius ; normalized frequency: 9 ; absolute frequency: 15.442690459849. subcorpus: Phaedrus ; normalized frequency: 11 ; absolute frequency: 16.6995597388796. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 54 ; absolute frequency: 10.078199361714. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 9 ; absolute frequency: 17.3745173745174. subcorpus: Hieronymus ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-111-120xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 17.37 and an absolute frequency of 9. The Poesia.didática subcorpus follows, with a normalized frequency of 16.96 and an absolute frequency of 20. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 2.38 and an absolute freqeuncy of 9. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 12 ; absolute frequency: 2.92120061345213. subcorpus: Prosa.filosófica ; normalized frequency: 44 ; absolute frequency: 7.24864499761124. subcorpus: Prosa.oratória ; normalized frequency: 64 ; absolute frequency: 6.14480619857325. subcorpus: Prosa.epistolográfica ; normalized frequency: 9 ; absolute frequency: 2.38480086912743. subcorpus: Poesia.lírica ; normalized frequency: 12 ; absolute frequency: 10.0950618322537. subcorpus: Poesia.didática ; normalized frequency: 20 ; absolute frequency: 16.9649673424379. subcorpus: Poesia.trágica ; normalized frequency: 15 ; absolute frequency: 13.0298818624044. subcorpus: Poesia.épica ; normalized frequency: 9 ; absolute frequency: 17.3745173745174. subcorpus: Prosa.ficcional ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-111-120xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 11.32 and an absolute frequency of 74. The II.d.C. subcorpus follows, with a normalized frequency of 5.24 and an absolute frequency of 2. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 5.07 and an absolute freqeuncy of 109. here are all the values: subcorpus: I.a.C. ; normalized frequency: 109 ; absolute frequency: 5.07330695834303. subcorpus: I.d.C. ; normalized frequency: 74 ; absolute frequency: 11.3201774514303. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+:::
+

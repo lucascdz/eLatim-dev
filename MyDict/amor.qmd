@@ -1,0 +1,200 @@
+---
+title: "amor"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-109-111-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>amŏr</b> <b>-óris</b> <br> <small>subs. m.</small> <br> <small>Obs.: amór Verg. En. 11, 323.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Amizade, afeição &ensp; <small>Cíc. Flac. 103.</small> <br> <b>2</b> &ensp; <small>I-Donde</small> &ensp; Amor &ensp; <small>lícito ou ilícito Plaut. Merc. 325.</small> <br> <b>3</b> &ensp; <small>I-Donde</small> &ensp; Paixão, grande desejo &ensp; <small>Cíc. Sull. 73.</small> <br> <b>4</b> &ensp; <small>I-Donde</small> &ensp; Paixão, grande amor &ensp; <small>Ov. Met. 1, 452.</small> <br> <b>5</b> &ensp; <small>I-Donde</small> &ensp; Desejo, vontade &ensp; <small>sent. poético sem sent. erótico Verg. En. 2, 10.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Amor</b> -<b>oris</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; amor, benevolencia, amizade. </p>
+
+
+
+
+#### Velez
+
+<b>Amor</b> -<b>is</b>   <p> <b>1</b> &ensp; o amor </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>amor mei &ensp; <small>o amor, que outro me tem</small> <br> amor meus &ensp; <small>o amor, que eu tenho a outro</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Amor</b> <b>oris</b>   <p> <b>1</b> &ensp; o amor honesto </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/88717 ' target="_blank"> http://lila-erc.eu/data/id/lemma/88717 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ămŏr 
+ ămōris
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-109-111-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-109-111-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword amor here are all the values plotted: collocate: caecus; scoreSUBST: 0. collocate: noster; scoreSUBST: 0. collocate: tuus; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-109-111-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword amor here are all the values plotted: collocate: caecus; scoreADJ: 2. collocate: noster; scoreADJ: 0. collocate: tuus; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-109-111-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword amor here are all the values plotted: collocate: caecus; scoreVERBO: 0. collocate: noster; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-109-111-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword amor here are all the values plotted: collocate: caecus; scoreADV: 0. collocate: noster; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-109-111-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword amor here are all the values plotted: collocate: caecus; scoreFUNC: 0. collocate: noster; scoreFUNC: 0. collocate: tuus; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> stultus et inprobus hic <b>amor</b> est dignusque notari <br> <small> Hor.S.1.3.24 <br> Este amor próprio é tolo e desonesto e digno de ser censurado. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> sed humanitatem tuam <b>amorem</b>que in tuos reditus celeritas declarabit <br> <small> Cic.Att.4.15.2 <br> Mas a rapidez de tua volta vai expressar tua humanidade e amor para com os teus. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> tantum velim fortuna det nobis potestatem ut incolumes <b>amore</b> nostro perfruamur <br> <small> Cic.Att.3.17.3 <br> Gostaria somente que a fortuna nos dê a possibilidade de desfrutarmos sãos e salvos de nossa afeição. <small> [JDD] </small> </small> </p>
+; <p> ille Sychaeum impius ante aras atque auri caecus <b>amore</b> clam ferro incautum superat securus <b>amorum</b> germanae factumque diu celauit et aegram multa malus simulans uana spe lusit amantem <br> <small> Verg.A.1.348 <br> A Siqueu, desprevenido, aquele ímpio e cego de amor pelo ouro, o traspassa às ocultas, diante dos altares, com o ferro, despreocupado dos amores de sua irmã; por muito tempo ele escondeu o fato e, perverso, fingindo muitas coisas, iludiu a amante aflita com uma vã esperança. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-109-111-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Ovidius subcorpus registers the highest normalized frequency, with the value of 27.45 and an absolute frequency of 16. The Tacitus subcorpus follows, with a normalized frequency of 10.3 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 59 ; absolute frequency: 3.67546285913633. subcorpus: Horatius ; normalized frequency: 12 ; absolute frequency: 10.6562472249356. subcorpus: Ovidius ; normalized frequency: 16 ; absolute frequency: 27.4536719286205. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 17 ; absolute frequency: 3.17276646572479. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 9 ; absolute frequency: 17.3745173745174. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-109-111-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 17.37 and an absolute frequency of 9. The Poesia.lírica subcorpus follows, with a normalized frequency of 13.46 and an absolute frequency of 16. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 5 ; absolute frequency: 1.21716692227172. subcorpus: Prosa.filosófica ; normalized frequency: 22 ; absolute frequency: 3.62432249880562. subcorpus: Prosa.oratória ; normalized frequency: 20 ; absolute frequency: 1.92025193705414. subcorpus: Prosa.epistolográfica ; normalized frequency: 27 ; absolute frequency: 7.15440260738228. subcorpus: Poesia.lírica ; normalized frequency: 16 ; absolute frequency: 13.460082443005. subcorpus: Poesia.didática ; normalized frequency: 12 ; absolute frequency: 10.1789804054627. subcorpus: Poesia.trágica ; normalized frequency: 7 ; absolute frequency: 6.08061153578874. subcorpus: Poesia.épica ; normalized frequency: 9 ; absolute frequency: 17.3745173745174. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-109-111-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 7.85 and an absolute frequency of 3. The I.d.C. subcorpus follows, with a normalized frequency of 4.44 and an absolute frequency of 29. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 86 ; absolute frequency: 4.00279264603212. subcorpus: I.d.C. ; normalized frequency: 29 ; absolute frequency: 4.43628575799296. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,202 @@
+---
+title: "potens"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-111-116-101-110-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>potens</b> <b>-éntis</b> <br> <small>adj.</small> <br> <small>Obs.: Constrói-se absolutamente: com gen.: com abl.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Poderoso, influente, eficaz, forte, ativo &ensp; <small>Cíc. Pomp. 4; T. Lív. 9, 17, 3.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Senhor, soberano &ensp; <small>Q. Cúrc. 4, 13, 23; Hor. O. L 3, I.</small> <br> <b>3</b> &ensp; <small>I-Daí:</small> &ensp; Capaz de &ensp; <small>T. Lív. 24,4, 9.</small> <br> <b>4</b> &ensp; <small>II-Sent. poético:</small> &ensp; Que está na posse de &ensp; <small>Ov, Met. 8, 80.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Potens</b> -<b>entis</b> <br> <small>subst. m.</small> 
+ <b>Potens</b> -<b>entis</b> <small>Hor</small> -<b>tior</b> <small>Cic</small> -<b>tissimus</b> <br> <small>omn. gen.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; poderoso, que tem poder, autoridade, credito, virtude, força. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>potens herba &ensp; <small><small>Virg</small></small> &ensp; <small>Herva medicinal, ou de grande virtude</small> <br> potens regni &ensp; <small><small>Liv</small></small> &ensp; <small>Que está em idade de poder reinar, ou governar</small> <br> potens uteri Diua &ensp; <small><small>Ovid</small></small> &ensp; <small>Juno, Lucina, que presidia aos partos</small> </p>
+
+
+
+
+#### Velez
+
+<b>Potens</b> -<b>tis</b> <br> <small>1. b.</small>   <p> <b>1</b> &ensp; cousa poderosa, senhora, capaz </p>
+
+
+
+
+#### Cardoso
+
+<b>Potens</b> <b>tis</b>   <p> <b>1</b> &ensp; cousa poderosa. ou senhora </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/hypolemma/110681 ' target="_blank"> http://lila-erc.eu/data/id/hypolemma/110681 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 2ª classe (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+pŏtēns 
+ pŏtēntis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-111-116-101-110-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-111-116-101-110-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword potens here are all the values plotted: collocate: rex; scoreSUBST: 2. collocate: tam; scoreSUBST: 0. collocate: homo; scoreSUBST: 2. collocate: atque; scoreSUBST: 0. collocate: que; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-111-116-101-110-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword potens here are all the values plotted: collocate: rex; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: homo; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: que; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-111-116-101-110-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword potens here are all the values plotted: collocate: rex; scoreVERBO: 0. collocate: tam; scoreVERBO: 0. collocate: homo; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: que; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-111-116-101-110-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword potens here are all the values plotted: collocate: rex; scoreADV: 0. collocate: tam; scoreADV: 2. collocate: homo; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: que; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-111-116-101-110-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword potens here are all the values plotted: collocate: rex; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: homo; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: que; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> hac parte <b>potentes</b> caelicolae clarique suos posuere penates . <br> <small> Ov.Met.1.173-4 <br> nesta parte os habitantes do céu mais poderosos e ilustres colocaram seus penates. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> clarissimi ac <b>potentissimi</b> qui tamen cum consul fuisset condemnatus est <br> <small> Cic.Ver.2.4.22.4 <br> De um homem muito ilustre e poderoso, que, no entanto, mesmo tendo sido cônsul, foi condenado. <small> [JDD] </small> </small> </p>
+; <p> cursare iste homo <b>potens</b> cum filio blando et gratioso circum tribus paternos amicos hoc est diuisores appellare omnis et conuenire <br> <small> Cic.Ver.1.25 <br> Eis esse homem poderoso a correr sem cessar com seu doce e popular filho de tribo em tribo, a chamar e a reunir todos os amigos de seu pai, isto é, os galopins. <small> [JDD] </small> </small> </p>
+; <p> hac maiores uestri primum uniuersam Italiam deuicerunt deinde Karthaginem exciderunt Numantiam euerterunt <b>potentissimos</b> reges bellicosissimas gentis in dicionem huius imperi redegerunt <br> <small> Cic.Phil.4.13.8 <br> Com essa [virtude] os vossos antepassados primeiro submeteram a Itália toda, em seguida destruíram Cartago, arrasaram a Numância, reduziram ao domínio deste império os mais poderosos reis, as mais belicosas nações. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ecqua ciuitas est non modo in prouinciis nostris uerum in ultimis nationibus aut tam <b>potens</b> aut tam libera aut etiam tam immanis ac barbara rex denique ecquis est qui senatorem populi Romani tecto ac domo non inuitet <br> <small> Cic.Ver.2.4.25.1 <br> 25 Que cidade há, não só em nossas províncias, mas nas mais remotas nações, tão poderosa ou tão livre ou até mesmo tão selvagem e bárbara, enfim que rei há que não acolha sob seu teto e em sua casa um senador do povo romano? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-111-116-101-110-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 6.87 and an absolute frequency of 2. The Tacitus subcorpus follows, with a normalized frequency of 6.87 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 8 ; absolute frequency: 3.0213762368759. subcorpus: Cicero ; normalized frequency: 19 ; absolute frequency: 1.18362363260322. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 16 ; absolute frequency: 2.98613314421157. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-111-116-101-110-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 3.86 and an absolute frequency of 2. The Poesia.trágica subcorpus follows, with a normalized frequency of 3.47 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 12 ; absolute frequency: 2.92120061345213. subcorpus: Prosa.filosófica ; normalized frequency: 13 ; absolute frequency: 2.14164511293059. subcorpus: Prosa.oratória ; normalized frequency: 18 ; absolute frequency: 1.72822674334873. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-111-116-101-110-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The I.d.C. subcorpus follows, with a normalized frequency of 3.06 and an absolute frequency of 20. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 35 ; absolute frequency: 1.629043518734. subcorpus: I.d.C. ; normalized frequency: 20 ; absolute frequency: 3.05950741930549. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

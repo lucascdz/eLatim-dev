@@ -1,0 +1,247 @@
+---
+title: "meus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-101-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>meāmet</b> <br> <small>e</small> <b>meāpte</b> <br> <small>ant. abl. f. = mea ipsa.</small> <br> <small></small> 
+ <b>meōpte</b> <br> <small>= meo ipso.</small> <br> <small></small> 
+ <b>mepte</b> <br> <small>= meópte.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; A mim mesmo. &ensp; <small></small> </p> 
+ <b>meum</b> <b>-i</b> <br> <small>pron. n. usado substant.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sing.:</small> &ensp; meu bem. &ensp; <small></small> <br> <b>2</b> &ensp; <small>II-Pl.:</small> &ensp; meus bens &ensp; <small>Cíc. Par. 8.</small> </p> 
+ <b>meus</b> <b>-a</b> <b>-um</b> <br> <small>pronome possessivo</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Meu, minha, que me pertence &ensp; <small>Cíc. Plane. 26.</small> <br> <b>2</b> &ensp; <small>II-Na língua afetiva</small> &ensp; Querido, que me é querido: &ensp; <small></small> <br> <b>3</b> &ensp; <small>III-Em locuções:</small> &ensp; <small></small> <br> <b>4</b> &ensp; <small>III-Em locuções:</small> &ensp; <small></small> <br> <b>5</b> &ensp; <small>III-Em locuções:</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>mi Tiro Cíc. Fam. 16, 20 “ó meu querido Tirão”. <br> <br><b>3</b><br>meum est com infint.: “pertence-me, é meu direito, é meu dever”. <br> <br><b>4</b><br>non est meum Ter. Heaut. 549 “não é minha maneira de”. <br> <br><b>5</b><br>Meus est Plaut. Mil. 334 “é meu, está seguro”. </p> 
+ <small>1.</small> <b>mī</b> <br> <small>voc. sing. m. de meus.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Meus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; meu, que me pertence. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>meum est &ensp; <small><small>Ter</small></small> &ensp; <small>He cousa minha, eu sou o seu verdadeiro autor</small> <br> meum est &ensp; <small><small>Plaut</small></small> &ensp; <small>Convem-me</small> <br> meus carnifex &ensp; <small><small>Ter</small></small> &ensp; <small>Algoz, que me atormenta</small> <br> meus sum &ensp; <small><small>Pers</small></small> &ensp; <small>Sou livre, sou senhor da minha vontade</small> </p>
+
+
+
+
+#### Velez
+
+<b>Meus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa minha </p>
+
+
+
+
+#### Cardoso
+
+<b>Meus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa minha </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/112262 ' target="_blank"> http://lila-erc.eu/data/id/lemma/112262 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> meusmet, meuspte, mius <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+mĕus 
+ mĕa 
+ mĕum
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-101-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword meus here are all the values plotted: collocate: lucilius; scoreSUBST: 0. collocate: oratio; scoreSUBST: 3. collocate: consulatus; scoreSUBST: 3. collocate: consilium; scoreSUBST: 2. collocate: frater; scoreSUBST: 3. collocate: periculum; scoreSUBST: 2. collocate: sententia; scoreSUBST: 2. collocate: labor; scoreSUBST: 2. collocate: de; scoreSUBST: 0. collocate: pro; scoreSUBST: 0. collocate: nomen; scoreSUBST: 2. collocate: defensio; scoreSUBST: 3. collocate: amicus; scoreSUBST: 2. collocate: dolor; scoreSUBST: 2. collocate: diligentia; scoreSUBST: 2. collocate: salus; scoreSUBST: 2. collocate: inimicus; scoreSUBST: 0. collocate: pomponius; scoreSUBST: 0. collocate: domus; scoreSUBST: 2. collocate: consuetudo; scoreSUBST: 2. collocate: casus; scoreSUBST: 2. collocate: officium; scoreSUBST: 2. collocate: epistula; scoreSUBST: 2. collocate: filius; scoreSUBST: 2. collocate: laus; scoreSUBST: 2. collocate: caput; scoreSUBST: 2. collocate: mos; scoreSUBST: 2. collocate: uox; scoreSUBST: 2. collocate: necessarius2; scoreSUBST: 2. collocate: pristinus; scoreSUBST: 0. collocate: mandatum; scoreSUBST: 2. collocate: Cicero; scoreSUBST: 0. collocate: spons; scoreSUBST: 2. collocate: meritum; scoreSUBST: 2. collocate: auris; scoreSUBST: 2. collocate: collega; scoreSUBST: 2. collocate: reditus; scoreSUBST: 2. collocate: perpetuus; scoreSUBST: 0. collocate: coniunx; scoreSUBST: 2. collocate: familiaris; scoreSUBST: 0. collocate: quasi; scoreSUBST: 0. collocate: inuidia; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-101-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword meus here are all the values plotted: collocate: lucilius; scoreADJ: 4. collocate: oratio; scoreADJ: 0. collocate: consulatus; scoreADJ: 0. collocate: consilium; scoreADJ: 0. collocate: frater; scoreADJ: 0. collocate: periculum; scoreADJ: 0. collocate: sententia; scoreADJ: 0. collocate: labor; scoreADJ: 0. collocate: de; scoreADJ: 0. collocate: pro; scoreADJ: 0. collocate: nomen; scoreADJ: 0. collocate: defensio; scoreADJ: 0. collocate: amicus; scoreADJ: 0. collocate: dolor; scoreADJ: 0. collocate: diligentia; scoreADJ: 0. collocate: salus; scoreADJ: 0. collocate: inimicus; scoreADJ: 2. collocate: pomponius; scoreADJ: 3. collocate: domus; scoreADJ: 0. collocate: consuetudo; scoreADJ: 0. collocate: casus; scoreADJ: 0. collocate: officium; scoreADJ: 0. collocate: epistula; scoreADJ: 0. collocate: filius; scoreADJ: 0. collocate: laus; scoreADJ: 0. collocate: caput; scoreADJ: 0. collocate: mos; scoreADJ: 0. collocate: uox; scoreADJ: 0. collocate: necessarius2; scoreADJ: 0. collocate: pristinus; scoreADJ: 2. collocate: mandatum; scoreADJ: 0. collocate: Cicero; scoreADJ: 0. collocate: spons; scoreADJ: 0. collocate: meritum; scoreADJ: 0. collocate: auris; scoreADJ: 0. collocate: collega; scoreADJ: 0. collocate: reditus; scoreADJ: 0. collocate: perpetuus; scoreADJ: 2. collocate: coniunx; scoreADJ: 0. collocate: familiaris; scoreADJ: 2. collocate: quasi; scoreADJ: 0. collocate: inuidia; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-101-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword meus here are all the values plotted: collocate: lucilius; scoreVERBO: 0. collocate: oratio; scoreVERBO: 0. collocate: consulatus; scoreVERBO: 0. collocate: consilium; scoreVERBO: 0. collocate: frater; scoreVERBO: 0. collocate: periculum; scoreVERBO: 0. collocate: sententia; scoreVERBO: 0. collocate: labor; scoreVERBO: 0. collocate: de; scoreVERBO: 0. collocate: pro; scoreVERBO: 0. collocate: nomen; scoreVERBO: 0. collocate: defensio; scoreVERBO: 0. collocate: amicus; scoreVERBO: 0. collocate: dolor; scoreVERBO: 0. collocate: diligentia; scoreVERBO: 0. collocate: salus; scoreVERBO: 0. collocate: inimicus; scoreVERBO: 0. collocate: pomponius; scoreVERBO: 0. collocate: domus; scoreVERBO: 0. collocate: consuetudo; scoreVERBO: 0. collocate: casus; scoreVERBO: 0. collocate: officium; scoreVERBO: 0. collocate: epistula; scoreVERBO: 0. collocate: filius; scoreVERBO: 0. collocate: laus; scoreVERBO: 0. collocate: caput; scoreVERBO: 0. collocate: mos; scoreVERBO: 0. collocate: uox; scoreVERBO: 0. collocate: necessarius2; scoreVERBO: 0. collocate: pristinus; scoreVERBO: 0. collocate: mandatum; scoreVERBO: 0. collocate: Cicero; scoreVERBO: 0. collocate: spons; scoreVERBO: 0. collocate: meritum; scoreVERBO: 0. collocate: auris; scoreVERBO: 0. collocate: collega; scoreVERBO: 0. collocate: reditus; scoreVERBO: 0. collocate: perpetuus; scoreVERBO: 0. collocate: coniunx; scoreVERBO: 0. collocate: familiaris; scoreVERBO: 0. collocate: quasi; scoreVERBO: 0. collocate: inuidia; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-101-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword meus here are all the values plotted: collocate: lucilius; scoreADV: 0. collocate: oratio; scoreADV: 0. collocate: consulatus; scoreADV: 0. collocate: consilium; scoreADV: 0. collocate: frater; scoreADV: 0. collocate: periculum; scoreADV: 0. collocate: sententia; scoreADV: 0. collocate: labor; scoreADV: 0. collocate: de; scoreADV: 0. collocate: pro; scoreADV: 0. collocate: nomen; scoreADV: 0. collocate: defensio; scoreADV: 0. collocate: amicus; scoreADV: 0. collocate: dolor; scoreADV: 0. collocate: diligentia; scoreADV: 0. collocate: salus; scoreADV: 0. collocate: inimicus; scoreADV: 0. collocate: pomponius; scoreADV: 0. collocate: domus; scoreADV: 0. collocate: consuetudo; scoreADV: 0. collocate: casus; scoreADV: 0. collocate: officium; scoreADV: 0. collocate: epistula; scoreADV: 0. collocate: filius; scoreADV: 0. collocate: laus; scoreADV: 0. collocate: caput; scoreADV: 0. collocate: mos; scoreADV: 0. collocate: uox; scoreADV: 0. collocate: necessarius2; scoreADV: 0. collocate: pristinus; scoreADV: 0. collocate: mandatum; scoreADV: 0. collocate: Cicero; scoreADV: 0. collocate: spons; scoreADV: 0. collocate: meritum; scoreADV: 0. collocate: auris; scoreADV: 0. collocate: collega; scoreADV: 0. collocate: reditus; scoreADV: 0. collocate: perpetuus; scoreADV: 0. collocate: coniunx; scoreADV: 0. collocate: familiaris; scoreADV: 0. collocate: quasi; scoreADV: 2. collocate: inuidia; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-101-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword meus here are all the values plotted: collocate: lucilius; scoreFUNC: 0. collocate: oratio; scoreFUNC: 0. collocate: consulatus; scoreFUNC: 0. collocate: consilium; scoreFUNC: 0. collocate: frater; scoreFUNC: 0. collocate: periculum; scoreFUNC: 0. collocate: sententia; scoreFUNC: 0. collocate: labor; scoreFUNC: 0. collocate: de; scoreFUNC: 20. collocate: pro; scoreFUNC: 20. collocate: nomen; scoreFUNC: 0. collocate: defensio; scoreFUNC: 0. collocate: amicus; scoreFUNC: 0. collocate: dolor; scoreFUNC: 0. collocate: diligentia; scoreFUNC: 0. collocate: salus; scoreFUNC: 0. collocate: inimicus; scoreFUNC: 0. collocate: pomponius; scoreFUNC: 0. collocate: domus; scoreFUNC: 0. collocate: consuetudo; scoreFUNC: 0. collocate: casus; scoreFUNC: 0. collocate: officium; scoreFUNC: 0. collocate: epistula; scoreFUNC: 0. collocate: filius; scoreFUNC: 0. collocate: laus; scoreFUNC: 0. collocate: caput; scoreFUNC: 0. collocate: mos; scoreFUNC: 0. collocate: uox; scoreFUNC: 0. collocate: necessarius2; scoreFUNC: 0. collocate: pristinus; scoreFUNC: 0. collocate: mandatum; scoreFUNC: 0. collocate: Cicero; scoreFUNC: 0. collocate: spons; scoreFUNC: 0. collocate: meritum; scoreFUNC: 0. collocate: auris; scoreFUNC: 0. collocate: collega; scoreFUNC: 0. collocate: reditus; scoreFUNC: 0. collocate: perpetuus; scoreFUNC: 0. collocate: coniunx; scoreFUNC: 0. collocate: familiaris; scoreFUNC: 0. collocate: quasi; scoreFUNC: 0. collocate: inuidia; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Quintum fratrem <b>meum</b> fac diligas <br> <small> Cic.Att.3.13.2 <br> Faz por estimar o meu irmão Quinto. <small> [JDD] </small> </small> </p>
+; <p> <b>mea</b> mandata de domo curabis <br> <small> Cic.Att.4.7.3 <br> Cuidarás dos meus encargos em relação à casa. <small> [JDD] </small> </small> </p>
+; <p> tu es Filius <b>meus</b> dilectus <br> <small> Vulg.Marc.1.11 <br> tu és meu Filho amado. <small> [JDD] </small> </small> </p>
+; <p> felix ad aures nuntius uenit <b>meas</b> <br> <small> Sen.Ag.397a <br> Feliz notícia chega aos meus ouvidos. <small> [JDD] </small> </small> </p>
+; <p> ecce mater <b>mea</b> et fratres <b>mei</b> <br> <small> Vulg.Marc.3.34 <br> Eis minha mãe e meus irmãos. <small> [JDD] </small> </small> </p>
+; <p> o rem minime aptam <b>meis</b> moribus <br> <small> Cic.Att.5.10.3 <br> Ó coisa nem um pouco adequada para os meus costumes! <small> [JDD] </small> </small> </p>
+; <p> spero <b>meos</b> omnis servire laudi <b>meae</b> <br> <small> Cic.Att.5.14.2 <br> Espero que todos os meus estejam servindo ao meu prestígio. <small> [JDD] </small> </small> </p>
+; <p> malo te legas quam epistulam <b>meam</b> <br> <small> Sen.Ep.24.21 <br> Prefiro que leias a ti do que a minha carta. <small> [JDD] </small> </small> </p>
+; <p> ego apud improbos <b>meam</b> retinuissem invidiam <br> <small> Cic.Att.2.19.4 <br> eu, diante dos ímprobos; tinham mantido o ódio a mim. <small> [JDD] </small> </small> </p>
+; <p> me <b>mi</b> Pomponi valde paenitet vivere <br> <small> Cic.Att.3.4 <br> Eu, meu querido Pompônio, estou profundamente arrependido de viver <small> [JDD] </small> </small> </p>
+; <p> quae res etiam auxit dolorem <b>meum</b> <br> <small> Cic.Att.4.6.2 <br> Esse fato inclusive aumentou  a minha dor. <small> [JDD] </small> </small> </p>
+; <p> effare casus quis rates hausit <b>meas</b> <br> <small> Sen.Ag.414 <br> Diz: que desgraça aniquilou esses barcos? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Sic sine labore venter impletur <b>meus</b> . <br> <small> Phaed.3.7 <br> Assim sem esforço a minha barriga vai se enchendo.” <small> [JDD] </small> </small> </p>
+; <p> ita est <b>mi</b> Lucili cito accedimus opinioni <br> <small> Sen.Ep.13.8 <br> Assim é, meu querido Lucílio: rapidamente nos submetemos à opinião. <small> [JDD] </small> </small> </p>
+; <p> non intellegitis non auditis <b>meam</b> sententiam flagitari <br> <small> Cic.Phil.7.14.4 <br> Não entendeis, não ouvis que minha proposta é exigida? <small> [JDD] </small> </small> </p>
+; <p> quod quidem <b>meum</b> consilium minime obscurum fuit <br> <small> Cic.Marc.15 <br> E, na verdade, esse meu intento não foi nem um pouco oculto. <small> [JDD] </small> </small> </p>
+; <p> te ut plane Deiotaro reconciliet oratio <b>mea</b> <br> <small> Cic.Deiot.35 <br> É para que o meu discurso te reconcilie completamente com Dejótaro. <small> [JDD] </small> </small> </p>
+; <p> hoc ante omnia fac <b>mi</b> Lucili disce gaudere <br> <small> Sen.Ep.23.3 <br> Faz isto antes de tudo, meu querido Lucílio: aprende a satisfazer-te. <small> [JDD] </small> </small> </p>
+; <p> longe <b>mea</b> discrepat istis et uox et ratio <br> <small> Hor.S.1.6.92 <br> Minha voz e minha razão discrepam muito desses. <small> [JDD] </small> </small> </p>
+; <p> inimici <b>mei</b> <b>mea</b> mihi non me ipsum ademerunt <br> <small> Cic.Att.3.5 <br> Meu inimigos tomaram os meus bens, não a mim mesmo. <small> [JDD] </small> </small> </p>
+; <p> omnia ad senatum <b>mea</b> sententia reiciam quaecumque postulabit Antonius <br> <small> Cic.Phil.12.28.7 <br> Vou remeter ao senado, com meu parecer, tudo o que Antônio exigir seja o que for. <small> [JDD] </small> </small> </p>
+; <p> hortaris etiam sponte deponam ut <b>mea</b> tam grauia regna <br> <small> Sen.Oed.678 <br> Até mesmo me exortas a que eu espontaneamente abandone o meu tão pesado reino? <small> [JDD] </small> </small> </p>
+; <p> sed tamen <b>meorum</b> periculorum rationes utilitas rei publicae uincat <br> <small> Cic.Catil.4.9.6 <br> Mas, mesmo assim, que o bem da república esteja acima dos motivos de meus perigos. <small> [JDD] </small> </small> </p>
+; <p> hic mihi primum <b>meum</b> consilium defuit sed etiam obfuit <br> <small> Cic.Att.3.15.5 <br> Aqui me faltou pela primeira vez o meu discernimento, mas ainda me danou. <small> [JDD] </small> </small> </p>
+; <p> domum <b>meam</b> quod crebro invisis est mihi valde gratum <br> <small> Cic.Att.4.5.2 <br> É para mim muito grato que olhes minha casa com frequência. <small> [JDD] </small> </small> </p>
+; <p> Cicero <b>meus</b> modestissimus et suavissimus puer tibi salutem dicit <br> <small> Cic.Att.5.9.2 <br> Meu Cícero, modestíssimo e suavíssivo garoto, te saúda. <small> [JDD] </small> </small> </p>
+; <p> an quia non condemnaui sententia <b>mea</b> duo consules sum reprehendendus <br> <small> Cic.Dom.9 <br> 9 Por acaso devo ser repreendido porque não condenei com meu parecer os dois cônsules? <small> [JDD] </small> </small> </p>
+; <p> petivi etiam pro <b>meis</b> in civitatem beneficiis ut negotium conficerent <br> <small> Cic.Att.5.21.11 <br> pedi até mesmo pelos meus benefícios na cidade que concluíssem o negócio. <small> [JDD] </small> </small> </p>
+; <p> tuta iam opperiar <b>meos</b> hostes et ultro uulneri opponam caput <br> <small> Sen.Ag.945 <br> Agora, em segurança, vou esperar meus inimigos e oferecer espontaneamente minha cabeça ao golpe. <small> [JDD] </small> </small> </p>
+; <p> et fratres <b>meos</b> inquit quod erant conscii in uincla coniecit <br> <small> Cic.Deiot.22 <br> 22 “E os meus irmãos,” diz “porque eram sabedores, ele os meteu na prisão.” <small> [JDD] </small> </small> </p>
+; <p> parcite oculis saltem <b>meis</b> et aliquam ueniam iusto dolori date <br> <small> Cic.Phil.12.19.4 <br> Poupai, ao menos, os meus olhos e dai alguma vênia para a minha justa dor. <small> [JDD] </small> </small> </p>
+; <p> de <b>meis</b> scriptis misi ad te Graece perfectum consulatum <b>meum</b> <br> <small> Cic.Att.1.20.6 <br> Dos meus escritos, te mandei já terminado o meu consulado em grego. <small> [JDD] </small> </small> </p>
+; <p> dies fere nullus est quin hic Satyrus domum <b>meam</b> ventitet <br> <small> Cic.Att.1.1.3 <br> Quase não passa um dia sem que este Sátiro apareça em minha casa. <small> [JDD] </small> </small> </p>
+; <p> quid est quare ego ulla uerba coram amico <b>meo</b> retraham <br> <small> Sen.Ep.3.3 <br> Que motivo há para que eu retenha algumas palavras na presença de meu amigo? <small> [JDD] </small> </small> </p>
+; <p> deinde te quasi me alterum et simul <b>meae</b> culpae socium quaero <br> <small> Cic.Att.3.15.4 <br> em seguida busco a ti como que meu segundo eu e, ao mesmo tempo, sócio de minha culpa. <small> [JDD] </small> </small> </p>
+; <p> animaduerti enim iudices audiri a uobis <b>meum</b> familiarem L. Herennium perattente <br> <small> Cic.Cael.25 <br> Pois eu notei, juízes, que meu amigo Lúcio Herênio era ouvido por vós muito atentamente. <small> [JDD] </small> </small> </p>
+; <p> ne illi uehementer errant si illam <b>meam</b> pristinam lenitatem perpetuam sperant futuram <br> <small> Cic.Catil.2.6.6 <br> Ora, eles se enganam redondamente, se esperam que aquela minha primeira brandura será para sempre. <small> [JDD] </small> </small> </p>
+; <p> hoc nomine satis honestas pro <b>meo</b> casu spes relicuae dignitatis conseruandae sum secutus <br> <small> Sal.Cat.35.4 <br> Por esse motivo, segui as esperanças, bastante honrosas em minha desgraça, de conservar o que resta de minha dignidade. <small> [JDD] </small> </small> </p>
+; <p> tu pande uiuat coniugis frater <b>mei</b> et pande teneat quas soror sedes <b>mea</b> <br> <small> Sen.Ag.404a <br> Tu, revela se vive o irmão de meu esposo e revela que morada tem a minha irmã. <small> [JDD] </small> </small> </p>
+; <p> quid igitur profectus est uir fortissimus <b>meus</b> conlega et familiaris A. Hirtius consul <br> <small> Cic.Phil.7.12.1 <br> Por que, então, esse homem valorosíssimo, meu colega e amigo íntimo, o cônsul Aulo Hírcio partiu? <small> [JDD] </small> </small> </p>
+; <p> uideor mihi iecisse fundamenta defensionis <b>meae</b> quae firmissima sunt si nituntur iudicio suorum <br> <small> Cic.Cael.5 <br> Tenho a impressão de que lancei os fundamentos de minha defesa, que são bem sólidos, já que se apoiam no juízo de seus concidadãos. <small> [JDD] </small> </small> </p>
+; <p> accedunt eodem multa priuata magna eius in me merita <b>mea</b> quaedam officia in illum <br> <small> Cic.Phil.13.7.11 <br> Acrescentam-se a isso muitos e grandes favores particulares dele para comigo e alguns serviços meus para com ele. <small> [JDD] </small> </small> </p>
+; <p> ad summam laetitiam <b>meam</b> quam ex tuo reditu capio magnus illius adventus cumulus accedet <br> <small> Cic.Att.4.19.2 <br> À minha imensa alegria que tomo por teu regresso a sua vinda acrescenta um grande montão. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Verum inquis tanti non est ingenium tuum , Momentum ut horae pereat officiis <b>meis</b> . <br> <small> Phaed.3.pr <br> “Mas”, dizes, “o teu talento não vale tanto assim, para que se perca um instante de minhas obrigações”. <small> [JDD] </small> </small> </p>
+; <p> ueritus sum ne <b>meus</b> repentinus ad <b>meos</b> necessarios aduentus suspicionis aliquid adferret si essem commoratus <br> <small> Cic.Phil.1.7.8 <br> Tive receio de que a minha repentina chegada à casa de meus amigos causasse alguma suspeita, se eu tivesse demorado. <small> [JDD] </small> </small> </p>
+; <p> vereor enim ne re iam desperata legas ut haec <b>mea</b> diligentia miserabilis tibi aliis inridenda videatur <br> <small> Cic.Att.3.23.4 <br> pois receio que leias, quando meu caso já for sem esperança, de modo que esta minha preocupação pareça lastimável para ti, risível para os outros. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> utinam quidem uirorum optimus pater <b>meus</b> minus maiorum consuetudini deditus uoluisset te praeceptis sapientiae erudiri potius quam imbui <br> <small> Sen.Helv.17.4 <br> Quem dera que meu pai, o melhor dos maridos, tivesse sido menos devotado ao costume dos antepassados e tivesse querido que tu fosses instruída nos preceitos da sabedoria em vez de apenas ser iniciada. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-101-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 39.25 and an absolute frequency of 630. The Ovidius subcorpus follows, with a normalized frequency of 13.73 and an absolute frequency of 8. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 630 ; absolute frequency: 39.2464678178964. subcorpus: Horatius ; normalized frequency: 26 ; absolute frequency: 23.0885356540272. subcorpus: Ovidius ; normalized frequency: 8 ; absolute frequency: 13.7268359643102. subcorpus: Phaedrus ; normalized frequency: 18 ; absolute frequency: 27.3265522999848. subcorpus: Sallustius ; normalized frequency: 11 ; absolute frequency: 10.2031351451628. subcorpus: Seneca ; normalized frequency: 125 ; absolute frequency: 23.3291651891529. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 4 ; absolute frequency: 13.7315482320632. subcorpus: Vergilius ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Hieronymus ; normalized frequency: 10 ; absolute frequency: 22.4668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-101-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 72.34 and an absolute frequency of 273. The Poesia.didática subcorpus follows, with a normalized frequency of 22.05 and an absolute frequency of 26. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 3.89 and an absolute freqeuncy of 16. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 16 ; absolute frequency: 3.89493415126951. subcorpus: Prosa.filosófica ; normalized frequency: 119 ; absolute frequency: 19.6042898799031. subcorpus: Prosa.oratória ; normalized frequency: 322 ; absolute frequency: 30.9160561865717. subcorpus: Prosa.epistolográfica ; normalized frequency: 273 ; absolute frequency: 72.3389596968653. subcorpus: Poesia.lírica ; normalized frequency: 26 ; absolute frequency: 21.8726339698831. subcorpus: Poesia.didática ; normalized frequency: 26 ; absolute frequency: 22.0544575451692. subcorpus: Poesia.trágica ; normalized frequency: 41 ; absolute frequency: 35.6150104239055. subcorpus: Poesia.épica ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Prosa.ficcional ; normalized frequency: 10 ; absolute frequency: 22.4668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-101-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 31.37 and an absolute frequency of 674. The I.a.C. subcorpus follows, with a normalized frequency of 31.37 and an absolute frequency of 674. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 10.47 and an absolute freqeuncy of 4. here are all the values: subcorpus: I.a.C. ; normalized frequency: 674 ; absolute frequency: 31.3707237607633. subcorpus: I.d.C. ; normalized frequency: 151 ; absolute frequency: 23.0992810157565. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 10 ; absolute frequency: 22.4668613794653'}
+
+
+:::
+

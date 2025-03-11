@@ -1,0 +1,209 @@
+---
+title: "opto"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx111-112-116-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>optāssis</b> <br> <small>= optavèris Plaut. Mil. 669.</small> <br> <small></small> 
+ <b>optō</b> <b>-ás</b> <b>-áre</b> <b>-áví,-átum</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói-se com acus.; com ut por vezes oculto; com inf.; e com acus. e abl. com ab.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Escolher, optar &ensp; <small>Cíc. Amer. 30; Plaut. Rud. 854.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Escolher em seu espírito, desejar, apetecer, pedir &ensp; <small>Cíc. Pomp. 48.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Opto</b> -<b>as</b> -<b>avi</b> -<b>atum</b> -<b>are</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; desejar, querer. <br> <b>2</b> &ensp; escolher, eleger. </p> 
+ <small>Plaut. por Optaveris</small> <b>Optassis</b>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Opto</b> -<b>as</b> -<b>aui</b>   <p> <b>1</b> &ensp; desejar. ou escolher </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/115160 ' target="_blank"> http://lila-erc.eu/data/id/lemma/115160 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> opto </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> optare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> optabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> optaui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> optatum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> optaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+optō 
+ optās 
+ optāre 
+ optāvī 
+ optātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx111-112-116-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx111-112-116-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword opto here are all the values plotted: collocate: mors; scoreSUBST: 2. collocate: magis; scoreSUBST: 0. collocate: quidem; scoreSUBST: 0. collocate: aut; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx111-112-116-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword opto here are all the values plotted: collocate: mors; scoreADJ: 0. collocate: magis; scoreADJ: 0. collocate: quidem; scoreADJ: 0. collocate: aut; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx111-112-116-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword opto here are all the values plotted: collocate: mors; scoreVERBO: 0. collocate: magis; scoreVERBO: 0. collocate: quidem; scoreVERBO: 0. collocate: aut; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx111-112-116-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword opto here are all the values plotted: collocate: mors; scoreADV: 0. collocate: magis; scoreADV: 2. collocate: quidem; scoreADV: 2. collocate: aut; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx111-112-116-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword opto here are all the values plotted: collocate: mors; scoreFUNC: 0. collocate: magis; scoreFUNC: 0. collocate: quidem; scoreFUNC: 0. collocate: aut; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> uides quosdam <b>optantes</b> mortem et quidem magis quam rogari solet uita <br> <small> Sen.Ep.30.12 <br> Vês alguns que desejam a morte e bem mais do que se costuma implorar a vida. <small> [JDD] </small> </small> </p>
+; <p> iam sensus moriundi aliquis esse potest isque ad exiguum tempus praesertim seni post mortem quidem sensus aut <b>optandus</b> aut nullus est <br> <small> Cic.Sen.74 <br> Ora, pode haver algum sentimento de morrer, e isso por um tempo bem curto, sobretudo para o velho; depois da morte, na verdade, o sentimento ou é desejavel ou é nenhum. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx111-112-116-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 5.79 and an absolute frequency of 3. The Seneca subcorpus follows, with a normalized frequency of 3.92 and an absolute frequency of 21. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 39 ; absolute frequency: 2.42954324586978. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 21 ; absolute frequency: 3.91929975177768. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx111-112-116-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 5.79 and an absolute frequency of 3. The Prosa.filosófica subcorpus follows, with a normalized frequency of 4.61 and an absolute frequency of 28. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 2 ; absolute frequency: 0.486866768908688. subcorpus: Prosa.filosófica ; normalized frequency: 28 ; absolute frequency: 4.61277408938897. subcorpus: Prosa.oratória ; normalized frequency: 25 ; absolute frequency: 2.40031492131768. subcorpus: Prosa.epistolográfica ; normalized frequency: 4 ; absolute frequency: 1.05991149738997. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx111-112-116-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 3.37 and an absolute frequency of 22. The I.a.C. subcorpus follows, with a normalized frequency of 2.19 and an absolute frequency of 47. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 47 ; absolute frequency: 2.18757272515709. subcorpus: I.d.C. ; normalized frequency: 22 ; absolute frequency: 3.36545816123604. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

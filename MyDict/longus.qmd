@@ -1,0 +1,205 @@
+---
+title: "longus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx108-111-110-103-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>longus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Comprido &ensp; <small>no espaço e no tempo Cíc. Of. 1. 30:</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Grande, vasto &ensp; <small>Hor. O. 3. 3. 37.</small> <br> <b>3</b> &ensp; <small>II-Sent. poético:</small> &ensp; Afastado, distante. longínquo &ensp; <small>Verg. G. 3. 223.</small> <br> <b>4</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Que dura muito tempo, que se prolonga, que dura: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>longa aetas Cíc. C. M. 66 «vida comprida». <br> <br><b>4</b><br>ex longo Verg. En. 9, 64 ‘desde há muito’. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Longus</b> -<b>a</b> -<b>um</b> -<b>gior</b> -<b>gissimus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; longo, comprido, dilatado em tempo, ou em lugar. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>homo longus &ensp; <small><small>Catul</small></small> &ensp; <small>Homem insensato, tolo</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Longus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa cõprida. ou lõga </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/110796 ' target="_blank"> http://lila-erc.eu/data/id/lemma/110796 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx108-111-110-103-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword longus here are all the values plotted: collocate: interuallum; scoreSUBST: 4. collocate: oratio; scoreSUBST: 2. collocate: nauis; scoreSUBST: 2. collocate: spatium; scoreSUBST: 2. collocate: tam; scoreSUBST: 0. collocate: ordo; scoreSUBST: 2. collocate: iter; scoreSUBST: 2. collocate: tempus; scoreSUBST: 2. collocate: dies; scoreSUBST: 2. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx108-111-110-103-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword longus here are all the values plotted: collocate: interuallum; scoreADJ: 0. collocate: oratio; scoreADJ: 0. collocate: nauis; scoreADJ: 0. collocate: spatium; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: ordo; scoreADJ: 0. collocate: iter; scoreADJ: 0. collocate: tempus; scoreADJ: 0. collocate: dies; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx108-111-110-103-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword longus here are all the values plotted: collocate: interuallum; scoreVERBO: 0. collocate: oratio; scoreVERBO: 0. collocate: nauis; scoreVERBO: 0. collocate: spatium; scoreVERBO: 0. collocate: tam; scoreVERBO: 0. collocate: ordo; scoreVERBO: 0. collocate: iter; scoreVERBO: 0. collocate: tempus; scoreVERBO: 0. collocate: dies; scoreVERBO: 0. collocate: sum; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx108-111-110-103-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword longus here are all the values plotted: collocate: interuallum; scoreADV: 0. collocate: oratio; scoreADV: 0. collocate: nauis; scoreADV: 0. collocate: spatium; scoreADV: 0. collocate: tam; scoreADV: 2. collocate: ordo; scoreADV: 0. collocate: iter; scoreADV: 0. collocate: tempus; scoreADV: 0. collocate: dies; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx108-111-110-103-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword longus here are all the values plotted: collocate: interuallum; scoreFUNC: 0. collocate: oratio; scoreFUNC: 0. collocate: nauis; scoreFUNC: 0. collocate: spatium; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: ordo; scoreFUNC: 0. collocate: iter; scoreFUNC: 0. collocate: tempus; scoreFUNC: 0. collocate: dies; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> nos <b>longo</b> intervallo viseris <br> <small> Cic.Att.1.4.1 <br> me verás após um longo intervalo. <small> [JDD] </small> </small> </p>
+; <p> o nulla <b>longi</b> temporis felicitas <br> <small> Sen.Ag.928 <br> Oh, não há felicidade de longo tempo! <small> [JDD] </small> </small> </p>
+; <p> magnitudo rei <b>longam</b> orationem fortasse desiderat <br> <small> Cic.Att.2.23.3 <br> A magnitude do assunto exige talvez um longo discurso. <small> [JDD] </small> </small> </p>
+; <p> qua re si id exspectas <b>longum</b> est <br> <small> Cic.Att.1.20.4 <br> Por isso, se aguardas isso, a coisa vai longe. <small> [JDD] </small> </small> </p>
+; <p> at mehercules nullus agenti dies <b>longus</b> est <br> <small> Sen.Ep.122.3 <br> Mas, por hércules, para quem é ativo nenhum dia é longo. <small> [JDD] </small> </small> </p>
+; <p> parum ne me tam <b>longa</b> defendit fides <br> <small> Sen.Oed.685 <br> Será que me defende tão pouco uma tão longa fidelidade? <small> [JDD] </small> </small> </p>
+; <p> <b>longiorem</b> orationem causa forsitan postulet tua certe natura breuiorem <br> <small> Cic.Lig.38 <br> A causa talvez requeira um discurso mais longo, a tua natureza, certamente, um mais curto. <small> [JDD] </small> </small> </p>
+; <p> Tum circumeunti fuerat quod iter <b>longius</b> Effecit brevius : <br> <small> Phaed.3.19 <br> então tornou mais curto o caminho que tinha sido mais longo na ida com suas voltas <small> [JDD] </small> </small> </p>
+; <p> sed uereri debeo ne tam <b>longas</b> epistulas peius quam mortem oderis <br> <small> Sen.Ep.30.18 <br> 18 Mas devo recear que mais do que a morte odeias cartas tão longas. <small> [JDD] </small> </small> </p>
+; <p> ad haec cognoscenda priusquam periculum faceret idoneum esse arbitratus C. Uolusenum cum naui <b>longa</b> praemittit <br> <small> Caes.Gal.4.21.1 <br> Para conhecer essas coisas, antes de efetuar o perigo, considerando que Caio Voluseno era idôneo, enviou-o antes com um longo navio. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> delubra et aras caelitum et patrios Lares post <b>longa</b> fessus spatia uix credens mihi supplex adoro <br> <small> Sen.Ag.392a <br> Fatigado, depois de um longo tempo, mal crendo em mim, os santuários e aos altares dos deuses e aos pátrios lares reverencio suplicante. <small> [JDD] </small> </small> </p>
+; <p> causa pendet ex causa priuata ac publica <b>longus</b> ordo rerum trahit ideo fortiter omne patiendum est quia non ut putamus incidunt cuncta sed ueniunt <br> <small> Sen.Prov.5.7 <br> A causa depende da causa; uma longa ordem das coisas arrasta consigo assuntos privados e públicos. Por isso é preciso suportar corajosamente qualquer coisa, porque não sobrevêm todas, como pensamos, mas vão chegando. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx108-111-110-103-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 20.6 and an absolute frequency of 6. The Tacitus subcorpus follows, with a normalized frequency of 20.6 and an absolute frequency of 6. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 11 ; absolute frequency: 4.15439232570436. subcorpus: Cicero ; normalized frequency: 38 ; absolute frequency: 2.36724726520645. subcorpus: Horatius ; normalized frequency: 12 ; absolute frequency: 10.6562472249356. subcorpus: Ovidius ; normalized frequency: 10 ; absolute frequency: 17.1585449553878. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 40 ; absolute frequency: 7.46533286052892. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 6 ; absolute frequency: 20.5973223480947. subcorpus: Vergilius ; normalized frequency: 10 ; absolute frequency: 19.3050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx108-111-110-103-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 19.31 and an absolute frequency of 10. The Poesia.trágica subcorpus follows, with a normalized frequency of 11.29 and an absolute frequency of 13. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 18 ; absolute frequency: 4.38180092017819. subcorpus: Prosa.filosófica ; normalized frequency: 35 ; absolute frequency: 5.76596761173622. subcorpus: Prosa.oratória ; normalized frequency: 21 ; absolute frequency: 2.01626453390685. subcorpus: Prosa.epistolográfica ; normalized frequency: 9 ; absolute frequency: 2.38480086912743. subcorpus: Poesia.lírica ; normalized frequency: 13 ; absolute frequency: 10.9363169849415. subcorpus: Poesia.didática ; normalized frequency: 11 ; absolute frequency: 9.33073203834083. subcorpus: Poesia.trágica ; normalized frequency: 13 ; absolute frequency: 11.2925642807505. subcorpus: Poesia.épica ; normalized frequency: 10 ; absolute frequency: 19.3050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx108-111-110-103-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 15.71 and an absolute frequency of 6. The I.d.C. subcorpus follows, with a normalized frequency of 7.8 and an absolute frequency of 51. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 73 ; absolute frequency: 3.39771933907377. subcorpus: I.d.C. ; normalized frequency: 51 ; absolute frequency: 7.801743919229. subcorpus: II.d.C. ; normalized frequency: 6 ; absolute frequency: 15.7068062827225. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

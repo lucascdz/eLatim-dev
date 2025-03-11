@@ -1,0 +1,196 @@
+---
+title: "ingratus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-110-103-114-97-116-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>ingrātus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small>Obs.: Constrói-se absolt.: acus. com in; com gen. na poesia.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Que não é escolhido com reconhecimento, que não merece gratidão. desagradável &ensp; <small>Cés. B. Gal. 7. 30. 1.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Que não tem gratidão, ingrato, insaciável &ensp; <small>Cíc. Nat. 1, 93.</small> <br> <b>3</b> &ensp; <small>II-Daí</small> &ensp; Insaciável &ensp; <small>Hor. Sát. I. 2. 8.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Ingratus</b> -<b>a</b> -<b>um</b> <small>Cic</small> -<b>tior</b> <small>Sen</small> -<b>tissimus</b>   <p> <b>1</b> &ensp; injucundo, desagradavel. <br> <b>2</b> &ensp; ingrato, desagradecido. </p>
+
+
+
+
+#### Velez
+
+<b>Ingratus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa desagradecida &ensp; <small>cum dativo rariùs, quam cum gen. | vel accus. cum praep.</small> <br> <b>2</b> &ensp; <small>passivè</small> &ensp; cousa naõ aceita, injucunda, desagradavel; &ensp; <small>saepe sine casu, aliquando accus. cum praep. vel dat.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>beneficii, uel beneficio ingratus; <br> ingratus in, uel aduersus Deum &ensp; <small>ingrato para com Deos</small> <br> <br><b>2</b><br>uulgo, ad, uel in uulgus ingratus </p>
+
+
+
+
+#### Cardoso
+
+<b>Ingratus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa desagradauel. ou desagradecida </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/107816 ' target="_blank"> http://lila-erc.eu/data/id/lemma/107816 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ingrātus 
+ ingrāta 
+ ingrātum
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> an <b>ingratus</b> sum <br> <small> Cic.Phil.6.17.8 <br> Por acaso sou ingrato? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-110-103-114-97-116-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 1.78 and an absolute frequency of 2. The Ovidius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 17 ; absolute frequency: 1.05903167127657. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 1 ; absolute frequency: 0.186633321513223. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-110-103-114-97-116-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 1.68 and an absolute frequency of 2. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 1.32 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 1 ; absolute frequency: 0.243433384454344. subcorpus: Prosa.filosófica ; normalized frequency: 2 ; absolute frequency: 0.329483863527784. subcorpus: Prosa.oratória ; normalized frequency: 11 ; absolute frequency: 1.05613856537978. subcorpus: Prosa.epistolográfica ; normalized frequency: 5 ; absolute frequency: 1.32488937173746. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-110-103-114-97-116-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 0.93 and an absolute frequency of 20. The I.a.C. subcorpus follows, with a normalized frequency of 0.93 and an absolute frequency of 20. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 20 ; absolute frequency: 0.930882010705143. subcorpus: I.d.C. ; normalized frequency: 2 ; absolute frequency: 0.305950741930549. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

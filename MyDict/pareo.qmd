@@ -1,0 +1,210 @@
+---
+title: "pareo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-97-114-101-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>pārĕō</b> <b>-és</b> <b>-ére</b> <b>parùí, parìtum</b> <br> <small>v. intr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Aparecer, mostrar-se &ensp; <small>Verg. En. 10, 176.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Submeter-se à ordem de alguém, ceder &ensp; <small>Cíc. Of. 1. 84; Cíc. Tusc. 5, 36: Cíc. Or. 202; Cés. B. Civ. 3, 81, 2.</small> <br> <b>3</b> &ensp; <small>II-Impess.:</small> &ensp; Ser manifesto, ser evidente, ser patente &ensp; <small>Cíc. Mil. 15.</small> </p> 
+ <b>parŭī</b> <br> <small>perf. de parèo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Pareo</b> -<b>es</b> -<b>ui</b> -<b>itum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; apparecer, estar patente. <br> <b>2</b> &ensp; obedecer. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>parere cupiditatibus &ensp; <small><small>Cic</small></small> &ensp; <small>Ser escravo dos seus appetites</small> <br> parere gulae &ensp; <small><small>Hor</small></small> &ensp; <small>Ser glutão, entregar-se á gula</small> <br> paretur &ensp; <small><small>Liv</small></small> &ensp; <small>Obedece-se</small> </p>
+
+
+
+
+#### Velez
+
+<b>Pareo</b> -<b>es</b>   <p> <b>1</b> &ensp; apparecer &ensp; <small>sine casu:</small> <br> <b>2</b> &ensp; obedecer &ensp; <small>dat.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Pareo</b> -<b>es</b> <b>ui</b> <b>itum</b>   <p> <b>1</b> &ensp; obedecer </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/116031 ' target="_blank"> http://lila-erc.eu/data/id/lemma/116031 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> pareo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> parere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> parebit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> parui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> paritum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> pariturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+pārĕō 
+ pārēs 
+ pārēre 
+ pārŭī 
+ pārĭtum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-97-114-101-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-97-114-101-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword pareo here are all the values plotted: collocate: imperium; scoreSUBST: 2. collocate: semper; scoreSUBST: 0. collocate: senatus; scoreSUBST: 2. collocate: non; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-97-114-101-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword pareo here are all the values plotted: collocate: imperium; scoreADJ: 0. collocate: semper; scoreADJ: 0. collocate: senatus; scoreADJ: 0. collocate: non; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-97-114-101-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword pareo here are all the values plotted: collocate: imperium; scoreVERBO: 0. collocate: semper; scoreVERBO: 0. collocate: senatus; scoreVERBO: 0. collocate: non; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-97-114-101-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword pareo here are all the values plotted: collocate: imperium; scoreADV: 0. collocate: semper; scoreADV: 2. collocate: senatus; scoreADV: 0. collocate: non; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-97-114-101-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword pareo here are all the values plotted: collocate: imperium; scoreFUNC: 0. collocate: semper; scoreFUNC: 0. collocate: senatus; scoreFUNC: 0. collocate: non; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>paret</b> senatui <br> <small> Cic.Phil.12.4.5 <br> Obedece ao senado? <small> [JDD] </small> </small> </p>
+; <p> ibitur non <b>parebit</b> nos amissos tot dies rei gerendae queremur <br> <small> Cic.Phil.6.9.8 <br> Ir-se-á; não obedecerá; nós vamos lamentar tantos dias perdidos para agir. <small> [JDD] </small> </small> </p>
+; <p> tibi enim ipsi quoi utinam semper <b>paruissem</b> sic video placere <br> <small> Cic.Att.4.6.2 <br> pois assim vejo que te agrada mesmo a ti, a quem oxalá eu tivesse obedecido sempre. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> sed quid ego de eis omnibus qui consulari imperio <b>paruerunt</b> loquor <br> <small> Cic.Rab.Perd.27 <br> Mas por que eu estou falando de todos aqueles que obedeceram ao comando dos cônsules? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-97-114-101-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 5.79 and an absolute frequency of 3. The Ovidius subcorpus follows, with a normalized frequency of 3.43 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 43 ; absolute frequency: 2.67872716852309. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 7 ; absolute frequency: 1.30643325059256. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-97-114-101-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 5.79 and an absolute frequency of 3. The Prosa.oratória subcorpus follows, with a normalized frequency of 3.46 and an absolute frequency of 36. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 5 ; absolute frequency: 1.21716692227172. subcorpus: Prosa.filosófica ; normalized frequency: 10 ; absolute frequency: 1.64741931763892. subcorpus: Prosa.oratória ; normalized frequency: 36 ; absolute frequency: 3.45645348669745. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-97-114-101-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 2.47 and an absolute frequency of 53. The I.a.C. subcorpus follows, with a normalized frequency of 2.47 and an absolute frequency of 53. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 53 ; absolute frequency: 2.46683732836863. subcorpus: I.d.C. ; normalized frequency: 10 ; absolute frequency: 1.52975370965275. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

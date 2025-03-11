@@ -1,0 +1,218 @@
+---
+title: "relinquo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx114-101-108-105-110-113-117-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>relinquō</b> <b>-is</b> <b>-ère</b> <b>-líquí, -líctum</b> <br> <small>v. tr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Deixar para trás &ensp; <small>Cés. B. Gal. 7, 40, 3.</small> <br> <b>2</b> &ensp; <small>I-Daí, por enfraquecimento de sentido:</small> &ensp; Deixar, abandonar, depor &ensp; <small>Cíc. Fam. 4, 1, 2; Cés. B. Gal. 6, 38, 4; Cés. B. Gal. 1, 44, 2.</small> <br> <b>3</b> &ensp; <small>I-Donde:</small> &ensp; Deixar por morte, deixar como herança, transmitir &ensp; <small>Cíc. Amero 20; Cíc. Arch. 30.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Deixar de parte, omitir, desprezar &ensp; <small>Cíc. Prov. 6; Cíc. Caec. 50.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Deixar, permitir, fechar os olhos a &ensp; <small>Cíc. Pomp. 11; Ov. Mel. 14, 100.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Renunciar a &ensp; <small>sent. poético Lucr. 6, 654.</small> </p> 
+ <small>2.</small> <b>reliquī</b> <br> <small>perf. de relínquo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Relinquo</b> -<b>is</b> -<b>iqui</b> -<b>ictum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; deixar, abandonar. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>relinquere aes alienum &ensp; <small><small>Cic</small></small> &ensp; <small>Morrer individado</small> <br> relinquere Diis, uotisque &ensp; <small><small>Ovid</small></small> &ensp; <small>Remetter tudo á Divina Providencia</small> </p>
+
+
+
+
+#### Velez
+
+<b>Relinquo</b> -<b>is</b>   <p> <b>1</b> &ensp; deixar, desamparar &ensp; <small>Activ.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Relinquo</b> <b>is</b> <b>iqui</b> <b>ictum</b>   <p> <b>1</b> &ensp; deyxar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/122569 ' target="_blank"> http://lila-erc.eu/data/id/lemma/122569 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small> rellinquo <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> relinquo, rellinquo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> relinquere, rellinquere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> relinquet, rellinquet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> reliqui, relliqui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> relictum, rellictum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> relicturum, rellicturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+rĕlinquō 
+ rĕlinquis 
+ rĕlinquĕre 
+ rĕlīquī 
+ rĕlictum 
+ rĕlīquī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx114-101-108-105-110-113-117-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx114-101-108-105-110-113-117-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword relinquo here are all the values plotted: collocate: praesidium; scoreSUBST: 2. collocate: Antonius; scoreSUBST: 0. collocate: solus; scoreSUBST: 0. collocate: hostis; scoreSUBST: 2. collocate: Roma; scoreSUBST: 0. collocate: consul; scoreSUBST: 2. collocate: castra; scoreSUBST: 2. collocate: rex; scoreSUBST: 2. collocate: uester; scoreSUBST: 0. collocate: qua; scoreSUBST: 0. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx114-101-108-105-110-113-117-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword relinquo here are all the values plotted: collocate: praesidium; scoreADJ: 0. collocate: Antonius; scoreADJ: 0. collocate: solus; scoreADJ: 0. collocate: hostis; scoreADJ: 0. collocate: Roma; scoreADJ: 0. collocate: consul; scoreADJ: 0. collocate: castra; scoreADJ: 0. collocate: rex; scoreADJ: 0. collocate: uester; scoreADJ: 0. collocate: qua; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx114-101-108-105-110-113-117-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword relinquo here are all the values plotted: collocate: praesidium; scoreVERBO: 0. collocate: Antonius; scoreVERBO: 0. collocate: solus; scoreVERBO: 0. collocate: hostis; scoreVERBO: 0. collocate: Roma; scoreVERBO: 0. collocate: consul; scoreVERBO: 0. collocate: castra; scoreVERBO: 0. collocate: rex; scoreVERBO: 0. collocate: uester; scoreVERBO: 0. collocate: qua; scoreVERBO: 0. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx114-101-108-105-110-113-117-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword relinquo here are all the values plotted: collocate: praesidium; scoreADV: 0. collocate: Antonius; scoreADV: 0. collocate: solus; scoreADV: 0. collocate: hostis; scoreADV: 0. collocate: Roma; scoreADV: 0. collocate: consul; scoreADV: 0. collocate: castra; scoreADV: 0. collocate: rex; scoreADV: 0. collocate: uester; scoreADV: 0. collocate: qua; scoreADV: 1. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx114-101-108-105-110-113-117-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword relinquo here are all the values plotted: collocate: praesidium; scoreFUNC: 0. collocate: Antonius; scoreFUNC: 0. collocate: solus; scoreFUNC: 0. collocate: hostis; scoreFUNC: 0. collocate: Roma; scoreFUNC: 0. collocate: consul; scoreFUNC: 0. collocate: castra; scoreFUNC: 0. collocate: rex; scoreFUNC: 0. collocate: uester; scoreFUNC: 0. collocate: qua; scoreFUNC: 0. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> deinde in dissensionibus soli <b>relinquamur</b> <br> <small> Cic.Att.2.1.10 <br> depois, nas dissensões, seremos deixados sós. <small> [JDD] </small> </small> </p>
+; <p> res eodem est loci quo <b>reliquisti</b> <br> <small> Cic.Att.1.13.5 <br> A coisa está no mesmo ponto em que deixaste. <small> [JDD] </small> </small> </p>
+; <p> apud bonos iidem sumus quos <b>reliquisti</b> <br> <small> Cic.Att.1.16.11 <br> perante os homens de bem sou o mesmo que deixaste. <small> [JDD] </small> </small> </p>
+; <p> quam dulce est cupiditates fatigasse ac <b>reliquisse</b> <br> <small> Sen.Ep.12.5 <br> Quão doce é ter esgotado e abandonado as paixões! <small> [JDD] </small> </small> </p>
+; <p> scilicet nubet tibi regum <b>relicto</b> rege generosa exuli <br> <small> Sen.Ag.290 <br> Evidentemente se casará contigo, abandonando o rei dos reis, uma nobre com um exilado! <small> [JDD] </small> </small> </p>
+; <p> nam quid de Cyro nuntiaret quem Clodius Roma proficiscens <b>reliquerat</b> morientem <br> <small> Cic.Mil.48 <br> Pois por que teria anunciado a respeito de Ciro, que Clódio, quando partiu de Roma, tinha deixado agonizante? <small> [JDD] </small> </small> </p>
+; <p> hanc retinete quaeso Quirites quam uobis tamquam hereditatem maiores uestri <b>reliquerunt</b> <br> <small> Cic.Phil.4.13.3 <br> Preservai, eu suplico, quirites, essa virtude que os vossos antepassados vos legaram com herança. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Caesar ad utramque partem pontis firmo praesidio <b>relicto</b> in fines Sugambrorum contendit <br> <small> Caes.Gal.4.18.2 <br> César, depois de deixar uma firme guarnição em uma e outra parte da ponte, marcha para as fronteiras dos sugambros. <small> [JDD] </small> </small> </p>
+; <p> nam si ille non hostis hos qui consulem <b>reliquerunt</b> hostis necesse est iudicemus <br> <small> Cic.Phil.4.5.8 <br> Pois, se ele não é inimigo, é inevitável que consideremos inimigos estes que o abandonaram, sendo ele cônsul. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> munitis castris duas ibi legiones <b>reliquit</b> et partem auxiliorum quattuor reliquas legiones in castra maiora reduxit <br> <small> Caes.Gal.1.49.5 <br> Fortificado o acampamento, deixou ali duas legiões e uma parte das tropas auxiliares, as quatro legiões restantes ele reconduziu para o acampamento maior. <small> [JDD] </small> </small> </p>
+; <p> excessurum se ex Italia dixit deos Penatis et sedes patrias <b>relicturum</b> si quod di omen auerterint rem publicam oppressisset Antonius <br> <small> Cic.Phil.12.14.8 <br> Ele disse que iria embora da Itália, deixaria seus deuses Penates e seus domicílios pátrios, se (que os deuses afastem esse presságio) Antônio oprimisse a república. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx114-101-108-105-110-113-117-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 13.6 and an absolute frequency of 36. The Caesar subcorpus follows, with a normalized frequency of 13.6 and an absolute frequency of 36. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 36 ; absolute frequency: 13.5961930659415. subcorpus: Cicero ; normalized frequency: 139 ; absolute frequency: 8.65914131220254. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 41 ; absolute frequency: 7.65196618204214. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx114-101-108-105-110-113-117-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 10.95 and an absolute frequency of 45. The Prosa.filosófica subcorpus follows, with a normalized frequency of 5.93 and an absolute frequency of 36. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 45 ; absolute frequency: 10.9545023004455. subcorpus: Prosa.filosófica ; normalized frequency: 36 ; absolute frequency: 5.93070954350011. subcorpus: Prosa.oratória ; normalized frequency: 108 ; absolute frequency: 10.3693604600924. subcorpus: Prosa.epistolográfica ; normalized frequency: 25 ; absolute frequency: 6.6244468586873. subcorpus: Poesia.lírica ; normalized frequency: 5 ; absolute frequency: 4.20627576343905. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 11 ; absolute frequency: 9.55524669909659. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx114-101-108-105-110-113-117-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 8.7 and an absolute frequency of 187. The I.a.C. subcorpus follows, with a normalized frequency of 8.7 and an absolute frequency of 187. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 5.24 and an absolute freqeuncy of 2. here are all the values: subcorpus: I.a.C. ; normalized frequency: 187 ; absolute frequency: 8.70374680009309. subcorpus: I.d.C. ; normalized frequency: 46 ; absolute frequency: 7.03686706440263. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+:::
+

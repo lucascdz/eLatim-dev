@@ -1,0 +1,199 @@
+---
+title: "ob"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx111-98xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>A</small> <b>ob</b> <br> <small>prep. e prev. Prep. sent. local, com acus.</small> <br> <small>Obs.: 2 No período clássico, como prep., usava-se, apenas, na 2ª acepção. 3 Em .épocas posteriores, apenas ocorre nas locuções de caráter adverbial: ob eam rem, quam ob rem, ob hoc, ob id. Nos outros casos é substituída por pro ou propter.</small>   <p> <b>1</b> &ensp; <small>Sent. próprio raro:</small> &ensp; Diante de, em frente de &ensp; <small>com movimento ou sem movimento:</small> <br> <b>2</b> &ensp; <small>Sent. figurado:</small> &ensp; Em vista de, por causa de, por amor de, em consequência de &ensp; <small>sent. físico e moral T. Lív. 25, 37.</small> <br> <b>3</b> &ensp; <small>Sent. figurado:</small> &ensp; Contra com ideia de hostilidade, somente como prevérbio, em troca de, por &ensp; <small>Cíc. Verr. 2, 78.</small> <br> <b>4</b> &ensp; <small>Em locuções:</small> &ensp; ob rem, vantajosamente, com êxito &ensp; <small>Ter. Phorm. 526.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>ob oculos versari Cíc. Sest. 47 “encontrar-se diante dos olhos”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Ob</b> <br> <small>prep. de acus.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; por, por causa, por occasião, defronte, perante, em presença, diante, contra, ao redor. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>pretium ob stultitiam fero &ensp; <small><small>Ter</small></small> &ensp; <small>Recebo a paga, ou o premio da minha loucura</small> </p>
+
+
+
+
+#### Velez
+
+<b>Ob</b>   <p> <b>1</b> &ensp; por acaso <br> <b>2</b> &ensp; <small>interdum pro Ante</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>ob oculos </p>
+
+
+
+
+#### Cardoso
+
+<b>Ob</b>   <p> <b>1</b> &ensp; por causa </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/114173 ' target="_blank"> http://lila-erc.eu/data/id/lemma/114173 </a> <br>
+<small> classe: </small> preposição    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ŏb
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx111-98xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ob here are all the values plotted: collocate: quamobrem; scoreSUBST: 0. collocate: res; scoreSUBST: 5. collocate: causa; scoreSUBST: 2. collocate: alius; scoreSUBST: 0. collocate: unus; scoreSUBST: 0. collocate: is; scoreSUBST: 0. collocate: hic; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx111-98xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ob here are all the values plotted: collocate: quamobrem; scoreADJ: 0. collocate: res; scoreADJ: 0. collocate: causa; scoreADJ: 0. collocate: alius; scoreADJ: 0. collocate: unus; scoreADJ: 0. collocate: is; scoreADJ: 0. collocate: hic; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx111-98xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ob here are all the values plotted: collocate: quamobrem; scoreVERBO: 0. collocate: res; scoreVERBO: 0. collocate: causa; scoreVERBO: 0. collocate: alius; scoreVERBO: 0. collocate: unus; scoreVERBO: 0. collocate: is; scoreVERBO: 0. collocate: hic; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx111-98xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ob here are all the values plotted: collocate: quamobrem; scoreADV: 5. collocate: res; scoreADV: 0. collocate: causa; scoreADV: 0. collocate: alius; scoreADV: 0. collocate: unus; scoreADV: 0. collocate: is; scoreADV: 0. collocate: hic; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx111-98xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ob here are all the values plotted: collocate: quamobrem; scoreFUNC: 0. collocate: res; scoreFUNC: 0. collocate: causa; scoreFUNC: 0. collocate: alius; scoreFUNC: 0. collocate: unus; scoreFUNC: 0. collocate: is; scoreFUNC: 0. collocate: hic; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quam <b>ob</b> rem audiamus <br> <small> Cic.Amici.33 <br> Por essa razão, ouçamos. <small> [JDD] </small> </small> </p>
+; <p> credibile est igitur tantum facinus nullam <b>ob</b> causam esse commissum <br> <small> Cic.Cael.56 <br> É crível, portanto, que um tão grande crime foi cometido sem motivo algum? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>ob</b> hoc in infante quoque non est nam et huic deest <br> <small> Sen.Ep.124.8 <br> Por isso num bebê também não está; pois também lhe falta [a razão]. <small> [JDD] </small> </small> </p>
+; <p> id autem facere <b>ob</b> eam causam dicebant quod tardius vellet decedere <br> <small> Cic.Att.5.16.4 <br> e dizem que ele faz isso por esse motivo, porque quer sair mais tarde. <small> [JDD] </small> </small> </p>
+; <p> non est autem uel <b>ob</b> hoc unum amanda paupertas quod a quibus ameris ostendet <br> <small> Sen.Ep.20.7 <br> Ora, a pobreza não deve ser só por esse motivo amada: porque mostra aqueles pelos quais és amado? <small> [JDD] </small> </small> </p>
+; <p> neque enim ullam aliam <b>ob</b> causam populus Romanus tribuniciam potestatem tanto studio requisiuit quam cum poscebat uerbo illam poscere uidebatur re uera iudicia poscebat <br> <small> Cic.Ver.1.44 <br> 44 Pois por nenhuma outra causa o povo romano requisitou com tanto empenho o poder tribunício e quando o exigia parecia exigi-lo com a palavra; na realidade, exigia julgamentos verdadeiros. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx111-98xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 7.72 and an absolute frequency of 4. The Cicero subcorpus follows, with a normalized frequency of 5.73 and an absolute frequency of 92. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 10 ; absolute frequency: 3.77672029609487. subcorpus: Cicero ; normalized frequency: 92 ; absolute frequency: 5.73123022102614. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 6 ; absolute frequency: 1.11979992907934. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx111-98xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 7.72 and an absolute frequency of 4. The Prosa.oratória subcorpus follows, with a normalized frequency of 5.95 and an absolute frequency of 62. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 13 ; absolute frequency: 3.16463399790647. subcorpus: Prosa.filosófica ; normalized frequency: 25 ; absolute frequency: 4.1185482940973. subcorpus: Prosa.oratória ; normalized frequency: 62 ; absolute frequency: 5.95278100486784. subcorpus: Prosa.epistolográfica ; normalized frequency: 10 ; absolute frequency: 2.64977874347492. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx111-98xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 5.21 and an absolute frequency of 112. The I.d.C. subcorpus follows, with a normalized frequency of 0.92 and an absolute frequency of 6. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 112 ; absolute frequency: 5.2129392599488. subcorpus: I.d.C. ; normalized frequency: 6 ; absolute frequency: 0.917852225791647. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

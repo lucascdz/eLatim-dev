@@ -1,0 +1,206 @@
+---
+title: "pateo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-97-116-101-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>patĕō</b> <b>-és</b> <b>-ére</b> <b>patùí</b> <br> <small>v. intr.</small> <br> <small>Obs.: Constrói-se com acus.; com acus. e in; com dat.; com or. inf., ou como absoluto.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Estar aberto &ensp; <small>Cíc. Phil. 2, 112.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Estar exposto, estar acessível &ensp; <small>Cés. B. Gal. 7, 8, 3.</small> <br> <b>3</b> &ensp; <small>I-Daí:</small> &ensp; Ser evidente, visível, estar patente &ensp; <small>Cíc. De Or. 1, 23; Cíc. Com. 5.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Estar à disposição de &ensp; <small>Cíc. Fam. 6, 10, 3; Cés. B. Gal. 1, 2, 5; Cíc. De Or. 1, 235.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Ter o campo livre &ensp; <small>Cíc. Lae. 83.</small> </p> 
+ <b>patŭī</b> <br> <small>perf. de patèo e de patésco.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Pateo</b> -<b>es</b> -<b>ui</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; estar patente, estar aberto. <br> <b>2</b> &ensp; extender-se muito, alargar-se, ter grande extensão. <br> <b>3</b> &ensp; ser claro, evidente, manifesto. <br> <b>4</b> &ensp; <small>Cels.</small> &ensp; estar exposto, estar sujeito. </p>
+
+
+
+
+#### Velez
+
+<b>Pateo</b> -<b>es</b> <br> <small>1. br.</small>   <p> <b>1</b> &ensp; estar aberto, patente, manifesto &ensp; <small>dat.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Pateo</b> -<b>es</b>   <p> <b>1</b> &ensp; estar manifesto </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/116202 ' target="_blank"> http://lila-erc.eu/data/id/lemma/116202 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> pateo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> patere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> patebit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> patui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+
+
+
+
+
+#### Lexicala
+
+pătĕō 
+ pătēs 
+ pătēre 
+ pătŭī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-97-116-101-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-97-116-101-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword pateo here are all the values plotted: collocate: late; scoreSUBST: 0. collocate: domus; scoreSUBST: 2. collocate: non; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-97-116-101-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword pateo here are all the values plotted: collocate: late; scoreADJ: 0. collocate: domus; scoreADJ: 0. collocate: non; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-97-116-101-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword pateo here are all the values plotted: collocate: late; scoreVERBO: 0. collocate: domus; scoreVERBO: 0. collocate: non; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-97-116-101-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword pateo here are all the values plotted: collocate: late; scoreADV: 3. collocate: domus; scoreADV: 0. collocate: non; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-97-116-101-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword pateo here are all the values plotted: collocate: late; scoreFUNC: 0. collocate: domus; scoreFUNC: 0. collocate: non; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> atque hoc C. Caesaris iudicium patres conscripti quam late <b>pateat</b> attendite <br> <small> Cic.Marc.13 <br> E observai, pais conscritos, quão amplamente claro está este julgamento de Caio César. <small> [JDD] </small> </small> </p>
+; <p> isti ordini iudicatus lege Iulia etiam ante Pompeia Aurelia non <b>patebat</b> <br> <small> Cic.Phil.1.20.3 <br> A judicatura não estava acessível a esse congresso pela lei Júlia, mesmo antes, pela Pompéia e pela Aurélia? <small> [JDD] </small> </small> </p>
+; <p> velim domum ad te scribas ut mihi tui libri <b>pateant</b> non secus ac si ipse adesses cum ceteri tum Varronis <br> <small> Cic.Att.4.14.1 <br> Gostaria que escrevesses para a tua casa para que teus livros me sejam franqueados como se tu próprio estivesses presente, tanto os de Varrão como os demais. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-97-116-101-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 3.86 and an absolute frequency of 2. The Ovidius subcorpus follows, with a normalized frequency of 3.43 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 6 ; absolute frequency: 2.26603217765692. subcorpus: Cicero ; normalized frequency: 23 ; absolute frequency: 1.43280755525653. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 16 ; absolute frequency: 2.98613314421157. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-97-116-101-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 6.08 and an absolute frequency of 7. The Poesia.trágica subcorpus follows, with a normalized frequency of 6.08 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 9 ; absolute frequency: 2.1909004600891. subcorpus: Prosa.filosófica ; normalized frequency: 11 ; absolute frequency: 1.81216124940281. subcorpus: Prosa.oratória ; normalized frequency: 19 ; absolute frequency: 1.82423934020143. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 7 ; absolute frequency: 6.08061153578874. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-97-116-101-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 3.06 and an absolute frequency of 20. The I.a.C. subcorpus follows, with a normalized frequency of 1.58 and an absolute frequency of 34. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 34 ; absolute frequency: 1.58249941819874. subcorpus: I.d.C. ; normalized frequency: 20 ; absolute frequency: 3.05950741930549. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

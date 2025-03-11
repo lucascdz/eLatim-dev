@@ -1,0 +1,200 @@
+---
+title: "ars"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-114-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>ars</b> <b>artis</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Maneira de ser ou de proceder &ensp; <small>natural ou adquirida, boa au mal, qualidade boa ou má Cíc.C. M. 29.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Habilidade adquirida pelo estudo ou pela prática, conhecimento técnico &ensp; <small>Cíc. De Or. 1, 115.</small> <br> <b>3</b> &ensp; <small></small> &ensp; Talento, arte, habilidade &ensp; <small>T. Lív. 25, 39, 1.</small> <br> <b>4</b> &ensp; <small></small> &ensp; Artifíicio, astúcia &ensp; <small>Verg. En. 2, 15.</small> <br> <b>5</b> &ensp; <small></small> &ensp; Ofício, profissão &ensp; <small>Cíc. De Or. 1, 73.</small> <br> <b>6</b> &ensp; <small></small> &ensp; Trabalho, obra, tratado &ensp; <small>Cíc. Or. 114.</small> <br> <b>7</b> &ensp; <small>No pl.:</small> &ensp; «obras de arte» &ensp; <small>Cíc. Leg. 2,4.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Ars</b> <b>artis</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; arte, officio. <br> <b>2</b> &ensp; <small>Virg.</small> &ensp; engano. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Ars</b> <b>artis</b>   <p> <b>1</b> &ensp; a arte. ou officio. ou engano </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/90089 ' target="_blank"> http://lila-erc.eu/data/id/lemma/90089 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+artĕ
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-114-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-114-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ars here are all the values plotted: collocate: bonus; scoreSUBST: 0. collocate: malus; scoreSUBST: 0. collocate: ullus; scoreSUBST: 0. collocate: nouus; scoreSUBST: 0. collocate: atque; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-114-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ars here are all the values plotted: collocate: bonus; scoreADJ: 4. collocate: malus; scoreADJ: 2. collocate: ullus; scoreADJ: 0. collocate: nouus; scoreADJ: 2. collocate: atque; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-114-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ars here are all the values plotted: collocate: bonus; scoreVERBO: 0. collocate: malus; scoreVERBO: 0. collocate: ullus; scoreVERBO: 0. collocate: nouus; scoreVERBO: 0. collocate: atque; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-114-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ars here are all the values plotted: collocate: bonus; scoreADV: 0. collocate: malus; scoreADV: 0. collocate: ullus; scoreADV: 0. collocate: nouus; scoreADV: 0. collocate: atque; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-114-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ars here are all the values plotted: collocate: bonus; scoreFUNC: 0. collocate: malus; scoreFUNC: 0. collocate: ullus; scoreFUNC: 0. collocate: nouus; scoreFUNC: 0. collocate: atque; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> simul atque increpuit suspicio tumultus <b>artes</b> ilico nostrae conticiscunt <br> <small> Cic.Mur.22 <br> Assim que soou a suspeita de uma rebelião, nossas atividades se calam. <small> [JDD] </small> </small> </p>
+; <p> malis <b>artibus</b> popularis fauor quaeritur similem te illis facias oportet <br> <small> Sen.Ep.29.11 <br> Com más artes se busca o favor popular. É preciso que te faças semelhante a eles. <small> [JDD] </small> </small> </p>
+; <p> conseruate igitur rei publicae iudices ciuem bonarum <b>artium</b> bonarum partium bonorum uirorum <br> <small> Cic.Cael.77 <br> Preservai, portanto, para a república, juízes, um cidadão das boas artes, do bom partido, dos homens de bem. <small> [JDD] </small> </small> </p>
+; <p> non uota non <b>ars</b> ulla correptos leuant cadunt medentes morbus auxilium trahit <br> <small> Sen.Oed.69 <br> Não há votos, nem arte alguma que aliviam os contagiados: caem os médicos, a doença arrasta seu próprio auxílio. <small> [JDD] </small> </small> </p>
+; <p> <b>Arte</b> nova vocisque deum dulcedine captum ' hoc mihi concilium tecum ' dixisse ' manebit ! ' <br> <small> Ov.Met.1.708-9 <br> que o deus, cativado por essa arte nova e pela doçura do som, disse: “Ficará para mim este diálogo contigo”. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-114-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 17.16 and an absolute frequency of 5. The Ovidius subcorpus follows, with a normalized frequency of 8.58 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 33 ; absolute frequency: 2.05576736188981. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 5 ; absolute frequency: 8.57927247769389. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 8 ; absolute frequency: 7.42046192375475. subcorpus: Seneca ; normalized frequency: 30 ; absolute frequency: 5.59899964539669. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 5 ; absolute frequency: 17.164435290079. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-114-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.didática subcorpus registers the highest normalized frequency, with the value of 5.94 and an absolute frequency of 7. The Prosa.filosófica subcorpus follows, with a normalized frequency of 5.27 and an absolute frequency of 32. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 14 ; absolute frequency: 3.40806738236082. subcorpus: Prosa.filosófica ; normalized frequency: 32 ; absolute frequency: 5.27174181644454. subcorpus: Prosa.oratória ; normalized frequency: 26 ; absolute frequency: 2.49632751817038. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 7 ; absolute frequency: 5.93773856985325. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-114-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 13.09 and an absolute frequency of 5. The I.d.C. subcorpus follows, with a normalized frequency of 5.66 and an absolute frequency of 37. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 48 ; absolute frequency: 2.23411682569234. subcorpus: I.d.C. ; normalized frequency: 37 ; absolute frequency: 5.66008872571516. subcorpus: II.d.C. ; normalized frequency: 5 ; absolute frequency: 13.0890052356021. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

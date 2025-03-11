@@ -1,0 +1,209 @@
+---
+title: "iter"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-116-101-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>iter</b> <b>itinèris</b> <br> <small>subs. n.</small> <br> <small>Obs.: Nom. arc. itiner Plaul. Merc. 913; Lucr. 6. 339. Gen. iteris Ac. Tr. 627. Abl. itere Lucr. 5. 653.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Percurso, caminho percorrido, marcha, viagem: &ensp; <small></small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Estrada, caminho, passagem &ensp; <small>Cíc. AI. 14. io, I.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Via, meio, maneira &ensp; <small>Cíc. De ar. 2. 234.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Curso: &ensp; <small></small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Direito de passagem &ensp; <small>Cés. B. Gal. 1. 8, 3.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>iter facere Cés. B. Gal. 1, 7. 3 “marchar” <br> <br><b>4</b><br>iter amoris nostri Cíc. At. 4. 2. 1 “O curso de nossa afeição”. </p> 
+ <b>itinĕris</b> <br> <small>gen. de iter.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Iter</b> -<b>eris</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Lucr. Prop.</small> &ensp; jornada, viagem. </p> 
+ <b>Iter</b> <b>itineris</b> <br> <small>n.</small>
+
+
+
+
+#### Velez
+
+<b>Iter</b> <b>itineris</b>   <p> <b>1</b> &ensp; o caminho </p>
+
+
+
+
+#### Cardoso
+
+<b>Iter</b> <b>itineris</b>   <p> <b>1</b> &ensp; ho caminho </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/109132 ' target="_blank"> http://lila-erc.eu/data/id/lemma/109132 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> itiner <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ĭter 
+ ĭtĭnĕris
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx105-116-101-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-116-101-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword iter here are all the values plotted: collocate: conficio; scoreSUBST: 0. collocate: longus; scoreSUBST: 0. collocate: facio; scoreSUBST: 0. collocate: per; scoreSUBST: 0. collocate: noster; scoreSUBST: 0. collocate: ex; scoreSUBST: 0. collocate: hostis; scoreSUBST: 2. collocate: nunc; scoreSUBST: 0. collocate: magnus; scoreSUBST: 0. collocate: ad; scoreSUBST: 0. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-116-101-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword iter here are all the values plotted: collocate: conficio; scoreADJ: 0. collocate: longus; scoreADJ: 2. collocate: facio; scoreADJ: 0. collocate: per; scoreADJ: 0. collocate: noster; scoreADJ: 0. collocate: ex; scoreADJ: 0. collocate: hostis; scoreADJ: 0. collocate: nunc; scoreADJ: 0. collocate: magnus; scoreADJ: 2. collocate: ad; scoreADJ: 0. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-116-101-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword iter here are all the values plotted: collocate: conficio; scoreVERBO: 2. collocate: longus; scoreVERBO: 0. collocate: facio; scoreVERBO: 3. collocate: per; scoreVERBO: 0. collocate: noster; scoreVERBO: 0. collocate: ex; scoreVERBO: 0. collocate: hostis; scoreVERBO: 0. collocate: nunc; scoreVERBO: 0. collocate: magnus; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-116-101-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword iter here are all the values plotted: collocate: conficio; scoreADV: 0. collocate: longus; scoreADV: 0. collocate: facio; scoreADV: 0. collocate: per; scoreADV: 0. collocate: noster; scoreADV: 0. collocate: ex; scoreADV: 0. collocate: hostis; scoreADV: 0. collocate: nunc; scoreADV: 2. collocate: magnus; scoreADV: 0. collocate: ad; scoreADV: 0. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-116-101-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword iter here are all the values plotted: collocate: conficio; scoreFUNC: 0. collocate: longus; scoreFUNC: 0. collocate: facio; scoreFUNC: 0. collocate: per; scoreFUNC: 20. collocate: noster; scoreFUNC: 0. collocate: ex; scoreFUNC: 20. collocate: hostis; scoreFUNC: 0. collocate: nunc; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0. collocate: ad; scoreFUNC: 20. collocate: in; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> haec celerans <b>iter</b> ad nauis tendebat Achates <br> <small> Verg.A.1.656 <br> Acelerando isso, Acates dirigia sua marcha para os navios. <small> [JDD] </small> </small> </p>
+; <p> nunc <b>iter</b> conficiebamus aestuosa et pulverulenta via <br> <small> Cic.Att.5.14.1 <br> Agora fazemos viagem por um caminho quente e poeirento. <small> [JDD] </small> </small> </p>
+; <p> deinde cogitabam sine ulla mora iusta <b>itinera</b> facere <br> <small> Cic.Att.5.2.1 <br> em seguida pensava em fazer sem nenhuma demora as viagens normais. <small> [JDD] </small> </small> </p>
+; <p> id ex <b>itinere</b> magno impetu Belgae oppugnare coeperunt <br> <small> Caes.Gal.2.6.1 <br> Os belgas de passagem começaram a atacá-la com grande ímpeto. <small> [JDD] </small> </small> </p>
+; <p> tardius <b>iter</b> fecit itaque in Africam uenit iam occupatam <br> <small> Cic.Lig.22 <br> fez a viagem muito lentamente; por isso chegou à África já ocupada. <small> [JDD] </small> </small> </p>
+; <p> age nunc <b>iter</b> expediti latronis cum Milonis impedimentis comparate <br> <small> Cic.Mil.55 <br> Vejamos agora, comparai a viagem daquele bandido livre de embaraços com os estorvos de Milão. <small> [JDD] </small> </small> </p>
+; <p> itaque confestim <b>iter</b> in Ciliciam feci per Tauri pylas <br> <small> Cic.Att.5.20.2 <br> e assim imediatamene fiz a viagem para a Cilícia através das portas de Tauro. <small> [JDD] </small> </small> </p>
+; <p> Tum circumeunti fuerat quod <b>iter</b> longius Effecit brevius : <br> <small> Phaed.3.19 <br> então tornou mais curto o caminho que tinha sido mais longo na ida com suas voltas <small> [JDD] </small> </small> </p>
+; <p> sed in magna copia rerum aliud alii natura <b>iter</b> ostendit <br> <small> Sal.Cat.3.1 <br> Mas em meio a uma grande abundância de coisas a natureza mostra um caminho para um e outro para outro. <small> [JDD] </small> </small> </p>
+; <p> sed cognosce <b>itinera</b> nostra ut statuas ubi nos visurus sis <br> <small> Cic.Att.2.8.2 <br> Mas inteira-te do nosso itinerário para que decidas onde nos verás. <small> [JDD] </small> </small> </p>
+; <p> ipse de quarta uigilia eodem <b>itinere</b> quo hostes ierant ad eos contendit equitatumque omnem ante se mittit <br> <small> Caes.Gal.1.21.3 <br> Ele próprio, durante a quarta vigília, pelo mesmo caminho em que os inimigos tinha ido, marcha até eles e envia antes dele toda a cavalaria. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-116-101-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 25.68 and an absolute frequency of 68. The Phaedrus subcorpus follows, with a normalized frequency of 3.04 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 68 ; absolute frequency: 25.6816980134451. subcorpus: Cicero ; normalized frequency: 55 ; absolute frequency: 3.42627893648302. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 13 ; absolute frequency: 12.0582506261015. subcorpus: Seneca ; normalized frequency: 16 ; absolute frequency: 2.98613314421157. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-116-101-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 20.2 and an absolute frequency of 83. The Prosa.oratória subcorpus follows, with a normalized frequency of 1.82 and an absolute frequency of 19. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 83 ; absolute frequency: 20.2049709097106. subcorpus: Prosa.filosófica ; normalized frequency: 13 ; absolute frequency: 2.14164511293059. subcorpus: Prosa.oratória ; normalized frequency: 19 ; absolute frequency: 1.82423934020143. subcorpus: Prosa.epistolográfica ; normalized frequency: 33 ; absolute frequency: 8.74426985346724. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 6 ; absolute frequency: 5.21195274496178. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-116-101-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 6.61 and an absolute frequency of 142. The I.d.C. subcorpus follows, with a normalized frequency of 2.91 and an absolute frequency of 19. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 142 ; absolute frequency: 6.60926227600652. subcorpus: I.d.C. ; normalized frequency: 19 ; absolute frequency: 2.90653204834022. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

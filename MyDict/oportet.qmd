@@ -1,0 +1,202 @@
+---
+title: "oportet"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx111-112-111-114-116-101-116xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>opōrtet</b> <b>-ébat</b> <b>-portére</b> <b>-portùit</b> <br> <small>v. impess. intr.</small> <br> <small>Obs.: Primitivamente indicava «a conveniência", “o dever moral”, e não a “necessidade", passando em seguida a exprimir a ideia de “dever”, a “obriga-ção”. Constrói-se com or. inf.: com subjuntivo com ut: ou como intr. absoluto.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Ser preciso, convir, ser bom, ser necessário, ser mister &ensp; <small>Cíc..Fam. 13, 57, 1; cíc. At. 13, 24, 2; Cíc. Tull. 5.</small> </p> 
+ <b>oportŭit</b> <br> <small>perf. de opórtet.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Oportet</b> -<b>ebat</b> -<b>uit</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; convir, importar, ser conveniente. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Oportet</b> <br> <small>impersonale.</small>   <p> <b>1</b> &ensp; conuir </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/115098 ' target="_blank"> http://lila-erc.eu/data/id/lemma/115098 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação impessoal (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ŏportet 
+ ŏportēre 
+ ŏportŭit
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx111-112-111-114-116-101-116xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx111-112-111-114-116-101-116xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword oportet here are all the values plotted: collocate: specto; scoreSUBST: 0. collocate: puto; scoreSUBST: 0. collocate: non; scoreSUBST: 0. collocate: ut; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx111-112-111-114-116-101-116xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword oportet here are all the values plotted: collocate: specto; scoreADJ: 0. collocate: puto; scoreADJ: 0. collocate: non; scoreADJ: 0. collocate: ut; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx111-112-111-114-116-101-116xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword oportet here are all the values plotted: collocate: specto; scoreVERBO: 2. collocate: puto; scoreVERBO: 2. collocate: non; scoreVERBO: 0. collocate: ut; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx111-112-111-114-116-101-116xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword oportet here are all the values plotted: collocate: specto; scoreADV: 0. collocate: puto; scoreADV: 0. collocate: non; scoreADV: 2. collocate: ut; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx111-112-111-114-116-101-116xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword oportet here are all the values plotted: collocate: specto; scoreFUNC: 0. collocate: puto; scoreFUNC: 0. collocate: non; scoreFUNC: 0. collocate: ut; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> tamen id factum non <b>oportuit</b> <br> <small> Cic.Ver.2.4.37.18 <br> Contudo, não foi conveniente que isso ocorresse. <small> [JDD] </small> </small> </p>
+; <p> itaque ego seueritati tuae ita ut <b>oportet</b> respondere non audeo <br> <small> Cic.Cael.30 <br> E assim eu não ouso responder à tua severidade como convinha. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quid autem contendendum esset ex tua putabam voluntate me statuere <b>oportere</b> <br> <small> Cic.Att.1.5.5 <br> por outro lado, eu julgava que convinha que eu estabelecesse o que se devia responder de acordo com a tua vontade. <small> [JDD] </small> </small> </p>
+; <p> mihi uero Cn. Pompeius non modo nihil grauius contra Milonem iudicasse sed etiam statuisse uidetur quid uos in iudicando spectare <b>oporteret</b> <br> <small> Cic.Mil.15 <br> Na realidade, me parece que Cneu Pompeu não só não emitiu nenhum juízo muito grave contra Milão, mas também determinou o que convinha a vós observar ao julgar. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx111-112-111-114-116-101-116xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 11.03 and an absolute frequency of 1. The Caesar subcorpus follows, with a normalized frequency of 5.29 and an absolute frequency of 14. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 14 ; absolute frequency: 5.28740841453282. subcorpus: Cicero ; normalized frequency: 79 ; absolute frequency: 4.92138247240288. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 14 ; absolute frequency: 2.61286650118512. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx111-112-111-114-116-101-116xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 5.38 and an absolute frequency of 56. The Prosa.histórica subcorpus follows, with a normalized frequency of 3.89 and an absolute frequency of 16. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 16 ; absolute frequency: 3.89493415126951. subcorpus: Prosa.filosófica ; normalized frequency: 23 ; absolute frequency: 3.78906443056951. subcorpus: Prosa.oratória ; normalized frequency: 56 ; absolute frequency: 5.3767054237516. subcorpus: Prosa.epistolográfica ; normalized frequency: 14 ; absolute frequency: 3.70969024086489. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx111-112-111-114-116-101-116xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The I.a.C. subcorpus follows, with a normalized frequency of 4.38 and an absolute frequency of 94. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 94 ; absolute frequency: 4.37514545031417. subcorpus: I.d.C. ; normalized frequency: 15 ; absolute frequency: 2.29463056447912. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

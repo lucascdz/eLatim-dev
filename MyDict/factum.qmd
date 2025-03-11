@@ -1,0 +1,206 @@
+---
+title: "factum"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx102-97-99-116-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>fāctum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Fato. ação, empresa. trabalho, obra, feito; &ensp; <small></small> <br> <b>2</b> &ensp; <small>Facta, -órum. subs. n. pl.</small> &ensp; Feitos notáveis, feitos bélicos &ensp; <small>Vcrg. En. 10. 468.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>facta illustria et gloriosa Cre. Fin. I, 37 ‘as ações belas e gloriosas’. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Factum</b> -<b>i</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; feito, acção. <br> <b>2</b> &ensp; <small>Varr.</small> &ensp; moedura de azeitona. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Factum</b> <b>i</b>   <p> <b>1</b> &ensp; ho feyto </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/104164 ' target="_blank"> http://lila-erc.eu/data/id/lemma/104164 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> factom <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+factī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx102-97-99-116-117-109xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx102-97-99-116-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword factum here are all the values plotted: collocate: recte; scoreSUBST: 0. collocate: opusculum; scoreSUBST: 2. collocate: pulcher; scoreSUBST: 0. collocate: pro; scoreSUBST: 0. collocate: iste; scoreSUBST: 0. collocate: meus; scoreSUBST: 0. collocate: de; scoreSUBST: 0. collocate: tuus; scoreSUBST: 0. collocate: atque; scoreSUBST: 0. collocate: is; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx102-97-99-116-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword factum here are all the values plotted: collocate: recte; scoreADJ: 0. collocate: opusculum; scoreADJ: 0. collocate: pulcher; scoreADJ: 2. collocate: pro; scoreADJ: 0. collocate: iste; scoreADJ: 0. collocate: meus; scoreADJ: 0. collocate: de; scoreADJ: 0. collocate: tuus; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: is; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx102-97-99-116-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword factum here are all the values plotted: collocate: recte; scoreVERBO: 0. collocate: opusculum; scoreVERBO: 0. collocate: pulcher; scoreVERBO: 0. collocate: pro; scoreVERBO: 0. collocate: iste; scoreVERBO: 0. collocate: meus; scoreVERBO: 0. collocate: de; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: is; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx102-97-99-116-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword factum here are all the values plotted: collocate: recte; scoreADV: 3. collocate: opusculum; scoreADV: 0. collocate: pulcher; scoreADV: 0. collocate: pro; scoreADV: 0. collocate: iste; scoreADV: 0. collocate: meus; scoreADV: 0. collocate: de; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: is; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx102-97-99-116-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword factum here are all the values plotted: collocate: recte; scoreFUNC: 0. collocate: opusculum; scoreFUNC: 0. collocate: pulcher; scoreFUNC: 0. collocate: pro; scoreFUNC: 20. collocate: iste; scoreFUNC: 0. collocate: meus; scoreFUNC: 0. collocate: de; scoreFUNC: 20. collocate: tuus; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: is; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> multa praetereo eaque praeclara ad singulare enim M. Antoni <b>factum</b> festinat oratio <br> <small> Cic.Phil.1.3.5 <br> Omito muitas outras coisas, todas elas bem conhecidas; pois meu discurso se apressa para um feito de Marco Antônio de singular importância. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quae tu omnia tuis foedis <b>factis</b> facis ut nequiquam uelim uix ferendi <br> <small> Cic.Cael.37 <br> Tu, com teus atos vergonhosos, fazes que eu queira tudo isso em vão”, ... mal suportáveis. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> humaniter meaeque dignitatis quoad mihi satis <b>factum</b> esset habendam sibi rationem putabat <br> <small> Cic.Att.4.18.1 <br> De um modo humano, ele achava que devia ser considerada para ele a razão de minha dignidade, até que me satisfizesse. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nam et prius quam incipias consulto et ubi consulueris mature <b>facto</b> opus est <br> <small> Sal.Cat.1.6 <br> Pois antes de começar é preciso deliberar e depois de ter deliberado é preciso agir prontamente. <small> [JDD] </small> </small> </p>
+; <p> adest ne clarus sanguine ac <b>factis</b> Creo an aeger animus falsa pro ueris uidet <br> <small> Sen.Oed.203 <br> Acaso está aqui Creonte, ilustre pelo nascimento e pelo feitos, ou ou será que o espírito doente vê coisas falsas por verdadeiras? <small> [JDD] </small> </small> </p>
+; <p> itaque num tibi uideor in causa Ligari esse occupatus num de eius <b>facto</b> dicere <br> <small> Cic.Lig.29 <br> E assim te pareço, por acaso, estar ocupado na causa de Ligário e falar da conduta dele? <small> [JDD] </small> </small> </p>
+; <p> sed quia prouenere ibi scriptorum magna ingenia per terrarum orbem Atheniensium <b>facta</b> pro maxumis celebrantur <br> <small> Sal.Cat.8.3 <br> Mas, porque ali surgiram grandes gênios de escritores, os feitos dos atenienses são celebrados pelo orbe da terra como os maiores. <small> [JDD] </small> </small> </p>
+; <p> dicerem Dolabella qui recte <b>factorum</b> fructus esset nisi te praeter ceteros paulisper esse expertum uiderem <br> <small> Cic.Phil.1.30.1 <br> Eu te diria, Dolabela, qual é o fruto dos belos feitos, se não visse que tu, acima de todos os outros, o experimentaste por algum tempo. <small> [JDD] </small> </small> </p>
+; <p> ita et senatus rem non hominem notauit et Pompeius de iure non de <b>facto</b> quaestionem tulit <br> <small> Cic.Mil.31 <br> Desse modo, o senado tachou o fato, não o homem, e Pompeu propôs uma questão sobre o direito, não sobre o fato. <small> [JDD] </small> </small> </p>
+; <p> erectus enim maximi ac pulcherrimi <b>facti</b> sui conscientia nihil de suo casu multa de uestro querebatur <br> <small> Cic.Phil.1.9.9 <br> pois de cabeça erguida pela consciência de seu importantíssimo e belíssimo feito, não se queixava nada de sua desgraça, muito da vossa. <small> [JDD] </small> </small> </p>
+; <p> eos enim deduxi testis et eas litteras deportaui ut de istius <b>facto</b> dubium esse nemini possit <br> <small> Cic.Ver.2.4.91.9 <br> Pois eu fiz vir essas testemunhas e trouxe esses documentos de modo que para ninguém possa ser duvidoso acerca da ação desse sujeito. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx102-97-99-116-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 13.91 and an absolute frequency of 15. The Tacitus subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 62 ; absolute frequency: 3.86235080112631. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 15 ; absolute frequency: 13.9133661070402. subcorpus: Seneca ; normalized frequency: 5 ; absolute frequency: 0.933166607566115. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx102-97-99-116-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 7.72 and an absolute frequency of 4. The Prosa.oratória subcorpus follows, with a normalized frequency of 5.47 and an absolute frequency of 57. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 17 ; absolute frequency: 4.13836753572385. subcorpus: Prosa.filosófica ; normalized frequency: 8 ; absolute frequency: 1.31793545411113. subcorpus: Prosa.oratória ; normalized frequency: 57 ; absolute frequency: 5.4727180206043. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx102-97-99-116-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 4 and an absolute frequency of 86. The I.a.C. subcorpus follows, with a normalized frequency of 4 and an absolute frequency of 86. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 86 ; absolute frequency: 4.00279264603212. subcorpus: I.d.C. ; normalized frequency: 7 ; absolute frequency: 1.07082759675692. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,218 @@
+---
+title: "hostis"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx104-111-115-116-105-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>hostis</b> <b>-is</b> <br> <small>subs. m.</small> <br> <small>Obs.: Hostis é o “inimigo público” em oposição a inimicus, o “inimigo particular”. Na época imperial, principalmente. hostis tomou o significado de inimigo em geral, assim como inimicus se tornou sinônimo de hostilis.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Estrangeiro, hóspede. forasteiro &ensp; <small>Cíc. Of. I, 37.</small> <br> <b>2</b> &ensp; <small>II-Sent. particular</small> &ensp; Inimigo, inimigo público &ensp; <small>Cés. B. Gal. 5, 56, 3.</small> <br> <b>3</b> &ensp; <small>II-Sent. particular</small> &ensp; Inimigo &ensp; <small>em geral Cíc. Phil. 2, 64.</small> <br> <b>4</b> &ensp; <small>III-Sents. diversos:</small> &ensp; Peão do adversário &ensp; <small>peça de uma espécie de jogo de xadrez Ov. A. Am. 2, 208.</small> <br> <b>5</b> &ensp; <small>III-Como subs. f.:</small> &ensp; Inimiga &ensp; <small>T. Lív. 30, 14, 2:</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Hostis</b> -<b>is</b> <br> <small>m. Cic. f. Ovid.</small>   <p> <b>1</b> &ensp; inimigo ou inimiga, principalmente publicos. <br> <b>2</b> &ensp; <small>Veter. apud Cic.</small> &ensp; estrangeiro, forasteiro, peregrino. </p>
+
+
+
+
+#### Velez
+
+<b>Hostis</b> -<b>is</b>   <p> <b>1</b> &ensp; o inimigo, ou inimiga </p>
+
+
+
+
+#### Cardoso
+
+<b>Hostis</b> <b>is</b>   <p> <b>1</b> &ensp; ho imigo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/105757 ' target="_blank"> http://lila-erc.eu/data/id/lemma/105757 </a> <br>
+<small> classe: </small> substantivo comum de dois gêneros   <br>
+<small> paradigma: </small> 3ª declinação (tema em -i-) <br>
+<small> outras grafias: </small> fostis <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx104-111-115-116-105-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx104-111-115-116-105-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword hostis here are all the values plotted: collocate: copia; scoreSUBST: 3. collocate: numerus; scoreSUBST: 3. collocate: iudico; scoreSUBST: 0. collocate: impetus; scoreSUBST: 2. collocate: tergum; scoreSUBST: 2. collocate: multitudo; scoreSUBST: 2. collocate: ab; scoreSUBST: 0. collocate: classis; scoreSUBST: 2. collocate: exercitus; scoreSUBST: 2. collocate: domesticus; scoreSUBST: 0. collocate: aduentus; scoreSUBST: 2. collocate: castra; scoreSUBST: 2. collocate: urbs; scoreSUBST: 2. collocate: confligo; scoreSUBST: 0. collocate: acerbus; scoreSUBST: 0. collocate: pello; scoreSUBST: 0. collocate: acies; scoreSUBST: 2. collocate: premo; scoreSUBST: 0. collocate: transeo; scoreSUBST: 0. collocate: appello; scoreSUBST: 0. collocate: iter; scoreSUBST: 2. collocate: cum; scoreSUBST: 0. collocate: Antonius; scoreSUBST: 0. collocate: relinquo; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx104-111-115-116-105-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword hostis here are all the values plotted: collocate: copia; scoreADJ: 0. collocate: numerus; scoreADJ: 0. collocate: iudico; scoreADJ: 0. collocate: impetus; scoreADJ: 0. collocate: tergum; scoreADJ: 0. collocate: multitudo; scoreADJ: 0. collocate: ab; scoreADJ: 0. collocate: classis; scoreADJ: 0. collocate: exercitus; scoreADJ: 0. collocate: domesticus; scoreADJ: 2. collocate: aduentus; scoreADJ: 0. collocate: castra; scoreADJ: 0. collocate: urbs; scoreADJ: 0. collocate: confligo; scoreADJ: 0. collocate: acerbus; scoreADJ: 2. collocate: pello; scoreADJ: 0. collocate: acies; scoreADJ: 0. collocate: premo; scoreADJ: 0. collocate: transeo; scoreADJ: 0. collocate: appello; scoreADJ: 0. collocate: iter; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: Antonius; scoreADJ: 0. collocate: relinquo; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx104-111-115-116-105-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword hostis here are all the values plotted: collocate: copia; scoreVERBO: 0. collocate: numerus; scoreVERBO: 0. collocate: iudico; scoreVERBO: 3. collocate: impetus; scoreVERBO: 0. collocate: tergum; scoreVERBO: 0. collocate: multitudo; scoreVERBO: 0. collocate: ab; scoreVERBO: 0. collocate: classis; scoreVERBO: 0. collocate: exercitus; scoreVERBO: 0. collocate: domesticus; scoreVERBO: 0. collocate: aduentus; scoreVERBO: 0. collocate: castra; scoreVERBO: 0. collocate: urbs; scoreVERBO: 0. collocate: confligo; scoreVERBO: 2. collocate: acerbus; scoreVERBO: 0. collocate: pello; scoreVERBO: 2. collocate: acies; scoreVERBO: 0. collocate: premo; scoreVERBO: 2. collocate: transeo; scoreVERBO: 2. collocate: appello; scoreVERBO: 2. collocate: iter; scoreVERBO: 0. collocate: cum; scoreVERBO: 0. collocate: Antonius; scoreVERBO: 0. collocate: relinquo; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx104-111-115-116-105-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword hostis here are all the values plotted: collocate: copia; scoreADV: 0. collocate: numerus; scoreADV: 0. collocate: iudico; scoreADV: 0. collocate: impetus; scoreADV: 0. collocate: tergum; scoreADV: 0. collocate: multitudo; scoreADV: 0. collocate: ab; scoreADV: 0. collocate: classis; scoreADV: 0. collocate: exercitus; scoreADV: 0. collocate: domesticus; scoreADV: 0. collocate: aduentus; scoreADV: 0. collocate: castra; scoreADV: 0. collocate: urbs; scoreADV: 0. collocate: confligo; scoreADV: 0. collocate: acerbus; scoreADV: 0. collocate: pello; scoreADV: 0. collocate: acies; scoreADV: 0. collocate: premo; scoreADV: 0. collocate: transeo; scoreADV: 0. collocate: appello; scoreADV: 0. collocate: iter; scoreADV: 0. collocate: cum; scoreADV: 0. collocate: Antonius; scoreADV: 0. collocate: relinquo; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx104-111-115-116-105-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword hostis here are all the values plotted: collocate: copia; scoreFUNC: 0. collocate: numerus; scoreFUNC: 0. collocate: iudico; scoreFUNC: 0. collocate: impetus; scoreFUNC: 0. collocate: tergum; scoreFUNC: 0. collocate: multitudo; scoreFUNC: 0. collocate: ab; scoreFUNC: 20. collocate: classis; scoreFUNC: 0. collocate: exercitus; scoreFUNC: 0. collocate: domesticus; scoreFUNC: 0. collocate: aduentus; scoreFUNC: 0. collocate: castra; scoreFUNC: 0. collocate: urbs; scoreFUNC: 0. collocate: confligo; scoreFUNC: 0. collocate: acerbus; scoreFUNC: 0. collocate: pello; scoreFUNC: 0. collocate: acies; scoreFUNC: 0. collocate: premo; scoreFUNC: 0. collocate: transeo; scoreFUNC: 0. collocate: appello; scoreFUNC: 0. collocate: iter; scoreFUNC: 0. collocate: cum; scoreFUNC: 20. collocate: Antonius; scoreFUNC: 0. collocate: relinquo; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> supplicationem decernitis <b>hostem</b> non appellatis <br> <small> Cic.Phil.14.6.11 <br> Decretais uma ação de graça, não o chamais inimigo. <small> [JDD] </small> </small> </p>
+; <p> tandem confecti uulneribus <b>hostes</b> terga uerterunt <br> <small> Caes.Gal.3.21.1 <br> finalmente, abatidos pelos ferimentos, os inimigos voltaram as costas. <small> [JDD] </small> </small> </p>
+; <p> exire ex urbe iubet consul <b>hostem</b> <br> <small> Cic.Catil.1.13.2 <br> O cônsul ordena que o inimigo saia da cidade. <small> [JDD] </small> </small> </p>
+; <p> <b>hostes</b> item suas copias ex castris eductas instruxerant <br> <small> Caes.Gal.2.8.5 <br> Os inimigos também ordenaram suas tropas, depois de tirá-las do acampamento. <small> [JDD] </small> </small> </p>
+; <p> palam iam cum <b>hoste</b> nullo impediente bellum iustum geremus <br> <small> Cic.Catil.2.1.12 <br> Agora faremos abertamente uma guerra justa contra o inimigo, sem ninguém impedindo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> palus erat non magna inter nostrum atque <b>hostium</b> exercitum <br> <small> Caes.Gal.2.9.1 <br> Havia entre o nosso exército e o dos inimigos um charco não grande. <small> [JDD] </small> </small> </p>
+; <p> nam multitudo <b>hostium</b> ne circumuenire queat prohibent angustiae loci <br> <small> Sal.Cat.58.20 <br> Pois as estreitezas do lugar impedem que um grande número de inimigos possa cercar-nos. <small> [JDD] </small> </small> </p>
+; <p> quo decreto quis non perspicit <b>hostem</b> esse Antonium iudicatum <br> <small> Cic.Phil.4.5.1 <br> Quem não vê que, por esse decreto, Antônio é considerado inimigo? <small> [JDD] </small> </small> </p>
+; <p> hic a. d. iii Idus Octobr magnum numerum <b>hostium</b> occidimus <br> <small> Cic.Att.5.20.3 <br> Aqui, no terceiro dia antes dos idos de outubro [13 de outubro], matamos um grande número de inimigos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> exercitus <b>hostium</b> duo unus ab urbe alter a Gallia obstant <br> <small> Sal.Cat.58.6 <br> Dois exércitos dos inimigos, um do lado da cidade, o outro do lado da Gália, nos barram a passagem. <small> [JDD] </small> </small> </p>
+; <p> hos item ex proximis nauibus cum conspexissent subsecuti <b>hostibus</b> adpropinquauerunt <br> <small> Caes.Gal.4.25.6 <br> Como igualmente tivessem visto esses dos navios imediatos, seguindo-os se aproximaram dos inimigos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> namque eius aduentu <b>hostes</b> constiterunt nostri se ex timore receperunt <br> <small> Caes.Gal.4.34.1 <br> pois com a chegada dele, os inimigos se detiveram, os nossos se recobraram do temor. <small> [JDD] </small> </small> </p>
+; <p> hoc neque ipse transire habebat in animo neque <b>hostes</b> transituros existimabat <br> <small> Caes.Gal.6.7.5 <br> Nem ele próprio tinha a intenção de atravessá-lo nem achava que os inimigos o atravessariam. <small> [JDD] </small> </small> </p>
+; <p> commisso proelio diutius nostrorum militum impetum <b>hostes</b> ferre non potuerunt ac terga uerterunt <br> <small> Caes.Gal.4.35.2 <br> Travado o combate, os inimigos não puderam aguentar por muito tempo o ímpeto de nossos soldados e voltaram as costas. <small> [JDD] </small> </small> </p>
+; <p> nam si ille non <b>hostis</b> hos qui consulem reliquerunt <b>hostis</b> necesse est iudicemus <br> <small> Cic.Phil.4.5.8 <br> Pois, se ele não é inimigo, é inevitável que consideremos inimigos estes que o abandonaram, sendo ele cônsul. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nihilo setius Caesar ut ante constituerat duas acies <b>hostem</b> propulsare tertiam opus perficere iussit <br> <small> Caes.Gal.1.49.4 <br> Nada obstante, César, como tinha estabelecido antes, ordenou que duas linhas rechaçassem o inimigo e a terceira terminasse a obra. <small> [JDD] </small> </small> </p>
+; <p> recordamini per deos immortalis patres conscripti quid hoc biduo timuerimus a domesticis <b>hostibus</b> rumoribus improbissimis dissipatis <br> <small> Cic.Phil.14.10.5 <br> Recordai, pelos deuses imortais! pais conscritos, que medo sentimos neste dois dias da parte dos inimigos daqui de dentro, depois que se divulgaram os mais infames rumores. <small> [JDD] </small> </small> </p>
+; <p> infelix est Mucius quod dextra ignes <b>hostium</b> premit et ipse a se exigit erroris sui poenas <br> <small> Sen.Prov.3.5 <br> Múcio é infeliz, porque aperta com a destra as chamas dos inimigos e ele próprio exige de si a punição de seu erro. <small> [JDD] </small> </small> </p>
+; <p> sum pius Aeneas raptos qui ex <b>hoste</b> Penatis classe ueho me cum fama super aethera notus <br> <small> Verg.A.1.378 <br> Eu sou o piedoso Enéias, conhecido pela fama além do céu, que levo comigo em minha frota os penates arrebatados do inimigo. <small> [JDD] </small> </small> </p>
+; <p> ipse de quarta uigilia eodem itinere quo <b>hostes</b> ierant ad eos contendit equitatumque omnem ante se mittit <br> <small> Caes.Gal.1.21.3 <br> Ele próprio, durante a quarta vigília, pelo mesmo caminho em que os inimigos tinha ido, marcha até eles e envia antes dele toda a cavalaria. <small> [JDD] </small> </small> </p>
+; <p> hosce ego homines excipio et secerno libenter neque in improborum ciuium sed in acerbissimorum <b>hostium</b> numero habendos puto <br> <small> Cic.Catil.4.15.1 <br> Esses homens eu os excluo e ponho à parte de bom grado e acho que não devem ser tidos no número dos maus cidadãos, mas no número dos mais encarniçados inimigos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> cum <b>hostium</b> acies a sinistro cornu pulsa atque in fugam coniecta esset a dextro cornu uehementer multitudine suorum nostram aciem premebant <br> <small> Caes.Gal.1.52.6 <br> Como a linha dos inimigos da ala esquerda tinha sido derrotada e posta em fuga, com a ala direita eles apertavam violentamente a nossa linha em virtude do grande número dos seus. <small> [JDD] </small> </small> </p>
+; <p> ipse Diuiciacum Haeduum magnopere cohortatus docet quanto opere rei publicae communisque salutis intersit manus <b>hostium</b> distineri ne cum tanta multitudine uno tempore confligendum sit <br> <small> Caes.Gal.2.5.2 <br> Ele próprio, tendo com muito empenho encorajado o éduo Diviciaco, lhe ensina o quanto importa para a república e para a salvação comum que as tropas dos inimigos sejam divididas, para que não se tenha de lutar com uma tão grande multidão ao mesmo tempo. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx104-111-115-116-105-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 60.43 and an absolute frequency of 160. The Phaedrus subcorpus follows, with a normalized frequency of 4.55 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 160 ; absolute frequency: 60.4275247375179. subcorpus: Cicero ; normalized frequency: 181 ; absolute frequency: 11.2755725000623. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 30 ; absolute frequency: 27.8267322140803. subcorpus: Seneca ; normalized frequency: 25 ; absolute frequency: 4.66583303783057. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx104-111-115-116-105-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 46.74 and an absolute frequency of 192. The Prosa.filosófica subcorpus follows, with a normalized frequency of 3.95 and an absolute frequency of 24. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 192 ; absolute frequency: 46.7392098152341. subcorpus: Prosa.filosófica ; normalized frequency: 24 ; absolute frequency: 3.9538063623334. subcorpus: Prosa.oratória ; normalized frequency: 171 ; absolute frequency: 16.4181540618129. subcorpus: Prosa.epistolográfica ; normalized frequency: 5 ; absolute frequency: 1.32488937173746. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 7 ; absolute frequency: 5.93773856985325. subcorpus: Poesia.trágica ; normalized frequency: 6 ; absolute frequency: 5.21195274496178. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx104-111-115-116-105-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 17.5 and an absolute frequency of 376. The I.d.C. subcorpus follows, with a normalized frequency of 4.9 and an absolute frequency of 32. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 376 ; absolute frequency: 17.5005818012567. subcorpus: I.d.C. ; normalized frequency: 32 ; absolute frequency: 4.89521187088879. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

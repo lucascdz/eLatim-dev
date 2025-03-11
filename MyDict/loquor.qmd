@@ -1,0 +1,208 @@
+---
+title: "loquor"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx108-111-113-117-111-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>loquor</b> <b>-èris</b> <b>loquí, locútus sum</b> <br> <small>v. dep. intr. e tr.</small> <br> <small>Obs.: Constrói-se como intransitivo ou com abl. com de: ou transitividade.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Falar, exprimir, dizer &ensp; <small>Cíc. Br. 258; Cíc. Br. 228: Cíc. Ver. 4, 69: C íc. Tusc. I. 13.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Falar sem cessar, ter sempre à boca &ensp; <small>C ic. Par. 50.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Loquor</b> -<b>eris</b> -<b>cutus</b> -<b>quutus sum</b> <small>l</small> <b>loqui</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; fallar, dizer, praticar. </p>
+
+
+
+
+#### Velez
+
+<b>Loquor</b> -<b>eris</b> <b>locutus</b> <b>loquutus</b> <small>vel</small> <br> <small>1. b.</small>   <p> <b>1</b> &ensp; fallar, dizer &ensp; <small>Loqui est à natura; dicere, ornatè, & facundè.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Loquor</b> -<b>eris</b> <b>locutus sum</b>   <p> <b>1</b> &ensp; falar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/110805 ' target="_blank"> http://lila-erc.eu/data/id/lemma/110805 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação depoente (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+lŏquor 
+ lŏquĕris 
+ lŏquī 
+ lŏcūtus sum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx108-111-113-117-111-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx108-111-113-117-111-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword loquor here are all the values plotted: collocate: sic; scoreSUBST: 0. collocate: uere; scoreSUBST: 0. collocate: ita; scoreSUBST: 0. collocate: cum; scoreSUBST: 0. collocate: de; scoreSUBST: 0. collocate: ipse; scoreSUBST: 0. collocate: non; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx108-111-113-117-111-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword loquor here are all the values plotted: collocate: sic; scoreADJ: 0. collocate: uere; scoreADJ: 0. collocate: ita; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: de; scoreADJ: 0. collocate: ipse; scoreADJ: 0. collocate: non; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx108-111-113-117-111-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword loquor here are all the values plotted: collocate: sic; scoreVERBO: 0. collocate: uere; scoreVERBO: 0. collocate: ita; scoreVERBO: 0. collocate: cum; scoreVERBO: 0. collocate: de; scoreVERBO: 0. collocate: ipse; scoreVERBO: 0. collocate: non; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx108-111-113-117-111-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword loquor here are all the values plotted: collocate: sic; scoreADV: 3. collocate: uere; scoreADV: 2. collocate: ita; scoreADV: 2. collocate: cum; scoreADV: 0. collocate: de; scoreADV: 0. collocate: ipse; scoreADV: 0. collocate: non; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx108-111-113-117-111-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword loquor here are all the values plotted: collocate: sic; scoreFUNC: 0. collocate: uere; scoreFUNC: 0. collocate: ita; scoreFUNC: 0. collocate: cum; scoreFUNC: 20. collocate: de; scoreFUNC: 20. collocate: ipse; scoreFUNC: 0. collocate: non; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> uere <b>loquar</b> iudices <br> <small> Cic.Ver.1.20 <br> Vou falar com franqueza, juízes. <small> [JDD] </small> </small> </p>
+; <p> quis sic <b>loquitur</b> <br> <small> Cic.Phil.3.22.5 <br> Quem fala assim? <small> [JDD] </small> </small> </p>
+; <p> cum Acutilio sum <b>locutus</b> <br> <small> Cic.Att.1.8.1 <br> Falei com Acutílio. <small> [JDD] </small> </small> </p>
+; <p> cum ipso nihil eram <b>locutus</b> <br> <small> Cic.Att.2.1.12 <br> Com ele eu não tinha falado nada. <small> [JDD] </small> </small> </p>
+; <p> Atque ita <b>locutus</b> improbam leto dedit . <br> <small> Phaed.1.22 <br> E, tendo assim falado, matou a malvada. <small> [JDD] </small> </small> </p>
+; <p> res <b>loquitur</b> ipsa iudices quae semper ualet plurimum <br> <small> Cic.Mil.53 <br> O fato, que sempre tem mais valor, fala por si mesmo, juízes. <small> [JDD] </small> </small> </p>
+; <p> et statim <b>locutus</b> est cum eis et dixit illis <br> <small> Vulg.Marc.6.50 <br> E ele logo falou com eles e lhes disse. <small> [JDD] </small> </small> </p>
+; <p> de re publica nisi per concilium <b>loqui</b> non conceditur <br> <small> Caes.Gal.6.20.3 <br> Sobre a república, a não ser através de uma assembléia, não é concedido falar. <small> [JDD] </small> </small> </p>
+; <p> nimium multa de re minime dubia <b>loquor</b> hoc tamen dico <br> <small> Cic.Cael.15 <br> Falo demasiadamente muitas coisas sobre um assunto nem um pouco duvidoso; contudo, isto eu digo. <small> [JDD] </small> </small> </p>
+; <p> sic <b>loquere</b> sic uiue uide ne te ulla res deprimat <br> <small> Sen.Ep.10.4 <br> Fala assim, vive assim; cuida para que nenhum acontecimento te deprima. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx108-111-113-117-111-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 20.22 and an absolute frequency of 9. The Tacitus subcorpus follows, with a normalized frequency of 13.73 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 7 ; absolute frequency: 2.64370420726641. subcorpus: Cicero ; normalized frequency: 117 ; absolute frequency: 7.28862973760933. subcorpus: Horatius ; normalized frequency: 9 ; absolute frequency: 7.99218541870171. subcorpus: Ovidius ; normalized frequency: 7 ; absolute frequency: 12.0109814687714. subcorpus: Phaedrus ; normalized frequency: 7 ; absolute frequency: 10.6269925611052. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 35 ; absolute frequency: 6.5321662529628. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 4 ; absolute frequency: 13.7315482320632. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 9 ; absolute frequency: 20.2201752415188'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx108-111-113-117-111-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 20.22 and an absolute frequency of 9. The Poesia.didática subcorpus follows, with a normalized frequency of 11.88 and an absolute frequency of 14. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 3.16 and an absolute freqeuncy of 13. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 13 ; absolute frequency: 3.16463399790647. subcorpus: Prosa.filosófica ; normalized frequency: 45 ; absolute frequency: 7.41338692937513. subcorpus: Prosa.oratória ; normalized frequency: 68 ; absolute frequency: 6.52885658598408. subcorpus: Prosa.epistolográfica ; normalized frequency: 31 ; absolute frequency: 8.21431410477225. subcorpus: Poesia.lírica ; normalized frequency: 9 ; absolute frequency: 7.57129637419029. subcorpus: Poesia.didática ; normalized frequency: 14 ; absolute frequency: 11.8754771397065. subcorpus: Poesia.trágica ; normalized frequency: 8 ; absolute frequency: 6.94927032661571. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 9 ; absolute frequency: 20.2201752415188'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx108-111-113-117-111-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 20.22 and an absolute frequency of 9. The II.d.C. subcorpus follows, with a normalized frequency of 10.47 and an absolute frequency of 4. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 6.38 and an absolute freqeuncy of 137. here are all the values: subcorpus: I.a.C. ; normalized frequency: 137 ; absolute frequency: 6.37654177333023. subcorpus: I.d.C. ; normalized frequency: 49 ; absolute frequency: 7.49579317729845. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 9 ; absolute frequency: 20.2201752415188'}
+
+
+:::
+

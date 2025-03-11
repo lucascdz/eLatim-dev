@@ -1,0 +1,205 @@
+---
+title: "accido"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-99-99-105-100-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>accĭdī</b> <br> <small>perf. de accìdo.</small> <br> <small></small> 
+ <small>1.</small> <b>accĭdō</b> <b>-is</b> <b>-ère</b> <b>-cìdí</b> <br> <small>v. intr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Cair &ensp; <small>para ou em direção a Cés. B. Gal. 3, 14, 4.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Chegar, aconteeer &ensp; <small>Cíc. De Or. 3, 28.</small> <br> <b>3</b> &ensp; <small>II-Daí</small> &ensp; Acontecer &ensp; <small>Sentido favorável ou não:</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>3</b><br>quid praeclarius mihi accidere potuit? Cíc. Sên. 2 4 «que de mais magnífico me pôde acontecer?»; quod acciderit, feramus Cíc. Sest. 143 «suportemos o que acontecer». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Accido</b> -<b>is</b> -<b>idi</b> -<b>dere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; cahir junto. <br> <b>2</b> &ensp; acontecer, succeder. </p>
+
+
+
+
+#### Velez
+
+<b>Accido</b> -<b>idis</b> <br> <small>à Cado</small>   <p> <b>1</b> &ensp; cahir junto de alguma cousa <br> <b>2</b> &ensp; morrer <br> <b>3</b> &ensp; <small>por</small> &ensp; ouvir </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>alicuius genibus, uel ad genua alicui, uel alicuius pedes accidere &ensp; <small>lançar se, ou deburçar-se aos pés de alguem</small> <br> quos accidam? aut quos appellem? &ensp; <small><small>apud Salust. pro ad quos, vel ad quorum genua accidam, id est, quibus suplicem?</small></small> <br> <br><b>2</b><br>siquid pupillo accidisset &ensp; <small>se o pupillo morresse</small> <br> <br><b>3</b><br>mihi paternae uocis sonitus aures accidit &ensp; <small>ouvi a voz de meu pay</small> &ensp; <small><small>pro ad aures, vel auribus</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Accido</b> <b>is</b> <b>idi</b> <b>isum</b>   <p> <b>1</b> &ensp; cair. ou acontecer </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/87112 ' target="_blank"> http://lila-erc.eu/data/id/lemma/87112 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small> accado, accedo <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> accado, accedo, accido </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> accadere, accedere, accidere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> accadet, accedet, accidet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> accidi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+
+
+
+
+
+#### Lexicala
+
+accĭdō 
+ accĭdis 
+ accĭdĕre 
+ accĭdī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-99-99-105-100-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-99-99-105-100-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword accido here are all the values plotted: collocate: ut; scoreSUBST: 0. collocate: ne; scoreSUBST: 0. collocate: possum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-99-99-105-100-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword accido here are all the values plotted: collocate: ut; scoreADJ: 0. collocate: ne; scoreADJ: 0. collocate: possum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-99-99-105-100-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword accido here are all the values plotted: collocate: ut; scoreVERBO: 0. collocate: ne; scoreVERBO: 0. collocate: possum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-99-99-105-100-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword accido here are all the values plotted: collocate: ut; scoreADV: 0. collocate: ne; scoreADV: 0. collocate: possum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-99-99-105-100-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword accido here are all the values plotted: collocate: ut; scoreFUNC: 20. collocate: ne; scoreFUNC: 20. collocate: possum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quod ut ne <b>accidat</b> magis cauendum est <br> <small> Cic.Amici.99 <br> Para que isso não ocorra, deve-se precaver ainda mais. <small> [JDD] </small> </small> </p>
+; <p> nihil <b>accidere</b> bono uiro mali potest non miscentur contraria <br> <small> Sen.Prov.2.1 <br> Nenhum mal pode acontecer a um homem bom: as coisas contrárias não se misturam. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-99-99-105-100-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 10.2 and an absolute frequency of 27. The Sallustius subcorpus follows, with a normalized frequency of 2.78 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 27 ; absolute frequency: 10.1971447994562. subcorpus: Cicero ; normalized frequency: 47 ; absolute frequency: 2.9279110911764. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 22 ; absolute frequency: 4.10593307329091. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-99-99-105-100-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 7.3 and an absolute frequency of 30. The Prosa.histórica subcorpus follows, with a normalized frequency of 7.3 and an absolute frequency of 30. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 30 ; absolute frequency: 7.30300153363032. subcorpus: Prosa.filosófica ; normalized frequency: 30 ; absolute frequency: 4.94225795291676. subcorpus: Prosa.oratória ; normalized frequency: 22 ; absolute frequency: 2.11227713075956. subcorpus: Prosa.epistolográfica ; normalized frequency: 17 ; absolute frequency: 4.50462386390736. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-99-99-105-100-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 3.63 and an absolute frequency of 78. The I.a.C. subcorpus follows, with a normalized frequency of 3.63 and an absolute frequency of 78. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 78 ; absolute frequency: 3.63043984175006. subcorpus: I.d.C. ; normalized frequency: 23 ; absolute frequency: 3.51843353220132. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

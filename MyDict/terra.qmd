@@ -1,0 +1,202 @@
+---
+title: "terra"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx116-101-114-114-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>terra</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small>Obs.: Gen. arc. terráí Lucr. 1, 212.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Terra, a terra firme, o continente &ensp; <small>Cíc. Mur. 33.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; A Terra planeta em que habitamos, o globo terrestre &ensp; <small>Cíc. Tusc. 1, 40.</small> <br> <b>3</b> &ensp; <small>I-Daí</small> &ensp; A parte da terra em que se habita, região, país &ensp; <small>Cíc. Lae. 13.</small> <br> <b>4</b> &ensp; <small>I-Daí</small> &ensp; Solo, terreno, chão &ensp; <small>Cíc. Na!. 2, 120.</small> <br> <b>5</b> &ensp; <small>II-Sent. particular:</small> &ensp; A Terra &ensp; <small>personificada e divinizada Ov. F. 6, 299.</small> <br> <b>6</b> &ensp; <small>II-No pl.:</small> &ensp; As nações, o universo &ensp; <small>Cíc. Agr. 2, 33.</small> <br> <b>7</b> &ensp; <small>III-Sent figurado:</small> &ensp; Um homem da terra, um desconhecido &ensp; <small>Cíc. At. 1, 13, 4.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Terra</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; terra. <br> <b>2</b> &ensp; paiz, regiaõ, provincia. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Terra</b> -<b>ae</b>   <p> <b>1</b> &ensp; a terra </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/127912 ' target="_blank"> http://lila-erc.eu/data/id/lemma/127912 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a-) <br>
+<small> outras grafias: </small> tera <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx116-101-114-114-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword terra here are all the values plotted: collocate: orbis; scoreSUBST: 5. collocate: mare; scoreSUBST: 3. collocate: intueor; scoreSUBST: 0. collocate: ultimus; scoreSUBST: 0. collocate: caelum; scoreSUBST: 2. collocate: in; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx116-101-114-114-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword terra here are all the values plotted: collocate: orbis; scoreADJ: 0. collocate: mare; scoreADJ: 0. collocate: intueor; scoreADJ: 0. collocate: ultimus; scoreADJ: 2. collocate: caelum; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx116-101-114-114-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword terra here are all the values plotted: collocate: orbis; scoreVERBO: 0. collocate: mare; scoreVERBO: 0. collocate: intueor; scoreVERBO: 2. collocate: ultimus; scoreVERBO: 0. collocate: caelum; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx116-101-114-114-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword terra here are all the values plotted: collocate: orbis; scoreADV: 0. collocate: mare; scoreADV: 0. collocate: intueor; scoreADV: 0. collocate: ultimus; scoreADV: 0. collocate: caelum; scoreADV: 0. collocate: in; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx116-101-114-114-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword terra here are all the values plotted: collocate: orbis; scoreFUNC: 0. collocate: mare; scoreFUNC: 0. collocate: intueor; scoreFUNC: 0. collocate: ultimus; scoreFUNC: 0. collocate: caelum; scoreFUNC: 0. collocate: in; scoreFUNC: 20. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> et aliud cecidit in <b>terram</b> bonam <br> <small> Vulg.Marc.4.8 <br> E outra caiu em terra boa. <small> [JDD] </small> </small> </p>
+; <p> iam timent <b>terram</b> rates et maria malunt <br> <small> Sen.Ag.575 <br> Agora os barcos temem a terra e preferem os mares. <small> [JDD] </small> </small> </p>
+; <p> Iamque erat in totas sparsurus fulmina <b>terras</b> : <br> <small> Ov.Met.1.253 <br> E já estava prestes a espalhar raios por toda a terra. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> et statim exortum est quoniam non habebat altitudinem <b>terrae</b> <br> <small> Vulg.Marc.4.5 <br> e brotou imediatamente, porque não tinha profundidade de terra. <small> [JDD] </small> </small> </p>
+; <p> iam caelum <b>terram</b>que meo sine numine uenti miscere et tantas audetis tollere moles <br> <small> Verg.A.1.133 <br> Já ousais, ó ventos, misturar o céu e a terra e levantar tão grandes massas, sem meu consentimento? <small> [JDD] </small> </small> </p>
+; <p> turpe est summo consilio orbis <b>terrae</b> praesertim in re tam perspicua consilium intellegi defuisse <br> <small> Cic.Phil.7.19.8 <br> É vergonhoso que ao mais elevado conselho do mundo, sobretudo num caso tão patente, se entenda ter faltado a sensatez. <small> [JDD] </small> </small> </p>
+; <p> animaduertit Caesar unos ex omnibus Sequanos nihil earum rerum facere quas ceteri facerent sed tristes capite demisso <b>terram</b> intueri <br> <small> Caes.Gal.1.32.2 <br> Notou César que, únicos dentre todos, os séquanos não faziam nada das coisas que os demais faziam, mas tristes, de cabeça baixa, olhavam o chão. <small> [JDD] </small> </small> </p>
+; <p> at cum istud exemeris malum omnis mutatio loci iucunda fiet in ultimas expellaris <b>terras</b> licebit in quolibet barbariae angulo conloceris hospitalis tibi illa qualiscumque sedes erit <br> <small> Sen.Ep.28.4 <br> Mas quando tiveres expulsado esse mal, toda mudança de lugar se tornará prazerosa; tu poderás ser desterrado para as terras mais remotas, em qualquer canto de um país bárbaro que fores colocado, aquela sede, qualquer que seja ela, te será hospitaleira.[*] <small>  </small> </small> </p>
+; <p> nunc reliquum iudices attendite de quo et uos audistis et populus Romanus non nunc primum audiet et in exteris nationibus usque ad ultimas <b>terras</b> peruagatum est <br> <small> Cic.Ver.2.4.64.1 <br> 64 Agora, juízes, prestai atenção no resto, sobre o qual vós ouvistes e não pela primeira vez o povo romano ouvirá agora e foi divulgado em todas as nações estrangeiras até as mais longínquas terras. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx116-101-114-114-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Ovidius subcorpus registers the highest normalized frequency, with the value of 46.33 and an absolute frequency of 27. The Tacitus subcorpus follows, with a normalized frequency of 6.87 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 5 ; absolute frequency: 1.88836014804744. subcorpus: Cicero ; normalized frequency: 74 ; absolute frequency: 4.60990256908624. subcorpus: Horatius ; normalized frequency: 17 ; absolute frequency: 15.0963502353255. subcorpus: Ovidius ; normalized frequency: 27 ; absolute frequency: 46.328071379547. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 53 ; absolute frequency: 9.89156604020082. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 20 ; absolute frequency: 38.6100386100386. subcorpus: Hieronymus ; normalized frequency: 13 ; absolute frequency: 29.2069197933049'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx116-101-114-114-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 38.61 and an absolute frequency of 20. The Poesia.épica subcorpus follows, with a normalized frequency of 38.61 and an absolute frequency of 20. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 1.59 and an absolute freqeuncy of 6. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 14 ; absolute frequency: 3.40806738236082. subcorpus: Prosa.filosófica ; normalized frequency: 44 ; absolute frequency: 7.24864499761124. subcorpus: Prosa.oratória ; normalized frequency: 55 ; absolute frequency: 5.28069282689889. subcorpus: Prosa.epistolográfica ; normalized frequency: 6 ; absolute frequency: 1.58986724608495. subcorpus: Poesia.lírica ; normalized frequency: 18 ; absolute frequency: 15.1425927483806. subcorpus: Poesia.didática ; normalized frequency: 27 ; absolute frequency: 22.9027059122911. subcorpus: Poesia.trágica ; normalized frequency: 22 ; absolute frequency: 19.1104933981932. subcorpus: Poesia.épica ; normalized frequency: 20 ; absolute frequency: 38.6100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 13 ; absolute frequency: 29.2069197933049'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx116-101-114-114-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 29.21 and an absolute frequency of 13. The I.d.C. subcorpus follows, with a normalized frequency of 12.24 and an absolute frequency of 80. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 5.24 and an absolute freqeuncy of 2. here are all the values: subcorpus: I.a.C. ; normalized frequency: 124 ; absolute frequency: 5.77146846637189. subcorpus: I.d.C. ; normalized frequency: 80 ; absolute frequency: 12.238029677222. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 13 ; absolute frequency: 29.2069197933049'}
+
+
+:::
+

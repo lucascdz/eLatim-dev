@@ -1,0 +1,202 @@
+---
+title: "priuatus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-114-105-117-97-116-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>prīvātus</b> <b>-a</b> <b>-um</b> <br> <small></small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Part. pass. de prívo.</small> &ensp; <small></small> <br> <b>2</b> &ensp; <small>II-Adj.</small> &ensp; Privado, próprio, particular, pessoal &ensp; <small>Cíc. Phil, 3, 14, Cíc. Phil. 11, 25; Cíc. C. M. 22.</small> <br> <b>3</b> &ensp; <small>III-Subs. m.: prívátus, -í</small> &ensp; simples cidadão. &ensp; <small></small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Privatus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; privado, particular; proprio. <br> <b>2</b> &ensp; que leva vida particular, que não tem officio publico. <br> <b>3</b> &ensp; <small>Privati. Suet.</small> &ensp; vassallos do Imperador. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>priuati iudices &ensp; <small><small>Ter</small></small> &ensp; <small>Juizes subalternos</small> </p> 
+ <b>Privatus</b> -<b>a</b> -<b>um</b> <br> <small>part. de Privo.</small>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Priuatus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa particular. ou que não tem officio </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/hypolemma/35410 ' target="_blank"> http://lila-erc.eu/data/id/hypolemma/35410 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> preiuatus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+prīvātus 
+ prīvāta 
+ prīvātum
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-114-105-117-97-116-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword priuatus here are all the values plotted: collocate: consilium; scoreSUBST: 2. collocate: publicus; scoreSUBST: 0. collocate: que; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: atque; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-114-105-117-97-116-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword priuatus here are all the values plotted: collocate: consilium; scoreADJ: 0. collocate: publicus; scoreADJ: 2. collocate: que; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: atque; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-114-105-117-97-116-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword priuatus here are all the values plotted: collocate: consilium; scoreVERBO: 0. collocate: publicus; scoreVERBO: 0. collocate: que; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: atque; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-114-105-117-97-116-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword priuatus here are all the values plotted: collocate: consilium; scoreADV: 0. collocate: publicus; scoreADV: 0. collocate: que; scoreADV: 0. collocate: in; scoreADV: 0. collocate: atque; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-114-105-117-97-116-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword priuatus here are all the values plotted: collocate: consilium; scoreFUNC: 0. collocate: publicus; scoreFUNC: 0. collocate: que; scoreFUNC: 0. collocate: in; scoreFUNC: 20. collocate: atque; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> abduc illum a <b>priuata</b> causa ad publicam <br> <small> Sen.Ep.24.16 <br> Leva-o de tua causa privada para uma causa pública. <small> [JDD] </small> </small> </p>
+; <p> lex alia solio est alia <b>priuato</b> in toro <br> <small> Sen.Ag.264 <br> Uma é a lei do trono, outra a da intimidade na cama. <small> [JDD] </small> </small> </p>
+; <p> quod <b>priuatarum</b> rerum dedecus non haeret in fama <br> <small> Cic.Catil.1.13.8 <br> Que desonra de coisas particulares não está ligada à tua fama? <small> [JDD] </small> </small> </p>
+; <p> illi rebus diuinis intersunt sacrificia publica ac <b>priuata</b> procurant religiones interpretantur <br> <small> Caes.Gal.6.13.4 <br> Aqueles se ocupam com os cultos divinos, cuidam dos sacrifícios públicos e privados, interpretam os rituais religiosos. <small> [JDD] </small> </small> </p>
+; <p> quo enim usque tantum bellum tam crudele tam nefarium <b>priuatis</b> consiliis propulsabitur <br> <small> Cic.Phil.3.3.1 <br> Pois até quando uma tamanha guerra, tão cruel, tão ímpia será combatida com decisões privadas? <small> [JDD] </small> </small> </p>
+; <p> hunc igitur qui Gallia prohibet <b>priuato</b> praesertim consilio iudicat uerissimeque iudicat non esse consulem <br> <small> Cic.Phil.3.12.3 <br> Portanto, quem o priva da Gália, principalmente por decisão particular, julga, e julga muito acertadamente, que este sujeito não é cônsul. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-114-105-117-97-116-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 10.3 and an absolute frequency of 3. The Cicero subcorpus follows, with a normalized frequency of 4.11 and an absolute frequency of 66. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 7 ; absolute frequency: 2.64370420726641. subcorpus: Cicero ; normalized frequency: 66 ; absolute frequency: 4.11153472377962. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 7 ; absolute frequency: 1.30643325059256. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-114-105-117-97-116-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 4.9 and an absolute frequency of 51. The Prosa.histórica subcorpus follows, with a normalized frequency of 3.41 and an absolute frequency of 14. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 14 ; absolute frequency: 3.40806738236082. subcorpus: Prosa.filosófica ; normalized frequency: 12 ; absolute frequency: 1.9769031811667. subcorpus: Prosa.oratória ; normalized frequency: 51 ; absolute frequency: 4.89664243948806. subcorpus: Prosa.epistolográfica ; normalized frequency: 9 ; absolute frequency: 2.38480086912743. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-114-105-117-97-116-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 7.85 and an absolute frequency of 3. The I.a.C. subcorpus follows, with a normalized frequency of 3.72 and an absolute frequency of 80. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 80 ; absolute frequency: 3.72352804282057. subcorpus: I.d.C. ; normalized frequency: 7 ; absolute frequency: 1.07082759675692. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

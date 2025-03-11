@@ -1,0 +1,216 @@
+---
+title: "mos"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-111-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>mōrēs</b> <br> <small>nom. pl. de mos.</small> <br> <small></small> 
+ <b>mōs</b> <b>móris</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Maneira de se comportar, modo de proceder física ou moralmente, regulado, não pela lei mas pelo uso ou costume, daí: uso, costume &ensp; <small>Cíc. Verr. 5, 22.</small> <br> <b>2</b> &ensp; <small>I-Donde</small> &ensp; Comportamento, procedimento e, mais frequentemente, no plural: caráter, costumes &ensp; <small>Cíc. Of. 1, 64; Cíc. Rep. 5, 2.</small> <br> <b>3</b> &ensp; <small>II-Sent. poético:</small> &ensp; Modo, maneira &ensp; <small>Ver-g. G. 1,245.</small> <br> <b>4</b> &ensp; <small>II-Sent. poético:</small> &ensp; Estado &ensp; <small>do céu Verg. G. 1, 51.</small> <br> <b>5</b> &ensp; <small>II-Sent. poético:</small> &ensp; Lei, regra, preceito &ensp; <small>Verg. En. 1, 264.</small> <br> <b>6</b> &ensp; <small>II-Sent. poético:</small> &ensp; Vontade, desejo, capricho &ensp; <small>Cíc. Tusc. I, 17.</small> </p> 
+ <small>1.</small> <b>mōris</b> <br> <small>gen. sing. de mos.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Mos</b> <b>moris</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; costume, uso, moda, prática, habito. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>imponere morem pacis populis &ensp; <small><small>Virg</small></small> &ensp; <small>Impôr aos póvos as condições da paz</small> <br> more ferarum &ensp; <small><small>Hor</small></small> &ensp; <small>Á maneira das feras</small> </p>
+
+
+
+
+#### Velez
+
+<b>Mos</b> -<b>ris</b> <br> <small>Vide Gero.</small>   <p> <b>1</b> &ensp; costume </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>more &ensp; <small>á maneira</small> </p>
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/112831 ' target="_blank"> http://lila-erc.eu/data/id/lemma/112831 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+mōs 
+ mōris
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx109-111-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-111-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword mos here are all the values plotted: collocate: maiores; scoreSUBST: 3. collocate: barbarus2; scoreSUBST: 0. collocate: malus; scoreSUBST: 0. collocate: notus; scoreSUBST: 0. collocate: bonus; scoreSUBST: 0. collocate: uiuo; scoreSUBST: 0. collocate: o; scoreSUBST: 0. collocate: gero; scoreSUBST: 0. collocate: meus; scoreSUBST: 0. collocate: tuus; scoreSUBST: 0. collocate: homo; scoreSUBST: 2. collocate: suus; scoreSUBST: 0. collocate: noster; scoreSUBST: 0. collocate: aut; scoreSUBST: 0. collocate: et; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-111-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword mos here are all the values plotted: collocate: maiores; scoreADJ: 0. collocate: barbarus2; scoreADJ: 2. collocate: malus; scoreADJ: 2. collocate: notus; scoreADJ: 2. collocate: bonus; scoreADJ: 2. collocate: uiuo; scoreADJ: 0. collocate: o; scoreADJ: 0. collocate: gero; scoreADJ: 0. collocate: meus; scoreADJ: 0. collocate: tuus; scoreADJ: 0. collocate: homo; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: noster; scoreADJ: 0. collocate: aut; scoreADJ: 0. collocate: et; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-111-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword mos here are all the values plotted: collocate: maiores; scoreVERBO: 0. collocate: barbarus2; scoreVERBO: 0. collocate: malus; scoreVERBO: 0. collocate: notus; scoreVERBO: 0. collocate: bonus; scoreVERBO: 0. collocate: uiuo; scoreVERBO: 2. collocate: o; scoreVERBO: 0. collocate: gero; scoreVERBO: 2. collocate: meus; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0. collocate: homo; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: noster; scoreVERBO: 0. collocate: aut; scoreVERBO: 0. collocate: et; scoreVERBO: 0. collocate: sum; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-111-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword mos here are all the values plotted: collocate: maiores; scoreADV: 0. collocate: barbarus2; scoreADV: 0. collocate: malus; scoreADV: 0. collocate: notus; scoreADV: 0. collocate: bonus; scoreADV: 0. collocate: uiuo; scoreADV: 0. collocate: o; scoreADV: 0. collocate: gero; scoreADV: 0. collocate: meus; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: homo; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: noster; scoreADV: 0. collocate: aut; scoreADV: 0. collocate: et; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-111-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword mos here are all the values plotted: collocate: maiores; scoreFUNC: 0. collocate: barbarus2; scoreFUNC: 0. collocate: malus; scoreFUNC: 0. collocate: notus; scoreFUNC: 0. collocate: bonus; scoreFUNC: 0. collocate: uiuo; scoreFUNC: 0. collocate: o; scoreFUNC: 0. collocate: gero; scoreFUNC: 0. collocate: meus; scoreFUNC: 0. collocate: tuus; scoreFUNC: 0. collocate: homo; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: noster; scoreFUNC: 0. collocate: aut; scoreFUNC: 0. collocate: et; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>mos</b> ne maiorum <br> <small> Cic.Catil.1.28.1 <br> O costume dos antepassados? <small> [JDD] </small> </small> </p>
+; <p> non ita <b>mos</b> est consulem es <br> <small> Cic.Rab.Perd.35 <br> Não é assim o costume: que um cônsul... <small> [JDD] </small> </small> </p>
+; <p> id adeo <b>more</b> suo uidebatur facere <br> <small> Sal.Cat.37.2 <br> E isso ela parecia fazer de acordo com seu próprio costume. <small> [JDD] </small> </small> </p>
+; <p> o rem minime aptam meis <b>moribus</b> <br> <small> Cic.Att.5.10.3 <br> Ó coisa nem um pouco adequada para os meus costumes! <small> [JDD] </small> </small> </p>
+; <p> sed haec <b>morum</b> uitia sunt non senectutis <br> <small> Cic.Sen.65 <br> mas estes são defeitos dos costumes, não da velhice. <small> [JDD] </small> </small> </p>
+; <p> Tu faciem ut istam <b>moribus</b> vincas bonis . <br> <small> Phaed.3.8 <br> e tu, para que venças esse teu rosto com teus bons costumes”. <small> [JDD] </small> </small> </p>
+; <p> deinde dicam non quicquid morale est <b>mores</b> bonos facit <br> <small> Sen.Ep.121.1 <br> depois falarei: nem tudo o que é moral faz os bons costumes. <small> [JDD] </small> </small> </p>
+; <p> nota tibi est hominis probitas C. Caesar noti <b>mores</b> nota constantia <br> <small> Cic.Deiot.16 <br> Te é conhecida, Caio César, a probidade desse homem, conhecidos os costumes, conhecida a constância. <small> [JDD] </small> </small> </p>
+; <p> neque eorum <b>moribus</b> turpius quicquam aut inertius habetur quam ephippiis uti <br> <small> Caes.Gal.4.2.4 <br> e, pelos seus costumes, nada é tido como mais torpe ou mais inábil do que usar selas. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quanta cuiusque animo audacia natura aut <b>moribus</b> inest tanta in bello patere solet <br> <small> Sal.Cat.58.2 <br> Tão grande intrepidez existe no espírito de cada um ou por natureza ou por seus hábito, quão grande ela costuma mostrar-se na guerra. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>mores</b> alia aliter attingunt quaedam illos corrigunt et ordinant quaedam naturam eorum et originem scrutantur <br> <small> Sen.Ep.121.2 <br> Coisas diferentes afetam de modo diferente os costumes: alguns os corrigem e regulam, outros investigam sua natureza e origem. <small> [JDD] </small> </small> </p>
+; <p> uerum haec genera uirtutum non solum in <b>moribus</b> nostris sed uix iam in libris reperiuntur <br> <small> Cic.Cael.40 <br> Mas esses tipos de virtudes agora dificilmente são encontrados não só em nossos costumes, mas também nos livros. <small> [JDD] </small> </small> </p>
+; <p> sed memoria mea ingenti uirtute diuorsis <b>moribus</b> fuere uiri duo M. Cato et C. Caesar <br> <small> Sal.Cat.53.6 <br> Mas, em minha época, existiram dois homens de imenso valor e diferentes no caráter, Marco Catão e Caio César. <small> [JDD] </small> </small> </p>
+; <p> incitabant praeterea corrupti ciuitatis <b>mores</b> quos pessuma ac diuorsa inter se mala luxuria atque auaritia uexabant <br> <small> Sal.Cat.5.8 <br> Além disso, o estimulavam os costumes corruptos da cidade, os quais os péssimos e diversos entre si, a luxúria e a avareza, atormentavam. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> natis in usum laetitiae scyphis pugnare Thracum est tollite barbarum <b>morem</b> uerecundumque Bacchum sanguineis prohibete rixis <br> <small> Hor.Carm.1.27.1 <br>   Combater com os copos, criados a serviço da alegria, é próprio dos trácios: parai com esse costume bárbaro e não metais em rixas sanguinárias o respeitoso Baco. <small> [JDD] </small> </small> </p>
+; <p> respondes ut tuus est <b>mos</b> pauca abeo et reuocas nono post mense iubesque esse in amicorum numero <br> <small> Hor.S.1.6.60 <br> respondes em pouca palavras, conforme é teu costume; vou embora e tornas a me chamar nove meses depois e ordenas que eu esteja no número de teus amigos. <small> [JDD] </small> </small> </p>
+; <p> inter has personas me interiectum amici Antoni moleste ferunt quibus gerendus <b>mos</b> est quoniam semel liberales esse coepimus <br> <small> Cic.Phil.12.18.11 <br> Que eu tenha sido incluído entre essas pessoas os amigos de Antônio acham ruim: é preciso fazer-lhes a vontade, uma vez que começamos a ser generosos. <small> [JDD] </small> </small> </p>
+; <p> hi postquam in una moenia conuenere dispari genere dissimili lingua alius alio <b>more</b> uiuentes incredibile memoratu est quam facile coaluerint ita breui multitudo diuersa atque uaga concordia ciuitas facta erat <br> <small> Sal.Cat.6.2 <br> Depois que estes se juntaram dentro da mesma muralha, diferentes na raça, desiguais na língua, vivendo cada um com seu costume, é incrível de lembrar o quão facilmente se fundiram. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-111-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 26.9 and an absolute frequency of 29. The Suetonius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 9 ; absolute frequency: 3.39904826648538. subcorpus: Cicero ; normalized frequency: 77 ; absolute frequency: 4.79679051107623. subcorpus: Horatius ; normalized frequency: 11 ; absolute frequency: 9.76822662285765. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 5 ; absolute frequency: 7.59070897221801. subcorpus: Sallustius ; normalized frequency: 29 ; absolute frequency: 26.899174473611. subcorpus: Seneca ; normalized frequency: 41 ; absolute frequency: 7.65196618204214. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 5 ; absolute frequency: 17.164435290079. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-111-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 10.94 and an absolute frequency of 13. The Prosa.histórica subcorpus follows, with a normalized frequency of 10.47 and an absolute frequency of 43. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 43 ; absolute frequency: 10.4676355315368. subcorpus: Prosa.filosófica ; normalized frequency: 54 ; absolute frequency: 8.89606431525016. subcorpus: Prosa.oratória ; normalized frequency: 45 ; absolute frequency: 4.32056685837182. subcorpus: Prosa.epistolográfica ; normalized frequency: 9 ; absolute frequency: 2.38480086912743. subcorpus: Poesia.lírica ; normalized frequency: 13 ; absolute frequency: 10.9363169849415. subcorpus: Poesia.didática ; normalized frequency: 6 ; absolute frequency: 5.08949020273136. subcorpus: Poesia.trágica ; normalized frequency: 10 ; absolute frequency: 8.68658790826963. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-111-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 13.09 and an absolute frequency of 5. The I.d.C. subcorpus follows, with a normalized frequency of 7.19 and an absolute frequency of 47. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 132 ; absolute frequency: 6.14382127065394. subcorpus: I.d.C. ; normalized frequency: 47 ; absolute frequency: 7.18984243536791. subcorpus: II.d.C. ; normalized frequency: 5 ; absolute frequency: 13.0890052356021. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

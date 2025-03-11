@@ -1,0 +1,204 @@
+---
+title: "uitium"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-105-116-105-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>vitĭum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Defeito físico, falha, imperfeição, má qualidade &ensp; <small>Cíc. De Or. 2, 266.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Defeito em geral, vício, imperfeição moral &ensp; <small>Cíc. De Or. 116.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Erro, falta, crime, culpa &ensp; <small>Cíc. Fam. 7, 6, 1.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Violência, atentado contra o pudor &ensp; <small>Plaut. Amph. 811.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Presságio ou sinal desfavorável ou contrário, mau agouro &ensp; <small>Cíc. Div. 1, 29.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Vitium</b> -<b>ii</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; vicio, defeito, deformidade no corpo. <br> <b>2</b> &ensp; defeito, imperfeiçaõ do animo. <br> <b>3</b> &ensp; máo agouro. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>in uitio uerbum ponere &ensp; <small><small>Cic</small></small> &ensp; <small>Tomar alguma palavra em máo sentido</small> <br> uitium faciunt aedes &ensp; <small><small>Cic</small></small> &ensp; <small>As casas ameaçaõ ruina</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Vitium</b> <b>ij</b>   <p> <b>1</b> &ensp; a tacha </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/130432 ' target="_blank"> http://lila-erc.eu/data/id/lemma/130432 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> uitiom <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+vĭtĭum 
+ vitiiī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx117-105-116-105-117-109xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-105-116-105-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword uitium here are all the values plotted: collocate: tot; scoreSUBST: 0. collocate: parum; scoreSUBST: 0. collocate: suus; scoreSUBST: 0. collocate: tantus; scoreSUBST: 0. collocate: unus; scoreSUBST: 0. collocate: enim; scoreSUBST: 0. collocate: omnis; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-105-116-105-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword uitium here are all the values plotted: collocate: tot; scoreADJ: 0. collocate: parum; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: tantus; scoreADJ: 0. collocate: unus; scoreADJ: 0. collocate: enim; scoreADJ: 0. collocate: omnis; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-105-116-105-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword uitium here are all the values plotted: collocate: tot; scoreVERBO: 0. collocate: parum; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: tantus; scoreVERBO: 0. collocate: unus; scoreVERBO: 0. collocate: enim; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-105-116-105-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword uitium here are all the values plotted: collocate: tot; scoreADV: 0. collocate: parum; scoreADV: 2. collocate: suus; scoreADV: 0. collocate: tantus; scoreADV: 0. collocate: unus; scoreADV: 0. collocate: enim; scoreADV: 1. collocate: omnis; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-105-116-105-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword uitium here are all the values plotted: collocate: tot; scoreFUNC: 0. collocate: parum; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: tantus; scoreFUNC: 0. collocate: unus; scoreFUNC: 0. collocate: enim; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> si minus <b>uitio</b> <b>uitium</b> repelle spe metum tempera <br> <small> Sen.Ep.13.12 <br> se não, repele um defeito com outro defeito, modera o medo com a esperança. <small> [JDD] </small> </small> </p>
+; <p> omnia <b>uitia</b> contra naturam pugnant omnia debitum ordinem deserunt <br> <small> Sen.Ep.122.5 <br> Todos os vícios lutam contra a natureza, todos abandonam a ordem devida. <small> [JDD] </small> </small> </p>
+; <p> utrumque enim <b>uitium</b> est et omnibus credere et nulli <br> <small> Sen.Ep.3.4 <br> pois ambas são vícios, tanto confiar em todos como em ninguém. <small> [JDD] </small> </small> </p>
+; <p> non est enim in rebus <b>uitium</b> sed in ipso animo <br> <small> Sen.Ep.17.12 <br> pois o vício não está nas coisas, mas no próprio espírito. <small> [JDD] </small> </small> </p>
+; <p> sua enim <b>uitia</b> insipientes et suam culpam in senectutem conferunt <br> <small> Cic.Sen.14 <br> Pois os ignorantes atribuem à velhice seus próprios defeitos e seus erros. <small> [JDD] </small> </small> </p>
+; <p> non usque eo est improbus non omnia sunt in uno <b>uitia</b> numquam fuit crudelis <br> <small> Cic.Ver.2.4.86.11 <br> Ele não é malvado até esse ponto; não estão todos os vícios em uma pessoa só; ele nunca foi cruel. <small> [JDD] </small> </small> </p>
+; <p> non debes admirari si tantas inuenis <b>uitiorum</b> proprietates uaria sunt innumerabiles habent facies comprendi eorum genera non possunt <br> <small> Sen.Ep.122.17 <br> Não deves ficar admirado, se encontras tantas peculariedades de vícios: são variados, têm inumeráveis faces, seus tipos não podem ser abarcados. <small> [JDD] </small> </small> </p>
+; <p> neque umquam ex illo delendi huius imperi tam consceleratus impetus exstitisset nisi tot <b>uitiorum</b> tanta immanitas quibusdam facilitatis et patientiae radicibus niteretur <br> <small> Cic.Cael.14 <br> E nunca teria vindo dele uma tentativa tão criminosa de destruir este império, se uma tão grande ferocidade de tantos vícios não se apoiasse em algumas raízes de afabilidade e resistência. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-105-116-105-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 18.65 and an absolute frequency of 21. The Sallustius subcorpus follows, with a normalized frequency of 2.78 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 51 ; absolute frequency: 3.17709501382971. subcorpus: Horatius ; normalized frequency: 21 ; absolute frequency: 18.6484326436373. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 65 ; absolute frequency: 12.1311658983595. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-105-116-105-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 17.67 and an absolute frequency of 21. The Prosa.filosófica subcorpus follows, with a normalized frequency of 12.69 and an absolute frequency of 77. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 6 ; absolute frequency: 1.46060030672606. subcorpus: Prosa.filosófica ; normalized frequency: 77 ; absolute frequency: 12.6851287458197. subcorpus: Prosa.oratória ; normalized frequency: 31 ; absolute frequency: 2.97639050243392. subcorpus: Prosa.epistolográfica ; normalized frequency: 4 ; absolute frequency: 1.05991149738997. subcorpus: Poesia.lírica ; normalized frequency: 21 ; absolute frequency: 17.666358206444. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-105-116-105-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 9.94 and an absolute frequency of 65. The I.d.C. subcorpus follows, with a normalized frequency of 9.94 and an absolute frequency of 65. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 75 ; absolute frequency: 3.49080754014429. subcorpus: I.d.C. ; normalized frequency: 65 ; absolute frequency: 9.94339911274285. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

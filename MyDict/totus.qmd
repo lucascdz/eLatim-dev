@@ -1,0 +1,216 @@
+---
+title: "totus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx116-111-116-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>tōtī</b> <br> <small>dat. de totus.</small> <br> <small></small> 
+ <b>tōtīus</b> <br> <small>ou</small> <b>tōtĭus</b> <br> <small>gen. de totus.</small> <br> <small></small> 
+ <small>1.</small> <b>tōtus</b> <b>-a</b> <b>-um</b> <br> <small>pron. adj.</small> <br> <small>Obs.: Notem-se as expressões: ex toto Sên. Ir. 1, 12,  e in totum Sên. Ep. 72. 6 ‘totalmente, inteiramente’.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Todo, inteiro: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>tota res publica Cíc. Mil. 61 ‘a república inteira’. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Totus</b> -<b>a</b> -<b>um</b> -<b>tius</b> <small>gen</small> <b>toti</b> <small>l. gen</small> -<b>ae</b> <small>gen</small> <b>toti</b> <small>gen</small> <b>toti</b> <small>dat</small> <b>toto</b> <small>l. dat</small> <b>totae</b> <small>dat</small> <b>toto</b> <small>dat</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; todo, inteiro, total. </p>
+
+
+
+
+#### Velez
+
+<b>Totus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa toda, e inteira &ensp; <small>refertur ad quantitatem, Omnis ad numerum, ut: Totus orbis, omnis scholasticus: interdum confunduntur.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Totus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; todo. ou toda </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/128484 ' target="_blank"> http://lila-erc.eu/data/id/lemma/128484 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> 1ª classe, pronominal (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+tōtus
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx116-111-116-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword totus here are all the values plotted: collocate: Italia; scoreSUBST: 0. collocate: Sicilia; scoreSUBST: 0. collocate: Gallia; scoreSUBST: 0. collocate: denique; scoreSUBST: 0. collocate: urbs; scoreSUBST: 2. collocate: Asia; scoreSUBST: 0. collocate: ciuitas; scoreSUBST: 2. collocate: prouincia; scoreSUBST: 2. collocate: ordo; scoreSUBST: 2. collocate: annus; scoreSUBST: 2. collocate: orbis; scoreSUBST: 2. collocate: dies; scoreSUBST: 2. collocate: res; scoreSUBST: 2. collocate: intersum; scoreSUBST: 0. collocate: negotium; scoreSUBST: 2. collocate: corpus; scoreSUBST: 2. collocate: oppidum; scoreSUBST: 2. collocate: impetus; scoreSUBST: 2. collocate: ratio; scoreSUBST: 2. collocate: que; scoreSUBST: 0. collocate: tempus; scoreSUBST: 1. collocate: hic; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx116-111-116-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword totus here are all the values plotted: collocate: Italia; scoreADJ: 0. collocate: Sicilia; scoreADJ: 0. collocate: Gallia; scoreADJ: 0. collocate: denique; scoreADJ: 0. collocate: urbs; scoreADJ: 0. collocate: Asia; scoreADJ: 0. collocate: ciuitas; scoreADJ: 0. collocate: prouincia; scoreADJ: 0. collocate: ordo; scoreADJ: 0. collocate: annus; scoreADJ: 0. collocate: orbis; scoreADJ: 0. collocate: dies; scoreADJ: 0. collocate: res; scoreADJ: 0. collocate: intersum; scoreADJ: 0. collocate: negotium; scoreADJ: 0. collocate: corpus; scoreADJ: 0. collocate: oppidum; scoreADJ: 0. collocate: impetus; scoreADJ: 0. collocate: ratio; scoreADJ: 0. collocate: que; scoreADJ: 0. collocate: tempus; scoreADJ: 0. collocate: hic; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx116-111-116-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword totus here are all the values plotted: collocate: Italia; scoreVERBO: 0. collocate: Sicilia; scoreVERBO: 0. collocate: Gallia; scoreVERBO: 0. collocate: denique; scoreVERBO: 0. collocate: urbs; scoreVERBO: 0. collocate: Asia; scoreVERBO: 0. collocate: ciuitas; scoreVERBO: 0. collocate: prouincia; scoreVERBO: 0. collocate: ordo; scoreVERBO: 0. collocate: annus; scoreVERBO: 0. collocate: orbis; scoreVERBO: 0. collocate: dies; scoreVERBO: 0. collocate: res; scoreVERBO: 0. collocate: intersum; scoreVERBO: 2. collocate: negotium; scoreVERBO: 0. collocate: corpus; scoreVERBO: 0. collocate: oppidum; scoreVERBO: 0. collocate: impetus; scoreVERBO: 0. collocate: ratio; scoreVERBO: 0. collocate: que; scoreVERBO: 0. collocate: tempus; scoreVERBO: 0. collocate: hic; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx116-111-116-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword totus here are all the values plotted: collocate: Italia; scoreADV: 0. collocate: Sicilia; scoreADV: 0. collocate: Gallia; scoreADV: 0. collocate: denique; scoreADV: 2. collocate: urbs; scoreADV: 0. collocate: Asia; scoreADV: 0. collocate: ciuitas; scoreADV: 0. collocate: prouincia; scoreADV: 0. collocate: ordo; scoreADV: 0. collocate: annus; scoreADV: 0. collocate: orbis; scoreADV: 0. collocate: dies; scoreADV: 0. collocate: res; scoreADV: 0. collocate: intersum; scoreADV: 0. collocate: negotium; scoreADV: 0. collocate: corpus; scoreADV: 0. collocate: oppidum; scoreADV: 0. collocate: impetus; scoreADV: 0. collocate: ratio; scoreADV: 0. collocate: que; scoreADV: 0. collocate: tempus; scoreADV: 0. collocate: hic; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx116-111-116-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword totus here are all the values plotted: collocate: Italia; scoreFUNC: 0. collocate: Sicilia; scoreFUNC: 0. collocate: Gallia; scoreFUNC: 0. collocate: denique; scoreFUNC: 0. collocate: urbs; scoreFUNC: 0. collocate: Asia; scoreFUNC: 0. collocate: ciuitas; scoreFUNC: 0. collocate: prouincia; scoreFUNC: 0. collocate: ordo; scoreFUNC: 0. collocate: annus; scoreFUNC: 0. collocate: orbis; scoreFUNC: 0. collocate: dies; scoreFUNC: 0. collocate: res; scoreFUNC: 0. collocate: intersum; scoreFUNC: 0. collocate: negotium; scoreFUNC: 0. collocate: corpus; scoreFUNC: 0. collocate: oppidum; scoreFUNC: 0. collocate: impetus; scoreFUNC: 0. collocate: ratio; scoreFUNC: 0. collocate: que; scoreFUNC: 0. collocate: tempus; scoreFUNC: 0. collocate: hic; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> rem <b>totam</b> aestimabunt <br> <small> Cic.Att.4.1.7 <br> farão a avaliação de tudo <small> [JDD] </small> </small> </p>
+; <p> nunc rem <b>totam</b> perspicias velim <br> <small> Cic.Att.5.8.3 <br> Agora eu gostaria que examinasses com atenção a coisa toda. <small> [JDD] </small> </small> </p>
+; <p> haec iam <b>tota</b> Italia fient <br> <small> Cic.Phil.7.23.8 <br> Essas coisas logo ocorrerão em toda a Itália. <small> [JDD] </small> </small> </p>
+; <p> <b>totius</b> theatri clamore dixit itemque cetera <br> <small> Cic.Att.2.19.3 <br> disse, com o clamor de todo o teatro, e também o resto. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Hunc postquam <b>totis</b> avida traxit naribus : inquit <br> <small> Phaed.3.1 <br> Depois de aspirá-lo, ávida, com suas narinas inteiras. <small> [JDD] </small> </small> </p>
+; <p> itaque breui tempore ad fanum ex urbe <b>tota</b> concurritur <br> <small> Cic.Ver.2.4.95.4 <br> E assim, em pouco tempo, corre-se da cidade inteira em direção ao templo. <small> [JDD] </small> </small> </p>
+; <p> quos impetus in Pisonem in Curionem in <b>totam</b> illam manum feci <br> <small> Cic.Att.1.16.1 <br> que ataques fiz contra Pisão, contra Curião, contra toda aquela tropa! <small> [JDD] </small> </small> </p>
+; <p> qua ex re futurum uti <b>totius</b> Galliae animi a se auerterentur <br> <small> Caes.Gal.1.20.4 <br> e disso resultaria que os ânimos de toda a Gália se voltariam contra ele. <small> [JDD] </small> </small> </p>
+; <p> illa Attalica <b>tota</b> Sicilia nominata ab eodem Heio emere oblitus es <br> <small> Cic.Ver.2.4.27.1 <br> Esqueceste de comprar do mesmo Heio aquelas atálicas, famosas em toda a Sicília? <small> [JDD] </small> </small> </p>
+; <p> biduo per unum servum et eum ex ludo gladiatorio confecit <b>totum</b> negotium <br> <small> Cic.Att.1.16.5 <br> Em dois dias, com a ajuda de um único escravo, e esse proveniente de uma escola de gladiadores, resolveu todo o negócio. <small> [JDD] </small> </small> </p>
+; <p> huic <b>toti</b> rationi agrariae senatus adversabatur suspicans Pompeio novam quandam potentiam quaeri <br> <small> Cic.Att.1.19.4 <br> A todo esse planejamento agrário o senado se opõe, suspeitando que se busca algum novo poder para Pompeu. <small> [JDD] </small> </small> </p>
+; <p> atque etiam spero <b>toto</b> anno imperi nostri terruncium sumptus in provincia nullum fore <br> <small> Cic.Att.5.20.6 <br> E espero até mesmo que, em todo o ano de nosso mandato, náo haja o gasto de nenhum tostão na província. <small> [JDD] </small> </small> </p>
+; <p> nihil habent quo tegantur ad ictum <b>totis</b> corporibus expositi numquam frustra manum mittunt <br> <small> Sen.Ep.7.3 <br> Eles nada têm para se cobrir; expostos ao golpe em todo o corpo, nunca atacam em vão. <small> [JDD] </small> </small> </p>
+; <p> interrogas quomodo haec animo prauitas fiat auersandi diem et <b>totam</b> uitam in noctem transferendi <br> <small> Sen.Ep.122.5 <br> Perguntas como ocorre para o espírito esta deformidade de sentir aversão pelo dia e de tranferir a vida inteira para a noite? <small> [JDD] </small> </small> </p>
+; <p> Nunc mihi , qua <b>totum</b> Nereus circumsonat orbem , perdendum est mortale genus : <br> <small> Ov.Met.1.187-8 <br> agora, por onde Nereu ressoa em torno de todo o orbe, tenho de destruir a raça mortal. <small> [JDD] </small> </small> </p>
+; <p> haec eadem ratio est in summa <b>totius</b> Galliae namque omnes ciuitates diuisae sunt in duas partes <br> <small> Caes.Gal.6.11.5 <br> Essa mesma razão existe no conjunto da Gália inteira; pois todas as cidades estão divididas em dois partidos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ex quo intellectum est τρισαρειοπαγίτας ambitum comitia interregnum maiestatem <b>totam</b> denique rem publicam flocci non facere <br> <small> Cic.Att.4.15.4 <br> Disso se entende que os três areopagitas não fazem o menor caso dos subornos, das eleições, do interregno, da majestade, enfim de toda a república. <small> [JDD] </small> </small> </p>
+; <p> moneo praedicosque id quod intellego tempus hoc uobis diuinitus datum esse ut odio inuidia infamia turpitudine <b>totum</b> ordinem liberetis <br> <small> Cic.Ver.1.43 <br> Eu vos aconselho e vos previno o que eu percebo: vos foi concedida essa ocasião da parte dos deuses para que livreis a vossa classe inteira do ódio, infâmia e torpeza. <small> [JDD] </small> </small> </p>
+; <p> nos autem nam id te scire cupere certo scio publicis consiliis nullis intersumus <b>totos</b>que nos ad forensem operam laboremque contulimus <br> <small> Cic.Att.2.23.3 <br> Nós, porém, (pois isso eu sei com certeza que desejas saber) não participamos de nenhuns conselhos públicos e nos entregamos por inteiro ao trabalho e atividade forense. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Atheniensis in Asia turba est Miletus quinque et septuaginta urbium populum in diuersa effudit <b>totum</b> Italiae latus quod infero mari adluitur maior Graecia fuit <br> <small> Sen.Helv.7.2 <br> Há uma multidão ateniense na Ásia; Mileto espalhou para várias partes a população de setenta e cinco cidades; todo o lado da Itália, que é banhado pelo mar Inferior [Tirreno] era a Magna Grécia. <small> [JDD] </small> </small> </p>
+; <p> permagnum est in eum dicere aliquid qui praeteriens lectica paulisper deposita non per praestigias sed palam per potestatem uno imperio ostiatim <b>totum</b> oppidum compilauerit <br> <small> Cic.Ver.2.4.53.9 <br> É uma tarefa considerável dizer algo contra alguém que, ao passar, posta no chão sua liteira por algum tempo, saqueou a cidade inteira, casa por casa, não por meio de artifícios, mas abertamente, por meio de seu poder, com sua única autoridade suprema. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx116-111-116-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 13.73 and an absolute frequency of 4. The Tacitus subcorpus follows, with a normalized frequency of 13.73 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 34 ; absolute frequency: 12.8408490067226. subcorpus: Cicero ; normalized frequency: 194 ; absolute frequency: 12.0854202486856. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 6 ; absolute frequency: 10.2951269732327. subcorpus: Phaedrus ; normalized frequency: 5 ; absolute frequency: 7.59070897221801. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 65 ; absolute frequency: 12.1311658983595. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 4 ; absolute frequency: 13.7315482320632. subcorpus: Vergilius ; normalized frequency: 7 ; absolute frequency: 13.5135135135135. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx116-111-116-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 13.51 and an absolute frequency of 7. The Prosa.oratória subcorpus follows, with a normalized frequency of 13.44 and an absolute frequency of 140. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 40 ; absolute frequency: 9.73733537817376. subcorpus: Prosa.filosófica ; normalized frequency: 58 ; absolute frequency: 9.55503204230573. subcorpus: Prosa.oratória ; normalized frequency: 140 ; absolute frequency: 13.441763559379. subcorpus: Prosa.epistolográfica ; normalized frequency: 47 ; absolute frequency: 12.4539600943321. subcorpus: Poesia.lírica ; normalized frequency: 5 ; absolute frequency: 4.20627576343905. subcorpus: Poesia.didática ; normalized frequency: 10 ; absolute frequency: 8.48248367121893. subcorpus: Poesia.trágica ; normalized frequency: 14 ; absolute frequency: 12.1612230715775. subcorpus: Poesia.épica ; normalized frequency: 7 ; absolute frequency: 13.5135135135135. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx116-111-116-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 11.47 and an absolute frequency of 75. The I.a.C. subcorpus follows, with a normalized frequency of 11.26 and an absolute frequency of 242. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 242 ; absolute frequency: 11.2636723295322. subcorpus: I.d.C. ; normalized frequency: 75 ; absolute frequency: 11.4731528223956. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

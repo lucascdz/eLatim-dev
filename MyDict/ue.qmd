@@ -1,0 +1,198 @@
+---
+title: "ue"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-101xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>-ve</b> <br> <small>part. enclítica</small> <br> <small>Obs.: Na poesia usa-se em lugar de velo quod fuimusve sumusve Ov. Met. 15. 215 ‘ou o que nós fomos, ou o que somos’.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Ou: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>albus aterve Cíc. Phil 2, 41 ‘branco ou preto’. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Ve</b> <br> <small>conj.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; ou. </p>
+
+
+
+
+#### Velez
+
+<b>Ve</b> <br> <small>Conjunct. postposit. brevis:</small>   <p> <b>1</b> &ensp; ou </p>
+
+
+
+
+#### Cardoso
+
+<b>Ve</b> <br> <small>coniũctio.</small>   <p> <b>1</b> &ensp; <small>idem quod vel</small> &ensp; ou </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/131456 ' target="_blank"> http://lila-erc.eu/data/id/lemma/131456 </a> <br>
+<small> classe: </small> conjunção coordenativa    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-101xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ue here are all the values plotted: collocate: ambo; scoreSUBST: 0. collocate: ne; scoreSUBST: 0. collocate: quis; scoreSUBST: 0. collocate: si; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-101xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ue here are all the values plotted: collocate: ambo; scoreADJ: 0. collocate: ne; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: si; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-101xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ue here are all the values plotted: collocate: ambo; scoreVERBO: 0. collocate: ne; scoreVERBO: 0. collocate: quis; scoreVERBO: 0. collocate: si; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-101xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ue here are all the values plotted: collocate: ambo; scoreADV: 0. collocate: ne; scoreADV: 0. collocate: quis; scoreADV: 0. collocate: si; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-101xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ue here are all the values plotted: collocate: ambo; scoreFUNC: 0. collocate: ne; scoreFUNC: 20. collocate: quis; scoreFUNC: 0. collocate: si; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quo <b>ue</b> generatus patre <br> <small> Sen.Oed.866 <br> Por qual pai foi engendrado? <small> [JDD] </small> </small> </p>
+; <p> quid enim si quis surdos obiurget aut natura morbo <b>ue</b> mutos <br> <small> Sen.Ep.29.2 <br> Pois o que obterá, se alguém repreende surdos ou mudos ou de nascença ou de doença? <small> [JDD] </small> </small> </p>
+; <p> ne prona cadas indigna <b>ve</b> laedi crura notent sentes et sim tibi causa doloris . [0] <br> <small> Ov.Met.1.508-9 <br> Não caias de bruços ou não marquem os espinhos as tuas pernas que não merecem ser feridas e não seja eu a causa de tua dor! <small> [JDD, de outra edição] </small> </small> </p>
+; <p> fit gratia Bruti senatus consultum ut ne <b>ve</b> salaminis ne <b>ve</b> qui eis dedisset fraudi esset <br> <small> Cic.Att.5.21.12 <br> Por influência de Bruto se emite o detreto do senado “Que não houvesse prejuízo nem para os salamínios nem para aquele que lhes tivesse emprestado”. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> cum decreuistis ut consules alter ambo <b>ue</b> ad bellum proficiscerentur quod erat bellum si hostis Antonius non erat <br> <small> Cic.Phil.7.11.6 <br> E quando decretastes que os cônsules, um ou ambos, partissem para a guerra, que guerra era essa, se Antônio não era inimigo? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-101xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 11.58 and an absolute frequency of 6. The Suetonius subcorpus follows, with a normalized frequency of 11.03 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 25 ; absolute frequency: 1.55739951658319. subcorpus: Horatius ; normalized frequency: 8 ; absolute frequency: 7.10416481662375. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 16 ; absolute frequency: 2.98613314421157. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-101xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 11.58 and an absolute frequency of 6. The Poesia.trágica subcorpus follows, with a normalized frequency of 8.69 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 3 ; absolute frequency: 0.730300153363032. subcorpus: Prosa.filosófica ; normalized frequency: 10 ; absolute frequency: 1.64741931763892. subcorpus: Prosa.oratória ; normalized frequency: 8 ; absolute frequency: 0.768100774821657. subcorpus: Prosa.epistolográfica ; normalized frequency: 13 ; absolute frequency: 3.4447123665174. subcorpus: Poesia.lírica ; normalized frequency: 8 ; absolute frequency: 6.73004122150248. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 10 ; absolute frequency: 8.68658790826963. subcorpus: Poesia.épica ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-101xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 7.85 and an absolute frequency of 3. The I.d.C. subcorpus follows, with a normalized frequency of 3.06 and an absolute frequency of 20. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 39 ; absolute frequency: 1.81521992087503. subcorpus: I.d.C. ; normalized frequency: 20 ; absolute frequency: 3.05950741930549. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

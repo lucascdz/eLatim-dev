@@ -1,0 +1,207 @@
+---
+title: "magnitudo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-97-103-110-105-116-117-100-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>magnitūdō</b> <b>-dìnis</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Grandeza, grande extensão: volume, altura, largura, grossura &ensp; <small>Cíc. Of. 1. 154; Cés. B. Civ. 1. 50.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Grande número, grande quantidade &ensp; <small>Cíc. Amer. 20; Agr. 2. 95.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Duração, extensão &ensp; <small>Plín. H. Nat. 37, 72.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Intensidade, força. rigor &ensp; <small>do frio Cíc. Verr. 5, 26</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Importância &ensp; <small>Cíc. De Or. 1, 15.</small> <br> <b>6</b> &ensp; <small>III-Sent. moral:</small> &ensp; Grandeza de alma, elevação, nobreza &ensp; <small>Cíc. Part. 77.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Magnitudo</b> -<b>inis</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; grandeza. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Magnitudo</b> <b>inis</b>   <p> <b>1</b> &ensp; a grandeza </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/111317 ' target="_blank"> http://lila-erc.eu/data/id/lemma/111317 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+magnĭtūdō 
+ magnĭtūdĭnis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx109-97-103-110-105-116-117-100-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-97-103-110-105-116-117-100-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword magnitudo here are all the values plotted: collocate: pecunia; scoreSUBST: 2. collocate: animus; scoreSUBST: 3. collocate: incredibilis; scoreSUBST: 0. collocate: propter; scoreSUBST: 0. collocate: scelus; scoreSUBST: 2. collocate: corpus; scoreSUBST: 2. collocate: periculum; scoreSUBST: 2. collocate: suus; scoreSUBST: 0. collocate: nec; scoreSUBST: 0. collocate: de; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-97-103-110-105-116-117-100-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword magnitudo here are all the values plotted: collocate: pecunia; scoreADJ: 0. collocate: animus; scoreADJ: 0. collocate: incredibilis; scoreADJ: 2. collocate: propter; scoreADJ: 0. collocate: scelus; scoreADJ: 0. collocate: corpus; scoreADJ: 0. collocate: periculum; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: nec; scoreADJ: 0. collocate: de; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-97-103-110-105-116-117-100-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword magnitudo here are all the values plotted: collocate: pecunia; scoreVERBO: 0. collocate: animus; scoreVERBO: 0. collocate: incredibilis; scoreVERBO: 0. collocate: propter; scoreVERBO: 0. collocate: scelus; scoreVERBO: 0. collocate: corpus; scoreVERBO: 0. collocate: periculum; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: nec; scoreVERBO: 0. collocate: de; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-97-103-110-105-116-117-100-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword magnitudo here are all the values plotted: collocate: pecunia; scoreADV: 0. collocate: animus; scoreADV: 0. collocate: incredibilis; scoreADV: 0. collocate: propter; scoreADV: 0. collocate: scelus; scoreADV: 0. collocate: corpus; scoreADV: 0. collocate: periculum; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: nec; scoreADV: 0. collocate: de; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-97-103-110-105-116-117-100-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword magnitudo here are all the values plotted: collocate: pecunia; scoreFUNC: 0. collocate: animus; scoreFUNC: 0. collocate: incredibilis; scoreFUNC: 0. collocate: propter; scoreFUNC: 20. collocate: scelus; scoreFUNC: 0. collocate: corpus; scoreFUNC: 0. collocate: periculum; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: nec; scoreFUNC: 0. collocate: de; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quid si <b>magnitudine</b> pecuniae persuasum est <br> <small> Cic.Ver.2.4.11.11 <br> “E se isso lhe foi persuadido por uma grande soma de dinheiro?” <small> [JDD] </small> </small> </p>
+; <p> quoniam de genere belli dixi nunc de <b>magnitudine</b> pauca dicam <br> <small> Cic.Man.20 <br> Visto que disse sobre o gênero dessa guerra, agora vou dizer umas poucas palavras sobre sua magnitude. <small> [JDD] </small> </small> </p>
+; <p> quid de uirtute eius dicam de <b>magnitudine</b> animi grauitate constantia <br> <small> Cic.Deiot.37 <br> O que vou dizer de seu valor, de sua grandeza de espírito, de sua seriedade, de sua contância? <small> [JDD] </small> </small> </p>
+; <p> huius <b>magnitudini</b> animi grauitati sapientiae tempestas est oblata formidolosissimi temporis <br> <small> Cic.Phil.7.7.1 <br> À grandeza de seu espírito, à sua seriedade, à sua sabedoria foi apresentada a calamidade desse tempo taõ terrível. <small> [JDD] </small> </small> </p>
+; <p> contra eos summa ope nitebatur pleraque nobilitas senatus specie pro sua <b>magnitudine</b> <br> <small> Sal.Cat.38.2 <br> Contra eles, com um supremo esforço, se opunha a maioria da nobreza, sob o pretexto de defender o senado, por sua própria grandeza. <small> [JDD] </small> </small> </p>
+; <p> dicat se licet emisse etenim hic propter <b>magnitudinem</b> furti sunt ut opinor litterae factae <br> <small> Cic.Ver.2.4.35.4 <br> É permitido que diga ter comprado, pois aqui, por causa da grandeza do furto, foi feita, segundo eu penso, uma escritura. <small> [JDD] </small> </small> </p>
+; <p> nam si digna poena pro factis eorum reperitur nouom consilium adprobo sin <b>magnitudo</b> sceleris omnium ingenia exsuperat his utendum censeo quae legibus conparata sunt <br> <small> Sal.Cat.51.8 <br> Pois se é encontrada uma pena justa para seus atos, aprovo a resolução nova; mas se a magnitude do crime ultrapassa a imaginação de todos, sou de opinião que se devem usar os meios que são estabelecidos pelas leis. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> in hac insula extrema est fons aquae dulcis cui nomen Arethusa est incredibili <b>magnitudine</b> plenissimus piscium qui fluctu totus operiretur nisi munitione ac mole lapidum diiunctus esset a mari <br> <small> Cic.Ver.2.4.118.8 <br> No extremo dessa ilha há uma fonte de água doce que tem o nome de Aretusa, de incrível tamanho, cheiíssima de peixes, que seria toda coberta pela onda se não tivesse sido separada do mar por uma proteção e por um dique de pedras. <small> [JDD] </small> </small> </p>
+; <p> quae res et cibi genere et cotidiana exercitatione et libertate uitae quod a pueris nullo officio aut disciplina adsuefacti nihil omnino contra uoluntatem faciunt et uires alit et immani corporum <b>magnitudine</b> homines efficit <br> <small> Caes.Gal.4.1.9 <br> o que, pelo tipo de alimento, pelo exercício cotidiano e pela liberdade de vida, já que, não habituados desde pequenos a nenhum ofício ou disciplina, não fazem absolutamente nada contra a sua vontade, não só lhes cria forças, mas também os torna homens de descomunal tamanho de corpos. <small> [JDD] </small> </small> </p>
+; <p> uideo igitur Heium neque uoluntate neque difficultate aliqua temporis nec <b>magnitudine</b> pecuniae adductum esse ut haec signa uenderet teque ista simulatione emptionis ui metu imperio fascibus ab homine eo quem una cum ceteris sociis non solum potestati tuae sed etiam fidei populus Romanus commiserat eripuisse atque abstulisse <br> <small> Cic.Ver.2.4.14.7 <br> Vejo, portanto, que Heio não foi levado nem por sua vontade, nem por alguma dificuldade de momento, nem por uma grande soma de dinheiro a vender essas estátuas, e que tu, sob a aparência de compra, pela força, pelo medo, pela autoridade, pelas tochas, as arrancaste e roubaste desse homem, que, junto com os demais aliados, o povo romano havia confiado não só ao teu poder, mas também à tua lealdade. <small> [JDD] </small> </small> </p>
+; <p> regno est expulsus Ariobarzanes rex socius populi Romani atque amicus imminent duo reges toti Asiae non solum uobis inimicissimi sed etiam uestris sociis atque amicis ciuitates autem omnes cuncta Asia atque Graecia uestrum auxilium exspectare propter periculi <b>magnitudinem</b> coguntur imperatorem a uobis certum deposcere cum praesertim uos alium miseritis neque audent neque id se facere sine summo periculo posse arbitrantur <br> <small> Cic.Man.12 <br> O rei Ariobárzanes, aliado e amigo do povo romano, foi expulso de seu reino; dois reis inimicíssimos não só de vós, mas também de vossos aliados e amigos, ameaçam a Ásia inteira; ademais, todas as cidades, a Ásia inteira e a Grécia são forçadas, por causa da magnitude do perigo, a esperar o vosso auxílio; e eles não ousam pedir a vós um general determinado, sobretudo porque vós enviastes um outro e eles não acham que podem fazer isso sem um sumo perigo. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-97-103-110-105-116-117-100-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 7.42 and an absolute frequency of 8. The Caesar subcorpus follows, with a normalized frequency of 7.18 and an absolute frequency of 19. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 19 ; absolute frequency: 7.17576856258025. subcorpus: Cicero ; normalized frequency: 42 ; absolute frequency: 2.61643118785976. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 8 ; absolute frequency: 7.42046192375475. subcorpus: Seneca ; normalized frequency: 8 ; absolute frequency: 1.49306657210578. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-97-103-110-105-116-117-100-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 6.57 and an absolute frequency of 27. The Prosa.filosófica subcorpus follows, with a normalized frequency of 1.65 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 27 ; absolute frequency: 6.57270138026729. subcorpus: Prosa.filosófica ; normalized frequency: 10 ; absolute frequency: 1.64741931763892. subcorpus: Prosa.oratória ; normalized frequency: 32 ; absolute frequency: 3.07240309928663. subcorpus: Prosa.epistolográfica ; normalized frequency: 8 ; absolute frequency: 2.11982299477994. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-97-103-110-105-116-117-100-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 3.21 and an absolute frequency of 69. The I.a.C. subcorpus follows, with a normalized frequency of 3.21 and an absolute frequency of 69. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 69 ; absolute frequency: 3.21154293693274. subcorpus: I.d.C. ; normalized frequency: 10 ; absolute frequency: 1.52975370965275. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

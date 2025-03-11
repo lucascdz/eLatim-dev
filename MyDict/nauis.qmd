@@ -1,0 +1,205 @@
+---
+title: "nauis"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-97-117-105-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>nāvis</b> <b>-is</b> <br> <small>subs. f.</small> <br> <small>Obs.: Acus. sing.: navem, e, algumas vezes, navim Cíc. At. 7, 22, 1, abl. sing.: navi e também nave Cíc. Fam. 10, 31, 1.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Navio, embarcação, nau: &ensp; <small></small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Nau: &ensp; <small></small> <br> <b>3</b> &ensp; <small>II-Sent. figurado</small> &ensp; Navis ou Navis Argolica, “navio dos Argonautas”, colocado entre as constelações &ensp; <small>Cíc. Arat. 277.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado</small> &ensp; Expressão proverbial: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>navis longa, oneraria Cés. B. Gal. 3. 9. I “navio de guerra, navio de transporte”: Cíc. Par. 20. <br> <br><b>2</b><br>reipublicae Cíc. Sesi. 46 “a nau do Estado”. <br> <br><b>4</b><br>navibus et quadrigis Hor. Ep. 1, 11, 28 “com unhas e dentes”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Nabis</b> -<b>is</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Plin.</small> &ensp; certo animal da Ethiopia. </p> 
+ <b>Navis</b> -<b>is</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; náo. </p>
+
+
+
+
+#### Velez
+
+<b>Navis</b> -<b>is</b>   <p> <b>1</b> &ensp; náo </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>nauis Praetoria capitania </p>
+
+
+
+
+#### Cardoso
+
+<b>Nabis</b> <b>is</b>   <p> <b>1</b> &ensp; he hũa alimaria chamada per outro nome camelo pardalis. vulgo girafa </p> 
+ <b>Nauis</b> <b>is</b>   <p> <b>1</b> &ensp; a nao </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/113460 ' target="_blank"> http://lila-erc.eu/data/id/lemma/113460 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (tema em -i-) <br>
+<small> outras grafias: </small> nabis <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+nāvis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx110-97-117-105-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-97-117-105-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword nauis here are all the values plotted: collocate: ascendo; scoreSUBST: 0. collocate: egredior; scoreSUBST: 0. collocate: longus; scoreSUBST: 0. collocate: soluo; scoreSUBST: 0. collocate: ex; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: cum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-97-117-105-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword nauis here are all the values plotted: collocate: ascendo; scoreADJ: 0. collocate: egredior; scoreADJ: 0. collocate: longus; scoreADJ: 2. collocate: soluo; scoreADJ: 0. collocate: ex; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: cum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-97-117-105-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword nauis here are all the values plotted: collocate: ascendo; scoreVERBO: 3. collocate: egredior; scoreVERBO: 2. collocate: longus; scoreVERBO: 0. collocate: soluo; scoreVERBO: 2. collocate: ex; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: cum; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-97-117-105-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword nauis here are all the values plotted: collocate: ascendo; scoreADV: 0. collocate: egredior; scoreADV: 0. collocate: longus; scoreADV: 0. collocate: soluo; scoreADV: 0. collocate: ex; scoreADV: 0. collocate: in; scoreADV: 0. collocate: cum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-97-117-105-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword nauis here are all the values plotted: collocate: ascendo; scoreFUNC: 0. collocate: egredior; scoreFUNC: 0. collocate: longus; scoreFUNC: 0. collocate: soluo; scoreFUNC: 0. collocate: ex; scoreFUNC: 20. collocate: in; scoreFUNC: 20. collocate: cum; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> et aliae <b>naves</b> erant cum illo <br> <small> Vulg.Marc.4.36 <br> e havia outras barcas com ele. <small> [JDD] </small> </small> </p>
+; <p> cumque egressi essent de <b>navi</b> continuo cognoverunt eum <br> <small> Vulg.Marc.6.54 <br> E imediatamente depois que saíram da barca, o povo o reconheceu. <small> [JDD] </small> </small> </p>
+; <p> et ascendentes in <b>navi</b> abierunt in desertum locum seorsum <br> <small> Vulg.Marc.6.32 <br> E, subindo na barca, foram sozinhos para um lugar deserto. <small> [JDD] </small> </small> </p>
+; <p> et ascendit ad illos in <b>navem</b> et cessavit ventus <br> <small> Vulg.Marc.6.51 <br> E subiu até eles na barca e o vento cessou. <small> [JDD] </small> </small> </p>
+; <p> et dimittentes turbam adsumunt eum ita ut erat in <b>navi</b> <br> <small> Vulg.Marc.4.36 <br> E eles, despedindo a multidão, juntam-se a ele assim como estava, na barca. <small> [JDD] </small> </small> </p>
+; <p> hos item ex proximis <b>nauibus</b> cum conspexissent subsecuti hostibus adpropinquauerunt <br> <small> Caes.Gal.4.25.6 <br> Como igualmente tivessem visto esses dos navios imediatos, seguindo-os se aproximaram dos inimigos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ipse idoneam tempestatem nactus paulo post mediam noctem <b>naues</b> soluit <br> <small> Caes.Gal.4.36.3 <br> Ele próprio, tendo encontrado um clima apropriado, zarpou com seus navios pouco depois da meia noite. <small> [JDD] </small> </small> </p>
+; <p> ad haec cognoscenda priusquam periculum faceret idoneum esse arbitratus C. Uolusenum cum <b>naui</b> longa praemittit <br> <small> Caes.Gal.4.21.1 <br> Para conhecer essas coisas, antes de efetuar o perigo, considerando que Caio Voluseno era idôneo, enviou-o antes com um longo navio. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-97-117-105-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 35.95 and an absolute frequency of 16. The Caesar subcorpus follows, with a normalized frequency of 27.95 and an absolute frequency of 74. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 74 ; absolute frequency: 27.947730191102. subcorpus: Cicero ; normalized frequency: 15 ; absolute frequency: 0.934439709949914. subcorpus: Horatius ; normalized frequency: 8 ; absolute frequency: 7.10416481662375. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 11 ; absolute frequency: 2.05296653664545. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 14 ; absolute frequency: 27.027027027027. subcorpus: Hieronymus ; normalized frequency: 16 ; absolute frequency: 35.9469782071445'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-97-117-105-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 35.95 and an absolute frequency of 16. The Poesia.épica subcorpus follows, with a normalized frequency of 27.03 and an absolute frequency of 14. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 74 ; absolute frequency: 18.0140704496215. subcorpus: Prosa.filosófica ; normalized frequency: 10 ; absolute frequency: 1.64741931763892. subcorpus: Prosa.oratória ; normalized frequency: 11 ; absolute frequency: 1.05613856537978. subcorpus: Prosa.epistolográfica ; normalized frequency: 3 ; absolute frequency: 0.794933623042476. subcorpus: Poesia.lírica ; normalized frequency: 8 ; absolute frequency: 6.73004122150248. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 14 ; absolute frequency: 27.027027027027. subcorpus: Prosa.ficcional ; normalized frequency: 16 ; absolute frequency: 35.9469782071445'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-97-117-105-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 35.95 and an absolute frequency of 16. The I.a.C. subcorpus follows, with a normalized frequency of 5.17 and an absolute frequency of 111. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 111 ; absolute frequency: 5.16639515941354. subcorpus: I.d.C. ; normalized frequency: 11 ; absolute frequency: 1.68272908061802. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 16 ; absolute frequency: 35.9469782071445'}
+
+
+:::
+

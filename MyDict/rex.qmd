@@ -1,0 +1,209 @@
+---
+title: "rex"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx114-101-120xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>Rēx</b> <b>Régis</b> <br> <small>subs. pr. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Rei, sobrenome da gens Marcia &ensp; <small>Sal. C. Cat. 30. 3.</small> </p> 
+ <small>2.</small> <b>rēgis</b> <br> <small>gen. de rex.</small> <br> <small></small> 
+ <small>2.</small> <b>rēx</b> <b>régis</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; O que dirige os negócios do Estado, rei, soberano, monarca &ensp; <small>Cíc. Rep. 2, 5.</small> <br> <b>2</b> &ensp; <small>II-Sent. particular</small> &ensp; Rei &ensp; <small>entre os deuses:</small> <br> <b>3</b> &ensp; <small>II-Sent. particular</small> &ensp; Rei &ensp; <small>dos sacrifícios:</small> <br> <b>4</b> &ensp; <small>II-Sent. particular</small> &ensp; Rei &ensp; <small>de um festim ou de jogos Marc. Saturn. 2. 1. 3.</small> <br> <b>5</b> &ensp; <small>II-Sent. particular</small> &ensp; A família real &ensp; <small>T. Lív. 1, 59, 5.</small> <br> <b>6</b> &ensp; <small>II-Sent. particular</small> &ensp; Príncipe, filho de rei &ensp; <small>Cíc. Verr. 4. 61.</small> <br> <b>7</b> &ensp; <small>II-Sent. particular</small> &ensp; Senhor absoluto, déspota &ensp; <small>no período republicano Cíc. Of. 3, 83.</small> <br> <b>8</b> &ensp; <small>II-Sent. particular</small> &ensp; Soberano, chefe, senhor e que dirige &ensp; <small>Verg. En. 1. 544.</small> <br> <b>9</b> &ensp; <small>II-Sent. particular</small> &ensp; Protetor, patrono &ensp; <small>dos parasitas Plaut. Capt. 92.</small> <br> <b>10</b> &ensp; <small>III-Sent. poético:</small> &ensp; Os ricos, os nababos &ensp; <small>Hor. Sat. 1, 2, 86.</small> <br> <b>11</b> &ensp; <small>III-No pl. reges T. Lív. 1, 39, 2</small> &ensp; O rei e a rainha, o casal real’. &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>rex aquarom Ov. Met. 10, 606 ‘rei das águas. i. e.. Netuno. <br> <br><b>3</b><br>rex Nemorensis Suet. Cal. 35 ‘sacerdote de Diana Aricina’. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>rex</b> -<b>egis</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; rei. <br> <b>2</b> &ensp; <small>Hor.</small> &ensp; grande senhor. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>rex fluuiorum &ensp; <small><small>Virg</small></small> &ensp; <small>O maior dos rios</small> <br> rex pueritiae &ensp; <small><small>Hor</small></small> &ensp; <small>Pedagogo de hum menino</small> <br> rex sacrorum &ensp; <small><small>Cic</small></small> &ensp; <small>O que fazia os sacrificios, que tocavaõ aos Reis</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Rex</b> <b>gis</b>   <p> <b>1</b> &ensp; el Rey. ou homem rico </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/122013 ' target="_blank"> http://lila-erc.eu/data/id/lemma/122013 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+rēgis
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx114-101-120xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword rex here are all the values plotted: collocate: Deiotarus; scoreSUBST: 0. collocate: potens; scoreSUBST: 0. collocate: Antiochus; scoreSUBST: 0. collocate: Pyrrhus; scoreSUBST: 0. collocate: appello; scoreSUBST: 0. collocate: finis; scoreSUBST: 2. collocate: duo; scoreSUBST: 0. collocate: timeo; scoreSUBST: 0. collocate: salus; scoreSUBST: 2. collocate: peto; scoreSUBST: 0. collocate: nam; scoreSUBST: 0. collocate: nullus; scoreSUBST: 0. collocate: magnus; scoreSUBST: 0. collocate: ipse; scoreSUBST: 0. collocate: ille; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx114-101-120xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword rex here are all the values plotted: collocate: Deiotarus; scoreADJ: 0. collocate: potens; scoreADJ: 2. collocate: Antiochus; scoreADJ: 0. collocate: Pyrrhus; scoreADJ: 0. collocate: appello; scoreADJ: 0. collocate: finis; scoreADJ: 0. collocate: duo; scoreADJ: 0. collocate: timeo; scoreADJ: 0. collocate: salus; scoreADJ: 0. collocate: peto; scoreADJ: 0. collocate: nam; scoreADJ: 0. collocate: nullus; scoreADJ: 0. collocate: magnus; scoreADJ: 2. collocate: ipse; scoreADJ: 0. collocate: ille; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx114-101-120xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword rex here are all the values plotted: collocate: Deiotarus; scoreVERBO: 0. collocate: potens; scoreVERBO: 0. collocate: Antiochus; scoreVERBO: 0. collocate: Pyrrhus; scoreVERBO: 0. collocate: appello; scoreVERBO: 2. collocate: finis; scoreVERBO: 0. collocate: duo; scoreVERBO: 0. collocate: timeo; scoreVERBO: 2. collocate: salus; scoreVERBO: 0. collocate: peto; scoreVERBO: 2. collocate: nam; scoreVERBO: 0. collocate: nullus; scoreVERBO: 0. collocate: magnus; scoreVERBO: 0. collocate: ipse; scoreVERBO: 0. collocate: ille; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx114-101-120xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword rex here are all the values plotted: collocate: Deiotarus; scoreADV: 0. collocate: potens; scoreADV: 0. collocate: Antiochus; scoreADV: 0. collocate: Pyrrhus; scoreADV: 0. collocate: appello; scoreADV: 0. collocate: finis; scoreADV: 0. collocate: duo; scoreADV: 0. collocate: timeo; scoreADV: 0. collocate: salus; scoreADV: 0. collocate: peto; scoreADV: 0. collocate: nam; scoreADV: 2. collocate: nullus; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: ipse; scoreADV: 0. collocate: ille; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx114-101-120xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword rex here are all the values plotted: collocate: Deiotarus; scoreFUNC: 0. collocate: potens; scoreFUNC: 0. collocate: Antiochus; scoreFUNC: 0. collocate: Pyrrhus; scoreFUNC: 0. collocate: appello; scoreFUNC: 0. collocate: finis; scoreFUNC: 0. collocate: duo; scoreFUNC: 0. collocate: timeo; scoreFUNC: 0. collocate: salus; scoreFUNC: 0. collocate: peto; scoreFUNC: 0. collocate: nam; scoreFUNC: 0. collocate: nullus; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0. collocate: ipse; scoreFUNC: 0. collocate: ille; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ulla libertas minor a <b>rege</b> petitur <br> <small> Sen.Oed.523 <br> Há alguma liberdade menor que se pede a um rei? <small> [JDD] </small> </small> </p>
+; <p> deinde ipsum <b>regem</b> ad cenam uocauit <br> <small> Cic.Ver.2.4.62.6 <br> Em seguida convidou o próprio rei para jantar. <small> [JDD] </small> </small> </p>
+; <p> ille autem <b>Regis</b> hereditatem spe devorarat <br> <small> Cic.Att.1.16.10 <br> (Ele tinha consumido a herança de Rei, na esperança [de recebê-la]. <small> [JDD] </small> </small> </p>
+; <p> dubia pro certis solent timere <b>reges</b> <br> <small> Sen.Oed.699 <br> Os rei costumam temer as coisas duvidosas como certas. <small> [JDD] </small> </small> </p>
+; <p> quem das finem <b>rex</b> magne laborum <br> <small> Verg.A.1.241 <br> Que fim estabeleces para essas labutas, grande rei? <small> [JDD] </small> </small> </p>
+; <p> <b>Regem</b> appellas inquam cum <b>Rex</b> tui mentionem nullam fecerit <br> <small> Cic.Att.1.16.10 <br> “Me chamas rei”, eu digo, “quando Rei [cunhado de Clódio] não fez nenhuma menção a ti” [no testamento]. <small> [JDD] </small> </small> </p>
+; <p> timete <b>reges</b> moneo furtiuum genus agrestis iste alumnus euertet domum <br> <small> Sen.Ag.732 <br> Temei, reis, eu advirto, a clandestina estirpe: esse que foi criado nos campos transtornará vossa casa. <small> [JDD] </small> </small> </p>
+; <p> idem medico Pyrrhi promittente uenenum se <b>regi</b> daturum monuit Pyrrhum caueret insidias <br> <small> Sen.Ep.120.6 <br> O mesmo, quando o médico de Pirro prometeu que daria veneno ao rei, advertiu Pirro que tomasse cuidado com as ciladas. <small> [JDD] </small> </small> </p>
+; <p> <b>regi</b> tuenda maxime <b>regum</b> est salus curat peremptum nemo quem incolumem timet <br> <small> Sen.Oed.242 <br> É principalmente pelo rei que deve ser velada a salvação dos reis: ninguém se preocupa que esteja morto aquela a quem, estando vivo, teme. <small> [JDD] </small> </small> </p>
+; <p> Publium Valerium negat habere quicquam Deiotarus <b>rex</b> eumque ait a se sustentari <br> <small> Cic.Att.5.21.14 <br> O rei Dejotaro diz que Públio Valério não tem nada e afirma que ele é sustentado por ele. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nam <b>regibus</b> boni quam mali suspectiores sunt semperque eis aliena uirtus formidulosa est <br> <small> Sal.Cat.7.2 <br> Pois para os reis os bons são mais suspeitos do que os maus, e o mérito alheio é sempre temível para eles. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> propone tibi duos <b>reges</b> et id animo contemplare quod oculis non potes dabis profecto id misericordiae quod iracundiae denegasti <br> <small> Cic.Deiot.40 <br> Propõe-te dois reis e contempla em teu espírito o que não podes com os olhos: com certeza concederás à misericórdia o que negaste à ira. <small> [JDD] </small> </small> </p>
+; <p> hac maiores uestri primum uniuersam Italiam deuicerunt deinde Karthaginem exciderunt Numantiam euerterunt potentissimos <b>reges</b> bellicosissimas gentis in dicionem huius imperi redegerunt <br> <small> Cic.Phil.4.13.8 <br> Com essa [virtude] os vossos antepassados primeiro submeteram a Itália toda, em seguida destruíram Cartago, arrasaram a Numância, reduziram ao domínio deste império os mais poderosos reis, as mais belicosas nações. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nos quorum maiores Antiochum <b>regem</b> classe Persenque superarunt omnibusque naualibus pugnis Carthaginiensis homines in maritimis rebus exercitatissimos paratissimosque uicerunt ei nullo in loco iam praedonibus pares esse poteramus <br> <small> Cic.Man.55 <br> Nós, cujos antepassados derrotaram com uma frota o rei Antíoco e Perseu e venceram, em todas as batalhas navais, os cartagineses, homens exercitadíssimos e preparadíssimos nas coisas marítimas, já não podíamos, em nenhum lugar, fazer frente aos piratas. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx114-101-120xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 25.1 and an absolute frequency of 13. The Horatius subcorpus follows, with a normalized frequency of 19.54 and an absolute frequency of 22. the subcorpus with the least normalized frequency is Caesar with the normalized value of 3.4 and an absolute freqeuncy of 9. here are all the values: subcorpus: Caesar ; normalized frequency: 9 ; absolute frequency: 3.39904826648538. subcorpus: Cicero ; normalized frequency: 141 ; absolute frequency: 8.78373327352919. subcorpus: Horatius ; normalized frequency: 22 ; absolute frequency: 19.5364532457153. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 7 ; absolute frequency: 10.6269925611052. subcorpus: Sallustius ; normalized frequency: 11 ; absolute frequency: 10.2031351451628. subcorpus: Seneca ; normalized frequency: 44 ; absolute frequency: 8.21186614658181. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 13 ; absolute frequency: 25.0965250965251. subcorpus: Hieronymus ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx114-101-120xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 29.53 and an absolute frequency of 34. The Poesia.trágica subcorpus follows, with a normalized frequency of 29.53 and an absolute frequency of 34. the subcorpus with the least normalized frequency is Prosa.filosófica with the normalized value of 2.64 and an absolute freqeuncy of 16. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 22 ; absolute frequency: 5.35553445799557. subcorpus: Prosa.filosófica ; normalized frequency: 16 ; absolute frequency: 2.63587090822227. subcorpus: Prosa.oratória ; normalized frequency: 123 ; absolute frequency: 11.809549412883. subcorpus: Prosa.epistolográfica ; normalized frequency: 12 ; absolute frequency: 3.1797344921699. subcorpus: Poesia.lírica ; normalized frequency: 23 ; absolute frequency: 19.3488685118196. subcorpus: Poesia.didática ; normalized frequency: 8 ; absolute frequency: 6.78598693697515. subcorpus: Poesia.trágica ; normalized frequency: 34 ; absolute frequency: 29.5343988881167. subcorpus: Poesia.épica ; normalized frequency: 13 ; absolute frequency: 25.0965250965251. subcorpus: Prosa.ficcional ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx114-101-120xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 9.17 and an absolute frequency of 197. The II.d.C. subcorpus follows, with a normalized frequency of 5.24 and an absolute frequency of 2. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 5.24 and an absolute freqeuncy of 2. here are all the values: subcorpus: I.a.C. ; normalized frequency: 197 ; absolute frequency: 9.16918780544566. subcorpus: I.d.C. ; normalized frequency: 52 ; absolute frequency: 7.95471929019428. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+:::
+

@@ -1,0 +1,199 @@
+---
+title: "adeo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-100-101-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>adĕō</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Até aí. até esse ponto &ensp; <small>Sent. local Cat. Agr. 40, 3.</small> <br> <b>2</b> &ensp; <small>I-E também usado em Sent. temporal. vindo frequentemente reforçado por usque e seguido de dum, donec, quoad:</small> &ensp; <small></small> <br> <b>3</b> &ensp; <small>II-Daí, passou a ser empregado nas gradações em correlação ou não com ut:</small> &ensp; A tal ponto, tão, de tal forma... que: &ensp; <small></small> <br> <b>4</b> &ensp; <small>II-Daí, passou a ser empregado nas gradações em correlação ou não com ut:</small> &ensp; Com maior razão ou, quando precedido de atque: muito mais, ou melhor &ensp; <small>empregos reforçativos Tác. Hist. 4, 80; Cíc. Cat. I, 5.</small> <br> <b>5</b> &ensp; <small>II-Daí, passou a ser empregado nas gradações em correlação ou não com ut:</small> &ensp; Aliás, principalmente &ensp; <small>para pôr em realce uma palavra que o precede imediatamente Cíc. Verr. 3, 120;</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>até que, até o momento: usque adeo hominem in periculo fuisse quoad scitum sit Sestium vivere Cíc. Sest. 82 «ter o homem corrido perigo ate o momento em que se tenha sabido que Séstio estava vivo». <br> <br><b>3</b><br>adeone me delirare censes, ut ista esse credam? Cíc. Tusc. I, 10 «julgas que eu esteja a tal ponto longe da razão, que acredite, serem reais estas coisas?» <br> <br><b>5</b><br>tuque adeo Caesar Verg. G. 1, 24 «e tu, principalmente, César». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Adeo</b> <br> <small>adv.</small> <br> <small>Este adverbio he usado muitas vezes pelos Poetas, principalmente Comicos só por elegancia.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; de tal sorte. <br> <b>2</b> &ensp; tanto. <br> <b>3</b> &ensp; certamente. </p>
+
+
+
+
+#### Velez
+
+<b>Adeò</b> <br> <small>adverb.</small>   <p> <b>1</b> &ensp; taõ, ou tanto, ou em tanto <br> <b>2</b> &ensp; <small>ponitur interdum pro Quoque, vel Etiam</small> <br> <b>3</b> &ensp; <small>post conjunctionem Atque, subjectum auget idem significans, quod Imo, vel Potius</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>dii illum perdant, meque adeo <br> dii precor &ensp; <small>atque adeò Caesar</small> <br> <br><b>3</b><br>de foro &ensp; <small>atque adeò de civitate sublatus est</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Adeo</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; em tanta maneyra. ou certamente </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/87420 ' target="_blank"> http://lila-erc.eu/data/id/lemma/87420 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> ateo <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ădĕō
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-100-101-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-100-101-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword adeo here are all the values plotted: collocate: ne; scoreSUBST: 0. collocate: atque; scoreSUBST: 0. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-100-101-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword adeo here are all the values plotted: collocate: ne; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-100-101-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword adeo here are all the values plotted: collocate: ne; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-100-101-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword adeo here are all the values plotted: collocate: ne; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-100-101-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword adeo here are all the values plotted: collocate: ne; scoreFUNC: 20. collocate: atque; scoreFUNC: 0. collocate: in; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ego princeps in adiutoribus atque <b>adeo</b> secundus <br> <small> Cic.Att.1.17.9 <br> Eu fui o primeiro entre os apoiadores, na verdade, o segundo. <small> [JDD] </small> </small> </p>
+; <p> id <b>adeo</b> malum multos post annos in ciuitatem reuorterat <br> <small> Sal.Cat.37.11 <br> De tal modo esse mal, depois de muitos anos, tinha retornado à cidade. <small> [JDD] </small> </small> </p>
+; <p> homines isti tales sunt qualem hunc describit Horatius Flaccus numquam eundem ne similem quidem sibi <b>adeo</b> in diuersum aberrat <br> <small> Sen.Ep.120.21 <br> Muitos são os homens como este que Horácio Flaco descreve: nunca o mesmo, nem sequer semelhante a si próprio; a tal ponto vagueia para direções opostas.[*] <small>  </small> </small> </p>
+; <p> esto concedatur haec quoque acerbitatis et odi magnitudo <b>adeo</b> ne ut omnia uitae salutisque communis atque etiam humanitatis iura uiolentur <br> <small> Cic.Deiot.30 <br> Vá lá que se admita também essa magnitude de crueldade e de ódio; a tal ponto que se violem todos os direitos da vida e do bem comum e até mesmo da humanidade? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-100-101-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 6.87 and an absolute frequency of 2. The Seneca subcorpus follows, with a normalized frequency of 2.05 and an absolute frequency of 11. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 9 ; absolute frequency: 0.560663825969948. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 11 ; absolute frequency: 2.05296653664545. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-100-101-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 1.93 and an absolute frequency of 1. The Prosa.filosófica subcorpus follows, with a normalized frequency of 1.81 and an absolute frequency of 11. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 4 ; absolute frequency: 0.973733537817376. subcorpus: Prosa.filosófica ; normalized frequency: 11 ; absolute frequency: 1.81216124940281. subcorpus: Prosa.oratória ; normalized frequency: 7 ; absolute frequency: 0.672088177968949. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-100-101-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The I.d.C. subcorpus follows, with a normalized frequency of 1.99 and an absolute frequency of 13. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 14 ; absolute frequency: 0.6516174074936. subcorpus: I.d.C. ; normalized frequency: 13 ; absolute frequency: 1.98867982254857. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

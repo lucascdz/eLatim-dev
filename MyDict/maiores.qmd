@@ -1,0 +1,205 @@
+---
+title: "maiores"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-97-105-111-114-101-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>mājōrēs</b> <b>-um</b> <br> <b>māiōrēs</b> <b>-um</b> <br> <small>subs. m. pl.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Os maiores, os antepassados &ensp; <small>Cíc. Phil. 3. 25.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Majores</b> -<b>um</b> <br> <small>m. plur.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; predecessores, antepassados, progenitores, ascendentes. </p>
+
+
+
+
+#### Velez
+
+<b>Maiores</b> -<b>um</b>   <p> <b>1</b> &ensp; os antepassados </p>
+
+
+
+
+#### Cardoso
+
+<b>Maiores</b> <b>orum</b>   <p> <b>1</b> &ensp; os antepassados </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/63256 ' target="_blank"> http://lila-erc.eu/data/id/lemma/63256 </a> <br>
+<small> classe: </small> substantivo masculino plural  <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-97-105-111-114-101-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword maiores here are all the values plotted: collocate: noster; scoreSUBST: 0. collocate: mos; scoreSUBST: 3. collocate: institutum; scoreSUBST: 2. collocate: auus; scoreSUBST: 2. collocate: consuetudo; scoreSUBST: 2. collocate: trado; scoreSUBST: 0. collocate: accipio; scoreSUBST: 0. collocate: ab; scoreSUBST: 0. collocate: apud; scoreSUBST: 0. collocate: uester; scoreSUBST: 0. collocate: suus; scoreSUBST: 0. collocate: consilium; scoreSUBST: 2. collocate: que; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-97-105-111-114-101-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword maiores here are all the values plotted: collocate: noster; scoreADJ: 0. collocate: mos; scoreADJ: 0. collocate: institutum; scoreADJ: 0. collocate: auus; scoreADJ: 0. collocate: consuetudo; scoreADJ: 0. collocate: trado; scoreADJ: 0. collocate: accipio; scoreADJ: 0. collocate: ab; scoreADJ: 0. collocate: apud; scoreADJ: 0. collocate: uester; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: consilium; scoreADJ: 0. collocate: que; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-97-105-111-114-101-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword maiores here are all the values plotted: collocate: noster; scoreVERBO: 0. collocate: mos; scoreVERBO: 0. collocate: institutum; scoreVERBO: 0. collocate: auus; scoreVERBO: 0. collocate: consuetudo; scoreVERBO: 0. collocate: trado; scoreVERBO: 2. collocate: accipio; scoreVERBO: 2. collocate: ab; scoreVERBO: 0. collocate: apud; scoreVERBO: 0. collocate: uester; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: consilium; scoreVERBO: 0. collocate: que; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-97-105-111-114-101-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword maiores here are all the values plotted: collocate: noster; scoreADV: 0. collocate: mos; scoreADV: 0. collocate: institutum; scoreADV: 0. collocate: auus; scoreADV: 0. collocate: consuetudo; scoreADV: 0. collocate: trado; scoreADV: 0. collocate: accipio; scoreADV: 0. collocate: ab; scoreADV: 0. collocate: apud; scoreADV: 0. collocate: uester; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: consilium; scoreADV: 0. collocate: que; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-97-105-111-114-101-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword maiores here are all the values plotted: collocate: noster; scoreFUNC: 0. collocate: mos; scoreFUNC: 0. collocate: institutum; scoreFUNC: 0. collocate: auus; scoreFUNC: 0. collocate: consuetudo; scoreFUNC: 0. collocate: trado; scoreFUNC: 0. collocate: accipio; scoreFUNC: 0. collocate: ab; scoreFUNC: 30. collocate: apud; scoreFUNC: 20. collocate: uester; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: consilium; scoreFUNC: 0. collocate: que; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> mos ne <b>maiorum</b> <br> <small> Cic.Catil.1.28.1 <br> O costume dos antepassados? <small> [JDD] </small> </small> </p>
+; <p> deflexit iam aliquantum de spatio curriculoque consuetudo <b>maiorum</b> <br> <small> Cic.Amici.40 <br> Os costumes dos nossos antepassados já se desviou um tantinho da pista e da corrida. <small> [JDD] </small> </small> </p>
+; <p> o ciuem natum rei publicae memorem sui nominis imitatoremque <b>maiorum</b> <br> <small> Cic.Phil.3.8.11 <br> Ó cidadão nascido para a república, que lembra de seu nome e que imita seus antepassados! <small> [JDD] </small> </small> </p>
+; <p> nolite existumare <b>maiores</b> nostros armis rem publicam ex parua magnam fecisse <br> <small> Sal.Cat.52.19 <br> Não penseis que foi com armas que os nossos antepassados  de pequena fizeram grande esta república  <small> [JDD] </small> </small> </p>
+; <p> at enim ne quid noui fiat contra exempla atque instituta <b>maiorum</b> <br> <small> Cic.Man.60 <br> “Mas, com efeito, não se faz nada de novo contra os exemplos e os costumes dos antepassados”. <small> [JDD] </small> </small> </p>
+; <p> hanc retinete quaeso Quirites quam uobis tamquam hereditatem <b>maiores</b> uestri reliquerunt <br> <small> Cic.Phil.4.13.3 <br> Preservai, eu suplico, quirites, essa virtude que os vossos antepassados vos legaram com herança. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quae nisi essent in senibus non summum consilium <b>maiores</b> nostri appellassent senatum <br> <small> Cic.Sen.19 <br> Se não existissem nos velhos essas qualidades, os nosso antepassados não teriam chamado o supremo conselho de senado. <small> [JDD] </small> </small> </p>
+; <p> Messi clarum genus Osci Sarmenti domina exstat ab his <b>maioribus</b> orti ad pugnam uenere <br> <small> Hor.S.1.5.54 <br> A linhagem do osco Méssio é ilustre; a dona de Sarmento ainda existe; engendrados por estes antepassados, vieram para a luta. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> et in aes incidi iubebitis credo illa legitima consules populum iure rogauerunt hocine a <b>maioribus</b> accepimus ius rogandi <br> <small> Cic.Phil.1.26.1 <br> E ordenareis, creio, que sejam gravadas no bronze as legítimas: “Os cônsules, por direito, apresentaram a proposta ao povo (foi este o direito de apresentar proposta que recebemos dos antepassados?) <small> [JDD] </small> </small> </p>
+; <p> deinde etiam si quid apud <b>maiores</b> nostros fuit in isto studio admirationis id enuntiatis uestris mysteriis totum est contemptum et abiectum <br> <small> Cic.Mur.25 <br> Em segundo lugar, se houve ainda alguma admiração entre os nossos antepassados por esse estudo, isso, depois de revelados os vossos mistérios, foi totalmente desprezado e rejeitado. <small> [JDD] </small> </small> </p>
+; <p> quorum haec fuit oratio Germanos neque priores populo Romano bellum inferre neque tamen recusare si lacessantur quin armis contendant quod Germanorum consuetudo haec sit a <b>maioribus</b> tradita quicumque bellum inferant resistere neque deprecari <br> <small> Caes.Gal.4.7.3 <br> cujo discurso foi este: que os germanos não seriam os primeiros a declarar guerra ao povo romano, nem, no entanto, se furtariam a contender em armas, se fossem provocados, porque este é um costume dos germanos, transmitido por seus antepassados: resistir e não suplicar a todos aqueles que lhes declaram guerra. <small> [JDD] </small> </small> </p>
+; <p> decreuit quondam senatus uti L. Opimius consul uideret ne quid res publica detrimenti caperet nox nulla intercessit interfectus est propter quasdam seditionum suspiciones C. Gracchus clarissimo patre auo <b>maioribus</b> occisus est cum liberis M. Fuluius consularis <br> <small> Cic.Catil.1.4.1 <br> Decretou outrora o senado que o cônsul Lúcio Opímio cuidasse para que a república não sofresse nenhum detrimento; não passou nenhuma noite; foi morto, por causa de umas certas suspeitas de sedição, Caio Graco, de ilustríssimos pai, avô, antepassados; foi morto com os filhos o ex-cônsul Marco Fúlvio. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-97-105-111-114-101-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 11.13 and an absolute frequency of 12. The Cicero subcorpus follows, with a normalized frequency of 5.11 and an absolute frequency of 82. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 5 ; absolute frequency: 1.88836014804744. subcorpus: Cicero ; normalized frequency: 82 ; absolute frequency: 5.10827041439286. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 12 ; absolute frequency: 11.1306928856321. subcorpus: Seneca ; normalized frequency: 6 ; absolute frequency: 1.11979992907934. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-97-105-111-114-101-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 7.01 and an absolute frequency of 73. The Prosa.histórica subcorpus follows, with a normalized frequency of 4.38 and an absolute frequency of 18. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 18 ; absolute frequency: 4.38180092017819. subcorpus: Prosa.filosófica ; normalized frequency: 15 ; absolute frequency: 2.47112897645838. subcorpus: Prosa.oratória ; normalized frequency: 73 ; absolute frequency: 7.00891957024762. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-97-105-111-114-101-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 4.7 and an absolute frequency of 101. The I.d.C. subcorpus follows, with a normalized frequency of 0.92 and an absolute frequency of 6. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 101 ; absolute frequency: 4.70095415406097. subcorpus: I.d.C. ; normalized frequency: 6 ; absolute frequency: 0.917852225791647. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

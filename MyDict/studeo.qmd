@@ -1,0 +1,204 @@
+---
+title: "studeo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-116-117-100-101-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>studĕō</b> <b>-és</b> <b>-ére</b> <b>studùí</b> <br> <small>v. intr.</small> <br> <small>Obs.: Constrói-se geralmente com dat., muitas vezes com inf. ou com acus. e inf.; raramente com acus.; raramente com ut ou ne; ou como intr. absoluto no período arc.; às vezes aparece com genitivo.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Ter gosto, ter dedicação, gostar de &ensp; <small>Plaut. Mil. 1. 437.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Estar desejoso de, desejar, esforçar-se por &ensp; <small>Cíc. At. 13, 20, 3; Cíc. Sest. 96.</small> <br> <b>3</b> &ensp; <small>I-Donde:</small> &ensp; Aplicar-se a, dar-se a &ensp; <small>Cés. B. Gal. 7, 14, 2; Cés. B. Gal. 6, 22, 1; Cíc. Br. 322.</small> <br> <b>4</b> &ensp; <small>I-Na época imperial:</small> &ensp; Estudar, instruir-se &ensp; <small>Sên. Ep. 94, 20; Tác. D. 21.</small> <br> <b>5</b> &ensp; <small>I-Na época imperial:</small> &ensp; Interessar-se por, ligar se a, ser afeiçoado a &ensp; <small>Cíc. At. 4, 15, 7.</small> </p> 
+ <b>studŭī</b> <br> <small>perf. de studèo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Studeo</b> -<b>es</b> -<b>ui</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; estudar, applicar-se. <br> <b>2</b> &ensp; procurar, pertender com empenho. <br> <b>3</b> &ensp; seguir o partido de alguem. </p>
+
+
+
+
+#### Velez
+
+<b>Studeo</b> -<b>es</b> <br> <small>1. brev.</small>   <p> <b>1</b> &ensp; estudar, ou applicar-se, ou favorecer &ensp; <small>dat.</small> <br> <b>2</b> &ensp; <small>por</small> &ensp; querer, ou desejar &ensp; <small>accus.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Studeo</b> -<b>es</b>   <p> <b>1</b> &ensp; estudar. ou dar obra </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/125886 ' target="_blank"> http://lila-erc.eu/data/id/lemma/125886 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> studeo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> studere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> studebit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> studui, studiui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+
+
+
+
+
+#### Lexicala
+
+stŭdĕō 
+ stŭdēs 
+ stŭdēre 
+ stŭdŭī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx115-116-117-100-101-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> nam neque druides habent qui rebus diuinis praesint neque sacrificiis <b>student</b> <br> <small> Caes.Gal.6.21.1 <br> Pois não têm druídas que presidem os ritos divinos, nem têm zelo pelos sacrifícios. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-116-117-100-101-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 4.15 and an absolute frequency of 11. The Ovidius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 11 ; absolute frequency: 4.15439232570436. subcorpus: Cicero ; normalized frequency: 12 ; absolute frequency: 0.747551767959931. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 2 ; absolute frequency: 0.373266643026446. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-116-117-100-101-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 3.41 and an absolute frequency of 14. The Poesia.lírica subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 14 ; absolute frequency: 3.40806738236082. subcorpus: Prosa.filosófica ; normalized frequency: 3 ; absolute frequency: 0.494225795291676. subcorpus: Prosa.oratória ; normalized frequency: 10 ; absolute frequency: 0.960125968527071. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-116-117-100-101-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 1.21 and an absolute frequency of 26. The I.a.C. subcorpus follows, with a normalized frequency of 1.21 and an absolute frequency of 26. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 26 ; absolute frequency: 1.21014661391669. subcorpus: I.d.C. ; normalized frequency: 4 ; absolute frequency: 0.611901483861098. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

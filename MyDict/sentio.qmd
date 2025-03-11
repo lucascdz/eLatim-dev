@@ -1,0 +1,215 @@
+---
+title: "sentio"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-101-110-116-105-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>sēnsī</b> <br> <small>perf. de sentìo.</small> <br> <small></small> 
+ <b>sēnstī</b> <br> <small>perf. sincopado de sentìo = sénsístí Ter. And. 882.</small> <br> <small></small> 
+ <b>sentĭō</b> <b>-ís</b> <b>-íre</b> <b>sénsí, sénsum</b> <br> <small>v. tr. e intr.</small> <br> <small>Obs.: Constrói-se com acus.: com inf. ou or. inf.: como intr. absoluto: com interr. indireta: e com abl. com de.</small>   <p> <b>1</b> &ensp; <small>A-Intr.-Sent. próprio:</small> &ensp; Sentir, experimentar uma sensação ou um sentimento &ensp; <small>Cíc. Nat. 3, 33; Cíc. Phil. 2. 83.</small> <br> <b>2</b> &ensp; <small>B-Tr.:</small> &ensp; Perceber &ensp; <small>pelos sentidos ou pela inteligência Cíc. Cal. 2, 27; Cés. B. Gal. 5, 33, 1: Cíc. Arch. 1.</small> <br> <b>3</b> &ensp; <small>B-Tr.:-Sent. figurado:</small> &ensp; Ser de opinião, ser de parecer, pensar, julgar &ensp; <small>Cíc. Rep. 3, 32; Cíc. De Or. 3, 33; Sat. C. Cal. 26, 5.</small> <br> <b>4</b> &ensp; <small>B-Tr.:-Sent moral:</small> &ensp; Sentir, ressentir-se, sofrer. &ensp; <small>Cíc. Verr. 3, 108.</small> <br> <b>5</b> &ensp; <small>B-Tr.:-Na língua jurídica:</small> &ensp; Decidir, votar &ensp; <small>Cíc. Verr. 2, 76.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Sentio</b> -<b>is</b> -<b>si</b> -<b>sum</b> -<b>ire</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; sentir, perceber com o sentido. <br> <b>2</b> &ensp; entender, julgar, pensar. <br> <b>3</b> &ensp; advertir. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>sentire ab aliquo &ensp; <small><small>Cic</small></small> &ensp; <small>Conformar-se com o parecer de alguem</small> <br> sentire cum aliquo &ensp; <small><small>Cic</small></small> &ensp; <small>Conformar-se com o parecer de alguem</small> <br> sentire famem &ensp; <small><small>Liv</small></small> &ensp; <small>Padecer fome</small> <br> sentire grauiter de aliquo &ensp; <small><small>Caes</small></small> &ensp; <small>Ter má opinião de alguem</small> <br> sentire humiliter, & demisse de aliquo &ensp; <small><small>Cic</small></small> &ensp; <small>Fazer baixo conceito de alguem</small> <br> sentire magnifice de se &ensp; <small><small>Cic</small></small> &ensp; <small>Formar grande conceito de si</small> </p>
+
+
+
+
+#### Velez
+
+<b>Sentio</b> -<b>is</b>   <p> <b>1</b> &ensp; sentir, perceber, entender, julgar, etc &ensp; <small>Activ.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Sentio</b> <b>is</b> <b>sensi</b> <b>sensum</b>   <p> <b>1</b> &ensp; sentir </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/124353 ' target="_blank"> http://lila-erc.eu/data/id/lemma/124353 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 4ª conjugação (tema em -ī- longo) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> sentio </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> sentire </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> sentiet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> sensi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> sensum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> sensurum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+sensī 
+ sentĭō 
+ sentīs 
+ sentīre
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx115-101-110-116-105-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-101-110-116-105-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword sentio here are all the values plotted: collocate: idem; scoreSUBST: 0. collocate: bene; scoreSUBST: 0. collocate: quis; scoreSUBST: 0. collocate: publicus; scoreSUBST: 0. collocate: sed; scoreSUBST: 0. collocate: qui; scoreSUBST: 0. collocate: non; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-101-110-116-105-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword sentio here are all the values plotted: collocate: idem; scoreADJ: 0. collocate: bene; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: publicus; scoreADJ: 2. collocate: sed; scoreADJ: 0. collocate: qui; scoreADJ: 0. collocate: non; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-101-110-116-105-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword sentio here are all the values plotted: collocate: idem; scoreVERBO: 0. collocate: bene; scoreVERBO: 0. collocate: quis; scoreVERBO: 0. collocate: publicus; scoreVERBO: 0. collocate: sed; scoreVERBO: 0. collocate: qui; scoreVERBO: 0. collocate: non; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-101-110-116-105-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword sentio here are all the values plotted: collocate: idem; scoreADV: 0. collocate: bene; scoreADV: 2. collocate: quis; scoreADV: 0. collocate: publicus; scoreADV: 0. collocate: sed; scoreADV: 0. collocate: qui; scoreADV: 0. collocate: non; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-101-110-116-105-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword sentio here are all the values plotted: collocate: idem; scoreFUNC: 0. collocate: bene; scoreFUNC: 0. collocate: quis; scoreFUNC: 0. collocate: publicus; scoreFUNC: 0. collocate: sed; scoreFUNC: 0. collocate: qui; scoreFUNC: 0. collocate: non; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quod ipsum <b>sentire</b> certo scio <br> <small> Cic.Att.5.11.6 <br> e sei com certeza que ele próprio percebe isso. <small> [JDD] </small> </small> </p>
+; <p> dicam plane Caesar quod <b>sentio</b> <br> <small> Cic.Lig.14 <br> Vou dizer claramente o que penso, César. <small> [JDD] </small> </small> </p>
+; <p> hactenus mihi uideor de amicitia quid <b>sentirem</b> potuisse dicere <br> <small> Cic.Amici.24 <br> Até aqui tenho a impressão de que pude dizer o que eu pensava acerca da amizade. <small> [JDD] </small> </small> </p>
+; <p> et quid sit animal nescit animal esse se <b>sentit</b> <br> <small> Sen.Ep.121.11 <br> e não sabe que é um animal, mas sente que é um animal. <small> [JDD] </small> </small> </p>
+; <p> magna uis est magnum numen unum et idem <b>sentientis</b> senatus <br> <small> Cic.Phil.3.32.9 <br> É uma grande força, um grande poder uma mesma e única opinião do senado. <small> [JDD] </small> </small> </p>
+; <p> laudabam equidem incredibilem diligentiam Cn. Pompei sed dicam ut <b>sentio</b> iudices <br> <small> Cic.Mil.65 <br> Eu louvava, sem dúvida, a incrível aplicação de Cneu Pompeu, mas vou dizer, juízes como eu penso. <small> [JDD] </small> </small> </p>
+; <p> sed hoc primum <b>sentio</b> nisi in bonis amicitiam esse non posse <br> <small> Cic.Amici.18 <br> Mas primeiro penso isto: que a amizade não pode existir a não ser entre os bons. <small> [JDD] </small> </small> </p>
+; <p> tu si ego de re publica optime <b>sentiam</b> ut me uincas ipse pessime <b>senties</b> <br> <small> Cic.Phil.14.18.4 <br> Tu, se eu tenho os melhores sentimentos acerca da república, terás os piores para me vencer? <small> [JDD] </small> </small> </p>
+; <p> unum <b>sentitis</b> omnes unum studetis M. Antoni conatus auertere a re publica furorem exstinguere opprimere audaciam <br> <small> Cic.Phil.6.18.8 <br> Todos pensais uma única coisa, desejais uma única coisa, repelir da república a tentativa de Marco Antônio, extinguir a sua loucura, esmagar a sua audácia. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-101-110-116-105-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 13.66 and an absolute frequency of 9. The Sallustius subcorpus follows, with a normalized frequency of 1.86 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 5 ; absolute frequency: 1.88836014804744. subcorpus: Cicero ; normalized frequency: 127 ; absolute frequency: 7.91158954424261. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 9 ; absolute frequency: 13.6632761499924. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 46 ; absolute frequency: 8.58513278960826. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-101-110-116-105-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.didática subcorpus registers the highest normalized frequency, with the value of 9.33 and an absolute frequency of 11. The Prosa.oratória subcorpus follows, with a normalized frequency of 9.12 and an absolute frequency of 95. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0.84 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 9 ; absolute frequency: 2.1909004600891. subcorpus: Prosa.filosófica ; normalized frequency: 52 ; absolute frequency: 8.56658045172238. subcorpus: Prosa.oratória ; normalized frequency: 95 ; absolute frequency: 9.12119670100717. subcorpus: Prosa.epistolográfica ; normalized frequency: 17 ; absolute frequency: 4.50462386390736. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 11 ; absolute frequency: 9.33073203834083. subcorpus: Poesia.trágica ; normalized frequency: 9 ; absolute frequency: 7.81792911744267. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-101-110-116-105-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 8.72 and an absolute frequency of 57. The I.a.C. subcorpus follows, with a normalized frequency of 6.33 and an absolute frequency of 136. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 136 ; absolute frequency: 6.32999767279497. subcorpus: I.d.C. ; normalized frequency: 57 ; absolute frequency: 8.71959614502065. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

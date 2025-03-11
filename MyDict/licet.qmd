@@ -1,0 +1,217 @@
+---
+title: "licet"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx108-105-99-101-116xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>licēbit</b> <br> <small>fut. de licet.</small> <br> <small></small> 
+ <b>licēssit</b> <br> <small>= licuèrit Plaul. As. 603.</small> <br> <small></small> 
+ <b>licĭtum est</b> <br> <small>= licùit, perf. de licet.</small> <br> <small></small> 
+ <b>licitūrum esset</b> <br> <small>fut. em estilo indireto, de licet:</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Terá sido permitido &ensp; <small>Cíc. AI. 2. 1. 5.</small> </p> 
+ <b>licŭit</b> <br> <small>perf. de licet.</small> <br> <small></small> 
+ <small>1.</small> <b>licet</b> <b>-ère</b> <b>licùit ou licìtum est</b> <br> <small>v. intr. e impess.</small> <br> <small>Obs.: Constrói-se com inf.. com subj .. ou com inf. passivo.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Ser permitido, poder, ter o direito &ensp; <small>Cíc. Verr. 1, 188; C íc. Amero 127: Cés. B. Civ. 3. 27, I: Cíc. Balb. 29.</small> </p> 
+ <small>2.</small> <b>licet</b> <br> <small>conj.</small> <br> <small>Obs.: Constrói-se com subj.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Embora, ainda que &ensp; <small>Cíc. Tusc. 4. 54.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Licet</b> <br> <small>adv.</small> 
+ <b>Licet</b> -<b>ebat</b> -<b>uit</b> <b>licitum est</b> <small>l</small> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; ser licito. </p>
+
+
+
+
+#### Velez
+
+<b>Licèt</b> <br> <small>Adverb. concedendi</small> 
+ <b>Licèt</b> <br> <small>Conjun.</small> 
+ <b>Licet</b> -<b>ebat</b>   <p> <b>1</b> &ensp; ser licito &ensp; <small>dat.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>si per te, uel per uos licet &ensp; <small>se mo permittis</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Licebit</b> <br> <small>coniunctio</small>   <p> <b>1</b> &ensp; ainda que </p> 
+ <b>Licet</b> <br> <small>coniunctio</small>   <p> <b>1</b> &ensp; ainda que </p> 
+ <b>Licet</b> <b>licebat</b>   <p> <b>1</b> &ensp; ser licito. ou poder </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/110432 ' target="_blank"> http://lila-erc.eu/data/id/lemma/110432 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação impessoal (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+lĭcĕt 
+ lĭcēre 
+ lĭcŭit 
+ lĭcĭtum est
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx108-105-99-101-116xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword licet here are all the values plotted: collocate: taceo; scoreSUBST: 0. collocate: non; scoreSUBST: 0. collocate: uolo; scoreSUBST: 0. collocate: idem; scoreSUBST: 0. collocate: si; scoreSUBST: 0. collocate: enim; scoreSUBST: 0. collocate: dico; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx108-105-99-101-116xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword licet here are all the values plotted: collocate: taceo; scoreADJ: 0. collocate: non; scoreADJ: 0. collocate: uolo; scoreADJ: 0. collocate: idem; scoreADJ: 0. collocate: si; scoreADJ: 0. collocate: enim; scoreADJ: 0. collocate: dico; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx108-105-99-101-116xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword licet here are all the values plotted: collocate: taceo; scoreVERBO: 2. collocate: non; scoreVERBO: 0. collocate: uolo; scoreVERBO: 2. collocate: idem; scoreVERBO: 0. collocate: si; scoreVERBO: 0. collocate: enim; scoreVERBO: 0. collocate: dico; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx108-105-99-101-116xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword licet here are all the values plotted: collocate: taceo; scoreADV: 0. collocate: non; scoreADV: 3. collocate: uolo; scoreADV: 0. collocate: idem; scoreADV: 0. collocate: si; scoreADV: 0. collocate: enim; scoreADV: 1. collocate: dico; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx108-105-99-101-116xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword licet here are all the values plotted: collocate: taceo; scoreFUNC: 0. collocate: non; scoreFUNC: 0. collocate: uolo; scoreFUNC: 0. collocate: idem; scoreFUNC: 0. collocate: si; scoreFUNC: 20. collocate: enim; scoreFUNC: 0. collocate: dico; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> tacere <b>liceat</b> <br> <small> Sen.Oed.523 <br> Que me seja permitido calar. <small> [JDD] </small> </small> </p>
+; <p> <b>licuit</b> eodem modo ut signa <br> <small> Cic.Ver.2.4.27.3 <br> Te foi permitido do mesmo modo que as estátuas. <small> [JDD] </small> </small> </p>
+; <p> itaque in urbe maneo si <b>licebit</b> manebo <br> <small> Cic.Phil.12.24.4 <br> E assim permaneço na cidade; se me for permitido, permanecerei. <small> [JDD] </small> </small> </p>
+; <p> <b>licet</b> enim sine luxuria agere festum diem <br> <small> Sen.Ep.18.4 <br> pode-se, pois, passar o dia de festa sem libertinagem. <small> [JDD] </small> </small> </p>
+; <p> non <b>licet</b> diuitias in sinu positas contemnere <br> <small> Sen.Ep.20.10 <br> Não é lícito desprezar as riquezas postas em seu poder? <small> [JDD] </small> </small> </p>
+; <p> hoc feci dum <b>licuit</b> intermisi quoad non <b>licuit</b> <br> <small> Cic.Phil.3.33.10 <br> Isso fiz, sempre que me foi permitido; deixei de fazer, enquanto não me foi permitido. <small> [JDD] </small> </small> </p>
+; <p> de reliquis rei publicae malis <b>licet</b> ne dicere <br> <small> Cic.Phil.1.14.1 <br> Por acaso é permitido falar sobre os demais males da república? <small> [JDD] </small> </small> </p>
+; <p> neque enim <b>licuit</b> aliter uestro generi nomini familiae disciplinae <br> <small> Cic.Lig.20 <br> pois não foi permitida outra coisa à vossa linhagem, nome, família, princípios. <small> [JDD] </small> </small> </p>
+; <p> proinde isti <b>licet</b> faciant quos volent consules tribunos plebis <br> <small> Cic.Att.2.9.2 <br> Assim, mesmo que esses façam quem eles querem como cônsules, tribunos da plebe <small> [JDD, de outra edição] </small> </small> </p>
+; <p> parant si accepturos <b>licuit</b> eligere si conlocata non sparsa sunt <br> <small> Sen.Ep.19.12 <br> Conquistam, se foi possível escolher os que os receberiam, se foram distribuídos, não espalhados. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx108-105-99-101-116xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 15.12 and an absolute frequency of 81. The Vergilius subcorpus follows, with a normalized frequency of 1.93 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 12 ; absolute frequency: 4.53206435531385. subcorpus: Cicero ; normalized frequency: 113 ; absolute frequency: 7.03944581495602. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 81 ; absolute frequency: 15.1172990425711. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx108-105-99-101-116xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 17.37 and an absolute frequency of 20. The Poesia.épica subcorpus follows, with a normalized frequency of 1.93 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0.85 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 20 ; absolute frequency: 4.86866768908688. subcorpus: Prosa.filosófica ; normalized frequency: 67 ; absolute frequency: 11.0377094281808. subcorpus: Prosa.oratória ; normalized frequency: 75 ; absolute frequency: 7.20094476395303. subcorpus: Prosa.epistolográfica ; normalized frequency: 32 ; absolute frequency: 8.47929197911974. subcorpus: Poesia.lírica ; normalized frequency: 9 ; absolute frequency: 7.57129637419029. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 20 ; absolute frequency: 17.3731758165393. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx108-105-99-101-116xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 12.54 and an absolute frequency of 82. The II.d.C. subcorpus follows, with a normalized frequency of 2.62 and an absolute frequency of 1. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 2.62 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 142 ; absolute frequency: 6.60926227600652. subcorpus: I.d.C. ; normalized frequency: 82 ; absolute frequency: 12.5439804191525. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+:::
+

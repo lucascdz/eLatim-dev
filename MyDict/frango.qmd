@@ -1,0 +1,205 @@
+---
+title: "frango"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx102-114-97-110-103-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>frangō</b> <b>-is</b> <b>-ère</b> <b>frégí, fractum</b> <br> <small>v. tr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Quebrar, partir. romper. rasgar. dilacerar. fazer em pedaços &ensp; <small>Cíc. Nat. 2. 125: Cés. B.. Gal. 4. 29, 3; Cíc. Fin. 2, 26.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Romper, violar. infringir &ensp; <small>Cíc. Oom. 66.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado</small> &ensp; Abater sent. físico e moral, abrandar. debilitar, enfraquecer &ensp; <small>Cíc. Fam. 4, 8. I; Cíc. Phil. 2. 3';.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado</small> &ensp; Refrear, reprimir, reduzir, vencer. destruir. arruinar &ensp; <small>Cíc. Leg. 3, 3 \: Cíc. Provo 33.</small> </p> 
+ <b>frēgī</b> <br> <small>perf. de frango.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Frango</b> -<b>is</b> <b>fregi</b> <b>fractum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; quebrar. <br> <b>2</b> &ensp; humilhar, abater. <br> <b>3</b> &ensp; <small>Frangi. pass. Cic.</small> &ensp; perder o animo, ou a paciencia. </p>
+
+
+
+
+#### Velez
+
+<b>Frango</b> -<b>is</b>   <p> <b>1</b> &ensp; quebrar, quebrantar, debilitar, refrear, etc </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>dolore, uel metu frangi &ensp; <small>affligir-se, etc</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Frango</b> <b>is</b> -<b>egi</b> <b>actum</b>   <p> <b>1</b> &ensp; quebrar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/103738 ' target="_blank"> http://lila-erc.eu/data/id/lemma/103738 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> frango </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> frangere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> franget </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> fregi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> fractum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> fracturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+frangō 
+ frangĕre 
+ frēgī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx102-114-97-110-103-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> nulla est enim tanta uis quae non ferro et uiribus debilitari <b>frangi</b>que possit <br> <small> Cic.Marc.8 <br> Pois nenhuma força é tão grande que não possa ser enfraquecida e quebrada pelo ferro e pelas forças. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx102-114-97-110-103-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 5.79 and an absolute frequency of 3. The Vergilius subcorpus follows, with a normalized frequency of 5.79 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 22 ; absolute frequency: 1.37051157459321. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 14 ; absolute frequency: 2.61286650118512. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx102-114-97-110-103-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 7.82 and an absolute frequency of 9. The Poesia.trágica subcorpus follows, with a normalized frequency of 7.82 and an absolute frequency of 9. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 3 ; absolute frequency: 0.730300153363032. subcorpus: Prosa.filosófica ; normalized frequency: 6 ; absolute frequency: 0.988451590583351. subcorpus: Prosa.oratória ; normalized frequency: 14 ; absolute frequency: 1.3441763559379. subcorpus: Prosa.epistolográfica ; normalized frequency: 7 ; absolute frequency: 1.85484512043244. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 9 ; absolute frequency: 7.81792911744267. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx102-114-97-110-103-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 4.49 and an absolute frequency of 2. The I.d.C. subcorpus follows, with a normalized frequency of 2.14 and an absolute frequency of 14. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 34 ; absolute frequency: 1.58249941819874. subcorpus: I.d.C. ; normalized frequency: 14 ; absolute frequency: 2.14165519351384. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

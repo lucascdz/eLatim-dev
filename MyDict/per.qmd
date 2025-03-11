@@ -1,0 +1,225 @@
+---
+title: "per"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-101-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>per</b> <br> <small>prep. acus. e prevérbio. Prep.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>Sent. local:</small> &ensp; Através de, por, por entre: &ensp; <small></small> <br> <b>2</b> &ensp; <small>Sent. local:</small> &ensp; Por cima de: &ensp; <small></small> <br> <b>3</b> &ensp; <small>Sent. local:</small> &ensp; Diante de, ao longo de: &ensp; <small></small> <br> <b>4</b> &ensp; <small>Sent. local:</small> &ensp; Por, para, de &ensp; <small>ideia de distribuição e sucessão:</small> <br> <b>5</b> &ensp; <small>Sent. temporal:</small> &ensp; Durante, cada: &ensp; <small></small> <br> <b>6</b> &ensp; <small>Sents. diversos:</small> &ensp; Por meio de, com o auxílio de, por intermédio de: &ensp; <small></small> <br> <b>7</b> &ensp; <small>Sents. diversos:</small> &ensp; Por causa de, por amor de, por: &ensp; <small></small> <br> <b>8</b> &ensp; <small>Sents. diversos:</small> &ensp; Em nome de, por &ensp; <small>nas fórmulas de súplica:</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>per forum Cíc. AI. 14, 16, 2 “pelo foro”. <br> <br><b>2</b><br>per corpora Cés. B. Gal. 2, 10, 2 “atravessar por cima dos cadáveres”. <br> <br><b>3</b><br>per ora vestra incedunt Sal. B. Jug. 31, 10 “passam diante dos olhos”. <br> <br><b>4</b><br>invitati per domos T. Lív. 1. 9. 9 “convidados para diferentes casas”: per manus Cés. B. Gal. 6, 38, 4 “de mão em mão”. <br> <br><b>5</b><br>per triennium Cíc. Verr. 4. 136 “durante 3 anos”. <br> <br><b>6</b><br>per litteras Cíc. Fam. 2. 6. 2 “por carta, isto é: por meio de uma carta”. <br> <br><b>7</b><br>per imprudentiam vestram Cíc. Agr. 2, 25 “por causa de vossa imprudência”. <br> <br><b>8</b><br>per deos! Cíc. Of. 2. 5 “em nome dos deuses”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Per</b> <br> <small>prep. de accus.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; por, por amor, por causa, por entre, pelo meio, em. </p>
+
+
+
+
+#### Velez
+
+<b>Per</b> <br> <small>Praep.</small>   <p> <b>1</b> &ensp; per, ou por <br> <b>2</b> &ensp; <small>interdum pro sub</small> <br> <b>3</b> &ensp; <small>composita significat</small> &ensp; muito </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>per speciem &ensp; <small>debaixo da apparencia</small> <br> per tutelam &ensp; <small><small>i, sub praetextu tutelae</small></small> <br> <br><b>3</b><br>peracerbus, Peramo &ensp; <small><small>id est, valdè Acerbus, valdè Amo</small></small> <br> <br><b>X</b><br>fecit id per otium &ensp; <small>a seu prazer</small> <br> per aetatem &ensp; <small>conforme a idade;</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Per</b> <br> <small>praepositio. accusati.</small>   <p> <b>1</b> &ensp; por </p> 
+ <b>Per</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/116569 ' target="_blank"> http://lila-erc.eu/data/id/lemma/116569 </a> <br>
+<small> classe: </small> preposição    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+pĕr
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-101-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword per here are all the values plotted: collocate: deus; scoreSUBST: 3. collocate: sui; scoreSUBST: 0. collocate: uis; scoreSUBST: 2. collocate: littera; scoreSUBST: 2. collocate: triennium; scoreSUBST: 3. collocate: senatus; scoreSUBST: 2. collocate: explorator; scoreSUBST: 3. collocate: ipse; scoreSUBST: 0. collocate: prouincia; scoreSUBST: 2. collocate: iter; scoreSUBST: 2. collocate: annus; scoreSUBST: 2. collocate: omnis; scoreSUBST: 0. collocate: tot; scoreSUBST: 0. collocate: uos; scoreSUBST: 0. collocate: finis; scoreSUBST: 2. collocate: tu; scoreSUBST: 0. collocate: orbis; scoreSUBST: 2. collocate: ego; scoreSUBST: 0. collocate: medius; scoreSUBST: 0. collocate: alius; scoreSUBST: 0. collocate: aetas; scoreSUBST: 2. collocate: qui; scoreSUBST: 0. collocate: recordor; scoreSUBST: 0. collocate: aura; scoreSUBST: 2. collocate: decem; scoreSUBST: 0. collocate: nuntius; scoreSUBST: 2. collocate: Cicero; scoreSUBST: 0. collocate: magistratus; scoreSUBST: 2. collocate: traho; scoreSUBST: 0. collocate: ager; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-101-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword per here are all the values plotted: collocate: deus; scoreADJ: 0. collocate: sui; scoreADJ: 0. collocate: uis; scoreADJ: 0. collocate: littera; scoreADJ: 0. collocate: triennium; scoreADJ: 0. collocate: senatus; scoreADJ: 0. collocate: explorator; scoreADJ: 0. collocate: ipse; scoreADJ: 0. collocate: prouincia; scoreADJ: 0. collocate: iter; scoreADJ: 0. collocate: annus; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: tot; scoreADJ: 0. collocate: uos; scoreADJ: 0. collocate: finis; scoreADJ: 0. collocate: tu; scoreADJ: 0. collocate: orbis; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: medius; scoreADJ: 2. collocate: alius; scoreADJ: 0. collocate: aetas; scoreADJ: 0. collocate: qui; scoreADJ: 0. collocate: recordor; scoreADJ: 0. collocate: aura; scoreADJ: 0. collocate: decem; scoreADJ: 0. collocate: nuntius; scoreADJ: 0. collocate: Cicero; scoreADJ: 0. collocate: magistratus; scoreADJ: 0. collocate: traho; scoreADJ: 0. collocate: ager; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-101-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword per here are all the values plotted: collocate: deus; scoreVERBO: 0. collocate: sui; scoreVERBO: 0. collocate: uis; scoreVERBO: 0. collocate: littera; scoreVERBO: 0. collocate: triennium; scoreVERBO: 0. collocate: senatus; scoreVERBO: 0. collocate: explorator; scoreVERBO: 0. collocate: ipse; scoreVERBO: 0. collocate: prouincia; scoreVERBO: 0. collocate: iter; scoreVERBO: 0. collocate: annus; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0. collocate: tot; scoreVERBO: 0. collocate: uos; scoreVERBO: 0. collocate: finis; scoreVERBO: 0. collocate: tu; scoreVERBO: 0. collocate: orbis; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: medius; scoreVERBO: 0. collocate: alius; scoreVERBO: 0. collocate: aetas; scoreVERBO: 0. collocate: qui; scoreVERBO: 0. collocate: recordor; scoreVERBO: 2. collocate: aura; scoreVERBO: 0. collocate: decem; scoreVERBO: 0. collocate: nuntius; scoreVERBO: 0. collocate: Cicero; scoreVERBO: 0. collocate: magistratus; scoreVERBO: 0. collocate: traho; scoreVERBO: 2. collocate: ager; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-101-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword per here are all the values plotted: collocate: deus; scoreADV: 0. collocate: sui; scoreADV: 0. collocate: uis; scoreADV: 0. collocate: littera; scoreADV: 0. collocate: triennium; scoreADV: 0. collocate: senatus; scoreADV: 0. collocate: explorator; scoreADV: 0. collocate: ipse; scoreADV: 0. collocate: prouincia; scoreADV: 0. collocate: iter; scoreADV: 0. collocate: annus; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: tot; scoreADV: 0. collocate: uos; scoreADV: 0. collocate: finis; scoreADV: 0. collocate: tu; scoreADV: 0. collocate: orbis; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: medius; scoreADV: 0. collocate: alius; scoreADV: 0. collocate: aetas; scoreADV: 0. collocate: qui; scoreADV: 0. collocate: recordor; scoreADV: 0. collocate: aura; scoreADV: 0. collocate: decem; scoreADV: 0. collocate: nuntius; scoreADV: 0. collocate: Cicero; scoreADV: 0. collocate: magistratus; scoreADV: 0. collocate: traho; scoreADV: 0. collocate: ager; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-101-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword per here are all the values plotted: collocate: deus; scoreFUNC: 0. collocate: sui; scoreFUNC: 0. collocate: uis; scoreFUNC: 0. collocate: littera; scoreFUNC: 0. collocate: triennium; scoreFUNC: 0. collocate: senatus; scoreFUNC: 0. collocate: explorator; scoreFUNC: 0. collocate: ipse; scoreFUNC: 0. collocate: prouincia; scoreFUNC: 0. collocate: iter; scoreFUNC: 0. collocate: annus; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0. collocate: tot; scoreFUNC: 0. collocate: uos; scoreFUNC: 0. collocate: finis; scoreFUNC: 0. collocate: tu; scoreFUNC: 0. collocate: orbis; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: medius; scoreFUNC: 0. collocate: alius; scoreFUNC: 0. collocate: aetas; scoreFUNC: 0. collocate: qui; scoreFUNC: 0. collocate: recordor; scoreFUNC: 0. collocate: aura; scoreFUNC: 0. collocate: decem; scoreFUNC: 0. collocate: nuntius; scoreFUNC: 0. collocate: Cicero; scoreFUNC: 0. collocate: magistratus; scoreFUNC: 0. collocate: traho; scoreFUNC: 0. collocate: ager; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>per</b> senatum ne <br> <small> Cic.Att.3.15.6 <br> Por meio do senado? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> tum <b>per</b> deos immortalis <br> <small> Cic.Man.53 <br> Então, pelos deuses imortais. <small> [JDD] </small> </small> </p>
+; <p> si <b>per</b> alium <b>per</b> quem <br> <small> Cic.Cael.53 <br> Se por intermédio de outro, por intermédio de quem? <small> [JDD] </small> </small> </p>
+; <p> nullus mihi <b>per</b> otium dies exit <br> <small> Sen.Ep.8.1 <br> Nenhum dia transcorre para mim por ócio. <small> [JDD] </small> </small> </p>
+; <p> decem <b>per</b> annos uidua respiciam uirum <br> <small> Sen.Ag.156 <br> Durante dez anos sozinha, vou ter consideração para com meu marido? <small> [JDD] </small> </small> </p>
+; <p> aget illum <b>per</b> omnes terras uictoria sua <br> <small> Sen.Helv.9.8 <br> Sua vitória o levará por todas as terras. <small> [JDD] </small> </small> </p>
+; <p> eos haec ipsa <b>per</b> se delectare possunt <br> <small> Cic.Att.2.17.1 <br> essas coisas por si mesmas podem deleitá-los? <small> [JDD] </small> </small> </p>
+; <p> sed <b>per</b> deos inmortalis quo illa oratio pertinuit <br> <small> Sal.Cat.51.10 <br> Mas, pelos deuses imortais, a que visa aquela oratória? <small> [JDD] </small> </small> </p>
+; <p> multi fuerunt multis in legionibus <b>per</b> tot annos <br> <small> Cic.Phil.6.14.3 <br> Muitos estiveram em muitas legiões por tantos anos. <small> [JDD] </small> </small> </p>
+; <p> Darem inquit nisi soleres <b>per</b> te sumere : <br> <small> Phaed.2.1 <br> “Eu te daria” diz “se não tivesses o costume de pegar por ti mesmo”. <small> [JDD] </small> </small> </p>
+; <p> turpissima tamen est iactura quae <b>per</b> neglegentiam fit <br> <small> Sen.Ep.1.1 <br> No entanto, é especialmente vergonhosa a perda que ocorre por negligência. <small> [JDD] </small> </small> </p>
+; <p> ars ei constat qui <b>per</b> ornamenta percussus est <br> <small> Sen.Ep.14.15 <br> A habilidade permanece para aquele que foi golpeado através da armadura. <small> [JDD] </small> </small> </p>
+; <p> cui loco <b>per</b> deos immortalis iudices consulite ac prouidete <br> <small> Cic.Ver.1.43 <br> 43 Com essa situação, pelos deuses imortais, juízes, consultai e acautelai-vos! <small> [JDD] </small> </small> </p>
+; <p> bonum societate honesti fit honestum <b>per</b> se bonum est <br> <small> Sen.Ep.118.11 <br> O bem se faz pela aliança do honesto, o honesto por si próprio é um bem. <small> [JDD] </small> </small> </p>
+; <p> nihil <b>per</b> uim umquam Clodius omnia <b>per</b> uim Milo <br> <small> Cic.Mil.36 <br> “Clódio nunca fez nada por meio da violência, Milão, tudo por meio da violência.” <small> [JDD] </small> </small> </p>
+; <p> hoc uos <b>per</b> deos immortalis quale sit non interpretamini <br> <small> Cic.Phil.1.38.1 <br> Não compreendeis, pelos deuses imortais! o que isso significa? <small> [JDD] </small> </small> </p>
+; <p> itaque confestim iter in Ciliciam feci <b>per</b> Tauri pylas <br> <small> Cic.Att.5.20.2 <br> e assim imediatamene fiz a viagem para a Cilícia através das portas de Tauro. <small> [JDD] </small> </small> </p>
+; <p> quam prouinciam tenuistis a praedonibus liberam <b>per</b> hosce annos <br> <small> Cic.Man.32 <br> Que província mantivestes livre dos piratas durante todos estes anos? <small> [JDD] </small> </small> </p>
+; <p> sed Allobroges ex praecepto Ciceronis <b>per</b> Gabinium ceteros conueniunt <br> <small> Sal.Cat.44.1 <br> Mas os Alóbroges, conforme a recomendação de Cícero, vão ao encontro dos demais por intermédio de Gabínio. <small> [JDD] </small> </small> </p>
+; <p> reliquum est ut et accipiantur et remittantur postulata <b>per</b> litteras <br> <small> Cic.Phil.12.28.4 <br> Resta que as exigências sejam recebidas e enviadas por meio de cartas. <small> [JDD] </small> </small> </p>
+; <p> non recordamini <b>per</b> deos immortalis quas in eos sententias dixeritis <br> <small> Cic.Phil.13.5.1 <br> Não lembrais, pelos deuses imortais, quais pareceres apresentastes contra eles? <small> [JDD] </small> </small> </p>
+; <p> sed certe dimissis <b>per</b> agros nuntiis sibi quemque consulere iussit <br> <small> Caes.Gal.6.31.2 <br> mas certamente, tendo despachado através dos campos campos seus mensageiros, ordenou que cada um cuidasse de si mesmo. <small> [JDD] </small> </small> </p>
+; <p> relinquit animus Sextium grauibus acceptis uulneribus deficiens aegre <b>per</b> manus tractus seruatur <br> <small> Caes.Gal.6.38.4 <br> O ânimo abandona Séxtio pelos graves ferimentos recebidos: arrastado com dificuldade de mão em mão, é salvo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> haec quoque <b>per</b> exploratores ante lucem in tanta propinquitate castrorum ad hostes deferuntur <br> <small> Caes.Gal.6.7.9 <br> Em tão grande proximidade dos acampamentos, essas informações também são levadas antes do amanhecer, por meio dos batedores, aos inimigos. <small> [JDD] </small> </small> </p>
+; <p> infert se saeptus nebula mirabile dictu <b>per</b> medios miscetque uiris neque cernitur ulli <br> <small> Verg.A.1.439 <br> Envolvido pela névoa (coisa admirável de dizer) ele se transporta pelo meio das pessoas e se mistura aos homens e não é visto por ninguém. <small> [JDD] </small> </small> </p>
+; <p> haec ubi uentosas fuerint siccata <b>per</b> auras lenta iube scabra frangat asella mola <br> <small> Ov.Med.57 <br> Quando isso tiver sido secado pela ação do sopro do vento faz que uma lenta mulinha o triture numa áspera mó. <small> [JDD] </small> </small> </p>
+; <p> nauem imperare ex foedere debuisti remisisti in triennium militem nullum umquam poposcisti <b>per</b> tot annos <br> <small> Cic.Ver.2.4.21.1 <br> 21 Devias, de acordo com o tratado, ter exigido um navio; tu o rejeitaste durante três anos; nunca exigiste durante todos esses anos nenhum soldado. <small> [JDD] </small> </small> </p>
+; <p> sed quia prouenere ibi scriptorum magna ingenia <b>per</b> terrarum orbem Atheniensium facta pro maxumis celebrantur <br> <small> Sal.Cat.8.3 <br> Mas, porque ali surgiram grandes gênios de escritores, os feitos dos atenienses são celebrados pelo orbe da terra como os maiores. <small> [JDD] </small> </small> </p>
+; <p> ille modo ignobilis anguli non sine controuersia dominus tacto fine terrarum <b>per</b> suum rediturus orbem tristis est <br> <small> Sen.Ep.119.8 <br> Aquele há pouco não sem discussão senhor de um cantinho desconhecido, depois de ter tocado o limite da terra, terá de voltar através de seu próprio mundo, é triste <small> [JDD] </small> </small> </p>
+; <p> serpit enim nescio quo modo <b>per</b> omnium uitas amicitia nec ullam aetatis degendae rationem patitur esse expertem sui <br> <small> Cic.Amici.87 <br> Pois a amizade insinua-se não sei como pelas vidas de todos e não permite que nenhuma maneira de passar a existência esteja desprovida dela. <small> [JDD] </small> </small> </p>
+; <p> quid tam singulare quam ut ex senatus consulto legibus solutus consul ante fieret quam ullum alium magistratum <b>per</b> leges capere licuisset <br> <small> Cic.Man.62 <br> O que há de tão singular quanto o fato de ele, dispensado das leis por um decreto do senado, ter se tornado cônsul antes que lhe fosse permitido por lei obter algum outra magistratura? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-101-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 55.98 and an absolute frequency of 29. The Sallustius subcorpus follows, with a normalized frequency of 43.6 and an absolute frequency of 47. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 10.63 and an absolute freqeuncy of 7. here are all the values: subcorpus: Caesar ; normalized frequency: 71 ; absolute frequency: 26.8147141022736. subcorpus: Cicero ; normalized frequency: 250 ; absolute frequency: 15.5739951658319. subcorpus: Horatius ; normalized frequency: 16 ; absolute frequency: 14.2083296332475. subcorpus: Ovidius ; normalized frequency: 21 ; absolute frequency: 36.0329444063143. subcorpus: Phaedrus ; normalized frequency: 7 ; absolute frequency: 10.6269925611052. subcorpus: Sallustius ; normalized frequency: 47 ; absolute frequency: 43.5952138020592. subcorpus: Seneca ; normalized frequency: 135 ; absolute frequency: 25.1954984042851. subcorpus: Suetonius ; normalized frequency: 2 ; absolute frequency: 22.0507166482911. subcorpus: Tacitus ; normalized frequency: 10 ; absolute frequency: 34.3288705801579. subcorpus: Vergilius ; normalized frequency: 29 ; absolute frequency: 55.984555984556. subcorpus: Hieronymus ; normalized frequency: 7 ; absolute frequency: 15.7268029656257'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-101-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 55.98 and an absolute frequency of 29. The Poesia.trágica subcorpus follows, with a normalized frequency of 32.14 and an absolute frequency of 37. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 15.73 and an absolute freqeuncy of 7. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 130 ; absolute frequency: 31.6463399790647. subcorpus: Prosa.filosófica ; normalized frequency: 109 ; absolute frequency: 17.9568705622642. subcorpus: Prosa.oratória ; normalized frequency: 173 ; absolute frequency: 16.6101792555183. subcorpus: Prosa.epistolográfica ; normalized frequency: 66 ; absolute frequency: 17.4885397069345. subcorpus: Poesia.lírica ; normalized frequency: 20 ; absolute frequency: 16.8251030537562. subcorpus: Poesia.didática ; normalized frequency: 24 ; absolute frequency: 20.3579608109254. subcorpus: Poesia.trágica ; normalized frequency: 37 ; absolute frequency: 32.1403752605976. subcorpus: Poesia.épica ; normalized frequency: 29 ; absolute frequency: 55.984555984556. subcorpus: Prosa.ficcional ; normalized frequency: 7 ; absolute frequency: 15.7268029656257'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-101-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 31.41 and an absolute frequency of 12. The I.d.C. subcorpus follows, with a normalized frequency of 24.32 and an absolute frequency of 159. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 15.73 and an absolute freqeuncy of 7. here are all the values: subcorpus: I.a.C. ; normalized frequency: 417 ; absolute frequency: 19.4088899232022. subcorpus: I.d.C. ; normalized frequency: 159 ; absolute frequency: 24.3230839834787. subcorpus: II.d.C. ; normalized frequency: 12 ; absolute frequency: 31.413612565445. subcorpus: IV.d.C. ; normalized frequency: 7 ; absolute frequency: 15.7268029656257'}
+
+
+:::
+

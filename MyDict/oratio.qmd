@@ -1,0 +1,204 @@
+---
+title: "oratio"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx111-114-97-116-105-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>ōrātĭō</b> <b>-ónis</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Faculdade de falar, linguagem, palavra &ensp; <small>Cíc. Of. 1, 50.</small> <br> <b>2</b> &ensp; <small>II-Daí, em sento especial</small> &ensp; Linguagem preparada, com arte em oposição a sermo, conversação, eloqüência &ensp; <small>Cíc. De Or. 2, 187.</small> <br> <b>3</b> &ensp; <small>II-Donde, na língua retórica:</small> &ensp; Estilo: &ensp; <small></small> <br> <b>4</b> &ensp; <small>II-Donde, na língua retórica:</small> &ensp; Discurso &ensp; <small>tratando-se do orador Cíc. Br. 91.</small> <br> <b>5</b> &ensp; <small>II-Donde, na língua retórica:</small> &ensp; Prosa &ensp; <small>em oposição à poesia Cíc. De Or. 3, 153.</small> <br> <b>6</b> &ensp; <small>II-Donde, na língua retórica:</small> &ensp; Carta, mensagem do imperador &ensp; <small>na época imperial Tác. An. 16, 27.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>3</b><br>genus orationis Cíc. Or. 87 «espécie de estilo». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Oratio</b> -<b>onis</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; oração, discurso do Orador. <br> <b>2</b> &ensp; falla, arrazoado, discurso, resposta. </p>
+
+
+
+
+#### Velez
+
+<b>Oratio</b> -<b>onis</b>   <p> <b>1</b> &ensp; oraçaõ, pratica, falla, linguagem </p>
+
+
+
+
+#### Cardoso
+
+<b>Oratio</b> <b>onis</b>   <p> <b>1</b> &ensp; a oração </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/115179 ' target="_blank"> http://lila-erc.eu/data/id/lemma/115179 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ōrātĭō 
+ ōrātĭōnis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx111-114-97-116-105-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx111-114-97-116-105-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword oratio here are all the values plotted: collocate: longus; scoreSUBST: 0. collocate: meus; scoreSUBST: 0. collocate: perpetuus; scoreSUBST: 0. collocate: genus; scoreSUBST: 2. collocate: habeo; scoreSUBST: 0. collocate: autem; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx111-114-97-116-105-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword oratio here are all the values plotted: collocate: longus; scoreADJ: 2. collocate: meus; scoreADJ: 0. collocate: perpetuus; scoreADJ: 2. collocate: genus; scoreADJ: 0. collocate: habeo; scoreADJ: 0. collocate: autem; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx111-114-97-116-105-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword oratio here are all the values plotted: collocate: longus; scoreVERBO: 0. collocate: meus; scoreVERBO: 0. collocate: perpetuus; scoreVERBO: 0. collocate: genus; scoreVERBO: 0. collocate: habeo; scoreVERBO: 2. collocate: autem; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx111-114-97-116-105-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword oratio here are all the values plotted: collocate: longus; scoreADV: 0. collocate: meus; scoreADV: 0. collocate: perpetuus; scoreADV: 0. collocate: genus; scoreADV: 0. collocate: habeo; scoreADV: 0. collocate: autem; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx111-114-97-116-105-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword oratio here are all the values plotted: collocate: longus; scoreFUNC: 0. collocate: meus; scoreFUNC: 0. collocate: perpetuus; scoreFUNC: 0. collocate: genus; scoreFUNC: 0. collocate: habeo; scoreFUNC: 0. collocate: autem; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> hac <b>oratione</b> habita concilium dimisit <br> <small> Caes.Gal.1.33.2 <br> Feito esse discurso, encerrou a reunião. <small> [JDD] </small> </small> </p>
+; <p> magnitudo rei longam <b>orationem</b> fortasse desiderat <br> <small> Cic.Att.2.23.3 <br> A magnitude do assunto exige talvez um longo discurso. <small> [JDD] </small> </small> </p>
+; <p> itaque contione aduocata huiuscemodi <b>orationem</b> habuit <br> <small> Sal.Cat.57.6 <br> E assim, convocada uma assembléia, pronunciou um discurso desse modo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> te ut plane Deiotaro reconciliet <b>oratio</b> mea <br> <small> Cic.Deiot.35 <br> É para que o meu discurso te reconcilie completamente com Dejótaro. <small> [JDD] </small> </small> </p>
+; <p> <b>orationem</b> autem Latinam efficies profecto legendis nostris pleniorem <br> <small> Cic.Off.1.2 <br> porém, lendo as nossas coisas, realizarás sem dúvida um discurso latino mais pleno. <small> [JDD] </small> </small> </p>
+; <p> longiorem <b>orationem</b> causa forsitan postulet tua certe natura breuiorem <br> <small> Cic.Lig.38 <br> A causa talvez requeira um discurso mais longo, a tua natureza, certamente, um mais curto. <small> [JDD] </small> </small> </p>
+; <p> Clodium praesentem fregi in senatu cum <b>oratione</b> perpetua plenissima gravitatis tum altercatione huius modi <br> <small> Cic.Att.1.16.8 <br> destrocei Clódio, estando ele presente no senado, não só com um discurso inteiro repletíssimo de severidade, mas também com uma altercação desse tipo <small> [JDD, de outra edição] </small> </small> </p>
+; <p> hominem petulantem modestum reddo non solum perpetua gravitate <b>orationis</b> sed etiam hoc genere dictorum <br> <small> Cic.Att.2.1.5 <br> Transformo o homem petulante em modesto não só com a perene gravidade de meu discurso, mas também com este tipo de palavras. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx111-114-97-116-105-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 9.28 and an absolute frequency of 10. The Cicero subcorpus follows, with a normalized frequency of 7.48 and an absolute frequency of 120. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 12 ; absolute frequency: 4.53206435531385. subcorpus: Cicero ; normalized frequency: 120 ; absolute frequency: 7.47551767959931. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 10 ; absolute frequency: 9.27557740469344. subcorpus: Seneca ; normalized frequency: 7 ; absolute frequency: 1.30643325059256. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx111-114-97-116-105-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 7.39 and an absolute frequency of 77. The Prosa.oratória subcorpus follows, with a normalized frequency of 7.39 and an absolute frequency of 77. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 24 ; absolute frequency: 5.84240122690426. subcorpus: Prosa.filosófica ; normalized frequency: 27 ; absolute frequency: 4.44803215762508. subcorpus: Prosa.oratória ; normalized frequency: 77 ; absolute frequency: 7.39296995765844. subcorpus: Prosa.epistolográfica ; normalized frequency: 23 ; absolute frequency: 6.09449110999232. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx111-114-97-116-105-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 6.61 and an absolute frequency of 142. The I.d.C. subcorpus follows, with a normalized frequency of 1.07 and an absolute frequency of 7. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 142 ; absolute frequency: 6.60926227600652. subcorpus: I.d.C. ; normalized frequency: 7 ; absolute frequency: 1.07082759675692. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,213 @@
+---
+title: "malo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-97-108-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>mālim</b> <br> <small>pres. subj. de malo.</small> <br> <small></small> 
+ <b>mālō</b> <b>mávis, málle, málùí</b> <br> <small>v. tr.</small> <br> <small>Obs.: Composto de volo, apresenta formas arcaicas como: mavolo Plaut. Curc. 320; mavelim Plaut. Capt. 270; mavellem Plaut. Amph. 512: mavoluit Petr. 77. 5.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Antes querer, gostar mais, preferir &ensp; <small>Sal. C. Cal. ,17, 8; Cíc. At. 7, 15, 2; Sal. C. Cal. 54, 5; Cíc. Planc. 59.</small> </p> 
+ <b>mavĕlim</b> <br> <small>= malim forma arc . do pres. de subj. de malo Plaut. Capo 270.</small> <br> <small></small> 
+ <b>mavellem</b> <br> <small>= mallem forma arc. do imperf. do subj. de malo Plaut. Amph. 512.</small> <br> <small></small> 
+ <b>mavŏlo</b> <br> <small>= malo forma arc. do pres. de malo Plaut. Curc. 320.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Malo</b> <b>mavis</b> <b>malui</b> <b>malle</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; mais, ou antes querer. </p> 
+ <b>Mavolo</b> <br> <small>v. Malo.</small>
+
+
+
+
+#### Velez
+
+<b>Malo</b> <b>mavis</b> <br> <small>1. l.</small>   <p> <b>1</b> &ensp; mais querer &ensp; <small>Act.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Malo</b> <b>mauis</b> <b>malui</b>   <p> <b>1</b> &ensp; mais querer </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/111408 ' target="_blank"> http://lila-erc.eu/data/id/lemma/111408 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> irregular <br>
+<small> outras grafias: </small> mauolo <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> malo, mauolo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> malle </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> malet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> malui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+
+
+
+
+
+#### Lexicala
+
+mālō 
+ māvis 
+ mālŭī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx109-97-108-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-97-108-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword malo here are all the values plotted: collocate: qua; scoreSUBST: 0. collocate: ago; scoreSUBST: 0. collocate: audio; scoreSUBST: 0. collocate: tu; scoreSUBST: 0. collocate: ut; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-97-108-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword malo here are all the values plotted: collocate: qua; scoreADJ: 0. collocate: ago; scoreADJ: 0. collocate: audio; scoreADJ: 0. collocate: tu; scoreADJ: 0. collocate: ut; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-97-108-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword malo here are all the values plotted: collocate: qua; scoreVERBO: 0. collocate: ago; scoreVERBO: 2. collocate: audio; scoreVERBO: 2. collocate: tu; scoreVERBO: 0. collocate: ut; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-97-108-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword malo here are all the values plotted: collocate: qua; scoreADV: 3. collocate: ago; scoreADV: 0. collocate: audio; scoreADV: 0. collocate: tu; scoreADV: 0. collocate: ut; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-97-108-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword malo here are all the values plotted: collocate: qua; scoreFUNC: 0. collocate: ago; scoreFUNC: 0. collocate: audio; scoreFUNC: 0. collocate: tu; scoreFUNC: 0. collocate: ut; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> praesentem audire <b>malo</b> <br> <small> Cic.Att.2.12.2 <br> prefiro ouvi pessoalmente. <small> [JDD] </small> </small> </p>
+; <p> <b>maluissem</b> offerre quam tradere <br> <small> Sen.Prov.5.6 <br> Eu teria preferido oferecer do que entregar. <small> [JDD] </small> </small> </p>
+; <p> <b>malo</b> te legas quam epistulam meam <br> <small> Sen.Ep.24.21 <br> Prefiro que leias a ti do que a minha carta. <small> [JDD] </small> </small> </p>
+; <p> profecto hinc natum est <b>malo</b> emere quam rogare <br> <small> Cic.Ver.2.4.12.12 <br> Sem dúvida foi daqui que nasceu: “Prefiro comprar do que implorar.” <small> [JDD] </small> </small> </p>
+; <p> sed haec <b>mallem</b> integra re te cum egissem <br> <small> Cic.Att.4.16.7 <br> Mas preferiria ter tratado essas coisas pessoalmente contigo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> at te eadem tua fortuna seruauit in cubiculo <b>malle</b> dixisti <br> <small> Cic.Deiot.21 <br> Mas aquela mesma boa sorte tua te salvou: disseste que preferias no quarto.” <small> [JDD] </small> </small> </p>
+; <p> nemo tam timidus est ut <b>malit</b> semper pendere quam semel cadere <br> <small> Sen.Ep.22.3 <br> Ninguém é tão temeroso que prefira sempre estar pendurado do que cair de uma vez. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-97-108-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 9.77 and an absolute frequency of 11. The Phaedrus subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 72 ; absolute frequency: 4.48531060775959. subcorpus: Horatius ; normalized frequency: 11 ; absolute frequency: 9.76822662285765. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 23 ; absolute frequency: 4.29256639480413. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-97-108-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 10.1 and an absolute frequency of 12. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 5.83 and an absolute frequency of 22. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 8 ; absolute frequency: 1.94746707563475. subcorpus: Prosa.filosófica ; normalized frequency: 25 ; absolute frequency: 4.1185482940973. subcorpus: Prosa.oratória ; normalized frequency: 47 ; absolute frequency: 4.51259205207723. subcorpus: Prosa.epistolográfica ; normalized frequency: 22 ; absolute frequency: 5.82951323564482. subcorpus: Poesia.lírica ; normalized frequency: 12 ; absolute frequency: 10.0950618322537. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-97-108-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 4.28 and an absolute frequency of 92. The I.a.C. subcorpus follows, with a normalized frequency of 4.28 and an absolute frequency of 92. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 92 ; absolute frequency: 4.28205724924366. subcorpus: I.d.C. ; normalized frequency: 23 ; absolute frequency: 3.51843353220132. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

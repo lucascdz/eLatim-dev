@@ -1,0 +1,214 @@
+---
+title: "consul"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-111-110-115-117-108xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>consul</b> <b>-ulis</b> <br> <small>subs. m.</small> <br> <small>Obs.: Abreviaturas de cônsul: sing.: Cos., pl.: Coss.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Cônsul, o primeiro magistrado romano &ensp; <small>Cíc. Arch. 5.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Procônsul &ensp; <small>T. Lív. 26, 33, 4.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Consul</b> -<b>ulis</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; consul. &ensp; <small>Supremo Magistrado dos Romanos em os tempos da Republica.</small> </p>
+
+
+
+
+#### Velez
+
+<b>Consul</b> -<b>is</b>   <p> <b>1</b> &ensp; o Consul, ou vereador &ensp; <small>Singulis annis consules creabantur: unde pro anno ponunt Poetae.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Consul</b> <b>ulis</b>   <p> <b>1</b> &ensp; ho vereador. ou consul </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/96181 ' target="_blank"> http://lila-erc.eu/data/id/lemma/96181 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> consol, cosol <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+consŭl 
+ consŭlis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-111-110-115-117-108xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-111-110-115-117-108xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword consul here are all the values plotted: collocate: designo; scoreSUBST: 0. collocate: Piso; scoreSUBST: 0. collocate: hirtius; scoreSUBST: 0. collocate: duo; scoreSUBST: 0. collocate: imperator; scoreSUBST: 2. collocate: Messalla; scoreSUBST: 0. collocate: declaro; scoreSUBST: 0. collocate: interficio; scoreSUBST: 0. collocate: iussus; scoreSUBST: 2. collocate: hortensius; scoreSUBST: 0. collocate: iterum; scoreSUBST: 0. collocate: Antonius; scoreSUBST: 0. collocate: insidiae; scoreSUBST: 2. collocate: habeo; scoreSUBST: 0. collocate: relinquo; scoreSUBST: 0. collocate: primum; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-111-110-115-117-108xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword consul here are all the values plotted: collocate: designo; scoreADJ: 0. collocate: Piso; scoreADJ: 0. collocate: hirtius; scoreADJ: 3. collocate: duo; scoreADJ: 0. collocate: imperator; scoreADJ: 0. collocate: Messalla; scoreADJ: 0. collocate: declaro; scoreADJ: 0. collocate: interficio; scoreADJ: 0. collocate: iussus; scoreADJ: 0. collocate: hortensius; scoreADJ: 2. collocate: iterum; scoreADJ: 0. collocate: Antonius; scoreADJ: 0. collocate: insidiae; scoreADJ: 0. collocate: habeo; scoreADJ: 0. collocate: relinquo; scoreADJ: 0. collocate: primum; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-111-110-115-117-108xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword consul here are all the values plotted: collocate: designo; scoreVERBO: 5. collocate: Piso; scoreVERBO: 0. collocate: hirtius; scoreVERBO: 0. collocate: duo; scoreVERBO: 0. collocate: imperator; scoreVERBO: 0. collocate: Messalla; scoreVERBO: 0. collocate: declaro; scoreVERBO: 2. collocate: interficio; scoreVERBO: 2. collocate: iussus; scoreVERBO: 0. collocate: hortensius; scoreVERBO: 0. collocate: iterum; scoreVERBO: 0. collocate: Antonius; scoreVERBO: 0. collocate: insidiae; scoreVERBO: 0. collocate: habeo; scoreVERBO: 2. collocate: relinquo; scoreVERBO: 2. collocate: primum; scoreVERBO: 0. collocate: sum; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-111-110-115-117-108xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword consul here are all the values plotted: collocate: designo; scoreADV: 0. collocate: Piso; scoreADV: 0. collocate: hirtius; scoreADV: 0. collocate: duo; scoreADV: 0. collocate: imperator; scoreADV: 0. collocate: Messalla; scoreADV: 0. collocate: declaro; scoreADV: 0. collocate: interficio; scoreADV: 0. collocate: iussus; scoreADV: 0. collocate: hortensius; scoreADV: 0. collocate: iterum; scoreADV: 2. collocate: Antonius; scoreADV: 0. collocate: insidiae; scoreADV: 0. collocate: habeo; scoreADV: 0. collocate: relinquo; scoreADV: 0. collocate: primum; scoreADV: 2. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-111-110-115-117-108xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword consul here are all the values plotted: collocate: designo; scoreFUNC: 0. collocate: Piso; scoreFUNC: 0. collocate: hirtius; scoreFUNC: 0. collocate: duo; scoreFUNC: 0. collocate: imperator; scoreFUNC: 0. collocate: Messalla; scoreFUNC: 0. collocate: declaro; scoreFUNC: 0. collocate: interficio; scoreFUNC: 0. collocate: iussus; scoreFUNC: 0. collocate: hortensius; scoreFUNC: 0. collocate: iterum; scoreFUNC: 0. collocate: Antonius; scoreFUNC: 0. collocate: insidiae; scoreFUNC: 0. collocate: habeo; scoreFUNC: 0. collocate: relinquo; scoreFUNC: 0. collocate: primum; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> fortasse accedent etiam <b>consules</b> designati <br> <small> Cic.Att.4.15.9 <br> Talvez venham também os cônsules designados. <small> [JDD] </small> </small> </p>
+; <p> cum haec leges habebimus <b>consules</b> <br> <small> Cic.Att.5.12.2 <br> Quando estiveres lendo isto, teremos cônsules. <small> [JDD] </small> </small> </p>
+; <p> Metellus tuus est egregius <b>consul</b> <br> <small> Cic.Att.1.20.5 <br> Teu Metelo é um cônsul excelente. <small> [JDD] </small> </small> </p>
+; <p> Kal Ianuariis Marco Messalla Marco Pisone <b>consulibus</b> <br> <small> Cic.Att.1.12.4 <br> Em 1 de Janeiro, sob o consulado de Marco Messala e Marco Pisão. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Pisonem <b>consulem</b> nulla in re consistere umquam sum passus <br> <small> Cic.Att.1.16.8 <br> não mais permiti que o cônsul Pisão se firmasse em coisa alguma. <small> [JDD] </small> </small> </p>
+; <p> est <b>consul</b> φιλόπατρις et ut semper iudicavi natura bonus <br> <small> Cic.Att.2.1.4 <br> Ele é um cônsul patriota e, como sempre julguei, bom por natureza. <small> [JDD] </small> </small> </p>
+; <p> quibus rebus confectis omnia propere per nuntios <b>consuli</b> declarantur <br> <small> Sal.Cat.46.1 <br> Concluídas essas coisas, tudo é rapidamente anunciado ao cônsul por meio de mensageiros. <small> [JDD] </small> </small> </p>
+; <p> an quia non condemnaui sententia mea duo <b>consules</b> sum reprehendendus <br> <small> Cic.Dom.9 <br> 9 Por acaso devo ser repreendido porque não condenei com meu parecer os dois cônsules? <small> [JDD] </small> </small> </p>
+; <p> initium mihi operis Seruius Galba iterum Titus Uinius <b>consules</b> erunt <br> <small> Tac.Hist.1.1.1 <br> O consulado de Sérvio Galba pela segunda vez e de Tito Vínio será o início de minha obra. <small> [JDD] </small> </small> </p>
+; <p> si <b>consul</b> Antonius Brutus hostis si conseruator rei publicae Brutus hostis Antonius <br> <small> Cic.Phil.4.8.4 <br> Se Antônio é o cônsul, Bruto é o inimigo; se Bruto é o salvador da república, o inimigo é Antônio. <small> [JDD] </small> </small> </p>
+; <p> nam si ille non hostis hos qui <b>consulem</b> reliquerunt hostis necesse est iudicemus <br> <small> Cic.Phil.4.5.8 <br> Pois, se ele não é inimigo, é inevitável que consideremos inimigos estes que o abandonaram, sendo ele cônsul. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quid igitur profectus est uir fortissimus meus conlega et familiaris A. Hirtius <b>consul</b> <br> <small> Cic.Phil.7.12.1 <br> Por que, então, esse homem valorosíssimo, meu colega e amigo íntimo, o cônsul Aulo Hírcio partiu? <small> [JDD] </small> </small> </p>
+; <p> igitur comitiis habitis <b>consules</b> declarantur M. Tullius et C. Antonius quod factum primo popularis coniurationis concusserat <br> <small> Sal.Cat.24.1 <br> Portanto, realizadas as eleições, são declarados cônsules Marco Túlio e Caio Antônio. Esse fato tinha inicialmente abalado os partidários da conjuração. <small> [JDD] </small> </small> </p>
+; <p> hic pagus unus cum domo exisset patrum nostrorum memoria L. Cassium <b>consulem</b> interfecerat et eius exercitum sub iugum miserat <br> <small> Caes.Gal.1.12.5 <br> Este mesmo cantão, quando saía de sua pátria, no tempo de nossos pais, matara o cônsul L. Cassio e fizera seu exército passar sob o jugo. <small> [JDD] </small> </small> </p>
+; <p> habetis <b>consulem</b> ex plurimis periculis et insidiis atque ex media morte non ad uitam suam sed ad salutem uestram reseruatum <br> <small> Cic.Catil.4.18.3 <br> Tendes um cônsul salvaguardado de muitíssimos perigos e ciladas e do meio da morte não para sua própria vida, mas para a vossa salvação. <small> [JDD] </small> </small> </p>
+; <p> negat hoc D. Brutus imperator <b>consul</b> designatus natus rei publicae ciuis negat Gallia negat cuncta Italia negat senatus negatis uos <br> <small> Cic.Phil.4.9.6 <br> Nega que ele seja cônsul Décimo Bruto, general, cônsul eleito, cidadão nascido para a república, a Gália nega, a Itália toda nega, o senado nega, vós negais. <small> [JDD] </small> </small> </p>
+; <p> ad mortem te Catilina duci iussu <b>consulis</b> iam pridem oportebat in te conferri pestem quam tu in nos omnis iam diu machinaris <br> <small> Cic.Catil.1.2.6 <br> Há muito já convinha que tu, Catilina, fosses levado para a morte por ordem do cônsul, que contra ti fosse aplicado o flagelo que contra todos nós já há muito tu maquinas. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> in eo esse haec commoda primum M. Metellum amicissimum deinde Hortensium <b>consulem</b> neque Hortensium solum sed etiam Q. Metellum qui quam isti sit amicus attendite dedit enim praerogatiuam suae uoluntatis eius modi ut isti pro praerogatiuis iam reddidisse uideatur <br> <small> Cic.Ver.1.26 <br> Nisso havia estas vantagens: em primeiro lugar, Marco Metelo era amicíssimo seu, depois Hortênsio seria cônsul e não somente Hortênsio, mas também Quinto Metelo, o qual vede bem o quanto é amigo desse sujeito; pois ele lhe deu a prerrogativa de sua vontade de um modo que parece já ter devolvido a esse sujeito pelas prerrogativas centuriais. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-111-110-115-117-108xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 29.68 and an absolute frequency of 32. The Suetonius subcorpus follows, with a normalized frequency of 11.03 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 8 ; absolute frequency: 3.0213762368759. subcorpus: Cicero ; normalized frequency: 309 ; absolute frequency: 19.2494580249682. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 32 ; absolute frequency: 29.681847695019. subcorpus: Seneca ; normalized frequency: 1 ; absolute frequency: 0.186633321513223. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 6 ; absolute frequency: 20.5973223480947. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-111-110-115-117-108xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 20.64 and an absolute frequency of 215. The Prosa.oratória subcorpus follows, with a normalized frequency of 20.64 and an absolute frequency of 215. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 47 ; absolute frequency: 11.4413690693542. subcorpus: Prosa.filosófica ; normalized frequency: 25 ; absolute frequency: 4.1185482940973. subcorpus: Prosa.oratória ; normalized frequency: 215 ; absolute frequency: 20.642708323332. subcorpus: Prosa.epistolográfica ; normalized frequency: 70 ; absolute frequency: 18.5484512043244. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-111-110-115-117-108xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 18.32 and an absolute frequency of 7. The I.a.C. subcorpus follows, with a normalized frequency of 16.29 and an absolute frequency of 350. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 350 ; absolute frequency: 16.29043518734. subcorpus: I.d.C. ; normalized frequency: 1 ; absolute frequency: 0.152975370965275. subcorpus: II.d.C. ; normalized frequency: 7 ; absolute frequency: 18.3246073298429. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

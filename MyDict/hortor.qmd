@@ -1,0 +1,207 @@
+---
+title: "hortor"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx104-111-114-116-111-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>hortor</b> <b>-áris, -árí, hortátus sum</b> <br> <small>v. dep. tr.</small> <br> <small>Obs.: Constrói-se com acus. com acus. com prep. ad ou in, com acus. e subj., com acus. e abl., com inf. ou como absoluto. A forma ativa horta, -ás, -áre, etc., ocorre em Sêneca. O retor Suas. 5, 8.</small>   <p> <b>1</b> &ensp; <small>Sent. próprio</small> &ensp; Fazer querer: donde: exortar, encorajar, excitar, estimular &ensp; <small>Cíc. Provo 9; Cés. B. Gal. 6, 33, 5.</small> <br> <b>2</b> &ensp; <small>Sent. próprio</small> &ensp; Animar, instigar, aconselhar &ensp; <small>Cíc. Alo 7, 14, 3.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Hortor</b> -<b>aris</b> -<b>atus sum</b> -<b>ari</b> <br> <small>Pass. Varr. apud Priscian.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; exhortar. </p>
+
+
+
+
+#### Velez
+
+<b>Hortor</b> -<b>aris</b>   <p> <b>1</b> &ensp; exhortar, aconselhar, incitar </p>
+
+
+
+
+#### Cardoso
+
+<b>Hortor</b> -<b>aris</b>   <p> <b>1</b> &ensp; amoestar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/105727 ' target="_blank"> http://lila-erc.eu/data/id/lemma/105727 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação depoente (tema em -a-) <br>
+<small> outras grafias: </small> horitor <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> horitor, hortor </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz passiva </small><br>
+; <b> horitari, hortari </b>&emsp;<small> presente | infinitivo | passivo </small><br>
+; <b> horitabitur, hortabitur </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz passiva </small><br>
+; <b> hortaui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> hortatum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> hortaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+hortāris 
+ hortārī 
+ hortātus sum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx104-111-114-116-111-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx104-111-114-116-111-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword hortor here are all the values plotted: collocate: uos; scoreSUBST: 0. collocate: alius; scoreSUBST: 0. collocate: ut; scoreSUBST: 0. collocate: tu; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx104-111-114-116-111-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword hortor here are all the values plotted: collocate: uos; scoreADJ: 0. collocate: alius; scoreADJ: 0. collocate: ut; scoreADJ: 0. collocate: tu; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx104-111-114-116-111-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword hortor here are all the values plotted: collocate: uos; scoreVERBO: 0. collocate: alius; scoreVERBO: 0. collocate: ut; scoreVERBO: 0. collocate: tu; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx104-111-114-116-111-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword hortor here are all the values plotted: collocate: uos; scoreADV: 0. collocate: alius; scoreADV: 0. collocate: ut; scoreADV: 0. collocate: tu; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx104-111-114-116-111-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword hortor here are all the values plotted: collocate: uos; scoreFUNC: 0. collocate: alius; scoreFUNC: 0. collocate: ut; scoreFUNC: 20. collocate: tu; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>hortaris</b> etiam sponte deponam ut mea tam grauia regna <br> <small> Sen.Oed.678 <br> Até mesmo me exortas a que eu espontaneamente abandone o meu tão pesado reino? <small> [JDD] </small> </small> </p>
+; <p> itaque nunc uos omnis oro atque obtestor <b>hortor</b> que <br> <small> Cic.Rab.Perd.35 <br> E assim agora vos peço e suplico e exorto a todos. <small> [JDD] </small> </small> </p>
+; <p> quid te aut <b>horter</b> quod facis aut agam gratias quod non exspectas <br> <small> Cic.Att.3.17.3 <br> Para que te exortar ao que já fazes ou agradecer-te, o que não esperas? <small> [JDD] </small> </small> </p>
+; <p> quid est aliud <b>hortari</b> adulescentis ut turbulenti ut seditiosi ut perniciosi ciues uelint esse <br> <small> Cic.Phil.1.22.8 <br> Que outra coisa é isso senão animar os jovens a que queiram ser cidadãos turbulentos, sediciosos, perniciosos? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx104-111-114-116-111-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 11.03 and an absolute frequency of 1. The Sallustius subcorpus follows, with a normalized frequency of 8.35 and an absolute frequency of 9. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 8 ; absolute frequency: 3.0213762368759. subcorpus: Cicero ; normalized frequency: 23 ; absolute frequency: 1.43280755525653. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 9 ; absolute frequency: 8.3480196642241. subcorpus: Seneca ; normalized frequency: 9 ; absolute frequency: 1.67969989361901. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx104-111-114-116-111-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 4.38 and an absolute frequency of 18. The Prosa.oratória subcorpus follows, with a normalized frequency of 0.96 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 18 ; absolute frequency: 4.38180092017819. subcorpus: Prosa.filosófica ; normalized frequency: 11 ; absolute frequency: 1.81216124940281. subcorpus: Prosa.oratória ; normalized frequency: 10 ; absolute frequency: 0.960125968527071. subcorpus: Prosa.epistolográfica ; normalized frequency: 10 ; absolute frequency: 2.64977874347492. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx104-111-114-116-111-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 2.62 and an absolute frequency of 1. The I.a.C. subcorpus follows, with a normalized frequency of 1.91 and an absolute frequency of 41. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 41 ; absolute frequency: 1.90830812194554. subcorpus: I.d.C. ; normalized frequency: 10 ; absolute frequency: 1.52975370965275. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

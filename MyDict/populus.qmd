@@ -1,0 +1,221 @@
+---
+title: "populus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-111-112-117-108-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>popŭlus</b> <b>-í</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Povo &ensp; <small>conjunto dos cidadãos Cíc. Phil. 6. 12.</small> <br> <b>2</b> &ensp; <small>II-Sent. particular</small> &ensp; O público, a população &ensp; <small>Cíc. Tusc. 2. 64.</small> <br> <b>3</b> &ensp; <small>II-Sent. particular</small> &ensp; O povo &ensp; <small>com exclusão do senado.</small> <br> <b>4</b> &ensp; <small>II-Sent. particular</small> &ensp; O povo &ensp; <small>em oposição a plebs, como o todo de uma parte Cíc. Mur. 1.</small> <br> <b>5</b> &ensp; <small>II-Sent. particular</small> &ensp; Plebe, populaça &ensp; <small>= plebs Marc. 8. 15. 3 sent. raro</small> <br> <b>6</b> &ensp; <small>II-Sent. particular</small> &ensp; Grande agrupamento de pessoas, população, habitantes &ensp; <small>Ter. Ad. 93.</small> <br> <b>7</b> &ensp; <small>II-Sent. particular</small> &ensp; Região, povoação &ensp; <small>sent. raro T. Lív. 21. 34. 1.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Populus</b> -<b>i</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; povo. <br> <b>2</b> &ensp; <small>Col.</small> &ensp; qualquer ajuntamento, ou multidão. </p>
+
+
+
+
+#### Velez
+
+<b>Populus</b> -<b>i</b> <br> <small>masc.</small>   <p> <b>1</b> &ensp; o povo </p>
+
+
+
+
+#### Cardoso
+
+<b>Populus</b> <b>i</b>   <p> <b>1</b> &ensp; ho pouo. ou alemo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/118463 ' target="_blank"> http://lila-erc.eu/data/id/lemma/118463 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> popolus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+pŏpŭlus 
+ pŏpŭlī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-111-112-117-108-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-111-112-117-108-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword populus here are all the values plotted: collocate: romanus; scoreSUBST: 0. collocate: uniuersus; scoreSUBST: 0. collocate: libertas; scoreSUBST: 3. collocate: imperium; scoreSUBST: 3. collocate: senatus; scoreSUBST: 2. collocate: que; scoreSUBST: 0. collocate: beneficium; scoreSUBST: 2. collocate: socius; scoreSUBST: 2. collocate: suffragium; scoreSUBST: 2. collocate: existimatio; scoreSUBST: 2. collocate: pro; scoreSUBST: 0. collocate: bellum; scoreSUBST: 2. collocate: senator; scoreSUBST: 2. collocate: per; scoreSUBST: 0. collocate: nomen; scoreSUBST: 2. collocate: iussus; scoreSUBST: 2. collocate: salus; scoreSUBST: 2. collocate: Fortuna; scoreSUBST: 0. collocate: pernicies; scoreSUBST: 2. collocate: carus; scoreSUBST: 0. collocate: liber; scoreSUBST: 0. collocate: praetor; scoreSUBST: 2. collocate: uoluntas; scoreSUBST: 2. collocate: imperator; scoreSUBST: 2. collocate: uersus; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-111-112-117-108-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword populus here are all the values plotted: collocate: romanus; scoreADJ: 5. collocate: uniuersus; scoreADJ: 0. collocate: libertas; scoreADJ: 0. collocate: imperium; scoreADJ: 0. collocate: senatus; scoreADJ: 0. collocate: que; scoreADJ: 0. collocate: beneficium; scoreADJ: 0. collocate: socius; scoreADJ: 0. collocate: suffragium; scoreADJ: 0. collocate: existimatio; scoreADJ: 0. collocate: pro; scoreADJ: 0. collocate: bellum; scoreADJ: 0. collocate: senator; scoreADJ: 0. collocate: per; scoreADJ: 0. collocate: nomen; scoreADJ: 0. collocate: iussus; scoreADJ: 0. collocate: salus; scoreADJ: 0. collocate: Fortuna; scoreADJ: 0. collocate: pernicies; scoreADJ: 0. collocate: carus; scoreADJ: 2. collocate: liber; scoreADJ: 2. collocate: praetor; scoreADJ: 0. collocate: uoluntas; scoreADJ: 0. collocate: imperator; scoreADJ: 0. collocate: uersus; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-111-112-117-108-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword populus here are all the values plotted: collocate: romanus; scoreVERBO: 0. collocate: uniuersus; scoreVERBO: 0. collocate: libertas; scoreVERBO: 0. collocate: imperium; scoreVERBO: 0. collocate: senatus; scoreVERBO: 0. collocate: que; scoreVERBO: 0. collocate: beneficium; scoreVERBO: 0. collocate: socius; scoreVERBO: 0. collocate: suffragium; scoreVERBO: 0. collocate: existimatio; scoreVERBO: 0. collocate: pro; scoreVERBO: 0. collocate: bellum; scoreVERBO: 0. collocate: senator; scoreVERBO: 0. collocate: per; scoreVERBO: 0. collocate: nomen; scoreVERBO: 0. collocate: iussus; scoreVERBO: 0. collocate: salus; scoreVERBO: 0. collocate: Fortuna; scoreVERBO: 0. collocate: pernicies; scoreVERBO: 0. collocate: carus; scoreVERBO: 0. collocate: liber; scoreVERBO: 0. collocate: praetor; scoreVERBO: 0. collocate: uoluntas; scoreVERBO: 0. collocate: imperator; scoreVERBO: 0. collocate: uersus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-111-112-117-108-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword populus here are all the values plotted: collocate: romanus; scoreADV: 0. collocate: uniuersus; scoreADV: 0. collocate: libertas; scoreADV: 0. collocate: imperium; scoreADV: 0. collocate: senatus; scoreADV: 0. collocate: que; scoreADV: 0. collocate: beneficium; scoreADV: 0. collocate: socius; scoreADV: 0. collocate: suffragium; scoreADV: 0. collocate: existimatio; scoreADV: 0. collocate: pro; scoreADV: 0. collocate: bellum; scoreADV: 0. collocate: senator; scoreADV: 0. collocate: per; scoreADV: 0. collocate: nomen; scoreADV: 0. collocate: iussus; scoreADV: 0. collocate: salus; scoreADV: 0. collocate: Fortuna; scoreADV: 0. collocate: pernicies; scoreADV: 0. collocate: carus; scoreADV: 0. collocate: liber; scoreADV: 0. collocate: praetor; scoreADV: 0. collocate: uoluntas; scoreADV: 0. collocate: imperator; scoreADV: 0. collocate: uersus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-111-112-117-108-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword populus here are all the values plotted: collocate: romanus; scoreFUNC: 0. collocate: uniuersus; scoreFUNC: 0. collocate: libertas; scoreFUNC: 0. collocate: imperium; scoreFUNC: 0. collocate: senatus; scoreFUNC: 0. collocate: que; scoreFUNC: 0. collocate: beneficium; scoreFUNC: 0. collocate: socius; scoreFUNC: 0. collocate: suffragium; scoreFUNC: 0. collocate: existimatio; scoreFUNC: 0. collocate: pro; scoreFUNC: 20. collocate: bellum; scoreFUNC: 0. collocate: senator; scoreFUNC: 0. collocate: per; scoreFUNC: 20. collocate: nomen; scoreFUNC: 0. collocate: iussus; scoreFUNC: 0. collocate: salus; scoreFUNC: 0. collocate: Fortuna; scoreFUNC: 0. collocate: pernicies; scoreFUNC: 0. collocate: carus; scoreFUNC: 0. collocate: liber; scoreFUNC: 0. collocate: praetor; scoreFUNC: 0. collocate: uoluntas; scoreFUNC: 0. collocate: imperator; scoreFUNC: 0. collocate: uersus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>populus</b>que iure sciuit <br> <small> Cic.Phil.1.26.4 <br> e o povo por direito ficou sabendo.” <small> [JDD] </small> </small> </p>
+; <p> quid <b>populi</b> uersus <br> <small> Cic.Phil.1.36.3 <br> E os versos do povo? <small> [JDD] </small> </small> </p>
+; <p> itaque lex popularis suffragiis <b>populi</b> repudiata est <br> <small> Cic.Amici.96 <br> E assim uma lei popular foi rejeitada pelos votos do povo. <small> [JDD] </small> </small> </p>
+; <p> <b>populi</b> Romani igitur est patronus L. Antonius <br> <small> Cic.Phil.6.12.8 <br> Lúcio Antônio é, portanto, patrono do povo romano. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> cooptatio enim collegiorum ad <b>populi</b> beneficium transferebatur <br> <small> Cic.Amici.96 <br> Pois a escolha dos colégios era transferida ao privilégio do povo. <small> [JDD] </small> </small> </p>
+; <p> quem uocet diuum <b>populus</b> ruentis imperi rebus <br> <small> Hor.Carm.1.2.25 <br> Qual dos deuses o povo há de invocar nestas circunstâcias do império que desmorona? <small> [JDD] </small> </small> </p>
+; <p> leguntur eadem ratione ad senatum Allobrogum <b>populum</b>que litterae <br> <small> Cic.Catil.3.11.1 <br> Do mesmo modo é lida a carta ao senado e ao povo dos alóbroges. <small> [JDD] </small> </small> </p>
+; <p> iste homo non est unus e <b>populo</b> ad salutem spectat <br> <small> Sen.Ep.10.3 <br> esse homem não é mais um do povo, olha para a sua salvação.” <small> [JDD] </small> </small> </p>
+; <p> uirgis iste caederet sine causa socium <b>populi</b> Romani atque amicum <br> <small> Cic.Ver.2.4.86.10 <br> Cortaria de varas esse sujeito, sem motivo, a um aliado e amigo do povo romano? <small> [JDD] </small> </small> </p>
+; <p> iudices non crimina non testis non existimationem <b>populi</b> Romani sequentur <br> <small> Cic.Ver.1.20 <br> O juízes não levarão em consideração as acusações, as testemunhas, a estima do povo romano? <small> [JDD] </small> </small> </p>
+; <p> aliae nationes seruitutem pati possunt <b>populi</b> Romani est propria libertas <br> <small> Cic.Phil.6.19.11 <br> Outras nações pode suportar a escravidão, a liberdade é própria do povo romano. <small> [JDD] </small> </small> </p>
+; <p> parum ne haec significant incredibiliter consentientem <b>populi</b> Romani uniuersi uoluntatem <br> <small> Cic.Phil.1.36.5 <br> Por acaso essas coisas expressam pouco a incrivelmente unânime vontade de todo o povo romano? <small> [JDD] </small> </small> </p>
+; <p> et cum uniuerso <b>populo</b> Romano tum uero equestri ordini longe carissimus <br> <small> Cic.Rab.Perd.39 <br> E ele é de longe o mais caro não só a todo o povo romano, mas também à ordem equestre. <small> [JDD] </small> </small> </p>
+; <p> si id non fecissent longe his fraternum nomen <b>populi</b> Romani afuturum <br> <small> Caes.Gal.1.36.5 <br> que, se nãofizessem isso, o título de irmãos do povo romano iria ser inútil para eles. <small> [JDD] </small> </small> </p>
+; <p> Democritus ait unus mihi pro <b>populo</b> est et <b>populus</b> pro uno <br> <small> Sen.Ep.7.10 <br> Demócrito diz: “um é para mim como um povo, e um povo como um só”. <small> [JDD] </small> </small> </p>
+; <p> neque uero recuso munus hoc quamquam <b>populum</b> Romanum uideo pro me recusare <br> <small> Cic.Phil.12.24.9 <br> E, na verdade, não recuso essa função, ainda que eu veja o povo romano recusar por mim. <small> [JDD] </small> </small> </p>
+; <p> ac si per <b>populum</b> poterit ne nisi de omnium tribunorum plebis sententia <br> <small> Cic.Att.3.15.6 <br> E se é através do povo, será possível, sem o parecer de todos os tribunos da plebe? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nulla enim est natio quam pertimescamus nullus rex qui bellum <b>populo</b> Romano facere possit <br> <small> Cic.Catil.2.11.6 <br> Pois não há nenhuma nação que devamos temer, nenhum rei que possa fazer a guerra ao povo romano. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> senator <b>populi</b> Romani quod in uobis fuit in uestro oppido iacuit et pernoctauit in publico <br> <small> Cic.Ver.2.4.25.17 <br> Um senador do povo romano, no que dependeu de vós, ficou jogado em vossa cidade e passou a noite ao relento. <small> [JDD] </small> </small> </p>
+; <p> sed huius benefici gratiam iudices Fortuna <b>populi</b> Romani et uestra felicitas et di immortales sibi deberi putant <br> <small> Cic.Mil.83 <br> Mas, juízes, a Fortuna do povo romano e a vossa felicidade e os deuses imortais consideram que o agradecimento desse benefício lhes é devido. <small> [JDD] </small> </small> </p>
+; <p> nam mihi Pompeiani prodromi nuntiant aperte Pompeium acturum Antonio succedi oportere eodemque tempore aget praetor ad <b>populum</b> <br> <small> Cic.Att.1.12.1 <br> Com efeito, os porta-vozes de Pompeu me anunciam abertamente que Pompeu proporá que convém substituir-se a Antônio, e, ao mesmo tempo, o pretor o levará diante do povo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quae est igitur spes qui Mutinam circumsedent imperatorem <b>populi</b> Romani exercitumque oppugnant eis pacem cum <b>populo</b> Romano esse posse <br> <small> Cic.Phil.7.22.6 <br> Que esperança há, portanto, de que possam ter paz com o povo romano esses que fazem o cerco de Mutina e atacam o general do povo romano e seu exército? <small> [JDD] </small> </small> </p>
+; <p> his auctoribus et ducibus dis iuuantibus nobis uigilantibus et multum in posterum prouidentibus <b>populo</b> Romano consentiente erimus profecto liberi breui tempore <br> <small> Cic.Phil.3.36.12 <br> Com essas autoridades e guias, com a ajuda dos deuses, com nossa vigilância e previsão para os acontecimentos futuros, com a concordância do povo romano seremos sem dúvida livres em pouco tempo. <small> [JDD] </small> </small> </p>
+; <p> idem ipsum Lentulum largitorem et prodigum non putat cum de pernicie <b>populi</b> Romani exitio huius urbis tam acerbe tam crudeliter cogitarit etiam appellari posse popularem <br> <small> Cic.Catil.4.10.12 <br> O mesmo não acha que Lêntulo, esbanjador e pródigo, possa ainda ser chamado de popular, uma vez que pensou tão acremente, tão cruelmente na desgraça do povo romano, na destruição desta cidade. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ea potestas per senatum more Romano magistratui maxuma permittitur exercitum parare bellum gerere coercere omnibus modis socios atque ciuis domi militiaeque imperium atque iudicium summum habere aliter sine <b>populi</b> iussu nullius earum rerum consuli ius est <br> <small> Sal.Cat.29.3 <br> Este é, conforme o costume romano, o poder máximo concedido através do senado a um magistrado: preparar um exército, fazer a guerra, reprimir por todos os meios os aliados e os cidadãos, ter no civil e no militar o mando e o julgamento supremo; em qualquer outro caso, sem a ordem do povo, o cônsul não tem o direito de nenhuma dessas coisas. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-111-112-117-108-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 26.44 and an absolute frequency of 70. The Caesar subcorpus follows, with a normalized frequency of 26.44 and an absolute frequency of 70. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 3.04 and an absolute freqeuncy of 2. here are all the values: subcorpus: Caesar ; normalized frequency: 70 ; absolute frequency: 26.4370420726641. subcorpus: Cicero ; normalized frequency: 424 ; absolute frequency: 26.4134958012509. subcorpus: Horatius ; normalized frequency: 10 ; absolute frequency: 8.88020602077968. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 18 ; absolute frequency: 16.6960393284482. subcorpus: Seneca ; normalized frequency: 50 ; absolute frequency: 9.33166607566115. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 6 ; absolute frequency: 20.5973223480947. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-111-112-117-108-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 36.48 and an absolute frequency of 380. The Prosa.histórica subcorpus follows, with a normalized frequency of 23.13 and an absolute frequency of 95. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 4.24 and an absolute freqeuncy of 5. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 95 ; absolute frequency: 23.1261715231627. subcorpus: Prosa.filosófica ; normalized frequency: 50 ; absolute frequency: 8.23709658819459. subcorpus: Prosa.oratória ; normalized frequency: 380 ; absolute frequency: 36.4847868040287. subcorpus: Prosa.epistolográfica ; normalized frequency: 33 ; absolute frequency: 8.74426985346724. subcorpus: Poesia.lírica ; normalized frequency: 10 ; absolute frequency: 8.4125515268781. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 11 ; absolute frequency: 9.55524669909659. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-111-112-117-108-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 24.48 and an absolute frequency of 526. The I.d.C. subcorpus follows, with a normalized frequency of 8.41 and an absolute frequency of 55. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 4.49 and an absolute freqeuncy of 2. here are all the values: subcorpus: I.a.C. ; normalized frequency: 526 ; absolute frequency: 24.4821968815453. subcorpus: I.d.C. ; normalized frequency: 55 ; absolute frequency: 8.4136454030901. subcorpus: II.d.C. ; normalized frequency: 7 ; absolute frequency: 18.3246073298429. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

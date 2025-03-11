@@ -1,0 +1,214 @@
+---
+title: "soleo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-111-108-101-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>solĕō</b> <b>-és</b> <b>-ére</b> <b>solìtus sum</b> <br> <small>v. semidep. intr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Costumar, estar acostumado, estar habituado &ensp; <small>Cíc. De Or. 2, 56; Cíc, Fin. 5, 1.</small> <br> <b>2</b> &ensp; <small>II-Daí, por eufemismo</small> &ensp; Ter relações carnais &ensp; <small>com alguém Catul. 113, 2.</small> </p> 
+ <small>2.</small> <b>solŭī</b> <br> <small>perf. arcaico de solèo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Soleo</b> -<b>es</b> -<b>ui</b> <b>solitus sum</b> <small>l</small> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; costumar. </p>
+
+
+
+
+#### Velez
+
+<b>Soleo</b> -<b>es</b>   <p> <b>1</b> &ensp; costumar-se, ou ter por costume &ensp; <small>sine casu:</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>ut solet, uel, ut assolet &ensp; <small><small>in medio orationis pro: Ut saepe sit</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Soleo</b> -<b>es</b> <b>solitus sum</b>   <p> <b>1</b> &ensp; acostumar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/125051 ' target="_blank"> http://lila-erc.eu/data/id/lemma/125051 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> soleo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> solere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> solebit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> solui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> solitum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> soliturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+sŏlĕō 
+ sŏlēs 
+ sŏlēre 
+ sŏlĭtus sum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx115-111-108-101-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-111-108-101-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword soleo here are all the values plotted: collocate: admiror; scoreSUBST: 0. collocate: fio; scoreSUBST: 0. collocate: miror; scoreSUBST: 0. collocate: appello; scoreSUBST: 0. collocate: sic; scoreSUBST: 0. collocate: dico; scoreSUBST: 0. collocate: ut; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-111-108-101-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword soleo here are all the values plotted: collocate: admiror; scoreADJ: 0. collocate: fio; scoreADJ: 0. collocate: miror; scoreADJ: 0. collocate: appello; scoreADJ: 0. collocate: sic; scoreADJ: 0. collocate: dico; scoreADJ: 0. collocate: ut; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-111-108-101-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword soleo here are all the values plotted: collocate: admiror; scoreVERBO: 2. collocate: fio; scoreVERBO: 2. collocate: miror; scoreVERBO: 2. collocate: appello; scoreVERBO: 2. collocate: sic; scoreVERBO: 0. collocate: dico; scoreVERBO: 2. collocate: ut; scoreVERBO: 0. collocate: sum; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-111-108-101-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword soleo here are all the values plotted: collocate: admiror; scoreADV: 0. collocate: fio; scoreADV: 0. collocate: miror; scoreADV: 0. collocate: appello; scoreADV: 0. collocate: sic; scoreADV: 2. collocate: dico; scoreADV: 0. collocate: ut; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-111-108-101-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword soleo here are all the values plotted: collocate: admiror; scoreFUNC: 0. collocate: fio; scoreFUNC: 0. collocate: miror; scoreFUNC: 0. collocate: appello; scoreFUNC: 0. collocate: sic; scoreFUNC: 0. collocate: dico; scoreFUNC: 0. collocate: ut; scoreFUNC: 20. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> e contrario dicere <b>solemus</b> febris illum tenet <br> <small> Sen.Ep.119.12 <br> Do contrário, costumamos dizer “a febre se apoderou dele”. <small> [JDD] </small> </small> </p>
+; <p> pronuntiare enim <b>solitum</b> esse et non dare <br> <small> Cic.Att.1.16.13 <br> pois costumava prometer e não dar. <small> [JDD] </small> </small> </p>
+; <p> posteriores enim cogitationes ut aiunt sapientiores <b>solent</b> esse <br> <small> Cic.Phil.12.5.4 <br> Pois os últimos pensamentos costumam ser, como dizem, os mais sábios. <small> [JDD] </small> </small> </p>
+; <p> hic quos putatis fletus mulierum quas lamentationes fieri <b>solitas</b> esse in hisce rebus <br> <small> Cic.Ver.2.4.47.13 <br> Aqui, que prantos das mulheres, que lamentações vós julgais que costumavam ocorrer nessas ocasiões? <small> [JDD] </small> </small> </p>
+; <p> ad parentem sic agi <b>solet</b> ad iudices non fecit non cogitauit falsi testes fictum crimen <br> <small> Cic.Lig.30 <br> Diante de um pai se costuma atuar assim; diante dos juízes: “Não fez, não cogitou, as testemunhas, falsas, a acusação, inventada”. <small> [JDD] </small> </small> </p>
+; <p> testamenta credo subiciunt aut eiciunt uicinos aut adulescentulos circumscribunt his enim uitiis adfectos et talibus malos aut audacis appellare consuetudo <b>solet</b> <br> <small> Cic.Phil.14.7.6 <br> Falsificam testamentos, eu creio, ou expulsam os vizinhos ou enganam os jovenzinhos: pois o hábito costuma chamar de maus ou atrevidos os afetados por esses defeitos ou semelhantes. <small> [JDD] </small> </small> </p>
+; <p> quem gladiatorem non ita appellaui ut interdum etiam M. Antonius gladiator appellari <b>solet</b> sed ut appellant ei qui plane et latine loquuntur <br> <small> Cic.Phil.7.17.5 <br> E a esse não chamei de gladiador do mesmo modo como às vezes Marco Antônio também costuma ser chamado de gladiador, mas como o chamam aqueles que falam com clareza e em latim. <small> [JDD] </small> </small> </p>
+; <p> his mihi rebus Scipio id enim te cum Laelio admirari <b>solere</b> dixisti leuis est senectus nec solum non molesta sed etiam iucunda <br> <small> Cic.Sen.85 <br> Por esses motivos, Cipião (pois disseste que tu junto com Lélio costumavas se espantar com esse assunto) a velhice para mim é leve e não só não molesta, mas até mesmo prazerosa. <small> [JDD] </small> </small> </p>
+; <p> mirari <b>solemus</b> saltandi peritos quod in omnem significationem rerum et adfectuum parata illorum est manus et uerborum uelocitatem gestus adsequitur quod illis ars praestat his natura <br> <small> Sen.Ep.121.6 <br> Costumamos admirar os especialistas em dançar porque sua mão é preparada para a expressão das ações e dos sentimentos e seu gesto segue a velocidade das palavras: o que a eles a arte concede, a estes é a natureza que concede. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-111-108-101-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 9.72 and an absolute frequency of 156. The Ovidius subcorpus follows, with a normalized frequency of 3.43 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 156 ; absolute frequency: 9.71817298347911. subcorpus: Horatius ; normalized frequency: 6 ; absolute frequency: 5.32812361246781. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 5 ; absolute frequency: 7.59070897221801. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 37 ; absolute frequency: 6.90543289598925. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-111-108-101-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 9.72 and an absolute frequency of 59. The Prosa.filosófica subcorpus follows, with a normalized frequency of 9.72 and an absolute frequency of 59. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 8 ; absolute frequency: 1.94746707563475. subcorpus: Prosa.filosófica ; normalized frequency: 59 ; absolute frequency: 9.71977397406962. subcorpus: Prosa.oratória ; normalized frequency: 96 ; absolute frequency: 9.21720929785988. subcorpus: Prosa.epistolográfica ; normalized frequency: 31 ; absolute frequency: 8.21431410477225. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 7 ; absolute frequency: 5.93773856985325. subcorpus: Poesia.trágica ; normalized frequency: 7 ; absolute frequency: 6.08061153578874. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-111-108-101-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 7.96 and an absolute frequency of 171. The I.a.C. subcorpus follows, with a normalized frequency of 7.96 and an absolute frequency of 171. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 171 ; absolute frequency: 7.95904119152897. subcorpus: I.d.C. ; normalized frequency: 44 ; absolute frequency: 6.73091632247208. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

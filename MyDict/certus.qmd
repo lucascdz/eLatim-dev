@@ -1,0 +1,212 @@
+---
+title: "certus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-101-114-116-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>certus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small>Obs.: Constrói-se: 1 com inf. 2 com genit. 3 absolutamente.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Resolvido, decidido &ensp; <small>T. Lív. 2, 15, 5.</small> <br> <b>2</b> &ensp; <small>I-Sent. próprio</small> &ensp; Que decidiu, decidido a, resolvido a &ensp; <small>Verg. En. 5, 54.</small> <br> <b>3</b> &ensp; <small>II-Daí:</small> &ensp; Determinado, fixo, preciso &ensp; <small>Cíc. Cat. 1,7.</small> <br> <b>4</b> &ensp; <small>II-Daí:</small> &ensp; Seguro, fiel, com que se pode contar, constante aplicado aos homens &ensp; <small>Cíc. Sul1.</small> <br> <b>5</b> &ensp; <small>II-No pl. certi</small> &ensp; homens de confiança &ensp; <small>C. Nep. Diom. 9, 1.</small> <br> <b>6</b> &ensp; <small>II-Daí:</small> &ensp; Seguro, de confiança aplicado às coisas &ensp; <small>Cíc. Phil. 11, 4.</small> <br> <b>7</b> &ensp; <small>II-Daí:</small> &ensp; Certo &ensp; <small>com valor indeterminado = quidam:</small> <br> <b>8</b> &ensp; <small>III-Locuções principais:</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>7</b><br>certi homines Cíc. Sest. 41 «certos homens». <br> <br><b>8</b><br>a certum est com inf. = «estou resolvido a» Cíc. Verr. pr. 53; b certiorem facere aliquem Cíc. Verr. 2, 55; Cés. B. Gal. 5, 49, 4 «informar alguém de alguma coisa; c pro certo affirmare T. Lív. 1, 3, 2 «afirmar categoricamente», d pro certo negare Cíc. At. 5, 21, 5 «negar categoricamente»; e pro certo polliceri Cíc. Agr. 2, 108 «prometer categoricamente»; f pro certo ponere Cés. B. Gal. 7, 5, 6 «dar como certo». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Certus</b> -<b>a</b> -<b>um</b> -<b>tior</b> -<b>tissimus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; certo, seguro, indubitavel, infallivel, constante. <br> <b>2</b> &ensp; <small>Tac.</small> &ensp; sabedor, que está certo. </p>
+
+
+
+
+#### Velez
+
+<b>Certus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa clara, ou certa </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>certus eundi, & c <br> <br><b>X</b><br>certum est mihi ire &ensp; <small>tenho deliberado ir</small> <br> hoc certo certius est &ensp; <small>nisto naõ ha duvida alguma</small> <br> homines certi &ensp; <small><small>i, fidissimi nuntij</small></small> <br> proles certa &ensp; <small><small>i, legitima</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Certus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa certa. ou certeyra </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/93581 ' target="_blank"> http://lila-erc.eu/data/id/lemma/93581 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-101-114-116-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-101-114-116-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword certus here are all the values plotted: collocate: explorator; scoreSUBST: 3. collocate: facio; scoreSUBST: 0. collocate: habeo; scoreSUBST: 0. collocate: annus; scoreSUBST: 2. collocate: ratio; scoreSUBST: 2. collocate: quisquam; scoreSUBST: 0. collocate: homo; scoreSUBST: 2. collocate: Caesar; scoreSUBST: 0. collocate: modus; scoreSUBST: 2. collocate: noster; scoreSUBST: 0. collocate: pro; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-101-114-116-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword certus here are all the values plotted: collocate: explorator; scoreADJ: 0. collocate: facio; scoreADJ: 0. collocate: habeo; scoreADJ: 0. collocate: annus; scoreADJ: 0. collocate: ratio; scoreADJ: 0. collocate: quisquam; scoreADJ: 0. collocate: homo; scoreADJ: 0. collocate: Caesar; scoreADJ: 0. collocate: modus; scoreADJ: 0. collocate: noster; scoreADJ: 0. collocate: pro; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-101-114-116-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword certus here are all the values plotted: collocate: explorator; scoreVERBO: 0. collocate: facio; scoreVERBO: 3. collocate: habeo; scoreVERBO: 2. collocate: annus; scoreVERBO: 0. collocate: ratio; scoreVERBO: 0. collocate: quisquam; scoreVERBO: 0. collocate: homo; scoreVERBO: 0. collocate: Caesar; scoreVERBO: 0. collocate: modus; scoreVERBO: 0. collocate: noster; scoreVERBO: 0. collocate: pro; scoreVERBO: 0. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-101-114-116-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword certus here are all the values plotted: collocate: explorator; scoreADV: 0. collocate: facio; scoreADV: 0. collocate: habeo; scoreADV: 0. collocate: annus; scoreADV: 0. collocate: ratio; scoreADV: 0. collocate: quisquam; scoreADV: 0. collocate: homo; scoreADV: 0. collocate: Caesar; scoreADV: 0. collocate: modus; scoreADV: 0. collocate: noster; scoreADV: 0. collocate: pro; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-101-114-116-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword certus here are all the values plotted: collocate: explorator; scoreFUNC: 0. collocate: facio; scoreFUNC: 0. collocate: habeo; scoreFUNC: 0. collocate: annus; scoreFUNC: 0. collocate: ratio; scoreFUNC: 0. collocate: quisquam; scoreFUNC: 0. collocate: homo; scoreFUNC: 0. collocate: Caesar; scoreFUNC: 0. collocate: modus; scoreFUNC: 0. collocate: noster; scoreFUNC: 0. collocate: pro; scoreFUNC: 20. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>certi</b> erant consules <br> <small> Cic.Att.4.17.3 <br> São cônsules certos. <small> [JDD] </small> </small> </p>
+; <p> fecit <b>certa</b> crux <br> <small> Cic.Mil.60 <br> “Preparou.” Tem como certa a cruz. <small> [JDD] </small> </small> </p>
+; <p> nihil habet <b>certi</b> <br> <small> Cic.Att.2.22.1 <br> não tem nada de definido. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>certi</b> sumus perisse omnia <br> <small> Cic.Att.2.19.5 <br> estou certo de que tudo está perdido. <small> [JDD] </small> </small> </p>
+; <p> expauescimus dubia pro <b>certis</b> <br> <small> Sen.Ep.13.13 <br> tememos coisas duvidosas como certas. <small> [JDD] </small> </small> </p>
+; <p> nunc adice <b>certas</b> corporis nostri notas <br> <small> Sen.Oed.811 <br> Agora, acrescenta as marcas particulares de meu corpo. <small> [JDD] </small> </small> </p>
+; <p> si quid habes <b>certius</b> velim scire <br> <small> Cic.Att.4.10.1 <br> Se tens algo mais certo, gostaria de saber. <small> [JDD] </small> </small> </p>
+; <p> de iis qui nunc petunt Caesar <b>certus</b> putatur <br> <small> Cic.Att.1.1.2 <br> Dos que se candidatam agora (para este ano), César (Lúcio Júlio César) é considerado como certo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> paucis diebus habebam <b>certos</b> homines quibus darem litteras <br> <small> Cic.Att.5.17.1 <br> Em poucos dias eu tinha homens certos aos quais entregaria a carta. <small> [JDD] </small> </small> </p>
+; <p> sed posthac omnia quae recta non erunt pro <b>certo</b> negato <br> <small> Cic.Att.5.21.5 <br> mas doravante nega por certo tudo o que não for correto. <small> [JDD] </small> </small> </p>
+; <p> iam ad <b>certas</b> res conficiendas <b>certos</b> homines delectos ac descriptos habebat <br> <small> Cic.Catil.3.16.12 <br> Tinha já para levar a cabo determinadas coisas determinados homens escolhidos e designados. <small> [JDD] </small> </small> </p>
+; <p> tu quid agas ubi sis cuius modi istae res sint fac me quam diligentissime <b>certiorem</b> <br> <small> Cic.Att.1.14.7 <br> Quanto a ti, faz-me saber o mais detalhadamente possível o que fazes, onde estás e como vão as coisas por aí. <small> [JDD] </small> </small> </p>
+; <p> nec tu intentionem uocis contempseris quam ueto te per gradus et <b>certos</b> modos extollere deinde deprimere <br> <small> Sen.Ep.15.7 <br> Não menosprezes a intensidade de tua voz, a qual proibo que levantes, em seguida baixes através de gradações e certas modulações. <small> [JDD] </small> </small> </p>
+; <p> hi <b>certo</b> anni tempore in finibus Carnutum quae regio totius Galliae media habetur considunt in loco consecrato <br> <small> Caes.Gal.6.13.10 <br> Estes, em certo período do ano, vêm sentar-se num local consagrado dentro das fronteiras dos carnutos, região que é tida como o centro de toda a Gália. <small> [JDD] </small> </small> </p>
+; <p> ut Athenas a.d. vi Kal. Quintilis veneram exspectabam ibi iam quartum diem Pomptinum neque de eius adventu <b>certi</b> quicquam habebam <br> <small> Cic.Att.5.10.1 <br> Desde que cheguei em Atenas no sexto dia antes das calendas de quintil [26 de junho], já é o quarto dia que estou esperando Pomptino aqui e não tenho nada de certo sobre a chegada dele. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> neque uero sine ratione <b>certa</b> causa Milonis semper a senatu probata est uidebant sapientissimi homines facti rationem praesentiam animi defensionis constantiam <br> <small> Cic.Mil.62 <br> E, na verdade, não é sem uma razão precisa que a causa de Milão foi sempre aprovada pelo senado; homens sapientíssimos viam o motivo de seu feito, seu sangue frio, a firmeza de sua defesa. <small> [JDD] </small> </small> </p>
+; <p> septimo die cum iter non intermitteret ab exploratoribus <b>certior</b> factus est Ariouisti copias a nostris milia passuum quattuor et uiginti abesse <br> <small> Caes.Gal.1.41.5 <br> No sétimo dia sem interromper a marcha, foi informado pelo exploradores que as tropas de Ariovisto distavam das nossas vinte e quatro mil passos. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-101-114-116-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 11.03 and an absolute frequency of 1. The Suetonius subcorpus follows, with a normalized frequency of 11.03 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 26 ; absolute frequency: 9.81947276984667. subcorpus: Cicero ; normalized frequency: 95 ; absolute frequency: 5.91811816301612. subcorpus: Horatius ; normalized frequency: 8 ; absolute frequency: 7.10416481662375. subcorpus: Ovidius ; normalized frequency: 5 ; absolute frequency: 8.57927247769389. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 42 ; absolute frequency: 7.83859950355536. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-101-114-116-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 11.92 and an absolute frequency of 45. The Poesia.didática subcorpus follows, with a normalized frequency of 5.94 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 31 ; absolute frequency: 7.54643491808467. subcorpus: Prosa.filosófica ; normalized frequency: 41 ; absolute frequency: 6.75441920231957. subcorpus: Prosa.oratória ; normalized frequency: 41 ; absolute frequency: 3.93651647096099. subcorpus: Prosa.epistolográfica ; normalized frequency: 45 ; absolute frequency: 11.9240043456371. subcorpus: Poesia.lírica ; normalized frequency: 9 ; absolute frequency: 7.57129637419029. subcorpus: Poesia.didática ; normalized frequency: 7 ; absolute frequency: 5.93773856985325. subcorpus: Poesia.trágica ; normalized frequency: 10 ; absolute frequency: 8.68658790826963. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-101-114-116-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 10.47 and an absolute frequency of 4. The I.d.C. subcorpus follows, with a normalized frequency of 7.5 and an absolute frequency of 49. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 133 ; absolute frequency: 6.1903653711892. subcorpus: I.d.C. ; normalized frequency: 49 ; absolute frequency: 7.49579317729845. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

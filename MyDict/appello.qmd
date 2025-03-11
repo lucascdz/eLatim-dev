@@ -1,0 +1,214 @@
+---
+title: "appello"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-112-112-101-108-108-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>appellāssis</b> <br> <small>= appellavèris Ter. Phorm.742.</small> <br> <small></small> 
+ <small>1.</small> <b>appēllō</b> <b>-ás</b> <b>-áre</b> <b>-áví, -átum</b> <br> <b>adpēllō</b> <b>-ás</b> <b>-áre</b> <b>-áví, -átum</b> <br> <small>v. tr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Chamar, dirigir- se a, dirigir a palavra a &ensp; <small>Cíc. Phil. 13, 4.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Dirigir-se a alguém com um pedido, solicitar, recorrer a, suplicar, invocar &ensp; <small>Cíc. Amer. 77.</small> <br> <b>3</b> &ensp; <small>I-Donde:</small> &ensp; Nomear, proclamar, mencionar, tomar por testemunha &ensp; <small>Cíc. Lae. 6.</small> <br> <b>4</b> &ensp; <small>I-Na língua jurídica:</small> &ensp; Apelar, recorrer a um tribunal. &ensp; <small></small> <br> <b>5</b> &ensp; <small>I-Na língua jurídica:</small> &ensp; Demandar, litigar &ensp; <small>Cíc. Dej. 3.</small> <br> <b>6</b> &ensp; <small>I-Na língua retórica:</small> &ensp; Pronunciar &ensp; <small>Cíc. Br. 133.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Appello</b> -<b>as</b> -<b>avi</b> -<b>atum</b> -<b>are</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; chamar, nomear. <br> <b>2</b> &ensp; appellar em juizo. <br> <b>3</b> &ensp; <small>Liv.</small> &ensp; citar para juizo. </p>
+
+
+
+
+#### Velez
+
+<b>Appello</b> -<b>as</b>   <p> <b>1</b> &ensp; accusar, demandar em juizo, appellar <br> <b>2</b> &ensp; chamar <br> <b>3</b> &ensp; <small>significat etiam auxilij, vel testimonij gratiâ quempiam implorare</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>appellare debitorem pecuniae, uel de pecunia <br> <br><b>2</b><br>suo quanque rem nomine appellare <br> <br><b>3</b><br>te nunc, Publ. Scipio, appello </p>
+
+
+
+
+#### Cardoso
+
+<b>Appello</b> -<b>as</b>   <p> <b>1</b> &ensp; apellar do juyz </p> 
+ <b>Appello</b> -<b>as</b> -<b>aui</b> -<b>atum</b>   <p> <b>1</b> &ensp; chamar. ou falar a outrem </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/89580 ' target="_blank"> http://lila-erc.eu/data/id/lemma/89580 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small> adpello <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> adpello, appello </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> adpellare, appellare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> adpellabit, appellabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> adpellaui, appellaui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> adpellatum, appellatum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> adpellaturum, appellaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+appellō 
+ appellās 
+ appellāre 
+ appellāvī 
+ appellātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-112-112-101-108-108-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-112-112-101-108-108-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword appello here are all the values plotted: collocate: imperator; scoreSUBST: 2. collocate: rex; scoreSUBST: 2. collocate: senatus; scoreSUBST: 2. collocate: hostis; scoreSUBST: 2. collocate: noster; scoreSUBST: 0. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-112-112-101-108-108-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword appello here are all the values plotted: collocate: imperator; scoreADJ: 0. collocate: rex; scoreADJ: 0. collocate: senatus; scoreADJ: 0. collocate: hostis; scoreADJ: 0. collocate: noster; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-112-112-101-108-108-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword appello here are all the values plotted: collocate: imperator; scoreVERBO: 0. collocate: rex; scoreVERBO: 0. collocate: senatus; scoreVERBO: 0. collocate: hostis; scoreVERBO: 0. collocate: noster; scoreVERBO: 0. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-112-112-101-108-108-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword appello here are all the values plotted: collocate: imperator; scoreADV: 0. collocate: rex; scoreADV: 0. collocate: senatus; scoreADV: 0. collocate: hostis; scoreADV: 0. collocate: noster; scoreADV: 0. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-112-112-101-108-108-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword appello here are all the values plotted: collocate: imperator; scoreFUNC: 0. collocate: rex; scoreFUNC: 0. collocate: senatus; scoreFUNC: 0. collocate: hostis; scoreFUNC: 0. collocate: noster; scoreFUNC: 0. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> imperatores <b>appellati</b> sumus <br> <small> Cic.Att.5.20.3 <br> fui chamado de imperator. <small> [JDD] </small> </small> </p>
+; <p> supplicationem decernitis hostem non <b>appellatis</b> <br> <small> Cic.Phil.14.6.11 <br> Decretais uma ação de graça, não o chamais inimigo. <small> [JDD] </small> </small> </p>
+; <p> haec a quibus timebantur eos hostis <b>appellare</b> dubitamus <br> <small> Cic.Phil.14.10.11 <br> E aqueles devido aos quais estas coisas eram temidas hesitamos em chamar de inimigos? <small> [JDD] </small> </small> </p>
+; <p> Regem <b>appellas</b> inquam cum Rex tui mentionem nullam fecerit <br> <small> Cic.Att.1.16.10 <br> “Me chamas rei”, eu digo, “quando Rei [cunhado de Clódio] não fez nenhuma menção a ti” [no testamento]. <small> [JDD] </small> </small> </p>
+; <p> Caesarem deorum beneficio rei publicae procreatum dubitem ne <b>appellare</b> imperatorem <br> <small> Cic.Phil.14.25.4 <br> Eu duvidaria em chamar de general vitorioso, nascido para a república pelo favor dos deuses? <small> [JDD] </small> </small> </p>
+; <p> quae nisi essent in senibus non summum consilium maiores nostri <b>appellassent</b> senatum <br> <small> Cic.Sen.19 <br> Se não existissem nos velhos essas qualidades, os nosso antepassados não teriam chamado o supremo conselho de senado. <small> [JDD] </small> </small> </p>
+; <p> nam est hostis a senatu nondum uerbo <b>appellatus</b> sed re iam iudicatus Antonius <br> <small> Cic.Phil.4.1.10 <br> Pois Antônio ainda não foi explicitamente declarado inimigo pelo senado, mas já foi de fato julgado como tal. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-112-112-101-108-108-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 22.05 and an absolute frequency of 2. The Caesar subcorpus follows, with a normalized frequency of 7.93 and an absolute frequency of 21. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 21 ; absolute frequency: 7.93111262179923. subcorpus: Cicero ; normalized frequency: 81 ; absolute frequency: 5.04597443372954. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 8 ; absolute frequency: 7.42046192375475. subcorpus: Seneca ; normalized frequency: 3 ; absolute frequency: 0.559899964539669. subcorpus: Suetonius ; normalized frequency: 2 ; absolute frequency: 22.0507166482911. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-112-112-101-108-108-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 7.79 and an absolute frequency of 32. The Prosa.filosófica subcorpus follows, with a normalized frequency of 2.14 and an absolute frequency of 13. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 32 ; absolute frequency: 7.78986830253901. subcorpus: Prosa.filosófica ; normalized frequency: 13 ; absolute frequency: 2.14164511293059. subcorpus: Prosa.oratória ; normalized frequency: 58 ; absolute frequency: 5.56873061745701. subcorpus: Prosa.epistolográfica ; normalized frequency: 13 ; absolute frequency: 3.4447123665174. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-112-112-101-108-108-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 7.85 and an absolute frequency of 3. The I.a.C. subcorpus follows, with a normalized frequency of 5.26 and an absolute frequency of 113. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 113 ; absolute frequency: 5.25948336048406. subcorpus: I.d.C. ; normalized frequency: 3 ; absolute frequency: 0.458926112895824. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

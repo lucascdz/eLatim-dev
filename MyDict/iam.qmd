@@ -1,0 +1,235 @@
+---
+title: "iam"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-97-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>iam</b> <br> <small></small> <br> <small>v. jam.</small> 
+ <b>jam</b> <br> <b>iam</b> <br> <small>adv.</small> <br> <small>Obs.: Emprega-se geralmente com relação ao presente e ao futuro, mas também pode referir-se ao passado Cíc. Or. 171. Donde o seu emprego como primeiro elemento dos compostos: jamdiu, jamdudum, jampridem. Como segundo elemento de composto ocorre: em etiam, nunciam, quoniam, quispiam, uspiam.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Agora, já, neste momento &ensp; <small>Plaut. Rud. 584; Cíc. Rep. 1. 58.</small> <br> <b>2</b> &ensp; <small>I-Donde</small> &ensp; Desde agora, daqui por diante, a partir deste momento &ensp; <small>Plaut. Aul. 820.</small> <br> <b>3</b> &ensp; <small>I-Donde</small> &ensp; Logo, dentro em pouco, brevemente, imediatamente &ensp; <small>Hor. O. 1. 4. 16; Verg. En. 4, 566.</small> <br> <b>4</b> &ensp; <small>I-Em sent. conclusivo:</small> &ensp; Ora, daí, então &ensp; <small>Cíc. Br. 68.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Jam</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; já. <br> <b>2</b> &ensp; <small>Virg.</small> &ensp; agora, logo. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>iam a pueris &ensp; <small><small>Ter</small></small> &ensp; <small>Desde criança</small> <br> iam, iamque tibi faciendum est &ensp; <small><small>Cic</small></small> &ensp; <small>He preciso que tu faças isto logo, a toda a pressa</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Iam</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; ia. ou logo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/106025 ' target="_blank"> http://lila-erc.eu/data/id/lemma/106025 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> iamiam <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+jăm
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-97-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword iam here are all the values plotted: collocate: pridem; scoreSUBST: 0. collocate: uero; scoreSUBST: 0. collocate: enim; scoreSUBST: 0. collocate: antea; scoreSUBST: 0. collocate: saepe; scoreSUBST: 0. collocate: aetas; scoreSUBST: 2. collocate: cum; scoreSUBST: 0. collocate: sed; scoreSUBST: 0. collocate: tum; scoreSUBST: 0. collocate: prope; scoreSUBST: 0. collocate: tu; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: ante2; scoreSUBST: 0. collocate: dies; scoreSUBST: 1. collocate: ample; scoreSUBST: 0. collocate: nox; scoreSUBST: 2. collocate: finis; scoreSUBST: 2. collocate: annus; scoreSUBST: 2. collocate: intellego; scoreSUBST: 0. collocate: aliquot; scoreSUBST: 0. collocate: despero; scoreSUBST: 0. collocate: desino; scoreSUBST: 0. collocate: hora; scoreSUBST: 2. collocate: paene; scoreSUBST: 0. collocate: tertius; scoreSUBST: 0. collocate: uereor; scoreSUBST: 0. collocate: diu; scoreSUBST: 0. collocate: reddo; scoreSUBST: 0. collocate: nosco; scoreSUBST: 0. collocate: hic2; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-97-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword iam here are all the values plotted: collocate: pridem; scoreADJ: 0. collocate: uero; scoreADJ: 0. collocate: enim; scoreADJ: 0. collocate: antea; scoreADJ: 0. collocate: saepe; scoreADJ: 0. collocate: aetas; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: sed; scoreADJ: 0. collocate: tum; scoreADJ: 0. collocate: prope; scoreADJ: 0. collocate: tu; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: ante2; scoreADJ: 0. collocate: dies; scoreADJ: 0. collocate: ample; scoreADJ: 0. collocate: nox; scoreADJ: 0. collocate: finis; scoreADJ: 0. collocate: annus; scoreADJ: 0. collocate: intellego; scoreADJ: 0. collocate: aliquot; scoreADJ: 0. collocate: despero; scoreADJ: 0. collocate: desino; scoreADJ: 0. collocate: hora; scoreADJ: 0. collocate: paene; scoreADJ: 0. collocate: tertius; scoreADJ: 2. collocate: uereor; scoreADJ: 0. collocate: diu; scoreADJ: 0. collocate: reddo; scoreADJ: 0. collocate: nosco; scoreADJ: 0. collocate: hic2; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-97-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword iam here are all the values plotted: collocate: pridem; scoreVERBO: 0. collocate: uero; scoreVERBO: 0. collocate: enim; scoreVERBO: 0. collocate: antea; scoreVERBO: 0. collocate: saepe; scoreVERBO: 0. collocate: aetas; scoreVERBO: 0. collocate: cum; scoreVERBO: 0. collocate: sed; scoreVERBO: 0. collocate: tum; scoreVERBO: 0. collocate: prope; scoreVERBO: 0. collocate: tu; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: ante2; scoreVERBO: 0. collocate: dies; scoreVERBO: 0. collocate: ample; scoreVERBO: 0. collocate: nox; scoreVERBO: 0. collocate: finis; scoreVERBO: 0. collocate: annus; scoreVERBO: 0. collocate: intellego; scoreVERBO: 1. collocate: aliquot; scoreVERBO: 0. collocate: despero; scoreVERBO: 2. collocate: desino; scoreVERBO: 2. collocate: hora; scoreVERBO: 0. collocate: paene; scoreVERBO: 0. collocate: tertius; scoreVERBO: 0. collocate: uereor; scoreVERBO: 2. collocate: diu; scoreVERBO: 0. collocate: reddo; scoreVERBO: 2. collocate: nosco; scoreVERBO: 2. collocate: hic2; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-97-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword iam here are all the values plotted: collocate: pridem; scoreADV: 5. collocate: uero; scoreADV: 3. collocate: enim; scoreADV: 2. collocate: antea; scoreADV: 2. collocate: saepe; scoreADV: 2. collocate: aetas; scoreADV: 0. collocate: cum; scoreADV: 0. collocate: sed; scoreADV: 0. collocate: tum; scoreADV: 2. collocate: prope; scoreADV: 2. collocate: tu; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: ante2; scoreADV: 2. collocate: dies; scoreADV: 0. collocate: ample; scoreADV: 2. collocate: nox; scoreADV: 0. collocate: finis; scoreADV: 0. collocate: annus; scoreADV: 0. collocate: intellego; scoreADV: 0. collocate: aliquot; scoreADV: 0. collocate: despero; scoreADV: 0. collocate: desino; scoreADV: 0. collocate: hora; scoreADV: 0. collocate: paene; scoreADV: 2. collocate: tertius; scoreADV: 0. collocate: uereor; scoreADV: 0. collocate: diu; scoreADV: 2. collocate: reddo; scoreADV: 0. collocate: nosco; scoreADV: 0. collocate: hic2; scoreADV: 1'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-97-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword iam here are all the values plotted: collocate: pridem; scoreFUNC: 0. collocate: uero; scoreFUNC: 0. collocate: enim; scoreFUNC: 0. collocate: antea; scoreFUNC: 0. collocate: saepe; scoreFUNC: 0. collocate: aetas; scoreFUNC: 0. collocate: cum; scoreFUNC: 20. collocate: sed; scoreFUNC: 0. collocate: tum; scoreFUNC: 0. collocate: prope; scoreFUNC: 0. collocate: tu; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: ante2; scoreFUNC: 0. collocate: dies; scoreFUNC: 0. collocate: ample; scoreFUNC: 0. collocate: nox; scoreFUNC: 0. collocate: finis; scoreFUNC: 0. collocate: annus; scoreFUNC: 0. collocate: intellego; scoreFUNC: 0. collocate: aliquot; scoreFUNC: 0. collocate: despero; scoreFUNC: 0. collocate: desino; scoreFUNC: 0. collocate: hora; scoreFUNC: 0. collocate: paene; scoreFUNC: 0. collocate: tertius; scoreFUNC: 0. collocate: uereor; scoreFUNC: 0. collocate: diu; scoreFUNC: 0. collocate: reddo; scoreFUNC: 0. collocate: nosco; scoreFUNC: 0. collocate: hic2; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> consolari <b>iam</b> desine <br> <small> Cic.Att.3.11.2 <br> Deixa já de me consolar. <small> [JDD] </small> </small> </p>
+; <p> <b>iam</b> nox est <br> <small> Sen.Ep.122.13 <br> Já é noite? <small> [JDD] </small> </small> </p>
+; <p> vellem <b>iam</b> pridem <br> <small> Cic.Att.4.5.2 <br> “Eu queria isso já há muito”. <small> [JDD] </small> </small> </p>
+; <p> ceteros <b>iam</b> nosti <br> <small> Cic.Att.1.18.6 <br> Os outros já conheces. <small> [JDD] </small> </small> </p>
+; <p> detrimentum <b>iam</b> dies sensit <br> <small> Sen.Ep.122.1 <br> O dia já sente sua perda. <small> [JDD] </small> </small> </p>
+; <p> redde <b>iam</b> mundo diem <br> <small> Sen.Ag.56 <br> Devolve já ao mundo o dia. <small> [JDD] </small> </small> </p>
+; <p> fata <b>iam</b> accedunt prope <br> <small> Sen.Oed.860 <br> Os fados já estão próximo. <small> [JDD] </small> </small> </p>
+; <p> te <b>iam</b> etiam arcessimus <br> <small> Cic.Att.1.18.1 <br> e já mesmo te chamo. <small> [JDD] </small> </small> </p>
+; <p> sed <b>iam</b> debeo epistulam includere <br> <small> Sen.Ep.12.10 <br> Mas já devo terminar a carta. <small> [JDD] </small> </small> </p>
+; <p> sed <b>iam</b> exhibeo pupillum neque defendo <br> <small> Cic.Att.5.18.4 <br> Mas já estou apresentando-o como pupilo e não o defendo. <small> [JDD] </small> </small> </p>
+; <p> <b>iam</b> lux propius accedit tempus est cenae <br> <small> Sen.Ep.122.9 <br> A luz da manhã já se aproxima: é hora do jantar. <small> [JDD] </small> </small> </p>
+; <p> nosti <b>iam</b> in hac materia sonitus nostros <br> <small> Cic.Att.1.14.4 <br> Já conheces meu tom nesta matéria. <small> [JDD] </small> </small> </p>
+; <p> respice aetatem eius <b>iam</b> duram et intractabilem <br> <small> Sen.Ep.25.1 <br> Repara em sua idade já dura e intratável. <small> [JDD] </small> </small> </p>
+; <p> desertus est locus hic et <b>iam</b> hora praeterivit <br> <small> Vulg.Marc.6.35 <br> Este local é deserto e já passou a hora. <small> [JDD] </small> </small> </p>
+; <p> dixi hanc legem Publium Clodium <b>iam</b> ante servasse <br> <small> Cic.Att.1.16.13 <br> Eu disse que Públio Clódio já observava esta lei antes. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>iam</b> enim charta ipsa ne nos prodat pertimesco <br> <small> Cic.Att.2.20.3 <br> pois já tenho muito medo de que o próprio papel nos traia. <small> [JDD] </small> </small> </p>
+; <p> iucundissima est aetas deuexa <b>iam</b> non tamen praeceps <br> <small> Sen.Ep.12.5 <br> Agradabilíssima é a idade que já declina, mas que ainda não desmorona. <small> [JDD] </small> </small> </p>
+; <p> statui enim nihil <b>iam</b> de re publica cogitare <br> <small> Cic.Att.2.4.4 <br> pois decidi não pensar mais nada acerca da república. <small> [JDD] </small> </small> </p>
+; <p> palam <b>iam</b> cum hoste nullo impediente bellum iustum geremus <br> <small> Cic.Catil.2.1.12 <br> Agora faremos abertamente uma guerra justa contra o inimigo, sem ninguém impedindo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> cum satis <b>iam</b> perspexisse uideretur tollere incipiunt ut referrent <br> <small> Cic.Ver.2.4.65.16 <br> Quando parecia que ja tinha examinado suficientemente, começam a erguê-lo para levá-lo de volta. <small> [JDD] </small> </small> </p>
+; <p> si enim es Romae <b>iam</b> me adsequi non potes <br> <small> Cic.Att.3.5 <br> Pois se estás em Roma, já não podes me alcançar. <small> [JDD] </small> </small> </p>
+; <p> ego <b>iam</b> aut rem aut ne spem quidem exspecto <br> <small> Cic.Att.3.22.4 <br> Eu já aguardo os fatos ou nem a esperança sequer. <small> [JDD] </small> </small> </p>
+; <p> cotidie enim magis suspicor te in Epirum <b>iam</b> profectum <br> <small> Cic.Att.5.7.1 <br> pois cotidianamente eu tenho mais suspeita de que tu já partiste para o Epiro. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> qui uiginti <b>iam</b> annos bellum geram cum impiis ciuibus <br> <small> Cic.Phil.6.17.11 <br> Eu, que já faz vinte anos que travo guerra com ímpios cidadãos. <small> [JDD] </small> </small> </p>
+; <p> itaque conventus qui initio celebrabantur <b>iam</b> diu fieri desierunt <br> <small> Cic.Att.1.19.9 <br> As reuniões, que no início eram concorridas, já há muito deixaram de acontecer. <small> [JDD] </small> </small> </p>
+; <p> putamus enim utile esse te aliquando <b>iam</b> rem transigere <br> <small> Cic.Att.1.4.1 <br> pois consideramos ser útil que tu dês um fim de uma vez a esse assunto. <small> [JDD] </small> </small> </p>
+; <p> <b>iam</b> fructu artis suae fruitur ipsa fruebatur arte cum pingeret <br> <small> Sen.Ep.9.7 <br> Nesse momento ele usufrui o fruto de sua arte: enquanto pintava usufruia a própria arte. <small> [JDD] </small> </small> </p>
+; <p> et cum <b>iam</b> hora multa fieret accesserunt discipuli eius dicentes <br> <small> Vulg.Marc.6.35 <br> E como já tinham transcorrido muitas horas, seus discípulos se aproximaram, dizendo. <small> [JDD] </small> </small> </p>
+; <p> saepe <b>iam</b> mater optima impetum cepi consolandi te saepe continui <br> <small> Sen.Helv.1.1 <br> Muitas vezes, minha excelente mãe, tive o impulso de te consolar, muitas vezes me contive. <small> [JDD] </small> </small> </p>
+; <p> <b>iam</b> tum non consulibus modo sed plerisque senatoribus perniciem machinabantur <br> <small> Sal.Cat.18.7 <br> Nessa altura, já maquinavam a matança não só dos cônsules, mas da maior parte dos senadores. <small> [JDD] </small> </small> </p>
+; <p> summum me eorum studium tenet sicut odium <b>iam</b> ceterarum rerum <br> <small> Cic.Att.1.11.3 <br> Me domina o maior interesse por eles, assim como o meu ódio pelas demais coisas. <small> [JDD] </small> </small> </p>
+; <p> <b>iam</b> intellegitis quantum iudicium sustineatis quanta res sit commissa uobis <br> <small> Cic.Cael.70 <br> Já compreendeis de quão grave julgamento estais encarregados, quão grave matéria vos foi confiada. <small> [JDD] </small> </small> </p>
+; <p> <b>iam</b> uero uirtuti Cn. Pompei quae potest oratio par inueniri <br> <small> Cic.Man.29 <br> Ora, que discurso pode ser encontrado equivalente ao valor de Cneu Pompeu? <small> [JDD] </small> </small> </p>
+; <p> sed ego quae mente agitaui omnes <b>iam</b> antea diuorsi audistis <br> <small> Sal.Cat.20.5 <br> Mas as coisas que eu elaborei em minha mente, todos vós já ouvistes antes separados. <small> [JDD] </small> </small> </p>
+; <p> hic <b>iam</b> ut omittam cetera de te ipso Labiene quaero <br> <small> Cic.Rab.Perd.20 <br> Já aqui, para deixar de lado as outras coisas, de ti próprio, Labieno, eu quero saber. <small> [JDD] </small> </small> </p>
+; <p> Paulus in medio foro basilicam <b>iam</b> paene texerat isdem antiquis columnis <br> <small> Cic.Att.4.17.7 <br> Paulo já quase cobriu a basílica no meio do foro nas mesmas antigas colunas. <small> [JDD] </small> </small> </p>
+; <p> at studuit Catilinae cum <b>iam</b> aliquot annos esset in foro Caelius <br> <small> Cic.Cael.12 <br> Mas Célio aderiu a Catilina, quando já estava por alguns anos no foro. <small> [JDD] </small> </small> </p>
+; <p> neque enim ille seruitutem uestram ut antea sed <b>iam</b> iratus sanguinem concupiscit <br> <small> Cic.Phil.4.11.7 <br> Pois ele não deseja a vossa escravidão como antes, mas agora encolerizado, o vosso sangue. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> sed <b>iam</b> finis faciendus est et aliquid ut institui pro hac epistula dependendum <br> <small> Sen.Ep.8.7 <br> Mas já devo pôr um fim e, como estabeleci, devo pagar-te alguma coisa por esta carta. <small> [JDD] </small> </small> </p>
+; <p> bis absolutum esse Lentulum bis Catilinam hunc tertium <b>iam</b> esse a iudicibus in rem publicam immissum <br> <small> Cic.Att.1.16.9 <br> duas vezes Lêntulo tinha sido absolvido, duas vezes, Catilina, este já era o terceiro lançado pelos juízes contra a república. <small> [JDD] </small> </small> </p>
+; <p> vereor enim ne re <b>iam</b> desperata legas ut haec mea diligentia miserabilis tibi aliis inridenda videatur <br> <small> Cic.Att.3.23.4 <br> pois receio que leias, quando meu caso já for sem esperança, de modo que esta minha preocupação pareça lastimável para ti, risível para os outros. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-97-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 44.4 and an absolute frequency of 23. The Cicero subcorpus follows, with a normalized frequency of 28.1 and an absolute frequency of 451. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 6.07 and an absolute freqeuncy of 4. here are all the values: subcorpus: Caesar ; normalized frequency: 33 ; absolute frequency: 12.4631769771131. subcorpus: Cicero ; normalized frequency: 451 ; absolute frequency: 28.0954872791607. subcorpus: Horatius ; normalized frequency: 18 ; absolute frequency: 15.9843708374034. subcorpus: Ovidius ; normalized frequency: 10 ; absolute frequency: 17.1585449553878. subcorpus: Phaedrus ; normalized frequency: 4 ; absolute frequency: 6.0725671777744. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 134 ; absolute frequency: 25.0088650827719. subcorpus: Suetonius ; normalized frequency: 2 ; absolute frequency: 22.0507166482911. subcorpus: Tacitus ; normalized frequency: 7 ; absolute frequency: 24.0302094061105. subcorpus: Vergilius ; normalized frequency: 23 ; absolute frequency: 44.4015444015444. subcorpus: Hieronymus ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-97-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 47.78 and an absolute frequency of 55. The Poesia.trágica subcorpus follows, with a normalized frequency of 47.78 and an absolute frequency of 55. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 11.03 and an absolute freqeuncy of 13. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 49 ; absolute frequency: 11.9282358382629. subcorpus: Prosa.filosófica ; normalized frequency: 118 ; absolute frequency: 19.4395479481392. subcorpus: Prosa.oratória ; normalized frequency: 303 ; absolute frequency: 29.0918168463702. subcorpus: Prosa.epistolográfica ; normalized frequency: 109 ; absolute frequency: 28.8825883038766. subcorpus: Poesia.lírica ; normalized frequency: 19 ; absolute frequency: 15.9838479010684. subcorpus: Poesia.didática ; normalized frequency: 13 ; absolute frequency: 11.0272287725846. subcorpus: Poesia.trágica ; normalized frequency: 55 ; absolute frequency: 47.776233495483. subcorpus: Poesia.épica ; normalized frequency: 23 ; absolute frequency: 44.4015444015444. subcorpus: Prosa.ficcional ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-97-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 24.81 and an absolute frequency of 533. The I.d.C. subcorpus follows, with a normalized frequency of 22.49 and an absolute frequency of 147. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 11.23 and an absolute freqeuncy of 5. here are all the values: subcorpus: I.a.C. ; normalized frequency: 533 ; absolute frequency: 24.8080055852921. subcorpus: I.d.C. ; normalized frequency: 147 ; absolute frequency: 22.4873795318954. subcorpus: II.d.C. ; normalized frequency: 9 ; absolute frequency: 23.5602094240838. subcorpus: IV.d.C. ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+:::
+

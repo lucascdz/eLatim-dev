@@ -1,0 +1,205 @@
+---
+title: "par"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-97-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>pār</b> <b>paris</b> <br> <small>adj.</small> <br> <small>Obs.: Constrói-se como absoluto; com dat.; com gen. raro ou inf. na poesia; com abl. raro. Como adj. faz o abl. pari, mas como subs. pare.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Igual, igual em força, em altura ou mérito, rival &ensp; <small>Cíc. Font. 24.</small> <br> <b>2</b> &ensp; <small>I-Sent. próprio</small> &ensp; Semelhante, igual &ensp; <small>Cíc. C. M. 7.</small> <br> <b>3</b> &ensp; <small>I-Sent. próprio</small> &ensp; Conveniente, justo &ensp; <small>CÍc. Verr. 5, 10.</small> <br> <b>4</b> &ensp; <small>II-Usado substantivamente m. e f.: sent. próprio:</small> &ensp; Companheiro, companheira da mesma categoria, semelhante, par &ensp; <small>Cíc. Pis. 18.</small> <br> <b>5</b> &ensp; <small>II-Daí, em sent. particular:</small> &ensp; Esposo, esposa &ensp; <small>Ov. f. 3, 193.</small> <br> <b>6</b> &ensp; <small>II-Daí, em sent. particular:</small> &ensp; O antagonista que se juntava a um combatente nas lutas de gladiadores &ensp; <small>T. Lív. 28, 2, 8.</small> <br> <b>7</b> &ensp; <small>III-Daí, no neutro por:</small> &ensp; Casal, par: &ensp; <small></small> <br> <b>8</b> &ensp; <small>III-Daí, no neutro por:</small> &ensp; Coisa igual &ensp; <small>Cíc. At. 6, 1, 22.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>7</b><br>gladiatorum par Cíc. Opt. 17 “um par de gladiadores”. </p> 
+ <small>1.</small> <b>paris</b> <br> <small>gen. de par.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Par</b> -<b>aris</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; par, parelha. </p> 
+ <b>Par</b> -<b>aris</b> <small>Plaut</small> -<b>rissimus</b> <br> <small>omn. gen.</small>
+
+
+
+
+#### Velez
+
+<b>Par</b> <b>paris</b> <br> <small>adject.</small> <br> <small>Vide Impar.</small>   <p> <b>1</b> &ensp; cousa igual, justa, decente, conveniente </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>par referre &ensp; <small>pagar na mesma moeda</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Par</b> <b>paris</b>   <p> <b>1</b> &ensp; cousa igoal </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/115903 ' target="_blank"> http://lila-erc.eu/data/id/lemma/115903 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 2ª classe (sem vogal temática) <br>
+<small> outras grafias: </small> paris <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+pār 
+ păris
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-97-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-97-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword par here are all the values plotted: collocate: interuallum; scoreSUBST: 2. collocate: ceterus; scoreSUBST: 0. collocate: uirtus; scoreSUBST: 2. collocate: facio; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-97-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword par here are all the values plotted: collocate: interuallum; scoreADJ: 0. collocate: ceterus; scoreADJ: 0. collocate: uirtus; scoreADJ: 0. collocate: facio; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-97-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword par here are all the values plotted: collocate: interuallum; scoreVERBO: 0. collocate: ceterus; scoreVERBO: 0. collocate: uirtus; scoreVERBO: 0. collocate: facio; scoreVERBO: 1. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-97-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword par here are all the values plotted: collocate: interuallum; scoreADV: 0. collocate: ceterus; scoreADV: 0. collocate: uirtus; scoreADV: 0. collocate: facio; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-97-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword par here are all the values plotted: collocate: interuallum; scoreFUNC: 0. collocate: ceterus; scoreFUNC: 0. collocate: uirtus; scoreFUNC: 0. collocate: facio; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> in ceteris <b>parem</b> habuit neminem <br> <small> Cic.Att.4.15.6 <br> não teve ninguém igual entre os demais. <small> [JDD] </small> </small> </p>
+; <p> dixit enim <b>parem</b> esse horis nec mentitur <br> <small> Sen.Ep.12.7 <br> Pois disse que era igual em horas e não está mentindo. <small> [JDD] </small> </small> </p>
+; <p> sed maximum est in amicitia <b>parem</b> esse inferiori <br> <small> Cic.Amici.69 <br> Mas, na amizade, é muito importante ser igual ao inferior. <small> [JDD] </small> </small> </p>
+; <p> poteram te cum hac Maecenatis sententia <b>parem</b> facere rationem <br> <small> Sen.Ep.19.10 <br> Eu podia com esta senteça de Mecenas deixar a conta saldada contigo. <small> [JDD] </small> </small> </p>
+; <p> idem facit fortuna fortissimos sibi <b>pares</b> quaerit quosdam fastidio transit <br> <small> Sen.Prov.3.4 <br> O mesmo faz a fortuna: busca para si os oponentes mais fortes iguais a ela. De alguns ela passa ao largo com desprezo. <small> [JDD] </small> </small> </p>
+; <p> iam uero uirtuti Cn. Pompei quae potest oratio <b>par</b> inueniri <br> <small> Cic.Man.29 <br> Ora, que discurso pode ser encontrado equivalente ao valor de Cneu Pompeu? <small> [JDD] </small> </small> </p>
+; <p> undecumque ex aequo ad caelum erigitur acies <b>paribus</b> interuallis omnia diuina ab omnibus humanis distant <br> <small> Sen.Helv.8.5 <br> De qualquer lugar o olhar se ergue para o céu de igual distância: tudo o que é divino está distante de tudo o que é humano por espaços idênticos. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-97-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 20.6 and an absolute frequency of 6. The Phaedrus subcorpus follows, with a normalized frequency of 7.59 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 8 ; absolute frequency: 3.0213762368759. subcorpus: Cicero ; normalized frequency: 43 ; absolute frequency: 2.67872716852309. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 5 ; absolute frequency: 7.59070897221801. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 36 ; absolute frequency: 6.71879957447603. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 6 ; absolute frequency: 20.5973223480947. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-97-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 8.69 and an absolute frequency of 10. The Prosa.filosófica subcorpus follows, with a normalized frequency of 6.1 and an absolute frequency of 37. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 18 ; absolute frequency: 4.38180092017819. subcorpus: Prosa.filosófica ; normalized frequency: 37 ; absolute frequency: 6.095451475264. subcorpus: Prosa.oratória ; normalized frequency: 28 ; absolute frequency: 2.6883527118758. subcorpus: Prosa.epistolográfica ; normalized frequency: 4 ; absolute frequency: 1.05991149738997. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 10 ; absolute frequency: 8.68658790826963. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-97-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 15.71 and an absolute frequency of 6. The I.d.C. subcorpus follows, with a normalized frequency of 6.27 and an absolute frequency of 41. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 62 ; absolute frequency: 2.88573423318594. subcorpus: I.d.C. ; normalized frequency: 41 ; absolute frequency: 6.27199020957626. subcorpus: II.d.C. ; normalized frequency: 6 ; absolute frequency: 15.7068062827225. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

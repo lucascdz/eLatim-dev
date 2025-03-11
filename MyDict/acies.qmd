@@ -1,0 +1,199 @@
+---
+title: "acies"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-99-105-101-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>acĭēs</b> <b>-éí</b> <br> <small>subs. f.</small> <br> <small>Obs.: O gen. acie aparece em Cés. B. Gal. 2, 23, I e em Sal. Hist. 1,41.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Ponta, gume de uma lâmina &ensp; <small>Cíc. Verr. 5, 113.</small> <br> <b>2</b> &ensp; <small>I-Daí, por metonímia:</small> &ensp; Espada. &ensp; <small></small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Penetração, faculdade de penetração do olhar &ensp; <small>Cíc. Fin. 4, 65.</small> <br> <b>4</b> &ensp; <small>II-Donde:</small> &ensp; Olhar &ensp; <small>Cíc. Tusc. 4, 38.</small> <br> <b>5</b> &ensp; <small>II-E, por metonímia:</small> &ensp; Pupila &ensp; <small>Cíc. Nat. 2, 142</small> <br> <b>6</b> &ensp; <small>II-e também:</small> &ensp; Olho &ensp; <small>Verg. En. 4,643.</small> <br> <b>7</b> &ensp; <small>II-e também:</small> &ensp; Penetração da inteligência, brilho da inteligência &ensp; <small>Cíc. De Or. I, 151.</small> <br> <b>8</b> &ensp; <small>II-E:</small> &ensp; Brilho. refulgência &ensp; <small>Verg. G. 1,395.</small> <br> <b>9</b> &ensp; <small>III-Na língua militar:</small> &ensp; Linha de batalha, exército formado em linha de batalha &ensp; <small>Cés. B. Gal. 1,51, 1.</small> <br> <b>10</b> &ensp; <small>III-Daí:</small> &ensp; Batalha &ensp; <small>Cíc. Lig. 9.</small> <br> <b>11</b> &ensp; <small>III-Notem-se as expressões:</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>11</b><br>prima acies T. Lív. 8, 8 «a primeira linha de combate ou linha de frente»; secunda acics Cés. B. Civ. 1, 41 “a segunda linha de combate”, etc.; in aciem procedere T. Lív. 9, 27 «marchar em batalha»; media acies Cés. B. Gal. 3, 2 4 «no meio da linha de batalha». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Acies</b> -<b>ei</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; ponta, gume, ou fio do ferro. <br> <b>2</b> &ensp; agudeza da vista, e do entendimento. <br> <b>3</b> &ensp; exercito formado, batalha. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Acies</b> -<b>ei</b>   <p> <b>1</b> &ensp; a vista dos olhos. ou gume. ou exercito </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/87231 ' target="_blank"> http://lila-erc.eu/data/id/lemma/87231 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 5ª declinação (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ăcĭēs 
+ ăcĭēī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-99-105-101-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-99-105-101-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword acies here are all the values plotted: collocate: instruo; scoreSUBST: 0. collocate: primus; scoreSUBST: 0. collocate: hostis; scoreSUBST: 2. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-99-105-101-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword acies here are all the values plotted: collocate: instruo; scoreADJ: 0. collocate: primus; scoreADJ: 2. collocate: hostis; scoreADJ: 0. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-99-105-101-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword acies here are all the values plotted: collocate: instruo; scoreVERBO: 4. collocate: primus; scoreVERBO: 0. collocate: hostis; scoreVERBO: 0. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-99-105-101-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword acies here are all the values plotted: collocate: instruo; scoreADV: 0. collocate: primus; scoreADV: 0. collocate: hostis; scoreADV: 0. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-99-105-101-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword acies here are all the values plotted: collocate: instruo; scoreFUNC: 0. collocate: primus; scoreFUNC: 0. collocate: hostis; scoreFUNC: 0. collocate: in; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Caesar suas copias in proximum collem subducit <b>aciem</b> instruit <br> <small> Caes.Gal.1.22.3 <br> César recolhe suas tropas na colina mais próxima, forma uma linha. <small> [JDD] </small> </small> </p>
+; <p> primam et secundam <b>aciem</b> in armis esse tertiam castra munire iussit <br> <small> Caes.Gal.1.49.2 <br> Ordenou que a primeira e a segunda linha estivessem em armas, que a terceira fortificasse o acampamento. <small> [JDD] </small> </small> </p>
+; <p> nihilo setius Caesar ut ante constituerat duas <b>acies</b> hostem propulsare tertiam opus perficere iussit <br> <small> Caes.Gal.1.49.4 <br> Nada obstante, César, como tinha estabelecido antes, ordenou que duas linhas rechaçassem o inimigo e a terceira terminasse a obra. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-99-105-101-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 12.09 and an absolute frequency of 32. The Tacitus subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 32 ; absolute frequency: 12.0855049475036. subcorpus: Cicero ; normalized frequency: 15 ; absolute frequency: 0.934439709949914. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 9 ; absolute frequency: 1.67969989361901. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-99-105-101-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 8.28 and an absolute frequency of 34. The Poesia.didática subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 34 ; absolute frequency: 8.2767350714477. subcorpus: Prosa.filosófica ; normalized frequency: 7 ; absolute frequency: 1.15319352234724. subcorpus: Prosa.oratória ; normalized frequency: 14 ; absolute frequency: 1.3441763559379. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-99-105-101-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 2.33 and an absolute frequency of 50. The I.a.C. subcorpus follows, with a normalized frequency of 2.33 and an absolute frequency of 50. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 50 ; absolute frequency: 2.32720502676286. subcorpus: I.d.C. ; normalized frequency: 9 ; absolute frequency: 1.37677833868747. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

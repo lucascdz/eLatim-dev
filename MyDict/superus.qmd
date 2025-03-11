@@ -1,0 +1,217 @@
+---
+title: "superus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-117-112-101-114-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+no data
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+no data
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/126999 ' target="_blank"> http://lila-erc.eu/data/id/lemma/126999 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> superus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-117-112-101-114-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword superus here are all the values plotted: collocate: locus; scoreSUBST: 3. collocate: uir; scoreSUBST: 3. collocate: bonum; scoreSUBST: 2. collocate: studium; scoreSUBST: 2. collocate: auctoritas; scoreSUBST: 2. collocate: religio; scoreSUBST: 2. collocate: cum3; scoreSUBST: 0. collocate: imperator; scoreSUBST: 2. collocate: artificium; scoreSUBST: 2. collocate: turpitudo; scoreSUBST: 2. collocate: dies; scoreSUBST: 2. collocate: iugum; scoreSUBST: 2. collocate: honor; scoreSUBST: 2. collocate: magistratus; scoreSUBST: 2. collocate: consilium; scoreSUBST: 2. collocate: periculum; scoreSUBST: 2. collocate: littera; scoreSUBST: 2. collocate: laus; scoreSUBST: 2. collocate: in; scoreSUBST: 0. collocate: homo; scoreSUBST: 2. collocate: dignitas; scoreSUBST: 2. collocate: de; scoreSUBST: 0. collocate: annus; scoreSUBST: 2. collocate: uirtus; scoreSUBST: 1. collocate: cum; scoreSUBST: 0. collocate: ad; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-117-112-101-114-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword superus here are all the values plotted: collocate: locus; scoreADJ: 0. collocate: uir; scoreADJ: 0. collocate: bonum; scoreADJ: 0. collocate: studium; scoreADJ: 0. collocate: auctoritas; scoreADJ: 0. collocate: religio; scoreADJ: 0. collocate: cum3; scoreADJ: 0. collocate: imperator; scoreADJ: 0. collocate: artificium; scoreADJ: 0. collocate: turpitudo; scoreADJ: 0. collocate: dies; scoreADJ: 0. collocate: iugum; scoreADJ: 0. collocate: honor; scoreADJ: 0. collocate: magistratus; scoreADJ: 0. collocate: consilium; scoreADJ: 0. collocate: periculum; scoreADJ: 0. collocate: littera; scoreADJ: 0. collocate: laus; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: homo; scoreADJ: 0. collocate: dignitas; scoreADJ: 0. collocate: de; scoreADJ: 0. collocate: annus; scoreADJ: 0. collocate: uirtus; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: ad; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-117-112-101-114-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword superus here are all the values plotted: collocate: locus; scoreVERBO: 0. collocate: uir; scoreVERBO: 0. collocate: bonum; scoreVERBO: 0. collocate: studium; scoreVERBO: 0. collocate: auctoritas; scoreVERBO: 0. collocate: religio; scoreVERBO: 0. collocate: cum3; scoreVERBO: 0. collocate: imperator; scoreVERBO: 0. collocate: artificium; scoreVERBO: 0. collocate: turpitudo; scoreVERBO: 0. collocate: dies; scoreVERBO: 0. collocate: iugum; scoreVERBO: 0. collocate: honor; scoreVERBO: 0. collocate: magistratus; scoreVERBO: 0. collocate: consilium; scoreVERBO: 0. collocate: periculum; scoreVERBO: 0. collocate: littera; scoreVERBO: 0. collocate: laus; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: homo; scoreVERBO: 0. collocate: dignitas; scoreVERBO: 0. collocate: de; scoreVERBO: 0. collocate: annus; scoreVERBO: 0. collocate: uirtus; scoreVERBO: 0. collocate: cum; scoreVERBO: 0. collocate: ad; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-117-112-101-114-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword superus here are all the values plotted: collocate: locus; scoreADV: 0. collocate: uir; scoreADV: 0. collocate: bonum; scoreADV: 0. collocate: studium; scoreADV: 0. collocate: auctoritas; scoreADV: 0. collocate: religio; scoreADV: 0. collocate: cum3; scoreADV: 2. collocate: imperator; scoreADV: 0. collocate: artificium; scoreADV: 0. collocate: turpitudo; scoreADV: 0. collocate: dies; scoreADV: 0. collocate: iugum; scoreADV: 0. collocate: honor; scoreADV: 0. collocate: magistratus; scoreADV: 0. collocate: consilium; scoreADV: 0. collocate: periculum; scoreADV: 0. collocate: littera; scoreADV: 0. collocate: laus; scoreADV: 0. collocate: in; scoreADV: 0. collocate: homo; scoreADV: 0. collocate: dignitas; scoreADV: 0. collocate: de; scoreADV: 0. collocate: annus; scoreADV: 0. collocate: uirtus; scoreADV: 0. collocate: cum; scoreADV: 0. collocate: ad; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-117-112-101-114-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword superus here are all the values plotted: collocate: locus; scoreFUNC: 0. collocate: uir; scoreFUNC: 0. collocate: bonum; scoreFUNC: 0. collocate: studium; scoreFUNC: 0. collocate: auctoritas; scoreFUNC: 0. collocate: religio; scoreFUNC: 0. collocate: cum3; scoreFUNC: 0. collocate: imperator; scoreFUNC: 0. collocate: artificium; scoreFUNC: 0. collocate: turpitudo; scoreFUNC: 0. collocate: dies; scoreFUNC: 0. collocate: iugum; scoreFUNC: 0. collocate: honor; scoreFUNC: 0. collocate: magistratus; scoreFUNC: 0. collocate: consilium; scoreFUNC: 0. collocate: periculum; scoreFUNC: 0. collocate: littera; scoreFUNC: 0. collocate: laus; scoreFUNC: 0. collocate: in; scoreFUNC: 20. collocate: homo; scoreFUNC: 0. collocate: dignitas; scoreFUNC: 0. collocate: de; scoreFUNC: 20. collocate: annus; scoreFUNC: 0. collocate: uirtus; scoreFUNC: 0. collocate: cum; scoreFUNC: 20. collocate: ad; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> hoc est <b>summum</b> bonum <br> <small> Sen.Ep.31.8 <br> Este é o sumo bem. <small> [JDD] </small> </small> </p>
+; <p> de <b>superiore</b> coniuratione satis dictum <br> <small> Sal.Cat.19.6 <br> Sobre a primeira conjuração é suficiente o que foi dito. <small> [JDD] </small> </small> </p>
+; <p> <b>summum</b> bonum extrinsecus instrumenta non quaerit <br> <small> Sen.Ep.9.15 <br> O bem supremo não busca instrumentos fora. <small> [JDD] </small> </small> </p>
+; <p> in <b>summo</b> tamen timore quiescendum esse arbitrabatur <br> <small> Cic.Deiot.11 <br> Em tão grande temor, contudo, julgava que devia ficar inativo. <small> [JDD] </small> </small> </p>
+; <p> ita enim egi te cum <b>superioribus</b> litteris <br> <small> Cic.Att.2.25.2 <br> pois assim tratei contigo em minha última carta. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> atque hunc ille <b>summus</b> uir scelere solutum periculo liberauit <br> <small> Cic.Mil.9 <br> E aquele grande homem liberou do perigo esse absolvido do crime. <small> [JDD] </small> </small> </p>
+; <p> magnus dicendi labor magna res magna dignitas <b>summa</b> autem gratia <br> <small> Cic.Mur.29 <br> Grande é o labor de discursar, grande seu assunto, grande sua dignidade, suprema, porém, a sua influência. <small> [JDD] </small> </small> </p>
+; <p> milites e loco <b>superiore</b> pilis missis facile hostium phalangem perfregerunt <br> <small> Caes.Gal.1.25.2 <br> Os soldados, com seus dardos lançados de um ponto mais alto, facilmente romperam a falange dos inimigos. <small> [JDD] </small> </small> </p>
+; <p> non est saepius in uno homine <b>summa</b> salus periclitanda rei publicae <br> <small> Cic.Catil.1.11.5 <br> Não se deve pôr em perigo tantas vezes a suprema salvação da república em um único homem. <small> [JDD] </small> </small> </p>
+; <p> sed ea non muto non moueo <b>summo</b> studio illius praeclara acta defendo <br> <small> Cic.Phil.1.17.6 <br> Mas não as mudo, não as removo: com imenso interesse defendo suas ilustres resoluções. <small> [JDD] </small> </small> </p>
+; <p> quae nisi essent in senibus non <b>summum</b> consilium maiores nostri appellassent senatum <br> <small> Cic.Sen.19 <br> Se não existissem nos velhos essas qualidades, os nosso antepassados não teriam chamado o supremo conselho de senado. <small> [JDD] </small> </small> </p>
+; <p> sed in hac laude industriae meae reus ne elabatur <b>summum</b> periculum est <br> <small> Cic.Ver.1.32 <br> Mas neste louvor de minha habilidade está o supremo perigo de que o réu escape. <small> [JDD] </small> </small> </p>
+; <p> his autem omnibus druidibus praeest unus qui <b>summam</b> inter eos habet auctoritatem <br> <small> Caes.Gal.6.13.8 <br> Preside a todos esses druídas, porém, um único, que tem entre eles a suprema autoridade. <small> [JDD] </small> </small> </p>
+; <p> quae est igitur ista cupiditas legis eius ferendae quae turpitudinem <b>summam</b> habeat gratiam nullam <br> <small> Cic.Phil.1.21.9 <br> Que desejo é esse, portanto, de propor uma lei que provoque a maior vergonha e nenhuma simpatia? <small> [JDD] </small> </small> </p>
+; <p> ne ne hunc in uincla duci non ad mortem rapi non <b>summo</b> supplicio mactari imperabis <br> <small> Cic.Catil.1.27.15 <br> Por ventura não mandarás que este seja conduzido aos grilhões, seja arrastado para a morte, seja punido com o supremo suplício? <small> [JDD] </small> </small> </p>
+; <p> hunc cum reliquis rebus locum probabat tum quod <b>superioris</b> anni munitiones integrae manebant ut militum laborem subleuaret <br> <small> Caes.Gal.6.32.5 <br> Aprovava este local não só pelas demais coisas, mas principalmente porque permaneciam intactas as trincheiras dos anos anteriores, de modo que atenuava o trabalho dos soldados. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Decimus quidem Brutus <b>summus</b> uir et imperator Acci amicissimi sui carminibus templorum ac monumentorum aditus exornauit suorum <br> <small> Cic.Arch.27 <br> Décimo Bruto, grande homem e general, adornou as entradas dos templos e de seus monumentos com versos de Ácio, amicíssimo seu. <small> [JDD] </small> </small> </p>
+; <p> felices ter et amplius quos inrupta tenet copula nec malis diuolsus querimoniis <b>suprema</b> citius soluet amor die <br> <small> Hor.Carm.1.13.17 <br> Três e mais vezes felizes aqueles aos quais uma união indissolúvel mantém juntos e aos quais não separará antes do supremo dia o amor desfeito por funestas queixas. <small> [JDD] </small> </small> </p>
+; <p> ego enim sic existimo in <b>summo</b> imperatore quattuor has res inesse oportere scientiam rei militaris uirtutem auctoritatem felicitatem <br> <small> Cic.Man.28 <br> Pois eu estimo assim, que convém existir em um grande general estas quatro coisas, conhecimento do assunto militar, valor, autoridade e sorte. <small> [JDD] </small> </small> </p>
+; <p> fuit apud Segestanos ex aere Dianae simulacrum cum <b>summa</b> atque antiquissima praeditum religione tum singulari opere artificioque perfectum <br> <small> Cic.Ver.2.4.72.13 <br> Havia entre os segestanos uma estátua de bronze de Diana, tida, por um lado, em suprema e antiquíssima devoção e por outro, feita num trabalho e arte singular. <small> [JDD] </small> </small> </p>
+; <p> quod confido equidem consules designatos simul ut magistratum inierint esse facturos sunt enim optimo animo <b>summo</b> consilio singulari concordia <br> <small> Cic.Phil.3.2.10 <br> O que, na verdade, confio que os cônsules designados, assim que assumirem seu cargo, farão; pois são de excelente ânimo, de suprema sensatez, de singular harmonia. <small> [JDD] </small> </small> </p>
+; <p> ille quidem fructum omnis ante actae uitae hodierno die maximum cepit cum <b>summo</b> consensu senatus tum iudicio tuo grauissimo et maximo <br> <small> Cic.Marc.3 <br> Ele, na verdade, recebeu no dia de hoje o maior fruto de toda sua vida já passada, não só pelo total consenso do senado, mas também pelo teu julgamento gravíssimo e supremo. <small> [JDD] </small> </small> </p>
+; <p> amplissimae tibi fortunae sunt <b>summus</b> honoris gradus filius ut et audio et spero natus ad laudem cui cum rei publicae causa faueo tum etiam tua <br> <small> Cic.Phil.10.4.11 <br> Tens uma vastíssima fortuna, o mais alto grau da magistratura, um filho, pelo que ouço e espero, nascido para a glória, a quem eu apoio não só por causa da república como também por ti. <small> [JDD] </small> </small> </p>
+; <p> de tertia uigilia T. Labienum legatum pro praetore cum duabus legionibus et iis ducibus qui iter cognouerant <b>summum</b> iugum montis ascendere iubet quid sui consilii sit ostendit <br> <small> Caes.Gal.1.21.2 <br> Ordena que, durante a terceira vigília, T. Labieno, legado pro pretor, com duas legiões e tendo como guias aqueles que conheciam o caminho, suba até o cume do monte; mostra qual é o seu plano. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-117-112-101-114-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 26.44 and an absolute frequency of 70. The Tacitus subcorpus follows, with a normalized frequency of 13.73 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 70 ; absolute frequency: 26.4370420726641. subcorpus: Cicero ; normalized frequency: 239 ; absolute frequency: 14.8887393785353. subcorpus: Horatius ; normalized frequency: 9 ; absolute frequency: 7.99218541870171. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 14 ; absolute frequency: 12.9858083665708. subcorpus: Seneca ; normalized frequency: 40 ; absolute frequency: 7.46533286052892. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 4 ; absolute frequency: 13.7315482320632. subcorpus: Vergilius ; normalized frequency: 9 ; absolute frequency: 17.3745173745174. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-117-112-101-114-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 21.67 and an absolute frequency of 89. The Prosa.filosófica subcorpus follows, with a normalized frequency of 9.72 and an absolute frequency of 59. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 89 ; absolute frequency: 21.6655712164366. subcorpus: Prosa.filosófica ; normalized frequency: 59 ; absolute frequency: 9.71977397406962. subcorpus: Prosa.oratória ; normalized frequency: 198 ; absolute frequency: 19.010494176836. subcorpus: Prosa.epistolográfica ; normalized frequency: 9 ; absolute frequency: 2.38480086912743. subcorpus: Poesia.lírica ; normalized frequency: 9 ; absolute frequency: 7.57129637419029. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 13 ; absolute frequency: 11.2925642807505. subcorpus: Poesia.épica ; normalized frequency: 9 ; absolute frequency: 17.3745173745174. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-117-112-101-114-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 15.87 and an absolute frequency of 341. The I.d.C. subcorpus follows, with a normalized frequency of 6.73 and an absolute frequency of 44. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 341 ; absolute frequency: 15.8715382825227. subcorpus: I.d.C. ; normalized frequency: 44 ; absolute frequency: 6.73091632247208. subcorpus: II.d.C. ; normalized frequency: 5 ; absolute frequency: 13.0890052356021. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

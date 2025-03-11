@@ -1,0 +1,238 @@
+---
+title: "fero"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx102-101-114-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>fer</b> <br> <small>imperat. de fero.</small> <br> <small></small> 
+ <b>ferō</b> <b>fers, ferre, tùlí, látum</b> <br> <small>v. tr.</small> <br> <small>Obs.: O perf. tetuli e formas derivadas ocorrem nos  autores arcaicos e até nos poetas contemporâneos de Cícero e César.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Levar, trazer &ensp; <small>Cíc. Tusc. 2, 37:</small> <br> <b>2</b> &ensp; <small>I-Sent. próprio</small> &ensp; Trazer no ventre, estar grávida. produzir &ensp; <small>tratando-se de plantas T. Lív. I. 3--1. 3: C ie. Leg. 2, 67.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Suportar, sofrer, tolerar &ensp; <small>Cés. B. Gal. 3, 19, 3; Cíc. Tusc. 2, 46.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Propor uma lei, dar uma opinião, levar uma notícia ou fato, contar, expor &ensp; <small>Cíc. Of. ’2, 73: Cíc. Clu. 140: Cíc. Phil. 2. 110.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Impelir, empurrar, conduzir &ensp; <small>Cés. B. Civ. I. 27, 4.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Obter, conseguir, tirar, carregar, roubar &ensp; <small>C ie. At. 4, 15, 6; Verg. Buc. 5, 34; Verg. Buc. 9, 15.</small> <br> <b>7</b> &ensp; <small>II-Reflexivo ou passivo:</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>lectica latus C ie. Phil. 2, 106 “levado trazido em liteira”: Cíc. Of. 3. 74. <br> <br><b>7</b><br>ferre se ou ferri: dirigir-se, lançar-se Cés. B. Gal. 2, 24, 3 Cíc. Plane. 96. </p> 
+ <b>fers</b> <br> <small>2ª pess. sing. pres. do indicat. de fero.</small> <br> <small></small> 
+ <b>tetŭlī</b> <br> <small>perf. arcaico de fero com redobro = tuli Plaut. Men. 629.</small> <br> <small></small> 
+ <b>tulī</b> <br> <small>perf. de fero.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+<b>Fĕro</b> <b>fērs</b> <b>tŭlī</b> <b>lātum</b> <b>fērrĕ</b> <br> <small>v. trans. e intrans. φέρω.</small>   <p> <b>1</b> &ensp; fazer alardo; <br> <b>1</b> &ensp; fazer gala de; <br> <b>1</b> &ensp; levar ou trazer, ter; <br> <b>1</b> &ensp; <small>Ferre præ se.</small> &ensp; mostrar, manifestar, patentear, ostentar; <br> <b>1</b> &ensp; ter; <br> <b>1</b> &ensp; <small>fig.</small> &ensp; trazer, andar, ou estar com; <br> <b>2</b> &ensp; levar para diante, transportar, mover, dirigir, levar, arrastar, impellir; <br> <b>2</b> &ensp; prolongar; <br> <b>3</b> &ensp; trazer, offerecer, apresentar, dar, propôr; <br> <b>3</b> &ensp; <small>fig.</small> &ensp; trazer, produzir, causar; <br> <b>4</b> &ensp; destruir, acabar com, levar, matar; <br> <b>4</b> &ensp; tirar, tomar, pilhar, saquear, devastar; <br> <b>5</b> &ensp; obter, alcançar, conseguir, recolher, tirar, receber; <br> <b>6</b> &ensp; estar encarregado de; <br> <b>6</b> &ensp; supportar, soffrer, tolerar, curtir; <br> <b>6</b> &ensp; sustentar, manter; <br> <b>7</b> &ensp; levar a, excitar, estimular, convidar, pedir, exigir, requerer, querer; <br> <b>7</b> &ensp; permittir, admittir, comportar, supportar; <br> <b>8</b> &ensp; crear, dar, produzir, render; <br> <b>9</b> &ensp; annunciar, dizer, referir, contar, relatar; <br> <b>9</b> &ensp; pretender; <br> <b>10</b> &ensp; dar um parecer, a sua opinião, lavrar um decreto; <br> <b>11</b> &ensp; espalhar, disseminar, propalar, transmittir; <br> <b>12</b> &ensp; levantar, elevar, exaltar, alçar, elogiar, gabar; <br> <b>13</b> &ensp; guiar, levar, conduzir; <br> <b>14</b> &ensp; <small>Phrases diversas.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>dixeram et præ me tuleram… &ensp; <small><small>Fronto</small></small> &ensp; <small>Eu tinha dicto, e me havia gabado…</small> <br> epistola erat lata Romam &ensp; <small><small>Fronto</small></small> &ensp; <small>A carta tinha sido levada a Roma</small> <br> ferre aperte &ensp; <small><small>Liv</small></small> &ensp; <small>Manifestar, deixar vêr, patentear; não dissimular</small> <br> ferre haud clam &ensp; <small><small>Cic</small></small> &ensp; <small>Manifestar, deixar vêr, patentear; não dissimular</small> <br> ferre humeris &ensp; <small><small>Ov. Petr</small></small> &ensp; <small>Levar aos hombros</small> <br> ferre in oculis &ensp; <small><small>Cic</small></small> &ensp; <small>Amar como as meninas dos olhos</small> <br> ferre non obscure &ensp; <small><small>Cic</small></small> &ensp; <small>Manifestar, deixar vêr, patentear; não dissimular</small> <br> ferre olera &ensp; <small><small>Ter</small></small> &ensp; <small>Trazer legumes</small> <br> ferre partum &ensp; <small><small>Plin</small></small> &ensp; <small>Andar gravida, pejada, estar prenhe</small> <br> ferre personam alienam &ensp; <small><small>Liv</small></small> &ensp; <small>Trazer uma mascara, i. é, representar o papel d’outrem</small> <br> ferre similitudinem &ensp; <small><small>Plin</small></small> &ensp; <small>Assimilhar-se, parecer-se</small> <br> ferre uenationem &ensp; <small><small>Liv</small></small> &ensp; <small>Trazer caça</small> <br> ferre uentrem &ensp; <small><small>Liv</small></small> &ensp; <small>Andar gravida, pejada, estar prenhe</small> <br> lectica latus est &ensp; <small><small>Cic</small></small> &ensp; <small>Levaram-no em liteira</small> <br> præ se ferre et confiteri facinus &ensp; <small><small>Cic</small></small> &ensp; <small>Confessar uma acção e fazer gala d’ella</small> <br> qui speciem doctrinæ præ se ferunt &ensp; <small><small>Cic</small></small> &ensp; <small>Os que inculcam instrucção</small> <br> semper præ me tuli… &ensp; <small><small>Cic</small></small> &ensp; <small>Sempre tive por norma…</small> <br> sic ora ferebat &ensp; <small><small>Virg</small></small> &ensp; <small>Taes eram as suas feições</small> <br> <br><b>2</b><br>clamorem ferunt ad litora &ensp; <small><small>Virg</small></small> &ensp; <small>Seus gritos chegam até ás praias</small> <br> euri ferunt siluas &ensp; <small><small>Virg</small></small> &ensp; <small>Os ventos varrem as florestas</small> <br> fer stabulis ignem &ensp; <small><small>Virg</small></small> &ensp; <small>Deita o fogo aos meus curraes</small> <br> ferat Aufidus &ensp; <small><small>Hor</small></small> &ensp; <small>Leve -os o rio Aufido</small> <br> ferre arma &ensp; <small><small>Virg</small></small> &ensp; <small>Pegar em armas; tomar armas;</small> <br> ferre arma contra aliquem &ensp; <small><small>Nep</small></small> &ensp; <small>Pegar em armas, tomar armas contra alguem</small> <br> ferre arma in aliquem &ensp; <small><small>Liv</small></small> &ensp; <small>Pegar em armas, tomar armas contra alguem</small> <br> ferre corpus &ensp; <small><small>Ov</small></small> &ensp; <small>Transportar-se, dirigir-se para, marchar, caminhar, andar, ir</small> <br> ferre gradum &ensp; <small><small>Virg</small></small> &ensp; <small>Transportar-se, dirigir-se para, marchar, caminhar, andar, ir</small> <br> ferre gressum &ensp; <small><small>Virg</small></small> &ensp; <small>Transportar-se, dirigir-se para, marchar, caminhar, andar, ir</small> <br> ferre ictus &ensp; <small><small>Ov</small></small> &ensp; <small>Dar golpes uma lança</small> <br> ferre iter &ensp; <small><small>Virg</small></small> &ensp; <small>Transportar-se, dirigir-se para, marchar, caminhar, andar, ir</small> <br> ferre manum &ensp; <small><small>Plaut</small></small> &ensp; <small>Combater</small> <br> ferre manum in prœlia &ensp; <small><small>Virg</small></small> &ensp; <small>Combater</small> <br> ferre membra &ensp; <small><small>Ov</small></small> &ensp; <small>Transportar-se, dirigir-se para, marchar, caminhar, andar, ir</small> <br> ferre oculos ad… &ensp; <small><small>Virg</small></small> &ensp; <small>Voltar os olhos para…</small> <br> ferre pedem &ensp; <small><small>Virg</small></small> &ensp; <small>Transportar-se, dirigir-se para, marchar, caminhar, andar, ir</small> <br> ferre pedem choris &ensp; <small><small>Hor</small></small> &ensp; <small>Fazer danças, dançar</small> <br> ferre rabie &ensp; <small><small>Plin</small></small> &ensp; <small>Sêr transportado de raiva</small> <br> ferre se &ensp; <small><small>Virg</small></small> &ensp; <small>Transportar-se, dirigir-se para, marchar, caminhar, andar, ir</small> <br> ferre se obuiam &ensp; <small><small>Cic</small></small> &ensp; <small>Sair ao encontro</small> <br> ferre signa &ensp; <small><small>Liv</small></small> &ensp; <small>Pôr-se em marcha um exercito</small> <br> ferre sonitum &ensp; <small><small>Virg</small></small> &ensp; <small>Fazer um ruído</small> <br> ferre uestigia &ensp; <small><small>Virg</small></small> &ensp; <small>Transportar-se, dirigir-se para, marchar, caminhar, andar, ir</small> <br> ferre uitis in terram &ensp; <small><small>Cic</small></small> &ensp; <small>A videira curva-se para o chão</small> <br> ferri equis &ensp; <small><small>Virg</small></small> &ensp; <small>Sêr arrebatado pelos cavallos</small> <br> ferri in hostem &ensp; <small><small>Virg</small></small> &ensp; <small>Avançar contra o inimigo</small> <br> fertur flumen &ensp; <small><small>Hirt</small></small> &ensp; <small>O rio corre</small> <br> ludum in diem tulisset &ensp; <small><small>Virg</small></small> &ensp; <small>Teria levado prolongado o jogo até o dia</small> <br> qua tulisset impetum &ensp; <small><small>Just</small></small> &ensp; <small>Por onde tivesse rompido</small> <br> quo ferar? &ensp; <small><small>Virg</small></small> &ensp; <small>Para que parte me hei de voltar?</small> <br> tanto odio ferebatur in… &ensp; <small><small>Nep</small></small> &ensp; <small>Tão violento era o odio que o levava contra…</small> <br> uxor lata est pro… &ensp; <small><small>Ov</small></small> &ensp; <small>A esposa foi levada, morreu em vez de…</small> <br> <br><b>3</b><br>ferre &ensp; <small><small>Cic</small></small> &ensp; <small>Propôr alguma coisa ao povo</small> <br> ferre ad populum &ensp; <small><small>Cic</small></small> &ensp; <small>Propôr alguma coisa ao povo</small> <br> ferre auxilium &ensp; <small><small>Cic</small></small> &ensp; <small>Prestar soccorro, ajudar, auxiliar</small> <br> ferre conditionem &ensp; <small><small>Cic</small></small> &ensp; <small>Fazer uma proposta</small> <br> ferre dona &ensp; <small><small>Virg</small></small> &ensp; <small>Trazer presentes</small> <br> ferre fastidia &ensp; <small><small>Virg</small></small> &ensp; <small>Causar fastio, enjoar</small> <br> ferre finem &ensp; <small><small>Virg</small></small> &ensp; <small>Pôr termo, concluir, acabar</small> <br> ferre grates &ensp; <small><small>Sil</small></small> &ensp; <small>Agradecer</small> <br> ferre iussa &ensp; <small><small>Virg</small></small> &ensp; <small>Dar uma ordem</small> <br> ferre legem &ensp; <small><small>Cic</small></small> &ensp; <small>Apresentar uma lei</small> <br> ferre opem &ensp; <small><small>Cic</small></small> &ensp; <small>Prestar soccorro, ajudar, auxiliar</small> <br> ferre oscula &ensp; <small><small>Ov</small></small> &ensp; <small>Dar um beijo; dar abraços, abraçar</small> <br> ferre osculum &ensp; <small><small>Fronto</small></small> &ensp; <small>Dar um beijo;</small> <br> ferre pacem &ensp; <small><small>Virg</small></small> &ensp; <small>Trazer a paz</small> <br> ferre præsidium &ensp; <small><small>Cic</small></small> &ensp; <small>Prestar soccorro, ajudar, auxiliar</small> <br> ferre preces &ensp; <small><small>Virg</small></small> &ensp; <small>Dirigir supplicas</small> <br> ferre rem &ensp; <small><small>Liv</small></small> &ensp; <small>Propôr alguma coisa ao povo</small> <br> ferre sacra &ensp; <small><small>Virg</small></small> &ensp; <small>Offerecer um sacrificio</small> <br> ferre solatia &ensp; <small><small>Prop</small></small> &ensp; <small>Trazer consolações</small> <br> ferre subsidium &ensp; <small><small>Cic</small></small> &ensp; <small>Prestar soccorro, ajudar, auxiliar</small> <br> ferre uoluptatem &ensp; <small><small>Ter</small></small> &ensp; <small>Dar, causar prazer</small> <br> quemcumque fors tulerit casum &ensp; <small><small>Cic</small></small> &ensp; <small>Qualquer que seja o acontecimento que o acaso traga</small> <br> <br><b>4</b><br>alii rapiunt feruntque Pergama &ensp; <small><small>Virg</small></small> &ensp; <small>Outros põem Troia a sacco</small> <br> ferre passim cuncta atque agere &ensp; <small><small>Liv</small></small> &ensp; <small>Levar a devastação e a pilhagem por toda a parte</small> <br> omnia fert ætas, animum quoque &ensp; <small><small>Virg</small></small> &ensp; <small>O tempo tudo leva, até a memoria</small> <br> postquam te fata tulerunt &ensp; <small><small>Virg</small></small> &ensp; <small>Depois que os destinos te levaram</small> <br> <br><b>5</b><br>agunt feruntque cuncta &ensp; <small><small>Tac</small></small> &ensp; <small>Apoderam-se de tudo</small> <br> ferre argentum ab aliquo &ensp; <small><small>Plaut</small></small> &ensp; <small>Receber dinheiro de alguem</small> <br> ferre centuriam &ensp; <small><small>Cic</small></small> &ensp; <small>Conseguir os votos d’uma centuria</small> <br> ferre decretum &ensp; <small><small>Liv</small></small> &ensp; <small>Fazer admittir um decreto</small> <br> ferre fructus &ensp; <small><small>Cic</small></small> &ensp; <small>Tirar fructos</small> <br> ferre impune &ensp; <small><small>Cæs. Cic</small></small> &ensp; <small>Fazer impunemente alguma coisa; ficar sem castigo</small> <br> ferre inultum &ensp; <small><small>Ter</small></small> &ensp; <small>Fazer impunemente alguma coisa; ficar sem castigo</small> <br> ferre liberos ex aliqua &ensp; <small><small>Suet</small></small> &ensp; <small>Ter filhos d’uma mulher</small> <br> ferre nomen insani &ensp; <small><small>Hor</small></small> &ensp; <small>Sêr tido na conta de insensato</small> <br> ferre palmam &ensp; <small><small>Cic</small></small> &ensp; <small>Ganhar a palma</small> <br> ferre tribum &ensp; <small><small>Cic</small></small> &ensp; <small>Conseguir os votos d’uma tribu</small> <br> ferre uictoriam &ensp; <small><small>Liv</small></small> &ensp; <small>Obter a victoria</small> <br> hanc sine me spem ferre &ensp; <small><small>Virg</small></small> &ensp; <small>Deixa-me levar esta esperança</small> <br> id a me responsum tulit &ensp; <small><small>Cic</small></small> &ensp; <small>Esta foi a resposta que elle recebeu de mim</small> <br> non feret quin uapulet &ensp; <small><small>Plaut</small></small> &ensp; <small>Não ficará sem levar um bom castigo</small> <br> <br><b>6</b><br>eamdem fortunam tulit Camulogenus &ensp; <small><small>Cæs</small></small> &ensp; <small>Camulogeno teve a mesma sorte</small> <br> ferre ægre &ensp; <small><small>Cic</small></small> &ensp; <small>Levar a mal, indignar-se</small> <br> ferre æquo animo &ensp; <small><small>Cic</small></small> &ensp; <small>Levar com paciencia; soffrer sem se queixar</small> <br> ferre annos &ensp; <small><small>Ov. Inscr</small></small> &ensp; <small>Viver, ter certo numero de annos</small> <br> ferre casus &ensp; <small><small>Ov</small></small> &ensp; <small>Soffrer perdas, passar por desventuras</small> <br> ferre clementer &ensp; <small><small>Cic</small></small> &ensp; <small>Levar com paciencia; soffrer sem se queixar</small> <br> ferre damna &ensp; <small><small>Ov</small></small> &ensp; <small>Soffrer perdas, passar por desventuras</small> <br> ferre facile &ensp; <small><small>Sen</small></small> &ensp; <small>Levar com paciencia; soffrer sem se queixar</small> <br> ferre grauiter &ensp; <small><small>Cic</small></small> &ensp; <small>Levar a mal, indignar-se</small> <br> ferre impetum &ensp; <small><small>Cæs</small></small> &ensp; <small>Sustentar o ataque</small> <br> ferre indigne &ensp; <small><small>Cic</small></small> &ensp; <small>Levar a mal, indignar-se</small> <br> ferre iniquo animo &ensp; <small><small>Cic</small></small> &ensp; <small>Levar a mal, indignar-se</small> <br> ferre moleste &ensp; <small><small>Cic</small></small> &ensp; <small>Levar a mal, indignar-se</small> <br> ferre primas &ensp; <small><small>scil. partes. Cic</small></small> &ensp; <small>Ter o primeiro logar; representar o primeiro papel</small> <br> ferre repulsam &ensp; <small><small>Cic</small></small> &ensp; <small>Soffrer uma recusa</small> <br> ferre secundas &ensp; <small><small>scil. partes. Hor</small></small> &ensp; <small>Ter o segundo logar; representar o segundo papel</small> <br> ferre seruire &ensp; <small><small>Ov</small></small> &ensp; <small>Consentir em sêr escravo, deixar-se escravisar</small> <br> ferre supplicium &ensp; <small><small>Cæs</small></small> &ensp; <small>Padecer supplicio</small> <br> ferre timorem &ensp; <small><small>Ov</small></small> &ensp; <small>Ter mêdo</small> <br> ferre uetustatem &ensp; <small><small>Quint</small></small> &ensp; <small>Estar guardado, conservar-se</small> <br> ferres me, si idem dicerem? &ensp; <small><small>Cic</small></small> &ensp; <small>Levarias a bem que eu dissesse a mesma coisa?</small> <br> <br><b>7</b><br>dum tempus tulit &ensp; <small><small>Ter</small></small> &ensp; <small>Emquanto o tempo permittiu-lhe</small> <br> fert animus dicere… &ensp; <small><small>Ov</small></small> &ensp; <small>Tenho em mente cantar…</small> <br> prout hominis facultates ferebant &ensp; <small><small>Cic</small></small> &ensp; <small>Consoante o permittiam seus meios</small> <br> quid tempus ferat &ensp; <small>O que a circumstancia exigir</small> <br> quod natura fert in omnibus rebus &ensp; <small><small>Cic</small></small> &ensp; <small>O que a naturesa permitte em todas as coisas, i. é, segundo o curso natural das coisas</small> <br> si fert ita corde uoluntas &ensp; <small><small>Virg</small></small> &ensp; <small>Se este é o teu desejo</small> <br> si occasio tulerit &ensp; <small><small>Cic</small></small> &ensp; <small>Se se offerecer occasião</small> <br> si res ita fert &ensp; <small><small>Cic</small></small> &ensp; <small>Se a necessidade o requerer</small> <br> ut amor tuus fert &ensp; <small><small>Cic</small></small> &ensp; <small>Conforme a tua amisade o quer</small> <br> ut opinio mea fert &ensp; <small><small>Cic</small></small> &ensp; <small>Segundo a minha opinião, a meu vêr</small> <br> <br><b>8</b><br>ferundo arbos peribit &ensp; <small><small>Cato</small></small> &ensp; <small>A arvore definhará de tanto produzir</small> <br> hæc ætas perfectum oratorem tulit &ensp; <small><small>Cic</small></small> &ensp; <small>Este seculo produziu um orador perfeito</small> <br> india fert ebenum &ensp; <small><small>Virg</small></small> &ensp; <small>A India produz o ebano</small> <br> <br><b>9</b><br>dixisse fertur &ensp; <small><small>Phaed</small></small> &ensp; <small>Refere-se que elle dissera</small> <br> ferre se ciuem &ensp; <small><small>Tac</small></small> &ensp; <small>Dar-se, declarar-se cidadão</small> <br> ferre se nullius egentem &ensp; <small><small>Hor</small></small> &ensp; <small>Presumir de não precisar de pessôa alguma</small> <br> ferre se pro ciue &ensp; <small><small>Liv</small></small> &ensp; <small>Dar-se, declarar-se cidadão</small> <br> ferunt &ensp; <small><small>Cic. Virg</small></small> &ensp; <small>Dizem, conta-se</small> <br> missi ferebant… &ensp; <small><small>Tac</small></small> &ensp; <small>Enviados contavam…</small> <br> non sat idoneus pugnæ ferebaris &ensp; <small><small>Hor</small></small> &ensp; <small>Tu eras reputado pouco capaz de combater</small> <br> quæ nunc Samothracia fertur &ensp; <small><small>Virg</small></small> &ensp; <small>Que agora é chamada Samothracia</small> <br> quod fers, cedo &ensp; <small><small>Ter</small></small> &ensp; <small>Dize as novas que trazes</small> <br> se regiæ stirpis ferebat &ensp; <small><small>Vell</small></small> &ensp; <small>Pretendia sêr de sangue real</small> <br> si uera feram &ensp; <small><small>Virg</small></small> &ensp; <small>Se eu digo a verdade</small> <br> <br><b>10</b><br>ferre iudicium &ensp; <small><small>Cic</small></small> &ensp; <small>Dar um decreto</small> <br> ferre sententiam &ensp; <small><small>Cic</small></small> &ensp; <small>Emettir o seu parecer, dar a sua opinião</small> <br> ferre suffragium &ensp; <small><small>Cic</small></small> &ensp; <small>Dar o seu voto</small> <br> <br><b>11</b><br>carmina ferre per orbem &ensp; <small><small>Virg</small></small> &ensp; <small>Espalhar versos por todo mundo</small> <br> ferre sub auras, si qua tegunt &ensp; <small><small>Virg</small></small> &ensp; <small>Divulgar os segredos</small> <br> ferri per ora hominum &ensp; <small><small>Plin. J</small></small> &ensp; <small>Andar de bocca em bocca, ter grande celebridade</small> <br> fertur hoc in primis &ensp; <small><small>Ter</small></small> &ensp; <small>Esta palavra tem voga</small> <br> pericles, cuius scripta quædam feruntur &ensp; <small><small>Cic</small></small> &ensp; <small>Pericles, de quem restam alguns escriptos</small> <br> <br><b>12</b><br>ferre ad astra &ensp; <small><small>Virg</small></small> &ensp; <small>Elevar alguem até o ceu; pôl-o nos cornos da lua; encher de louvores; fazer um pomposo elogio</small> <br> ferre ad sidera &ensp; <small><small>Virg</small></small> &ensp; <small>Elevar alguem até o ceu; pôl-o nos cornos da lua; encher de louvores; fazer um pomposo elogio</small> <br> ferre in cælum &ensp; <small><small>Cic</small></small> &ensp; <small>Elevar alguem até o ceu; pôl-o nos cornos da lua; encher de louvores; fazer um pomposo elogio</small> <br> ferre in maius uero &ensp; <small><small>Liv</small></small> &ensp; <small>Exagerar uma coisa</small> <br> ferre insigni laude &ensp; <small><small>Virg</small></small> &ensp; <small>Elevar alguem até o ceu; pôl-o nos cornos da lua; encher de louvores; fazer um pomposo elogio</small> <br> ferre laudibus &ensp; <small><small>Liv. Plin</small></small> &ensp; <small>Elevar alguem até o ceu; pôl-o nos cornos da lua; encher de louvores; fazer um pomposo elogio</small> <br> quid fuit in Graccho, quod tantopere ferretur? &ensp; <small><small>Cic</small></small> &ensp; <small>Que eloquencia houve em Graccho, que merecesse sêr tão elogiada?</small> <br> <br><b>13</b><br>iter fert ad… &ensp; <small><small>Cæs. Virg</small></small> &ensp; <small>O caminho leva ou vae dar a…</small> <br> nisi illud, quod eo ferat, cognôris &ensp; <small><small>Cic</small></small> &ensp; <small>Se tu não sabias o que conduz alli</small> <br> uia fert ad… &ensp; <small><small>Cæs. Virg</small></small> &ensp; <small>O caminho leva ou vae dar a…</small> <br> <br><b>14</b><br>ferre acceptum &ensp; <small><small>Ved. Acceptus</small></small> <br> ferre calumniam &ensp; <small><small>Ved. Calumnia</small></small> <br> ferre expensum alicui &ensp; <small><small>Cic</small></small> &ensp; <small>Levar em conta a alguem, creditar</small> <br> ferre fidem &ensp; <small><small>etc. Ved. Fides, etc</small></small> <br> ferre tacitum… &ensp; <small><small>Cic. Liv</small></small> &ensp; <small>Obter silêncio á cerca d’uma coisa…</small> <br> fertur his uerbis epistola &ensp; <small><small>Cic</small></small> &ensp; <small>A carta é concebida n’estes termos</small> </p>
+
+
+
+
+#### Fonseca
+
+<b>Fero</b> <b>fers</b> -<b>tuli</b> -<b>latum</b> <b>ferre</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; trazer, levar. <br> <b>2</b> &ensp; produzir, gerar, occasionar. <br> <b>3</b> &ensp; soffrer, supportar. <br> <b>4</b> &ensp; referir, contar, dizer. <br> <b>5</b> &ensp; alcançar, obter. </p> 
+ <small>pret. de Fero</small> <b>Tuli</b>
+
+
+
+
+#### Velez
+
+<b>Fero</b> <b>fers</b> <br> <small>Vide Prae, & Habeo.</small>   <p> <b>1</b> &ensp; levar, sofrer, trazer, receber, levantar <br> <b>2</b> &ensp; <small>ponitur etiam pro Dicere</small> <br> <b>3</b> &ensp; <small>aliquandò pro Gignere, Prodùcere</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>fertur &ensp; <small>conta-se</small> <br> ferunt &ensp; <small>dizem, ou contaõ</small> <br> <br><b>X</b><br>ad Senatum, uel ad pópulum ferre &ensp; <small>consultar o Senado, ou povo sobre alguma cousa</small> <br> ferre manum &ensp; <small>pelejar</small> &ensp; <small><small>apud Virg. pro Conferre</small></small> <br> ferre se in auro &ensp; <small><small>pro Ostentare</small></small> <br> susque, deque fero &ensp; <small><small>apud veteres, i, sursùm, an deorsum res feratur, parvi facio</small></small> <br> uetustatem &ensp; <small>durar muito, naõ se corromper alguma cousa com o tempo</small> &ensp; <small><small>i, annos ferre</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Fero</b> -<b>ers</b> <b>tuli</b> <b>latum</b>   <p> <b>1</b> &ensp; leuar. trazer. soffrer </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/103126 ' target="_blank"> http://lila-erc.eu/data/id/lemma/103126 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> irregular <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> fero </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> ferre </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> feret </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> tuli, tetuli, toli </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> latum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> laturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+tŭlī 
+ fĕr 
+ fĕrō 
+ tŭlī 
+ lātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx102-101-114-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx102-101-114-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword fero here are all the values plotted: collocate: moleste; scoreSUBST: 0. collocate: auxilium; scoreSUBST: 3. collocate: lex; scoreSUBST: 2. collocate: grauiter; scoreSUBST: 0. collocate: possum; scoreSUBST: 0. collocate: sententia; scoreSUBST: 2. collocate: ops; scoreSUBST: 2. collocate: arma; scoreSUBST: 2. collocate: animus; scoreSUBST: 2. collocate: non; scoreSUBST: 0. collocate: fortiter; scoreSUBST: 0. collocate: quaestio; scoreSUBST: 2. collocate: sui; scoreSUBST: 0. collocate: uix; scoreSUBST: 0. collocate: impetus; scoreSUBST: 2. collocate: Caesar; scoreSUBST: 0. collocate: auspicium; scoreSUBST: 2. collocate: caelum; scoreSUBST: 2. collocate: neque; scoreSUBST: 0. collocate: casus; scoreSUBST: 2. collocate: amicus; scoreSUBST: 2. collocate: facile; scoreSUBST: 0. collocate: laus; scoreSUBST: 2. collocate: signum; scoreSUBST: 2. collocate: certe; scoreSUBST: 0. collocate: labor; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx102-101-114-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword fero here are all the values plotted: collocate: moleste; scoreADJ: 0. collocate: auxilium; scoreADJ: 0. collocate: lex; scoreADJ: 0. collocate: grauiter; scoreADJ: 0. collocate: possum; scoreADJ: 0. collocate: sententia; scoreADJ: 0. collocate: ops; scoreADJ: 0. collocate: arma; scoreADJ: 0. collocate: animus; scoreADJ: 0. collocate: non; scoreADJ: 0. collocate: fortiter; scoreADJ: 0. collocate: quaestio; scoreADJ: 0. collocate: sui; scoreADJ: 0. collocate: uix; scoreADJ: 0. collocate: impetus; scoreADJ: 0. collocate: Caesar; scoreADJ: 0. collocate: auspicium; scoreADJ: 0. collocate: caelum; scoreADJ: 0. collocate: neque; scoreADJ: 0. collocate: casus; scoreADJ: 0. collocate: amicus; scoreADJ: 0. collocate: facile; scoreADJ: 0. collocate: laus; scoreADJ: 0. collocate: signum; scoreADJ: 0. collocate: certe; scoreADJ: 0. collocate: labor; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx102-101-114-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword fero here are all the values plotted: collocate: moleste; scoreVERBO: 0. collocate: auxilium; scoreVERBO: 0. collocate: lex; scoreVERBO: 0. collocate: grauiter; scoreVERBO: 0. collocate: possum; scoreVERBO: 2. collocate: sententia; scoreVERBO: 0. collocate: ops; scoreVERBO: 0. collocate: arma; scoreVERBO: 0. collocate: animus; scoreVERBO: 0. collocate: non; scoreVERBO: 0. collocate: fortiter; scoreVERBO: 0. collocate: quaestio; scoreVERBO: 0. collocate: sui; scoreVERBO: 0. collocate: uix; scoreVERBO: 0. collocate: impetus; scoreVERBO: 0. collocate: Caesar; scoreVERBO: 0. collocate: auspicium; scoreVERBO: 0. collocate: caelum; scoreVERBO: 0. collocate: neque; scoreVERBO: 0. collocate: casus; scoreVERBO: 0. collocate: amicus; scoreVERBO: 0. collocate: facile; scoreVERBO: 0. collocate: laus; scoreVERBO: 0. collocate: signum; scoreVERBO: 0. collocate: certe; scoreVERBO: 0. collocate: labor; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx102-101-114-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword fero here are all the values plotted: collocate: moleste; scoreADV: 5. collocate: auxilium; scoreADV: 0. collocate: lex; scoreADV: 0. collocate: grauiter; scoreADV: 2. collocate: possum; scoreADV: 0. collocate: sententia; scoreADV: 0. collocate: ops; scoreADV: 0. collocate: arma; scoreADV: 0. collocate: animus; scoreADV: 0. collocate: non; scoreADV: 2. collocate: fortiter; scoreADV: 2. collocate: quaestio; scoreADV: 0. collocate: sui; scoreADV: 0. collocate: uix; scoreADV: 2. collocate: impetus; scoreADV: 0. collocate: Caesar; scoreADV: 0. collocate: auspicium; scoreADV: 0. collocate: caelum; scoreADV: 0. collocate: neque; scoreADV: 0. collocate: casus; scoreADV: 0. collocate: amicus; scoreADV: 0. collocate: facile; scoreADV: 2. collocate: laus; scoreADV: 0. collocate: signum; scoreADV: 0. collocate: certe; scoreADV: 2. collocate: labor; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx102-101-114-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword fero here are all the values plotted: collocate: moleste; scoreFUNC: 0. collocate: auxilium; scoreFUNC: 0. collocate: lex; scoreFUNC: 0. collocate: grauiter; scoreFUNC: 0. collocate: possum; scoreFUNC: 0. collocate: sententia; scoreFUNC: 0. collocate: ops; scoreFUNC: 0. collocate: arma; scoreFUNC: 0. collocate: animus; scoreFUNC: 0. collocate: non; scoreFUNC: 0. collocate: fortiter; scoreFUNC: 0. collocate: quaestio; scoreFUNC: 0. collocate: sui; scoreFUNC: 0. collocate: uix; scoreFUNC: 0. collocate: impetus; scoreFUNC: 0. collocate: Caesar; scoreFUNC: 0. collocate: auspicium; scoreFUNC: 0. collocate: caelum; scoreFUNC: 0. collocate: neque; scoreFUNC: 0. collocate: casus; scoreFUNC: 0. collocate: amicus; scoreFUNC: 0. collocate: facile; scoreFUNC: 0. collocate: laus; scoreFUNC: 0. collocate: signum; scoreFUNC: 0. collocate: certe; scoreFUNC: 0. collocate: labor; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>tulit</b> Caesar graviter <br> <small> Cic.Att.2.19.3 <br> César suportou com muito custo. <small> [JDD] </small> </small> </p>
+; <p> moleste <b>tulit</b> Scaptius <br> <small> Cic.Att.5.21.10 <br> Escápcio ficou aborrecido. <small> [JDD] </small> </small> </p>
+; <p> id ne igitur inquies facile <b>fers</b> <br> <small> Cic.Att.4.18.2 <br> “E isso então”, dirás, “suportas facilmente?” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ecce aliae deliciae equitum vix <b>ferendae</b> <br> <small> Cic.Att.1.17.9 <br> Eis aqui outro capricho dos cavaleiros difícil de tolerar. <small> [JDD] </small> </small> </p>
+; <p> et quidem quam sententiam <b>feram</b> adtende <br> <small> Sen.Ep.22.3 <br> E, na verdade, presta atenção no parecer que vou dar. <small> [JDD] </small> </small> </p>
+; <p> quod te moleste <b>ferre</b> certo scio <br> <small> Cic.Att.1.12.3 <br> E sei com certeza que tu o suportas penosamente. <small> [JDD] </small> </small> </p>
+; <p> putas ne fore ut legem non <b>ferat</b> <br> <small> Cic.Att.4.8A.1 <br> Achas que ele não vai propor sua lei? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> in illa temet nemora quis casus <b>tulit</b> <br> <small> Sen.Oed.809 <br> E que acaso te levou a ti àqueles bosques? <small> [JDD] </small> </small> </p>
+; <p> nec iam ipsi agri regnum vestrum <b>ferre</b> possunt <br> <small> Cic.Att.2.13.2 <br> nem os próprios campos já podem suportar o vosso despotismo. <small> [JDD] </small> </small> </p>
+; <p> non esse Romae meo tempore pernecessario submoleste <b>fero</b> <br> <small> Cic.Att.5.21.1 <br> mas fico meio aborrecido que não estejas em Roma nesse meu momento extremamente necessario. <small> [JDD] </small> </small> </p>
+; <p> In nova <b>fert</b> animus mutatas dicere formas corpora ; <br> <small> Ov.Met.1.1-2 <br> O espírito me leva a relatar as formas mudadas em novos corpos. <small> [JDD] </small> </small> </p>
+; <p> hoc vero regnum est et <b>ferri</b> nullo pacto potest <br> <small> Cic.Att.2.12.1 <br> Isso na verdade é tirania e não pode ser tolerado de modo algum. <small> [JDD] </small> </small> </p>
+; <p> num igitur ulla quaestio de Africani morte <b>lata</b> est <br> <small> Cic.Mil.16 <br> Por ventura algum inquérito sobre a morte do Africano foi então proposto? <small> [JDD] </small> </small> </p>
+; <p> haec populum Romanum uidere animaduertere iudicare quidam moleste <b>ferunt</b> <br> <small> Cic.Phil.14.19.1 <br> Alguns suportam penosamente que o povo romano veja, note, julgue essas coisas. <small> [JDD] </small> </small> </p>
+; <p> quibus rebus perturbatis nostris tempore opportunissimo Caesar auxilium <b>tulit</b> <br> <small> Caes.Gal.4.34.1 <br> Por essas coisas, César levou auxílion os nossos, perturbados por causa da novidade da luta, em tempo oportuníssimo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> timere se dicunt quo modo <b>ferant</b> ueterani exercitum Brutum habere <br> <small> Cic.Phil.10.15.2 <br> Dizem que temem como suportam os veteranos que Bruto tenha um exército. <small> [JDD] </small> </small> </p>
+; <p> ite <b>ferte</b> depositis opem mortifera me cum uitia terrarum extraho <br> <small> Sen.Oed.1057 <br> Ide, levai ajuda para os desesperados: eu arrato comigo os mortíferos vícios desta terra. <small> [JDD] </small> </small> </p>
+; <p> his persuaderi ut diutius morarentur neque suis auxilium <b>ferrent</b> non poterat <br> <small> Caes.Gal.2.10.5 <br> Não era possível persuadir a estes que demorassem mais tempo e não levassem socorro aos seus. <small> [JDD] </small> </small> </p>
+; <p> tum diceres Caesar caue credas fuit in Africa <b>tulit</b> arma contra te <br> <small> Cic.Lig.16 <br> Então dirias: “César, não creias; ele esteve na África, tomou armas contra ti!” <small> [JDD] </small> </small> </p>
+; <p> quid ista sacri signa terrifici <b>ferant</b> exprome uoces aure non timida hauriam <br> <small> Sen.Oed.384 <br> Explica o que nos trazem esses sinais do pavoroso sacrifício: devorarei tuas palavras com o ouvido não temeroso. <small> [JDD] </small> </small> </p>
+; <p> commisso proelio diutius nostrorum militum impetum hostes <b>ferre</b> non potuerunt ac terga uerterunt <br> <small> Caes.Gal.4.35.2 <br> Travado o combate, os inimigos não puderam aguentar por muito tempo o ímpeto de nossos soldados e voltaram as costas. <small> [JDD] </small> </small> </p>
+; <p> quia non poteram uos istis subducere animos uestros aduersus omnia armaui <b>ferte</b> fortiter <br> <small> Sen.Prov.6.6 <br> Uma vez que eu não podia tirar-vos debaixo delas, armei os vossos ânimos contra todas. Suportai-as com coragem. <small> [JDD] </small> </small> </p>
+; <p> ipse hostis Teucros insigni laude <b>ferebat</b> seque ortum antiqua Teucrorum a stirpe uolebat <br> <small> Verg.A.1.625 <br> Ele próprio, embora inimigo, exaltava os troianos com insigne louvor e se pretendia nascido da antiga estirpe dos troianos. <small> [JDD] </small> </small> </p>
+; <p> quemadmodum coepit sic desinet parauit amicum aduersum uincla <b>laturum</b> opem cum primum crepuerit catena discedet <br> <small> Sen.Ep.9.8 <br> Do mesmo modo como começou, terminará: buscou um amigo que lhe traria ajuda para sair da prisão; ao primeiro estalo que corrente fizer, ele irá embora. <small> [JDD] </small> </small> </p>
+; <p> lucidum caeli decus huc ades uotis quae tibi nobiles Thebae Bacche tuae palmis supplicibus <b>ferunt</b> <br> <small> Sen.Oed.405 <br> glória brilhante do céu, atende aqui os votos que tua nobre Tebas, com as mão suplicantes, te traz. <small> [JDD] </small> </small> </p>
+; <p> iuuat me haec praeclara nomina artificum quae isti ad caelum <b>ferunt</b> Uerris aestimatione sic concidisse <br> <small> Cic.Ver.2.4.12.9 <br> Agrada-me que estes ilustres nomes de artistas, que esses elevam até o céu, tenham caído desse modo na avaliação de Verres. <small> [JDD] </small> </small> </p>
+; <p> uinum ad se omnino importari non patiuntur quod ea re ad laborem <b>ferendum</b> remollescere homines atque effeminari arbitrantur <br> <small> Caes.Gal.4.2.5 <br> Não permitem de modo algum que seja importado vinho para eles, porque julgam que por tal coisa os homens perdem o vigor para suportar o trabalho e se tornam efeminados. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> leges statuimus per uim et contra auspicia <b>latas</b> eisque nec populum nec plebem teneri num eas restitui posse censetis <br> <small> Cic.Phil.12.12.2 <br> Estabelecemos que suas leis tinham sido apresentadas através da violência e contra os auspícios e que nem o povo nem a plebe são obrigados a elas; acaso pensais que elas podem ser restituídas? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx102-101-114-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 34.75 and an absolute frequency of 18. The Suetonius subcorpus follows, with a normalized frequency of 22.05 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 4.49 and an absolute freqeuncy of 2. here are all the values: subcorpus: Caesar ; normalized frequency: 45 ; absolute frequency: 16.9952413324269. subcorpus: Cicero ; normalized frequency: 268 ; absolute frequency: 16.6953228177718. subcorpus: Horatius ; normalized frequency: 22 ; absolute frequency: 19.5364532457153. subcorpus: Ovidius ; normalized frequency: 12 ; absolute frequency: 20.5902539464653. subcorpus: Phaedrus ; normalized frequency: 12 ; absolute frequency: 18.2177015333232. subcorpus: Sallustius ; normalized frequency: 6 ; absolute frequency: 5.56534644281607. subcorpus: Seneca ; normalized frequency: 103 ; absolute frequency: 19.223232115862. subcorpus: Suetonius ; normalized frequency: 2 ; absolute frequency: 22.0507166482911. subcorpus: Tacitus ; normalized frequency: 4 ; absolute frequency: 13.7315482320632. subcorpus: Vergilius ; normalized frequency: 18 ; absolute frequency: 34.7490347490347. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx102-101-114-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 34.75 and an absolute frequency of 18. The Poesia.trágica subcorpus follows, with a normalized frequency of 31.27 and an absolute frequency of 36. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 4.49 and an absolute freqeuncy of 2. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 57 ; absolute frequency: 13.8757029138976. subcorpus: Prosa.filosófica ; normalized frequency: 105 ; absolute frequency: 17.2979028352086. subcorpus: Prosa.oratória ; normalized frequency: 150 ; absolute frequency: 14.4018895279061. subcorpus: Prosa.epistolográfica ; normalized frequency: 80 ; absolute frequency: 21.1982299477994. subcorpus: Poesia.lírica ; normalized frequency: 23 ; absolute frequency: 19.3488685118196. subcorpus: Poesia.didática ; normalized frequency: 23 ; absolute frequency: 19.5097124438035. subcorpus: Poesia.trágica ; normalized frequency: 36 ; absolute frequency: 31.2717164697707. subcorpus: Poesia.épica ; normalized frequency: 18 ; absolute frequency: 34.7490347490347. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx102-101-114-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 19.27 and an absolute frequency of 126. The I.a.C. subcorpus follows, with a normalized frequency of 16.76 and an absolute frequency of 360. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 4.49 and an absolute freqeuncy of 2. here are all the values: subcorpus: I.a.C. ; normalized frequency: 360 ; absolute frequency: 16.7558761926926. subcorpus: I.d.C. ; normalized frequency: 126 ; absolute frequency: 19.2748967416246. subcorpus: II.d.C. ; normalized frequency: 6 ; absolute frequency: 15.7068062827225. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

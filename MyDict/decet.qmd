@@ -1,0 +1,204 @@
+---
+title: "decet"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-101-99-101-116xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>decet</b> <b>-ére</b> <b>decùit</b> <br> <small>v. impess.</small> <br> <small>Obs.: Constrói-se com info ou com acus. de pess. e, às vezes, com dat. de pess.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Convir, ser mister, ser conveniente &ensp; <small>Cíc. Or. 70; Cíc. Tusc. 4, 54;</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>ita nobis decet Ter. Ad. 928 é nosso dever assim nos é conveniente. </p> 
+ <b>dĕcŭit</b> <br> <small>perf. do impess. dècet.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Decet</b> -<b>ebat</b> -<b>cuit</b> -<b>cere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; convir. </p>
+
+
+
+
+#### Velez
+
+<b>Decet</b> -<b>ebat</b> <b>decuit</b>   <p> <b>1</b> &ensp; convir com decencia &ensp; <small>accus.</small> </p>
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/98057 ' target="_blank"> http://lila-erc.eu/data/id/lemma/98057 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação impessoal (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> decet </b>&emsp;<small> presente | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> decere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> decebit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> decuit </b>&emsp;<small> pretérito perfeito | indicativo | 3ª pessoa singular | voz ativa </small><br>
+
+
+
+
+
+#### Lexicala
+
+dĕcet 
+ dĕcēre 
+ dĕcŭit
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-101-99-101-116xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> res enim ex kalendis Ianuariis agitata paulo ante confecta est minus quidem illa seuere quam <b>decuit</b> non tamen omnino dissolute <br> <small> Cic.Phil.6.1.2 <br> Pois o assunto debatido desde as calendas de janeiro [1º. de janeiro] foi resolvido há pouco com, na verdade, menos severidade do que convinha, no entanto, não com total frouxidão. <small> [JDD] </small> </small> </p>
+; <p> fortis et egregia fati conuentio sed quae non <b>deceat</b> magnitudinem nostram tam turpe est Catoni mortem ab ullo petere quam uitam <br> <small> Sen.Prov.2.10 <br> corajoso e egrégia convenção do destino, mas esta não convém à minha grandeza. Para Catão é tão torpe pedir a morte a alguém quanto pedir a vida.” <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-101-99-101-116xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Ovidius subcorpus registers the highest normalized frequency, with the value of 5.15 and an absolute frequency of 3. The Horatius subcorpus follows, with a normalized frequency of 3.55 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 8 ; absolute frequency: 0.498367845306621. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 12 ; absolute frequency: 2.23959985815868. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-101-99-101-116xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 7.82 and an absolute frequency of 9. The Poesia.lírica subcorpus follows, with a normalized frequency of 3.37 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 3 ; absolute frequency: 0.730300153363032. subcorpus: Prosa.filosófica ; normalized frequency: 5 ; absolute frequency: 0.823709658819459. subcorpus: Prosa.oratória ; normalized frequency: 6 ; absolute frequency: 0.576075581116242. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 9 ; absolute frequency: 7.81792911744267. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-101-99-101-116xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 2.29 and an absolute frequency of 15. The I.a.C. subcorpus follows, with a normalized frequency of 0.7 and an absolute frequency of 15. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 15 ; absolute frequency: 0.698161508028857. subcorpus: I.d.C. ; normalized frequency: 15 ; absolute frequency: 2.29463056447912. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

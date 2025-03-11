@@ -1,0 +1,202 @@
+---
+title: "diu"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-105-117xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+no data
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+no data
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Diutissime</b> <br> <small>aduerb.</small>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/99429 ' target="_blank"> http://lila-erc.eu/data/id/lemma/99429 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> dius <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+dĭū
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-105-117xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword diu here are all the values plotted: collocate: nimie; scoreSUBST: 0. collocate: multum; scoreSUBST: 0. collocate: satis; scoreSUBST: 0. collocate: cogito; scoreSUBST: 0. collocate: uiuo; scoreSUBST: 0. collocate: tam; scoreSUBST: 0. collocate: iam; scoreSUBST: 0. collocate: uolo; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-105-117xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword diu here are all the values plotted: collocate: nimie; scoreADJ: 0. collocate: multum; scoreADJ: 0. collocate: satis; scoreADJ: 0. collocate: cogito; scoreADJ: 0. collocate: uiuo; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: iam; scoreADJ: 0. collocate: uolo; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-105-117xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword diu here are all the values plotted: collocate: nimie; scoreVERBO: 0. collocate: multum; scoreVERBO: 0. collocate: satis; scoreVERBO: 0. collocate: cogito; scoreVERBO: 2. collocate: uiuo; scoreVERBO: 2. collocate: tam; scoreVERBO: 0. collocate: iam; scoreVERBO: 0. collocate: uolo; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-105-117xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword diu here are all the values plotted: collocate: nimie; scoreADV: 3. collocate: multum; scoreADV: 2. collocate: satis; scoreADV: 2. collocate: cogito; scoreADV: 0. collocate: uiuo; scoreADV: 0. collocate: tam; scoreADV: 2. collocate: iam; scoreADV: 2. collocate: uolo; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-105-117xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword diu here are all the values plotted: collocate: nimie; scoreFUNC: 0. collocate: multum; scoreFUNC: 0. collocate: satis; scoreFUNC: 0. collocate: cogito; scoreFUNC: 0. collocate: uiuo; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: iam; scoreFUNC: 0. collocate: uolo; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>diu</b> multumque in manibus fuerunt <br> <small> Cic.Att.4.13.2 <br> Estiveram em minhas mãos por muito tempo e muito. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quid enim ἀκκιζόμεθα tam <b>diu</b> <br> <small> Cic.Att.2.19.5 <br> Pois por que disfarçar por mais tempo? <small> [JDD] </small> </small> </p>
+; <p> quod tam cito fit timetis <b>diu</b> <br> <small> Sen.Prov.6.9 <br> Temeis por tanto tempo o que ocorre tão rápido. <small> [JDD] </small> </small> </p>
+; <p> sed haec satis <b>diu</b> multumque defleta sunt <br> <small> Cic.Phil.13.10.12 <br> Mas essas coisas foram suficientemente lamentadas por muito tempo e muito. <small> [JDD] </small> </small> </p>
+; <p> id uero iudices etiam dubitandum et <b>diutius</b> cogitandum est <br> <small> Cic.Mil.53 <br> Mas isso, juízes, deve ser ainda posto em dúvida e cogitado por mais tempo? <small> [JDD] </small> </small> </p>
+; <p> itaque conventus qui initio celebrabantur iam <b>diu</b> fieri desierunt <br> <small> Cic.Att.1.19.9 <br> As reuniões, que no início eram concorridas, já há muito deixaram de acontecer. <small> [JDD] </small> </small> </p>
+; <p> nimium <b>diu</b> te imperatorem tua illa Manliana castra desiderant <br> <small> Cic.Catil.1.10.8 <br> Há muitíssimo tempo teu célebre acampamento de Mânlio te deseja como general. <small> [JDD] </small> </small> </p>
+; <p> tam <b>diu</b> autem velle debebis quoad te quantum proficias non paenitebit <br> <small> Cic.Off.1.2 <br> deverás, porém, querer por tanto tempo até não te arrependeres do quanto progridas. <small> [JDD] </small> </small> </p>
+; <p> at sperat adulescens <b>diu</b> esse se uicturum quod sperare idem senex non potest <br> <small> Cic.Sen.68 <br> Mas o jovem espera viver por longo tempo, já o velho não pode esperar o mesmo. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-105-117xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 6.87 and an absolute frequency of 2. The Caesar subcorpus follows, with a normalized frequency of 6.04 and an absolute frequency of 16. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 16 ; absolute frequency: 6.04275247375179. subcorpus: Cicero ; normalized frequency: 57 ; absolute frequency: 3.55087089780967. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 31 ; absolute frequency: 5.78563296690991. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-105-117xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 6.92 and an absolute frequency of 42. The Prosa.histórica subcorpus follows, with a normalized frequency of 5.36 and an absolute frequency of 22. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 22 ; absolute frequency: 5.35553445799557. subcorpus: Prosa.filosófica ; normalized frequency: 42 ; absolute frequency: 6.91916113408346. subcorpus: Prosa.oratória ; normalized frequency: 23 ; absolute frequency: 2.20828972761226. subcorpus: Prosa.epistolográfica ; normalized frequency: 19 ; absolute frequency: 5.03457961260235. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-105-117xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 5.51 and an absolute frequency of 36. The I.d.C. subcorpus follows, with a normalized frequency of 5.51 and an absolute frequency of 36. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 79 ; absolute frequency: 3.67698394228532. subcorpus: I.d.C. ; normalized frequency: 36 ; absolute frequency: 5.50711335474988. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

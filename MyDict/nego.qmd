@@ -1,0 +1,211 @@
+---
+title: "nego"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-101-103-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>negō</b> <b>-ás</b> <b>-áre</b> <b>-áví, -átum</b> <br> <small>v. intr. e tr.</small> <br> <small>Obs.: Constrói-se como absoluto ou como tr. com acus.; com acus. e dat.; com or. inf.; com quin; ou na voz pass. com inf.</small>   <p> <b>1</b> &ensp; <small>A-Intr.-Sent. próprio:</small> &ensp; Dizer que não, negar &ensp; <small>Cíc. Of. 3, 91.</small> <br> <b>2</b> &ensp; <small>B-Tr.-Sent. figurado:</small> &ensp; Recusar, recusar-se &ensp; <small>Cíc. Fam. 2, 17,7.</small> <br> <b>3</b> &ensp; <small>B-Tr.-Sent. figurado:</small> &ensp; Negar a existência de, não reconhecer &ensp; <small>Cíc. Verr. 1, 90.</small> <br> <b>4</b> &ensp; <small>B-Tr.-Sent. figurado:</small> &ensp; Pass. impess.: Diz-se ou dizem que não &ensp; <small>Ov. F. 4, 321; Cíc. Nat. 2, 76.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Nego</b> -<b>as</b> -<b>avi</b> -<b>atum</b> -<b>are</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; negar. <br> <b>2</b> &ensp; recusar, dizer, que não. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Nego</b> -<b>as</b> -<b>aui</b>   <p> <b>1</b> &ensp; negar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/113553 ' target="_blank"> http://lila-erc.eu/data/id/lemma/113553 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> nego </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> negare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> negabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> negaui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> negatum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> negaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+nĕgō 
+ nĕgās 
+ nĕgāre 
+ nĕgāvī 
+ nĕgātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx110-101-103-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-101-103-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword nego here are all the values plotted: collocate: se; scoreSUBST: 0. collocate: sui; scoreSUBST: 0. collocate: quis; scoreSUBST: 0. collocate: ille; scoreSUBST: 0. collocate: ego; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-101-103-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword nego here are all the values plotted: collocate: se; scoreADJ: 0. collocate: sui; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: ille; scoreADJ: 0. collocate: ego; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-101-103-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword nego here are all the values plotted: collocate: se; scoreVERBO: 0. collocate: sui; scoreVERBO: 0. collocate: quis; scoreVERBO: 0. collocate: ille; scoreVERBO: 0. collocate: ego; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-101-103-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword nego here are all the values plotted: collocate: se; scoreADV: 0. collocate: sui; scoreADV: 0. collocate: quis; scoreADV: 0. collocate: ille; scoreADV: 0. collocate: ego; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-101-103-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword nego here are all the values plotted: collocate: se; scoreFUNC: 0. collocate: sui; scoreFUNC: 0. collocate: quis; scoreFUNC: 0. collocate: ille; scoreFUNC: 0. collocate: ego; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ego <b>negare</b> <br> <small> Cic.Att.2.12.2 <br> Eu digo que não. <small> [JDD] </small> </small> </p>
+; <p> Illi <b>negarunt</b> . <br> <small> Phaed.1.24 <br> Eles disseram que não. <small> [JDD] </small> </small> </p>
+; <p> illis <b>negat</b> creditum <br> <small> Cic.Att.5.21.2 <br> e nega crédito àquela. <small> [JDD] </small> </small> </p>
+; <p> non <b>nego</b> indulgendum illi seruiendum <b>nego</b> <br> <small> Sen.Ep.14.1 <br> Não nego que devamos ser indulgentes com ele, nego que devamos ser seus escravos. <small> [JDD] </small> </small> </p>
+; <p> <b>negat</b> se quicquam de illius adoptione tulisse <br> <small> Cic.Att.2.12.2 <br> “Nega ter apresentado alguma coisa sobre a adoção daquele”. <small> [JDD] </small> </small> </p>
+; <p> aliter enim nostri <b>negant</b> posse se saluos esse <br> <small> Cic.Phil.1.20.12 <br> Pois os nossos dizem que de outro modo não podem ser salvos.” <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-101-103-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 10.63 and an absolute frequency of 7. The Horatius subcorpus follows, with a normalized frequency of 8.88 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Sallustius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 91 ; absolute frequency: 5.66893424036281. subcorpus: Horatius ; normalized frequency: 10 ; absolute frequency: 8.88020602077968. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 7 ; absolute frequency: 10.6269925611052. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 31 ; absolute frequency: 5.78563296690991. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-101-103-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.didática subcorpus registers the highest normalized frequency, with the value of 8.48 and an absolute frequency of 10. The Poesia.lírica subcorpus follows, with a normalized frequency of 8.41 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 2 ; absolute frequency: 0.486866768908688. subcorpus: Prosa.filosófica ; normalized frequency: 33 ; absolute frequency: 5.43648374820843. subcorpus: Prosa.oratória ; normalized frequency: 57 ; absolute frequency: 5.4727180206043. subcorpus: Prosa.epistolográfica ; normalized frequency: 24 ; absolute frequency: 6.35946898433981. subcorpus: Poesia.lírica ; normalized frequency: 10 ; absolute frequency: 8.4125515268781. subcorpus: Poesia.didática ; normalized frequency: 10 ; absolute frequency: 8.48248367121893. subcorpus: Poesia.trágica ; normalized frequency: 8 ; absolute frequency: 6.94927032661571. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-101-103-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 6.27 and an absolute frequency of 41. The I.a.C. subcorpus follows, with a normalized frequency of 4.79 and an absolute frequency of 103. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 103 ; absolute frequency: 4.79404235513149. subcorpus: I.d.C. ; normalized frequency: 41 ; absolute frequency: 6.27199020957626. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

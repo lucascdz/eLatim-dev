@@ -1,0 +1,200 @@
+---
+title: "gens"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx103-101-110-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>gens</b> <b>gentis</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Gente &ensp; <small>conjunto de pessoas que pelos varões se ligam a um antepassado comum, varão e livre T. Lív. 38, 58, 2.</small> <br> <b>2</b> &ensp; <small>II-Daí, por extensão</small> &ensp; Família, descendência, raça &ensp; <small>Sal. B. Jug. 95, 3.</small> <br> <b>3</b> &ensp; <small>II-Daí, por extensão</small> &ensp; Povo, nação &ensp; <small>Cíc. Rep. 3, 7.</small> <br> <b>4</b> &ensp; <small>III-Sent. poético:</small> &ensp; Descendente, filho &ensp; <small>Verg. En. 10, 228.</small> <br> <b>5</b> &ensp; <small>III-No pl.: gentes, -ìum, subs. f. pl.:</small> &ensp; As nações estrangeiras &ensp; <small>em oposição aos romanos Tác. Germ. 33.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Gens</b> -<b>entis</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; gente, nação, povo. <br> <b>2</b> &ensp; familia, descendencia. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>minime gentium &ensp; <small><small>Ter</small></small> &ensp; <small>Em nenhuma parte do mundo</small> <br> ubinam gentium? &ensp; <small><small>Cic</small></small> &ensp; <small>Em que parte?</small> </p> 
+ <small>genit. de Gens</small> <b>Gentis</b>
+
+
+
+
+#### Velez
+
+<b>Gens</b> -<b>tis</b>   <p> <b>1</b> &ensp; gente, naçaõ; </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>sine gente &ensp; <small><small>i, ignobilis</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Gens</b> -<b>entis</b>   <p> <b>1</b> &ensp; a gente </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/104490 ' target="_blank"> http://lila-erc.eu/data/id/lemma/104490 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx103-101-110-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx103-101-110-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword gens here are all the values plotted: collocate: natio; scoreSUBST: 2. collocate: omnis; scoreSUBST: 0. collocate: ceterus; scoreSUBST: 0. collocate: nomen; scoreSUBST: 2. collocate: do; scoreSUBST: 0. collocate: que; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx103-101-110-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword gens here are all the values plotted: collocate: natio; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: ceterus; scoreADJ: 0. collocate: nomen; scoreADJ: 0. collocate: do; scoreADJ: 0. collocate: que; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx103-101-110-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword gens here are all the values plotted: collocate: natio; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0. collocate: ceterus; scoreVERBO: 0. collocate: nomen; scoreVERBO: 0. collocate: do; scoreVERBO: 2. collocate: que; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx103-101-110-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword gens here are all the values plotted: collocate: natio; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: ceterus; scoreADV: 0. collocate: nomen; scoreADV: 0. collocate: do; scoreADV: 0. collocate: que; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx103-101-110-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword gens here are all the values plotted: collocate: natio; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0. collocate: ceterus; scoreFUNC: 0. collocate: nomen; scoreFUNC: 0. collocate: do; scoreFUNC: 0. collocate: que; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quae est grata omnibus <b>gentibus</b> <br> <small> Cic.Mil.102 <br> Naquela que é do agrado de todas as nações. <small> [JDD] </small> </small> </p>
+; <p> nec solum Siculi uerum etiam ceterae <b>gentes</b> nationesque Hennensem Cererem maxime colunt <br> <small> Cic.Ver.2.4.108.1 <br> 108 E não só os Sicilianos, mas também os demais povos e nações cultuam muitíssimo Ceres Henense. <small> [JDD] </small> </small> </p>
+; <p> tibi tot barbarae dedere <b>gentes</b> spolia tibi felix diu potentis Asiae Troia summisit manus <br> <small> Sen.Ag.783 <br> Para ti tantas nações bárbaras deram seus despojos, a ti Tróia, por longo tempo próspera, submeteu as mãos da poderosa Ásia. <small> [JDD] </small> </small> </p>
+; <p> inde lupae fuluo nutricis tegmine laetus Romulus excipiet <b>gentem</b> et Mauortia condet moenia Romanosque suo de nomine dicet <br> <small> Verg.A.1.275 <br> Daí, Rômulo, contente com a ruiva pele da loba nutriz, acolherá a nação e fundará os muros de Marte e de seu nome dirá os romanos. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx103-101-110-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 33.08 and an absolute frequency of 3. The Tacitus subcorpus follows, with a normalized frequency of 6.87 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 7 ; absolute frequency: 2.64370420726641. subcorpus: Cicero ; normalized frequency: 46 ; absolute frequency: 2.86561511051307. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 18 ; absolute frequency: 3.35939978723801. subcorpus: Suetonius ; normalized frequency: 3 ; absolute frequency: 33.0760749724366. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 15 ; absolute frequency: 28.957528957529. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx103-101-110-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 28.96 and an absolute frequency of 15. The Poesia.lírica subcorpus follows, with a normalized frequency of 5.89 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 16 ; absolute frequency: 3.89493415126951. subcorpus: Prosa.filosófica ; normalized frequency: 15 ; absolute frequency: 2.47112897645838. subcorpus: Prosa.oratória ; normalized frequency: 45 ; absolute frequency: 4.32056685837182. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 15 ; absolute frequency: 28.957528957529. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx103-101-110-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 13.09 and an absolute frequency of 5. The I.a.C. subcorpus follows, with a normalized frequency of 3.68 and an absolute frequency of 79. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 79 ; absolute frequency: 3.67698394228532. subcorpus: I.d.C. ; normalized frequency: 20 ; absolute frequency: 3.05950741930549. subcorpus: II.d.C. ; normalized frequency: 5 ; absolute frequency: 13.0890052356021. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

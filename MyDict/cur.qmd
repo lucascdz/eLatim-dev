@@ -1,0 +1,207 @@
+---
+title: "cur"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-117-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>cūr</b> <br> <small>adv.</small> <br> <small>Obs.: Advérbio interrogativo usado em toda a latinidade tanto em prosa como em poesia Cíc: Clu. 169. Forma arcaica: quor, ocorrendo também por vezes a grafia qur Plaut. Amph. 409; 581.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Por quê?, por que razão? &ensp; <small></small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Cur</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; porque razão? </p>
+
+
+
+
+#### Velez
+
+<b>Cur</b> <br> <small>Adv.</small>   <p> <b>1</b> &ensp; porque? </p>
+
+
+
+
+#### Cardoso
+
+<b>cur</b> <br> <small>aduer.</small>   <p> <b>1</b> &ensp; porque </p> 
+ <b>Cur</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; porque </p> 
+ <b>Quur</b> <br> <small>aduer.</small>   <p> <b>1</b> &ensp; porque </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/97300 ' target="_blank"> http://lila-erc.eu/data/id/lemma/97300 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> quor, qur, quur <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+cūr
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-117-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword cur here are all the values plotted: collocate: igitur; scoreSUBST: 0. collocate: causa; scoreSUBST: 2. collocate: quaero; scoreSUBST: 0. collocate: tam; scoreSUBST: 0. collocate: aut; scoreSUBST: 0. collocate: sed; scoreSUBST: 0. collocate: non; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-117-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword cur here are all the values plotted: collocate: igitur; scoreADJ: 0. collocate: causa; scoreADJ: 0. collocate: quaero; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: aut; scoreADJ: 0. collocate: sed; scoreADJ: 0. collocate: non; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-117-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword cur here are all the values plotted: collocate: igitur; scoreVERBO: 0. collocate: causa; scoreVERBO: 0. collocate: quaero; scoreVERBO: 2. collocate: tam; scoreVERBO: 0. collocate: aut; scoreVERBO: 0. collocate: sed; scoreVERBO: 0. collocate: non; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-117-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword cur here are all the values plotted: collocate: igitur; scoreADV: 3. collocate: causa; scoreADV: 0. collocate: quaero; scoreADV: 0. collocate: tam; scoreADV: 2. collocate: aut; scoreADV: 0. collocate: sed; scoreADV: 0. collocate: non; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-117-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword cur here are all the values plotted: collocate: igitur; scoreFUNC: 0. collocate: causa; scoreFUNC: 0. collocate: quaero; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: aut; scoreFUNC: 0. collocate: sed; scoreFUNC: 0. collocate: non; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>cur</b> non ades <br> <small> Cic.Att.2.19.1 <br> Por que não estás aqui? <small> [JDD] </small> </small> </p>
+; <p> <b>cur</b> igitur uictus est <br> <small> Cic.Mil.55 <br> Por que então ele foi vencido? <small> [JDD] </small> </small> </p>
+; <p> <b>cur</b> igitur pacem nolo <br> <small> Cic.Phil.7.9.1 <br> Por que, portanto, não quero a paz? <small> [JDD] </small> </small> </p>
+; <p> si non dixit <b>cur</b> dedit <br> <small> Cic.Cael.52 <br> Se não disse, por que ela deu? <small> [JDD] </small> </small> </p>
+; <p> <b>cur</b> igitur eos manu misit <br> <small> Cic.Mil.57 <br> Por que então lhes concedeu liberdade? <small> [JDD] </small> </small> </p>
+; <p> <b>cur</b> ego non timuerim quaeris <br> <small> Cic.Dom.8 <br> Perguntas por que eu não tive medo. <small> [JDD] </small> </small> </p>
+; <p> sed <b>cur</b> diutius uos iudices teneo <br> <small> Cic.Cael.55 <br> Mas por que vos detenho por mais tempo, juízes? <small> [JDD] </small> </small> </p>
+; <p> <b>cur</b> non quam primum publica accedit auctoritas <br> <small> Cic.Phil.3.3.3 <br> Por que a autoridade pública não intervém o quanto antes? <small> [JDD] </small> </small> </p>
+; <p> quid erat <b>cur</b> Milo non dicam admitteret sed optaret <br> <small> Cic.Mil.34 <br> Que razão havia para que Milão, não direi cometesse, mas desejasse isso? <small> [JDD] </small> </small> </p>
+; <p> sed si Aricinam uxorem non probas <b>cur</b> probas Tusculanam <br> <small> Cic.Phil.3.16.3 <br> Mas, se não aprovas uma esposa de Arícia, por que aprovas uma de Túsculo? <small> [JDD] </small> </small> </p>
+; <p> aut <b>cur</b> de sua uirtute aut de ipsius diligentia desperarent <br> <small> Caes.Gal.1.40.4 <br> Ou por que deixavam de confiar em sua coragem ou na perícia dele? <small> [JDD] </small> </small> </p>
+; <p> en crimen en causa <b>cur</b> regem fugitiuus dominum seruus accuset <br> <small> Cic.Deiot.17 <br> Eis aqui a acusação, eis o motivo por que um fugitivo acusa seu rei, um escravo acusa seu dono. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-117-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 13.66 and an absolute frequency of 9. The Horatius subcorpus follows, with a normalized frequency of 13.32 and an absolute frequency of 15. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 4 ; absolute frequency: 1.51068811843795. subcorpus: Cicero ; normalized frequency: 96 ; absolute frequency: 5.98041414367945. subcorpus: Horatius ; normalized frequency: 15 ; absolute frequency: 13.3203090311695. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 9 ; absolute frequency: 13.6632761499924. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 6 ; absolute frequency: 1.11979992907934. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-117-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 12.62 and an absolute frequency of 15. The Prosa.oratória subcorpus follows, with a normalized frequency of 7.97 and an absolute frequency of 83. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 0.97 and an absolute freqeuncy of 4. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 4 ; absolute frequency: 0.973733537817376. subcorpus: Prosa.filosófica ; normalized frequency: 7 ; absolute frequency: 1.15319352234724. subcorpus: Prosa.oratória ; normalized frequency: 83 ; absolute frequency: 7.96904553877469. subcorpus: Prosa.epistolográfica ; normalized frequency: 7 ; absolute frequency: 1.85484512043244. subcorpus: Poesia.lírica ; normalized frequency: 15 ; absolute frequency: 12.6188272903172. subcorpus: Poesia.didática ; normalized frequency: 9 ; absolute frequency: 7.63423530409704. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-117-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 5.4 and an absolute frequency of 116. The I.a.C. subcorpus follows, with a normalized frequency of 5.4 and an absolute frequency of 116. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 116 ; absolute frequency: 5.39911566208983. subcorpus: I.d.C. ; normalized frequency: 15 ; absolute frequency: 2.29463056447912. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

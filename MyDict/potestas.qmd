@@ -1,0 +1,207 @@
+---
+title: "potestas"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-111-116-101-115-116-97-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>potēstās</b> <b>-tátis</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Poder, autoridade, domínio &ensp; <small>Cíc. Fat. 45:</small> <br> <b>2</b> &ensp; <small>II-Daí. em sent. particular:</small> &ensp; Poder político, poder do magistrado, dignidade, magistratura &ensp; <small>Cíc. Pomp. 69.</small> <br> <b>3</b> &ensp; <small>II-No pl.:</small> &ensp; As autoridades &ensp; <small>Cíc. Leg. 3, 9.</small> <br> <b>4</b> &ensp; <small>II-No pl.:</small> &ensp; Propriedade, virtude, valor, influência &ensp; <small>Verg. En. 12, 396.</small> <br> <b>5</b> &ensp; <small>II-No pl.:</small> &ensp; Faculdade de dispor &ensp; <small>de alguém ou de alguma coisa Cíc. Rep. 3, 23.</small> <br> <b>6</b> &ensp; <small>II-No pl.:</small> &ensp; Possibilidade, oportunidade &ensp; <small>de fazer alguma coisa:</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>6</b><br>potestatem sui facere Cés. B. Gal. 1, 40, 8. ‘dar disposição de si’, i. e., “aceitar combate”. Mas em Cícero Q. Fr. 1, 2, 15 significa “dar audiência”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Potestas</b> -<b>atis</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; poder, autoridade. <br> <b>2</b> &ensp; dominio, imperio, senhorio, jurisdicção. <br> <b>3</b> &ensp; governador, Magistrado. <br> <b>4</b> &ensp; permissão, faculdade, licença. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>potestas uerborum &ensp; <small><small>Ad Her</small></small> &ensp; <small>Significação das palavras</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Potestas</b> -<b>atis</b>   <p> <b>1</b> &ensp; ho poder. ou potestade </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/118652 ' target="_blank"> http://lila-erc.eu/data/id/lemma/118652 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> podestas <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+pŏtestās 
+ pŏtestātis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-111-116-101-115-116-97-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-111-116-101-115-116-97-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword potestas here are all the values plotted: collocate: tribunicius; scoreSUBST: 0. collocate: imperium; scoreSUBST: 2. collocate: noster; scoreSUBST: 0. collocate: uester; scoreSUBST: 0. collocate: habeo; scoreSUBST: 0. collocate: facio; scoreSUBST: 0. collocate: romanus; scoreSUBST: 0. collocate: senatus; scoreSUBST: 2. collocate: nos; scoreSUBST: 0. collocate: per; scoreSUBST: 0. collocate: atque; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-111-116-101-115-116-97-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword potestas here are all the values plotted: collocate: tribunicius; scoreADJ: 3. collocate: imperium; scoreADJ: 0. collocate: noster; scoreADJ: 0. collocate: uester; scoreADJ: 0. collocate: habeo; scoreADJ: 0. collocate: facio; scoreADJ: 0. collocate: romanus; scoreADJ: 2. collocate: senatus; scoreADJ: 0. collocate: nos; scoreADJ: 0. collocate: per; scoreADJ: 0. collocate: atque; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-111-116-101-115-116-97-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword potestas here are all the values plotted: collocate: tribunicius; scoreVERBO: 0. collocate: imperium; scoreVERBO: 0. collocate: noster; scoreVERBO: 0. collocate: uester; scoreVERBO: 0. collocate: habeo; scoreVERBO: 2. collocate: facio; scoreVERBO: 2. collocate: romanus; scoreVERBO: 0. collocate: senatus; scoreVERBO: 0. collocate: nos; scoreVERBO: 0. collocate: per; scoreVERBO: 0. collocate: atque; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-111-116-101-115-116-97-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword potestas here are all the values plotted: collocate: tribunicius; scoreADV: 0. collocate: imperium; scoreADV: 0. collocate: noster; scoreADV: 0. collocate: uester; scoreADV: 0. collocate: habeo; scoreADV: 0. collocate: facio; scoreADV: 0. collocate: romanus; scoreADV: 0. collocate: senatus; scoreADV: 0. collocate: nos; scoreADV: 0. collocate: per; scoreADV: 0. collocate: atque; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-111-116-101-115-116-97-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword potestas here are all the values plotted: collocate: tribunicius; scoreFUNC: 0. collocate: imperium; scoreFUNC: 0. collocate: noster; scoreFUNC: 0. collocate: uester; scoreFUNC: 0. collocate: habeo; scoreFUNC: 0. collocate: facio; scoreFUNC: 0. collocate: romanus; scoreFUNC: 0. collocate: senatus; scoreFUNC: 0. collocate: nos; scoreFUNC: 0. collocate: per; scoreFUNC: 20. collocate: atque; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> in sua <b>potestate</b> habet quam cito reparet <br> <small> Sen.Ep.9.5 <br> tem em seu poder substituí-lo o mais rápidamente possível. <small> [JDD] </small> </small> </p>
+; <p> neque enim exeundi Roma <b>potestas</b> nobis fuit <br> <small> Cic.Att.1.3.2 <br> pois não tive possibilidade de sair de Roma. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> non omnia in unius <b>potestate</b> ac moderatione uertentur <br> <small> Cic.Ver.1.20 <br> Não, tudo se transcorrerá de acordo com o poder e autoridade de uma única pessoa. <small> [JDD] </small> </small> </p>
+; <p> si quid de his rebus dicere uellet feci <b>potestatem</b> <br> <small> Cic.Catil.3.11.2 <br> Se ele quisesse dizer algo sobre aquelas coisas, dei permissão. <small> [JDD] </small> </small> </p>
+; <p> Caesar iis quos in castris retinuerat discedendi <b>potestatem</b> fecit <br> <small> Caes.Gal.4.15.4 <br> César deu a possibilidade de irem-se aqueles que ele tinha detido no acampamento. <small> [JDD] </small> </small> </p>
+; <p> si enim deferetur erit quaedam nostra <b>potestas</b> et tum deliberabimus <br> <small> Cic.Att.2.5.1 <br> Pois se me for oferecido, terei um certo poder e então vou deliberar. <small> [JDD] </small> </small> </p>
+; <p> pollicetur enim se prouinciam Galliam retenturum in senatus populique Romani <b>potestate</b> <br> <small> Cic.Phil.3.8.9 <br> Pois promete que ele vai manter a província da Gália sob o poder do senado e do povo romano. <small> [JDD] </small> </small> </p>
+; <p> is est enim ille qui semper senatus iudicium et auctoritatem semper uoluntatem uestram <b>potestatem</b>que contempserit <br> <small> Cic.Phil.6.5.5 <br> Pois esse é aquele que sempre desprezou o julgamento e a autoridade do senado, sempre desprezou a vossa vontade e poder. <small> [JDD] </small> </small> </p>
+; <p> atque hoc quidem uidere licet eos qui antea commodis fuerint moribus imperio <b>potestate</b> prosperis rebus immutari sperni ab iis ueteres amicitias indulgeri nouis <br> <small> Cic.Amici.54 <br> E, por certo, é possível ver isto: que aqueles que antes foram de costumes moderados, mudam com o comando, com o poder, com as coisas prósperas; que são desprezadas por eles as velhas amizades, são tratadas com indulgência as novas. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> neque enim ullam aliam ob causam populus Romanus tribuniciam <b>potestatem</b> tanto studio requisiuit quam cum poscebat uerbo illam poscere uidebatur re uera iudicia poscebat <br> <small> Cic.Ver.1.44 <br> 44 Pois por nenhuma outra causa o povo romano requisitou com tanto empenho o poder tribunício e quando o exigia parecia exigi-lo com a palavra; na realidade, exigia julgamentos verdadeiros. <small> [JDD] </small> </small> </p>
+; <p> permagnum est in eum dicere aliquid qui praeteriens lectica paulisper deposita non per praestigias sed palam per <b>potestatem</b> uno imperio ostiatim totum oppidum compilauerit <br> <small> Cic.Ver.2.4.53.9 <br> É uma tarefa considerável dizer algo contra alguém que, ao passar, posta no chão sua liteira por algum tempo, saqueou a cidade inteira, casa por casa, não por meio de artifícios, mas abertamente, por meio de seu poder, com sua única autoridade suprema. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-111-116-101-115-116-97-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 11.23 and an absolute frequency of 5. The Caesar subcorpus follows, with a normalized frequency of 7.18 and an absolute frequency of 19. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 19 ; absolute frequency: 7.17576856258025. subcorpus: Cicero ; normalized frequency: 83 ; absolute frequency: 5.17056639505619. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 7 ; absolute frequency: 1.30643325059256. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-111-116-101-115-116-97-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 11.23 and an absolute frequency of 5. The Prosa.oratória subcorpus follows, with a normalized frequency of 6.53 and an absolute frequency of 68. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 23 ; absolute frequency: 5.59896784244991. subcorpus: Prosa.filosófica ; normalized frequency: 11 ; absolute frequency: 1.81216124940281. subcorpus: Prosa.oratória ; normalized frequency: 68 ; absolute frequency: 6.52885658598408. subcorpus: Prosa.epistolográfica ; normalized frequency: 11 ; absolute frequency: 2.91475661782241. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-111-116-101-115-116-97-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 11.23 and an absolute frequency of 5. The I.a.C. subcorpus follows, with a normalized frequency of 4.98 and an absolute frequency of 107. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 107 ; absolute frequency: 4.98021875727252. subcorpus: I.d.C. ; normalized frequency: 8 ; absolute frequency: 1.2238029677222. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+:::
+

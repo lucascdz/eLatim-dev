@@ -1,0 +1,206 @@
+---
+title: "liber"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx108-105-98-101-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>līber</b> <b>-bèra</b> <b>-bèrum</b> <br> <small>adj.</small> <br> <small>Obs.: Constrói-se absolt.: com abl. acompanhado de ab: com abl. sem preposição: com gen. na poesia.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Livre, de condição livre &ensp; <small>socialmente falando Cíc. Nat. 3. 45.</small> <br> <b>2</b> &ensp; <small>II-Politicamente</small> &ensp; Livre &ensp; <small>tratando-se de um povo que se governa ou não está submetido a nenhum outro povo Cíc. Rep. 1. 48.</small> <br> <b>3</b> &ensp; <small>II-Daí, em sent. geral:</small> &ensp; Que está em liberdade, independente, que procede livremente &ensp; <small>Cíc. Sull. 86.</small> <br> <b>4</b> &ensp; <small>II-Por extensão:</small> &ensp; Demasiadamente livre, licencioso, desregrado &ensp; <small>Cíc. At. l, 13. I.</small> <br> <b>5</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Livre de, isento de, desembaraçado de &ensp; <small>Cíc. Fin. 1, 49.</small> <br> <b>6</b> &ensp; <small>IV-Sents. diversos:</small> &ensp; Não subordinado, livre, sem encargos, isento &ensp; <small>Cíc. Verr. 4, 23.</small> <br> <b>7</b> &ensp; <small>IV-Sents. diversos:</small> &ensp; Não ocupado, vago, espaçoso, vasto, extenso &ensp; <small>Cíc. At. 14, 13, 5.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Liber</b> -<b>era</b> -<b>erum</b> <small>Cic</small> -<b>erior</b> <small>Hor</small> -<b>errimus</b>   <p> <b>1</b> &ensp; livre, que nasceo livre. <br> <b>2</b> &ensp; expedito, desembaraçado, isento, sem sujeição. <br> <b>3</b> &ensp; que diz, e faz livremente o que quer. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>libera praedia &ensp; <small><small>Cic</small></small> &ensp; <small>Terras livres, de que se não paga foro, ou tributo</small> <br> libera toga &ensp; <small><small>Prop</small></small> &ensp; <small>Toga viril</small> &ensp; <small><small>Porque apenas se tomava, fazia os homens senhores de suas acções</small></small> <br> mandata libera &ensp; <small><small>Liv</small></small> &ensp; <small>Poderes absolutos</small> </p>
+
+
+
+
+#### Velez
+
+<b>Liber</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa livre &ensp; <small>rariùs cum gen.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>a metu, & cura liber, uel metu, & cura <br> <br><b>X</b><br>campus liberior &ensp; <small>campo mui largo, e patente</small> <br> hoc mihi liberum &ensp; <small>posso fazer isto, está no meu arbitrio</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Liber</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa liure </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/110381 ' target="_blank"> http://lila-erc.eu/data/id/lemma/110381 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> leber, leiber <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+lībĕr 
+ lībĕra 
+ lībĕrum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx108-105-98-101-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx108-105-98-101-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword liber here are all the values plotted: collocate: legatio; scoreSUBST: 2. collocate: ciuitas; scoreSUBST: 2. collocate: animus; scoreSUBST: 2. collocate: populus; scoreSUBST: 2. collocate: per; scoreSUBST: 0. collocate: neque; scoreSUBST: 0. collocate: atque; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx108-105-98-101-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword liber here are all the values plotted: collocate: legatio; scoreADJ: 0. collocate: ciuitas; scoreADJ: 0. collocate: animus; scoreADJ: 0. collocate: populus; scoreADJ: 0. collocate: per; scoreADJ: 0. collocate: neque; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx108-105-98-101-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword liber here are all the values plotted: collocate: legatio; scoreVERBO: 0. collocate: ciuitas; scoreVERBO: 0. collocate: animus; scoreVERBO: 0. collocate: populus; scoreVERBO: 0. collocate: per; scoreVERBO: 0. collocate: neque; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: sum; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx108-105-98-101-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword liber here are all the values plotted: collocate: legatio; scoreADV: 0. collocate: ciuitas; scoreADV: 0. collocate: animus; scoreADV: 0. collocate: populus; scoreADV: 0. collocate: per; scoreADV: 0. collocate: neque; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx108-105-98-101-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword liber here are all the values plotted: collocate: legatio; scoreFUNC: 0. collocate: ciuitas; scoreFUNC: 0. collocate: animus; scoreFUNC: 0. collocate: populus; scoreFUNC: 0. collocate: per; scoreFUNC: 20. collocate: neque; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> si locare voluisses duobus his muneribus <b>liber</b> esses <br> <small> Cic.Att.4.4A.2 <br> Se tivesses querido alugá-los, com estes dois espetáculos terias amortizado a dívida. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> at enim <b>liberum</b> senatus iudicium propter metum non fuit <br> <small> Cic.Dom.10 <br> 10 Mas, de fato, o julgamento do senado não foi livre, por causa do medo. <small> [JDD] </small> </small> </p>
+; <p> quam prouinciam tenuistis a praedonibus <b>liberam</b> per hosce annos <br> <small> Cic.Man.32 <br> Que província mantivestes livre dos piratas durante todos estes anos? <small> [JDD] </small> </small> </p>
+; <p> dicam <b>liber</b> animus erectus alia subiciens sibi se nulli <br> <small> Sen.Ep.124.12 <br> Vou dizer: espírito livre, elevado, que submete a si as outras coisas, e ele não se submete a nenhuma. <small> [JDD] </small> </small> </p>
+; <p> ille demum necessitates supergressus est et exauctoratus ac <b>liber</b> qui uiuit uita peracta <br> <small> Sen.Ep.32.5 <br> Superou finalmente as necessidades e se acha exonerado e livre aquele que vive depois de completada sua vida. <small> [JDD] </small> </small> </p>
+; <p> quia nulla uis umquam est in <b>libera</b> ciuitate suscepta inter ciuis non contra rem publicam <br> <small> Cic.Mil.13 <br> Porque, numa cidade livre, toda violência entre os cidadãos sempre foi empreendida contra a república. <small> [JDD] </small> </small> </p>
+; <p> a Caesare valde liberaliter invitor in legationem illam sibi ut sim legatus atque etiam <b>libera</b> legatio voti causa datur <br> <small> Cic.Att.2.18.3 <br> Sou convidado muito gentilmente por César para aquela legação, para que eu seja seu legado e me é concedida também uma legação livre por causa de um voto. <small> [JDD] </small> </small> </p>
+; <p> his auctoribus et ducibus dis iuuantibus nobis uigilantibus et multum in posterum prouidentibus populo Romano consentiente erimus profecto <b>liberi</b> breui tempore <br> <small> Cic.Phil.3.36.12 <br> Com essas autoridades e guias, com a ajuda dos deuses, com nossa vigilância e previsão para os acontecimentos futuros, com a concordância do povo romano seremos sem dúvida livres em pouco tempo. <small> [JDD] </small> </small> </p>
+; <p> fortassis et istinc largiter abstulerit longa aetas <b>liber</b> amicus consilium proprium neque enim cum lectulus aut me porticus excepit desum mihi <br> <small> Hor.S.1.4.131 <br> Talvez terão suprimido muito daí a longa idade, um amigo sincero, minha própria consciência; pois quando me acolhem um pequeno leito ou um pórtico, eu não falto a mim mesmo. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx108-105-98-101-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 5.57 and an absolute frequency of 6. The Phaedrus subcorpus follows, with a normalized frequency of 4.55 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 49 ; absolute frequency: 3.05250305250305. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 6 ; absolute frequency: 5.56534644281607. subcorpus: Seneca ; normalized frequency: 15 ; absolute frequency: 2.79949982269834. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx108-105-98-101-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 3.47 and an absolute frequency of 4. The Poesia.didática subcorpus follows, with a normalized frequency of 3.39 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 8 ; absolute frequency: 1.94746707563475. subcorpus: Prosa.filosófica ; normalized frequency: 14 ; absolute frequency: 2.30638704469449. subcorpus: Prosa.oratória ; normalized frequency: 34 ; absolute frequency: 3.26442829299204. subcorpus: Prosa.epistolográfica ; normalized frequency: 12 ; absolute frequency: 3.1797344921699. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx108-105-98-101-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 2.91 and an absolute frequency of 19. The I.a.C. subcorpus follows, with a normalized frequency of 2.84 and an absolute frequency of 61. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 61 ; absolute frequency: 2.83919013265069. subcorpus: I.d.C. ; normalized frequency: 19 ; absolute frequency: 2.90653204834022. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

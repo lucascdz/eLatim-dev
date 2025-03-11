@@ -1,0 +1,205 @@
+---
+title: "tantum"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx116-97-110-116-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>tantum</b> <br> <small>n. de tantus tomado adverbialmente</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Tanto, tão grandemente, a tal ponto &ensp; <small>Cíc. Verr. 2, 134.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Simplesmente, apenas &ensp; <small>Cíc. Par. 17.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Tantum</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; tanto, taõ. <br> <b>2</b> &ensp; sómente. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>tantum non &ensp; <small><small>Liv</small></small> &ensp; <small>Quasi, pouco menos que</small> <br> tantum quod &ensp; <small><small>Cic</small></small> &ensp; <small>Logo logo, apenas que, logo que</small> </p>
+
+
+
+
+#### Velez
+
+<b>Tantùm</b> <br> <small>Adverb.</small>   <p> <b>1</b> &ensp; somente <br> <b>2</b> &ensp; <small>adverb. Significat etiam Tantùm</small> &ensp; tanto, ou taõ &ensp; <small>quo utimur eleganter pro non solùm non est, sub. sequente gemino Ut, vel uno solùm</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>tantummodo &ensp; <small><small></small></small> &ensp; <small>somente</small> &ensp; <small><small></small></small> <br> tantummodo &ensp; <small><small></small></small> &ensp; <small>somente</small> &ensp; <small><small></small></small> <br> tantumnon &ensp; <small><small>i, Fermè: rei non planè peractae</small></small> <br> <br><b>2</b><br>tantum abest &ensp; <small>taõ longe, ou taõ fora está</small> <br> tantum abest a uirtute, ut nihil; & c <br> tantum abest, ut sit uirtus, ut nihil uirtuti magis possit esse contrarium <br> tantummodo &ensp; <small><small>quo utimur eleganter pro non solùm non est, sub. sequente gemino Ut, vel uno solùm</small></small> &ensp; <small>tanto, ou taõ</small> &ensp; <small><small>adverb. Significat etiam Tantùm</small></small> <br> tantummodo &ensp; <small><small>quo utimur eleganter pro non solùm non est, sub. sequente gemino Ut, vel uno solùm</small></small> &ensp; <small>tanto, ou taõ</small> &ensp; <small><small>adverb. Significat etiam Tantùm</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Tantum</b> <br> <small>aduer.</small>   <p> <b>1</b> &ensp; tam somente </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/hypolemma/110679 ' target="_blank"> http://lila-erc.eu/data/id/hypolemma/110679 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx116-97-110-116-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword tantum here are all the values plotted: collocate: amo; scoreSUBST: 0. collocate: quantum; scoreSUBST: 0. collocate: modo; scoreSUBST: 0. collocate: proficio; scoreSUBST: 0. collocate: usus; scoreSUBST: 2. collocate: absum; scoreSUBST: 0. collocate: non; scoreSUBST: 0. collocate: nec; scoreSUBST: 0. collocate: sed; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx116-97-110-116-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword tantum here are all the values plotted: collocate: amo; scoreADJ: 0. collocate: quantum; scoreADJ: 0. collocate: modo; scoreADJ: 0. collocate: proficio; scoreADJ: 0. collocate: usus; scoreADJ: 0. collocate: absum; scoreADJ: 0. collocate: non; scoreADJ: 0. collocate: nec; scoreADJ: 0. collocate: sed; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx116-97-110-116-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword tantum here are all the values plotted: collocate: amo; scoreVERBO: 2. collocate: quantum; scoreVERBO: 0. collocate: modo; scoreVERBO: 0. collocate: proficio; scoreVERBO: 2. collocate: usus; scoreVERBO: 0. collocate: absum; scoreVERBO: 2. collocate: non; scoreVERBO: 0. collocate: nec; scoreVERBO: 0. collocate: sed; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx116-97-110-116-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword tantum here are all the values plotted: collocate: amo; scoreADV: 0. collocate: quantum; scoreADV: 2. collocate: modo; scoreADV: 3. collocate: proficio; scoreADV: 0. collocate: usus; scoreADV: 0. collocate: absum; scoreADV: 0. collocate: non; scoreADV: 3. collocate: nec; scoreADV: 0. collocate: sed; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx116-97-110-116-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword tantum here are all the values plotted: collocate: amo; scoreFUNC: 0. collocate: quantum; scoreFUNC: 0. collocate: modo; scoreFUNC: 0. collocate: proficio; scoreFUNC: 0. collocate: usus; scoreFUNC: 0. collocate: absum; scoreFUNC: 0. collocate: non; scoreFUNC: 0. collocate: nec; scoreFUNC: 0. collocate: sed; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>tantum</b> modo crede <br> <small> Vulg.Marc.5.36 <br> somente crê. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> non enim dicentur <b>tantum</b> illa sed probabuntur <br> <small> Sen.Ep.20.9 <br> pois aquelas coisas não só serão ditas, mas serão provadas.” <small> [JDD] </small> </small> </p>
+; <p> non <b>tantum</b> praesentis sed uigilantis est occasionem obseruare properantem <br> <small> Sen.Ep.22.3 <br> É próprio não somente de quem está presente, mas de quem está atento observar a ocasião que passa apressada. <small> [JDD] </small> </small> </p>
+; <p> quaedam incremento non <b>tantum</b> in maius exeunt sed in aliud <br> <small> Sen.Ep.118.14 <br> Certas coisas, com o crescimento, não só se tornam maiores, mas também outras. <small> [JDD] </small> </small> </p>
+; <p> decernebat enim ut ueteribus legibus <b>tantum</b> modo extra ordinem quaereretur <br> <small> Cic.Mil.14 <br> Pois decretava que se julgasse, por antigas leis, tão somente fora da ordem <small> [JDD] </small> </small> </p>
+; <p> <b>tantum</b> te oro ut quoniam me ipsum semper amasti ut eodem amore sis <br> <small> Cic.Att.3.5 <br> Te peço somente que, já que sempre me estimaste, que continues com a mesma estima. <small> [JDD] </small> </small> </p>
+; <p> quam ob rem si me amas <b>tantum</b> quantum profecto amas si dormis expergiscere <br> <small> Cic.Att.2.23.3 <br> Por esse motivo, se me estimas tanto quanto realmente me estimas, se estás dormindo, acorda. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> cetera <b>tantum</b> in sua natura perfecta sunt non uere perfecta a quibus abest ratio <br> <small> Sen.Ep.124.14 <br> Os demais seres são perfeitos somente em sua própria natureza, não perfeitos de verdade, pois deles está ausente a razão. <small> [JDD] </small> </small> </p>
+; <p> ingeniorum crescit dignatio nec ipsis <b>tantum</b> honor habetur sed quicquid illorum memoriae adhaesit excipitur <br> <small> Sen.Ep.21.6 <br> A reputação dos gênios cresce e não só é concedida a honra a eles, mas é bem acolhido tudo o que ficou aderido à memória deles. <small> [JDD] </small> </small> </p>
+; <p> et quidem gloriatur non toto asse se pasci Metrodorum qui nondum <b>tantum</b> profecerit toto <br> <small> Sen.Ep.18.9 <br> e, na verdade, ele se vangloria de se alimentar com um asse não inteiro; Metrodoro, que ainda não tinha progredido tanto, com um asse inteiro. <small> [JDD] </small> </small> </p>
+; <p> nec in hoc te accerso <b>tantum</b> ut proficias sed ut prosis plurimum enim alter alteri conferemus <br> <small> Sen.Ep.6.6 <br> E neste caso não te chamo apenas para que aproveites, mas para que possas ser útil; pois muitos préstimos concederemos um para o outro. <small> [JDD] </small> </small> </p>
+; <p> habet autem non <b>tantum</b> usus amicitiae ueteris et certae magnam uoluptatem sed etiam initium et comparatio nouae <br> <small> Sen.Ep.9.6 <br> Por outro lado, tem um grande prazer não só o cultivo de uma velha e sólida amizade, mas também o início e a consecução de uma nova. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx116-97-110-116-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 22.05 and an absolute frequency of 2. The Seneca subcorpus follows, with a normalized frequency of 13.25 and an absolute frequency of 71. the subcorpus with the least normalized frequency is Sallustius with the normalized value of 0.93 and an absolute freqeuncy of 1. here are all the values: subcorpus: Caesar ; normalized frequency: 6 ; absolute frequency: 2.26603217765692. subcorpus: Cicero ; normalized frequency: 60 ; absolute frequency: 3.73775883979966. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 71 ; absolute frequency: 13.2509658274388. subcorpus: Suetonius ; normalized frequency: 2 ; absolute frequency: 22.0507166482911. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx116-97-110-116-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 12.03 and an absolute frequency of 73. The Prosa.oratória subcorpus follows, with a normalized frequency of 2.98 and an absolute frequency of 31. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 1.93 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 11 ; absolute frequency: 2.67776722899778. subcorpus: Prosa.filosófica ; normalized frequency: 73 ; absolute frequency: 12.0261610187641. subcorpus: Prosa.oratória ; normalized frequency: 31 ; absolute frequency: 2.97639050243392. subcorpus: Prosa.epistolográfica ; normalized frequency: 23 ; absolute frequency: 6.09449110999232. subcorpus: Poesia.lírica ; normalized frequency: 5 ; absolute frequency: 4.20627576343905. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx116-97-110-116-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 11.32 and an absolute frequency of 74. The I.d.C. subcorpus follows, with a normalized frequency of 11.32 and an absolute frequency of 74. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 3.4 and an absolute freqeuncy of 73. here are all the values: subcorpus: I.a.C. ; normalized frequency: 73 ; absolute frequency: 3.39771933907377. subcorpus: I.d.C. ; normalized frequency: 74 ; absolute frequency: 11.3201774514303. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

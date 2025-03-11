@@ -1,0 +1,224 @@
+---
+title: "idem"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-100-101-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>eūmdem</b> <br> <small>acus. sing. m. de idem.</small> <br> <small></small> 
+ <b>īdem</b> <b>eàdem, ìdem</b> <br> <small>pronome demonstrativo</small> <br> <small>Obs.: Contam como dissílabo as seguintes formas em alguns poetas: eodem Verg. Buc. 8, 82; eadem Verg. En. 10, 487; eosdem Prop. 4, 7, 7.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Este precisamente; &ensp; <small></small> <br> <b>2</b> &ensp; <small>I-daí:</small> &ensp; O mesmo. a mesma &ensp; <small>sent. geral Cíc. Of. I, 90.</small> <br> <b>3</b> &ensp; <small>II-Sents. diversos;</small> &ensp; Também, ao mesmo tempo &ensp; <small>Cíc. Nat. 3. 80.</small> <br> <b>4</b> &ensp; <small>II-Em correlação com qui, atque. et, ut, quasi, cum em comparações:</small> &ensp; Do mesmo modo que, o mesmo que &ensp; <small>Cíc. Tusc. 2.9.</small> <br> <b>5</b> &ensp; <small>II-Neutro sing. com gen.:</small> &ensp; O mesmo: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>5</b><br>idem juris Cíc. Balb. 29 «o mesmo direito». </p> 
+ <small>2.</small> <b>eădem</b> <br> <small>nom. sing. f. e pI. n. de idem.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Idem</b> -<b>eadem</b> <b>idem</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; mesmo, mesma. </p>
+
+
+
+
+#### Velez
+
+<b>Idem</b> <small>et c.</small> <b>eadem</b>   <p> <b>1</b> &ensp; o mesmo </p>
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/109082 ' target="_blank"> http://lila-erc.eu/data/id/lemma/109082 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> pronominal <br>
+<small> outras grafias: </small> eidem, eisdim <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ĕădem 
+ īdem 
+ ĭdem
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-100-101-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword idem here are all the values plotted: collocate: fere; scoreSUBST: 0. collocate: tempus; scoreSUBST: 2. collocate: sentio; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: facio; scoreSUBST: 0. collocate: que; scoreSUBST: 0. collocate: nunc; scoreSUBST: 0. collocate: genus; scoreSUBST: 2. collocate: hic; scoreSUBST: 0. collocate: modus; scoreSUBST: 2. collocate: dux; scoreSUBST: 2. collocate: dies; scoreSUBST: 2. collocate: qui; scoreSUBST: 0. collocate: utor; scoreSUBST: 0. collocate: causa; scoreSUBST: 2. collocate: ille; scoreSUBST: 0. collocate: semper; scoreSUBST: 0. collocate: tamen; scoreSUBST: 0. collocate: sententia; scoreSUBST: 2. collocate: ratio; scoreSUBST: 2. collocate: licet; scoreSUBST: 0. collocate: galli; scoreSUBST: 0. collocate: Scipio; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-100-101-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword idem here are all the values plotted: collocate: fere; scoreADJ: 0. collocate: tempus; scoreADJ: 0. collocate: sentio; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: facio; scoreADJ: 0. collocate: que; scoreADJ: 0. collocate: nunc; scoreADJ: 0. collocate: genus; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: modus; scoreADJ: 0. collocate: dux; scoreADJ: 0. collocate: dies; scoreADJ: 0. collocate: qui; scoreADJ: 0. collocate: utor; scoreADJ: 0. collocate: causa; scoreADJ: 0. collocate: ille; scoreADJ: 0. collocate: semper; scoreADJ: 0. collocate: tamen; scoreADJ: 0. collocate: sententia; scoreADJ: 0. collocate: ratio; scoreADJ: 0. collocate: licet; scoreADJ: 0. collocate: galli; scoreADJ: 2. collocate: Scipio; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-100-101-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword idem here are all the values plotted: collocate: fere; scoreVERBO: 0. collocate: tempus; scoreVERBO: 0. collocate: sentio; scoreVERBO: 2. collocate: in; scoreVERBO: 0. collocate: facio; scoreVERBO: 2. collocate: que; scoreVERBO: 0. collocate: nunc; scoreVERBO: 0. collocate: genus; scoreVERBO: 0. collocate: hic; scoreVERBO: 0. collocate: modus; scoreVERBO: 0. collocate: dux; scoreVERBO: 0. collocate: dies; scoreVERBO: 0. collocate: qui; scoreVERBO: 0. collocate: utor; scoreVERBO: 2. collocate: causa; scoreVERBO: 0. collocate: ille; scoreVERBO: 0. collocate: semper; scoreVERBO: 0. collocate: tamen; scoreVERBO: 0. collocate: sententia; scoreVERBO: 0. collocate: ratio; scoreVERBO: 0. collocate: licet; scoreVERBO: 2. collocate: galli; scoreVERBO: 0. collocate: Scipio; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-100-101-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword idem here are all the values plotted: collocate: fere; scoreADV: 3. collocate: tempus; scoreADV: 0. collocate: sentio; scoreADV: 0. collocate: in; scoreADV: 0. collocate: facio; scoreADV: 0. collocate: que; scoreADV: 0. collocate: nunc; scoreADV: 2. collocate: genus; scoreADV: 0. collocate: hic; scoreADV: 0. collocate: modus; scoreADV: 0. collocate: dux; scoreADV: 0. collocate: dies; scoreADV: 0. collocate: qui; scoreADV: 0. collocate: utor; scoreADV: 0. collocate: causa; scoreADV: 0. collocate: ille; scoreADV: 0. collocate: semper; scoreADV: 2. collocate: tamen; scoreADV: 1. collocate: sententia; scoreADV: 0. collocate: ratio; scoreADV: 0. collocate: licet; scoreADV: 0. collocate: galli; scoreADV: 0. collocate: Scipio; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-100-101-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword idem here are all the values plotted: collocate: fere; scoreFUNC: 0. collocate: tempus; scoreFUNC: 0. collocate: sentio; scoreFUNC: 0. collocate: in; scoreFUNC: 30. collocate: facio; scoreFUNC: 0. collocate: que; scoreFUNC: 0. collocate: nunc; scoreFUNC: 0. collocate: genus; scoreFUNC: 0. collocate: hic; scoreFUNC: 0. collocate: modus; scoreFUNC: 0. collocate: dux; scoreFUNC: 0. collocate: dies; scoreFUNC: 0. collocate: qui; scoreFUNC: 0. collocate: utor; scoreFUNC: 0. collocate: causa; scoreFUNC: 0. collocate: ille; scoreFUNC: 0. collocate: semper; scoreFUNC: 0. collocate: tamen; scoreFUNC: 0. collocate: sententia; scoreFUNC: 0. collocate: ratio; scoreFUNC: 0. collocate: licet; scoreFUNC: 0. collocate: galli; scoreFUNC: 0. collocate: Scipio; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>eodem</b> duce redibant <br> <small> Cic.Mur.26 <br> E, com ele mesmo de guia, voltavam. <small> [JDD] </small> </small> </p>
+; <p> <b>isdem</b> in armis fui <br> <small> Cic.Lig.9 <br> estive nas mesmas armas. <small> [JDD] </small> </small> </p>
+; <p> licuit <b>eodem</b> modo ut signa <br> <small> Cic.Ver.2.4.27.3 <br> Te foi permitido do mesmo modo que as estátuas. <small> [JDD] </small> </small> </p>
+; <p> semper <b>idem</b> uelle atque <b>idem</b> nolle <br> <small> Sen.Ep.20.5 <br> Querer sempre o mesmo e não querer sempre o mesmo. <small> [JDD] </small> </small> </p>
+; <p> <b>eodem</b> die ubi luserunt nauigia sorbentur <br> <small> Sen.Ep.4.7 <br> no mesmo dia em que navios se divertiram, são engolidos. <small> [JDD] </small> </small> </p>
+; <p> premit te <b>eadem</b> causa quae expulit <br> <small> Sen.Ep.28.2 <br> Te oprime a mesma causa que te impeliu a sair”. <small> [JDD] </small> </small> </p>
+; <p> <b>eodem</b> modo dicendum est diuitiae illum tenent <br> <small> Sen.Ep.119.12 <br> do mesmo modo deve se dizer “a riqueza se apoderou dele”. <small> [JDD] </small> </small> </p>
+; <p> praesertim cum <b>eosdem</b> in agros etiam deduxerit <br> <small> Cic.Phil.7.17.2 <br> Sobretudo depois que ele tiver fixado esses mesmos nos campos. <small> [JDD] </small> </small> </p>
+; <p> <b>Eandem</b> virtutem istam veniet tempus cum graviter gemes <br> <small> Cic.Att.2.19.3 <br> “Um tempo virá em que gemerás penosamente esse mesmo valor” <small> [JDD] </small> </small> </p>
+; <p> haec <b>eadem</b> quacumque exercitum duxit fecit M. Antonius <br> <small> Cic.Phil.3.31.12 <br> Essas mesmas coisas fez Marco Antônio, onde quer que tenha levado seu exército. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> leguntur <b>eadem</b> ratione ad senatum Allobrogum populumque litterae <br> <small> Cic.Catil.3.11.1 <br> Do mesmo modo é lida a carta ao senado e ao povo dos alóbroges. <small> [JDD] </small> </small> </p>
+; <p> est enim is qui est tamquam alter <b>idem</b> <br> <small> Cic.Amici.80 <br> pois este é como um outro ele mesmo. <small> [JDD] </small> </small> </p>
+; <p> recitatae sunt tabellae in <b>eandem</b> fere sententiam confessus est <br> <small> Cic.Catil.3.10.16 <br> As tabuinhas foram lidas quase no mesmo sentido; confessou. <small> [JDD] </small> </small> </p>
+; <p> refice illum et mitte in senatum <b>eandem</b> sententiam dicet <br> <small> Sen.Prov.3.9 <br> Reanima-o e manda-o ao senado: dirá a mesma opinião. <small> [JDD] </small> </small> </p>
+; <p> hos subsecuti equites calonesque <b>eodem</b> impetu militum uirtute seruantur <br> <small> Caes.Gal.6.40.5 <br> Os criados e os cavaleiros, seguindo-os com o mesmo ímpeto, são salvos pela coragem dos soldados. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>eadem</b> est feminae marisque natura <b>eadem</b> forma magnitudoque cornuum <br> <small> Caes.Gal.6.26.3 <br> A natureza da fêmea e do macho é a mesma, e são os mesmos a forma e o tamanho dos chifres. <small> [JDD] </small> </small> </p>
+; <p> magna uis est magnum numen unum et <b>idem</b> sentientis senatus <br> <small> Cic.Phil.3.32.9 <br> É uma grande força, um grande poder uma mesma e única opinião do senado. <small> [JDD] </small> </small> </p>
+; <p> ita fato placuit nullius rei <b>eodem</b> semper loco stare fortunam <br> <small> Sen.Helv.7.10 <br> Assim agradou ao destino que a sorte de coisa alguma ficasse sempre no mesmo lugar. <small> [JDD] </small> </small> </p>
+; <p> quod nisi <b>idem</b> in amicitiam transferetur uerus amicus numquam reperietur <br> <small> Cic.Amici.80 <br> Se isso mesmo não for transferido para a amizade, o verdadeiro amigo nunca será encontrado. <small> [JDD] </small> </small> </p>
+; <p> in hos <b>eadem</b> omnia sunt iura quae dominis in seruos <br> <small> Caes.Gal.6.13.2 <br> e sobre eles têm todos os mesmos direitos que os senhores têm sobre seus escravos. <small> [JDD] </small> </small> </p>
+; <p> nunc <b>eadem</b> illa quaeso audite et diligenter sicut adhuc fecistis attendite <br> <small> Cic.Ver.2.4.102.13 <br> Agora, ouvi, eu vos peço, esses mesmos fatos e prestai bastante atenção, como fizestes até agora. <small> [JDD] </small> </small> </p>
+; <p> <b>eodem</b> die legati ab hostibus missi ad Caesarem de pace uenerunt <br> <small> Caes.Gal.4.36.1 <br> No mesmo dia legados enviados pelos inimigos vieram a César acerca da paz. <small> [JDD] </small> </small> </p>
+; <p> si me consulis nullo modo sed tamen Ligarium senatus <b>idem</b> legauerat <br> <small> Cic.Lig.20 <br> Se me consultas, de modo algum; mas, em todo caso, o senado mesmo tinha nomeado Ligário como embaixador. <small> [JDD] </small> </small> </p>
+; <p> a Tyndaritanis non <b>eiusdem</b> Scipionis beneficio positum simulacrum Mercuri pulcherrime factum sustulisti <br> <small> Cic.Ver.2.4.84.2 <br> Não tiraste dos tindaritanos uma estátua de Mercúrio, belissimamente feita, erigida por benefício do mesmo Cipião? <small> [JDD] </small> </small> </p>
+; <p> quo in genere maxime delectarunt duae fere <b>eodem</b> tempore abs te Buthroto datae <br> <small> Cic.Att.4.16.1 <br> Nesse tipo, me deleitaram principalmente duas entregues por ti quase ao mesmo tempo em Butroto. <small> [JDD] </small> </small> </p>
+; <p> quaesivit ex eo placeret ne ei iudices a praetore legi quo consilio <b>idem</b> praetor uteretur <br> <small> Cic.Att.1.14.1 <br> Quis saber dele se lhe agradava que fossem eleitos pelo pretor os juízes de cujo conselho o mesmo pretor se utilizaria. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Gallorum <b>eadem</b> atque Belgarum oppugnatio est haec ubi circumiecta multitudine hominum totis moenibus undique in murum lapides iaci coepti sunt murusque defensoribus nudatus est testudine facta portas succendunt murumque subruunt <br> <small> Caes.Gal.2.6.2 <br> O método de ataque dos belgas, o mesmo dos gauleses, é este: Depois de posta em torno da muralha inteira uma multidão de homens, pedras começaram a ser lançadas de toda parte contra o muro e o muro foi despojado de defensores; formada a tartaruga, incendeiam as portas e derrubam o muro. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-100-101-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 37.76 and an absolute frequency of 11. The Cicero subcorpus follows, with a normalized frequency of 25.98 and an absolute frequency of 417. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 68 ; absolute frequency: 25.6816980134451. subcorpus: Cicero ; normalized frequency: 417 ; absolute frequency: 25.9774239366076. subcorpus: Horatius ; normalized frequency: 6 ; absolute frequency: 5.32812361246781. subcorpus: Ovidius ; normalized frequency: 7 ; absolute frequency: 12.0109814687714. subcorpus: Phaedrus ; normalized frequency: 6 ; absolute frequency: 9.10885076666161. subcorpus: Sallustius ; normalized frequency: 18 ; absolute frequency: 16.6960393284482. subcorpus: Seneca ; normalized frequency: 89 ; absolute frequency: 16.6103656146768. subcorpus: Suetonius ; normalized frequency: 2 ; absolute frequency: 22.0507166482911. subcorpus: Tacitus ; normalized frequency: 11 ; absolute frequency: 37.7617576381737. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-100-101-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 28.42 and an absolute frequency of 296. The Prosa.histórica subcorpus follows, with a normalized frequency of 24.1 and an absolute frequency of 99. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 99 ; absolute frequency: 24.0999050609801. subcorpus: Prosa.filosófica ; normalized frequency: 136 ; absolute frequency: 22.4049027198893. subcorpus: Prosa.oratória ; normalized frequency: 296 ; absolute frequency: 28.4197286684013. subcorpus: Prosa.epistolográfica ; normalized frequency: 69 ; absolute frequency: 18.2834733299769. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 12 ; absolute frequency: 10.1789804054627. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-100-101-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 34.03 and an absolute frequency of 13. The I.a.C. subcorpus follows, with a normalized frequency of 23.83 and an absolute frequency of 512. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 512 ; absolute frequency: 23.8305794740517. subcorpus: I.d.C. ; normalized frequency: 101 ; absolute frequency: 15.4505124674927. subcorpus: II.d.C. ; normalized frequency: 13 ; absolute frequency: 34.0314136125654. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

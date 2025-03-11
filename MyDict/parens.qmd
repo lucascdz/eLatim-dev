@@ -1,0 +1,202 @@
+---
+title: "parens"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-97-114-101-110-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>parens</b> <b>-éntis</b> <br> <small>subs. m. e f.</small> <br> <small>Obs.: O gen. pl. é geralmente parentum, mas a forma parentium também é atestada.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Pai ou mãe: &ensp; <small></small> <br> <b>2</b> &ensp; <small>II-Daí, em sent. particular</small> &ensp; Pai ou mãe &ensp; <small>dos animais Plín. H. Nat. 8, 165.</small> <br> <b>3</b> &ensp; <small>II-Daí, em sent. particular</small> &ensp; Avô &ensp; <small>T. Lív. 21, 43, 6.</small> <br> <b>4</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Autor, inventor, fundador &ensp; <small>Cíc. Fin. 2. 1.</small> <br> <b>5</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Pai, venerando &ensp; <small>título de respeito Estác. S. 1, 2, 178.</small> <br> <b>6</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Júpiter &ensp; <small>Hor. O. 1, 12, 13.</small> <br> <b>7</b> &ensp; <small>III-No m. pl.: parentes, -um:</small> &ensp; Os pais &ensp; <small>o pai e a mãe Cíc. Lae. 27.</small> <br> <b>8</b> &ensp; <small>III-No m. pl.: parentes, -um:</small> &ensp; Os antepassados &ensp; <small>Verg. En. 9. 3.</small> <br> <b>9</b> &ensp; <small>III-No m. pl.: parentes, -um:</small> &ensp; Os parentes &ensp; <small>Q. Cúrc. 6, 10, 30.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>parens tuus Cíc. Sull. 81 «teu pai»: parens Idaea deum Verg. En. 10, 252 “a deusa do Ida, mãe dos deuses”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Parens</b> -<b>entis</b> <br> <small>com. gen.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; pai, mãi. <br> <b>2</b> &ensp; fundador, inventor, instituidor, autor. <br> <b>3</b> &ensp; <small>Parentes. Cic.</small> &ensp; progenitores, maiores, ascendentes. </p>
+
+
+
+
+#### Velez
+
+<b>Parens</b> <b>parentis</b> <br> <small>1. br.</small>   <p> <b>1</b> &ensp; o pay, ou mãy </p>
+
+
+
+
+#### Cardoso
+
+<b>Parens</b> -<b>entis</b>   <p> <b>1</b> &ensp; ho pay. ou mãy </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/116020 ' target="_blank"> http://lila-erc.eu/data/id/lemma/116020 </a> <br>
+<small> classe: </small> substantivo comum de dois gêneros   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+părens 
+ părentis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-97-114-101-110-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-97-114-101-110-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword parens here are all the values plotted: collocate: patria; scoreSUBST: 2. collocate: tuus; scoreSUBST: 0. collocate: tu; scoreSUBST: 0. collocate: ab; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-97-114-101-110-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword parens here are all the values plotted: collocate: patria; scoreADJ: 0. collocate: tuus; scoreADJ: 0. collocate: tu; scoreADJ: 0. collocate: ab; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-97-114-101-110-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword parens here are all the values plotted: collocate: patria; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0. collocate: tu; scoreVERBO: 0. collocate: ab; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-97-114-101-110-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword parens here are all the values plotted: collocate: patria; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: tu; scoreADV: 0. collocate: ab; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-97-114-101-110-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword parens here are all the values plotted: collocate: patria; scoreFUNC: 0. collocate: tuus; scoreFUNC: 0. collocate: tu; scoreFUNC: 0. collocate: ab; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> et tu <b>parentem</b> redde <br> <small> Sen.Ag.968 <br> E tu, devolve-me meu pai. <small> [JDD] </small> </small> </p>
+; <p> hae te <b>parenti</b> paruulum tradunt manus <br> <small> Sen.Oed.806 <br> Estas mãos te entregaram ainda pequenininho à tua mãe. <small> [JDD] </small> </small> </p>
+; <p> ne te <b>parentis</b> pigeat inuenti uide <br> <small> Sen.Oed.836 <br> Vê se não vais te arrepender da mãe que encontrares. <small> [JDD] </small> </small> </p>
+; <p> metuis <b>parentem</b> quae tuum reditum expetens sollicita pendet <br> <small> Sen.Oed.795 <br> Temes tua mãe, que está ansiosa, esperando preocupada o teu retorno? <small> [JDD] </small> </small> </p>
+; <p> tantis excitati praemiis et sua sponte multi in disciplinam conueniunt et a <b>parentibus</b> propinquisque mittuntur <br> <small> Caes.Gal.6.14.2 <br> Tentados por tão grandes vantagens, muitos vêm se juntar a essa aprendizagem tanto por sua própria vontade, como enviados por seus pais e familiares. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> idem possunt abducunt a patria a <b>parentibus</b> ab amicis a uirtutibus et inter spem uitam misera nisi turpis inludunt <br> <small> Sen.Ep.123.12 <br> Elas podem o mesmo: nos afastam da pátria, dos pais, dos amigos, das virtudes e com uma esperança infeliz, senão vergonhosa, nos lançam a uma vida vergonhosa.[*] <small>  </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-97-114-101-110-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 7.72 and an absolute frequency of 4. The Horatius subcorpus follows, with a normalized frequency of 7.1 and an absolute frequency of 8. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 23 ; absolute frequency: 1.43280755525653. subcorpus: Horatius ; normalized frequency: 8 ; absolute frequency: 7.10416481662375. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 6 ; absolute frequency: 5.56534644281607. subcorpus: Seneca ; normalized frequency: 33 ; absolute frequency: 6.15889960993636. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-97-114-101-110-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 23.45 and an absolute frequency of 27. The Poesia.trágica subcorpus follows, with a normalized frequency of 23.45 and an absolute frequency of 27. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 7 ; absolute frequency: 1.70403369118041. subcorpus: Prosa.filosófica ; normalized frequency: 6 ; absolute frequency: 0.988451590583351. subcorpus: Prosa.oratória ; normalized frequency: 23 ; absolute frequency: 2.20828972761226. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 8 ; absolute frequency: 6.73004122150248. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 27 ; absolute frequency: 23.453787352328. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-97-114-101-110-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 5.05 and an absolute frequency of 33. The I.a.C. subcorpus follows, with a normalized frequency of 1.95 and an absolute frequency of 42. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 42 ; absolute frequency: 1.9548522224808. subcorpus: I.d.C. ; normalized frequency: 33 ; absolute frequency: 5.04818724185406. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,204 @@
+---
+title: "epistula"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx101-112-105-115-116-117-108-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>Epistŭla</b> <b>-ae</b> <br> <b>epistōla</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Remessa &ensp; <small>Cíc. Q. Fr. 3. 1. 8.</small> <br> <b>2</b> &ensp; <small>II-Daí, especializou-se em</small> &ensp; Remessa de carta, e depois: carta, epístola &ensp; <small>Cíc. Fam. 2. 4.</small> <br> <b>3</b> &ensp; <small>II-Daí, especializou-se em</small> &ensp; Epístola em verso &ensp; <small>Ov. Her. 15. 219.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Epistola</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; carta. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Epistola</b> -<b>ae</b>   <p> <b>1</b> &ensp; a carta </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/101298 ' target="_blank"> http://lila-erc.eu/data/id/lemma/101298 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a-) <br>
+<small> outras grafias: </small> epistola <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ĕpistŏla 
+ ĕpistŏlae
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx101-112-105-115-116-117-108-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx101-112-105-115-116-117-108-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword epistula here are all the values plotted: collocate: Epicurus; scoreSUBST: 0. collocate: tuus; scoreSUBST: 0. collocate: mitto; scoreSUBST: 0. collocate: scribo; scoreSUBST: 0. collocate: meus; scoreSUBST: 0. collocate: hic; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx101-112-105-115-116-117-108-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword epistula here are all the values plotted: collocate: Epicurus; scoreADJ: 0. collocate: tuus; scoreADJ: 0. collocate: mitto; scoreADJ: 0. collocate: scribo; scoreADJ: 0. collocate: meus; scoreADJ: 0. collocate: hic; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx101-112-105-115-116-117-108-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword epistula here are all the values plotted: collocate: Epicurus; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0. collocate: mitto; scoreVERBO: 2. collocate: scribo; scoreVERBO: 2. collocate: meus; scoreVERBO: 0. collocate: hic; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx101-112-105-115-116-117-108-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword epistula here are all the values plotted: collocate: Epicurus; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: mitto; scoreADV: 0. collocate: scribo; scoreADV: 0. collocate: meus; scoreADV: 0. collocate: hic; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx101-112-105-115-116-117-108-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword epistula here are all the values plotted: collocate: Epicurus; scoreFUNC: 0. collocate: tuus; scoreFUNC: 0. collocate: mitto; scoreFUNC: 0. collocate: scribo; scoreFUNC: 0. collocate: meus; scoreFUNC: 0. collocate: hic; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> accepi tuas tris iam <b>epistulas</b> <br> <small> Cic.Att.1.13.1 <br> Já recebi as três cartas tuas. <small> [JDD] </small> </small> </p>
+; <p> exulto quotiens <b>epistulas</b> tuas accipio <br> <small> Sen.Ep.19.1 <br> Dou pulos de alegria todas as vezes que recebo tuas cartas. <small> [JDD] </small> </small> </p>
+; <p> ei nunc <b>epistulae</b> litteris his respondebo <br> <small> Cic.Att.1.20.1 <br> A essa carta vou responder agora com estas letras. <small> [JDD] </small> </small> </p>
+; <p> malo te legas quam <b>epistulam</b> meam <br> <small> Sen.Ep.24.21 <br> Prefiro que leias a ti do que a minha carta. <small> [JDD] </small> </small> </p>
+; <p> cuius <b>epistulae</b> misi ad te exemplum <br> <small> Cic.Att.5.11.6 <br> dessa carta enviei para ti uma cópia. <small> [JDD] </small> </small> </p>
+; <p> non minus incerta in re publica quam in <b>epistula</b> tua <br> <small> Cic.Att.2.15.1 <br> que a situação não é menos incerta na república do em tua carta. <small> [JDD] </small> </small> </p>
+; <p> numquam ante arbitror te <b>epistulam</b> meam legisse nisi mea manu scriptam <br> <small> Cic.Att.2.23.1 <br> Julgo que nunca leste antes uma carta minha que não fosse escrita por minha própria mão. <small> [JDD] </small> </small> </p>
+; <p> possum enim tibi uocem Epicuri tui reddere et hanc <b>epistulam</b> liberare molestum est semper uitam incohare <br> <small> Sen.Ep.23.9 <br> Pois posso remeter-te uma frase do teu Epicuro e livrar esta carta: “É penoso estar sempre começando a vida”. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx101-112-105-115-116-117-108-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 33.08 and an absolute frequency of 3. The Seneca subcorpus follows, with a normalized frequency of 7.09 and an absolute frequency of 38. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 77 ; absolute frequency: 4.79679051107623. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 38 ; absolute frequency: 7.09206621750247. subcorpus: Suetonius ; normalized frequency: 3 ; absolute frequency: 33.0760749724366. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx101-112-105-115-116-117-108-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 19.61 and an absolute frequency of 74. The Prosa.filosófica subcorpus follows, with a normalized frequency of 6.26 and an absolute frequency of 38. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 3 ; absolute frequency: 0.730300153363032. subcorpus: Prosa.filosófica ; normalized frequency: 38 ; absolute frequency: 6.26019340702789. subcorpus: Prosa.oratória ; normalized frequency: 3 ; absolute frequency: 0.288037790558121. subcorpus: Prosa.epistolográfica ; normalized frequency: 74 ; absolute frequency: 19.6083627017144. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx101-112-105-115-116-117-108-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 7.85 and an absolute frequency of 3. The I.d.C. subcorpus follows, with a normalized frequency of 5.81 and an absolute frequency of 38. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 77 ; absolute frequency: 3.5838957412148. subcorpus: I.d.C. ; normalized frequency: 38 ; absolute frequency: 5.81306409668043. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

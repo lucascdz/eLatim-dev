@@ -1,0 +1,196 @@
+---
+title: "dexter"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-101-120-116-101-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>dexter</b> <b>-tra</b> <b>-trum</b> <br> <small>ou</small> <b>dexter</b> <b>-tèra</b> <b>-tèrum</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Que está do lado direito, direito &ensp; <small>em oposição a sinister, esquerdo Cíc. Div. 1, 46.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Que vem do lado direito falando de presságios, propício, favorável, feliz &ensp; <small>Verg. En. 8, 302.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado</small> &ensp; Hábil, destro &ensp; <small>Verg. En. 4, 294.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Dexter</b> -<b>era</b> -<b>erum</b> -<b>tra</b> <small>l</small> -<b>trum</b> <small>Varr</small> -<b>terior</b> <small>Sall</small> -<b>timus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; direito, da parte direita. <br> <b>2</b> &ensp; <small>Virg.</small> &ensp; favoravel, propicio. <br> <b>3</b> &ensp; <small>Ovid.</small> &ensp; opportuno, habil. </p>
+
+
+
+
+#### Velez
+
+<b>Dexter</b> <b>dextra</b> <b>dextrum</b> <b>dextera</b> <small>vel</small> <small>et c.</small> <b>dexterum</b>   <p> <b>1</b> &ensp; cousa da parte direita <br> <b>2</b> &ensp; cousa destra, ou agil, prospera, ou favoravel &ensp; <small>cum dat.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>umbrae nobis dextrae, Arabum genti sunt sinistrae &ensp; <small><small>In Mundo autem dextra vocantur Septentrionalia; laeva, vel sinistra Meridionalia</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Dexter</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa destra. ou de mão dereyta. ou prospera </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/97855 ' target="_blank"> http://lila-erc.eu/data/id/lemma/97855 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> dextrus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-101-120-116-101-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-101-120-116-101-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword dexter here are all the values plotted: collocate: cornu; scoreSUBST: 3. collocate: ab; scoreSUBST: 0. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-101-120-116-101-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword dexter here are all the values plotted: collocate: cornu; scoreADJ: 0. collocate: ab; scoreADJ: 0. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-101-120-116-101-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword dexter here are all the values plotted: collocate: cornu; scoreVERBO: 0. collocate: ab; scoreVERBO: 0. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-101-120-116-101-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword dexter here are all the values plotted: collocate: cornu; scoreADV: 0. collocate: ab; scoreADV: 0. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-101-120-116-101-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword dexter here are all the values plotted: collocate: cornu; scoreFUNC: 0. collocate: ab; scoreFUNC: 20. collocate: in; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> cum hostium acies a sinistro cornu pulsa atque in fugam coniecta esset a <b>dextro</b> cornu uehementer multitudine suorum nostram aciem premebant <br> <small> Caes.Gal.1.52.6 <br> Como a linha dos inimigos da ala esquerda tinha sido derrotada e posta em fuga, com a ala direita eles apertavam violentamente a nossa linha em virtude do grande número dos seus. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-101-120-116-101-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 2.78 and an absolute frequency of 3. The Ovidius subcorpus follows, with a normalized frequency of 1.72 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 4 ; absolute frequency: 1.51068811843795. subcorpus: Cicero ; normalized frequency: 2 ; absolute frequency: 0.124591961326655. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 2 ; absolute frequency: 0.373266643026446. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-101-120-116-101-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 1.7 and an absolute frequency of 7. The Poesia.didática subcorpus follows, with a normalized frequency of 0.85 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 7 ; absolute frequency: 1.70403369118041. subcorpus: Prosa.filosófica ; normalized frequency: 1 ; absolute frequency: 0.164741931763892. subcorpus: Prosa.oratória ; normalized frequency: 2 ; absolute frequency: 0.192025193705414. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-101-120-116-101-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 0.47 and an absolute frequency of 10. The I.a.C. subcorpus follows, with a normalized frequency of 0.47 and an absolute frequency of 10. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 10 ; absolute frequency: 0.465441005352572. subcorpus: I.d.C. ; normalized frequency: 3 ; absolute frequency: 0.458926112895824. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

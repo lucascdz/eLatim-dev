@@ -1,0 +1,213 @@
+---
+title: "curo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-117-114-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>curāsso</b> <br> <small>= curavèro.</small> <br> <small></small> 
+ <b>cūrō</b> <b>-ás</b> <b>-áre</b> <b>-áví, -átum</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói-se com acus. ou dat., com acus. e gerúndio, com inf., com ut ou ne.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Cuidar, olhar por, tratar, velar &ensp; <small>Cíc. Top. 66; Cés. B. Gal. 1, 13, 1.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Tratar, curar &ensp; <small>Cíc. C. M. 67.</small> <br> <b>3</b> &ensp; <small>I-Na língua administrativa</small> &ensp; govemar, dirigir, administrar &ensp; <small>Tác. An. 4, 36;</small> <br> <b>4</b> &ensp; <small>I-Na língua militar</small> &ensp; comandar, dirigir &ensp; <small>T. Lív. 7, 26, 10; Sal. C. Cat. 51, 3.</small> <br> <b>5</b> &ensp; <small>I-Na língua comercial</small> &ensp; fazer pagar, regularizar &ensp; <small>um pagamento Cíc. Q. Fr. 2, 4, 2.</small> <br> <b>6</b> &ensp; <small>I-Daí</small> &ensp; Fazer por, ter em conta de, ter cuidado de &ensp; <small>Cíc. Ac. 2, 71; Cíc. Faro. 7, 5, 3.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Curo</b> -<b>as</b> -<b>avi</b> -<b>atum</b> -<b>are</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; ter cuidado, pôr diligencia em alguma cousa. <br> <b>2</b> &ensp; curar, applicar remedios. <br> <b>3</b> &ensp; <small>Plin.</small> &ensp; venerar, respeitar, obsequiar, reverencear. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>curare aetatem suam &ensp; <small><small>Plaut</small></small> &ensp; <small>Regalar-se, tratar-se bem</small> <br> curare corpus &ensp; <small><small>Virg</small></small> &ensp; <small>Regalar-se, tratar-se bem</small> <br> curare cutem &ensp; <small><small>Juv</small></small> &ensp; <small>Regalar-se, tratar-se bem</small> <br> curare pelliculam &ensp; <small><small>Hor</small></small> &ensp; <small>Regalar-se, tratar-se bem</small> <br> curare uitem salce &ensp; <small><small>Plin</small></small> &ensp; <small>Podar a parreira</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Curo</b> -<b>as</b>   <p> <b>1</b> &ensp; ter cuidado ou negocear </p> 
+ <b>Curo</b> -<b>as</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/97341 ' target="_blank"> http://lila-erc.eu/data/id/lemma/97341 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small> coero, coiro, coro, couro, quro <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> coero, coiro, coro, couro, curo, quro </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> coerare, coirare, corare, courare, curare, qurare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> coerabit, coirabit, corabit, courabit, curabit, qurabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> coeraui, coiraui, coraui, couraui, curaui, quraui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> coeratum, coiratum, coratum, couratum, curatum, quratum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> coeraturum, coiraturum, coraturum, couraturum, curaturum, quraturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+cūrō 
+ cūrās 
+ cūrāre 
+ cūrāvī 
+ cūrātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-117-114-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-117-114-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword curo here are all the values plotted: collocate: ut; scoreSUBST: 0. collocate: que; scoreSUBST: 0. collocate: ego; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-117-114-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword curo here are all the values plotted: collocate: ut; scoreADJ: 0. collocate: que; scoreADJ: 0. collocate: ego; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-117-114-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword curo here are all the values plotted: collocate: ut; scoreVERBO: 0. collocate: que; scoreVERBO: 0. collocate: ego; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-117-114-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword curo here are all the values plotted: collocate: ut; scoreADV: 0. collocate: que; scoreADV: 0. collocate: ego; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-117-114-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword curo here are all the values plotted: collocate: ut; scoreFUNC: 40. collocate: que; scoreFUNC: 0. collocate: ego; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>cura</b> ut valeas <br> <small> Cic.Att.2.2.3 <br> Cuida para que fiques bem. <small> [JDD] </small> </small> </p>
+; <p> exspectare velis <b>cures</b> ut sciam <br> <small> Cic.Att.1.17.11 <br> Cuides para que eu saiba quando queres que eu te espere. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> etiam ne hic mihi <b>curandus</b> est <br> <small> Cic.Att.5.4.2 <br> até mesmo com este eu tenho de me preocupar? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> id si putas me posse sanari <b>cures</b> velim <br> <small> Cic.Att.3.12.2 <br> Gostaria que cuidasses disso, se achas que eu posso ser salvo. <small> [JDD] </small> </small> </p>
+; <p> qua re Ianuario mense ut constituisti <b>cura</b> ut Romae sis <br> <small> Cic.Att.1.2.2 <br> Por isso, no início de janeiro, cuida para que estejas em Roma, conforme planejaste. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> te multum amamus quod ea abs te diligenter parvoque <b>curata</b> sunt <br> <small> Cic.Att.1.3.2 <br> Te estimo muito por terem sido elas conseguidas por ti com empenho e preço baixo. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-117-114-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 8.99 and an absolute frequency of 4. The Cicero subcorpus follows, with a normalized frequency of 5.3 and an absolute frequency of 85. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 4 ; absolute frequency: 1.51068811843795. subcorpus: Cicero ; normalized frequency: 85 ; absolute frequency: 5.29515835638285. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 10 ; absolute frequency: 1.86633321513223. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-117-114-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 16.43 and an absolute frequency of 62. The Poesia.épica subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 6 ; absolute frequency: 1.46060030672606. subcorpus: Prosa.filosófica ; normalized frequency: 11 ; absolute frequency: 1.81216124940281. subcorpus: Prosa.oratória ; normalized frequency: 21 ; absolute frequency: 2.01626453390685. subcorpus: Prosa.epistolográfica ; normalized frequency: 62 ; absolute frequency: 16.4286282095445. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-117-114-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 8.99 and an absolute frequency of 4. The I.a.C. subcorpus follows, with a normalized frequency of 4.33 and an absolute frequency of 93. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 93 ; absolute frequency: 4.32860134977892. subcorpus: I.d.C. ; normalized frequency: 11 ; absolute frequency: 1.68272908061802. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+:::
+

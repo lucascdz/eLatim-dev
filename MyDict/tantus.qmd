@@ -1,0 +1,213 @@
+---
+title: "tantus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx116-97-110-116-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>tantī</b> <br> <small>adv. gen. n. de tantus, indicando preço.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Tão caro, por preço tão alto &ensp; <small>Cíc. Verr. 3, 194.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Tão importante, de tanto valor &ensp; <small>Cés. B. Gal. 1, 20, 5.</small> </p> 
+ <b>tantus</b> <b>-a</b> <b>-um</b> <br> <small>pron.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Tanto, tão grande, tamanho, tão grande quanto &ensp; <small>em correlação com quantus Cés. B. Gal. 2, 11, 6.</small> <br> <b>2</b> &ensp; <small>II-Sent. moral:</small> &ensp; Tão importante, tão célebre, tal, de tal qualidade &ensp; <small>Cíc. Fam. 13, 66, 1.</small> <br> <b>3</b> &ensp; <small>II-Sent. moral:</small> &ensp; Tão pouco importante, tão pequeno, tão fraco &ensp; <small>Cíc. Pomp. 14.</small> </p> 
+ <small>2.</small> <b>tantum</b> <br> <small>forma n. usada substantivadamente.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Tanto, tão grande quantidade de &ensp; <small>Cíc. C. M. 44.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Tão pouco, tão fraco &ensp; <small>Cés. B. Gal. 6, 35, 9.</small> <br> <b>3</b> &ensp; <small></small> &ensp; Tão somente, não mais &ensp; <small>Cic. Leg. 2, 6.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Tantus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; tanto, taõ grande. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>in tantum &ensp; <small><small>Virg</small></small> &ensp; <small>De tal sorte</small> <br> tantum est &ensp; <small><small>Ter</small></small> &ensp; <small>Tanto, e naõ mais</small> <br> tantus natu &ensp; <small><small>Cic</small></small> &ensp; <small>Taõ velho</small> </p>
+
+
+
+
+#### Velez
+
+<b>Tantus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa tanta, ou taõ grande </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>hoc tanti non est &ensp; <small>isto naõ he de que se faça tanto caso, e estimaçaõ</small> <br> tanti aestimo, & c &ensp; <small>tanto, ou em tanto estimo;</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Tantus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa tanta. ou tã grãde </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/127630 ' target="_blank"> http://lila-erc.eu/data/id/lemma/127630 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> tamtus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx116-97-110-116-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword tantus here are all the values plotted: collocate: multitudo; scoreSUBST: 3. collocate: scelus; scoreSUBST: 3. collocate: facinus; scoreSUBST: 3. collocate: opus; scoreSUBST: 2. collocate: uis; scoreSUBST: 2. collocate: res; scoreSUBST: 2. collocate: in; scoreSUBST: 0. collocate: periculum; scoreSUBST: 2. collocate: bellum; scoreSUBST: 2. collocate: motus; scoreSUBST: 2. collocate: praesertim; scoreSUBST: 0. collocate: ne; scoreSUBST: 0. collocate: quantus; scoreSUBST: 0. collocate: umquam; scoreSUBST: 0. collocate: malum; scoreSUBST: 2. collocate: quod; scoreSUBST: 0. collocate: auctoritas; scoreSUBST: 2. collocate: uirtus; scoreSUBST: 2. collocate: causa; scoreSUBST: 2. collocate: nec; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: negotium; scoreSUBST: 2. collocate: sum; scoreSUBST: 0. collocate: religio; scoreSUBST: 2. collocate: malus; scoreSUBST: 0. collocate: uoluptas; scoreSUBST: 2. collocate: uitium; scoreSUBST: 2. collocate: praesidium; scoreSUBST: 2. collocate: laus; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx116-97-110-116-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword tantus here are all the values plotted: collocate: multitudo; scoreADJ: 0. collocate: scelus; scoreADJ: 0. collocate: facinus; scoreADJ: 0. collocate: opus; scoreADJ: 0. collocate: uis; scoreADJ: 0. collocate: res; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: periculum; scoreADJ: 0. collocate: bellum; scoreADJ: 0. collocate: motus; scoreADJ: 0. collocate: praesertim; scoreADJ: 0. collocate: ne; scoreADJ: 0. collocate: quantus; scoreADJ: 0. collocate: umquam; scoreADJ: 0. collocate: malum; scoreADJ: 0. collocate: quod; scoreADJ: 0. collocate: auctoritas; scoreADJ: 0. collocate: uirtus; scoreADJ: 0. collocate: causa; scoreADJ: 0. collocate: nec; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: negotium; scoreADJ: 0. collocate: sum; scoreADJ: 0. collocate: religio; scoreADJ: 0. collocate: malus; scoreADJ: 2. collocate: uoluptas; scoreADJ: 0. collocate: uitium; scoreADJ: 0. collocate: praesidium; scoreADJ: 0. collocate: laus; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx116-97-110-116-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword tantus here are all the values plotted: collocate: multitudo; scoreVERBO: 0. collocate: scelus; scoreVERBO: 0. collocate: facinus; scoreVERBO: 0. collocate: opus; scoreVERBO: 0. collocate: uis; scoreVERBO: 0. collocate: res; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: periculum; scoreVERBO: 0. collocate: bellum; scoreVERBO: 0. collocate: motus; scoreVERBO: 0. collocate: praesertim; scoreVERBO: 0. collocate: ne; scoreVERBO: 0. collocate: quantus; scoreVERBO: 0. collocate: umquam; scoreVERBO: 0. collocate: malum; scoreVERBO: 0. collocate: quod; scoreVERBO: 0. collocate: auctoritas; scoreVERBO: 0. collocate: uirtus; scoreVERBO: 0. collocate: causa; scoreVERBO: 0. collocate: nec; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: negotium; scoreVERBO: 0. collocate: sum; scoreVERBO: 2. collocate: religio; scoreVERBO: 0. collocate: malus; scoreVERBO: 0. collocate: uoluptas; scoreVERBO: 0. collocate: uitium; scoreVERBO: 0. collocate: praesidium; scoreVERBO: 0. collocate: laus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx116-97-110-116-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword tantus here are all the values plotted: collocate: multitudo; scoreADV: 0. collocate: scelus; scoreADV: 0. collocate: facinus; scoreADV: 0. collocate: opus; scoreADV: 0. collocate: uis; scoreADV: 0. collocate: res; scoreADV: 0. collocate: in; scoreADV: 0. collocate: periculum; scoreADV: 0. collocate: bellum; scoreADV: 0. collocate: motus; scoreADV: 0. collocate: praesertim; scoreADV: 2. collocate: ne; scoreADV: 0. collocate: quantus; scoreADV: 0. collocate: umquam; scoreADV: 2. collocate: malum; scoreADV: 0. collocate: quod; scoreADV: 0. collocate: auctoritas; scoreADV: 0. collocate: uirtus; scoreADV: 0. collocate: causa; scoreADV: 0. collocate: nec; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: negotium; scoreADV: 0. collocate: sum; scoreADV: 0. collocate: religio; scoreADV: 0. collocate: malus; scoreADV: 0. collocate: uoluptas; scoreADV: 0. collocate: uitium; scoreADV: 0. collocate: praesidium; scoreADV: 0. collocate: laus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx116-97-110-116-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword tantus here are all the values plotted: collocate: multitudo; scoreFUNC: 0. collocate: scelus; scoreFUNC: 0. collocate: facinus; scoreFUNC: 0. collocate: opus; scoreFUNC: 0. collocate: uis; scoreFUNC: 0. collocate: res; scoreFUNC: 0. collocate: in; scoreFUNC: 30. collocate: periculum; scoreFUNC: 0. collocate: bellum; scoreFUNC: 0. collocate: motus; scoreFUNC: 0. collocate: praesertim; scoreFUNC: 0. collocate: ne; scoreFUNC: 20. collocate: quantus; scoreFUNC: 0. collocate: umquam; scoreFUNC: 0. collocate: malum; scoreFUNC: 0. collocate: quod; scoreFUNC: 20. collocate: auctoritas; scoreFUNC: 0. collocate: uirtus; scoreFUNC: 0. collocate: causa; scoreFUNC: 0. collocate: nec; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: negotium; scoreFUNC: 0. collocate: sum; scoreFUNC: 0. collocate: religio; scoreFUNC: 0. collocate: malus; scoreFUNC: 0. collocate: uoluptas; scoreFUNC: 0. collocate: uitium; scoreFUNC: 0. collocate: praesidium; scoreFUNC: 0. collocate: laus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> fuit <b>tanti</b> <br> <small> Cic.Att.5.20.6 <br> Valeu muito a pena. <small> [JDD] </small> </small> </p>
+; <p> <b>tantae</b> ne animis caelestibus irae <br> <small> Verg.A.1.11 <br> Tamanhas raivas nos animos celestes? <small> [JDD] </small> </small> </p>
+; <p> <b>tanta</b> mihi μελέτη huius virtutis datur <br> <small> Cic.Att.5.10.3 <br> tamanha prática dessa virtude me é dada. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> sperare poteras sceleribus <b>tantis</b> dari regnum salubre <br> <small> Sen.Oed.35 <br> Evidentemente, como condenado de Febo, podias esperar que, com tão grandes crimes, te fosse dado um reino salutar? <small> [JDD] </small> </small> </p>
+; <p> quis autem umquam <b>tanto</b> damno senatorem coegit <br> <small> Cic.Phil.1.12.12 <br> Por outro lado, quem algum dia obrigou um senador com tanto dano? <small> [JDD] </small> </small> </p>
+; <p> ita illi ianua prohibiti <b>tantum</b> facinus frustra susceperant <br> <small> Sal.Cat.28.3 <br> Assim eles, impedidos na porta, conceberam em vão um tão abominável crime. <small> [JDD] </small> </small> </p>
+; <p> poterat ne <b>tantus</b> animus efficere non iucundam senectutem <br> <small> Cic.Sen.56 <br> Por acaso poderia um espírito tão grande fazer a velhice não prazerosa? <small> [JDD] </small> </small> </p>
+; <p> refugit loqui mens aegra <b>tantis</b> atque inhorrescit malis <br> <small> Sen.Ag.417 <br> Minha mente aflita reluta em falar e se horroriza com tão grandes males. <small> [JDD] </small> </small> </p>
+; <p> nec enim secerni a fratre poterit <b>tanta</b> praesertim auctoritate <br> <small> Cic.Phil.6.10.6 <br> Pois não será possível separá-lo do irmão, especialmente com tão grande autoridade deste. <small> [JDD] </small> </small> </p>
+; <p> cedo qui uestram rem publicam <b>tantam</b> amisistis tam cito <br> <small> Cic.Sen.20 <br> “Diz como perdestes tão depressa vossa república tão poderosa?” <small> [JDD] </small> </small> </p>
+; <p> ita quantum operibus tuis diuturnitas detrahet <b>tantum</b> adferet laudibus <br> <small> Cic.Marc.12 <br> Assim o passar dos anos vai tirar de tuas obras o tanto quanto acrescentará aos teus louvores. <small> [JDD] </small> </small> </p>
+; <p> itaque in <b>tanta</b> rerum iniquitate fortunae quoque euentus uarii sequebantur <br> <small> Caes.Gal.2.22.2 <br> E assim, em meio a tão grande desigualdade de condições, também seguiam os variados acontecimentos da fortuna. <small> [JDD] </small> </small> </p>
+; <p> me tuae litterae numquam in <b>tantam</b> spem adduxerunt quantam aliorum <br> <small> Cic.Att.3.19.2 <br> Tuas cartas nunca me levaram a tanta esperança como a dos outros. <small> [JDD] </small> </small> </p>
+; <p> qui enim periculo carere possumus in <b>tanta</b> hominum cupiditate et audacia <br> <small> Cic.Phil.3.25.4 <br> Pois como podemos estar livre do perigo em meio a tão grande cupidez e audácia dos homens? <small> [JDD] </small> </small> </p>
+; <p> quo enim usque <b>tantum</b> bellum tam crudele tam nefarium priuatis consiliis propulsabitur <br> <small> Cic.Phil.3.3.1 <br> Pois até quando uma tamanha guerra, tão cruel, tão ímpia será combatida com decisões privadas? <small> [JDD] </small> </small> </p>
+; <p> quanta cuiusque animo audacia natura aut moribus inest <b>tanta</b> in bello patere solet <br> <small> Sal.Cat.58.2 <br> Tão grande intrepidez existe no espírito de cada um ou por natureza ou por seus hábito, quão grande ela costuma mostrar-se na guerra. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> hoc iam sic habeto ne c hoc exercitu ne c hic <b>tanta</b> negotia geri potuisse <br> <small> Cic.Att.5.20.1 <br> Considera já isso assim: que não é possível com este exército e aqui levar a cabo tamanhas ações. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ergo ille corporis motu <b>tantum</b> amorem sibi conciliarat a nobis omnibus nos animorum incredibilis motus celeritatemque ingeniorum neglegemus <br> <small> Cic.Arch.17 <br> Ele, portanto, somente com o movimento do corpo tinha conquistado para si o amor de todos nós: nós desprezaremos os incríveis movimentos dos espiritos e a vivacidade dos telentos? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx116-97-110-116-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 24.12 and an absolute frequency of 26. The Cicero subcorpus follows, with a normalized frequency of 23.24 and an absolute frequency of 373. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 54 ; absolute frequency: 20.3942895989123. subcorpus: Cicero ; normalized frequency: 373 ; absolute frequency: 23.2364007874212. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 5 ; absolute frequency: 8.57927247769389. subcorpus: Phaedrus ; normalized frequency: 7 ; absolute frequency: 10.6269925611052. subcorpus: Sallustius ; normalized frequency: 26 ; absolute frequency: 24.116501252203. subcorpus: Seneca ; normalized frequency: 46 ; absolute frequency: 8.58513278960826. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 11 ; absolute frequency: 21.2355212355212. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx116-97-110-116-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 28.61 and an absolute frequency of 298. The Poesia.trágica subcorpus follows, with a normalized frequency of 10.42 and an absolute frequency of 12. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 1.68 and an absolute freqeuncy of 2. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 82 ; absolute frequency: 19.9615375252562. subcorpus: Prosa.filosófica ; normalized frequency: 63 ; absolute frequency: 10.3787417011252. subcorpus: Prosa.oratória ; normalized frequency: 298 ; absolute frequency: 28.6117538621067. subcorpus: Prosa.epistolográfica ; normalized frequency: 46 ; absolute frequency: 12.1889822199846. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 12 ; absolute frequency: 10.1789804054627. subcorpus: Poesia.trágica ; normalized frequency: 12 ; absolute frequency: 10.4239054899236. subcorpus: Poesia.épica ; normalized frequency: 11 ; absolute frequency: 21.2355212355212. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx116-97-110-116-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 21.69 and an absolute frequency of 466. The I.a.C. subcorpus follows, with a normalized frequency of 21.69 and an absolute frequency of 466. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 466 ; absolute frequency: 21.6895508494298. subcorpus: I.d.C. ; normalized frequency: 58 ; absolute frequency: 8.87257151598593. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

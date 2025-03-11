@@ -1,0 +1,205 @@
+---
+title: "ius"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>jūs</b> <b>júris iúris</b> <br> <b>iūs</b> <b>júris iúris</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Títulos que estabelecem o direito, justiça, direito &ensp; <small>Cíc. Tusc. 1. 64.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Direito escrito, leis, legislação: &ensp; <small></small> <br> <b>3</b> &ensp; <small>II-Daí</small> &ensp; Lugar onde se ministra a justiça: &ensp; <small></small> <br> <b>4</b> &ensp; <small>II-Daí</small> &ensp; Direito &ensp; <small>em relação às pessoas ou às coisas:</small> <br> <b>5</b> &ensp; <small>II-Daí</small> &ensp; Direito &ensp; <small>sent. genérico:</small> <br> <b>6</b> &ensp; <small>II-Daí</small> &ensp; Direito sobre alguém ou alguma coisa, poder, autoridade: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>jus civile Cíc. Top. 10 «direito civil»: T. Lív. 23. 10. 2. <br> <br><b>3</b><br>ad praetorem in jus adire Cíc. Verr. 4, 147 “apresentar-se à justiça ao tribunal, diante do pretoi”. <br> <br><b>4</b><br>jus suum recuperare Cíc. Caec. 8 «recuperar os seus direitos». <br> <br><b>5</b><br>jus societatis humanae Cíc. Of. 1. 60 «os direitos da sociedade humana». <br> <br><b>6</b><br>jus patrium T. Lív. I. 26. 9 «autoridade paterna». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Jus</b> -<b>uris</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; direito, justiça, equidade. <br> <b>2</b> &ensp; autoridade, poder. <br> <b>3</b> &ensp; sentença do Juiz. <br> <b>4</b> &ensp; <small>Ter.</small> &ensp; tribunal, juizo. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>facere legiones fui iuris &ensp; <small><small>Vell. Pat</small></small> &ensp; <small>Chamar as legiões ao seu partido</small> <br> iuris sui esse, ac mancipii &ensp; <small><small>Cic</small></small> &ensp; <small>Ser livre e independente, não ser sujeito a outro</small> </p>
+
+
+
+
+#### Velez
+
+<b>Jus</b> -<b>ris</b>   <p> <b>1</b> &ensp; o direito; </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>sui iuris esse &ensp; <small>ser senhor de si</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Ius</b> <b>uris</b>   <p> <b>1</b> &ensp; ho dereyto </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/109252 ' target="_blank"> http://lila-erc.eu/data/id/lemma/109252 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> ious, iuus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+juris consultī 
+ jus jūrandum 
+ jus jūrandī 
+ jūs 
+ jūris
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ius here are all the values plotted: collocate: ciuilis; scoreSUBST: 0. collocate: iuro; scoreSUBST: 0. collocate: libertas; scoreSUBST: 2. collocate: suus; scoreSUBST: 0. collocate: ciuitas; scoreSUBST: 2. collocate: manus; scoreSUBST: 2. collocate: bonus; scoreSUBST: 0. collocate: ex; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ius here are all the values plotted: collocate: ciuilis; scoreADJ: 3. collocate: iuro; scoreADJ: 0. collocate: libertas; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: ciuitas; scoreADJ: 0. collocate: manus; scoreADJ: 0. collocate: bonus; scoreADJ: 2. collocate: ex; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ius here are all the values plotted: collocate: ciuilis; scoreVERBO: 0. collocate: iuro; scoreVERBO: 2. collocate: libertas; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: ciuitas; scoreVERBO: 0. collocate: manus; scoreVERBO: 0. collocate: bonus; scoreVERBO: 0. collocate: ex; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ius here are all the values plotted: collocate: ciuilis; scoreADV: 0. collocate: iuro; scoreADV: 0. collocate: libertas; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: ciuitas; scoreADV: 0. collocate: manus; scoreADV: 0. collocate: bonus; scoreADV: 0. collocate: ex; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ius here are all the values plotted: collocate: ciuilis; scoreFUNC: 0. collocate: iuro; scoreFUNC: 0. collocate: libertas; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: ciuitas; scoreFUNC: 0. collocate: manus; scoreFUNC: 0. collocate: bonus; scoreFUNC: 0. collocate: ex; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> nam Terentius suo <b>iure</b> <br> <small> Cic.Att.4.7.1 <br> Pois Terêncio está em seu direito. <small> [JDD] </small> </small> </p>
+; <p> eum ego ex <b>iure</b> Quiritium meum esse aio <br> <small> Cic.Mur.26 <br> “Eu digo que ela é minha segundo o direito dos quirites”. <small> [JDD] </small> </small> </p>
+; <p> popularis uero tribunus pl. custos defensorque <b>iuris</b> et libertatis <br> <small> Cic.Rab.Perd.12 <br> Mas o tribuno da plebe é homem do povo, guardião e defensor do direito e da liberdade! <small> [JDD] </small> </small> </p>
+; <p> non ex <b>iure</b> manum consertum sed mage ferro inquit rem repetunt <br> <small> Cic.Mur.30 <br> Não saindo na mão conforme o direito, mas mais com a espada, diz ele, reivindicam a propriedade. <small> [JDD] </small> </small> </p>
+; <p> inteream si aut ualeo stare aut noui ciuilia <b>iura</b> et propero quo scis <br> <small> Hor.S.1.9.38 <br> “Que eu morra se tenho força para ficar de pé ou se conheço direito civil; e vou com pressa aonde sabes.” <small> [JDD] </small> </small> </p>
+; <p> et contristatus rex propter <b>ius</b> iurandum et propter simul recumbentes noluit eam contristare <br> <small> Vulg.Marc.6.26 <br> E entristecido, o rei, por causa do juramento e por causa dos que jantavam com ele, não quis entristecê-la. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> idcirco in hanc urbem uenisti ut huius urbis <b>iura</b> et exempla corrumperes domesticaque immanitate nostrae ciuitatis humanitatem inquinares <br> <small> Cic.Deiot.32 <br> Vieste por esse motivo a esta cidade, para corromperes os direitos e os exemplo desta cidade e sujares com tua brutalidade doméstica a humanidade de nossa comunidade? <small> [JDD] </small> </small> </p>
+; <p> est uero fortunatus cuius ex salute non minor paene ad omnis quam ad illum uentura sit laetitia peruenerit quod quidem merito atque optimo <b>iure</b> contigit <br> <small> Cic.Marc.4 <br> É realmente afortunado aquele por cuja salvação chegou a todos uma alegria quase não menor do que a que chegará a ele: o que, na verdade, lhe aconteceu com mérito e com a maior justiça. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 7.99 and an absolute frequency of 9. The Tacitus subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 12 ; absolute frequency: 4.53206435531385. subcorpus: Cicero ; normalized frequency: 113 ; absolute frequency: 7.03944581495602. subcorpus: Horatius ; normalized frequency: 9 ; absolute frequency: 7.99218541870171. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 6 ; absolute frequency: 5.56534644281607. subcorpus: Seneca ; normalized frequency: 18 ; absolute frequency: 3.35939978723801. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 8.16 and an absolute frequency of 85. The Poesia.trágica subcorpus follows, with a normalized frequency of 6.95 and an absolute frequency of 8. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 18 ; absolute frequency: 4.38180092017819. subcorpus: Prosa.filosófica ; normalized frequency: 23 ; absolute frequency: 3.78906443056951. subcorpus: Prosa.oratória ; normalized frequency: 85 ; absolute frequency: 8.1610707324801. subcorpus: Prosa.epistolográfica ; normalized frequency: 15 ; absolute frequency: 3.97466811521238. subcorpus: Poesia.lírica ; normalized frequency: 9 ; absolute frequency: 7.57129637419029. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 8 ; absolute frequency: 6.94927032661571. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 6.7 and an absolute frequency of 144. The I.a.C. subcorpus follows, with a normalized frequency of 6.7 and an absolute frequency of 144. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 144 ; absolute frequency: 6.70235047707703. subcorpus: I.d.C. ; normalized frequency: 21 ; absolute frequency: 3.21248279027077. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

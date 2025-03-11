@@ -1,0 +1,215 @@
+---
+title: "probo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-114-111-98-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>probō</b> <b>-ás</b> <b>-áre</b> <b>-áví, -átum</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói-se com acus, com acus. e dat.: com inf.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Achar bom, apreciar &ensp; <small>Cés. B. Civ, 1, 29, 1; Cés. B. Gal., 4, 21, 7.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Aprovar &ensp; <small>Cés, B. Gal. 7, 67, 1.</small> <br> <b>3</b> &ensp; <small>I-Donde:</small> &ensp; Fazer aprovar, experimentar, ensaiar &ensp; <small>Cíc. Verr. 4, 28; Cíc. Br. 184.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Demonstrar, provar, fazer reconhecer, fazer aceitar &ensp; <small>Cíc. Tusc, 5, 1; Cíc. De Or. 2, 115.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Probo</b> -<b>as</b> -<b>avi</b> -<b>atum</b> -<b>are</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; provar, demonstrar. <br> <b>2</b> &ensp; approvar, louvar. <br> <b>3</b> &ensp; <small>Liv.</small> &ensp; examinar, experimentar. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Probo</b> -<b>as</b>   <p> <b>1</b> &ensp; prouar. ou espermentar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/119564 ' target="_blank"> http://lila-erc.eu/data/id/lemma/119564 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> probo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> probare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> probabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> probaui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> probatum, probitum, prouitum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> probaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+prŏbō 
+ prŏbās 
+ prŏbāre 
+ prŏbāvī 
+ prŏbātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-114-111-98-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-114-111-98-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword probo here are all the values plotted: collocate: consilium; scoreSUBST: 2. collocate: magis; scoreSUBST: 0. collocate: non; scoreSUBST: 0. collocate: possum; scoreSUBST: 0. collocate: res; scoreSUBST: 2. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-114-111-98-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword probo here are all the values plotted: collocate: consilium; scoreADJ: 0. collocate: magis; scoreADJ: 0. collocate: non; scoreADJ: 0. collocate: possum; scoreADJ: 0. collocate: res; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-114-111-98-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword probo here are all the values plotted: collocate: consilium; scoreVERBO: 0. collocate: magis; scoreVERBO: 0. collocate: non; scoreVERBO: 0. collocate: possum; scoreVERBO: 2. collocate: res; scoreVERBO: 0. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-114-111-98-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword probo here are all the values plotted: collocate: consilium; scoreADV: 0. collocate: magis; scoreADV: 2. collocate: non; scoreADV: 2. collocate: possum; scoreADV: 0. collocate: res; scoreADV: 0. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-114-111-98-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword probo here are all the values plotted: collocate: consilium; scoreFUNC: 0. collocate: magis; scoreFUNC: 0. collocate: non; scoreFUNC: 0. collocate: possum; scoreFUNC: 0. collocate: res; scoreFUNC: 0. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> rem enim <b>probo</b> <br> <small> Cic.Att.5.4.3 <br> pois aprovo o assunto. <small> [JDD] </small> </small> </p>
+; <p> non <b>probabunt</b> nisi agnouerint <br> <small> Sen.Ep.29.11 <br> não te aprovarão se não te reconhecerem. <small> [JDD] </small> </small> </p>
+; <p> immo uero nihil magis <b>probandum</b> est <br> <small> Sen.Ep.9.12 <br> Mas, pelo contrário, não há nada mais plausível. <small> [JDD] </small> </small> </p>
+; <p> nunc id <b>probemus</b> quod prius diximus <br> <small> Sen.Ot.5.1 <br> Agora provemos o que dissemos antes. <small> [JDD] </small> </small> </p>
+; <p> Hac re <b>probatur</b> quantum ingenium valet ; <br> <small> Phaed.1.13 <br> [Com este fato é provado o quanto vale o talento. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> non enim dicentur tantum illa sed <b>probabuntur</b> <br> <small> Sen.Ep.20.9 <br> pois aquelas coisas não só serão ditas, mas serão provadas.” <small> [JDD] </small> </small> </p>
+; <p> quae si Bruto non <b>probatur</b> nescio cur illum amemus <br> <small> Cic.Att.5.21.13 <br> Se ela não é considerada boa para Bruto, não sei por que ter-lhe afeição. <small> [JDD] </small> </small> </p>
+; <p> atque hoc quidem omnes mortales et intellegunt et re <b>probant</b> <br> <small> Cic.Amici.24 <br> E, na verdade, todos os mortais entendem isso e aprovam na realidade. <small> [JDD] </small> </small> </p>
+; <p> nam nam igitur pacto <b>probari</b> potest insidias Miloni fecisse Clodium <br> <small> Cic.Mil.32 <br> De que modo, portanto, pode ser provado que Clódio preparou uma emboscada para Milão? <small> [JDD] </small> </small> </p>
+; <p> hoc consilio <b>probato</b> a ducibus productis Romanorum copiis sese castris tenebant <br> <small> Caes.Gal.3.24.4 <br> Aprovada essa resolução pelos chefes, enquanto conduzidas para diante as tropas dos romanos, eles se mantinham em seu acampamento. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-114-111-98-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 5.6 and an absolute frequency of 30. The Cicero subcorpus follows, with a normalized frequency of 5.05 and an absolute frequency of 81. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 7 ; absolute frequency: 2.64370420726641. subcorpus: Cicero ; normalized frequency: 81 ; absolute frequency: 5.04597443372954. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 30 ; absolute frequency: 5.59899964539669. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-114-111-98-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 6.62 and an absolute frequency of 25. The Prosa.filosófica subcorpus follows, with a normalized frequency of 6.59 and an absolute frequency of 40. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 8 ; absolute frequency: 1.94746707563475. subcorpus: Prosa.filosófica ; normalized frequency: 40 ; absolute frequency: 6.58967727055567. subcorpus: Prosa.oratória ; normalized frequency: 46 ; absolute frequency: 4.41657945522453. subcorpus: Prosa.epistolográfica ; normalized frequency: 25 ; absolute frequency: 6.6244468586873. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-114-111-98-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 5.05 and an absolute frequency of 33. The I.a.C. subcorpus follows, with a normalized frequency of 4.28 and an absolute frequency of 92. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 92 ; absolute frequency: 4.28205724924366. subcorpus: I.d.C. ; normalized frequency: 33 ; absolute frequency: 5.04818724185406. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,200 @@
+---
+title: "libido"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx108-105-98-105-100-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>libīdō</b> <b>-ìnis</b> <br> <b>lubīdō</b> <b>-ìnis</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Desejo, vontade &ensp; <small>Cíc. Tusc. 4. 44.</small> <br> <b>2</b> &ensp; <small>II-Daí, em sent. particular</small> &ensp; Desejo sensual, erótico, luxúria, sensualidade &ensp; <small>Cíc. Tusc. 4. 72.</small> <br> <b>3</b> &ensp; <small>II-Daí, em sent. particular</small> &ensp; Devassidão, fantasia, capricho &ensp; <small>Cic. Fin. 1. 19.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Libido</b> -<b>inis</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; inclinação, desejo, vontade, principalmente com desordem. <br> <b>2</b> &ensp; luxuria, lascivia, torpeza, deshonestidade. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>libidinem in aliqua re habere &ensp; <small><small>Sall</small></small> &ensp; <small>Ter desejo de fazer alguma cousa, em boa parte</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Libido</b> <b>inis</b>   <p> <b>1</b> &ensp; a luxuria. ou apetite </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/110407 ' target="_blank"> http://lila-erc.eu/data/id/lemma/110407 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> lubido <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+lĭbīdō 
+ lĭbīdĭnis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx108-105-98-105-100-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx108-105-98-105-100-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword libido here are all the values plotted: collocate: scelus; scoreSUBST: 2. collocate: atque; scoreSUBST: 0. collocate: non; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx108-105-98-105-100-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword libido here are all the values plotted: collocate: scelus; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: non; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx108-105-98-105-100-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword libido here are all the values plotted: collocate: scelus; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: non; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx108-105-98-105-100-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword libido here are all the values plotted: collocate: scelus; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: non; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx108-105-98-105-100-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword libido here are all the values plotted: collocate: scelus; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: non; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quid igitur fuit nisi quaedam temeritas ac <b>libido</b> <br> <small> Cic.Cael.34 <br> O que houve, portanto, senão um certo desatino e libido? <small> [JDD] </small> </small> </p>
+; <p> non sane crebrior tota ciuitate sermo per illos mensis fuerat primum licentia ac <b>libidine</b> talia loquendi dein fessa iam aetate Galbae <br> <small> Tac.Hist.1.12.7 <br> Sem dúvida não tinha havido por aqueles meses em toda a cidade conversa mais frequente, primeiro pela liberdade e pelo prazer de falar tais coisas, depois pela idade já fatigada de Galba. <small> [JDD] </small> </small> </p>
+; <p> quibus ego confido impendere fatum aliquod et poenam iam diu improbitati nequitiae sceleri <b>libidini</b> debitam aut instare iam plane aut certe appropinquare <br> <small> Cic.Catil.2.11.1 <br> Eu confio que algo fatal está pendente sobre eles, e que o castigo, já há muito merecido por sua improbidade, por sua perversidade, por seu crime, por sua luxúria, ou já os ameaça claramente ou certamente está próximo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> in altero pudor grauitas moderatio integritas in illis et cum hos compello praetereo animo ex grege latrocini neminem <b>libidines</b> scelera ad omne facinus immanis audacia <br> <small> Cic.Phil.13.10.3 <br> Em um, a discrição, a seriedade, a moderação, a integridade; naqueles (e quando os ataco, não excluo em meu espírito ninguém dessa corja de bandidos), a luxúria, os crimes, a terrível ousadia para toda e qualquer má ação. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx108-105-98-105-100-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 15.77 and an absolute frequency of 17. The Suetonius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 62 ; absolute frequency: 3.86235080112631. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 17 ; absolute frequency: 15.7684815879789. subcorpus: Seneca ; normalized frequency: 6 ; absolute frequency: 1.11979992907934. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 4 ; absolute frequency: 13.7315482320632. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx108-105-98-105-100-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 5.11 and an absolute frequency of 21. The Prosa.filosófica subcorpus follows, with a normalized frequency of 2.97 and an absolute frequency of 18. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 21 ; absolute frequency: 5.11210107354123. subcorpus: Prosa.filosófica ; normalized frequency: 18 ; absolute frequency: 2.96535477175005. subcorpus: Prosa.oratória ; normalized frequency: 47 ; absolute frequency: 4.51259205207723. subcorpus: Prosa.epistolográfica ; normalized frequency: 3 ; absolute frequency: 0.794933623042476. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx108-105-98-105-100-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 10.47 and an absolute frequency of 4. The I.a.C. subcorpus follows, with a normalized frequency of 3.86 and an absolute frequency of 83. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 83 ; absolute frequency: 3.86316034442634. subcorpus: I.d.C. ; normalized frequency: 6 ; absolute frequency: 0.917852225791647. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

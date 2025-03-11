@@ -1,0 +1,205 @@
+---
+title: "cura"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-117-114-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>cūra</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Cuidado &ensp; <small>Cíc. De Or. 3, 184.</small> <br> <b>2</b> &ensp; <small>I-Daí: na língua administrativa:</small> &ensp; Direção, administração, encargo, incumbência &ensp; <small>Suet. Aug. 36.</small> <br> <b>3</b> &ensp; <small>I-Na língua médica:</small> &ensp; Tratamento cura &ensp; <small>Cels. 2, 10.</small> <br> <b>4</b> &ensp; <small>II-Sents. diversos:</small> &ensp; Objeto ou causa de inquietação, inquietação &ensp; <small>Cíc. At. 12, 6, 4.</small> <br> <b>5</b> &ensp; <small>II-Sents. diversos:</small> &ensp; Inquietação amorosa, objeto amado, amor &ensp; <small>Prop. 3, 21, 3.</small> <br> <b>6</b> &ensp; <small>II-Sents. diversos:</small> &ensp; Obra literária, lívro &ensp; <small>Ov. P. 4, 16, 39.</small> <br> <b>7</b> &ensp; <small>II-Sents. diversos:</small> &ensp; Guarda, guardador, vigia &ensp; <small>Ov. Her. 1, 104.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Cura</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; cuidado, applicação, attenção, diligencia. <br> <b>2</b> &ensp; cargo, administração, incumbencia, emprego. <br> <b>3</b> &ensp; <small>Virg.</small> &ensp; cuidado, molestia, afflicção. <br> <b>4</b> &ensp; cousa, em que se tem cuidado. <br> <b>5</b> &ensp; <small>Ovid.</small> &ensp; o que tem cuidado em alguma cousa. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Cura</b> -<b>ae</b>   <p> <b>1</b> &ensp; ho cuydado </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/97301 ' target="_blank"> http://lila-erc.eu/data/id/lemma/97301 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a-) <br>
+<small> outras grafias: </small> coera, coira, qura <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+cūra 
+ cūrae
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-117-114-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-117-114-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword cura here are all the values plotted: collocate: uigilia; scoreSUBST: 2. collocate: sine; scoreSUBST: 0. collocate: magnus; scoreSUBST: 0. collocate: deus; scoreSUBST: 2. collocate: suus; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-117-114-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword cura here are all the values plotted: collocate: uigilia; scoreADJ: 0. collocate: sine; scoreADJ: 0. collocate: magnus; scoreADJ: 2. collocate: deus; scoreADJ: 0. collocate: suus; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-117-114-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword cura here are all the values plotted: collocate: uigilia; scoreVERBO: 0. collocate: sine; scoreVERBO: 0. collocate: magnus; scoreVERBO: 0. collocate: deus; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: sum; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-117-114-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword cura here are all the values plotted: collocate: uigilia; scoreADV: 0. collocate: sine; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: deus; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-117-114-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword cura here are all the values plotted: collocate: uigilia; scoreFUNC: 0. collocate: sine; scoreFUNC: 20. collocate: magnus; scoreFUNC: 0. collocate: deus; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ergo mei <b>curam</b> ago <br> <small> Sen.Ep.121.17 <br> portanto eu cuido de mim. <small> [JDD] </small> </small> </p>
+; <p> Magna me <b>cura</b> levaris <br> <small> Cic.Att.5.4.3 <br> me terás livrado de uma grande preocupação. <small> [JDD] </small> </small> </p>
+; <p> <b>curam</b> perempti maior excussit timor <br> <small> Sen.Oed.244 <br> Um temor maior afugentou a preocupação com o assassinato. <small> [JDD] </small> </small> </p>
+; <p> hac quidem <b>cura</b> certe iam vacuus sum <br> <small> Cic.Att.2.17.2 <br> Desta preocupação já estou realmente livre. <small> [JDD] </small> </small> </p>
+; <p> remittunt ipsi hanc deo <b>curam</b> externa contemnunt <br> <small> Sen.Prov.6.1 <br> Eles próprios afastam do deus essa preocupação: menosprezam as coisas exteriores. <small> [JDD] </small> </small> </p>
+; <p> de re Piliae quod scribis erit mihi <b>curae</b> <br> <small> Cic.Att.4.16.4 <br> Quanto ao que me escreves a respeito do assunto de Pília, cuidarei disso. <small> [JDD] </small> </small> </p>
+; <p> ita sine <b>cura</b> consules sunt ut paene liberum sit senatori non adesse <br> <small> Cic.Phil.1.12.4 <br> De tal modo são os cônsules sem preocupação com isso, que é quase livre para o senador não estar presente. <small> [JDD] </small> </small> </p>
+; <p> postquam omnium animos alacris uidet cohortatus ut petitionem suam <b>curae</b> haberent conuentum dimisit <br> <small> Sal.Cat.21.5 <br> Depois que vê os ânimos de todos cheios de entusiasmo, exortando-os a que tivessem em conta a sua candidatura, encerrou a reunião. <small> [JDD] </small> </small> </p>
+; <p> languida ingenia et in somnum itura aut in uigiliam somno simillimam inertibus nectuntur elementis ut efficiatur uir cum <b>cura</b> dicendus fortiore fato opus est <br> <small> Sen.Prov.5.9 <br> Os temperamentos sem energia e que se inclinarão para o sono ou para a vigília muito semelhante ao sono são cosidos com elementos inativos; para que se faça um homem de quem se deva falar com respeito, é preciso um tecido mais forte. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-117-114-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 17.16 and an absolute frequency of 5. The Tacitus subcorpus follows, with a normalized frequency of 17.16 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 55 ; absolute frequency: 3.42627893648302. subcorpus: Horatius ; normalized frequency: 8 ; absolute frequency: 7.10416481662375. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 7 ; absolute frequency: 10.6269925611052. subcorpus: Sallustius ; normalized frequency: 5 ; absolute frequency: 4.63778870234672. subcorpus: Seneca ; normalized frequency: 25 ; absolute frequency: 4.66583303783057. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 5 ; absolute frequency: 17.164435290079. subcorpus: Vergilius ; normalized frequency: 8 ; absolute frequency: 15.4440154440154. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-117-114-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 15.44 and an absolute frequency of 8. The Poesia.lírica subcorpus follows, with a normalized frequency of 8.41 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 12 ; absolute frequency: 2.92120061345213. subcorpus: Prosa.filosófica ; normalized frequency: 26 ; absolute frequency: 4.28329022586119. subcorpus: Prosa.oratória ; normalized frequency: 28 ; absolute frequency: 2.6883527118758. subcorpus: Prosa.epistolográfica ; normalized frequency: 19 ; absolute frequency: 5.03457961260235. subcorpus: Poesia.lírica ; normalized frequency: 10 ; absolute frequency: 8.4125515268781. subcorpus: Poesia.didática ; normalized frequency: 9 ; absolute frequency: 7.63423530409704. subcorpus: Poesia.trágica ; normalized frequency: 7 ; absolute frequency: 6.08061153578874. subcorpus: Poesia.épica ; normalized frequency: 8 ; absolute frequency: 15.4440154440154. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-117-114-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 13.09 and an absolute frequency of 5. The I.d.C. subcorpus follows, with a normalized frequency of 5.2 and an absolute frequency of 34. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 80 ; absolute frequency: 3.72352804282057. subcorpus: I.d.C. ; normalized frequency: 34 ; absolute frequency: 5.20116261281934. subcorpus: II.d.C. ; normalized frequency: 5 ; absolute frequency: 13.0890052356021. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

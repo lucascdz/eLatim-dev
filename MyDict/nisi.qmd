@@ -1,0 +1,214 @@
+---
+title: "nisi"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-105-115-105xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>nisi</b> <br> <small>conj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Se não &ensp; <small>Cíc. C. M. 82.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Salvo se, senão, exceto se, somente se &ensp; <small>Cíc. Lae. 18; Cíc. Val. 2; Cíc:Tusc. 5, 41.</small> <br> <b>3</b> &ensp; <small>Construções especiais:</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>3</b><br>a nisi si Cíc. Fam. 13, 2, 1 “exceto se”; b nisi ut Suet. Cl. 35 “a menos que”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Nisi</b> <br> <small>conj.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; senão, excepto. </p>
+
+
+
+
+#### Velez
+
+<b>Nisi</b>   <p> <b>1</b> &ensp; senaõ </p>
+
+
+
+
+#### Cardoso
+
+<b>Nisi</b> <br> <small>conjunctio</small>   <p> <b>1</b> &ensp; senam </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/113704 ' target="_blank"> http://lila-erc.eu/data/id/lemma/113704 </a> <br>
+<small> classe: </small> conjunção subordinativa    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> nesei, nesi, nise, nisei, noisi <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+nĭsĭ
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-105-115-105xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword nisi here are all the values plotted: collocate: fors; scoreSUBST: 0. collocate: uersus; scoreSUBST: 3. collocate: alius; scoreSUBST: 0. collocate: nemo; scoreSUBST: 0. collocate: sapiens; scoreSUBST: 2. collocate: possum; scoreSUBST: 0. collocate: prouideo; scoreSUBST: 0. collocate: prius; scoreSUBST: 0. collocate: quod; scoreSUBST: 0. collocate: nosco; scoreSUBST: 0. collocate: ut; scoreSUBST: 0. collocate: uideo; scoreSUBST: 0. collocate: de; scoreSUBST: 0. collocate: qui; scoreSUBST: 0. collocate: nihil; scoreSUBST: 0. collocate: bonum; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-105-115-105xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword nisi here are all the values plotted: collocate: fors; scoreADJ: 0. collocate: uersus; scoreADJ: 0. collocate: alius; scoreADJ: 0. collocate: nemo; scoreADJ: 0. collocate: sapiens; scoreADJ: 0. collocate: possum; scoreADJ: 0. collocate: prouideo; scoreADJ: 0. collocate: prius; scoreADJ: 0. collocate: quod; scoreADJ: 0. collocate: nosco; scoreADJ: 0. collocate: ut; scoreADJ: 0. collocate: uideo; scoreADJ: 0. collocate: de; scoreADJ: 0. collocate: qui; scoreADJ: 0. collocate: nihil; scoreADJ: 0. collocate: bonum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-105-115-105xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword nisi here are all the values plotted: collocate: fors; scoreVERBO: 0. collocate: uersus; scoreVERBO: 0. collocate: alius; scoreVERBO: 0. collocate: nemo; scoreVERBO: 0. collocate: sapiens; scoreVERBO: 0. collocate: possum; scoreVERBO: 2. collocate: prouideo; scoreVERBO: 2. collocate: prius; scoreVERBO: 0. collocate: quod; scoreVERBO: 0. collocate: nosco; scoreVERBO: 2. collocate: ut; scoreVERBO: 0. collocate: uideo; scoreVERBO: 2. collocate: de; scoreVERBO: 0. collocate: qui; scoreVERBO: 0. collocate: nihil; scoreVERBO: 0. collocate: bonum; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-105-115-105xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword nisi here are all the values plotted: collocate: fors; scoreADV: 4. collocate: uersus; scoreADV: 0. collocate: alius; scoreADV: 0. collocate: nemo; scoreADV: 0. collocate: sapiens; scoreADV: 0. collocate: possum; scoreADV: 0. collocate: prouideo; scoreADV: 0. collocate: prius; scoreADV: 2. collocate: quod; scoreADV: 0. collocate: nosco; scoreADV: 0. collocate: ut; scoreADV: 0. collocate: uideo; scoreADV: 0. collocate: de; scoreADV: 0. collocate: qui; scoreADV: 0. collocate: nihil; scoreADV: 0. collocate: bonum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-105-115-105xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword nisi here are all the values plotted: collocate: fors; scoreFUNC: 0. collocate: uersus; scoreFUNC: 0. collocate: alius; scoreFUNC: 0. collocate: nemo; scoreFUNC: 0. collocate: sapiens; scoreFUNC: 0. collocate: possum; scoreFUNC: 0. collocate: prouideo; scoreFUNC: 0. collocate: prius; scoreFUNC: 0. collocate: quod; scoreFUNC: 20. collocate: nosco; scoreFUNC: 0. collocate: ut; scoreFUNC: 20. collocate: uideo; scoreFUNC: 0. collocate: de; scoreFUNC: 20. collocate: qui; scoreFUNC: 0. collocate: nihil; scoreFUNC: 0. collocate: bonum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> non poterant salua esse <b>nisi</b> uellent <br> <small> Sen.Ep.121.24 <br> Não podiam estar a salvo, se não quisessem isso. <small> [JDD] </small> </small> </p>
+; <p> <b>nisi</b> forte fallor feminas ferrum decet <br> <small> Sen.Ag.960 <br> Se acaso não estou enganada, a espada convém às mulheres. <small> [JDD] </small> </small> </p>
+; <p> delicta nouit nemo <b>nisi</b> fidus mea <br> <small> Sen.Ag.284 <br> Meus delitos ninguém conhece a não ser alguém fiel. <small> [JDD] </small> </small> </p>
+; <p> nihil est bonum <b>nisi</b> quod honestum est <br> <small> Sen.Ep.120.3 <br> Nada é bom, a não ser o que é honesto. <small> [JDD] </small> </small> </p>
+; <p> conciliari <b>nisi</b> turpi ratione amor turpium non potest <br> <small> Sen.Ep.29.11 <br> o amor das pessoas torpes não pode ser conciliado a não ser com procedimento torpe. <small> [JDD] </small> </small> </p>
+; <p> <b>nisi</b> ubi rationi locus est bonum non est <br> <small> Sen.Ep.124.13 <br> O bem não está a não ser onde há lugar para a razão. <small> [JDD] </small> </small> </p>
+; <p> campus Martius restabat <b>nisi</b> prius cum fratre fugisset <br> <small> Cic.Phil.6.14.4 <br> Restava o Campo de Marte, só não porque tinha fugido antes com seu irmão. <small> [JDD] </small> </small> </p>
+; <p> sed <b>nisi</b> fallor citius te quam scribis videbo <br> <small> Cic.Att.4.19.1 <br> Mas, se não me engano, te verei mais logo do que escreves. <small> [JDD] </small> </small> </p>
+; <p> de re publica <b>nisi</b> per concilium loqui non conceditur <br> <small> Caes.Gal.6.20.3 <br> Sobre a república, a não ser através de uma assembléia, não é concedido falar. <small> [JDD] </small> </small> </p>
+; <p> ita bonum in nullo est <b>nisi</b> in quo ratio <br> <small> Sen.Ep.124.20 <br> Assim não existe o bem em ninguém a não ser em quem existe a razão. <small> [JDD] </small> </small> </p>
+; <p> ne id quidem facient negabunt id <b>nisi</b> sapienti posse concedi <br> <small> Cic.Amici.18 <br> Nem mesmo farão isso, dirão que isso não pode ser concedido a não ser ao sábio. <small> [JDD] </small> </small> </p>
+; <p> ortum quidem amicitiae uidetis <b>nisi</b> quid ad haec forte uultis <br> <small> Cic.Amici.32 <br> Vedes, na verdade, o nascimento da amizade, a não ser que por acaso queirais acrescentar algo a essas coisas. <small> [JDD] </small> </small> </p>
+; <p> quod <b>nisi</b> idem in amicitiam transferetur uerus amicus numquam reperietur <br> <small> Cic.Amici.80 <br> Se isso mesmo não for transferido para a amizade, o verdadeiro amigo nunca será encontrado. <small> [JDD] </small> </small> </p>
+; <p> <b>Nisi</b> utile est quod facimus , stulta est gloria . <br> <small> Phaed.3.17 <br> Se o que fazemos não é útil, tola é a glória”. <small> [JDD] </small> </small> </p>
+; <p> nemo ab alio contemnitur <b>nisi</b> a se ante contemptus est <br> <small> Sen.Helv.13.6 <br> Ninguém é menosprezado por outro a não ser que tenha sido menosprezado antes por si mesmo. <small> [JDD] </small> </small> </p>
+; <p> de bove nil superest formae <b>nisi</b> candor in illa . <br> <small> Ov.Met.1.742 <br> Nada da rês permanece nela, a não ser a brancura resplandecente de sua beleza. <small> [JDD] </small> </small> </p>
+; <p> quid egit <b>nisi</b> uti falsam proditionis a se suspicionem depelleret <br> <small> Cic.Phil.12.6.5 <br> O que fez ele senão afastar de si a falsa suspeita de traição? <small> [JDD] </small> </small> </p>
+; <p> quid ergo agunt nunc tot exercitus <b>nisi</b> ut obsidione Brutus liberetur <br> <small> Cic.Phil.10.15.13 <br> O que fazem então agora tantos exércitos, a não ser que Bruto seja libertado do cerco? <small> [JDD] </small> </small> </p>
+; <p> <b>nisi</b> idcirco se facilius hiemem toleraturos putant quod nudi in conuiuiis saltare didicerunt <br> <small> Cic.Catil.2.23.11 <br> A não ser achem que vão aguentar o inverno mais facilmente, porque aprenderam a dançar nus nos banquetes. <small> [JDD] </small> </small> </p>
+; <p> qua re patres conscripti incumbite ad salutem rei publicae circumspicite omnis procellas quae impendent <b>nisi</b> prouidetis <br> <small> Cic.Catil.4.4.1 <br> Por isso, pais conscritos, dedicai-vos à salvação da república, olhai em torno todas as tempestades que ameaçam, se não estais alertas. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>nisi</b> uero quia perfecta res non est non fuit punienda proinde quasi exitus rerum non hominum consilia legibus uindicentur <br> <small> Cic.Mil.19 <br> Só se, na realidade, porque a ação não foi consumada, não teve de ser punida: como se fosse punido pelas leis o resultado das ações, não as intenções dos homens. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-105-115-105xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 15.86 and an absolute frequency of 85. The Cicero subcorpus follows, with a normalized frequency of 14.83 and an absolute frequency of 238. the subcorpus with the least normalized frequency is Vergilius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 15 ; absolute frequency: 5.66508044414231. subcorpus: Cicero ; normalized frequency: 238 ; absolute frequency: 14.826443397872. subcorpus: Horatius ; normalized frequency: 11 ; absolute frequency: 9.76822662285765. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 6 ; absolute frequency: 9.10885076666161. subcorpus: Sallustius ; normalized frequency: 8 ; absolute frequency: 7.42046192375475. subcorpus: Seneca ; normalized frequency: 85 ; absolute frequency: 15.863832328624. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-105-115-105xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 19.11 and an absolute frequency of 116. The Prosa.filosófica subcorpus follows, with a normalized frequency of 19.11 and an absolute frequency of 116. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 25 ; absolute frequency: 6.0858346113586. subcorpus: Prosa.filosófica ; normalized frequency: 116 ; absolute frequency: 19.1100640846115. subcorpus: Prosa.oratória ; normalized frequency: 182 ; absolute frequency: 17.4742926271927. subcorpus: Prosa.epistolográfica ; normalized frequency: 23 ; absolute frequency: 6.09449110999232. subcorpus: Poesia.lírica ; normalized frequency: 11 ; absolute frequency: 9.25380667956591. subcorpus: Poesia.didática ; normalized frequency: 10 ; absolute frequency: 8.48248367121893. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-105-115-105xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 14.53 and an absolute frequency of 95. The I.a.C. subcorpus follows, with a normalized frequency of 12.66 and an absolute frequency of 272. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 5.24 and an absolute freqeuncy of 2. here are all the values: subcorpus: I.a.C. ; normalized frequency: 272 ; absolute frequency: 12.6599953455899. subcorpus: I.d.C. ; normalized frequency: 95 ; absolute frequency: 14.5326602417011. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+:::
+

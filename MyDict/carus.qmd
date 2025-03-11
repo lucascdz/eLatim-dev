@@ -1,0 +1,203 @@
+---
+title: "carus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-97-114-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>cārus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small>Obs.: Comp. carìor Cíc. Div. 2, 593; superl. carissìmus Cíc. Dom. 14.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Querido, caro, estimado &ensp; <small>Cíc. Fam. 1, 7, 1.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Caro, de alto preço, custoso &ensp; <small>Cíc. Div. 2, 593.</small> </p> 
+ <small>2.</small> <b>Cārus</b> <b>-í</b> <br> <small>subs. pr. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Caro. Nome de um poeta da época de Augusto &ensp; <small>Ov. P. 4, 16, 9.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Caro. Sobrenome de Lucrécio. &ensp; <small></small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Carus</b> -<b>a</b> -<b>um</b> -<b>rior</b> -<b>rissimus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; caro, de muito preço. <br> <b>2</b> &ensp; amado, querido. </p>
+
+
+
+
+#### Velez
+
+<b>Carus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa amada, agradavel, ou cara em preço; </p>
+
+
+
+
+#### Cardoso
+
+<b>Carus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa cara </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/92942 ' target="_blank"> http://lila-erc.eu/data/id/lemma/92942 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> karus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+cārus 
+ cāra 
+ cārum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-97-114-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-97-114-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword carus here are all the values plotted: collocate: filius; scoreSUBST: 2. collocate: semper; scoreSUBST: 0. collocate: tam; scoreSUBST: 0. collocate: populus; scoreSUBST: 2. collocate: sum; scoreSUBST: 0. collocate: ego; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-97-114-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword carus here are all the values plotted: collocate: filius; scoreADJ: 0. collocate: semper; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: populus; scoreADJ: 0. collocate: sum; scoreADJ: 0. collocate: ego; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-97-114-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword carus here are all the values plotted: collocate: filius; scoreVERBO: 0. collocate: semper; scoreVERBO: 0. collocate: tam; scoreVERBO: 0. collocate: populus; scoreVERBO: 0. collocate: sum; scoreVERBO: 2. collocate: ego; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-97-114-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword carus here are all the values plotted: collocate: filius; scoreADV: 0. collocate: semper; scoreADV: 2. collocate: tam; scoreADV: 2. collocate: populus; scoreADV: 0. collocate: sum; scoreADV: 0. collocate: ego; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-97-114-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword carus here are all the values plotted: collocate: filius; scoreFUNC: 0. collocate: semper; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: populus; scoreFUNC: 0. collocate: sum; scoreFUNC: 0. collocate: ego; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quam autem ciuitati <b>carus</b> fuerit maerore funeris iudicatum est <br> <small> Cic.Amici.11 <br> E o quão querido foi para a cidade se revelou na tristeza de seu funeral. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quis desiderio sit pudor aut modus tam <b>cari</b> capitis <br> <small> Hor.Carm.1.24.1 <br>   Que pudor ou medida poderia haver para a saudade de ente tão querido? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> et cum uniuerso populo Romano tum uero equestri ordini longe <b>carissimus</b> <br> <small> Cic.Rab.Perd.39 <br> E ele é de longe o mais caro não só a todo o povo romano, mas também à ordem equestre. <small> [JDD] </small> </small> </p>
+; <p> premor luctu desiderio cum omnium rerum tum meorum qui mihi me <b>cariores</b> semper fuerunt <br> <small> Cic.Att.3.22.3 <br> Sou consumido pela tristeza com a falta de todas as coisas que sempre me foram mais queridas do que eu mesmo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nam nam ille modo cum regno cum domo cum coniuge cum <b>carissimo</b> filio distractus esset tanto scelere non modo perfecto sed etiam cogitato <br> <small> Cic.Deiot.15 <br> Como ele teria sido destruído junto com seu reino, com sua casa, com sua esposa, com seu queridíssimo filho por um tão enorme crime não só cometido, mas até mesmo pensado. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-97-114-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 7.72 and an absolute frequency of 4. The Horatius subcorpus follows, with a normalized frequency of 6.22 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 43 ; absolute frequency: 2.67872716852309. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 17 ; absolute frequency: 3.17276646572479. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-97-114-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 7.72 and an absolute frequency of 4. The Poesia.lírica subcorpus follows, with a normalized frequency of 5.89 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 1 ; absolute frequency: 0.243433384454344. subcorpus: Prosa.filosófica ; normalized frequency: 18 ; absolute frequency: 2.96535477175005. subcorpus: Prosa.oratória ; normalized frequency: 29 ; absolute frequency: 2.78436530872851. subcorpus: Prosa.epistolográfica ; normalized frequency: 9 ; absolute frequency: 2.38480086912743. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-97-114-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 2.75 and an absolute frequency of 18. The I.a.C. subcorpus follows, with a normalized frequency of 2.56 and an absolute frequency of 55. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 55 ; absolute frequency: 2.55992552943914. subcorpus: I.d.C. ; normalized frequency: 18 ; absolute frequency: 2.75355667737494. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

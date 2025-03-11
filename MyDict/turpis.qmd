@@ -1,0 +1,200 @@
+---
+title: "turpis"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx116-117-114-112-105-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>turpis</b> <b>-e</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Feio, disforme, horrendo &ensp; <small>sents. físico e moral Hor. Sát. 1, 2, 102.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Desagradável ao ouvido &ensp; <small>Cíc. Or. 158.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Torpe, vergonhoso, desonroso, infame, ignóbil &ensp; <small>Cíc. Fin. 2, 97.</small> <br> <b>4</b> &ensp; <small>Como subs. n.: turpe, -is</small> &ensp; as coisas vergonhosas &ensp; <small>Cíc. Fin. 3, 38; Cíc. Fin. 4, 75.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<small>m. f</small> <b>Turpis</b> <small>n</small> -<b>pe</b> -<b>is</b> -<b>pior</b> <small>Cic</small> -<b>pissimus</b>   <p> <b>1</b> &ensp; <small>Ter.</small> &ensp; torpe, feo. <br> <b>2</b> &ensp; <small>Cic.</small> &ensp; infame, deshonesto, indecoroso. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Turpis</b> -<b>e</b>   <p> <b>1</b> &ensp; cousa fea. ou torpe </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/129288 ' target="_blank"> http://lila-erc.eu/data/id/lemma/129288 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 2ª classe (tema em -i-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx116-117-114-112-105-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword turpis here are all the values plotted: collocate: tam; scoreSUBST: 0. collocate: qua; scoreSUBST: 0. collocate: autem; scoreSUBST: 0. collocate: nec; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx116-117-114-112-105-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword turpis here are all the values plotted: collocate: tam; scoreADJ: 0. collocate: qua; scoreADJ: 0. collocate: autem; scoreADJ: 0. collocate: nec; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx116-117-114-112-105-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword turpis here are all the values plotted: collocate: tam; scoreVERBO: 0. collocate: qua; scoreVERBO: 0. collocate: autem; scoreVERBO: 0. collocate: nec; scoreVERBO: 0. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx116-117-114-112-105-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword turpis here are all the values plotted: collocate: tam; scoreADV: 2. collocate: qua; scoreADV: 2. collocate: autem; scoreADV: 0. collocate: nec; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx116-117-114-112-105-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword turpis here are all the values plotted: collocate: tam; scoreFUNC: 0. collocate: qua; scoreFUNC: 0. collocate: autem; scoreFUNC: 0. collocate: nec; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quid autem <b>turpius</b> quam illudi <br> <small> Cic.Amici.99 <br> Ora, o que é mais vergonhoso do que ser iludido? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ubi <b>turpis</b> est medicina sanari piget <br> <small> Sen.Oed.517 <br> Quando o remédio é vergonhoso, curar-se causa pesar. <small> [JDD] </small> </small> </p>
+; <p> quid est autem <b>turpius</b> quam senex uiuere incipiens <br> <small> Sen.Ep.13.17 <br> O que há, porém, de mais indecente do que um velho começando a viver? <small> [JDD] </small> </small> </p>
+; <p> quia <b>turpis</b> est quia periculosa quia esse non potest <br> <small> Cic.Phil.7.9.2 <br> Porque é vergonhosa, porque é perigosa, porque não pode ser. <small> [JDD] </small> </small> </p>
+; <p> quam <b>turpe</b> porro legiones ad senatum legatos mittere senatum ad Antonium <br> <small> Cic.Phil.7.14.6 <br> Além disso, quão vergonhoso é as legiões enviarem legados ao senado, e o senado a Antônio! <small> [JDD] </small> </small> </p>
+; <p> haec igitur lex in amicitia sanciatur ut neque rogemus res <b>turpes</b> nec faciamus rogati <br> <small> Cic.Amici.40 <br> Que seja, portanto, sancionada na amizade esta lei: que nem solicitemos coisas vergonhosas, nem façamos quando solicitados. <small> [JDD] </small> </small> </p>
+; <p> <b>turpe</b> est summo consilio orbis terrae praesertim in re tam perspicua consilium intellegi defuisse <br> <small> Cic.Phil.7.19.8 <br> É vergonhoso que ao mais elevado conselho do mundo, sobretudo num caso tão patente, se entenda ter faltado a sensatez. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx116-117-114-112-105-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 9.77 and an absolute frequency of 11. The Ovidius subcorpus follows, with a normalized frequency of 1.72 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Sallustius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 4 ; absolute frequency: 1.51068811843795. subcorpus: Cicero ; normalized frequency: 48 ; absolute frequency: 2.99020707183973. subcorpus: Horatius ; normalized frequency: 11 ; absolute frequency: 9.76822662285765. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 6 ; absolute frequency: 9.10885076666161. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 34 ; absolute frequency: 6.34553293144958. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx116-117-114-112-105-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 9.25 and an absolute frequency of 11. The Poesia.didática subcorpus follows, with a normalized frequency of 5.94 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 4 ; absolute frequency: 0.973733537817376. subcorpus: Prosa.filosófica ; normalized frequency: 31 ; absolute frequency: 5.10699988468065. subcorpus: Prosa.oratória ; normalized frequency: 33 ; absolute frequency: 3.16841569613933. subcorpus: Prosa.epistolográfica ; normalized frequency: 9 ; absolute frequency: 2.38480086912743. subcorpus: Poesia.lírica ; normalized frequency: 11 ; absolute frequency: 9.25380667956591. subcorpus: Poesia.didática ; normalized frequency: 7 ; absolute frequency: 5.93773856985325. subcorpus: Poesia.trágica ; normalized frequency: 9 ; absolute frequency: 7.81792911744267. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx116-117-114-112-105-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 6.27 and an absolute frequency of 41. The I.a.C. subcorpus follows, with a normalized frequency of 2.93 and an absolute frequency of 63. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 63 ; absolute frequency: 2.9322783337212. subcorpus: I.d.C. ; normalized frequency: 41 ; absolute frequency: 6.27199020957626. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

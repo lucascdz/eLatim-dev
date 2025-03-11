@@ -1,0 +1,197 @@
+---
+title: "quare"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx113-117-97-114-101xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>quārē</b> <br> <small>conj. e adv. de qua re, propriamente: por que coisa.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Pelo que, por isso, pela qual razão, porque &ensp; <small>Cés. B. Gal. 5, 31, 5; Cíc. Amer. 94; Cíc. Plane. 14.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Por quê? por que razão? &ensp; <small>Cíe. Verr. 2, 44.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Quare</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; por que razaõ? Pela qual razão. <br> <b>2</b> &ensp; paraque. </p>
+
+
+
+
+#### Velez
+
+<b>Quare</b> <br> <small>Adverb.</small>   <p> <b>1</b> &ensp; porque razaõ? </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>quare &ensp; <small><small>Adverb.</small></small> &ensp; <small>porque razaõ?</small> &ensp; <small><small></small></small> <br> quare &ensp; <small><small>Adverb.</small></small> &ensp; <small>porque razaõ?</small> &ensp; <small><small></small></small> </p> 
+ <b>Quare</b> <br> <small>Conj.</small>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>quare &ensp; <small><small>Conj.</small></small> &ensp; <small>peloque</small> &ensp; <small><small></small></small> <br> quare &ensp; <small><small>Conj.</small></small> &ensp; <small>peloque</small> &ensp; <small><small></small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Quare</b> <br> <small>coniũctio.</small>   <p> <b>1</b> &ensp; pola qual rezão. ou porque </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/121343 ' target="_blank"> http://lila-erc.eu/data/id/lemma/121343 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+quārē
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx113-117-97-114-101xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword quare here are all the values plotted: collocate: tamen; scoreSUBST: 0. collocate: autem; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx113-117-97-114-101xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword quare here are all the values plotted: collocate: tamen; scoreADJ: 0. collocate: autem; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx113-117-97-114-101xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword quare here are all the values plotted: collocate: tamen; scoreVERBO: 0. collocate: autem; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx113-117-97-114-101xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword quare here are all the values plotted: collocate: tamen; scoreADV: 2. collocate: autem; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx113-117-97-114-101xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword quare here are all the values plotted: collocate: tamen; scoreFUNC: 0. collocate: autem; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>quare</b> autem petam <br> <small> Sen.Ep.15.11 <br> Por outro lado, por que vou pedir? <small> [JDD] </small> </small> </p>
+; <p> <b>quare</b> autem bonum in arbore animalique muto non est <br> <small> Sen.Ep.124.8 <br> Porém por que o bem não está na árvore ou no animal mudo? <small> [JDD] </small> </small> </p>
+; <p> <b>quare</b> tamen bonis uiris patitur aliquid mali deus fieri <br> <small> Sen.Prov.6.1 <br> “Por que motivo, contudo, o deus consente que algum mal ocorra para os homens bons?” <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx113-117-97-114-101xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 6.72 and an absolute frequency of 36. The Vergilius subcorpus follows, with a normalized frequency of 1.93 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 5 ; absolute frequency: 1.88836014804744. subcorpus: Cicero ; normalized frequency: 37 ; absolute frequency: 2.30495128454312. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 36 ; absolute frequency: 6.71879957447603. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx113-117-97-114-101xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 8.21 and an absolute frequency of 31. The Prosa.filosófica subcorpus follows, with a normalized frequency of 6.42 and an absolute frequency of 39. the subcorpus with the least normalized frequency is Prosa.oratória with the normalized value of 0.19 and an absolute freqeuncy of 2. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 8 ; absolute frequency: 1.94746707563475. subcorpus: Prosa.filosófica ; normalized frequency: 39 ; absolute frequency: 6.42493533879178. subcorpus: Prosa.oratória ; normalized frequency: 2 ; absolute frequency: 0.192025193705414. subcorpus: Prosa.epistolográfica ; normalized frequency: 31 ; absolute frequency: 8.21431410477225. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx113-117-97-114-101xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 5.81 and an absolute frequency of 38. The II.d.C. subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 48 ; absolute frequency: 2.23411682569234. subcorpus: I.d.C. ; normalized frequency: 38 ; absolute frequency: 5.81306409668043. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

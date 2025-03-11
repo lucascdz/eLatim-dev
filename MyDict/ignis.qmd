@@ -1,0 +1,198 @@
+---
+title: "ignis"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-103-110-105-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>ignis</b> <b>-is</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Fogo elemento, chama, incêndio &ensp; <small>sing. e pl. Cés. B. Gal. 2. 7. 4.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Clarão, relâmpago &ensp; <small>Verg. En. 4. 167.</small> <br> <b>3</b> &ensp; <small>I-Donde sent. poético:</small> &ensp; Estrelas. astros &ensp; <small>Hor. O. I. 12. 47.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Fogo &ensp; <small>de uma paixão. da cólera Cíc. Rab. Post. 13.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Esplendor &ensp; <small>Ov. Me!. 4. 81.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Rubor &ensp; <small>das faces Cíc. Tim. 49.</small> <br> <b>7</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Chama de uma paixão. amor &ensp; <small>Verg. En. 4, 2.</small> <br> <b>8</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Objeto da paixão, objeto amado &ensp; <small>Verg. Buc. 3. 66.</small> <br> <b>9</b> &ensp; <small>II-Na língua médica:</small> &ensp; Fogo sagrado, erisipela: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>9</b><br>ignis sacer Verg. G. 3, 566. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Ignis</b> -<b>is</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; fogo. <br> <b>2</b> &ensp; <small>Hor.</small> &ensp; amor, fogo do amor. <br> <b>3</b> &ensp; <small>Virg.</small> &ensp; pessoa amada. <br> <b>4</b> &ensp; resplendor, luz. <br> <b>5</b> &ensp; paixão, desejo vehemente. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>ignis sacer &ensp; <small><small>Plin</small></small> &ensp; <small>Erisypela, doença</small> </p>
+
+
+
+
+#### Velez
+
+<b>Ignis</b> -<b>is</b>   <p> <b>1</b> &ensp; fogo </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>ignis sacer &ensp; <small>erisipéla</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Ignis</b> <b>is</b>   <p> <b>1</b> &ensp; ho fogo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/106156 ' target="_blank"> http://lila-erc.eu/data/id/lemma/106156 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 3ª declinação (tema em -i-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx105-103-110-105-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-103-110-105-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ignis here are all the values plotted: collocate: interdico; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-103-110-105-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ignis here are all the values plotted: collocate: interdico; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-103-110-105-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ignis here are all the values plotted: collocate: interdico; scoreVERBO: 3. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-103-110-105-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ignis here are all the values plotted: collocate: interdico; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-103-110-105-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ignis here are all the values plotted: collocate: interdico; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ferro et <b>igne</b> res geritur <br> <small> Sen.Ep.7.4 <br> A ação se leva a cabo a ferro e fogo. <small> [JDD] </small> </small> </p>
+; <p> et ferrum et <b>ignis</b> saepe medicinae loco est <br> <small> Sen.Ag.152 <br> Tanto o ferro como o fogo muitas vezes estão frequentemente no lugar da medicina. <small> [JDD] </small> </small> </p>
+; <p> quid quod obrogatur legibus Caesaris quae iubent ei qui de ui itemque ei qui maiestatis damnatus sit aqua et <b>igni</b> interdici <br> <small> Cic.Phil.1.23.1 <br> Além do que isso anula as leis de César, que ordenam àquele que foi condenado pelo uso da violência e também àquele que foi condenado por lesa-majestade sejam proibidos da água e do fogo? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-103-110-105-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 13.51 and an absolute frequency of 7. The Horatius subcorpus follows, with a normalized frequency of 13.32 and an absolute frequency of 15. the subcorpus with the least normalized frequency is Sallustius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 8 ; absolute frequency: 3.0213762368759. subcorpus: Cicero ; normalized frequency: 10 ; absolute frequency: 0.622959806633276. subcorpus: Horatius ; normalized frequency: 15 ; absolute frequency: 13.3203090311695. subcorpus: Ovidius ; normalized frequency: 7 ; absolute frequency: 12.0109814687714. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 42 ; absolute frequency: 7.83859950355536. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 7 ; absolute frequency: 13.5135135135135. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-103-110-105-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 20.85 and an absolute frequency of 24. The Poesia.trágica subcorpus follows, with a normalized frequency of 20.85 and an absolute frequency of 24. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 8 ; absolute frequency: 1.94746707563475. subcorpus: Prosa.filosófica ; normalized frequency: 22 ; absolute frequency: 3.62432249880562. subcorpus: Prosa.oratória ; normalized frequency: 6 ; absolute frequency: 0.576075581116242. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 15 ; absolute frequency: 12.6188272903172. subcorpus: Poesia.didática ; normalized frequency: 8 ; absolute frequency: 6.78598693697515. subcorpus: Poesia.trágica ; normalized frequency: 24 ; absolute frequency: 20.8478109798471. subcorpus: Poesia.épica ; normalized frequency: 7 ; absolute frequency: 13.5135135135135. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-103-110-105-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 7.65 and an absolute frequency of 50. The I.a.C. subcorpus follows, with a normalized frequency of 1.86 and an absolute frequency of 40. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 40 ; absolute frequency: 1.86176402141029. subcorpus: I.d.C. ; normalized frequency: 50 ; absolute frequency: 7.64876854826373. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

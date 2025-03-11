@@ -1,0 +1,243 @@
+---
+title: "multus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-117-108-116-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>multus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Abundante, numeroso, em grande quantidade &ensp; <small>CíC. Verr. 5, 119.</small> <br> <b>2</b> &ensp; <small>I-Daí, o n. pl. ,-multa, usado, substantivamente</small> &ensp; Muitas coisas: &ensp; <small></small> <br> <b>3</b> &ensp; <small>I-Masculino tomado substant.:</small> &ensp; Muita gente, muitos, multidão &ensp; <small>Cíc. Br. 333.</small> <br> <b>4</b> &ensp; <small>II-Sent. poético sing.:</small> &ensp; Muitos, numerosos: &ensp; <small></small> <br> <b>5</b> &ensp; <small>III-Sents. diversos:</small> &ensp; Adiantado, que vai alto &ensp; <small>tratando-se do dia, da noite ou da manhã:</small> <br> <b>6</b> &ensp; <small>III-Sents. diversos:</small> &ensp; Que insiste muito em, que se demora muito em, importuno, obstinado &ensp; <small>Sal. B. Jug. 84, 1.</small> <br> <b>7</b> &ensp; <small>III-Sents. diversos:</small> &ensp; Que se encontra em muitos lugares, ativo &ensp; <small>Sal. B. Jug .. 96, 3.</small> <br> <b>8</b> &ensp; <small>III-Sents. diversos:</small> &ensp; Prolixo, abundante em palavras &ensp; <small>Cíc. Of. 2, 56.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>nimium multa Cíc. Fam. 4,14,3 “demasiadas coisas”. <br> <br><b>4</b><br>multa victima Verg. Buc. 1, 34 “numerosas vítimas”. <br> <br><b>5</b><br>multo die Cés. B. Gal. 1, 22, 4 “dia alto” Cés. B. Gal. 1, 26, 3. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Multus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; muito, numeroso, em grande quantidade. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>multus in opere &ensp; <small><small>Sall</small></small> &ensp; <small>Assiduo no trabalho</small> <br> nocte de multa &ensp; <small><small>Cic</small></small> &ensp; <small>Alta noite</small> <br> nocte multa &ensp; <small><small>Cic</small></small> &ensp; <small>Alta noite</small> <br> nomen tuum multum in his locis &ensp; <small><small>Cic</small></small> &ensp; <small>Falla-se muito de ti neste paiz</small> </p>
+
+
+
+
+#### Velez
+
+<b>Multus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa muita, ou mui grande </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>multa nox &ensp; <small>alta noite</small> <br> multus in aliquo, uel ad aliquid &ensp; <small><small>i, continuus</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Multus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa muyta </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/112998 ' target="_blank"> http://lila-erc.eu/data/id/lemma/112998 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-117-108-116-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword multus here are all the values plotted: collocate: qua; scoreSUBST: 0. collocate: tam; scoreSUBST: 0. collocate: de; scoreSUBST: 0. collocate: saepe; scoreSUBST: 0. collocate: annus; scoreSUBST: 2. collocate: enim; scoreSUBST: 0. collocate: praeterea; scoreSUBST: 0. collocate: locus; scoreSUBST: 2. collocate: uerbum; scoreSUBST: 2. collocate: turba; scoreSUBST: 2. collocate: scribo; scoreSUBST: 0. collocate: cum; scoreSUBST: 0. collocate: et; scoreSUBST: 0. collocate: etiam; scoreSUBST: 0. collocate: ita; scoreSUBST: 0. collocate: ciuitas; scoreSUBST: 2. collocate: iam; scoreSUBST: 0. collocate: nox; scoreSUBST: 2. collocate: alius; scoreSUBST: 0. collocate: multo; scoreSUBST: 0. collocate: satis; scoreSUBST: 0. collocate: malum; scoreSUBST: 2. collocate: quia; scoreSUBST: 0. collocate: bonum; scoreSUBST: 2. collocate: prosum; scoreSUBST: 0. collocate: fors; scoreSUBST: 0. collocate: labor; scoreSUBST: 2. collocate: inanis; scoreSUBST: 0. collocate: praetereo; scoreSUBST: 0. collocate: agito; scoreSUBST: 0. collocate: mensis; scoreSUBST: 2. collocate: nimie; scoreSUBST: 0. collocate: quanto; scoreSUBST: 0. collocate: nimis; scoreSUBST: 0. collocate: memini; scoreSUBST: 0. collocate: improbus; scoreSUBST: 0. collocate: cupio; scoreSUBST: 0. collocate: par; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-117-108-116-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword multus here are all the values plotted: collocate: qua; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: de; scoreADJ: 0. collocate: saepe; scoreADJ: 0. collocate: annus; scoreADJ: 0. collocate: enim; scoreADJ: 0. collocate: praeterea; scoreADJ: 0. collocate: locus; scoreADJ: 0. collocate: uerbum; scoreADJ: 0. collocate: turba; scoreADJ: 0. collocate: scribo; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: et; scoreADJ: 0. collocate: etiam; scoreADJ: 0. collocate: ita; scoreADJ: 0. collocate: ciuitas; scoreADJ: 0. collocate: iam; scoreADJ: 0. collocate: nox; scoreADJ: 0. collocate: alius; scoreADJ: 0. collocate: multo; scoreADJ: 0. collocate: satis; scoreADJ: 0. collocate: malum; scoreADJ: 0. collocate: quia; scoreADJ: 0. collocate: bonum; scoreADJ: 0. collocate: prosum; scoreADJ: 0. collocate: fors; scoreADJ: 0. collocate: labor; scoreADJ: 0. collocate: inanis; scoreADJ: 2. collocate: praetereo; scoreADJ: 0. collocate: agito; scoreADJ: 0. collocate: mensis; scoreADJ: 0. collocate: nimie; scoreADJ: 0. collocate: quanto; scoreADJ: 0. collocate: nimis; scoreADJ: 0. collocate: memini; scoreADJ: 0. collocate: improbus; scoreADJ: 2. collocate: cupio; scoreADJ: 0. collocate: par; scoreADJ: 1'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-117-108-116-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword multus here are all the values plotted: collocate: qua; scoreVERBO: 0. collocate: tam; scoreVERBO: 0. collocate: de; scoreVERBO: 0. collocate: saepe; scoreVERBO: 0. collocate: annus; scoreVERBO: 0. collocate: enim; scoreVERBO: 0. collocate: praeterea; scoreVERBO: 0. collocate: locus; scoreVERBO: 0. collocate: uerbum; scoreVERBO: 0. collocate: turba; scoreVERBO: 0. collocate: scribo; scoreVERBO: 2. collocate: cum; scoreVERBO: 0. collocate: et; scoreVERBO: 0. collocate: etiam; scoreVERBO: 0. collocate: ita; scoreVERBO: 0. collocate: ciuitas; scoreVERBO: 0. collocate: iam; scoreVERBO: 0. collocate: nox; scoreVERBO: 0. collocate: alius; scoreVERBO: 0. collocate: multo; scoreVERBO: 0. collocate: satis; scoreVERBO: 0. collocate: malum; scoreVERBO: 0. collocate: quia; scoreVERBO: 0. collocate: bonum; scoreVERBO: 0. collocate: prosum; scoreVERBO: 2. collocate: fors; scoreVERBO: 0. collocate: labor; scoreVERBO: 0. collocate: inanis; scoreVERBO: 0. collocate: praetereo; scoreVERBO: 2. collocate: agito; scoreVERBO: 2. collocate: mensis; scoreVERBO: 0. collocate: nimie; scoreVERBO: 0. collocate: quanto; scoreVERBO: 0. collocate: nimis; scoreVERBO: 0. collocate: memini; scoreVERBO: 2. collocate: improbus; scoreVERBO: 0. collocate: cupio; scoreVERBO: 1. collocate: par; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-117-108-116-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword multus here are all the values plotted: collocate: qua; scoreADV: 4. collocate: tam; scoreADV: 2. collocate: de; scoreADV: 0. collocate: saepe; scoreADV: 2. collocate: annus; scoreADV: 0. collocate: enim; scoreADV: 2. collocate: praeterea; scoreADV: 2. collocate: locus; scoreADV: 0. collocate: uerbum; scoreADV: 0. collocate: turba; scoreADV: 0. collocate: scribo; scoreADV: 0. collocate: cum; scoreADV: 0. collocate: et; scoreADV: 0. collocate: etiam; scoreADV: 1. collocate: ita; scoreADV: 2. collocate: ciuitas; scoreADV: 0. collocate: iam; scoreADV: 1. collocate: nox; scoreADV: 0. collocate: alius; scoreADV: 0. collocate: multo; scoreADV: 2. collocate: satis; scoreADV: 2. collocate: malum; scoreADV: 0. collocate: quia; scoreADV: 0. collocate: bonum; scoreADV: 0. collocate: prosum; scoreADV: 0. collocate: fors; scoreADV: 2. collocate: labor; scoreADV: 0. collocate: inanis; scoreADV: 0. collocate: praetereo; scoreADV: 0. collocate: agito; scoreADV: 0. collocate: mensis; scoreADV: 0. collocate: nimie; scoreADV: 2. collocate: quanto; scoreADV: 2. collocate: nimis; scoreADV: 2. collocate: memini; scoreADV: 0. collocate: improbus; scoreADV: 0. collocate: cupio; scoreADV: 0. collocate: par; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-117-108-116-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword multus here are all the values plotted: collocate: qua; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: de; scoreFUNC: 20. collocate: saepe; scoreFUNC: 0. collocate: annus; scoreFUNC: 0. collocate: enim; scoreFUNC: 0. collocate: praeterea; scoreFUNC: 0. collocate: locus; scoreFUNC: 0. collocate: uerbum; scoreFUNC: 0. collocate: turba; scoreFUNC: 0. collocate: scribo; scoreFUNC: 0. collocate: cum; scoreFUNC: 10. collocate: et; scoreFUNC: 0. collocate: etiam; scoreFUNC: 0. collocate: ita; scoreFUNC: 0. collocate: ciuitas; scoreFUNC: 0. collocate: iam; scoreFUNC: 0. collocate: nox; scoreFUNC: 0. collocate: alius; scoreFUNC: 0. collocate: multo; scoreFUNC: 0. collocate: satis; scoreFUNC: 0. collocate: malum; scoreFUNC: 0. collocate: quia; scoreFUNC: 20. collocate: bonum; scoreFUNC: 0. collocate: prosum; scoreFUNC: 0. collocate: fors; scoreFUNC: 0. collocate: labor; scoreFUNC: 0. collocate: inanis; scoreFUNC: 0. collocate: praetereo; scoreFUNC: 0. collocate: agito; scoreFUNC: 0. collocate: mensis; scoreFUNC: 0. collocate: nimie; scoreFUNC: 0. collocate: quanto; scoreFUNC: 0. collocate: nimis; scoreFUNC: 0. collocate: memini; scoreFUNC: 0. collocate: improbus; scoreFUNC: 0. collocate: cupio; scoreFUNC: 0. collocate: par; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>plura</b> scribere non possum <br> <small> Cic.Att.3.2 <br> Não posso escrever mais. <small> [JDD] </small> </small> </p>
+; <p> satis <b>multa</b> de turpitudine <br> <small> Cic.Phil.7.16.1 <br> [Já disse] suficientemente muitas coisas sobre a vergonha. <small> [JDD] </small> </small> </p>
+; <p> <b>plus</b> accusatori dabatur quam postulabat <br> <small> Cic.Att.1.16.4 <br> ao acusador era concedido mais do que ele pedia. <small> [JDD] </small> </small> </p>
+; <p> sed <b>pluris</b> etiam ipse mittito <br> <small> Cic.Att.1.16.17 <br> mas me manda mais tu também. <small> [JDD] </small> </small> </p>
+; <p> et <b>multa</b> fortasse quae uolt <br> <small> Cic.Sen.25 <br> E talvez muitas coisas que quer! <small> [JDD] </small> </small> </p>
+; <p> qui multum habet <b>plus</b> cupit <br> <small> Sen.Ep.119.6 <br> Quem tem muito, deseja mais. <small> [JDD] </small> </small> </p>
+; <p> Successus improborum <b>plures</b> allicit . <br> <small> Phaed.2.3 <br> O êxito dos maus alicia a muitos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> scis quam <b>multa</b> mala blanda sint <br> <small> Sen.Ep.118.8 <br> Tu sabes quão numerosos males são sedutores. <small> [JDD] </small> </small> </p>
+; <p> quanto <b>plus</b> tenebrarum in animo est <br> <small> Sen.Ep.122.4 <br> quão maiores trevas há em seu espírito! <small> [JDD] </small> </small> </p>
+; <p> <b>multi</b> bona comedunt <b>multi</b> amicas habent <br> <small> Sen.Ep.122.14 <br> Muitos comem seus bens, muitos têm amantes. <small> [JDD] </small> </small> </p>
+; <p> et exiens vidit <b>multam</b> turbam Iesus <br> <small> Vulg.Marc.6.34 <br> E, ao sair, viu Jesus a multidão <small> [JDD] </small> </small> </p>
+; <p> et alia similia his facitis <b>multa</b> <br> <small> Vulg.Marc.7.8 <br> e fazeis muitas outras coisas semelhantes a estas. <small> [JDD] </small> </small> </p>
+; <p> <b>multa</b> sunt sed in aliud tempus <br> <small> Cic.Att.1.17.11 <br> São muitas coisas, mas ficam para uma outra ocasião. <small> [JDD] </small> </small> </p>
+; <p> iam dudum pudet tam <b>multa</b> scribere <br> <small> Cic.Att.3.23.4 <br> Já faz tempo que sinto vergonha de escrever tanto. <small> [JDD] </small> </small> </p>
+; <p> nam etiam malo <b>multi</b> digni sicut ipse <br> <small> Cic.Phil.3.22.2 <br> Pois há também muitos dignos de castigo, como ele próprio. <small> [JDD] </small> </small> </p>
+; <p> quorsum igitur haec tam <b>multa</b> de Maximo <br> <small> Cic.Sen.13 <br> Mas para que falo estas tão numerosas coisas sobre Máximo? <small> [JDD] </small> </small> </p>
+; <p> sed de re publica non libet <b>plura</b> scribere <br> <small> Cic.Att.2.18.3 <br> Mas não tenho mais vontade de escrever sobre a república. <small> [JDD] </small> </small> </p>
+; <p> hoc animadversum Graecorum laude et <b>multo</b> sermone celebratur <br> <small> Cic.Att.5.10.2 <br> Isso foi observado com louvor dos gregos e é comentado em muita conversa. <small> [JDD] </small> </small> </p>
+; <p> accedit eodem etiam noster Hortensius <b>multi</b> praeterea boni <br> <small> Cic.Att.1.14.5 <br> a esse mesmo local aproximou-se também o nosso querido Hortêncio, além de muitos homens de bem. <small> [JDD] </small> </small> </p>
+; <p> quanto autem eis praecipiebat tanto magis <b>plus</b> praedicabant <br> <small> Vulg.Marc.7.36 <br> Porém, quanto mais ele ordenava, tanto mais eles divulgavam. <small> [JDD] </small> </small> </p>
+; <p> <b>multi</b> fuerunt <b>multis</b> in legionibus per tot annos <br> <small> Cic.Phil.6.14.3 <br> Muitos estiveram em muitas legiões por tantos anos. <small> [JDD] </small> </small> </p>
+; <p> ita est Lucili paucos seruitus <b>plures</b> seruitutem tenent <br> <small> Sen.Ep.22.11 <br> Assim é, Lucílio: a servidão retém a poucos, muitos retêm a servidão. <small> [JDD] </small> </small> </p>
+; <p> sunt alii <b>plures</b> fortasse sed mea memoria dilabuntur <br> <small> Cic.Phil.13.11.9 <br> Há outros muitos talvez, mas escapam de minha memória. <small> [JDD] </small> </small> </p>
+; <p> id adeo malum <b>multos</b> post annos in ciuitatem reuorterat <br> <small> Sal.Cat.37.11 <br> De tal modo esse mal, depois de muitos anos, tinha retornado à cidade. <small> [JDD] </small> </small> </p>
+; <p> in oppidis enim summum video timorem sed <b>multa</b> inania <br> <small> Cic.Att.5.3.1 <br> pois vejo nas cidades um enorme temor, mas muitas coisas vagas. <small> [JDD] </small> </small> </p>
+; <p> <b>multos</b> enim eius praeclaros de re publica sermones accipiam <br> <small> Cic.Att.5.6.1 <br> pois ouvirei muitas falas brilhantes dele sobre a república. <small> [JDD] </small> </small> </p>
+; <p> incredibile est autem quam <b>multa</b> et quam praeclara fuerint <br> <small> Cic.Ver.2.4.46.9 <br> Além do mais, é incrível quão numerosos e quão magníficos eram. <small> [JDD] </small> </small> </p>
+; <p> est enim commune cum <b>multis</b> et cum quibusdam bonis <br> <small> Cic.Cael.14 <br> Pois ela é comum a muitos e a alguns bons. <small> [JDD] </small> </small> </p>
+; <p> satis <b>multum</b> temporis sparsimus incipiamus uasa in senectute colligere <br> <small> Sen.Ep.19.1 <br> Desperdiçamos muito tempo demais: começamos a arrumar as bagagens na velhice. <small> [JDD] </small> </small> </p>
+; <p> hos cupit habere quam <b>plurimos</b> non ut beate uiuat <br> <small> Sen.Ep.9.15 <br> deseja tê-los no maior número possível, não para viver feliz. <small> [JDD] </small> </small> </p>
+; <p> de quo tamen audisti <b>multa</b> ex me eaque saepissime <br> <small> Cic.Phil.1.34.3 <br> E dele, no entanto, ouviste de mim muitas coisas e com muita frequência. <small> [JDD] </small> </small> </p>
+; <p> quanto ille <b>plura</b> miscebat tanto hic magis in dies conualescebat <br> <small> Cic.Mil.25 <br> Quanto mais coisas ele [Clódio] agitava, mais este [Milão] se fortalecia a cada dia. <small> [JDD] </small> </small> </p>
+; <p> aliud vero cecidit super petrosa ubi non habuit terram <b>multam</b> <br> <small> Vulg.Marc.4.5 <br> Outra parte, porém, caiu sobre o solo rochoso, onde não tinha muita terra. <small> [JDD] </small> </small> </p>
+; <p> <b>plures</b> fefellit error ancipitis uiae paucos fidelis curribus iunxit labor <br> <small> Sen.Oed.778 <br> A muitos a confusão da estrada trifurcada enganou, o zelo fiel manteve poucos unidos à carruagem. <small> [JDD] </small> </small> </p>
+; <p> quam <b>multis</b> istum putatis hominibus honestis de digitis anulos abstulisse <br> <small> Cic.Ver.2.4.57.11 <br> De quantos homens honrados julgais que esse sujeito tirou dos dedos os anéis? <small> [JDD] </small> </small> </p>
+; <p> et cum iam hora <b>multa</b> fieret accesserunt discipuli eius dicentes <br> <small> Vulg.Marc.6.35 <br> E como já tinham transcorrido muitas horas, seus discípulos se aproximaram, dizendo. <small> [JDD] </small> </small> </p>
+; <p> nimium <b>multa</b> de re minime dubia loquor hoc tamen dico <br> <small> Cic.Cael.15 <br> Falo demasiadamente muitas coisas sobre um assunto nem um pouco duvidoso; contudo, isto eu digo. <small> [JDD] </small> </small> </p>
+; <p> et talibus <b>multis</b> parabolis loquebatur eis verbum prout poterant audire <br> <small> Vulg.Marc.4.33 <br> E com essas muitas parábolas, falava-lhes a palavra até o ponto em que podiam ouvir. <small> [JDD] </small> </small> </p>
+; <p> quam <b>multa</b> autem paramus quia alii parauerunt quia aput plerosque sunt <br> <small> Sen.Ep.123.6 <br> Por outro lado, quão numerosas coisas nós adquirimos porque outros adquiriram, porque há na casa da maioria! <small> [JDD] </small> </small> </p>
+; <p> uirtute enim ipsa non tam <b>multi</b> praediti esse quam uideri uolunt <br> <small> Cic.Amici.98 <br> Pois muitos querem não tanto estar dotados da própria virtude quanto parecê-lo. <small> [JDD] </small> </small> </p>
+; <p> at dixi fluere hunc lutulentum saepe ferentem <b>plura</b> quidem tollenda relinquendis <br> <small> Hor.S.1.10.50 <br> Mas eu disse que ele flui como um rio lamacento, levando, na verdade, frequentemente mais coisas que devem ser tiradas do que deixadas. <small> [JDD] </small> </small> </p>
+; <p> o magnum hominem et unde multo <b>plura</b> didiceris quam de Procilio <br> <small> Cic.Att.2.2.2 <br> Grande homem, e de onde aprendes muito mais do que de Procílio. <small> [JDD] </small> </small> </p>
+; <p> itaque sub quisque horum loco sententiam rogatus <b>multa</b> secundum causam nostram disputavit <br> <small> Cic.Att.4.2.4 <br> E assim, cada um deles, solicitados em sua vez a dar o parecer, fez muitas alegações favoráveis à minha causa. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> sed iam satis <b>multa</b> de causa extra causam etiam nimis fortasse <b>multa</b> <br> <small> Cic.Mil.92 <br> Mas já foram ditas suficientemente muitas coisas acerca da causa e talvez fora da causa até numerosas demais. <small> [JDD] </small> </small> </p>
+; <p> itaque non aqua non igni ut aiunt locis <b>pluribus</b> utimur quam amicitia <br> <small> Cic.Amici.22 <br> e assim nem da água, nem do fogo, como dizem, nós nos servimos em mais lugares do que da amizade. <small> [JDD] </small> </small> </p>
+; <p> <b>multa</b> praetereo eaque praeclara ad singulare enim M. Antoni factum festinat oratio <br> <small> Cic.Phil.1.3.5 <br> Omito muitas outras coisas, todas elas bem conhecidas; pois meu discurso se apressa para um feito de Marco Antônio de singular importância. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quid iurisconsulti quid pontifices quid augures quid philosophi senes quam <b>multa</b> meminerunt <br> <small> Cic.Sen.22 <br> E os jurisconsulto, e os pontífices, e os áugures, e os filósofos, sendo velhos, de quão numerosas coisas se lembram! <small> [JDD, de outra edição] </small> </small> </p>
+; <p> magna laus et grata hominibus unum hominem elaborare in ea scientia quae sit <b>multis</b> profutura <br> <small> Cic.Mur.19 <br> Grande mérito e grato aos homens que um único homem trabalhe nesse conhecimento que será útil para muitos. <small> [JDD] </small> </small> </p>
+; <p> nec in hoc te accerso tantum ut proficias sed ut prosis <b>plurimum</b> enim alter alteri conferemus <br> <small> Sen.Ep.6.6 <br> E neste caso não te chamo apenas para que aproveites, mas para que possas ser útil; pois muitos préstimos concederemos um para o outro. <small> [JDD] </small> </small> </p>
+; <p> itinere confectus incommodo magis quam longo in Albanum meum <b>multa</b> nocte perueni nihil habeo parati nisi me <br> <small> Sen.Ep.123.1 <br> Esgotado por uma viagem mais desconfortável que longa, cheguei tarde da noite em minha chácara de Alba: não tenho nada preparado a não ser a mim mesmo. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-117-108-116-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 65.15 and an absolute frequency of 29. The Horatius subcorpus follows, with a normalized frequency of 42.62 and an absolute frequency of 48. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 6.86 and an absolute freqeuncy of 4. here are all the values: subcorpus: Caesar ; normalized frequency: 58 ; absolute frequency: 21.9049777173503. subcorpus: Cicero ; normalized frequency: 529 ; absolute frequency: 32.9545737709003. subcorpus: Horatius ; normalized frequency: 48 ; absolute frequency: 42.6249888997425. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 16 ; absolute frequency: 24.2902687110976. subcorpus: Sallustius ; normalized frequency: 45 ; absolute frequency: 41.7400983211205. subcorpus: Seneca ; normalized frequency: 185 ; absolute frequency: 34.5271644799463. subcorpus: Suetonius ; normalized frequency: 2 ; absolute frequency: 22.0507166482911. subcorpus: Tacitus ; normalized frequency: 11 ; absolute frequency: 37.7617576381737. subcorpus: Vergilius ; normalized frequency: 14 ; absolute frequency: 27.027027027027. subcorpus: Hieronymus ; normalized frequency: 29 ; absolute frequency: 65.1538980004493'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-117-108-116-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 65.15 and an absolute frequency of 29. The Prosa.filosófica subcorpus follows, with a normalized frequency of 43 and an absolute frequency of 261. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 7.82 and an absolute freqeuncy of 9. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 116 ; absolute frequency: 28.2382725967039. subcorpus: Prosa.filosófica ; normalized frequency: 261 ; absolute frequency: 42.9976441903758. subcorpus: Prosa.oratória ; normalized frequency: 336 ; absolute frequency: 32.2602325425096. subcorpus: Prosa.epistolográfica ; normalized frequency: 108 ; absolute frequency: 28.6176104295291. subcorpus: Poesia.lírica ; normalized frequency: 48 ; absolute frequency: 40.3802473290149. subcorpus: Poesia.didática ; normalized frequency: 20 ; absolute frequency: 16.9649673424379. subcorpus: Poesia.trágica ; normalized frequency: 9 ; absolute frequency: 7.81792911744267. subcorpus: Poesia.épica ; normalized frequency: 14 ; absolute frequency: 27.027027027027. subcorpus: Prosa.ficcional ; normalized frequency: 29 ; absolute frequency: 65.1538980004493'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-117-108-116-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 65.15 and an absolute frequency of 29. The II.d.C. subcorpus follows, with a normalized frequency of 34.03 and an absolute frequency of 13. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 31.36 and an absolute freqeuncy of 205. here are all the values: subcorpus: I.a.C. ; normalized frequency: 694 ; absolute frequency: 32.3016057714685. subcorpus: I.d.C. ; normalized frequency: 205 ; absolute frequency: 31.3599510478813. subcorpus: II.d.C. ; normalized frequency: 13 ; absolute frequency: 34.0314136125654. subcorpus: IV.d.C. ; normalized frequency: 29 ; absolute frequency: 65.1538980004493'}
+
+
+:::
+

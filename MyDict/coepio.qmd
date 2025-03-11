@@ -1,0 +1,206 @@
+---
+title: "coepio"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-111-101-112-105-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>coepĭō</b> <b>-ís</b> <br> <small>v. arc. tr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Começar &ensp; <small>Plaut. Men. 960.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Coepio</b> -<b>is</b> -<b>pi</b> -<b>ptum</b> -<b>ire</b>   <p> <b>1</b> &ensp; <small>Plaut.</small> &ensp; começar. </p>
+
+
+
+
+#### Velez
+
+<b>Coepi</b> <small>et c.</small> -<b>isti</b>   <p> <b>1</b> &ensp; começar </p>
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/94695 ' target="_blank"> http://lila-erc.eu/data/id/lemma/94695 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 5ª conjugação (tema em -ĭ- breve) <br>
+<small> outras grafias: </small> coipio <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> coepio, coipio </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> coepere, coipere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> coepiet, coipiet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> coepiui, coepi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> coeptum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> coepturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+coepĭō 
+ coepĕre 
+ coepī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-111-101-112-105-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-111-101-112-105-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword coepio here are all the values plotted: collocate: peto; scoreSUBST: 0. collocate: ago; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-111-101-112-105-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword coepio here are all the values plotted: collocate: peto; scoreADJ: 0. collocate: ago; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-111-101-112-105-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword coepio here are all the values plotted: collocate: peto; scoreVERBO: 2. collocate: ago; scoreVERBO: 2. collocate: sum; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-111-101-112-105-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword coepio here are all the values plotted: collocate: peto; scoreADV: 0. collocate: ago; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-111-101-112-105-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword coepio here are all the values plotted: collocate: peto; scoreFUNC: 0. collocate: ago; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> multa quam superuacua essent non intelleximus nisi deesse <b>coeperunt</b> <br> <small> Sen.Ep.123.6 <br> Não entendemos quão supérfluas eram muitas coisas, a não ser quando começaram a faltar. <small> [JDD] </small> </small> </p>
+; <p> quorum pars aperto latere legiones circumuenire pars summum castrorum locum petere <b>coepit</b> <br> <small> Caes.Gal.2.23.5 <br> destes uma parte começou a cercar as legiões pelo flanco aberto, outra parte, a buscar o local mais alto do acampamento. <small> [JDD] </small> </small> </p>
+; <p> Tum gaudens ferus Bubus quietis agere <b>coepit</b> gratias , Hospitium adverso quod praestiterint tempore . <br> <small> Phaed.2.8 <br> Então o animal, alegrando-se, começou a agradecer os bois silenciosos, por terem prestado hospitalidade num momento adverso. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-111-101-112-105-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 25.81 and an absolute frequency of 17. The Caesar subcorpus follows, with a normalized frequency of 12.46 and an absolute frequency of 33. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 33 ; absolute frequency: 12.4631769771131. subcorpus: Cicero ; normalized frequency: 40 ; absolute frequency: 2.4918392265331. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 17 ; absolute frequency: 25.8084105055412. subcorpus: Sallustius ; normalized frequency: 11 ; absolute frequency: 10.2031351451628. subcorpus: Seneca ; normalized frequency: 24 ; absolute frequency: 4.47919971631735. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-111-101-112-105-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.didática subcorpus registers the highest normalized frequency, with the value of 17.81 and an absolute frequency of 21. The Prosa.histórica subcorpus follows, with a normalized frequency of 10.95 and an absolute frequency of 45. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 45 ; absolute frequency: 10.9545023004455. subcorpus: Prosa.filosófica ; normalized frequency: 31 ; absolute frequency: 5.10699988468065. subcorpus: Prosa.oratória ; normalized frequency: 32 ; absolute frequency: 3.07240309928663. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 21 ; absolute frequency: 17.8132157095598. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-111-101-112-105-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 6.88 and an absolute frequency of 45. The I.a.C. subcorpus follows, with a normalized frequency of 4.14 and an absolute frequency of 89. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 89 ; absolute frequency: 4.14242494763789. subcorpus: I.d.C. ; normalized frequency: 45 ; absolute frequency: 6.88389169343736. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

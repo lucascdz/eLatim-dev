@@ -1,0 +1,254 @@
+---
+title: "quis"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx113-117-105-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>cuī</b> <br> <small>dat. de qui e de quis.</small> <br> <small></small> 
+ <b>cūius</b> <br> <small>gen. de qui e quis.</small> <br> <small></small> 
+ <b>quae</b> <br> <small></small> <br> <small>v. qui, quis.</small> 
+ <b>quis</b> <b>quae qua, quid quod</b> <br> <small>pron. interr. ou indef.</small> <br> <small>Obs.: 1 A forma fem. quae é própria do relat. e emprega-se com significação interrogativa e raramente indefinida. 2 A forma fem. qua só ocorre com significação indefinida.</small>   <p> <b>1</b> &ensp; <small>I-Interr.-Subs.:</small> &ensp; Quem? qual? que pessoa? que coisa? que?: &ensp; <small></small> <br> <b>2</b> &ensp; <small>I-Interr.-Adj.:</small> &ensp; Qual? de que espécie? de que qualidade? como?: &ensp; <small></small> <br> <b>3</b> &ensp; <small>II-Indef.:</small> &ensp; Algum, alguma, alguém, alguma coisa &ensp; <small>Cíc. Par. 44.</small> <br> <b>4</b> &ensp; <small>II-Indef.:</small> &ensp; Algum, alguma, alguém. alguma coisa &ensp; <small>depois de si, nisi, ne, num, cum, etc.:</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>quis clarior in Graecia Themistocle? Cíc. Lae. 42 'quem foi mais ilustre na Grecia do que Temístocles?’. <br> <br><b>2</b><br>quis senator. ..? Cíc. Cat. 2, 12 “qual o senador ...?”. <br> <br><b>4</b><br>num quis...? Cíc. Nat. 3, 87 “acaso alguém...?”. </p> 
+ <b>quōius</b> <br> <small>= cuius, gen. de qui, quae, quod, ou de quis, quae qua, quid quod.</small> <br> <small></small> 
+ <small>1.</small> <b>qua</b> <br> <small></small> <br> <small>v. quis.</small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Quae</b> <small>& c.</small> <b>quaecumque</b> <br> <small>v. Quis, quicumque, & c.</small> 
+ <b>Quis</b> <b>quae</b> <b>quod</b> <b>quid</b> <small>l</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; quem? qual? algum? <br> <b>1</b> &ensp; <small>Cic.</small> &ensp; quem? qual? algum? </p> 
+ <small>Plaut. dat., e ablat. de Quis</small> <b>Queis</b>
+
+
+
+
+#### Velez
+
+<b>Quis</b>   <p> <b>1</b> &ensp; quem, ou alguem <br> <b>1</b> &ensp; quem, ou alguem </p> 
+ <small>et c.</small> <b>Quisque</b>   <p> <b>1</b> &ensp; todo, qualquer, ou cada hum &ensp; <small>semper postponitur Numeralibus, sicut & Superlativis, | & etiam Partitivis</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>altero quoque anno &ensp; <small>de dous em dous annos</small> <br> decimus quisque militum &ensp; <small>hum de dez soldados</small> <br> maximus quisque &ensp; <small>todo o homem grande</small> <br> optima quaeque &ensp; <small>todas as cousas boas;</small> <br> primo quoque tempore &ensp; <small>no primeiro tempo, que se offerecer</small> <br> quinto quoque anno fiebat lustrum &ensp; <small>todos os cinco annos se fazia, etc</small> </p>
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/121165 ' target="_blank"> http://lila-erc.eu/data/id/lemma/121165 </a> <br>
+<small> classe: </small> pronome    <br>
+<small> paradigma: </small> pronominal <br>
+<small> outras grafias: </small> quisque <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+quĭs 
+ quĭd 
+ quŏd 
+ quisquĕ
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx113-117-105-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword quis here are all the values plotted: collocate: si; scoreSUBST: 0. collocate: enim; scoreSUBST: 0. collocate: ne; scoreSUBST: 0. collocate: sum; scoreSUBST: 0. collocate: quaero; scoreSUBST: 0. collocate: ago; scoreSUBST: 0. collocate: ergo; scoreSUBST: 0. collocate: nescio; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: tu; scoreSUBST: 0. collocate: tandem; scoreSUBST: 0. collocate: autem; scoreSUBST: 0. collocate: de; scoreSUBST: 0. collocate: dico; scoreSUBST: 0. collocate: possum; scoreSUBST: 0. collocate: facio; scoreSUBST: 0. collocate: sed; scoreSUBST: 0. collocate: scio; scoreSUBST: 0. collocate: uideo; scoreSUBST: 0. collocate: uolo; scoreSUBST: 0. collocate: igitur; scoreSUBST: 0. collocate: num; scoreSUBST: 0. collocate: nam; scoreSUBST: 0. collocate: uero; scoreSUBST: 0. collocate: tam; scoreSUBST: 0. collocate: uos; scoreSUBST: 0. collocate: at; scoreSUBST: 0. collocate: fio; scoreSUBST: 0. collocate: modus; scoreSUBST: 2. collocate: intersum; scoreSUBST: 0. collocate: pactum; scoreSUBST: 3. collocate: porro; scoreSUBST: 0. collocate: mirus; scoreSUBST: 0. collocate: quamquam2; scoreSUBST: 0. collocate: opusculum; scoreSUBST: 2. collocate: dubito; scoreSUBST: 0. collocate: umquam; scoreSUBST: 0. collocate: exspecto; scoreSUBST: 0. collocate: refert; scoreSUBST: 0. collocate: for; scoreSUBST: 0. collocate: memoro; scoreSUBST: 0. collocate: considero; scoreSUBST: 0. collocate: tametsi; scoreSUBST: 0. collocate: ignoro; scoreSUBST: 0. collocate: proficio; scoreSUBST: 0. collocate: iuuo; scoreSUBST: 0. collocate: celeritas; scoreSUBST: 2. collocate: quaeso; scoreSUBST: 0. collocate: etenim; scoreSUBST: 0. collocate: requiro; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx113-117-105-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword quis here are all the values plotted: collocate: si; scoreADJ: 0. collocate: enim; scoreADJ: 0. collocate: ne; scoreADJ: 0. collocate: sum; scoreADJ: 0. collocate: quaero; scoreADJ: 0. collocate: ago; scoreADJ: 0. collocate: ergo; scoreADJ: 0. collocate: nescio; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: tu; scoreADJ: 0. collocate: tandem; scoreADJ: 0. collocate: autem; scoreADJ: 0. collocate: de; scoreADJ: 0. collocate: dico; scoreADJ: 0. collocate: possum; scoreADJ: 0. collocate: facio; scoreADJ: 0. collocate: sed; scoreADJ: 0. collocate: scio; scoreADJ: 0. collocate: uideo; scoreADJ: 0. collocate: uolo; scoreADJ: 0. collocate: igitur; scoreADJ: 0. collocate: num; scoreADJ: 0. collocate: nam; scoreADJ: 0. collocate: uero; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: uos; scoreADJ: 0. collocate: at; scoreADJ: 0. collocate: fio; scoreADJ: 0. collocate: modus; scoreADJ: 0. collocate: intersum; scoreADJ: 0. collocate: pactum; scoreADJ: 0. collocate: porro; scoreADJ: 0. collocate: mirus; scoreADJ: 2. collocate: quamquam2; scoreADJ: 0. collocate: opusculum; scoreADJ: 0. collocate: dubito; scoreADJ: 0. collocate: umquam; scoreADJ: 0. collocate: exspecto; scoreADJ: 0. collocate: refert; scoreADJ: 0. collocate: for; scoreADJ: 0. collocate: memoro; scoreADJ: 0. collocate: considero; scoreADJ: 0. collocate: tametsi; scoreADJ: 0. collocate: ignoro; scoreADJ: 0. collocate: proficio; scoreADJ: 0. collocate: iuuo; scoreADJ: 0. collocate: celeritas; scoreADJ: 0. collocate: quaeso; scoreADJ: 0. collocate: etenim; scoreADJ: 0. collocate: requiro; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx113-117-105-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword quis here are all the values plotted: collocate: si; scoreVERBO: 0. collocate: enim; scoreVERBO: 0. collocate: ne; scoreVERBO: 0. collocate: sum; scoreVERBO: 4. collocate: quaero; scoreVERBO: 4. collocate: ago; scoreVERBO: 4. collocate: ergo; scoreVERBO: 0. collocate: nescio; scoreVERBO: 4. collocate: ego; scoreVERBO: 0. collocate: tu; scoreVERBO: 0. collocate: tandem; scoreVERBO: 0. collocate: autem; scoreVERBO: 0. collocate: de; scoreVERBO: 0. collocate: dico; scoreVERBO: 2. collocate: possum; scoreVERBO: 2. collocate: facio; scoreVERBO: 2. collocate: sed; scoreVERBO: 0. collocate: scio; scoreVERBO: 2. collocate: uideo; scoreVERBO: 2. collocate: uolo; scoreVERBO: 2. collocate: igitur; scoreVERBO: 0. collocate: num; scoreVERBO: 0. collocate: nam; scoreVERBO: 0. collocate: uero; scoreVERBO: 0. collocate: tam; scoreVERBO: 0. collocate: uos; scoreVERBO: 0. collocate: at; scoreVERBO: 0. collocate: fio; scoreVERBO: 2. collocate: modus; scoreVERBO: 0. collocate: intersum; scoreVERBO: 2. collocate: pactum; scoreVERBO: 0. collocate: porro; scoreVERBO: 0. collocate: mirus; scoreVERBO: 0. collocate: quamquam2; scoreVERBO: 0. collocate: opusculum; scoreVERBO: 0. collocate: dubito; scoreVERBO: 2. collocate: umquam; scoreVERBO: 0. collocate: exspecto; scoreVERBO: 2. collocate: refert; scoreVERBO: 2. collocate: for; scoreVERBO: 2. collocate: memoro; scoreVERBO: 2. collocate: considero; scoreVERBO: 2. collocate: tametsi; scoreVERBO: 0. collocate: ignoro; scoreVERBO: 2. collocate: proficio; scoreVERBO: 2. collocate: iuuo; scoreVERBO: 2. collocate: celeritas; scoreVERBO: 0. collocate: quaeso; scoreVERBO: 2. collocate: etenim; scoreVERBO: 0. collocate: requiro; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx113-117-105-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword quis here are all the values plotted: collocate: si; scoreADV: 0. collocate: enim; scoreADV: 5. collocate: ne; scoreADV: 0. collocate: sum; scoreADV: 0. collocate: quaero; scoreADV: 0. collocate: ago; scoreADV: 0. collocate: ergo; scoreADV: 0. collocate: nescio; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: tu; scoreADV: 0. collocate: tandem; scoreADV: 4. collocate: autem; scoreADV: 0. collocate: de; scoreADV: 0. collocate: dico; scoreADV: 0. collocate: possum; scoreADV: 0. collocate: facio; scoreADV: 0. collocate: sed; scoreADV: 0. collocate: scio; scoreADV: 0. collocate: uideo; scoreADV: 0. collocate: uolo; scoreADV: 0. collocate: igitur; scoreADV: 2. collocate: num; scoreADV: 3. collocate: nam; scoreADV: 2. collocate: uero; scoreADV: 2. collocate: tam; scoreADV: 2. collocate: uos; scoreADV: 0. collocate: at; scoreADV: 0. collocate: fio; scoreADV: 0. collocate: modus; scoreADV: 0. collocate: intersum; scoreADV: 0. collocate: pactum; scoreADV: 0. collocate: porro; scoreADV: 3. collocate: mirus; scoreADV: 0. collocate: quamquam2; scoreADV: 2. collocate: opusculum; scoreADV: 0. collocate: dubito; scoreADV: 0. collocate: umquam; scoreADV: 2. collocate: exspecto; scoreADV: 0. collocate: refert; scoreADV: 0. collocate: for; scoreADV: 0. collocate: memoro; scoreADV: 0. collocate: considero; scoreADV: 0. collocate: tametsi; scoreADV: 0. collocate: ignoro; scoreADV: 0. collocate: proficio; scoreADV: 0. collocate: iuuo; scoreADV: 0. collocate: celeritas; scoreADV: 0. collocate: quaeso; scoreADV: 0. collocate: etenim; scoreADV: 2. collocate: requiro; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx113-117-105-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword quis here are all the values plotted: collocate: si; scoreFUNC: 50. collocate: enim; scoreFUNC: 0. collocate: ne; scoreFUNC: 40. collocate: sum; scoreFUNC: 0. collocate: quaero; scoreFUNC: 0. collocate: ago; scoreFUNC: 0. collocate: ergo; scoreFUNC: 0. collocate: nescio; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: tu; scoreFUNC: 0. collocate: tandem; scoreFUNC: 0. collocate: autem; scoreFUNC: 0. collocate: de; scoreFUNC: 20. collocate: dico; scoreFUNC: 0. collocate: possum; scoreFUNC: 0. collocate: facio; scoreFUNC: 0. collocate: sed; scoreFUNC: 0. collocate: scio; scoreFUNC: 0. collocate: uideo; scoreFUNC: 0. collocate: uolo; scoreFUNC: 0. collocate: igitur; scoreFUNC: 0. collocate: num; scoreFUNC: 0. collocate: nam; scoreFUNC: 0. collocate: uero; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: uos; scoreFUNC: 0. collocate: at; scoreFUNC: 0. collocate: fio; scoreFUNC: 0. collocate: modus; scoreFUNC: 0. collocate: intersum; scoreFUNC: 0. collocate: pactum; scoreFUNC: 0. collocate: porro; scoreFUNC: 0. collocate: mirus; scoreFUNC: 0. collocate: quamquam2; scoreFUNC: 0. collocate: opusculum; scoreFUNC: 0. collocate: dubito; scoreFUNC: 0. collocate: umquam; scoreFUNC: 0. collocate: exspecto; scoreFUNC: 0. collocate: refert; scoreFUNC: 0. collocate: for; scoreFUNC: 0. collocate: memoro; scoreFUNC: 0. collocate: considero; scoreFUNC: 0. collocate: tametsi; scoreFUNC: 20. collocate: ignoro; scoreFUNC: 0. collocate: proficio; scoreFUNC: 0. collocate: iuuo; scoreFUNC: 0. collocate: celeritas; scoreFUNC: 0. collocate: quaeso; scoreFUNC: 0. collocate: etenim; scoreFUNC: 0. collocate: requiro; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>quid</b> porro <br> <small> Sen.Helv.9.7 <br> O que mais? <small> [JDD] </small> </small> </p>
+; <p> <b>quid</b> quaeris <br> <small> Cic.Att.1.14.6 <br> O que mais queres? <small> [JDD] </small> </small> </p>
+; <p> <b>quid</b> refert <br> <small> Cic.Phil.7.14.9 <br> Que importa? <small> [JDD] </small> </small> </p>
+; <p> <b>quid</b> ergo <br> <small> Cic.Att.2.1.8 <br> E então? <small> [JDD] </small> </small> </p>
+; <p> sed <b>quid</b> Curio <br> <small> Cic.Att.3.15.3 <br> Mas, e Curião? <small> [JDD] </small> </small> </p>
+; <p> <b>quid</b> de bonis <br> <small> Cic.Att.3.15.6 <br> E a respeito dos meus bens? <small> [JDD] </small> </small> </p>
+; <p> <b>quid</b> exspectatis amplius <br> <small> Cic.Cael.55 <br> O que mais esperais? <small> [JDD] </small> </small> </p>
+; <p> num <b>quis</b> obiecit <br> <small> Cic.Cael.56 <br> Acaso alguém lhe imputou algo? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> sed <b>quid</b> ago <br> <small> Cic.Att.1.16.10 <br> Mas o que estou fazendo? <small> [JDD] </small> </small> </p>
+; <p> illud uero <b>quid</b> est <br> <small> Cic.Font.Fr.1 <br> Mas o que é isso? <small> [JDD] </small> </small> </p>
+; <p> <b>quid</b> uotis opus est <br> <small> Sen.Ep.31.5 <br> Para que é necessário súplicas? <small> [JDD] </small> </small> </p>
+; <p> at <b>quod</b> erat tempus <br> <small> Cic.Mil.39 <br> Mas que circunstância era essa? <small> [JDD] </small> </small> </p>
+; <p> <b>quid</b> igitur causae fuit <br> <small> Cic.Att.4.2.5 <br> “Qual foi, portanto, o motivo?” <small> [JDD] </small> </small> </p>
+; <p> <b>quid</b> opus est terrore <br> <small> Cic.Mil.57 <br> Para que é preciso torturador? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nam <b>quid</b> agis aliud <br> <small> Cic.Lig.11 <br> Pois que outra coisa buscas? <small> [JDD] </small> </small> </p>
+; <p> <b>quid</b> terrarum iuuare nouitas potest <br> <small> Sen.Ep.28.2 <br> O que pode te ajudar a novidade das terras? <small> [JDD] </small> </small> </p>
+; <p> <b>quid</b> Milonis intererat interfici Clodium <br> <small> Cic.Mil.34 <br> Que interesse tinha Milão em que Clódio fosse assassinado? <small> [JDD] </small> </small> </p>
+; <p> sed <b>quid</b> opus est plura <br> <small> Cic.Sen.3 <br> Mas por que é preciso mais? <small> [JDD] </small> </small> </p>
+; <p> <b>quae</b> sunt igitur meae partes <br> <small> Cic.Balb.1 <br> Qual é, portanto, o meu papel? <small> [JDD] </small> </small> </p>
+; <p> suspenso animo exspecto <b>quid</b> agat <br> <small> Cic.Att.4.15.10 <br> Estou com o espírito em suspense na expectativa do que ele faça. <small> [JDD] </small> </small> </p>
+; <p> <b>quid</b> autem turpius quam illudi <br> <small> Cic.Amici.99 <br> Ora, o que é mais vergonhoso do que ser iludido? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> falsum sed tamen <b>quid</b> hoc <br> <small> Cic.Att.1.16.10 <br> Falso, mas enfim: “o quê?”, eu digo, “isto <small> [JDD] </small> </small> </p>
+; <p> <b>quid</b> arbitramur in uera facturos fuisse <br> <small> Cic.Amici.24 <br> o que achamos que teriam feito numa verdadeira? <small> [JDD] </small> </small> </p>
+; <p> si <b>quid</b> habes certius velim scire <br> <small> Cic.Att.4.10.1 <br> Se tens algo mais certo, gostaria de saber. <small> [JDD] </small> </small> </p>
+; <p> secreta thalami fare <b>quo</b> excipias modo <br> <small> Sen.Oed.805 <br> Fala como sabes esses segredos de um matrimônio. <small> [JDD] </small> </small> </p>
+; <p> ipsius autem ueneni <b>quae</b> ratio fingitur <br> <small> Cic.Cael.58 <br> Já do veneno em si, que razão é inventada? <small> [JDD] </small> </small> </p>
+; <p> <b>quid</b> faciemus si aliter non possumus <br> <small> Cic.Att.2.1.8 <br> O que vamos fazer se não podemos de outro modo? <small> [JDD] </small> </small> </p>
+; <p> de muro <b>quid</b> opus sit videbis <br> <small> Cic.Att.2.7.5 <br> Quanto ao muro, verás o que é necessário. <small> [JDD] </small> </small> </p>
+; <p> nam <b>quid</b> foedius nostra vita praecipue mea <br> <small> Cic.Att.4.6.1 <br> Pois o que há de mais ignominioso do que nossa vida, especialmente a minha? <small> [JDD] </small> </small> </p>
+; <p> <b>quis</b> autem umquam tanto damno senatorem coegit <br> <small> Cic.Phil.1.12.12 <br> Por outro lado, quem algum dia obrigou um senador com tanto dano? <small> [JDD] </small> </small> </p>
+; <p> nunc uero <b>quae</b> tua est ista uita <br> <small> Cic.Catil.1.16.4 <br> Mas agora, que vida é essa tua? <small> [JDD] </small> </small> </p>
+; <p> praeterea de muro statue <b>quid</b> faciendum sit <br> <small> Cic.Att.2.6.2 <br> Além disso, decide o que deve ser feito com relação ao muro. <small> [JDD] </small> </small> </p>
+; <p> ait nescio <b>quem</b> ex eo numero seruum iudicatum <br> <small> Cic.Deiot.24 <br> Diz que não sei quem desse número foi considerado um escravo. <small> [JDD] </small> </small> </p>
+; <p> ad illam celeritatem adde etiam si <b>quid</b> potes <br> <small> Cic.Att.2.24.1 <br> Àquela rapidez acrescenta ainda mais, se podes. <small> [JDD] </small> </small> </p>
+; <p> <b>quo</b> tandem animo hoc tyrannum illum tulisse creditis <br> <small> Cic.Mil.35 <br> Com que espírito, enfim, acreditais que aquele tirano suportou isto? <small> [JDD] </small> </small> </p>
+; <p> in <b>qua</b> tandem urbe hoc homines stultissimi disputant <br> <small> Cic.Mil.7 <br> Em que cidade afinal homens estultíssimos sustentam isso? <small> [JDD] </small> </small> </p>
+; <p> num <b>quid</b> simile populus Romanus audierat aut uiderat <br> <small> Cic.Amici.41 <br> Por acaso o povo romano tinha ouvido ou tinha visto algo semelhante? <small> [JDD] </small> </small> </p>
+; <p> <b>quid</b> de his cogites et quando scire velim <br> <small> Cic.Att.5.3.1 <br> Eu gostaria de saber o que pensas desses assuntos e quando. <small> [JDD] </small> </small> </p>
+; <p> <b>quid</b> igitur hunc paucorum annorum accessio iuuare potuisset <br> <small> Cic.Amici.11 <br> Portanto, em que poderia ajudá-lo o acréscimo de uns poucos anos? <small> [JDD] </small> </small> </p>
+; <p> Galliam <b>quo</b> tandem animo hanc rem audituram putatis <br> <small> Cic.Phil.12.9.9 <br> Com que ânimo afinal achais que a Gália vai ouvir isso? <small> [JDD] </small> </small> </p>
+; <p> <b>quid</b> si ne potest quidem ulla esse pax <br> <small> Cic.Phil.12.11.1 <br> E se, na verdade, não pode haver nenhuma paz? <small> [JDD] </small> </small> </p>
+; <p> <b>quid</b> fari queam inter tumultus mentis attonitae uagus <br> <small> Sen.Oed.328 <br> O que poderei falar indeciso em meio ao tumulto de minha mente atônita? <small> [JDD] </small> </small> </p>
+; <p> <b>quae</b> fuit igitur umquam in ullo homine tanta constantia <br> <small> Cic.Lig.26 <br> Portanto, que constância tão grande houve alguma vez em algum homem? <small> [JDD] </small> </small> </p>
+; <p> <b>quid</b> si cessare libeat et in oti portum confugere <br> <small> Cic.Att.4.6.2 <br> E se me der vontade de retirar-me e refugiar-me no porto do ócio? <small> [JDD] </small> </small> </p>
+; <p> etiam si futurum est <b>quid</b> iuuat dolori suo occurrere <br> <small> Sen.Ep.13.10 <br> Se ainda vai ocorrer, de que adianta ir ao seu encontro já com dor? <small> [JDD] </small> </small> </p>
+; <p> ortum quidem amicitiae uidetis nisi <b>quid</b> ad haec forte uultis <br> <small> Cic.Amici.32 <br> Vedes, na verdade, o nascimento da amizade, a não ser que por acaso queirais acrescentar algo a essas coisas. <small> [JDD] </small> </small> </p>
+; <p> quamquam o di boni <b>quid</b> est in hominis natura diu <br> <small> Cic.Sen.69 <br> Aliás, ó deuses bons! o que é longo tempo na natureza dos homem? <small> [JDD] </small> </small> </p>
+; <p> num <b>quis</b> denique fecisset mentionem si hic nullius nomen detulisset <br> <small> Cic.Cael.56 <br> Enfim, acaso alguém teria feito menção a ele, se ele não tivesse delatado o nome de ninguém? <small> [JDD] </small> </small> </p>
+; <p> hoc <b>quid</b> intersit si tuos digitos novi certe habes subductum <br> <small> Cic.Att.5.21.13 <br> Com certeza, se conheço os teu dedos, tens já calculado a diferença que isso faz. <small> [JDD] </small> </small> </p>
+; <p> hanc uero taeterrimam beluam <b>quis</b> ferre potest aut quo modo <br> <small> Cic.Phil.3.28.6 <br> Na verdade, quem pode suportar esse abominável monstro ou de que modo? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx113-117-105-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 103.01 and an absolute frequency of 116. The Cicero subcorpus follows, with a normalized frequency of 97.31 and an absolute frequency of 1562. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 11.03 and an absolute freqeuncy of 1. here are all the values: subcorpus: Caesar ; normalized frequency: 108 ; absolute frequency: 40.7885791978246. subcorpus: Cicero ; normalized frequency: 1562 ; absolute frequency: 97.3063217961177. subcorpus: Horatius ; normalized frequency: 116 ; absolute frequency: 103.010389841044. subcorpus: Ovidius ; normalized frequency: 36 ; absolute frequency: 61.770761839396. subcorpus: Phaedrus ; normalized frequency: 27 ; absolute frequency: 40.9898284499772. subcorpus: Sallustius ; normalized frequency: 47 ; absolute frequency: 43.5952138020592. subcorpus: Seneca ; normalized frequency: 519 ; absolute frequency: 96.8626938653627. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 6 ; absolute frequency: 20.5973223480947. subcorpus: Vergilius ; normalized frequency: 43 ; absolute frequency: 83.011583011583. subcorpus: Hieronymus ; normalized frequency: 25 ; absolute frequency: 56.1671534486632'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx113-117-105-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 106.48 and an absolute frequency of 1109. The Poesia.didática subcorpus follows, with a normalized frequency of 50.05 and an absolute frequency of 59. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 39.44 and an absolute freqeuncy of 162. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 162 ; absolute frequency: 39.4362082816037. subcorpus: Prosa.filosófica ; normalized frequency: 550 ; absolute frequency: 90.6080624701405. subcorpus: Prosa.oratória ; normalized frequency: 1109 ; absolute frequency: 106.477969909652. subcorpus: Prosa.epistolográfica ; normalized frequency: 304 ; absolute frequency: 80.5532738016376. subcorpus: Poesia.lírica ; normalized frequency: 120 ; absolute frequency: 100.950618322537. subcorpus: Poesia.didática ; normalized frequency: 59 ; absolute frequency: 50.0466536601917. subcorpus: Poesia.trágica ; normalized frequency: 118 ; absolute frequency: 102.501737317582. subcorpus: Poesia.épica ; normalized frequency: 43 ; absolute frequency: 83.011583011583. subcorpus: Prosa.ficcional ; normalized frequency: 25 ; absolute frequency: 56.1671534486632'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx113-117-105-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 88.42 and an absolute frequency of 578. The I.a.C. subcorpus follows, with a normalized frequency of 87.5 and an absolute frequency of 1880. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 18.32 and an absolute freqeuncy of 7. here are all the values: subcorpus: I.a.C. ; normalized frequency: 1880 ; absolute frequency: 87.5029090062835. subcorpus: I.d.C. ; normalized frequency: 578 ; absolute frequency: 88.4197644179287. subcorpus: II.d.C. ; normalized frequency: 7 ; absolute frequency: 18.3246073298429. subcorpus: IV.d.C. ; normalized frequency: 25 ; absolute frequency: 56.1671534486632'}
+
+
+:::
+

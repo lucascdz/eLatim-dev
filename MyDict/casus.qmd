@@ -1,0 +1,201 @@
+---
+title: "casus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-97-115-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>casus</b> <b>-ús</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Queda, ato de cair &ensp; <small>ou morrer, por eufemismo T. Lív. 21, 35, 6.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Fim &ensp; <small>Verg. G. 1, 340.</small> <br> <b>3</b> &ensp; <small>I-Daí:</small> &ensp; O que cai, acidente, acaso, circunstâcia imprevista, sorte sent. favorável, ocasião &ensp; <small>Cíc. Div. 2, 15.</small> <br> <b>4</b> &ensp; <small>I-Daí:</small> &ensp; Desgraça, desventura &ensp; <small>Cés. B. Gal. 3, 22, 2.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Queda &ensp; <small>Cíc. Sest. 140.</small> <br> <b>6</b> &ensp; <small>II-Na línguagem gramatical:</small> &ensp; Caso: rectus &ensp; <small>Cíc. Or. 160 caso reto i. e., o nom..</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Casus</b> -<b>us</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; queda. <br> <b>2</b> &ensp; accidente, desastre, successo não esperado, bom, ou máo. <br> <b>3</b> &ensp; caso dos nomes. <br> <b>4</b> &ensp; <small>Cels.</small> &ensp; doença. <br> <b>5</b> &ensp; <small>Casu, Cic.</small> &ensp; acaso, fortuitamente. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Casus</b> <b>us</b>   <p> <b>1</b> &ensp; a caida. ou desastre. casulaae </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/97835 ' target="_blank"> http://lila-erc.eu/data/id/lemma/97835 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 4ª declinação (tema em -u-) <br>
+<small> outras grafias: </small> cassus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+cāsŭs 
+ cāsūs
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-97-115-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-97-115-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword casus here are all the values plotted: collocate: aliquis; scoreSUBST: 0. collocate: meus; scoreSUBST: 0. collocate: tum; scoreSUBST: 0. collocate: fero; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-97-115-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword casus here are all the values plotted: collocate: aliquis; scoreADJ: 0. collocate: meus; scoreADJ: 0. collocate: tum; scoreADJ: 0. collocate: fero; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-97-115-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword casus here are all the values plotted: collocate: aliquis; scoreVERBO: 0. collocate: meus; scoreVERBO: 0. collocate: tum; scoreVERBO: 0. collocate: fero; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-97-115-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword casus here are all the values plotted: collocate: aliquis; scoreADV: 0. collocate: meus; scoreADV: 0. collocate: tum; scoreADV: 2. collocate: fero; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-97-115-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword casus here are all the values plotted: collocate: aliquis; scoreFUNC: 0. collocate: meus; scoreFUNC: 0. collocate: tum; scoreFUNC: 0. collocate: fero; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> effare <b>casus</b> quis rates hausit meas <br> <small> Sen.Ag.414 <br> Diz: que desgraça aniquilou esses barcos? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> in illa temet nemora quis <b>casus</b> tulit <br> <small> Sen.Oed.809 <br> E que acaso te levou a ti àqueles bosques? <small> [JDD] </small> </small> </p>
+; <p> ea si qui <b>casus</b> aliqua ex parte correxerit minus moleste feremus nos vixisse et adhuc vivere <br> <small> Cic.Att.3.14.1 <br> Se algum acaso os corrigir em alguma parte, lamentarei menos ter vivido e ainda estar vivo. <small> [JDD] </small> </small> </p>
+; <p> quotiens tibi iam extorta est ista sica de manibus quotiens excidit <b>casu</b> aliquo et elapsa est <br> <small> Cic.Catil.1.16.1 <br> Quantas vezes já te foi arrancada das mãos esse punhal! Quantas vezes ele caiu por algum acaso e desapareceu! <small> [JDD] </small> </small> </p>
+; <p> uentum erat ad Uestae quarta iam parte diei praeterita et <b>casu</b> tum respondere uadato debebat quod ni fecisset perdere litem <br> <small> Hor.S.1.9.35 <br> Tinha-se chegado ao templo de Vesta, transcorrida já a quarta parte do dia, e, naquele momento, casualmente ele devia responder a uma citação judicial; se não fizesse isso, perderia o processo. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-97-115-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 17.37 and an absolute frequency of 9. The Tacitus subcorpus follows, with a normalized frequency of 10.3 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 14 ; absolute frequency: 5.28740841453282. subcorpus: Cicero ; normalized frequency: 43 ; absolute frequency: 2.67872716852309. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 17 ; absolute frequency: 3.17276646572479. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 9 ; absolute frequency: 17.3745173745174. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-97-115-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 17.37 and an absolute frequency of 9. The Prosa.histórica subcorpus follows, with a normalized frequency of 5.11 and an absolute frequency of 21. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 21 ; absolute frequency: 5.11210107354123. subcorpus: Prosa.filosófica ; normalized frequency: 19 ; absolute frequency: 3.13009670351395. subcorpus: Prosa.oratória ; normalized frequency: 25 ; absolute frequency: 2.40031492131768. subcorpus: Prosa.epistolográfica ; normalized frequency: 11 ; absolute frequency: 2.91475661782241. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 5 ; absolute frequency: 4.34329395413482. subcorpus: Poesia.épica ; normalized frequency: 9 ; absolute frequency: 17.3745173745174. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-97-115-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 7.85 and an absolute frequency of 3. The I.a.C. subcorpus follows, with a normalized frequency of 3.44 and an absolute frequency of 74. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 74 ; absolute frequency: 3.44426343960903. subcorpus: I.d.C. ; normalized frequency: 20 ; absolute frequency: 3.05950741930549. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

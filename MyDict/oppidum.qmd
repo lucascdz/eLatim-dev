@@ -1,0 +1,201 @@
+---
+title: "oppidum"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx111-112-112-105-100-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>oppĭdum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>Sent. próprio</small> &ensp; Cidade fortificada, praça-forte, fortaleza &ensp; <small>Cíc. Rep. 1, 41.</small> <br> <b>2</b> &ensp; <small>Daí:</small> &ensp; Cidade &ensp; <small>em geral, em oposição a Vrbs, cidade de Roma Cíc. Verr. 4, 72.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Oppidum</b> -<b>i</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; cidade, villa murada. <br> <b>2</b> &ensp; <small>Varr.</small> &ensp; lugar no circo em Roma, donde os cavallos principiavão a correr. </p>
+
+
+
+
+#### Velez
+
+<b>Oppidum</b> -<b>i</b> <br> <small>2. b.</small>   <p> <b>1</b> &ensp; vila <br> <b>2</b> &ensp; lugar fortificado <br> <b>3</b> &ensp; cidade </p>
+
+
+
+
+#### Cardoso
+
+<b>Oppidum</b> <b>i</b>   <p> <b>1</b> &ensp; <small>Se dirâ qualquer vila. ou cidade. tirando Roma.</small> </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/115116 ' target="_blank"> http://lila-erc.eu/data/id/lemma/115116 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> opidom, opidum, oppedom, oppedum, oppidom, oppodom, oppodum <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+oppĭdum 
+ oppĭdī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx111-112-112-105-100-117-109xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx111-112-112-105-100-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword oppidum here are all the values plotted: collocate: expugno; scoreSUBST: 0. collocate: pars; scoreSUBST: 2. collocate: ex; scoreSUBST: 0. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx111-112-112-105-100-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword oppidum here are all the values plotted: collocate: expugno; scoreADJ: 0. collocate: pars; scoreADJ: 0. collocate: ex; scoreADJ: 0. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx111-112-112-105-100-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword oppidum here are all the values plotted: collocate: expugno; scoreVERBO: 2. collocate: pars; scoreVERBO: 0. collocate: ex; scoreVERBO: 0. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx111-112-112-105-100-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword oppidum here are all the values plotted: collocate: expugno; scoreADV: 0. collocate: pars; scoreADV: 0. collocate: ex; scoreADV: 0. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx111-112-112-105-100-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword oppidum here are all the values plotted: collocate: expugno; scoreFUNC: 0. collocate: pars; scoreFUNC: 0. collocate: ex; scoreFUNC: 20. collocate: in; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ex eo <b>oppido</b> pons ad Heluetios pertinet <br> <small> Caes.Gal.1.6.3 <br> Dessa cidadela estende-se uma ponte até os helvécios. <small> [JDD] </small> </small> </p>
+; <p> in <b>oppidis</b> enim summum video timorem sed multa inania <br> <small> Cic.Att.5.3.1 <br> pois vejo nas cidades um enorme temor, mas muitas coisas vagas. <small> [JDD] </small> </small> </p>
+; <p> occisis ad hominum milibus quattuor reliqui in <b>oppidum</b> reiecti sunt <br> <small> Caes.Gal.2.33.5 <br> Mortos uns quatro mil homens, os restantes foram rechaçados para a cidadela. <small> [JDD] </small> </small> </p>
+; <p> eorum coniunctione pars <b>oppidi</b> quae appellatur Insula mari disiuncta angusto ponte rursus adiungitur et continetur <br> <small> Cic.Ver.2.4.117.7 <br> Na junção deles, uma parte da cidade que se chama Ilha, separada pelo mar, é novamente unida e incorporada por uma ponte estreita. <small> [JDD] </small> </small> </p>
+; <p> compluribus expugnatis <b>oppidis</b> Caesar ubi intellexit frustra tantum laborem sumi neque hostium fugam captis <b>oppidis</b> reprimi neque iis noceri posse statuit exspectandam classem <br> <small> Caes.Gal.3.14.1 <br> Conquistadas muitas cidadelas, César, quando entendeu que tão grande trabalho era empreendido em vão e que não era possível nem reprimir a fuga dos inimigos, tomadas as cidadelas, nem fazer mal a eles, resolveu que devia esperar a frota. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx111-112-112-105-100-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 22.28 and an absolute frequency of 59. The Seneca subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 59 ; absolute frequency: 22.2826497469597. subcorpus: Cicero ; normalized frequency: 45 ; absolute frequency: 2.80331912984974. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx111-112-112-105-100-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 14.61 and an absolute frequency of 60. The Prosa.filosófica subcorpus follows, with a normalized frequency of 0.16 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 60 ; absolute frequency: 14.6060030672606. subcorpus: Prosa.filosófica ; normalized frequency: 1 ; absolute frequency: 0.164741931763892. subcorpus: Prosa.oratória ; normalized frequency: 36 ; absolute frequency: 3.45645348669745. subcorpus: Prosa.epistolográfica ; normalized frequency: 8 ; absolute frequency: 2.11982299477994. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx111-112-112-105-100-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 4.93 and an absolute frequency of 106. The I.d.C. subcorpus follows, with a normalized frequency of 0.15 and an absolute frequency of 1. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 106 ; absolute frequency: 4.93367465673726. subcorpus: I.d.C. ; normalized frequency: 1 ; absolute frequency: 0.152975370965275. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

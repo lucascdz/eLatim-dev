@@ -1,0 +1,216 @@
+---
+title: "dubito"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-117-98-105-116-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>dubĭtō</b> <b>-ás</b> <b>-áre</b> <b>-áví, -átum</b> <br> <small>v. freq. intr. e tr.</small> <br> <small>Obs.: Constrói-se com abl. com de; com acus., principalmente de um pron. neutro; com interrog. Ind. ou negat. com quin; com inf.; com acus. e interrog. Ind.</small>   <p> <b>1</b> &ensp; <small>I-Intr.:</small> &ensp; Duvidar, hesitar, vacilar &ensp; <small>Cés. B. Gal. 1, 41, 3; Cíc. Br. 186.</small> <br> <b>2</b> &ensp; <small>II-Tr.:</small> &ensp; Por em dúvida, duvidar, haver dúvida &ensp; <small>Cíc. Fin. 2, 55; Tác. An. 14, 7.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Dubito</b> -<b>as</b> -<b>avi</b> -<b>atum</b> -<b>are</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; duvidar. <br> <b>2</b> &ensp; <small>Virg. Cic.</small> &ensp; considerar, cuidar. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Dubito</b> -<b>as</b>   <p> <b>1</b> &ensp; duuidar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/100176 ' target="_blank"> http://lila-erc.eu/data/id/lemma/100176 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> dubito </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> dubitare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> dubitabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> dubitaui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> dubitatum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> dubitaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+dŭbĭtō 
+ dŭbĭtās 
+ dŭbĭtāre 
+ dŭbĭtāvī 
+ dŭbĭtātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-117-98-105-116-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-117-98-105-116-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword dubito here are all the values plotted: collocate: quin; scoreSUBST: 0. collocate: an2; scoreSUBST: 0. collocate: num; scoreSUBST: 0. collocate: quisquam; scoreSUBST: 0. collocate: non; scoreSUBST: 0. collocate: debeo; scoreSUBST: 0. collocate: nec; scoreSUBST: 0. collocate: quis; scoreSUBST: 0. collocate: enim; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-117-98-105-116-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword dubito here are all the values plotted: collocate: quin; scoreADJ: 0. collocate: an2; scoreADJ: 0. collocate: num; scoreADJ: 0. collocate: quisquam; scoreADJ: 0. collocate: non; scoreADJ: 0. collocate: debeo; scoreADJ: 0. collocate: nec; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: enim; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-117-98-105-116-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword dubito here are all the values plotted: collocate: quin; scoreVERBO: 0. collocate: an2; scoreVERBO: 0. collocate: num; scoreVERBO: 0. collocate: quisquam; scoreVERBO: 0. collocate: non; scoreVERBO: 0. collocate: debeo; scoreVERBO: 2. collocate: nec; scoreVERBO: 0. collocate: quis; scoreVERBO: 0. collocate: enim; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-117-98-105-116-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword dubito here are all the values plotted: collocate: quin; scoreADV: 0. collocate: an2; scoreADV: 0. collocate: num; scoreADV: 2. collocate: quisquam; scoreADV: 0. collocate: non; scoreADV: 4. collocate: debeo; scoreADV: 0. collocate: nec; scoreADV: 0. collocate: quis; scoreADV: 0. collocate: enim; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-117-98-105-116-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword dubito here are all the values plotted: collocate: quin; scoreFUNC: 50. collocate: an2; scoreFUNC: 20. collocate: num; scoreFUNC: 0. collocate: quisquam; scoreFUNC: 0. collocate: non; scoreFUNC: 0. collocate: debeo; scoreFUNC: 0. collocate: nec; scoreFUNC: 0. collocate: quis; scoreFUNC: 0. collocate: enim; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> non <b>dubitat</b> facere <br> <small> Cic.Att.4.3.5 <br> Não duvida em fazê-lo. <small> [JDD] </small> </small> </p>
+; <p> non <b>dubitant</b> iurare ceteri <br> <small> Cic.Att.2.18.2 <br> Todos os demais não hesitam em jurar. <small> [JDD] </small> </small> </p>
+; <p> num igitur utrum horum sit <b>dubitare</b> possumus <br> <small> Cic.Phil.4.8.6 <br> Por acaso, podemos então ter dúvida de qual dessas opções é? <small> [JDD] </small> </small> </p>
+; <p> an uero quisquam <b>dubitabit</b> appellare Caesarem imperatorem <br> <small> Cic.Phil.14.28.1 <br> Por acaso alguém duvidará em chamar César de general vitorioso? <small> [JDD] </small> </small> </p>
+; <p> nemo enim <b>dubitabat</b> quin domus nobis esset adiudicata <br> <small> Cic.Att.4.2.3 <br> (pois ninguém duvidava de que a casa me tinha sido adjudicada). <small> [JDD] </small> </small> </p>
+; <p> tum uero <b>dubitandum</b> non existimauit quin ad eos proficisceretur <br> <small> Caes.Gal.2.2.5 <br> Achou, então, que não devia hesitar em partir na direção deles. <small> [JDD] </small> </small> </p>
+; <p> quamquam quid facturi fueritis <b>dubitem</b> cum uideam quid feceritis <br> <small> Cic.Lig.24 <br> Embora eu vá duvidar do que estivestes disposto a fazer, quando vejo o que fizestes? <small> [JDD] </small> </small> </p>
+; <p> nec <b>dubito</b> quin multum conferant rudibus adhuc et extrinsecus auscultantibus <br> <small> Sen.Ep.33.6 <br> Não tenho dúvida de que trazem muito proveito para os ainda incultos e para os que as escutam de fora. <small> [JDD] </small> </small> </p>
+; <p> non enim <b>dubitabat</b> Xeno quin ab Ariopagitis invito Memmio impetrari non posset <br> <small> Cic.Att.5.11.6 <br> pois Xenão não tinha dúvida de que não se poderia conseguir isso dos areopagitas contra a vontade de Mêmio. <small> [JDD] </small> </small> </p>
+; <p> hoc tibi ita mando ut <b>dubitem</b> an etiam te rogem ut pugnes ne intercaletur <br> <small> Cic.Att.5.9.2 <br> Te encarrego disso a tal ponto que eu fico em dúvida se te peço ainda que lutes para que não seja intercalado [um mês]. <small> [JDD] </small> </small> </p>
+; <p> ideo de Diogene nec minus de aliis Cynicis qui libertate promiscua usi sunt et obuios monuerunt <b>dubitari</b> solet an hoc facere debuerint <br> <small> Sen.Ep.29.1 <br> Por isso com relação a Diógenes e não menos com relação aos outros Cínicos, que se utilizaram de uma liberdade indistinta e admoestaram a todos que encontravam, costuma duvidar-se se eles deveram fazer isso.[*] <small>  </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-117-98-105-116-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 5.48 and an absolute frequency of 88. The Phaedrus subcorpus follows, with a normalized frequency of 1.52 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 7 ; absolute frequency: 2.64370420726641. subcorpus: Cicero ; normalized frequency: 88 ; absolute frequency: 5.48204629837283. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 5 ; absolute frequency: 4.63778870234672. subcorpus: Seneca ; normalized frequency: 17 ; absolute frequency: 3.17276646572479. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-117-98-105-116-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 5.86 and an absolute frequency of 61. The Prosa.oratória subcorpus follows, with a normalized frequency of 5.86 and an absolute frequency of 61. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 12 ; absolute frequency: 2.92120061345213. subcorpus: Prosa.filosófica ; normalized frequency: 18 ; absolute frequency: 2.96535477175005. subcorpus: Prosa.oratória ; normalized frequency: 61 ; absolute frequency: 5.85676840801513. subcorpus: Prosa.epistolográfica ; normalized frequency: 20 ; absolute frequency: 5.29955748694984. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 6 ; absolute frequency: 5.21195274496178. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-117-98-105-116-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 4.75 and an absolute frequency of 102. The I.a.C. subcorpus follows, with a normalized frequency of 4.75 and an absolute frequency of 102. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 102 ; absolute frequency: 4.74749825459623. subcorpus: I.d.C. ; normalized frequency: 18 ; absolute frequency: 2.75355667737494. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

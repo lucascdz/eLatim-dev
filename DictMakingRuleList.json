@@ -1,0 +1,134 @@
+{
+  "dicionários tradicionais": {
+    "ElementName": ["dicionários tradicionais"],
+    "Dataset": ["DictData"],
+    "Vars": ["lemma"],
+    "Text": ["%%%paste &emsp;"]
+  },
+  "ErnestoFaria": {
+    "ElementName": ["ErnestoFaria"],
+    "Dataset": ["LexicalData_dictdata_fariaFullEntries.csv"],
+    "Vars": ["fullEntry"],
+    "Text": ["%%%paste <p> fullEntry <br><br><br> <\/p>\n"]
+  },
+  "Saraiva": {
+    "ElementName": ["Saraiva"],
+    "Dataset": ["LexicalData_dictdata_saraivaFullEntries.csv"],
+    "Vars": ["fullEntry"],
+    "Text": ["%%%paste <p> fullEntry <br><br><br> <\/p>\n"]
+  },
+  "Fonseca": {
+    "ElementName": ["Fonseca"],
+    "Dataset": ["LexicalData_dictdata_fonsecaFullEntries.csv"],
+    "Vars": ["fullEntry"],
+    "Text": ["%%%paste <p> fullEntry <br><br><br> <\/p>\n"]
+  },
+  "Velez": {
+    "ElementName": ["Velez"],
+    "Dataset": ["LexicalData_dictdata_velezFullEntries.csv"],
+    "Vars": ["fullEntry"],
+    "Text": ["%%%paste <p> fullEntry <br><br><br> <\/p>\n"]
+  },
+  "Cardoso": {
+    "ElementName": ["Cardoso"],
+    "Dataset": ["LexicalData_dictdata_cardosoFullEntries.csv"],
+    "Vars": ["fullEntry"],
+    "Text": ["%%%paste <p> fullEntry <br><br><br> <\/p>\n"]
+  },
+  "bases lexicais": {
+    "ElementName": ["bases lexicais"],
+    "Dataset": ["DictData"],
+    "Vars": ["lemma"],
+    "Text": ["%%%paste &emsp;\n\n"]
+  },
+  "LiLa Lemma Bank": {
+    "ElementName": ["LiLa Lemma Bank"],
+    "Dataset": ["DictData"],
+    "Vars": ["lila_uri", "upostag_pt", "fl_cat_pt", "gen_pt", "number_pt", "grade_pt", "wrList", "var_key"],
+    "Text": ["%%%paste \n<small> id: <\/small> <a href=' lila_uri ' target=\"_blank\"> lila_uri <\/a> <br>\n<small> classe: <\/small> upostag_pt gen_pt number_pt grade_pt <br>\n<small> paradigma: <\/small> fl_cat_pt <br>\n<small> outras grafias: <\/small> wrList <br>\n<small> variantes do lema: <\/small> var_key <br>\n"]
+  },
+  "PrinParLat": {
+    "ElementName": ["PrinParLat"],
+    "Dataset": ["LexicalData_lexidata_prinparlat.csv"],
+    "Vars": ["orth_form", "cell_pt"],
+    "Text": ["%%%paste <b> orth_form <\/b>&emsp;<small> cell_pt <\/small><br>\n"]
+  },
+  "Lexicala": {
+    "ElementName": ["Lexicala"],
+    "Dataset": ["LexicalData_lexidata_phonetics.csv"],
+    "Vars": ["phon"],
+    "Text": ["%%%paste <p> <b> phon <\/b> <\/p>\n"]
+  },
+  "WordNet": {
+    "ElementName": ["WordNet"],
+    "Dataset": ["Plots_Tree"],
+    "Vars": ["Tree__xx102-97-99-105-111xx__sem_type_lexemes_pt.html"],
+    "Text": [""]
+  },
+  "dados de corpus": {
+    "ElementName": ["dados de corpus"],
+    "Dataset": ["DictData"],
+    "Vars": ["lemma"],
+    "Text": ["%%%paste &emsp;"]
+  },
+  "Possíveis colocados": {
+    "ElementName": ["Possíveis colocados"],
+    "Dataset": ["Outputs_CollocateCandidates_MinFreq10minLL5minLR0minMI0minLogDice0_win1_scoreByPos.csv"],
+    "Vars": ["lemma", "collocate", "pos", "LogL", "LR", "MI", "LogDice"],
+    "Text": [""]
+  },
+  "substantivos": {
+    "ElementName": ["substantivos"],
+    "Dataset": ["Plots_wordcloud"],
+    "Vars": ["wordcloud__xx102-97-99-105-111xx__BY_collocate_scoreSUBST.png"],
+    "Text": [""]
+  },
+  "adjetivos": {
+    "ElementName": ["adjetivos"],
+    "Dataset": ["Plots_wordcloud"],
+    "Vars": ["wordcloud__xx102-97-99-105-111xx__BY_collocate_scoreADJ.png"],
+    "Text": [""]
+  },
+  "verbos": {
+    "ElementName": ["verbos"],
+    "Dataset": ["Plots_wordcloud"],
+    "Vars": ["wordcloud__xx102-97-99-105-111xx__BY_collocate_scoreVERBO.png"],
+    "Text": [""]
+  },
+  "advérbios": {
+    "ElementName": ["advérbios"],
+    "Dataset": ["Plots_wordcloud"],
+    "Vars": ["wordcloud__xx102-97-99-105-111xx__BY_collocate_scoreADV.png"],
+    "Text": [""]
+  },
+  "preposições e conjunções": {
+    "ElementName": ["preposições e conjunções"],
+    "Dataset": ["Plots_wordcloud"],
+    "Vars": ["wordcloud__xx102-97-99-105-111xx__BY_collocate_scoreFUNC.png"],
+    "Text": [""]
+  },
+  "ExemplosTraduzidos": {
+    "ElementName": ["ExemplosTraduzidos"],
+    "Dataset": ["Outputs_ExampleSentsWithTranslation.csv"],
+    "Vars": ["loc.cit.", "texto", "traducao", "tradutor"],
+    "Text": ["%%%paste \n<p> texto <br> <small> loc.cit. <br> traducao <small> tradutor <\/small> <\/small> <\/p>\n"]
+  },
+  "Frequência por autor": {
+    "ElementName": ["Frequência por autor"],
+    "Dataset": ["Plots_barchart"],
+    "Vars": ["barchart__xx102-97-99-105-111xx__lemma_BY_author_Frequencies.png"],
+    "Text": [""]
+  },
+  "Frequência por gênero": {
+    "ElementName": ["Frequência por gênero"],
+    "Dataset": ["Plots_barchart"],
+    "Vars": ["barchart__xx102-97-99-105-111xx__lemma_BY_genre_Frequencies.png"],
+    "Text": [""]
+  },
+  "Frequência por século": {
+    "ElementName": ["Frequência por século"],
+    "Dataset": ["Plots_barchart"],
+    "Vars": ["barchart__xx102-97-99-105-111xx__lemma_BY_period_Frequencies.png"],
+    "Text": [""]
+  }
+}

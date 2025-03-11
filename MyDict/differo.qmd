@@ -1,0 +1,209 @@
+---
+title: "differo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-105-102-102-101-114-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>diffĕrō</b> <b>-férs</b> <b>-férre</b> <b>dístùlí, dilátum</b> <br> <small>v. tr. e intr.</small> <br> <small>Obs.: Constrói-se transitivamente com acus.; com acus. com in, com inf., com quin, e intransitivamente. Inf. pass. arc. differrier Lucr. 1, 1.088.</small>   <p> <b>1</b> &ensp; <small>Tr.-Sent. próprio:</small> &ensp; Levar de um lado e de outro, levar para diferentes partes, dispersar &ensp; <small>Cés. B. Civ. 2, 14, 2.</small> <br> <b>2</b> &ensp; <small>Tr.-Daí:</small> &ensp; Espalhar um boato, difamar, desacreditar, divulgar, propalar &ensp; <small>Tác. An. 1, 4.</small> <br> <b>3</b> &ensp; <small>Tr.-Daí:</small> &ensp; Guardar para mais tarde, diferir, adiar &ensp; <small>Cíc. Amer. 26</small> <br> <b>4</b> &ensp; <small>Intr.:</small> &ensp; Ser diferente, diferir &ensp; <small>Cíc. Sr. 150; Cíc. Tusc. 4, 24.</small> </p> 
+ <b>distŭlī</b> <br> <small>perf. de diffèro.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Differo</b> -<b>fers</b> <b>distuli</b> <b>dilatum</b> -<b>ferre</b>   <p> <b>1</b> &ensp; <small>Virg.</small> &ensp; levar para diversas partes. <br> <b>2</b> &ensp; <small>Cic.</small> &ensp; differir, ser differente. <br> <b>3</b> &ensp; dilatar, demorar. <br> <b>4</b> &ensp; <small>Plin.</small> &ensp; soffrer, supportar. <br> <b>5</b> &ensp; <small>Virg.</small> &ensp; transplantar. </p> 
+ <small>pret. de Differo</small> <b>Distuli</b>
+
+
+
+
+#### Velez
+
+<b>Differo</b> -<b>ers</b> <br> <small>2. b.</small>   <p> <b>1</b> &ensp; estender, dilatar, prolongar, levar para diversas partes, divulgar </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>famam alicui, uel de aliquo differre, uel dictis aliquem differre &ensp; <small>diffamar</small> <br> hoc ab illo differt, uel haec inter se differunt &ensp; <small>differem</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Differo</b> -<b>ers</b> <b>distuli</b> <b>latum</b>   <p> <b>1</b> &ensp; dilatar. ou turbar &ensp; <small>actiuo.</small> </p> 
+ <b>Differo</b> -<b>ers</b> <b>istuli</b> <b>latum</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/99342 ' target="_blank"> http://lila-erc.eu/data/id/lemma/99342 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> irregular <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> differo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> differre </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> differet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> distetuli, distuli, dituli </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> dilatum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> dilaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+distŭlī 
+ diffĕrō 
+ dīlātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-105-102-102-101-114-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-105-102-102-101-114-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword differo here are all the values plotted: collocate: tempus; scoreSUBST: 2. collocate: sui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-105-102-102-101-114-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword differo here are all the values plotted: collocate: tempus; scoreADJ: 0. collocate: sui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-105-102-102-101-114-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword differo here are all the values plotted: collocate: tempus; scoreVERBO: 0. collocate: sui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-105-102-102-101-114-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword differo here are all the values plotted: collocate: tempus; scoreADV: 0. collocate: sui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-105-102-102-101-114-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword differo here are all the values plotted: collocate: tempus; scoreFUNC: 0. collocate: sui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> venatio in aliud tempus <b>dilata</b> <br> <small> Cic.Att.4.15.6 <br> a caçada foi adiada para outra ocasião. <small> [JDD] </small> </small> </p>
+; <p> uerum et ueri simile inter se <b>differunt</b> <br> <small> Sen.Ep.118.8 <br> O verdadeiro e o verossímil são diferentes entre si. <small> [JDD] </small> </small> </p>
+; <p> hi omnes lingua institutis legibus inter se <b>differunt</b> <br> <small> Caes.Gal.1.1.2 <br> Todos estes diferem entre si pela língua, pelos costumes e pelas leis. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-105-102-102-101-114-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 2.27 and an absolute frequency of 6. The Sallustius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 6 ; absolute frequency: 2.26603217765692. subcorpus: Cicero ; normalized frequency: 12 ; absolute frequency: 0.747551767959931. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 12 ; absolute frequency: 2.23959985815868. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-105-102-102-101-114-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 2.14 and an absolute frequency of 13. The Prosa.oratória subcorpus follows, with a normalized frequency of 0.48 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 6 ; absolute frequency: 1.46060030672606. subcorpus: Prosa.filosófica ; normalized frequency: 13 ; absolute frequency: 2.14164511293059. subcorpus: Prosa.oratória ; normalized frequency: 5 ; absolute frequency: 0.480062984263535. subcorpus: Prosa.epistolográfica ; normalized frequency: 6 ; absolute frequency: 1.58986724608495. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-105-102-102-101-114-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 1.99 and an absolute frequency of 13. The I.a.C. subcorpus follows, with a normalized frequency of 0.88 and an absolute frequency of 19. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 19 ; absolute frequency: 0.884337910169886. subcorpus: I.d.C. ; normalized frequency: 13 ; absolute frequency: 1.98867982254857. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

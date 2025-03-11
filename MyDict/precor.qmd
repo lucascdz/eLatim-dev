@@ -1,0 +1,199 @@
+---
+title: "precor"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-114-101-99-111-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>precor</b> <b>-áris, -árí, -átus sum</b> <br> <small>v. dep. tr.</small> <br> <small>Obs.: Constrói-se com acus. acompanhado ou não de ad; com acus. e dat.; com acus. e abl. com ab ou pro; com duplo acus.; com ut, ne ou quominus; com or. inf. Na poesia aparece simplesmente acompanhado de subjuntivo, sem conjunção: venias precamur Hor. O. 1, 2, 30 ‘pedimos que venhas’. Aparece também como intr. absoluto, como em Verg. En. 6, 117.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Pedir, suplicar, invocar &ensp; <small>Cíc, Cat. 2, 29; Cíc. Nat. 3, 84: Cíc. Q. Fr. 1, 3, 9.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Desejar bem ou mal &ensp; <small>Cíc. Pis. 43; Cíc. Piso 33.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Precor</b> -<b>aris</b> -<b>atus sum</b> -<b>ari</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; rogar, pedir, supplicar. </p>
+
+
+
+
+#### Velez
+
+<b>Precor</b> -<b>aris</b> <br> <small>1. b.</small>   <p> <b>1</b> &ensp; rogar, pedir &ensp; <small>saepe cum solo accus. personae, à qua petimus, vel rei, quam petimus: | interdum cum aliquid ab aliquo:</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>discedenti bene precari &ensp; <small>rogar bem ao que se aparta, dar boa viagem</small> <br> male, uel mala alicui precari &ensp; <small>rogar mal, lançar pragas</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Precor</b> -<b>aris</b> -<b>atus</b>   <p> <b>1</b> &ensp; rogar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/119429 ' target="_blank"> http://lila-erc.eu/data/id/lemma/119429 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação depoente (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+prĕcor 
+ prĕcāris 
+ prĕcārī 
+ prĕcātus sum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-114-101-99-111-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Placuit caeleste <b>precari</b> numen et auxilium per sacras quaerere sortes . <br> <small> Ov.Met.1.367-8 <br> agradou-lhes suplicar à divindade celeste e buscar ajuda através de oráculos sagrados. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-114-101-99-111-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Ovidius subcorpus registers the highest normalized frequency, with the value of 5.15 and an absolute frequency of 3. The Horatius subcorpus follows, with a normalized frequency of 2.66 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 8 ; absolute frequency: 0.498367845306621. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 12 ; absolute frequency: 2.23959985815868. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-114-101-99-111-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 9.56 and an absolute frequency of 11. The Poesia.didática subcorpus follows, with a normalized frequency of 2.54 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.filosófica ; normalized frequency: 2 ; absolute frequency: 0.329483863527784. subcorpus: Prosa.oratória ; normalized frequency: 7 ; absolute frequency: 0.672088177968949. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 11 ; absolute frequency: 9.55524669909659. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-114-101-99-111-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 2.29 and an absolute frequency of 15. The I.a.C. subcorpus follows, with a normalized frequency of 0.51 and an absolute frequency of 11. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 11 ; absolute frequency: 0.511985105887829. subcorpus: I.d.C. ; normalized frequency: 15 ; absolute frequency: 2.29463056447912. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

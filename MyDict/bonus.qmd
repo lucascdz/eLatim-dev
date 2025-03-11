@@ -1,0 +1,228 @@
+---
+title: "bonus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx98-111-110-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>bŏnus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Bom, boa &ensp; <small>Cíc. Clu. 108: Cíc. Sest. 98.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Corajoso, valente, bravo &ensp; <small>Cíc. Fin. 1,25.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado</small> &ensp; Próprio para, conveniente &ensp; <small>com dativo T. Lív. 29. 31, 9.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado</small> &ensp; Honesto, virtuoso &ensp; <small>Cíc. Verr. 4, 10.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado</small> &ensp; Nobre &ensp; <small>de nascimento Cíc. Mur. 15.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado</small> &ensp; Favorável, propício &ensp; <small>Cíc. Nat. 3, 83.</small> <br> <b>7</b> &ensp; <small>II-Sent. figurado</small> &ensp; Querido, caro &ensp; <small>Hor. Sat. 2, 3, 31.</small> <br> <b>8</b> &ensp; <small>II-Sent. figurado</small> &ensp; Hábil &ensp; <small>poético com infinitivo Verg. Buc. 5, 1.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Bonus</b> -<b>a</b> -<b>um</b> -<b>melior</b> -<b>optimus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; bom, propicio, favoravel. <br> <b>2</b> &ensp; bono genere natus. <br> <b>3</b> &ensp; <small>Cic.</small> &ensp; descendente de huma illustre familia. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>bona pars hominum &ensp; <small><small>Hor</small></small> &ensp; <small>Grande parte dos homens</small> <br> bona tua uenia &ensp; <small><small>Cic</small></small> &ensp; <small>Com tua permissão</small> </p>
+
+
+
+
+#### Velez
+
+<b>Bonus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa boa <br> <b>2</b> &ensp; <small>Pro non vili</small> <br> <b>3</b> &ensp; <small>pro Miti, & Favente</small> <br> <b>4</b> &ensp; <small>Pro Docto</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>bonis prognatus &ensp; <small>nascido de pays honrados</small> <br> <br><b>3</b><br>bonus accipe uoces <br> <br><b>4</b><br>quandoque bonus dormitat Homerus <br> <br><b>X</b><br>bona Cilicum &ensp; <small><small>i, facit; convenit, ubi quis malefactis, ac foedis artibus opes paravit</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Bonus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa boa </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/91782 ' target="_blank"> http://lila-erc.eu/data/id/lemma/91782 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> duenos, dunus, duonus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+bŏnus 
+ bŏna 
+ bŏnum 
+ melĭor 
+ optĭmus
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx98-111-110-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx98-111-110-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword bonus here are all the values plotted: collocate: uir; scoreSUBST: 5. collocate: quisque; scoreSUBST: 0. collocate: ars; scoreSUBST: 3. collocate: Iuppiter; scoreSUBST: 0. collocate: ciuis; scoreSUBST: 2. collocate: mens; scoreSUBST: 2. collocate: mos; scoreSUBST: 2. collocate: adolescens; scoreSUBST: 0. collocate: spes; scoreSUBST: 2. collocate: atque; scoreSUBST: 0. collocate: deus; scoreSUBST: 2. collocate: magnus; scoreSUBST: 0. collocate: qua; scoreSUBST: 0. collocate: pater; scoreSUBST: 2. collocate: condicio; scoreSUBST: 2. collocate: animus; scoreSUBST: 2. collocate: facio; scoreSUBST: 0. collocate: causa; scoreSUBST: 2. collocate: consul; scoreSUBST: 2. collocate: pars; scoreSUBST: 2. collocate: et; scoreSUBST: 0. collocate: quisquam; scoreSUBST: 0. collocate: consulo; scoreSUBST: 0. collocate: semper; scoreSUBST: 0. collocate: multo; scoreSUBST: 0. collocate: malus; scoreSUBST: 0. collocate: gratia; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx98-111-110-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword bonus here are all the values plotted: collocate: uir; scoreADJ: 0. collocate: quisque; scoreADJ: 0. collocate: ars; scoreADJ: 0. collocate: Iuppiter; scoreADJ: 0. collocate: ciuis; scoreADJ: 0. collocate: mens; scoreADJ: 0. collocate: mos; scoreADJ: 0. collocate: adolescens; scoreADJ: 2. collocate: spes; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: deus; scoreADJ: 0. collocate: magnus; scoreADJ: 2. collocate: qua; scoreADJ: 0. collocate: pater; scoreADJ: 0. collocate: condicio; scoreADJ: 0. collocate: animus; scoreADJ: 0. collocate: facio; scoreADJ: 0. collocate: causa; scoreADJ: 0. collocate: consul; scoreADJ: 0. collocate: pars; scoreADJ: 0. collocate: et; scoreADJ: 0. collocate: quisquam; scoreADJ: 0. collocate: consulo; scoreADJ: 0. collocate: semper; scoreADJ: 0. collocate: multo; scoreADJ: 0. collocate: malus; scoreADJ: 2. collocate: gratia; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx98-111-110-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword bonus here are all the values plotted: collocate: uir; scoreVERBO: 0. collocate: quisque; scoreVERBO: 0. collocate: ars; scoreVERBO: 0. collocate: Iuppiter; scoreVERBO: 0. collocate: ciuis; scoreVERBO: 0. collocate: mens; scoreVERBO: 0. collocate: mos; scoreVERBO: 0. collocate: adolescens; scoreVERBO: 0. collocate: spes; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: deus; scoreVERBO: 0. collocate: magnus; scoreVERBO: 0. collocate: qua; scoreVERBO: 0. collocate: pater; scoreVERBO: 0. collocate: condicio; scoreVERBO: 0. collocate: animus; scoreVERBO: 0. collocate: facio; scoreVERBO: 2. collocate: causa; scoreVERBO: 0. collocate: consul; scoreVERBO: 0. collocate: pars; scoreVERBO: 0. collocate: et; scoreVERBO: 0. collocate: quisquam; scoreVERBO: 0. collocate: consulo; scoreVERBO: 2. collocate: semper; scoreVERBO: 0. collocate: multo; scoreVERBO: 0. collocate: malus; scoreVERBO: 0. collocate: gratia; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx98-111-110-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword bonus here are all the values plotted: collocate: uir; scoreADV: 0. collocate: quisque; scoreADV: 0. collocate: ars; scoreADV: 0. collocate: Iuppiter; scoreADV: 0. collocate: ciuis; scoreADV: 0. collocate: mens; scoreADV: 0. collocate: mos; scoreADV: 0. collocate: adolescens; scoreADV: 0. collocate: spes; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: deus; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: qua; scoreADV: 2. collocate: pater; scoreADV: 0. collocate: condicio; scoreADV: 0. collocate: animus; scoreADV: 0. collocate: facio; scoreADV: 0. collocate: causa; scoreADV: 0. collocate: consul; scoreADV: 0. collocate: pars; scoreADV: 0. collocate: et; scoreADV: 0. collocate: quisquam; scoreADV: 0. collocate: consulo; scoreADV: 0. collocate: semper; scoreADV: 2. collocate: multo; scoreADV: 2. collocate: malus; scoreADV: 0. collocate: gratia; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx98-111-110-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword bonus here are all the values plotted: collocate: uir; scoreFUNC: 0. collocate: quisque; scoreFUNC: 0. collocate: ars; scoreFUNC: 0. collocate: Iuppiter; scoreFUNC: 0. collocate: ciuis; scoreFUNC: 0. collocate: mens; scoreFUNC: 0. collocate: mos; scoreFUNC: 0. collocate: adolescens; scoreFUNC: 0. collocate: spes; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: deus; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0. collocate: qua; scoreFUNC: 0. collocate: pater; scoreFUNC: 0. collocate: condicio; scoreFUNC: 0. collocate: animus; scoreFUNC: 0. collocate: facio; scoreFUNC: 0. collocate: causa; scoreFUNC: 0. collocate: consul; scoreFUNC: 0. collocate: pars; scoreFUNC: 0. collocate: et; scoreFUNC: 0. collocate: quisquam; scoreFUNC: 0. collocate: consulo; scoreFUNC: 0. collocate: semper; scoreFUNC: 0. collocate: multo; scoreFUNC: 0. collocate: malus; scoreFUNC: 0. collocate: gratia; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> di <b>boni</b> <br> <small> Cic.Mil.59 <br> Bons deuses! <small> [JDD] </small> </small> </p>
+; <p> dolor accessit <b>bonis</b> viris <br> <small> Cic.Att.1.16.9 <br> a dor se apoderou dos homens bons. <small> [JDD] </small> </small> </p>
+; <p> qua re <b>bono</b> animo es <br> <small> Cic.Att.5.18.3 <br> Por isso fica tranquilo. <small> [JDD] </small> </small> </p>
+; <p> <b>bona</b> mens nec commodatur nec emitur <br> <small> Sen.Ep.27.8 <br> A boa mente não se empresta nem se compra. <small> [JDD] </small> </small> </p>
+; <p> animus sed hic rectus <b>bonus</b> magnus <br> <small> Sen.Ep.31.11 <br> O espírito, mas sendo este reto, bom, grande. <small> [JDD] </small> </small> </p>
+; <p> et aliud cecidit in terram <b>bonam</b> <br> <small> Vulg.Marc.4.8 <br> E outra caiu em terra boa. <small> [JDD] </small> </small> </p>
+; <p> <b>boni</b> viri precibus Clodi removentur a causa <br> <small> Cic.Att.1.13.3 <br> Os homens de bem são afastados da causa por súplicas de Clódio. <small> [JDD] </small> </small> </p>
+; <p> <b>bona</b> condicione geniti sumus si eam non deseruerimus <br> <small> Sen.Helv.5.1 <br> Fomos gerados em boa condição, se não nos afastarmos dela. <small> [JDD] </small> </small> </p>
+; <p> omnia mala exempla ex rebus <b>bonis</b> orta sunt <br> <small> Sal.Cat.51.27 <br> Todos os maus exemplos se originam de boas coisas. <small> [JDD] </small> </small> </p>
+; <p> ea plaga nonne ad multos <b>bonos</b> viros pertinet <br> <small> Cic.Att.2.1.10 <br> Por acaso essa chaga não atinge a muitos homens bons? <small> [JDD] </small> </small> </p>
+; <p> satis enim acutus et permodestus ac <b>bonae</b> frugi <br> <small> Cic.Att.4.8A.3 <br> Pois é bastante agudo e muito modesto e de bom caráter. <small> [JDD] </small> </small> </p>
+; <p> Tu faciem ut istam moribus vincas <b>bonis</b> . <br> <small> Phaed.3.8 <br> e tu, para que venças esse teu rosto com teus bons costumes”. <small> [JDD] </small> </small> </p>
+; <p> negant enim quemquam esse uirum <b>bonum</b> nisi sapientem <br> <small> Cic.Amici.18 <br> pois dizem que nenhum homem é bom, a não ser o sábio. <small> [JDD] </small> </small> </p>
+; <p> at ex <b>bono</b> uiro credo audieras et <b>bono</b> auctore <br> <small> Cic.Ver.2.4.102.1 <br> 102 Mas tinhas ouvido, creio, de um homem de bem e com a autoridade de um homem de bem. <small> [JDD] </small> </small> </p>
+; <p> est consul φιλόπατρις et ut semper iudicavi natura <b>bonus</b> <br> <small> Cic.Att.2.1.4 <br> Ele é um cônsul patriota e, como sempre julguei, bom por natureza. <small> [JDD] </small> </small> </p>
+; <p> deinde dicam non quicquid morale est mores <b>bonos</b> facit <br> <small> Sen.Ep.121.1 <br> depois falarei: nem tudo o que é moral faz os bons costumes. <small> [JDD] </small> </small> </p>
+; <p> nec enim <b>melior</b> uir fuit Africano quisquam nec clarior <br> <small> Cic.Amici.6 <br> pois não houve nenhum homem melhor que o Africano nem mais ilustre. <small> [JDD] </small> </small> </p>
+; <p> si est enim aliquid plus est <b>boni</b> quam putaram <br> <small> Cic.Att.2.7.4 <br> Pois se há algo, está melhor do que eu pensava. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>bonam</b> deperdere famam rem patris oblimare malum est ubicumque <br> <small> Hor.S.1.2.61 <br> Perder a boa reputação, dissipar o bem paterno é em qualquer circunstância um mal. <small> [JDD] </small> </small> </p>
+; <p> ita imperium semper ad <b>optumum</b> quemque a minus <b>bono</b> transfertur <br> <small> Sal.Cat.2.6 <br> Assim o poder sempre é transferido do menos bom para alguém melhor. <small> [JDD] </small> </small> </p>
+; <p> admirabantur <b>boni</b> uiri accusabant amici quod spe pacis legationem suscepissem <br> <small> Cic.Phil.12.5.9 <br> Os bons cidadãos estavam surpresos, os amigos me acusavam por eu ter empreendido uma legação na esperança da paz.” <small> [JDD] </small> </small> </p>
+; <p> accipiet in <b>optimam</b> partem C. Pansa fortissimus consul atque <b>optimus</b> <br> <small> Cic.Phil.7.5.7 <br> Caio Pansa, valorosíssimo e excelente cônsul vai aceitar [o que vou dizer] do melhor modo. <small> [JDD] </small> </small> </p>
+; <p> quis ciuis <b>meliorum</b> partium aliquando quis taetrior hostis huic ciuitati <br> <small> Cic.Cael.13 <br> Que cidadão foi algum dia dos melhores partidos, que cidadão foi o mais abominável inimigo desta cidade? <small> [JDD] </small> </small> </p>
+; <p> apud sordem urbis et faecem multo <b>melius</b> est nunc quam reliquisti <br> <small> Cic.Att.1.16.11 <br> perante a sordidez e a borra da cidade, muito melhor do que deixaste. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> conseruate igitur rei publicae iudices ciuem <b>bonarum</b> artium <b>bonarum</b> partium <b>bonorum</b> uirorum <br> <small> Cic.Cael.77 <br> Preservai, portanto, para a república, juízes, um cidadão das boas artes, do bom partido, dos homens de bem. <small> [JDD] </small> </small> </p>
+; <p> itaque in lectulo lassitudinem pono hanc coci ac pistoris moram <b>boni</b> consulo <br> <small> Sen.Ep.123.1 <br> Por isso ponho o meu cansaço na cama, aceito benévolo este atraso do cozinheiro e do padeiro. <small> [JDD] </small> </small> </p>
+; <p> ubi se colligebat uerecundiam <b>bonum</b> in adulescente signum uix potuit excutere adeo illi ex alto suffusus est rubor <br> <small> Sen.Ep.11.1 <br> Quando se concentrava, mal conseguia se livrar da vergonha, um bom sinal num jovem; tão do fundo o rubor espalhou-se nele. <small> [JDD] </small> </small> </p>
+; <p> et si C. Marius quod fistulas quibus aqua suppeditabatur Iouis <b>optimi</b> maximi templis ac sedibus praecidi imperarat quod in cliuo Capitolino improborum ciuium <br> <small> Cic.Rab.Perd.31 <br> E se Caio Mário, porque tinha ordenado que se cortassem os canos pelos quais era fornecida água para os templos e sedes de Júpiter Ótimo Máximo, porque nas encostas do Capitólio... de ímprobos cidadãos... <small> [JDD] </small> </small> </p>
+; <p> cuius fulgore conlucere atque inlustrari Iouis <b>optimi</b> maximi templum oportebat id apud istum in eius modi conuiuiis constituetur quae domesticis stupris flagitiisque flagrabunt <br> <small> Cic.Ver.2.4.71.3 <br> Esse objeto, com cujo brilho devia resplandecer e iluminar o templo de Júpiter Ótimo Máximo, será colocado na casa desse sujeito, em banquetes desse gênero, que estarão emporcalhados de depravações domésticas e de infâmias? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx98-111-110-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 28.18 and an absolute frequency of 151. The Sallustius subcorpus follows, with a normalized frequency of 26.9 and an absolute frequency of 29. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 6 ; absolute frequency: 2.26603217765692. subcorpus: Cicero ; normalized frequency: 311 ; absolute frequency: 19.3740499862949. subcorpus: Horatius ; normalized frequency: 25 ; absolute frequency: 22.2005150519492. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 9 ; absolute frequency: 13.6632761499924. subcorpus: Sallustius ; normalized frequency: 29 ; absolute frequency: 26.899174473611. subcorpus: Seneca ; normalized frequency: 151 ; absolute frequency: 28.1816315484967. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 7 ; absolute frequency: 24.0302094061105. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx98-111-110-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 31.47 and an absolute frequency of 191. The Prosa.oratória subcorpus follows, with a normalized frequency of 17.47 and an absolute frequency of 182. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 5.21 and an absolute freqeuncy of 6. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 42 ; absolute frequency: 10.2242021470825. subcorpus: Prosa.filosófica ; normalized frequency: 191 ; absolute frequency: 31.4657089669033. subcorpus: Prosa.oratória ; normalized frequency: 182 ; absolute frequency: 17.4742926271927. subcorpus: Prosa.epistolográfica ; normalized frequency: 83 ; absolute frequency: 21.9931635708418. subcorpus: Poesia.lírica ; normalized frequency: 25 ; absolute frequency: 21.0313788171953. subcorpus: Poesia.didática ; normalized frequency: 11 ; absolute frequency: 9.33073203834083. subcorpus: Poesia.trágica ; normalized frequency: 6 ; absolute frequency: 5.21195274496178. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx98-111-110-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 24.78 and an absolute frequency of 162. The I.d.C. subcorpus follows, with a normalized frequency of 24.78 and an absolute frequency of 162. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 6.74 and an absolute freqeuncy of 3. here are all the values: subcorpus: I.a.C. ; normalized frequency: 375 ; absolute frequency: 17.4540377007214. subcorpus: I.d.C. ; normalized frequency: 162 ; absolute frequency: 24.7820100963745. subcorpus: II.d.C. ; normalized frequency: 7 ; absolute frequency: 18.3246073298429. subcorpus: IV.d.C. ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+:::
+

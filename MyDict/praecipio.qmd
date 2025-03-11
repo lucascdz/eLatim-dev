@@ -1,0 +1,209 @@
+---
+title: "praecipio"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-114-97-101-99-105-112-105-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>praecēpī</b> <br> <small>perf. de praecipìo.</small> <br> <small></small> 
+ <b>praecipĭō</b> <b>-is</b> <b>-ère</b> <b>-cépí, -céptum</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói-se com acus.: com acus. e dat;: com inf.: com ut ou subj.: como absoluto.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Tomar de antemão, apoderar-se antecipadamente &ensp; <small>Cés. B. Civ. 3, 31, 2; T. Lív. 1, 7, 1.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Prescrever, recomendar &ensp; <small>Cíc. Mur. 4: Cíc. Fam. 1. 8. 2.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Compreender previamente, adivinhar &ensp; <small>Cíc. At. 1, 10, 2.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Ensinar, instruir, dar lições &ensp; <small>Cíc. De Or. 2, 4.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Praecepso</b> -<b>is</b> <small>& c.</small> -<b>it</b> <br> <small>Cat. por Praecepero, is, it, & c.</small> 
+ <b>Praecipio</b> -<b>is</b> -<b>epi</b> -<b>eptum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; tomar antes, prevenir, anticipar. <br> <b>2</b> &ensp; instruir, dar preceitos, ou regras. <br> <b>3</b> &ensp; prever. <br> <b>4</b> &ensp; <small>Ter.</small> &ensp; ordenar, determinar, mandar. </p> 
+ <small>pret. de Praecipio</small> <b>Praecepi</b>
+
+
+
+
+#### Velez
+
+<b>Praecipio</b> -<b>is</b>   <p> <b>1</b> &ensp; tomar dantes, ou prevenir &ensp; <small>accus.</small> <br> <b>2</b> &ensp; <small>por</small> &ensp; mandar com imperio &ensp; <small>alicui;</small> <br> <b>3</b> &ensp; avizar dantes, instruir, dar preceitos, ensinar &ensp; <small>accus. vel abl. cum De, | interdum aliquid alicui.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>praecipere gaudia, euentu, & c <br> <br><b>3</b><br>praecipere artem oratoriam, uel de arte </p>
+
+
+
+
+#### Cardoso
+
+<b>Praecipio</b> <b>is</b> <b>praecepi</b> <b>praeceptum</b>   <p> <b>1</b> &ensp; mandar. ou ensinar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/118735 ' target="_blank"> http://lila-erc.eu/data/id/lemma/118735 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 5ª conjugação (tema em -ĭ- breve) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> praecipio </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> praecipere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> praecipiet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> praecepi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> praeceptum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> praecepturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-114-97-101-99-105-112-105-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx112-114-97-101-99-105-112-105-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword praecipio here are all the values plotted: collocate: ille; scoreSUBST: 0. collocate: hic; scoreSUBST: 0. collocate: et; scoreSUBST: 0. collocate: is; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx112-114-97-101-99-105-112-105-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword praecipio here are all the values plotted: collocate: ille; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: et; scoreADJ: 0. collocate: is; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx112-114-97-101-99-105-112-105-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword praecipio here are all the values plotted: collocate: ille; scoreVERBO: 0. collocate: hic; scoreVERBO: 0. collocate: et; scoreVERBO: 0. collocate: is; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx112-114-97-101-99-105-112-105-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword praecipio here are all the values plotted: collocate: ille; scoreADV: 0. collocate: hic; scoreADV: 0. collocate: et; scoreADV: 0. collocate: is; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx112-114-97-101-99-105-112-105-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword praecipio here are all the values plotted: collocate: ille; scoreFUNC: 0. collocate: hic; scoreFUNC: 0. collocate: et; scoreFUNC: 0. collocate: is; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> hoc mi Lucili Epicurus <b>praecepit</b> <br> <small> Sen.Ep.11.9 <br> Isto, meu querido Lucílio, foi Epicuro que ensinou. <small> [JDD] </small> </small> </p>
+; <p> et <b>praecepit</b> illis ne cui dicerent <br> <small> Vulg.Marc.7.36 <br> E ordenou-lhes que não dissessem a ninguém. <small> [JDD] </small> </small> </p>
+; <p> et <b>praecepit</b> turbae discumbere supra terram <br> <small> Vulg.Marc.8.6 <br> E ordenou à multidão que se acomodassem no chão. <small> [JDD] </small> </small> </p>
+; <p> quanto autem eis <b>praecipiebat</b> tanto magis plus praedicabant <br> <small> Vulg.Marc.7.36 <br> Porém, quanto mais ele ordenava, tanto mais eles divulgavam. <small> [JDD] </small> </small> </p>
+; <p> et <b>praecepit</b> illis vehementer ut nemo id sciret <br> <small> Vulg.Marc.5.43 <br> E ordenou-lhes com veemência que ninguém o soubesse. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-114-97-101-99-105-112-105-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 17.97 and an absolute frequency of 8. The Sallustius subcorpus follows, with a normalized frequency of 3.71 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 14 ; absolute frequency: 0.872143729286586. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 9 ; absolute frequency: 1.67969989361901. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 8 ; absolute frequency: 17.9734891035722'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-114-97-101-99-105-112-105-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 17.97 and an absolute frequency of 8. The Prosa.filosófica subcorpus follows, with a normalized frequency of 2.14 and an absolute frequency of 13. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 6 ; absolute frequency: 1.46060030672606. subcorpus: Prosa.filosófica ; normalized frequency: 13 ; absolute frequency: 2.14164511293059. subcorpus: Prosa.oratória ; normalized frequency: 8 ; absolute frequency: 0.768100774821657. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 8 ; absolute frequency: 17.9734891035722'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-114-97-101-99-105-112-105-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 17.97 and an absolute frequency of 8. The I.d.C. subcorpus follows, with a normalized frequency of 1.38 and an absolute frequency of 9. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 21 ; absolute frequency: 0.9774261112404. subcorpus: I.d.C. ; normalized frequency: 9 ; absolute frequency: 1.37677833868747. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 8 ; absolute frequency: 17.9734891035722'}
+
+
+:::
+

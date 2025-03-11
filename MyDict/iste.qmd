@@ -1,0 +1,243 @@
+---
+title: "iste"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-115-116-101xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>istaec</b> <b>istanc</b> <br> <small></small> <br> <small>v. istic.</small> 
+ <b>iste</b> <b>ista, istud</b> <br> <small>pron. demonstr. 2ª pess.</small> <br> <small>Obs.: Tem, por vezes, valor pejorativo. Gen, are. isti Plaut. Truc. 930; Ter. Heaut. 382; dat. f. istae Plaut Truc. 790.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Esse, essa, isso: &ensp; <small></small> <br> <b>2</b> &ensp; <small></small> &ensp; Este, tal, semelhante &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>cum icta sis auctoritate Cíc. Mur. 13 “com essa autoridade que tu tens”; Cíc. Cal. I, 16. <br> <br><b>2</b><br>iste centurio Cíc. Cal. 2, 14 “um tal centurião”. </p> 
+ <small>1.</small> <b>isti</b> <br> <small>dat. de iste.</small> <br> <small></small> 
+ <small>1.</small> <b>istic</b> <b>istaec, istoc ou istuc</b> <br> <small>= iste:</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>pl. n.: istaec Cíc. AI. 12, 18a, 2</small> &ensp; “as coisas que dizes”. &ensp; <small></small> </p> 
+ <small>1.</small> <b>isticĭne</b> <b>istaecìne</b> <br> <small>pron. interrog.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Porventura esse? porventura essa? &ensp; <small>Plaut. PS. 81.</small> </p> 
+ <small>2.</small> <b>istoc</b> <br> <small>n. de istic.</small> <br> <small></small> 
+ <small>2.</small> <b>istuc</b> <br> <small>n. de istic.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Iste</b> -<b>a</b> -<b>ud</b> -<b>tius</b> <small>gen</small> <b>isti</b> <small>dat</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; este, esta, isto, esse, essa, isso. </p> 
+ <b>Istic</b> <small>l</small> -<b>aec</b> <small>l</small> -<b>oc</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; este mesmo. </p>
+
+
+
+
+#### Velez
+
+<b>Iste</b> -<b>a</b> -<b>ud</b>   <p> <b>1</b> &ensp; este &ensp; <small>differt ab Hic, quòd hic cum suis derivatis, & compositis dicitur de persona loquente, vel de re ei proxima; nam de me loquens dicere debeo, Hoc caput, haec manus, hic locus, ubi sum: Iste verò cum suis spectat ad personam, cui loquimur, vel ad rem ei proximam, sic de te loquens dico: Istud caput, ista manas, iste locus, id est, istud tuum caput, ista tua manus, iste locus, in quo tu es.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Iste</b> <b>ista</b> <b>istud</b>   <p> <b>1</b> &ensp; essé </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/109122 ' target="_blank"> http://lila-erc.eu/data/id/lemma/109122 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> 1ª classe, pronominal (tema em -a/o-) <br>
+<small> outras grafias: </small> istece, isthic, istic, isticin, isticine, ste <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+istĕ 
+ istă 
+ istŭd 
+ istĭ c
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-115-116-101xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword iste here are all the values plotted: collocate: ab; scoreSUBST: 0. collocate: mulier; scoreSUBST: 2. collocate: tuus; scoreSUBST: 0. collocate: tam; scoreSUBST: 0. collocate: qui; scoreSUBST: 0. collocate: suspicio; scoreSUBST: 2. collocate: inquam; scoreSUBST: 0. collocate: omnis; scoreSUBST: 0. collocate: ad; scoreSUBST: 0. collocate: enim; scoreSUBST: 0. collocate: ne; scoreSUBST: 0. collocate: factum; scoreSUBST: 2. collocate: inter; scoreSUBST: 0. collocate: idem; scoreSUBST: 0. collocate: praetor; scoreSUBST: 2. collocate: sum; scoreSUBST: 0. collocate: sic; scoreSUBST: 0. collocate: ratio; scoreSUBST: 2. collocate: uita; scoreSUBST: 1. collocate: lex; scoreSUBST: 2. collocate: cupiditas; scoreSUBST: 2. collocate: uox; scoreSUBST: 2. collocate: scelus; scoreSUBST: 2. collocate: sententia; scoreSUBST: 1. collocate: quamquam2; scoreSUBST: 0. collocate: munus; scoreSUBST: 2. collocate: aduentus; scoreSUBST: 2. collocate: praeclarus; scoreSUBST: 0. collocate: aliquando; scoreSUBST: 0. collocate: unde; scoreSUBST: 0. collocate: poena; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-115-116-101xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword iste here are all the values plotted: collocate: ab; scoreADJ: 0. collocate: mulier; scoreADJ: 0. collocate: tuus; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: qui; scoreADJ: 0. collocate: suspicio; scoreADJ: 0. collocate: inquam; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: enim; scoreADJ: 0. collocate: ne; scoreADJ: 0. collocate: factum; scoreADJ: 0. collocate: inter; scoreADJ: 0. collocate: idem; scoreADJ: 0. collocate: praetor; scoreADJ: 0. collocate: sum; scoreADJ: 0. collocate: sic; scoreADJ: 0. collocate: ratio; scoreADJ: 0. collocate: uita; scoreADJ: 0. collocate: lex; scoreADJ: 0. collocate: cupiditas; scoreADJ: 0. collocate: uox; scoreADJ: 0. collocate: scelus; scoreADJ: 0. collocate: sententia; scoreADJ: 0. collocate: quamquam2; scoreADJ: 0. collocate: munus; scoreADJ: 0. collocate: aduentus; scoreADJ: 0. collocate: praeclarus; scoreADJ: 2. collocate: aliquando; scoreADJ: 0. collocate: unde; scoreADJ: 0. collocate: poena; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-115-116-101xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword iste here are all the values plotted: collocate: ab; scoreVERBO: 0. collocate: mulier; scoreVERBO: 0. collocate: tuus; scoreVERBO: 0. collocate: tam; scoreVERBO: 0. collocate: qui; scoreVERBO: 0. collocate: suspicio; scoreVERBO: 0. collocate: inquam; scoreVERBO: 2. collocate: omnis; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: enim; scoreVERBO: 0. collocate: ne; scoreVERBO: 0. collocate: factum; scoreVERBO: 0. collocate: inter; scoreVERBO: 0. collocate: idem; scoreVERBO: 0. collocate: praetor; scoreVERBO: 0. collocate: sum; scoreVERBO: 1. collocate: sic; scoreVERBO: 0. collocate: ratio; scoreVERBO: 0. collocate: uita; scoreVERBO: 0. collocate: lex; scoreVERBO: 0. collocate: cupiditas; scoreVERBO: 0. collocate: uox; scoreVERBO: 0. collocate: scelus; scoreVERBO: 0. collocate: sententia; scoreVERBO: 0. collocate: quamquam2; scoreVERBO: 0. collocate: munus; scoreVERBO: 0. collocate: aduentus; scoreVERBO: 0. collocate: praeclarus; scoreVERBO: 0. collocate: aliquando; scoreVERBO: 0. collocate: unde; scoreVERBO: 0. collocate: poena; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-115-116-101xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword iste here are all the values plotted: collocate: ab; scoreADV: 0. collocate: mulier; scoreADV: 0. collocate: tuus; scoreADV: 0. collocate: tam; scoreADV: 2. collocate: qui; scoreADV: 0. collocate: suspicio; scoreADV: 0. collocate: inquam; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: ad; scoreADV: 0. collocate: enim; scoreADV: 2. collocate: ne; scoreADV: 0. collocate: factum; scoreADV: 0. collocate: inter; scoreADV: 0. collocate: idem; scoreADV: 0. collocate: praetor; scoreADV: 0. collocate: sum; scoreADV: 0. collocate: sic; scoreADV: 2. collocate: ratio; scoreADV: 0. collocate: uita; scoreADV: 0. collocate: lex; scoreADV: 0. collocate: cupiditas; scoreADV: 0. collocate: uox; scoreADV: 0. collocate: scelus; scoreADV: 0. collocate: sententia; scoreADV: 0. collocate: quamquam2; scoreADV: 2. collocate: munus; scoreADV: 0. collocate: aduentus; scoreADV: 0. collocate: praeclarus; scoreADV: 0. collocate: aliquando; scoreADV: 2. collocate: unde; scoreADV: 2. collocate: poena; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-115-116-101xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword iste here are all the values plotted: collocate: ab; scoreFUNC: 20. collocate: mulier; scoreFUNC: 0. collocate: tuus; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: qui; scoreFUNC: 0. collocate: suspicio; scoreFUNC: 0. collocate: inquam; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0. collocate: ad; scoreFUNC: 20. collocate: enim; scoreFUNC: 0. collocate: ne; scoreFUNC: 10. collocate: factum; scoreFUNC: 0. collocate: inter; scoreFUNC: 20. collocate: idem; scoreFUNC: 0. collocate: praetor; scoreFUNC: 0. collocate: sum; scoreFUNC: 0. collocate: sic; scoreFUNC: 0. collocate: ratio; scoreFUNC: 0. collocate: uita; scoreFUNC: 0. collocate: lex; scoreFUNC: 0. collocate: cupiditas; scoreFUNC: 0. collocate: uox; scoreFUNC: 0. collocate: scelus; scoreFUNC: 0. collocate: sententia; scoreFUNC: 0. collocate: quamquam2; scoreFUNC: 0. collocate: munus; scoreFUNC: 0. collocate: aduentus; scoreFUNC: 0. collocate: praeclarus; scoreFUNC: 0. collocate: aliquando; scoreFUNC: 0. collocate: unde; scoreFUNC: 0. collocate: poena; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ne <b>ista</b> quidem desunt <br> <small> Cic.Att.4.10.1 <br> Nem mesmo essas me faltam. <small> [JDD] </small> </small> </p>
+; <p> munera <b>ista</b> fortunae putatis <br> <small> Sen.Ep.8.3 <br> Considerais essas coisas presentes da fortuna? <small> [JDD] </small> </small> </p>
+; <p> omnia <b>ista</b> mortis morae sunt <br> <small> Sen.Ep.7.4 <br> Tudo isso é um retardo da morte. <small> [JDD] </small> </small> </p>
+; <p> <b>istos</b> inquies mercede conductos habebimus <br> <small> Cic.Att.2.1.8 <br> Dirás: “Teremos que obter o apoio desses com dinheiro?” <small> [JDD] </small> </small> </p>
+; <p> unde autem <b>ista</b> suspicio est <br> <small> Cic.Phil.12.6.7 <br> De onde é, porém, essa suspeita? <small> [JDD] </small> </small> </p>
+; <p> unde igitur subito tanta <b>ista</b> mutatio <br> <small> Cic.Phil.1.33.3 <br> De onde, portanto, assim de repente essa tão grande mudança? <small> [JDD] </small> </small> </p>
+; <p> quis <b>iste</b> est alter Agamemnon tuus <br> <small> Sen.Ag.962 <br> Quem é esse teu outro Agamenão? <small> [JDD] </small> </small> </p>
+; <p> dices quomodo <b>ista</b> tam diuersa pariter eunt <br> <small> Sen.Ep.5.7 <br> Dirás: “Como esses sentimentos tão díspares estão par a par?”[*] <small>  </small> </small> </p>
+; <p> <b>isto</b> enim nomine illa adhuc causa caruit <br> <small> Cic.Lig.17 <br> Pois tal causa não teve até agora esse nome. <small> [JDD] </small> </small> </p>
+; <p> at semel <b>iste</b> est corruptus a uobis <br> <small> Cic.Deiot.31 <br> Mas só uma vez esse foi corrompido por vós. <small> [JDD] </small> </small> </p>
+; <p> nunc uero quae tua est <b>ista</b> uita <br> <small> Cic.Catil.1.16.4 <br> Mas agora, que vida é essa tua? <small> [JDD] </small> </small> </p>
+; <p> non quaero inquit <b>istos</b> quicumque ordinem duxit iudicet <br> <small> Cic.Phil.1.20.7 <br> “Não busco esses”, diz: “qualquer um que comandou uma centúria, pode ser juiz.” <small> [JDD] </small> </small> </p>
+; <p> Eandem virtutem <b>istam</b> veniet tempus cum graviter gemes <br> <small> Cic.Att.2.19.3 <br> “Um tempo virá em que gemerás penosamente esse mesmo valor” <small> [JDD] </small> </small> </p>
+; <p> longe mea discrepat <b>istis</b> et uox et ratio <br> <small> Hor.S.1.6.92 <br> Minha voz e minha razão discrepam muito desses. <small> [JDD] </small> </small> </p>
+; <p> uerum ad <b>istam</b> omnem orationem breuis est defensio <br> <small> Cic.Cael.9 <br> Mas para todo esse teu discurso minha defesa é breve. <small> [JDD] </small> </small> </p>
+; <p> tum frequens senatus ad <b>istum</b> uenit pollicetur signum <br> <small> Cic.Ver.2.4.87.8 <br> Então o senado em grande número veio até esse sujeito, promete-lhe a estátua. <small> [JDD] </small> </small> </p>
+; <p> una spes est salutis <b>istorum</b> inter <b>istos</b> dissensio <br> <small> Cic.Att.2.7.3 <br> A única esperança de salvação é o desacordo entre esses indivíduos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>isti</b> laudatores tui ne ne testes mei sunt <br> <small> Cic.Ver.2.4.19.8 <br> Por acaso esses teus elogiadores não são minhas testemunhas? <small> [JDD] </small> </small> </p>
+; <p> itaque illo tempore ac primo <b>istius</b> aduentu pernegatur <br> <small> Cic.Ver.2.4.76.3 <br> E assim, na ocasião e na primeira vinda desse, lhe é terminantemente negado. <small> [JDD] </small> </small> </p>
+; <p> unde igitur <b>ista</b> suspicio uel potius unde <b>iste</b> sermo <br> <small> Cic.Phil.14.14.10 <br> De onde, portanto, essa suspeita, ou melhor, de onde essa conversa? <small> [JDD] </small> </small> </p>
+; <p> ubi denique est in <b>ista</b> suspicione Caeli nomen auditum <br> <small> Cic.Cael.15 <br> Onde, afinal, o nome de Célio foi ouvido nessa suspeita? <small> [JDD] </small> </small> </p>
+; <p> proinde <b>isti</b> licet faciant quos volent consules tribunos plebis <br> <small> Cic.Att.2.9.2 <br> Assim, mesmo que esses façam quem eles querem como cônsules, tribunos da plebe <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Diodorus interea praetore <b>isto</b> prope triennium prouincia domoque caruit <br> <small> Cic.Ver.2.4.41.14 <br> Diodoro, entretanto, com esse sujeito pretor, não teve província nem pátria por quase três anos. <small> [JDD] </small> </small> </p>
+; <p> ubi enim <b>istum</b> inuenias qui honorem amici anteponat suo <br> <small> Cic.Amici.64 <br> pois onde encontrarias esse que antepõe ao seu o cargo do amigo? <small> [JDD] </small> </small> </p>
+; <p> quis est enim hodie cuius intersit <b>istam</b> legem manere <br> <small> Cic.Phil.1.21.4 <br> Pois quem há hoje em dia a quem importe que essa lei permaneça? <small> [JDD] </small> </small> </p>
+; <p> et inimicissimus quidem Caesaris et ut omnia inquit <b>ista</b> rescindat <br> <small> Cic.Att.2.12.2 <br> “E na verdade inimicíssimo de César”, diz, “e pretendendo anular todos os seus atos”. <small> [JDD] </small> </small> </p>
+; <p> <b>iste</b> homo non est unus e populo ad salutem spectat <br> <small> Sen.Ep.10.3 <br> esse homem não é mais um do povo, olha para a sua salvação.” <small> [JDD] </small> </small> </p>
+; <p> primum <b>ista</b> tam seni ante oculos debet esse quam iuueni <br> <small> Sen.Ep.12.6 <br> Primeiramente, ela deve estar tanto diante dos olhos do velho como do jovem <small> [JDD] </small> </small> </p>
+; <p> quae <b>ista</b> est eodem tribuno plebis et inimico consule designato <br> <small> Cic.Att.3.12.1 <br> Que esperança é essa com o mesmo tribuno da plebe e um inimigo meu como cônsul designado? <small> [JDD] </small> </small> </p>
+; <p> censeo aut ex <b>ista</b> uita tibi aut e uita exeundum <br> <small> Sen.Ep.22.3 <br> penso que deves sair dessa vida ou da vida. <small> [JDD] </small> </small> </p>
+; <p> audetis ne cum ab ea muliere ueniatis facere <b>istorum</b> hominum mentionem <br> <small> Cic.Cael.71 <br> Vós ousais, uma vez que vindes da parte dessa mulher, fazer menção a esses homens? <small> [JDD] </small> </small> </p>
+; <p> at <b>ista</b> poenas capite persoluet suo captiua coniunx regii paelex tori <br> <small> Sen.Ag.1001 <br> Mas essa cônjuge prisioneira, essa concubina do leito real, que pague inteiramente as penas com sua cabeça. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quamquam Quirites mihi quidem ipsi nihil ab <b>istis</b> iam noceri potest <br> <small> Cic.Catil.3.27.9 <br> Embora, Quirites, na verdade, a mim próprio já nada pode ser prejudicado por esses. <small> [JDD] </small> </small> </p>
+; <p> Sopater iterum flens ad senatum rem defert <b>istius</b> cupiditatem minasque demonstrat <br> <small> Cic.Ver.2.4.85.13 <br> Sópatro, chorando, leva novamente o assunto ao senado; mostra a cupidez e as ameaças desse sujeito. <small> [JDD] </small> </small> </p>
+; <p> spero me praeclaras de <b>istis</b> rebus epistulas ad te saepe missurum <br> <small> Cic.Att.2.7.3 <br> Espero mandar-te brilhantes cartas sobre esses assuntos com frequência. <small> [JDD] </small> </small> </p>
+; <p> uellem in amicitia sic erraremus et <b>isti</b> errori nomen uirtus posuisset honestum <br> <small> Hor.S.1.3.41 <br> Eu queria que na amizade nos iludíssemos assim e que a virtude tivesse dado a essa ilusão um nome honroso. <small> [JDD] </small> </small> </p>
+; <p> et apertior <b>ista</b> sententia est quam ut interpretanda sit et disertior quam ut adiuuanda <br> <small> Sen.Ep.21.8 <br> E essa sentença é muito clara para que precise ser interpretada e muito expressiva para precise ser reforçada. <small> [JDD] </small> </small> </p>
+; <p> eos enim deduxi testis et eas litteras deportaui ut de <b>istius</b> facto dubium esse nemini possit <br> <small> Cic.Ver.2.4.91.9 <br> Pois eu fiz vir essas testemunhas e trouxe esses documentos de modo que para ninguém possa ser duvidoso acerca da ação desse sujeito. <small> [JDD] </small> </small> </p>
+; <p> non modo si socius coniurationis sed nisi inimicissimus <b>istius</b> sceleris fuisset numquam coniurationis accusatione adulescentiam suam potissimum commendare uoluisset <br> <small> Cic.Cael.15 <br> Se ele não simplesmente tivesse sido um cúmplice da conjuração, mas, sim, se ele não tivesse sido inimicíssimo desse crime, nunca teria querido de preferência recomendar a sua juventude, com a acusação de uma conjuração. <small> [JDD] </small> </small> </p>
+; <p> finem constitue quem transire ne uelis quidem si possis discedant aliquando <b>ista</b> insidiosa bona et sperantibus meliora quam adsecutis <br> <small> Sen.Ep.15.11 <br> Determina um limite que não possas ir além, ainda que queiras; que vão embora de uma vez esses esses bens enganadores e melhores quando se esperam do que quando são conseguidos.[*] <small>  </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-115-116-101xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 36.39 and an absolute frequency of 195. The Cicero subcorpus follows, with a normalized frequency of 32.33 and an absolute frequency of 519. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 519 ; absolute frequency: 32.331613964267. subcorpus: Horatius ; normalized frequency: 6 ; absolute frequency: 5.32812361246781. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 195 ; absolute frequency: 36.3934976950785. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-115-116-101xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 40.61 and an absolute frequency of 423. The Prosa.filosófica subcorpus follows, with a normalized frequency of 33.61 and an absolute frequency of 204. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 3 ; absolute frequency: 0.730300153363032. subcorpus: Prosa.filosófica ; normalized frequency: 204 ; absolute frequency: 33.6073540798339. subcorpus: Prosa.oratória ; normalized frequency: 423 ; absolute frequency: 40.6133284686951. subcorpus: Prosa.epistolográfica ; normalized frequency: 64 ; absolute frequency: 16.9585839582395. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 6 ; absolute frequency: 5.08949020273136. subcorpus: Poesia.trágica ; normalized frequency: 23 ; absolute frequency: 19.9791521890202. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-115-116-101xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 30.75 and an absolute frequency of 201. The I.a.C. subcorpus follows, with a normalized frequency of 24.58 and an absolute frequency of 528. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 528 ; absolute frequency: 24.5752850826158. subcorpus: I.d.C. ; normalized frequency: 201 ; absolute frequency: 30.7480495640202. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+:::
+

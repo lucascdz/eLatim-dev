@@ -1,0 +1,205 @@
+---
+title: "incido"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-110-99-105-100-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>incĭdī</b> <br> <small>perf. de incìdo 1.</small> <br> <small></small> 
+ <small>1.</small> <b>incĭdō</b> <b>-is</b> <b>-ère</b> <b>-cìdí</b> <br> <small>v. intr.</small> <br> <small>Obs.: Constrói-se com acus. com in ou ad; com dat.; ou intransitivamente.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Cair em ou sobre &ensp; <small>sent. próprio e figurado Cíc. Phil. 4. 12; T. Lív. 8. 8. 13; Cíc. cru. 21; Cíc. Fam: 13. 29. 4.</small> <br> <b>2</b> &ensp; <small>Daí</small> &ensp; Acontecer, sobrevir, suceder &ensp; <small>T. Lív. 26. 23. 2; Cíc. Fin. '4. 43.</small> <br> <b>3</b> &ensp; <small>Sent. figurado:</small> &ensp; Abater-se sobre, apoderar-se &ensp; <small>Cés. B. Civ. 3. 13. 2.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Incido</b> -<b>is</b> -<b>idi</b> -<b>asum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; cahir em, ou sobre, ou acaso. <br> <b>2</b> &ensp; succeder, acontecer. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>incidere alicui &ensp; <small><small>Cic</small></small> &ensp; <small>Encontrar casualmente alguem</small> <br> incidere alicui in mentem &ensp; <small><small>Cic</small></small> &ensp; <small>Vir ao pensamento a alguem</small> <br> incidere in aes alienum &ensp; <small><small>Cic</small></small> &ensp; <small>Contrahir dividas</small> </p>
+
+
+
+
+#### Velez
+
+<b>Incido</b> -<b>is</b>   <p> <b>1</b> &ensp; cahir em, ou sobre alguma cousa &ensp; <small>dat.</small> <br> <b>2</b> &ensp; <small>Interdum absolutè</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>mentio, uel quaestio incidit <br> <br><b>X</b><br>in errorem incidere, in latrones &ensp; <small>cahir em erro, em maõ de ladroens</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Incido</b> <b>is</b>   <p> <b>1</b> &ensp; cayr. ou acontecer </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/106954 ' target="_blank"> http://lila-erc.eu/data/id/lemma/106954 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> incido </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> incidere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> incidet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> incidi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> incasurum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+incĭdō 
+ incĭdis 
+ incĭdĕre 
+ incĭdī
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-110-99-105-100-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword incido here are all the values plotted: collocate: bellum; scoreSUBST: 2. collocate: ille; scoreSUBST: 0. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-110-99-105-100-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword incido here are all the values plotted: collocate: bellum; scoreADJ: 0. collocate: ille; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-110-99-105-100-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword incido here are all the values plotted: collocate: bellum; scoreVERBO: 0. collocate: ille; scoreVERBO: 0. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-110-99-105-100-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword incido here are all the values plotted: collocate: bellum; scoreADV: 0. collocate: ille; scoreADV: 0. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-110-99-105-100-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword incido here are all the values plotted: collocate: bellum; scoreFUNC: 0. collocate: ille; scoreFUNC: 0. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quos ego homines effugi cum in hos <b>incidi</b> <br> <small> Cic.Att.2.15.3 <br> Eu fugi daqueles homens e caí nestes? <small> [JDD] </small> </small> </p>
+; <p> nescio inquis quomodo paupertatem iste laturus sit si in illam <b>inciderit</b> <br> <small> Sen.Ep.20.11 <br> “Não sei”, dizes, “como esse suportará a pobreza, se cair nela.” <small> [JDD] </small> </small> </p>
+; <p> quod si fecerit Haeduorum auctoritatem apud omnes Belgas amplificaturum quorum auxiliis atque opibus si qua bella <b>inciderint</b> sustentare consuerint <br> <small> Caes.Gal.2.14.6 <br> E que se fizer isso, ampliará a autoridade dos éduos entre todos os belgas, com cujos auxílios e recursos costumaram sustentar-se, se algumas guerras lhes ocorressem. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-110-99-105-100-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 4.11 and an absolute frequency of 22. The Horatius subcorpus follows, with a normalized frequency of 1.78 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 4 ; absolute frequency: 1.51068811843795. subcorpus: Cicero ; normalized frequency: 24 ; absolute frequency: 1.49510353591986. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 22 ; absolute frequency: 4.10593307329091. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-110-99-105-100-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 4.28 and an absolute frequency of 26. The Poesia.didática subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 5 ; absolute frequency: 1.21716692227172. subcorpus: Prosa.filosófica ; normalized frequency: 26 ; absolute frequency: 4.28329022586119. subcorpus: Prosa.oratória ; normalized frequency: 11 ; absolute frequency: 1.05613856537978. subcorpus: Prosa.epistolográfica ; normalized frequency: 6 ; absolute frequency: 1.58986724608495. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-110-99-105-100-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 3.37 and an absolute frequency of 22. The I.a.C. subcorpus follows, with a normalized frequency of 1.44 and an absolute frequency of 31. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 31 ; absolute frequency: 1.44286711659297. subcorpus: I.d.C. ; normalized frequency: 22 ; absolute frequency: 3.36545816123604. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

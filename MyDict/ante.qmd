@@ -1,0 +1,208 @@
+---
+title: "ante"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-110-116-101xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>ante</b> <br> <small>prep. de acus.</small> <br> <small>Obs.: Às vezes, nos poetas, vem posposta à palavra com a qual está construída Lucr. 3, 67; Ov. F. 1, 503.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Diante de, na presença de, perante &ensp; <small>ideia de lugar:</small> <br> <b>2</b> &ensp; <small></small> &ensp; Antes de &ensp; <small>ideia de tempo:</small> <br> <b>3</b> &ensp; <small></small> &ensp; Mais que &ensp; <small>ideia de superioridade, em estilo poético:</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>ante oppidum considere Cés. B. Gal. 7, 79, 4 «tomar posição diante da cidadela» . <br> <br><b>2</b><br>ante primam confectam vigiliam Cés. B. Gal. 7, 3, 3 «antes de terminada a primeira vigília». Em abreviatura: a. d. = ante diem. <br> <br><b>3</b><br>scelere ante alios immanior omnes Verg. En. 1, 347 «o mais monstruoso celerado de todos os homens»,. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Ante</b> <br> <small>prep. de accus.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; diante, ante, perante, em presença. <br> <b>2</b> &ensp; antes, mais. </p>
+
+
+
+
+#### Velez
+
+<b>Ante</b> <br> <small>Praep.</small>   <p> <b>1</b> &ensp; antes &ensp; <small>Cum suo casu postponitur, ablativum habet temporis, sed tunc est adverbium</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>tribus ante quatuor mensibus ortus erat </p>
+
+
+
+
+#### Cardoso
+
+<b>Ante</b> <br> <small>praepositio.</small>   <p> <b>1</b> &ensp; antes </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>ante diem <br> ante tempus </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/89164 ' target="_blank"> http://lila-erc.eu/data/id/lemma/89164 </a> <br>
+<small> classe: </small> preposição    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> anti <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+antĕ
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-110-116-101xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ante here are all the values plotted: collocate: oculus; scoreSUBST: 4. collocate: ara; scoreSUBST: 3. collocate: lux; scoreSUBST: 2. collocate: dies; scoreSUBST: 3. collocate: pono; scoreSUBST: 0. collocate: paulo; scoreSUBST: 0. collocate: nox; scoreSUBST: 2. collocate: mors; scoreSUBST: 2. collocate: tempus; scoreSUBST: 2. collocate: bellum; scoreSUBST: 2. collocate: omnis; scoreSUBST: 0. collocate: ego; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-110-116-101xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ante here are all the values plotted: collocate: oculus; scoreADJ: 0. collocate: ara; scoreADJ: 0. collocate: lux; scoreADJ: 0. collocate: dies; scoreADJ: 0. collocate: pono; scoreADJ: 0. collocate: paulo; scoreADJ: 0. collocate: nox; scoreADJ: 0. collocate: mors; scoreADJ: 0. collocate: tempus; scoreADJ: 0. collocate: bellum; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: ego; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-110-116-101xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ante here are all the values plotted: collocate: oculus; scoreVERBO: 0. collocate: ara; scoreVERBO: 0. collocate: lux; scoreVERBO: 0. collocate: dies; scoreVERBO: 0. collocate: pono; scoreVERBO: 2. collocate: paulo; scoreVERBO: 0. collocate: nox; scoreVERBO: 0. collocate: mors; scoreVERBO: 0. collocate: tempus; scoreVERBO: 0. collocate: bellum; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0. collocate: ego; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-110-116-101xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ante here are all the values plotted: collocate: oculus; scoreADV: 0. collocate: ara; scoreADV: 0. collocate: lux; scoreADV: 0. collocate: dies; scoreADV: 0. collocate: pono; scoreADV: 0. collocate: paulo; scoreADV: 0. collocate: nox; scoreADV: 0. collocate: mors; scoreADV: 0. collocate: tempus; scoreADV: 0. collocate: bellum; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: ego; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-110-116-101xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ante here are all the values plotted: collocate: oculus; scoreFUNC: 0. collocate: ara; scoreFUNC: 0. collocate: lux; scoreFUNC: 0. collocate: dies; scoreFUNC: 0. collocate: pono; scoreFUNC: 0. collocate: paulo; scoreFUNC: 0. collocate: nox; scoreFUNC: 0. collocate: mors; scoreFUNC: 0. collocate: tempus; scoreFUNC: 0. collocate: bellum; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0. collocate: ego; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> cecidit <b>ante</b> aras pater <br> <small> Sen.Ag.792 <br> Diante dos altares tombou meu pai. <small> [JDD] </small> </small> </p>
+; <p> molestum est inquis mortem <b>ante</b> oculos habere <br> <small> Sen.Ep.12.6 <br> “É desagradável”, dizes, “ter a morte diante dos olhos.” <small> [JDD] </small> </small> </p>
+; <p> hoc <b>ante</b> omnia fac mi Lucili disce gaudere <br> <small> Sen.Ep.23.3 <br> Faz isto antes de tudo, meu querido Lucílio: aprende a satisfazer-te. <small> [JDD] </small> </small> </p>
+; <p> primum ista tam seni <b>ante</b> oculos debet esse quam iuueni <br> <small> Sen.Ep.12.6 <br> Primeiramente, ela deve estar tanto diante dos olhos do velho como do jovem <small> [JDD] </small> </small> </p>
+; <p> illud autem tempus quotannis <b>ante</b> me fuerat in hoc quaestu <br> <small> Cic.Att.5.21.7 <br> Ora, antes de mim, aquele período de cada ano estava neste ganho. <small> [JDD] </small> </small> </p>
+; <p> eo si <b>ante</b> eam diem non veneris Romae te fortasse videbo <br> <small> Cic.Att.2.11.1 <br> Por isso, se não vieres até esse dia, te verei talvez em Roma. <small> [JDD] </small> </small> </p>
+; <p> <b>Ante</b> hos sex menses male , ait , dixisti mihi . <br> <small> Phaed.1.1 <br> “Há seis meses falaste mal de mim”. <small> [JDD] </small> </small> </p>
+; <p> periucundus mihi Cincius fuit ante diem iii Kal Febr <b>ante</b> lucem <br> <small> Cic.Att.4.4.1 <br> No terceiro dia antes das calendas de fevereiro [30 de janeiro], antes do amanhecer, Cíncio me deu uma grande alegria. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> cum tot edicta proposuisset edixit ut adesset senatus frequens <b>a.</b> d. VIII <br> <small> Cic.Phil.3.19.1 <br> Depois de ter proposto tantos editos, ordenou que o senado se apresentasse cheio no oitavo dia antes das calendas de dezembro [24 de novembro] <small> [JDD, de outra edição] </small> </small> </p>
+; <p> unus homo nobis cunctando restituit rem non enim rumores ponebat <b>ante</b> salutem <br> <small> Cic.Sen.10 <br> “Um só homem, contemporizando, nos restituiu a república. Pois não antepunha os rumores à nossa salvação. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> haec quoque per exploratores <b>ante</b> lucem in tanta propinquitate castrorum ad hostes deferuntur <br> <small> Caes.Gal.6.7.9 <br> Em tão grande proximidade dos acampamentos, essas informações também são levadas antes do amanhecer, por meio dos batedores, aos inimigos. <small> [JDD] </small> </small> </p>
+; <p> nunc quicquid est quocumque uestrae mentes inclinant atque sententiae statuendum uobis <b>ante</b> noctem est <br> <small> Cic.Catil.4.6.7 <br> Agora, seja como for, para onde quer que se inclinem vossos pensamentos e opiniões, vós deveis decidir antes da noite. <small> [JDD] </small> </small> </p>
+; <p> ante diem xii Kal Decembr Milo <b>ante</b> mediam noctem cum magna manu in campum venit <br> <small> Cic.Att.4.3.4 <br> No décimo segundo dia antes das calendas de dezembro [20 de novembro], antes da meia noite, Milão veio ao Campo de Marte com um grande número de soldados. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ceteri nihil suspicantes dant Cassius semet eo breui uenturum pollicetur ac paulo <b>ante</b> legatos ex urbe proficiscitur <br> <small> Sal.Cat.44.2 <br> Os outros, não suspeitando de nada, dão, Cássio promete ir logo ele próprio lá e pouco antes dos legados vai embora da cidade. <small> [JDD] </small> </small> </p>
+; <p> nam fuit <b>ante</b> Helenam cunnus taeterrima belli causa sed ignotis perierunt mortibus illi quos uenerem incertam rapientis more ferarum uiribus editior caedebat ut in grege taurus <br> <small> Hor.S.1.3.107 <br> Pois antes de Helena, a boceta foi causa funesta de guerra, mas pereceram de mortes ignotas aqueles que o que era superior em forças matava, quando, igual às feras, agarravam uma vênus incerta, como o touro no rebanho. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-110-116-101xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 22.05 and an absolute frequency of 2. The Tacitus subcorpus follows, with a normalized frequency of 3.43 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 1.52 and an absolute freqeuncy of 1. here are all the values: subcorpus: Caesar ; normalized frequency: 10 ; absolute frequency: 3.77672029609487. subcorpus: Cicero ; normalized frequency: 75 ; absolute frequency: 4.67219854974957. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 31 ; absolute frequency: 5.78563296690991. subcorpus: Suetonius ; normalized frequency: 2 ; absolute frequency: 22.0507166482911. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Hieronymus ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-110-116-101xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 11.58 and an absolute frequency of 6. The Poesia.épica subcorpus follows, with a normalized frequency of 11.58 and an absolute frequency of 6. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 3.37 and an absolute freqeuncy of 4. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 17 ; absolute frequency: 4.13836753572385. subcorpus: Prosa.filosófica ; normalized frequency: 34 ; absolute frequency: 5.60122567997232. subcorpus: Prosa.oratória ; normalized frequency: 52 ; absolute frequency: 4.99265503634077. subcorpus: Prosa.epistolográfica ; normalized frequency: 13 ; absolute frequency: 3.4447123665174. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 7 ; absolute frequency: 6.08061153578874. subcorpus: Poesia.épica ; normalized frequency: 6 ; absolute frequency: 11.5830115830116. subcorpus: Prosa.ficcional ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-110-116-101xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 7.85 and an absolute frequency of 3. The II.d.C. subcorpus follows, with a normalized frequency of 7.85 and an absolute frequency of 3. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 4.61 and an absolute freqeuncy of 99. here are all the values: subcorpus: I.a.C. ; normalized frequency: 99 ; absolute frequency: 4.60786595299046. subcorpus: I.d.C. ; normalized frequency: 35 ; absolute frequency: 5.35413798378461. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+:::
+

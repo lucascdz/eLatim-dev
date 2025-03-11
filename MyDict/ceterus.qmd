@@ -1,0 +1,210 @@
+---
+title: "ceterus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-101-116-101-114-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>cētĕrus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small>Obs.: cetèri contrapõe-se a alii.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Que resta, restante &ensp; <small>Sal. C. Cat. 36, 2.</small> <br> <b>2</b> &ensp; <small>II-Daí, no plural</small> &ensp; Os outros, os restantes, o resto &ensp; <small>Cíc. Verr. 5, 171.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Caeterus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; restante, que resta. <br> <b>2</b> &ensp; <small>Caetera, accus. do plur. Virg.</small> &ensp; no demais, no restante. &ensp; <small>Subentende-se a prep. Grega Kata, ou a Latina Secundum.</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Caeter</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; ho restante </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/93624 ' target="_blank"> http://lila-erc.eu/data/id/lemma/93624 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> caeter, caeterus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+cētĕrus 
+ cētĕra 
+ cētĕrum
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-101-116-101-114-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ceterus here are all the values plotted: collocate: praeter; scoreSUBST: 0. collocate: par; scoreSUBST: 0. collocate: nam; scoreSUBST: 0. collocate: cum3; scoreSUBST: 0. collocate: lentulus; scoreSUBST: 0. collocate: que; scoreSUBST: 0. collocate: gens; scoreSUBST: 2. collocate: res; scoreSUBST: 2. collocate: cum; scoreSUBST: 0. collocate: ab; scoreSUBST: 0. collocate: de; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-101-116-101-114-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ceterus here are all the values plotted: collocate: praeter; scoreADJ: 0. collocate: par; scoreADJ: 2. collocate: nam; scoreADJ: 0. collocate: cum3; scoreADJ: 0. collocate: lentulus; scoreADJ: 2. collocate: que; scoreADJ: 0. collocate: gens; scoreADJ: 0. collocate: res; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: ab; scoreADJ: 0. collocate: de; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-101-116-101-114-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ceterus here are all the values plotted: collocate: praeter; scoreVERBO: 0. collocate: par; scoreVERBO: 0. collocate: nam; scoreVERBO: 0. collocate: cum3; scoreVERBO: 0. collocate: lentulus; scoreVERBO: 0. collocate: que; scoreVERBO: 0. collocate: gens; scoreVERBO: 0. collocate: res; scoreVERBO: 0. collocate: cum; scoreVERBO: 0. collocate: ab; scoreVERBO: 0. collocate: de; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-101-116-101-114-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ceterus here are all the values plotted: collocate: praeter; scoreADV: 0. collocate: par; scoreADV: 0. collocate: nam; scoreADV: 2. collocate: cum3; scoreADV: 2. collocate: lentulus; scoreADV: 0. collocate: que; scoreADV: 0. collocate: gens; scoreADV: 0. collocate: res; scoreADV: 0. collocate: cum; scoreADV: 0. collocate: ab; scoreADV: 0. collocate: de; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-101-116-101-114-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ceterus here are all the values plotted: collocate: praeter; scoreFUNC: 20. collocate: par; scoreFUNC: 0. collocate: nam; scoreFUNC: 0. collocate: cum3; scoreFUNC: 0. collocate: lentulus; scoreFUNC: 0. collocate: que; scoreFUNC: 0. collocate: gens; scoreFUNC: 0. collocate: res; scoreFUNC: 0. collocate: cum; scoreFUNC: 20. collocate: ab; scoreFUNC: 20. collocate: de; scoreFUNC: 20. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>cetera</b> in magnis rebus <br> <small> Cic.Att.2.19.1 <br> O resto nos grandes assuntos. <small> [JDD] </small> </small> </p>
+; <p> nam <b>ceteri</b> dolores mitigantur vetustate <br> <small> Cic.Att.3.15.2 <br> Pois as demais dores são mitigadas com o passar do tempo. <small> [JDD] </small> </small> </p>
+; <p> in <b>ceteris</b> parem habuit neminem <br> <small> Cic.Att.4.15.6 <br> não teve ninguém igual entre os demais. <small> [JDD] </small> </small> </p>
+; <p> totius theatri clamore dixit itemque <b>cetera</b> <br> <small> Cic.Att.2.19.3 <br> disse, com o clamor de todo o teatro, e também o resto. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> de exercitu dicam breuiter ut <b>cetera</b> <br> <small> Cic.Deiot.22 <br> Sobre o exército vou falar sucintamente, assim como das demais coisas. <small> [JDD] </small> </small> </p>
+; <p> <b>ceteris</b> prae se fert et ostentat <br> <small> Cic.Att.2.23.3 <br> perante os outros mostra e ostenta. <small> [JDD] </small> </small> </p>
+; <p> res praetoribus erat nota solis ignorabatur a <b>ceteris</b> <br> <small> Cic.Catil.3.6.4 <br> O fato só era conhecido dos pretores, era ignorado pelos outros. <small> [JDD] </small> </small> </p>
+; <p> et <b>cetera</b> magno cum fremitu et clamore sunt dicta <br> <small> Cic.Att.2.19.3 <br> e demais coisas foram ditas com grande frêmito e clamor. <small> [JDD] </small> </small> </p>
+; <p> nam de <b>ceteris</b> sed tamen commode quod cum Scrofa <br> <small> Cic.Att.5.4.2 <br> Pois quanto aos outros - mas ótimo o que tratasta com Escrofa. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nam cum se utilem <b>ceteris</b> efficit commune agit negotium <br> <small> Sen.Ot.3.5 <br> Com efeito, quando se faz útil aos demais, se ocupa de um negócio público. <small> [JDD] </small> </small> </p>
+; <p> praeter sapientem autem nemo unum agit <b>ceteri</b> multiformes sumus <br> <small> Sen.Ep.120.22 <br> Ora, com exceção do sábio, ninguém age como um único, todos os demais somos multiformes. <small> [JDD] </small> </small> </p>
+; <p> nec solum Siculi uerum etiam <b>ceterae</b> gentes nationesque Hennensem Cererem maxime colunt <br> <small> Cic.Ver.2.4.108.1 <br> 108 E não só os Sicilianos, mas também os demais povos e nações cultuam muitíssimo Ceres Henense. <small> [JDD] </small> </small> </p>
+; <p> qua re ut ad te ante scripsi cum <b>cetera</b> tum res publica cura ut mihi nota sit <br> <small> Cic.Att.5.15.3 <br> Por isso, como te escrevi antes, cuida para que me sejam conhecidos tanto os outros assuntos como também os públicos. <small> [JDD] </small> </small> </p>
+; <p> quare cum de P. Lentulo <b>ceteris</b>que statuetis pro certo habetote uos simul de exercitu Catilinae et de omnibus coniuratis decernere <br> <small> Sal.Cat.52.17 <br> Por isso, quando tomardes uma decisão acerca de Públio Lêntulo e dos demais, tende por certo que vós estareis decidindo ao mesmo tempo acerca do exército de Catilina e de todos os conjurados. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> igitur perlectis litteris cum prius omnes signa sua cognouissent senatus decernit uti abdicato magistratu Lentulus itemque <b>ceteri</b> in liberis custodiis habeantur <br> <small> Sal.Cat.47.3 <br> Então, depois de lida a carta, uma vez que todos tinham reconhecido previamente seus próprios selos, o senado decreta que Lêntulo, destituído de sua magistratura, e também os demais sejam mantidos sob guardas particulares. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-101-116-101-114-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 32.46 and an absolute frequency of 35. The Suetonius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 6 ; absolute frequency: 2.26603217765692. subcorpus: Cicero ; normalized frequency: 193 ; absolute frequency: 12.0231242680222. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 35 ; absolute frequency: 32.464520916427. subcorpus: Seneca ; normalized frequency: 25 ; absolute frequency: 4.66583303783057. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 6 ; absolute frequency: 20.5973223480947. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-101-116-101-114-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 12.72 and an absolute frequency of 48. The Prosa.oratória subcorpus follows, with a normalized frequency of 12.19 and an absolute frequency of 127. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 47 ; absolute frequency: 11.4413690693542. subcorpus: Prosa.filosófica ; normalized frequency: 42 ; absolute frequency: 6.91916113408346. subcorpus: Prosa.oratória ; normalized frequency: 127 ; absolute frequency: 12.1935998002938. subcorpus: Prosa.epistolográfica ; normalized frequency: 48 ; absolute frequency: 12.7189379686796. subcorpus: Poesia.lírica ; normalized frequency: 5 ; absolute frequency: 4.20627576343905. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-101-116-101-114-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 15.71 and an absolute frequency of 6. The I.a.C. subcorpus follows, with a normalized frequency of 11.17 and an absolute frequency of 240. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 240 ; absolute frequency: 11.1705841284617. subcorpus: I.d.C. ; normalized frequency: 26 ; absolute frequency: 3.97735964509714. subcorpus: II.d.C. ; normalized frequency: 6 ; absolute frequency: 15.7068062827225. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

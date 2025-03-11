@@ -1,0 +1,211 @@
+---
+title: "imperium"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-109-112-101-114-105-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>imperĭum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Poder soberano &ensp; <small>como o do pai sobre os filhos. e do senhor sobre os escravos;</small> <br> <b>2</b> &ensp; <small>I-e daí, na língua política:</small> &ensp; Supremo poder de tomar todas as medidas de utilidade pública. mesmo fora das leis. Mando, autoridade suprema, domínio, soberania &ensp; <small>Cíc. Verr. 5, 8.</small> <br> <b>3</b> &ensp; <small>I-Donde, na língua oficial:</small> &ensp; Poder Supremo atribuído a certos magistrados, magistratura &ensp; <small>T. Lív. 26. 2. 9.</small> <br> <b>4</b> &ensp; <small>I-Em sent. especial:</small> &ensp; Comando militar &ensp; <small>Cés. B. Gal. 2. 23. 4.</small> <br> <b>5</b> &ensp; <small>I-No pl.:</small> &ensp; Autoridades. magistrados ou comandantes, generais &ensp; <small>Cés. B. C iv. I. 31. 1.</small> <br> <b>6</b> &ensp; <small>II-Sents. diversos:</small> &ensp; Comando, ordem. autoridade &ensp; <small>sent. geral Cíc. Verr. 4. 76.</small> <br> <b>7</b> &ensp; <small>II-Sents. diversos:</small> &ensp; Estado. império, governo imperial &ensp; <small>Suet. Tib. 24.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Imperium</b> -<b>ii</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; preceito, mandado, ordem. <br> <b>2</b> &ensp; autoridade, poder, imperio dos Magistrados civis, e militares. <br> <b>3</b> &ensp; <small>Virg.</small> &ensp; estado, républica, senhorio, dominio, & c. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Imperium</b> <b>ij</b>   <p> <b>1</b> &ensp; ho imperio. ou senhorio </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/106532 ' target="_blank"> http://lila-erc.eu/data/id/lemma/106532 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> impeiriom, impeirium, imperiom, inpeiriom, inpeirium, inperiom, inperium <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+impĕrĭum 
+ impĕrĭī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx105-109-112-101-114-105-117-109xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-109-112-101-114-105-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword imperium here are all the values plotted: collocate: summa; scoreSUBST: 2. collocate: populus; scoreSUBST: 3. collocate: teneo; scoreSUBST: 0. collocate: pareo; scoreSUBST: 0. collocate: atque; scoreSUBST: 0. collocate: potestas; scoreSUBST: 2. collocate: gloria; scoreSUBST: 2. collocate: dignitas; scoreSUBST: 2. collocate: uester; scoreSUBST: 0. collocate: superus; scoreSUBST: 0. collocate: totus; scoreSUBST: 0. collocate: tantus; scoreSUBST: 0. collocate: romanus; scoreSUBST: 0. collocate: pro; scoreSUBST: 0. collocate: neque; scoreSUBST: 0. collocate: cum; scoreSUBST: 0. collocate: hic; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-109-112-101-114-105-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword imperium here are all the values plotted: collocate: summa; scoreADJ: 0. collocate: populus; scoreADJ: 0. collocate: teneo; scoreADJ: 0. collocate: pareo; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: potestas; scoreADJ: 0. collocate: gloria; scoreADJ: 0. collocate: dignitas; scoreADJ: 0. collocate: uester; scoreADJ: 0. collocate: superus; scoreADJ: 0. collocate: totus; scoreADJ: 0. collocate: tantus; scoreADJ: 0. collocate: romanus; scoreADJ: 2. collocate: pro; scoreADJ: 0. collocate: neque; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: hic; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-109-112-101-114-105-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword imperium here are all the values plotted: collocate: summa; scoreVERBO: 0. collocate: populus; scoreVERBO: 0. collocate: teneo; scoreVERBO: 2. collocate: pareo; scoreVERBO: 2. collocate: atque; scoreVERBO: 0. collocate: potestas; scoreVERBO: 0. collocate: gloria; scoreVERBO: 0. collocate: dignitas; scoreVERBO: 0. collocate: uester; scoreVERBO: 0. collocate: superus; scoreVERBO: 0. collocate: totus; scoreVERBO: 0. collocate: tantus; scoreVERBO: 0. collocate: romanus; scoreVERBO: 0. collocate: pro; scoreVERBO: 0. collocate: neque; scoreVERBO: 0. collocate: cum; scoreVERBO: 0. collocate: hic; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-109-112-101-114-105-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword imperium here are all the values plotted: collocate: summa; scoreADV: 0. collocate: populus; scoreADV: 0. collocate: teneo; scoreADV: 0. collocate: pareo; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: potestas; scoreADV: 0. collocate: gloria; scoreADV: 0. collocate: dignitas; scoreADV: 0. collocate: uester; scoreADV: 0. collocate: superus; scoreADV: 0. collocate: totus; scoreADV: 0. collocate: tantus; scoreADV: 0. collocate: romanus; scoreADV: 0. collocate: pro; scoreADV: 0. collocate: neque; scoreADV: 0. collocate: cum; scoreADV: 0. collocate: hic; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-109-112-101-114-105-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword imperium here are all the values plotted: collocate: summa; scoreFUNC: 0. collocate: populus; scoreFUNC: 0. collocate: teneo; scoreFUNC: 0. collocate: pareo; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: potestas; scoreFUNC: 0. collocate: gloria; scoreFUNC: 0. collocate: dignitas; scoreFUNC: 0. collocate: uester; scoreFUNC: 0. collocate: superus; scoreFUNC: 0. collocate: totus; scoreFUNC: 0. collocate: tantus; scoreFUNC: 0. collocate: romanus; scoreFUNC: 0. collocate: pro; scoreFUNC: 20. collocate: neque; scoreFUNC: 0. collocate: cum; scoreFUNC: 20. collocate: hic; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quem uocet diuum populus ruentis <b>imperi</b> rebus <br> <small> Hor.Carm.1.2.25 <br> Qual dos deuses o povo há de invocar nestas circunstâcias do império que desmorona? <small> [JDD] </small> </small> </p>
+; <p> nec meum <b>imperium</b> ac mitto <b>imperium</b> non simultatem meam reverteri saltem <br> <small> Cic.Att.2.19.1 <br> “E não teve respeito nem pela minha autoridade, e deixo de lado a autoridade, nem, ao menos, pela minha cólera!” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ea tempestate mihi <b>imperium</b> populi Romani multo maxume miserabile uisum est <br> <small> Sal.Cat.36.4 <br> Para mim o império do povo romano nessa ocasião me pareceu muito mais lastimável. <small> [JDD] </small> </small> </p>
+; <p> sed quid ego de eis omnibus qui consulari <b>imperio</b> paruerunt loquor <br> <small> Cic.Rab.Perd.27 <br> Mas por que eu estou falando de todos aqueles que obedeceram ao comando dos cônsules? <small> [JDD] </small> </small> </p>
+; <p> cum duobus ducibus de <b>imperio</b> in Italia est decertatum Pyrrho et Hannibale <br> <small> Cic.Amici.28 <br> Na Itália, se combateu com dois generais pelo império, Pirro e Aníbal. <small> [JDD] </small> </small> </p>
+; <p> his ego nec metas rerum nec tempora pono <b>imperium</b> sine fine dedi <br> <small> Verg.A.1.278 <br> A estes eu não ponho nem limite das coisas nem tempos: dei-lhes um império sem fim. <small> [JDD] </small> </small> </p>
+; <p> est enim ille flos Italiae illud firmamentum <b>imperi</b> populi Romani illud ornamentum dignitatis <br> <small> Cic.Phil.3.13.3 <br> Pois é a flor da Itália, o baluarte do poder do povo romano, o ornamento de sua dignidade. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> atque etiam spero toto anno <b>imperi</b> nostri terruncium sumptus in provincia nullum fore <br> <small> Cic.Att.5.20.6 <br> E espero até mesmo que, em todo o ano de nosso mandato, náo haja o gasto de nenhum tostão na província. <small> [JDD] </small> </small> </p>
+; <p> de uestri <b>imperi</b> dignitate atque gloria quoniam is est exorsus orationis meae uidete quem uobis animum suscipiendum putetis <br> <small> Cic.Man.11 <br> Vede que disposição de espírito vós achais que deve ser assumida por vós em relação à dignidade e gloria de vosso império, visto que esse é o exórdio de meu discurso. <small> [JDD] </small> </small> </p>
+; <p> postquam diuitiae honori esse coepere et eas gloria <b>imperium</b> potentia sequebatur hebescere uirtus paupertas probro haberi innocentia pro maliuolentia duci coepit <br> <small> Sal.Cat.12.1 <br> Depois que as riquezas começaram a servir de honra e a glória, o mando e o poder as seguiam, a virtude começou a embotar-se, a pobreza, a ser tida como opróbrio, a integridade, a ser considerada como malevolência. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> neque umquam ex illo delendi huius <b>imperi</b> tam consceleratus impetus exstitisset nisi tot uitiorum tanta immanitas quibusdam facilitatis et patientiae radicibus niteretur <br> <small> Cic.Cael.14 <br> E nunca teria vindo dele uma tentativa tão criminosa de destruir este império, se uma tão grande ferocidade de tantos vícios não se apoiasse em algumas raízes de afabilidade e resistência. <small> [JDD] </small> </small> </p>
+; <p> atque hoc quidem uidere licet eos qui antea commodis fuerint moribus <b>imperio</b> potestate prosperis rebus immutari sperni ab iis ueteres amicitias indulgeri nouis <br> <small> Cic.Amici.54 <br> E, por certo, é possível ver isto: que aqueles que antes foram de costumes moderados, mudam com o comando, com o poder, com as coisas prósperas; que são desprezadas por eles as velhas amizades, são tratadas com indulgência as novas. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> si plus apud populum Romanum auctoritas tua quam ipsius populi Romani salus et uera causa ualuisset hodie hanc gloriam atque hoc orbis terrae <b>imperium</b> teneremus <br> <small> Cic.Man.53 <br> se tua autoridade tivesse valido junto aos povo romano mais do que o bem-estar do próprio povo romano e a verdadeira questão, manteríamos hoje esta glória e este império do orbe da terra? <small> [JDD] </small> </small> </p>
+; <p> at hi contra ignauissumi homines per summum scelus omnia ea sociis adimere quae fortissumi uiri uictores reliquerant proinde quasi iniuriam facere id demum esset <b>imperio</b> uti <br> <small> Sal.Cat.12.5 <br> Já estes, ao contrário, homens ignavíssimos, através de um enorme crime, tiravam dos aliados todas as coisas que os vencedores, homens corajosíssimos, tinham deixado: como se cometer uma injustiça fosse, enfim, usar o poder. <small> [JDD] </small> </small> </p>
+; <p> id ea de causa faciebat quod cum tanta multitudine hostium praesertim eo absente qui summam <b>imperii</b> teneret nisi aequo loco aut opportunitate aliqua data legato dimicandum non existimabat <br> <small> Caes.Gal.3.17.7 <br> Fazia isso por esse motivo: porque estimava que um lugar-tenente não devia lutar com tão grande multidão de inimigos, principalmente estando ausente aquele que detinha o poder supremo, a não ser em lugar adequado ou oferecida alguma oportunidade. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-109-112-101-114-105-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 34.33 and an absolute frequency of 10. The Sallustius subcorpus follows, with a normalized frequency of 31.54 and an absolute frequency of 34. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 31 ; absolute frequency: 11.7078329178941. subcorpus: Cicero ; normalized frequency: 128 ; absolute frequency: 7.97388552490593. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 34 ; absolute frequency: 31.5369631759577. subcorpus: Seneca ; normalized frequency: 14 ; absolute frequency: 2.61286650118512. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 10 ; absolute frequency: 34.3288705801579. subcorpus: Vergilius ; normalized frequency: 7 ; absolute frequency: 13.5135135135135. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-109-112-101-114-105-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 18.26 and an absolute frequency of 75. The Poesia.trágica subcorpus follows, with a normalized frequency of 5.21 and an absolute frequency of 6. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 75 ; absolute frequency: 18.2575038340758. subcorpus: Prosa.filosófica ; normalized frequency: 17 ; absolute frequency: 2.80061283998616. subcorpus: Prosa.oratória ; normalized frequency: 111 ; absolute frequency: 10.6573982506505. subcorpus: Prosa.epistolográfica ; normalized frequency: 8 ; absolute frequency: 2.11982299477994. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 6 ; absolute frequency: 5.21195274496178. subcorpus: Poesia.épica ; normalized frequency: 7 ; absolute frequency: 13.5135135135135. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-109-112-101-114-105-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 26.18 and an absolute frequency of 10. The I.a.C. subcorpus follows, with a normalized frequency of 9.49 and an absolute frequency of 204. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 204 ; absolute frequency: 9.49499650919246. subcorpus: I.d.C. ; normalized frequency: 15 ; absolute frequency: 2.29463056447912. subcorpus: II.d.C. ; normalized frequency: 10 ; absolute frequency: 26.1780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

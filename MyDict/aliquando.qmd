@@ -1,0 +1,200 @@
+---
+title: "aliquando"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-108-105-113-117-97-110-100-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>aliquāndō</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Algumas vezes &ensp; <small>Cíc. De Or. 2, 326.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Outrora &ensp; <small>Verg. En. 8, 602.</small> <br> <b>3</b> &ensp; <small></small> &ensp; Algum dia, uma vez &ensp; <small>Cíc. Cat. 4, 20.</small> <br> <b>4</b> &ensp; <small></small> &ensp; Enfim, finalmente &ensp; <small>Ciíc. Verr. 3, 144.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Aliquando</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; em algum tempo. <br> <b>2</b> &ensp; finalmente. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Aliquando</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; em algum tempo. ou em algũa ora </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/91094 ' target="_blank"> http://lila-erc.eu/data/id/lemma/91094 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ălĭquandō
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-108-105-113-117-97-110-100-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-108-105-113-117-97-110-100-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword aliquando here are all the values plotted: collocate: tandem; scoreSUBST: 0. collocate: et2; scoreSUBST: 0. collocate: aliquis; scoreSUBST: 0. collocate: iste; scoreSUBST: 0. collocate: nos; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-108-105-113-117-97-110-100-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword aliquando here are all the values plotted: collocate: tandem; scoreADJ: 0. collocate: et2; scoreADJ: 0. collocate: aliquis; scoreADJ: 0. collocate: iste; scoreADJ: 0. collocate: nos; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-108-105-113-117-97-110-100-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword aliquando here are all the values plotted: collocate: tandem; scoreVERBO: 0. collocate: et2; scoreVERBO: 0. collocate: aliquis; scoreVERBO: 0. collocate: iste; scoreVERBO: 0. collocate: nos; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-108-105-113-117-97-110-100-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword aliquando here are all the values plotted: collocate: tandem; scoreADV: 2. collocate: et2; scoreADV: 2. collocate: aliquis; scoreADV: 0. collocate: iste; scoreADV: 0. collocate: nos; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-108-105-113-117-97-110-100-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword aliquando here are all the values plotted: collocate: tandem; scoreFUNC: 0. collocate: et2; scoreFUNC: 0. collocate: aliquis; scoreFUNC: 0. collocate: iste; scoreFUNC: 0. collocate: nos; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> tu modo nos revise <b>aliquando</b> <br> <small> Cic.Att.1.19.11 <br> Tu, vem nos ver, afinal. <small> [JDD] </small> </small> </p>
+; <p> filios amittunt uiri boni ni ni cum <b>aliquando</b> et occidant <br> <small> Sen.Prov.6.2 <br> Os homens bons perdem os filhos: por que não, visto que de vez em quando também o matam? <small> [JDD] </small> </small> </p>
+; <p> ego uero non miror si <b>aliquando</b> impetum capiunt spectandi magnos uiros conluctantis cum aliqua calamitate <br> <small> Sen.Prov.2.7 <br> Eu, na verdade, não acho estranho se, de vez em quando, eles concebem o desejo de contemplar grandes homens lutando contra alguma calamidade <small> [JDD, de outra edição] </small> </small> </p>
+; <p> finem constitue quem transire ne uelis quidem si possis discedant <b>aliquando</b> ista insidiosa bona et sperantibus meliora quam adsecutis <br> <small> Sen.Ep.15.11 <br> Determina um limite que não possas ir além, ainda que queiras; que vão embora de uma vez esses esses bens enganadores e melhores quando se esperam do que quando são conseguidos.[*] <small>  </small> </small> </p>
+; <p> quam ob rem discede atque hunc mihi timorem eripe si est uerus ne opprimar sin falsus ut tandem <b>aliquando</b> timere desinam <br> <small> Cic.Catil.1.18.11 <br> Por isso, vai embora e arranca de mim este temor; se ele é verdadeiro, para que eu não seja oprimida, se falso, para que finalmente eu deixe de uma vez de temer.” <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-108-105-113-117-97-110-100-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 5.6 and an absolute frequency of 30. The Cicero subcorpus follows, with a normalized frequency of 3.43 and an absolute frequency of 55. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 55 ; absolute frequency: 3.42627893648302. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 30 ; absolute frequency: 5.59899964539669. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-108-105-113-117-97-110-100-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 5.93 and an absolute frequency of 36. The Prosa.filosófica subcorpus follows, with a normalized frequency of 5.93 and an absolute frequency of 36. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 1 ; absolute frequency: 0.243433384454344. subcorpus: Prosa.filosófica ; normalized frequency: 36 ; absolute frequency: 5.93070954350011. subcorpus: Prosa.oratória ; normalized frequency: 38 ; absolute frequency: 3.64847868040287. subcorpus: Prosa.epistolográfica ; normalized frequency: 11 ; absolute frequency: 2.91475661782241. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-108-105-113-117-97-110-100-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 4.74 and an absolute frequency of 31. The I.a.C. subcorpus follows, with a normalized frequency of 2.61 and an absolute frequency of 56. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 56 ; absolute frequency: 2.6064696299744. subcorpus: I.d.C. ; normalized frequency: 31 ; absolute frequency: 4.74223649992351. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

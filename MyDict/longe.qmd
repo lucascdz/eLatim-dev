@@ -1,0 +1,203 @@
+---
+title: "longe"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx108-111-110-103-101xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>longē</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Ao longo, no sentido do comprimento: &ensp; <small></small> <br> <b>2</b> &ensp; <small>I-Sent. próprio</small> &ensp; Ao longe, distante: &ensp; <small></small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Longe, ao longe, longamente: &ensp; <small></small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Grandemente, muito: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>longe lateque Cíc. Div. 1, 79 «em comprimento e largura» . <br> <br><b>2</b><br>longe abesse Cíc. Fam. 2, 7. 1 «estar distante». <br> <br><b>3</b><br>aliquid longius dicere Cíc. Or. 162 «expor alguma coisa muito longamente». <br> <br><b>4</b><br>longe eloquentissimus Cíc. Caec. 53 «de longe o mais eloquente». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Longe</b> -<b>gius</b> -<b>gissime</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; longe, de longe. <br> <b>2</b> &ensp; muito. <br> <b>3</b> &ensp; dahi a muito tempo, ou espaço. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>longe gentium &ensp; <small><small>Cic</small></small> &ensp; <small>Em paiz muito remoto</small> <br> longe princeps &ensp; <small><small>Cic</small></small> &ensp; <small>O mais excellente de todos</small> </p>
+
+
+
+
+#### Velez
+
+<b>Longè</b> <br> <small>Adverb.</small>   <p> <b>1</b> &ensp; longe, de longe, para longe <br> <b>2</b> &ensp; <small>longè pro Valdè, vel Multò</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>longe gentium &ensp; <small>muito longe</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Longe</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; de longe. ou muyto </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/hypolemma/25967 ' target="_blank"> http://lila-erc.eu/data/id/hypolemma/25967 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+longē
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx108-111-110-103-101xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword longe here are all the values plotted: collocate: absum; scoreSUBST: 0. collocate: progredior; scoreSUBST: 0. collocate: procedo; scoreSUBST: 0. collocate: discedo; scoreSUBST: 0. collocate: tam; scoreSUBST: 0. collocate: ab; scoreSUBST: 0. collocate: neque; scoreSUBST: 0. collocate: alius; scoreSUBST: 0. collocate: qua; scoreSUBST: 0. collocate: non; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx108-111-110-103-101xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword longe here are all the values plotted: collocate: absum; scoreADJ: 0. collocate: progredior; scoreADJ: 0. collocate: procedo; scoreADJ: 0. collocate: discedo; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: ab; scoreADJ: 0. collocate: neque; scoreADJ: 0. collocate: alius; scoreADJ: 0. collocate: qua; scoreADJ: 0. collocate: non; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx108-111-110-103-101xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword longe here are all the values plotted: collocate: absum; scoreVERBO: 3. collocate: progredior; scoreVERBO: 2. collocate: procedo; scoreVERBO: 2. collocate: discedo; scoreVERBO: 2. collocate: tam; scoreVERBO: 0. collocate: ab; scoreVERBO: 0. collocate: neque; scoreVERBO: 0. collocate: alius; scoreVERBO: 0. collocate: qua; scoreVERBO: 0. collocate: non; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx108-111-110-103-101xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword longe here are all the values plotted: collocate: absum; scoreADV: 0. collocate: progredior; scoreADV: 0. collocate: procedo; scoreADV: 0. collocate: discedo; scoreADV: 0. collocate: tam; scoreADV: 2. collocate: ab; scoreADV: 0. collocate: neque; scoreADV: 0. collocate: alius; scoreADV: 0. collocate: qua; scoreADV: 2. collocate: non; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx108-111-110-103-101xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword longe here are all the values plotted: collocate: absum; scoreFUNC: 0. collocate: progredior; scoreFUNC: 0. collocate: procedo; scoreFUNC: 0. collocate: discedo; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: ab; scoreFUNC: 30. collocate: neque; scoreFUNC: 0. collocate: alius; scoreFUNC: 0. collocate: qua; scoreFUNC: 0. collocate: non; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> inuitati praeda <b>longius</b> procedunt <br> <small> Caes.Gal.6.35.7 <br> Convidados pela pilhagem, avançam mais longe. <small> [JDD] </small> </small> </p>
+; <p> videns autem Iesum a <b>longe</b> cucurrit et adoravit eum <br> <small> Vulg.Marc.5.6 <br> Vendo, porém, de longe, Jesus, correu e pôs-se de joelhos diante dele. <small> [JDD] </small> </small> </p>
+; <p> qui <b>longe</b> alia ratione ac reliqui Galli bellum gerere instituerunt <br> <small> Caes.Gal.3.28.1 <br> e estes, de modo muito diferente dos demais gauleses, começaram a travar a guerra. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> si id non fecissent <b>longe</b> his fraternum nomen populi Romani afuturum <br> <small> Caes.Gal.1.36.5 <br> que, se nãofizessem isso, o título de irmãos do povo romano iria ser inútil para eles. <small> [JDD] </small> </small> </p>
+; <p> est autem uestri consili patres conscripti in posterum quam <b>longissime</b> prouidere <br> <small> Cic.Phil.7.19.4 <br> Por outro lado, é próprio de vossa sensatez, pais conscritos, olhar antecipadamente para o futuro o mais longe possível. <small> [JDD] </small> </small> </p>
+; <p> quibus in locis sit Caesar ex captiuis quaerunt profectum <b>longius</b> reperiunt omnemque exercitum discessisse cognoscunt <br> <small> Caes.Gal.6.35.7 <br> Em que lugares está César querem saber de seus prisioneiros; descobrem que partiu para longe e ficam sabendo que todo exército se retirou. <small> [JDD] </small> </small> </p>
+; <p> quod ego <b>longe</b> secus existimo iudices deque eo pauca disseram neque enim causa in hoc continetur <br> <small> Cic.Mur.31 <br> Quanto a isso, juízes, eu tenho uma opinião muito diferente e acerca disso falarei poucas coisas, pois a causa não está contida nisso. <small> [JDD] </small> </small> </p>
+; <p> cum Hortensius veniret et infirmus et tam <b>longe</b> et Hortensius cum maxima praeterea multitudo ille non venit <br> <small> Cic.Att.5.2.2 <br> Depois de Hortênsio ter vindo e enfermo e de tão longe, e Hortênsio! além disso depois de ter vindo a maior multidão, ele não veio?” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> retrahe ergo te a uanis et cum uoles scire quod petes utrum naturalem habeat an caecam cupiditatem considera num possit alicubi consistere si <b>longe</b> progresso semper aliquid <b>longius</b> restat scito id naturale non esse <br> <small> Sen.Ep.16.9 <br> Afasta-te, portanto, das coisas vãs e quando quiseres saber se o que pedes tem um desejo natural ou uma cega cupidez, considera se pode parar em algum lugar: se depois de ter ido longe sempre resta algo mais longe, fica sabendo que isso não é natural. <small> [JDD] </small> </small> </p>
+; <p> nunc agam modice nec <b>longius</b> progrediar quam me mea fides et causa ipsa coget nec enim muliebris umquam inimicitias mihi gerendas putaui praesertim cum ea quam omnes semper amicam omnium potius quam cuiusquam inimicam putauerunt <br> <small> Cic.Cael.32 <br> Agora atuarei com moderação e não irei mais longe do que minha consciência e a própria causa me obrigam. Pois eu nunca achei que devia ter inimizades com mulheres, sobretudo com essa que todos sempre consideraram antes amiga de todos do que inimiga de alguém. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx108-111-110-103-101xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 13.97 and an absolute frequency of 37. The Tacitus subcorpus follows, with a normalized frequency of 3.43 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 37 ; absolute frequency: 13.973865095551. subcorpus: Cicero ; normalized frequency: 47 ; absolute frequency: 2.9279110911764. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 5 ; absolute frequency: 4.63778870234672. subcorpus: Seneca ; normalized frequency: 12 ; absolute frequency: 2.23959985815868. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx108-111-110-103-101xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 10.47 and an absolute frequency of 43. The Poesia.trágica subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 43 ; absolute frequency: 10.4676355315368. subcorpus: Prosa.filosófica ; normalized frequency: 20 ; absolute frequency: 3.29483863527784. subcorpus: Prosa.oratória ; normalized frequency: 27 ; absolute frequency: 2.59234011502309. subcorpus: Prosa.epistolográfica ; normalized frequency: 12 ; absolute frequency: 3.1797344921699. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx108-111-110-103-101xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 6.74 and an absolute frequency of 3. The I.a.C. subcorpus follows, with a normalized frequency of 4.65 and an absolute frequency of 100. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 2.29 and an absolute freqeuncy of 15. here are all the values: subcorpus: I.a.C. ; normalized frequency: 100 ; absolute frequency: 4.65441005352572. subcorpus: I.d.C. ; normalized frequency: 15 ; absolute frequency: 2.29463056447912. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+:::
+

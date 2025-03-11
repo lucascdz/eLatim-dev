@@ -1,0 +1,207 @@
+---
+title: "procedo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx112-114-111-99-101-100-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>prōcēdō</b> <b>-is</b> <b>-ère</b> <b>-céssí, -céssum</b> <br> <small>v. tr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Avançar, ir para frente, alongar-se &ensp; <small>Cés. B. Gal. 5, 44, 4: Cíc. Fam. 16, 9, 1; Cíc. Tusc. 3, 53.</small> <br> <b>2</b> &ensp; <small>I-Sent. próprio</small> &ensp; Continuar, prolongar &ensp; <small>T. Lív. 5, 48, 7.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Produzir, prosperar, fazer progresso &ensp; <small>Cíc. Fin. 4, 65.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Ter bom ou mau êxito, sair-se bem &ensp; <small>Cíc. Fam. 12, 9. 3.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Aproveitar a, ser útil a, servir &ensp; <small>Sal. B. Jug. 85, 5.</small> </p> 
+ <b>procēssī</b> <br> <small>perf. de procédo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Procedo</b> -<b>is</b> -<b>essi</b> -<b>essum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; ir diante, adiantar-se, caminhar, ir para diante. <br> <b>2</b> &ensp; apparecer em publico com fausto. <br> <b>3</b> &ensp; succeder, acontecer. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>procedere in pedes &ensp; <small><small>Plin</small></small> &ensp; <small>Nascer, vir ao mundo com os pés para diante</small> </p>
+
+
+
+
+#### Velez
+
+<b>Procedo</b> -<b>is</b>   <p> <b>1</b> &ensp; ir por diante </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>bene tibi processit &ensp; <small><small>i, accidit</small></small> <br> obuiam alicui procedere &ensp; <small>sair ao encontro</small> <br> procedunt stipendia militibus &ensp; <small>vaõ correndo as pagas dos soldados</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Procedo</b> <b>is</b> <b>ssi</b>   <p> <b>1</b> &ensp; ir por diante </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/119582 ' target="_blank"> http://lila-erc.eu/data/id/lemma/119582 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> procedo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> procedere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> procedet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> processi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> processum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> processurum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+prōcēdō 
+ prōcēdis 
+ prōcēdĕre 
+ prōcessī 
+ prōcessum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx112-114-111-99-101-100-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> inuitati praeda longius <b>procedunt</b> <br> <small> Caes.Gal.6.35.7 <br> Convidados pela pilhagem, avançam mais longe. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx112-114-111-99-101-100-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 11.03 and an absolute frequency of 1. The Vergilius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 10 ; absolute frequency: 3.77672029609487. subcorpus: Cicero ; normalized frequency: 6 ; absolute frequency: 0.373775883979966. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 8 ; absolute frequency: 1.49306657210578. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx112-114-111-99-101-100-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 8.99 and an absolute frequency of 4. The Prosa.histórica subcorpus follows, with a normalized frequency of 3.65 and an absolute frequency of 15. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 15 ; absolute frequency: 3.65150076681516. subcorpus: Prosa.filosófica ; normalized frequency: 11 ; absolute frequency: 1.81216124940281. subcorpus: Prosa.oratória ; normalized frequency: 2 ; absolute frequency: 0.192025193705414. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx112-114-111-99-101-100-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 8.99 and an absolute frequency of 4. The II.d.C. subcorpus follows, with a normalized frequency of 2.62 and an absolute frequency of 1. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 1.02 and an absolute freqeuncy of 22. here are all the values: subcorpus: I.a.C. ; normalized frequency: 22 ; absolute frequency: 1.02397021177566. subcorpus: I.d.C. ; normalized frequency: 9 ; absolute frequency: 1.37677833868747. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+:::
+

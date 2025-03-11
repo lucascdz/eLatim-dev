@@ -1,0 +1,241 @@
+---
+title: "homo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx104-111-109-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>homō</b> <b>-ìnis</b> <br> <small>subs. m.</small> <br> <small>Obs.: 1 Etimologicamente significa: o nascido da terra, o terrestre, ser humano; deste sent. geral é que passou aos sents. particulares acima indicados. 2 Na língua familiar tem, muitas vezes, o valor de um demonstrativo, correspondendo a hic homo = ego Plaut. Bac. 161; homo = is. iste ou ille Cie. Dom. 40.</small>   <p> <b>1</b> &ensp; <small>Sent. próprio</small> &ensp; Homem, ser racional &ensp; <small>em oposição a fera, bestia Cíc. At. 2, 2, 2.</small> <br> <b>2</b> &ensp; <small>Sent. próprio</small> &ensp; Homem, ser humano &ensp; <small>em oposição a deus Cíc. Oro 129.</small> <br> <b>3</b> &ensp; <small>Na língua familiar:</small> &ensp; Homem &ensp; <small>em oposição a mulier Plaut. Cisto 723</small> <br> <b>4</b> &ensp; <small>Na língua familiar:</small> &ensp; Homem, ser vivo, vivente, mortal &ensp; <small>em oposição aos deuses e aos mortos Cíc. Amer. 76.</small> <br> <b>5</b> &ensp; <small>Por extensão, no pl.:</small> &ensp; Habitantes, cidadãos &ensp; <small>T. Lív. 34, 45, I.</small> <br> <b>6</b> &ensp; <small>Por extensão, no pl.:</small> &ensp; Homens, soldados, e especialmente a infantaria &ensp; <small>em oposição à cavalaria Cés. B. Civ. 2, 39, 4.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Homo</b> -<b>inis</b>   <p> <b>1</b> &ensp; <small>m. Cic.</small> &ensp; homem. <br> <b>2</b> &ensp; <small>Plaut. f.</small> &ensp; mulher. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>homo ita est &ensp; <small><small>Ter</small></small> &ensp; <small>Elle he deste humor, tal he o seu genio</small> <br> homo meus &ensp; <small><small>Cic</small></small> &ensp; <small>O meu criado ou domestico</small> <br> homo nata erat &ensp; <small><small>Serv. Sulp. ad Cic</small></small> &ensp; <small>Havia nascido mortal, ou sujeita á condiçao humana</small> <br> homo nemo est &ensp; <small><small>Plaut</small></small> &ensp; <small>Não ha ninguem</small> <br> paucorum hominum est &ensp; <small><small>Hor</small></small> &ensp; <small>He retirado, e de pouca communicação</small> <br> quid hominis es? &ensp; <small><small>Ter</small></small> &ensp; <small>Que qualidade de homem es?</small> </p>
+
+
+
+
+#### Velez
+
+<b>Homo</b> -<b>inis</b> <br> <small>masc.</small>   <p> <b>1</b> &ensp; homem, ou mulher </p>
+
+
+
+
+#### Cardoso
+
+<b>Homo</b> <b>inis</b>   <p> <b>1</b> &ensp; ho homem </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/105624 ' target="_blank"> http://lila-erc.eu/data/id/lemma/105624 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+hŏmō 
+ hŏmĭnis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx104-111-109-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx104-111-109-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword homo here are all the values plotted: collocate: genus; scoreSUBST: 3. collocate: mille; scoreSUBST: 0. collocate: perditus; scoreSUBST: 0. collocate: nobilis; scoreSUBST: 0. collocate: honestus; scoreSUBST: 0. collocate: memoria; scoreSUBST: 2. collocate: occido; scoreSUBST: 0. collocate: atque; scoreSUBST: 0. collocate: multitudo; scoreSUBST: 2. collocate: certus; scoreSUBST: 0. collocate: sapiens2; scoreSUBST: 0. collocate: numerus; scoreSUBST: 2. collocate: uideo; scoreSUBST: 0. collocate: deus; scoreSUBST: 2. collocate: idem; scoreSUBST: 0. collocate: unus; scoreSUBST: 0. collocate: post; scoreSUBST: 0. collocate: doctus; scoreSUBST: 0. collocate: audax; scoreSUBST: 0. collocate: nouus; scoreSUBST: 0. collocate: fama; scoreSUBST: 2. collocate: natura; scoreSUBST: 2. collocate: ordo; scoreSUBST: 2. collocate: mos; scoreSUBST: 2. collocate: grauis; scoreSUBST: 0. collocate: amens; scoreSUBST: 0. collocate: sceleratus; scoreSUBST: 0. collocate: ferus; scoreSUBST: 0. collocate: improbus; scoreSUBST: 0. collocate: ingenium; scoreSUBST: 2. collocate: existimatio; scoreSUBST: 2. collocate: circiter; scoreSUBST: 0. collocate: armatus; scoreSUBST: 0. collocate: graecus; scoreSUBST: 0. collocate: sancitus; scoreSUBST: 0. collocate: ample; scoreSUBST: 0. collocate: inuitus; scoreSUBST: 0. collocate: potens; scoreSUBST: 0. collocate: consularis; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx104-111-109-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword homo here are all the values plotted: collocate: genus; scoreADJ: 0. collocate: mille; scoreADJ: 0. collocate: perditus; scoreADJ: 3. collocate: nobilis; scoreADJ: 3. collocate: honestus; scoreADJ: 2. collocate: memoria; scoreADJ: 0. collocate: occido; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: multitudo; scoreADJ: 0. collocate: certus; scoreADJ: 2. collocate: sapiens2; scoreADJ: 2. collocate: numerus; scoreADJ: 0. collocate: uideo; scoreADJ: 0. collocate: deus; scoreADJ: 0. collocate: idem; scoreADJ: 0. collocate: unus; scoreADJ: 0. collocate: post; scoreADJ: 0. collocate: doctus; scoreADJ: 2. collocate: audax; scoreADJ: 2. collocate: nouus; scoreADJ: 2. collocate: fama; scoreADJ: 0. collocate: natura; scoreADJ: 0. collocate: ordo; scoreADJ: 0. collocate: mos; scoreADJ: 0. collocate: grauis; scoreADJ: 2. collocate: amens; scoreADJ: 2. collocate: sceleratus; scoreADJ: 2. collocate: ferus; scoreADJ: 2. collocate: improbus; scoreADJ: 2. collocate: ingenium; scoreADJ: 0. collocate: existimatio; scoreADJ: 0. collocate: circiter; scoreADJ: 0. collocate: armatus; scoreADJ: 2. collocate: graecus; scoreADJ: 2. collocate: sancitus; scoreADJ: 2. collocate: ample; scoreADJ: 0. collocate: inuitus; scoreADJ: 2. collocate: potens; scoreADJ: 2. collocate: consularis; scoreADJ: 2'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx104-111-109-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword homo here are all the values plotted: collocate: genus; scoreVERBO: 0. collocate: mille; scoreVERBO: 0. collocate: perditus; scoreVERBO: 0. collocate: nobilis; scoreVERBO: 0. collocate: honestus; scoreVERBO: 0. collocate: memoria; scoreVERBO: 0. collocate: occido; scoreVERBO: 2. collocate: atque; scoreVERBO: 0. collocate: multitudo; scoreVERBO: 0. collocate: certus; scoreVERBO: 0. collocate: sapiens2; scoreVERBO: 0. collocate: numerus; scoreVERBO: 0. collocate: uideo; scoreVERBO: 1. collocate: deus; scoreVERBO: 0. collocate: idem; scoreVERBO: 0. collocate: unus; scoreVERBO: 0. collocate: post; scoreVERBO: 0. collocate: doctus; scoreVERBO: 0. collocate: audax; scoreVERBO: 0. collocate: nouus; scoreVERBO: 0. collocate: fama; scoreVERBO: 0. collocate: natura; scoreVERBO: 0. collocate: ordo; scoreVERBO: 0. collocate: mos; scoreVERBO: 0. collocate: grauis; scoreVERBO: 0. collocate: amens; scoreVERBO: 0. collocate: sceleratus; scoreVERBO: 0. collocate: ferus; scoreVERBO: 0. collocate: improbus; scoreVERBO: 0. collocate: ingenium; scoreVERBO: 0. collocate: existimatio; scoreVERBO: 0. collocate: circiter; scoreVERBO: 0. collocate: armatus; scoreVERBO: 0. collocate: graecus; scoreVERBO: 0. collocate: sancitus; scoreVERBO: 0. collocate: ample; scoreVERBO: 0. collocate: inuitus; scoreVERBO: 0. collocate: potens; scoreVERBO: 0. collocate: consularis; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx104-111-109-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword homo here are all the values plotted: collocate: genus; scoreADV: 0. collocate: mille; scoreADV: 0. collocate: perditus; scoreADV: 0. collocate: nobilis; scoreADV: 0. collocate: honestus; scoreADV: 0. collocate: memoria; scoreADV: 0. collocate: occido; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: multitudo; scoreADV: 0. collocate: certus; scoreADV: 0. collocate: sapiens2; scoreADV: 0. collocate: numerus; scoreADV: 0. collocate: uideo; scoreADV: 0. collocate: deus; scoreADV: 0. collocate: idem; scoreADV: 0. collocate: unus; scoreADV: 0. collocate: post; scoreADV: 0. collocate: doctus; scoreADV: 0. collocate: audax; scoreADV: 0. collocate: nouus; scoreADV: 0. collocate: fama; scoreADV: 0. collocate: natura; scoreADV: 0. collocate: ordo; scoreADV: 0. collocate: mos; scoreADV: 0. collocate: grauis; scoreADV: 0. collocate: amens; scoreADV: 0. collocate: sceleratus; scoreADV: 0. collocate: ferus; scoreADV: 0. collocate: improbus; scoreADV: 0. collocate: ingenium; scoreADV: 0. collocate: existimatio; scoreADV: 0. collocate: circiter; scoreADV: 2. collocate: armatus; scoreADV: 0. collocate: graecus; scoreADV: 0. collocate: sancitus; scoreADV: 0. collocate: ample; scoreADV: 2. collocate: inuitus; scoreADV: 0. collocate: potens; scoreADV: 0. collocate: consularis; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx104-111-109-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword homo here are all the values plotted: collocate: genus; scoreFUNC: 0. collocate: mille; scoreFUNC: 0. collocate: perditus; scoreFUNC: 0. collocate: nobilis; scoreFUNC: 0. collocate: honestus; scoreFUNC: 0. collocate: memoria; scoreFUNC: 0. collocate: occido; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: multitudo; scoreFUNC: 0. collocate: certus; scoreFUNC: 0. collocate: sapiens2; scoreFUNC: 0. collocate: numerus; scoreFUNC: 0. collocate: uideo; scoreFUNC: 0. collocate: deus; scoreFUNC: 0. collocate: idem; scoreFUNC: 0. collocate: unus; scoreFUNC: 0. collocate: post; scoreFUNC: 20. collocate: doctus; scoreFUNC: 0. collocate: audax; scoreFUNC: 0. collocate: nouus; scoreFUNC: 0. collocate: fama; scoreFUNC: 0. collocate: natura; scoreFUNC: 0. collocate: ordo; scoreFUNC: 0. collocate: mos; scoreFUNC: 0. collocate: grauis; scoreFUNC: 0. collocate: amens; scoreFUNC: 0. collocate: sceleratus; scoreFUNC: 0. collocate: ferus; scoreFUNC: 0. collocate: improbus; scoreFUNC: 0. collocate: ingenium; scoreFUNC: 0. collocate: existimatio; scoreFUNC: 0. collocate: circiter; scoreFUNC: 0. collocate: armatus; scoreFUNC: 0. collocate: graecus; scoreFUNC: 0. collocate: sancitus; scoreFUNC: 0. collocate: ample; scoreFUNC: 0. collocate: inuitus; scoreFUNC: 0. collocate: potens; scoreFUNC: 0. collocate: consularis; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> pro deum <b>hominum</b>que fidem <br> <small> Cic.Ver.2.4.7.6 <br> Pela fé dos deuses e dos homens! <small> [JDD] </small> </small> </p>
+; <p> non vidisti igitur <b>hominem</b> <br> <small> Cic.Att.5.2.2 <br> “Não viste então o homem?” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> video <b>hominem</b> valde petiturire <br> <small> Cic.Att.1.14.7 <br> Vejo que o homem vai se lançar com força como candidado. <small> [JDD] </small> </small> </p>
+; <p> videbis ergo <b>hominem</b> si voles <br> <small> Cic.Att.4.12.1 <br> Portanto, verás o homem, se quiseres. <small> [JDD] </small> </small> </p>
+; <p> eos concludit magnam <b>hominum</b> multitudinem <br> <small> Cic.Ver.2.4.54.9 <br> Encerra-os: uma grande multidão de homens. <small> [JDD] </small> </small> </p>
+; <p> magnam rem puta unum <b>hominem</b> agere <br> <small> Sen.Ep.120.22 <br> Considera uma grande coisa agir como um único homem. <small> [JDD] </small> </small> </p>
+; <p> praeclarum responsum et docto <b>homine</b> dignum <br> <small> Cic.Sen.13 <br> Resposta brilhante e digna de um homem douto. <small> [JDD] </small> </small> </p>
+; <p> nunc <b>homo</b> audacissimus atque amentissimus hoc cogitat <br> <small> Cic.Ver.1.7 <br> 7 Agora esse homem ousadíssimo e completamente louco maquina isto. <small> [JDD] </small> </small> </p>
+; <p> quod naturae satis est <b>homini</b> non est <br> <small> Sen.Ep.119.7 <br> O que é suficiente para a natureza, não o é para o homem. <small> [JDD] </small> </small> </p>
+; <p> nullo genere <b>homines</b> mollius moriuntur sed nec diutius <br> <small> Sen.Ep.30.4 <br> De nenhum outro modo os homens morrem mais docemente, mas nem com mais lentidão. <small> [JDD] </small> </small> </p>
+; <p> paucis diebus habebam certos <b>homines</b> quibus darem litteras <br> <small> Cic.Att.5.17.1 <br> Em poucos dias eu tinha homens certos aos quais entregaria a carta. <small> [JDD] </small> </small> </p>
+; <p> hoc quanti putas esse ad famam <b>hominum</b> ac uoluntatem <br> <small> Cic.Mur.38 <br> Quanto achas que isso vale para a fama e disposição favorável dos homens? <small> [JDD] </small> </small> </p>
+; <p> in unius <b>hominis</b> perditi iudicio plures similes reperti sunt <br> <small> Cic.Att.1.16.9 <br> No julgamento de um único homem devasso, foram encontrados muitos iguais a ele.” <small> [JDD] </small> </small> </p>
+; <p> venite post me et faciam vos fieri piscatores <b>hominum</b> <br> <small> Vulg.Marc.1.17 <br> Vinde atrás de mim e eu farei que vós vos torneis pescadores de homens. <small> [JDD] </small> </small> </p>
+; <p> quam multis istum putatis <b>hominibus</b> honestis de digitis anulos abstulisse <br> <small> Cic.Ver.2.4.57.11 <br> De quantos homens honrados julgais que esse sujeito tirou dos dedos os anéis? <small> [JDD] </small> </small> </p>
+; <p> iste <b>homo</b> non est unus e populo ad salutem spectat <br> <small> Sen.Ep.10.3 <br> esse homem não é mais um do povo, olha para a sua salvação.” <small> [JDD] </small> </small> </p>
+; <p> occisis ad <b>hominum</b> milibus quattuor reliqui in oppidum reiecti sunt <br> <small> Caes.Gal.2.33.5 <br> Mortos uns quatro mil homens, os restantes foram rechaçados para a cidadela. <small> [JDD] </small> </small> </p>
+; <p> nuper <b>homines</b> nobilis eius modi iudices sed quid dico nuper <br> <small> Cic.Ver.2.4.6.6 <br> Recentemente, juízes, (mas por que digo “recentemente”? -  <small> [JDD] </small> </small> </p>
+; <p> quamquam o di boni quid est in <b>hominis</b> natura diu <br> <small> Cic.Sen.69 <br> Aliás, ó deuses bons! o que é longo tempo na natureza dos homem? <small> [JDD] </small> </small> </p>
+; <p> remoue existimationem <b>hominum</b> dubia semper est et in partem utramque diuiditur <br> <small> Sen.Ep.26.6 <br> Deixa de lado a opinião dos homens: é sempre dúbia e se divide para um lado e para o outro. <small> [JDD] </small> </small> </p>
+; <p> iam ad certas res conficiendas certos <b>homines</b> delectos ac descriptos habebat <br> <small> Cic.Catil.3.16.12 <br> Tinha já para levar a cabo determinadas coisas determinados homens escolhidos e designados. <small> [JDD] </small> </small> </p>
+; <p> et patrimonium habebat libertini et ingenium numquam uidi <b>hominem</b> beatum indecentius <br> <small> Sen.Ep.27.5 <br> tinha tanto o patrimônio como o caráter de um liberto; nunca vi um homem mais indecentemente feliz. <small> [JDD] </small> </small> </p>
+; <p> nota tibi est <b>hominis</b> probitas C. Caesar noti mores nota constantia <br> <small> Cic.Deiot.16 <br> Te é conhecida, Caio César, a probidade desse homem, conhecidos os costumes, conhecida a constância. <small> [JDD] </small> </small> </p>
+; <p> idem Satellius illum hortari coepit ut luctaretur <b>hominem</b> aegrum pallidum gracilem <br> <small> Sen.Ep.27.8 <br> O mesmo Satélio começou a exortá-lo a que ele, um homem doente, pálido, franzino, praticasse luta. <small> [JDD] </small> </small> </p>
+; <p> quis M. Scaurum <b>hominem</b> grauissimum ciuem egregium fortissimum senatorem a Q. Maximo <br> <small> Cic.Mur.36 <br> Quem [pensou] que Marco Escauro, homem seriíssimo, notável cidadão, valorosíssimo senador, [pudesse ser vencido] por Quinto Máximo? <small> [JDD] </small> </small> </p>
+; <p> quid autem acerbum aut nimis graue est in <b>homines</b> tanti facinoris conuictos <br> <small> Sal.Cat.51.23 <br> Mas o que é terrível ou demasiadamente grave contra homens convictos de tão enorme crime? <small> [JDD] </small> </small> </p>
+; <p> utebatur <b>hominibus</b> improbis multis et quidem optimis se uiris deditum esse simulabat <br> <small> Cic.Cael.12 <br> Relacionava-se com muitas pessoas más; e, na verdade, fingia que era dedicado aos melhores homens. <small> [JDD] </small> </small> </p>
+; <p> ab his ergo inuiti <b>homines</b> recedunt et mercedem miseriarum amant ipsas execrantur <br> <small> Sen.Ep.22.9 <br> Destas coisas os homens se retiram contra a vontade e amam a recompensa das misérias, elas próprias são execradas. <small> [JDD] </small> </small> </p>
+; <p> armatis <b>hominibus</b> ante diem tertium Nonas Novembris expulsi sunt fabri de area nostra <br> <small> Cic.Att.4.3.2 <br> No terceiro dia antes das nonas de novembro [3 de novembro], com a intervenção de homens armados, foram expulsos de minha área os operários. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ex eo proelio circiter milia <b>hominum</b> CXXX superfuerunt eaque tota nocte continenter ierunt <br> <small> Caes.Gal.1.26.5 <br> Dessa batalha restaram cerca de 130 mil homens e por toda essa noite eles marcharam sem parar. <small> [JDD] </small> </small> </p>
+; <p> qui ager ut dena iugera sint non amplius <b>homines</b> quinque milia potest sustinere <br> <small> Cic.Att.2.16.1 <br> e este território, se os lotes são de dez jeiras, não pode suportar mais do que cinco mil homens. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> an hic si sese isti uitae dedidisset consularem <b>hominem</b> admodum adulescens in iudicium uocauisset <br> <small> Cic.Cael.47 <br> Por acaso este, se tivesse se dedicado a essa vida, teria, ainda muito jovem, chamado em juízo um ex-cônsul? <small> [JDD] </small> </small> </p>
+; <p> cum illi orbe facto sese defenderent celeriter ad clamorem <b>hominum</b> circiter milia sex conuenerunt <br> <small> Caes.Gal.4.37.2 <br> Como esses, feito um círculo, se defendiam, rapidamente ao clamor dos homens vieram juntar-se cerca de seis mil. <small> [JDD] </small> </small> </p>
+; <p> in omni Gallia eorum <b>hominum</b> qui aliquo sunt numero atque honore genera sunt duo <br> <small> Caes.Gal.6.13.1 <br> Em toda Gália há duas classes desses homens que são de alguma importância e honra. <small> [JDD] </small> </small> </p>
+; <p> itaque non ex sermone <b>hominum</b> recenti sed ex annalium uetustate eruenda memoria est nobilitatis tuae <br> <small> Cic.Mur.16 <br> E assim a memória de tua nobreza deve ser extraída não da conversação recente dos homens, mas da antiguidade dos anais. <small> [JDD] </small> </small> </p>
+; <p> legatum ex suis sese magno cum periculo ad eum missurum et <b>hominibus</b> feris obiecturum existimabat <br> <small> Caes.Gal.1.47.3 <br> Ele estimava que com grande perigo enviaria um de seus embaixadores e o lançaria a homens ferozes. <small> [JDD] </small> </small> </p>
+; <p> quod si id crimen <b>homini</b> nouo esse deberet profecto mihi neque inimici neque inuidi defuissent <br> <small> Cic.Mur.17 <br> E se isso devesse ser um crime para um homem novo, com certeza não me teriam faltado nem inimigos nem invejosos. <small> [JDD] </small> </small> </p>
+; <p> quid de tribunis aerariis ceterorumque ordinum omnium <b>hominibus</b> qui tum arma pro communi libertate ceperunt <br> <small> Cic.Rab.Perd.27 <br> E dos tribunos do erário e de todas as pessoas das demais ordens que na época pegaram em armas em defesa da liberdade comum? <small> [JDD] </small> </small> </p>
+; <p> qua re omitte quaeso istam doctorum <b>hominum</b> in contemnenda morte prudentiam noli nostro periculo esse sapiens <br> <small> Cic.Marc.25 <br> Por isso deixa de lado, peço-te, essa prudência de homens prudentes em desprezar a morte: não sejas sábio à custa de nosso perigo. <small> [JDD] </small> </small> </p>
+; <p> his ego sanctissimis rei publicae uocibus et eorum <b>hominum</b> qui hoc idem sentiunt mentibus pauca respondebo <br> <small> Cic.Catil.1.29.5 <br> A estas palavras sacratíssimas da república e às mentes daqueles homens que sentem o mesmo, responderei brevemente. <small> [JDD] </small> </small> </p>
+; <p> sit igitur iudices sanctum apud uos humanissimos <b>homines</b> hoc poetae nomen quod nulla umquam barbaria uiolauit <br> <small> Cic.Arch.19 <br> Seja, portanto, sagrado perante vós, juízes, homens de tão humana cultura, este nome de poeta, que nenhuma barbárie jamais violou. <small> [JDD] </small> </small> </p>
+; <p> me cum dico leue est senatorem populi Romani si non inuitarunt honorem debitum detraxerunt non <b>homini</b> sed ordini <br> <small> Cic.Ver.2.4.25.10 <br> Quando eu digo “a mim”, é sem importância: se não convidaram a um senador do povo romano, eles denegaram a honra devida não ao homem, mas ao cargo. <small> [JDD] </small> </small> </p>
+; <p> Phaselis illa quam cepit P. Seruilius non fuerat urbs antea Cilicum atque praedonum Lycii illam Graeci <b>homines</b> incolebant <br> <small> Cic.Ver.2.4.21.7 <br> Aquela célebre Fasélida, que Públio Servílio tomou, não tinha sido antes uma cidade de cilicianos e de bandidos; os lícios, homens gregos, a habitavam. <small> [JDD] </small> </small> </p>
+; <p> mentes enim <b>hominum</b> audacissimorum sceleratae ac nefariae ne uobis nocere possent ego prouidi ne mihi noceant uestrum est prouidere <br> <small> Cic.Catil.3.27.7 <br> Pois eu providenciei para que as mentes criminosas e nefandas de homens extremamente ousados não pudessem prejudicar-vos, cabe vós providenciar para que não me prejudiquem. <small> [JDD] </small> </small> </p>
+; <p> cursare iste <b>homo</b> potens cum filio blando et gratioso circum tribus paternos amicos hoc est diuisores appellare omnis et conuenire <br> <small> Cic.Ver.1.25 <br> Eis esse homem poderoso a correr sem cessar com seu doce e popular filho de tribo em tribo, a chamar e a reunir todos os amigos de seu pai, isto é, os galopins. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx104-111-109-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 56.17 and an absolute frequency of 25. The Cicero subcorpus follows, with a normalized frequency of 38.75 and an absolute frequency of 622. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 64 ; absolute frequency: 24.1710098950072. subcorpus: Cicero ; normalized frequency: 622 ; absolute frequency: 38.7480999725898. subcorpus: Horatius ; normalized frequency: 15 ; absolute frequency: 13.3203090311695. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 19 ; absolute frequency: 28.8446940944284. subcorpus: Sallustius ; normalized frequency: 37 ; absolute frequency: 34.3196363973657. subcorpus: Seneca ; normalized frequency: 103 ; absolute frequency: 19.223232115862. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 8 ; absolute frequency: 15.4440154440154. subcorpus: Hieronymus ; normalized frequency: 25 ; absolute frequency: 56.1671534486632'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx104-111-109-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 56.17 and an absolute frequency of 25. The Prosa.oratória subcorpus follows, with a normalized frequency of 45.03 and an absolute frequency of 469. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 103 ; absolute frequency: 25.0736385987974. subcorpus: Prosa.filosófica ; normalized frequency: 150 ; absolute frequency: 24.7112897645838. subcorpus: Prosa.oratória ; normalized frequency: 469 ; absolute frequency: 45.0299079239196. subcorpus: Prosa.epistolográfica ; normalized frequency: 106 ; absolute frequency: 28.0876546808341. subcorpus: Poesia.lírica ; normalized frequency: 16 ; absolute frequency: 13.460082443005. subcorpus: Poesia.didática ; normalized frequency: 21 ; absolute frequency: 17.8132157095598. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 8 ; absolute frequency: 15.4440154440154. subcorpus: Prosa.ficcional ; normalized frequency: 25 ; absolute frequency: 56.1671534486632'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx104-111-109-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 56.17 and an absolute frequency of 25. The I.a.C. subcorpus follows, with a normalized frequency of 34.77 and an absolute frequency of 747. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 5.24 and an absolute freqeuncy of 2. here are all the values: subcorpus: I.a.C. ; normalized frequency: 747 ; absolute frequency: 34.7684430998371. subcorpus: I.d.C. ; normalized frequency: 124 ; absolute frequency: 18.968945999694. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 25 ; absolute frequency: 56.1671534486632'}
+
+
+:::
+

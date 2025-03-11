@@ -1,0 +1,206 @@
+---
+title: "mens"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx109-101-110-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>mens</b> <b>-tis</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; A mente, o espírito em oposição a corpus, a inteligência: &ensp; <small></small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Intenção, plano, projeto, pensamento &ensp; <small>Cíc. AI. 12, 37, 2.</small> <br> <b>3</b> &ensp; <small>II-Daí</small> &ensp; Razão, juízo, discernimento &ensp; <small>Cíc. Piso 48.</small> <br> <b>4</b> &ensp; <small>III-Sent. poético:</small> &ensp; Coragem, ânimo &ensp; <small>Verg. En. 12, 609.</small> <br> <b>5</b> &ensp; <small>IV-Sents. diversos:</small> &ensp; Memória: &ensp; <small></small> <br> <b>6</b> &ensp; <small>IV-Sents. diversos:</small> &ensp; Disposição de espírito, espírito &ensp; <small>sent. particular Cíc. Har. 58.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>mentes animosque perturbare Cés. B. Gal. 1, 39, 1 “perturbar as inteligências e os corações”. <br> <br><b>5</b><br>mihi venit in mentem alicujus rei Cíc. Fin. 5, 2 “lembro-me de alguma coisa”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+no data
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Mens</b> -<b>entis</b>   <p> <b>1</b> &ensp; ho ẽtẽdimẽto. ou memoria </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/112038 ' target="_blank"> http://lila-erc.eu/data/id/lemma/112038 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx109-101-110-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx109-101-110-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword mens here are all the values plotted: collocate: agito; scoreSUBST: 0. collocate: diuinus; scoreSUBST: 0. collocate: bonus; scoreSUBST: 0. collocate: oculus; scoreSUBST: 2. collocate: unus; scoreSUBST: 0. collocate: uester; scoreSUBST: 0. collocate: quidam; scoreSUBST: 0. collocate: meus; scoreSUBST: 0. collocate: atque; scoreSUBST: 0. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx109-101-110-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword mens here are all the values plotted: collocate: agito; scoreADJ: 0. collocate: diuinus; scoreADJ: 2. collocate: bonus; scoreADJ: 2. collocate: oculus; scoreADJ: 0. collocate: unus; scoreADJ: 0. collocate: uester; scoreADJ: 0. collocate: quidam; scoreADJ: 0. collocate: meus; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx109-101-110-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword mens here are all the values plotted: collocate: agito; scoreVERBO: 2. collocate: diuinus; scoreVERBO: 0. collocate: bonus; scoreVERBO: 0. collocate: oculus; scoreVERBO: 0. collocate: unus; scoreVERBO: 0. collocate: uester; scoreVERBO: 0. collocate: quidam; scoreVERBO: 0. collocate: meus; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx109-101-110-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword mens here are all the values plotted: collocate: agito; scoreADV: 0. collocate: diuinus; scoreADV: 0. collocate: bonus; scoreADV: 0. collocate: oculus; scoreADV: 0. collocate: unus; scoreADV: 0. collocate: uester; scoreADV: 0. collocate: quidam; scoreADV: 0. collocate: meus; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx109-101-110-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword mens here are all the values plotted: collocate: agito; scoreFUNC: 0. collocate: diuinus; scoreFUNC: 0. collocate: bonus; scoreFUNC: 0. collocate: oculus; scoreFUNC: 0. collocate: unus; scoreFUNC: 0. collocate: uester; scoreFUNC: 0. collocate: quidam; scoreFUNC: 0. collocate: meus; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: in; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> bona <b>mens</b> nec commodatur nec emitur <br> <small> Sen.Ep.27.8 <br> A boa mente não se empresta nem se compra. <small> [JDD] </small> </small> </p>
+; <p> nam mihi in <b>mentem</b> non venerat <br> <small> Cic.Att.5.19.3 <br> pois não tinha vindo à minha mente. <small> [JDD] </small> </small> </p>
+; <p> quae tua <b>mens</b> oculi manus ardor animi <br> <small> Cic.Lig.9 <br> Qual tua mente, teus olhos, tuas mãos,o ardor de teu espírito? <small> [JDD] </small> </small> </p>
+; <p> refugit loqui <b>mens</b> aegra tantis atque inhorrescit malis <br> <small> Sen.Ag.417 <br> Minha mente aflita reluta em falar e se horroriza com tão grandes males. <small> [JDD] </small> </small> </p>
+; <p> muta iam istam <b>mentem</b> mihi crede obliuiscere caedis atque incendiorum <br> <small> Cic.Catil.1.6.10 <br> Muda já essa idéia, acredita em mim, esquece a matança e os incêndios. <small> [JDD] </small> </small> </p>
+; <p> sed ego quae <b>mente</b> agitaui omnes iam antea diuorsi audistis <br> <small> Sal.Cat.20.5 <br> Mas as coisas que eu elaborei em minha mente, todos vós já ouvistes antes separados. <small> [JDD] </small> </small> </p>
+; <p> quod tempus animo semper ac <b>mente</b> horrui adest profecto rebus extremum meis <br> <small> Sen.Ag.226 <br> O momento pelo qual eu sempre senti horror no espírito e na mente está chegando, sem dúvida, como um fim para as minhas coisas. <small> [JDD] </small> </small> </p>
+; <p> omnes enim iam ciues de rei publicae salute una et <b>mente</b> et uoce consentiunt <br> <small> Cic.Phil.1.21.8 <br> Pois todos os cidadãos, com um único pensamente e uma só voz, já estão de acordo em relação à salvação da república. <small> [JDD] </small> </small> </p>
+; <p> ingenium cui sit cui <b>mens</b> diuinior atque os magna sonaturum des nominis huius honorem <br> <small> Hor.S.1.4.43 <br> Que dês a honra desse nome àquele que tem talento, que tem uma mente mais divina e uma boca capaz de entoar grandes cantos. <small> [JDD] </small> </small> </p>
+; <p> nunc quicquid est quocumque uestrae <b>mentes</b> inclinant atque sententiae statuendum uobis ante noctem est <br> <small> Cic.Catil.4.6.7 <br> Agora, seja como for, para onde quer que se inclinem vossos pensamentos e opiniões, vós deveis decidir antes da noite. <small> [JDD] </small> </small> </p>
+; <p> nunc ut a me patres conscripti quandam prope iustam patriae querimoniam detester ac deprecer percipite quaeso diligenter quae dicam et ea penitus animis uestris <b>mentibus</b>que mandate <br> <small> Cic.Catil.1.27.5 <br> Agora, pais conscritos, para que eu afaste e desvie de mim uma certa queixa, quase justa, da pátria, observai, por favor, diligentemente as coisas que vou dizer, e confiai-as profundamente aos vossos espíritos e mentes. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx109-101-110-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 13.51 and an absolute frequency of 7. The Horatius subcorpus follows, with a normalized frequency of 8.88 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 6 ; absolute frequency: 2.26603217765692. subcorpus: Cicero ; normalized frequency: 90 ; absolute frequency: 5.60663825969948. subcorpus: Horatius ; normalized frequency: 10 ; absolute frequency: 8.88020602077968. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 5 ; absolute frequency: 4.63778870234672. subcorpus: Seneca ; normalized frequency: 40 ; absolute frequency: 7.46533286052892. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 7 ; absolute frequency: 13.5135135135135. subcorpus: Hieronymus ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx109-101-110-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 13.51 and an absolute frequency of 7. The Poesia.trágica subcorpus follows, with a normalized frequency of 8.69 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 12 ; absolute frequency: 2.92120061345213. subcorpus: Prosa.filosófica ; normalized frequency: 39 ; absolute frequency: 6.42493533879178. subcorpus: Prosa.oratória ; normalized frequency: 67 ; absolute frequency: 6.43284398913137. subcorpus: Prosa.epistolográfica ; normalized frequency: 14 ; absolute frequency: 3.70969024086489. subcorpus: Poesia.lírica ; normalized frequency: 10 ; absolute frequency: 8.4125515268781. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 10 ; absolute frequency: 8.68658790826963. subcorpus: Poesia.épica ; normalized frequency: 7 ; absolute frequency: 13.5135135135135. subcorpus: Prosa.ficcional ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx109-101-110-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 6.58 and an absolute frequency of 43. The I.a.C. subcorpus follows, with a normalized frequency of 5.49 and an absolute frequency of 118. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 2.25 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 118 ; absolute frequency: 5.49220386316034. subcorpus: I.d.C. ; normalized frequency: 43 ; absolute frequency: 6.57794095150681. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 1 ; absolute frequency: 2.24668613794653'}
+
+
+:::
+

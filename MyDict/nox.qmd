@@ -1,0 +1,208 @@
+---
+title: "nox"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-111-120xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>nox</b> <b>noctis</b> <br> <small>subs. f.</small> <br> <small>Obs.: O abl. arc. noctu ainda ocorre em Plauto: noctu hac Mil. 381 «nesta noite».</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Noite: &ensp; <small></small> <br> <b>2</b> &ensp; <small>I-Personificado</small> &ensp; A Noite &ensp; <small>deusa da noite Verg. En. 5, 721.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; A noite eterna, a morte &ensp; <small>Hor. O. 1, 28, 15.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Noite de prazeres &ensp; <small>Cíc. At. 1, 15, 6.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Repouso da noite, sono &ensp; <small>Verg. En. 4, 530.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Noite da cegueira sent. próprio e figurado, perda da vista, ignorância &ensp; <small>Ov. Met. 7, 2.</small> <br> <b>7</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Obscuridade, trevas &ensp; <small>Verg. En. 3, 194.</small> <br> <b>8</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Trevas políticas, situação embaraçosa, calamitosa &ensp; <small>Cíc. Br. 330.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>die et nocte Cíc. N al. 2, 24 «de dia e de noite». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Nox</b> <b>noctis</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; noite. <br> <b>2</b> &ensp; morte. <br> <b>3</b> &ensp; <small>Virg.</small> &ensp; somno. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>animi nox &ensp; <small><small>Ovid</small></small> &ensp; <small>Ignorancia, cegueira do entendimento</small> <br> noctem peccatis obiicere &ensp; <small><small>Hor</small></small> &ensp; <small>Escurecer, ou encobrir os delictos</small> <br> noctes, atque dies &ensp; <small><small>Virg</small></small> &ensp; <small>De noite, e de dia, continuamente</small> <br> perpetua sub nocte trahere senectam &ensp; <small><small>Ovid</small></small> &ensp; <small>Passar a velhice totalmente cego</small> </p>
+
+
+
+
+#### Velez
+
+<b>Nox</b> <b>noctis</b>   <p> <b>1</b> &ensp; noite </p>
+
+
+
+
+#### Cardoso
+
+<b>Nox</b> <b>otis</b>   <p> <b>1</b> &ensp; a noyte </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/113901 ' target="_blank"> http://lila-erc.eu/data/id/lemma/113901 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx110-111-120xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-111-120xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword nox here are all the values plotted: collocate: propior; scoreSUBST: 0. collocate: medius; scoreSUBST: 0. collocate: hora; scoreSUBST: 2. collocate: dies; scoreSUBST: 2. collocate: ante; scoreSUBST: 0. collocate: multus; scoreSUBST: 0. collocate: unus; scoreSUBST: 0. collocate: uenio; scoreSUBST: 0. collocate: iam; scoreSUBST: 0. collocate: ille; scoreSUBST: 0. collocate: que; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-111-120xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword nox here are all the values plotted: collocate: propior; scoreADJ: 2. collocate: medius; scoreADJ: 2. collocate: hora; scoreADJ: 0. collocate: dies; scoreADJ: 0. collocate: ante; scoreADJ: 0. collocate: multus; scoreADJ: 0. collocate: unus; scoreADJ: 0. collocate: uenio; scoreADJ: 0. collocate: iam; scoreADJ: 0. collocate: ille; scoreADJ: 0. collocate: que; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-111-120xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword nox here are all the values plotted: collocate: propior; scoreVERBO: 0. collocate: medius; scoreVERBO: 0. collocate: hora; scoreVERBO: 0. collocate: dies; scoreVERBO: 0. collocate: ante; scoreVERBO: 0. collocate: multus; scoreVERBO: 0. collocate: unus; scoreVERBO: 0. collocate: uenio; scoreVERBO: 2. collocate: iam; scoreVERBO: 0. collocate: ille; scoreVERBO: 0. collocate: que; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-111-120xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword nox here are all the values plotted: collocate: propior; scoreADV: 0. collocate: medius; scoreADV: 0. collocate: hora; scoreADV: 0. collocate: dies; scoreADV: 0. collocate: ante; scoreADV: 0. collocate: multus; scoreADV: 0. collocate: unus; scoreADV: 0. collocate: uenio; scoreADV: 0. collocate: iam; scoreADV: 2. collocate: ille; scoreADV: 0. collocate: que; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-111-120xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword nox here are all the values plotted: collocate: propior; scoreFUNC: 0. collocate: medius; scoreFUNC: 0. collocate: hora; scoreFUNC: 0. collocate: dies; scoreFUNC: 0. collocate: ante; scoreFUNC: 20. collocate: multus; scoreFUNC: 0. collocate: unus; scoreFUNC: 0. collocate: uenio; scoreFUNC: 0. collocate: iam; scoreFUNC: 0. collocate: ille; scoreFUNC: 0. collocate: que; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> iam <b>nox</b> est <br> <small> Sen.Ep.122.13 <br> Já é noite? <small> [JDD] </small> </small> </p>
+; <p> ille <b>noctem</b> sibi postulavit <br> <small> Cic.Att.4.2.4 <br> Ele pediu uma noite. <small> [JDD] </small> </small> </p>
+; <p> Spatium diei <b>noctis</b> excipiunt vices . <br> <small> Phaed.2.8 <br> A vez da noite toma o lugar do dia. <small> [JDD] </small> </small> </p>
+; <p> nihil esse quod in campum <b>nocte</b> veniretur <br> <small> Cic.Att.4.3.4 <br> não havia nenhum motivo para que se viesse ao Campo à noite. <small> [JDD] </small> </small> </p>
+; <p> audio inquit circa horam tertiam <b>noctis</b> flagellorum sonum <br> <small> Sen.Ep.122.15 <br> “Ouço”, dizia ele “por volta da terceira hora da noite o som dos chicotes. <small> [JDD] </small> </small> </p>
+; <p> sed omnis una manet <b>nox</b> et calcanda semel uia leti <br> <small> Hor.Carm.1.28.15 <br> Mas uma só noite aguarda a todos e a estrada da morte deve ser pisada uma única vez. <small> [JDD] </small> </small> </p>
+; <p> ipse idoneam tempestatem nactus paulo post mediam <b>noctem</b> naues soluit <br> <small> Caes.Gal.4.36.3 <br> Ele próprio, tendo encontrado um clima apropriado, zarpou com seus navios pouco depois da meia noite. <small> [JDD] </small> </small> </p>
+; <p> quem ad modum autem illis carere poterunt his praesertim iam <b>noctibus</b> <br> <small> Cic.Catil.2.23.9 <br> De que modo, porém, vão poder estar sem elas, sobretudo agora nestas noites? <small> [JDD] </small> </small> </p>
+; <p> interim omnis ex fuga Suessionum multitudo in oppidum proxima <b>nocte</b> conuenit <br> <small> Caes.Gal.2.12.4 <br> Nesse ínterim, toda a multidão de suessiões em fuga veio para a cidadela na noite seguinte. <small> [JDD] </small> </small> </p>
+; <p> factum est periclum lucis attollit caput cauisque lustrans orbibus caeli plagas <b>noctem</b> experitur <br> <small> Sen.Oed.971 <br> É feita a prova da luz; ergue a cabeça e, percorrendo com suas órbitas ocas as regiões do céu, experimenta a sua noite. <small> [JDD] </small> </small> </p>
+; <p> nunc quicquid est quocumque uestrae mentes inclinant atque sententiae statuendum uobis ante <b>noctem</b> est <br> <small> Cic.Catil.4.6.7 <br> Agora, seja como for, para onde quer que se inclinem vossos pensamentos e opiniões, vós deveis decidir antes da noite. <small> [JDD] </small> </small> </p>
+; <p> ante diem xii Kal Decembr Milo ante mediam <b>noctem</b> cum magna manu in campum venit <br> <small> Cic.Att.4.3.4 <br> No décimo segundo dia antes das calendas de dezembro [20 de novembro], antes da meia noite, Milão veio ao Campo de Marte com um grande número de soldados. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> itinere confectus incommodo magis quam longo in Albanum meum multa <b>nocte</b> perueni nihil habeo parati nisi me <br> <small> Sen.Ep.123.1 <br> Esgotado por uma viagem mais desconfortável que longa, cheguei tarde da noite em minha chácara de Alba: não tenho nada preparado a não ser a mim mesmo. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-111-120xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 13.51 and an absolute frequency of 7. The Suetonius subcorpus follows, with a normalized frequency of 11.03 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Tacitus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 19 ; absolute frequency: 7.17576856258025. subcorpus: Cicero ; normalized frequency: 50 ; absolute frequency: 3.11479903316638. subcorpus: Horatius ; normalized frequency: 10 ; absolute frequency: 8.88020602077968. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 6 ; absolute frequency: 9.10885076666161. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 48 ; absolute frequency: 8.9583994326347. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 7 ; absolute frequency: 13.5135135135135. subcorpus: Hieronymus ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-111-120xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 20.85 and an absolute frequency of 24. The Poesia.trágica subcorpus follows, with a normalized frequency of 20.85 and an absolute frequency of 24. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 2.38 and an absolute freqeuncy of 9. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 27 ; absolute frequency: 6.57270138026729. subcorpus: Prosa.filosófica ; normalized frequency: 27 ; absolute frequency: 4.44803215762508. subcorpus: Prosa.oratória ; normalized frequency: 38 ; absolute frequency: 3.64847868040287. subcorpus: Prosa.epistolográfica ; normalized frequency: 9 ; absolute frequency: 2.38480086912743. subcorpus: Poesia.lírica ; normalized frequency: 10 ; absolute frequency: 8.4125515268781. subcorpus: Poesia.didática ; normalized frequency: 10 ; absolute frequency: 8.48248367121893. subcorpus: Poesia.trágica ; normalized frequency: 24 ; absolute frequency: 20.8478109798471. subcorpus: Poesia.épica ; normalized frequency: 7 ; absolute frequency: 13.5135135135135. subcorpus: Prosa.ficcional ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-111-120xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 8.99 and an absolute frequency of 4. The I.d.C. subcorpus follows, with a normalized frequency of 8.87 and an absolute frequency of 58. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 2.62 and an absolute freqeuncy of 1. here are all the values: subcorpus: I.a.C. ; normalized frequency: 93 ; absolute frequency: 4.32860134977892. subcorpus: I.d.C. ; normalized frequency: 58 ; absolute frequency: 8.87257151598593. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+:::
+

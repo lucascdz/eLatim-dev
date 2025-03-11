@@ -1,0 +1,214 @@
+---
+title: "rogo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx114-111-103-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>rogō</b> <b>-ás</b> <b>-áre</b> <b>-áví, -átum</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói-se com duplo acusativo: com abl. com de: com interrog. indir.: com oração introduzida por ut: ou como intr. absoluto. Forma arcaica: rogassit = rogaverit Cíc. Leg. 3, 9: rogassint = rogaverint Cíc. Leg. 3. 10.</small>   <p> <b>1</b> &ensp; <small>I-Sent. primitivo</small> &ensp; Dirigir-se a, e daí: dirigir-se para perguntar, fazer uma pergunta, interrogar, perguntar &ensp; <small>Cíc. Q. F r. 2, 2, 1: Cíc. Fin. 5, 83; Plaut. Curc. 245: Cíc. Fin. 5. 83.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Pedir perguntando, rogar, solicitar &ensp; <small>Cíc. Fam. 13, 5. 3; Hor. O. 2, 16, 1; Cíc. Verr. 4. 63.</small> <br> <b>3</b> &ensp; <small>II-Empregos especiais: Na língua jurídica:</small> &ensp; Consultar, consultar a vontade de &ensp; <small>Cíc. Phil. 5, 1; Cíc. Phil. 26.</small> <br> <b>4</b> &ensp; <small>II-Na língua política:</small> &ensp; Propor uma lei &ensp; <small>Cíc. Rep. 3. 17.</small> <br> <b>5</b> &ensp; <small>II-Na língua política:</small> &ensp; Propor um magistrado à assembléia do povo, nomear, eleger &ensp; <small>T. Lív. 6, 42, 14.</small> <br> <b>6</b> &ensp; <small>II-Na língua militar:</small> &ensp; Convocar, chamar, recrutar &ensp; <small>Cés. B. Gal. 6, 1, 2.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Rogo</b> -<b>as</b> -<b>avi</b> -<b>atum</b> -<b>are</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; rogar, supplicar. <br> <b>2</b> &ensp; perguntar. <br> <b>3</b> &ensp; propôr huma lei ao povo para que a approve. </p>
+
+
+
+
+#### Velez
+
+<b>Rogo</b> -<b>as</b>   <p> <b>1</b> &ensp; rogar, pedir, perguntar &ensp; <small>aliquid ab aliquo: vel duos accus.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>rogare legem &ensp; <small>fazer ley</small> <br> rogare milites sacramento &ensp; <small>obrigar com juramento</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Rogo</b> -<b>as</b>   <p> <b>1</b> &ensp; preguntar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/122853 ' target="_blank"> http://lila-erc.eu/data/id/lemma/122853 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 1ª conjugação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> rogo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> rogare </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> rogabit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> rogaui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> rogatum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> rogaturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+rŏgō 
+ rŏgās 
+ rŏgāre 
+ rŏgāvī 
+ rŏgātum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx114-111-103-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx114-111-103-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword rogo here are all the values plotted: collocate: sententia; scoreSUBST: 3. collocate: ut; scoreSUBST: 0. collocate: nihil; scoreSUBST: 0. collocate: facio; scoreSUBST: 0. collocate: tu; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx114-111-103-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword rogo here are all the values plotted: collocate: sententia; scoreADJ: 0. collocate: ut; scoreADJ: 0. collocate: nihil; scoreADJ: 0. collocate: facio; scoreADJ: 0. collocate: tu; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx114-111-103-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword rogo here are all the values plotted: collocate: sententia; scoreVERBO: 0. collocate: ut; scoreVERBO: 0. collocate: nihil; scoreVERBO: 0. collocate: facio; scoreVERBO: 2. collocate: tu; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx114-111-103-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword rogo here are all the values plotted: collocate: sententia; scoreADV: 0. collocate: ut; scoreADV: 0. collocate: nihil; scoreADV: 0. collocate: facio; scoreADV: 0. collocate: tu; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx114-111-103-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword rogo here are all the values plotted: collocate: sententia; scoreFUNC: 0. collocate: ut; scoreFUNC: 30. collocate: nihil; scoreFUNC: 0. collocate: facio; scoreFUNC: 0. collocate: tu; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> nihil <b>rogo</b> <br> <small> Sen.Ep.118.4 <br> Não te peço nada.” <small> [JDD] </small> </small> </p>
+; <p> <b>rogat</b> et respondet <br> <small> Hor.S.1.9.63 <br> pergunta e responde. <small> [JDD] </small> </small> </p>
+; <p> <b>rogat</b> ut rem sic relinquam <br> <small> Cic.Att.5.21.12 <br> pede que eu deixe o assunto como está. <small> [JDD] </small> </small> </p>
+; <p> <b>rogat</b> ut eos ad ducenta perducam <br> <small> Cic.Att.5.21.12 <br> Roga que eu os faça chegar aos duzentos. <small> [JDD] </small> </small> </p>
+; <p> tabellae ministrabantur ita ut nulla daretur uti <b>rogas</b> <br> <small> Cic.Att.1.14.5 <br> distribuíam tabuinhas de forma que não fosse dada nenhuma com o “a favor” <small> [JDD] </small> </small> </p>
+; <p> Thyillus te <b>rogat</b> et ego eius rogatu Εὐμολπιδῶν πάτρια <br> <small> Cic.Att.1.9.2 <br> Tiilo te pede e eu me associo ao seu pedido ‘Ritos pátrios do Eumópidas’. <small> [JDD] </small> </small> </p>
+; <p> quid ipse temet consulis torques <b>rogas</b> an deceat hoc te <br> <small> Sen.Ag.51 <br> Por que te consultas a ti mesmo, te atormentas, perguntas se isto te é lícito? <small> [JDD] </small> </small> </p>
+; <p> itaque sub quisque horum loco sententiam <b>rogatus</b> multa secundum causam nostram disputavit <br> <small> Cic.Att.4.2.4 <br> E assim, cada um deles, solicitados em sua vez a dar o parecer, fez muitas alegações favoráveis à minha causa. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> haec igitur lex in amicitia sanciatur ut neque <b>rogemus</b> res turpes nec faciamus <b>rogati</b> <br> <small> Cic.Amici.40 <br> Que seja, portanto, sancionada na amizade esta lei: que nem solicitemos coisas vergonhosas, nem façamos quando solicitados. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx114-111-103-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 7.59 and an absolute frequency of 5. The Horatius subcorpus follows, with a normalized frequency of 5.33 and an absolute frequency of 6. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 6 ; absolute frequency: 2.26603217765692. subcorpus: Cicero ; normalized frequency: 63 ; absolute frequency: 3.92464678178964. subcorpus: Horatius ; normalized frequency: 6 ; absolute frequency: 5.32812361246781. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 5 ; absolute frequency: 7.59070897221801. subcorpus: Sallustius ; normalized frequency: 5 ; absolute frequency: 4.63778870234672. subcorpus: Seneca ; normalized frequency: 17 ; absolute frequency: 3.17276646572479. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx114-111-103-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 8.21 and an absolute frequency of 31. The Poesia.lírica subcorpus follows, with a normalized frequency of 5.05 and an absolute frequency of 6. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 11 ; absolute frequency: 2.67776722899778. subcorpus: Prosa.filosófica ; normalized frequency: 20 ; absolute frequency: 3.29483863527784. subcorpus: Prosa.oratória ; normalized frequency: 27 ; absolute frequency: 2.59234011502309. subcorpus: Prosa.epistolográfica ; normalized frequency: 31 ; absolute frequency: 8.21431410477225. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 8 ; absolute frequency: 6.78598693697515. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx114-111-103-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 4.49 and an absolute frequency of 2. The I.d.C. subcorpus follows, with a normalized frequency of 3.82 and an absolute frequency of 25. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 80 ; absolute frequency: 3.72352804282057. subcorpus: I.d.C. ; normalized frequency: 25 ; absolute frequency: 3.82438427413186. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

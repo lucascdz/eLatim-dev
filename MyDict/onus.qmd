@@ -1,0 +1,200 @@
+---
+title: "onus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx111-110-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>honus</b> <br> <small></small> <br> <small>v. onus.</small> 
+ <b>onĕra</b> <br> <small>nom. pI. de onus.</small> <br> <small></small> 
+ <b>onĕris</b> <br> <small>gen. sing. de onus.</small> <br> <small></small> 
+ <b>onus</b> <b>-èris</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Carga, peso, fardo &ensp; <small>Cés. B. Civ. 1, 80: 2.</small> <br> <b>2</b> &ensp; <small>I-Daí, por eufemismo</small> &ensp; Gravidez &ensp; <small>Ov. Am. 2, 13, I.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Encargo, coisa difícil, embaraço, peso, ônus &ensp; <small>Cíc. Amer. 10.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Fardo, peso &ensp; <small>Cés. B. Gal. 2, 30.</small> <br> <b>5</b> &ensp; <small>II-No plural:</small> &ensp; Impostos &ensp; <small>T. Lív. 1, 43, 9.</small> <br> <b>6</b> &ensp; <small>II-No plural:</small> &ensp; Despesas &ensp; <small>Suet. Dom. 12</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Onus</b> -<b>eris</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; cargo, pezo. <br> <b>2</b> &ensp; emprego, cargo, officio, obrigação. <br> <b>3</b> &ensp; <small>Liv.</small> &ensp; molestia, enfado, incommodo. <br> <b>4</b> &ensp; gasto, despeza. <br> <b>5</b> &ensp; <small>Ovid.</small> &ensp; feto no ventre da mãi. </p>
+
+
+
+
+#### Velez
+
+<b>Onus</b> <b>oneris</b> <br> <small>1. incr. br.</small>   <p> <b>1</b> &ensp; carga, peso, cargo, ou officio </p>
+
+
+
+
+#### Cardoso
+
+<b>Onus</b> -<b>eris</b>   <p> <b>1</b> &ensp; a carga </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/115001 ' target="_blank"> http://lila-erc.eu/data/id/lemma/115001 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> honus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ŏnŭs 
+ ŏnĕris
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx111-110-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> languent per inertiam saginata nec labore tantum sed motu et ipso sui <b>onere</b> deficiunt <br> <small> Sen.Prov.2.6 <br> Perdem a força os que engordam pela inatividade e desfalecem não só com o trabalho, mas também com o movimento e com seu próprio peso. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx111-110-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 6.07 and an absolute frequency of 4. The Horatius subcorpus follows, with a normalized frequency of 3.55 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 4 ; absolute frequency: 1.51068811843795. subcorpus: Cicero ; normalized frequency: 10 ; absolute frequency: 0.622959806633276. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 4 ; absolute frequency: 6.0725671777744. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 14 ; absolute frequency: 2.61286650118512. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx111-110-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.lírica subcorpus registers the highest normalized frequency, with the value of 4.21 and an absolute frequency of 5. The Poesia.lírica subcorpus follows, with a normalized frequency of 4.21 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 7 ; absolute frequency: 1.70403369118041. subcorpus: Prosa.filosófica ; normalized frequency: 14 ; absolute frequency: 2.30638704469449. subcorpus: Prosa.oratória ; normalized frequency: 4 ; absolute frequency: 0.384050387410828. subcorpus: Prosa.epistolográfica ; normalized frequency: 3 ; absolute frequency: 0.794933623042476. subcorpus: Poesia.lírica ; normalized frequency: 5 ; absolute frequency: 4.20627576343905. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx111-110-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 2.75 and an absolute frequency of 18. The I.a.C. subcorpus follows, with a normalized frequency of 1.07 and an absolute frequency of 23. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 23 ; absolute frequency: 1.07051431231091. subcorpus: I.d.C. ; normalized frequency: 18 ; absolute frequency: 2.75355667737494. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

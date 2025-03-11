@@ -1,0 +1,208 @@
+---
+title: "exerceo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx101-120-101-114-99-101-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>exercĕō</b> <b>-és</b> <b>-ére</b> <b>-cùí, -cìtum</b> <br> <small>v. tr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Perseguir, andar à caça, acossar. &ensp; <small>Dig. 7, 1, 62.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Agitar, não deixar em repouso &ensp; <small>Lucr. 2, 97.</small> <br> <b>3</b> &ensp; <small>I-Daí:</small> &ensp; Por enfraquecimento de sentido: Trabalhar &ensp; <small>Verg. G. 1, 99.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Praticar, exercitar, exercer uma profissão, administrar, ocupar-se de, usar &ensp; <small>Cíc. C. M. 38; Cíc. Cw. 178; Cíc. Arch. 2.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Fazer sentir, manifestar, fazer executar &ensp; <small>Cíc. Caecil. 13; Cíc. Of. 1, 88; T. Lív. 4, 51, 4.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Atormentar, inquietar &ensp; <small>Sal. C. Cat. 11, 1.</small> <br> <b>7</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Estimular, animar &ensp; <small>Cíc. Br. 230.</small> <br> <b>8</b> &ensp; <small>II-Loc.</small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>8</b><br>exercere victoriam Sal. B. Jug. 16, 2 «exercer os direitos da vitória». </p> 
+ <b>exercŭī</b> <br> <small>perf. de exercèo.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Exerceo</b> -<b>es</b> -<b>ui</b> -<b>itum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; exercitar, professar. <br> <b>2</b> &ensp; inquietar, molestar, affligir. <br> <b>3</b> &ensp; occupar, entreter. <br> <b>4</b> &ensp; <small>Virg.</small> &ensp; adestrar. <br> <b>5</b> &ensp; <small>Sall.</small> &ensp; fomentar. </p>
+
+
+
+
+#### Velez
+
+<b>Exerceo</b> -<b>es</b>   <p> <b>1</b> &ensp; exercitar, fazer, trabalhar, apertar, ou cançar, perseguir </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>discordias cum aliquo exercere &ensp; <small><small>i, habére</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Exerceo</b> -<b>es</b> <b>ui</b> <b>citum</b>   <p> <b>1</b> &ensp; exercitar. ou maçar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/101981 ' target="_blank"> http://lila-erc.eu/data/id/lemma/101981 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 2ª conjugação (tema em -e-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> exerceo </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> exercere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> exercebit </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> exercui </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> exercitum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> exerciturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+exercĕō 
+ exercēs 
+ exercēre 
+ exercŭī 
+ exercĭtum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx101-120-101-114-99-101-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx101-120-101-114-99-101-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword exerceo here are all the values plotted: collocate: iudicium; scoreSUBST: 2. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx101-120-101-114-99-101-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword exerceo here are all the values plotted: collocate: iudicium; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx101-120-101-114-99-101-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword exerceo here are all the values plotted: collocate: iudicium; scoreVERBO: 0. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx101-120-101-114-99-101-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword exerceo here are all the values plotted: collocate: iudicium; scoreADV: 0. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx101-120-101-114-99-101-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword exerceo here are all the values plotted: collocate: iudicium; scoreFUNC: 0. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quem in ipsa re trepidare nolueris ante rem <b>exerceas</b> <br> <small> Sen.Ep.18.6 <br> aquele que não quiseres ver tremer na própria ação, exercita-o antes. <small> [JDD] </small> </small> </p>
+; <p> nam uterque cum illo grauis inimicitias <b>exercebant</b> Piso oppugnatus in iudicio pecuniarum repetundarum propter cuiusdam Transpadani supplicium iniustum Catulus ex petitione pontificatus odio incensus quod extrema aetate maxumis honoribus usus ab adulescentulo Caesare uictus discesserat <br> <small> Sal.Cat.49.2 <br> Pois ambos tinham uma séria inimizade com ele. Pisão, por ter sido acusado por ele num julgamento de malversação de dinheiro público por causa de um suplício injusto a um certo transpadano, Cátulo, inflamado de ódio desde a sua candidatura ao pontificado, porque, no fim de sua idade, tendo usufruído das maiores honras, tinha saído derrotado pelo jovenzinho César. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx101-120-101-114-99-101-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 11.03 and an absolute frequency of 1. The Sallustius subcorpus follows, with a normalized frequency of 7.42 and an absolute frequency of 8. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 3 ; absolute frequency: 1.13301608882846. subcorpus: Cicero ; normalized frequency: 17 ; absolute frequency: 1.05903167127657. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 8 ; absolute frequency: 7.42046192375475. subcorpus: Seneca ; normalized frequency: 27 ; absolute frequency: 5.03909968085702. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx101-120-101-114-99-101-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 5.27 and an absolute frequency of 32. The Poesia.trágica subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 13 ; absolute frequency: 3.16463399790647. subcorpus: Prosa.filosófica ; normalized frequency: 32 ; absolute frequency: 5.27174181644454. subcorpus: Prosa.oratória ; normalized frequency: 11 ; absolute frequency: 1.05613856537978. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx101-120-101-114-99-101-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The I.d.C. subcorpus follows, with a normalized frequency of 4.44 and an absolute frequency of 29. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 30 ; absolute frequency: 1.39632301605771. subcorpus: I.d.C. ; normalized frequency: 29 ; absolute frequency: 4.43628575799296. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

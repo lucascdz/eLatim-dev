@@ -1,0 +1,200 @@
+---
+title: "os"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx111-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>ōris</b> <br> <small>gen. de ós 1.</small> <br> <small></small> 
+ <small>1.</small> <b>ōs</b> <b>óris</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Boca &ensp; <small>como órgão da fala Cíc. Verr. 2, 56.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Voz, linguagem, palavra, idioma: &ensp; <small></small> <br> <b>3</b> &ensp; <small>I-Por extensão:</small> &ensp; Expressão fisionômica, rosto, face &ensp; <small>T. Lív. 28, 19, 12.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Fisionomia, ar, aspecto &ensp; <small>Cíc. R. Post. 34.</small> <br> <b>5</b> &ensp; <small>II-Donde:</small> &ensp; Descaramento, imprudência &ensp; <small>Sent. pejorativo Cíc. Verr. 4, 66.</small> <br> <b>6</b> &ensp; <small>II-Donde:</small> &ensp; Abertura, entrada, goela &ensp; <small>Cíc. Verr. 5; 30.</small> <br> <b>7</b> &ensp; <small>II-Donde:</small> &ensp; Embocadura &ensp; <small>T. Lív. 1, 22, 9.</small> <br> <b>8</b> &ensp; <small>II-Donde:</small> &ensp; Fonte, princípio &ensp; <small>Verg. En. I, 245.</small> <br> <b>9</b> &ensp; <small>II-Donde:</small> &ensp; Proa de navio &ensp; <small>Hor. Epo. 4, 17.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>uno ore Cíc. Lae, 86 «a uma voz». </p> 
+ <small>3.</small> <b>ōra</b> <br> <small>nom. pl. de os 1.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Os</b> <b>oris</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; bocca. <br> <b>2</b> &ensp; rosto, cara, semblante, presença. <br> <b>3</b> &ensp; <small>Virg.</small> &ensp; embocadura, foz de hum rio. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>durissimo ore esse &ensp; <small><small>Cic</small></small> &ensp; <small>Não ter pejo</small> <br> ex ore tuo Platonem admiror &ensp; <small><small>Cic</small></small> &ensp; <small>Admiro Platão pelo que me dizes delle</small> <br> in ora hominum uenire &ensp; <small><small>Hor</small></small> &ensp; <small>Dar que fallar de si, fazer-se célebre</small> <br> ore uno auctores fuere omnes ut &ensp; <small><small>Ter</small></small> &ensp; <small>Todos a huma voz, ou concordemente aconselhárão que</small> <br> os alicui subinere &ensp; <small><small>Plaut</small></small> &ensp; <small>Zombar de alguem na sua presença</small> </p>
+
+
+
+
+#### Velez
+
+<b>Os</b> -<b>oris</b>   <p> <b>1</b> &ensp; bocca, rosto, presença </p>
+
+
+
+
+#### Cardoso
+
+<b>Os</b> <b>oris</b>   <p> <b>1</b> &ensp; a boca. ou rosto </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/115327 ' target="_blank"> http://lila-erc.eu/data/id/lemma/115327 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ōs 
+ ōris
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx111-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx111-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword os here are all the values plotted: collocate: uos; scoreSUBST: 0. collocate: per; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx111-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword os here are all the values plotted: collocate: uos; scoreADJ: 0. collocate: per; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx111-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword os here are all the values plotted: collocate: uos; scoreVERBO: 0. collocate: per; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx111-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword os here are all the values plotted: collocate: uos; scoreADV: 0. collocate: per; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx111-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword os here are all the values plotted: collocate: uos; scoreFUNC: 0. collocate: per; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> in populi Romani quidem conspectum quo <b>ore</b> uos commisistis <br> <small> Cic.Ver.2.4.26.3 <br> Com que cara, na verdade, vos apresentastes perante o olhar do povo romano? <small> [JDD] </small> </small> </p>
+; <p> huius per ipsam qua patet pectus uiam effusus amnis huius exiguo graues maculantur ictus imbre sed uersus retro per <b>ora</b> multus sanguis atque oculos redit <br> <small> Sen.Oed.347 <br> Daquela, pela própria via em que está aberto o peito mana um rio, deste os profundos ferimentos são manchados por pequenas gotas; mas, voltado para trás, sai muito sangue pela boca e pelos olhos. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx111-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 19.31 and an absolute frequency of 10. The Ovidius subcorpus follows, with a normalized frequency of 17.16 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Sallustius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 21 ; absolute frequency: 1.30821559392988. subcorpus: Horatius ; normalized frequency: 6 ; absolute frequency: 5.32812361246781. subcorpus: Ovidius ; normalized frequency: 10 ; absolute frequency: 17.1585449553878. subcorpus: Phaedrus ; normalized frequency: 4 ; absolute frequency: 6.0725671777744. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 26 ; absolute frequency: 4.8524663593438. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 10 ; absolute frequency: 19.3050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx111-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 19.31 and an absolute frequency of 10. The Poesia.trágica subcorpus follows, with a normalized frequency of 15.64 and an absolute frequency of 18. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 1 ; absolute frequency: 0.243433384454344. subcorpus: Prosa.filosófica ; normalized frequency: 10 ; absolute frequency: 1.64741931763892. subcorpus: Prosa.oratória ; normalized frequency: 18 ; absolute frequency: 1.72822674334873. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 9 ; absolute frequency: 7.57129637419029. subcorpus: Poesia.didática ; normalized frequency: 11 ; absolute frequency: 9.33073203834083. subcorpus: Poesia.trágica ; normalized frequency: 18 ; absolute frequency: 15.6358582348853. subcorpus: Poesia.épica ; normalized frequency: 10 ; absolute frequency: 19.3050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx111-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 5.66 and an absolute frequency of 37. The I.a.C. subcorpus follows, with a normalized frequency of 1.91 and an absolute frequency of 41. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 41 ; absolute frequency: 1.90830812194554. subcorpus: I.d.C. ; normalized frequency: 37 ; absolute frequency: 5.66008872571516. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

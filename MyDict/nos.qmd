@@ -1,0 +1,248 @@
+---
+title: "nos"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-111-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>nōbis</b> <br> <small>dat. e abl. de nos.</small> <br> <small></small> 
+ <b>nōbīscum</b> <br> <small>= cum nobis.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Conosco. &ensp; <small></small> </p> 
+ <b>nōs</b> <b>nostrum ou nostrí</b> <br> <small>pron. pess.</small> <br> <small>Obs.: 1 Nostri é geralmente um gen. objetivo: miserere nostri “tem compaixão de nós”. 2 Nostrum é geralmente um gen. partitivo como: quis nostrum “qual de nós”. 3 Por vezes, emprega-se nos por ego Verg. Buc. 1, 4.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Nós &ensp; <small>Cíc. Fam. I, I, 4.</small> </p> 
+ <b>nosmet</b> <br> <small>pron. pess.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Nós mesmos, eu mesmo &ensp; <small>Cíc. Tuse. 3,6.</small> </p> 
+ <b>nostrōrum</b> <br> <small></small> <br> <small>v. nos e noster.</small> 
+ <b>nostrum</b> <br> <small>gen. de nos e de noster.</small> <br> <small></small> 
+ <small>1.</small> <b>nostrī</b> <br> <small>gen. de nos.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Nos</b> <b>nostrum</b> <b>nostri</b> <small>l</small> <br> <small>plur. de Ego.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; nós. </p> 
+ <b>Nosmet</b>   <p> <b>1</b> &ensp; <small>Plaut.</small> &ensp; nós mesmos. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Nobiscum</b>   <p> <b>1</b> &ensp; com nos outros </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/hypolemma/110487 ' target="_blank"> http://lila-erc.eu/data/id/hypolemma/110487 </a> <br>
+<small> classe: </small> pronome    <br>
+<small> paradigma: </small> pronominal <br>
+<small> outras grafias: </small> enos, nosmet, nospte <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+nōs 
+ nosmĕt
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-111-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword nos here are all the values plotted: collocate: ab; scoreSUBST: 0. collocate: inter; scoreSUBST: 0. collocate: apud; scoreSUBST: 0. collocate: qui; scoreSUBST: 0. collocate: hic2; scoreSUBST: 0. collocate: de; scoreSUBST: 0. collocate: ad; scoreSUBST: 0. collocate: omnis; scoreSUBST: 0. collocate: do; scoreSUBST: 0. collocate: uterque; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: quisque; scoreSUBST: 0. collocate: uenio; scoreSUBST: 0. collocate: natura; scoreSUBST: 2. collocate: autem; scoreSUBST: 0. collocate: erga; scoreSUBST: 0. collocate: igitur; scoreSUBST: 0. collocate: at; scoreSUBST: 0. collocate: potestas; scoreSUBST: 2. collocate: amo; scoreSUBST: 0. collocate: prouincia; scoreSUBST: 1. collocate: iuuo; scoreSUBST: 0. collocate: uiuus; scoreSUBST: 0. collocate: paupertas; scoreSUBST: 2. collocate: consequor; scoreSUBST: 0. collocate: aliquando; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-111-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword nos here are all the values plotted: collocate: ab; scoreADJ: 0. collocate: inter; scoreADJ: 0. collocate: apud; scoreADJ: 0. collocate: qui; scoreADJ: 0. collocate: hic2; scoreADJ: 0. collocate: de; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: do; scoreADJ: 0. collocate: uterque; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: quisque; scoreADJ: 0. collocate: uenio; scoreADJ: 0. collocate: natura; scoreADJ: 0. collocate: autem; scoreADJ: 0. collocate: erga; scoreADJ: 0. collocate: igitur; scoreADJ: 0. collocate: at; scoreADJ: 0. collocate: potestas; scoreADJ: 0. collocate: amo; scoreADJ: 0. collocate: prouincia; scoreADJ: 0. collocate: iuuo; scoreADJ: 0. collocate: uiuus; scoreADJ: 2. collocate: paupertas; scoreADJ: 0. collocate: consequor; scoreADJ: 0. collocate: aliquando; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-111-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword nos here are all the values plotted: collocate: ab; scoreVERBO: 0. collocate: inter; scoreVERBO: 0. collocate: apud; scoreVERBO: 0. collocate: qui; scoreVERBO: 0. collocate: hic2; scoreVERBO: 0. collocate: de; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0. collocate: do; scoreVERBO: 2. collocate: uterque; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: quisque; scoreVERBO: 0. collocate: uenio; scoreVERBO: 2. collocate: natura; scoreVERBO: 0. collocate: autem; scoreVERBO: 0. collocate: erga; scoreVERBO: 0. collocate: igitur; scoreVERBO: 0. collocate: at; scoreVERBO: 0. collocate: potestas; scoreVERBO: 0. collocate: amo; scoreVERBO: 2. collocate: prouincia; scoreVERBO: 0. collocate: iuuo; scoreVERBO: 2. collocate: uiuus; scoreVERBO: 0. collocate: paupertas; scoreVERBO: 0. collocate: consequor; scoreVERBO: 2. collocate: aliquando; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-111-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword nos here are all the values plotted: collocate: ab; scoreADV: 0. collocate: inter; scoreADV: 0. collocate: apud; scoreADV: 0. collocate: qui; scoreADV: 0. collocate: hic2; scoreADV: 2. collocate: de; scoreADV: 0. collocate: ad; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: do; scoreADV: 0. collocate: uterque; scoreADV: 0. collocate: in; scoreADV: 0. collocate: quisque; scoreADV: 0. collocate: uenio; scoreADV: 0. collocate: natura; scoreADV: 0. collocate: autem; scoreADV: 0. collocate: erga; scoreADV: 0. collocate: igitur; scoreADV: 2. collocate: at; scoreADV: 0. collocate: potestas; scoreADV: 0. collocate: amo; scoreADV: 0. collocate: prouincia; scoreADV: 0. collocate: iuuo; scoreADV: 0. collocate: uiuus; scoreADV: 0. collocate: paupertas; scoreADV: 0. collocate: consequor; scoreADV: 0. collocate: aliquando; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-111-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword nos here are all the values plotted: collocate: ab; scoreFUNC: 20. collocate: inter; scoreFUNC: 20. collocate: apud; scoreFUNC: 20. collocate: qui; scoreFUNC: 0. collocate: hic2; scoreFUNC: 0. collocate: de; scoreFUNC: 20. collocate: ad; scoreFUNC: 20. collocate: omnis; scoreFUNC: 0. collocate: do; scoreFUNC: 0. collocate: uterque; scoreFUNC: 0. collocate: in; scoreFUNC: 20. collocate: quisque; scoreFUNC: 0. collocate: uenio; scoreFUNC: 0. collocate: natura; scoreFUNC: 0. collocate: autem; scoreFUNC: 0. collocate: erga; scoreFUNC: 20. collocate: igitur; scoreFUNC: 0. collocate: at; scoreFUNC: 0. collocate: potestas; scoreFUNC: 0. collocate: amo; scoreFUNC: 0. collocate: prouincia; scoreFUNC: 0. collocate: iuuo; scoreFUNC: 0. collocate: uiuus; scoreFUNC: 0. collocate: paupertas; scoreFUNC: 0. collocate: consequor; scoreFUNC: 0. collocate: aliquando; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> venisti perdere <b>nos</b> <br> <small> Vulg.Marc.1.24 <br> Vieste nos desgraçar? <small> [JDD] </small> </small> </p>
+; <p> utrique <b>nostrum</b> honestum existimo <br> <small> Cic.Att.5.20.10 <br> estimo isso honroso para nós ambos <small> [JDD] </small> </small> </p>
+; <p> damus <b>nos</b> aurae ferendos <br> <small> Sen.Ep.13.13 <br> Entregamo-nos para que a brisa nos leve. <small> [JDD] </small> </small> </p>
+; <p> Pompeius amat <b>nos</b> carosque habet <br> <small> Cic.Att.2.20.1 <br> Pompeu me estima e me tem como querido. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>nos</b> hic cum Pompeio fuimus <br> <small> Cic.Att.4.9.1 <br> Estive aqui com Pompeu. <small> [JDD] </small> </small> </p>
+; <p> a <b>nobis</b> liberiorem epistulam exspecta <br> <small> Cic.Att.1.13.6 <br> Aguarda uma carta minha mais indiscreta. <small> [JDD] </small> </small> </p>
+; <p> quid igitur <b>nobis</b> faciendum est <br> <small> Cic.Ver.2.4.11.1 <br> 11 O que então devemos fazer? <small> [JDD] </small> </small> </p>
+; <p> tu modo <b>nos</b> revise aliquando <br> <small> Cic.Att.1.19.11 <br> Tu, vem nos ver, afinal. <small> [JDD] </small> </small> </p>
+; <p> perbelle feceris si ad <b>nos</b> veneris <br> <small> Cic.Att.4.4A.1 <br> Farás muitíssimo bem, se vieres para junto de nós. <small> [JDD] </small> </small> </p>
+; <p> nihil inter <b>nos</b> et illos intererit <br> <small> Sen.Ep.5.6 <br> Não haverá diferença entre nós e eles?” <small> [JDD] </small> </small> </p>
+; <p> hominum quidem summa erga <b>nos</b> studia significabantur <br> <small> Cic.Att.2.24.4 <br> Na verdade, é manifestada a mais elevada estima das pessoas para comigo. <small> [JDD] </small> </small> </p>
+; <p> <b>nobis</b> iter est in Asiam maxime Cyzicum <br> <small> Cic.Att.3.6 <br> Meu caminho é para a Ásia, mais precisamente Cízico. <small> [JDD] </small> </small> </p>
+; <p> <b>nobis</b> eos quem ad modum scribis conserva <br> <small> Cic.Att.1.11.3 <br> reserva-os para mim, como escreves. <small> [JDD] </small> </small> </p>
+; <p> at ille noris <b>nos</b> inquit docti sumus <br> <small> Hor.S.1.9.6 <br> E ele: “Tu me conheces”, diz, “sou um homem letrado”. <small> [JDD] </small> </small> </p>
+; <p> neque enim exeundi Roma potestas <b>nobis</b> fuit <br> <small> Cic.Att.1.3.2 <br> pois não tive possibilidade de sair de Roma. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> tu nihilo minus si properaris <b>nos</b> consequere <br> <small> Cic.Att.3.7.3 <br> De todo modo tu, se te apressares, vais me alcançar. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Messius defendebatur a <b>nobis</b> de legatione revocatus <br> <small> Cic.Att.4.15.9 <br> Méssio é defendido por mim, chamado de sua legação. <small> [JDD] </small> </small> </p>
+; <p> qua re <b>nobis</b> da uiam rationemque defensionis <br> <small> Cic.Cael.50 <br> Por isso dá-nos o caminho e o método da defesa. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Parthus velim quiescat et fortuna <b>nos</b> iuvet <br> <small> Cic.Att.5.9.1 <br> Tomara que o povo parto esteja em paz e que a fortuna nos ajude. <small> [JDD] </small> </small> </p>
+; <p> <b>nos</b> in castra properabamus quae aberant tridui <br> <small> Cic.Att.5.16.4 <br> Nós nos apressamos ao acampamento, que dista três dias daqui. <small> [JDD] </small> </small> </p>
+; <p> apud matrem recte est eaque <b>nobis</b> curae est <br> <small> Cic.Att.1.7.1 <br> Na casa de tua mãe tudo vai bem e ela está sob nosso cuidado. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>nobis</b> autem ipsis tum vim tum iudicium minatur <br> <small> Cic.Att.2.22.1 <br> a mim, porém, me ameaça ora com a violência ora com o tribunal. <small> [JDD] </small> </small> </p>
+; <p> nonne et sorores eius hic <b>nobis</b> cum sunt <br> <small> Vulg.Marc.6.3 <br> Não estão, por acaso, as irmãs dele aqui conosco? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quam ob rem utrique <b>nostrum</b> gratum admodum feceris <br> <small> Cic.Amici.16 <br> Por isso farás algo muito gratificante a cada um de nós. <small> [JDD] </small> </small> </p>
+; <p> bene habemus <b>nos</b> si in his spes est <br> <small> Cic.Att.2.8.1 <br> Nós nos encontramos bem, se a esperança está neles. <small> [JDD] </small> </small> </p>
+; <p> quibus absolutis scribis illi placuisse agi de <b>nobis</b> <br> <small> Cic.Att.3.14.1 <br> e me escreves que, concluídas estas, agradou a ele tratar de nós. <small> [JDD] </small> </small> </p>
+; <p> commorandi enim natura deuersorium <b>nobis</b> non habitandi dedit <br> <small> Cic.Sen.84 <br> Pois a natureza nos deu um albergue de passar um tempo, não de morar. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> sed tamen satis fiet a <b>nobis</b> neque parcetur labori <br> <small> Cic.Att.2.14.2 <br> Mas, mesmo assim, será satisfeito por mim e não se poupará esforço. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>Nos</b> autem quantum in utroque profecerimus aliorum sit iudicium <br> <small> Cic.Off.1.3 <br> Porém, o quanto nós aproveitamos em cada um, que o julgamento seja de outros. <small> [JDD] </small> </small> </p>
+; <p> atque harum rerum commemorationem verecundia saepe impedivit utriusque <b>nostrum</b> <br> <small> Cic.Att.1.17.7 <br> E o recato de cada um de nós dois frequentemente impediu a lembrança dessas coisas. <small> [JDD] </small> </small> </p>
+; <p> lex autem illa naturae scis quos <b>nobis</b> terminos statuat <br> <small> Sen.Ep.4.10 <br> Sabes, porém, que limites essa lei da natureza nos estabelece? <small> [JDD] </small> </small> </p>
+; <p> inter hos Bassum licet numeres qui <b>nos</b> decipi noluit <br> <small> Sen.Ep.30.10 <br> 10 Entre esses é lícito que contes Basso, que não quis nos enganar. <small> [JDD] </small> </small> </p>
+; <p> nunc tu propera ut <b>nos</b> consequare si modo recipiemur <br> <small> Cic.Att.3.4 <br> Agora apressa-te em alcançar-me, se é que tenho alguma acolhida. <small> [JDD] </small> </small> </p>
+; <p> et ne inparatos fortuna deprehendat fiat <b>nobis</b> paupertas familiaris <br> <small> Sen.Ep.18.8 <br> e, para que a fortuna não nos apanhe desprevenidos, que a pobreza se torne familiar a nós. <small> [JDD] </small> </small> </p>
+; <p> sin autem ab iis dissentiet erit absurdum in <b>nos</b> invehi <br> <small> Cic.Att.2.9.1 <br> Se, por outro lado, estiver em desacordo com eles, será absurdo vir contra mim. <small> [JDD] </small> </small> </p>
+; <p> in nostra ille numquam ueniet multo minus <b>nos</b> in illius <br> <small> Cic.Phil.12.28.3 <br> No nosso ele nunca virá, muito menos nós no dele. <small> [JDD] </small> </small> </p>
+; <p> atque utinam patres conscripti ciuibus omnibus soluere <b>nobis</b> praemia liceret <br> <small> Cic.Phil.14.30.1 <br> E quem dera, pais conscritos, nos fosse permitido recompensar todos os cidadãos! <small> [JDD] </small> </small> </p>
+; <p> haec duo apud alios diuersa sunt aput <b>nos</b> tantum diuisa <br> <small> Sen.Ep.120.1 <br> Para outros, estes dois conceitos são diferentes, para nós, apenas separados. <small> [JDD] </small> </small> </p>
+; <p> in universa salute si ea modo <b>nobis</b> restituetur inerunt omnia <br> <small> Cic.Att.3.20.2 <br> Na minha salvação total, se é que ela me será concedida, estarão todos os bens. <small> [JDD] </small> </small> </p>
+; <p> di immortales <b>nobis</b> haec praesidia dederunt urbi Caesarem Brutum Galliae <br> <small> Cic.Phil.3.34.1 <br> Os deuses imortais nos deram estas salvaguardas, César para a cidade, Bruto para a Gália. <small> [JDD] </small> </small> </p>
+; <p> etenim Quirites exiguum <b>nobis</b> uitae curriculum natura circumscripsit immensum gloriae <br> <small> Cic.Rab.Perd.30 <br> Pois de fato, Quirites, a natureza nos limitou a um curso exíguo de vida, imenso de glória. <small> [JDD] </small> </small> </p>
+; <p> sed postea tamen ille non destitit de <b>nobis</b> asperrime loqui <br> <small> Cic.Att.2.22.2 <br> Mas, após isso, ele, contudo, não parou de falar de nós de um modo extremamente grosseiro. <small> [JDD] </small> </small> </p>
+; <p> illud quod paupertatem <b>nobis</b> grauem fecerat et diuitias graues fecit <br> <small> Sen.Ep.17.12 <br> Aquilo que nos tinha feito penosa a pobreza, também fez penosa a riqueza. <small> [JDD] </small> </small> </p>
+; <p> inter reliqua hoc <b>nobis</b> praestitit natura praecipuum quod necessitati fastidium excussit <br> <small> Sen.Ep.119.15 <br> O principal benefício que a natureza nos prestou, entre outros, é o fato de ter tirado o fastio da necessidade. <small> [JDD] </small> </small> </p>
+; <p> fata <b>nos</b> ducunt et quantum cuique temporis restat prima nascentium hora disposuit <br> <small> Sen.Prov.5.7 <br> Os fados nos guiam e a primeira hora dos que nascem determinou quanto tempo resta para cada um. <small> [JDD] </small> </small> </p>
+; <p> vereor enim ne cum de provincia agetur si Caesar resistet <b>nos</b> retineamur <br> <small> Cic.Att.5.20.7 <br> pois receio que, quando for discutido acerca da província, se César resistir, eu seja retido. <small> [JDD] </small> </small> </p>
+; <p> Noli coram pluribus Hoc facere canibus , ne <b>nos</b> vivos devorent , Cum scierint esse tale culpae praemium . <br> <small> Phaed.2.3 <br> “Não faças isso diante de mais cães, para que eles não nos devorem vivos, quando souberem ser tal o prêmio da má-ação.” <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-111-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 32.46 and an absolute frequency of 521. The Sallustius subcorpus follows, with a normalized frequency of 25.04 and an absolute frequency of 27. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 5 ; absolute frequency: 1.88836014804744. subcorpus: Cicero ; normalized frequency: 521 ; absolute frequency: 32.4562059255937. subcorpus: Horatius ; normalized frequency: 22 ; absolute frequency: 19.5364532457153. subcorpus: Ovidius ; normalized frequency: 6 ; absolute frequency: 10.2951269732327. subcorpus: Phaedrus ; normalized frequency: 5 ; absolute frequency: 7.59070897221801. subcorpus: Sallustius ; normalized frequency: 27 ; absolute frequency: 25.0440589926723. subcorpus: Seneca ; normalized frequency: 170 ; absolute frequency: 31.7276646572479. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 4 ; absolute frequency: 13.7315482320632. subcorpus: Vergilius ; normalized frequency: 7 ; absolute frequency: 13.5135135135135. subcorpus: Hieronymus ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-111-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 63.33 and an absolute frequency of 239. The Prosa.filosófica subcorpus follows, with a normalized frequency of 31.14 and an absolute frequency of 189. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 8.76 and an absolute freqeuncy of 36. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 36 ; absolute frequency: 8.76360184035639. subcorpus: Prosa.filosófica ; normalized frequency: 189 ; absolute frequency: 31.1362251033756. subcorpus: Prosa.oratória ; normalized frequency: 250 ; absolute frequency: 24.0031492131768. subcorpus: Prosa.epistolográfica ; normalized frequency: 239 ; absolute frequency: 63.3297119690506. subcorpus: Poesia.lírica ; normalized frequency: 22 ; absolute frequency: 18.5076133591318. subcorpus: Poesia.didática ; normalized frequency: 11 ; absolute frequency: 9.33073203834083. subcorpus: Poesia.trágica ; normalized frequency: 13 ; absolute frequency: 11.2925642807505. subcorpus: Poesia.épica ; normalized frequency: 7 ; absolute frequency: 13.5135135135135. subcorpus: Prosa.ficcional ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-111-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 27.69 and an absolute frequency of 181. The I.a.C. subcorpus follows, with a normalized frequency of 27.09 and an absolute frequency of 582. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 8.99 and an absolute freqeuncy of 4. here are all the values: subcorpus: I.a.C. ; normalized frequency: 582 ; absolute frequency: 27.0886665115197. subcorpus: I.d.C. ; normalized frequency: 181 ; absolute frequency: 27.6885421447147. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 4 ; absolute frequency: 8.98674455178612'}
+
+
+:::
+

@@ -1,0 +1,206 @@
+---
+title: "ubi"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-98-105xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>ubī</b> <br> <small>ou</small> <b>ubĭ</b> <br> <small></small> <br> <small>Obs.: Como adv. pode estar construído: com um antecedente de lugar, como ibi Cés.B. Gal 1, 13, 3; como substituto de um relativo em ablativo, precedido de in, ou em acusativo precedido de apud Cíc. De Or. 1, 243; com subj. Consecutivo Cíc. Quinct. 5; inicialmente Cíc. Leg. 1, 14 ou em interrogação direta Cíc. De Or. 2, 59 e indireta Cic. At. 9. 1, 2</small>   <p> <b>1</b> &ensp; <small>I-Adv. de lugar relativo-interrogativo:</small> &ensp; No lugar em que, onde &ensp; <small>Cíc. Phil. 2, 48</small> <br> <b>2</b> &ensp; <small>I-Adv. de lugar relativo-interrogativo:</small> &ensp; Onde? Em que lugar? &ensp; <small>interr. dir. ou indir. Cic. De Or. 2, 59. Cíc. At. 9, 1, 2.</small> <br> <b>3</b> &ensp; <small>II-Conj. sent. próprio:</small> &ensp; No momento em que, quando &ensp; <small>Cíc. Verr. 2, 61.</small> <br> <b>4</b> &ensp; <small>II-Conj. sent. próprio:</small> &ensp; Do momento em que, depois de &ensp; <small>com subj. Hor. O. 3, 6, 41.</small> </p> 
+ <small>2.</small> <b>ubīquĕ</b> <br> <small>= et ubi Hor. Sát. 2, 2, 84.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Ubi</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; onde? em que lugar? <br> <b>2</b> &ensp; onde, naquelle lugar que. <br> <b>3</b> &ensp; depois que. <br> <b>4</b> &ensp; quando, tanto que. </p>
+
+
+
+
+#### Velez
+
+<b>Ubi</b> <br> <small>Adverb.</small>   <p> <b>1</b> &ensp; onde, em que parte? &ensp; <small>In quo sensu adduntur ad ornatum genitivi terrarum, vel gentium:</small> <br> <b>2</b> &ensp; <small>significat item Ubi</small> &ensp; depois que, ou tanto que </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>ubi loci &ensp; <small>em que lugar, ou estado?</small> <br> <br><b>2</b><br>ubi primum &ensp; <small>tanto que</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Vbi</b>   <p> <b>1</b> &ensp; onde. ou tanto que. ou quando </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/129639 ' target="_blank"> http://lila-erc.eu/data/id/lemma/129639 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> ube, ubei <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ŭbĭ 
+ ŭbī
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-98-105xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ubi here are all the values plotted: collocate: post2; scoreSUBST: 0. collocate: ago; scoreSUBST: 0. collocate: locus; scoreSUBST: 2. collocate: quisque; scoreSUBST: 0. collocate: Caesar; scoreSUBST: 0. collocate: audio; scoreSUBST: 0. collocate: primum; scoreSUBST: 0. collocate: sed; scoreSUBST: 0. collocate: sum; scoreSUBST: 0. collocate: ille; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-98-105xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ubi here are all the values plotted: collocate: post2; scoreADJ: 0. collocate: ago; scoreADJ: 0. collocate: locus; scoreADJ: 0. collocate: quisque; scoreADJ: 0. collocate: Caesar; scoreADJ: 0. collocate: audio; scoreADJ: 0. collocate: primum; scoreADJ: 0. collocate: sed; scoreADJ: 0. collocate: sum; scoreADJ: 0. collocate: ille; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-98-105xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ubi here are all the values plotted: collocate: post2; scoreVERBO: 0. collocate: ago; scoreVERBO: 2. collocate: locus; scoreVERBO: 0. collocate: quisque; scoreVERBO: 0. collocate: Caesar; scoreVERBO: 0. collocate: audio; scoreVERBO: 2. collocate: primum; scoreVERBO: 0. collocate: sed; scoreVERBO: 0. collocate: sum; scoreVERBO: 2. collocate: ille; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-98-105xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ubi here are all the values plotted: collocate: post2; scoreADV: 3. collocate: ago; scoreADV: 0. collocate: locus; scoreADV: 0. collocate: quisque; scoreADV: 0. collocate: Caesar; scoreADV: 0. collocate: audio; scoreADV: 0. collocate: primum; scoreADV: 2. collocate: sed; scoreADV: 0. collocate: sum; scoreADV: 0. collocate: ille; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-98-105xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ubi here are all the values plotted: collocate: post2; scoreFUNC: 0. collocate: ago; scoreFUNC: 0. collocate: locus; scoreFUNC: 0. collocate: quisque; scoreFUNC: 0. collocate: Caesar; scoreFUNC: 0. collocate: audio; scoreFUNC: 0. collocate: primum; scoreFUNC: 0. collocate: sed; scoreFUNC: 0. collocate: sum; scoreFUNC: 0. collocate: ille; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> is <b>ubi</b> est <br> <small> Cic.Ver.2.4.92.4 <br> Onde está ele? <small> [JDD] </small> </small> </p>
+; <p> <b>Ubi</b> pernicitas Nota inquit illa est ? <br> <small> Phaed.1.9 <br> “Onde está”, diz, “aquela tua conhecida rapidez? <small> [JDD] </small> </small> </p>
+; <p> nisi <b>ubi</b> rationi locus est bonum non est <br> <small> Sen.Ep.124.13 <br> O bem não está a não ser onde há lugar para a razão. <small> [JDD] </small> </small> </p>
+; <p> video iam quo invidia transeat et <b>ubi</b> sit habitatura <br> <small> Cic.Att.2.9.2 <br> Já vejo para onde vai a inveja e onde vai se estabelecer. <small> [JDD] </small> </small> </p>
+; <p> sed <b>ubi</b> periculum aduenit inuidia atque superbia post fuere <br> <small> Sal.Cat.23.6 <br> Mas depois que chegou o perigo, a inveja e a soberba ficaram para trás. <small> [JDD] </small> </small> </p>
+; <p> <b>ubi</b> denique est in ista suspicione Caeli nomen auditum <br> <small> Cic.Cael.15 <br> Onde, afinal, o nome de Célio foi ouvido nessa suspeita? <small> [JDD] </small> </small> </p>
+; <p> <b>ubi</b> illa praecepta uestra quae imperant in actu mori <br> <small> Sen.Ep.8.1 <br> Onde estão aqueles preceitos vossos que ordenam morrer no meio da ação?” <small> [JDD] </small> </small> </p>
+; <p> locus ille animi nostri stomachus <b>ubi</b> habitabat olim concalluit <br> <small> Cic.Att.4.18.2 <br> Aquele lugar de meu espírito onde outrora habitava a cólera, se calejou. <small> [JDD] </small> </small> </p>
+; <p> tuas litteras exspectabo cum ut quid agas tum ut <b>ubi</b> sis sciam <br> <small> Cic.Att.5.7.1 <br> Aguardarei tua carta para saber não só o que estás fazendo, mas também onde estás. <small> [JDD] </small> </small> </p>
+; <p> <b>ubi</b> neutri transeundi initium faciunt secundiore equitum proelio nostris Caesar suos in castra reduxit <br> <small> Caes.Gal.2.9.2 <br> Como nem um nem outro tomam a iniciativa de atravessar, sendo mais favorável para os nossos a batalha dos cavaleiros, César reconduziu os seus para o acampamento. <small> [JDD] </small> </small> </p>
+; <p> <b>ubi</b> cuique aut ualles abdita aut locus siluestris aut palus impedita spem praesidii aut salutis aliquam offerebat consederat <br> <small> Caes.Gal.6.34.2 <br> Onde a cada um ou um vale secreto ou um bosque silvestre ou um pântano embaraçoso ofereciam alguma esperança de proteção ou salvação, ali tinha se instalado. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-98-105xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 47.31 and an absolute frequency of 51. The Ovidius subcorpus follows, with a normalized frequency of 29.17 and an absolute frequency of 17. the subcorpus with the least normalized frequency is Cicero with the normalized value of 5.42 and an absolute freqeuncy of 87. here are all the values: subcorpus: Caesar ; normalized frequency: 44 ; absolute frequency: 16.6175693028174. subcorpus: Cicero ; normalized frequency: 87 ; absolute frequency: 5.4197503177095. subcorpus: Horatius ; normalized frequency: 10 ; absolute frequency: 8.88020602077968. subcorpus: Ovidius ; normalized frequency: 17 ; absolute frequency: 29.1695264241592. subcorpus: Phaedrus ; normalized frequency: 7 ; absolute frequency: 10.6269925611052. subcorpus: Sallustius ; normalized frequency: 51 ; absolute frequency: 47.3054447639366. subcorpus: Seneca ; normalized frequency: 55 ; absolute frequency: 10.2648326832273. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 4 ; absolute frequency: 13.7315482320632. subcorpus: Vergilius ; normalized frequency: 12 ; absolute frequency: 23.1660231660232. subcorpus: Hieronymus ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-98-105xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 24.34 and an absolute frequency of 100. The Poesia.trágica subcorpus follows, with a normalized frequency of 12.16 and an absolute frequency of 14. the subcorpus with the least normalized frequency is Prosa.oratória with the normalized value of 5.18 and an absolute freqeuncy of 54. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 100 ; absolute frequency: 24.3433384454344. subcorpus: Prosa.filosófica ; normalized frequency: 46 ; absolute frequency: 7.57812886113903. subcorpus: Prosa.oratória ; normalized frequency: 54 ; absolute frequency: 5.18468023004618. subcorpus: Prosa.epistolográfica ; normalized frequency: 28 ; absolute frequency: 7.41938048172978. subcorpus: Poesia.lírica ; normalized frequency: 14 ; absolute frequency: 11.7775721376293. subcorpus: Poesia.didática ; normalized frequency: 20 ; absolute frequency: 16.9649673424379. subcorpus: Poesia.trágica ; normalized frequency: 14 ; absolute frequency: 12.1612230715775. subcorpus: Poesia.épica ; normalized frequency: 12 ; absolute frequency: 23.1660231660232. subcorpus: Prosa.ficcional ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-98-105xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 13.09 and an absolute frequency of 5. The I.d.C. subcorpus follows, with a normalized frequency of 11.47 and an absolute frequency of 75. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 9.68 and an absolute freqeuncy of 208. here are all the values: subcorpus: I.a.C. ; normalized frequency: 208 ; absolute frequency: 9.68117291133349. subcorpus: I.d.C. ; normalized frequency: 75 ; absolute frequency: 11.4731528223956. subcorpus: II.d.C. ; normalized frequency: 5 ; absolute frequency: 13.0890052356021. subcorpus: IV.d.C. ; normalized frequency: 5 ; absolute frequency: 11.2334306897326'}
+
+
+:::
+

@@ -1,0 +1,197 @@
+---
+title: "sermo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-101-114-109-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>sermō</b> <b>-ónis</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Conversa, conversação &ensp; <small>Cíc. Phil. 10. 14.</small> <br> <b>2</b> &ensp; <small>II-Sent. especial</small> &ensp; Maneira de falar, língua, idioma &ensp; <small>Cíc. Lae. 21.</small> <br> <b>3</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Assunto de conversa, diálogo. discussão &ensp; <small>Cíc. Rep. 1, 38.</small> <br> <b>4</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Rumor principalmente desagradável, maledicência &ensp; <small>Cíc. Fam. 3, 11, 1.</small> <br> <b>5</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Língua familiar, tom da conversação &ensp; <small>Cíc. Br. 259.</small> <br> <b>6</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Estilo &ensp; <small>Cíc. Fam. 9, 21, 1.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Sermo</b> -<b>onis</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; linguagem, idioma proprio de huma naçaõ. <br> <b>2</b> &ensp; discurso, conversaçaõ, pratica. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>in sermonem hominum uenire &ensp; <small><small>Cic</small></small> &ensp; <small>Dar muito que fallar de si</small> <br> sermo pedestris &ensp; <small><small>Hor</small></small> &ensp; <small>Maneira de fallar humilde, ou prosa</small> </p>
+
+
+
+
+#### Velez
+
+<b>Sermo</b> -<b>onis</b>   <p> <b>1</b> &ensp; pratica, arrezoamento, mençaõ </p>
+
+
+
+
+#### Cardoso
+
+<b>Sermo</b> <b>onis</b>   <p> <b>1</b> &ensp; a pratica </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/124494 ' target="_blank"> http://lila-erc.eu/data/id/lemma/124494 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+sermō 
+ sermōnis
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-101-114-109-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword sermo here are all the values plotted: collocate: omnis; scoreSUBST: 0. collocate: homo; scoreSUBST: 2. collocate: quidem; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-101-114-109-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword sermo here are all the values plotted: collocate: omnis; scoreADJ: 0. collocate: homo; scoreADJ: 0. collocate: quidem; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-101-114-109-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword sermo here are all the values plotted: collocate: omnis; scoreVERBO: 0. collocate: homo; scoreVERBO: 0. collocate: quidem; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-101-114-109-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword sermo here are all the values plotted: collocate: omnis; scoreADV: 0. collocate: homo; scoreADV: 0. collocate: quidem; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-101-114-109-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword sermo here are all the values plotted: collocate: omnis; scoreFUNC: 0. collocate: homo; scoreFUNC: 0. collocate: quidem; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> iam enim ipsius Catonis <b>sermo</b> explicabit nostram omnem de senectute sententiam <br> <small> Cic.Sen.3 <br> Pois a fala do próprio Catão já vai desenvolver toda a nossa opinião sobre a velhice. <small> [JDD] </small> </small> </p>
+; <p> res fluit ad interregnum et est non nullus odor dictaturae <b>sermo</b> quidem multus <br> <small> Cic.Att.4.18.3 <br> A situação flui para um interregno e há algum cheiro de ditadura, muita conversa, na verdade. <small> [JDD] </small> </small> </p>
+; <p> itaque non ex <b>sermone</b> hominum recenti sed ex annalium uetustate eruenda memoria est nobilitatis tuae <br> <small> Cic.Mur.16 <br> E assim a memória de tua nobreza deve ser extraída não da conversação recente dos homens, mas da antiguidade dos anais. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-101-114-109-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 13.73 and an absolute frequency of 4. The Cicero subcorpus follows, with a normalized frequency of 6.35 and an absolute frequency of 102. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 102 ; absolute frequency: 6.35419002765942. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 14 ; absolute frequency: 2.61286650118512. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 4 ; absolute frequency: 13.7315482320632. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-101-114-109-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 11.66 and an absolute frequency of 44. The Prosa.filosófica subcorpus follows, with a normalized frequency of 6.1 and an absolute frequency of 37. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 8 ; absolute frequency: 1.94746707563475. subcorpus: Prosa.filosófica ; normalized frequency: 37 ; absolute frequency: 6.095451475264. subcorpus: Prosa.oratória ; normalized frequency: 35 ; absolute frequency: 3.36044088984475. subcorpus: Prosa.epistolográfica ; normalized frequency: 44 ; absolute frequency: 11.6590264712896. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-101-114-109-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 10.47 and an absolute frequency of 4. The I.a.C. subcorpus follows, with a normalized frequency of 5.35 and an absolute frequency of 115. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 2.45 and an absolute freqeuncy of 16. here are all the values: subcorpus: I.a.C. ; normalized frequency: 115 ; absolute frequency: 5.35257156155457. subcorpus: I.d.C. ; normalized frequency: 16 ; absolute frequency: 2.44760593544439. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

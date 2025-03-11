@@ -1,0 +1,204 @@
+---
+title: "aedes"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-101-100-101-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>aedēs</b> <b>-is</b> <br> <b>aedis</b> <b>-is</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Lareira, lugar em que se faz o fogo. &ensp; <small></small> <br> <b>2</b> &ensp; <small>O singular indica, especialmente</small> &ensp; a morada do deus, o templo: &ensp; <small></small> <br> <b>3</b> &ensp; <small>I-O plural aedes, -ìum tem valor de coletivo e indica o conjunto de uma construção;</small> &ensp; casa, habitação &ensp; <small>Cíc. Verr. 1, 53.</small> <br> <b>4</b> &ensp; <small>I-Donde:</small> &ensp; Quarto &ensp; <small>Verg. G. 2, 461.</small> <br> <b>5</b> &ensp; <small>I-Donde:</small> &ensp; Templo &ensp; <small>pl. Cíc. Verr. 4. 119.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>in aede Catoris Cíc. Verr. 1, 129 «no templo de Castor». </p> 
+ <b>aedis</b> <b>-is</b> <br> <small></small> <br> <small>v. aedés.</small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Aedes</b> -<b>dium</b> <br> <small>f. plur.</small> 
+ <b>Aedes</b> -<b>itis</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; templo. <br> <b>2</b> &ensp; <small>Hor.</small> &ensp; casa. <br> <b>3</b> &ensp; <small>Curt.</small> &ensp; camara, ou quarto de dormir. </p> 
+ <b>Aedis</b> -<b>is</b> <br> <small>f. Varr. Plaut.</small> <br> <small>v. Aedes.</small>
+
+
+
+
+#### Velez
+
+<b>Aedes</b> -<b>dis</b>   <p> <b>1</b> &ensp; a casa, ou templo <br> <b>2</b> &ensp; <small>Ovidius pro sepulchro posuit</small> </p> 
+ <b>aedis</b> -<b>is</b>   <p> <b>1</b> &ensp; a casa, ou templo <br> <b>2</b> &ensp; <small>Ovidius pro sepulchro posuit</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Aedes</b> <b>ium</b>   <p> <b>1</b> &ensp; a casa </p> 
+ <b>Aedis</b> <b>is</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/87733 ' target="_blank"> http://lila-erc.eu/data/id/lemma/87733 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> aedis, aidis <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+aedēs 
+ aedĭum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-101-100-101-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-101-100-101-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword aedes here are all the values plotted: collocate: sacer; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: ad; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-101-100-101-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword aedes here are all the values plotted: collocate: sacer; scoreADJ: 3. collocate: in; scoreADJ: 0. collocate: ad; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-101-100-101-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword aedes here are all the values plotted: collocate: sacer; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: ad; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-101-100-101-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword aedes here are all the values plotted: collocate: sacer; scoreADV: 0. collocate: in; scoreADV: 0. collocate: ad; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-101-100-101-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword aedes here are all the values plotted: collocate: sacer; scoreFUNC: 0. collocate: in; scoreFUNC: 20. collocate: ad; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ipsum cupivit sed ille se in interiora <b>aedium</b> Sullae <br> <small> Cic.Att.4.3.3 <br> quis a ele também, mas ele † se refugiou no interior da casa de Sula †. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Romam quae adportata sunt ad <b>aedem</b> Honoris et Uirtutis itemque aliis in locis uidemus <br> <small> Cic.Ver.2.4.121.3 <br> Os objetos que foram trazidos para Roma vemos junto ao templo da Honra e da Virtude e igualmente em outros locais. <small> [JDD] </small> </small> </p>
+; <p> itaque ab iis qui principes in ea ciuitate erant praecipitur et negotium datur quaestoribus et aedilibus ut noctu uigilias agerent ad <b>aedis</b> sacras <br> <small> Cic.Ver.2.4.93.10 <br> E assim, por parte daqueles que eram os mais importantes dessa cidade, se toma precaução e é dada aos questores e edis a incumbência de que à noite pusessem sentinelas junto aos templos sagrados. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-101-100-101-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 2.78 and an absolute frequency of 3. The Cicero subcorpus follows, with a normalized frequency of 1.93 and an absolute frequency of 31. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 31 ; absolute frequency: 1.93117540056316. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 1 ; absolute frequency: 0.186633321513223. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-101-100-101-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 2.5 and an absolute frequency of 26. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 1.32 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 3 ; absolute frequency: 0.730300153363032. subcorpus: Prosa.filosófica ; normalized frequency: 1 ; absolute frequency: 0.164741931763892. subcorpus: Prosa.oratória ; normalized frequency: 26 ; absolute frequency: 2.49632751817038. subcorpus: Prosa.epistolográfica ; normalized frequency: 5 ; absolute frequency: 1.32488937173746. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-101-100-101-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 1.68 and an absolute frequency of 36. The I.a.C. subcorpus follows, with a normalized frequency of 1.68 and an absolute frequency of 36. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 36 ; absolute frequency: 1.67558761926926. subcorpus: I.d.C. ; normalized frequency: 2 ; absolute frequency: 0.305950741930549. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

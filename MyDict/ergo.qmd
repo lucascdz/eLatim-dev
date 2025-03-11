@@ -1,0 +1,198 @@
+---
+title: "ergo"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx101-114-103-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>ergō</b> <br> <small>conj.</small> <br> <small>Obs.: Quanto à quantidade, observe-se que por vezes apareee com -ò a partir de Ovídio Ov. Tr. 1. 1.87; Juv. 13.204.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Portanto, por conseguinte, pois logo &ensp; <small>Cíc. Fin. 2, 97.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Ergo</b> <br> <small>conjunç.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; mas, assim que, por tanto, pois, por causa. </p>
+
+
+
+
+#### Velez
+
+<b>Ergo</b>   <p> <b>1</b> &ensp; por tanto, ou logo </p>
+
+
+
+
+#### Cardoso
+
+<b>Ergo</b> <br> <small>coniũctio.</small>   <p> <b>1</b> &ensp; por tanto. ou asi que </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/101415 ' target="_blank"> http://lila-erc.eu/data/id/lemma/101415 </a> <br>
+<small> classe: </small> partícula    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ergō
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx101-114-103-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ergo here are all the values plotted: collocate: quomodo; scoreSUBST: 0. collocate: quis; scoreSUBST: 0. collocate: inquam; scoreSUBST: 0. collocate: hic; scoreSUBST: 0. collocate: ille; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx101-114-103-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ergo here are all the values plotted: collocate: quomodo; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: inquam; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: ille; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx101-114-103-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ergo here are all the values plotted: collocate: quomodo; scoreVERBO: 0. collocate: quis; scoreVERBO: 0. collocate: inquam; scoreVERBO: 2. collocate: hic; scoreVERBO: 0. collocate: ille; scoreVERBO: 0. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx101-114-103-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ergo here are all the values plotted: collocate: quomodo; scoreADV: 2. collocate: quis; scoreADV: 0. collocate: inquam; scoreADV: 0. collocate: hic; scoreADV: 0. collocate: ille; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx101-114-103-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ergo here are all the values plotted: collocate: quomodo; scoreFUNC: 0. collocate: quis; scoreFUNC: 0. collocate: inquam; scoreFUNC: 0. collocate: hic; scoreFUNC: 0. collocate: ille; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quid <b>ergo</b> <br> <small> Cic.Att.2.1.8 <br> E então? <small> [JDD] </small> </small> </p>
+; <p> quo modo <b>ergo</b> absolutus <br> <small> Cic.Att.4.18.1 <br> Como então foi absolvido? <small> [JDD] </small> </small> </p>
+; <p> quomodo <b>ergo</b> ad illam accedit <br> <small> Sen.Ep.9.12 <br> “Como então chega a ela?” <small> [JDD] </small> </small> </p>
+; <p> quid quid <b>ergo</b> mentitus est <br> <small> Sen.Ep.21.4 <br> Por acaso ele então mentiu? <small> [JDD] </small> </small> </p>
+; <p> quomodo <b>ergo</b> illud bonum est cum haec non sint <br> <small> Sen.Ep.118.13 <br> De que modo, então, aquele é um bem quando estas não são? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx101-114-103-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 18.85 and an absolute frequency of 101. The Cicero subcorpus follows, with a normalized frequency of 3.18 and an absolute frequency of 51. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 51 ; absolute frequency: 3.17709501382971. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 101 ; absolute frequency: 18.8499654728355. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx101-114-103-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 18.12 and an absolute frequency of 110. The Prosa.oratória subcorpus follows, with a normalized frequency of 2.78 and an absolute frequency of 29. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.filosófica ; normalized frequency: 110 ; absolute frequency: 18.1216124940281. subcorpus: Prosa.oratória ; normalized frequency: 29 ; absolute frequency: 2.78436530872851. subcorpus: Prosa.epistolográfica ; normalized frequency: 12 ; absolute frequency: 3.1797344921699. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx101-114-103-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 15.45 and an absolute frequency of 101. The I.a.C. subcorpus follows, with a normalized frequency of 2.56 and an absolute frequency of 55. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 55 ; absolute frequency: 2.55992552943914. subcorpus: I.d.C. ; normalized frequency: 101 ; absolute frequency: 15.4505124674927. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

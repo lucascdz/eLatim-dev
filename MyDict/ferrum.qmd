@@ -1,0 +1,200 @@
+---
+title: "ferrum"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx102-101-114-114-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>ferrum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Ferro &ensp; <small>Cíc. Nat. 2, 151.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Objeto ou instrumento de ferro &ensp; <small>espada, faca, dardo, ferro de lança, relha do arado, tesoura, ferro de frisar, etc. Ov. Met. 7, 119; Cíc. Nat. 3, 81.</small> <br> <b>3</b> &ensp; <small>II-Sent. poético:</small> &ensp; Insensibilidade, crueldade &ensp; <small>Ov. Met. 9. 614.</small> <br> <b>4</b> &ensp; <small>III-Sent. raro:</small> &ensp; Cadeia, grilhão &ensp; <small>Cíc. Verr. 5, 107.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Ferrum</b> -<b>i</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; ferro. <br> <b>2</b> &ensp; toda a arma, todo o instrumento de ferro, v. gr. espada, lança, grilhão, & c. </p>
+
+
+
+
+#### Velez
+
+<b>Ferrum</b> -<b>i</b>   <p> <b>1</b> &ensp; o ferro, ou espada </p>
+
+
+
+
+#### Cardoso
+
+<b>Ferrum</b> <b>i</b>   <p> <b>1</b> &ensp; ho ferro </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/103152 ' target="_blank"> http://lila-erc.eu/data/id/lemma/103152 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> ferrom <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ferrī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx102-101-114-114-117-109xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx102-101-114-114-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ferrum here are all the values plotted: collocate: peto; scoreSUBST: 0. collocate: aut; scoreSUBST: 0. collocate: et; scoreSUBST: 0. collocate: que; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx102-101-114-114-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ferrum here are all the values plotted: collocate: peto; scoreADJ: 0. collocate: aut; scoreADJ: 0. collocate: et; scoreADJ: 0. collocate: que; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx102-101-114-114-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ferrum here are all the values plotted: collocate: peto; scoreVERBO: 2. collocate: aut; scoreVERBO: 0. collocate: et; scoreVERBO: 0. collocate: que; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx102-101-114-114-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ferrum here are all the values plotted: collocate: peto; scoreADV: 0. collocate: aut; scoreADV: 0. collocate: et; scoreADV: 0. collocate: que; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx102-101-114-114-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ferrum here are all the values plotted: collocate: peto; scoreFUNC: 0. collocate: aut; scoreFUNC: 0. collocate: et; scoreFUNC: 0. collocate: que; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>ferro</b> et igne res geritur <br> <small> Sen.Ep.7.4 <br> A ação se leva a cabo a ferro e fogo. <small> [JDD] </small> </small> </p>
+; <p> et <b>ferrum</b> et ignis saepe medicinae loco est <br> <small> Sen.Ag.152 <br> Tanto o ferro como o fogo muitas vezes estão frequentemente no lugar da medicina. <small> [JDD] </small> </small> </p>
+; <p> uulneri immoritur manus <b>ferrum</b>que se cum nimius eiecit cruor <br> <small> Sen.Oed.1040 <br> Sobre a ferida morre sua mão e o sangue copioso lançou consigo fora a espada. <small> [JDD] </small> </small> </p>
+; <p> quem petit dextra uirum Lacaena cultu <b>ferrum</b> Amazonium gerens <br> <small> Sen.Ag.735 <br> Que homem ela ataca com sua mão direita, com porte de espatana, trazendo a arma das Amazonas? <small> [JDD] </small> </small> </p>
+; <p> ait hoc scelestum pectus aut <b>ferro</b> petat aut feruido aliquis igne uel saxo domet <br> <small> Sen.Oed.927 <br> diz. “Que alguém ataque este criminoso peito com a espada ou que o submeta ao ardente fogo ou às pedras. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx102-101-114-114-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 9.65 and an absolute frequency of 5. The Seneca subcorpus follows, with a normalized frequency of 6.35 and an absolute frequency of 34. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 1 ; absolute frequency: 0.377672029609487. subcorpus: Cicero ; normalized frequency: 17 ; absolute frequency: 1.05903167127657. subcorpus: Horatius ; normalized frequency: 6 ; absolute frequency: 5.32812361246781. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 34 ; absolute frequency: 6.34553293144958. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx102-101-114-114-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 18.24 and an absolute frequency of 21. The Poesia.trágica subcorpus follows, with a normalized frequency of 18.24 and an absolute frequency of 21. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 4 ; absolute frequency: 0.973733537817376. subcorpus: Prosa.filosófica ; normalized frequency: 14 ; absolute frequency: 2.30638704469449. subcorpus: Prosa.oratória ; normalized frequency: 14 ; absolute frequency: 1.3441763559379. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 21 ; absolute frequency: 18.2418346073662. subcorpus: Poesia.épica ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx102-101-114-114-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 5.51 and an absolute frequency of 36. The I.d.C. subcorpus follows, with a normalized frequency of 5.51 and an absolute frequency of 36. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 31 ; absolute frequency: 1.44286711659297. subcorpus: I.d.C. ; normalized frequency: 36 ; absolute frequency: 5.50711335474988. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

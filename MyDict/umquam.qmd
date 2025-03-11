@@ -1,0 +1,206 @@
+---
+title: "umquam"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-109-113-117-97-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>umquam</b> <br> <b>unquam</b> <br> <small>adv.</small> <br> <small>Obs.: Nas frases negativas, interrogativas e condicionais, significa: Nunca, jamais Cíc. Lae. 51: nemo unquam Cíc. Rep. 2, 17 "nunca pessoa alguma".</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Em algum momento, algum dia, alguma vez &ensp; <small>Plín. H. Nat. 2, 100.</small> </p> 
+ <b>unquam</b> <br> <small></small> <br> <small>v. umquam.</small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Unquam</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; já mais, em algum lugar, em algum tempo. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>unquam gentium &ensp; <small><small>Cic</small></small> &ensp; <small>Em todo o mundo</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/130569 ' target="_blank"> http://lila-erc.eu/data/id/lemma/130569 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> unquam <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-109-113-117-97-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword umquam here are all the values plotted: collocate: nemo; scoreSUBST: 0. collocate: nullus; scoreSUBST: 0. collocate: nec; scoreSUBST: 0. collocate: nihil; scoreSUBST: 0. collocate: uis; scoreSUBST: 2. collocate: ullus; scoreSUBST: 0. collocate: neque; scoreSUBST: 0. collocate: tantus; scoreSUBST: 0. collocate: enim; scoreSUBST: 0. collocate: tam; scoreSUBST: 0. collocate: quis; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-109-113-117-97-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword umquam here are all the values plotted: collocate: nemo; scoreADJ: 0. collocate: nullus; scoreADJ: 0. collocate: nec; scoreADJ: 0. collocate: nihil; scoreADJ: 0. collocate: uis; scoreADJ: 0. collocate: ullus; scoreADJ: 0. collocate: neque; scoreADJ: 0. collocate: tantus; scoreADJ: 0. collocate: enim; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-109-113-117-97-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword umquam here are all the values plotted: collocate: nemo; scoreVERBO: 0. collocate: nullus; scoreVERBO: 0. collocate: nec; scoreVERBO: 0. collocate: nihil; scoreVERBO: 0. collocate: uis; scoreVERBO: 0. collocate: ullus; scoreVERBO: 0. collocate: neque; scoreVERBO: 0. collocate: tantus; scoreVERBO: 0. collocate: enim; scoreVERBO: 0. collocate: tam; scoreVERBO: 0. collocate: quis; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: sum; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-109-113-117-97-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword umquam here are all the values plotted: collocate: nemo; scoreADV: 0. collocate: nullus; scoreADV: 0. collocate: nec; scoreADV: 0. collocate: nihil; scoreADV: 0. collocate: uis; scoreADV: 0. collocate: ullus; scoreADV: 0. collocate: neque; scoreADV: 0. collocate: tantus; scoreADV: 0. collocate: enim; scoreADV: 2. collocate: tam; scoreADV: 2. collocate: quis; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-109-113-117-97-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword umquam here are all the values plotted: collocate: nemo; scoreFUNC: 0. collocate: nullus; scoreFUNC: 0. collocate: nec; scoreFUNC: 0. collocate: nihil; scoreFUNC: 0. collocate: uis; scoreFUNC: 0. collocate: ullus; scoreFUNC: 0. collocate: neque; scoreFUNC: 0. collocate: tantus; scoreFUNC: 0. collocate: enim; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: quis; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> nulla hoc ciuitas <b>umquam</b> alia commisit <br> <small> Cic.Ver.2.4.25.18 <br> Nenhuma outra cidade jamais cometeu isto. <small> [JDD] </small> </small> </p>
+; <p> quis autem <b>umquam</b> tanto damno senatorem coegit <br> <small> Cic.Phil.1.12.12 <br> Por outro lado, quem algum dia obrigou um senador com tanto dano? <small> [JDD] </small> </small> </p>
+; <p> quid enim ille <b>umquam</b> arbitrio suo fecit <br> <small> Cic.Phil.6.4.9 <br> Pois o que fez ele alguma vez por sua própria vontade? <small> [JDD] </small> </small> </p>
+; <p> tempus habes tale quale nemo habuit <b>umquam</b> <br> <small> Cic.Phil.7.27.11 <br> Tens uma oportunidade tal qual nunca ninguém teve. <small> [JDD] </small> </small> </p>
+; <p> Pisonem consulem nulla in re consistere <b>umquam</b> sum passus <br> <small> Cic.Att.1.16.8 <br> não mais permiti que o cônsul Pisão se firmasse em coisa alguma. <small> [JDD] </small> </small> </p>
+; <p> magis autem necessarium patres conscripti nullum tempus <b>umquam</b> fuit <br> <small> Cic.Phil.7.7.5 <br> E nunca, pais conscritos, houve um tempo mais crítico. <small> [JDD] </small> </small> </p>
+; <p> quae fuit igitur <b>umquam</b> in ullo homine tanta constantia <br> <small> Cic.Lig.26 <br> Portanto, que constância tão grande houve alguma vez em algum homem? <small> [JDD] </small> </small> </p>
+; <p> nihil per uim <b>umquam</b> Clodius omnia per uim Milo <br> <small> Cic.Mil.36 <br> “Clódio nunca fez nada por meio da violência, Milão, tudo por meio da violência.” <small> [JDD] </small> </small> </p>
+; <p> praeteriti rara memoria est nec <b>umquam</b> reuocatur nisi praesentium occursu <br> <small> Sen.Ep.124.17 <br> a memória do passado é rara e nunca é despertada, a não ser com o encontro das coisas presentes. <small> [JDD] </small> </small> </p>
+; <p> me cum erat hic illi ne aduocatus quidem uenit <b>umquam</b> <br> <small> Cic.Cael.10 <br> Ele estava comigo; nunca veio para aquele, nem mesmo como apoiador. <small> [JDD] </small> </small> </p>
+; <p> neque enim ex te <b>umquam</b> es nobilitatus sed ex lateribus et lacertis tuis <br> <small> Cic.Sen.27 <br> Pois não foste celebrizado nunca por ti mesmo, mas por meio de teus pulmões e de teus músculos. <small> [JDD] </small> </small> </p>
+; <p> quis autem rex <b>umquam</b> fuit tam insignite impudens ut haberet omnia commoda beneficia iura regni uenalia <br> <small> Cic.Phil.3.10.1 <br> Por outro lado, que rei houve algum dia tão notavelmente despudorado que considerasse como vendáveis todas as gratificações, benefícios e direitos do reino? <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-109-113-117-97-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 8.04 and an absolute frequency of 129. The Cicero subcorpus follows, with a normalized frequency of 8.04 and an absolute frequency of 129. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 129 ; absolute frequency: 8.03618150556926. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 6 ; absolute frequency: 5.56534644281607. subcorpus: Seneca ; normalized frequency: 21 ; absolute frequency: 3.91929975177768. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-109-113-117-97-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 9.22 and an absolute frequency of 96. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 5.56 and an absolute frequency of 21. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 9 ; absolute frequency: 2.1909004600891. subcorpus: Prosa.filosófica ; normalized frequency: 29 ; absolute frequency: 4.77751602115286. subcorpus: Prosa.oratória ; normalized frequency: 96 ; absolute frequency: 9.21720929785988. subcorpus: Prosa.epistolográfica ; normalized frequency: 21 ; absolute frequency: 5.56453536129733. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-109-113-117-97-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 6.7 and an absolute frequency of 144. The I.a.C. subcorpus follows, with a normalized frequency of 6.7 and an absolute frequency of 144. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 144 ; absolute frequency: 6.70235047707703. subcorpus: I.d.C. ; normalized frequency: 21 ; absolute frequency: 3.21248279027077. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

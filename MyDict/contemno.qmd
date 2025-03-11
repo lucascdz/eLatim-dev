@@ -1,0 +1,209 @@
+---
+title: "contemno"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-111-110-116-101-109-110-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>contēmnō</b> <b>-is</b> <b>-ère</b> <b>-témpsí, -témptum</b> <br> <small>v. tr.</small> <br> <small>Obs.: Constrói-se com acus., inf. e intransitivamente.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Desprezar, não dar importância, desdenhar, menosprezar &ensp; <small>Cíc. Caecil. 39.</small> <br> <b>2</b> &ensp; <small>Sent. poético:</small> &ensp; afrontar &ensp; <small>Verg. G. 2, 360.</small> </p> 
+ <b>contēmpsī</b> <br> <small>perf. de contémno.</small> <br> <small></small> 
+ <b>contēmsī</b> <br> <small>= contémpsí.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Contemno</b> -<b>is</b> -<b>empsi</b> -<b>emptum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; desprezar, ter em pouco. </p>
+
+
+
+
+#### Velez
+
+<b>Contemno</b> -<b>is</b>   <p> <b>1</b> &ensp; despresar &ensp; <small>Act.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Contemno</b> <b>is</b> <b>psi</b> <b>ptum</b>   <p> <b>1</b> &ensp; despresar </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/96226 ' target="_blank"> http://lila-erc.eu/data/id/lemma/96226 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small> contempno <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> contemno, contempno </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> contemnere, contempnere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> contemnet, contempnet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> contempsi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> contemptum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> contempturum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+contemnō 
+ contemnĕre 
+ contempsī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx99-111-110-116-101-109-110-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-111-110-116-101-109-110-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword contemno here are all the values plotted: collocate: mors; scoreSUBST: 2. collocate: aut; scoreSUBST: 0. collocate: uideo; scoreSUBST: 0. collocate: ille; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-111-110-116-101-109-110-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword contemno here are all the values plotted: collocate: mors; scoreADJ: 0. collocate: aut; scoreADJ: 0. collocate: uideo; scoreADJ: 0. collocate: ille; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-111-110-116-101-109-110-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword contemno here are all the values plotted: collocate: mors; scoreVERBO: 0. collocate: aut; scoreVERBO: 0. collocate: uideo; scoreVERBO: 1. collocate: ille; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-111-110-116-101-109-110-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword contemno here are all the values plotted: collocate: mors; scoreADV: 0. collocate: aut; scoreADV: 0. collocate: uideo; scoreADV: 0. collocate: ille; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-111-110-116-101-109-110-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword contemno here are all the values plotted: collocate: mors; scoreFUNC: 0. collocate: aut; scoreFUNC: 0. collocate: uideo; scoreFUNC: 0. collocate: ille; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> non uides quam ex friuolis causis <b>contemnatur</b> <br> <small> Sen.Ep.4.4 <br> Não vês o quanto ela desprezada por motivos fúteis? <small> [JDD] </small> </small> </p>
+; <p> <b>Contempsit</b> illa , tuta quippe ipso loco . erat <br> <small> Phaed.1.28 <br> Aquela desdenhou, segura certamente em seu próprio local. <small> [JDD] </small> </small> </p>
+; <p> mihi uero licet et semper licebit dignitatem tueri mortem <b>contemnere</b> <br> <small> Cic.Phil.1.14.2 <br> A mim, na verdade, é e sempre será permitido proteger minha dignidade, desprezar a morte. <small> [JDD] </small> </small> </p>
+; <p> quamquam Ennius recte amicus certus in re incerta cernitur tamen haec duo leuitatis et infirmitatis plerosque conuincunt aut si in bonis rebus <b>contemnunt</b> aut in malis deserunt <br> <small> Cic.Amici.64 <br> Embora Ênio [tenha dito] corretamente: “O amigo certo se distingue na situação incerta”, contudo, estas duas coisas incriminam a maioria de leviandade e de falta de firmeza: ou menosprezam nas boas situações ou abandonam nas más. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-111-110-116-101-109-110-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 7.59 and an absolute frequency of 5. The Sallustius subcorpus follows, with a normalized frequency of 0.93 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 61 ; absolute frequency: 3.80005482046298. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 5 ; absolute frequency: 7.59070897221801. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 38 ; absolute frequency: 7.09206621750247. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-111-110-116-101-109-110-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 8.4 and an absolute frequency of 51. The Poesia.lírica subcorpus follows, with a normalized frequency of 2.52 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 1 ; absolute frequency: 0.243433384454344. subcorpus: Prosa.filosófica ; normalized frequency: 51 ; absolute frequency: 8.40183851995848. subcorpus: Prosa.oratória ; normalized frequency: 39 ; absolute frequency: 3.74449127725558. subcorpus: Prosa.epistolográfica ; normalized frequency: 9 ; absolute frequency: 2.38480086912743. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-111-110-116-101-109-110-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 6.58 and an absolute frequency of 43. The I.a.C. subcorpus follows, with a normalized frequency of 3.03 and an absolute frequency of 65. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 65 ; absolute frequency: 3.02536653479172. subcorpus: I.d.C. ; normalized frequency: 43 ; absolute frequency: 6.57794095150681. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

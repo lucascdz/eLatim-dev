@@ -1,0 +1,199 @@
+---
+title: "gradus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx103-114-97-100-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>gradus</b> <b>-ús</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Passo, modo de andar, marcha &ensp; <small>Cíc. De Or. 2, 249.</small> <br> <b>2</b> &ensp; <small>II-Daí, na língua militar</small> &ensp; Lugar onde se chegou, posição, postura de combatente &ensp; <small>T. Lív. 7, 8, 3; T. UV. 6, 12, 8.</small> <br> <b>3</b> &ensp; <small>III-Em sent. especial:</small> &ensp; Degrau &ensp; <small>de escada Cíc. At. 4, 1, 5.</small> <br> <b>4</b> &ensp; <small>IV-Sent. figurado:</small> &ensp; Passo, marcha &ensp; <small>T. Lív. 6, 42, 2.</small> <br> <b>5</b> &ensp; <small>IV-Sent. figurado:</small> &ensp; Aproximação &ensp; <small>Hor. O. I, 3, 17.</small> <br> <b>6</b> &ensp; <small>IV-Sent. figurado:</small> &ensp; Escala, gradação &ensp; <small>Cíc. De Or. 3, 227; Cíc. Nat. 1, 88.</small> <br> <b>7</b> &ensp; <small>IV-Sent. figurado:</small> &ensp; Ordem &ensp; <small>Cíc. Part. 12.</small> <br> <b>8</b> &ensp; <small>IV-Sent. figurado:</small> &ensp; Grau, categoria, classe &ensp; <small>Ov. Met. 13, 143; Cíc. Of. I, 160; Cíc. Pomp. 61.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Gradus</b> -<b>us</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; degráo. <br> <b>2</b> &ensp; passo. <br> <b>3</b> &ensp; posto, dignidade, emprego honroso. <br> <b>4</b> &ensp; meio, caminho, entrada. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Gradus</b> <b>us</b>   <p> <b>1</b> &ensp; a passada </p> 
+ <b>Gradus</b> <b>us</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/104801 ' target="_blank"> http://lila-erc.eu/data/id/lemma/104801 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 4ª declinação (tema em -u-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+grădŭs 
+ grădūs
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx103-114-97-100-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx103-114-97-100-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword gradus here are all the values plotted: collocate: honor; scoreSUBST: 2. collocate: dignitas; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx103-114-97-100-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword gradus here are all the values plotted: collocate: honor; scoreADJ: 0. collocate: dignitas; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx103-114-97-100-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword gradus here are all the values plotted: collocate: honor; scoreVERBO: 0. collocate: dignitas; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx103-114-97-100-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword gradus here are all the values plotted: collocate: honor; scoreADV: 0. collocate: dignitas; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx103-114-97-100-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword gradus here are all the values plotted: collocate: honor; scoreFUNC: 0. collocate: dignitas; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> duae sint artes igitur quae possint locare homines in amplissimo <b>gradu</b> dignitatis una imperatoris altera oratoris boni <br> <small> Cic.Mur.30 <br> Portanto, duas seriam as ocupações que poderiam colocar os homens no mais amplo grau de dignidade: uma, a do general, a outra do bom orador <small> [JDD] </small> </small> </p>
+; <p> amplissimae tibi fortunae sunt summus honoris <b>gradus</b> filius ut et audio et spero natus ad laudem cui cum rei publicae causa faueo tum etiam tua <br> <small> Cic.Phil.10.4.11 <br> Tens uma vastíssima fortuna, o mais alto grau da magistratura, um filho, pelo que ouço e espero, nascido para a glória, a quem eu apoio não só por causa da república como também por ti. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx103-114-97-100-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 11.03 and an absolute frequency of 1. The Seneca subcorpus follows, with a normalized frequency of 4.85 and an absolute frequency of 26. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 15 ; absolute frequency: 0.934439709949914. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 26 ; absolute frequency: 4.8524663593438. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx103-114-97-100-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 13.9 and an absolute frequency of 16. The Poesia.lírica subcorpus follows, with a normalized frequency of 3.37 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 1 ; absolute frequency: 0.243433384454344. subcorpus: Prosa.filosófica ; normalized frequency: 11 ; absolute frequency: 1.81216124940281. subcorpus: Prosa.oratória ; normalized frequency: 13 ; absolute frequency: 1.24816375908519. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 16 ; absolute frequency: 13.8985406532314. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx103-114-97-100-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 4.44 and an absolute frequency of 29. The I.d.C. subcorpus follows, with a normalized frequency of 4.44 and an absolute frequency of 29. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 20 ; absolute frequency: 0.930882010705143. subcorpus: I.d.C. ; normalized frequency: 29 ; absolute frequency: 4.43628575799296. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,206 @@
+---
+title: "alter"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-108-116-101-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>alter</b> <b>-èra</b> <b>-èrum</b> <br> <small>pron.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Um de dois outro falando de dois &ensp; <small>Cíc. Tusc. 1, 97.</small> <br> <b>2</b> &ensp; <small></small> &ensp; O segundo numa enumeração, o seguinte &ensp; <small>Cíc. Br. 197.</small> <br> <b>3</b> &ensp; <small></small> &ensp; Outro &ensp; <small>Cíc. Lac. 80.</small> <br> <b>4</b> &ensp; <small></small> &ensp; Outrem &ensp; <small>Cíc. Quinct. 51.</small> <br> <b>5</b> &ensp; <small></small> &ensp; Alter ...alter: um...outro, o primeiro ... o segundo; alteri ... alteri &ensp; <small>sentido coletivo Cíc. Sest. 96.</small> <br> <b>6</b> &ensp; <small></small> &ensp; Alterum fantum: outro tanto, o dobro &ensp; <small>T. Lív. 1, 36, 7.</small> <br> <b>7</b> &ensp; <small></small> &ensp; Unus et alter: um e depois o outro &ensp; <small>Cíc. Verr. 2, 75.</small> <br> <b>8</b> &ensp; <small></small> &ensp; Unus aut alter. um ou dois &ensp; <small>Cíc. Mur. 43.</small> <br> <b>9</b> &ensp; <small></small> &ensp; Alter alterum: um ao outro &ensp; <small>Cíc. Clu. 122.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Alter</b> -<b>eris</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Mart.</small> &ensp; maça de chumbo para o exercicio da palestra. </p>
+
+
+
+
+#### Velez
+
+<b>Alter</b> -<b>a</b> -<b>um</b> <br> <small>Partit.</small>   <p> <b>1</b> &ensp; outro, hum de dous, ou segundo </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>tu nunc eris alter ab illo <br> <br><b>X</b><br>alter ego &ensp; <small><small>eleganter pro homine mihi charissimo</small></small> <br> alterum tantum &ensp; <small>outro tanto</small> &ensp; <small><small>apud Cic. & Plaut</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Alter</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; hum dos dous </p> 
+ <b>Alter</b> -<b>eris</b>   <p> <b>1</b> &ensp; a maça de chumbo </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/88457 ' target="_blank"> http://lila-erc.eu/data/id/lemma/88457 </a> <br>
+<small> classe: </small> determinante    <br>
+<small> paradigma: </small> 1ª classe, pronominal (tema em -a/o-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+altĕr 
+ altĕra 
+ altĕrum
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-108-116-101-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword alter here are all the values plotted: collocate: pars; scoreSUBST: 3. collocate: ambo; scoreSUBST: 0. collocate: genus; scoreSUBST: 2. collocate: imperator; scoreSUBST: 2. collocate: unus; scoreSUBST: 0. collocate: ex; scoreSUBST: 0. collocate: uita; scoreSUBST: 1. collocate: in; scoreSUBST: 0. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-108-116-101-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword alter here are all the values plotted: collocate: pars; scoreADJ: 0. collocate: ambo; scoreADJ: 0. collocate: genus; scoreADJ: 0. collocate: imperator; scoreADJ: 0. collocate: unus; scoreADJ: 0. collocate: ex; scoreADJ: 0. collocate: uita; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-108-116-101-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword alter here are all the values plotted: collocate: pars; scoreVERBO: 0. collocate: ambo; scoreVERBO: 0. collocate: genus; scoreVERBO: 0. collocate: imperator; scoreVERBO: 0. collocate: unus; scoreVERBO: 0. collocate: ex; scoreVERBO: 0. collocate: uita; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-108-116-101-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword alter here are all the values plotted: collocate: pars; scoreADV: 0. collocate: ambo; scoreADV: 0. collocate: genus; scoreADV: 0. collocate: imperator; scoreADV: 0. collocate: unus; scoreADV: 0. collocate: ex; scoreADV: 0. collocate: uita; scoreADV: 0. collocate: in; scoreADV: 0. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-108-116-101-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword alter here are all the values plotted: collocate: pars; scoreFUNC: 0. collocate: ambo; scoreFUNC: 0. collocate: genus; scoreFUNC: 0. collocate: imperator; scoreFUNC: 0. collocate: unus; scoreFUNC: 0. collocate: ex; scoreFUNC: 20. collocate: uita; scoreFUNC: 0. collocate: in; scoreFUNC: 20. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>alterum</b> genus est equitum <br> <small> Caes.Gal.6.15.1 <br> A outra classe é a dos cavaleiros. <small> [JDD] </small> </small> </p>
+; <p> <b>alterius</b> vitae quoddam initium ordimur <br> <small> Cic.Att.4.1.8 <br> Empreendo uma espécie de início de uma outra vida. <small> [JDD] </small> </small> </p>
+; <p> ex <b>altera</b> parte facile quadringenti fuerunt <br> <small> Cic.Att.1.14.5 <br> do outro lado havia facilmente 400. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>alteram</b> ne laudarem eum quem non amabam <br> <small> Cic.Att.2.7.1 <br> o outro para não elogiar quem eu não estimava. <small> [JDD] </small> </small> </p>
+; <p> est enim is qui est tamquam <b>alter</b> idem <br> <small> Cic.Amici.80 <br> pois este é como um outro ele mesmo. <small> [JDD] </small> </small> </p>
+; <p> exercitus hostium duo unus ab urbe <b>alter</b> a Gallia obstant <br> <small> Sal.Cat.58.6 <br> Dois exércitos dos inimigos, um do lado da cidade, o outro do lado da Gália, nos barram a passagem. <small> [JDD] </small> </small> </p>
+; <p> <b>altera</b> sententia est quae definit amicitiam paribus officiis ac uoluntatibus <br> <small> Cic.Amici.58 <br> A segunda opinião é a que define a amizade pelos deveres e vontades iguais. <small> [JDD] </small> </small> </p>
+; <p> atque in <b>alteram</b> partem item cohortandi causa profectus pugnantibus occurrit <br> <small> Caes.Gal.2.21.4 <br> E, tendo partido para outra parte para também exortar, encontra os que estavam lutando. <small> [JDD] </small> </small> </p>
+; <p> duae sint artes igitur quae possint locare homines in amplissimo gradu dignitatis una imperatoris <b>altera</b> oratoris boni <br> <small> Cic.Mur.30 <br> Portanto, duas seriam as ocupações que poderiam colocar os homens no mais amplo grau de dignidade: uma, a do general, a outra do bom orador <small> [JDD] </small> </small> </p>
+; <p> cum decreuistis ut consules <b>alter</b> amboue ad bellum proficiscerentur quod erat bellum si hostis Antonius non erat <br> <small> Cic.Phil.7.11.6 <br> E quando decretastes que os cônsules, um ou ambos, partissem para a guerra, que guerra era essa, se Antônio não era inimigo? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-108-116-101-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 22.05 and an absolute frequency of 2. The Cicero subcorpus follows, with a normalized frequency of 10.84 and an absolute frequency of 174. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 22 ; absolute frequency: 8.30878465140872. subcorpus: Cicero ; normalized frequency: 174 ; absolute frequency: 10.839500635419. subcorpus: Horatius ; normalized frequency: 9 ; absolute frequency: 7.99218541870171. subcorpus: Ovidius ; normalized frequency: 6 ; absolute frequency: 10.2951269732327. subcorpus: Phaedrus ; normalized frequency: 6 ; absolute frequency: 9.10885076666161. subcorpus: Sallustius ; normalized frequency: 11 ; absolute frequency: 10.2031351451628. subcorpus: Seneca ; normalized frequency: 50 ; absolute frequency: 9.33166607566115. subcorpus: Suetonius ; normalized frequency: 2 ; absolute frequency: 22.0507166482911. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-108-116-101-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 14.5 and an absolute frequency of 88. The Prosa.filosófica subcorpus follows, with a normalized frequency of 14.5 and an absolute frequency of 88. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 38 ; absolute frequency: 9.25046860926508. subcorpus: Prosa.filosófica ; normalized frequency: 88 ; absolute frequency: 14.4972899952225. subcorpus: Prosa.oratória ; normalized frequency: 100 ; absolute frequency: 9.60125968527071. subcorpus: Prosa.epistolográfica ; normalized frequency: 34 ; absolute frequency: 9.00924772781473. subcorpus: Poesia.lírica ; normalized frequency: 10 ; absolute frequency: 8.4125515268781. subcorpus: Poesia.didática ; normalized frequency: 11 ; absolute frequency: 9.33073203834083. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-108-116-101-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 13.09 and an absolute frequency of 5. The I.a.C. subcorpus follows, with a normalized frequency of 10.15 and an absolute frequency of 218. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 218 ; absolute frequency: 10.1466139166861. subcorpus: I.d.C. ; normalized frequency: 61 ; absolute frequency: 9.33149762888175. subcorpus: II.d.C. ; normalized frequency: 5 ; absolute frequency: 13.0890052356021. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

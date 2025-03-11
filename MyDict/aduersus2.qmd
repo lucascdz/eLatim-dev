@@ -1,0 +1,198 @@
+---
+title: "aduersus2"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-100-117-101-114-115-117-115-50xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>advōrsus</b> <br> <small></small> <br> <small>v. adversus.</small> 
+ <small>3.</small> <b>advērsus</b> <b>-a</b> <b>-um</b> <br> <small></small> <br> <small>Obs.: O n. pl. adversa, -órum significa: «adversidade» Ter. Hec. 388.</small>   <p> <b>1</b> &ensp; <small>I-Part. pass. de advérto.</small> &ensp; <small></small> <br> <b>2</b> &ensp; <small>II-Adj.-Sent. próprio:</small> &ensp; Voltado para, face a face: &ensp; <small></small> <br> <b>3</b> &ensp; <small>III-Adj.-Sent. figurado:</small> &ensp; Contrário, oposto, inimigo &ensp; <small>Cíc. Mil. 3.</small> <br> <b>4</b> &ensp; <small>III-Adj.-Sent. figurado:</small> &ensp; Contrário, adverso, infeliz, difícil &ensp; <small>Tác. , An. 2, 53.</small> <br> <b>5</b> &ensp; <small>III-Adj.-Em lógica:</small> &ensp; contrário, oposto &ensp; <small>pelo sentido:</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>adversis hostibus occurrebant Cés. B. Gal. 2, 24, I -«encontravam-se face a face com os inimigos». <br> <br><b>5</b><br>referunt adversa contrariis Cíc. Or. 65 «referem-se a termos de sentidos opostos». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Adversus</b> -<b>a</b> -<b>um</b> <small>Plin</small> -<b>sior</b> <small>Caes</small> -<b>sissimus</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; fronteiro. <br> <b>2</b> &ensp; contrario, repugnante. </p>
+
+
+
+
+#### Velez
+
+<b>Adversus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa contraria <br> <b>2</b> &ensp; cousa fronteira, ou opposta </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>uulgus quieti aduersum <br> <br><b>2</b><br>septemtrioni est Auster aduersus &ensp; <small>ao Norte está opposto o Sul</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Aduersus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa fronteyra. ou contraria </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/hypolemma/1008 ' target="_blank"> http://lila-erc.eu/data/id/hypolemma/1008 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> aduorsus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx97-100-117-101-114-115-117-115-50xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ita sunt res nostrae ut in secundis fluxae ut in <b>advorsis</b> bonae <br> <small> Cic.Att.4.1.8 <br> Assim estão as minhas coisas, “nos momento favoráveis, incertas, nos adversos, boas”. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nam et secundas res splendidiores facit amicitia et <b>aduersas</b> partiens communicansque leuiores <br> <small> Cic.Amici.22 <br> Pois a amizade faz não só mais esplêndidas as situações favoráveis, mas também mais leves as adversas, compartilhando-as e as tornando comuns. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-100-117-101-114-115-117-115-50xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 6.87 and an absolute frequency of 2. The Tacitus subcorpus follows, with a normalized frequency of 6.87 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 7 ; absolute frequency: 2.64370420726641. subcorpus: Cicero ; normalized frequency: 11 ; absolute frequency: 0.685255787296604. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 6 ; absolute frequency: 5.56534644281607. subcorpus: Seneca ; normalized frequency: 7 ; absolute frequency: 1.30643325059256. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-100-117-101-114-115-117-115-50xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 5.79 and an absolute frequency of 3. The Prosa.histórica subcorpus follows, with a normalized frequency of 3.65 and an absolute frequency of 15. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 15 ; absolute frequency: 3.65150076681516. subcorpus: Prosa.filosófica ; normalized frequency: 9 ; absolute frequency: 1.48267738587503. subcorpus: Prosa.oratória ; normalized frequency: 4 ; absolute frequency: 0.384050387410828. subcorpus: Prosa.epistolográfica ; normalized frequency: 3 ; absolute frequency: 0.794933623042476. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-100-117-101-114-115-117-115-50xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 5.24 and an absolute frequency of 2. The I.a.C. subcorpus follows, with a normalized frequency of 1.35 and an absolute frequency of 29. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 29 ; absolute frequency: 1.34977891552246. subcorpus: I.d.C. ; normalized frequency: 7 ; absolute frequency: 1.07082759675692. subcorpus: II.d.C. ; normalized frequency: 2 ; absolute frequency: 5.23560209424084. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

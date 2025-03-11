@@ -1,0 +1,224 @@
+---
+title: "nunc"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-117-110-99xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>nunc</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Agora, no momento presente &ensp; <small>sent. temporal Cíc. Tusc. 1, 23.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Então &ensp; <small>com verbos no pass. ou no fut. Cíc. Verr. 3. 47.</small> <br> <b>3</b> &ensp; <small></small> &ensp; Ora, assim sendo, em vista disso &ensp; <small>sent. lógico:</small> <br> <b>4</b> &ensp; <small></small> &ensp; Mas em realidade, assim pois &ensp; <small>Cíc. Arch. 29.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>3</b><br>vera igitur illa sunt nunc omnia Cíc. Ac. 2, 106 “assim sendo, pois, todos esses dogmas são verdadeiros”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Nunc</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; agora, presentemente. <br> <b>2</b> &ensp; porém, mas. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>nunc huc, nunc illuc &ensp; <small><small>Virg</small></small> &ensp; <small>Já para aqui, já para alli</small> <br> nunc ipsum &ensp; <small><small>Cic</small></small> &ensp; <small>Neste mesmo instante</small> <br> nunc nunc &ensp; <small><small>Plaut</small></small> &ensp; <small>Neste mesmo instante</small> </p> 
+ <b>Nunccine</b> <br> <small>adv.</small> 
+ <b>Nuncine</b> <small>l</small> <br> <small>adv.</small>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Nunc</b> <br> <small>aduerb. tempo.</small>   <p> <b>1</b> &ensp; agora </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/113990 ' target="_blank"> http://lila-erc.eu/data/id/lemma/113990 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> nunccine, nuncin, nuncine, nuncne <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-117-110-99xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword nunc here are all the values plotted: collocate: uero; scoreSUBST: 0. collocate: quoniam; scoreSUBST: 0. collocate: etiam; scoreSUBST: 0. collocate: adicio; scoreSUBST: 0. collocate: quidem; scoreSUBST: 0. collocate: idem; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: de; scoreSUBST: 0. collocate: tu; scoreSUBST: 0. collocate: uenio; scoreSUBST: 0. collocate: qui; scoreSUBST: 0. collocate: pertineo; scoreSUBST: 0. collocate: redeo; scoreSUBST: 0. collocate: reddo; scoreSUBST: 0. collocate: absum; scoreSUBST: 0. collocate: iter; scoreSUBST: 2. collocate: primus; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-117-110-99xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword nunc here are all the values plotted: collocate: uero; scoreADJ: 0. collocate: quoniam; scoreADJ: 0. collocate: etiam; scoreADJ: 0. collocate: adicio; scoreADJ: 0. collocate: quidem; scoreADJ: 0. collocate: idem; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: de; scoreADJ: 0. collocate: tu; scoreADJ: 0. collocate: uenio; scoreADJ: 0. collocate: qui; scoreADJ: 0. collocate: pertineo; scoreADJ: 0. collocate: redeo; scoreADJ: 0. collocate: reddo; scoreADJ: 0. collocate: absum; scoreADJ: 0. collocate: iter; scoreADJ: 0. collocate: primus; scoreADJ: 2'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-117-110-99xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword nunc here are all the values plotted: collocate: uero; scoreVERBO: 0. collocate: quoniam; scoreVERBO: 0. collocate: etiam; scoreVERBO: 0. collocate: adicio; scoreVERBO: 3. collocate: quidem; scoreVERBO: 0. collocate: idem; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: de; scoreVERBO: 0. collocate: tu; scoreVERBO: 0. collocate: uenio; scoreVERBO: 2. collocate: qui; scoreVERBO: 0. collocate: pertineo; scoreVERBO: 2. collocate: redeo; scoreVERBO: 2. collocate: reddo; scoreVERBO: 2. collocate: absum; scoreVERBO: 2. collocate: iter; scoreVERBO: 0. collocate: primus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-117-110-99xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword nunc here are all the values plotted: collocate: uero; scoreADV: 4. collocate: quoniam; scoreADV: 0. collocate: etiam; scoreADV: 3. collocate: adicio; scoreADV: 0. collocate: quidem; scoreADV: 2. collocate: idem; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: de; scoreADV: 0. collocate: tu; scoreADV: 0. collocate: uenio; scoreADV: 0. collocate: qui; scoreADV: 0. collocate: pertineo; scoreADV: 0. collocate: redeo; scoreADV: 0. collocate: reddo; scoreADV: 0. collocate: absum; scoreADV: 0. collocate: iter; scoreADV: 0. collocate: primus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-117-110-99xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword nunc here are all the values plotted: collocate: uero; scoreFUNC: 0. collocate: quoniam; scoreFUNC: 20. collocate: etiam; scoreFUNC: 0. collocate: adicio; scoreFUNC: 0. collocate: quidem; scoreFUNC: 0. collocate: idem; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: de; scoreFUNC: 20. collocate: tu; scoreFUNC: 0. collocate: uenio; scoreFUNC: 0. collocate: qui; scoreFUNC: 0. collocate: pertineo; scoreFUNC: 0. collocate: redeo; scoreFUNC: 0. collocate: reddo; scoreFUNC: 0. collocate: absum; scoreFUNC: 0. collocate: iter; scoreFUNC: 0. collocate: primus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>nunc</b> ego resto <br> <small> Hor.S.1.9.28 <br> Agora resto eu. <small> [JDD] </small> </small> </p>
+; <p> <b>nunc</b> cognosce de Bruto <br> <small> Cic.Att.5.21.10 <br> agora inteira-te dos acerca de Bruto. <small> [JDD] </small> </small> </p>
+; <p> <b>nunc</b> audi quod quaeris <br> <small> Cic.Att.2.9.4 <br> Ouve agora o que queres saber. <small> [JDD] </small> </small> </p>
+; <p> redde <b>nunc</b> natum mihi <br> <small> Sen.Ag.967 <br> Devolve-me agora o meu filho. <small> [JDD] </small> </small> </p>
+; <p> <b>nunc</b> vero Sampsicerame quid dices <br> <small> Cic.Att.2.16.2 <br> E agora, Sampsicéramo, o vais dizer? <small> [JDD] </small> </small> </p>
+; <p> sequere <b>nunc</b> me in campum <br> <small> Cic.Att.4.15.7 <br> Me segue agora ao Campo de Marte. <small> [JDD] </small> </small> </p>
+; <p> cui mederi <b>nunc</b> non possumus <br> <small> Cic.Att.1.19.9 <br> no momento não posso cuidar dele. <small> [JDD] </small> </small> </p>
+; <p> <b>nunc</b> adice certas corporis nostri notas <br> <small> Sen.Oed.811 <br> Agora, acrescenta as marcas particulares de meu corpo. <small> [JDD] </small> </small> </p>
+; <p> terrent etiam <b>nunc</b> nubila mentem . <br> <small> Ov.Met.1.357 <br> ainda agora as nuvens me aterrorizam a mente. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quod ne <b>nunc</b> quidem fieri laborabo <br> <small> Sen.Ep.124.1 <br> Me esforçarei para que isso não suceda agora. <small> [JDD] </small> </small> </p>
+; <p> <b>nunc</b> te obiurgari patere si iure <br> <small> Cic.Att.4.16.7 <br> Agora permite te criticar, se é justo. <small> [JDD] </small> </small> </p>
+; <p> nec vero <b>nunc</b> erat sane quod scriberem <br> <small> Cic.Att.5.3.1 <br> e agora, na verdade, não há, por certo, o que escrever. <small> [JDD] </small> </small> </p>
+; <p> quid si illi etiam <b>nunc</b> permiseris crescere <br> <small> Sen.Ep.19.8 <br> O que será se ainda agora tu lhe permitires crescer? <small> [JDD] </small> </small> </p>
+; <p> <b>nunc</b> uero quae tua est ista uita <br> <small> Cic.Catil.1.16.4 <br> Mas agora, que vida é essa tua? <small> [JDD] </small> </small> </p>
+; <p> sed de hoc alias <b>nunc</b> redeo ad augurem <br> <small> Cic.Amici.1 <br> Mas sobre ele, em outra ocasião; agora volto ao áugure. <small> [JDD] </small> </small> </p>
+; <p> de iis qui <b>nunc</b> petunt Caesar certus putatur <br> <small> Cic.Att.1.1.2 <br> Dos que se candidatam agora (para este ano), César (Lúcio Júlio César) é considerado como certo. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> si quis <b>nunc</b> quaerat quo res haec pertinet <br> <small> Hor.S.1.2.23 <br> Se alguém agora pergunta: “A que propósito vem esta coisa?” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> age <b>nunc</b> iter expediti latronis cum Milonis impedimentis comparate <br> <small> Cic.Mil.55 <br> Vejamos agora, comparai a viagem daquele bandido livre de embaraços com os estorvos de Milão. <small> [JDD] </small> </small> </p>
+; <p> <b>nunc</b> venio ad eam epistulam quam accepi a Tullio <br> <small> Cic.Att.5.4.2 <br> Agora venho a essa carta que recebi de Túlio. <small> [JDD] </small> </small> </p>
+; <p> <b>nunc</b> fac ut sciam quo die te visuri simus <br> <small> Cic.Att.2.10.1 <br> Agora faz que eu saiba que dia te veremos. <small> [JDD] </small> </small> </p>
+; <p> <b>nunc</b> tu propera ut nos consequare si modo recipiemur <br> <small> Cic.Att.3.4 <br> Agora apressa-te em alcançar-me, se é que tenho alguma acolhida. <small> [JDD] </small> </small> </p>
+; <p> quid <b>nunc</b> primum dolor infelix quidue extremum deflere paras <br> <small> Sen.Ag.649 <br> E agora, ó dor infeliz, o que determinas chorar primeiro ou o que chorar por último? <small> [JDD] </small> </small> </p>
+; <p> quoniam de genere belli dixi <b>nunc</b> de magnitudine pauca dicam <br> <small> Cic.Man.20 <br> Visto que disse sobre o gênero dessa guerra, agora vou dizer umas poucas palavras sobre sua magnitude. <small> [JDD] </small> </small> </p>
+; <p> Bibulus ne cogitabat quidem etiam <b>nunc</b> in provinciam suam accedere <br> <small> Cic.Att.5.16.4 <br> Bíbulo nem sequer cogita ainda agora em aproximar-se de sua província. <small> [JDD] </small> </small> </p>
+; <p> redde <b>nunc</b> animos acres <b>nunc</b> aliquid aude sceleribus dignum tuis <br> <small> Sen.Oed.878 <br> Mostra agora os teus ânimos vigorosos; ousa agora algo digno de teus crimes. <small> [JDD] </small> </small> </p>
+; <p> i <b>nunc</b> et puta pecuniae modum ad rem pertinere non animi <br> <small> Sen.Helv.10.10 <br> Vai agora e considera que é a moderação do dinheiro que importa para o caso, não a do espírito. <small> [JDD] </small> </small> </p>
+; <p> <b>nunc</b> eadem illa quaeso audite et diligenter sicut adhuc fecistis attendite <br> <small> Cic.Ver.2.4.102.13 <br> Agora, ouvi, eu vos peço, esses mesmos fatos e prestai bastante atenção, como fizestes até agora. <small> [JDD] </small> </small> </p>
+; <p> atque in re publica <b>nunc</b> quidem maxime Gallici belli versatur metus <br> <small> Cic.Att.1.19.2 <br> E, na república, o que agora realmente mais preocupa é o medo de uma guerra com os gauleses. <small> [JDD] </small> </small> </p>
+; <p> quid tibi Quinte frater qui <b>nunc</b> abes consorti me cum temporum illorum <br> <small> Cic.Mil.102 <br> O que responderei a ti, Quinto, meu irmão, que agora estás ausente, participante comigo daqueles tempos? <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-117-110-99xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 30.89 and an absolute frequency of 16. The Horatius subcorpus follows, with a normalized frequency of 27.53 and an absolute frequency of 31. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 5 ; absolute frequency: 1.88836014804744. subcorpus: Cicero ; normalized frequency: 298 ; absolute frequency: 18.5642022376716. subcorpus: Horatius ; normalized frequency: 31 ; absolute frequency: 27.528638664417. subcorpus: Ovidius ; normalized frequency: 12 ; absolute frequency: 20.5902539464653. subcorpus: Phaedrus ; normalized frequency: 7 ; absolute frequency: 10.6269925611052. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 101 ; absolute frequency: 18.8499654728355. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 16 ; absolute frequency: 30.8880308880309. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-117-110-99xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 30.89 and an absolute frequency of 16. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 29.15 and an absolute frequency of 110. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 13 ; absolute frequency: 3.16463399790647. subcorpus: Prosa.filosófica ; normalized frequency: 87 ; absolute frequency: 14.3325480634586. subcorpus: Prosa.oratória ; normalized frequency: 171 ; absolute frequency: 16.4181540618129. subcorpus: Prosa.epistolográfica ; normalized frequency: 110 ; absolute frequency: 29.1475661782241. subcorpus: Poesia.lírica ; normalized frequency: 31 ; absolute frequency: 26.0789097333221. subcorpus: Poesia.didática ; normalized frequency: 19 ; absolute frequency: 16.116718975316. subcorpus: Poesia.trágica ; normalized frequency: 31 ; absolute frequency: 26.9284225156359. subcorpus: Poesia.épica ; normalized frequency: 16 ; absolute frequency: 30.8880308880309. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-117-110-99xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 18.36 and an absolute frequency of 120. The I.a.C. subcorpus follows, with a normalized frequency of 16.48 and an absolute frequency of 354. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 354 ; absolute frequency: 16.476611589481. subcorpus: I.d.C. ; normalized frequency: 120 ; absolute frequency: 18.3570445158329. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

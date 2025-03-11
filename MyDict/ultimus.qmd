@@ -1,0 +1,197 @@
+---
+title: "ultimus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-108-116-105-109-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>ultĭmus</b> <b>-a</b> <b>-um</b> <br> <small>superl. do desuso ulter</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Que está inteiramente do lado de lá, o mais afastado, o mais remoto, extremo, último, que fica no fim, na extremidade &ensp; <small>Cíc. Rep. 6, 16.</small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; O mais antigo no tempo, o mais afastado, o último da vida, fúnebre, de morte, que está no fim &ensp; <small>Cíc: c. M. 38.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado</small> &ensp; O maior, o mais elevado, o supremo &ensp; <small>Cíc. Fin. 3, 30.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado</small> &ensp; O menor, o último, o mais ínfimo &ensp; <small>T. Lív. 34, 18, 5.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Ultimus</b> -<b>a</b> -<b>um</b> <br> <small>superl.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; ultimo, derradeiro. </p>
+
+
+
+
+#### Velez
+
+<b>Ultimus</b> -<b>a</b> -<b>um</b>   <p> <b>1</b> &ensp; cousa ultima </p>
+
+
+
+
+#### Cardoso
+
+<b>Vltimus</b> -<b>a</b> <b>um</b>   <p> <b>1</b> &ensp; cousa derradeyra </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/130507 ' target="_blank"> http://lila-erc.eu/data/id/lemma/130507 </a> <br>
+<small> classe: </small> adjetivo   superlativo <br>
+<small> paradigma: </small> 1ª classe (tema em -a/o-) <br>
+<small> outras grafias: </small> ultumus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ultĭmus
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-108-116-105-109-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ultimus here are all the values plotted: collocate: terra; scoreSUBST: 2. collocate: ad; scoreSUBST: 0. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-108-116-105-109-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ultimus here are all the values plotted: collocate: terra; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-108-116-105-109-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ultimus here are all the values plotted: collocate: terra; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-108-116-105-109-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ultimus here are all the values plotted: collocate: terra; scoreADV: 0. collocate: ad; scoreADV: 0. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-108-116-105-109-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ultimus here are all the values plotted: collocate: terra; scoreFUNC: 0. collocate: ad; scoreFUNC: 20. collocate: in; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> erramus autem qui <b>ultimum</b> timemus diem cum tantumdem in mortem singuli conferant <br> <small> Sen.Ep.120.18 <br> Mas erramos nós que tememos o último dia, uma vez que cada um deles contribui igualmente para a morte. <small> [JDD] </small> </small> </p>
+; <p> ni ni ego narrem <b>ultima</b> illa nocte Platonis librum legentem posito ad caput gladio <br> <small> Sen.Ep.24.6 <br> Por que eu não contaria sobre ele, lendo naquela última noite o livro de Platão, com a espada posta junto à cabeça? <small> [JDD] </small> </small> </p>
+; <p> at cum istud exemeris malum omnis mutatio loci iucunda fiet in <b>ultimas</b> expellaris terras licebit in quolibet barbariae angulo conloceris hospitalis tibi illa qualiscumque sedes erit <br> <small> Sen.Ep.28.4 <br> Mas quando tiveres expulsado esse mal, toda mudança de lugar se tornará prazerosa; tu poderás ser desterrado para as terras mais remotas, em qualquer canto de um país bárbaro que fores colocado, aquela sede, qualquer que seja ela, te será hospitaleira.[*] <small>  </small> </small> </p>
+; <p> nunc reliquum iudices attendite de quo et uos audistis et populus Romanus non nunc primum audiet et in exteris nationibus usque ad <b>ultimas</b> terras peruagatum est <br> <small> Cic.Ver.2.4.64.1 <br> 64 Agora, juízes, prestai atenção no resto, sobre o qual vós ouvistes e não pela primeira vez o povo romano ouvirá agora e foi divulgado em todas as nações estrangeiras até as mais longínquas terras. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-108-116-105-109-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Horatius subcorpus registers the highest normalized frequency, with the value of 6.22 and an absolute frequency of 7. The Sallustius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 3 ; absolute frequency: 1.13301608882846. subcorpus: Cicero ; normalized frequency: 14 ; absolute frequency: 0.872143729286586. subcorpus: Horatius ; normalized frequency: 7 ; absolute frequency: 6.21614421454578. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 33 ; absolute frequency: 6.15889960993636. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-108-116-105-109-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 6.95 and an absolute frequency of 8. The Poesia.lírica subcorpus follows, with a normalized frequency of 5.89 and an absolute frequency of 7. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 4 ; absolute frequency: 0.973733537817376. subcorpus: Prosa.filosófica ; normalized frequency: 28 ; absolute frequency: 4.61277408938897. subcorpus: Prosa.oratória ; normalized frequency: 10 ; absolute frequency: 0.960125968527071. subcorpus: Prosa.epistolográfica ; normalized frequency: 1 ; absolute frequency: 0.264977874347492. subcorpus: Poesia.lírica ; normalized frequency: 7 ; absolute frequency: 5.88878606881467. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 8 ; absolute frequency: 6.94927032661571. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-108-116-105-109-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 5.2 and an absolute frequency of 34. The I.d.C. subcorpus follows, with a normalized frequency of 5.2 and an absolute frequency of 34. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 24 ; absolute frequency: 1.11705841284617. subcorpus: I.d.C. ; normalized frequency: 34 ; absolute frequency: 5.20116261281934. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

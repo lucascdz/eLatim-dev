@@ -1,0 +1,224 @@
+---
+title: "fors"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx102-111-114-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>forsan</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Talvez, por acaso, porventura &ensp; <small>Verg. En. 1, 203.</small> </p> 
+ <b>forsit</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Talvez &ensp; <small>Hor. Sát. I. 6, 49.</small> </p> 
+ <b>forsĭtan</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Talvez &ensp; <small>usado com subj. ou com ind. o primeiro uso é comum em Cícero Cíc. Br. 52.</small> </p> 
+ <b>fortāssĕ</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Possivelmente, provavelmente, certamente &ensp; <small>C ic. C. M. 8.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Pouco mais ou menos, aproximadamente &ensp; <small>Cíc. Or. 130.</small> </p> 
+ <b>fortāssis</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Talvez, possivelmente &ensp; <small>C ic. Clu. 144.</small> </p> 
+ <b>fortĕ</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Casualmente, por acaso, porventura &ensp; <small>Cíc. De Or. 3, 47.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Forsan</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Ter.</small> &ensp; por ventura, talvez, acaso. </p> 
+ <b>Forsit</b> <br> <small>adv.</small> 
+ <b>Forsitan</b> <br> <small>adv.</small> 
+ <b>Fortasse</b> <br> <small>adv.</small> 
+ <b>Fortassis</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; por ventura, talvez, acaso. </p> 
+ <b>Forte</b> <br> <small>adv. ou ablat de fors.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; por ventura, acaso. </p>
+
+
+
+
+#### Velez
+
+<b>Forsan</b> <br> <small>adverb.</small>   <p> <b>1</b> &ensp; <small>idem significant</small> &ensp; porventura </p> 
+ <b>Forsitan</b>   <p> <b>1</b> &ensp; <small>idem significant</small> &ensp; porventura </p> 
+ <b>Fortassè</b>   <p> <b>1</b> &ensp; <small>idem significant</small> &ensp; porventura </p> 
+ <b>Fortassis</b>   <p> <b>1</b> &ensp; <small>idem significant</small> &ensp; porventura </p> 
+ <b>Fortè</b> <br> <small>Adverb.</small>
+
+
+
+
+#### Cardoso
+
+<b>Fors</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; porventura </p> 
+ <b>forsan</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; porventura </p> 
+ <b>fortasse</b> <br> <small>aduerb.</small> 
+ <b>Forte</b> <br> <small>aduerb.</small>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/103683 ' target="_blank"> http://lila-erc.eu/data/id/lemma/103683 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> forsam, forsan, forset, forsit, forsitam, forsitan, fortasse, fortassis, forte <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+forsăn 
+ forsĭtăn
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx102-111-114-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword fors here are all the values plotted: collocate: nisi; scoreSUBST: 0. collocate: fallo; scoreSUBST: 0. collocate: adolescens; scoreSUBST: 0. collocate: aliquis; scoreSUBST: 0. collocate: pro; scoreSUBST: 0. collocate: uolo; scoreSUBST: 0. collocate: multus; scoreSUBST: 0. collocate: dico; scoreSUBST: 0. collocate: ne; scoreSUBST: 0. collocate: si; scoreSUBST: 0. collocate: uos; scoreSUBST: 0. collocate: quis; scoreSUBST: 0. collocate: ego; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx102-111-114-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword fors here are all the values plotted: collocate: nisi; scoreADJ: 0. collocate: fallo; scoreADJ: 0. collocate: adolescens; scoreADJ: 2. collocate: aliquis; scoreADJ: 0. collocate: pro; scoreADJ: 0. collocate: uolo; scoreADJ: 0. collocate: multus; scoreADJ: 0. collocate: dico; scoreADJ: 0. collocate: ne; scoreADJ: 0. collocate: si; scoreADJ: 0. collocate: uos; scoreADJ: 0. collocate: quis; scoreADJ: 0. collocate: ego; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx102-111-114-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword fors here are all the values plotted: collocate: nisi; scoreVERBO: 0. collocate: fallo; scoreVERBO: 2. collocate: adolescens; scoreVERBO: 0. collocate: aliquis; scoreVERBO: 0. collocate: pro; scoreVERBO: 0. collocate: uolo; scoreVERBO: 2. collocate: multus; scoreVERBO: 0. collocate: dico; scoreVERBO: 2. collocate: ne; scoreVERBO: 0. collocate: si; scoreVERBO: 0. collocate: uos; scoreVERBO: 0. collocate: quis; scoreVERBO: 0. collocate: ego; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx102-111-114-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword fors here are all the values plotted: collocate: nisi; scoreADV: 0. collocate: fallo; scoreADV: 0. collocate: adolescens; scoreADV: 0. collocate: aliquis; scoreADV: 0. collocate: pro; scoreADV: 0. collocate: uolo; scoreADV: 0. collocate: multus; scoreADV: 0. collocate: dico; scoreADV: 0. collocate: ne; scoreADV: 0. collocate: si; scoreADV: 0. collocate: uos; scoreADV: 0. collocate: quis; scoreADV: 0. collocate: ego; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx102-111-114-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword fors here are all the values plotted: collocate: nisi; scoreFUNC: 40. collocate: fallo; scoreFUNC: 0. collocate: adolescens; scoreFUNC: 0. collocate: aliquis; scoreFUNC: 0. collocate: pro; scoreFUNC: 20. collocate: uolo; scoreFUNC: 0. collocate: multus; scoreFUNC: 0. collocate: dico; scoreFUNC: 0. collocate: ne; scoreFUNC: 20. collocate: si; scoreFUNC: 20. collocate: uos; scoreFUNC: 0. collocate: quis; scoreFUNC: 0. collocate: ego; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> dices <b>fortasse</b> <br> <small> Cic.Att.2.19.1 <br> Dirás talvez. <small> [JDD] </small> </small> </p>
+; <p> et multa <b>fortasse</b> quae uolt <br> <small> Cic.Sen.25 <br> E talvez muitas coisas que quer! <small> [JDD] </small> </small> </p>
+; <p> nisi <b>forte</b> fallor feminas ferrum decet <br> <small> Sen.Ag.960 <br> Se acaso não estou enganada, a espada convém às mulheres. <small> [JDD] </small> </small> </p>
+; <p> <b>fortasse</b> autem et desinent si intermittendi consuetudinem fecerint <br> <small> Sen.Ep.29.8 <br> por outro lado, talvez até cessem, se criarem o hábito de interromper-se. <small> [JDD] </small> </small> </p>
+; <p> quam vellem Romae esses si <b>forte</b> non es <br> <small> Cic.Att.5.18.1 <br> Como eu queria que estivesses em Roma, se acaso não estás! <small> [JDD] </small> </small> </p>
+; <p> sunt alii plures <b>fortasse</b> sed mea memoria dilabuntur <br> <small> Cic.Phil.13.11.9 <br> Há outros muitos talvez, mas escapam de minha memória. <small> [JDD] </small> </small> </p>
+; <p> ego <b>fortasse</b> τυφλώττω et nimium τῷ καλῷ προσπέπονθα <br> <small> Cic.Att.2.19.1 <br> Eu talvez estou cego e me inclino demais para o honesto. <small> [JDD] </small> </small> </p>
+; <p> nisi <b>forte</b> contemnitis Lucium ego ne Gaium quidem <br> <small> Cic.Phil.7.16.5 <br> A menos que, por acaso, menosprezais Lúcio; eu, nem mesmo Caio. <small> [JDD] </small> </small> </p>
+; <p> is fuit princeps ne tu <b>forte</b> aliquem nostrum putes <br> <small> Cic.Att.1.13.3 <br> (ele foi o primeiro, não vás tu pensar por acaso que foi alguém dos nossos). <small> [JDD] </small> </small> </p>
+; <p> <b>fortasse</b> pro me uenit et mors ista uitam honestabit <br> <small> Sen.Ep.13.14 <br> talvez venha para o meu bem, e essa morte honrará a minha vida”. <small> [JDD] </small> </small> </p>
+; <p> ortum quidem amicitiae uidetis nisi quid ad haec <b>forte</b> uultis <br> <small> Cic.Amici.32 <br> Vedes, na verdade, o nascimento da amizade, a não ser que por acaso queirais acrescentar algo a essas coisas. <small> [JDD] </small> </small> </p>
+; <p> est enim ab aliquo adulescente <b>fortasse</b> non tam insulso quam inuerecundo <br> <small> Cic.Cael.69 <br> pois o foi por algum jovem talvez não tão sem graça quanto sem-vergonha. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> in quo maxime laborandum est ne <b>forte</b> ea uobis quae diligentissime prouidenda sunt contemnenda esse uideantur <br> <small> Cic.Man.20 <br> Nisso é preciso tomar cuidado sobretudo para que não pareça que devam ser desprezadas por vós essas medidas que devem ser providenciadas com a maior diligência. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx102-111-114-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 9.65 and an absolute frequency of 5. The Phaedrus subcorpus follows, with a normalized frequency of 9.11 and an absolute frequency of 6. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 2 ; absolute frequency: 0.755344059218974. subcorpus: Cicero ; normalized frequency: 111 ; absolute frequency: 6.91485385362936. subcorpus: Horatius ; normalized frequency: 9 ; absolute frequency: 7.99218541870171. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 6 ; absolute frequency: 9.10885076666161. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 19 ; absolute frequency: 3.54603310875124. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx102-111-114-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 9.65 and an absolute frequency of 5. The Poesia.lírica subcorpus follows, with a normalized frequency of 8.41 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 5 ; absolute frequency: 1.21716692227172. subcorpus: Prosa.filosófica ; normalized frequency: 28 ; absolute frequency: 4.61277408938897. subcorpus: Prosa.oratória ; normalized frequency: 74 ; absolute frequency: 7.10493216710032. subcorpus: Prosa.epistolográfica ; normalized frequency: 25 ; absolute frequency: 6.6244468586873. subcorpus: Poesia.lírica ; normalized frequency: 10 ; absolute frequency: 8.4125515268781. subcorpus: Poesia.didática ; normalized frequency: 6 ; absolute frequency: 5.08949020273136. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx102-111-114-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 6.05 and an absolute frequency of 130. The I.a.C. subcorpus follows, with a normalized frequency of 6.05 and an absolute frequency of 130. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 130 ; absolute frequency: 6.05073306958343. subcorpus: I.d.C. ; normalized frequency: 25 ; absolute frequency: 3.82438427413186. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

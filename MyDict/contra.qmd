@@ -1,0 +1,207 @@
+---
+title: "contra"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx99-111-110-116-114-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>contrā</b> <br> <small>prep. com acus.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Defronte de, frente para, em frente a &ensp; <small>Cés. B. Gal. 5, 13, 1.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Em sentido contrário, em oposição a, contrariamente, contra &ensp; <small>Cés.B. Gal. 4, 17, 5.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Contra</b> <br> <small>prep. de accus.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; contra, defronte. </p>
+
+
+
+
+#### Velez
+
+<b>Contra</b> <br> <small>Praepos.</small>   <p> <b>1</b> &ensp; contra, ou defronte </p>
+
+
+
+
+#### Cardoso
+
+<b>Contra</b> <br> <small>praepositio.</small>   <p> <b>1</b> &ensp; defrõte. ou contra </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/96322 ' target="_blank"> http://lila-erc.eu/data/id/lemma/96322 </a> <br>
+<small> classe: </small> preposição    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+contrā
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx99-111-110-116-114-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword contra here are all the values plotted: collocate: natura; scoreSUBST: 3. collocate: auspicium; scoreSUBST: 3. collocate: uis; scoreSUBST: 2. collocate: patria; scoreSUBST: 2. collocate: boni; scoreSUBST: 2. collocate: arma; scoreSUBST: 2. collocate: Milo; scoreSUBST: 0. collocate: uiuo; scoreSUBST: 0. collocate: lex; scoreSUBST: 2. collocate: res; scoreSUBST: 2. collocate: fortuna; scoreSUBST: 2. collocate: populus; scoreSUBST: 2. collocate: senatus; scoreSUBST: 2. collocate: tu; scoreSUBST: 0. collocate: sui; scoreSUBST: 0. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx99-111-110-116-114-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword contra here are all the values plotted: collocate: natura; scoreADJ: 0. collocate: auspicium; scoreADJ: 0. collocate: uis; scoreADJ: 0. collocate: patria; scoreADJ: 0. collocate: boni; scoreADJ: 0. collocate: arma; scoreADJ: 0. collocate: Milo; scoreADJ: 0. collocate: uiuo; scoreADJ: 0. collocate: lex; scoreADJ: 0. collocate: res; scoreADJ: 0. collocate: fortuna; scoreADJ: 0. collocate: populus; scoreADJ: 0. collocate: senatus; scoreADJ: 0. collocate: tu; scoreADJ: 0. collocate: sui; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx99-111-110-116-114-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword contra here are all the values plotted: collocate: natura; scoreVERBO: 0. collocate: auspicium; scoreVERBO: 0. collocate: uis; scoreVERBO: 0. collocate: patria; scoreVERBO: 0. collocate: boni; scoreVERBO: 0. collocate: arma; scoreVERBO: 0. collocate: Milo; scoreVERBO: 0. collocate: uiuo; scoreVERBO: 2. collocate: lex; scoreVERBO: 0. collocate: res; scoreVERBO: 0. collocate: fortuna; scoreVERBO: 0. collocate: populus; scoreVERBO: 0. collocate: senatus; scoreVERBO: 0. collocate: tu; scoreVERBO: 0. collocate: sui; scoreVERBO: 0. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx99-111-110-116-114-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword contra here are all the values plotted: collocate: natura; scoreADV: 0. collocate: auspicium; scoreADV: 0. collocate: uis; scoreADV: 0. collocate: patria; scoreADV: 0. collocate: boni; scoreADV: 0. collocate: arma; scoreADV: 0. collocate: Milo; scoreADV: 0. collocate: uiuo; scoreADV: 0. collocate: lex; scoreADV: 0. collocate: res; scoreADV: 0. collocate: fortuna; scoreADV: 0. collocate: populus; scoreADV: 0. collocate: senatus; scoreADV: 0. collocate: tu; scoreADV: 0. collocate: sui; scoreADV: 0. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx99-111-110-116-114-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword contra here are all the values plotted: collocate: natura; scoreFUNC: 0. collocate: auspicium; scoreFUNC: 0. collocate: uis; scoreFUNC: 0. collocate: patria; scoreFUNC: 0. collocate: boni; scoreFUNC: 0. collocate: arma; scoreFUNC: 0. collocate: Milo; scoreFUNC: 0. collocate: uiuo; scoreFUNC: 0. collocate: lex; scoreFUNC: 0. collocate: res; scoreFUNC: 0. collocate: fortuna; scoreFUNC: 0. collocate: populus; scoreFUNC: 0. collocate: senatus; scoreFUNC: 0. collocate: tu; scoreFUNC: 0. collocate: sui; scoreFUNC: 0. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> qui emisisset eum <b>contra</b> rem publicam esse facturum <br> <small> Cic.Att.2.24.3 <br> e que quem o soltasse agiria contra a república. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> omnia uitia <b>contra</b> naturam pugnant omnia debitum ordinem deserunt <br> <small> Sen.Ep.122.5 <br> Todos os vícios lutam contra a natureza, todos abandonam a ordem devida. <small> [JDD] </small> </small> </p>
+; <p> quibus profecto <b>contra</b> naturam corpus uoluptati anima oneri fuit <br> <small> Sal.Cat.2.8 <br> e esses, indubitavelmente contra a natureza, têm o corpo para o prazer, a alma para a carga. <small> [JDD] </small> </small> </p>
+; <p> non uiuunt <b>contra</b> naturam qui pomaria in summis turribus serunt <br> <small> Sen.Ep.122.8 <br> Não vivem contra a natureza esses que plantam pomares no alto das torres? <small> [JDD] </small> </small> </p>
+; <p> sed eos paulo ante frequens senatus iudicauerat <b>contra</b> rem publicam fecisse <br> <small> Sal.Cat.50.3 <br> Mas um pouco antes o senado lotado tinha julgado que eles tinham agido contra a república. <small> [JDD] </small> </small> </p>
+; <p> non uidentur tibi <b>contra</b> naturam uiuere qui commutant cum feminis uestem <br> <small> Sen.Ep.122.7 <br> Não te parecem viver contra a natureza esses que trocam sua veste com a das mulheres? <small> [JDD] </small> </small> </p>
+; <p> an ut hoc ostenderes <b>contra</b> uim tuam in patronis praesidi nihil esse <br> <small> Cic.Ver.2.4.89.5 <br> Acaso para mostrares que contra tua força não havia nenhuma proteção dos patronos? <small> [JDD] </small> </small> </p>
+; <p> tum diceres Caesar caue credas fuit in Africa tulit arma <b>contra</b> te <br> <small> Cic.Lig.16 <br> Então dirias: “César, não creias; ele esteve na África, tomou armas contra ti!” <small> [JDD] </small> </small> </p>
+; <p> his adiutor <b>contra</b> patriam inuentus est nemo itaque mortem sibi uterque consciuit <br> <small> Cic.Amici.42 <br> Não foi encontrado ninguém como ajudante deles contra a pátria; e assim ambos deram a si mesmos a morte. <small> [JDD] </small> </small> </p>
+; <p> in ipsa securitate animus ad difficilia se praeparet et <b>contra</b> iniurias fortunae inter beneficia firmetur <br> <small> Sen.Ep.18.6 <br> É na própria segurança que espírito se prepara para as coisas difíceis e se fortalece contra as injúrias da fortuna em meio a seus benefícios. <small> [JDD] </small> </small> </p>
+; <p> nec uero sic erat umquam non paratus Milo <b>contra</b> illum ut non satis fere esset paratus <br> <small> Cic.Mil.56 <br> E, na verdade, Milão nunca estava despreparado contra aquele a tal ponto que não estivesse quase que suficientemente preparado.  <small> [JDD] </small> </small> </p>
+; <p> alterum caput est tralaticium de impunitate si quid <b>contra</b> alias leges eius legis ergo factum sit <br> <small> Cic.Att.3.23.2 <br> A outra cláusula é a tradicional sobre a impunidade: “Se por causa dessa lei foi feito algo contra outras leis.” <small> [JDD] </small> </small> </p>
+; <p> leges statuimus per uim et <b>contra</b> auspicia latas eisque nec populum nec plebem teneri num eas restitui posse censetis <br> <small> Cic.Phil.12.12.2 <br> Estabelecemos que suas leis tinham sido apresentadas através da violência e contra os auspícios e que nem o povo nem a plebe são obrigados a elas; acaso pensais que elas podem ser restituídas? <small> [JDD] </small> </small> </p>
+; <p> agitur enim nihil aliud in hac causa Quirites nisi ut nullum sit posthac in re publica publicum consilium nulla bonorum consensio <b>contra</b> improborum furorem et audaciam nullum extremis rei publicae temporibus perfugium et praesidium salutis <br> <small> Cic.Rab.Perd.4 <br> Pois não se trata de nenhuma outra coisa nesta causa, Quirites, a não ser que não haja a partir de agora nenhum conselho público na república, nenhum acordo entre os homens de bem contra a loucura e ousadia dos ímprobos, nenhum refúgio e garantia de bem-estar em momentos mais críticos da república. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx99-111-110-116-114-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 13.91 and an absolute frequency of 15. The Cicero subcorpus follows, with a normalized frequency of 7.41 and an absolute frequency of 119. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 17 ; absolute frequency: 6.42042450336128. subcorpus: Cicero ; normalized frequency: 119 ; absolute frequency: 7.41322169893598. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 15 ; absolute frequency: 13.9133661070402. subcorpus: Seneca ; normalized frequency: 31 ; absolute frequency: 5.78563296690991. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx99-111-110-116-114-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 9.12 and an absolute frequency of 95. The Prosa.histórica subcorpus follows, with a normalized frequency of 7.79 and an absolute frequency of 32. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 32 ; absolute frequency: 7.78986830253901. subcorpus: Prosa.filosófica ; normalized frequency: 45 ; absolute frequency: 7.41338692937513. subcorpus: Prosa.oratória ; normalized frequency: 95 ; absolute frequency: 9.12119670100717. subcorpus: Prosa.epistolográfica ; normalized frequency: 10 ; absolute frequency: 2.64977874347492. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx99-111-110-116-114-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 7.07 and an absolute frequency of 152. The I.a.C. subcorpus follows, with a normalized frequency of 7.07 and an absolute frequency of 152. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 152 ; absolute frequency: 7.07470328135909. subcorpus: I.d.C. ; normalized frequency: 32 ; absolute frequency: 4.89521187088879. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

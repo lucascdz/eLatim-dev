@@ -1,0 +1,203 @@
+---
+title: "uia"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-105-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>via</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small>Obs.: Em Lucrécio I, 406, aparece o gen. sing. viai.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Via, estrada, caminho, rua &ensp; <small>Cíc. At. 5, 14, 1.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Caminho percorrido, marcha, viagem, trajeto &ensp; <small>Cés. B. Gal. 6, 7, 2.</small> <br> <b>3</b> &ensp; <small>I-Donde:</small> &ensp; Caminho andado, travessia, trajeto por mar, curso de um rio &ensp; <small>Ov. Met. 11, 747.</small> <br> <b>4</b> &ensp; <small>I-Donde:</small> &ensp; Canal, passagem &ensp; <small>Ov. Met. 15, 344.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Via, gênero, método &ensp; <small>Cíc. Of. 1, 118.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Meio, processo, método &ensp; <small>Cíc. Br. 181.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Veha</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Varr.</small> &ensp; caminho, estrada. </p> 
+ <b>Via</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; caminho, rua, estrada. <br> <b>2</b> &ensp; viagem. <br> <b>3</b> &ensp; modo, meio de fazer alguma cousa. <br> <b>4</b> &ensp; methodo, orde de escrever, ou de fallar. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>committere se uiae &ensp; <small><small>Cic</small></small> &ensp; <small>Pôr-se a caminho, fazer jornada</small> <br> dare se in uiam &ensp; <small>Pôr-se a caminho, fazer jornada</small> <br> inter uias &ensp; <small><small>Ter</small></small> &ensp; <small>Na estrada, na jornada</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Veha</b> -<b>ae</b>   <p> <b>1</b> &ensp; ho caminho dos carros </p> 
+ <b>Via</b> -<b>ae</b>   <p> <b>1</b> &ensp; ho caminho. ou rua </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/130088 ' target="_blank"> http://lila-erc.eu/data/id/lemma/130088 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a-) <br>
+<small> outras grafias: </small> uea, ueha, uiea <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+vĭa
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-105-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword uia here are all the values plotted: collocate: obsideo; scoreSUBST: 0. collocate: munio; scoreSUBST: 0. collocate: duco; scoreSUBST: 0. collocate: eo; scoreSUBST: 0. collocate: quaero; scoreSUBST: 0. collocate: bonus; scoreSUBST: 0. collocate: unus; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-105-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword uia here are all the values plotted: collocate: obsideo; scoreADJ: 0. collocate: munio; scoreADJ: 0. collocate: duco; scoreADJ: 0. collocate: eo; scoreADJ: 0. collocate: quaero; scoreADJ: 0. collocate: bonus; scoreADJ: 2. collocate: unus; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-105-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword uia here are all the values plotted: collocate: obsideo; scoreVERBO: 2. collocate: munio; scoreVERBO: 2. collocate: duco; scoreVERBO: 2. collocate: eo; scoreVERBO: 2. collocate: quaero; scoreVERBO: 2. collocate: bonus; scoreVERBO: 0. collocate: unus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-105-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword uia here are all the values plotted: collocate: obsideo; scoreADV: 0. collocate: munio; scoreADV: 0. collocate: duco; scoreADV: 0. collocate: eo; scoreADV: 0. collocate: quaero; scoreADV: 0. collocate: bonus; scoreADV: 0. collocate: unus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-105-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword uia here are all the values plotted: collocate: obsideo; scoreFUNC: 0. collocate: munio; scoreFUNC: 0. collocate: duco; scoreFUNC: 0. collocate: eo; scoreFUNC: 0. collocate: quaero; scoreFUNC: 0. collocate: bonus; scoreFUNC: 0. collocate: unus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> mors placet mortis <b>uia</b> quaeratur <br> <small> Sen.Oed.1031 <br> A morte me agrada, que se busque o caminho da morte. <small> [JDD] </small> </small> </p>
+; <p> per tam cruentas uera quaerentur <b>uias</b> <br> <small> Sen.Oed.863 <br> É por caminhos tão sangrentos que se busca a verdade? <small> [JDD] </small> </small> </p>
+; <p> <b>uiam</b> eunti aliquid extremum est error inmensus est <br> <small> Sen.Ep.16.9 <br> Para quem vai pelo caminho há um fim: o extravio é sem medida.[*] <small>  </small> </small> </p>
+; <p> perge modo et qua te ducit <b>uia</b> derige gressum <br> <small> Verg.A.1.401 <br> Continua apenas e, por onde te conduz o caminho, dirige teu passo.” <small> [JDD] </small> </small> </p>
+; <p> sed omnis una manet nox et calcanda semel <b>uia</b> leti <br> <small> Hor.Carm.1.28.15 <br> Mas uma só noite aguarda a todos e a estrada da morte deve ser pisada uma única vez. <small> [JDD] </small> </small> </p>
+; <p> nudum latro transmittit etiam in obsessa <b>uia</b> pauperi pax est <br> <small> Sen.Ep.14.9 <br> Alguém sem nada, o ladrão deixa passar; mesmo num caminho sitiado, há paz para o pobre. <small> [JDD] </small> </small> </p>
+; <p> ego uero utar <b>uia</b> uetere sed si propiorem planioremque inuenero hanc muniam <br> <small> Sen.Ep.33.11 <br> Na verdade, eu usarei o caminho antigo, mas se encontrar um mais próximo e mais plano, farei esse. <small> [JDD] </small> </small> </p>
+; <p> dicam ex bona conscientia ex honestis consiliis ex rectis actionibus ex contemptu fortuitorum ex placido uitae et continuo tenore unam prementis <b>uiam</b> <br> <small> Sen.Ep.23.7 <br> Vou dizer: da boa consciência, das decisões honradas, das ações corretas, do desprezo do fortuito, do sereno e contínuo percurso da vida, seguindo um único caminho. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-105-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 13.48 and an absolute frequency of 6. The Vergilius subcorpus follows, with a normalized frequency of 9.65 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 9 ; absolute frequency: 3.39904826648538. subcorpus: Cicero ; normalized frequency: 61 ; absolute frequency: 3.80005482046298. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 50 ; absolute frequency: 9.33166607566115. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Hieronymus ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-105-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 18.24 and an absolute frequency of 21. The Poesia.épica subcorpus follows, with a normalized frequency of 9.65 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 2.43 and an absolute freqeuncy of 10. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 10 ; absolute frequency: 2.43433384454344. subcorpus: Prosa.filosófica ; normalized frequency: 34 ; absolute frequency: 5.60122567997232. subcorpus: Prosa.oratória ; normalized frequency: 40 ; absolute frequency: 3.84050387410828. subcorpus: Prosa.epistolográfica ; normalized frequency: 16 ; absolute frequency: 4.23964598955987. subcorpus: Poesia.lírica ; normalized frequency: 5 ; absolute frequency: 4.20627576343905. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 21 ; absolute frequency: 18.2418346073662. subcorpus: Poesia.épica ; normalized frequency: 5 ; absolute frequency: 9.65250965250965. subcorpus: Prosa.ficcional ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-105-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 13.48 and an absolute frequency of 6. The I.d.C. subcorpus follows, with a normalized frequency of 8.41 and an absolute frequency of 55. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 81 ; absolute frequency: 3.77007214335583. subcorpus: I.d.C. ; normalized frequency: 55 ; absolute frequency: 8.4136454030901. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 6 ; absolute frequency: 13.4801168276792'}
+
+
+:::
+

@@ -1,0 +1,200 @@
+---
+title: "rursus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx114-117-114-115-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>rūrsus</b> <br> <small>e</small> <b>rūrsum</b> <br> <small>arc.</small> <b>rūsum</b> <br> <small>e arc.</small> <b>rūssum</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Para trás: &ensp; <small></small> <br> <b>2</b> &ensp; <small>II-Sent. figurado</small> &ensp; Pelo contrário, inversamente, em revide &ensp; <small>Cíc. Tusc. 1, 40.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado</small> &ensp; De novo, pela segunda vez, ainda uma vez &ensp; <small>Cíc. Br. 291.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>rursus ac prorsus Varr. apud Non. 384, 32 “para trás e para frente”. </p> 
+ <b>rūsum</b> <br> <small>e</small> <b>rūssum</b> <br> <small></small> <br> <small>v. rursus e rursum.</small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Rursum</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Ter.</small> &ensp; de novo, segunda vez, outra vez. </p> 
+ <b>Rursus</b> <br> <small>adv.</small> 
+ <b>Rusus</b> <br> <small>adv. Enn. apud Non. por Rursus.</small>
+
+
+
+
+#### Velez
+
+<b>Rursum</b>   <p> <b>1</b> &ensp; outra vez <br> <b>2</b> &ensp; pelo contrario <br> <b>3</b> &ensp; <small>rursum item significat</small> &ensp; para traz </p>   <p><small>[EXEMPLOS]</small><br> <br><b>3</b><br>cursare rursum, prorsum &ensp; <small>andar para traz ou para diante</small> </p> 
+ <b>Rursus</b>   <p> <b>1</b> &ensp; outra vez <br> <b>2</b> &ensp; pelo contrario <br> <b>3</b> &ensp; <small>rursum item significat</small> &ensp; para traz </p>   <p><small>[EXEMPLOS]</small><br> <br><b>3</b><br>cursare rursum, prorsum &ensp; <small>andar para traz ou para diante</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Rursus</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; outra vez </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/122295 ' target="_blank"> http://lila-erc.eu/data/id/lemma/122295 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> rosus, rursum, russum, russus, rusum, rusus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+rursŭm
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx114-117-114-115-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>rursus</b> igitur uis nudatum illum atque solum a re publica relegatum uideri <br> <small> Cic.Phil.10.6.19 <br> Portanto, de novo queres vê-lo sem nada e como o único relegado da república. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx114-117-114-115-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 11.03 and an absolute frequency of 1. The Suetonius subcorpus follows, with a normalized frequency of 11.03 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 13 ; absolute frequency: 4.90973638492333. subcorpus: Cicero ; normalized frequency: 16 ; absolute frequency: 0.996735690613242. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 13 ; absolute frequency: 2.4262331796719. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx114-117-114-115-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 6.95 and an absolute frequency of 8. The Prosa.histórica subcorpus follows, with a normalized frequency of 4.63 and an absolute frequency of 19. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 19 ; absolute frequency: 4.62523430463254. subcorpus: Prosa.filosófica ; normalized frequency: 6 ; absolute frequency: 0.988451590583351. subcorpus: Prosa.oratória ; normalized frequency: 10 ; absolute frequency: 0.960125968527071. subcorpus: Prosa.epistolográfica ; normalized frequency: 5 ; absolute frequency: 1.32488937173746. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 8 ; absolute frequency: 6.94927032661571. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx114-117-114-115-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 7.85 and an absolute frequency of 3. The II.d.C. subcorpus follows, with a normalized frequency of 7.85 and an absolute frequency of 3. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 1.58 and an absolute freqeuncy of 34. here are all the values: subcorpus: I.a.C. ; normalized frequency: 34 ; absolute frequency: 1.58249941819874. subcorpus: I.d.C. ; normalized frequency: 16 ; absolute frequency: 2.44760593544439. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

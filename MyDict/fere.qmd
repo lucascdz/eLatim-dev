@@ -1,0 +1,203 @@
+---
+title: "fere"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx102-101-114-101xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>ferē</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Quase, mais ou menos, aproximadamente &ensp; <small>Cíc. Br. 150.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Quase sempre, ordinariamente. geralmente &ensp; <small>Cíc. Rep. 6, 10.</small> </p> 
+ <b>fermē</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; De modo aproximado, aproximadamente, quase, mais ou menos &ensp; <small>Cíc. Tim. 42.</small> <br> <b>2</b> &ensp; <small></small> &ensp; De ordinário. comumente, quase sempre &ensp; <small>Cíc. Rep. I, 65.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Fere</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Ter.</small> &ensp; quasi. <br> <b>2</b> &ensp; ordinariamente. <br> <b>3</b> &ensp; pouco mais, ou menos. </p> 
+ <b>Ferme</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; quasi, pela maior parte. <br> <b>2</b> &ensp; <small>Ter.</small> &ensp; facilmente. </p>
+
+
+
+
+#### Velez
+
+<b>Ferè</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; quasi, pella maior parte </p> 
+ <b>Fermè</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; pella maior parte </p>
+
+
+
+
+#### Cardoso
+
+<b>Fere</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; quasi </p> 
+ <b>Ferme</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; quasi </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/103104 ' target="_blank"> http://lila-erc.eu/data/id/lemma/103104 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> ferme <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+fĕrē 
+ fermē
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx102-101-114-101xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx102-101-114-101xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword fere here are all the values plotted: collocate: idem; scoreSUBST: 0. collocate: tempus; scoreSUBST: 2. collocate: omnis; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx102-101-114-101xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword fere here are all the values plotted: collocate: idem; scoreADJ: 0. collocate: tempus; scoreADJ: 0. collocate: omnis; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx102-101-114-101xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword fere here are all the values plotted: collocate: idem; scoreVERBO: 0. collocate: tempus; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx102-101-114-101xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword fere here are all the values plotted: collocate: idem; scoreADV: 0. collocate: tempus; scoreADV: 0. collocate: omnis; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx102-101-114-101xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword fere here are all the values plotted: collocate: idem; scoreFUNC: 0. collocate: tempus; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quae omnia <b>fere</b> Gallis erant incognita <br> <small> Caes.Gal.4.20.3 <br> e quase tudo isso era desconhecido dos gauleses. <small> [JDD] </small> </small> </p>
+; <p> recitatae sunt tabellae in eandem <b>fere</b> sententiam confessus est <br> <small> Cic.Catil.3.10.16 <br> As tabuinhas foram lidas quase no mesmo sentido; confessou. <small> [JDD] </small> </small> </p>
+; <p> quo in genere maxime delectarunt duae <b>fere</b> eodem tempore abs te Buthroto datae <br> <small> Cic.Att.4.16.1 <br> Nesse tipo, me deleitaram principalmente duas entregues por ti quase ao mesmo tempo em Butroto. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx102-101-114-101xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 10.2 and an absolute frequency of 27. The Phaedrus subcorpus follows, with a normalized frequency of 1.52 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 27 ; absolute frequency: 10.1971447994562. subcorpus: Cicero ; normalized frequency: 37 ; absolute frequency: 2.30495128454312. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 2 ; absolute frequency: 0.373266643026446. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx102-101-114-101xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 7.3 and an absolute frequency of 30. The Prosa.oratória subcorpus follows, with a normalized frequency of 1.63 and an absolute frequency of 17. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 30 ; absolute frequency: 7.30300153363032. subcorpus: Prosa.filosófica ; normalized frequency: 12 ; absolute frequency: 1.9769031811667. subcorpus: Prosa.oratória ; normalized frequency: 17 ; absolute frequency: 1.63221414649602. subcorpus: Prosa.epistolográfica ; normalized frequency: 10 ; absolute frequency: 2.64977874347492. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx102-101-114-101xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 3.21 and an absolute frequency of 69. The I.a.C. subcorpus follows, with a normalized frequency of 3.21 and an absolute frequency of 69. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 69 ; absolute frequency: 3.21154293693274. subcorpus: I.d.C. ; normalized frequency: 3 ; absolute frequency: 0.458926112895824. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

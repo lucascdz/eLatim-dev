@@ -1,0 +1,208 @@
+---
+title: "iudex"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-117-100-101-120xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>jūdex</b> <b>-ìcis</b> <br> <b>iūdex</b> <b>-ìcis</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>Sent. próprio:</small> &ensp; O que mostra ou diz o direito, juiz, árbitro &ensp; <small>termo técnico:</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>judicem dicere T. Lív. 3. 56. 4 «escolher um juiz»: judicem ferre alicui Cíc. De Or. 2. 285 “propor a alguém um árbitro” Cíc. Fin. 3. 6; judex Phrygius Catu!. 61. 18 «o juiz frígio. i. e., Páris». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Judex</b> -<b>icis</b> <br> <small>m. f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; juiz, juiza, avaliador. <br> <b>2</b> &ensp; <small>Varr.</small> &ensp; consul. </p>
+
+
+
+
+#### Velez
+
+<b>Judex</b> -<b>icis</b>   <p> <b>1</b> &ensp; juiz, ou juiza </p>
+
+
+
+
+#### Cardoso
+
+<b>Iudex</b> <b>icis</b>   <p> <b>1</b> &ensp; ho juyz </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/109161 ' target="_blank"> http://lila-erc.eu/data/id/lemma/109161 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> ioudex <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+jūdex 
+ jūdĭcis
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx105-117-100-101-120xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-117-100-101-120xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword iudex here are all the values plotted: collocate: uos; scoreSUBST: 0. collocate: reicio; scoreSUBST: 0. collocate: conseruo; scoreSUBST: 0. collocate: primum; scoreSUBST: 0. collocate: causa; scoreSUBST: 2. collocate: uero; scoreSUBST: 0. collocate: scio; scoreSUBST: 0. collocate: ita; scoreSUBST: 0. collocate: non; scoreSUBST: 0. collocate: hic; scoreSUBST: 0. collocate: ut; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-117-100-101-120xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword iudex here are all the values plotted: collocate: uos; scoreADJ: 0. collocate: reicio; scoreADJ: 0. collocate: conseruo; scoreADJ: 0. collocate: primum; scoreADJ: 0. collocate: causa; scoreADJ: 0. collocate: uero; scoreADJ: 0. collocate: scio; scoreADJ: 0. collocate: ita; scoreADJ: 0. collocate: non; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: ut; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-117-100-101-120xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword iudex here are all the values plotted: collocate: uos; scoreVERBO: 0. collocate: reicio; scoreVERBO: 2. collocate: conseruo; scoreVERBO: 2. collocate: primum; scoreVERBO: 0. collocate: causa; scoreVERBO: 0. collocate: uero; scoreVERBO: 0. collocate: scio; scoreVERBO: 2. collocate: ita; scoreVERBO: 0. collocate: non; scoreVERBO: 0. collocate: hic; scoreVERBO: 0. collocate: ut; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-117-100-101-120xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword iudex here are all the values plotted: collocate: uos; scoreADV: 0. collocate: reicio; scoreADV: 0. collocate: conseruo; scoreADV: 0. collocate: primum; scoreADV: 2. collocate: causa; scoreADV: 0. collocate: uero; scoreADV: 2. collocate: scio; scoreADV: 0. collocate: ita; scoreADV: 2. collocate: non; scoreADV: 2. collocate: hic; scoreADV: 0. collocate: ut; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-117-100-101-120xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword iudex here are all the values plotted: collocate: uos; scoreFUNC: 0. collocate: reicio; scoreFUNC: 0. collocate: conseruo; scoreFUNC: 0. collocate: primum; scoreFUNC: 0. collocate: causa; scoreFUNC: 0. collocate: uero; scoreFUNC: 0. collocate: scio; scoreFUNC: 0. collocate: ita; scoreFUNC: 0. collocate: non; scoreFUNC: 0. collocate: hic; scoreFUNC: 0. collocate: ut; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> mandate hoc memoriae <b>iudices</b> <br> <small> Cic.Mil.77 <br> Guardai isso em vossa memória, juízes. <small> [JDD] </small> </small> </p>
+; <p> est <b>iudices</b> ita ut dicitur <br> <small> Cic.Ver.2.4.117.2 <br> É assim como se diz, juízes. <small> [JDD] </small> </small> </p>
+; <p> sed cur diutius uos <b>iudices</b> teneo <br> <small> Cic.Cael.55 <br> Mas por que vos detenho por mais tempo, juízes? <small> [JDD] </small> </small> </p>
+; <p> hunc <b>iudicem</b> ex kalendis Ianuariis non habebimus <br> <small> Cic.Ver.1.29 <br> Esse juiz não o teremos a partir das calendas de janeiro [1º. de janeiro]. <small> [JDD] </small> </small> </p>
+; <p> fortem et a uobis <b>iudices</b> conseruandum uirum <br> <small> Cic.Mil.104 <br> Um homem valoroso e que deve ser salvo por vós, juízes! <small> [JDD] </small> </small> </p>
+; <p> uidete <b>iudices</b> quantae res his testimoniis sint confectae <br> <small> Cic.Mil.47 <br> Vede, juízes, que importantes fatos foram estabelecidos com esses testemunhos. <small> [JDD] </small> </small> </p>
+; <p> dicta est a me causa <b>iudices</b> et perorata <br> <small> Cic.Cael.70 <br> A causa foi dita por mim, juízes, e concluída. <small> [JDD] </small> </small> </p>
+; <p> id uero <b>iudices</b> etiam dubitandum et diutius cogitandum est <br> <small> Cic.Mil.53 <br> Mas isso, juízes, deve ser ainda posto em dúvida e cogitado por mais tempo? <small> [JDD] </small> </small> </p>
+; <p> <b>iudices</b> non crimina non testis non existimationem populi Romani sequentur <br> <small> Cic.Ver.1.20 <br> O juízes não levarão em consideração as acusações, as testemunhas, a estima do povo romano? <small> [JDD] </small> </small> </p>
+; <p> <b>iudicibus</b> reiciendis dies est dictus a. d. v Non. Quint. <br> <small> Cic.Att.4.16.5 <br> O dia de rejeitar juízes é no quinto dia antes das nonas quintiles [3 de julho] <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ideo quantum potes te ipse coargue inquire in te accusatoris primum partibus fungere deinde <b>iudicis</b> nouissime deprecatoris <br> <small> Sen.Ep.28.10 <br> Por isso, o quanto podes, acusa-te a ti mesmo, investiga sobre ti; Cumpre primeiro o papel de acusador, em seguida de juiz, por último de intercessor. <small> [JDD] </small> </small> </p>
+; <p> haec cum scirem et cogitarem commisi tamen <b>iudices</b> Heio produxi prima actione neque id tamen ullo periculo feci <br> <small> Cic.Ver.2.4.16.1 <br> 16 Embora eu soubesse essas coisas e refletisse sobre elas, mesmo assim me confiei a Heio; apresentei-o como testemunha na primeira ação, e, no entanto, fiz isso sem perigo algum. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-117-100-101-120xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 14.76 and an absolute frequency of 237. The Ovidius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 237 ; absolute frequency: 14.7641474172086. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 4 ; absolute frequency: 6.0725671777744. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 4 ; absolute frequency: 0.746533286052892. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-117-100-101-120xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 19.68 and an absolute frequency of 205. The Prosa.oratória subcorpus follows, with a normalized frequency of 19.68 and an absolute frequency of 205. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.filosófica ; normalized frequency: 6 ; absolute frequency: 0.988451590583351. subcorpus: Prosa.oratória ; normalized frequency: 205 ; absolute frequency: 19.6825823548049. subcorpus: Prosa.epistolográfica ; normalized frequency: 29 ; absolute frequency: 7.68435835607727. subcorpus: Poesia.lírica ; normalized frequency: 5 ; absolute frequency: 4.20627576343905. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-117-100-101-120xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 11.26 and an absolute frequency of 242. The I.a.C. subcorpus follows, with a normalized frequency of 11.26 and an absolute frequency of 242. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 242 ; absolute frequency: 11.2636723295322. subcorpus: I.d.C. ; normalized frequency: 8 ; absolute frequency: 1.2238029677222. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

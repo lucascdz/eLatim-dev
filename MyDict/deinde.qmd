@@ -1,0 +1,202 @@
+---
+title: "deinde"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-101-105-110-100-101xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>dein</b> <br> <small></small> <br> <small>v. deínde Cíc. Rep. 1, 18.</small> 
+ <b>deīnde</b> <br> <small>adv.</small> <br> <small>Obs.: Dein é forma abreviada de deinde e só aparece antes de consoante.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Depois &ensp; <small>com ideia de lugar T. Lív. 22, 4, 2.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Depois &ensp; <small>com ideia de tempo Cés. B. Gal. 4, 35, 3.</small> <br> <b>3</b> &ensp; <small>I-Donde:</small> &ensp; Em seguida, depois &ensp; <small>com ideia de sucessão, no tempo e no espaço:</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>3</b><br>primum ..: deinde Cés. B. Gal. 1. 25. 1 “primeiro ... em seguida”. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Dein</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; depois. </p> 
+ <b>Deinde</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; depois disto. <br> <b>2</b> &ensp; <small>Curt.</small> &ensp; dahi, desse lugar para diante. </p>
+
+
+
+
+#### Velez
+
+<b>Deinde</b> <br> <small>Dein, apud Poet.</small>   <p> <b>1</b> &ensp; depois disto </p>
+
+
+
+
+#### Cardoso
+
+<b>Dein</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; despois </p> 
+ <b>deinde</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; despois </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/98386 ' target="_blank"> http://lila-erc.eu/data/id/lemma/98386 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> deim, dein <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+dĕin 
+ dĕinde
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-101-105-110-100-101xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-101-105-110-100-101xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword deinde here are all the values plotted: collocate: etiam; scoreSUBST: 0. collocate: multus; scoreSUBST: 0. collocate: si; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-101-105-110-100-101xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword deinde here are all the values plotted: collocate: etiam; scoreADJ: 0. collocate: multus; scoreADJ: 0. collocate: si; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-101-105-110-100-101xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword deinde here are all the values plotted: collocate: etiam; scoreVERBO: 0. collocate: multus; scoreVERBO: 0. collocate: si; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-101-105-110-100-101xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword deinde here are all the values plotted: collocate: etiam; scoreADV: 2. collocate: multus; scoreADV: 0. collocate: si; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-101-105-110-100-101xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword deinde here are all the values plotted: collocate: etiam; scoreFUNC: 0. collocate: multus; scoreFUNC: 0. collocate: si; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quid si uelis <b>deinde</b> quemadmodum ambules discere <br> <small> Sen.Ep.15.7 <br> E se queres depois aprender o modo como caminhares? <small> [JDD] </small> </small> </p>
+; <p> nollem primum rei publicae causa <b>deinde</b> etiam dignitatis tuae <br> <small> Cic.Phil.14.18.7 <br> Eu não queria, primeiro por causa da república, depois por causa também de tua dignidade. <small> [JDD] </small> </small> </p>
+; <p> tamquam ad bona feruntur decepti rumoribus <b>deinde</b> mala esse aut inania aut minora quam sperauerint adepti ac multa passi uident <br> <small> Sen.Ep.118.7 <br> Enganados pelos rumores, são levados como que para coisas boas, depois, tendo-as conseguido e sofrido muito, vêem que são más ou vazias ou menores do que estavam esperando. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-101-105-110-100-101xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 16.7 and an absolute frequency of 11. The Seneca subcorpus follows, with a normalized frequency of 7.47 and an absolute frequency of 40. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 1.72 and an absolute freqeuncy of 1. here are all the values: subcorpus: Caesar ; normalized frequency: 7 ; absolute frequency: 2.64370420726641. subcorpus: Cicero ; normalized frequency: 104 ; absolute frequency: 6.47878198898607. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 11 ; absolute frequency: 16.6995597388796. subcorpus: Sallustius ; normalized frequency: 9 ; absolute frequency: 8.3480196642241. subcorpus: Seneca ; normalized frequency: 40 ; absolute frequency: 7.46533286052892. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 2 ; absolute frequency: 6.86577411603158. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-101-105-110-100-101xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.didática subcorpus registers the highest normalized frequency, with the value of 10.18 and an absolute frequency of 12. The Prosa.filosófica subcorpus follows, with a normalized frequency of 8.24 and an absolute frequency of 50. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0.87 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 19 ; absolute frequency: 4.62523430463254. subcorpus: Prosa.filosófica ; normalized frequency: 50 ; absolute frequency: 8.23709658819459. subcorpus: Prosa.oratória ; normalized frequency: 66 ; absolute frequency: 6.33683139227867. subcorpus: Prosa.epistolográfica ; normalized frequency: 27 ; absolute frequency: 7.15440260738228. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 12 ; absolute frequency: 10.1789804054627. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-101-105-110-100-101xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 7.95 and an absolute frequency of 52. The I.d.C. subcorpus follows, with a normalized frequency of 7.95 and an absolute frequency of 52. the subcorpus with the least normalized frequency is I.a.C. with the normalized value of 5.86 and an absolute freqeuncy of 126. here are all the values: subcorpus: I.a.C. ; normalized frequency: 126 ; absolute frequency: 5.8645566674424. subcorpus: I.d.C. ; normalized frequency: 52 ; absolute frequency: 7.95471929019428. subcorpus: II.d.C. ; normalized frequency: 3 ; absolute frequency: 7.85340314136126. subcorpus: IV.d.C. ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+:::
+

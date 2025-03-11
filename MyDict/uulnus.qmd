@@ -1,0 +1,198 @@
+---
+title: "uulnus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-117-108-110-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>vulnus</b> <b>-èris</b> <br> <b>volnus</b> <b>-èris</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Ferida, golpe &ensp; <small>dado ou recebido Cés. B. Gal. 1, 50, 3.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Corte, talho, fenda, abertura &ensp; <small>Verg. En. 2, 630.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Ferida moral, golpe, chaga, desgraça &ensp; <small>Cíc. At. 1, 16, 7.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Angústia, dor, aflição &ensp; <small>Verg. En. 4, 2.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Vulnus</b> -<b>eris</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; ferida. <br> <b>2</b> &ensp; <small>Virg.</small> &ensp; golpe, pancada que corta. <br> <b>3</b> &ensp; <small>Ovid.</small> &ensp; rego, que se faz com o arado. <br> <b>4</b> &ensp; <small>Virg.</small> &ensp; lansa, ou arma com que se faz a ferida. <br> <b>5</b> &ensp; <small>Cic.</small> &ensp; calamidade, damno. <br> <b>6</b> &ensp; <small>Virg.</small> &ensp; afflicçaõ, tristeza, magoa. </p>
+
+
+
+
+#### Velez
+
+<b>Vulnus</b> -<b>eris</b>   <p> <b>1</b> &ensp; ferida, golpe, angustia, dor </p>
+
+
+
+
+#### Cardoso
+
+<b>Vulnus</b> -<b>eris</b>   <p> <b>1</b> &ensp; a ferida </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/130964 ' target="_blank"> http://lila-erc.eu/data/id/lemma/130964 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> uolnus <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+vulnĕris
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx117-117-108-110-117-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-117-108-110-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword uulnus here are all the values plotted: collocate: accipio; scoreSUBST: 0. collocate: sano; scoreSUBST: 0. collocate: conficio; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-117-108-110-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword uulnus here are all the values plotted: collocate: accipio; scoreADJ: 0. collocate: sano; scoreADJ: 0. collocate: conficio; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-117-108-110-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword uulnus here are all the values plotted: collocate: accipio; scoreVERBO: 3. collocate: sano; scoreVERBO: 2. collocate: conficio; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-117-108-110-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword uulnus here are all the values plotted: collocate: accipio; scoreADV: 0. collocate: sano; scoreADV: 0. collocate: conficio; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-117-108-110-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword uulnus here are all the values plotted: collocate: accipio; scoreFUNC: 0. collocate: sano; scoreFUNC: 0. collocate: conficio; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> tandem confecti <b>uulneribus</b> hostes terga uerterunt <br> <small> Caes.Gal.3.21.1 <br> finalmente, abatidos pelos ferimentos, os inimigos voltaram as costas. <small> [JDD] </small> </small> </p>
+; <p> satis enim habeo negoti in sanandis <b>vulneribus</b> quae sunt imposita provinciae <br> <small> Cic.Att.5.17.6 <br> pois tenho bastante trabalho em sanar as feridas que foram impostas à província. <small> [JDD] </small> </small> </p>
+; <p> relinquit animus Sextium grauibus acceptis <b>uulneribus</b> deficiens aegre per manus tractus seruatur <br> <small> Caes.Gal.6.38.4 <br> O ânimo abandona Séxtio pelos graves ferimentos recebidos: arrastado com dificuldade de mão em mão, é salvo. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-117-108-110-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 6.35 and an absolute frequency of 34. The Ovidius subcorpus follows, with a normalized frequency of 5.15 and an absolute frequency of 3. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 13 ; absolute frequency: 4.90973638492333. subcorpus: Cicero ; normalized frequency: 23 ; absolute frequency: 1.43280755525653. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 34 ; absolute frequency: 6.34553293144958. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-117-108-110-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 13.03 and an absolute frequency of 15. The Poesia.didática subcorpus follows, with a normalized frequency of 4.24 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 14 ; absolute frequency: 3.40806738236082. subcorpus: Prosa.filosófica ; normalized frequency: 19 ; absolute frequency: 3.13009670351395. subcorpus: Prosa.oratória ; normalized frequency: 14 ; absolute frequency: 1.3441763559379. subcorpus: Prosa.epistolográfica ; normalized frequency: 9 ; absolute frequency: 2.38480086912743. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 15 ; absolute frequency: 13.0298818624044. subcorpus: Poesia.épica ; normalized frequency: 1 ; absolute frequency: 1.93050193050193. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-117-108-110-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 5.97 and an absolute frequency of 39. The I.a.C. subcorpus follows, with a normalized frequency of 1.82 and an absolute frequency of 39. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 39 ; absolute frequency: 1.81521992087503. subcorpus: I.d.C. ; normalized frequency: 39 ; absolute frequency: 5.96603946764571. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

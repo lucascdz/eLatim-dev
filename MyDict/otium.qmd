@@ -1,0 +1,204 @@
+---
+title: "otium"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx111-116-105-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>ōtĭum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Tempo de repouso, vagar, ócio &ensp; <small>Cíc. Of. 3, 1.</small> <br> <b>2</b> &ensp; <small>I-Daí, por extensão</small> &ensp; Lugar de repouso, retiro, solidão &ensp; <small>Cíc. De Or. 1, 1.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Calma, paz, tranquilidade, sossego, ventura, felicidade &ensp; <small>Cés. B. Civ. 1, 5, 5.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Lazer produtivo &ensp; <small>Cíc. Tusc. 5, 105.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Estudos feitos com vagar, estudos de gabinete &ensp; <small>Cíc. Leg. 3, 14.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Inação, ociosidade &ensp; <small>Cíc. Ac. 2. 5.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Ocium</b> <br> <small>v. Otium, & c.</small> 
+ <b>Otium</b> -<b>ii</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; ocio, descanço, repouso. <br> <b>2</b> &ensp; ociosidade, vicio de estragar o tempo sem fazer cousa util. <br> <b>3</b> &ensp; paz, quietação, tranquilidade. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>otia recte ponere &ensp; <small><small>Hor</small></small> &ensp; <small>Empregar bem o tempo de repouso</small> <br> otia terere &ensp; <small><small>Virg</small></small> &ensp; <small>Desperdiçar ociosamente o tempo</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Otium</b> <b>ij</b>   <p> <b>1</b> &ensp; o ocio. ou repouso </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/115422 ' target="_blank"> http://lila-erc.eu/data/id/lemma/115422 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> ocium, otiom <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ōtĭum 
+ ōtĭī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx111-116-105-117-109xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx111-116-105-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword otium here are all the values plotted: collocate: tantus; scoreSUBST: 0. collocate: quidem; scoreSUBST: 0. collocate: ad; scoreSUBST: 0. collocate: atque; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: non; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx111-116-105-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword otium here are all the values plotted: collocate: tantus; scoreADJ: 0. collocate: quidem; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: non; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx111-116-105-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword otium here are all the values plotted: collocate: tantus; scoreVERBO: 0. collocate: quidem; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: non; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx111-116-105-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword otium here are all the values plotted: collocate: tantus; scoreADV: 0. collocate: quidem; scoreADV: 2. collocate: ad; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: in; scoreADV: 0. collocate: non; scoreADV: 1'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx111-116-105-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword otium here are all the values plotted: collocate: tantus; scoreFUNC: 0. collocate: quidem; scoreFUNC: 0. collocate: ad; scoreFUNC: 20. collocate: atque; scoreFUNC: 0. collocate: in; scoreFUNC: 20. collocate: non; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> in Gallia speramus esse <b>otium</b> <br> <small> Cic.Att.2.1.11 <br> Na Gália esperamos que haja paz. <small> [JDD] </small> </small> </p>
+; <p> quod nisi in <b>otio</b> non fit <br> <small> Sen.Ot.1.1 <br> Isso não acontece sem o ócio. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quo animo ad <b>otium</b> sapiens secedit <br> <small> Sen.Ot.6.4 <br> Com que intenção o sábio se retira para o ócio? <small> [JDD] </small> </small> </p>
+; <p> sed quia rationem habendam maxime arbitror pacis atque <b>oti</b> <br> <small> Cic.Phil.1.16.2 <br> - mas porque julgo que é preciso sobretudo levar em conta a paz e a tranquilidade. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> unum reprehendo quod <b>otium</b> nuntiari e Gallia non magno opere gaudet <br> <small> Cic.Att.1.20.5 <br> só lhe critico uma coisa: não se alegra muito que a paz na Gália seja anunciada. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> numquam tu non modo <b>otium</b> sed ne bellum quidem nisi nefarium concupisti <br> <small> Cic.Catil.1.25.5 <br> Tu nunca desejaste não apenas a paz, mas nem sequer a guerra, que não seja criminosa. <small> [JDD] </small> </small> </p>
+; <p> tu modo videto in tanto <b>otio</b> ut par in hoc mihi sis <br> <small> Cic.Att.1.6.1 <br> Vê tu que, com tanto tempo livre, tu só estás igual a mim nisso. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx111-116-105-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 7.42 and an absolute frequency of 8. The Sallustius subcorpus follows, with a normalized frequency of 7.42 and an absolute frequency of 8. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 35 ; absolute frequency: 2.18035932321647. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 3 ; absolute frequency: 4.5544253833308. subcorpus: Sallustius ; normalized frequency: 8 ; absolute frequency: 7.42046192375475. subcorpus: Seneca ; normalized frequency: 25 ; absolute frequency: 4.66583303783057. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx111-116-105-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 5.03 and an absolute frequency of 19. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 5.03 and an absolute frequency of 19. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 8 ; absolute frequency: 1.94746707563475. subcorpus: Prosa.filosófica ; normalized frequency: 24 ; absolute frequency: 3.9538063623334. subcorpus: Prosa.oratória ; normalized frequency: 16 ; absolute frequency: 1.53620154964331. subcorpus: Prosa.epistolográfica ; normalized frequency: 19 ; absolute frequency: 5.03457961260235. subcorpus: Poesia.lírica ; normalized frequency: 5 ; absolute frequency: 4.20627576343905. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx111-116-105-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 4.28 and an absolute frequency of 28. The I.a.C. subcorpus follows, with a normalized frequency of 2.23 and an absolute frequency of 48. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 48 ; absolute frequency: 2.23411682569234. subcorpus: I.d.C. ; normalized frequency: 28 ; absolute frequency: 4.28331038702769. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

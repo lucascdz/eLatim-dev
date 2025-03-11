@@ -1,0 +1,245 @@
+---
+title: "sui"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-117-105xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>sēsē</b> <br> <small>acus. e abl. de sui forma reduplicada = sé.</small> <br> <small></small> 
+ <small>1.</small> <b>sē</b> <br> <small>acus. e abl. de sui.</small> <br> <small></small> 
+ <small>2.</small> <b>sŭī</b> <b>sibí sibì, sé</b> <br> <small>pron. reflex. da 3ª pess. do sing. e do pl.</small> <br> <small>Obs.: Formas com enclíticas: sepse Cíc. Rep. 3, 12; semet T. Lív. 2, 12, 7. Forma reduplicada: sese Cés. B. Gal. 2, 6, 4.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; De si, dele, dela, deles, delas; para si, a si, lhe, lhes; se, a si, a ele, a ela, a eles, a elas &ensp; <small>Cíc. lae. 98.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Sui</b> <b>sibi</b> <b>se</b> <br> <small>pronome da terceira pessoa no sing., e no plur.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; de si, para si, se, & c. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/131255 ' target="_blank"> http://lila-erc.eu/data/id/lemma/131255 </a> <br>
+<small> classe: </small> pronome    <br>
+<small> paradigma: </small> pronominal <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+sŭī
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-117-105xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword sui here are all the values plotted: collocate: inter; scoreSUBST: 0. collocate: ipse; scoreSUBST: 0. collocate: cum; scoreSUBST: 0. collocate: ad; scoreSUBST: 0. collocate: per; scoreSUBST: 0. collocate: ab; scoreSUBST: 0. collocate: qui; scoreSUBST: 0. collocate: in; scoreSUBST: 0. collocate: dico; scoreSUBST: 0. collocate: quisque; scoreSUBST: 0. collocate: ex; scoreSUBST: 0. collocate: habeo; scoreSUBST: 0. collocate: fero; scoreSUBST: 0. collocate: recipio; scoreSUBST: 0. collocate: ita; scoreSUBST: 0. collocate: suum; scoreSUBST: 3. collocate: apud; scoreSUBST: 0. collocate: similis; scoreSUBST: 0. collocate: nego; scoreSUBST: 0. collocate: teneo; scoreSUBST: 0. collocate: ea; scoreSUBST: 0. collocate: circum; scoreSUBST: 0. collocate: confirmo; scoreSUBST: 0. collocate: confero; scoreSUBST: 0. collocate: uoco; scoreSUBST: 0. collocate: aio; scoreSUBST: 0. collocate: defendo; scoreSUBST: 0. collocate: iacto; scoreSUBST: 0. collocate: contentus; scoreSUBST: 0. collocate: reuertor; scoreSUBST: 0. collocate: prae; scoreSUBST: 0. collocate: conscius; scoreSUBST: 0. collocate: purgo; scoreSUBST: 0. collocate: occulto; scoreSUBST: 0. collocate: conuerto; scoreSUBST: 0. collocate: erigo; scoreSUBST: 0. collocate: molestus; scoreSUBST: 0. collocate: cohortor; scoreSUBST: 0. collocate: simulo; scoreSUBST: 0. collocate: ultro; scoreSUBST: 0. collocate: uindico; scoreSUBST: 0. collocate: circa; scoreSUBST: 0. collocate: custos; scoreSUBST: 2. collocate: onus; scoreSUBST: 2. collocate: obses; scoreSUBST: 2. collocate: colligo; scoreSUBST: 0. collocate: desiderium; scoreSUBST: 2. collocate: fuga; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-117-105xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword sui here are all the values plotted: collocate: inter; scoreADJ: 0. collocate: ipse; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: ad; scoreADJ: 0. collocate: per; scoreADJ: 0. collocate: ab; scoreADJ: 0. collocate: qui; scoreADJ: 0. collocate: in; scoreADJ: 0. collocate: dico; scoreADJ: 0. collocate: quisque; scoreADJ: 0. collocate: ex; scoreADJ: 0. collocate: habeo; scoreADJ: 0. collocate: fero; scoreADJ: 0. collocate: recipio; scoreADJ: 0. collocate: ita; scoreADJ: 0. collocate: suum; scoreADJ: 0. collocate: apud; scoreADJ: 0. collocate: similis; scoreADJ: 2. collocate: nego; scoreADJ: 0. collocate: teneo; scoreADJ: 0. collocate: ea; scoreADJ: 0. collocate: circum; scoreADJ: 0. collocate: confirmo; scoreADJ: 0. collocate: confero; scoreADJ: 0. collocate: uoco; scoreADJ: 0. collocate: aio; scoreADJ: 0. collocate: defendo; scoreADJ: 0. collocate: iacto; scoreADJ: 0. collocate: contentus; scoreADJ: 2. collocate: reuertor; scoreADJ: 0. collocate: prae; scoreADJ: 0. collocate: conscius; scoreADJ: 2. collocate: purgo; scoreADJ: 0. collocate: occulto; scoreADJ: 0. collocate: conuerto; scoreADJ: 0. collocate: erigo; scoreADJ: 0. collocate: molestus; scoreADJ: 2. collocate: cohortor; scoreADJ: 0. collocate: simulo; scoreADJ: 0. collocate: ultro; scoreADJ: 0. collocate: uindico; scoreADJ: 0. collocate: circa; scoreADJ: 0. collocate: custos; scoreADJ: 0. collocate: onus; scoreADJ: 0. collocate: obses; scoreADJ: 0. collocate: colligo; scoreADJ: 0. collocate: desiderium; scoreADJ: 0. collocate: fuga; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-117-105xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword sui here are all the values plotted: collocate: inter; scoreVERBO: 0. collocate: ipse; scoreVERBO: 0. collocate: cum; scoreVERBO: 0. collocate: ad; scoreVERBO: 0. collocate: per; scoreVERBO: 0. collocate: ab; scoreVERBO: 0. collocate: qui; scoreVERBO: 0. collocate: in; scoreVERBO: 0. collocate: dico; scoreVERBO: 2. collocate: quisque; scoreVERBO: 0. collocate: ex; scoreVERBO: 0. collocate: habeo; scoreVERBO: 2. collocate: fero; scoreVERBO: 2. collocate: recipio; scoreVERBO: 2. collocate: ita; scoreVERBO: 0. collocate: suum; scoreVERBO: 0. collocate: apud; scoreVERBO: 0. collocate: similis; scoreVERBO: 0. collocate: nego; scoreVERBO: 2. collocate: teneo; scoreVERBO: 2. collocate: ea; scoreVERBO: 0. collocate: circum; scoreVERBO: 0. collocate: confirmo; scoreVERBO: 2. collocate: confero; scoreVERBO: 2. collocate: uoco; scoreVERBO: 2. collocate: aio; scoreVERBO: 2. collocate: defendo; scoreVERBO: 1. collocate: iacto; scoreVERBO: 2. collocate: contentus; scoreVERBO: 0. collocate: reuertor; scoreVERBO: 2. collocate: prae; scoreVERBO: 0. collocate: conscius; scoreVERBO: 0. collocate: purgo; scoreVERBO: 2. collocate: occulto; scoreVERBO: 2. collocate: conuerto; scoreVERBO: 2. collocate: erigo; scoreVERBO: 2. collocate: molestus; scoreVERBO: 0. collocate: cohortor; scoreVERBO: 2. collocate: simulo; scoreVERBO: 2. collocate: ultro; scoreVERBO: 0. collocate: uindico; scoreVERBO: 2. collocate: circa; scoreVERBO: 0. collocate: custos; scoreVERBO: 0. collocate: onus; scoreVERBO: 0. collocate: obses; scoreVERBO: 0. collocate: colligo; scoreVERBO: 2. collocate: desiderium; scoreVERBO: 0. collocate: fuga; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-117-105xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword sui here are all the values plotted: collocate: inter; scoreADV: 0. collocate: ipse; scoreADV: 0. collocate: cum; scoreADV: 0. collocate: ad; scoreADV: 0. collocate: per; scoreADV: 0. collocate: ab; scoreADV: 0. collocate: qui; scoreADV: 0. collocate: in; scoreADV: 0. collocate: dico; scoreADV: 0. collocate: quisque; scoreADV: 0. collocate: ex; scoreADV: 0. collocate: habeo; scoreADV: 0. collocate: fero; scoreADV: 0. collocate: recipio; scoreADV: 0. collocate: ita; scoreADV: 1. collocate: suum; scoreADV: 0. collocate: apud; scoreADV: 0. collocate: similis; scoreADV: 0. collocate: nego; scoreADV: 0. collocate: teneo; scoreADV: 0. collocate: ea; scoreADV: 2. collocate: circum; scoreADV: 0. collocate: confirmo; scoreADV: 0. collocate: confero; scoreADV: 0. collocate: uoco; scoreADV: 0. collocate: aio; scoreADV: 0. collocate: defendo; scoreADV: 0. collocate: iacto; scoreADV: 0. collocate: contentus; scoreADV: 0. collocate: reuertor; scoreADV: 0. collocate: prae; scoreADV: 0. collocate: conscius; scoreADV: 0. collocate: purgo; scoreADV: 0. collocate: occulto; scoreADV: 0. collocate: conuerto; scoreADV: 0. collocate: erigo; scoreADV: 0. collocate: molestus; scoreADV: 0. collocate: cohortor; scoreADV: 0. collocate: simulo; scoreADV: 0. collocate: ultro; scoreADV: 2. collocate: uindico; scoreADV: 0. collocate: circa; scoreADV: 0. collocate: custos; scoreADV: 0. collocate: onus; scoreADV: 0. collocate: obses; scoreADV: 0. collocate: colligo; scoreADV: 0. collocate: desiderium; scoreADV: 0. collocate: fuga; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-117-105xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword sui here are all the values plotted: collocate: inter; scoreFUNC: 50. collocate: ipse; scoreFUNC: 0. collocate: cum; scoreFUNC: 30. collocate: ad; scoreFUNC: 30. collocate: per; scoreFUNC: 30. collocate: ab; scoreFUNC: 20. collocate: qui; scoreFUNC: 0. collocate: in; scoreFUNC: 20. collocate: dico; scoreFUNC: 0. collocate: quisque; scoreFUNC: 0. collocate: ex; scoreFUNC: 20. collocate: habeo; scoreFUNC: 0. collocate: fero; scoreFUNC: 0. collocate: recipio; scoreFUNC: 0. collocate: ita; scoreFUNC: 0. collocate: suum; scoreFUNC: 0. collocate: apud; scoreFUNC: 20. collocate: similis; scoreFUNC: 0. collocate: nego; scoreFUNC: 0. collocate: teneo; scoreFUNC: 0. collocate: ea; scoreFUNC: 0. collocate: circum; scoreFUNC: 20. collocate: confirmo; scoreFUNC: 0. collocate: confero; scoreFUNC: 0. collocate: uoco; scoreFUNC: 0. collocate: aio; scoreFUNC: 0. collocate: defendo; scoreFUNC: 0. collocate: iacto; scoreFUNC: 0. collocate: contentus; scoreFUNC: 0. collocate: reuertor; scoreFUNC: 0. collocate: prae; scoreFUNC: 20. collocate: conscius; scoreFUNC: 0. collocate: purgo; scoreFUNC: 0. collocate: occulto; scoreFUNC: 0. collocate: conuerto; scoreFUNC: 0. collocate: erigo; scoreFUNC: 0. collocate: molestus; scoreFUNC: 0. collocate: cohortor; scoreFUNC: 0. collocate: simulo; scoreFUNC: 0. collocate: ultro; scoreFUNC: 0. collocate: uindico; scoreFUNC: 0. collocate: circa; scoreFUNC: 20. collocate: custos; scoreFUNC: 0. collocate: onus; scoreFUNC: 0. collocate: obses; scoreFUNC: 0. collocate: colligo; scoreFUNC: 0. collocate: desiderium; scoreFUNC: 0. collocate: fuga; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> uidisse <b>se</b> dicerent <br> <small> Cic.Cael.65 <br> Diriam que tinham visto? <small> [JDD] </small> </small> </p>
+; <p> <b>se</b> contentus est sapiens <br> <small> Sen.Ep.9.13 <br> “O sábio se contenta consigo.” <small> [JDD] </small> </small> </p>
+; <p> imperator inquit <b>se</b> bene habet <br> <small> Sen.Ep.24.10 <br> “O general”, diz ele, “se acha bem”. <small> [JDD] </small> </small> </p>
+; <p> ait ille idem <b>sibi</b> uideri <br> <small> Cic.Ver.2.4.32.23 <br> Ele diz que lhe parecia o mesmo.” <small> [JDD] </small> </small> </p>
+; <p> <b>se</b> enim ipso contentus est <br> <small> Sen.Ep.9.19 <br> pois ele se contenta consigo mesmo;[*] <small>  </small> </small> </p>
+; <p> Hic <b>se</b> formosum iactat : <br> <small> Phaed.3.8 <br> Este se gaba de ser belo. <small> [JDD] </small> </small> </p>
+; <p> is <b>sibi</b> legationem ad ciuitates suscepit <br> <small> Caes.Gal.1.3.3 <br> Ele toma a seu cargo a negociação com as cidades. <small> [JDD] </small> </small> </p>
+; <p> domi colitur ex <b>se</b> totum est <br> <small> Sen.Ep.9.15 <br> é cultivado  em case, é todo de si mesmo. <small> [JDD] </small> </small> </p>
+; <p> iubet iste posterius ad <b>se</b> reuerti <br> <small> Cic.Ver.2.4.66.3 <br> Esse sujeito manda que voltem outro dia à casa dele. <small> [JDD] </small> </small> </p>
+; <p> itaque <b>se</b> suaque omnia Caesari dediderunt <br> <small> Caes.Gal.3.16.3 <br> E assim entregaram a César a si e a todas as suas coisas. <small> [JDD] </small> </small> </p>
+; <p> uerum et ueri simile inter <b>se</b> differunt <br> <small> Sen.Ep.118.8 <br> O verdadeiro e o verossímil são diferentes entre si. <small> [JDD] </small> </small> </p>
+; <p> his datis mandatis eum ab <b>se</b> dimittit <br> <small> Caes.Gal.2.5.3 <br> Com estas instruções, o despede de junto de sua pessoa. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> Negabat illa <b>se</b> esse culpae proximam . <br> <small> Phaed.1.10 <br> ela negava ter relação com a culpa. <small> [JDD] </small> </small> </p>
+; <p> aliter enim nostri negant posse <b>se</b> saluos esse <br> <small> Cic.Phil.1.20.12 <br> Pois os nossos dizem que de outro modo não podem ser salvos.” <small> [JDD] </small> </small> </p>
+; <p> bonum ex honesto fluit honestum ex <b>se</b> est <br> <small> Sen.Ep.118.11 <br> o bem deriva do honesto, o honesto existe por si mesmo. <small> [JDD] </small> </small> </p>
+; <p> utinam ille omnis <b>se</b> cum suas copias eduxisset <br> <small> Cic.Catil.2.4.9 <br> Quem dera ele tivesse levado consigo todas as suas tropas! <small> [JDD] </small> </small> </p>
+; <p> hi omnes lingua institutis legibus inter <b>se</b> differunt <br> <small> Caes.Gal.1.1.2 <br> Todos estes diferem entre si pela língua, pelos costumes e pelas leis. <small> [JDD] </small> </small> </p>
+; <p> necesse est initia inter <b>se</b> et exitus congruant <br> <small> Sen.Ep.9.9 <br> É necessário que o início e o fim concordem entre si. <small> [JDD] </small> </small> </p>
+; <p> non sumus sub rege <b>sibi</b> quisque <b>se</b> uindicat <br> <small> Sen.Ep.33.4 <br> Não estamos submetidos a um rei; cada um se reivindica para si. <small> [JDD] </small> </small> </p>
+; <p> intra eas siluas hostes in occulto <b>sese</b> continebant <br> <small> Caes.Gal.2.18.3 <br> Dentro dessas florestas se mantinham de modo oculto os inimigos. <small> [JDD] </small> </small> </p>
+; <p> re nuntiata ad <b>suos</b> quae imperarentur facere dixerunt <br> <small> Caes.Gal.2.32.3 <br> Anunciado isso aos seus, disseram fazer o que lhes era ordenado. <small> [JDD] </small> </small> </p>
+; <p> reliqui qui domi manserunt <b>se</b> atque illos alunt <br> <small> Caes.Gal.4.1.4 <br> Os demais, os que ficaram em casa, sustentam a si e àqueles. <small> [JDD] </small> </small> </p>
+; <p> bonum societate honesti fit honestum per <b>se</b> bonum est <br> <small> Sen.Ep.118.11 <br> O bem se faz pela aliança do honesto, o honesto por si próprio é um bem. <small> [JDD] </small> </small> </p>
+; <p> nam cum <b>se</b> utilem ceteris efficit commune agit negotium <br> <small> Sen.Ot.3.5 <br> Com efeito, quando se faz útil aos demais, se ocupa de um negócio público. <small> [JDD] </small> </small> </p>
+; <p> ne id quidem Caesar ab <b>se</b> impetrari posse dixit <br> <small> Caes.Gal.4.9.2 <br> César disse que nem mesmo isso podia ser obtido dele. <small> [JDD] </small> </small> </p>
+; <p> num suas <b>se</b> cum mulierculas sunt in castra ducturi <br> <small> Cic.Catil.2.23.8 <br> Será que vão levar consigo as suas mulherzinhas para o acampamento? <small> [JDD] </small> </small> </p>
+; <p> ita utrumque per <b>se</b> indigens alterum alterius auxilio eget <br> <small> Sal.Cat.1.7 <br> Assim, ambas as coisas, insuficientes por si mesmas, necessitam da cooperação uma da outra. <small> [JDD] </small> </small> </p>
+; <p> quid enim esset in quo <b>se</b> non facile defenderet <br> <small> Cic.Cael.38 <br> Pois que situação haveria em que ele não se defendesse facilmente? <small> [JDD] </small> </small> </p>
+; <p> ergo quamuis <b>se</b> ipso contentus sit amicis illi opus est <br> <small> Sen.Ep.9.15 <br> Portanto, ainda que se contente consigo mesmo, ele precisa de amigos. <small> [JDD] </small> </small> </p>
+; <p> non enim iam causae sunt inter <b>se</b> sed uictoriae comparandae <br> <small> Cic.Marc.16 <br> Pois já não se devem comparar entre si as causas, mas as vitórias. <small> [JDD] </small> </small> </p>
+; <p> namque eius aduentu hostes constiterunt nostri <b>se</b> ex timore receperunt <br> <small> Caes.Gal.4.34.1 <br> pois com a chegada dele, os inimigos se detiveram, os nossos se recobraram do temor. <small> [JDD] </small> </small> </p>
+; <p> timere <b>se</b> dicunt quo modo ferant ueterani exercitum Brutum habere <br> <small> Cic.Phil.10.15.2 <br> Dizem que temem como suportam os veteranos que Bruto tenha um exército. <small> [JDD] </small> </small> </p>
+; <p> sed certe dimissis per agros nuntiis <b>sibi</b> quemque consulere iussit <br> <small> Caes.Gal.6.31.2 <br> mas certamente, tendo despachado através dos campos campos seus mensageiros, ordenou que cada um cuidasse de si mesmo. <small> [JDD] </small> </small> </p>
+; <p> ea enim parte <b>sibi</b> carus est homo qua homo est <br> <small> Sen.Ep.121.14 <br> pois o homem é querido de si mesmo graças a esse componente pelo qual é um homem. <small> [JDD] </small> </small> </p>
+; <p> et quidem <b>se</b> introiturum in urbem dixit exiturumque cum uellet <br> <small> Cic.Phil.3.27.8 <br> E, na verdade, disse que entraria na cidade e sairia, quando quisesse. <small> [JDD] </small> </small> </p>
+; <p> hoc consilio probato a ducibus productis Romanorum copiis <b>sese</b> castris tenebant <br> <small> Caes.Gal.3.24.4 <br> Aprovada essa resolução pelos chefes, enquanto conduzidas para diante as tropas dos romanos, eles se mantinham em seu acampamento. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> nam Germani qui auxilio ueniebant percepta Treuerorum fuga <b>sese</b> domum contulerunt <br> <small> Caes.Gal.6.8.7 <br> Pois os germanos, que vinham em auxílio, sabida a fuga dos tréveros, se recolheram para sua pátria. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> manus recenti sanguine etiamnunc madent uultusque prae <b>se</b> scelera truculenti ferunt <br> <small> Sen.Ag.949 <br> A mão ainda agora está encharcada com o sangue recente e o rosto truculento mostra claramente o crime. <small> [JDD] </small> </small> </p>
+; <p> utebatur hominibus improbis multis et quidem optimis <b>se</b> uiris deditum esse simulabat <br> <small> Cic.Cael.12 <br> Relacionava-se com muitas pessoas más; e, na verdade, fingia que era dedicado aos melhores homens. <small> [JDD] </small> </small> </p>
+; <p> non conturbabit sapiens publicos mores nec populum in <b>se</b> uitae nouitate conuertet <br> <small> Sen.Ep.14.14 <br> O sábio não perturbará os costumes públicos nem atrairá o povo para si com a singularidade de sua vida. <small> [JDD] </small> </small> </p>
+; <p> ciuitatibus maxima laus est quam latissime circum <b>se</b> uastatis finibus solitudines habere <br> <small> Caes.Gal.6.23.1 <br> Para as comunidades a maior glória é ter áreas solitárias ao redor, com os limites devastados o mais amplamente possível. <small> [JDD] </small> </small> </p>
+; <p> haec qui apud <b>se</b> uersat in magno gaudio est sed parum blando <br> <small> Sen.Ep.23.4 <br> Quem exercita em si essas coisas está numa grande satisfação, mas pouco atraente. <small> [JDD] </small> </small> </p>
+; <p> quidam ita finiunt bonum est quod inuitat animos quod ad <b>se</b> uocat <br> <small> Sen.Ep.118.8 <br> Certos o definem assim: “O bem é o que convida os espíritos, o que os chama para si”. <small> [JDD] </small> </small> </p>
+; <p> hac audita pugna maxima pars Aquitaniae <b>sese</b> Crasso dedidit obsidesque ultro misit <br> <small> Caes.Gal.3.27.1 <br> Ouvida a notícia desta luta, a maior parte da Aquitânia se rendeu a Crasso e, espontaneamente, enviou reféns. <small> [JDD] </small> </small> </p>
+; <p> qui proximi Oceano fuerunt hi insulis <b>sese</b> occultauerunt quas aestus efficere consuerunt <br> <small> Caes.Gal.6.31.3 <br> os que estiveram próximos ao Oceano ocultaram-se nas ilhas, que as marés constumaram formar. <small> [JDD] </small> </small> </p>
+; <p> unum etiam nunc concedam exeant proficiscantur ne patiantur desiderio <b>sui</b> Catilinam miserum tabescere <br> <small> Cic.Catil.2.6.13 <br> Farei ainda agora uma concessão: que saiam, que partam, que não permitam que o pobre Catilina se consuma de saudade deles. <small> [JDD] </small> </small> </p>
+; <p> quaero circa horam octauam noctis quid <b>sibi</b> ille sonus rotarum uelit gestari dicitur <br> <small> Sen.Ep.122.15 <br> Pergunto o que quer dizer aquele som de rodas por volta da oitava hora da noite: me é dito que é conduzido na liteira. <small> [JDD] </small> </small> </p>
+; <p> tum <b>se</b> Milo continuit et P. Clodium in iudicium bis ad uim numquam uocauit <br> <small> Cic.Mil.40 <br> Então Milão se conteve e chamou duas veze Públio Clódio a julgamento, nunca à violência. <small> [JDD] </small> </small> </p>
+; <p> an hic si <b>sese</b> isti uitae dedidisset consularem hominem admodum adulescens in iudicium uocauisset <br> <small> Cic.Cael.47 <br> Por acaso este, se tivesse se dedicado a essa vida, teria, ainda muito jovem, chamado em juízo um ex-cônsul? <small> [JDD] </small> </small> </p>
+; <p> hic illum quantum suspicor etiam cum <b>se</b> confirmauerit et omnibus uitiis exuerit sapientem quoque sequetur <br> <small> Sen.Ep.11.1 <br> Este rubor, pelo que suspeito, o seguirá , mesmo quando, já também sábio, se fortalecer e se despojar de todos os vícios. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-117-105xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 178.26 and an absolute frequency of 472. The Seneca subcorpus follows, with a normalized frequency of 68.31 and an absolute frequency of 366. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 472 ; absolute frequency: 178.261197975678. subcorpus: Cicero ; normalized frequency: 754 ; absolute frequency: 46.971169420149. subcorpus: Horatius ; normalized frequency: 34 ; absolute frequency: 30.1927004706509. subcorpus: Ovidius ; normalized frequency: 16 ; absolute frequency: 27.4536719286205. subcorpus: Phaedrus ; normalized frequency: 36 ; absolute frequency: 54.6531045999696. subcorpus: Sallustius ; normalized frequency: 75 ; absolute frequency: 69.5668305352008. subcorpus: Seneca ; normalized frequency: 366 ; absolute frequency: 68.3077956738396. subcorpus: Suetonius ; normalized frequency: 7 ; absolute frequency: 77.1775082690187. subcorpus: Tacitus ; normalized frequency: 10 ; absolute frequency: 34.3288705801579. subcorpus: Vergilius ; normalized frequency: 21 ; absolute frequency: 40.5405405405405. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-117-105xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 137.3 and an absolute frequency of 564. The Prosa.histórica subcorpus follows, with a normalized frequency of 137.3 and an absolute frequency of 564. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 564 ; absolute frequency: 137.29642883225. subcorpus: Prosa.filosófica ; normalized frequency: 479 ; absolute frequency: 78.9113853149042. subcorpus: Prosa.oratória ; normalized frequency: 608 ; absolute frequency: 58.3756588864459. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 37 ; absolute frequency: 31.126440649449. subcorpus: Poesia.didática ; normalized frequency: 49 ; absolute frequency: 41.5641699889728. subcorpus: Poesia.trágica ; normalized frequency: 33 ; absolute frequency: 28.6657400972898. subcorpus: Poesia.épica ; normalized frequency: 21 ; absolute frequency: 40.5405405405405. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-117-105xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 63.48 and an absolute frequency of 415. The I.a.C. subcorpus follows, with a normalized frequency of 63.25 and an absolute frequency of 1359. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 1359 ; absolute frequency: 63.2534326274145. subcorpus: I.d.C. ; normalized frequency: 415 ; absolute frequency: 63.484778950589. subcorpus: II.d.C. ; normalized frequency: 17 ; absolute frequency: 44.5026178010471. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,200 @@
+---
+title: "sinus"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-105-110-117-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>sinus</b> <b>-ús</b> <br> <small>subs. m.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Prega côncavo ou em forma de semicírculo, cavidade, curva, sinuosidade &ensp; <small>Ov. Met. 15, 689.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; Prega semicircular que forma o vestido, e na qual as mães levavam os filhos: parte do vestido que cobre o peito, o seio &ensp; <small>Verg. En. 1, 320.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Centro, coração &ensp; <small>Cíc. Q. Fr.2, 13, I</small> <br> <b>4</b> &ensp; <small>III-Sents. técnicos:</small> &ensp; Velas enfunadas &ensp; <small>Verg. En. 3, 455.</small> <br> <b>5</b> &ensp; <small>III-Sents. técnicos:</small> &ensp; Bolso, bolsa &ensp; <small>Ov. Am. 1, 10, 18.</small> <br> <b>6</b> &ensp; <small>III-Sents. técnicos:</small> &ensp; Baía, enseada, golfo &ensp; <small>Cíc. Verr. 5, 30.</small> <br> <b>7</b> &ensp; <small>III-Sents. técnicos:</small> &ensp; Prega &ensp; <small>da toga Hor. Sát. 2, 3, 172.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Sinus</b> -<b>us</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Virg.</small> &ensp; seio. <br> <b>2</b> &ensp; <small>Ovid.</small> &ensp; coraçaõ, entranhas. <br> <b>3</b> &ensp; <small>Virg.</small> &ensp; aba do vestido. <br> <b>4</b> &ensp; enseada da vella, ou o panno cheio com o vento. <br> <b>5</b> &ensp; <small>Juv.</small> &ensp; rede de caçador. <br> <b>6</b> &ensp; <small>Cic.</small> &ensp; enseada, golfo, praia entre dous cabos. <br> <b>7</b> &ensp; rosca da serpente. <br> <b>8</b> &ensp; <small>Sen.</small> &ensp; esconderijo, rodeio. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>gestare aliquem in sinu &ensp; <small><small>Ter</small></small> &ensp; <small>Amar alguem extremosamente</small> <br> in sinu alicuius esse &ensp; <small><small>Cic</small></small> &ensp; <small>Ter grande familiaridade com alguem</small> <br> in sinu gaudere &ensp; <small><small>Cic</small></small> &ensp; <small>Alegrar-se dentro de si mesmo</small> <br> sinum bonis subducere &ensp; <small><small>Sen. Trag</small></small> &ensp; <small>Recusar os bens, que se nos offerecem</small> <br> sinus soluere &ensp; <small><small>Cic</small></small> &ensp; <small>Destraçar-se, deixar cahir o vestido</small> </p>
+
+
+
+
+#### Velez
+
+<b>Sinus</b> -<b>ûs</b> <br> <small>prim. brev.</small>   <p> <b>1</b> &ensp; o seyo, pregas, ou dobras dos vestidos, enseada, ou golfo do mar, rede de caçar, concavidade da vela chea de vento </p>
+
+
+
+
+#### Cardoso
+
+<b>Sinus</b> <b>us</b>   <p> <b>1</b> &ensp; a rosca da cobra. ou seo. ou aba </p> 
+ <b>Sinus</b> <b>us</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/124917 ' target="_blank"> http://lila-erc.eu/data/id/lemma/124917 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 4ª declinação (tema em -u-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+sĭnŭs 
+ sĭnūs
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-105-110-117-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword sinus here are all the values plotted: collocate: ex; scoreSUBST: 0. collocate: que; scoreSUBST: 0. collocate: atque; scoreSUBST: 0. collocate: in; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-105-110-117-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword sinus here are all the values plotted: collocate: ex; scoreADJ: 0. collocate: que; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: in; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-105-110-117-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword sinus here are all the values plotted: collocate: ex; scoreVERBO: 0. collocate: que; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: in; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-105-110-117-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword sinus here are all the values plotted: collocate: ex; scoreADV: 0. collocate: que; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: in; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-105-110-117-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword sinus here are all the values plotted: collocate: ex; scoreFUNC: 20. collocate: que; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: in; scoreFUNC: 10'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> non licet diuitias in <b>sinu</b> positas contemnere <br> <small> Sen.Ep.20.10 <br> Não é lícito desprezar as riquezas postas em seu poder? <small> [JDD] </small> </small> </p>
+; <p> felicior esset si in <b>sinu</b> amicae foueret manum <br> <small> Sen.Prov.3.5 <br> Seria mais feliz, se aquecesse a mão no seio da amante? <small> [JDD] </small> </small> </p>
+; <p> fronte sedent nebulae , rorant pennaeque <b>sinus</b>que . <br> <small> Ov.Met.1.267-8 <br> as névoas sentam-se em sua fronte, as asas e o peito gotejam. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> testes nunc uero iam omnes orae atque omnes terrae gentes nationes maria denique omnia cum uniuersa tum in singulis oris omnes <b>sinus</b> atque portus <br> <small> Cic.Man.31 <br> De mais a mais, são testemunhas agora todas as regiões e todos os povos e nações da terra e, enfim, todos os mares tanto em seu conjunto como, em cada praia,todos os golfos e portos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> transeo tot pericula tot metus quos sine interuallo in te incursantis pertulisti modo modo in eundem <b>sinum</b> ex quo tres nepotes emiseras ossa trium nepotum recepisti intra uicesimum diem quam filium meum in manibus et in osculis tuis mortuum funeraueras raptum me audisti hoc adhuc defuerat tibi lugere uiuos <br> <small> Sen.Helv.2.5 <br> Passo em silêncio tantos perigos, tantos medos que, recaindo sobre ti sem intervalo, suportaste; há bem pouco recebeste, no mesmo seio de onde deixaste sair três netos, os ossos de três netos; vinte dias depois de ter realizado os funerais de meu filho, morto entre tuas mãos e teus beijos, ouviste dizer que eu tinha sido desterrado; isto era o que te faltava ainda: enlutar-se pelos vivos. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-105-110-117-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 5.79 and an absolute frequency of 3. The Seneca subcorpus follows, with a normalized frequency of 2.99 and an absolute frequency of 16. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 4 ; absolute frequency: 0.24918392265331. subcorpus: Horatius ; normalized frequency: 2 ; absolute frequency: 1.77604120415594. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 1 ; absolute frequency: 0.927557740469344. subcorpus: Seneca ; normalized frequency: 16 ; absolute frequency: 2.98613314421157. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-105-110-117-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 8.69 and an absolute frequency of 10. The Poesia.trágica subcorpus follows, with a normalized frequency of 8.69 and an absolute frequency of 10. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 1 ; absolute frequency: 0.243433384454344. subcorpus: Prosa.filosófica ; normalized frequency: 6 ; absolute frequency: 0.988451590583351. subcorpus: Prosa.oratória ; normalized frequency: 4 ; absolute frequency: 0.384050387410828. subcorpus: Prosa.epistolográfica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.lírica ; normalized frequency: 2 ; absolute frequency: 1.68251030537562. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 10 ; absolute frequency: 8.68658790826963. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-105-110-117-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 2.6 and an absolute frequency of 17. The I.a.C. subcorpus follows, with a normalized frequency of 0.47 and an absolute frequency of 10. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 10 ; absolute frequency: 0.465441005352572. subcorpus: I.d.C. ; normalized frequency: 17 ; absolute frequency: 2.60058130640967. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,199 @@
+---
+title: "uel"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-101-108xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>vel</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Ou se o queres, ou, ou melhor &ensp; <small>permitindo escolha Cíc. Cal. 2, 1.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Ou se o queres, ou, ou melhor &ensp; <small>retificando:</small> <br> <b>3</b> &ensp; <small></small> &ensp; Mesmo: &ensp; <small></small> <br> <b>4</b> &ensp; <small></small> &ensp; Por exemplo &ensp; <small>Cíc. Fam. 2, 13, 1.</small> <br> <b>5</b> &ensp; <small></small> &ensp; Talvez: &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>a plerisque, vel dicam ab omnibus Cíc. Fam. 4, 7, 3 «pela maior parte, ou direi melhor, por todos». <br> <br><b>3</b><br>vel mediocris orator Cíc. Br. 193 “O orador mesmo de valor medíocre”. <br> <br><b>5</b><br>domus vel optima, notissima quidem certe Cíc. Verr. 4, 3 «talvez a melhor casa, mas certamente a mais conhecida». </p> 
+ <small>2.</small> <b>vel</b> <br> <small>conj. coord.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Ou, ou melhor &ensp; <small>Cíc. Rep. 1, 41.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Vel ... vel, ou ... ou, seja ... seja &ensp; <small>Cés. B. Ga1. 1, 6, 3.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Vel</b> <br> <small>conj.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; ou, ao menos. <br> <b>2</b> &ensp; ainda, tambem. <br> <b>3</b> &ensp; <small>Ter.</small> &ensp; assim como. <br> <b>4</b> &ensp; <small>Quinct.</small> &ensp; por ventura. </p>
+
+
+
+
+#### Velez
+
+<b>Vel</b> <br> <small>Conjunct.</small>   <p> <b>1</b> &ensp; <small>interdum pro etiam</small> &ensp; tambem, até, ainda <br> <b>2</b> &ensp; <small>interdum pro Valdé</small> &ensp; muito <br> <b>3</b> &ensp; <small>item pro Maximè</small> &ensp; principalmente </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>carmina uel coelo possunt deducere Lunam </p>
+
+
+
+
+#### Cardoso
+
+<b>Vel</b> <br> <small>aduer.</small>   <p> <b>1</b> &ensp; ou </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>uel ego <br> uel tu </p> 
+ <b>Vel</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/129695 ' target="_blank"> http://lila-erc.eu/data/id/lemma/129695 </a> <br>
+<small> classe: </small> conjunção coordenativa    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> bel <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+vĕl
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-101-108xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword uel here are all the values plotted: collocate: potius; scoreSUBST: 0. collocate: amicus; scoreSUBST: 2. collocate: noster; scoreSUBST: 0. collocate: si; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-101-108xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword uel here are all the values plotted: collocate: potius; scoreADJ: 0. collocate: amicus; scoreADJ: 0. collocate: noster; scoreADJ: 0. collocate: si; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-101-108xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword uel here are all the values plotted: collocate: potius; scoreVERBO: 0. collocate: amicus; scoreVERBO: 0. collocate: noster; scoreVERBO: 0. collocate: si; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-101-108xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword uel here are all the values plotted: collocate: potius; scoreADV: 3. collocate: amicus; scoreADV: 0. collocate: noster; scoreADV: 0. collocate: si; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-101-108xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword uel here are all the values plotted: collocate: potius; scoreFUNC: 0. collocate: amicus; scoreFUNC: 0. collocate: noster; scoreFUNC: 0. collocate: si; scoreFUNC: 20'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> unde igitur ista suspicio <b>uel</b> potius unde iste sermo <br> <small> Cic.Phil.14.14.10 <br> De onde, portanto, essa suspeita, ou melhor, de onde essa conversa? <small> [JDD] </small> </small> </p>
+; <p> dicebat enim quia si <b>vel</b> vestimentum eius tetigero salva ero <br> <small> Vulg.Marc.5.28 <br> pois dizia: Porque se eu tocar somente a vestimenta dele, estarei curada. <small> [JDD] </small> </small> </p>
+; <p> nam Xenonem tuum <b>vel</b> nostrum potius Quinto concesseram et tamen propter vicinitatem totos dies simul eramus <br> <small> Cic.Att.5.10.5 <br> pois o teu, ou melhor, o nosso Xenão eu o concedi a Quinto e, no entanto, por causa da vizinhança estamos juntos dias inteiros. <small> [JDD] </small> </small> </p>
+; <p> quod si rectum statuerimus <b>uel</b> concedere amicis quidquid uelint <b>uel</b> impetrare ab iis quidquid uelimus perfecta quidem sapientia simus si nihil habeat res uiti <br> <small> Cic.Amici.38 <br> E se estabelecermos como correto ou conceder aos amigos tudo o que eles querem ou obter deles tudo o que queremos, de fato somos de perfeita sabedoria, se isto não tem nada de vício. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-101-108xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 22.05 and an absolute frequency of 2. The Suetonius subcorpus follows, with a normalized frequency of 22.05 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Phaedrus with the normalized value of 1.52 and an absolute freqeuncy of 1. here are all the values: subcorpus: Caesar ; normalized frequency: 12 ; absolute frequency: 4.53206435531385. subcorpus: Cicero ; normalized frequency: 168 ; absolute frequency: 10.465724751439. subcorpus: Horatius ; normalized frequency: 13 ; absolute frequency: 11.5442678270136. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 13 ; absolute frequency: 12.0582506261015. subcorpus: Seneca ; normalized frequency: 55 ; absolute frequency: 10.2648326832273. subcorpus: Suetonius ; normalized frequency: 2 ; absolute frequency: 22.0507166482911. subcorpus: Tacitus ; normalized frequency: 6 ; absolute frequency: 20.5973223480947. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-101-108xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 13.67 and an absolute frequency of 83. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 7.95 and an absolute frequency of 30. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 2.54 and an absolute freqeuncy of 3. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 33 ; absolute frequency: 8.03330168699335. subcorpus: Prosa.filosófica ; normalized frequency: 83 ; absolute frequency: 13.673580336403. subcorpus: Prosa.oratória ; normalized frequency: 99 ; absolute frequency: 9.505247088418. subcorpus: Prosa.epistolográfica ; normalized frequency: 30 ; absolute frequency: 7.94933623042476. subcorpus: Poesia.lírica ; normalized frequency: 13 ; absolute frequency: 10.9363169849415. subcorpus: Poesia.didática ; normalized frequency: 3 ; absolute frequency: 2.54474510136568. subcorpus: Poesia.trágica ; normalized frequency: 11 ; absolute frequency: 9.55524669909659. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-101-108xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 20.94 and an absolute frequency of 8. The I.a.C. subcorpus follows, with a normalized frequency of 9.68 and an absolute frequency of 208. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 6.74 and an absolute freqeuncy of 3. here are all the values: subcorpus: I.a.C. ; normalized frequency: 208 ; absolute frequency: 9.68117291133349. subcorpus: I.d.C. ; normalized frequency: 58 ; absolute frequency: 8.87257151598593. subcorpus: II.d.C. ; normalized frequency: 8 ; absolute frequency: 20.9424083769633. subcorpus: IV.d.C. ; normalized frequency: 3 ; absolute frequency: 6.74005841383959'}
+
+
+:::
+

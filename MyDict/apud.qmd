@@ -1,0 +1,220 @@
+---
+title: "apud"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx97-112-117-100xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>apud</b> <br> <small>prep. com acus.</small> <br> <small>Às vezes aparece proposta ao subs.: Cumas apud Lucr. 6, 747 “perto de Cumas”.</small>   <p> <b>1</b> &ensp; <small>Com nomes de lugar:</small> &ensp; Junto de, ao pé de, perto de: &ensp; <small></small> <br> <b>2</b> &ensp; <small>Com nomes de lugar:</small> &ensp; Em &ensp; <small>principalmente com nomes próprios de localidades: rios. cidades, ilhas, regiões, etc.</small> <br> <b>3</b> &ensp; <small>Com nomes de lugar:</small> &ensp; Diante de &ensp; <small>em lugar de ad, marcando proximidade, com nomes de coisas Cés. B. Gal. 2,7,3.</small> <br> <b>4</b> &ensp; <small>Com nomes de pessoa:</small> &ensp; Em casa de, ao pé de, junto a, perto de &ensp; <small>Cíc. Pomp. 13.</small> <br> <b>5</b> &ensp; <small>Com nomes de pessoa:</small> &ensp; Entre &ensp; <small>principalmente com nomes de povos</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>apud focum Cíc. Rep. 3. 40 «junto ao fogo». <br> <br><b>2</b><br>apud Mantineam Cíc. Fin. 2, 97 “em Mantinéia”. <br> <br><b>5</b><br>apud Romanos, apud maiores nostros Cíc. Verr. 4. 108 “entre os romanos, entre os nossos antepassados”. </p> 
+ <b>aput</b> <br> <small>= apud.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Apud</b> <br> <small>prep. de accus.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; junto, ao pé. <br> <b>2</b> &ensp; diante. </p>
+
+
+
+
+#### Velez
+
+<b>Apud</b>   <p> <b>1</b> &ensp; perto, junto, ante, em, entre, etc </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>coenare apud aliquem &ensp; <small>cear com alguem, ou em casa de alguem</small> <br> de Petro apud forum audiui &ensp; <small>ouvi na praça</small> <br> est apud illum acceptissimus &ensp; <small>he para com elle muito aceito</small> <br> gratia ualere apud Regem &ensp; <small>ter valia com o rey</small> <br> hoc apud Ciceronem legi &ensp; <small>li isto em Cicero</small> <br> hoc apud me &ensp; <small>isto està em meu poder</small> <br> mos fuit apud Romanos &ensp; <small>entre os Romanos</small> <br> non sum apud me &ensp; <small>naõ estou em mim</small> <br> res agitur apud Judicem &ensp; <small>ante o juiz</small> <br> sede apud me &ensp; <small>junto de mim</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Apud</b> <br> <small>praepositio</small>   <p> <b>1</b> &ensp; iunto. ou cerca </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/89686 ' target="_blank"> http://lila-erc.eu/data/id/lemma/89686 </a> <br>
+<small> classe: </small> preposição    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> apor, apur, aput <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ăpŭd
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx97-112-117-100xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword apud here are all the values plotted: collocate: uos; scoreSUBST: 0. collocate: ceno; scoreSUBST: 0. collocate: Segestani; scoreSUBST: 0. collocate: pontifex; scoreSUBST: 2. collocate: habito; scoreSUBST: 0. collocate: multum; scoreSUBST: 0. collocate: is; scoreSUBST: 0. collocate: tu; scoreSUBST: 0. collocate: maiores; scoreSUBST: 2. collocate: nos; scoreSUBST: 0. collocate: praetor; scoreSUBST: 2. collocate: ego; scoreSUBST: 0. collocate: sui; scoreSUBST: 0. collocate: quisque; scoreSUBST: 0. collocate: auctoritas; scoreSUBST: 2. collocate: Caesar; scoreSUBST: 0. collocate: exercitus; scoreSUBST: 2. collocate: alius; scoreSUBST: 0. collocate: iste; scoreSUBST: 0. collocate: pater; scoreSUBST: 2. collocate: ille; scoreSUBST: 0. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx97-112-117-100xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword apud here are all the values plotted: collocate: uos; scoreADJ: 0. collocate: ceno; scoreADJ: 0. collocate: Segestani; scoreADJ: 0. collocate: pontifex; scoreADJ: 0. collocate: habito; scoreADJ: 0. collocate: multum; scoreADJ: 0. collocate: is; scoreADJ: 0. collocate: tu; scoreADJ: 0. collocate: maiores; scoreADJ: 0. collocate: nos; scoreADJ: 0. collocate: praetor; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: sui; scoreADJ: 0. collocate: quisque; scoreADJ: 0. collocate: auctoritas; scoreADJ: 0. collocate: Caesar; scoreADJ: 0. collocate: exercitus; scoreADJ: 0. collocate: alius; scoreADJ: 0. collocate: iste; scoreADJ: 0. collocate: pater; scoreADJ: 0. collocate: ille; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx97-112-117-100xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword apud here are all the values plotted: collocate: uos; scoreVERBO: 0. collocate: ceno; scoreVERBO: 2. collocate: Segestani; scoreVERBO: 0. collocate: pontifex; scoreVERBO: 0. collocate: habito; scoreVERBO: 2. collocate: multum; scoreVERBO: 0. collocate: is; scoreVERBO: 0. collocate: tu; scoreVERBO: 0. collocate: maiores; scoreVERBO: 0. collocate: nos; scoreVERBO: 0. collocate: praetor; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: sui; scoreVERBO: 0. collocate: quisque; scoreVERBO: 0. collocate: auctoritas; scoreVERBO: 0. collocate: Caesar; scoreVERBO: 0. collocate: exercitus; scoreVERBO: 0. collocate: alius; scoreVERBO: 0. collocate: iste; scoreVERBO: 0. collocate: pater; scoreVERBO: 0. collocate: ille; scoreVERBO: 0. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx97-112-117-100xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword apud here are all the values plotted: collocate: uos; scoreADV: 0. collocate: ceno; scoreADV: 0. collocate: Segestani; scoreADV: 0. collocate: pontifex; scoreADV: 0. collocate: habito; scoreADV: 0. collocate: multum; scoreADV: 2. collocate: is; scoreADV: 0. collocate: tu; scoreADV: 0. collocate: maiores; scoreADV: 0. collocate: nos; scoreADV: 0. collocate: praetor; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: sui; scoreADV: 0. collocate: quisque; scoreADV: 0. collocate: auctoritas; scoreADV: 0. collocate: Caesar; scoreADV: 0. collocate: exercitus; scoreADV: 0. collocate: alius; scoreADV: 0. collocate: iste; scoreADV: 0. collocate: pater; scoreADV: 0. collocate: ille; scoreADV: 0. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx97-112-117-100xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword apud here are all the values plotted: collocate: uos; scoreFUNC: 0. collocate: ceno; scoreFUNC: 0. collocate: Segestani; scoreFUNC: 0. collocate: pontifex; scoreFUNC: 0. collocate: habito; scoreFUNC: 0. collocate: multum; scoreFUNC: 0. collocate: is; scoreFUNC: 0. collocate: tu; scoreFUNC: 0. collocate: maiores; scoreFUNC: 0. collocate: nos; scoreFUNC: 0. collocate: praetor; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: sui; scoreFUNC: 0. collocate: quisque; scoreFUNC: 0. collocate: auctoritas; scoreFUNC: 0. collocate: Caesar; scoreFUNC: 0. collocate: exercitus; scoreFUNC: 0. collocate: alius; scoreFUNC: 0. collocate: iste; scoreFUNC: 0. collocate: pater; scoreFUNC: 0. collocate: ille; scoreFUNC: 0. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>apud</b> te est ut volumus <br> <small> Cic.Att.1.8.1 <br> Em tua casa está tudo conforme queremos. <small> [JDD] </small> </small> </p>
+; <p> A.d.III exercitum lustravi <b>apud</b> Iconium <br> <small> Cic.Att.5.20.2 <br> No terceiro dia antes das calendas [30 de agosto], passei em revista o exército próximo a Icônio. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> diximus <b>apud</b> pontifices pr Kal Octobris <br> <small> Cic.Att.4.2.2 <br> Falei diante dos pontífices na véspera das calendas de outubro [30 de setembro] <small> [JDD, de outra edição] </small> </small> </p>
+; <p> haec poena <b>apud</b> eos est grauissima <br> <small> Caes.Gal.6.13.6 <br> Essa pena é a mais grave entre eles. <small> [JDD] </small> </small> </p>
+; <p> ego <b>apud</b> improbos meam retinuissem invidiam <br> <small> Cic.Att.2.19.4 <br> eu, diante dos ímprobos; tinham mantido o ódio a mim. <small> [JDD] </small> </small> </p>
+; <p> <b>apud</b> Lentulum ponam te in gratia <br> <small> Cic.Att.5.3.2 <br> Te porei nas boas graças com Lêntulo. <small> [JDD] </small> </small> </p>
+; <p> uidete quanta religio fuerit <b>apud</b> Segestanos <br> <small> Cic.Ver.2.4.77.1 <br> 77 Vede quão grande escrúpulo religioso houve entre os segestanos. <small> [JDD] </small> </small> </p>
+; <p> <b>apud</b> bonos iidem sumus quos reliquisti <br> <small> Cic.Att.1.16.11 <br> perante os homens de bem sou o mesmo que deixaste. <small> [JDD] </small> </small> </p>
+; <p> valet autem auctoritas eius <b>apud</b> illum plurimum <br> <small> Cic.Att.5.11.3 <br> a autoridade deste vale muitíssimo junto a ele. <small> [JDD] </small> </small> </p>
+; <p> <b>apud</b> matrem recte est eaque nobis curae est <br> <small> Cic.Att.1.7.1 <br> Na casa de tua mãe tudo vai bem e ela está sob nosso cuidado. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> is cenam isti dabat <b>apud</b> uillam in Tyndaritano <br> <small> Cic.Ver.2.4.48.10 <br> Ele dava jantar a esse sujeito em sua casa de campo na chácara de Tíndaris. <small> [JDD] </small> </small> </p>
+; <p> esse illa signa domi suae non esse <b>apud</b> Uerrem <br> <small> Cic.Ver.2.4.16.4 <br> Que aquelas estátuas estavam em sua casa, não na de Verres? <small> [JDD] </small> </small> </p>
+; <p> flagrabant uitia libidinis <b>apud</b> illum uigebant etiam studia rei militaris <br> <small> Cic.Cael.12 <br> Ardiam nele os vícios do prazer libidinoso; florescia também o gosto pelos assuntos militares. <small> [JDD] </small> </small> </p>
+; <p> haec duo <b>apud</b> alios diuersa sunt <b>aput</b> nos tantum diuisa <br> <small> Sen.Ep.120.1 <br> Para outros, estes dois conceitos são diferentes, para nós, apenas separados. <small> [JDD] </small> </small> </p>
+; <p> habebo <b>apud</b> posteros gratiam possum me cum duratura nomina educere <br> <small> Sen.Ep.21.5 <br> terei prestígio entre os pósteros, posso levar comigo nomes que vão perdurar. <small> [JDD] </small> </small> </p>
+; <p> habitabat <b>apud</b> Titum ut audistis Dio erat ei cognitus Alexandriae <br> <small> Cic.Cael.24 <br> Díon estava morando na casa de Tito, conforme ouvistes; tinha-se tornado conhecido dele em Alexandria. <small> [JDD] </small> </small> </p>
+; <p> non possum dicere planius quam ipse <b>apud</b> uos dixit Heius <br> <small> Cic.Ver.2.4.27.7 <br> Não posso dizer de modo mais claro do que o próprio Heio disse diante de vós. <small> [JDD] </small> </small> </p>
+; <p> itaque quod paulo ante feci in senatu faciam <b>apud</b> uos <br> <small> Cic.Phil.6.5.1 <br> E assim o que eu fiz um pouco antes no senado, farei diante de vós. <small> [JDD] </small> </small> </p>
+; <p> nam fuit <b>apud</b> me Cornelius hunc dico Balbum Caesaris familiarem <br> <small> Cic.Att.2.3.3 <br> Pois Cornélio esteve em minha casa, o Balbo, estou dizendo, amigo de César. <small> [JDD] </small> </small> </p>
+; <p> quam multa autem paramus quia alii parauerunt quia <b>aput</b> plerosque sunt <br> <small> Sen.Ep.123.6 <br> Por outro lado, quão numerosas coisas nós adquirimos porque outros adquiriram, porque há na casa da maioria! <small> [JDD] </small> </small> </p>
+; <p> sed si me diligis postridie Kal cena <b>apud</b> me cum Pilia <br> <small> Cic.Att.4.12.1 <br> Mas se me estimas, janta em minha casa com Pília no dia seguinte às calendas [dia 2]. <small> [JDD] </small> </small> </p>
+; <p> haec qui <b>apud</b> se uersat in magno gaudio est sed parum blando <br> <small> Sen.Ep.23.4 <br> Quem exercita em si essas coisas está numa grande satisfação, mas pouco atraente. <small> [JDD] </small> </small> </p>
+; <p> tribuebatur hoc modo M. Catoni scimus L. Acilium <b>apud</b> patres nostros appellatum esse sapientem <br> <small> Cic.Amici.6 <br> Isso era atribuído há pouco a Marco Catão; sabemos que Lúcio Acílio entre nossos pais era chamado de sábio. <small> [JDD] </small> </small> </p>
+; <p> cum hic domicilium Romae multos iam annos haberet professus est <b>apud</b> praetorem Q. Metellum familiarissimum suum <br> <small> Cic.Arch.7 <br> Como este tinha domicílio em Roma já há muitos anos, registrou-se perante o pretor Quinto Metelo, amicíssimo seu. <small> [JDD] </small> </small> </p>
+; <p> bis et uiciens miliens sestertium donationibus Nero effuderat appellari singulos iussit decima parte liberalitatis <b>apud</b> quemque eorum relicta <br> <small> Tac.Hist.1.20.2 <br> Nero tinha torrado vinte e dois milhões de sestércios em donativos: ordenou que um por um fosse chamado, tendo sido deixada com cada um deles a décima parte do presente. <small> [JDD] </small> </small> </p>
+; <p> deinde etiam si quid <b>apud</b> maiores nostros fuit in isto studio admirationis id enuntiatis uestris mysteriis totum est contemptum et abiectum <br> <small> Cic.Mur.25 <br> Em segundo lugar, se houve ainda alguma admiração entre os nossos antepassados por esse estudo, isso, depois de revelados os vossos mistérios, foi totalmente desprezado e rejeitado. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx97-112-117-100xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 65.22 and an absolute frequency of 19. The Caesar subcorpus follows, with a normalized frequency of 12.46 and an absolute frequency of 33. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 33 ; absolute frequency: 12.4631769771131. subcorpus: Cicero ; normalized frequency: 182 ; absolute frequency: 11.3378684807256. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 8 ; absolute frequency: 7.42046192375475. subcorpus: Seneca ; normalized frequency: 41 ; absolute frequency: 7.65196618204214. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 19 ; absolute frequency: 65.2248541023. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx97-112-117-100xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.histórica subcorpus registers the highest normalized frequency, with the value of 14.61 and an absolute frequency of 60. The Prosa.oratória subcorpus follows, with a normalized frequency of 11.81 and an absolute frequency of 123. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 60 ; absolute frequency: 14.6060030672606. subcorpus: Prosa.filosófica ; normalized frequency: 55 ; absolute frequency: 9.06080624701405. subcorpus: Prosa.oratória ; normalized frequency: 123 ; absolute frequency: 11.809549412883. subcorpus: Prosa.epistolográfica ; normalized frequency: 45 ; absolute frequency: 11.9240043456371. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 1 ; absolute frequency: 0.848248367121893. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx97-112-117-100xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 49.74 and an absolute frequency of 19. The I.a.C. subcorpus follows, with a normalized frequency of 10.38 and an absolute frequency of 223. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 223 ; absolute frequency: 10.3793344193623. subcorpus: I.d.C. ; normalized frequency: 42 ; absolute frequency: 6.42496558054153. subcorpus: II.d.C. ; normalized frequency: 19 ; absolute frequency: 49.738219895288. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

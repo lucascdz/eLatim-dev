@@ -1,0 +1,204 @@
+---
+title: "tres"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx116-114-101-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>trēs</b> <b>tria</b> <br> <small>num. card.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Três &ensp; <small>Cíc. Tusc. 4, 14.</small> <br> <b>2</b> &ensp; <small></small> &ensp; Três &ensp; <small>= pequeno número Ter. Phorm. 638.</small> </p> 
+ <b>trium</b> <br> <small>gen. de trés.</small> <br> <small></small> 
+ <small>1.</small> <b>tribus</b> <br> <small>dat. abl. de trés.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Treis</b> <br> <small>Virg. por Tres.</small> 
+ <b>Tris</b> <br> <small>* Cic. por Tres.</small> 
+ <small>m. f</small> <b>Tres</b> <small>n</small> <b>tria</b> -<b>plur</b>   <p> <b>1</b> &ensp; <small>Virg.</small> &ensp; tres. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Tres</b> <b>tria</b>   <p> <b>1</b> &ensp; tres </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/128764 ' target="_blank"> http://lila-erc.eu/data/id/lemma/128764 </a> <br>
+<small> classe: </small> numeral    <br>
+<small> paradigma: </small> 2ª classe (sem vogal temática) <br>
+<small> outras grafias: </small> treis, tris <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+trēs 
+ trĭa 
+ trĭbŭs
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx116-114-101-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword tres here are all the values plotted: collocate: hora; scoreSUBST: 2. collocate: legio; scoreSUBST: 2. collocate: pars; scoreSUBST: 2. collocate: aut; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx116-114-101-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword tres here are all the values plotted: collocate: hora; scoreADJ: 0. collocate: legio; scoreADJ: 0. collocate: pars; scoreADJ: 0. collocate: aut; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx116-114-101-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword tres here are all the values plotted: collocate: hora; scoreVERBO: 0. collocate: legio; scoreVERBO: 0. collocate: pars; scoreVERBO: 0. collocate: aut; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx116-114-101-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword tres here are all the values plotted: collocate: hora; scoreADV: 0. collocate: legio; scoreADV: 0. collocate: pars; scoreADV: 0. collocate: aut; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx116-114-101-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword tres here are all the values plotted: collocate: hora; scoreFUNC: 0. collocate: legio; scoreFUNC: 0. collocate: pars; scoreFUNC: 0. collocate: aut; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> ante <b>tribus</b> horis Roma Interamnam <br> <small> Cic.Att.2.1.5 <br> mas em três horas de Roma a Interamna. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> tempus enim <b>tribus</b> partibus constat praeterito praesente uenturo <br> <small> Sen.Ep.124.17 <br> Pois o tempo consta de três partes, passado, presente, e o porvir. <small> [JDD] </small> </small> </p>
+; <p> bellum Iudaicum Flauius Uespasianus ducem eum Nero delegerat <b>tribus</b> legionibus administrabat <br> <small> Tac.Hist.1.10.11 <br> Flávio Vespasiano geria com três legiões a guerra contra os judeus (Nero o tinha escolhido como general). <small> [JDD] </small> </small> </p>
+; <p> tum copiis in <b>tres</b> partes distributis impedimenta omnium legionum Atuatucam contulit <br> <small> Caes.Gal.6.32.3 <br> Então, distribuídas em três partes as tropas, transportou as bagagens de todas as legiões para Aduátuca. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> atqui uidemus haec in rerum natura <b>tria</b> fuisse ut aut cum Saturnino esset aut cum bonis aut lateret <br> <small> Cic.Rab.Perd.24 <br> Mas vemos que nesse estado de coisas havia estas três opções: ou estar com Saturnino ou estar com os bons ou se esconder. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx116-114-101-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Caesar subcorpus registers the highest normalized frequency, with the value of 7.55 and an absolute frequency of 20. The Tacitus subcorpus follows, with a normalized frequency of 3.43 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 20 ; absolute frequency: 7.55344059218974. subcorpus: Cicero ; normalized frequency: 36 ; absolute frequency: 2.24265530387979. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 12 ; absolute frequency: 2.23959985815868. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx116-114-101-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 5.79 and an absolute frequency of 3. The Prosa.histórica subcorpus follows, with a normalized frequency of 5.6 and an absolute frequency of 23. the subcorpus with the least normalized frequency is Poesia.didática with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 23 ; absolute frequency: 5.59896784244991. subcorpus: Prosa.filosófica ; normalized frequency: 13 ; absolute frequency: 2.14164511293059. subcorpus: Prosa.oratória ; normalized frequency: 22 ; absolute frequency: 2.11227713075956. subcorpus: Prosa.epistolográfica ; normalized frequency: 11 ; absolute frequency: 2.91475661782241. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx116-114-101-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 3.03 and an absolute frequency of 65. The I.d.C. subcorpus follows, with a normalized frequency of 1.84 and an absolute frequency of 12. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 65 ; absolute frequency: 3.02536653479172. subcorpus: I.d.C. ; normalized frequency: 12 ; absolute frequency: 1.83570445158329. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

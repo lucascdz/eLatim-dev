@@ -1,0 +1,206 @@
+---
+title: "ingenium"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-110-103-101-110-105-117-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>ingenĭum</b> <b>-í</b> <br> <small>subs. n.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Caráter inato, qualidade natural, natureza &ensp; <small>tratando-se de pessoas ou coisas Verg. G. 2, 177.</small> <br> <b>2</b> &ensp; <small>I-Daí em sent. especial:</small> &ensp; Engenho, inteligência &ensp; <small>Cíc. Br. 93.</small> <br> <b>3</b> &ensp; <small>I-Daí em sent. especial:</small> &ensp; Talento, gênio, imaginação, capacidade &ensp; <small>Cíc. Fam. 4. 8. 1.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Invenção, inspiração &ensp; <small>Tác. Hist. 3, 28.</small> <br> <b>5</b> &ensp; <small>II-No pl.:</small> &ensp; Pessoas de gênio, de talento &ensp; <small>Cíc. Fam. 4. 8. 2.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Ingenium</b> -<b>ii</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Plaut.</small> &ensp; natureza, virtude, ou propriedade natural das cousas. <br> <b>2</b> &ensp; <small>Ter.</small> &ensp; genio, indole, natural do homem. <br> <b>3</b> &ensp; <small>Cic.</small> &ensp; engenho, talento, agudeza, entendimento. <br> <b>4</b> &ensp; <small>Plin.</small> &ensp; cousa inventado com engenho. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Ingenium</b> <b>ij</b>   <p> <b>1</b> &ensp; ho engenho. ou cõdição </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/107798 ' target="_blank"> http://lila-erc.eu/data/id/lemma/107798 </a> <br>
+<small> classe: </small> substantivo neutro   <br>
+<small> paradigma: </small> 2ª declinação (tema em -o-) <br>
+<small> outras grafias: </small> ingeniom <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ingĕnĭum 
+ ingĕnĭī
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx105-110-103-101-110-105-117-109xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-110-103-101-110-105-117-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ingenium here are all the values plotted: collocate: ualeo; scoreSUBST: 0. collocate: quantus; scoreSUBST: 0. collocate: solum; scoreSUBST: 0. collocate: superus; scoreSUBST: 0. collocate: uirtus; scoreSUBST: 2. collocate: homo; scoreSUBST: 2. collocate: aut; scoreSUBST: 0. collocate: neque; scoreSUBST: 0. collocate: atque; scoreSUBST: 0. collocate: et; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-110-103-101-110-105-117-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ingenium here are all the values plotted: collocate: ualeo; scoreADJ: 0. collocate: quantus; scoreADJ: 0. collocate: solum; scoreADJ: 0. collocate: superus; scoreADJ: 0. collocate: uirtus; scoreADJ: 0. collocate: homo; scoreADJ: 0. collocate: aut; scoreADJ: 0. collocate: neque; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: et; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-110-103-101-110-105-117-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ingenium here are all the values plotted: collocate: ualeo; scoreVERBO: 2. collocate: quantus; scoreVERBO: 0. collocate: solum; scoreVERBO: 0. collocate: superus; scoreVERBO: 0. collocate: uirtus; scoreVERBO: 0. collocate: homo; scoreVERBO: 0. collocate: aut; scoreVERBO: 0. collocate: neque; scoreVERBO: 0. collocate: atque; scoreVERBO: 0. collocate: et; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-110-103-101-110-105-117-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ingenium here are all the values plotted: collocate: ualeo; scoreADV: 0. collocate: quantus; scoreADV: 0. collocate: solum; scoreADV: 2. collocate: superus; scoreADV: 0. collocate: uirtus; scoreADV: 0. collocate: homo; scoreADV: 0. collocate: aut; scoreADV: 0. collocate: neque; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: et; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-110-103-101-110-105-117-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ingenium here are all the values plotted: collocate: ualeo; scoreFUNC: 0. collocate: quantus; scoreFUNC: 0. collocate: solum; scoreFUNC: 0. collocate: superus; scoreFUNC: 0. collocate: uirtus; scoreFUNC: 0. collocate: homo; scoreFUNC: 0. collocate: aut; scoreFUNC: 0. collocate: neque; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: et; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Hac re probatur quantum <b>ingenium</b> valet ; <br> <small> Phaed.1.13 <br> [Com este fato é provado o quanto vale o talento. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> et patrimonium habebat libertini et <b>ingenium</b> numquam uidi hominem beatum indecentius <br> <small> Sen.Ep.27.5 <br> tinha tanto o patrimônio como o caráter de um liberto; nunca vi um homem mais indecentemente feliz. <small> [JDD] </small> </small> </p>
+; <p> ita eorum qui fecere uirtus tanta habetur quantum eam uerbis potuere extollere praeclara <b>ingenia</b> <br> <small> Sal.Cat.8.4 <br> Assim o valor dos que fizeram isso é considerado tão grande quanto os ilustres gênios puderam exaltá-lo com palavras. <small> [JDD] </small> </small> </p>
+; <p> <b>ingenium</b> cui sit cui mens diuinior atque os magna sonaturum des nominis huius honorem <br> <small> Hor.S.1.4.43 <br> Que dês a honra desse nome àquele que tem talento, que tem uma mente mais divina e uma boca capaz de entoar grandes cantos. <small> [JDD] </small> </small> </p>
+; <p> quis L. Philippum summo <b>ingenio</b> opera gratia nobilitate a M. Herennio superari posse arbitratus est <br> <small> Cic.Mur.36 <br> Quem pensou que Lúcio Filipo, com seu imenso talento, seu trabalho, sua influência, sua nobreza podia ser vencido por Marco Herênio? <small> [JDD] </small> </small> </p>
+; <p> unus est qui curet constantia magis et integritate quam ut mihi videtur consilio aut <b>ingenio</b> Cato <br> <small> Cic.Att.1.18.7 <br> Só há um que se preocupa com mais constância e integridade do que, pelo que me parece, com conselho e inteligência, Catão. <small> [JDD] </small> </small> </p>
+; <p> orator metuo ne languescat senectute est enim munus eius non <b>ingeni</b> solum sed laterum etiam et uirium <br> <small> Cic.Sen.28 <br> Tenho medo de que o orador se enfraqueça com a velhice; pois seu ofício não depende apenas do talento, mas também dos pulmões e do vigor. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> non possum disposite istum accusare si cupiam opus est non solum <b>ingenio</b> uerum etiam artificio quodam singulari <br> <small> Cic.Ver.2.4.87.12 <br> Não posso acusar esse sujeito de modo ordenado, como eu queria; é necessário não só talento, mas também uma certa habilidade singular. <small> [JDD] </small> </small> </p>
+; <p> atque ego haec non in M. Tullio neque his temporibus uereor sed in magna ciuitate multa et uaria <b>ingenia</b> sunt <br> <small> Sal.Cat.51.35 <br> E eu não temo esses abusos nem da parte de Marco Túlio nem nestes tempos aqui, mas numa grande cidade as personalidades são muitas e variadas. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ac primum quanta innocentia debent esse imperatores quanta deinde in omnibus rebus temperantia quanta fide quanta facilitate quanto <b>ingenio</b> quanta humanitate <br> <small> Cic.Man.36 <br> Em primeiro lugar, que grande integridade os generais devem ter, em seguida, que grande moderação em todas as coisas, que grande lealdade, que grande afabilidade, que grande talento, que grande humanidade! <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-110-103-101-110-105-117-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Sallustius subcorpus registers the highest normalized frequency, with the value of 15.77 and an absolute frequency of 17. The Suetonius subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 69 ; absolute frequency: 4.2984226657696. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 4 ; absolute frequency: 6.0725671777744. subcorpus: Sallustius ; normalized frequency: 17 ; absolute frequency: 15.7684815879789. subcorpus: Seneca ; normalized frequency: 28 ; absolute frequency: 5.22573300237024. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 4 ; absolute frequency: 13.7315482320632. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-110-103-101-110-105-117-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 6.26 and an absolute frequency of 38. The Prosa.histórica subcorpus follows, with a normalized frequency of 5.11 and an absolute frequency of 21. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 21 ; absolute frequency: 5.11210107354123. subcorpus: Prosa.filosófica ; normalized frequency: 38 ; absolute frequency: 6.26019340702789. subcorpus: Prosa.oratória ; normalized frequency: 53 ; absolute frequency: 5.08866763319347. subcorpus: Prosa.epistolográfica ; normalized frequency: 5 ; absolute frequency: 1.32488937173746. subcorpus: Poesia.lírica ; normalized frequency: 5 ; absolute frequency: 4.20627576343905. subcorpus: Poesia.didática ; normalized frequency: 4 ; absolute frequency: 3.39299346848757. subcorpus: Poesia.trágica ; normalized frequency: 1 ; absolute frequency: 0.868658790826963. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-110-103-101-110-105-117-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 10.47 and an absolute frequency of 4. The I.d.C. subcorpus follows, with a normalized frequency of 4.9 and an absolute frequency of 32. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 91 ; absolute frequency: 4.2355131487084. subcorpus: I.d.C. ; normalized frequency: 32 ; absolute frequency: 4.89521187088879. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

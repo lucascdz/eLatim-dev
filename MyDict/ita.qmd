@@ -1,0 +1,239 @@
+---
+title: "ita"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-116-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>ita</b> <br> <small>adv.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>Especifica uma coisa dita ou que vai ser dita:</small> &ensp; assim, deste modo, como disse, como se segue &ensp; <small>Cíc. Clu. 51; C ic. Verr. 5, 110.</small> <br> <b>2</b> &ensp; <small>Nas respostas:</small> &ensp; como disse, como disseste, sim, certamente, exatamente: &ensp; <small></small> <br> <b>3</b> &ensp; <small>Como correlativo de ut nas comparações:</small> &ensp; assim ... como &ensp; <small>Plaut. Merc. 262.</small> <br> <b>4</b> &ensp; <small>Daí, nas fórmulas de afirmação, exprimindo um desejo podendo aliás ut vir explícito ou não:</small> &ensp; assim, oxalá: &ensp; <small></small> <br> <b>5</b> &ensp; <small>Donde o emprego como consecutivo:</small> &ensp; tanto ... que, a tal ponto ... que, de tal sorte ... que &ensp; <small>Cíc. Lae. 19.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>2</b><br>militem pol tu aspexisti? - Ita. Plaut. Mil. 1. 262 “por Pólux, tu viste o militar? -Sim”. <br> <br><b>4</b><br>ita me Venus amet ut ego te numquam sinam Plaut. Curc. 209 «assim me ame Vênus, como nunca te darei a permissão» Cíc. Fam. 16, 20, 1. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Ita</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; assim, de tal sorte, sim, tambem, na verdade, sem duvida, por tanto. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>quid ita? &ensp; <small><small>Ter</small></small> &ensp; <small>Porque motivo?</small> </p>
+
+
+
+
+#### Velez
+
+<b>Ita</b> <br> <small>Adverb. respondendi, vel affirmandi</small>   <p> <b>1</b> &ensp; sim, ou assim <br> <b>2</b> &ensp; <small>cum negatione pro Valdè ponitur</small> <br> <b>3</b> &ensp; <small>ita</small> &ensp; de tal modo, ou maneira &ensp; <small>cum Ut, & conjunctivo.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>ita loquor &ensp; <small>assim costumo fallar; ou digo, o que na verdade he</small> <br> <br><b>2</b><br>non ita, & c &ensp; <small><small>i, non valdè</small></small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Ita</b> <br> <small>aduerb. similitudinis.</small>   <p> <b>1</b> &ensp; assi </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>ita legit </p> 
+ <b>Ita</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/109126 ' target="_blank"> http://lila-erc.eu/data/id/lemma/109126 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ĭtă 
+ ĭtănĕ
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx105-116-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-116-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ita here are all the values plotted: collocate: dico; scoreSUBST: 0. collocate: ut; scoreSUBST: 0. collocate: censeo; scoreSUBST: 0. collocate: fio; scoreSUBST: 0. collocate: atque; scoreSUBST: 0. collocate: si; scoreSUBST: 0. collocate: sum; scoreSUBST: 0. collocate: facio; scoreSUBST: 0. collocate: tamen; scoreSUBST: 0. collocate: sed; scoreSUBST: 0. collocate: cum; scoreSUBST: 0. collocate: sui; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: ni; scoreSUBST: 0. collocate: enim; scoreSUBST: 0. collocate: multus; scoreSUBST: 0. collocate: loquor; scoreSUBST: 0. collocate: scribo; scoreSUBST: 0. collocate: uiuo; scoreSUBST: 0. collocate: respondeo; scoreSUBST: 0. collocate: quidam; scoreSUBST: 0. collocate: uos; scoreSUBST: 0. collocate: finio; scoreSUBST: 0. collocate: sane; scoreSUBST: 0. collocate: necesse; scoreSUBST: 0. collocate: decerno; scoreSUBST: 0. collocate: Quirites; scoreSUBST: 0. collocate: laudo; scoreSUBST: 0. collocate: placeo; scoreSUBST: 0. collocate: denique; scoreSUBST: 0. collocate: nolo; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-116-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ita here are all the values plotted: collocate: dico; scoreADJ: 0. collocate: ut; scoreADJ: 0. collocate: censeo; scoreADJ: 0. collocate: fio; scoreADJ: 0. collocate: atque; scoreADJ: 0. collocate: si; scoreADJ: 0. collocate: sum; scoreADJ: 0. collocate: facio; scoreADJ: 0. collocate: tamen; scoreADJ: 0. collocate: sed; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: sui; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: ni; scoreADJ: 0. collocate: enim; scoreADJ: 0. collocate: multus; scoreADJ: 0. collocate: loquor; scoreADJ: 0. collocate: scribo; scoreADJ: 0. collocate: uiuo; scoreADJ: 0. collocate: respondeo; scoreADJ: 0. collocate: quidam; scoreADJ: 0. collocate: uos; scoreADJ: 0. collocate: finio; scoreADJ: 0. collocate: sane; scoreADJ: 0. collocate: necesse; scoreADJ: 0. collocate: decerno; scoreADJ: 0. collocate: Quirites; scoreADJ: 0. collocate: laudo; scoreADJ: 0. collocate: placeo; scoreADJ: 0. collocate: denique; scoreADJ: 0. collocate: nolo; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-116-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ita here are all the values plotted: collocate: dico; scoreVERBO: 3. collocate: ut; scoreVERBO: 0. collocate: censeo; scoreVERBO: 2. collocate: fio; scoreVERBO: 2. collocate: atque; scoreVERBO: 0. collocate: si; scoreVERBO: 0. collocate: sum; scoreVERBO: 3. collocate: facio; scoreVERBO: 2. collocate: tamen; scoreVERBO: 0. collocate: sed; scoreVERBO: 0. collocate: cum; scoreVERBO: 0. collocate: sui; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: ni; scoreVERBO: 0. collocate: enim; scoreVERBO: 0. collocate: multus; scoreVERBO: 0. collocate: loquor; scoreVERBO: 2. collocate: scribo; scoreVERBO: 2. collocate: uiuo; scoreVERBO: 2. collocate: respondeo; scoreVERBO: 2. collocate: quidam; scoreVERBO: 0. collocate: uos; scoreVERBO: 0. collocate: finio; scoreVERBO: 2. collocate: sane; scoreVERBO: 0. collocate: necesse; scoreVERBO: 0. collocate: decerno; scoreVERBO: 2. collocate: Quirites; scoreVERBO: 0. collocate: laudo; scoreVERBO: 2. collocate: placeo; scoreVERBO: 2. collocate: denique; scoreVERBO: 0. collocate: nolo; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-116-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ita here are all the values plotted: collocate: dico; scoreADV: 0. collocate: ut; scoreADV: 0. collocate: censeo; scoreADV: 0. collocate: fio; scoreADV: 0. collocate: atque; scoreADV: 0. collocate: si; scoreADV: 0. collocate: sum; scoreADV: 0. collocate: facio; scoreADV: 0. collocate: tamen; scoreADV: 2. collocate: sed; scoreADV: 0. collocate: cum; scoreADV: 0. collocate: sui; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: ni; scoreADV: 0. collocate: enim; scoreADV: 2. collocate: multus; scoreADV: 0. collocate: loquor; scoreADV: 0. collocate: scribo; scoreADV: 0. collocate: uiuo; scoreADV: 0. collocate: respondeo; scoreADV: 0. collocate: quidam; scoreADV: 0. collocate: uos; scoreADV: 0. collocate: finio; scoreADV: 0. collocate: sane; scoreADV: 2. collocate: necesse; scoreADV: 2. collocate: decerno; scoreADV: 0. collocate: Quirites; scoreADV: 0. collocate: laudo; scoreADV: 0. collocate: placeo; scoreADV: 0. collocate: denique; scoreADV: 2. collocate: nolo; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-116-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ita here are all the values plotted: collocate: dico; scoreFUNC: 0. collocate: ut; scoreFUNC: 30. collocate: censeo; scoreFUNC: 0. collocate: fio; scoreFUNC: 0. collocate: atque; scoreFUNC: 0. collocate: si; scoreFUNC: 20. collocate: sum; scoreFUNC: 0. collocate: facio; scoreFUNC: 0. collocate: tamen; scoreFUNC: 0. collocate: sed; scoreFUNC: 0. collocate: cum; scoreFUNC: 20. collocate: sui; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: ni; scoreFUNC: 20. collocate: enim; scoreFUNC: 0. collocate: multus; scoreFUNC: 0. collocate: loquor; scoreFUNC: 0. collocate: scribo; scoreFUNC: 0. collocate: uiuo; scoreFUNC: 0. collocate: respondeo; scoreFUNC: 0. collocate: quidam; scoreFUNC: 0. collocate: uos; scoreFUNC: 0. collocate: finio; scoreFUNC: 0. collocate: sane; scoreFUNC: 0. collocate: necesse; scoreFUNC: 0. collocate: decerno; scoreFUNC: 0. collocate: Quirites; scoreFUNC: 0. collocate: laudo; scoreFUNC: 0. collocate: placeo; scoreFUNC: 0. collocate: denique; scoreFUNC: 0. collocate: nolo; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> sit <b>ita</b> sane <br> <small> Cic.Amici.18 <br> Que seja assim, sem dúvida. <small> [JDD] </small> </small> </p>
+; <p> ut scribis <b>ita</b> video <br> <small> Cic.Att.2.15.1 <br> Vejo, como tu me escreves. <small> [JDD] </small> </small> </p>
+; <p> <b>ita</b> enim plerique iudicant <br> <small> Sen.Ep.33.2 <br> Pois a maioria assim julga. <small> [JDD] </small> </small> </p>
+; <p> <b>ita</b> me multa sollicitant <br> <small> Cic.Att.5.5.1 <br> de tal modo muitas coisas me preocupam. <small> [JDD] </small> </small> </p>
+; <p> prorsus ut scribis <b>ita</b> sentio <br> <small> Cic.Att.2.17.1 <br> Penso exatamente como escreves. <small> [JDD] </small> </small> </p>
+; <p> sane <b>ita</b> cadebat ut vellem <br> <small> Cic.Att.3.7.1 <br> Sem dúvida, isso seria como eu queria. <small> [JDD] </small> </small> </p>
+; <p> est iudices <b>ita</b> ut dicitur <br> <small> Cic.Ver.2.4.117.2 <br> É assim como se diz, juízes. <small> [JDD] </small> </small> </p>
+; <p> sed si <b>ita</b> placuit laudemus <br> <small> Cic.Att.2.1.10 <br> Mas se assim agradou, louvemos. <small> [JDD] </small> </small> </p>
+; <p> <b>ita</b> fac oro atque obsecro <br> <small> Sen.Ep.19.1 <br> Faz assim, peço e suplico. <small> [JDD] </small> </small> </p>
+; <p> saepe <b>ita</b> me di iuvent <br> <small> Cic.Att.1.16.1 <br> Muitas vezes, assim me ajudem os deuses. <small> [JDD] </small> </small> </p>
+; <p> Romae quod scribis sileri <b>ita</b> putabam <br> <small> Cic.Att.2.13.2 <br> O que escreves que em Roma calam, eu assim imaginava. <small> [JDD] </small> </small> </p>
+; <p> <b>ita</b> vivam ut maximos sumptus facio <br> <small> Cic.Att.5.15.2 <br> Que eu viva assim como faço enormes despesas. <small> [JDD] </small> </small> </p>
+; <p> istuc quidem Laeli <b>ita</b> necesse est <br> <small> Cic.Amici.16 <br> Isso, Lélio, é certamente necessário que seja assim. <small> [JDD] </small> </small> </p>
+; <p> Atque <b>ita</b> locutus improbam leto dedit . <br> <small> Phaed.1.22 <br> E, tendo assim falado, matou a malvada. <small> [JDD] </small> </small> </p>
+; <p> Atque <b>ita</b> correptum lacerat iniusta nece . <br> <small> Phaed.1.1 <br> E assim, o agarra e dilacera com injusta morte. <small> [JDD] </small> </small> </p>
+; <p> occulte sed <b>ita</b> ut perspicuum sit invidet <br> <small> Cic.Att.1.13.4 <br> ocultamente, mas de um modo que é perceptível, me põe olho gordo. <small> [JDD] </small> </small> </p>
+; <p> <b>ita</b> enim egi te cum superioribus litteris <br> <small> Cic.Att.2.25.2 <br> pois assim tratei contigo em minha última carta. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> proinde <b>ita</b> fac venias ut ad sitientis auris <br> <small> Cic.Att.2.14.1 <br> Por isso, procura vir como diante de ouvidos sedentos. <small> [JDD] </small> </small> </p>
+; <p> <b>ita</b> ancipiti proelio diu atque acriter pugnatum est <br> <small> Caes.Gal.1.26.1 <br> Assim, em dupla batalha, combateu-se por longo tempo e encarniçadamente. <small> [JDD] </small> </small> </p>
+; <p> cogor ut velim <b>ita</b> sit sed omnia metuo <br> <small> Cic.Att.5.21.3 <br> Sou obrigado; gostaria que fosse assim, mas tenho medo de tudo. <small> [JDD] </small> </small> </p>
+; <p> tabellae ministrabantur <b>ita</b> ut nulla daretur uti rogas <br> <small> Cic.Att.1.14.5 <br> distribuíam tabuinhas de forma que não fosse dada nenhuma com o “a favor” <small> [JDD] </small> </small> </p>
+; <p> <b>ita</b> est Lucili paucos seruitus plures seruitutem tenent <br> <small> Sen.Ep.22.11 <br> Assim é, Lucílio: a servidão retém a poucos, muitos retêm a servidão. <small> [JDD] </small> </small> </p>
+; <p> et fuisset <b>ita</b> si homines transitum tempestatis exspectare potuissent <br> <small> Cic.Att.2.21.2 <br> e teria sido assim, se os homens tivessem podido aguardar a tempestade passar. <small> [JDD] </small> </small> </p>
+; <p> <b>ita</b> cum maximis eum rebus liberares perparuam culpam relinquebas <br> <small> Cic.Deiot.10 <br> 10 Assim, liberando-o das acusações mais graves, lhe deixavas uma muito pequena culpa. <small> [JDD] </small> </small> </p>
+; <p> at eodem te cum cenauisses rediturum dixeras <b>ita</b>que fecisti <br> <small> Cic.Deiot.19 <br> No entanto, tinhas dito que, depois de teres jantado, voltarias ao mesmo local e assim o fizeste. <small> [JDD] </small> </small> </p>
+; <p> <b>ita</b> utrumque per se indigens alterum alterius auxilio eget <br> <small> Sal.Cat.1.7 <br> Assim, ambas as coisas, insuficientes por si mesmas, necessitam da cooperação uma da outra. <small> [JDD] </small> </small> </p>
+; <p> incredibile dicam sed <b>ita</b> clarum ut ipsum negaturum non arbitrer <br> <small> Cic.Ver.2.4.57.14 <br> Vou dizer algo incrível, mas tão evidente que eu creio que nem ele próprio vai negar. <small> [JDD] </small> </small> </p>
+; <p> quamquam ea quoque sit effusa si <b>ita</b> in actis fuit <br> <small> Cic.Phil.1.17.10 <br> Embora ele também tenha sido gasto, se assim estava nas resoluções. <small> [JDD] </small> </small> </p>
+; <p> <b>ita</b> fato placuit nullius rei eodem semper loco stare fortunam <br> <small> Sen.Helv.7.10 <br> Assim agradou ao destino que a sorte de coisa alguma ficasse sempre no mesmo lugar. <small> [JDD] </small> </small> </p>
+; <p> itaque ego seueritati tuae <b>ita</b> ut oportet respondere non audeo <br> <small> Cic.Cael.30 <br> E assim eu não ouso responder à tua severidade como convinha. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> hoc me <b>ita</b> velle multi non credunt ex consuetudine aliorum <br> <small> Cic.Att.5.2.3 <br> Muitos não creem que eu queira isso desse modo com base no costume dos outros. <small> [JDD] </small> </small> </p>
+; <p> <b>ita</b> nationes multae atque magnae nouo quodam terrore ac metu concitabantur <br> <small> Cic.Man.23 <br> Assim numerosas e grandes nações eram instigadas por um certo terror e medo inédito. <small> [JDD] </small> </small> </p>
+; <p> <b>ita</b> fiet ut tua ista ratio existimetur astuta meum hoc consilium necessarium <br> <small> Cic.Ver.1.34 <br> Assim vai ocorrer que esse teu método seja considerado astuto e esta minha decisão, necessária. <small> [JDD] </small> </small> </p>
+; <p> <b>ita</b> ut uos dicitis coguntur metusque illa in rectum non uoluntas mouet <br> <small> Sen.Ep.121.7 <br> Assim, como vós dizeis, são obrigados, e é o medo, não a vontade, que os move de modo correto.” <small> [JDD] </small> </small> </p>
+; <p> quidam <b>ita</b> finiunt bonum est quod inuitat animos quod ad se uocat <br> <small> Sen.Ep.118.8 <br> Certos o definem assim: “O bem é o que convida os espíritos, o que os chama para si”. <small> [JDD] </small> </small> </p>
+; <p> de ea re <b>ita</b> censuerunt comitia primo quoque tempore haberi esse e re publica <br> <small> Cic.Att.4.17.3 <br> Foram de parecer sobre esse assunto que as eleições fossem realizadas o quanto antes. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> est enim <b>ita</b> decretum ut si ille auctoritati senatus non paruisset ad saga iretur <br> <small> Cic.Phil.6.9.6 <br> Pois assim foi decretado: que, se ele não se submetesse à autoridade do senado, ia-se aos trajes de guerra. <small> [JDD] </small> </small> </p>
+; <p> nos Tusculano <b>ita</b> delectamur ut nobis met ipsis tum denique cum illo venimus placeamus <br> <small> Cic.Att.1.6.2 <br> Eu me deleito tanto com a chácara de Túsculo que só me comprazo comigo mesmo quando vou lá. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> <b>ita</b> uero Quirites ei ut precamini eueniat atque huius amentiae poena in ipsum familiamque eius recidat <br> <small> Cic.Phil.4.10.1 <br> Que realmente assim aconteça, quirites, tal como pedis aos deuses, e que a pena de sua demência recaia sobre ele e sua gente! <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quod ni <b>ita</b> fuisset alterum illud exstitisset lumen ciuitatis ad paternam enim magnitudinem animi doctrina uberior accesserat <br> <small> Cic.Sen.35 <br> Se isso não tivesse sido assim, teria existido a segunda luz da cidade; pois à grandeza de espírito de seu pai teria se juntado uma instrução mais rica. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> agatur eius diligentissime cura <b>ita</b> tamen ut cum exiget ratio cum dignitas cum fides mittendum in ignes sit <br> <small> Sen.Ep.14.2 <br> Tenha-se com ele um cuidado com muita solicitude, porém, de tal modo que quando a razão, quando a dignidade, quando a lealdade exigirem, devemos lançá-lo ao fogo. <small> [JDD] </small> </small> </p>
+; <p> quibus ex nauibus cum essent expositi milites circiter trecenti atque in castra contenderent Morini quos Caesar in Britanniam proficiscens pacatos reliquerat spe praedae adducti primo non <b>ita</b> magno suorum numero circumsteterunt ac si sese interfici nollent arma ponere iusserunt <br> <small> Caes.Gal.4.37.1 <br> Como desses navios tinham desembarcado cerca de trezentos soldados e se dirigiam ao acampamento, os morinos, que César, ao partir para a Britânia, tinha deixado pacificados, levados pela esperança de presa, os circundaram com um número não tão grande dos seus e ordenaram que depusessem as armas, se não queriam ser mortos. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-116-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Tacitus subcorpus registers the highest normalized frequency, with the value of 27.46 and an absolute frequency of 8. The Cicero subcorpus follows, with a normalized frequency of 26.04 and an absolute frequency of 418. the subcorpus with the least normalized frequency is Vergilius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 37 ; absolute frequency: 13.973865095551. subcorpus: Cicero ; normalized frequency: 418 ; absolute frequency: 26.0397199172709. subcorpus: Horatius ; normalized frequency: 6 ; absolute frequency: 5.32812361246781. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 6 ; absolute frequency: 9.10885076666161. subcorpus: Sallustius ; normalized frequency: 26 ; absolute frequency: 24.116501252203. subcorpus: Seneca ; normalized frequency: 63 ; absolute frequency: 11.757899255333. subcorpus: Suetonius ; normalized frequency: 2 ; absolute frequency: 22.0507166482911. subcorpus: Tacitus ; normalized frequency: 8 ; absolute frequency: 27.4630964641263. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 10 ; absolute frequency: 22.4668613794653'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-116-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 31.8 and an absolute frequency of 120. The Prosa.oratória subcorpus follows, with a normalized frequency of 22.95 and an absolute frequency of 239. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 73 ; absolute frequency: 17.7706370651671. subcorpus: Prosa.filosófica ; normalized frequency: 118 ; absolute frequency: 19.4395479481392. subcorpus: Prosa.oratória ; normalized frequency: 239 ; absolute frequency: 22.947010647797. subcorpus: Prosa.epistolográfica ; normalized frequency: 120 ; absolute frequency: 31.797344921699. subcorpus: Poesia.lírica ; normalized frequency: 6 ; absolute frequency: 5.04753091612686. subcorpus: Poesia.didática ; normalized frequency: 10 ; absolute frequency: 8.48248367121893. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 10 ; absolute frequency: 22.4668613794653'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-116-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 26.18 and an absolute frequency of 10. The I.a.C. subcorpus follows, with a normalized frequency of 22.67 and an absolute frequency of 487. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 11.17 and an absolute freqeuncy of 73. here are all the values: subcorpus: I.a.C. ; normalized frequency: 487 ; absolute frequency: 22.6669769606702. subcorpus: I.d.C. ; normalized frequency: 73 ; absolute frequency: 11.167202080465. subcorpus: II.d.C. ; normalized frequency: 10 ; absolute frequency: 26.1780104712042. subcorpus: IV.d.C. ; normalized frequency: 10 ; absolute frequency: 22.4668613794653'}
+
+
+:::
+

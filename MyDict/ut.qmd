@@ -1,0 +1,244 @@
+---
+title: "ut"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx117-116xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+no data
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+no data
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/130905 ' target="_blank"> http://lila-erc.eu/data/id/lemma/130905 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small> utei, uti <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+ŭt 
+ ŭtī
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx117-116xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword ut here are all the values plotted: collocate: sum; scoreSUBST: 0. collocate: is; scoreSUBST: 0. collocate: facio; scoreSUBST: 0. collocate: non; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: scribo; scoreSUBST: 0. collocate: ita; scoreSUBST: 0. collocate: tu; scoreSUBST: 0. collocate: omnis; scoreSUBST: 0. collocate: scio; scoreSUBST: 0. collocate: dico; scoreSUBST: 0. collocate: curo; scoreSUBST: 0. collocate: uideo; scoreSUBST: 0. collocate: nam; scoreSUBST: 0. collocate: ago; scoreSUBST: 0. collocate: opinor; scoreSUBST: 0. collocate: fio; scoreSUBST: 0. collocate: aio; scoreSUBST: 0. collocate: quisque; scoreSUBST: 0. collocate: uolo; scoreSUBST: 0. collocate: ualeo; scoreSUBST: 0. collocate: spero; scoreSUBST: 0. collocate: nisi; scoreSUBST: 0. collocate: puto; scoreSUBST: 0. collocate: uos; scoreSUBST: 0. collocate: efficio; scoreSUBST: 0. collocate: soleo; scoreSUBST: 0. collocate: accido; scoreSUBST: 0. collocate: rogo; scoreSUBST: 0. collocate: primum; scoreSUBST: 0. collocate: oro; scoreSUBST: 0. collocate: hortor; scoreSUBST: 0. collocate: supra; scoreSUBST: 0. collocate: committo; scoreSUBST: 0. collocate: decerno; scoreSUBST: 0. collocate: opera; scoreSUBST: 2. collocate: adduco; scoreSUBST: 0. collocate: Quirites; scoreSUBST: 0. collocate: omitto; scoreSUBST: 0. collocate: instituo; scoreSUBST: 0. collocate: sancio; scoreSUBST: 0. collocate: perduco; scoreSUBST: 0. collocate: breuiter; scoreSUBST: 0. collocate: euenio; scoreSUBST: 0. collocate: admoneo; scoreSUBST: 0. collocate: aequalis; scoreSUBST: 0. collocate: resto; scoreSUBST: 0. collocate: reseruo; scoreSUBST: 0. collocate: exigo; scoreSUBST: 0. collocate: persuadeo; scoreSUBST: 0. collocate: mando; scoreSUBST: 0. collocate: opinio; scoreSUBST: 2. collocate: quondam; scoreSUBST: 0. collocate: saluus; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx117-116xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword ut here are all the values plotted: collocate: sum; scoreADJ: 0. collocate: is; scoreADJ: 0. collocate: facio; scoreADJ: 0. collocate: non; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: scribo; scoreADJ: 0. collocate: ita; scoreADJ: 0. collocate: tu; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: scio; scoreADJ: 0. collocate: dico; scoreADJ: 0. collocate: curo; scoreADJ: 0. collocate: uideo; scoreADJ: 0. collocate: nam; scoreADJ: 0. collocate: ago; scoreADJ: 0. collocate: opinor; scoreADJ: 0. collocate: fio; scoreADJ: 0. collocate: aio; scoreADJ: 0. collocate: quisque; scoreADJ: 0. collocate: uolo; scoreADJ: 0. collocate: ualeo; scoreADJ: 0. collocate: spero; scoreADJ: 0. collocate: nisi; scoreADJ: 0. collocate: puto; scoreADJ: 0. collocate: uos; scoreADJ: 0. collocate: efficio; scoreADJ: 0. collocate: soleo; scoreADJ: 0. collocate: accido; scoreADJ: 0. collocate: rogo; scoreADJ: 0. collocate: primum; scoreADJ: 0. collocate: oro; scoreADJ: 0. collocate: hortor; scoreADJ: 0. collocate: supra; scoreADJ: 0. collocate: committo; scoreADJ: 0. collocate: decerno; scoreADJ: 0. collocate: opera; scoreADJ: 0. collocate: adduco; scoreADJ: 0. collocate: Quirites; scoreADJ: 0. collocate: omitto; scoreADJ: 0. collocate: instituo; scoreADJ: 0. collocate: sancio; scoreADJ: 0. collocate: perduco; scoreADJ: 0. collocate: breuiter; scoreADJ: 0. collocate: euenio; scoreADJ: 0. collocate: admoneo; scoreADJ: 0. collocate: aequalis; scoreADJ: 2. collocate: resto; scoreADJ: 0. collocate: reseruo; scoreADJ: 0. collocate: exigo; scoreADJ: 0. collocate: persuadeo; scoreADJ: 0. collocate: mando; scoreADJ: 0. collocate: opinio; scoreADJ: 0. collocate: quondam; scoreADJ: 0. collocate: saluus; scoreADJ: 2'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx117-116xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword ut here are all the values plotted: collocate: sum; scoreVERBO: 2. collocate: is; scoreVERBO: 0. collocate: facio; scoreVERBO: 3. collocate: non; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: scribo; scoreVERBO: 3. collocate: ita; scoreVERBO: 0. collocate: tu; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0. collocate: scio; scoreVERBO: 3. collocate: dico; scoreVERBO: 2. collocate: curo; scoreVERBO: 4. collocate: uideo; scoreVERBO: 1. collocate: nam; scoreVERBO: 0. collocate: ago; scoreVERBO: 2. collocate: opinor; scoreVERBO: 4. collocate: fio; scoreVERBO: 2. collocate: aio; scoreVERBO: 3. collocate: quisque; scoreVERBO: 0. collocate: uolo; scoreVERBO: 1. collocate: ualeo; scoreVERBO: 3. collocate: spero; scoreVERBO: 3. collocate: nisi; scoreVERBO: 0. collocate: puto; scoreVERBO: 2. collocate: uos; scoreVERBO: 0. collocate: efficio; scoreVERBO: 2. collocate: soleo; scoreVERBO: 2. collocate: accido; scoreVERBO: 2. collocate: rogo; scoreVERBO: 2. collocate: primum; scoreVERBO: 0. collocate: oro; scoreVERBO: 2. collocate: hortor; scoreVERBO: 2. collocate: supra; scoreVERBO: 0. collocate: committo; scoreVERBO: 2. collocate: decerno; scoreVERBO: 2. collocate: opera; scoreVERBO: 0. collocate: adduco; scoreVERBO: 2. collocate: Quirites; scoreVERBO: 0. collocate: omitto; scoreVERBO: 2. collocate: instituo; scoreVERBO: 2. collocate: sancio; scoreVERBO: 2. collocate: perduco; scoreVERBO: 2. collocate: breuiter; scoreVERBO: 0. collocate: euenio; scoreVERBO: 2. collocate: admoneo; scoreVERBO: 2. collocate: aequalis; scoreVERBO: 0. collocate: resto; scoreVERBO: 2. collocate: reseruo; scoreVERBO: 2. collocate: exigo; scoreVERBO: 2. collocate: persuadeo; scoreVERBO: 2. collocate: mando; scoreVERBO: 2. collocate: opinio; scoreVERBO: 0. collocate: quondam; scoreVERBO: 0. collocate: saluus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx117-116xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword ut here are all the values plotted: collocate: sum; scoreADV: 0. collocate: is; scoreADV: 0. collocate: facio; scoreADV: 0. collocate: non; scoreADV: 2. collocate: ego; scoreADV: 0. collocate: scribo; scoreADV: 0. collocate: ita; scoreADV: 3. collocate: tu; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: scio; scoreADV: 0. collocate: dico; scoreADV: 0. collocate: curo; scoreADV: 0. collocate: uideo; scoreADV: 0. collocate: nam; scoreADV: 2. collocate: ago; scoreADV: 0. collocate: opinor; scoreADV: 0. collocate: fio; scoreADV: 0. collocate: aio; scoreADV: 0. collocate: quisque; scoreADV: 0. collocate: uolo; scoreADV: 0. collocate: ualeo; scoreADV: 0. collocate: spero; scoreADV: 0. collocate: nisi; scoreADV: 0. collocate: puto; scoreADV: 0. collocate: uos; scoreADV: 0. collocate: efficio; scoreADV: 0. collocate: soleo; scoreADV: 0. collocate: accido; scoreADV: 0. collocate: rogo; scoreADV: 0. collocate: primum; scoreADV: 2. collocate: oro; scoreADV: 0. collocate: hortor; scoreADV: 0. collocate: supra; scoreADV: 0. collocate: committo; scoreADV: 0. collocate: decerno; scoreADV: 0. collocate: opera; scoreADV: 0. collocate: adduco; scoreADV: 0. collocate: Quirites; scoreADV: 0. collocate: omitto; scoreADV: 0. collocate: instituo; scoreADV: 0. collocate: sancio; scoreADV: 0. collocate: perduco; scoreADV: 0. collocate: breuiter; scoreADV: 2. collocate: euenio; scoreADV: 0. collocate: admoneo; scoreADV: 0. collocate: aequalis; scoreADV: 0. collocate: resto; scoreADV: 0. collocate: reseruo; scoreADV: 0. collocate: exigo; scoreADV: 0. collocate: persuadeo; scoreADV: 0. collocate: mando; scoreADV: 0. collocate: opinio; scoreADV: 0. collocate: quondam; scoreADV: 2. collocate: saluus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx117-116xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword ut here are all the values plotted: collocate: sum; scoreFUNC: 0. collocate: is; scoreFUNC: 0. collocate: facio; scoreFUNC: 0. collocate: non; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: scribo; scoreFUNC: 0. collocate: ita; scoreFUNC: 0. collocate: tu; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0. collocate: scio; scoreFUNC: 0. collocate: dico; scoreFUNC: 0. collocate: curo; scoreFUNC: 0. collocate: uideo; scoreFUNC: 0. collocate: nam; scoreFUNC: 0. collocate: ago; scoreFUNC: 0. collocate: opinor; scoreFUNC: 0. collocate: fio; scoreFUNC: 0. collocate: aio; scoreFUNC: 0. collocate: quisque; scoreFUNC: 0. collocate: uolo; scoreFUNC: 0. collocate: ualeo; scoreFUNC: 0. collocate: spero; scoreFUNC: 0. collocate: nisi; scoreFUNC: 20. collocate: puto; scoreFUNC: 0. collocate: uos; scoreFUNC: 0. collocate: efficio; scoreFUNC: 0. collocate: soleo; scoreFUNC: 0. collocate: accido; scoreFUNC: 0. collocate: rogo; scoreFUNC: 0. collocate: primum; scoreFUNC: 0. collocate: oro; scoreFUNC: 0. collocate: hortor; scoreFUNC: 0. collocate: supra; scoreFUNC: 20. collocate: committo; scoreFUNC: 0. collocate: decerno; scoreFUNC: 0. collocate: opera; scoreFUNC: 0. collocate: adduco; scoreFUNC: 0. collocate: Quirites; scoreFUNC: 0. collocate: omitto; scoreFUNC: 0. collocate: instituo; scoreFUNC: 0. collocate: sancio; scoreFUNC: 0. collocate: perduco; scoreFUNC: 0. collocate: breuiter; scoreFUNC: 0. collocate: euenio; scoreFUNC: 0. collocate: admoneo; scoreFUNC: 0. collocate: aequalis; scoreFUNC: 0. collocate: resto; scoreFUNC: 0. collocate: reseruo; scoreFUNC: 0. collocate: exigo; scoreFUNC: 0. collocate: persuadeo; scoreFUNC: 0. collocate: mando; scoreFUNC: 0. collocate: opinio; scoreFUNC: 0. collocate: quondam; scoreFUNC: 0. collocate: saluus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>ut</b> scribis ita video <br> <small> Cic.Att.2.15.1 <br> Vejo, como tu me escreves. <small> [JDD] </small> </small> </p>
+; <p> fac modo <b>ut</b> venias <br> <small> Cic.Att.3.4 <br> Esforça-te apenas para que venhas. <small> [JDD] </small> </small> </p>
+; <p> primum <b>ut</b> opinor εὐαγγέλια <br> <small> Cic.Att.2.3.1 <br> Em primeiro lugar, uma boa notícia, em minha opinião. <small> [JDD] </small> </small> </p>
+; <p> prorsus <b>ut</b> scribis ita sentio <br> <small> Cic.Att.2.17.1 <br> Penso exatamente como escreves. <small> [JDD] </small> </small> </p>
+; <p> sane ita cadebat <b>ut</b> vellem <br> <small> Cic.Att.3.7.1 <br> Sem dúvida, isso seria como eu queria. <small> [JDD] </small> </small> </p>
+; <p> rogat <b>ut</b> rem sic relinquam <br> <small> Cic.Att.5.21.12 <br> pede que eu deixe o assunto como está. <small> [JDD] </small> </small> </p>
+; <p> exspectare velis cures <b>ut</b> sciam <br> <small> Cic.Att.1.17.11 <br> Cuides para que eu saiba quando queres que eu te espere. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> sed scripsi <b>ut</b> debui diligenter <br> <small> Cic.Att.2.1.12 <br> Mas escrevi, como devia, com todo cuidado. <small> [JDD] </small> </small> </p>
+; <p> apud te est <b>ut</b> volumus <br> <small> Cic.Att.1.8.1 <br> Em tua casa está tudo conforme queremos. <small> [JDD] </small> </small> </p>
+; <p> id agendum est <b>ut</b> satis uixerimus <br> <small> Sen.Ep.23.10 <br> É preciso proceder de modo que tenhamos vivido bastante. <small> [JDD] </small> </small> </p>
+; <p> sed ille <b>ut</b> scripsi non miser <br> <small> Cic.Att.4.6.2 <br> Mas ele, como escrevi, não é infeliz. <small> [JDD] </small> </small> </p>
+; <p> reliqui libri τεχνολογίαν habent <b>ut</b> scis <br> <small> Cic.Att.4.16.3 <br> os demais livros têm uma discussão técnica, como sabes. <small> [JDD] </small> </small> </p>
+; <p> senatum frequentem celeriter <b>ut</b> uidistis coegi <br> <small> Cic.Catil.3.7.11 <br> Reuni rapidamente um senado numeroso, como vistes. <small> [JDD] </small> </small> </p>
+; <p> rogat <b>ut</b> eos ad ducenta perducam <br> <small> Cic.Att.5.21.12 <br> Roga que eu os faça chegar aos duzentos. <small> [JDD] </small> </small> </p>
+; <p> Dein salutati invicem <b>Ut</b> restiterunt : <br> <small> Phaed.3.7 <br> em seguida, eles pararam e se fizeram as saudações. <small> [JDD] </small> </small> </p>
+; <p> incumbite in causam Quirites <b>ut</b> facitis <br> <small> Cic.Phil.4.12.7 <br> Entregai-vos à causa, quirites, como estais fazendo. <small> [JDD] </small> </small> </p>
+; <p> agamus igitur pingui <b>ut</b> aiunt Minerua <br> <small> Cic.Amici.19 <br> Procedamos, portanto, como dizem, com uma pingue Minerva. <small> [JDD] </small> </small> </p>
+; <p> de exercitu dicam breuiter <b>ut</b> cetera <br> <small> Cic.Deiot.22 <br> Sobre o exército vou falar sucintamente, assim como das demais coisas. <small> [JDD] </small> </small> </p>
+; <p> putas ne fore <b>ut</b> legem non ferat <br> <small> Cic.Att.4.8A.1 <br> Achas que ele não vai propor sua lei? <small> [JDD, de outra edição] </small> </small> </p>
+; <p> eo <b>ut</b> erat dictum ad conloquium uenerunt <br> <small> Caes.Gal.1.43.2 <br> Lá, como havia sido combinado, chegaram para a conversação. <small> [JDD] </small> </small> </p>
+; <p> nunc <b>ut</b> opinionem habeas rerum ferendum est <br> <small> Cic.Att.4.18.1 <br> *** agora, para que tenhas uma opinião dos assuntos, é preciso aguentar. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> occulte sed ita <b>ut</b> perspicuum sit invidet <br> <small> Cic.Att.1.13.4 <br> ocultamente, mas de um modo que é perceptível, me põe olho gordo. <small> [JDD] </small> </small> </p>
+; <p> <b>ut</b> in Arcano Quintus maneret dies fecit <br> <small> Cic.Att.5.1.3 <br> A data fez que Quinto permanecesse em sua chácara em Arcas. <small> [JDD] </small> </small> </p>
+; <p> o praeclarum custodem ouium <b>ut</b> aiunt lupum <br> <small> Cic.Phil.3.27.6 <br> Oh! ilustre guardador de ovelhas, como dizem, o lobo! <small> [JDD] </small> </small> </p>
+; <p> haec sunt <b>ut</b> opinor in re publica <br> <small> Cic.Att.1.19.5 <br> Isto é, a meu ver, o que há na república. <small> [JDD] </small> </small> </p>
+; <p> peto abs te <b>ut</b> haec diligenter cures <br> <small> Cic.Att.1.9.2 <br> Peço te que cuides disso com presteza. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quod <b>ut</b> ne accidat magis cauendum est <br> <small> Cic.Amici.99 <br> Para que isso não ocorra, deve-se precaver ainda mais. <small> [JDD] </small> </small> </p>
+; <p> proinde ita fac venias <b>ut</b> ad sitientis auris <br> <small> Cic.Att.2.14.1 <br> Por isso, procura vir como diante de ouvidos sedentos. <small> [JDD] </small> </small> </p>
+; <p> effice <b>ut</b> possis laudari si minus <b>ut</b> adgnosci <br> <small> Sen.Ep.120.22 <br> Faz com que possas ser louvado, se não, pelo menos reconhecido. <small> [JDD] </small> </small> </p>
+; <p> in re familiari valde sumus <b>ut</b> scis perturbati <br> <small> Cic.Att.4.1.8 <br> Com relação meu patrimônio, estou, como sabes, muito perturbado. <small> [JDD] </small> </small> </p>
+; <p> quo modo <b>ut</b> alia omittam mortem fili tulit <br> <small> Cic.Amici.9 <br> Como, para omitir outras coisas, suportou a morte do filho! <small> [JDD, de outra edição] </small> </small> </p>
+; <p> statues <b>ut</b> ex fide fama reque mea videbitur <br> <small> Cic.Att.5.8.3 <br> resolverás o que te parecer bom conforme minha lealdade, reputação e interesse. <small> [JDD] </small> </small> </p>
+; <p> cogor <b>ut</b> velim ita sit sed omnia metuo <br> <small> Cic.Att.5.21.3 <br> Sou obrigado; gostaria que fosse assim, mas tenho medo de tudo. <small> [JDD] </small> </small> </p>
+; <p> tabellae ministrabantur ita <b>ut</b> nulla daretur <b>uti</b> rogas <br> <small> Cic.Att.1.14.5 <br> distribuíam tabuinhas de forma que não fosse dada nenhuma com o “a favor” <small> [JDD] </small> </small> </p>
+; <p> posteriores enim cogitationes <b>ut</b> aiunt sapientiores solent esse <br> <small> Cic.Phil.12.5.4 <br> Pois os últimos pensamentos costumam ser, como dizem, os mais sábios. <small> [JDD] </small> </small> </p>
+; <p> sed <b>ut</b> omittam communem causam ueniamus ad nostram <br> <small> Cic.Lig.20 <br> Mas para deixar a causa comum, vamos à nossa. <small> [JDD] </small> </small> </p>
+; <p> qua re cura <b>ut</b> te quam primum videamus <br> <small> Cic.Att.1.18.8 <br> Por isso cuida para que te vejamos o quanto antes. <small> [JDD] </small> </small> </p>
+; <p> non potest fieri <b>ut</b> non aliquando succedat multa temptanti <br> <small> Sen.Ep.29.2 <br> não pode ocorrer que não tenha êxito algumas vezes quem tenta muitas coisas.” <small> [JDD] </small> </small> </p>
+; <p> hortaris etiam sponte deponam <b>ut</b> mea tam grauia regna <br> <small> Sen.Oed.678 <br> Até mesmo me exortas a que eu espontaneamente abandone o meu tão pesado reino? <small> [JDD] </small> </small> </p>
+; <p> inpone manus super eam <b>ut</b> salva sit et vivat <br> <small> Vulg.Marc.5.23 <br> coloca tua mão sobre ela para que seja curada e viva. <small> [JDD] </small> </small> </p>
+; <p> Graecis querentibus <b>ut</b> in fano deponerent postulantibus non concessi <br> <small> Cic.Att.5.21.12 <br> aos gregos que se queixavam, postulando para depositar o dinheiro no templo, eu não concedi. <small> [JDD] </small> </small> </p>
+; <p> nam <b>ut</b> illi auderent hoc postulare Crassus eos impulit <br> <small> Cic.Att.1.17.9 <br> pois quando eles se atreveram a pedir isso, Crasso os impulsionou. <small> [JDD] </small> </small> </p>
+; <p> et inimicissimus quidem Caesaris et <b>ut</b> omnia inquit ista rescindat <br> <small> Cic.Att.2.12.2 <br> “E na verdade inimicíssimo de César”, diz, “e pretendendo anular todos os seus atos”. <small> [JDD] </small> </small> </p>
+; <p> incredibile dicam sed ita clarum <b>ut</b> ipsum negaturum non arbitrer <br> <small> Cic.Ver.2.4.57.14 <br> Vou dizer algo incrível, mas tão evidente que eu creio que nem ele próprio vai negar. <small> [JDD] </small> </small> </p>
+; <p> decernebat enim <b>ut</b> ueteribus legibus tantum modo extra ordinem quaereretur <br> <small> Cic.Mil.14 <br> Pois decretava que se julgasse, por antigas leis, tão somente fora da ordem <small> [JDD] </small> </small> </p>
+; <p> qua re Ianuario mense <b>ut</b> constituisti cura <b>ut</b> Romae sis <br> <small> Cic.Att.1.2.2 <br> Por isso, no início de janeiro, cuida para que estejas em Roma, conforme planejaste. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> non enim id agimus <b>ut</b> exerceatur uox sed <b>ut</b> exerceat <br> <small> Sen.Ep.15.8 <br> Pois não fazemos isso para que a voz seja exercitada, mas para que ela nos exercite. <small> [JDD] </small> </small> </p>
+; <p> et cum Graecos tum vero diligenter Latinos <b>ut</b> conserves velim <br> <small> Cic.Att.2.1.12 <br> E gostaria que conservasses cuidadosamente tanto os gregos quanto os latinos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> non committam posthac <b>ut</b> me accusare de epistularum neglegentia possis <br> <small> Cic.Att.1.6.1 <br> Não vou admitir de agora em diante que possas me acusar de negligência nas cartas. <small> [JDD] </small> </small> </p>
+; <p> accedit eo quod mihi non <b>ut</b> quisque in Epirum proficiscitur <br> <small> Cic.Att.1.13.1 <br> Acrescente-se a isso que, se alguém vai para Epiro, não me <parece que vai até ti>. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx117-116xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 121.98 and an absolute frequency of 1958. The Cicero subcorpus follows, with a normalized frequency of 121.98 and an absolute frequency of 1958. the subcorpus with the least normalized frequency is Vergilius with the normalized value of 27.03 and an absolute freqeuncy of 14. here are all the values: subcorpus: Caesar ; normalized frequency: 264 ; absolute frequency: 99.7054158169046. subcorpus: Cicero ; normalized frequency: 1958 ; absolute frequency: 121.975530138795. subcorpus: Horatius ; normalized frequency: 114 ; absolute frequency: 101.234348636888. subcorpus: Ovidius ; normalized frequency: 23 ; absolute frequency: 39.4646533973919. subcorpus: Phaedrus ; normalized frequency: 47 ; absolute frequency: 71.3526643388493. subcorpus: Sallustius ; normalized frequency: 54 ; absolute frequency: 50.0881179853446. subcorpus: Seneca ; normalized frequency: 365 ; absolute frequency: 68.1211623523264. subcorpus: Suetonius ; normalized frequency: 9 ; absolute frequency: 99.2282249173098. subcorpus: Tacitus ; normalized frequency: 26 ; absolute frequency: 89.2550635084106. subcorpus: Vergilius ; normalized frequency: 14 ; absolute frequency: 27.027027027027. subcorpus: Hieronymus ; normalized frequency: 39 ; absolute frequency: 87.6207593799146'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx117-116xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.epistolográfica subcorpus registers the highest normalized frequency, with the value of 163.23 and an absolute frequency of 616. The Prosa.oratória subcorpus follows, with a normalized frequency of 101.39 and an absolute frequency of 1056. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 27.03 and an absolute freqeuncy of 14. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 353 ; absolute frequency: 85.9319847123835. subcorpus: Prosa.filosófica ; normalized frequency: 611 ; absolute frequency: 100.657320307738. subcorpus: Prosa.oratória ; normalized frequency: 1056 ; absolute frequency: 101.389302276459. subcorpus: Prosa.epistolográfica ; normalized frequency: 616 ; absolute frequency: 163.226370598055. subcorpus: Poesia.lírica ; normalized frequency: 115 ; absolute frequency: 96.7443425590982. subcorpus: Poesia.didática ; normalized frequency: 69 ; absolute frequency: 58.5291373314106. subcorpus: Poesia.trágica ; normalized frequency: 40 ; absolute frequency: 34.7463516330785. subcorpus: Poesia.épica ; normalized frequency: 14 ; absolute frequency: 27.027027027027. subcorpus: Prosa.ficcional ; normalized frequency: 39 ; absolute frequency: 87.6207593799146'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx117-116xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 111.94 and an absolute frequency of 2405. The I.d.C. subcorpus follows, with a normalized frequency of 66.39 and an absolute frequency of 434. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 66.39 and an absolute freqeuncy of 434. here are all the values: subcorpus: I.a.C. ; normalized frequency: 2405 ; absolute frequency: 111.938561787293. subcorpus: I.d.C. ; normalized frequency: 434 ; absolute frequency: 66.3913109989292. subcorpus: II.d.C. ; normalized frequency: 35 ; absolute frequency: 91.6230366492147. subcorpus: IV.d.C. ; normalized frequency: 39 ; absolute frequency: 87.6207593799146'}
+
+
+:::
+

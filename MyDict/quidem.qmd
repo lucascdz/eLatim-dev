@@ -1,0 +1,237 @@
+---
+title: "quidem"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx113-117-105-100-101-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>quidem</b> <br> <small>part. enclítica afirmat.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small></small> &ensp; Na verdade, certamente, é verdade &ensp; <small>preparando uma oposição Cíc. Phil. 2, 102.</small> <br> <b>2</b> &ensp; <small></small> &ensp; O certo é que, mas ao menos, ao menos &ensp; <small>Cíc. Or. 210.</small> <br> <b>3</b> &ensp; <small></small> &ensp; Et... quidem, is... quidem, ac... quidem: e o que é mais, e o que é melhor &ensp; <small>Cíc. Fin. 1, 1.</small> <br> <b>4</b> &ensp; <small></small> &ensp; <small></small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>4</b><br>Ne... quidem, v. ne. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Quidem</b> <br> <small>adv.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; na verdade. </p>
+
+
+
+
+#### Velez
+
+<b>Quidem</b> <br> <small>Conj. postp.</small>   <p> <b>1</b> &ensp; na verdade, certamente </p>
+
+
+
+
+#### Cardoso
+
+<b>Quidem</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; em verdade </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/121168 ' target="_blank"> http://lila-erc.eu/data/id/lemma/121168 </a> <br>
+<small> classe: </small> advérbio    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+quĭdem
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx113-117-105-100-101-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword quidem here are all the values plotted: collocate: ille; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: qui; scoreSUBST: 0. collocate: certe; scoreSUBST: 0. collocate: hic; scoreSUBST: 0. collocate: nunc; scoreSUBST: 0. collocate: ipse; scoreSUBST: 0. collocate: is; scoreSUBST: 0. collocate: tempus; scoreSUBST: 2. collocate: tu; scoreSUBST: 0. collocate: magis; scoreSUBST: 0. collocate: quisquam; scoreSUBST: 0. collocate: paruus; scoreSUBST: 0. collocate: utinam; scoreSUBST: 0. collocate: quoniam; scoreSUBST: 0. collocate: si; scoreSUBST: 0. collocate: possum; scoreSUBST: 0. collocate: tenuis; scoreSUBST: 0. collocate: iste; scoreSUBST: 0. collocate: suspicor; scoreSUBST: 0. collocate: suspicio; scoreSUBST: 2. collocate: cogito; scoreSUBST: 0. collocate: exspecto; scoreSUBST: 0. collocate: uerbum; scoreSUBST: 2. collocate: sententia; scoreSUBST: 2. collocate: primus; scoreSUBST: 0. collocate: nuper; scoreSUBST: 0. collocate: ualde; scoreSUBST: 0. collocate: notus; scoreSUBST: 0. collocate: opto; scoreSUBST: 0. collocate: otium; scoreSUBST: 2. collocate: cupio; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx113-117-105-100-101-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword quidem here are all the values plotted: collocate: ille; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: qui; scoreADJ: 0. collocate: certe; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: nunc; scoreADJ: 0. collocate: ipse; scoreADJ: 0. collocate: is; scoreADJ: 0. collocate: tempus; scoreADJ: 0. collocate: tu; scoreADJ: 0. collocate: magis; scoreADJ: 0. collocate: quisquam; scoreADJ: 0. collocate: paruus; scoreADJ: 2. collocate: utinam; scoreADJ: 0. collocate: quoniam; scoreADJ: 0. collocate: si; scoreADJ: 0. collocate: possum; scoreADJ: 0. collocate: tenuis; scoreADJ: 2. collocate: iste; scoreADJ: 0. collocate: suspicor; scoreADJ: 0. collocate: suspicio; scoreADJ: 0. collocate: cogito; scoreADJ: 0. collocate: exspecto; scoreADJ: 0. collocate: uerbum; scoreADJ: 0. collocate: sententia; scoreADJ: 0. collocate: primus; scoreADJ: 2. collocate: nuper; scoreADJ: 0. collocate: ualde; scoreADJ: 0. collocate: notus; scoreADJ: 2. collocate: opto; scoreADJ: 0. collocate: otium; scoreADJ: 0. collocate: cupio; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx113-117-105-100-101-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword quidem here are all the values plotted: collocate: ille; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: qui; scoreVERBO: 0. collocate: certe; scoreVERBO: 0. collocate: hic; scoreVERBO: 0. collocate: nunc; scoreVERBO: 0. collocate: ipse; scoreVERBO: 0. collocate: is; scoreVERBO: 0. collocate: tempus; scoreVERBO: 0. collocate: tu; scoreVERBO: 0. collocate: magis; scoreVERBO: 0. collocate: quisquam; scoreVERBO: 0. collocate: paruus; scoreVERBO: 0. collocate: utinam; scoreVERBO: 0. collocate: quoniam; scoreVERBO: 0. collocate: si; scoreVERBO: 0. collocate: possum; scoreVERBO: 1. collocate: tenuis; scoreVERBO: 0. collocate: iste; scoreVERBO: 0. collocate: suspicor; scoreVERBO: 2. collocate: suspicio; scoreVERBO: 0. collocate: cogito; scoreVERBO: 2. collocate: exspecto; scoreVERBO: 2. collocate: uerbum; scoreVERBO: 0. collocate: sententia; scoreVERBO: 0. collocate: primus; scoreVERBO: 0. collocate: nuper; scoreVERBO: 0. collocate: ualde; scoreVERBO: 0. collocate: notus; scoreVERBO: 0. collocate: opto; scoreVERBO: 2. collocate: otium; scoreVERBO: 0. collocate: cupio; scoreVERBO: 2'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx113-117-105-100-101-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword quidem here are all the values plotted: collocate: ille; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: qui; scoreADV: 0. collocate: certe; scoreADV: 2. collocate: hic; scoreADV: 0. collocate: nunc; scoreADV: 2. collocate: ipse; scoreADV: 0. collocate: is; scoreADV: 0. collocate: tempus; scoreADV: 0. collocate: tu; scoreADV: 0. collocate: magis; scoreADV: 2. collocate: quisquam; scoreADV: 0. collocate: paruus; scoreADV: 0. collocate: utinam; scoreADV: 2. collocate: quoniam; scoreADV: 0. collocate: si; scoreADV: 0. collocate: possum; scoreADV: 0. collocate: tenuis; scoreADV: 0. collocate: iste; scoreADV: 0. collocate: suspicor; scoreADV: 0. collocate: suspicio; scoreADV: 0. collocate: cogito; scoreADV: 0. collocate: exspecto; scoreADV: 0. collocate: uerbum; scoreADV: 0. collocate: sententia; scoreADV: 0. collocate: primus; scoreADV: 0. collocate: nuper; scoreADV: 2. collocate: ualde; scoreADV: 2. collocate: notus; scoreADV: 0. collocate: opto; scoreADV: 0. collocate: otium; scoreADV: 0. collocate: cupio; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx113-117-105-100-101-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword quidem here are all the values plotted: collocate: ille; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: qui; scoreFUNC: 0. collocate: certe; scoreFUNC: 0. collocate: hic; scoreFUNC: 0. collocate: nunc; scoreFUNC: 0. collocate: ipse; scoreFUNC: 0. collocate: is; scoreFUNC: 0. collocate: tempus; scoreFUNC: 0. collocate: tu; scoreFUNC: 0. collocate: magis; scoreFUNC: 0. collocate: quisquam; scoreFUNC: 0. collocate: paruus; scoreFUNC: 0. collocate: utinam; scoreFUNC: 0. collocate: quoniam; scoreFUNC: 20. collocate: si; scoreFUNC: 20. collocate: possum; scoreFUNC: 0. collocate: tenuis; scoreFUNC: 0. collocate: iste; scoreFUNC: 0. collocate: suspicor; scoreFUNC: 0. collocate: suspicio; scoreFUNC: 0. collocate: cogito; scoreFUNC: 0. collocate: exspecto; scoreFUNC: 0. collocate: uerbum; scoreFUNC: 0. collocate: sententia; scoreFUNC: 0. collocate: primus; scoreFUNC: 0. collocate: nuper; scoreFUNC: 0. collocate: ualde; scoreFUNC: 0. collocate: notus; scoreFUNC: 0. collocate: opto; scoreFUNC: 0. collocate: otium; scoreFUNC: 0. collocate: cupio; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> cupio <b>quidem</b> certe <br> <small> Cic.Att.1.1.4 <br> é o que, na verdade, certamente desejo. <small> [JDD] </small> </small> </p>
+; <p> recte tu <b>quidem</b> <br> <small> Cic.Amici.33 <br> Tu, na verdade, está correto. <small> [JDD] </small> </small> </p>
+; <p> ne ista <b>quidem</b> desunt <br> <small> Cic.Att.4.10.1 <br> Nem mesmo essas me faltam. <small> [JDD] </small> </small> </p>
+; <p> malam <b>quidem</b> illi pestem <br> <small> Cic.Phil.6.12.8 <br> Que a má peste o carregue! <small> [JDD] </small> </small> </p>
+; <p> uim hoc <b>quidem</b> est adferre <br> <small> Cic.Amici.26 <br> Isso é, certamente, fazer-me violência. <small> [JDD] </small> </small> </p>
+; <p> adhuc <b>quidem</b> valde me paenitet <br> <small> Cic.Att.3.3 <br> Pois até agora me dá um profundo pesar. <small> [JDD] </small> </small> </p>
+; <p> Salvum te cupimus <b>quidem</b> ; <br> <small> Phaed.2.8 <br> “Na verdade te desejamos salvo. <small> [JDD] </small> </small> </p>
+; <p> utinam <b>quidem</b> aliquid uelletis esse populare <br> <small> Cic.Phil.1.21.7 <br> Quem dera que, realmente, quisésseis que alguma coisa fosse do povo! <small> [JDD] </small> </small> </p>
+; <p> quod ne nunc <b>quidem</b> fieri laborabo <br> <small> Sen.Ep.124.1 <br> Me esforçarei para que isso não suceda agora. <small> [JDD] </small> </small> </p>
+; <p> et <b>quidem</b> quam sententiam feram adtende <br> <small> Sen.Ep.22.3 <br> E, na verdade, presta atenção no parecer que vou dar. <small> [JDD] </small> </small> </p>
+; <p> hac <b>quidem</b> cura certe iam vacuus sum <br> <small> Cic.Att.2.17.2 <br> Desta preocupação já estou realmente livre. <small> [JDD] </small> </small> </p>
+; <p> ne tum <b>quidem</b> quom iri maxime debuit <br> <small> Cic.Att.2.1.5 <br> nem mesmo então, quando mais se devia ir.” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quod <b>quidem</b> meum consilium minime obscurum fuit <br> <small> Cic.Marc.15 <br> E, na verdade, esse meu intento não foi nem um pouco oculto. <small> [JDD] </small> </small> </p>
+; <p> facile id <b>quidem</b> fuit iustitiam iustissimo uiro defendere <br> <small> Cic.Amici.25 <br> Isso, na verdade, foi fácil para um homem justíssimo: defender a justiça. <small> [JDD] </small> </small> </p>
+; <p> et <b>quidem</b> uel esurienti ad ista ueniendum est <br> <small> Sen.Ep.17.6 <br> Por acaso não devemos chegar a esses bens, mesmo passando fome?[*] <small>  </small> </small> </p>
+; <p> Gnaeus <b>quidem</b> noster iam plane quid cogitet nescio <br> <small> Cic.Att.2.16.2 <br> O que o nosso Cneu está pensando agora eu não sei. <small> [JDD] </small> </small> </p>
+; <p> adventus noster nemini ne minimo <b>quidem</b> fuit sumptui <br> <small> Cic.Att.5.14.2 <br> Nossa chegada não foi de absolutamente nenhum gasto para ninguém. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quod <b>quidem</b> in hac aetate minime reprendendum est <br> <small> Cic.Cael.18 <br> O que, por certo, nesta sua idade, não deve ser recriminado de modo algum. <small> [JDD] </small> </small> </p>
+; <p> numquam inquit uoluisset id <b>quidem</b> sed si uoluisset paruissem <br> <small> Cic.Amici.37 <br> “Nunca”, diz, “por certo ele teria querido isso; mas se tivesse querido, eu teria obedecido.” <small> [JDD] </small> </small> </p>
+; <p> si <b>quidem</b> exiturus ad caedem e uilla non fuisset <br> <small> Cic.Mil.48 <br> Se, na verdade, não tivesse sido su intenção sair de sua chácara para o crime. <small> [JDD] </small> </small> </p>
+; <p> utrumque facio quoniam ne contemplatio <b>quidem</b> sine actione est <br> <small> Sen.Ot.5.8 <br> e faço as duas coisas, visto que não há realmente contemplação sem ação. <small> [JDD] </small> </small> </p>
+; <p> ego iam aut rem aut ne spem <b>quidem</b> exspecto <br> <small> Cic.Att.3.22.4 <br> Eu já aguardo os fatos ou nem a esperança sequer. <small> [JDD] </small> </small> </p>
+; <p> quae <b>quidem</b> res ad negotium conficiendum maximae fuit opportunitati <br> <small> Caes.Gal.3.15.4 <br> Esse fato, na verdade, foi especialmente oportuno para concluir o negócio. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> et inimicissimus <b>quidem</b> Caesaris et ut omnia inquit ista rescindat <br> <small> Cic.Att.2.12.2 <br> “E na verdade inimicíssimo de César”, diz, “e pretendendo anular todos os seus atos”. <small> [JDD] </small> </small> </p>
+; <p> atque hoc <b>quidem</b> omnes mortales et intellegunt et re probant <br> <small> Cic.Amici.24 <br> E, na verdade, todos os mortais entendem isso e aprovam na realidade. <small> [JDD] </small> </small> </p>
+; <p> sciunt enim ipsos omnia habere communia et <b>quidem</b> magis aduersa <br> <small> Sen.Ep.6.3 <br> Porque sabem que eles têm todas as coisas em comum, e mais ainda as adversas. <small> [JDD] </small> </small> </p>
+; <p> quare hoc <b>quidem</b> praeceptum cuiuscumque est ad tollendam amicitiam ualet <br> <small> Cic.Amici.60 <br> Por isso esse preceito, na verdade, seja ele de quem for, vale para eliminar a amizade. <small> [JDD] </small> </small> </p>
+; <p> ne id <b>quidem</b> facient negabunt id nisi sapienti posse concedi <br> <small> Cic.Amici.18 <br> Nem mesmo farão isso, dirão que isso não pode ser concedido a não ser ao sábio. <small> [JDD] </small> </small> </p>
+; <p> atque utinam maiora possemus quando <b>quidem</b> a uobis maxima accepimus <br> <small> Cic.Phil.14.33.8 <br> E quem dera pudéssemos oferecer maiores, uma vez que recebemos de vós os maiores benefícios! <small> [JDD] </small> </small> </p>
+; <p> Bibulus ne cogitabat <b>quidem</b> etiam nunc in provinciam suam accedere <br> <small> Cic.Att.5.16.4 <br> Bíbulo nem sequer cogita ainda agora em aproximar-se de sua província. <small> [JDD] </small> </small> </p>
+; <p> me cum erat hic illi ne aduocatus <b>quidem</b> uenit umquam <br> <small> Cic.Cael.10 <br> Ele estava comigo; nunca veio para aquele, nem mesmo como apoiador. <small> [JDD] </small> </small> </p>
+; <p> uides quosdam optantes mortem et <b>quidem</b> magis quam rogari solet uita <br> <small> Sen.Ep.30.12 <br> Vês alguns que desejam a morte e bem mais do que se costuma implorar a vida. <small> [JDD] </small> </small> </p>
+; <p> atque in re publica nunc <b>quidem</b> maxime Gallici belli versatur metus <br> <small> Cic.Att.1.19.2 <br> E, na república, o que agora realmente mais preocupa é o medo de uma guerra com os gauleses. <small> [JDD] </small> </small> </p>
+; <p> esset consilium mihi <b>quidem</b> optatum si liceret ibi omne tempus consumere <br> <small> Cic.Att.3.7.1 <br> Seria para mim uma decisão deveras desejada, se me fosse permitido passar aì todo o tempo. <small> [JDD] </small> </small> </p>
+; <p> non <b>quidem</b> haec quae alienis uerbis commodatur et actuari uice fungitur <br> <small> Sen.Ep.33.9 <br> Por certo não a que é ajustada com palavras alheias e faz as vezes de um notário. <small> [JDD] </small> </small> </p>
+; <p> quae <b>quidem</b> res mihi in primis uidetur causa fuisse facinus maturandi <br> <small> Sal.Cat.15.3 <br> Esse fato, na verdade, me parece ter sido principalmente a causa de apressar seu crime. <small> [JDD] </small> </small> </p>
+; <p> numquam tu non modo otium sed ne bellum <b>quidem</b> nisi nefarium concupisti <br> <small> Cic.Catil.1.25.5 <br> Tu nunca desejaste não apenas a paz, mas nem sequer a guerra, que não seja criminosa. <small> [JDD] </small> </small> </p>
+; <p> respiraui liberatus sum non uereor ne quod ne suspicari <b>quidem</b> potuerim uidear id cogitasse <br> <small> Cic.Mil.47 <br> Respirei, estou absolvido; não tenho receio de parecer ter planejado o que nem sequer pude suspeitar. <small> [JDD] </small> </small> </p>
+; <p> nolo enim cuiusquam fortis atque inlustris uiri ne minimum <b>quidem</b> erratum cum maxima laude coniungere <br> <small> Cic.Cael.43 <br> Pois não quero misturar nem mesmo o mais insignificante erro com a máxima glória de nenhum homem valoroso e ilustre. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> huius domus est uel optima Messanae notissima <b>quidem</b> certe et nostris hominibus apertissima maximeque hospitalis <br> <small> Cic.Ver.2.4.3.9 <br> A casa dele é, talvez, a melhor em Messina, com toda certeza a mais conhecida e a mais aberta aos nossos concidadãos e a mais hospitaleira. <small> [JDD] </small> </small> </p>
+; <p> atque ea <b>quidem</b> quae dixi de Caesare deque eius exercitu iam diu nota sunt nobis <br> <small> Cic.Phil.3.8.1 <br> E, na verdade, o que eu disse sobre César e seu exército já há muito é conhecido de nós. <small> [JDD] </small> </small> </p>
+; <p> nuper <b>quidem</b> cum iam te adventare arbitraremur repente abs te in mensem Quintilem reiecti sumus <br> <small> Cic.Att.1.4.1 <br> Há pouco, na verdade, eu achava que já estavas chegando, repentinamente sou remetido por ti para o mês de julho. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quos <b>quidem</b> doleo in suspicionem populo Romano uenire non metu quod ipsum esset turpe sed alium alia de causa deesse dignitati suae <br> <small> Cic.Phil.1.15.5 <br> E lamento, na verdade, que estes incorram para o povo romano na suspeita de que faltam à sua dignidade não por medo, o que seria em si mesmo vergonhoso, mas cada um por um motivo diferente. <small> [JDD] </small> </small> </p>
+; <p> isti quos pro felicibus aspicitis si non qua occurrunt sed qua latent uideritis miseri sunt sordidi turpes ad similitudinem parietum suorum extrinsecus culti non est ista solida et sincera felicitas crusta est et <b>quidem</b> tenuis <br> <small> Sen.Prov.6.4 <br> Esses que consideras como felizes, se os vires não por onde se mostram, mas por onde se ocultam, são infelizes, sujos, torpes, bem cuidados por fora à semelhança de suas paredes. Essa não é uma sólida e autêntica felicidade: é uma crosta e, na verdade, fina. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx113-117-105-100-101-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Cicero subcorpus registers the highest normalized frequency, with the value of 31.02 and an absolute frequency of 498. The Suetonius subcorpus follows, with a normalized frequency of 11.03 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Vergilius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 24 ; absolute frequency: 9.06412871062769. subcorpus: Cicero ; normalized frequency: 498 ; absolute frequency: 31.0233983703371. subcorpus: Horatius ; normalized frequency: 1 ; absolute frequency: 0.888020602077968. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 3 ; absolute frequency: 2.78267322140803. subcorpus: Seneca ; normalized frequency: 108 ; absolute frequency: 20.1563987234281. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 7 ; absolute frequency: 24.0302094061105. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx113-117-105-100-101-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 37.56 and an absolute frequency of 228. The Prosa.oratória subcorpus follows, with a normalized frequency of 26.4 and an absolute frequency of 275. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 35 ; absolute frequency: 8.52016845590204. subcorpus: Prosa.filosófica ; normalized frequency: 228 ; absolute frequency: 37.5611604421673. subcorpus: Prosa.oratória ; normalized frequency: 275 ; absolute frequency: 26.4034641344944. subcorpus: Prosa.epistolográfica ; normalized frequency: 101 ; absolute frequency: 26.7627653090967. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx113-117-105-100-101-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 24.48 and an absolute frequency of 526. The I.d.C. subcorpus follows, with a normalized frequency of 17.29 and an absolute frequency of 113. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 526 ; absolute frequency: 24.4821968815453. subcorpus: I.d.C. ; normalized frequency: 113 ; absolute frequency: 17.286216919076. subcorpus: II.d.C. ; normalized frequency: 8 ; absolute frequency: 20.9424083769633. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

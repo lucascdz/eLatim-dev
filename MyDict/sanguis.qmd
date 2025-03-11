@@ -1,0 +1,199 @@
+---
+title: "sanguis"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx115-97-110-103-117-105-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>sanguen</b> <br> <small></small> <br> <small>v. sanguis.</small> 
+ <b>sanguĭs</b> <b>-ìnis</b> <br> <small>subs. m.</small> <br> <small>Obs.: No latim arcaico ocorre o n. sanguen Ên. An. 117. que ainda aparece em Lucrécio 1. 837.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Sangue &ensp; <small>que corre, em oposição a cruor, sangue coagulado Cíc. Sest. 54.</small> <br> <b>2</b> &ensp; <small>II-Sent. poético</small> &ensp; Parentesco, raça, família, descendente &ensp; <small>Hor. O. 4. 2. 14.</small> <br> <b>3</b> &ensp; <small>III-Sent. figurado:</small> &ensp; Força vital, vigor, sangue, vida &ensp; <small>Cíc. At. 6. 1. 2.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Sanguen</b> -<b>inis</b> <br> <small>n.</small>   <p> <b>1</b> &ensp; <small>Vet. Poet. apud Cic.</small> &ensp; sangue. </p> 
+ <b>Sanguis</b> -<b>inis</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; sangue. <br> <b>2</b> &ensp; vida, força, vigor. <br> <b>3</b> &ensp; linhagem, parentesco, descendencia. <br> <b>4</b> &ensp; <small>Manil.</small> &ensp; succo das plantas. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>conquieuit sanguis &ensp; <small><small>Cels</small></small> &ensp; <small>Vedou o sangue</small> <br> sanguinem detrahere &ensp; <small><small>Cels</small></small> &ensp; <small>Sangrar</small> <br> sanguinem extrahere &ensp; <small><small>Plin</small></small> &ensp; <small>Sangrar</small> <br> sanguinem mittere &ensp; <small><small>Cels</small></small> &ensp; <small>Sangrar</small> <br> sanguis aerarii &ensp; <small><small>Cic</small></small> &ensp; <small>Dinheiro do thesouro publico</small> <br> sanguis terrae &ensp; <small><small>Plin</small></small> &ensp; <small>Vinho</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Sanguis</b> <b>inis</b>   <p> <b>1</b> &ensp; ho sangue. ou casta </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/123363 ' target="_blank"> http://lila-erc.eu/data/id/lemma/123363 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 3ª declinação (tema em -i-) <br>
+<small> outras grafias: </small> sanguen <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+sanguĭs 
+ sanguĭnis
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx115-97-110-103-117-105-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword sanguis here are all the values plotted: collocate: redundo; scoreSUBST: 0. collocate: ciuis; scoreSUBST: 2. collocate: atque; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx115-97-110-103-117-105-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword sanguis here are all the values plotted: collocate: redundo; scoreADJ: 0. collocate: ciuis; scoreADJ: 0. collocate: atque; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx115-97-110-103-117-105-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword sanguis here are all the values plotted: collocate: redundo; scoreVERBO: 3. collocate: ciuis; scoreVERBO: 0. collocate: atque; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx115-97-110-103-117-105-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword sanguis here are all the values plotted: collocate: redundo; scoreADV: 0. collocate: ciuis; scoreADV: 0. collocate: atque; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx115-97-110-103-117-105-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword sanguis here are all the values plotted: collocate: redundo; scoreFUNC: 0. collocate: ciuis; scoreFUNC: 0. collocate: atque; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> bibere tumuli <b>sanguinem</b> atque arae meum <br> <small> Sen.Ag.700 <br> Os túmulos e os altares beberam o meu sangue. <small> [JDD] </small> </small> </p>
+; <p> si hostium fuit ille <b>sanguis</b> summa militum pietas nefarium scelus si ciuium <br> <small> Cic.Phil.14.6.6 <br> Se aquele foi sangue dos inimigos, supremo foi o amor da pátria dos soldados: se foi de cidadãos, crime abominável. <small> [JDD] </small> </small> </p>
+; <p> Cn. Octauius consul armis expulit ex urbe conlegam omnis hic locus aceruis corporum et ciuium <b>sanguine</b> redundauit <br> <small> Cic.Catil.3.24.5 <br> O cônsul Cneu Otávio expulsou da cidade seu colega com a força das armas; todo este local se encheu de montões de corpos e de sangue de cidadãos. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx115-97-110-103-117-105-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 7.72 and an absolute frequency of 4. The Seneca subcorpus follows, with a normalized frequency of 6.53 and an absolute frequency of 35. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 21 ; absolute frequency: 1.30821559392988. subcorpus: Horatius ; normalized frequency: 3 ; absolute frequency: 2.6640618062339. subcorpus: Ovidius ; normalized frequency: 3 ; absolute frequency: 5.14756348661633. subcorpus: Phaedrus ; normalized frequency: 2 ; absolute frequency: 3.0362835888872. subcorpus: Sallustius ; normalized frequency: 4 ; absolute frequency: 3.71023096187738. subcorpus: Seneca ; normalized frequency: 35 ; absolute frequency: 6.5321662529628. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Hieronymus ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx115-97-110-103-117-105-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.trágica subcorpus registers the highest normalized frequency, with the value of 19.98 and an absolute frequency of 23. The Poesia.trágica subcorpus follows, with a normalized frequency of 19.98 and an absolute frequency of 23. the subcorpus with the least normalized frequency is Prosa.epistolográfica with the normalized value of 0.53 and an absolute freqeuncy of 2. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 4 ; absolute frequency: 0.973733537817376. subcorpus: Prosa.filosófica ; normalized frequency: 12 ; absolute frequency: 1.9769031811667. subcorpus: Prosa.oratória ; normalized frequency: 19 ; absolute frequency: 1.82423934020143. subcorpus: Prosa.epistolográfica ; normalized frequency: 2 ; absolute frequency: 0.529955748694984. subcorpus: Poesia.lírica ; normalized frequency: 3 ; absolute frequency: 2.52376545806343. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 23 ; absolute frequency: 19.9791521890202. subcorpus: Poesia.épica ; normalized frequency: 4 ; absolute frequency: 7.72200772200772. subcorpus: Prosa.ficcional ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx115-97-110-103-117-105-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 6.12 and an absolute frequency of 40. The II.d.C. subcorpus follows, with a normalized frequency of 0 and an absolute frequency of 0. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 32 ; absolute frequency: 1.48941121712823. subcorpus: I.d.C. ; normalized frequency: 40 ; absolute frequency: 6.11901483861098. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 2 ; absolute frequency: 4.49337227589306'}
+
+
+:::
+

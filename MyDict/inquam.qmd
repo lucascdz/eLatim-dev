@@ -1,0 +1,228 @@
+---
+title: "inquam"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-110-113-117-97-109xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>inquam</b> <b>-is</b> <b>-it</b> <br> <small>v. defect.</small> <br> <small>Obs.: É usado frequentemente depois de uma palavra para a qual se quer chamar a atenção do leitor, principalmente nas anáforas. Além das formas do ind. pres. sing. e 3ª do pl., são ainda encontradas: pret. perf. ind. inquii Catul. 10. 27; inquisti C ie. De Or. 2. 259; impetat. inque Plaul. Bac. 883; inquito Plaut, Aul. 788: fut. inquies Cíc. Oro 101; inquiet Cíc. Fin. 4. 71.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; Digo, dizes, diz: &ensp; <small></small> <br> <b>2</b> &ensp; <small>Sent. indeterminado:</small> &ensp; diz-se &ensp; <small>C íc. Tusc. 3. 71.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>inquam et inquit interponere Cíc. Lae, 3, “intercalar: digo e diz”. </p> 
+ <b>inque</b> <br> <small>imperat. de inquam Plaul. Bac. 883.</small> <br> <small></small> 
+ <b>inquĭī</b> <br> <small>perf. de inquam ,Catul 10. 27.</small> <br> <small></small> 
+ <small>1.</small> <b>inquĭēs</b> <br> <small>2ª pess, sing, fut. de inquam Cíc.Or. 101.</small> <br> <small></small>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Inquam</b> -<b>is</b> <br> <small>Cic.</small> <br> <small>v. Inquio.</small> 
+ <b>Inquio</b> -<b>is</b> -<b>it</b> <br> <small>verbo defect.</small>   <p> <b>1</b> &ensp; <small>Catul.</small> &ensp; dizer. </p>
+
+
+
+
+#### Velez
+
+<b>Inquam</b> -<b>is</b>   <p> <b>1</b> &ensp; dizer, affirmar &ensp; <small>dat.</small> </p> 
+ <b>Inquio</b>   <p> <b>1</b> &ensp; dizer, affirmar &ensp; <small>dat.</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Inquam</b>   <p> <b>1</b> &ensp; torno à dizer </p> 
+ <b>Inquio</b> <b>is</b>   <p> <b>1</b> &ensp; dizer </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/108033 ' target="_blank"> http://lila-erc.eu/data/id/lemma/108033 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> irregular <br>
+<small> outras grafias: </small> inquio <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> inquam, inquio </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> inquere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> inquiet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> inquii </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+
+
+
+
+
+#### Lexicala
+
+inquăm 
+ inquĭs
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx105-110-113-117-97-109xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-110-113-117-97-109xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword inquam here are all the values plotted: collocate: ergo; scoreSUBST: 0. collocate: quomodo; scoreSUBST: 0. collocate: iste; scoreSUBST: 0. collocate: uos; scoreSUBST: 0. collocate: ego; scoreSUBST: 0. collocate: sic; scoreSUBST: 0. collocate: quaero; scoreSUBST: 0. collocate: hic; scoreSUBST: 0. collocate: ille; scoreSUBST: 0. collocate: tu; scoreSUBST: 0. collocate: sum; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-110-113-117-97-109xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword inquam here are all the values plotted: collocate: ergo; scoreADJ: 0. collocate: quomodo; scoreADJ: 0. collocate: iste; scoreADJ: 0. collocate: uos; scoreADJ: 0. collocate: ego; scoreADJ: 0. collocate: sic; scoreADJ: 0. collocate: quaero; scoreADJ: 0. collocate: hic; scoreADJ: 0. collocate: ille; scoreADJ: 0. collocate: tu; scoreADJ: 0. collocate: sum; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-110-113-117-97-109xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword inquam here are all the values plotted: collocate: ergo; scoreVERBO: 0. collocate: quomodo; scoreVERBO: 0. collocate: iste; scoreVERBO: 0. collocate: uos; scoreVERBO: 0. collocate: ego; scoreVERBO: 0. collocate: sic; scoreVERBO: 0. collocate: quaero; scoreVERBO: 2. collocate: hic; scoreVERBO: 0. collocate: ille; scoreVERBO: 0. collocate: tu; scoreVERBO: 0. collocate: sum; scoreVERBO: 1'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-110-113-117-97-109xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword inquam here are all the values plotted: collocate: ergo; scoreADV: 0. collocate: quomodo; scoreADV: 2. collocate: iste; scoreADV: 0. collocate: uos; scoreADV: 0. collocate: ego; scoreADV: 0. collocate: sic; scoreADV: 2. collocate: quaero; scoreADV: 0. collocate: hic; scoreADV: 0. collocate: ille; scoreADV: 0. collocate: tu; scoreADV: 0. collocate: sum; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-110-113-117-97-109xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword inquam here are all the values plotted: collocate: ergo; scoreFUNC: 0. collocate: quomodo; scoreFUNC: 0. collocate: iste; scoreFUNC: 0. collocate: uos; scoreFUNC: 0. collocate: ego; scoreFUNC: 0. collocate: sic; scoreFUNC: 0. collocate: quaero; scoreFUNC: 0. collocate: hic; scoreFUNC: 0. collocate: ille; scoreFUNC: 0. collocate: tu; scoreFUNC: 0. collocate: sum; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> quomodo <b>inquis</b> exibo <br> <small> Sen.Ep.19.8 <br> “Como sairei disso?” dizes. <small> [JDD] </small> </small> </p>
+; <p> quid ergo <b>inquis</b> <br> <small> Sen.Ep.9.22 <br> “O que então?” dizes <small> [JDD] </small> </small> </p>
+; <p> ille <b>inquies</b> ut ferebat <br> <small> Cic.Att.4.18.1 <br> “Ele”, dirás, “como estava aguentando?” <small> [JDD] </small> </small> </p>
+; <p> horum <b>inquit</b> eram conscius <br> <small> Cic.Deiot.21 <br> “Disso” diz “eu era sabedor.” <small> [JDD] </small> </small> </p>
+; <p> vos quantum <b>inquam</b> debetis <br> <small> Cic.Att.5.21.12 <br> “E vós?” digo eu “Quanto deveis?” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> At ille lentus : <b>inquit</b> <br> <small> Phaed.1.15 <br> Mas aquele, tranquilo. <small> [JDD] </small> </small> </p>
+; <p> opus est <b>inquam</b> rationes conferatis <br> <small> Cic.Att.5.21.12 <br> O que é preciso” eu digo “é que compareis as contas.” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> quousque <b>inquit</b> hunc regem feremus <br> <small> Cic.Att.1.16.10 <br> “Até quando”, diz ele, “vamos suportar este rei?” <small> [JDD] </small> </small> </p>
+; <p> istos <b>inquies</b> mercede conductos habebimus <br> <small> Cic.Att.2.1.8 <br> Dirás: “Teremos que obter o apoio desses com dinheiro?” <small> [JDD] </small> </small> </p>
+; <p> sic <b>inquam</b> in animo est <br> <small> Cic.Att.2.5.2 <br> Assim, eu digo, está em meu ânimo. <small> [JDD] </small> </small> </p>
+; <p> nulla mihi <b>inquam</b> relligio est <br> <small> Hor.S.1.9.70 <br> “Eu não tenho nenhuma superstição”, digo eu. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> iuranti <b>inquit</b> tibi non crediderunt <br> <small> Cic.Att.1.16.10 <br> “Mesmo jurando”, ele diz, “não acreditaram em ti” <small> [JDD] </small> </small> </p>
+; <p> multo haec <b>inquam</b> nostra res maior <br> <small> Cic.Att.1.16.5 <br> este meu caso, eu garanto, foi muito maior. <small> [JDD] </small> </small> </p>
+; <p> oppressos vos <b>inquit</b> tenebo exercitu Caesaris <br> <small> Cic.Att.2.16.2 <br> “Eu vos manterei oprimidos”, diz ele, “por meio do exército de César.” <small> [JDD] </small> </small> </p>
+; <p> ego uero istud non postulo <b>inquies</b> <br> <small> Cic.Lig.12 <br> “Mas eu não postulo isso”, dirás. <small> [JDD] </small> </small> </p>
+; <p> mihi vero <b>inquam</b> viginti quinque iudices crediderunt <br> <small> Cic.Att.1.16.10 <br> “Na verdade”, eu digo, “25 juízes acreditaram em mim. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> non quaero <b>inquit</b> istos quicumque ordinem duxit iudicet <br> <small> Cic.Phil.1.20.7 <br> “Não busco esses”, diz: “qualquer um que comandou uma centúria, pode ser juiz.” <small> [JDD] </small> </small> </p>
+; <p> Hominem <b>inquit</b> quaero , et abiit festinans domum . <br> <small> Phaed.3.19 <br> “Procuro um homem”, diz ele. E foi apressado para casa. <small> [JDD] </small> </small> </p>
+; <p> Regem appellas <b>inquam</b> cum Rex tui mentionem nullam fecerit <br> <small> Cic.Att.1.16.10 <br> “Me chamas rei”, eu digo, “quando Rei [cunhado de Clódio] não fez nenhuma menção a ti” [no testamento]. <small> [JDD] </small> </small> </p>
+; <p> certe <b>inquit</b> ridens nam nisi tu amisisses numquam recepissem <br> <small> Cic.Sen.11 <br> disse rindo: “Com certeza, pois se tu não a tivesses perdido, eu nunca a teria recuperado.” <small> [JDD] </small> </small> </p>
+; <p> et inimicissimus quidem Caesaris et ut omnia <b>inquit</b> ista rescindat <br> <small> Cic.Att.2.12.2 <br> “E na verdade inimicíssimo de César”, diz, “e pretendendo anular todos os seus atos”. <small> [JDD] </small> </small> </p>
+; <p> illi <b>inquam</b> urbi fortissime conanti e manibus est ereptus Antonius <br> <small> Cic.Phil.12.7.16 <br> Das mãos daquela, eu digo, daquela cidade que com muita valentia tentava, Antônio foi resgatado. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-110-113-117-97-109xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 104.75 and an absolute frequency of 69. The Sallustius subcorpus follows, with a normalized frequency of 1.86 and an absolute frequency of 2. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 3 ; absolute frequency: 1.13301608882846. subcorpus: Cicero ; normalized frequency: 140 ; absolute frequency: 8.72143729286586. subcorpus: Horatius ; normalized frequency: 18 ; absolute frequency: 15.9843708374034. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 69 ; absolute frequency: 104.751783816608. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 104 ; absolute frequency: 19.4098654373752. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-110-113-117-97-109xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.didática subcorpus registers the highest normalized frequency, with the value of 61.92 and an absolute frequency of 73. The Prosa.filosófica subcorpus follows, with a normalized frequency of 18.95 and an absolute frequency of 115. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 5 ; absolute frequency: 1.21716692227172. subcorpus: Prosa.filosófica ; normalized frequency: 115 ; absolute frequency: 18.9453221528476. subcorpus: Prosa.oratória ; normalized frequency: 85 ; absolute frequency: 8.1610707324801. subcorpus: Prosa.epistolográfica ; normalized frequency: 44 ; absolute frequency: 11.6590264712896. subcorpus: Poesia.lírica ; normalized frequency: 18 ; absolute frequency: 15.1425927483806. subcorpus: Poesia.didática ; normalized frequency: 73 ; absolute frequency: 61.9221307998982. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 3 ; absolute frequency: 5.79150579150579. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-110-113-117-97-109xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 27.08 and an absolute frequency of 177. The I.a.C. subcorpus follows, with a normalized frequency of 7.73 and an absolute frequency of 166. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 166 ; absolute frequency: 7.72632068885269. subcorpus: I.d.C. ; normalized frequency: 177 ; absolute frequency: 27.0766406608536. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

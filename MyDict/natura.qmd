@@ -1,0 +1,222 @@
+---
+title: "natura"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx110-97-116-117-114-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>nātūra</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. primitivo</small> &ensp; Ação de fazer nascer, nascimento &ensp; <small>Cíc. Verr. 3. 162.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Natureza. caráter natural, índole, temperamento, propriedade &ensp; <small>Cíc. Cael. 14.</small> <br> <b>3</b> &ensp; <small>II-Sents. diversos:</small> &ensp; Ordem natural das coisas, leis da natureza, sentimentos naturais, força da natureza &ensp; <small>Cíc. Ac. 2. 55: Cíc. Of. 3. 31.</small> <br> <b>4</b> &ensp; <small>II-Sents. diversos:</small> &ensp; Natureza. estado natural e constitutivo de uma coisa, a natureza i. e.: a configuração de um lugar &ensp; <small>Cés. B. Gal. 1. 2. 2.</small> <br> <b>5</b> &ensp; <small>II-Sents. diversos:</small> &ensp; Natureza conjunto de seres e fenômenos, mundo físico, universo, elemento &ensp; <small>Cíc. Fin. 4, 8.</small> <br> <b>6</b> &ensp; <small>II-Sents. diversos:</small> &ensp; Natureza personificada, o princípio criador &ensp; <small>Cíc. Nat. 2. 142.</small> <br> <b>7</b> &ensp; <small>II-Sents. diversos:</small> &ensp; Órgãos da geração &ensp; <small>Cíc. Nat. 3. 55.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Natura</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; natureza. <br> <b>2</b> &ensp; essencia, força, virtude de cada ser. <br> <b>3</b> &ensp; inclinação, genio, condição. <br> <b>4</b> &ensp; temperamento, qualidade. <br> <b>5</b> &ensp; <small>Natura, abl. Quinct.</small> &ensp; naturalmente. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Natura</b> <br> <small>aduerb.</small>   <p> <b>1</b> &ensp; ho mesmo </p> 
+ <b>Natura</b> -<b>ae</b>   <p> <b>1</b> &ensp; a naturaleza </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/113421 ' target="_blank"> http://lila-erc.eu/data/id/lemma/113421 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+nātūra 
+ nātūrae
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx110-97-116-117-114-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx110-97-116-117-114-97xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword natura here are all the values plotted: collocate: secundum; scoreSUBST: 0. collocate: contra; scoreSUBST: 0. collocate: uiuo; scoreSUBST: 0. collocate: desidero; scoreSUBST: 0. collocate: perfectus; scoreSUBST: 0. collocate: ipse; scoreSUBST: 0. collocate: locus; scoreSUBST: 2. collocate: necessitas; scoreSUBST: 2. collocate: compono; scoreSUBST: 0. collocate: bonum; scoreSUBST: 2. collocate: communis; scoreSUBST: 0. collocate: suus; scoreSUBST: 0. collocate: lex; scoreSUBST: 2. collocate: res; scoreSUBST: 2. collocate: bonus; scoreSUBST: 0. collocate: homo; scoreSUBST: 2. collocate: do; scoreSUBST: 0. collocate: nos; scoreSUBST: 0. collocate: que; scoreSUBST: 0. collocate: qui; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx110-97-116-117-114-97xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword natura here are all the values plotted: collocate: secundum; scoreADJ: 0. collocate: contra; scoreADJ: 0. collocate: uiuo; scoreADJ: 0. collocate: desidero; scoreADJ: 0. collocate: perfectus; scoreADJ: 2. collocate: ipse; scoreADJ: 0. collocate: locus; scoreADJ: 0. collocate: necessitas; scoreADJ: 0. collocate: compono; scoreADJ: 0. collocate: bonum; scoreADJ: 0. collocate: communis; scoreADJ: 2. collocate: suus; scoreADJ: 0. collocate: lex; scoreADJ: 0. collocate: res; scoreADJ: 0. collocate: bonus; scoreADJ: 2. collocate: homo; scoreADJ: 0. collocate: do; scoreADJ: 0. collocate: nos; scoreADJ: 0. collocate: que; scoreADJ: 0. collocate: qui; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx110-97-116-117-114-97xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword natura here are all the values plotted: collocate: secundum; scoreVERBO: 0. collocate: contra; scoreVERBO: 0. collocate: uiuo; scoreVERBO: 2. collocate: desidero; scoreVERBO: 2. collocate: perfectus; scoreVERBO: 0. collocate: ipse; scoreVERBO: 0. collocate: locus; scoreVERBO: 0. collocate: necessitas; scoreVERBO: 0. collocate: compono; scoreVERBO: 2. collocate: bonum; scoreVERBO: 0. collocate: communis; scoreVERBO: 0. collocate: suus; scoreVERBO: 0. collocate: lex; scoreVERBO: 0. collocate: res; scoreVERBO: 0. collocate: bonus; scoreVERBO: 0. collocate: homo; scoreVERBO: 0. collocate: do; scoreVERBO: 2. collocate: nos; scoreVERBO: 0. collocate: que; scoreVERBO: 0. collocate: qui; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx110-97-116-117-114-97xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword natura here are all the values plotted: collocate: secundum; scoreADV: 0. collocate: contra; scoreADV: 0. collocate: uiuo; scoreADV: 0. collocate: desidero; scoreADV: 0. collocate: perfectus; scoreADV: 0. collocate: ipse; scoreADV: 0. collocate: locus; scoreADV: 0. collocate: necessitas; scoreADV: 0. collocate: compono; scoreADV: 0. collocate: bonum; scoreADV: 0. collocate: communis; scoreADV: 0. collocate: suus; scoreADV: 0. collocate: lex; scoreADV: 0. collocate: res; scoreADV: 0. collocate: bonus; scoreADV: 0. collocate: homo; scoreADV: 0. collocate: do; scoreADV: 0. collocate: nos; scoreADV: 0. collocate: que; scoreADV: 0. collocate: qui; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx110-97-116-117-114-97xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword natura here are all the values plotted: collocate: secundum; scoreFUNC: 40. collocate: contra; scoreFUNC: 30. collocate: uiuo; scoreFUNC: 0. collocate: desidero; scoreFUNC: 0. collocate: perfectus; scoreFUNC: 0. collocate: ipse; scoreFUNC: 0. collocate: locus; scoreFUNC: 0. collocate: necessitas; scoreFUNC: 0. collocate: compono; scoreFUNC: 0. collocate: bonum; scoreFUNC: 0. collocate: communis; scoreFUNC: 0. collocate: suus; scoreFUNC: 0. collocate: lex; scoreFUNC: 0. collocate: res; scoreFUNC: 0. collocate: bonus; scoreFUNC: 0. collocate: homo; scoreFUNC: 0. collocate: do; scoreFUNC: 0. collocate: nos; scoreFUNC: 0. collocate: que; scoreFUNC: 0. collocate: qui; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> si perfecte secundum <b>naturam</b> est <br> <small> Sen.Ep.118.12 <br> Se está perfeitamente em conformidade com a natureza. <small> [JDD] </small> </small> </p>
+; <p> nihil praeter cibum <b>natura</b> desiderat <br> <small> Sen.Ep.119.13 <br> A natureza não deseja nada além da comida. <small> [JDD] </small> </small> </p>
+; <p> producit fetus suos <b>natura</b> non abicit <br> <small> Sen.Ep.121.18 <br> A natureza produz seus filhos, não os abandona. <small> [JDD] </small> </small> </p>
+; <p> pecudibus istas maiores ferisque <b>natura</b> concessit <br> <small> Sen.Ep.124.22 <br> A natureza as concedeu maiores aos gados e às feras. <small> [JDD] </small> </small> </p>
+; <p> ad legem <b>naturae</b> reuertamur diuitiae paratae sunt <br> <small> Sen.Ep.25.4 <br> Voltemos à lei da natureza; suas riquezas estão à disposição. <small> [JDD] </small> </small> </p>
+; <p> quod <b>naturae</b> satis est homini non est <br> <small> Sen.Ep.119.7 <br> O que é suficiente para a natureza, não o é para o homem. <small> [JDD] </small> </small> </p>
+; <p> fateris inquis quod bonum est secundum <b>naturam</b> esse <br> <small> Sen.Ep.118.13 <br> “Admites”, dizes, “que o bem é o que está em conformidade com a natureza. <small> [JDD] </small> </small> </p>
+; <p> commorandi enim <b>natura</b> deuersorium nobis non habitandi dedit <br> <small> Cic.Sen.84 <br> Pois a natureza nos deu um albergue de passar um tempo, não de morar. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> omnia uitia contra <b>naturam</b> pugnant omnia debitum ordinem deserunt <br> <small> Sen.Ep.122.5 <br> Todos os vícios lutam contra a natureza, todos abandonam a ordem devida. <small> [JDD] </small> </small> </p>
+; <p> est consul φιλόπατρις et ut semper iudicavi <b>natura</b> bonus <br> <small> Cic.Att.2.1.4 <br> Ele é um cônsul patriota e, como sempre julguei, bom por natureza. <small> [JDD] </small> </small> </p>
+; <p> quibus profecto contra <b>naturam</b> corpus uoluptati anima oneri fuit <br> <small> Sal.Cat.2.8 <br> e esses, indubitavelmente contra a natureza, têm o corpo para o prazer, a alma para a carga. <small> [JDD] </small> </small> </p>
+; <p> lex autem illa <b>naturae</b> scis quos nobis terminos statuat <br> <small> Sen.Ep.4.10 <br> Sabes, porém, que limites essa lei da natureza nos estabelece? <small> [JDD] </small> </small> </p>
+; <p> sed in magna copia rerum aliud alii <b>natura</b> iter ostendit <br> <small> Sal.Cat.3.1 <br> Mas em meio a uma grande abundância de coisas a natureza mostra um caminho para um e outro para outro. <small> [JDD] </small> </small> </p>
+; <p> quamquam o di boni quid est in hominis <b>natura</b> diu <br> <small> Cic.Sen.69 <br> Aliás, ó deuses bons! o que é longo tempo na natureza dos homem? <small> [JDD] </small> </small> </p>
+; <p> ius bonumque apud eos non legibus magis quam <b>natura</b> ualebat <br> <small> Sal.Cat.9.1 <br> o direito e o bem tinham valor entre eles menos por efeito das leis do que pela natureza. <small> [JDD] </small> </small> </p>
+; <p> etenim Quirites exiguum nobis uitae curriculum <b>natura</b> circumscripsit immensum gloriae <br> <small> Cic.Rab.Perd.30 <br> Pois de fato, Quirites, a natureza nos limitou a um curso exíguo de vida, imenso de glória. <small> [JDD] </small> </small> </p>
+; <p> non uiuunt contra <b>naturam</b> qui pomaria in summis turribus serunt <br> <small> Sen.Ep.122.8 <br> Não vivem contra a natureza esses que plantam pomares no alto das torres? <small> [JDD] </small> </small> </p>
+; <p> fateris et alia secundum <b>naturam</b> quidem esse sed bona non esse <br> <small> Sen.Ep.118.13 <br> Admites também que, na verdade, outras coisas estão em conformidade com a natureza, mas que não são boas. <small> [JDD] </small> </small> </p>
+; <p> <b>natura</b> ferox uehemens manu promptus erat maxumum bonum in celeritate putabat <br> <small> Sal.Cat.43.4 <br> Feroz por natureza, impetuoso, estava pronto para a ação, considerava na rapidez o bom êxito. <small> [JDD] </small> </small> </p>
+; <p> inter reliqua hoc nobis praestitit <b>natura</b> praecipuum quod necessitati fastidium excussit <br> <small> Sen.Ep.119.15 <br> O principal benefício que a natureza nos prestou, entre outros, é o fato de ter tirado o fastio da necessidade. <small> [JDD] </small> </small> </p>
+; <p> cum his enim amicitiam <b>natura</b> ipsa peperit sed ea non satis habet firmitatis <br> <small> Cic.Amici.19 <br> pois a própria natureza gerou a amizade com estes; mas essa não tem suficiente firmeza. <small> [JDD] </small> </small> </p>
+; <p> quomodo ergo potest eorum uideri perfecta <b>natura</b> quibus usus perfecti temporis non est <br> <small> Sen.Ep.124.17 <br> Como pode, então, parecer perfeita a natureza desses que não têm o uso do tempo perfeito? <small> [JDD] </small> </small> </p>
+; <p> quomodo ad aliam proprietatem peruenit cum utrique praecipuum illud commune sit secundum <b>naturam</b> esse <br> <small> Sen.Ep.118.13 <br> De que modo ele chegou à outra característica quando ambas têm essa particularidade comum: estar em conformidade com a natureza?” <small> [JDD] </small> </small> </p>
+; <p> itaque in Epirum ad te statui me conferre non quo mea interesset loci <b>natura</b> qui lucem omnino fugerem <br> <small> Cic.Att.3.19.1 <br> E assim decidi me dirigir à tua casa em Epiro, não porque me interessasse a natureza do lugar, pois eu fugia totalmente da luz. <small> [JDD] </small> </small> </p>
+; <p> cuius loci haec erat <b>natura</b> atque ita montibus angustis mare continebatur uti ex locis superioribus in litus telum adigi posset <br> <small> Caes.Gal.4.23.3 <br> Esta era a natureza daquele lugar e o mar era de tal modo contido pela estreitezas dos montes que dos lugares mais altos podia ser lançado um dardo até a praia. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx110-97-116-117-114-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Seneca subcorpus registers the highest normalized frequency, with the value of 25.2 and an absolute frequency of 135. The Horatius subcorpus follows, with a normalized frequency of 11.54 and an absolute frequency of 13. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 19 ; absolute frequency: 7.17576856258025. subcorpus: Cicero ; normalized frequency: 117 ; absolute frequency: 7.28862973760933. subcorpus: Horatius ; normalized frequency: 13 ; absolute frequency: 11.5442678270136. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 6 ; absolute frequency: 9.10885076666161. subcorpus: Sallustius ; normalized frequency: 9 ; absolute frequency: 8.3480196642241. subcorpus: Seneca ; normalized frequency: 135 ; absolute frequency: 25.1954984042851. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx110-97-116-117-114-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.filosófica subcorpus registers the highest normalized frequency, with the value of 31.14 and an absolute frequency of 189. The Prosa.epistolográfica subcorpus follows, with a normalized frequency of 1.59 and an absolute frequency of 6. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 29 ; absolute frequency: 7.05956814917598. subcorpus: Prosa.filosófica ; normalized frequency: 189 ; absolute frequency: 31.1362251033756. subcorpus: Prosa.oratória ; normalized frequency: 53 ; absolute frequency: 5.08866763319347. subcorpus: Prosa.epistolográfica ; normalized frequency: 6 ; absolute frequency: 1.58986724608495. subcorpus: Poesia.lírica ; normalized frequency: 13 ; absolute frequency: 10.9363169849415. subcorpus: Poesia.didática ; normalized frequency: 8 ; absolute frequency: 6.78598693697515. subcorpus: Poesia.trágica ; normalized frequency: 4 ; absolute frequency: 3.47463516330785. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx110-97-116-117-114-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 21.88 and an absolute frequency of 143. The I.a.C. subcorpus follows, with a normalized frequency of 7.35 and an absolute frequency of 158. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 158 ; absolute frequency: 7.35396788457063. subcorpus: I.d.C. ; normalized frequency: 143 ; absolute frequency: 21.8754780480343. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

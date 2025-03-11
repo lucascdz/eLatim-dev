@@ -1,0 +1,212 @@
+---
+title: "imperator"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx105-109-112-101-114-97-116-111-114xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>imperātor</b> <b>-óris</b> <br> <small>subs. m.</small> <br> <small>Obs.: A forma arcaica induperator ainda ocorre em Lucrécio 4, 967.</small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Comandante. general, almirante, chefe &ensp; <small>Cíc. De Or. 1, 210.</small> <br> <b>2</b> &ensp; <small>I-Daí:-Imperator</small> &ensp; <small>título honorífico conferido a um general vitorioso e, depoisc título dos imperadores romanos Cíc. Phil. 14. 11: Plín. Ep. 3. 5. 9.</small> <br> <b>3</b> &ensp; <small>I-Daí:</small> &ensp; Imperador &ensp; <small>Suet. Cés. 76.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Homem de guerra, capitão &ensp; <small>Cíc. Verr. 4. 95.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Endoperator</b> <br> <small>Lucr. por Imperator.</small> 
+ <b>Imperator</b> -<b>oris</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; general, Commandante, Chefe do exercito. <br> <b>2</b> &ensp; <small>Plaut.</small> &ensp; o que manda. <br> <b>3</b> &ensp; <small>Sall.</small> &ensp; consul. <br> <b>4</b> &ensp; <small>Tac.</small> &ensp; emperador. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>imperator familiae &ensp; <small><small>Plaut</small></small> &ensp; <small>Dono da casa, pai de familia</small> <br> imperator Prouinciae &ensp; <small><small>Petr</small></small> &ensp; <small>Governador da Provincia</small> </p> 
+ <b>Induperator</b> -<b>oris</b> <br> <small>m.</small>   <p> <b>1</b> &ensp; <small>Lucr.</small> &ensp; general. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Imperator</b> <b>oris</b>   <p> <b>1</b> &ensp; ho capitão </p> 
+ <b>Induperator</b> <b>oris</b> <br> <small>Dixit iuuenalis. pro imperatororis.</small>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/106515 ' target="_blank"> http://lila-erc.eu/data/id/lemma/106515 </a> <br>
+<small> classe: </small> substantivo masculino   <br>
+<small> paradigma: </small> 3ª declinação (sem vogal temática) <br>
+<small> outras grafias: </small> endoperator, impeirator, induperator, inpeirator, inperator <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+impĕrātŏr 
+ impĕrātōris
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx105-109-112-101-114-97-116-111-114xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx105-109-112-101-114-97-116-111-114xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword imperator here are all the values plotted: collocate: appello; scoreSUBST: 0. collocate: clarus; scoreSUBST: 0. collocate: noster; scoreSUBST: 0. collocate: officium; scoreSUBST: 2. collocate: consul; scoreSUBST: 2. collocate: superus; scoreSUBST: 0. collocate: exercitus; scoreSUBST: 2. collocate: populus; scoreSUBST: 2. collocate: unus; scoreSUBST: 0. collocate: bellum; scoreSUBST: 2. collocate: atque; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx105-109-112-101-114-97-116-111-114xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword imperator here are all the values plotted: collocate: appello; scoreADJ: 0. collocate: clarus; scoreADJ: 2. collocate: noster; scoreADJ: 0. collocate: officium; scoreADJ: 0. collocate: consul; scoreADJ: 0. collocate: superus; scoreADJ: 0. collocate: exercitus; scoreADJ: 0. collocate: populus; scoreADJ: 0. collocate: unus; scoreADJ: 0. collocate: bellum; scoreADJ: 0. collocate: atque; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx105-109-112-101-114-97-116-111-114xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword imperator here are all the values plotted: collocate: appello; scoreVERBO: 2. collocate: clarus; scoreVERBO: 0. collocate: noster; scoreVERBO: 0. collocate: officium; scoreVERBO: 0. collocate: consul; scoreVERBO: 0. collocate: superus; scoreVERBO: 0. collocate: exercitus; scoreVERBO: 0. collocate: populus; scoreVERBO: 0. collocate: unus; scoreVERBO: 0. collocate: bellum; scoreVERBO: 0. collocate: atque; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx105-109-112-101-114-97-116-111-114xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword imperator here are all the values plotted: collocate: appello; scoreADV: 0. collocate: clarus; scoreADV: 0. collocate: noster; scoreADV: 0. collocate: officium; scoreADV: 0. collocate: consul; scoreADV: 0. collocate: superus; scoreADV: 0. collocate: exercitus; scoreADV: 0. collocate: populus; scoreADV: 0. collocate: unus; scoreADV: 0. collocate: bellum; scoreADV: 0. collocate: atque; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx105-109-112-101-114-97-116-111-114xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword imperator here are all the values plotted: collocate: appello; scoreFUNC: 0. collocate: clarus; scoreFUNC: 0. collocate: noster; scoreFUNC: 0. collocate: officium; scoreFUNC: 0. collocate: consul; scoreFUNC: 0. collocate: superus; scoreFUNC: 0. collocate: exercitus; scoreFUNC: 0. collocate: populus; scoreFUNC: 0. collocate: unus; scoreFUNC: 0. collocate: bellum; scoreFUNC: 0. collocate: atque; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> <b>imperatores</b> appellati sumus <br> <small> Cic.Att.5.20.3 <br> fui chamado de imperator. <small> [JDD] </small> </small> </p>
+; <p> est haec diuina atque incredibilis uirtus <b>imperatoris</b> <br> <small> Cic.Man.36 <br> É este o divino e incrível valor desse general. <small> [JDD] </small> </small> </p>
+; <p> Caesarem deorum beneficio rei publicae procreatum dubitem ne appellare <b>imperatorem</b> <br> <small> Cic.Phil.14.25.4 <br> Eu duvidaria em chamar de general vitorioso, nascido para a república pelo favor dos deuses? <small> [JDD] </small> </small> </p>
+; <p> alius castra iam capta pronuntiat alius deleto exercitu atque <b>imperatore</b> uictores barbaros uenisse contendit <br> <small> Caes.Gal.6.37.7 <br> Um anuncia que o acampamento já foi capturado, outro sustenta que, destruído o exército e o general, chegavam vitoriosos os bárbaros. <small> [JDD] </small> </small> </p>
+; <p> ita trium <b>imperatorum</b> uirtute consilio felicitate uno die locis pluribus res publica est conseruata <br> <small> Cic.Phil.14.28.11 <br> Assim, graças ao valor, decisão boa fortuna dos três generais, num único dia em muitos lugares a república foi salva. <small> [JDD] </small> </small> </p>
+; <p> restat ut de <b>imperatore</b> ad id bellum deligendo ac tantis rebus praeficiendo dicendum esse uideatur <br> <small> Cic.Man.27 <br> Resta que parece ser preciso dizer sobre o general que deve ser escolhido para essa guerra e que deve ser posto à frente de tão grandes operações. <small> [JDD] </small> </small> </p>
+; <p> itaque propter hanc auaritiam <b>imperatorum</b> quantas calamitates quocumque uentum sit nostri exercitus adferant quis ignorat <br> <small> Cic.Man.37 <br> E assim quem ignora que grandes infortúnios os nossos exércitos ocasionam onde quer que se chega, por causa dessa cobiça dos generais? <small> [JDD] </small> </small> </p>
+; <p> Decimus quidem Brutus summus uir et <b>imperator</b> Acci amicissimi sui carminibus templorum ac monumentorum aditus exornauit suorum <br> <small> Cic.Arch.27 <br> Décimo Bruto, grande homem e general, adornou as entradas dos templos e de seus monumentos com versos de Ácio, amicíssimo seu. <small> [JDD] </small> </small> </p>
+; <p> ego enim sic existimo in summo <b>imperatore</b> quattuor has res inesse oportere scientiam rei militaris uirtutem auctoritatem felicitatem <br> <small> Cic.Man.28 <br> Pois eu estimo assim, que convém existir em um grande general estas quatro coisas, conhecimento do assunto militar, valor, autoridade e sorte. <small> [JDD] </small> </small> </p>
+; <p> quae est igitur spes qui Mutinam circumsedent <b>imperatorem</b> populi Romani exercitumque oppugnant eis pacem cum populo Romano esse posse <br> <small> Cic.Phil.7.22.6 <br> Que esperança há, portanto, de que possam ter paz com o povo romano esses que fazem o cerco de Mutina e atacam o general do povo romano e seu exército? <small> [JDD] </small> </small> </p>
+; <p> negat hoc D. Brutus <b>imperator</b> consul designatus natus rei publicae ciuis negat Gallia negat cuncta Italia negat senatus negatis uos <br> <small> Cic.Phil.4.9.6 <br> Nega que ele seja cônsul Décimo Bruto, general, cônsul eleito, cidadão nascido para a república, a Gália nega, a Itália toda nega, o senado nega, vós negais. <small> [JDD] </small> </small> </p>
+; <p> qui suum timorem in rei frumentariae simulationem angustiasque itineris conferrent facere arroganter cum aut de officio <b>imperatoris</b> desperarent aut praescribere auderent <br> <small> Caes.Gal.1.40.10 <br> Que aqueles que reduziam seu medo ao falso pretexto do abstecimento de trigo e aos desfiladeiros do caminho agiam com arrogância, pois ou mostravam falta de confiança na capacidade do general ou ousavam dar-lhe lições. <small> [JDD] </small> </small> </p>
+; <p> non queo uetera illa populi Romani gaudia quanta fuerint iudicare multas tamen iam summorum <b>imperatorum</b> clarissimas uictorias aetas nostra uidit quarum nulla neque tam diuturnam laetitiam attulit nec tantam <br> <small> Cic.Mil.77 <br> Eu não posso julgar quão grandes foram aquelas antigas alegrias do povo romano: contudo, a nossa geração já viu muitas vitórias brilhantíssimas dos maiores generais, dentre as quais nenhuma trouxe uma alegria nem tão duradoura nem tão grande. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx105-109-112-101-114-97-116-111-114xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Suetonius subcorpus registers the highest normalized frequency, with the value of 11.03 and an absolute frequency of 1. The Suetonius subcorpus follows, with a normalized frequency of 11.03 and an absolute frequency of 1. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 9 ; absolute frequency: 3.39904826648538. subcorpus: Cicero ; normalized frequency: 118 ; absolute frequency: 7.35092571827266. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Sallustius ; normalized frequency: 8 ; absolute frequency: 7.42046192375475. subcorpus: Seneca ; normalized frequency: 5 ; absolute frequency: 0.933166607566115. subcorpus: Suetonius ; normalized frequency: 1 ; absolute frequency: 11.0253583241455. subcorpus: Tacitus ; normalized frequency: 3 ; absolute frequency: 10.2986611740474. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx105-109-112-101-114-97-116-111-114xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.oratória subcorpus registers the highest normalized frequency, with the value of 10.85 and an absolute frequency of 113. The Prosa.histórica subcorpus follows, with a normalized frequency of 5.11 and an absolute frequency of 21. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 21 ; absolute frequency: 5.11210107354123. subcorpus: Prosa.filosófica ; normalized frequency: 7 ; absolute frequency: 1.15319352234724. subcorpus: Prosa.oratória ; normalized frequency: 113 ; absolute frequency: 10.8494234443559. subcorpus: Prosa.epistolográfica ; normalized frequency: 3 ; absolute frequency: 0.794933623042476. subcorpus: Poesia.lírica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.didática ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx105-109-112-101-114-97-116-111-114xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The II.d.C. subcorpus registers the highest normalized frequency, with the value of 10.47 and an absolute frequency of 4. The I.a.C. subcorpus follows, with a normalized frequency of 6.28 and an absolute frequency of 135. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 135 ; absolute frequency: 6.28345357225972. subcorpus: I.d.C. ; normalized frequency: 5 ; absolute frequency: 0.764876854826373. subcorpus: II.d.C. ; normalized frequency: 4 ; absolute frequency: 10.4712041884817. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

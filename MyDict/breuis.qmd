@@ -1,0 +1,202 @@
+---
+title: "breuis"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx98-114-101-117-105-115xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>brĕvis</b> <b>-e</b> <br> <small>adj.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Breve, curto &ensp; <small>no tempo ou no espaço; estreito, profundo no espaço Cés. B. Gal. 3, 4, 1; Ces. B. Civ. 1, 43, 4.</small> <br> <b>2</b> &ensp; <small>I-Daí:</small> &ensp; De pequena estatura, baixo &ensp; <small>falando de pessoas Cíc. De Or. 2, 245.</small> <br> <b>3</b> &ensp; <small>I-Daí:</small> &ensp; De curta duração, passageiro &ensp; <small>Cíc. Fin. 2, 93.</small> <br> <b>4</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Efêmero &ensp; <small>poét. Hor. O. 1, 36, 16.</small> <br> <b>5</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Conciso, breve &ensp; <small>Cíc. Cael. 9; Cíc. At. 11, 7, 6.</small> <br> <b>6</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Pequeno &ensp; <small>Ov. Trist. 5, 2, 70.</small> <br> <b>7</b> &ensp; <small>II-Na língua gem gramatical:</small> &ensp; Breve &ensp; <small>sílaba:</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>7</b><br>syllaba brevis Cíc. Or. 217 «sílaba breve». </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<small>m. f</small> <b>Brevis</b> <small>n</small> -<b>ve</b> -<b>is</b> <small>Cic</small> -<b>vior</b> <small>Ovid</small> -<b>vissimus</b>   <p> <b>1</b> &ensp; breve, pequeno. </p>
+
+
+
+
+#### Velez
+
+<b>Brevis</b> -<b>e</b> <small>et</small>   <p> <b>1</b> &ensp; cousa breve, ou curta </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>ad breue &ensp; <small>por breve espaço, ou tempo</small> </p>
+
+
+
+
+#### Cardoso
+
+<b>Breuis</b> -<b>e</b>   <p> <b>1</b> &ensp; cousa curta </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/91883 ' target="_blank"> http://lila-erc.eu/data/id/lemma/91883 </a> <br>
+<small> classe: </small> adjetivo    <br>
+<small> paradigma: </small> 2ª classe (tema em -i-) <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+brĕvis 
+ brĕve
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx98-114-101-117-105-115xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx98-114-101-117-105-115xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword breuis here are all the values plotted: collocate: spatium; scoreSUBST: 3. collocate: tempus; scoreSUBST: 4. collocate: tam; scoreSUBST: 0. collocate: quod; scoreSUBST: 0. collocate: qua; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx98-114-101-117-105-115xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword breuis here are all the values plotted: collocate: spatium; scoreADJ: 0. collocate: tempus; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: quod; scoreADJ: 0. collocate: qua; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx98-114-101-117-105-115xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword breuis here are all the values plotted: collocate: spatium; scoreVERBO: 0. collocate: tempus; scoreVERBO: 0. collocate: tam; scoreVERBO: 0. collocate: quod; scoreVERBO: 0. collocate: qua; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx98-114-101-117-105-115xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword breuis here are all the values plotted: collocate: spatium; scoreADV: 0. collocate: tempus; scoreADV: 0. collocate: tam; scoreADV: 2. collocate: quod; scoreADV: 0. collocate: qua; scoreADV: 2'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx98-114-101-117-105-115xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword breuis here are all the values plotted: collocate: spatium; scoreFUNC: 0. collocate: tempus; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: quod; scoreFUNC: 20. collocate: qua; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> itaque <b>breui</b> tempore ad fanum ex urbe tota concurritur <br> <small> Cic.Ver.2.4.95.4 <br> E assim, em pouco tempo, corre-se da cidade inteira em direção ao templo. <small> [JDD] </small> </small> </p>
+; <p> tam magnis <b>breues</b> poenas sceleribus soluis atque uno omnia pensabis ictu <br> <small> Sen.Oed.936 <br> Pagas tão grandes crimes com curto castigo e compensarás tudo com um só golpe? <small> [JDD] </small> </small> </p>
+; <p> ideo sum <b>brevior</b> quod ut spero coram <b>brevi</b> tempore conferre quae volumus licebit <br> <small> Cic.Att.2.25.2 <br> Sou mais breve porque, conforme espero, dentro em pouco poderemos conferir pessoalmente o que queremos. <small> [JDD] </small> </small> </p>
+; <p> quas tu incredibile est quam <b>brevi</b> tempore quanto deteriores offensurus sis quam reliquisti <br> <small> Cic.Att.1.11.3 <br> e é incrível o quanto, em tão curto tempo, as encontrarás piores do que as deixaste. <small> [JDD] </small> </small> </p>
+; <p> tanti fuerunt ut ego eo <b>brevior</b> sim quod eos usque istinc exauditos putem <br> <small> Cic.Att.1.14.4 <br> foi tão alto que devo ser mais breve nisso porque acho que até aí ele foi ouvido. <small> [JDD] </small> </small> </p>
+; <p> inque <b>brevi</b> spatio superorum numine saxa missa viri manibus faciem traxere virorum , et de femineo reparata est femina iactu . <br> <small> Ov.Met.1.411-3 <br> e em breve espaço de tempo, por vontade dos deuses, as pedras lançadas pelas mãos do homem adquiriram o aspecto de homens e a mulher foi restituída do arremesso da mulher. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx98-114-101-117-105-115xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 6.07 and an absolute frequency of 4. The Horatius subcorpus follows, with a normalized frequency of 4.44 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Suetonius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 5 ; absolute frequency: 1.88836014804744. subcorpus: Cicero ; normalized frequency: 31 ; absolute frequency: 1.93117540056316. subcorpus: Horatius ; normalized frequency: 5 ; absolute frequency: 4.44010301038984. subcorpus: Ovidius ; normalized frequency: 1 ; absolute frequency: 1.71585449553878. subcorpus: Phaedrus ; normalized frequency: 4 ; absolute frequency: 6.0725671777744. subcorpus: Sallustius ; normalized frequency: 2 ; absolute frequency: 1.85511548093869. subcorpus: Seneca ; normalized frequency: 14 ; absolute frequency: 2.61286650118512. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 1 ; absolute frequency: 3.43288705801579. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx98-114-101-117-105-115xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.didática subcorpus registers the highest normalized frequency, with the value of 4.24 and an absolute frequency of 5. The Poesia.lírica subcorpus follows, with a normalized frequency of 4.21 and an absolute frequency of 5. the subcorpus with the least normalized frequency is Poesia.épica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 8 ; absolute frequency: 1.94746707563475. subcorpus: Prosa.filosófica ; normalized frequency: 14 ; absolute frequency: 2.30638704469449. subcorpus: Prosa.oratória ; normalized frequency: 17 ; absolute frequency: 1.63221414649602. subcorpus: Prosa.epistolográfica ; normalized frequency: 11 ; absolute frequency: 2.91475661782241. subcorpus: Poesia.lírica ; normalized frequency: 5 ; absolute frequency: 4.20627576343905. subcorpus: Poesia.didática ; normalized frequency: 5 ; absolute frequency: 4.24124183560947. subcorpus: Poesia.trágica ; normalized frequency: 3 ; absolute frequency: 2.60597637248089. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx98-114-101-117-105-115xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 2.91 and an absolute frequency of 19. The I.d.C. subcorpus follows, with a normalized frequency of 2.91 and an absolute frequency of 19. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 43 ; absolute frequency: 2.00139632301606. subcorpus: I.d.C. ; normalized frequency: 19 ; absolute frequency: 2.90653204834022. subcorpus: II.d.C. ; normalized frequency: 1 ; absolute frequency: 2.61780104712042. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+

@@ -1,0 +1,243 @@
+---
+title: "que"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx113-117-101xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>-que</b> <br> <small>conj. copulativa, enclítica = et.</small> <br> <small>Obs.: Partícula enclítica, ligando duas palavras ou membros de frase. Em geral, não se emprega depois de ab, ob, sub, apud, a, ad, mas: exque Cíc. Phil. 3, 38. Geralmente não se emprega depois de sic, tunc, nunc, huc, illuc, mas, raramente: hucque Tác. An. 13,37; tuncque Tác. An. 14, 15. Pode aparecer repetida: -que... -que Plaut. Rud. 369; Sal. B. Jug. 10. 2. Encontra-se também: -que ... et em lugar de et ... et Sal. B. Jug. 26, 1. Aparece: -que... atque Verg. G. 1, 182. A forma -qué alongada na cesura aparece em Verg. En. 3, 91.</small>   <p> <b>1</b> &ensp; <small></small> &ensp; E, também: &ensp; <small></small> <br> <b>2</b> &ensp; <small></small> &ensp; Isto é, a saber: &ensp; <small></small> <br> <b>3</b> &ensp; <small></small> &ensp; E mesmo &ensp; <small>Cés. B. Gal. 5, 14, 4.</small> <br> <b>4</b> &ensp; <small></small> &ensp; E ao contrário &ensp; <small>oposição a uma negação Cíc. Tusc. 1. 71.</small> <br> <b>5</b> &ensp; <small></small> &ensp; E também, semelhante &ensp; <small>v. itemque Cíc. Of. 3, 96.</small> </p>   <p><small>[EXEMPLOS]</small><br> <br><b>1</b><br>senatus populusque Romanus «o senado e o povo romano». <br> <br><b>2</b><br>ad Rhenum finesque Germanorum contendere Cés. B. Gal. 1, 27, 4 ‘dirigir-se para o Reno, isto é, para o território dos germanos’. </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Que</b> <br> <small>conj.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; e, ainda, tambem. </p>
+
+
+
+
+#### Velez
+
+<b>Que</b> <br> <small>Conj. postpositiva</small>   <p> <b>1</b> &ensp; e </p>
+
+
+
+
+#### Cardoso
+
+no data
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/131416 ' target="_blank"> http://lila-erc.eu/data/id/lemma/131416 </a> <br>
+<small> classe: </small> conjunção coordenativa    <br>
+<small> paradigma: </small> indeclinável <br>
+<small> outras grafias: </small>  <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+no data
+
+
+
+
+#### WordNet
+
+no data
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx113-117-101xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword que here are all the values plotted: collocate: ne; scoreSUBST: 0. collocate: is; scoreSUBST: 0. collocate: omnis; scoreSUBST: 0. collocate: magnus; scoreSUBST: 0. collocate: populus; scoreSUBST: 2. collocate: magis; scoreSUBST: 0. collocate: ceterus; scoreSUBST: 0. collocate: idem; scoreSUBST: 0. collocate: uester; scoreSUBST: 0. collocate: romanus; scoreSUBST: 0. collocate: item; scoreSUBST: 0. collocate: totus; scoreSUBST: 0. collocate: tam; scoreSUBST: 0. collocate: equitatus; scoreSUBST: 3. collocate: natura; scoreSUBST: 2. collocate: reliquus; scoreSUBST: 0. collocate: semper; scoreSUBST: 0. collocate: grauis; scoreSUBST: 0. collocate: fortuna; scoreSUBST: 2. collocate: iudicium; scoreSUBST: 2. collocate: exercitus; scoreSUBST: 1. collocate: ibi; scoreSUBST: 0. collocate: uultus; scoreSUBST: 2. collocate: ea; scoreSUBST: 0. collocate: copia; scoreSUBST: 2. collocate: suum; scoreSUBST: 2. collocate: seruo; scoreSUBST: 0. collocate: maiores; scoreSUBST: 2. collocate: defendo; scoreSUBST: 0. collocate: terra; scoreSUBST: 1. collocate: obtestor; scoreSUBST: 0. collocate: defensor; scoreSUBST: 2. collocate: centurio; scoreSUBST: 2. collocate: obses; scoreSUBST: 2. collocate: commeatus; scoreSUBST: 2. collocate: ratis; scoreSUBST: 2. collocate: monumentum; scoreSUBST: 2. collocate: fidus; scoreSUBST: 0. collocate: uersor; scoreSUBST: 0. collocate: infestus; scoreSUBST: 0. collocate: militia; scoreSUBST: 2. collocate: uexo; scoreSUBST: 0. collocate: dirimo; scoreSUBST: 0. collocate: turris; scoreSUBST: 2. collocate: cruciatus; scoreSUBST: 2. collocate: fatalis; scoreSUBST: 0. collocate: geminus; scoreSUBST: 0. collocate: mensa; scoreSUBST: 2. collocate: conatus; scoreSUBST: 2. collocate: testor; scoreSUBST: 0. collocate: penitus; scoreSUBST: 0. collocate: periculosus; scoreSUBST: 0. collocate: nex; scoreSUBST: 2. collocate: rumpo; scoreSUBST: 0. collocate: altitudo; scoreSUBST: 2. collocate: comitatus; scoreSUBST: 2. collocate: praemitto; scoreSUBST: 0. collocate: armo; scoreSUBST: 0. collocate: munitio; scoreSUBST: 2. collocate: coma; scoreSUBST: 2. collocate: cultus; scoreSUBST: 2'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx113-117-101xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword que here are all the values plotted: collocate: ne; scoreADJ: 0. collocate: is; scoreADJ: 0. collocate: omnis; scoreADJ: 0. collocate: magnus; scoreADJ: 2. collocate: populus; scoreADJ: 0. collocate: magis; scoreADJ: 0. collocate: ceterus; scoreADJ: 0. collocate: idem; scoreADJ: 0. collocate: uester; scoreADJ: 0. collocate: romanus; scoreADJ: 2. collocate: item; scoreADJ: 0. collocate: totus; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: equitatus; scoreADJ: 0. collocate: natura; scoreADJ: 0. collocate: reliquus; scoreADJ: 0. collocate: semper; scoreADJ: 0. collocate: grauis; scoreADJ: 2. collocate: fortuna; scoreADJ: 0. collocate: iudicium; scoreADJ: 0. collocate: exercitus; scoreADJ: 0. collocate: ibi; scoreADJ: 0. collocate: uultus; scoreADJ: 0. collocate: ea; scoreADJ: 0. collocate: copia; scoreADJ: 0. collocate: suum; scoreADJ: 0. collocate: seruo; scoreADJ: 0. collocate: maiores; scoreADJ: 0. collocate: defendo; scoreADJ: 0. collocate: terra; scoreADJ: 0. collocate: obtestor; scoreADJ: 0. collocate: defensor; scoreADJ: 0. collocate: centurio; scoreADJ: 0. collocate: obses; scoreADJ: 0. collocate: commeatus; scoreADJ: 0. collocate: ratis; scoreADJ: 0. collocate: monumentum; scoreADJ: 0. collocate: fidus; scoreADJ: 2. collocate: uersor; scoreADJ: 0. collocate: infestus; scoreADJ: 2. collocate: militia; scoreADJ: 0. collocate: uexo; scoreADJ: 0. collocate: dirimo; scoreADJ: 0. collocate: turris; scoreADJ: 0. collocate: cruciatus; scoreADJ: 0. collocate: fatalis; scoreADJ: 2. collocate: geminus; scoreADJ: 2. collocate: mensa; scoreADJ: 0. collocate: conatus; scoreADJ: 0. collocate: testor; scoreADJ: 0. collocate: penitus; scoreADJ: 0. collocate: periculosus; scoreADJ: 2. collocate: nex; scoreADJ: 0. collocate: rumpo; scoreADJ: 0. collocate: altitudo; scoreADJ: 0. collocate: comitatus; scoreADJ: 0. collocate: praemitto; scoreADJ: 0. collocate: armo; scoreADJ: 0. collocate: munitio; scoreADJ: 0. collocate: coma; scoreADJ: 0. collocate: cultus; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx113-117-101xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword que here are all the values plotted: collocate: ne; scoreVERBO: 0. collocate: is; scoreVERBO: 0. collocate: omnis; scoreVERBO: 0. collocate: magnus; scoreVERBO: 0. collocate: populus; scoreVERBO: 0. collocate: magis; scoreVERBO: 0. collocate: ceterus; scoreVERBO: 0. collocate: idem; scoreVERBO: 0. collocate: uester; scoreVERBO: 0. collocate: romanus; scoreVERBO: 0. collocate: item; scoreVERBO: 0. collocate: totus; scoreVERBO: 0. collocate: tam; scoreVERBO: 0. collocate: equitatus; scoreVERBO: 0. collocate: natura; scoreVERBO: 0. collocate: reliquus; scoreVERBO: 0. collocate: semper; scoreVERBO: 0. collocate: grauis; scoreVERBO: 0. collocate: fortuna; scoreVERBO: 0. collocate: iudicium; scoreVERBO: 0. collocate: exercitus; scoreVERBO: 0. collocate: ibi; scoreVERBO: 0. collocate: uultus; scoreVERBO: 0. collocate: ea; scoreVERBO: 0. collocate: copia; scoreVERBO: 0. collocate: suum; scoreVERBO: 0. collocate: seruo; scoreVERBO: 2. collocate: maiores; scoreVERBO: 0. collocate: defendo; scoreVERBO: 1. collocate: terra; scoreVERBO: 0. collocate: obtestor; scoreVERBO: 2. collocate: defensor; scoreVERBO: 0. collocate: centurio; scoreVERBO: 0. collocate: obses; scoreVERBO: 0. collocate: commeatus; scoreVERBO: 0. collocate: ratis; scoreVERBO: 0. collocate: monumentum; scoreVERBO: 0. collocate: fidus; scoreVERBO: 0. collocate: uersor; scoreVERBO: 2. collocate: infestus; scoreVERBO: 0. collocate: militia; scoreVERBO: 0. collocate: uexo; scoreVERBO: 2. collocate: dirimo; scoreVERBO: 2. collocate: turris; scoreVERBO: 0. collocate: cruciatus; scoreVERBO: 0. collocate: fatalis; scoreVERBO: 0. collocate: geminus; scoreVERBO: 0. collocate: mensa; scoreVERBO: 0. collocate: conatus; scoreVERBO: 0. collocate: testor; scoreVERBO: 2. collocate: penitus; scoreVERBO: 0. collocate: periculosus; scoreVERBO: 0. collocate: nex; scoreVERBO: 0. collocate: rumpo; scoreVERBO: 2. collocate: altitudo; scoreVERBO: 0. collocate: comitatus; scoreVERBO: 0. collocate: praemitto; scoreVERBO: 2. collocate: armo; scoreVERBO: 2. collocate: munitio; scoreVERBO: 0. collocate: coma; scoreVERBO: 0. collocate: cultus; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx113-117-101xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword que here are all the values plotted: collocate: ne; scoreADV: 0. collocate: is; scoreADV: 0. collocate: omnis; scoreADV: 0. collocate: magnus; scoreADV: 0. collocate: populus; scoreADV: 0. collocate: magis; scoreADV: 2. collocate: ceterus; scoreADV: 0. collocate: idem; scoreADV: 0. collocate: uester; scoreADV: 0. collocate: romanus; scoreADV: 0. collocate: item; scoreADV: 3. collocate: totus; scoreADV: 0. collocate: tam; scoreADV: 1. collocate: equitatus; scoreADV: 0. collocate: natura; scoreADV: 0. collocate: reliquus; scoreADV: 0. collocate: semper; scoreADV: 2. collocate: grauis; scoreADV: 0. collocate: fortuna; scoreADV: 0. collocate: iudicium; scoreADV: 0. collocate: exercitus; scoreADV: 0. collocate: ibi; scoreADV: 2. collocate: uultus; scoreADV: 0. collocate: ea; scoreADV: 2. collocate: copia; scoreADV: 0. collocate: suum; scoreADV: 0. collocate: seruo; scoreADV: 0. collocate: maiores; scoreADV: 0. collocate: defendo; scoreADV: 0. collocate: terra; scoreADV: 0. collocate: obtestor; scoreADV: 0. collocate: defensor; scoreADV: 0. collocate: centurio; scoreADV: 0. collocate: obses; scoreADV: 0. collocate: commeatus; scoreADV: 0. collocate: ratis; scoreADV: 0. collocate: monumentum; scoreADV: 0. collocate: fidus; scoreADV: 0. collocate: uersor; scoreADV: 0. collocate: infestus; scoreADV: 0. collocate: militia; scoreADV: 0. collocate: uexo; scoreADV: 0. collocate: dirimo; scoreADV: 0. collocate: turris; scoreADV: 0. collocate: cruciatus; scoreADV: 0. collocate: fatalis; scoreADV: 0. collocate: geminus; scoreADV: 0. collocate: mensa; scoreADV: 0. collocate: conatus; scoreADV: 0. collocate: testor; scoreADV: 0. collocate: penitus; scoreADV: 2. collocate: periculosus; scoreADV: 0. collocate: nex; scoreADV: 0. collocate: rumpo; scoreADV: 0. collocate: altitudo; scoreADV: 0. collocate: comitatus; scoreADV: 0. collocate: praemitto; scoreADV: 0. collocate: armo; scoreADV: 0. collocate: munitio; scoreADV: 0. collocate: coma; scoreADV: 0. collocate: cultus; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx113-117-101xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword que here are all the values plotted: collocate: ne; scoreFUNC: 50. collocate: is; scoreFUNC: 0. collocate: omnis; scoreFUNC: 0. collocate: magnus; scoreFUNC: 0. collocate: populus; scoreFUNC: 0. collocate: magis; scoreFUNC: 0. collocate: ceterus; scoreFUNC: 0. collocate: idem; scoreFUNC: 0. collocate: uester; scoreFUNC: 0. collocate: romanus; scoreFUNC: 0. collocate: item; scoreFUNC: 0. collocate: totus; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: equitatus; scoreFUNC: 0. collocate: natura; scoreFUNC: 0. collocate: reliquus; scoreFUNC: 0. collocate: semper; scoreFUNC: 0. collocate: grauis; scoreFUNC: 0. collocate: fortuna; scoreFUNC: 0. collocate: iudicium; scoreFUNC: 0. collocate: exercitus; scoreFUNC: 0. collocate: ibi; scoreFUNC: 0. collocate: uultus; scoreFUNC: 0. collocate: ea; scoreFUNC: 0. collocate: copia; scoreFUNC: 0. collocate: suum; scoreFUNC: 0. collocate: seruo; scoreFUNC: 0. collocate: maiores; scoreFUNC: 0. collocate: defendo; scoreFUNC: 0. collocate: terra; scoreFUNC: 0. collocate: obtestor; scoreFUNC: 0. collocate: defensor; scoreFUNC: 0. collocate: centurio; scoreFUNC: 0. collocate: obses; scoreFUNC: 0. collocate: commeatus; scoreFUNC: 0. collocate: ratis; scoreFUNC: 0. collocate: monumentum; scoreFUNC: 0. collocate: fidus; scoreFUNC: 0. collocate: uersor; scoreFUNC: 0. collocate: infestus; scoreFUNC: 0. collocate: militia; scoreFUNC: 0. collocate: uexo; scoreFUNC: 0. collocate: dirimo; scoreFUNC: 0. collocate: turris; scoreFUNC: 0. collocate: cruciatus; scoreFUNC: 0. collocate: fatalis; scoreFUNC: 0. collocate: geminus; scoreFUNC: 0. collocate: mensa; scoreFUNC: 0. collocate: conatus; scoreFUNC: 0. collocate: testor; scoreFUNC: 0. collocate: penitus; scoreFUNC: 0. collocate: periculosus; scoreFUNC: 0. collocate: nex; scoreFUNC: 0. collocate: rumpo; scoreFUNC: 0. collocate: altitudo; scoreFUNC: 0. collocate: comitatus; scoreFUNC: 0. collocate: praemitto; scoreFUNC: 0. collocate: armo; scoreFUNC: 0. collocate: munitio; scoreFUNC: 0. collocate: coma; scoreFUNC: 0. collocate: cultus; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> populus <b>que</b> iure sciuit <br> <small> Cic.Phil.1.26.4 <br> e o povo por direito ficou sabendo.” <small> [JDD] </small> </small> </p>
+; <p> uirtutem eorum diligentiam <b>que</b> cognoscite <br> <small> Cic.Cael.63 <br> Conhecei o valor e a diligência deles. <small> [JDD] </small> </small> </p>
+; <p> eum locum uallo fossa <b>que</b> muniuit <br> <small> Caes.Gal.3.1.6 <br> Fortificou esse local com paliçada e fossos. <small> [JDD] </small> </small> </p>
+; <p> totius theatri clamore dixit item <b>que</b> cetera <br> <small> Cic.Att.2.19.3 <br> disse, com o clamor de todo o teatro, e também o resto. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ne <b>que</b> id a Clodio praetermissum est <br> <small> Cic.Att.3.23.4 <br> E isso não foi deixado de lado por Clódio. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> pecudibus istas maiores feris <b>que</b> natura concessit <br> <small> Sen.Ep.124.22 <br> A natureza as concedeu maiores aos gados e às feras. <small> [JDD] </small> </small> </p>
+; <p> sed iam exhibeo pupillum ne <b>que</b> defendo <br> <small> Cic.Att.5.18.4 <br> Mas já estou apresentando-o como pupilo e não o defendo. <small> [JDD] </small> </small> </p>
+; <p> militiae uacationem omnium <b>que</b> rerum habent immunitatem <br> <small> Caes.Gal.6.14.1 <br> têm isenção do serviço militar e imunidade de todas os encargos. <small> [JDD] </small> </small> </p>
+; <p> colit impense femina uir <b>que</b> numen geminum <br> <small> Sen.Ag.398 <br> Suntuosamente mulher e homem cultuam a divindade dos gêmeos. <small> [JDD] </small> </small> </p>
+; <p> itaque se sua <b>que</b> omnia Caesari dediderunt <br> <small> Caes.Gal.3.16.3 <br> E assim entregaram a César a si e a todas as suas coisas. <small> [JDD] </small> </small> </p>
+; <p> quibus fortiter resistentibus uineas turres <b>que</b> egit <br> <small> Caes.Gal.3.21.2 <br> Resistindo esses bravamente, ele fez parapeitos e torres. <small> [JDD] </small> </small> </p>
+; <p> si ne <b>que</b> leges ne <b>que</b> mores cogunt <br> <small> Cic.Att.2.19.3 <br> “Se nem as leis nem os costumes te constrangem” <small> [JDD, de outra edição] </small> </small> </p>
+; <p> stat grauis strages premitur <b>que</b> iuncto funere funus <br> <small> Sen.Oed.131 <br> O terrível morticínio continua e um funeral se espreme junto a outro funeral. <small> [JDD] </small> </small> </p>
+; <p> iam nunc fingunt responsa Antoni ea <b>que</b> defendunt <br> <small> Cic.Phil.7.2.1 <br> Já agora inventam respostas de Antônio e as defendem. <small> [JDD] </small> </small> </p>
+; <p> suspectum semper inuisum <b>que</b> dominantibus qui proximus destinaretur <br> <small> Tac.Hist.1.21.6 <br> Que era sempre suspeito e odioso para os governantes aquele que estava destinado a ser o próximo. <small> [JDD] </small> </small> </p>
+; <p> occulta enim fuit eorum uoluntas iudicium <b>que</b> de Antonio <br> <small> Cic.Phil.7.21.9 <br> Pois a disposição e julgamento desses acerca de Antônio ficaram velados. <small> [JDD] </small> </small> </p>
+; <p> leguntur eadem ratione ad senatum Allobrogum populum <b>que</b> litterae <br> <small> Cic.Catil.3.11.1 <br> Do mesmo modo é lida a carta ao senado e ao povo dos alóbroges. <small> [JDD] </small> </small> </p>
+; <p> inuite loquere gnate quo auertis caput uacuos <b>que</b> uultus <br> <small> Sen.Oed.1011 <br> Mesmo contra a vontade, fala, filho: para onde viras a cabeça e as órbitas vazias? <small> [JDD] </small> </small> </p>
+; <p> ergo post <b>que</b> magis <b>que</b> uiri nunc gloria claret <br> <small> Cic.Sen.10 <br> Portanto agora a glória do homem brilha sempre mais.” <small> [JDD] </small> </small> </p>
+; <p> itaque nunc uos omnis oro atque obtestor hortor <b>que</b> <br> <small> Cic.Rab.Perd.35 <br> E assim agora vos peço e suplico e exorto a todos. <small> [JDD] </small> </small> </p>
+; <p> deflexit iam aliquantum de spatio curriculo <b>que</b> consuetudo maiorum <br> <small> Cic.Amici.40 <br> Os costumes dos nossos antepassados já se desviou um tantinho da pista e da corrida. <small> [JDD] </small> </small> </p>
+; <p> non sine magno quidem rei publicae prouinciae <b>que</b> Siciliae detrimento <br> <small> Cic.Ver.2.4.20.7 <br> Na verdade, não sem um grande dano à república e à província da Sicília. <small> [JDD] </small> </small> </p>
+; <p> popularis uero tribunus pl. custos defensor <b>que</b> iuris et libertatis <br> <small> Cic.Rab.Perd.12 <br> Mas o tribuno da plebe é homem do povo, guardião e defensor do direito e da liberdade! <small> [JDD] </small> </small> </p>
+; <p> ne <b>que</b> adhuc res confecta est sed voluntas senatus perspecta <br> <small> Cic.Att.1.17.9 <br> Nada foi feito ainda, mas a vontade do senado está clara. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> hos subsecuti equites calones <b>que</b> eodem impetu militum uirtute seruantur <br> <small> Caes.Gal.6.40.5 <br> Os criados e os cavaleiros, seguindo-os com o mesmo ímpeto, são salvos pela coragem dos soldados. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> pallida Mors aequo pulsat pede pauperum tabernas regum <b>que</b> turris <br> <small> Hor.Carm.1.4.13 <br> A pálida morte bate com pé igual as choupanas dos pobres e as torres dos reis. <small> [JDD] </small> </small> </p>
+; <p> ius bonum <b>que</b> apud eos non legibus magis quam natura ualebat <br> <small> Sal.Cat.9.1 <br> o direito e o bem tinham valor entre eles menos por efeito das leis do que pela natureza. <small> [JDD] </small> </small> </p>
+; <p> eadem est feminae maris <b>que</b> natura eadem forma magnitudo <b>que</b> cornuum <br> <small> Caes.Gal.6.26.3 <br> A natureza da fêmea e do macho é a mesma, e são os mesmos a forma e o tamanho dos chifres. <small> [JDD] </small> </small> </p>
+; <p> exempli causa paucos nominaui genus infinitum immanitatem <b>que</b> ipsi cernitis reliquorum <br> <small> Cic.Phil.13.2.16 <br> Mencionei uns poucos a título de exemplo, vós próprios distinguis a raça inumerável e a monstruosidade dos restantes. <small> [JDD] </small> </small> </p>
+; <p> o clementiam admirabilem atque omnium laude praedicatione litteris monumentis <b>que</b> decorandam <br> <small> Cic.Lig.6 <br> Ó clemência admirável e que deve ser consagrada pelo louvor de todos, pela publicidade, pelas letras e pelos monumentos! <small> [JDD] </small> </small> </p>
+; <p> itaque a populo Romano contemnimur despicimur graui diuturna <b>que</b> iam flagramus infamia <br> <small> Cic.Ver.1.43 <br> E assim somos desdenhados, menosprezados pelo povo romano; já ardemos em uma grave e prolongada infâmia. <small> [JDD] </small> </small> </p>
+; <p> auctoritate enim senatus consensu <b>que</b> populi Romani facile hominis amentis fregissemus audaciam <br> <small> Cic.Phil.3.2.9 <br> Pois, com a autoridade do senado e o consenso do povo romano, facilmente teríamos destroçado a audácia de um homem louco. <small> [JDD] </small> </small> </p>
+; <p> transit Aiacem et ratem ratis <b>que</b> partem se cum et Aiacem tulit <br> <small> Sen.Ag.537 <br> Atravessou Ájax e seu barco e levou consigo parte do barco e de Ájax. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> et diluculo valde surgens egressus abiit in desertum locum ibi <b>que</b> orabat <br> <small> Vulg.Marc.1.35 <br> E levantando-se muito cedo, saiu e foi para um local deserto e ali orava. <small> [JDD] </small> </small> </p>
+; <p> his rebus celeriter magna multitudine peditatus equitatus <b>que</b> coacta ad castra uenerunt <br> <small> Caes.Gal.4.34.6 <br> Por essas coisas, reunida rapidamente uma grande quantidade de infantaria e de cavalaria, vieram ao acampamento. <small> [JDD] </small> </small> </p>
+; <p> sulcata uibrant aequora et latera increpant dirimunt <b>que</b> canae caerulum spumae mare <br> <small> Sen.Ag.440 <br> As águas sulcadas vibram e os flancos rangem e as brancas espumas dividem o mar azul. <small> [JDD] </small> </small> </p>
+; <p> in his gregibus omnes aleatores omnes adulteri omnes impuri impudici <b>que</b> uersantur <br> <small> Cic.Catil.2.23.1 <br> Nestes rebanhos figuram todos os jogadores, todos os adúlteros, todos os impuros e os sem-vergonha. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> his rebus cognitis exploratores centuriones <b>que</b> praemittit qui locum castris idoneum deligant <br> <small> Caes.Gal.2.17.1 <br> Conhecidas essas coisas, envia na frente batedores e centuriões para que escolham um local adequado para o acampamento. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> armis obsidibus <b>que</b> acceptis Crassus in fines Uocatium et Tarusatium profectus est <br> <small> Caes.Gal.3.23.1 <br> Recebidas as armas e os reféns, Crasso partiu para as fronteiras dos vocates e tarusates. <small> [JDD] </small> </small> </p>
+; <p> perrumpere nituntur se <b>que</b> ipsi adhortantur ne tantam fortunam ex manibus dimittant <br> <small> Caes.Gal.6.37.10 <br> Esforçam-se por penetrar violentamente e eles próprios exortam a si a não deixar escapar de suas mão tão grande fortuna. <small> [JDD] </small> </small> </p>
+; <p> aegre portas nostri tuentur reliquos aditus locus ipse per se munitio <b>que</b> defendit <br> <small> Caes.Gal.6.37.5 <br> Penosamente guardam os nossos as portas, os acessos restantes o próprio local por si mesmo e a fortificação defendem. <small> [JDD] </small> </small> </p>
+; <p> postquam prima quies epulis mensae <b>que</b> remotae crateras magnos statuont et uina coronant <br> <small> Verg.A.1.723 <br> Após o primeiro descanso no banquete e as mesas retiradas, dispõem grandes taças e coroam os vinhos. <small> [JDD] </small> </small> </p>
+; <p> sic omnibus hostium copiis fusis armis <b>que</b> exutis se intra munitiones suas recipiunt <br> <small> Caes.Gal.3.6.3 <br> Assim, dispersas todas as tropas dos inimigos e abandonadas suas armas, [os nossos] se recolhem ao acampamento e suas fortificações. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ubi socordiae te atque ignauiae tradideris nequiquam deos implores irati infesti <b>que</b> sunt <br> <small> Sal.Cat.52.29 <br> Quando te entregas à indolência e à ignávia, imploras inutilmente aos deuses: eles ficam irados e hostis. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> instruite nunc Quirites contra has tam praeclaras Catilinae copias uestra praesidia uestros <b>que</b> exercitus <br> <small> Cic.Catil.2.24.3 <br> Preparai agora, Quirites, contra estas tão ilustres tropas de Catilina, as vossas guarnições e os vossos exércitos. <small> [JDD] </small> </small> </p>
+; <p> iam caelum terram <b>que</b> meo sine numine uenti miscere et tantas audetis tollere moles <br> <small> Verg.A.1.133 <br> Já ousais, ó ventos, misturar o céu e a terra e levantar tão grandes massas, sem meu consentimento? <small> [JDD] </small> </small> </p>
+; <p> Tiberium quidem Gracchum rem publicam uexantem a Q. Tuberone aequalibus <b>que</b> amicis derelictum uidebamus <br> <small> Cic.Amici.37 <br> Víamos, na verdade, que Tibério Graco, que abalava a república, foi abandonado por Quinto Tuberão e seus amigos coetâneos. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> ut potestas maior absit nemo non seruus habet in te uitae necis <b>que</b> arbitrium <br> <small> Sen.Ep.4.8 <br> mesmo que não exista um poder maior, qualquer escravo tem sobre ti o arbítrio de vida e de morte. <small> [JDD] </small> </small> </p>
+; <p> vidi enim vidi penitus <b>que</b> perspexi in meis variis temporibus et sollicitudines et laetitias tuas <br> <small> Cic.Att.1.17.6 <br> Pois vi, sim, vi e constatei profundamente em meus vários momentos as tuas inquietudes e alegrias. <small> [JDD, de outra edição] </small> </small> </p>
+; <p> illi supplicia cruciatus <b>que</b> Gallorum ueriti quorum agros uexauerant remanere se apud eum uelle dixerunt <br> <small> Caes.Gal.4.15.5 <br> Eles, temendo os suplícios e as torturas dos gauleses, cujos campos tinham devastado, disseram que queriam permanecer com ele. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx113-117-101xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Vergilius subcorpus registers the highest normalized frequency, with the value of 484.56 and an absolute frequency of 251. The Ovidius subcorpus follows, with a normalized frequency of 389.5 and an absolute frequency of 227. the subcorpus with the least normalized frequency is Hieronymus with the normalized value of 33.7 and an absolute freqeuncy of 15. here are all the values: subcorpus: Caesar ; normalized frequency: 527 ; absolute frequency: 199.0331596042. subcorpus: Cicero ; normalized frequency: 1636 ; absolute frequency: 101.916224365204. subcorpus: Horatius ; normalized frequency: 215 ; absolute frequency: 190.924429446763. subcorpus: Ovidius ; normalized frequency: 227 ; absolute frequency: 389.498970487303. subcorpus: Phaedrus ; normalized frequency: 50 ; absolute frequency: 75.90708972218. subcorpus: Sallustius ; normalized frequency: 124 ; absolute frequency: 115.017159818199. subcorpus: Seneca ; normalized frequency: 431 ; absolute frequency: 80.4389615721991. subcorpus: Suetonius ; normalized frequency: 6 ; absolute frequency: 66.1521499448732. subcorpus: Tacitus ; normalized frequency: 28 ; absolute frequency: 96.1208376244422. subcorpus: Vergilius ; normalized frequency: 251 ; absolute frequency: 484.555984555985. subcorpus: Hieronymus ; normalized frequency: 15 ; absolute frequency: 33.7002920691979'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx113-117-101xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.épica subcorpus registers the highest normalized frequency, with the value of 484.56 and an absolute frequency of 251. The Poesia.didática subcorpus follows, with a normalized frequency of 223.09 and an absolute frequency of 263. the subcorpus with the least normalized frequency is Prosa.ficcional with the normalized value of 33.7 and an absolute freqeuncy of 15. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 685 ; absolute frequency: 166.751868351226. subcorpus: Prosa.filosófica ; normalized frequency: 398 ; absolute frequency: 65.567288842029. subcorpus: Prosa.oratória ; normalized frequency: 1070 ; absolute frequency: 102.733478632397. subcorpus: Prosa.epistolográfica ; normalized frequency: 357 ; absolute frequency: 94.5971011420546. subcorpus: Poesia.lírica ; normalized frequency: 229 ; absolute frequency: 192.647429965509. subcorpus: Poesia.didática ; normalized frequency: 263 ; absolute frequency: 223.089320553058. subcorpus: Poesia.trágica ; normalized frequency: 242 ; absolute frequency: 210.215427380125. subcorpus: Poesia.épica ; normalized frequency: 251 ; absolute frequency: 484.555984555985. subcorpus: Prosa.ficcional ; normalized frequency: 15 ; absolute frequency: 33.7002920691979'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx113-117-101xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.a.C. subcorpus registers the highest normalized frequency, with the value of 128.79 and an absolute frequency of 2767. The I.a.C. subcorpus follows, with a normalized frequency of 128.79 and an absolute frequency of 2767. the subcorpus with the least normalized frequency is IV.d.C. with the normalized value of 33.7 and an absolute freqeuncy of 15. here are all the values: subcorpus: I.a.C. ; normalized frequency: 2767 ; absolute frequency: 128.787526181057. subcorpus: I.d.C. ; normalized frequency: 694 ; absolute frequency: 106.164907449901. subcorpus: II.d.C. ; normalized frequency: 34 ; absolute frequency: 89.0052356020942. subcorpus: IV.d.C. ; normalized frequency: 15 ; absolute frequency: 33.7002920691979'}
+
+
+:::
+

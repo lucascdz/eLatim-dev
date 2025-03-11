@@ -1,0 +1,212 @@
+---
+title: "dimitto"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx100-105-109-105-116-116-111xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<b>dīmīsī</b> <br> <small>perf. de dimítto.</small> <br> <small></small> 
+ <b>dīmīttō</b> <b>-is</b> <b>-ère</b> <b>-mísí, -missum</b> <br> <small>v. tr.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Enviar, mandar em sentidos opostos &ensp; <small>Cíc. Quinct. 25.</small> <br> <b>2</b> &ensp; <small>I-Daí</small> &ensp; Mandar embora, despedir, despachar, afastar, remeter, enviar &ensp; <small>Cíc. De Or. 1, 129; Cíc. Verr. 4. 63; Cíc. Sull. 67; Cés. B. Civ. 1, 18, 4.</small> <br> <b>3</b> &ensp; <small>II-Sent. figurado:</small> &ensp; Abandonar, renunciar, deixar ir, perder, sacrifiear &ensp; <small>Cíc. Tusc. 1, 12; Cíc. Ac. 2, 11.</small> <br> <b>4</b> &ensp; <small>III-Empregos especiais:</small> &ensp; Dissolver uma assembléia, levantar ou suspender uma sessão &ensp; <small>Cíc. Lác. 12; Cíc. Br. 200.</small> <br> <b>5</b> &ensp; <small>III-Na língua militar:</small> &ensp; Licenciar um exército, dispersar ou dividir uma tropa, desmobilizar &ensp; <small>Cés. B. Civ. 1, 2, 6; Cíc. Verr. 5, 100; Cés. B. Gal. 6, 35, 6.</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Dimitto</b> -<b>is</b> -<b>isi</b> -<b>issum</b> -<b>ere</b>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; enviar, mandar para diversas partes. <br> <b>2</b> &ensp; licenciar, despedir, deixar ir. <br> <b>3</b> &ensp; dimittir, deixar perder. <br> <b>4</b> &ensp; dar baixa aos soldados. <br> <b>5</b> &ensp; <small>Plin.</small> &ensp; deixar cahir. </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Dimitto</b> <b>is</b> <b>si</b> <b>ssum</b>   <p> <b>1</b> &ensp; despedir </p>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/99509 ' target="_blank"> http://lila-erc.eu/data/id/lemma/99509 </a> <br>
+<small> classe: </small> verbo    <br>
+<small> paradigma: </small> 3ª conjugação (sem vogal temática) <br>
+<small> outras grafias: </small> dimito <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+<b> dimito, dimitto </b>&emsp;<small> presente | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> dimittere </b>&emsp;<small> presente | infinitivo | ativo </small><br>
+; <b> dimittet </b>&emsp;<small> futuro | indicativo | 3ª pessoa singular | voz ativa </small><br>
+; <b> dimisi </b>&emsp;<small> pretérito perfeito | indicativo | 1ª pessoa singular | voz ativa </small><br>
+; <b> dimissum, dismissum </b>&emsp;<small> particípio passado | nominativo neutro singular </small><br>
+; <b> dimissurum </b>&emsp;<small> particípio futuro | nominativo neutro singular </small><br>
+
+
+
+
+
+#### Lexicala
+
+dīmīsī 
+ dīmittō 
+ dīmittis 
+ dīmittĕre 
+ dīmissum
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx100-105-109-105-116-116-111xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+![](./Media/wordcloud__xx100-105-109-105-116-116-111xx__BY_collocate_scoreSUBST.webp){width=50% fig-alt='This chart plots collocate by scoreSUBST, for the headword dimitto here are all the values plotted: collocate: concilium; scoreSUBST: 3. collocate: domus; scoreSUBST: 2. collocate: pars; scoreSUBST: 2. collocate: is; scoreSUBST: 0'}
+
+
+
+
+#### adjetivos
+
+![](./Media/wordcloud__xx100-105-109-105-116-116-111xx__BY_collocate_scoreADJ.webp){width=50% fig-alt='This chart plots collocate by scoreADJ, for the headword dimitto here are all the values plotted: collocate: concilium; scoreADJ: 0. collocate: domus; scoreADJ: 0. collocate: pars; scoreADJ: 0. collocate: is; scoreADJ: 0'}
+
+
+
+
+#### verbos
+
+![](./Media/wordcloud__xx100-105-109-105-116-116-111xx__BY_collocate_scoreVERBO.webp){width=50% fig-alt='This chart plots collocate by scoreVERBO, for the headword dimitto here are all the values plotted: collocate: concilium; scoreVERBO: 0. collocate: domus; scoreVERBO: 0. collocate: pars; scoreVERBO: 0. collocate: is; scoreVERBO: 0'}
+
+
+
+
+#### advérbios
+
+![](./Media/wordcloud__xx100-105-109-105-116-116-111xx__BY_collocate_scoreADV.webp){width=50% fig-alt='This chart plots collocate by scoreADV, for the headword dimitto here are all the values plotted: collocate: concilium; scoreADV: 0. collocate: domus; scoreADV: 0. collocate: pars; scoreADV: 0. collocate: is; scoreADV: 0'}
+
+
+
+
+#### preposições e conjunções
+
+![](./Media/wordcloud__xx100-105-109-105-116-116-111xx__BY_collocate_scoreFUNC.webp){width=50% fig-alt='This chart plots collocate by scoreFUNC, for the headword dimitto here are all the values plotted: collocate: concilium; scoreFUNC: 0. collocate: domus; scoreFUNC: 0. collocate: pars; scoreFUNC: 0. collocate: is; scoreFUNC: 0'}
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> hac oratione habita concilium <b>dimisit</b> <br> <small> Caes.Gal.1.33.2 <br> Feito esse discurso, encerrou a reunião. <small> [JDD] </small> </small> </p>
+; <p> placet igitur eos <b>dimitti</b> et augeri exercitum Catilinae <br> <small> Sal.Cat.51.43 <br> Me agrada então que eles sejam mandados embora e aumentem o exército de Catilina? <small> [JDD] </small> </small> </p>
+; <p> et continuo <b>dimisit</b> eam febris et ministrabat eis <br> <small> Vulg.Marc.1.31 <br> e em seguida a febre a deixou e ela se pôs a servi-los. <small> [JDD] </small> </small> </p>
+; <p> et <b>dimittentes</b> turbam adsumunt eum ita ut erat in navi <br> <small> Vulg.Marc.4.36 <br> E eles, despedindo a multidão, juntam-se a ele assim como estava, na barca. <small> [JDD] </small> </small> </p>
+; <p> et si <b>dimisero</b> eos ieiunos in domum suam deficient in via <br> <small> Vulg.Marc.8.3 <br> e se eu os mandar em jejum para as suas casas, vão desmaiar no caminho. <small> [JDD] </small> </small> </p>
+; <p> Caesar rursus ad uexandos hostes profectus magno coacto equitum numero ex finitimis ciuitatibus in omnes partes <b>dimittit</b> <br> <small> Caes.Gal.6.43.1 <br> César, tendo partido novamente para acossar os inimigos, reunindo das cidades vizinhas um grande número de cavaleiros, envia-os em todas as direções. <small> [JDD, de outra edição] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx100-105-109-105-116-116-111xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 31.45 and an absolute frequency of 14. The Caesar subcorpus follows, with a normalized frequency of 7.93 and an absolute frequency of 21. the subcorpus with the least normalized frequency is Horatius with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 21 ; absolute frequency: 7.93111262179923. subcorpus: Cicero ; normalized frequency: 23 ; absolute frequency: 1.43280755525653. subcorpus: Horatius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Ovidius ; normalized frequency: 2 ; absolute frequency: 3.43170899107756. subcorpus: Phaedrus ; normalized frequency: 1 ; absolute frequency: 1.5181417944436. subcorpus: Sallustius ; normalized frequency: 7 ; absolute frequency: 6.49290418328541. subcorpus: Seneca ; normalized frequency: 11 ; absolute frequency: 2.05296653664545. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Hieronymus ; normalized frequency: 14 ; absolute frequency: 31.4536059312514'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx100-105-109-105-116-116-111xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 31.45 and an absolute frequency of 14. The Prosa.histórica subcorpus follows, with a normalized frequency of 6.82 and an absolute frequency of 28. the subcorpus with the least normalized frequency is Poesia.lírica with the normalized value of 0.84 and an absolute freqeuncy of 1. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 28 ; absolute frequency: 6.81613476472163. subcorpus: Prosa.filosófica ; normalized frequency: 11 ; absolute frequency: 1.81216124940281. subcorpus: Prosa.oratória ; normalized frequency: 12 ; absolute frequency: 1.15215116223248. subcorpus: Prosa.epistolográfica ; normalized frequency: 9 ; absolute frequency: 2.38480086912743. subcorpus: Poesia.lírica ; normalized frequency: 1 ; absolute frequency: 0.84125515268781. subcorpus: Poesia.didática ; normalized frequency: 2 ; absolute frequency: 1.69649673424379. subcorpus: Poesia.trágica ; normalized frequency: 2 ; absolute frequency: 1.73731758165393. subcorpus: Poesia.épica ; normalized frequency: 2 ; absolute frequency: 3.86100386100386. subcorpus: Prosa.ficcional ; normalized frequency: 14 ; absolute frequency: 31.4536059312514'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx100-105-109-105-116-116-111xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 31.45 and an absolute frequency of 14. The I.a.C. subcorpus follows, with a normalized frequency of 2.51 and an absolute frequency of 54. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 54 ; absolute frequency: 2.51338142890389. subcorpus: I.d.C. ; normalized frequency: 13 ; absolute frequency: 1.98867982254857. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 14 ; absolute frequency: 31.4536059312514'}
+
+
+:::
+

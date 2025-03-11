@@ -1,0 +1,198 @@
+---
+title: "fabula"
+format: html
+editor: visual
+toc: false
+---
+
+
+```{r  setUp, include=FALSE}
+ library(tidyverse) 
+
+      EntryData <- readRDS(paste0("./", dir("./")[str_detect(dir("./"), "_xx102-97-98-117-108-97xx_.rds")]))
+
+```
+
+
+#### dicionários tradicionais
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### ErnestoFaria
+
+<small>1.</small> <b>fābŭla</b> <b>-ae</b> <br> <small>subs. f.</small> <br> <small></small>   <p> <b>1</b> &ensp; <small>I-Sent. próprio</small> &ensp; Conversação. conversa &ensp; <small>Tác. An. 6, II.</small> <br> <b>2</b> &ensp; <small>II-Daí</small> &ensp; Objeto ou assunto de conversação, narração &ensp; <small>Suet. Aug. 70.</small> <br> <b>3</b> &ensp; <small>III-Em sent. especial:</small> &ensp; Narração dialogada e posta em cena, peça teatral &ensp; <small>Cíc. Br. 71.</small> <br> <b>4</b> &ensp; <small>III-Em sent. especial:</small> &ensp; Narração fictícia ou mentirosa, fábula, historieta &ensp; <small>C ic. Leg. \, 40.</small> <br> <b>5</b> &ensp; <small>III-Em sent. especial:</small> &ensp; Conto, fábula. apólogo &ensp; <small>Cíc. At. 13.33.4.</small> <br> <b>6</b> &ensp; <small>III-Em sent. especial:</small> &ensp; Mentira &ensp; <small>Ter. Ad. 224</small> </p>
+
+
+
+
+#### Saraiva
+
+no data
+
+
+
+
+#### Fonseca
+
+<b>Fabula</b> -<b>ae</b> <br> <small>f.</small>   <p> <b>1</b> &ensp; <small>Cic.</small> &ensp; fabula, narração fingida. <br> <b>2</b> &ensp; <small>Ter.</small> &ensp; drama, poema, peça de theatro. <br> <b>3</b> &ensp; <small>Varr.</small> &ensp; historia, conto. <br> <b>4</b> &ensp; <small>Ter.</small> &ensp; materia, objecto das conversações. </p>   <p><small>[EXEMPLOS]</small><br> <br><b>X</b><br>fabulae &ensp; <small><small>Ter</small></small> &ensp; <small>Isto são contos, ou patranhas</small> <br> fabulam dare &ensp; <small><small>Cic</small></small> &ensp; <small>Dar ao público huma obra dramatica</small> <br> fabulam docere &ensp; <small><small>Cic</small></small> &ensp; <small>Dar ao público huma obra dramatica</small> </p>
+
+
+
+
+#### Velez
+
+no data
+
+
+
+
+#### Cardoso
+
+<b>Fabula</b> -<b>ae</b>   <p> <b>1</b> &ensp; a patranha. ou nouela </p> 
+ <b>Fabula</b> -<b>ae</b>
+
+
+:::
+
+
+
+#### bases lexicais
+
+&emsp;
+
+
+
+
+
+
+::: panel-tabset
+
+#### LiLa Lemma Bank
+
+<small> id: </small> <a href=' http://lila-erc.eu/data/id/lemma/102732 ' target="_blank"> http://lila-erc.eu/data/id/lemma/102732 </a> <br>
+<small> classe: </small> substantivo feminino   <br>
+<small> paradigma: </small> 1ª declinação (tema em -a-) <br>
+<small> outras grafias: </small> fatibula <br>
+<small> variantes do lema: </small>  <br>
+
+
+
+
+
+#### PrinParLat
+
+no data
+
+
+
+
+#### Lexicala
+
+fābŭla 
+ fābŭlae
+
+
+
+
+#### WordNet
+
+<iframe width='900' height='700' src='Media/Tree__xx102-97-98-117-108-97xx__sem_type_lexemes_pt.html'>
+
+</iframe>
+
+
+:::
+
+
+
+#### dados de corpus
+
+&emsp;
+
+
+
+
+::: panel-tabset
+
+#### Possíveis colocados
+
+```{r echo=FALSE}
+
+rmarkdown::paged_table(EntryData[1][[1]][13][[1]])
+
+```
+
+
+#### substantivos
+
+no data
+
+
+
+
+#### adjetivos
+
+no data
+
+
+
+
+#### verbos
+
+no data
+
+
+
+
+#### advérbios
+
+no data
+
+
+
+
+#### preposições e conjunções
+
+no data
+
+
+:::
+
+
+
+::: panel-tabset
+
+#### ExemplosTraduzidos
+
+<p> Haec significat <b>fabula</b> Dominum videre plurimum in rebus suis . <br> <small> Phaed.2.8 <br> Esta fábula quer dizer que o dono vê muito mais em seus negócios. <small> [JDD] </small> </small> </p>
+
+
+
+
+
+#### Frequência por autor
+
+![](./Media/barchart__xx102-97-98-117-108-97xx__lemma_BY_author_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by author_Frequencies. The Phaedrus subcorpus registers the highest normalized frequency, with the value of 12.15 and an absolute frequency of 8. The Horatius subcorpus follows, with a normalized frequency of 3.55 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Caesar with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Caesar ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Cicero ; normalized frequency: 21 ; absolute frequency: 1.30821559392988. subcorpus: Horatius ; normalized frequency: 4 ; absolute frequency: 3.55208240831187. subcorpus: Ovidius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Phaedrus ; normalized frequency: 8 ; absolute frequency: 12.1451343555488. subcorpus: Sallustius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Seneca ; normalized frequency: 4 ; absolute frequency: 0.746533286052892. subcorpus: Suetonius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Tacitus ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Vergilius ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Hieronymus ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por gênero
+
+![](./Media/barchart__xx102-97-98-117-108-97xx__lemma_BY_genre_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by genre_Frequencies. The Poesia.didática subcorpus registers the highest normalized frequency, with the value of 6.79 and an absolute frequency of 8. The Poesia.lírica subcorpus follows, with a normalized frequency of 3.37 and an absolute frequency of 4. the subcorpus with the least normalized frequency is Prosa.histórica with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.filosófica ; normalized frequency: 14 ; absolute frequency: 2.30638704469449. subcorpus: Prosa.oratória ; normalized frequency: 8 ; absolute frequency: 0.768100774821657. subcorpus: Prosa.epistolográfica ; normalized frequency: 3 ; absolute frequency: 0.794933623042476. subcorpus: Poesia.lírica ; normalized frequency: 4 ; absolute frequency: 3.36502061075124. subcorpus: Poesia.didática ; normalized frequency: 8 ; absolute frequency: 6.78598693697515. subcorpus: Poesia.trágica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Poesia.épica ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: Prosa.ficcional ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+
+
+#### Frequência por século
+
+![](./Media/barchart__xx102-97-98-117-108-97xx__lemma_BY_period_Frequencies.webp){width=50% fig-alt='This charts plots the frequency of lemma by period_Frequencies. The I.d.C. subcorpus registers the highest normalized frequency, with the value of 1.84 and an absolute frequency of 12. The I.a.C. subcorpus follows, with a normalized frequency of 1.16 and an absolute frequency of 25. the subcorpus with the least normalized frequency is II.d.C. with the normalized value of 0 and an absolute freqeuncy of 0. here are all the values: subcorpus: I.a.C. ; normalized frequency: 25 ; absolute frequency: 1.16360251338143. subcorpus: I.d.C. ; normalized frequency: 12 ; absolute frequency: 1.83570445158329. subcorpus: II.d.C. ; normalized frequency: 0 ; absolute frequency: 0. subcorpus: IV.d.C. ; normalized frequency: 0 ; absolute frequency: 0'}
+
+
+:::
+
