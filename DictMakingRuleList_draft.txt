@@ -1,0 +1,91 @@
+OBS. não usar "full dataset" com DictData (falta alguns dcc_freq!!!)
+
+--------------------------------------------------
+dicionários tradicionais
+--------------------------------------------------
+[select full dataset]
+%%%paste &emsp;
+--------------------------------------------------
+ErnestoFaria, Saraiva, Fonseca, Velez, Cardoso
+--------------------------------------------------
+%%%paste fullEntry <br><br><br>
+--------------------------------------------------
+
+
+--------------------------------------------------
+bases lexicais
+--------------------------------------------------
+%%%paste &emsp;
+--------------------------------------------------
+LiLa Lemma Bank
+--------------------------------------------------
+%%%paste 
+<small> id: </small> <a href=' lila_uri ' target="_blank"> lila_uri </a> <br>
+<small> classe: </small> upostag_pt gen_pt number_pt grade_pt <br>
+<small> paradigma: </small> fl_cat_pt <br>
+<small> outras grafias: </small> wrList <br>
+<small> variantes do lema: </small> var_key <br>
+<small> hipolemas: </small> ipo_lemmaKey ipo_desc <br> 
+--------------------------------------------------
+PrinParLat
+--------------------------------------------------
+%%%paste <b> orth_form </b>&emsp;<small> cell_pt </small><br>
+--------------------------------------------------
+Lexicala
+--------------------------------------------------
+%%%paste <b> phon </b> <br>
+--------------------------------------------------
+WordNet
+--------------------------------------------------
+[select html]
+--------------------------------------------------
+
+
+--------------------------------------------------
+dados de corpus
+--------------------------------------------------
+%%%paste &emsp;
+--------------------------------------------------
+Possíveis colocados
+--------------------------------------------------
+[ select: lemma collocate pos LogL LR MI LogDice ]
+--------------------------------------------------
+substantivos, adjetivos, verbos, advérbios, gramaticais
+--------------------------------------------------
+[ select PNG ]
+--------------------------------------------------
+
+
+--------------------------------------------------
+Exemplos
+--------------------------------------------------
+%%%paste 
+<p> texto <br> <small> loc.cit. <br> traducao <small> tradutor </small> </small> </p>
+--------------------------------------------------
+Frequência por autor
+Frequência por gênero
+Frequência por século
+--------------------------------------------------
+[ select PNG ]
+--------------------------------------------------
+
+
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+TAB(ErnestoFaria;Saraiva;Fonseca;Velez;Cardoso);
+TAB(LiLa Lemma Bank;PrinParLat;Lexicala;WordNet);
+TAB(Possíveis colocados;substantivos;adjetivos;verbos;advérbios;gramaticais);
+TAB(Exemplos;Frequência por autor;Frequência por gênero;Frequência por século)
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+
+
+
+
+
+*** CHECK/REMAKE DCC DATA (IT SHOULD BE THE DICT_BASE, LILA COULD BE A SEPARATE LEXICAL DATA)
+-------------------------------------------------
+(exceto o grupo semântico e o ranking de frequência, oriundos do  <a href='https://dcc.dickinson.edu/latin-core-list1' target="_blank"> Latin Core Vocabulary </a> </small>
+
