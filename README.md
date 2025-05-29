@@ -1,6 +1,6 @@
-# lexicographR--eLatim-1k
+# eLatim-dev
 
-a Latin-Portuguese dictionary built using [lexicographR](https://github.com/MangalamResearch-Lexicography/lexicographR)
+Developer files for building a Latin-Portuguese dictionary using [lexicographR](https://github.com/MangalamResearch-Lexicography/lexicographR)
 
 covering the 1,000 most frequently used latin lemmas
 
