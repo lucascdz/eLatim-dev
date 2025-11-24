@@ -37,14 +37,21 @@ GetAvailableData <- function(DictData){
     AvailableOutputs <-""
   }
 
-  AvailableData <- c(availableVars, AvailablePlots,AvailableOutputs, AvailableMedia, AvailableLexicalData)
+  if(file.exists("./data/Outputs")){
+    AvailableOther <- dir("./data/Other")
+    AvailableOther <- paste0("Other_" ,AvailableOther)
+  }else{
+    AvailableOther <-""
+  }
+
+  AvailableData <- c(availableVars, AvailablePlots,AvailableOutputs, AvailableMedia, AvailableLexicalData,AvailableOther)
   AvailableData <- AvailableData[AvailableData!=""]
   return(AvailableData)
 }
 
 GetAvailableVars <- function(DataSource, DictData, Word){
 
-  print(paste("Word fromGetAvailableVars:", Word))
+  print(paste("Word from GetAvailableVars:", Word))
 
   if (DataSource == "DictData"){
     AvailableVars <- c("full dataset", names(DictData[[Word]]))
@@ -55,7 +62,17 @@ GetAvailableVars <- function(DataSource, DictData, Word){
     DIRfiles <- dir("./data/Plots")
     contentType <- gsub("^Plots_","", DataSource)
     AvailableVars <- DIRfiles[str_detect(DIRfiles, paste0("^", contentType,".*?", MakeSafeForFilename(Word)))]
+  }else if(str_detect(DataSource, "^Other_")){
 
+    filepath <- gsub("^Other_(.*?)$","./data/Other/\\1",DataSource)
+    filename <- dir(filepath)[str_detect(dir(filepath),MakeSafeForFilename(Word))]
+    if(str_detect(filename,"csv$")){
+      AvailableVars <- c("full dataset", names(read.csv(paste0(filepath,"/",filename))))
+    }else if(str_detect(filename,"fst$")){
+      AvailableVars <- c("full dataset", names(read.fst(paste0(filepath,"/",filename))))
+    }else if(str_detect(filename,"txt$")){
+      AvailableVars <- unlist(str_remove(filename, MakeSafeForFilename(Word)))
+    }
 
   }else{
     DIRfiles <- dir("./data/Media")
@@ -66,6 +83,7 @@ GetAvailableVars <- function(DataSource, DictData, Word){
   return(unique(AvailableVars))
 
 }
+
 
 GetDataFromFile <- function(DataSource, DictData, Var, Word){
 
@@ -79,11 +97,30 @@ GetDataFromFile <- function(DataSource, DictData, Var, Word){
     filepath <- gsub("^(Outputs|LexicalData)_(.*?)$","./data/\\1/\\2",DataSource)
     Data <- read.csv(filepath, stringsAsFactors = F)
     Data <- Data[Data$lemma==Word,]
-    if(length(Data)>2){
-      Data <- Data[,-(which(colnames(Data)=="lemma"))] # remove lemma col
+    if(!is.null(Data) && length(Data)>0&& nrow(Data)>0 ){
+      if(length(Data)>2){
+        Data <- Data[,-(which(colnames(Data)=="lemma"))] # remove lemma col
+      }
+      if(!identical(Var, "full dataset")){
+        Data <- Data[, colnames(Data) %in% Var]
+      }
     }
-    if(!identical(Var, "full dataset")){
-      Data <- Data[, colnames(Data) %in% Var]
+  }else if(str_detect(DataSource, "^Other_")){
+    filepath <- gsub("^Other_(.*?)$","./data/Other/\\1",DataSource)
+    filename <- dir(filepath)[str_detect(dir(filepath),MakeSafeForFilename(Word))]
+    if(!is.null(filename) && length(filename)>0){
+      if(str_detect(filename,"csv$")){
+        Data <- read.csv(paste0(filepath,"/",filename), stringsAsFactors = F)
+        if("lemma" %in% colnames(Data)){
+          Data <- Data[Data$lemma==Word,]
+          Data <- Data[,-(which(colnames(Data)=="lemma"))] # remove lemma col
+        }
+        if(!identical(Var, "full dataset")){
+          Data <- Data[, colnames(Data) %in% Var]
+        }
+      }else if(str_detect(filename,"txt$")){
+        Data <- readtext(paste0(filepath,"/",filename))$text
+      }
     }
   }else if(str_detect(DataSource,"^Plots")){
     # move plot to MyDict/Media folder for use in Quarto project
@@ -327,7 +364,7 @@ if(nchar(paste0("Entry", MakeSafeForFilename(Word),".rds")) < 257){ # longer str
 #
 # DictData <- read.csv("./data/dictData.csv",stringsAsFactors = F)
 
-# RuleList[6][[1]]$Vars <- c("ID","Sent","genre","period")
+# RuleList[4][[1]]$Vars <- c("ID","Sent","genre","period")
 # RuleList[6][[1]]$Text <- "%%%filterby genre period %%%paste Sent [ ID ] "
 # saveRDS(RuleList,"./DictMakingRuleList.rds")
 
@@ -340,7 +377,7 @@ if(nchar(paste0("Entry", MakeSafeForFilename(Word),".rds")) < 257){ # longer str
 # RuleList <- readRDS("./DictMakingRuleList.rds")
 # Word <- "artha"
 #
-#  i <- 9
+#  i <- 4
 # DataSource <- RuleList[i][[1]]$Dataset
 # Var <- RuleList[i][[1]]$Vars
 # Text <- RuleList[i][[1]]$Text

@@ -12,7 +12,7 @@ GdexSorterUI <- function(id){
 
     textInput(NS(id,"GdexRules"), "path to csv with your GDEX rules - see documentation" ),
 
-    selectInput(NS(id, "SampleSize"), "number of examples to be retrieved", c(5,10,20,50,100)),
+    selectInput(NS(id, "SampleSize"), "max number of examples to be retrieved", c(5,10,20,50,100)),
     selectInput(NS(id, "MetaVar"), "sample by subcorpus", choices = NULL),
     selectInput(NS(id, "Var"), "sample by corpus variable", choices = NULL),
     selectInput(NS(id, "wordFormVar"), "name of corpus variable containing word forms", choices = NULL),
@@ -145,8 +145,8 @@ GdexSorterServer <- function(id, DictData, sIDindexDir="./data/CorpusData/", fil
    if(!is.null(SampSentsDF) && nrow(SampSentsDF)>0){
 
      ScoredSentsForDisplay <- CreateHorizontalGdexSentDF(SampSentsDF, wordFormVar, AdditionalVars)
-
-     datatable(ScoredSentsForDisplay, escape=F, rownames= FALSE)
+     ScoredSentsForDisplay <- RemoveSimilarSents(ScoredSentsForDisplay, simThreshold=0.1)
+     datatable(ScoredSentsForDisplay[1:SampleSize,], escape=F, rownames= FALSE)
    }else{
      showModal(
        modalDialog(
@@ -218,12 +218,15 @@ GdexSorterServer <- function(id, DictData, sIDindexDir="./data/CorpusData/", fil
 
     collocateBoost <- as.numeric(input$collocateBoost)
     wordFormVar <- as.character(input$wordFormVar)
-
-    SampSents <- mclapply(HeadwordVec, function(x)
-      SortAndSample(CorpusDocsDir="./data/CorpusDocs", HeadFreqs, HeadwordVar, wordFormVar, x, GdexRulesDF,CollocatesDF,collocateBoost, LenRange, LongerPen, ShorterPen, Var, SampleSize, MetaDF, MetaVar, MinScore, AdditionalVars, Cores),
-      mc.cores=Cores)
-
-    # SampSents <- lapply(HeadwordVec, function(x)
+    system('mkdir ./data/Outputs/Examples')
+    SampSents <- mclapply(HeadwordVec, function(x){
+      SampSentsDF <- SortAndSample(CorpusDocsDir="./data/CorpusDocs", HeadFreqs, HeadwordVar, wordFormVar, x, GdexRulesDF,CollocatesDF,collocateBoost, LenRange, LongerPen, ShorterPen, Var, SampleSize, MetaDF, MetaVar, MinScore, AdditionalVars, Cores)
+      SampSentsDF$lemma <- x
+      ScoredSentsForDisplay <- CreateHorizontalGdexSentDF(SampSentsDF,wordFormVar, AdditionalVars)
+      ScoredSentsForDisplay <- ScoredSentsForDisplay[,which(colnames(ScoredSentsForDisplay) %in% c("lemma","ID","Sent", AdditionalVars))] # retains only ID & Sent cols
+      fwrite(ScoredSentsForDisplay[1:SampleSize,], paste0("./data/Outputs/Examples/",MakeSafeForFilename(x),"_ExampleSents.csv"))
+       },  mc.cores=Cores)
+      # SampSents <- lapply(HeadwordVec, function(x)
     #   SortAndSample(CorpusDocsDir="./data/CorpusDocs", HeadFreqs, HeadwordVar, wordFormVar, x, GdexRulesDF,CollocatesDF,collocateBoost, LenRange, LongerPen, ShorterPen, Var, SampleSize, MetaDF, MetaVar, MinScore, AdditionalVars, Cores))
     #
     names(SampSents) <- HeadwordVec

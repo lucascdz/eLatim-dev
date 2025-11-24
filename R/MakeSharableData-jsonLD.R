@@ -74,9 +74,19 @@ observeEvent(input$deleteRow,{
     observeEvent(input$doAll, {
       if(file.exists("./standardizedElementNames.csv")){
         DF <- read.csv("./standardizedElementNames.csv", stringsAsFactors = F)
+        if(!"headword"%in% DF$standardName){
+          if("example"%in% DF$standardName){
+          lang <- DF$lang[DF$standardName=="example"]
+          }else{
+            lang <-""
+          }
+          ToAdd <- data.frame(elementName="", standardName="headword", lang=lang)
+          DF <- rbind(ToAdd, DF)
+        }
         DF <- left_join(DF, lexicogNamesDF, by="standardName")
         DF[is.na(DF)]<-""
         DF$lexicogName[DF$lexicogName==""] <- paste("thisResource",DF$elementName[DF$lexicogName==""],sep=":")
+
         creds <- GetDictCreds()
         context <- CreateContextElement(DF$lexicogName, NameSpacesDF)
 
@@ -91,12 +101,12 @@ observeEvent(input$deleteRow,{
         }
 
         if(length(EntriesDir)){
-        # create json-ld entries
-          if (Sys.info()[['sysname']]!="Windows"){
-             mclapply(dir(EntriesDir)[str_detect(dir(EntriesDir), "^Entry_..*?.rds$")], function(x) MakeSharableEntry(readRDS(paste0(EntriesDir,"/",x)), DF, creds,context), mc.cores=Cores )
-          }else{
+        # create json-ld entries THERE IS A PROBLEM WITH MCLAPPLY WITH THIS FUNCTION
+          #if (Sys.info()[['sysname']]!="Windows"){
+           #  mclapply(dir(EntriesDir)[str_detect(dir(EntriesDir), "^Entry_..*?.rds$")], function(x) MakeSharableEntry(readRDS(paste0(EntriesDir,"/",x)), DF, creds,context), mc.cores=Cores )
+         # }else{
             lapply(dir(EntriesDir)[str_detect(dir(EntriesDir), "^Entry_..*?.rds$")], function(x) MakeSharableEntry(readRDS(paste0(EntriesDir,"/",x)), DF, creds,context))
-          }
+         # }
         # copy over necessary media files
         MoveFilesToSharebleDict(creds, "./SharableDictData")
         showModal(

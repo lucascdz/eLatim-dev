@@ -23,7 +23,8 @@ req_packages <- c("shiny",
                   "pandoc",
                   "jsonlite",
                   "udpipe",
-                  "textstem")
+                  "textstem",
+                  "httr")
 
 
 if(Sys.info()[['sysname']]!="Windows"){

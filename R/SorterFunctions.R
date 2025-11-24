@@ -96,8 +96,10 @@ if(!is.null(SentLens) && nrow(SentLens[SentLens$penaltyShort > 0,])>0){
       }
     }
   }
+LemSents$filename<- gsub("^\\d+___(.*?)$","\\1" ,LemSents$UID)
   return(LemSents)
 }
+
 SampleSentsByVal <-  function(SentsScoredDF, Val, Var = HeadwordVar, samplesize=3){
   MatchingSents <-  SentsScoredDF[SentsScoredDF[[Var]] == Val,]
   if(nrow(MatchingSents) > 0){
@@ -109,115 +111,173 @@ SampleSentsByVal <-  function(SentsScoredDF, Val, Var = HeadwordVar, samplesize=
   }
   }
 }
-GetSimilarsents <- function(SampledSents, simThreshold=0.8, HeadwordVar , nameSent1){
 
-  SimSents <-  lapply(names(SampledSents),
-                      function(y) if(nameSent1!=y & (length(SampledSents[[nameSent1]][[HeadwordVar]][SampledSents[[nameSent1]][[HeadwordVar]] %in% SampledSents[[y]][[HeadwordVar]] ])/length(SampledSents[[nameSent1]][[HeadwordVar]])) > simThreshold){
-                        data.frame(Sent1=nameSent1,Sent2=y,Sim=length(SampledSents[[nameSent1]][[HeadwordVar]][SampledSents[[nameSent1]][[HeadwordVar]] %in% SampledSents[[y]][[HeadwordVar]]])/length(SampledSents[[nameSent1]][[HeadwordVar]]))})
+RemoveSimilarSents <- function(SentsDF,simThreshold=0.1){
 
-  SimSentsDF <- do.call(rbind, SimSents)
-  return(SimSentsDF)
+  toRemove <- c()
+  toKeep <- c()
+  for(i in 1:nrow(SentsDF)){
+    x <- SentsDF$ID[i]
+    if(!x %in% toRemove){
+      sim <- SentsDF$ID[ which(stringdist::stringdist(SentsDF$Sent[i], SentsDF$Sent, method = "jw") < simThreshold)]
+      toRemove <- c(toRemove,sim)
+      toKeep <- c(toKeep,x)
+    }
+  }
+
+  return(SentsDF[SentsDF$ID %in% toKeep,])
 }
-RemoveSimilarSents <- function(SentsDF,simThreshold=0.75,HeadwordVar,Cores ){
-  # returns DF with non-similar lemmatized Sents
-  # SentsScoredDF must be a DF with lemmatized, vertical sentences and a UID column to identify each sentence
-  SentsSample <- split(SentsDF, SentsDF$UID)
-  SimilarSents <- lapply(names(SentsSample),
-                         function(x) GetSimilarsents(SentsSample, simThreshold, HeadwordVar , x))
-  SimilarSents <- do.call(rbind, SimilarSents)
-  return(SentsDF[!SentsDF$UID %in% SimilarSents$Sent2,])
-}
-SamplerPerVarCollo <- function(LEM, SentsScoredDF, CollocatesDF, HeadwordVar, Var, SampleSize, Cores){
-  # sample top scoring Sent With each Collocate
-  SampledUIDs <- ""
-  if(is.null(CollocatesDF) & is.null(Var)){
-    SampledUIDs <- unique(SentsScoredDF$UID[order(SentsScoredDF$Score, decreasing = T)])[1:SampleSize]
+
+
+
+SamplerPerVarCollo <- function(LEM, SentsScoredDFsub, CollocatesDF, HeadwordVar, Var, subSampleSize, Cores){
+  if(nrow(SentsScoredDFsub)>subSampleSize){
+    if(subSampleSize > length(unique(SentsScoredDFsub$UID))){
+      subSampleSize <- length(unique(SentsScoredDFsub$UID))
+    }
+    SampledUIDs <- c()
+    sampledFilenames <-c()
+
+    # sample by collocate
+
+    if(!is.null(CollocatesDF) && nrow(CollocatesDF)>0){
+      Collos <- CollocatesDF$collocate[CollocatesDF$lemma==LEM]
+      sampledCollo <- c()
+      while(length(SampledUIDs) <= subSampleSize){
+        sam <- SentsScoredDFsub[!SentsScoredDFsub$UID %in% SampledUIDs & !SentsScoredDFsub$filename %in% sampledFilenames & SentsScoredDFsub[[HeadwordVar]] %in% Collos[!Collos %in% sampledCollo],]
+        maxScoreUID <- sam$UID[which.max(sam$Score)]
+        sam <- sam[sam$UID==maxScoreUID,]
+         if(nrow(sam)==0){
+          sam <- SentsScoredDFsub[!SentsScoredDFsub$UID %in% SampledUIDs & SentsScoredDFsub[[HeadwordVar]] %in% Collos[!Collos %in% sampledCollo],]
+          maxScoreUID <- sam$UID[which.max(sam$Score)]
+          sam <- sam[sam$UID==maxScoreUID,]
+        }
+        if(nrow(sam)==0){
+          SampledUIDs <- c(SampledUIDs,"")
+          sampledFilenames <-c(sampledFilenames, "")
+          sampledCollo <- c(sampledCollo,"")
+        }else{
+          SampledUIDs <- c(SampledUIDs, sam$UID[1])
+          sampledFilenames <-c(sampledFilenames, sam$filename[1])
+          col <- sam[[HeadwordVar]][sam[[HeadwordVar]] %in% Collos[!Collos %in% sampledCollo]]
+          sampledCollo <- c(sampledCollo,col[1])
+        }
+      }
+    }else{
+      SampledUIDs <- c()
+      sampledFilenames <-c()
+    }
+
+    SampledUIDs <- SampledUIDs[SampledUIDs!=""]
+    sampledFilenames <- sampledFilenames[sampledFilenames!=""]
+    # sample by Var or continue sampling till you reach desired sample size
+
+    if(!is.null(Var) && Var %in% colnames(SentsScoredDFsub)){
+      vars <- unique(SentsScoredDFsub[[Var]][SentsScoredDFsub[[HeadwordVar]]==LEM])
+      sampledVars <- c()
+    }else{
+      sampledVars <- NULL
+    }
+    while(length(SampledUIDs) < subSampleSize){
+      if(!is.null(sampledVars)){
+        sam <- SentsScoredDFsub[!SentsScoredDFsub$UID %in% SampledUIDs & !SentsScoredDFsub$filename %in% sampledFilenames & !SentsScoredDFsub[[Var]][SentsScoredDFsub[[HeadwordVar]]==LEM] %in% sampledVars,]
+        maxScoreUID <- sam$UID[which.max(sam$Score)]
+        sam <- sam[sam$UID==maxScoreUID,]
+      }else{
+        sam <- SentsScoredDFsub[!SentsScoredDFsub$UID %in% SampledUIDs & !SentsScoredDFsub$filename %in% sampledFilenames,]
+        maxScoreUID <- sam$UID[which.max(sam$Score)]
+        sam <- sam[sam$UID==maxScoreUID,]
+      }
+      if(nrow(sam)==0){
+        sam <- SentsScoredDFsub[!SentsScoredDFsub$UID %in% SampledUIDs,]
+        maxScoreUID <- sam$UID[which.max(sam$Score)]
+        sam <- sam[sam$UID==maxScoreUID,]
+      }
+      if(nrow(sam)==0){
+        SampledUIDs <- c(SampledUIDs,"")
+        sampledFilenames <-c(sampledFilenames, "")
+        if(!is.null(sampledVars)){
+          sampledVars <- c( sampledVars,"")
+        }
+      }else{
+        SampledUIDs <- c(SampledUIDs, sam$UID[1])
+        sampledFilenames <-c(sampledFilenames, sam$filename[1])
+      }
+      if(!is.null(sampledVars)){
+        sampledVars <- sam[[Var]][sam[[HeadwordVar]]==LEM][1]
+      }
+    }
+
+    return(SentsScoredDFsub[SentsScoredDFsub$UID %in% SampledUIDs,])
   }else{
-  if(!is.null(CollocatesDF)){
-    Collos <- CollocatesDF$collocate[CollocatesDF$lemma==LEM]
-    if(!is.null(Collos) && length(Collos) > 0){
-      SampledUIDs <- unique(unlist(lapply(Collos, function(x) SampleSentsByVal(SentsScoredDF, x,Var = HeadwordVar, samplesize=3))))
-    }
+    return(SentsScoredDFsub)
   }
-  if(!is.null(Var)){
-    vars <- unique(SentsScoredDF[[Var]][SentsScoredDF[[HeadwordVar]]==LEM])
-    if(!is.null(vars) && length(vars) > 0){
-      SampledUIDs <- c(SampledUIDs, unique(unlist(lapply(vars, function(x) SampleSentsByVal(SentsScoredDF[!SentsScoredDF$UID %in% SampledUIDs,], x,Var = Var, samplesize=3)))))
-    }
-   }
- }
-
-
-
-  # remove similar and adjust to Sample Size
-  SampledSents <- RemoveSimilarSents(SentsScoredDF[SentsScoredDF$UID %in% SampledUIDs,], simThreshold=0.8, HeadwordVar,Cores )
-
-  # adjust to SampleSize:
-  SentScores <- unique(SampledSents[,colnames(SampledSents) %in% c("UID","Score")])
-  SentScores <- SentScores[order(SentScores$Score, decreasing = T),]
-
-  if(length(unique(SampledSents$UID)) < SampleSize & length(unique(SampledSents$UID)) < length(unique(SentsScoredDF$UID[!SentsScoredDF$UID %in% SentScores$UID] ))){
-    NewSents <- SentsScoredDF[!SentsScoredDF$UID %in% SentScores$UID,]
-    NewSentsScores <- unique(NewSents[,colnames(NewSents) %in% c("UID","Score")])
-    NewSentsScores <- NewSentsScores[order(NewSentsScores$Score, decreasing = T),]
-    if(nrow(NewSentsScores)>=2*SampleSize){
-      NtoSample <- 2*SampleSize
-    }else{
-      NtoSample <- nrow(NewSentsScores)
-    }
-    NewSents <- NewSents[NewSents$UID %in% NewSentsScores$UID[1:NtoSample],]
-    SampledSents <- rbind(SampledSents, NewSents)
-    SampledSents <- RemoveSimilarSents(SentsScoredDF[SentsScoredDF$UID %in% SampledUIDs,], simThreshold=0.8, HeadwordVar,Cores )
-  }
-
-  if(length(unique(SampledSents$UID)) > SampleSize){
-    if(nrow(SentScores[SentScores$Score==max(SentScores$Score),]) >= SampleSize){
-      # sample from max scoring sents
-      SampledSents <- SampledSents[SampledSents$UID %in% sample(SentScores$UID[SentScores$Score==max(SentScores$Score)], SampleSize),]
-    }else{
-      # take top-scoring sents
-      SampledSents <- SampledSents[SampledSents$UID %in% unique(SentScores$UID)[1:SampleSize],] #  SentScores$UID[1:SampleSize]
-    }
-  }
-  return(SampledSents)
 }
-Sampler <- function(LEM, SentsScoredDF, CollocatesDF, HeadwordVar, wordFormVar, Var, SampleSize, MetaDF=NULL, MetaVar=NULL, MinScore, Cores){
 
+
+Sampler <- function(LEM, SentsScoredDF, CollocatesDF, HeadwordVar, wordFormVar, Var, SampleSize, MetaDF=NULL, MetaVar=NULL, MinScore, Cores){
+  if(!is.null(MinScore) && is.numeric(MinScore)){
+    SentsScoredDF <- SentsScoredDF[SentsScoredDF$Score > MinScore,]
+  }
+  if(length(unique(SentsScoredDF$UID))>SampleSize){
   # if MetaVar is used, a numebr of sents = SampleSize will be sampled PER EACH MetaVar.
   if(!is.null(MetaDF) && !is.null(MetaVar)){
     # create metavar Col in SentsScoredDF
     MetaVals <- unique(MetaDF[[MetaVar]])
-    SentsScoredDF$filename <- gsub("^\\d+___(.*?)$","\\1" ,SentsScoredDF$UID)
-    SentsScoredByMeta <- left_join(SentsScoredDF, MetaDF[, colnames(MetaDF) %in% c("filename", MetaVar)], by="filename" )
-    SentsScoredByMeta <- split(SentsScoredByMeta, SentsScoredByMeta[[MetaVar]])
-    sampledsentsDF <- lapply(SentsScoredByMeta, function(x) SamplerPerVarCollo(LEM, x, CollocatesDF, HeadwordVar, Var, SampleSize, Cores))
+    MetDF <- as.data.frame(MetaDF)
+    MetDF <- MetDF[,which(colnames(MetaDF) %in% c("filename", MetaVar))]
+    MetDF <- unique(MetDF)
+    SentsScoredByMeta <- left_join(SentsScoredDF, MetDF, by="filename" )
+    SentsScoredByMetaSplit <- split(SentsScoredByMeta, SentsScoredByMeta[[MetaVar]])
+
+    sampledsentsDF <- lapply(SentsScoredByMetaSplit, function(x) SamplerPerVarCollo(LEM, SentsScoredDFsub=x, CollocatesDF, HeadwordVar, Var, subSampleSize=ceiling(SampleSize/length(SentsScoredByMetaSplit)), Cores))
     sampledsentsDF <- do.call(rbind, sampledsentsDF)
+
+    count <-0
+    while(length(unique(sampledsentsDF$UID)) < SampleSize){
+      if(  count < 10){
+      SentsScoredByMeta <- SentsScoredByMeta[!SentsScoredByMeta$UID %in% sampledsentsDF$UID,]
+      SentsScoredByMetaSplit <- split(SentsScoredByMeta, SentsScoredByMeta[[MetaVar]])
+      #similarSentsUIDs <- c()
+      #newSampled <- lapply(SentsScoredByMetaSplit, function(x) SamplerPerVarCollo(LEM, x[!x$UID %in% c(sampledsentsDF$UID,similarSentsUIDs),], CollocatesDF, HeadwordVar, Var, ceiling(SampleSize/length(unique(MetaVals))), Cores))
+      newSampled <- lapply(SentsScoredByMetaSplit, function(x) SamplerPerVarCollo(LEM, SentsScoredDFsub=x, CollocatesDF=CollocatesDF[CollocatesDF$lemma==LEM & !CollocatesDF$collocate %in% sampledsentsDF[[HeadwordVar]],], HeadwordVar, Var, subSampleSize=ceiling(SampleSize/length(SentsScoredByMetaSplit)), Cores))
+      newSampled <- do.call(rbind, newSampled)
+      sampledsentsDF <- rbind(sampledsentsDF,newSampled)
+      count <-  count+1
+      }else{
+        newSampledUIDs <- sample(setdiff(SentsScoredByMeta$UID, unique(sampledsentsDF$UID)) , SampleSize-length(unique(sampledsentsDF$UID))  )
+        newSampled <- SentsScoredByMeta[SentsScoredByMeta$UID %in% newSampledUIDs,]
+        sampledsentsDF <- rbind(sampledsentsDF,newSampled)
+      }
+     # UIDS <- unique(sampledsentsDF$UID)
+     # sampledsentsDF <- RemoveSimilarSents(sampledsentsDF,simThreshold=0.75,HeadwordVar,Cores )
+     #similarSentsUIDs <- c(similarSentsUIDs, setdiff(UIDS, sampledsentsDF$UID))
+    }
+
   }else{
     sampledsentsDF <- SamplerPerVarCollo(LEM, SentsScoredDF, CollocatesDF, HeadwordVar, Var, SampleSize, Cores)
   }
 
-  # add bold tag around lemma
+  # remove similar sents
+    #sampledsentsDF <- RemoveSimilarSents(sampledsentsDF,simThreshold=0.90,HeadwordVar,Cores )
+  # # add bold tag around lemma
+  # sampledsentsDF[[wordFormVar]][sampledsentsDF[[HeadwordVar]]==LEM] <- paste0("<b>",sampledsentsDF[[wordFormVar]][sampledsentsDF[[HeadwordVar]]==LEM] ,"</b>")
 
-  sampledsentsDF[[wordFormVar]][sampledsentsDF[[HeadwordVar]]==LEM] <- paste0("<b>",sampledsentsDF[[wordFormVar]][sampledsentsDF[[HeadwordVar]]==LEM] ,"</b>")
 
-  if(!is.null(MinScore) && is.numeric(MinScore)){
-    sampledsentsDF <- sampledsentsDF[sampledsentsDF$Score > MinScore,]
-  }
-
-  if(length(unique(sampledsentsDF$UID)) > SampleSize){
-    if(length(sampledsentsDF$UID[sampledsentsDF$Score==max(sampledsentsDF$Score)]) >= SampleSize){
-      # sample from max scoring sents
-      sampledsentsDF <- sampledsentsDF[sampledsentsDF$UID %in% sample(sampledsentsDF$UID[sampledsentsDF$Score==max(sampledsentsDF$Score)], SampleSize),]
-    }else{
-      # take top-scoring sents
-      sampledsentsDF <- sampledsentsDF[sampledsentsDF$UID %in% unique(sampledsentsDF$UID)[1:SampleSize],]
-    }
-    if(!is.null(MinScore) && is.numeric(MinScore)){
-      sampledsentsDF <- sampledsentsDF[sampledsentsDF$Score > MinScore,]
-    }
-  }
+  # if(length(unique(sampledsentsDF$UID)) > SampleSize){
+  #   if(length(sampledsentsDF$UID[sampledsentsDF$Score==max(sampledsentsDF$Score)]) >= SampleSize){
+  #     # sample from max scoring sents
+  #     sampledsentsDF <- sampledsentsDF[sampledsentsDF$UID %in% sample(sampledsentsDF$UID[sampledsentsDF$Score==max(sampledsentsDF$Score)], SampleSize),]
+  #   }else{
+  #     # take top-scoring sents
+  #     sampledsentsDF <- sampledsentsDF[sampledsentsDF$UID %in% unique(sampledsentsDF$UID)[1:SampleSize],]
+  #   }
+  # }
 
   return(sampledsentsDF)
+  }else{
+    return(SentsScoredDF)
+  }
 }
 
 SortAndSample <- function(CorpusDocsDir="./data/CorpusDocs", HeadFreqs, HeadwordVar, wordFormVar, LEM, GdexRulesDF,CollocatesDF,collocateBoost, LenRange, LongerPen, ShorterPen, Var, SampleSize, MetaDF=NULL, MetaVar=NULL, MinScore=NULL, AdditionalVars="", Cores){
@@ -226,10 +286,10 @@ SortAndSample <- function(CorpusDocsDir="./data/CorpusDocs", HeadFreqs, Headword
     SentsScoredDF  <- FastSorter(CorpusDocsDir, HeadwordVar, LEM, GdexRulesDF,CollocatesDF,collocateBoost, LenRange,LongerPen,ShorterPen, Cores)
 
     sampledSentsDF <- Sampler(LEM, SentsScoredDF, CollocatesDF, HeadwordVar, wordFormVar, Var, SampleSize, MetaDF, MetaVar, MinScore, Cores)
+    if(!is.null(sampledSentsDF) && nrow(sampledSentsDF)>0){
+    # add bold tag around lemma
+    sampledSentsDF[[wordFormVar]][sampledSentsDF[[HeadwordVar]]==LEM] <- paste0("<b>",sampledSentsDF[[wordFormVar]][sampledSentsDF[[HeadwordVar]]==LEM] ,"</b>")
 
-    if(!is.null(MinScore)){
-      sampledSentsDF <- sampledSentsDF[sampledSentsDF$Score >= MinScore,]
-    }
 if(length(AdditionalVars)==0){
     sampledSentsDF <- sampledSentsDF[,colnames(sampledSentsDF) %in% c(wordFormVar, "UID","Score",colnames(sampledSentsDF)[str_detect(colnames(sampledSentsDF),"penalty")])]
 }else{
@@ -237,7 +297,9 @@ if(length(AdditionalVars)==0){
 }
 
     return(sampledSentsDF[order(sampledSentsDF$Score, decreasing = T),])
-
+    }else{
+  print("no suitable examples for this lemma")
+}
   }else{
     print("no single headword corresponding to selection found in ./data/Outputs/HeadwordFreqs.csv")
   }

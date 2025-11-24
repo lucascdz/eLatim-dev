@@ -124,27 +124,37 @@ observeEvent(input$test,{
     minLR <- input$LR
     minMI <- input$MI
     minLogDice <- input$LogDice
+    # remove 0 thresholds to avoid RAM max out on huge tables (dplyr may exceed allowed allocations of left_join)
+    if(minMI==0){
+      minMI <- NULL
+    }
+    if(minLogDice==0){
+      minLogDice <- NULL
+    }
+    if(minLL==0){
+      minLL <- 4
+    }
 
-    
+
     stopwordsFile <- input$stopwordsFile
   if(!is.null(stopwordsFile) &&  TRUE %in% str_detect(as.character(stopwordsFile), "\\.csv$")){
     Stopwords <- read.csv(stopwordsFile, stringsAsFactors = F)
     Stopwords <- Stopwords[,1]
- 
+
   }else{
     Stopwords <- ""
   }
     SortBy <- input$sortBy
-    
+
     if(SortBy=="LogR"){
     SortBy <- "LR"
     }else if(SortBy=="LogL"){
       SortBy <- "LogLikCorpusVSRefcorpus"
     }
-    
+
     MaxKW <- input$maxCollo
-    
-    
+
+
   output$SampleWordsRes <- DT::renderDataTable ({
 
     KeyWDF <- GetColloForAllLemmaAtOnce(HeadwordVec, HeadFreqs, window, HeadwordVar, Stopwords, MinFreq, minLL, minLR, minMI,minLogDice,SortBy,MaxKW,Cores)

@@ -191,30 +191,44 @@ addColstoUI <- function(colset){
 
 addTabstoUI <- function(tabset){
   uiLines <- readLines("./UI.txt")
-for(t in tabset){
-  print(t)
-  uiLines[str_detect(uiLines, paste0("Output\\('title_",gsub("\\s+","", t),"'\\)"))] <- paste0(
-    "tabPanel('",t,"',
+  if(length(tabset)==1){
+    t <- tabset
+
+    uiLines[str_detect(uiLines, paste0("Output\\('title_",gsub("\\s+","", t),"'\\)"))] <- paste0(
+      "tabPanel('",t,"',
        ",
-    uiLines[str_detect(uiLines, paste0("Output\\('title_",gsub("\\s+","", t),"'\\)"))]
-  )
+      uiLines[str_detect(uiLines, paste0("Output\\('title_",gsub("\\s+","", t),"'\\)"))]
+    )
 
-  uiLines[str_detect(uiLines, paste0("Output\\('",gsub("\\s+","", t),"'\\)"))] <- paste0(
+    uiLines[str_detect(uiLines, paste0("Output\\('",gsub("\\s+","", t),"'\\)"))] <- paste0(
 
-    uiLines[str_detect(uiLines, paste0("Output\\('",gsub("\\s+","", t),"'\\)"))],"
+      gsub(",$","", uiLines[str_detect(uiLines, paste0("Output\\('",gsub("\\s+","", t),"'\\)"))]),"
     ),
     "
-  )
+    )
+    write(paste(uiLines, collapse = "\n"),"./UI.txt")
 
-}
-  # uiLines[str_detect(uiLines, paste0("\\('", gsub("\\s+","", tabset[length(tabset)]),"'\\)" ))] <- paste0(
-  #   uiLines[str_detect(uiLines, paste0("\\('", gsub("\\s+","", tabset[length(tabset)]),"'\\)" ))],
-  #   "
-  # ),"
-  # )
+  }else if(length(tabset)>1){
+    t1 <- tabset[1]
+    tN <- tabset[length(tabset)]
+    startTab <- which(str_detect(uiLines, paste0("Output\\('title_",gsub("\\s+","", t1),"'\\)")))
+    endTab <- which(str_detect(uiLines, paste0("Output\\('",gsub("\\s+","", tN),"'\\)")))
 
-  write(paste(uiLines, collapse = "\n"),"./UI.txt")
+    toChange <- uiLines[startTab:endTab]
+    toChange <- toChange[toChange!="tags$br(),"]
+    toChange[1] <-paste0(
+      "tabPanel('",t1,"',
+",
+      toChange[1])
+
+    toChange[length(toChange)] <- paste0(gsub(",","",toChange[length(toChange)] ),"
+),
+")
+
+    write(paste(c(uiLines[1:(startTab-1)],toChange,uiLines[(endTab+1):length(uiLines)]), collapse = "\n"),"./UI.txt")
+  }
 }
+
 
 addUIcols <- function(COLs){
 
@@ -372,11 +386,16 @@ createShinyEntry <- function(dataDF=EntryData[1][[1]][i], rule=RuleList[i]){
     #                        })")
 
     ServerContent <- paste0("output$",ElementName," <- renderText({
-  if(str_detect(names(EntryData),'[^a-z]')){
+  if(str_detect(names(EntryData),'[a-z]')){
   Files <- dir('./Media')[str_detect(dir('./Media'), SafeEncodeUTF8(names(EntryData)))]
   Pattern <- gsub('\\\\./MyDict/Media/','',gsub('xx_.*?_','xx_.*?_',as.character(EntryData[[1]][['",names(dataDF),"']][[1]])))
   file <- Files[str_detect(Files, Pattern)]
-  paste0(\"<img alt='\", readtext(paste0('./AltText/', gsub('.webp$','_AltText.txt', file)))$text,\"' src='tmpuser/\",file,\"', width=50%>\")
+    if(file.exists(paste0('./AltText/', gsub('.webp$','_AltText.txt', file)))){
+   AltText <- readtext(paste0('./AltText/', gsub('.webp$','_AltText.txt', file)))$text
+  }else{
+    AltText <- ''
+  }
+  paste0(\"<img alt='\", AltText ,\"' src='tmpuser/\",file,\"', width=50%>\")
    }else{
     paste0(\"<img alt='\", readtext(str_replace(EntryData[[1]][['",names(dataDF),"']][[1]], './MyDict/Media/','./AltText/') %>%
            str_replace(.,'.webp','_AltText.txt'))$text,\"' src='tmpuser/\",gsub(\"\\\\./MyDict/Media/\",\"\",as.character(EntryData[[1]][['",names(dataDF),"']][[1]])),\"', width=50%>\")

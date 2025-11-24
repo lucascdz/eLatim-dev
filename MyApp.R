@@ -1,11 +1,9 @@
-
-
 myApp <- function(...) {
-
+  
   options(shiny.maxRequestSize=50*1024^2) # default is 5MB per file
-
+  
   addResourcePath("tmpuser", getwd())
-
+  
   ui <- navbarPage(
     id="lexicographR",
     title="lexicographR: digital dictionary builder",
@@ -13,13 +11,13 @@ myApp <- function(...) {
     collapsible = TRUE,
     tabPanel("Home", fluid = TRUE,
              fluidRow(
-             column(width=6,
-             htmltools::tags$iframe(src = "tmpuser/Home.html", width = '100%',  height = 1000,  style = "border:none;")
-             ),
-             column(width=6,
-              htmltools::tags$iframe(src = "tmpuser/Flowchart.html", width = '100%',  height = 1000,  style = "border:none;")
-                    
-             )
+               column(width=6,
+                      htmltools::tags$iframe(src = "tmpuser/Home.html", width = '100%',  height = 1000,  style = "border:none;")
+               ),
+               column(width=6,
+                      htmltools::tags$iframe(src = "tmpuser/Flowchart.html", width = '100%',  height = 1000,  style = "border:none;")
+                      
+               )
              )
     ),
     tabPanel("ConvertDictionaryData", fluid = TRUE,
@@ -28,7 +26,7 @@ myApp <- function(...) {
              tags$br(),
              LoadDictDataUI(id="LoadDictData",
                             Label="path to your main dictionary data"),
-
+             
              checkboxInput("converterGo","go", value= FALSE),
              tags$hr(),
              sidebarLayout(
@@ -40,9 +38,9 @@ myApp <- function(...) {
                )
              )
     ),
-
+    
     tabPanel("ExtractCorpusData", fluid = TRUE,
-
+             
              div(HTML("To process your corpus and derive frequency and dispersion from it:
               <br />
               <br />
@@ -62,16 +60,16 @@ myApp <- function(...) {
              tags$br(),
              tags$hr(),
              column(width = 6,
-
+                    
                     downloadBttn("DownloadTemplate", "Download template", style="bordered", color="primary", size="xs"),
-
+                    
                     fileInput("UploadInstructions", "upload the edited csv template",
                               accept = c(
                                 "csv",
                                 "comma-separated-values",
                                 ".csv")
                     )
-
+                    
              ),
              column(width=6,
                     fileInput("UploadDict", "upload your .rds/.json dictionary data or csv with headwords to process",
@@ -81,7 +79,7 @@ myApp <- function(...) {
                     )),
              tags$br(),
              #tags$hr(),
-
+             
              column(width = 12,
                     # div(HTML("<font size=+1>review your corpus-data extraction rule:</font>")),
                     DT::dataTableOutput("InstructionsDF"),
@@ -91,26 +89,32 @@ myApp <- function(...) {
                     tags$br(),
                     tags$hr(),
              ),
-
+             
              #div(HTML("<font size=+1> optional: add metadata information for subcorpora identification </font>")),
-
+             
              htmlOutput("done"),
              textInput("MetaPath","path to edited corpus metadata file in csv"),
              textInput("SubcorpusVar","corpus metadata file's variable to be used for subcorpora calculations"),
-
+             
              actionButton("SubcorporaCalc", label = "use metadata"),
              htmlOutput("doneSubcorpora")
-
+             
     ),
     tabPanel("Collocations", fluid = TRUE,
-
+             
              CollocationsUI("collocations")
-
+             
     ),
     tabPanel("Examples", fluid = TRUE,
              GdexSorterUI("gdexSampler")
-
+             
     ),
+    
+    # NEW SEMANTIC TAGGING TAB
+    tabPanel("SemanticTagging", fluid = TRUE,
+             SemanticTaggingUI("semanticTagging")
+    ),
+    
     tabPanel("Visualizations",
              mainPanel(width = 12,
                        tabsetPanel(id="inDataViz",
@@ -128,35 +132,35 @@ myApp <- function(...) {
                                                         "choose chart type",
                                                         choices=c("tree","diagonalNetwork","radialNetwork")),
                                             DictVizUI("dictviz"),
-
+                                            
                                    )
                        )
              )
     ),
-
+    
     tabPanel("BuildDictionary", fluid = TRUE,
-
+             
              QuartoEditorUI("editor")
     ),
     tabPanel("ShareData", fluid = TRUE,
              MakeSharableDataUI("share"),
-
-             ),
+             
+    ),
     tabPanel("Documentation", fluid = TRUE,
              
              #renderMarkdown("./docu/CorpusDataExtraction_UserGuide.Rmd")
              htmltools::tags$iframe(src = "tmpuser/UserGuide.html", width = '100%',  height = 1000,  style = "border:none;")
     ),
-
+    
   )
-
-
-
-
-
+  
+  
+  
+  
+  
   server <- function(input, output, session) {
-
-
+    
+    
     # output$flowchart <- renderImage({
     #                     list(src = "tmpuser/flowchartv2.png",
     #                     contentType = 'image/png',
@@ -169,40 +173,40 @@ myApp <- function(...) {
     
     if(!file.exists("./data")){
       if (Sys.info()[['sysname']]!="Windows"){
-
+        
         system("mkdir ./data")
       }else{
         shell("mkdir .\\data")
       }
     }
-
-
+    
+    
     observeEvent(input$converterGo , {
-
+      
       if(input$converterGo==TRUE){
-
+        
         ConverterDictData <- reactive(LoadDictDataServer(id="LoadDictData"))
-
+        
         TabularDataConversionInterfaceServer("HeadSelection", ConverterDictData()$Ext , ConverterDictData()$Contents )
-
+        
         PreviewContentServer(id="FilePreview", ConverterDictData()$Contents)
       }
     })
-
+    
     output$DownloadTemplate <- downloadHandler(
       filename = function() {
         paste("DDL_CorpusProcessingTemplate", Sys.time(), ".csv", sep="")
       },
-
-
+      
+      
       content = function(file) {
         Template <- createTemplate() # function def in SetUp.R
         write.csv(Template, file, row.names = F)
       }
     )
-
-
-
+    
+    
+    
     Uploaded <- reactive({
       if(!is.null(input$UploadInstructions) && TRUE %in% str_detect(as.character(input$UploadInstructions), "\\.csv$") ){
         read.csv(input$UploadInstructions$datapath, header = T, stringsAsFactors = F)
@@ -210,7 +214,7 @@ myApp <- function(...) {
         NULL
       }
     })
-
+    
     observeEvent(input$UploadInstructions,{
       Uploaded <- Uploaded()
       if (!is.null(Uploaded)){
@@ -220,32 +224,32 @@ myApp <- function(...) {
           Meta <- fread(MetadataPath)
           fwrite(Meta, "./data/CorpusMetadata.csv")
         }
-
+        
         output$InstructionsDF <- DT::renderDataTable(
           data.table(Uploaded[-1,])
         )
       }
     })
-
+    
     observeEvent(input$go,{
-
+      
       Uploaded <- Uploaded()
-
+      
       for (i in 2:nrow(Uploaded)){
-
+        
         CorpusName <- Uploaded$CorpusName[i]
         CorpusDir <- Uploaded$CorpusDir[i]
         CorpusDir <- gsub('"','',CorpusDir)
         CorpusDir <- gsub("'","",CorpusDir)
-
-
-
+        
+        
+        
         HeadwordVar <- Uploaded$HeadwordVar[i]
         HeadwordVar <- gsub("^\\s|\\s$","",HeadwordVar)
         if(str_detect(HeadwordVar, "\\s")){
           HeadwordVar <- unlist(str_split(HeadwordVar,"\\s"))
         }
-
+        
         columnNames <- Uploaded$columnNames[i]
         if(!is.null(columnNames) && length(columnNames)>0 && TRUE %in% str_detect(columnNames,"\\s")){
           columnNames <- gsub("^\\s+|\\s+$","", columnNames)
@@ -254,7 +258,7 @@ myApp <- function(...) {
           columnNames <- gsub("'","", columnNames)
           columnNames <- unlist(str_split(columnNames,"\\s"))
         }
-
+        
         SentEndMarker <- Uploaded$SentEndMarker[i]
         if(SentEndMarker==""){
           SentEndMarker <- NULL
@@ -262,17 +266,17 @@ myApp <- function(...) {
         if(!is.null(SentEndMarker)  && !str_detect(SentEndMarker,"<|>") &&  TRUE %in% str_detect(SentEndMarker,"\\s")){
           SentEndMarker <- paste0("([.?!", gsub("\\s+","", SentEndMarker),"])" )
         }
-
+        
         ColWithSentMarker <- Uploaded$ColWithSentMarker[i]
         if(ColWithSentMarker==""){
           ColWithSentMarker <- NULL
         }
         TagsVector <- Uploaded$TagsVector[i]
-
+        
         if(!is.null(TagsVector) &&( length(TagsVector)==0 || TagsVector=="" )){
           TagsVector <- NULL
         }
-
+        
         if(!is.null(TagsVector) && length(TagsVector)>0 && TRUE %in% str_detect(TagsVector," ")){
           TagsVector <- gsub("^\\s+|\\s+$","", TagsVector)
           TagsVector <- gsub("\\s+"," ", TagsVector)
@@ -280,8 +284,8 @@ myApp <- function(...) {
           TagsVector <- gsub("'","", TagsVector)
           TagsVector <- unlist(str_split(TagsVector,"\\s"))
         }
-
-
+        
+        
         SentenceBoundaryMarker <- Uploaded$SentenceBoundaryMarker[i]
         SentenceIDtag <- Uploaded$SentenceIDtag[i]
         Language <- Uploaded$Language[i]
@@ -298,36 +302,36 @@ myApp <- function(...) {
         if(Cores==""|is.na(Cores)){
           Cores <<- 2
         }
-
+        
         MetadataTag <- Uploaded$MetadataTag[i]
-
+        
         if(!is.null(MetadataTag) && ( length(MetadataTag)==0 || MetadataTag=="")){
           MetadataTag <- NULL
         }
-
+        
         ColWithMetadataTag <- Uploaded$ColWithMetadataTag[i]
         if(!is.null(ColWithMetadataTag) && ColWithMetadataTag==""){
           ColWithMetadataTag <- NULL
         }
-
-
+        
+        
         preprocessedTargetDir <- Uploaded$preprocessingTargetDir[i]
-
+        
         if(!is.null(preprocessedTargetDir) && ( length(preprocessedTargetDir)==0 || preprocessedTargetDir=="")){
           preprocessedTargetDir <- NULL
         }
-
-
+        
+        
         source("./R/SetUp.R")
         source("./R/FunctionToCreateCorpusObjects.R")
-
-
+        
+        
         # convert corpus document and create text freq tables
-
-
+        
+        
         if(!file.exists("./data/CorpusData")){
           if (Sys.info()[['sysname']]!="Windows"){
-
+            
             system("mkdir ./data/CorpusData")
           }else{
             shell("mkdir .\\data\\CorpusData")
@@ -335,7 +339,7 @@ myApp <- function(...) {
         }
         if(!file.exists("./data/CorpusDocs")){
           if (Sys.info()[['sysname']]!="Windows"){
-
+            
             system("mkdir ./data/CorpusDocs")
           }else{
             shell("mkdir .\\data\\CorpusDocs")
@@ -343,7 +347,7 @@ myApp <- function(...) {
         }
         if(!file.exists("./data/OutputFreqs")){
           if (Sys.info()[['sysname']]!="Windows"){
-
+            
             system("mkdir ./data/OutputFreqs")
           }else{
             shell("mkdir .\\data\\OutputFreqs")
@@ -351,25 +355,25 @@ myApp <- function(...) {
         }
         if(!file.exists("./data/Outputs")){
           if (Sys.info()[['sysname']]!="Windows"){
-
+            
             system("mkdir ./data/Outputs")
           }else{
             shell("mkdir .\\data\\Outputs")
           }
         }
-
-
-
+        
+        
+        
         CorpusDir <- gsub('"',"",CorpusDir)
-
+        
         fileExt <- unique(gsub("^.*?\\.([A-z]{3,8})$", "\\1", dir(CorpusDir)))
-
-
-
+        
+        
+        
         if(fileExt %in% c("vert","vrt","cqp")){
-
+          
           source("./R/VertToDF.R")
-
+          
           CorpusDerivedMeta <- lapply(dir(CorpusDir),
                                       function(x)
                                         MakeCorpusTablesFromVertAndReturnMeta(HeadwordVar,
@@ -381,28 +385,28 @@ myApp <- function(...) {
                                                                               MetadataTag,
                                                                               TargetDir="./data",
                                                                               Cores=Cores))
-
-
-
+          
+          
+          
           CorpusDerivedMeta <- CorpusDerivedMeta[!sapply(CorpusDerivedMeta, is.null)]
           if(!is.null(CorpusDerivedMeta) && length(CorpusDerivedMeta)>0){
             CorpusDerivedMeta <- do.call(rbind, CorpusDerivedMeta)
             if(is.data.frame(CorpusDerivedMeta)){
               write.fst(CorpusDerivedMeta, paste0("./data/CorpusData/",CorpusName,"_CorpusDerivedMeta.fst"))
               fwrite(CorpusDerivedMeta, paste0("./data/Outputs/",CorpusName,"_CorpusDerivedMeta.csv"))
-
+              
             }
           }
-
+          
         }else if(fileExt=="conllu"){
-
-
+          
+          
           source("./R/ConlluToDF.R")
-
-
-
-
-
+          
+          
+          
+          
+          
           if (Sys.info()[['sysname']]!="Windows"){
             CorpusDerivedMeta <-  mclapply(dir(CorpusDir), function(x) CorpusConlluToDF(HeadwordVar,
                                                                                         CorpusDir,
@@ -413,17 +417,17 @@ myApp <- function(...) {
                                                                                         MetadataTag,
                                                                                         TargetDir="./data"),
                                            mc.cores=Cores)
-
+            
           }else{
-
-
-
+            
+            
+            
             cl <- makeCluster(as.numeric(Cores))
             print(as.numeric(Cores))
-
+            
             clusterExport(cl, c('Cores'))
             clusterEvalQ(cl, {
-
+              
               source("./R/VertToDF.R")
               source("./R/SetUp.R")
               source("./R/ConlluToDF.R")
@@ -431,9 +435,9 @@ myApp <- function(...) {
               source("./R/flextextToDF.R")
               source("./R/FunctionToCreateCorpusObjects.R")
               source("./R/TxtToDF.R")
-
+              
             })
-
+            
             CorpusDerivedMeta <-  parLapply(cl,dir(CorpusDir), function(x) CorpusConlluToDF(HeadwordVar,
                                                                                             CorpusDir,
                                                                                             x,
@@ -443,32 +447,32 @@ myApp <- function(...) {
                                                                                             MetadataTag,
                                                                                             TargetDir="./data"))
             stopCluster(cl)
-
+            
           }
-
-
-
-
-
+          
+          
+          
+          
+          
           CorpusDerivedMeta <- CorpusDerivedMeta[!sapply(CorpusDerivedMeta, is.null)]
-
+          
           if(!is.null(CorpusDerivedMeta) && length(CorpusDerivedMeta)>0){
-
+            
             CorpusDerivedMeta <- do.call(rbind, CorpusDerivedMeta)
             if(is.data.frame(CorpusDerivedMeta)){
               write.fst(CorpusDerivedMeta, paste0("./data/CorpusData/", CorpusName,"_CorpusDerivedMeta.fst"))
               fwrite(CorpusDerivedMeta, paste0("./data/Outputs/",CorpusName,"_CorpusDerivedMeta.csv"))
-
+              
             }
           }
-
+          
         }else if(fileExt=="csv"){
-
-
+          
+          
           source("./R/FunctionToCreateCorpusObjects.R")
-
-
-
+          
+          
+          
           if (Sys.info()[['sysname']]!="Windows"){
             CorpusDerivedMeta <-  mclapply(dir(CorpusDir), function(x) MakeCorpusTables(HeadwordVar,
                                                                                         CorpusDir,
@@ -479,17 +483,17 @@ myApp <- function(...) {
                                                                                         ColWithMetadataTag,
                                                                                         TargetDir="./data"),
                                            mc.cores=Cores)
-
+            
           }else{
-
-
-
+            
+            
+            
             cl <- makeCluster(as.numeric(Cores))
             print(as.numeric(Cores))
-
+            
             clusterExport(cl, c('Cores'))
             clusterEvalQ(cl, {
-
+              
               source("./R/VertToDF.R")
               source("./R/SetUp.R")
               source("./R/ConlluToDF.R")
@@ -497,9 +501,9 @@ myApp <- function(...) {
               source("./R/flextextToDF.R")
               source("./R/FunctionToCreateCorpusObjects.R")
               source("./R/TxtToDF.R")
-
+              
             })
-
+            
             CorpusDerivedMeta <-  parLapply(cl, dir(CorpusDir), function(x) MakeCorpusTables(HeadwordVar,
                                                                                              CorpusDir,
                                                                                              x,
@@ -509,62 +513,62 @@ myApp <- function(...) {
                                                                                              ColWithMetadataTag,
                                                                                              TargetDir="./data"))
             stopCluster(cl)
-
+            
           }
-
-
-
-
-
+          
+          
+          
+          
+          
           CorpusDerivedMeta <- CorpusDerivedMeta[!sapply(CorpusDerivedMeta, is.null)]
-
+          
           if(!is.null(CorpusDerivedMeta) && length(CorpusDerivedMeta)>0){
             CorpusDerivedMeta <- do.call(rbind, CorpusDerivedMeta)
             write.fst(CorpusDerivedMeta, paste0("./data/CorpusData/", CorpusName,"_CorpusDerivedMeta.fst"))
             fwrite(CorpusDerivedMeta, paste0("./data/Outputs/",CorpusName,"_CorpusDerivedMeta.csv"))
-
+            
           }
-
+          
         }else if(fileExt=="txt"){
           source("./R/TxtToDF.R")
           ConvertTxtCorpus(Language,CorpusDir, SentEndMarker, TargetDir="./data", preprocessedTargetDir)
           # no metadata extraction from txt !
         }else if(fileExt=="flextext"){
           source("./R/flextextToDF.R")
-
+          
           CorpusDerivedMeta <- ConvertFlexToCorpus(HeadwordVar, CorpusDir,TargetDir="./data", preprocessedTargetDir)
           #print(CorpusDerivedMeta)
           if(!is.null(CorpusDerivedMeta) && length(CorpusDerivedMeta)>0){
             CorpusDerivedMeta <- do.call(rbind, CorpusDerivedMeta)
             write.fst(CorpusDerivedMeta, paste0("./data/CorpusData/", CorpusName,"_CorpusDerivedMeta.fst"))
             fwrite(CorpusDerivedMeta, paste0("./data/Outputs/",CorpusName,"_CorpusDerivedMeta.csv"))
-
+            
           }
         }
-
+        
       }
-
-
+      
+      
       # extract Freq Info
-
+      
       source("./R/CorpusFreqsAndDPfunctions.R")
-
+      
       NormalizeFreqPer <- Uploaded$NormalizeFreqPer[2]
       if(!is.null(NormalizeFreqPer)){
         NormalizeFreqPer <- as.numeric(NormalizeFreqPer)
       }else{
         NormalizeFreqPer <- 100000 # defaults to 100k
       }
-
+      
       HeadwordFreqs <- GetHeadwordsFreqsDF(HeadwordVar, NormalizeFreqPer, "./data/OutputFreqs", dir("./data/OutputFreqs"), Cores=Cores)
       write.csv(HeadwordFreqs, "./data/Outputs/HeadwordFreqs.csv", row.names = F)
-
-
-
+      
+      
+      
       output$done <- renderText({
-
+        
         req(HeadwordFreqs)
-
+        
         showModal(
           modalDialog(
             title = "done",
@@ -573,25 +577,25 @@ myApp <- function(...) {
             footer = NULL
           )
         )
-
+        
         paste("done!")
-
+        
       })
-
+      
     })
-
+    
     observeEvent(input$SubcorporaCalc,{
-
-
+      
+      
       Uploaded <- read.csv("./data/dataExtractionInstructions.csv",stringsAsFactors = F)
-
+      
       NormalizeFreqPer <- Uploaded$NormalizeFreqPer[2]
       if(!is.null(NormalizeFreqPer) && NormalizeFreqPer!=""){
         NormalizeFreqPer <- as.numeric(NormalizeFreqPer)
       }else{
         NormalizeFreqPer <- 100000 # defaults to 100k
       }
-
+      
       if(is.null(input$MetaPath) || input$MetaPath==""){
         MetadataPath <- Uploaded$MetadataPath[2]
         if(MetadataPath==""){
@@ -604,7 +608,7 @@ myApp <- function(...) {
       }else{
         MetadataPath <- input$MetaPath
       }
-
+      
       if(is.null(input$SubcorpusVar) || input$SubcorpusVar==""){
         MetaVal <- Uploaded$MetaVar[2]
         if(MetaVal==""){
@@ -619,14 +623,14 @@ myApp <- function(...) {
       }else{
         MetaVal <- input$SubcorpusVar
         if(!is.null(MetaVal) && length(MetaVal)>0 &&  TRUE %in%  str_detect(MetaVal," ")){
-        MetaVal <- gsub("^\\s+|\\s+$","", MetaVal)
-        MetaVal <- gsub('"',"", MetaVal)
-        MetaVal <- gsub("'","", MetaVal)
-        MetaVal <- unlist(str_split(MetaVal," "))
+          MetaVal <- gsub("^\\s+|\\s+$","", MetaVal)
+          MetaVal <- gsub('"',"", MetaVal)
+          MetaVal <- gsub("'","", MetaVal)
+          MetaVal <- unlist(str_split(MetaVal," "))
         }
       }
-
-
+      
+      
       for (i in 2:nrow(Uploaded)){
         HeadwordVar <- Uploaded$HeadwordVar[i]
         HeadwordVar <- gsub("^\\s|\\s$","",HeadwordVar)
@@ -637,36 +641,36 @@ myApp <- function(...) {
         if(length(MetadataTag)==0 || MetadataTag==""){
           MetadataTag <- NULL
         }
-
+        
         ColWithMetadataTag <- Uploaded$ColWithMetadataTag[i]
         if(ColWithMetadataTag==""){
           ColWithMetadataTag <- NULL
         }
       }
-
+      
       ColToJoinBy <- "filename"
-
-
+      
+      
       Cores <<- as.numeric(Uploaded$Cores[2])
       if(Cores==""|is.na(Cores)){
         Cores <<- 2
       }
-
-      print(Cores)
-
-      if(!is.null(MetaVal)){
+      
+      
+      if(!is.null(MetaVal) && length(MetaVal)>0){
         source("./R/CorpusFreqsAndDPfunctions.R")
-        SubcorporaFreqsAndDP <- GetSubcorporaFreqsAndDP(MetadataPath, ColToJoinBy, MetaVal,NormalizeFreqPer, HeadwordVar, FreqTablesSourceDir="./data/OutputFreqs", mcCores=Cores)
-        write.csv(SubcorporaFreqsAndDP, paste0("./data/Outputs/SubcorporaHeadwordFreqsAndDP_",MetaVal,".csv"), row.names = F)
-
-
+        for (mv in MetaVal){
+          SubcorporaFreqsAndDP <- GetSubcorporaFreqsAndDP(MetadataPath, ColToJoinBy, mv,NormalizeFreqPer, HeadwordVar, FreqTablesSourceDir="./data/OutputFreqs", mcCores=Cores)
+          write.csv(SubcorporaFreqsAndDP, paste0("./data/Outputs/SubcorporaHeadwordFreqsAndDP_", mv,".csv"), row.names = F)
+        }
+        
       }else{
         SubcorporaFreqsAndDP <- "nothing"
       }
       output$doneSubcorpora <- renderText({
-
+        
         req(SubcorporaFreqsAndDP)
-
+        
         showModal(
           modalDialog(
             title = "done",
@@ -675,14 +679,14 @@ myApp <- function(...) {
             footer = NULL
           )
         )
-
+        
         paste("done!")
-
+        
       })
-
+      
     })
-
-
+    
+    
     DictData <- reactive({
       if(!is.null(input$UploadDict)){
         if(str_detect(input$UploadDict$datapath, ".rds$")){
@@ -692,7 +696,7 @@ myApp <- function(...) {
         }else if(str_detect(input$UploadDict$datapath, "json$")){
           #jsonlite::read_json(input$UploadDict$datapath)
           jsonlite::fromJSON(input$UploadDict$datapath)
-
+          
         }else{
           NULL
         }
@@ -700,44 +704,44 @@ myApp <- function(...) {
         NULL
       }
     })
-
-
-
+    
+    
+    
     observeEvent(input$UploadDict, {
-
+      
       DictData <- DictData()
       if(!is.null(DictData)){
         if(is.list(DictData) & !is.data.frame(DictData)){
-         # NamesToFix <- names(DictData)[str_detect(names(DictData), "[^[[:lower:]][[:upper:]]\\d\\s-{}]")]
-         #  if(length(NamesToFix)>0){
-         #
-         #  showModal(
-         #    modalDialog(
-         #      title = "special characters in headwords",
-         #      paste("these special characters have been detected in data names and will be replaced with space: ",paste(NamesToFix, collapse = "    ")),
-         #      easyClose = TRUE,
-         #      footer = NULL
-         #    )
-         #  )
+          # NamesToFix <- names(DictData)[str_detect(names(DictData), "[^[[:lower:]][[:upper:]]\\d\\s-{}]")]
+          #  if(length(NamesToFix)>0){
+          #
+          #  showModal(
+          #    modalDialog(
+          #      title = "special characters in headwords",
+          #      paste("these special characters have been detected in data names and will be replaced with space: ",paste(NamesToFix, collapse = "    ")),
+          #      easyClose = TRUE,
+          #      footer = NULL
+          #    )
+          #  )
           # names(DictData) <- str_replace_all(names(DictData), "[^[[:lower:]][[:upper:]]\\d\\s-{}]"," ")
           # names(DictData) <- gsub("^\\s+|\\s+$","", names(DictData))
-         # }
-
+          # }
+          
           saveRDS(DictData, "./data/dictData.rds")
-
+          
           filenamingDF <- data.frame(headword=names(DictData), filenaming= do.call(c, lapply(names(DictData), function(x) MakeSafeForFilename(x))))
           write.csv(filenamingDF, "./filenamingDF.csv",row.names = F)
         }else if(is.data.frame(DictData)){
           write.csv(DictData, "./data/dictData.csv", row.names=F)
-
+          
           filenamingDF <- data.frame(headword=DictData[,1], filenaming= do.call(c, lapply(DictData[,1], function(x) MakeSafeForFilename(x))))
           write.csv(filenamingDF, "./filenamingDF.csv",row.names = F)
         }
       }
     })
-
-
-
+    
+    
+    
     observeEvent(input$lexicographR, {
       if(input$lexicographR=="Collocations"){
         if(file.exists("./data/dictData.rds")){
@@ -750,7 +754,7 @@ myApp <- function(...) {
         CollocationsServer("collocations", DictData = DictData, HeadwordVar=read.csv("./data/dataExtractionInstructions.csv")$HeadwordVar[2], Cores = read.csv("./data/dataExtractionInstructions.csv")$Cores[2])
       }
     })
-
+    
     observeEvent(input$lexicographR, {
       if(input$lexicographR=="Examples"){
         if(file.exists("./data/dictData.rds")){
@@ -763,21 +767,49 @@ myApp <- function(...) {
         GdexSorterServer("gdexSampler", DictData = DictData, sIDindexDir="./data/CorpusData/", fileIdentifier="sIDindex_", HeadwordVar=read.csv("./data/dataExtractionInstructions.csv")$HeadwordVar[2], MetadataPath=read.csv("./data/dataExtractionInstructions.csv")$MetadataPath[2], Cores= read.csv("./data/dataExtractionInstructions.csv")$Cores[2])
       }
     })
-
+    
+    # NEW SEMANTIC TAGGING SERVER
+    observeEvent(input$lexicographR, {
+      if(input$lexicographR=="SemanticTagging"){
+        if(file.exists("./data/dictData.rds")){
+          DictData <- readRDS("./data/dictData.rds")
+        }else if(file.exists("./data/dictData.csv")){
+          DictData <- read.csv("./data/dictData.csv", stringsAsFactors = F)
+        }else{
+          DictData <- DictData()
+        }
+        
+        # Get HeadwordVar and Cores from instructions if available
+        HeadwordVar <- if(file.exists("./data/dataExtractionInstructions.csv")) {
+          read.csv("./data/dataExtractionInstructions.csv")$HeadwordVar[2]
+        } else {
+          "lemma" # default fallback
+        }
+        
+        Cores <- if(file.exists("./data/dataExtractionInstructions.csv")) {
+          read.csv("./data/dataExtractionInstructions.csv")$Cores[2]
+        } else {
+          2 # default fallback
+        }
+        
+        SemanticTaggingServer("semanticTagging", DictData = DictData, HeadwordVar = HeadwordVar, Cores = Cores)
+      }
+    })
+    
     observeEvent(input$lexicographR, {
       if(input$lexicographR=="Visualizations"){
-
+        
         if(length(dir("./data/Outputs/"))>0){
           VizDatasetChoices <- if(length(dir("./data/CorpusDocs"))>0){
             c(dir("./data/Outputs"), "CorpusData")
           }else{
             dir("./data/Outputs")
           }
-
+          
           updateSelectInput(session, "VizDataset",
                             choices = VizDatasetChoices)
         }
-
+        
         # VizDataset <- reactive({
         #   if(!is.null(input$VizDataset) && input$VizDataset!=""){
         #     if(input$VizDataset=="CorpusData"){
@@ -791,10 +823,10 @@ myApp <- function(...) {
         #     NULL
         #   }
         # })
-
+        
         if(file.exists("./data/dataExtractionInstructions.csv") ){
           observeEvent(c(input$VizDataset,input$chartType),{
-
+            
             if(!is.null(input$VizDataset) && input$VizDataset!=""){
               if(file.exists("./data/dictData.rds")){
                 DictData <- readRDS("./data/dictData.rds")
@@ -803,7 +835,7 @@ myApp <- function(...) {
               }else{
                 DictData <- DictData()
               }
-
+              
               # if(!is.null(input$VizDataset) && input$VizDataset!=""){
               #   if(input$VizDataset=="CorpusData"){
               #     VizDataset <-  read.fst(paste0("./data/CorpusDocs/", dir("./data/CorpusDocs")[1]))
@@ -815,50 +847,49 @@ myApp <- function(...) {
               # }else{
               #   VizDataset <- NULL
               # }
-
+              
               # print(paste(input$VizDataset))
               # print(paste("colnames(VizDataset) MyApp line 757" ,paste(colnames(VizDataset)[1:5]),collapse=" "))
-
-
+              
+              
               DataVizServer("dataviz", DictData = DictData, input$VizDataset, chartType=input$chartType, HeadwordVar=read.csv("./data/dataExtractionInstructions.csv")$HeadwordVar[2], read.csv("./data/dataExtractionInstructions.csv")$Cores[2])
             }else{
               print(" no input$VizDataset")
             }
           })
-
+          
         }else{
           print("please upload instruction data")
         }
-
-          observeEvent(input$NetworkType,{
-            if(file.exists("./data/dictData.rds")){
-              cores <- if(file.exists("./data/dataExtractionInstructions.csv")){
-                read.csv("./data/dataExtractionInstructions.csv")$Cores[2]
-              }else{
-                cores <- 2
-              }
-              DictVizServer("dictviz", chartType=input$NetworkType, Cores= cores)
+        
+        observeEvent(input$NetworkType,{
+          if(file.exists("./data/dictData.rds")){
+            cores <- if(file.exists("./data/dataExtractionInstructions.csv")){
+              read.csv("./data/dataExtractionInstructions.csv")$Cores[2]
             }else{
-              print("no rds dictionary data: please upload it from data-extraction tab")
+              cores <- 2
             }
-          })
-
+            DictVizServer("dictviz", chartType=input$NetworkType, Cores= cores)
+          }else{
+            print("no rds dictionary data: please upload it from data-extraction tab")
+          }
+        })
+        
       }
     })
-
+    
     observeEvent(input$lexicographR, {
       if(input$lexicographR=="BuildDictionary"){
-
+        
         QuartoEditorServer("editor", Cores= ifelse(file.exists("./data/dataExtractionInstructions.csv"), read.csv("./data/dataExtractionInstructions.csv")$Cores[2], 1))
-
+        
       }
     })
-
-
+    
+    
     MakeSharableDataServer("share", Cores= ifelse(file.exists("./data/dataExtractionInstructions.csv"), read.csv("./data/dataExtractionInstructions.csv")$Cores[2], 1))
-
+    
   }
-  shinyApp(ui, server, options = list(launch.browser = TRUE))
-
+  shinyApp(ui, server)
+  
 }
-

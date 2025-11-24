@@ -61,10 +61,12 @@ GetAllLemmaSents <- function(Lem, CorpusDocsDir="./data/CorpusDocs",HeadwordVar,
 
   if (Sys.info()[['sysname']]!="Windows"){
   AllLemSents <- mclapply(dir(CorpusDocsDir), function(x) GetLemmaSent(Lem,x,force(Window),HeadwordVar), mc.cores = Cores)
+  #  AllLemSents <- lapply(dir(CorpusDocsDir), function(x) {print(x);GetLemmaSent(Lem,x,force(Window),HeadwordVar)})
   }else{
   AllLemSents <- lapply(dir(CorpusDocsDir), function(x) GetLemmaSent(Lem,x,Window,HeadwordVar))
   }
   AllLemSents <- do.call(rbind, AllLemSents)
+  AllLemSents[is.na(AllLemSents)] <- ""
   return(AllLemSents)
 }
 

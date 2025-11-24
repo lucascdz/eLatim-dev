@@ -1496,18 +1496,15 @@ font-size: 0.95em;
 </div>
 
 
-<p>Welcome to <code>LexicographR</code>, a digital dictionary building
-tool, funded by the National Endowment for the Humanities
-(HAA-290402-23). This is currently an alpha prototype, if you encounter
-difficulties contact <a href="mailto:ligeia.lugli@london.ac.uk" class="email">ligeia.lugli@london.ac.uk</a>.</p>
-<p>There are 7 main tabs that you can use, and the user-guide is
-organized by these 7 tabs.</p>
+<p>Welcome to the Digital Dictionary Builder tool. There are 8 main tabs
+that you can use, and the user-guide is organized by these 8 tabs.</p>
 <p>Here is an outline of how the user-guide is structured:</p>
 <ol style="list-style-type: decimal">
 <li>ConvertDictionaryData tab usage</li>
 <li>ExtractCorpusData tab usage</li>
 <li>Collocations tab usage</li>
 <li>Examples tab usage</li>
+<li>SemanticTagging tab usage</li>
 <li>Visualizations tab usage</li>
 <li>BuildDictionary tab usage</li>
 <li>ShareData tab usage</li>
@@ -2151,6 +2148,10 @@ tables</h3>
 dispersion of each headword across the specified MetaVar (e.g. over
 period, or over domain).</p>
 <p>dispersion is calculated as Deviation of Proportions (Gries 2008)</p>
+<p>A high level of dispersion indicates that the occurrence rate of the
+item (i.e. its normalized frequency) is well-balanced across the corpus.
+Low levels of dispersion, on the other hand, point to a concentrated
+distribution.</p>
 </div>
 </div>
 </div>
@@ -2379,13 +2380,489 @@ each sampled sentence based on the applied rule. The number following
 applied rule in the GDEX template CSV.</p>
 </div>
 </div>
-<div id="visualizations" class="section level1" number="6">
-<h1><span class="header-section-number">6</span> Visualizations</h1>
+<div id="semantictagging-tab" class="section level1" number="6">
+<h1><span class="header-section-number">6</span> SemanticTagging
+tab</h1>
+<p>The Semantic Tagging feature uses AI-powered word sense
+disambiguation to automatically tag corpus sentences with appropriate
+word senses from your dictionary. This tool can significantly accelerate
+the process of identifying which sense of a polysemous word appears in
+each corpus sentence.</p>
+<div id="overview" class="section level2" number="6.1">
+<h2><span class="header-section-number">6.1</span> Overview</h2>
+<p>Semantic tagging assigns sense labels to words in context based on
+their meaning. For example, if your dictionary defines multiple senses
+for a word like “dharma” (religious law, virtue, phenomenon, etc.), this
+tool will analyze each corpus sentence containing “dharma” and predict
+which sense is being used.</p>
+<p>The tool supports three different tagging methods, each using
+different types of contextual information:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Zero-shot</strong>: Uses only sense definitions</li>
+<li><strong>With Translations</strong>: Uses translation data to improve
+disambiguation</li>
+<li><strong>With Training Examples</strong>: Uses previously tagged
+examples as training data</li>
+</ol>
+</div>
+<div id="prerequisites" class="section level2" number="6.2">
+<h2><span class="header-section-number">6.2</span> Prerequisites</h2>
+<p>Before using the Semantic Tagging feature, you must have:</p>
+<ul>
+<li><strong>Sense definitions file</strong>: A CSV file containing your
+word senses with headwords and definitions</li>
+<li><strong>Corpus data</strong>: Previously extracted using the
+ExtractCorpusData tab</li>
+<li><strong>API key</strong>: Either a Google AI Studio API key (free)
+or an Anthropic API key (paid)</li>
+</ul>
+<p>Additional requirements depending on method: - <strong>For “With
+Translations” method</strong>: Translation files in
+<code>./data/Other/Translations/</code> - <strong>For “With Training
+Examples” method</strong>: Both translation files and example sentence
+files in <code>./data/Outputs/Examples/</code></p>
+</div>
+<div id="getting-started" class="section level2" number="6.3">
+<h2><span class="header-section-number">6.3</span> Getting Started</h2>
+<div id="prepare-your-sense-definitions-file" class="section level3" number="6.3.1">
+<h3><span class="header-section-number">6.3.1</span> 1. Prepare Your
+Sense Definitions File</h3>
+<p>Create a CSV file with at least two columns:</p>
+<ul>
+<li><strong>Headword column</strong>: Contains the word or lemma (e.g.,
+“dharma”, “karma”)</li>
+<li><strong>Definition column</strong>: Contains the sense definition
+for each row</li>
+</ul>
+<p>Example structure:</p>
+<pre><code>headword,sense_id,definition
+dharma,1,religious law or duty
+dharma,2,virtue or righteousness
+dharma,3,phenomenon or mental object</code></pre>
+<p>Each unique sense should have its own row. The tool will use these
+definitions to distinguish between different meanings of the same
+headword.</p>
+</div>
+<div id="upload-sense-definitions" class="section level3" number="6.3.2">
+<h3><span class="header-section-number">6.3.2</span> 2. Upload Sense
+Definitions</h3>
+<ol style="list-style-type: decimal">
+<li>Click “Browse” under “Upload sense definitions (CSV)”</li>
+<li>Select your CSV file</li>
+<li>The app will display how many sense definitions were loaded</li>
+<li>Select the appropriate column names:
+<ul>
+<li><strong>Headword column name</strong>: Choose the column containing
+your headwords</li>
+<li><strong>Definition column name</strong>: Choose the column
+containing sense definitions</li>
+</ul></li>
+</ol>
+</div>
+<div id="choose-a-tagging-method" class="section level3" number="6.3.3">
+<h3><span class="header-section-number">6.3.3</span> 3. Choose a Tagging
+Method</h3>
+<p>Select one of three methods based on available data:</p>
+<div id="zero-shot-method" class="section level4" number="6.3.3.1">
+<h4><span class="header-section-number">6.3.3.1</span> Zero-shot
+Method</h4>
+<ul>
+<li><strong>When to use</strong>: First-time tagging or when no
+additional data is available</li>
+<li><strong>How it works</strong>: The AI analyzes sentences using only
+the sense definitions you provide</li>
+<li><strong>Advantages</strong>: Requires minimal preparation; works
+immediately with just definitions</li>
+<li><strong>Limitations</strong>: May be less accurate than methods
+using additional context</li>
+</ul>
+</div>
+<div id="with-translations-method" class="section level4" number="6.3.3.2">
+<h4><span class="header-section-number">6.3.3.2</span> With Translations
+Method</h4>
+<ul>
+<li><strong>When to use</strong>: When you have translation data for
+your corpus sentences</li>
+<li><strong>Requirements</strong>: Translation files must exist in
+<code>./data/Other/Translations/</code> with filenames matching the
+pattern <code>_xx[encoded-lemma]xx__Translation.csv</code></li>
+<li><strong>How it works</strong>: The AI uses both sense definitions
+and translation equivalents to disambiguate</li>
+<li><strong>Advantages</strong>: Translations provide strong contextual
+clues about meaning</li>
+<li><strong>Note</strong>: Only lemmas with available translation files
+will appear in the selection menu</li>
+</ul>
+</div>
+<div id="with-training-examples-method" class="section level4" number="6.3.3.3">
+<h4><span class="header-section-number">6.3.3.3</span> With Training
+Examples Method</h4>
+<ul>
+<li><strong>When to use</strong>: After you’ve already tagged some
+sentences using the “With Translations” method</li>
+<li><strong>Requirements</strong>:
+<ul>
+<li>Tagged training data in
+<code>./data/SemanticTagging/with_translation/</code></li>
+<li>Example sentence files in <code>./data/Outputs/Examples/</code></li>
+</ul></li>
+<li><strong>How it works</strong>: The AI learns from your previously
+tagged examples to tag new sentences</li>
+<li><strong>Advantages</strong>: Most accurate method as it learns from
+actual tagged examples</li>
+<li><strong>Recommended workflow</strong>: Tag initial sentences using
+“With Translations”, then use those as training data for larger-scale
+tagging</li>
+</ul>
+</div>
+</div>
+<div id="select-a-lemma" class="section level3" number="6.3.4">
+<h3><span class="header-section-number">6.3.4</span> 4. Select a
+Lemma</h3>
+<p>After uploading sense definitions and choosing a method, select which
+lemma (headword) you want to process from the dropdown menu. The
+available lemmas depend on your chosen method:</p>
+<ul>
+<li><strong>Zero-shot</strong>: All lemmas from your sense definitions
+file</li>
+<li><strong>With Translations</strong>: Only lemmas that have
+translation files available</li>
+<li><strong>With Training Examples</strong>: Only lemmas that have both
+example files and tagged training data</li>
+</ul>
+</div>
+<div id="configure-ai-provider" class="section level3" number="6.3.5">
+<h3><span class="header-section-number">6.3.5</span> 5. Configure AI
+Provider</h3>
+<p>Choose between two AI providers:</p>
+<div id="google-gemini-free" class="section level4" number="6.3.5.1">
+<h4><span class="header-section-number">6.3.5.1</span> Google Gemini
+(Free)</h4>
+<ul>
+<li><strong>API Key</strong>: Obtain a free API key from <a href="https://aistudio.google.com/app/apikey">Google AI Studio</a></li>
+<li><strong>Models available</strong>:
+<ul>
+<li>Gemini 1.5 Flash (faster, recommended for testing)</li>
+<li>Gemini 1.5 Pro (more capable, for production)</li>
+</ul></li>
+<li><strong>Cost</strong>: Free tier available with rate limits</li>
+</ul>
+</div>
+<div id="anthropic-claude-paid" class="section level4" number="6.3.5.2">
+<h4><span class="header-section-number">6.3.5.2</span> Anthropic Claude
+(Paid)</h4>
+<ul>
+<li><strong>API Key</strong>: Requires a paid <a href="https://console.anthropic.com/">Anthropic API key</a></li>
+<li><strong>Models available</strong>:
+<ul>
+<li>Claude Sonnet 4.5 (recommended for best results)</li>
+<li>Claude Opus 4.1 (highest capability)</li>
+<li>Claude Sonnet 4 (fast and efficient)</li>
+</ul></li>
+<li><strong>Cost</strong>: Pay-per-token pricing; see Anthropic’s
+website for current rates</li>
+</ul>
+<p><strong>Note on API Keys</strong>: Your API keys are not stored by
+the application. You must enter them each time you use the tool. Never
+share your API keys publicly.</p>
+</div>
+</div>
+<div id="adjust-processing-parameters" class="section level3" number="6.3.6">
+<h3><span class="header-section-number">6.3.6</span> 6. Adjust
+Processing Parameters</h3>
+<p>Configure the following settings according to your needs:</p>
+<p><strong>Temperature</strong> (default: 0) - Range: 0 to 1 - Lower
+values (0-0.2): More deterministic, consistent results - Higher values
+(0.5-1.0): More creative, varied results - Recommendation: Keep at 0 for
+semantic tagging to ensure consistency</p>
+<p><strong>Max tokens</strong> (default: 4000) - Range: 1000 to 8000 -
+Controls maximum response length from the AI - Increase if processing
+very large batches or getting truncated responses</p>
+<p><strong>Confidence threshold</strong> (default: 0.79) - Range: 0 to 1
+- Minimum confidence level required to accept a sense prediction -
+Predictions below this threshold will be flagged for manual review -
+Lower values: More predictions accepted (may include uncertain cases) -
+Higher values: Only high-confidence predictions accepted</p>
+<p><strong>Sentences per batch</strong> (default: 100) - Range: 10 to
+200 - Number of sentences sent to the AI in each API call - Smaller
+batches: More API calls, slower but more manageable - Larger batches:
+Fewer API calls, faster but may exceed token limits</p>
+</div>
+</div>
+<div id="testing-and-processing" class="section level2" number="6.4">
+<h2><span class="header-section-number">6.4</span> Testing and
+Processing</h2>
+<div id="choose-processing-scope" class="section level3" number="6.4.1">
+<h3><span class="header-section-number">6.4.1</span> 7. Choose
+Processing Scope</h3>
+<p>Before running full processing, you can test the setup:</p>
+<ul>
+<li><strong>Test (sample sentences)</strong>: Process a small sample
+(default: 50 sentences)
+<ul>
+<li>Use this to verify your setup and check output quality</li>
+<li>Adjust the sample size using the numeric input (10-500
+sentences)</li>
+<li>Recommended before processing all data</li>
+</ul></li>
+<li><strong>All sentences</strong>: Process all available corpus
+sentences for the selected lemma
+<ul>
+<li>Only available after successful testing</li>
+<li>May take considerable time depending on corpus size</li>
+</ul></li>
+</ul>
+</div>
+<div id="validate-setup" class="section level3" number="6.4.2">
+<h3><span class="header-section-number">6.4.2</span> 8. Validate
+Setup</h3>
+<p>Click the <strong>“Validate Setup”</strong> button to check that all
+required data and configurations are correct. The validation checks:</p>
+<ul>
+<li>Sense definitions are loaded</li>
+<li>Correct columns are selected</li>
+<li>A lemma is selected</li>
+<li>API key is provided</li>
+<li>Required files exist for the chosen method</li>
+</ul>
+<p>If validation succeeds, you’ll see a success message. If it fails,
+carefully read the error message to identify what needs to be
+corrected.</p>
+</div>
+<div id="run-test" class="section level3" number="6.4.3">
+<h3><span class="header-section-number">6.4.3</span> 9. Run Test</h3>
+<p>After successful validation, click <strong>“Run Test”</strong> to
+process your sample sentences. This will:</p>
+<ol style="list-style-type: decimal">
+<li>Retrieve sample sentences from your corpus data</li>
+<li>Send them to the AI provider for sense tagging</li>
+<li>Display a preview of results</li>
+<li>Show confidence scores for each prediction</li>
+</ol>
+<p>Review the test results carefully: - Check if predicted senses are
+accurate - Examine confidence scores - Identify any problematic patterns
+- Adjust parameters if needed and re-test</p>
+</div>
+<div id="process-all-data" class="section level3" number="6.4.4">
+<h3><span class="header-section-number">6.4.4</span> 10. Process All
+Data</h3>
+<p>Once satisfied with test results, click <strong>“Process All
+Data”</strong> to tag all sentences for the selected lemma.</p>
+<p><strong>Important notes</strong>: - This process can be
+time-consuming for large corpora - Progress updates will appear in the
+status message area - Do not close the app while processing is in
+progress - Results are saved incrementally to prevent data loss</p>
+</div>
+</div>
+<div id="understanding-results" class="section level2" number="6.5">
+<h2><span class="header-section-number">6.5</span> Understanding
+Results</h2>
+<div id="results-preview" class="section level3" number="6.5.1">
+<h3><span class="header-section-number">6.5.1</span> Results
+Preview</h3>
+<p>After processing, a data table preview will display the tagged
+sentences with the following columns:</p>
+<ul>
+<li><strong>sentence_id</strong>: Unique identifier for each
+sentence</li>
+<li><strong>headword</strong>: The word being tagged</li>
+<li><strong>sentence</strong>: The full sentence text</li>
+<li><strong>predicted_sense</strong>: The sense label assigned by the
+AI</li>
+<li><strong>confidence</strong>: Confidence score (0-1) for the
+prediction</li>
+<li><strong>ai_provider</strong>: Which AI service was used
+(gemini/claude)</li>
+<li><strong>model_used</strong>: Specific model name</li>
+<li><strong>method</strong>: Which tagging method was used</li>
+</ul>
+<p>Additional columns may appear depending on the method: -
+<strong>translation</strong>: Translation of the sentence
+(with_translations method) - <strong>translation_equivalent</strong>:
+Specific translation of the target word (with_translations method)</p>
+</div>
+<div id="downloading-results" class="section level3" number="6.5.2">
+<h3><span class="header-section-number">6.5.2</span> Downloading
+Results</h3>
+<p>Click the <strong>“Download Results”</strong> button to save the
+complete tagged dataset as a CSV file. This file can be:</p>
+<ul>
+<li>Imported into spreadsheet software for manual review and
+correction</li>
+<li>Used as training data for future “With Training Examples”
+processing</li>
+<li>Analyzed statistically to understand sense distributions</li>
+<li>Integrated into your dictionary building workflow</li>
+</ul>
+</div>
+</div>
+<div id="file-organization" class="section level2" number="6.6">
+<h2><span class="header-section-number">6.6</span> File
+Organization</h2>
+<p>The Semantic Tagging feature organizes files in specific
+directories:</p>
+<pre><code>./data/
+├── Other/
+│   └── Translations/           # Translation files for &quot;with_translations&quot; method
+│       └── _xx[encoded]xx__Translation.csv
+├── Outputs/
+│   └── Examples/              # Example sentence files for &quot;with_training&quot; method
+│       └── _xx[encoded]xx__ExampleSents.csv
+└── SemanticTagging/
+    ├── zero_shot/             # Results from zero-shot method
+    ├── with_translation/      # Results from with_translations method
+    └── with_trainingdata/     # Results from with_training method</code></pre>
+<p><strong>File naming convention</strong>: Files use encoded filenames
+to handle Unicode characters and special characters safely. The encoding
+format is <code>_xx[numeric-code]xx_</code> where the numeric code
+represents the UTF-8 encoding of the headword.</p>
+</div>
+<div id="recommended-workflow" class="section level2" number="6.7">
+<h2><span class="header-section-number">6.7</span> Recommended
+Workflow</h2>
+<p>For best results, follow this suggested workflow:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Start small</strong>: Begin with zero-shot on 2-3 headwords
+to understand the process</li>
+<li><strong>Add translations</strong>: If available, use the “With
+Translations” method for improved accuracy</li>
+<li><strong>Review and correct</strong>: Manually review initial results
+and correct any errors</li>
+<li><strong>Build training data</strong>: Use corrected
+translation-method results as training data</li>
+<li><strong>Scale up</strong>: Use “With Training Examples” method for
+large-scale processing</li>
+<li><strong>Iterate</strong>: Continuously add to your training data as
+you review more results</li>
+</ol>
+</div>
+<div id="tips-and-best-practices" class="section level2" number="6.8">
+<h2><span class="header-section-number">6.8</span> Tips and Best
+Practices</h2>
+<div id="improving-accuracy" class="section level3" number="6.8.1">
+<h3><span class="header-section-number">6.8.1</span> Improving
+Accuracy</h3>
+<ul>
+<li><strong>Clear definitions</strong>: Write concise, distinctive
+definitions for each sense</li>
+<li><strong>Sufficient examples</strong>: For training method, include
+diverse example sentences</li>
+<li><strong>Appropriate threshold</strong>: Adjust confidence threshold
+based on your quality requirements</li>
+<li><strong>Regular review</strong>: Manually review and correct results
+to improve training data</li>
+</ul>
+</div>
+<div id="managing-api-costs" class="section level3" number="6.8.2">
+<h3><span class="header-section-number">6.8.2</span> Managing API
+Costs</h3>
+<ul>
+<li><strong>Test thoroughly</strong>: Use small samples before
+processing all data</li>
+<li><strong>Choose appropriate models</strong>:
+<ul>
+<li>Use Gemini Flash for initial testing (free)</li>
+<li>Use Claude Sonnet 4.5 for production if budget allows</li>
+</ul></li>
+<li><strong>Batch efficiently</strong>: Larger batches reduce API calls
+but may increase errors</li>
+<li><strong>Process strategically</strong>: Prioritize high-frequency
+words for manual review</li>
+</ul>
+</div>
+<div id="handling-errors" class="section level3" number="6.8.3">
+<h3><span class="header-section-number">6.8.3</span> Handling
+Errors</h3>
+<p>If processing fails: 1. Check your API key is correct and has
+sufficient quota 2. Reduce batch size if getting timeout errors 3. Check
+internet connection for network-related issues 4. Verify required files
+exist in correct directories 5. Review error messages in the status area
+for specific guidance</p>
+</div>
+<div id="data-quality" class="section level3" number="6.8.4">
+<h3><span class="header-section-number">6.8.4</span> Data Quality</h3>
+<ul>
+<li><strong>Consistent encoding</strong>: Ensure all CSV files use UTF-8
+encoding</li>
+<li><strong>Clean data</strong>: Remove duplicate sentences before
+processing</li>
+<li><strong>Complete definitions</strong>: Every sense should have a
+clear, distinct definition</li>
+<li><strong>Balanced examples</strong>: For training method, include
+examples of all senses</li>
+</ul>
+</div>
+</div>
+<div id="integration-with-other-features" class="section level2" number="6.9">
+<h2><span class="header-section-number">6.9</span> Integration with
+Other Features</h2>
+<p>Semantic tagging results can enhance other lexicographR features:</p>
+<ul>
+<li><strong>BuildDictionary</strong>: Include sense-tagged examples in
+dictionary entries</li>
+<li><strong>Visualizations</strong>: Visualize sense distribution across
+your corpus</li>
+<li><strong>Examples</strong>: Filter example sentences by tagged
+sense</li>
+<li><strong>Collocations</strong>: Analyze collocations specific to each
+word sense</li>
+</ul>
+</div>
+<div id="technical-notes" class="section level2" number="6.10">
+<h2><span class="header-section-number">6.10</span> Technical Notes</h2>
+<div id="api-requirements" class="section level3" number="6.10.1">
+<h3><span class="header-section-number">6.10.1</span> API
+Requirements</h3>
+<p>The tool requires the <code>httr</code> and <code>jsonlite</code> R
+packages. These will be checked automatically when the tab loads.</p>
+</div>
+<div id="processing-time" class="section level3" number="6.10.2">
+<h3><span class="header-section-number">6.10.2</span> Processing
+Time</h3>
+<p>Processing time depends on: - Number of sentences - Batch size - AI
+provider and model - Network speed - API rate limits</p>
+<p>As a rough estimate: - 100 sentences: 1-3 minutes - 1,000 sentences:
+10-30 minutes<br />
+- 10,000 sentences: 2-5 hours</p>
+</div>
+<div id="memory-considerations" class="section level3" number="6.10.3">
+<h3><span class="header-section-number">6.10.3</span> Memory
+Considerations</h3>
+<p>For very large datasets (&gt;50,000 sentences), consider: -
+Processing in smaller chunks by running multiple sessions - Increasing
+available system memory - Using the batch size parameter to control
+memory usage</p>
+</div>
+</div>
+<div id="troubleshooting" class="section level2" number="6.11">
+<h2><span class="header-section-number">6.11</span> Troubleshooting</h2>
+<p><strong>“No lemmas available” message</strong>: - Verify sense
+definitions file is uploaded correctly - For translation method: Check
+translation files exist in <code>./data/Other/Translations/</code> - For
+training method: Check both example files and tagged data exist</p>
+<p><strong>API key errors</strong>: - Verify API key is copied correctly
+(no extra spaces) - Check API key has not expired or reached quota
+limits - Ensure you’re using the correct provider’s key</p>
+<p><strong>Empty or incomplete results</strong>: - Check status messages
+for specific error details - Reduce batch size and retry - Verify corpus
+data exists for the selected lemma - Increase max_tokens parameter</p>
+<p><strong>Inconsistent predictions</strong>: - Lower the temperature
+parameter toward 0 - Review sense definitions for clarity and
+distinctiveness - Add more training examples (for training method) -
+Consider manual review of edge cases</p>
+<p><strong>Performance issues</strong>: - Reduce batch size for slower
+connections - Use Gemini Flash instead of Pro/Opus models for testing -
+Process high-frequency lemmas during off-peak hours - Consider
+processing overnight for very large datasets</p>
+</div>
+</div>
+<div id="visualizations" class="section level1" number="7">
+<h1><span class="header-section-number">7</span> Visualizations</h1>
 <p>This tab provides the option to generate graphs for visualizing data
 derived from your corpus (e.g., frequencies and collocates) or recorded
 in your dictionary (e.g., semantic information).</p>
-<div id="visualizations-of-corpus-data" class="section level2" number="6.1">
-<h2><span class="header-section-number">6.1</span> Visualizations of
+<div id="visualizations-of-corpus-data" class="section level2" number="7.1">
+<h2><span class="header-section-number">7.1</span> Visualizations of
 corpus data</h2>
 <p>Use this tab to create data visualizations from CSV files located in
 ./data/Outputs.</p>
@@ -2398,8 +2875,8 @@ files: 1. “CollocateCandidates.csv” 2. “HeadwordFreqs.csv” 3.
 visualization. The only requirements are: - Format: CSV - Must have a
 column with headwords named ‘lemma’ (the column name must be exactly
 ‘lemma’)</p>
-<div id="data-visualization-workflow" class="section level3" number="6.1.1">
-<h3><span class="header-section-number">6.1.1</span> data-visualization
+<div id="data-visualization-workflow" class="section level3" number="7.1.1">
+<h3><span class="header-section-number">7.1.1</span> data-visualization
 workflow</h3>
 <p>Here’s a guide on using the Data-Viz tab:</p>
 <ol style="list-style-type: decimal">
@@ -2464,17 +2941,15 @@ other meaningful combinations possible. Feel free to experiment, and if
 you encounter an error message, adjust your selections in the menu.</li>
 </ul></li>
 </ol>
-<div id="wordclouds" class="section level4" number="6.1.1.1">
-<h4><span class="header-section-number">6.1.1.1</span> wordclouds</h4>
+<div id="wordclouds" class="section level4" number="7.1.1.1">
+<h4><span class="header-section-number">7.1.1.1</span> wordclouds</h4>
 <p>The Wordcloud feature in the Data-Viz tab renders words in the chosen
 first variable and sizes them proportionally based on the number of the
 selected second variable. Here’s a guideline to use Wordclouds:</p>
 <ol style="list-style-type: decimal">
 <li><strong>Dataset Selection:</strong>
 <ul>
-<li>Start with the dataset called “CollocateCandidates_….csv.” (do
-<em>not</em> select ‘Collocates’, which is a folder containing files
-with collocates for each individual headword!)</li>
+<li>Start with the dataset “CollocateCandidates.csv.”</li>
 </ul></li>
 <li><strong>Choose Variables:</strong>
 <ul>
@@ -2505,8 +2980,8 @@ be displayed. This can lead to misleading data visualizations.</li>
 <code>plot all</code> button, and be cautious about variable ranges to
 ensure accurate and meaningful wordclouds.</p>
 </div>
-<div id="logcurve" class="section level4" number="6.1.1.2">
-<h4><span class="header-section-number">6.1.1.2</span> logCurve</h4>
+<div id="logcurve" class="section level4" number="7.1.1.2">
+<h4><span class="header-section-number">7.1.1.2</span> logCurve</h4>
 <p>It is recommended to use this plot specifically with HeadwordFreqs
 (Frequency column) and SubcorporaFreqs (Dispersion column) datasets.
 This allows you to visualize the frequency or dispersion of a headword
@@ -2515,8 +2990,8 @@ relative to the frequency or dispersion of all other words in the corpus
 meaningful and accurate visualizations for understanding the
 distribution and importance of specific headwords in the corpus.</p>
 </div>
-<div id="barchart" class="section level4" number="6.1.1.3">
-<h4><span class="header-section-number">6.1.1.3</span> barchart</h4>
+<div id="barchart" class="section level4" number="7.1.1.3">
+<h4><span class="header-section-number">7.1.1.3</span> barchart</h4>
 <p>The behavior of barcharts in this tool varies based on the type of
 data:</p>
 <ol style="list-style-type: decimal">
@@ -2547,8 +3022,8 @@ appropriate settings for meaningful visualizations.</p>
 particular requests or suggestions, please feel free to let us know.</p>
 </div>
 </div>
-<div id="visualizations-of-dictionary-data" class="section level3" number="6.1.2">
-<h3><span class="header-section-number">6.1.2</span> Visualizations of
+<div id="visualizations-of-dictionary-data" class="section level3" number="7.1.2">
+<h3><span class="header-section-number">7.1.2</span> Visualizations of
 dictionary data</h3>
 <p>To visualize dictionary data, ensure you have uploaded the RDS
 version of your dictionary using the dedicated file uploader in the
@@ -2574,8 +3049,8 @@ from the selected top-hierarchy variable (e.g., if variables are
 ‘headword sense subsense’, each tree graph will represent a randomly
 sampled headword). Graphs are redrawn on a newly sampled random value
 whenever any of the inputs changes.</p>
-<div id="trees" class="section level4" number="6.1.2.1">
-<h4><span class="header-section-number">6.1.2.1</span> Trees</h4>
+<div id="trees" class="section level4" number="7.1.2.1">
+<h4><span class="header-section-number">7.1.2.1</span> Trees</h4>
 <p>Tree graphs are interactive widgets with customizable options. You
 can choose to display the tree with ‘collapsed’ nodes, allowing you to
 click on each node to expand it. Note that this option is suitable for
@@ -2603,8 +3078,8 @@ as self-contained HTML files, while static images are saved as PNG and
 will be later converted to the much lighter webp format when included in
 the dictionary data.</p>
 </div>
-<div id="static-networks" class="section level4" number="6.1.2.2">
-<h4><span class="header-section-number">6.1.2.2</span> static
+<div id="static-networks" class="section level4" number="7.1.2.2">
+<h4><span class="header-section-number">7.1.2.2</span> static
 networks</h4>
 <p>These graphs require no further choices beyond inputting the
 hierarchically-ordered variables in the text box. We recommend the
@@ -2630,8 +3105,8 @@ in your variables, you can ensure a more effective and visually
 appealing representation of your data.</p>
 </div>
 </div>
-<div id="plots-filenaming-convention" class="section level3" number="6.1.3">
-<h3><span class="header-section-number">6.1.3</span> plots filenaming
+<div id="plots-filenaming-convention" class="section level3" number="7.1.3">
+<h3><span class="header-section-number">7.1.3</span> plots filenaming
 convention</h3>
 <p>TypeOfPlot_xxHeadwordNumericUTF8conversionxx_headword_BY_ParametersUsed,
 e.g. a static image wordcloud for the collocates of the headword ‘dog’
@@ -2644,21 +3119,21 @@ data and in filenames, depending on OS.</p>
 </div>
 </div>
 </div>
-<div id="builddictionary-tab" class="section level1" number="7">
-<h1><span class="header-section-number">7</span> BuildDictionary
+<div id="builddictionary-tab" class="section level1" number="8">
+<h1><span class="header-section-number">8</span> BuildDictionary
 tab</h1>
 <p>There are 2 main ways to create a dictionary: Quarto book method
 &amp; Shiny app method. See below for details on both.</p>
-<div id="quarto-book-dictionary" class="section level2" number="7.1">
-<h2><span class="header-section-number">7.1</span> Quarto Book
+<div id="quarto-book-dictionary" class="section level2" number="8.1">
+<h2><span class="header-section-number">8.1</span> Quarto Book
 Dictionary</h2>
 <p>This is the simplest digital dictionary form: a digital book. It is
 suited for highly curated dictionaries that rely mostly on text manually
 crafted by lexicographers, just like traditional dictionary entries. It
 can still contain graphs, including interactive ones, and information
 automatically extracted from corpora.</p>
-<div id="requirements-1" class="section level3" number="7.1.1">
-<h3><span class="header-section-number">7.1.1</span> Requirements</h3>
+<div id="requirements-1" class="section level3" number="8.1.1">
+<h3><span class="header-section-number">8.1.1</span> Requirements</h3>
 <p>AVOID UNDERSCORE AND COLON IN HEADWORDS as this may conflict with the
 app’s filenaming convention and yaml file! (in fact, if possible try to
 avoid all punctuation and special characters in headwords, as these may
@@ -2668,8 +3143,8 @@ files.</p>
 <p>Webp must be installed. Install from: <a href="https://developers.google.com/speed/webp/download">Webp
 Download</a>.</p>
 </div>
-<div id="set-up-your-digital-dictionary-project" class="section level3" number="7.1.2">
-<h3><span class="header-section-number">7.1.2</span> Set Up Your Digital
+<div id="set-up-your-digital-dictionary-project" class="section level3" number="8.1.2">
+<h3><span class="header-section-number">8.1.2</span> Set Up Your Digital
 Dictionary Project</h3>
 <p>When you are ready to start building your digital dictionary, you can
 go to the SetUpDict tab.</p>
@@ -2705,8 +3180,8 @@ and create a new dictionary project, you need to manually remove the
 MyDict folder from the app repository before you click on
 <code>Set Up Dictionary</code>.</p>
 </div>
-<div id="add-your-own-images" class="section level3" number="7.1.3">
-<h3><span class="header-section-number">7.1.3</span> Add Your Own
+<div id="add-your-own-images" class="section level3" number="8.1.3">
+<h3><span class="header-section-number">8.1.3</span> Add Your Own
 Images</h3>
 <p>If you have media files that you want to associate with your entries,
 besides the graphs you created in our app (e.g., pictures representing
@@ -2738,8 +3213,8 @@ please contact us, and we will try to help you find the best way to
 match your files to their corresponding headwords.</p>
 </div>
 </div>
-<div id="add-lexical-data" class="section level2" number="7.2">
-<h2><span class="header-section-number">7.2</span> Add Lexical Data</h2>
+<div id="add-lexical-data" class="section level2" number="8.2">
+<h2><span class="header-section-number">8.2</span> Add Lexical Data</h2>
 <p>If you want to add tabular lexical data in CSV that is not included
 in your dictionary data or in the data derived from your corpus through
 our app, you can put it in a folder called LexicalData and add that
@@ -2754,8 +3229,8 @@ definitions ready beforehand. You can also use this to include
 paradigms, variant spellings, or anything. Make sure that the lemma
 column contains all the lemmata you have in your dictionary data (or in
 the CSV wordlist you uploaded instead of dictionary data).</p>
-<div id="entry-editor" class="section level3" number="7.2.1">
-<h3><span class="header-section-number">7.2.1</span> Entry Editor</h3>
+<div id="entry-editor" class="section level3" number="8.2.1">
+<h3><span class="header-section-number">8.2.1</span> Entry Editor</h3>
 <p>This section must be used AFTER setting up your project in the setup
 tab.</p>
 <p>The aim of this section is to help you incorporate your pre-existing
@@ -2773,8 +3248,8 @@ Make sure you use the same wordlist you used to generate the
 corpus-extracted data; otherwise, data may be missing for some words,
 which can cause errors.</p>
 </div>
-<div id="preview" class="section level3" number="7.2.2">
-<h3><span class="header-section-number">7.2.2</span> Preview</h3>
+<div id="preview" class="section level3" number="8.2.2">
+<h3><span class="header-section-number">8.2.2</span> Preview</h3>
 <p>Click <code>Preview</code> to preview your digital dictionary. If you
 preview it just after setting up, it will only show the cover image
 &amp; preface (if you uploaded one) and the references, which will be
@@ -2794,8 +3269,8 @@ depends on how complex your qmd files are; if your entries are just
 text, they will be rendered more quickly than entries with many
 interactive graphs and images).</p>
 </div>
-<div id="choose-a-word-to-test-on" class="section level3" number="7.2.3">
-<h3><span class="header-section-number">7.2.3</span> Choose a Word to
+<div id="choose-a-word-to-test-on" class="section level3" number="8.2.3">
+<h3><span class="header-section-number">8.2.3</span> Choose a Word to
 Test On</h3>
 <p>Choose a word to test on and stick to it until you finish defining
 the rules to populate all the sections you want to include in your
@@ -2817,8 +3292,8 @@ clicking on the <code>Preview</code> button, or simply by looking at
 RStudio, where the preview will be automatically displayed as soon as it
 is ready.</p>
 </div>
-<div id="defining-rules-to-populate-entries" class="section level3" number="7.2.4">
-<h3><span class="header-section-number">7.2.4</span> Defining Rules to
+<div id="defining-rules-to-populate-entries" class="section level3" number="8.2.4">
+<h3><span class="header-section-number">8.2.4</span> Defining Rules to
 Populate Entries</h3>
 <p>Before you start defining your rules for creating your entries, it is
 best if you:</p>
@@ -2834,8 +3309,8 @@ of collocates should follow and be titled ‘Collocates,’ etc.).</li>
 </ul></li>
 </ul>
 </div>
-<div id="select-data-you-want-your-digital-dictionary-to-display" class="section level3" number="7.2.5">
-<h3><span class="header-section-number">7.2.5</span> Select Data You
+<div id="select-data-you-want-your-digital-dictionary-to-display" class="section level3" number="8.2.5">
+<h3><span class="header-section-number">8.2.5</span> Select Data You
 Want Your Digital Dictionary to Display</h3>
 <p>Choose a dataset and select the variable(s) you want to keep or add
 to your digital dictionary data. If you choose a single variable from
@@ -2848,8 +3323,8 @@ digital dictionary.</p>
 source is not available for your chosen word. In such a case, clicking
 ‘Go’ will have no effect; nothing will be added to your entry-making
 rules.</p>
-<div id="consider-searchability" class="section level4" number="7.2.5.1">
-<h4><span class="header-section-number">7.2.5.1</span> Consider
+<div id="consider-searchability" class="section level4" number="8.2.5.1">
+<h4><span class="header-section-number">8.2.5.1</span> Consider
 searchability</h4>
 <p>Your digital dictionary has a search box providing full-text search.
 It will search the content of your entries, not the title. So, if you
@@ -2870,8 +3345,8 @@ to follow it and include information about it in your dictionary
 preface).</p>
 </div>
 </div>
-<div id="create-text-field" class="section level3" number="7.2.6">
-<h3><span class="header-section-number">7.2.6</span> Create Text
+<div id="create-text-field" class="section level3" number="8.2.6">
+<h3><span class="header-section-number">8.2.6</span> Create Text
 Field</h3>
 <p>This field is optional. You can use it to create text sections for
 your entry from your data for three uses:</p>
@@ -2900,10 +3375,12 @@ of the variables. For instance, suppose you’ve added a column to the
 Examples dataset in the app, specifying the sense of the headword in
 each example. If you wish to split the examples by sense, you need to
 select <code>Dataset= Examples.csv</code> and ensure you include the
-sense variable in your variable selection. To accomplish this, type the
-<code>%%%splitby</code> keyword in the text input box, followed by a
-space and the name of the variable you want to split on, e.g.,
-“%%%splitby sense.”</p></li>
+sense variable in your variable selection. To accomplish this, type
+‘%%%paste’ followed by the name of the variable that contains the
+example, and then <code>%%%splitby</code> keyword, followed by the name
+of the variable you want to split on, e.g., “%%%paste Sent %%%splitby
+sense.” Make sure to have a space between the key words and the
+variables from the data.</p></li>
 <li><p><strong>Pasting Variables Together:</strong> You can also use the
 <code>%%%paste</code> keyword to combine variables into text. For
 example, you might want to merge the example sentence and its
@@ -2927,6 +3404,11 @@ the rendered image using the <code>%%%width</code> keyword, followed by
 a space and the percentage or number of pixels for the image size. For
 example, ‘%%%width 40%’ or ‘%%%width 300’. The height of the image will
 automatically adjust based on your specified width.</p>
+<p><strong>Interactive Example Filter (Shiny only)</strong></p>
+<p>Shiny allows interactive filtering of examples by variables (e.g.,
+genre). Include a filter menu using the Text keyword %%%filterby
+followed by desired variable names. This requires a CSV file with
+example content and related variables.</p>
 <p>Since the text box is relatively small, we recommend composing your
 text string in a text editor and then pasting it into the box. To
 retrieve the text string later, check the DictMakingRulesList.json file,
@@ -2934,8 +3416,8 @@ where all the entry-creation rules you’ve defined are stored. Editing
 this file manually won’t affect the app’s behavior and is not
 recommended.</p>
 </div>
-<div id="modify-the-rules" class="section level3" number="7.2.7">
-<h3><span class="header-section-number">7.2.7</span> Modify the
+<div id="modify-the-rules" class="section level3" number="8.2.7">
+<h3><span class="header-section-number">8.2.7</span> Modify the
 Rules</h3>
 <p>Review your rules in the rules tab, ensuring you click refresh to
 load any new modifications. If you want to change the rule for creating
@@ -2943,15 +3425,15 @@ a section, follow these steps: first, click refresh rules, then select
 the section name from the modify dropdown menu, press delete, and go
 back to the rule editor menus to recreate the section.</p>
 </div>
-<div id="re-arrange-entry-sections" class="section level3" number="7.2.8">
-<h3><span class="header-section-number">7.2.8</span> Re-arrange Entry
+<div id="re-arrange-entry-sections" class="section level3" number="8.2.8">
+<h3><span class="header-section-number">8.2.8</span> Re-arrange Entry
 Sections</h3>
 <p>By default, entries will list the sections one after the other in the
 same order as they appear in your rules. To change the order or group
 them into tabs:</p>
 </div>
-<div id="change-order-of-sections" class="section level3" number="7.2.9">
-<h3><span class="header-section-number">7.2.9</span> Change Order of
+<div id="change-order-of-sections" class="section level3" number="8.2.9">
+<h3><span class="header-section-number">8.2.9</span> Change Order of
 Sections</h3>
 <p>Once you’ve created some rules, the <code>rearrange</code> text box
 area will be populated with the section names you’ve created, separated
@@ -2960,17 +3442,18 @@ text editor, rearrange the section names, ensuring they’re separated by
 semicolons. Click refresh and preview the dictionary to see your
 changes.</p>
 </div>
-<div id="group-sections-into-tabs" class="section level3" number="7.2.10">
-<h3><span class="header-section-number">7.2.10</span> Group Sections
+<div id="group-sections-into-tabs" class="section level3" number="8.2.10">
+<h3><span class="header-section-number">8.2.10</span> Group Sections
 into Tabs</h3>
-<p>The <code>group into tabs</code> text box is to be used to arrange
-sections into tabs. To group the sections under one tab into, wrap their
-names (exactly as they appear in the rules) into the string
+<p>The <code>add UI instructions</code> text box is to be used to
+arrange sections into tabs. To group the sections under one tab into,
+wrap their names (exactly as they appear in the rules) into the string
 <code>TAB()</code>, separated by semicolons. The <strong>grouped
 sections must be in the same order as in the rules</strong>. For
 example, if we have the following sections in our entries: headword,
 pos, senses, etymology and we want to group headword and pos in a
-tabset, we will input in the <code>group into tabs</code> text box:</p>
+tabset, we will input in the <code>add UI instructions</code> text
+box:</p>
 <p><code>TAB(headword;pos);senses;etymology</code></p>
 <p>If we wanted to also group in a tabset senses and etymology we would
 input and have 2 tabsets in our entry:</p>
@@ -2995,8 +3478,8 @@ tabs, make sure you either manually delete this file from the root
 directory or you overwrite it with a blank file by clearing the tabs
 text box and then clicking on <code>update tabs</code></p>
 </div>
-<div id="generate-for-all-headwords" class="section level3" number="7.2.11">
-<h3><span class="header-section-number">7.2.11</span> Generate for All
+<div id="generate-for-all-headwords" class="section level3" number="8.2.11">
+<h3><span class="header-section-number">8.2.11</span> Generate for All
 Headwords</h3>
 <p>Click ‘process all entries’ to create entries for all headwords in
 your dictionary. Headwords will be taken from:</p>
@@ -3020,8 +3503,8 @@ headwords without corresponding corpus-extracted data.</p>
 dictionary once all (or many) entries have been created is NOT advised.
 use the create digtila dictionary button instead.</strong></p>
 </div>
-<div id="create-your-digital-dictionary-files" class="section level3" number="7.2.12">
-<h3><span class="header-section-number">7.2.12</span> create your
+<div id="create-your-digital-dictionary-files" class="section level3" number="8.2.12">
+<h3><span class="header-section-number">8.2.12</span> create your
 digital dictionary files</h3>
 <p>Once all entries have been processed, you can click on
 <code>create digital dictionary</code> to render you dictionary as a
@@ -3041,8 +3524,8 @@ initial letter in the left sibar. Please note that characters with
 diacritics may be treated as different letters. the division into
 letters is case insensitive (a and A will be both grouped under a).</p>
 </div>
-<div id="customizing-output" class="section level3" number="7.2.13">
-<h3><span class="header-section-number">7.2.13</span> Customizing
+<div id="customizing-output" class="section level3" number="8.2.13">
+<h3><span class="header-section-number">8.2.13</span> Customizing
 output</h3>
 <p>you can easily change the appearance of your digital dictionary by
 changing the theme option at the end of the _quarto.yml file (inside he
@@ -3054,16 +3537,16 @@ folloing lines (with indent) at end of your _quarto.yml file:</p>
 <p>if you include these lines you will have to <a href="https://quarto.org/docs/output-formats/pdf-engine.html">install
 tinytex</a> first.</p>
 </div>
-<div id="customizing-qmd-files" class="section level3" number="7.2.14">
-<h3><span class="header-section-number">7.2.14</span> Customizing QMD
+<div id="customizing-qmd-files" class="section level3" number="8.2.14">
+<h3><span class="header-section-number">8.2.14</span> Customizing QMD
 Files</h3>
 <p>Customize entries further by including more Quarto elements manually
 or programmatically. See what is available: <a href="https://quarto.org/docs/authoring/markdown-basics.html">Quarto
 Markdown Basics</a>.</p>
 </div>
 </div>
-<div id="shiny-editor" class="section level2" number="7.3">
-<h2><span class="header-section-number">7.3</span> Shiny Editor</h2>
+<div id="shiny-editor" class="section level2" number="8.3">
+<h2><span class="header-section-number">8.3</span> Shiny Editor</h2>
 <p>Creating a template for your Shiny app works similarly to setting up
 a Quarto book. Below are some additional options specific to Shiny
 projects.</p>
@@ -3088,14 +3571,15 @@ headwords contain diacritics or special characters. This table, saved as
 “DiacriticsConversion.csv” in the data folder of the root app (NOT
 inside the MyDict subdirectory), provides alternative spellings for easy
 searching (e.g., ñ to n).</p>
-<div id="ui-instructions" class="section level3" number="7.3.1">
-<h3><span class="header-section-number">7.3.1</span> UI
+<div id="ui-instructions" class="section level3" number="8.3.1">
+<h3><span class="header-section-number">8.3.1</span> UI
 Instructions:</h3>
 <p>In addition to TAB() for Quarto books, Shiny supports COL() and
-SEARCHBY() as keywords used within TAB(). - COL() organizes displayed
-information into columns, recommending a maximum of 3 columns to avoid
-very narrow displays. - SEARCHBY() determines searchability, enabling
-searches across specified elements (e.g., English; Spanish).</p>
+SEARCHBY() as keywords used in a similar way to TAB(). - COL() organizes
+displayed information into columns, recommending a maximum of 3 columns
+to avoid very narrow displays. - SEARCHBY() determines searchability,
+enabling searches across specified elements (e.g., English;
+Spanish).</p>
 <p>When naming elements for dictionary search, use intuitive names that
 will appear in user-facing menus (e.g., ‘English’ instead of
 ‘headword’).</p>
@@ -3103,10 +3587,6 @@ will appear in user-facing menus (e.g., ‘English’ instead of
 capturing entire words but not parts of words. Multi-word headwords like
 ‘corpus linguistics’ can be found by searching ‘corpus’, ‘linguistics’,
 or ‘corpus linguistics’, but not ‘linguist’.</p>
-<p><strong>Interactive Example Filter</strong>: Shiny allows interactive
-filtering of examples by variables (e.g., genre). Include a filter menu
-using the Text keyword %%%filterby followed by desired variable names.
-This requires a CSV file with example content and related variables.</p>
 <p><strong>Dictionary Preview</strong>: In Shiny apps, the preview shows
 headwords used in entry rules, the first three entries, and the last
 headword used. To exit the Shiny preview and return to editing, click
@@ -3115,8 +3595,8 @@ editing app.</p>
 </div>
 </div>
 </div>
-<div id="sharedata-tab" class="section level1" number="8">
-<h1><span class="header-section-number">8</span> ShareData tab</h1>
+<div id="sharedata-tab" class="section level1" number="9">
+<h1><span class="header-section-number">9</span> ShareData tab</h1>
 <p>Purpose: Facilitate harvesting &amp; re-use of your dictionary data
 by using a well-known set of labels to identify the elements of your
 entries (headwords, examples, etc.). This tab facilitates the
@@ -3137,8 +3617,8 @@ correspondences between element names you have created and make sure
 that if you have repeated values in the lexicogName column, the lang
 column has different values.</p>
 </div>
-<div id="troubleshooting" class="section level1" number="9">
-<h1><span class="header-section-number">9</span> Troubleshooting</h1>
+<div id="troubleshooting-1" class="section level1" number="10">
+<h1><span class="header-section-number">10</span> Troubleshooting</h1>
 <p>The app requires a set file system; do not change the location of
 files and folders in your app directory. If the app crashes, run
 <code>getwd()</code> in RStudio, and if the filepath ends in MyDict, run
@@ -3166,8 +3646,8 @@ an easy fix provided.</p>
 <p>If you cannot understand/fix the error, do not hesitate to contact
 us</p>
 </div>
-<div id="a-note-on-checkbox-and-buttons-in-this-app" class="section level1" number="10">
-<h1><span class="header-section-number">10</span> a note on checkbox and
+<div id="a-note-on-checkbox-and-buttons-in-this-app" class="section level1" number="11">
+<h1><span class="header-section-number">11</span> a note on checkbox and
 buttons in this app</h1>
 <p>the buttons are very sensitive, make sure you only click them once,
 to avoid repeating the same operation multple times, whcih can be time

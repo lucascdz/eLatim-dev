@@ -151,7 +151,7 @@ GetKwicsLL_LR_DDL <- function(Kwics, Lem, CorpusFreqs, HeadwordVar, MinFreq=50, 
 
       # sort & trim DF to top KW
       if(is.null(SortBy)){
-       
+
         SortBy <- "LogLikCorpusVSRefcorpus"
       }
       if(!SortBy %in% colnames(LL_LRdf)){
@@ -181,9 +181,9 @@ GetColloByLemma <- function(Lem, HeadFreqs, window=5, HeadwordVar, Stopwords="",
   # this is to show progress, avoid loosing data if process is interrupted
   # and create more digestible individual file for manual editing
   kwics <- GetAllLemmaSents(Lem,"./data/CorpusDocs", HeadwordVar=HeadwordVar, Window=window,Cores=Cores)
-  if(!is.null(kwics) && nrow(kwics)>0){
+  if(!is.null(kwics) && length(kwics) && nrow(kwics)>0){
 
-    
+
     KeyWDF <- GetKwicsLL_LR_DDL(kwics,Lem, HeadFreqs, HeadwordVar, MinFreq= MinFreq, Stopwords= Stopwords, minLL= minLL, minLR= minLR, minMI= minMI, minLogDice=minLogDice, SortBy=SortBy, MaxKW=MaxKW,  Cores= Cores)
     if(!is.null(KeyWDF) && nrow(KeyWDF)>0){
       colnames(KeyWDF)[1] <- "collocate" # changes from "lemma.1"
@@ -191,8 +191,10 @@ GetColloByLemma <- function(Lem, HeadFreqs, window=5, HeadwordVar, Stopwords="",
       KeyWDF <- KeyWDF[,!colnames(KeyWDF) %in% c("NORMfreqFocusCorpus","NORMfreqRefCorpus", "Freq_RefCorpus","lemma.1","Freq_FocusCorpus","TotalFreq")]
       KeyWDF$lemma <- Lem
       KeyWDF <- KeyWDF[,c(length(KeyWDF),1:(length(KeyWDF)-1))] # reorder columns to: "lemma","collocate","LogL","LR","MI","LogDice","CoFreq","TotalFreq"
+      KeyWDF$collocate[is.na(KeyWDF$collocate)] <- ""
+      KeyWDF <- KeyWDF[KeyWDF$collocate!="",]
     }
-  }
+
   parameters <- paste0(Lem ,"_MinFreq",MinFreq,"minLL",minLL,"minLR",minLR,"minMI",minMI,"minLogDice",minLogDice)
 
 if(!file.exists('./data/Outputs/Collocates')){
@@ -206,6 +208,7 @@ if(!file.exists('./data/Outputs/Collocates')){
 if(!is.null(KeyWDF) && nrow(KeyWDF)>0){
   fwrite(KeyWDF, paste0("./data/Outputs/Collocates/CollocateCandidates_",parameters ,".csv"))
   return(KeyWDF)
+ }
 }
 }
 
@@ -220,10 +223,10 @@ GetColloForAllLemmaAtOnce <- function(HeadwordVec, HeadFreqs, window=5, Headword
   names(allLemmataSents) <- HeadwordVec
   allLemmataSents <- allLemmataSents[!sapply(allLemmataSents, is.null)]
   if(!is.null(allLemmataSents) && length(allLemmataSents)>0){
- 
+
 
     #KeyW <- lapply(seq_along(allLemmataSents), function(i) GetKwicsLL_LR_DDL(allLemmataSents[i][[1]],names(allLemmataSents[i]), HeadFreqs, HeadwordVar, MinFreq=MinFreq, Stopwords=Stopwords, minLL=minLL, minLR=minLR, minMI=minMI, minLogDice=minLogDice, SortBy=SortBy, MaxKW=MaxKW,  Cores = Cores))
-    
+
     KeyW <- lapply(seq_along(allLemmataSents), function(i) GetKwicsLL_LR_DDL(allLemmataSents[i][[1]],names(allLemmataSents[i]), HeadFreqs, HeadwordVar, MinFreq=force(MinFreq), Stopwords=force(Stopwords), minLL=force(minLL), minLR=force(minLR), minMI=force(minMI), minLogDice=force(minLogDice), SortBy=force(SortBy), MaxKW=force(MaxKW),  Cores = Cores))
     names(KeyW) <- names(allLemmataSents)
     KeyW <- KeyW[!sapply(KeyW, is.null)]
@@ -236,7 +239,8 @@ GetColloForAllLemmaAtOnce <- function(HeadwordVec, HeadFreqs, window=5, Headword
       colnames(KeyWDF)[which(colnames(KeyWDF)=="LogLikCorpusVSRefcorpus")] <- "LogL" # changes from "LogLikCorpusVSRefcorpus"
       KeyWDF <- KeyWDF[,!colnames(KeyWDF) %in% c("NORMfreqFocusCorpus","NORMfreqRefCorpus", "Freq_RefCorpus","lemma.1","Freq_FocusCorpus","TotalFreq")]
       #KeyWDF <- KeyWDF[,c(length(KeyWDF),1:(length(KeyWDF)-1))] # reorder columns to: "lemma","collocate","LogL","LR","MI","LogDice","CoFreq","TotalFreq"
-
+      KeyWDF$collocate[is.na(KeyWDF$collocate)] <- ""
+      KeyWDF <- KeyWDF[KeyWDF$collocate!="",]
      return(KeyWDF)
     }
   }

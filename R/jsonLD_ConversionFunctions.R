@@ -54,7 +54,9 @@ CreateContextElement <- function(DFlexicogName=DF$lexicogName, NameSpacesDF){
 
 GetSharableEntryElement <- function(lexicogNameVal, Entry, DF){
 
-  if(length(which(DF$lexicogName==lexicogNameVal))==1){
+if(lexicogNameVal=="ontolex:LexicalEntry" & DF$elementName[DF$standardName=="headword"]==""){
+  newElement <- names(Entry)
+}else if(length(which(DF$lexicogName==lexicogNameVal))==1){
     # unnest deeply nested entry elements
 
     newElement <- Entry[[1]][[DF$elementName[DF$lexicogName==lexicogNameVal]]][[1]]
