@@ -66,7 +66,7 @@
 
          names(AllPlots) <- HeadwordVec
          #mclapply(seq_along(AllPlots), function(i) ggsave(paste0("./data/Plots/barchart_",MakeSafeForFilename(names(AllPlots)[i]),"_",as.character(xInput),"_BY_",as.character(fillInput),".png"),AllPlots[i][[1]],device = "png"), mc.cores = Cores)
-         lapply(seq_along(AllPlots), function(i) {print(names(AllPlots)[i] );ggsave(paste0("./data/Plots/barchart_",MakeSafeForFilename(names(AllPlots)[i]),"_",as.character(xInput),"_BY_",as.character(fillInput),".png"),AllPlots[i][[1]],device = "png")})
+         lapply(seq_along(AllPlots), function(i) {print(names(AllPlots)[i] );ggsave(paste0("./data/Plots/barchart_",MakeSafeForFilename(names(AllPlots)[i]),"_",as.character(xInput),"_BY_",as.character(fillInput),".png"),AllPlots[i][[1]],device = "png", height = 1000, units = "px")})
 
          showModal(
            modalDialog(
