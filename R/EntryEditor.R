@@ -269,7 +269,7 @@ if(input$rearrangeGo==T){
       AssembleEntry(DictData, RuleList, Word, projectType="book")
       MakeQuartoFile(Word, readRDS(paste0("./MyDict/",dir("./MyDict")[str_detect(dir("./MyDict"), paste0("^Entry_xx",SafeEncodeUTF8(Word)))])),TAB= GetTABS("./TabsInstructions.txt"))
       }else{
-        print(paste("the following sections are not accounted for:", paste(setdiff(names(RuleList), NewOrder), collcapse=";")))
+        print(paste("the following sections are not accounted for:", paste(setdiff(names(RuleList), NewOrder), collapse=";")))
       }
 
       }
