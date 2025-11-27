@@ -41,11 +41,11 @@ createEntryContent <- function(dataDF=EntryData[1][[1]][i], dataDFString=paste0(
       Bits <- unlist(str_split(dataDF[[1]], " "))
       content <-   paste0(
         "\n#### ", names(dataDF),"\n\n",
-        "![](", gsub("./MyDict/", "./", Bits[1]), "){width=50%}",Bits[2] ,"\n\n")
+        "![](", gsub("./MyDict/", "./", Bits[1]), "){width=100%}",Bits[2] ,"\n\n")
     }else{
       content <-   paste0(
         "\n#### ", names(dataDF),"\n\n",
-        "![](", gsub("./MyDict/", "./", dataDF[[1]]) ,"){width=50% fig-alt='",
+        "![](", gsub("./MyDict/", "./", dataDF[[1]]) ,"){width=100% fig-alt='",
         readtext(str_replace(dataDF[[1]], "./MyDict/Media/","./data/AltText/") %>%
                    str_replace(.,".webp","_AltText.txt"))$text , "'}\n\n")
     }
@@ -265,7 +265,7 @@ MakeAllentries <- function(HeadwordVec,RuleList, DictData, TAB=NULL, Cores){
 
   updateYaml("./MyDict")
 
-  if(length(HeadwordVec)<1200){
+  if(length(HeadwordVec)<500){
   lapply(HeadwordVec, function(x) {print(x);MakeQuartoFile(Word= x,
                            EntryData= readRDS(paste0("./MyDict/",dir("./MyDict")[str_detect(dir("./MyDict"),paste0("^Entry", MakeSafeForFilename(x), ".rds") )])),
                            TAB)})
