@@ -1,15 +1,45 @@
 {
+  "bases lexicais": {
+    "ElementName": ["bases lexicais"],
+    "Dataset": ["DictData"],
+    "Vars": ["lemma"],
+    "Text": ["%%%paste &emsp;\n\n"]
+  },
+  "LiLa Lemma Bank": {
+    "ElementName": ["LiLa Lemma Bank"],
+    "Dataset": ["DictData"],
+    "Vars": ["lila_uri", "upostag_pt", "fl_cat_pt", "gen_pt", "number_pt", "grade_pt", "wrList", "var_key"],
+    "Text": ["%%%paste \n<small> id: <\/small> <a href=' lila_uri ' target=\"_blank\"> lila_uri <\/a> <br>\n<small> classe: <\/small> upostag_pt gen_pt number_pt grade_pt <br>\n<small> paradigma: <\/small> fl_cat_pt <br>\n<small> outras grafias: <\/small> wrList <br>\n<small> variantes do lema: <\/small> var_key <br>\n"]
+  },
+  "PrinParLat": {
+    "ElementName": ["PrinParLat"],
+    "Dataset": ["LexicalData_lexidata_prinparlat.csv"],
+    "Vars": ["orth_form", "cell_pt"],
+    "Text": ["%%%paste <b> orth_form <\/b>&emsp;<small> cell_pt <\/small><br>\n"]
+  },
+  "Lexicala": {
+    "ElementName": ["Lexicala"],
+    "Dataset": ["LexicalData_lexidata_phonetics.csv"],
+    "Vars": ["wr", "phon"],
+    "Text": ["%%%paste <b> phon <\/b> <br />"]
+  },
+  "WordNet": {
+    "ElementName": ["WordNet"],
+    "Dataset": ["Plots_Tree"],
+    "Vars": ["Tree__xx102-97-99-105-111xx__sem_type_lexemes_pt.html"],
+    "Text": [""]
+  },
   "dicionários tradicionais": {
     "ElementName": ["dicionários tradicionais"],
     "Dataset": ["DictData"],
     "Vars": ["lemma"],
     "Text": ["%%%paste &emsp;"]
   },
-  "ErnestoFaria": {
-    "ElementName": ["ErnestoFaria"],
+  "Faria": {
+    "ElementName": ["Faria"],
     "Dataset": ["LexicalData_dictdata_fariaFullEntries.csv"],
     "Vars": ["fullEntry"],
-    "Text": ["%%%paste <p> fullEntry <br><br><br> <\/p>\n"]
+    "Text": ["%%%paste <p> fullEntry <br><br><br> <\/p>"]
   },
   "Saraiva": {
     "ElementName": ["Saraiva"],
@@ -34,36 +64,6 @@
     "Dataset": ["LexicalData_dictdata_cardosoFullEntries.csv"],
     "Vars": ["fullEntry"],
     "Text": ["%%%paste <p> fullEntry <br><br><br> <\/p>\n"]
-  },
-  "bases lexicais": {
-    "ElementName": ["bases lexicais"],
-    "Dataset": ["DictData"],
-    "Vars": ["lemma"],
-    "Text": ["%%%paste &emsp;\n\n"]
-  },
-  "LiLa Lemma Bank": {
-    "ElementName": ["LiLa Lemma Bank"],
-    "Dataset": ["DictData"],
-    "Vars": ["lila_uri", "upostag_pt", "fl_cat_pt", "gen_pt", "number_pt", "grade_pt", "wrList", "var_key"],
-    "Text": ["%%%paste \n<small> id: <\/small> <a href=' lila_uri ' target=\"_blank\"> lila_uri <\/a> <br>\n<small> classe: <\/small> upostag_pt gen_pt number_pt grade_pt <br>\n<small> paradigma: <\/small> fl_cat_pt <br>\n<small> outras grafias: <\/small> wrList <br>\n<small> variantes do lema: <\/small> var_key <br>\n"]
-  },
-  "PrinParLat": {
-    "ElementName": ["PrinParLat"],
-    "Dataset": ["LexicalData_lexidata_prinparlat.csv"],
-    "Vars": ["orth_form", "cell_pt"],
-    "Text": ["%%%paste <b> orth_form <\/b>&emsp;<small> cell_pt <\/small><br>\n"]
-  },
-  "Lexicala": {
-    "ElementName": ["Lexicala"],
-    "Dataset": ["LexicalData_lexidata_phonetics.csv"],
-    "Vars": ["phon"],
-    "Text": ["%%%paste <p> <b> phon <\/b> <\/p>\n"]
-  },
-  "WordNet": {
-    "ElementName": ["WordNet"],
-    "Dataset": ["Plots_Tree"],
-    "Vars": ["Tree__xx102-97-99-105-111xx__sem_type_lexemes_pt.html"],
-    "Text": [""]
   },
   "dados de corpus": {
     "ElementName": ["dados de corpus"],
@@ -129,6 +129,12 @@
     "ElementName": ["Frequência por século"],
     "Dataset": ["Plots_barchart"],
     "Vars": ["barchart__xx102-97-99-105-111xx__lemma_BY_period_Frequencies.png"],
+    "Text": [""]
+  },
+  "Diagrama de Zipf": {
+    "ElementName": ["Diagrama de Zipf"],
+    "Dataset": ["Plots_Curve"],
+    "Vars": ["Curve__xx104-97-98-101-111xx__Freq.png"],
     "Text": [""]
   }
 }
