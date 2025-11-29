@@ -1,0 +1,1564 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>eLatim v1.2.200 - 102&nbsp; multus</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./nam.html" rel="next">
+<link href="./mos.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet">
+<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
+
+
+</head>
+
+<body class="nav-sidebar floating fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">102</span>&nbsp; <span class="chapter-title">multus</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">eLatim v1.2.200</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Prefácio</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ab.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">ab</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./accipio.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">accipio</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ad.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">ad</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ago.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">ago</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./aliquis.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">aliquis</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./alius.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">alius</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./alter.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">alter</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./amicus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">amicus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./an.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">an</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./animus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">animus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./annus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">annus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./apud.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">apud</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./arma.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">arma</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./at.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">at</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./atque.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">atque</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./audio.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">audio</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./aut.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">aut</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./autem.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">autem</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bellum.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">bellum</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bene.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">bene</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bonum.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">bonum</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bonus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">bonus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Caesar.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Caesar</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./capio.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">capio</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./castra.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">castra</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./causa.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">causa</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ceterus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">ceterus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ciuis.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">ciuis</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ciuitas.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">ciuitas</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cognosco.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">cognosco</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./consilium.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">31</span>&nbsp; <span class="chapter-title">consilium</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./consul.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">32</span>&nbsp; <span class="chapter-title">consul</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./corpus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">33</span>&nbsp; <span class="chapter-title">corpus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./credo.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">34</span>&nbsp; <span class="chapter-title">credo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cum.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">35</span>&nbsp; <span class="chapter-title">cum</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cum2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">36</span>&nbsp; <span class="chapter-title">cum2</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./de.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">37</span>&nbsp; <span class="chapter-title">de</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./debeo.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">38</span>&nbsp; <span class="chapter-title">debeo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./deinde.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">deinde</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./deus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">40</span>&nbsp; <span class="chapter-title">deus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dico.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">41</span>&nbsp; <span class="chapter-title">dico</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dies.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">42</span>&nbsp; <span class="chapter-title">dies</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./do.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">43</span>&nbsp; <span class="chapter-title">do</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dominus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">44</span>&nbsp; <span class="chapter-title">dominus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./domus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">45</span>&nbsp; <span class="chapter-title">domus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dum.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">46</span>&nbsp; <span class="chapter-title">dum</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./duo.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">47</span>&nbsp; <span class="chapter-title">duo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ego.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">48</span>&nbsp; <span class="chapter-title">ego</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./enim.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">49</span>&nbsp; <span class="chapter-title">enim</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./eo.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">50</span>&nbsp; <span class="chapter-title">eo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ergo.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">51</span>&nbsp; <span class="chapter-title">ergo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./et.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">52</span>&nbsp; <span class="chapter-title">et</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./et2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">53</span>&nbsp; <span class="chapter-title">et2</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./etiam.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">54</span>&nbsp; <span class="chapter-title">etiam</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ex.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">55</span>&nbsp; <span class="chapter-title">ex</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./exercitus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">56</span>&nbsp; <span class="chapter-title">exercitus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./facio.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">57</span>&nbsp; <span class="chapter-title">facio</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fero.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">58</span>&nbsp; <span class="chapter-title">fero</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fides.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">59</span>&nbsp; <span class="chapter-title">fides</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./filius.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">60</span>&nbsp; <span class="chapter-title">filius</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fio.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">61</span>&nbsp; <span class="chapter-title">fio</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fortuna.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">62</span>&nbsp; <span class="chapter-title">fortuna</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./genus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">63</span>&nbsp; <span class="chapter-title">genus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./gero.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">64</span>&nbsp; <span class="chapter-title">gero</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./grauis.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">65</span>&nbsp; <span class="chapter-title">grauis</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./habeo.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">66</span>&nbsp; <span class="chapter-title">habeo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./hic.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">67</span>&nbsp; <span class="chapter-title">hic</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./hinc.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">68</span>&nbsp; <span class="chapter-title">hinc</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./homo.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">69</span>&nbsp; <span class="chapter-title">homo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./hostis.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">70</span>&nbsp; <span class="chapter-title">hostis</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./iam.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">71</span>&nbsp; <span class="chapter-title">iam</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./idem.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">72</span>&nbsp; <span class="chapter-title">idem</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./igitur.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">73</span>&nbsp; <span class="chapter-title">igitur</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ille.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">74</span>&nbsp; <span class="chapter-title">ille</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./imperium.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">75</span>&nbsp; <span class="chapter-title">imperium</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./in.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">76</span>&nbsp; <span class="chapter-title">in</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./inquam.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">77</span>&nbsp; <span class="chapter-title">inquam</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./inter.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">78</span>&nbsp; <span class="chapter-title">inter</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ipse.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">79</span>&nbsp; <span class="chapter-title">ipse</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./is.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">80</span>&nbsp; <span class="chapter-title">is</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./iste.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">81</span>&nbsp; <span class="chapter-title">iste</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ita.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">82</span>&nbsp; <span class="chapter-title">ita</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./itaque.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">83</span>&nbsp; <span class="chapter-title">itaque</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./iubeo.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">84</span>&nbsp; <span class="chapter-title">iubeo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./iudex.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">85</span>&nbsp; <span class="chapter-title">iudex</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./iudicium.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">86</span>&nbsp; <span class="chapter-title">iudicium</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ius.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">87</span>&nbsp; <span class="chapter-title">ius</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./legio.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">88</span>&nbsp; <span class="chapter-title">legio</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lex.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">89</span>&nbsp; <span class="chapter-title">lex</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./licet.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">90</span>&nbsp; <span class="chapter-title">licet</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./locus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">91</span>&nbsp; <span class="chapter-title">locus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./magis.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">92</span>&nbsp; <span class="chapter-title">magis</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./magnus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">93</span>&nbsp; <span class="chapter-title">magnus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./manus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">94</span>&nbsp; <span class="chapter-title">manus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./meus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">95</span>&nbsp; <span class="chapter-title">meus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./miles.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">96</span>&nbsp; <span class="chapter-title">miles</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./mitto.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">97</span>&nbsp; <span class="chapter-title">mitto</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./modo.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">98</span>&nbsp; <span class="chapter-title">modo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./modus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">99</span>&nbsp; <span class="chapter-title">modus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./mors.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">100</span>&nbsp; <span class="chapter-title">mors</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./mos.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">101</span>&nbsp; <span class="chapter-title">mos</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./multus.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">102</span>&nbsp; <span class="chapter-title">multus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./nam.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">103</span>&nbsp; <span class="chapter-title">nam</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./natura.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">104</span>&nbsp; <span class="chapter-title">natura</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ne.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">105</span>&nbsp; <span class="chapter-title">ne</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ne3.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">106</span>&nbsp; <span class="chapter-title">ne3</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./nec.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">107</span>&nbsp; <span class="chapter-title">nec</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./nemo.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">108</span>&nbsp; <span class="chapter-title">nemo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./neque.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">109</span>&nbsp; <span class="chapter-title">neque</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./nihil.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">110</span>&nbsp; <span class="chapter-title">nihil</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./nisi.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">111</span>&nbsp; <span class="chapter-title">nisi</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./nomen.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">112</span>&nbsp; <span class="chapter-title">nomen</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./non.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">113</span>&nbsp; <span class="chapter-title">non</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./nos.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">114</span>&nbsp; <span class="chapter-title">nos</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./noster.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">115</span>&nbsp; <span class="chapter-title">noster</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./nouus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">116</span>&nbsp; <span class="chapter-title">nouus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./nullus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">117</span>&nbsp; <span class="chapter-title">nullus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./nunc.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">118</span>&nbsp; <span class="chapter-title">nunc</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./omnis.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">119</span>&nbsp; <span class="chapter-title">omnis</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./pars.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">120</span>&nbsp; <span class="chapter-title">pars</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./parum.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">121</span>&nbsp; <span class="chapter-title">parum</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./paruus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">122</span>&nbsp; <span class="chapter-title">paruus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./pater.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">123</span>&nbsp; <span class="chapter-title">pater</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./pecunia.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">124</span>&nbsp; <span class="chapter-title">pecunia</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./per.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">125</span>&nbsp; <span class="chapter-title">per</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./periculum.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">126</span>&nbsp; <span class="chapter-title">periculum</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./peto.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">127</span>&nbsp; <span class="chapter-title">peto</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./pono.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">128</span>&nbsp; <span class="chapter-title">pono</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./populus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">129</span>&nbsp; <span class="chapter-title">populus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./possum.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">130</span>&nbsp; <span class="chapter-title">possum</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./primum.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">131</span>&nbsp; <span class="chapter-title">primum</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./primus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">132</span>&nbsp; <span class="chapter-title">primus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./pro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">133</span>&nbsp; <span class="chapter-title">pro</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./publicus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">134</span>&nbsp; <span class="chapter-title">publicus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./puto.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">135</span>&nbsp; <span class="chapter-title">puto</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./qua.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">136</span>&nbsp; <span class="chapter-title">qua</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./qua2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">137</span>&nbsp; <span class="chapter-title">qua2</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./quaero.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">138</span>&nbsp; <span class="chapter-title">quaero</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./quantus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">139</span>&nbsp; <span class="chapter-title">quantus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./que.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">140</span>&nbsp; <span class="chapter-title">que</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./qui.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">141</span>&nbsp; <span class="chapter-title">qui</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./quia.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">142</span>&nbsp; <span class="chapter-title">quia</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./quidam.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">143</span>&nbsp; <span class="chapter-title">quidam</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./quidem.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">144</span>&nbsp; <span class="chapter-title">quidem</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./quis.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">145</span>&nbsp; <span class="chapter-title">quis</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./quisquam.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">146</span>&nbsp; <span class="chapter-title">quisquam</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./quisque.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">147</span>&nbsp; <span class="chapter-title">quisque</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./quod.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">148</span>&nbsp; <span class="chapter-title">quod</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ratio.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">149</span>&nbsp; <span class="chapter-title">ratio</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./refero.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">150</span>&nbsp; <span class="chapter-title">refero</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./relinquo.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">151</span>&nbsp; <span class="chapter-title">relinquo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./res.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">152</span>&nbsp; <span class="chapter-title">res</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./rex.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">153</span>&nbsp; <span class="chapter-title">rex</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./romanus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">154</span>&nbsp; <span class="chapter-title">romanus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./saepe.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">155</span>&nbsp; <span class="chapter-title">saepe</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./scio.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">156</span>&nbsp; <span class="chapter-title">scio</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./scribo.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">157</span>&nbsp; <span class="chapter-title">scribo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sed.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">158</span>&nbsp; <span class="chapter-title">sed</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./semper.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">159</span>&nbsp; <span class="chapter-title">semper</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./senatus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">160</span>&nbsp; <span class="chapter-title">senatus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sequor.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">161</span>&nbsp; <span class="chapter-title">sequor</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./si.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">162</span>&nbsp; <span class="chapter-title">si</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sic.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">163</span>&nbsp; <span class="chapter-title">sic</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sine.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">164</span>&nbsp; <span class="chapter-title">sine</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sui.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">165</span>&nbsp; <span class="chapter-title">sui</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sum.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">166</span>&nbsp; <span class="chapter-title">sum</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./super.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">167</span>&nbsp; <span class="chapter-title">super</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./suus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">168</span>&nbsp; <span class="chapter-title">suus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tam.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">169</span>&nbsp; <span class="chapter-title">tam</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tamen.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">170</span>&nbsp; <span class="chapter-title">tamen</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tantus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">171</span>&nbsp; <span class="chapter-title">tantus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tempus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">172</span>&nbsp; <span class="chapter-title">tempus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./teneo.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">173</span>&nbsp; <span class="chapter-title">teneo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./terra.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">174</span>&nbsp; <span class="chapter-title">terra</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./totus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">175</span>&nbsp; <span class="chapter-title">totus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tu.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">176</span>&nbsp; <span class="chapter-title">tu</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tum.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">177</span>&nbsp; <span class="chapter-title">tum</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tuus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">178</span>&nbsp; <span class="chapter-title">tuus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ubi.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">179</span>&nbsp; <span class="chapter-title">ubi</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uel.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">180</span>&nbsp; <span class="chapter-title">uel</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uenio.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">181</span>&nbsp; <span class="chapter-title">uenio</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uerbum.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">182</span>&nbsp; <span class="chapter-title">uerbum</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uero.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">183</span>&nbsp; <span class="chapter-title">uero</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uerus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">184</span>&nbsp; <span class="chapter-title">uerus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uester.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">185</span>&nbsp; <span class="chapter-title">uester</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uideo.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">186</span>&nbsp; <span class="chapter-title">uideo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uinco.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">187</span>&nbsp; <span class="chapter-title">uinco</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uir.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">188</span>&nbsp; <span class="chapter-title">uir</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uirtus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">189</span>&nbsp; <span class="chapter-title">uirtus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uis.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">190</span>&nbsp; <span class="chapter-title">uis</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uita.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">191</span>&nbsp; <span class="chapter-title">uita</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uiuo.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">192</span>&nbsp; <span class="chapter-title">uiuo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ullus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">193</span>&nbsp; <span class="chapter-title">ullus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./unus.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">194</span>&nbsp; <span class="chapter-title">unus</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uoco.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">195</span>&nbsp; <span class="chapter-title">uoco</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uolo.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">196</span>&nbsp; <span class="chapter-title">uolo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uos.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">197</span>&nbsp; <span class="chapter-title">uos</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./uox.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">198</span>&nbsp; <span class="chapter-title">uox</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./urbs.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">199</span>&nbsp; <span class="chapter-title">urbs</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ut.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">200</span>&nbsp; <span class="chapter-title">ut</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ut2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">201</span>&nbsp; <span class="chapter-title">ut2</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">102</span>&nbsp; <span class="chapter-title">multus</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="bases-lexicais" class="level4" data-number="102.0.0.1">
+<h4 data-number="102.0.0.1" class="anchored" data-anchor-id="bases-lexicais"><span class="header-section-number">102.0.0.1</span> bases lexicais</h4>
+<p> </p>
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">LiLa Lemma Bank</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">PrinParLat</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Lexicala</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">WordNet</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p><small> id: </small> <a href=" http://lila-erc.eu/data/id/lemma/112998 " target="_blank"> http://lila-erc.eu/data/id/lemma/112998 </a> <br> <small> classe: </small> determinante <br> <small> paradigma: </small> 1ª classe (tema em -a/o-) <br> <small> outras grafias: </small> <br> <small> variantes do lema: </small> <br></p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>no data</p>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<p>no data</p>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<p>no data</p>
+</div>
+</div>
+</div>
+</section>
+<section id="dicionários-tradicionais" class="level4" data-number="102.0.0.2">
+<h4 data-number="102.0.0.2" class="anchored" data-anchor-id="dicionários-tradicionais"><span class="header-section-number">102.0.0.2</span> dicionários tradicionais</h4>
+<p> </p>
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Faria</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Saraiva</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">Fonseca</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-4" role="tab" aria-controls="tabset-2-4" aria-selected="false">Velez</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-5" role="tab" aria-controls="tabset-2-5" aria-selected="false">Cardoso</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<b>multus</b> <b>-a</b> <b>-um</b> <br> <small>adj.</small> <br> <small></small>
+<p>
+<b>1</b>   <small>I-Sent. próprio</small>   Abundante, numeroso, em grande quantidade   <small>CíC. Verr. 5, 119.</small> <br> <b>2</b>   <small>I-Daí, o n.&nbsp;pl. ,-multa, usado, substantivamente</small>   Muitas coisas:   <small></small> <br> <b>3</b>   <small>I-Masculino tomado substant.:</small>   Muita gente, muitos, multidão   <small>Cíc. Br. 333.</small> <br> <b>4</b>   <small>II-Sent. poético sing.:</small>   Muitos, numerosos:   <small></small> <br> <b>5</b>   <small>III-Sents. diversos:</small>   Adiantado, que vai alto   <small>tratando-se do dia, da noite ou da manhã:</small> <br> <b>6</b>   <small>III-Sents. diversos:</small>   Que insiste muito em, que se demora muito em, importuno, obstinado   <small>Sal. B. Jug. 84, 1.</small> <br> <b>7</b>   <small>III-Sents. diversos:</small>   Que se encontra em muitos lugares, ativo   <small>Sal. B. Jug .. 96, 3.</small> <br> <b>8</b>   <small>III-Sents. diversos:</small>   Prolixo, abundante em palavras   <small>Cíc. Of. 2, 56.</small>
+</p>
+<p>
+<small>[EXEMPLOS]</small><br> <br><b>2</b><br>nimium multa Cíc. Fam. 4,14,3 “demasiadas coisas”. <br> <br><b>4</b><br>multa victima Verg. Buc. 1, 34 “numerosas vítimas”. <br> <br><b>5</b><br>multo die Cés. B. Gal. 1, 22, 4 “dia alto” Cés. B. Gal. 1, 26, 3.
+</p>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<p>no data</p>
+</div>
+<div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
+<b>Multus</b> -<b>a</b> -<b>um</b>
+<p>
+<b>1</b>   <small>Cic.</small>   muito, numeroso, em grande quantidade.
+</p>
+<p>
+<small>[EXEMPLOS]</small><br> <br><b>X</b><br>multus in opere   <small><small>Sall</small></small>   <small>Assiduo no trabalho</small> <br> nocte de multa   <small><small>Cic</small></small>   <small>Alta noite</small> <br> nocte multa   <small><small>Cic</small></small>   <small>Alta noite</small> <br> nomen tuum multum in his locis   <small><small>Cic</small></small>   <small>Falla-se muito de ti neste paiz</small>
+</p>
+</div>
+<div id="tabset-2-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-4-tab">
+<b>Multus</b> -<b>a</b> -<b>um</b>
+<p>
+<b>1</b>   cousa muita, ou mui grande
+</p>
+<p>
+<small>[EXEMPLOS]</small><br> <br><b>X</b><br>multa nox   <small>alta noite</small> <br> multus in aliquo, uel ad aliquid   <small><small>i, continuus</small></small>
+</p>
+</div>
+<div id="tabset-2-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-5-tab">
+<b>Multus</b> -<b>a</b> <b>um</b>
+<p>
+<b>1</b>   cousa muyta
+</p>
+</div>
+</div>
+</div>
+</section>
+<section id="dados-de-corpus" class="level4" data-number="102.0.0.3">
+<h4 data-number="102.0.0.3" class="anchored" data-anchor-id="dados-de-corpus"><span class="header-section-number">102.0.0.3</span> dados de corpus</h4>
+<p> </p>
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">Possíveis colocados</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">substantivos</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" role="tab" aria-controls="tabset-3-3" aria-selected="false">adjetivos</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-4" role="tab" aria-controls="tabset-3-4" aria-selected="false">verbos</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-5" role="tab" aria-controls="tabset-3-5" aria-selected="false">advérbios</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-6" role="tab" aria-controls="tabset-3-6" aria-selected="false">preposições e conjunções</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
+<div class="cell">
+<div class="cell-output-display">
+
+<div data-pagedtable="false">
+  <script data-pagedtable-source="" type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["collocate"],"name":[1],"type":["chr"],"align":["left"]},{"label":["pos"],"name":[2],"type":["chr"],"align":["left"]},{"label":["LogL"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["LR"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["MI"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["LogDice"],"name":[6],"type":["dbl"],"align":["right"]}],"data":[{"1":"qua","2":"advérbio","3":"126.3","4":"3.0","5":"2.5","6":"11.0","_rn_":"3272"},{"1":"tam","2":"advérbio","3":"30.2","4":"2.6","5":"2.3","6":"10.2","_rn_":"3273"},{"1":"de","2":"preposição","3":"18.7","4":"1.5","5":"1.6","6":"10.0","_rn_":"3274"},{"1":"saepe","2":"advérbio","3":"25.5","4":"3.0","5":"2.5","6":"10.0","_rn_":"3275"},{"1":"annus","2":"substantivo","3":"28.1","4":"3.4","5":"2.8","6":"10.0","_rn_":"3276"},{"1":"enim","2":"advérbio","3":"14.3","4":"1.6","5":"1.6","6":"9.9","_rn_":"3277"},{"1":"praeterea","2":"advérbio","3":"31.2","4":"4.2","5":"3.4","6":"9.8","_rn_":"3278"},{"1":"locus","2":"substantivo","3":"12.5","4":"1.9","5":"1.8","6":"9.8","_rn_":"3279"},{"1":"uerbum","2":"substantivo","3":"19.2","4":"3.0","5":"2.6","6":"9.7","_rn_":"3280"},{"1":"turba","2":"substantivo","3":"24.3","4":"3.9","5":"3.1","6":"9.7","_rn_":"3281"},{"1":"scribo","2":"verbo","3":"12.1","4":"2.1","5":"1.9","6":"9.7","_rn_":"3282"},{"1":"cum","2":"conj.subord.","3":"5.5","4":"0.7","5":"1.0","6":"9.7","_rn_":"3283"},{"1":"et","2":"conj.coord.","3":"5.4","4":"0.5","5":"0.8","6":"9.7","_rn_":"3284"},{"1":"etiam","2":"advérbio","3":"5.1","4":"1.1","5":"1.2","6":"9.6","_rn_":"3285"},{"1":"ita","2":"advérbio","3":"7.4","4":"1.5","5":"1.6","6":"9.6","_rn_":"3286"},{"1":"ciuitas","2":"substantivo","3":"10.2","4":"2.2","5":"2.0","6":"9.5","_rn_":"3287"},{"1":"iam","2":"advérbio","3":"5.4","4":"1.3","5":"1.4","6":"9.5","_rn_":"3288"},{"1":"nox","2":"substantivo","3":"13.5","4":"2.9","5":"2.5","6":"9.5","_rn_":"3289"},{"1":"alius","2":"determinante","3":"5.1","4":"1.3","5":"1.4","6":"9.5","_rn_":"3290"},{"1":"multo","2":"advérbio","3":"13.8","4":"3.3","5":"2.7","6":"9.4","_rn_":"3291"},{"1":"satis","2":"advérbio","3":"10.3","4":"2.7","5":"2.4","6":"9.3","_rn_":"3292"},{"1":"malum","2":"substantivo","3":"8.3","4":"2.4","5":"2.1","6":"9.3","_rn_":"3293"},{"1":"quia","2":"conj.subord.","3":"7.4","4":"2.2","5":"2.0","6":"9.3","_rn_":"3294"},{"1":"bonum","2":"substantivo","3":"6.7","4":"2.1","5":"1.9","6":"9.2","_rn_":"3295"},{"1":"prosum","2":"verbo","3":"11.4","4":"3.4","5":"2.8","6":"9.2","_rn_":"3296"},{"1":"fors","2":"advérbio","3":"6.2","4":"2.3","5":"2.1","6":"9.1","_rn_":"3297"},{"1":"labor","2":"substantivo","3":"6.0","4":"2.2","5":"2.0","6":"9.1","_rn_":"3298"},{"1":"inanis","2":"adjetivo","3":"10.8","4":"4.0","5":"3.2","6":"8.9","_rn_":"3299"},{"1":"praetereo","2":"verbo","3":"10.8","4":"4.0","5":"3.2","6":"8.9","_rn_":"3300"},{"1":"agito","2":"verbo","3":"10.6","4":"3.9","5":"3.2","6":"8.9","_rn_":"3301"},{"1":"mensis","2":"substantivo","3":"10.6","4":"3.9","5":"3.2","6":"8.9","_rn_":"6563"},{"1":"nimie","2":"advérbio","3":"10.6","4":"3.9","5":"3.2","6":"8.9","_rn_":"6564"},{"1":"quanto","2":"advérbio","3":"10.2","4":"3.8","5":"3.1","6":"8.9","_rn_":"6565"},{"1":"nimis","2":"advérbio","3":"8.9","4":"3.5","5":"2.9","6":"8.9","_rn_":"6566"},{"1":"memini","2":"verbo","3":"7.2","4":"3.0","5":"2.6","6":"8.9","_rn_":"6567"},{"1":"improbus","2":"adjetivo","3":"6.2","4":"2.7","5":"2.4","6":"8.9","_rn_":"6568"},{"1":"cupio","2":"verbo","3":"5.1","4":"2.4","5":"2.2","6":"8.8","_rn_":"6969"},{"1":"par","2":"adjetivo","3":"5.0","4":"2.4","5":"2.1","6":"8.8","_rn_":"6970"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+<p><img src="./Media/wordcloud__xx109-117-108-116-117-115xx__BY_collocate_scoreSUBST.webp" class="img-fluid" style="width:50.0%" alt="This chart plots collocate by scoreSUBST, for the headword multus here are all the values plotted: collocate: qua; scoreSUBST: 0. collocate: tam; scoreSUBST: 0. collocate: de; scoreSUBST: 0. collocate: saepe; scoreSUBST: 0. collocate: annus; scoreSUBST: 2. collocate: enim; scoreSUBST: 0. collocate: praeterea; scoreSUBST: 0. collocate: locus; scoreSUBST: 2. collocate: uerbum; scoreSUBST: 2. collocate: turba; scoreSUBST: 2. collocate: scribo; scoreSUBST: 0. collocate: cum; scoreSUBST: 0. collocate: et; scoreSUBST: 0. collocate: etiam; scoreSUBST: 0. collocate: ita; scoreSUBST: 0. collocate: ciuitas; scoreSUBST: 2. collocate: iam; scoreSUBST: 0. collocate: nox; scoreSUBST: 2. collocate: alius; scoreSUBST: 0. collocate: multo; scoreSUBST: 0. collocate: satis; scoreSUBST: 0. collocate: malum; scoreSUBST: 2. collocate: quia; scoreSUBST: 0. collocate: bonum; scoreSUBST: 2. collocate: prosum; scoreSUBST: 0. collocate: fors; scoreSUBST: 0. collocate: labor; scoreSUBST: 2. collocate: inanis; scoreSUBST: 0. collocate: praetereo; scoreSUBST: 0. collocate: agito; scoreSUBST: 0. collocate: mensis; scoreSUBST: 2. collocate: nimie; scoreSUBST: 0. collocate: quanto; scoreSUBST: 0. collocate: nimis; scoreSUBST: 0. collocate: memini; scoreSUBST: 0. collocate: improbus; scoreSUBST: 0. collocate: cupio; scoreSUBST: 0. collocate: par; scoreSUBST: 0"></p>
+</div>
+<div id="tabset-3-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-3-tab">
+<p><img src="./Media/wordcloud__xx109-117-108-116-117-115xx__BY_collocate_scoreADJ.webp" class="img-fluid" style="width:50.0%" alt="This chart plots collocate by scoreADJ, for the headword multus here are all the values plotted: collocate: qua; scoreADJ: 0. collocate: tam; scoreADJ: 0. collocate: de; scoreADJ: 0. collocate: saepe; scoreADJ: 0. collocate: annus; scoreADJ: 0. collocate: enim; scoreADJ: 0. collocate: praeterea; scoreADJ: 0. collocate: locus; scoreADJ: 0. collocate: uerbum; scoreADJ: 0. collocate: turba; scoreADJ: 0. collocate: scribo; scoreADJ: 0. collocate: cum; scoreADJ: 0. collocate: et; scoreADJ: 0. collocate: etiam; scoreADJ: 0. collocate: ita; scoreADJ: 0. collocate: ciuitas; scoreADJ: 0. collocate: iam; scoreADJ: 0. collocate: nox; scoreADJ: 0. collocate: alius; scoreADJ: 0. collocate: multo; scoreADJ: 0. collocate: satis; scoreADJ: 0. collocate: malum; scoreADJ: 0. collocate: quia; scoreADJ: 0. collocate: bonum; scoreADJ: 0. collocate: prosum; scoreADJ: 0. collocate: fors; scoreADJ: 0. collocate: labor; scoreADJ: 0. collocate: inanis; scoreADJ: 2. collocate: praetereo; scoreADJ: 0. collocate: agito; scoreADJ: 0. collocate: mensis; scoreADJ: 0. collocate: nimie; scoreADJ: 0. collocate: quanto; scoreADJ: 0. collocate: nimis; scoreADJ: 0. collocate: memini; scoreADJ: 0. collocate: improbus; scoreADJ: 2. collocate: cupio; scoreADJ: 0. collocate: par; scoreADJ: 1"></p>
+</div>
+<div id="tabset-3-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-4-tab">
+<p><img src="./Media/wordcloud__xx109-117-108-116-117-115xx__BY_collocate_scoreVERBO.webp" class="img-fluid" style="width:50.0%" alt="This chart plots collocate by scoreVERBO, for the headword multus here are all the values plotted: collocate: qua; scoreVERBO: 0. collocate: tam; scoreVERBO: 0. collocate: de; scoreVERBO: 0. collocate: saepe; scoreVERBO: 0. collocate: annus; scoreVERBO: 0. collocate: enim; scoreVERBO: 0. collocate: praeterea; scoreVERBO: 0. collocate: locus; scoreVERBO: 0. collocate: uerbum; scoreVERBO: 0. collocate: turba; scoreVERBO: 0. collocate: scribo; scoreVERBO: 2. collocate: cum; scoreVERBO: 0. collocate: et; scoreVERBO: 0. collocate: etiam; scoreVERBO: 0. collocate: ita; scoreVERBO: 0. collocate: ciuitas; scoreVERBO: 0. collocate: iam; scoreVERBO: 0. collocate: nox; scoreVERBO: 0. collocate: alius; scoreVERBO: 0. collocate: multo; scoreVERBO: 0. collocate: satis; scoreVERBO: 0. collocate: malum; scoreVERBO: 0. collocate: quia; scoreVERBO: 0. collocate: bonum; scoreVERBO: 0. collocate: prosum; scoreVERBO: 2. collocate: fors; scoreVERBO: 0. collocate: labor; scoreVERBO: 0. collocate: inanis; scoreVERBO: 0. collocate: praetereo; scoreVERBO: 2. collocate: agito; scoreVERBO: 2. collocate: mensis; scoreVERBO: 0. collocate: nimie; scoreVERBO: 0. collocate: quanto; scoreVERBO: 0. collocate: nimis; scoreVERBO: 0. collocate: memini; scoreVERBO: 2. collocate: improbus; scoreVERBO: 0. collocate: cupio; scoreVERBO: 1. collocate: par; scoreVERBO: 0"></p>
+</div>
+<div id="tabset-3-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-5-tab">
+<p><img src="./Media/wordcloud__xx109-117-108-116-117-115xx__BY_collocate_scoreADV.webp" class="img-fluid" style="width:50.0%" alt="This chart plots collocate by scoreADV, for the headword multus here are all the values plotted: collocate: qua; scoreADV: 4. collocate: tam; scoreADV: 2. collocate: de; scoreADV: 0. collocate: saepe; scoreADV: 2. collocate: annus; scoreADV: 0. collocate: enim; scoreADV: 2. collocate: praeterea; scoreADV: 2. collocate: locus; scoreADV: 0. collocate: uerbum; scoreADV: 0. collocate: turba; scoreADV: 0. collocate: scribo; scoreADV: 0. collocate: cum; scoreADV: 0. collocate: et; scoreADV: 0. collocate: etiam; scoreADV: 1. collocate: ita; scoreADV: 2. collocate: ciuitas; scoreADV: 0. collocate: iam; scoreADV: 1. collocate: nox; scoreADV: 0. collocate: alius; scoreADV: 0. collocate: multo; scoreADV: 2. collocate: satis; scoreADV: 2. collocate: malum; scoreADV: 0. collocate: quia; scoreADV: 0. collocate: bonum; scoreADV: 0. collocate: prosum; scoreADV: 0. collocate: fors; scoreADV: 2. collocate: labor; scoreADV: 0. collocate: inanis; scoreADV: 0. collocate: praetereo; scoreADV: 0. collocate: agito; scoreADV: 0. collocate: mensis; scoreADV: 0. collocate: nimie; scoreADV: 2. collocate: quanto; scoreADV: 2. collocate: nimis; scoreADV: 2. collocate: memini; scoreADV: 0. collocate: improbus; scoreADV: 0. collocate: cupio; scoreADV: 0. collocate: par; scoreADV: 0"></p>
+</div>
+<div id="tabset-3-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-6-tab">
+<p><img src="./Media/wordcloud__xx109-117-108-116-117-115xx__BY_collocate_scoreFUNC.webp" class="img-fluid" style="width:50.0%" alt="This chart plots collocate by scoreFUNC, for the headword multus here are all the values plotted: collocate: qua; scoreFUNC: 0. collocate: tam; scoreFUNC: 0. collocate: de; scoreFUNC: 20. collocate: saepe; scoreFUNC: 0. collocate: annus; scoreFUNC: 0. collocate: enim; scoreFUNC: 0. collocate: praeterea; scoreFUNC: 0. collocate: locus; scoreFUNC: 0. collocate: uerbum; scoreFUNC: 0. collocate: turba; scoreFUNC: 0. collocate: scribo; scoreFUNC: 0. collocate: cum; scoreFUNC: 10. collocate: et; scoreFUNC: 0. collocate: etiam; scoreFUNC: 0. collocate: ita; scoreFUNC: 0. collocate: ciuitas; scoreFUNC: 0. collocate: iam; scoreFUNC: 0. collocate: nox; scoreFUNC: 0. collocate: alius; scoreFUNC: 0. collocate: multo; scoreFUNC: 0. collocate: satis; scoreFUNC: 0. collocate: malum; scoreFUNC: 0. collocate: quia; scoreFUNC: 20. collocate: bonum; scoreFUNC: 0. collocate: prosum; scoreFUNC: 0. collocate: fors; scoreFUNC: 0. collocate: labor; scoreFUNC: 0. collocate: inanis; scoreFUNC: 0. collocate: praetereo; scoreFUNC: 0. collocate: agito; scoreFUNC: 0. collocate: mensis; scoreFUNC: 0. collocate: nimie; scoreFUNC: 0. collocate: quanto; scoreFUNC: 0. collocate: nimis; scoreFUNC: 0. collocate: memini; scoreFUNC: 0. collocate: improbus; scoreFUNC: 0. collocate: cupio; scoreFUNC: 0. collocate: par; scoreFUNC: 0"></p>
+</div>
+</div>
+</div>
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true">Frequência por autor</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-2" role="tab" aria-controls="tabset-4-2" aria-selected="false">Frequência por gênero</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-3" role="tab" aria-controls="tabset-4-3" aria-selected="false">Frequência por século</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-4" role="tab" aria-controls="tabset-4-4" aria-selected="false">ExemplosTraduzidos</a></li></ul>
+<div class="tab-content">
+<div id="tabset-4-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-4-1-tab">
+<p><img src="./Media/barchart__xx109-117-108-116-117-115xx__lemma_BY_author_Frequencies.webp" class="img-fluid" style="width:100.0%" alt="This charts plots the frequency of lemma by author_Frequencies. The Hieronymus subcorpus registers the highest normalized frequency, with the value of 65.15 and an absolute frequency of 29. The Horatius subcorpus follows, with a normalized frequency of 42.62 and an absolute frequency of 48. the subcorpus with the least normalized frequency is Ovidius with the normalized value of 6.86 and an absolute freqeuncy of 4. here are all the values: subcorpus: Caesar ; normalized frequency: 58 ; absolute frequency: 21.9049777173503. subcorpus: Cicero ; normalized frequency: 529 ; absolute frequency: 32.9545737709003. subcorpus: Horatius ; normalized frequency: 48 ; absolute frequency: 42.6249888997425. subcorpus: Ovidius ; normalized frequency: 4 ; absolute frequency: 6.86341798215511. subcorpus: Phaedrus ; normalized frequency: 16 ; absolute frequency: 24.2902687110976. subcorpus: Sallustius ; normalized frequency: 45 ; absolute frequency: 41.7400983211205. subcorpus: Seneca ; normalized frequency: 185 ; absolute frequency: 34.5271644799463. subcorpus: Suetonius ; normalized frequency: 2 ; absolute frequency: 22.0507166482911. subcorpus: Tacitus ; normalized frequency: 11 ; absolute frequency: 37.7617576381737. subcorpus: Vergilius ; normalized frequency: 14 ; absolute frequency: 27.027027027027. subcorpus: Hieronymus ; normalized frequency: 29 ; absolute frequency: 65.1538980004493"></p>
+</div>
+<div id="tabset-4-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-2-tab">
+<p><img src="./Media/barchart__xx109-117-108-116-117-115xx__lemma_BY_genre_Frequencies.webp" class="img-fluid" style="width:100.0%" alt="This charts plots the frequency of lemma by genre_Frequencies. The Prosa.ficcional subcorpus registers the highest normalized frequency, with the value of 65.15 and an absolute frequency of 29. The Prosa.filosófica subcorpus follows, with a normalized frequency of 43 and an absolute frequency of 261. the subcorpus with the least normalized frequency is Poesia.trágica with the normalized value of 7.82 and an absolute freqeuncy of 9. here are all the values: subcorpus: Prosa.histórica ; normalized frequency: 116 ; absolute frequency: 28.2382725967039. subcorpus: Prosa.filosófica ; normalized frequency: 261 ; absolute frequency: 42.9976441903758. subcorpus: Prosa.oratória ; normalized frequency: 336 ; absolute frequency: 32.2602325425096. subcorpus: Prosa.epistolográfica ; normalized frequency: 108 ; absolute frequency: 28.6176104295291. subcorpus: Poesia.lírica ; normalized frequency: 48 ; absolute frequency: 40.3802473290149. subcorpus: Poesia.didática ; normalized frequency: 20 ; absolute frequency: 16.9649673424379. subcorpus: Poesia.trágica ; normalized frequency: 9 ; absolute frequency: 7.81792911744267. subcorpus: Poesia.épica ; normalized frequency: 14 ; absolute frequency: 27.027027027027. subcorpus: Prosa.ficcional ; normalized frequency: 29 ; absolute frequency: 65.1538980004493"></p>
+</div>
+<div id="tabset-4-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-3-tab">
+<p><img src="./Media/barchart__xx109-117-108-116-117-115xx__lemma_BY_period_Frequencies.webp" class="img-fluid" style="width:100.0%" alt="This charts plots the frequency of lemma by period_Frequencies. The IV.d.C. subcorpus registers the highest normalized frequency, with the value of 65.15 and an absolute frequency of 29. The II.d.C. subcorpus follows, with a normalized frequency of 34.03 and an absolute frequency of 13. the subcorpus with the least normalized frequency is I.d.C. with the normalized value of 31.36 and an absolute freqeuncy of 205. here are all the values: subcorpus: I.a.C. ; normalized frequency: 694 ; absolute frequency: 32.3016057714685. subcorpus: I.d.C. ; normalized frequency: 205 ; absolute frequency: 31.3599510478813. subcorpus: II.d.C. ; normalized frequency: 13 ; absolute frequency: 34.0314136125654. subcorpus: IV.d.C. ; normalized frequency: 29 ; absolute frequency: 65.1538980004493"></p>
+</div>
+<div id="tabset-4-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-4-tab">
+<p>
+<b>plura</b> scribere non possum <br> <small> Cic.Att.3.2 <br> Não posso escrever mais. <small> [JDD] </small> </small>
+</p>
+<p>
+satis <b>multa</b> de turpitudine <br> <small> Cic.Phil.7.16.1 <br> [Já disse] suficientemente muitas coisas sobre a vergonha. <small> [JDD] </small> </small>
+</p>
+<p>
+<b>plus</b> accusatori dabatur quam postulabat <br> <small> Cic.Att.1.16.4 <br> ao acusador era concedido mais do que ele pedia. <small> [JDD] </small> </small>
+</p>
+<p>
+sed <b>pluris</b> etiam ipse mittito <br> <small> Cic.Att.1.16.17 <br> mas me manda mais tu também. <small> [JDD] </small> </small>
+</p>
+<p>
+et <b>multa</b> fortasse quae uolt <br> <small> Cic.Sen.25 <br> E talvez muitas coisas que quer! <small> [JDD] </small> </small>
+</p>
+<p>
+qui multum habet <b>plus</b> cupit <br> <small> Sen.Ep.119.6 <br> Quem tem muito, deseja mais. <small> [JDD] </small> </small>
+</p>
+<p>
+Successus improborum <b>plures</b> allicit . <br> <small> Phaed.2.3 <br> O êxito dos maus alicia a muitos. <small> [JDD, de outra edição] </small> </small>
+</p>
+<p>
+scis quam <b>multa</b> mala blanda sint <br> <small> Sen.Ep.118.8 <br> Tu sabes quão numerosos males são sedutores. <small> [JDD] </small> </small>
+</p>
+<p>
+quanto <b>plus</b> tenebrarum in animo est <br> <small> Sen.Ep.122.4 <br> quão maiores trevas há em seu espírito! <small> [JDD] </small> </small>
+</p>
+<p>
+<b>multi</b> bona comedunt <b>multi</b> amicas habent <br> <small> Sen.Ep.122.14 <br> Muitos comem seus bens, muitos têm amantes. <small> [JDD] </small> </small>
+</p>
+<p>
+et exiens vidit <b>multam</b> turbam Iesus <br> <small> Vulg.Marc.6.34 <br> E, ao sair, viu Jesus a multidão <small> [JDD] </small> </small>
+</p>
+<p>
+et alia similia his facitis <b>multa</b> <br> <small> Vulg.Marc.7.8 <br> e fazeis muitas outras coisas semelhantes a estas. <small> [JDD] </small> </small>
+</p>
+<p>
+<b>multa</b> sunt sed in aliud tempus <br> <small> Cic.Att.1.17.11 <br> São muitas coisas, mas ficam para uma outra ocasião. <small> [JDD] </small> </small>
+</p>
+<p>
+iam dudum pudet tam <b>multa</b> scribere <br> <small> Cic.Att.3.23.4 <br> Já faz tempo que sinto vergonha de escrever tanto. <small> [JDD] </small> </small>
+</p>
+<p>
+nam etiam malo <b>multi</b> digni sicut ipse <br> <small> Cic.Phil.3.22.2 <br> Pois há também muitos dignos de castigo, como ele próprio. <small> [JDD] </small> </small>
+</p>
+<p>
+quorsum igitur haec tam <b>multa</b> de Maximo <br> <small> Cic.Sen.13 <br> Mas para que falo estas tão numerosas coisas sobre Máximo? <small> [JDD] </small> </small>
+</p>
+<p>
+sed de re publica non libet <b>plura</b> scribere <br> <small> Cic.Att.2.18.3 <br> Mas não tenho mais vontade de escrever sobre a república. <small> [JDD] </small> </small>
+</p>
+<p>
+hoc animadversum Graecorum laude et <b>multo</b> sermone celebratur <br> <small> Cic.Att.5.10.2 <br> Isso foi observado com louvor dos gregos e é comentado em muita conversa. <small> [JDD] </small> </small>
+</p>
+<p>
+accedit eodem etiam noster Hortensius <b>multi</b> praeterea boni <br> <small> Cic.Att.1.14.5 <br> a esse mesmo local aproximou-se também o nosso querido Hortêncio, além de muitos homens de bem. <small> [JDD] </small> </small>
+</p>
+<p>
+quanto autem eis praecipiebat tanto magis <b>plus</b> praedicabant <br> <small> Vulg.Marc.7.36 <br> Porém, quanto mais ele ordenava, tanto mais eles divulgavam. <small> [JDD] </small> </small>
+</p>
+<p>
+<b>multi</b> fuerunt <b>multis</b> in legionibus per tot annos <br> <small> Cic.Phil.6.14.3 <br> Muitos estiveram em muitas legiões por tantos anos. <small> [JDD] </small> </small>
+</p>
+<p>
+ita est Lucili paucos seruitus <b>plures</b> seruitutem tenent <br> <small> Sen.Ep.22.11 <br> Assim é, Lucílio: a servidão retém a poucos, muitos retêm a servidão. <small> [JDD] </small> </small>
+</p>
+<p>
+sunt alii <b>plures</b> fortasse sed mea memoria dilabuntur <br> <small> Cic.Phil.13.11.9 <br> Há outros muitos talvez, mas escapam de minha memória. <small> [JDD] </small> </small>
+</p>
+<p>
+id adeo malum <b>multos</b> post annos in ciuitatem reuorterat <br> <small> Sal.Cat.37.11 <br> De tal modo esse mal, depois de muitos anos, tinha retornado à cidade. <small> [JDD] </small> </small>
+</p>
+<p>
+in oppidis enim summum video timorem sed <b>multa</b> inania <br> <small> Cic.Att.5.3.1 <br> pois vejo nas cidades um enorme temor, mas muitas coisas vagas. <small> [JDD] </small> </small>
+</p>
+<p>
+<b>multos</b> enim eius praeclaros de re publica sermones accipiam <br> <small> Cic.Att.5.6.1 <br> pois ouvirei muitas falas brilhantes dele sobre a república. <small> [JDD] </small> </small>
+</p>
+<p>
+incredibile est autem quam <b>multa</b> et quam praeclara fuerint <br> <small> Cic.Ver.2.4.46.9 <br> Além do mais, é incrível quão numerosos e quão magníficos eram. <small> [JDD] </small> </small>
+</p>
+<p>
+est enim commune cum <b>multis</b> et cum quibusdam bonis <br> <small> Cic.Cael.14 <br> Pois ela é comum a muitos e a alguns bons. <small> [JDD] </small> </small>
+</p>
+<p>
+satis <b>multum</b> temporis sparsimus incipiamus uasa in senectute colligere <br> <small> Sen.Ep.19.1 <br> Desperdiçamos muito tempo demais: começamos a arrumar as bagagens na velhice. <small> [JDD] </small> </small>
+</p>
+<p>
+hos cupit habere quam <b>plurimos</b> non ut beate uiuat <br> <small> Sen.Ep.9.15 <br> deseja tê-los no maior número possível, não para viver feliz. <small> [JDD] </small> </small>
+</p>
+<p>
+de quo tamen audisti <b>multa</b> ex me eaque saepissime <br> <small> Cic.Phil.1.34.3 <br> E dele, no entanto, ouviste de mim muitas coisas e com muita frequência. <small> [JDD] </small> </small>
+</p>
+<p>
+quanto ille <b>plura</b> miscebat tanto hic magis in dies conualescebat <br> <small> Cic.Mil.25 <br> Quanto mais coisas ele [Clódio] agitava, mais este [Milão] se fortalecia a cada dia. <small> [JDD] </small> </small>
+</p>
+<p>
+aliud vero cecidit super petrosa ubi non habuit terram <b>multam</b> <br> <small> Vulg.Marc.4.5 <br> Outra parte, porém, caiu sobre o solo rochoso, onde não tinha muita terra. <small> [JDD] </small> </small>
+</p>
+<p>
+<b>plures</b> fefellit error ancipitis uiae paucos fidelis curribus iunxit labor <br> <small> Sen.Oed.778 <br> A muitos a confusão da estrada trifurcada enganou, o zelo fiel manteve poucos unidos à carruagem. <small> [JDD] </small> </small>
+</p>
+<p>
+quam <b>multis</b> istum putatis hominibus honestis de digitis anulos abstulisse <br> <small> Cic.Ver.2.4.57.11 <br> De quantos homens honrados julgais que esse sujeito tirou dos dedos os anéis? <small> [JDD] </small> </small>
+</p>
+<p>
+et cum iam hora <b>multa</b> fieret accesserunt discipuli eius dicentes <br> <small> Vulg.Marc.6.35 <br> E como já tinham transcorrido muitas horas, seus discípulos se aproximaram, dizendo. <small> [JDD] </small> </small>
+</p>
+<p>
+nimium <b>multa</b> de re minime dubia loquor hoc tamen dico <br> <small> Cic.Cael.15 <br> Falo demasiadamente muitas coisas sobre um assunto nem um pouco duvidoso; contudo, isto eu digo. <small> [JDD] </small> </small>
+</p>
+<p>
+et talibus <b>multis</b> parabolis loquebatur eis verbum prout poterant audire <br> <small> Vulg.Marc.4.33 <br> E com essas muitas parábolas, falava-lhes a palavra até o ponto em que podiam ouvir. <small> [JDD] </small> </small>
+</p>
+<p>
+quam <b>multa</b> autem paramus quia alii parauerunt quia aput plerosque sunt <br> <small> Sen.Ep.123.6 <br> Por outro lado, quão numerosas coisas nós adquirimos porque outros adquiriram, porque há na casa da maioria! <small> [JDD] </small> </small>
+</p>
+<p>
+uirtute enim ipsa non tam <b>multi</b> praediti esse quam uideri uolunt <br> <small> Cic.Amici.98 <br> Pois muitos querem não tanto estar dotados da própria virtude quanto parecê-lo. <small> [JDD] </small> </small>
+</p>
+<p>
+at dixi fluere hunc lutulentum saepe ferentem <b>plura</b> quidem tollenda relinquendis <br> <small> Hor.S.1.10.50 <br> Mas eu disse que ele flui como um rio lamacento, levando, na verdade, frequentemente mais coisas que devem ser tiradas do que deixadas. <small> [JDD] </small> </small>
+</p>
+<p>
+o magnum hominem et unde multo <b>plura</b> didiceris quam de Procilio <br> <small> Cic.Att.2.2.2 <br> Grande homem, e de onde aprendes muito mais do que de Procílio. <small> [JDD] </small> </small>
+</p>
+<p>
+itaque sub quisque horum loco sententiam rogatus <b>multa</b> secundum causam nostram disputavit <br> <small> Cic.Att.4.2.4 <br> E assim, cada um deles, solicitados em sua vez a dar o parecer, fez muitas alegações favoráveis à minha causa. <small> [JDD, de outra edição] </small> </small>
+</p>
+<p>
+sed iam satis <b>multa</b> de causa extra causam etiam nimis fortasse <b>multa</b> <br> <small> Cic.Mil.92 <br> Mas já foram ditas suficientemente muitas coisas acerca da causa e talvez fora da causa até numerosas demais. <small> [JDD] </small> </small>
+</p>
+<p>
+itaque non aqua non igni ut aiunt locis <b>pluribus</b> utimur quam amicitia <br> <small> Cic.Amici.22 <br> e assim nem da água, nem do fogo, como dizem, nós nos servimos em mais lugares do que da amizade. <small> [JDD] </small> </small>
+</p>
+<p>
+<b>multa</b> praetereo eaque praeclara ad singulare enim M. Antoni factum festinat oratio <br> <small> Cic.Phil.1.3.5 <br> Omito muitas outras coisas, todas elas bem conhecidas; pois meu discurso se apressa para um feito de Marco Antônio de singular importância. <small> [JDD, de outra edição] </small> </small>
+</p>
+<p>
+quid iurisconsulti quid pontifices quid augures quid philosophi senes quam <b>multa</b> meminerunt <br> <small> Cic.Sen.22 <br> E os jurisconsulto, e os pontífices, e os áugures, e os filósofos, sendo velhos, de quão numerosas coisas se lembram! <small> [JDD, de outra edição] </small> </small>
+</p>
+<p>
+magna laus et grata hominibus unum hominem elaborare in ea scientia quae sit <b>multis</b> profutura <br> <small> Cic.Mur.19 <br> Grande mérito e grato aos homens que um único homem trabalhe nesse conhecimento que será útil para muitos. <small> [JDD] </small> </small>
+</p>
+<p>
+nec in hoc te accerso tantum ut proficias sed ut prosis <b>plurimum</b> enim alter alteri conferemus <br> <small> Sen.Ep.6.6 <br> E neste caso não te chamo apenas para que aproveites, mas para que possas ser útil; pois muitos préstimos concederemos um para o outro. <small> [JDD] </small> </small>
+</p>
+<p>
+itinere confectus incommodo magis quam longo in Albanum meum <b>multa</b> nocte perueni nihil habeo parati nisi me <br> <small> Sen.Ep.123.1 <br> Esgotado por uma viagem mais desconfortável que longa, cheguei tarde da noite em minha chácara de Alba: não tenho nada preparado a não ser a mim mesmo. <small> [JDD] </small> </small>
+</p>
+</div>
+</div>
+</div>
+</section>
+<section id="diagrama-de-zipf" class="level4" data-number="102.0.0.4">
+<h4 data-number="102.0.0.4" class="anchored" data-anchor-id="diagrama-de-zipf"><span class="header-section-number">102.0.0.4</span> Diagrama de Zipf</h4>
+<p><img src="./Media/Curve__xx109-117-108-116-117-115xx__Freq.webp" class="img-fluid" style="width:100.0%" alt="this chart shows that the frequency of multus is 941 or, 32.62 per 10000 words. By frequency, multus ranks 39th out of 11113"></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./mos.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">101</span>&nbsp; <span class="chapter-title">mos</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./nam.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">103</span>&nbsp; <span class="chapter-title">nam</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>
